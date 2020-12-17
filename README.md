@@ -1,4 +1,4 @@
-# JSON Archiv
+# Defi Archiv
 
 Sammlung von JSON Files für die Defikarte.ch und deren Partner die in Zukunft Daten beziehen möchten.
 Die Daten können hier bezogen werden: [`data` Verzeichnis](https://github.com/chnuessli/defi_archive/tree/main/data)
