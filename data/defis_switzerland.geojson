@@ -56050,6 +56050,7 @@
     "description": "Vorplatz Toilette (via 1.OG)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Rathaus Stadt Luzern",
     "id": "node/7637818755"
   },
@@ -86206,6 +86207,96 @@
     "coordinates": [
       8.4558258,
       47.391226
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8236802895",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Eingang Kantine links / Gebäude",
+    "description": "nur begrenzt verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Generalstabsschule",
+    "id": "node/8236802895"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2933394,
+      47.033034
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8236805998",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Eingang zum Kurslokal des Samaritervereins Lägern Wettingen. Beim Kindergarten Altenburg.",
+    "description": "Der Defibrillator wird vom Samariterverein Lägern Wettingen zur Verfügung gestellt und ist rund um die Uhr zugänglich.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Samariterverein Lägern Wettingen",
+    "phone": "056 426 33 26",
+    "id": "node/8236805998"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3170067,
+      47.4646413
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8236879420",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rechts neben der Haupteingangstüre",
+    "description": "24h öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Politische Gemeinde Homburg (Ressort Sicherheit)",
+    "phone": "058 346 13 56",
+    "id": "node/8236879420"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0051463,
+      47.6344054
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8236884867",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Links aussen,  wenn man vor der Ladentüre steht.",
+    "description": "24h öffentlich verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Politische Gemeinde Homburg (Ressort Sicherheit)",
+    "phone": "058 346 1 356",
+    "id": "node/8236884867"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9678568,
+      47.6314832
     ]
   }
 }

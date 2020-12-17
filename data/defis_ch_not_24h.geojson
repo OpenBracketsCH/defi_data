@@ -31148,6 +31148,7 @@
     "description": "Vorplatz Toilette (via 1.OG)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Rathaus Stadt Luzern",
     "id": "node/7637818755"
   },
@@ -52319,6 +52320,27 @@
     "coordinates": [
       8.5304761,
       47.3753553
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8236802895",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Eingang Kantine links / Gebäude",
+    "description": "nur begrenzt verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Generalstabsschule",
+    "id": "node/8236802895"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2933394,
+      47.033034
     ]
   }
 }
