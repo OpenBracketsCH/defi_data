@@ -20,7 +20,7 @@ try:
 
     query = "".join(sys.stdin.readlines())
     r = requests.get(API_ENDPOINT, params={'data': query})
-    print(json.dumps(r.json(), sort_keys=True, indent=2))
+    print(json.dumps(r.json() == {}, sort_keys=True, indent=2))
 except Exception as e:
     print("Error: %s" % e, file=sys.stderr)
     print(traceback.format_exc(), file=sys.stderr)
