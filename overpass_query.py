@@ -20,6 +20,8 @@ try:
 
     query = "".join(sys.stdin.readlines())
     r = requests.get(API_ENDPOINT, params={'data': query})
+    if r.headers.get('content-type') == 'application/json':
+    if r.json() == {}:
     print(json.dumps(r.json(), sort_keys=True, indent=2))
 except Exception as e:
     print("Error: %s" % e, file=sys.stderr)
