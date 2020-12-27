@@ -4931,17 +4931,21 @@
   "type": "Feature",
   "id": "node/5028826022",
   "properties": {
-    "access": "public",
+    "access": "yes",
+    "defibrillator:location": "gleich neben dem Eingang der Tankstelle",
+    "description": "24h öffentlich zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "SOCAR",
     "id": "node/5028826022"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7857463,
-      47.3653106
+      8.7857176,
+      47.3652665
     ]
   }
 },
