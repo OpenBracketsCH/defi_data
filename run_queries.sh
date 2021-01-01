@@ -167,6 +167,18 @@ cat $DIR/queries/defis_kt_bl.txt | python $DIR/overpass_query.py | osmtogeojson 
 echo -ne "\t\t - Done.\r"
 echo ""
 
+# Defibrillatoren Kanton Neuenburg
+echo -ne "Query Defibrillatoren Neuenburg...           "
+cat $DIR/queries/defis_kt_ne.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_sg.geojson
+echo -ne "\t\t - Done.\r"
+echo ""
+
+# Defibrillatoren Kanton Glarus
+echo -ne "Query Defibrillatoren Glarus...           "
+cat $DIR/queries/defis_kt_ne.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_sg.geojson
+echo -ne "\t\t - Done.\r"
+echo ""
+
 # Defibrillatoren KNZ St.Gallen
 echo -ne "Query Defibrillatoren KNZ St. Gallen...           "
 cat $DIR/queries/defis_dispo_knzsg.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_dispo_knzsg.geojson
