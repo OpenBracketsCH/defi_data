@@ -35,6 +35,48 @@ cat $DIR/queries/defis_kt_sg.txt | python $DIR/overpass_query.py | osmtogeojson 
 echo -ne "\t\t - Done.\r"
 echo ""
 
+# Defibrillatoren Kanton Appenzell Innerhoden
+echo -ne "Query Defibrillatoren Appenzell Innerhoden...           "
+cat $DIR/queries/defis_kt_ai.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_sg.geojson
+echo -ne "\t\t - Done.\r"
+echo ""
+
+# Defibrillatoren Kanton Appenzell Ausserhoden
+echo -ne "Query Defibrillatoren Appenzell Ausserhoden...           "
+cat $DIR/queries/defis_kt_ar.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_sg.geojson
+echo -ne "\t\t - Done.\r"
+echo ""
+
+# Defibrillatoren Kanton Thurgau
+echo -ne "Query Defibrillatoren Appenzell Thurgau...           "
+cat $DIR/queries/defis_kt_tg.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_sg.geojson
+echo -ne "\t\t - Done.\r"
+echo ""
+
+# Defibrillatoren Kanton Graubünden
+echo -ne "Query Defibrillatoren Graubünden...           "
+cat $DIR/queries/defis_kt_gr.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_sg.geojson
+echo -ne "\t\t - Done.\r"
+echo ""
+
+# Defibrillatoren Kanton Schwyz
+echo -ne "Query Defibrillatoren Schwyz...           "
+cat $DIR/queries/defis_kt_sz.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_sg.geojson
+echo -ne "\t\t - Done.\r"
+echo ""
+
+# Defibrillatoren Kanton Zug
+echo -ne "Query Defibrillatoren Zug...           "
+cat $DIR/queries/defis_kt_zg.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_sg.geojson
+echo -ne "\t\t - Done.\r"
+echo ""
+
+# Defibrillatoren Kanton Schaffhausen
+echo -ne "Query Defibrillatoren Schaffhausen...           "
+cat $DIR/queries/defis_kt_sh.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_sg.geojson
+echo -ne "\t\t - Done.\r"
+echo ""
+
 # Defibrillatoren KNZ St.Gallen
 echo -ne "Query Defibrillatoren KNZ St. Gallen...           "
 cat $DIR/queries/defis_dispo_knzsg.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_dispo_knzsg.geojson
