@@ -3,6 +3,81 @@
 "features": [
 {
   "type": "Feature",
+  "id": "way/379582635",
+  "properties": {
+    "addr:city": "Bern",
+    "addr:country": "CH",
+    "addr:floor": "-1",
+    "addr:housenumber": "10",
+    "addr:postcode": "3011",
+    "addr:street": "Bahnhofplatz",
+    "alt_name": "Migros Take-Away Bern Bahnhof",
+    "amenity": "fast_food",
+    "branch": "Bern Bahnhof",
+    "brand": "Migros Daily",
+    "diet:vegetarian": "yes",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "name": "Migros Take-Away",
+    "opening_hours": "Mo-Sa 05:00-22:00; PH,Su 05:00-21:00",
+    "operator": "Genossenschaft Migros Aare",
+    "takeaway": "only",
+    "website": "https://filialen.migros.ch/de/migros-daily-take-away-bern-bahnhof-take-away",
+    "wheelchair": "yes",
+    "id": "way/379582635"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          7.4392781,
+          46.9489331
+        ],
+        [
+          7.4396644,
+          46.9489904
+        ],
+        [
+          7.4396631,
+          46.9490082
+        ],
+        [
+          7.4396596,
+          46.9490318
+        ],
+        [
+          7.4396653,
+          46.9490557
+        ],
+        [
+          7.4396809,
+          46.9490789
+        ],
+        [
+          7.4395403,
+          46.9491376
+        ],
+        [
+          7.4393769,
+          46.9491006
+        ],
+        [
+          7.4394298,
+          46.9490318
+        ],
+        [
+          7.4392781,
+          46.9489331
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/357181864",
   "properties": {
     "emergency": "defibrillator",
