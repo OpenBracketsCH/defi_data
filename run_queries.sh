@@ -48,25 +48,25 @@ echo ""
 
 # Defibrillatoren Kanton Aargau
 echo -ne "Query Defibrillatoren Aargau...           "
-cat $DIR/queries/defis_kt_ag.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_sg.geojson
+cat $DIR/queries/defis_kt_ag.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_ag.geojson
 echo -ne "\t\t - Done.\r"
 echo ""
 
 # Defibrillatoren Kanton Appenzell Innerhoden
 echo -ne "Query Defibrillatoren Appenzell Innerhoden...           "
-cat $DIR/queries/defis_kt_ai.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_sg.geojson
+cat $DIR/queries/defis_kt_ai.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_ai.geojson
 echo -ne "\t\t - Done.\r"
 echo ""
 
 # Defibrillatoren Kanton Appenzell Ausserhoden
 echo -ne "Query Defibrillatoren Appenzell Ausserhoden...           "
-cat $DIR/queries/defis_kt_ar.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_sg.geojson
+cat $DIR/queries/defis_kt_ar.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_ar.geojson
 echo -ne "\t\t - Done.\r"
 echo ""
 
 # Defibrillatoren Kanton Bern
 echo -ne "Query Defibrillatoren Bern...           "
-cat $DIR/queries/defis_kt_be.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_sg.geojson
+cat $DIR/queries/defis_kt_be.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_be.geojson
 echo -ne "\t\t - Done.\r"
 echo ""
 
@@ -84,55 +84,55 @@ echo ""
 
 # Defibrillatoren Kanton Fribourg
 echo -ne "Query Defibrillatoren Fribourg...           "
-cat $DIR/queries/defis_kt_fr.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_sg.geojson
+cat $DIR/queries/defis_kt_fr.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_fr.geojson
 echo -ne "\t\t - Done.\r"
 echo ""
 
 # Defibrillatoren Kanton Genf
 echo -ne "Query Defibrillatoren Genf...           "
-cat $DIR/queries/defis_kt_ge.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_sg.geojson
+cat $DIR/queries/defis_kt_ge.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_fr.geojson
 echo -ne "\t\t - Done.\r"
 echo ""
 
 # Defibrillatoren Kanton Glarus
 echo -ne "Query Defibrillatoren Glarus...           "
-cat $DIR/queries/defis_kt_ne.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_sg.geojson
+cat $DIR/queries/defis_kt_ne.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_gl.geojson
 echo -ne "\t\t - Done.\r"
 echo ""
 
 # Defibrillatoren Kanton Graubünden
 echo -ne "Query Defibrillatoren Graubünden...           "
-cat $DIR/queries/defis_kt_gr.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_sg.geojson
+cat $DIR/queries/defis_kt_gr.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_gr.geojson
 echo -ne "\t\t - Done.\r"
 echo ""
 
 # Defibrillatoren Kanton Jura
 echo -ne "Query Defibrillatoren Jura...           "
-cat $DIR/queries/defis_kt_ju.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_sg.geojson
+cat $DIR/queries/defis_kt_ju.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_ju.geojson
 echo -ne "\t\t - Done.\r"
 echo ""
 
 # Defibrillatoren Kanton Luzern
 echo -ne "Query Defibrillatoren Luzern...           "
-cat $DIR/queries/defis_kt_lu.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_sg.geojson
+cat $DIR/queries/defis_kt_lu.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_lu.geojson
 echo -ne "\t\t - Done.\r"
 echo ""
 
 # Defibrillatoren Kanton Neuenburg
 echo -ne "Query Defibrillatoren Neuenburg...           "
-cat $DIR/queries/defis_kt_ne.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_sg.geojson
+cat $DIR/queries/defis_kt_ne.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_ne.geojson
 echo -ne "\t\t - Done.\r"
 echo ""
 
 # Defibrillatoren Kanton Nidwalden
 echo -ne "Query Defibrillatoren Nidwalden...           "
-cat $DIR/queries/defis_kt_nw.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_sg.geojson
+cat $DIR/queries/defis_kt_nw.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_nw.geojson
 echo -ne "\t\t - Done.\r"
 echo ""
 
 # Defibrillatoren Kanton Obdwalden
 echo -ne "Query Defibrillatoren Obwalden...           "
-cat $DIR/queries/defis_kt_ow.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_sg.geojson
+cat $DIR/queries/defis_kt_ow.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_ow.geojson
 echo -ne "\t\t - Done.\r"
 echo ""
 
@@ -144,55 +144,55 @@ echo ""
 
 # Defibrillatoren Kanton Schaffhausen
 echo -ne "Query Defibrillatoren Schaffhausen...           "
-cat $DIR/queries/defis_kt_sh.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_sg.geojson
+cat $DIR/queries/defis_kt_sh.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_sh.geojson
 echo -ne "\t\t - Done.\r"
 echo ""
 
 # Defibrillatoren Kanton Solothurn
 echo -ne "Query Defibrillatoren Solothurn...           "
-cat $DIR/queries/defis_kt_so.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_sg.geojson
+cat $DIR/queries/defis_kt_so.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_so.geojson
 echo -ne "\t\t - Done.\r"
 echo ""
 
 # Defibrillatoren Kanton Schwyz
 echo -ne "Query Defibrillatoren Schwyz...           "
-cat $DIR/queries/defis_kt_sz.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_sg.geojson
+cat $DIR/queries/defis_kt_sz.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_sz.geojson
 echo -ne "\t\t - Done.\r"
 echo ""
 
 # Defibrillatoren Kanton Thurgau
 echo -ne "Query Defibrillatoren Appenzell Thurgau...           "
-cat $DIR/queries/defis_kt_tg.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_sg.geojson
+cat $DIR/queries/defis_kt_tg.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_tg.geojson
 echo -ne "\t\t - Done.\r"
 echo ""
 
 # Defibrillatoren Kanton Tessin
 echo -ne "Query Defibrillatoren Tessin...           "
-cat $DIR/queries/defis_kt_ti.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_sg.geojson
+cat $DIR/queries/defis_kt_ti.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_ti.geojson
 echo -ne "\t\t - Done.\r"
 echo ""
 
 # Defibrillatoren Kanton Uri
 echo -ne "Query Defibrillatoren Uri...           "
-cat $DIR/queries/defis_kt_ti.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_sg.geojson
+cat $DIR/queries/defis_kt_ur.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_ur.geojson
 echo -ne "\t\t - Done.\r"
 echo ""
 
 # Defibrillatoren Kanton Waadt
 echo -ne "Query Defibrillatoren Waadt...           "
-cat $DIR/queries/defis_kt_vd.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_sg.geojson
+cat $DIR/queries/defis_kt_vd.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_vd.geojson
 echo -ne "\t\t - Done.\r"
 echo ""
 
 # Defibrillatoren Kanton Wallis
 echo -ne "Query Defibrillatoren Wallis...           "
-cat $DIR/queries/defis_kt_vs.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_sg.geojson
+cat $DIR/queries/defis_kt_vs.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_vs.geojson
 echo -ne "\t\t - Done.\r"
 echo ""
 
 # Defibrillatoren Kanton Zug
 echo -ne "Query Defibrillatoren Zug...           "
-cat $DIR/queries/defis_kt_zg.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_sg.geojson
+cat $DIR/queries/defis_kt_zg.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_zg.geojson
 echo -ne "\t\t - Done.\r"
 echo ""
 
