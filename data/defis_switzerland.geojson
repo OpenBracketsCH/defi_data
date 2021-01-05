@@ -53536,7 +53536,7 @@
     "description": "Rezeption",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "name": "Frutt Lodge&Spa",
+    "name": "Frutt Mountain Resort",
     "id": "node/7637818616"
   },
   "geometry": {
@@ -86874,6 +86874,42 @@
     "coordinates": [
       7.969126,
       47.244397
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8294483386",
+  "properties": {
+    "emergency": "defibrillator",
+    "id": "node/8294483386"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2393945,
+      47.3816568
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8294500539",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussen am Gebäude für den Ticketverkauf",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8294500539"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7050026,
+      47.0448655
     ]
   }
 }
