@@ -81008,12 +81008,12 @@
   "id": "node/8065790861",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Haupteingang Singsaal",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Schulhaus, beim Eingang Mehrzweckraum",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 07:30-20:00",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/8065790861"
   },
   "geometry": {
@@ -81029,12 +81029,12 @@
   "id": "node/8065790862",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Haupteingang Turnhalle (oben)",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Schulhaus, beim Eingang Singsaal / Turnhalle",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 07:30-20:00",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/8065790862"
   },
   "geometry": {
@@ -81050,11 +81050,12 @@
   "id": "node/8065790863",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Eingang Garderobe",
-    "description": "während Sportanlässen",
+    "defibrillator:location": "Sporthaus Kleinfeld, Seite Tribüne oben",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/8065790863"
   },
   "geometry": {
@@ -81070,19 +81071,19 @@
   "id": "node/8065790864",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Eingangshalle",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Schulhaus Johanitter IV, beim Haupteingang",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 07:30-20:00",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/8065790864"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.974253,
-      47.2456052
+      7.9741484,
+      47.245607
     ]
   }
 },
@@ -81112,11 +81113,11 @@
   "id": "node/8065790866",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "In der Johanitterhalle",
+    "defibrillator:location": "Johanitterhalle Reiden Mitte, im Foyer",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "opening_hours": "Mo-Fr 07:30-20:00",
     "id": "node/8065790866"
   },
@@ -86852,6 +86853,27 @@
     "coordinates": [
       9.1834763,
       47.4143539
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8292345134",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Seite Haupteingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8292345134"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.969126,
+      47.244397
     ]
   }
 }
