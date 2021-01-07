@@ -41662,12 +41662,13 @@
   "type": "Feature",
   "id": "node/7813190784",
   "properties": {
-    "access": "private",
+    "access": "yes",
     "defibrillator:location": "Der Defi befindet sich im Eingangsbereich in einem Notfallschrank mit dem Rettungszeichen versehen.",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "opening_hours": "Mo-Fr 06:00-23:00",
     "operator": "update Fitness",
     "id": "node/7813190784"
   },
@@ -52548,6 +52549,111 @@
     "coordinates": [
       8.2393945,
       47.3816568
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8300132204",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im 1. OG bei der Verwaltung",
+    "description": "während Bürozeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Rettung St.Gallen",
+    "id": "node/8300132204"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2587854,
+      47.4131926
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8300136290",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "im Durchgang vom Schulhaus zur Vierfachturnhalle",
+    "description": "nur während Bürozeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Schulhaus Schöntal",
+    "id": "node/8300136290"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5441688,
+      47.3810487
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8300165926",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Eingang hinter Bistrotüre",
+    "description": "Mai-Sept verfügbar während Badbetrieb",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Badi Appenzell",
+    "id": "node/8300165926"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.420744,
+      47.32655
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8300165927",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Eingang hinter Bistrotüre",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 07:00-22:30",
+    "operator": "Sportanlage Schaies",
+    "id": "node/8300165927"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4196179,
+      47.3258272
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8300203526",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "1. OG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Kessler & Co AG",
+    "id": "node/8300203526"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3449502,
+      47.41256
     ]
   }
 }
