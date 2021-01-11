@@ -39911,8 +39911,15 @@
   "type": "Feature",
   "id": "node/7263253615",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kultkabine Post beim Parkplatz",
+    "description": "Aussenkasten, Alarm bei Öffnung",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadt Lenzburg / reaktion.ch",
+    "phone": "078 736 77 59",
     "id": "node/7263253615"
   },
   "geometry": {
@@ -86725,8 +86732,15 @@
   "type": "Feature",
   "id": "node/8279013422",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kultkabine Krone beim Parkplatz",
+    "description": "Aussenkasten, Alarm bei Öffnung",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadt Lenzburg / reaktion.ch",
+    "phone": "078 736 77 59",
     "id": "node/8279013422"
   },
   "geometry": {
@@ -87131,6 +87145,29 @@
     "coordinates": [
       7.4124798,
       46.9082317
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8310975224",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kultkabine Seifi, beim Parkplatz",
+    "description": "Aussenkasten, Alarm bei Öffnung",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadt Lenzburg / reaktion.ch",
+    "phone": "078 736 77 59",
+    "id": "node/8310975224"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1814248,
+      47.3859882
     ]
   }
 }
