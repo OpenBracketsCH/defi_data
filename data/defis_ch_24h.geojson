@@ -31203,12 +31203,15 @@
   "type": "Feature",
   "id": "node/7928159873",
   "properties": {
-    "defibrillator:location": "Alte Käserei",
-    "description": "während Öffnungszeiten verfügbar",
+    "access": "yes",
+    "defibrillator:location": "Alte Käsere an der Hausfassadei",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
+    "operator": "EWG Cham",
     "id": "node/7928159873"
   },
   "geometry": {
@@ -34522,6 +34525,27 @@
     "coordinates": [
       8.1814248,
       47.3859882
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8317619373",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang Primarschule Dinhard, bei Velo-Unterstand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Dinhard",
+    "id": "node/8317619373"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7647585,
+      47.5568444
     ]
   }
 }

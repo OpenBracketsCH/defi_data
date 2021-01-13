@@ -1609,11 +1609,14 @@
   "type": "Feature",
   "id": "node/7928159872",
   "properties": {
+    "access": "no",
     "defibrillator:location": "Eingang Mehrzweckhalle",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "level": "0",
+    "operator": "EWG Cham",
     "id": "node/7928159872"
   },
   "geometry": {
@@ -1628,12 +1631,15 @@
   "type": "Feature",
   "id": "node/7928159873",
   "properties": {
-    "defibrillator:location": "Alte Käserei",
-    "description": "während Öffnungszeiten verfügbar",
+    "access": "yes",
+    "defibrillator:location": "Alte Käsere an der Hausfassadei",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
+    "operator": "EWG Cham",
     "id": "node/7928159873"
   },
   "geometry": {
@@ -1667,11 +1673,14 @@
   "type": "Feature",
   "id": "node/7928159875",
   "properties": {
+    "access": "no",
     "defibrillator:location": "Beim Bademeister",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "level": "0",
+    "operator": "EWG Cham",
     "id": "node/7928159875"
   },
   "geometry": {
@@ -1686,11 +1695,14 @@
   "type": "Feature",
   "id": "node/7928159876",
   "properties": {
+    "access": "no",
     "defibrillator:location": "In der Badi",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "level": "0",
+    "operator": "EWG Cham",
     "id": "node/7928159876"
   },
   "geometry": {
@@ -1705,11 +1717,14 @@
   "type": "Feature",
   "id": "node/7928159877",
   "properties": {
+    "access": "no",
     "defibrillator:location": "Sanitätszimmer",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "level": "0",
+    "operator": "EWG Cham",
     "id": "node/7928159877"
   },
   "geometry": {
@@ -1724,7 +1739,7 @@
   "type": "Feature",
   "id": "node/7928159878",
   "properties": {
-    "defibrillator:location": "Beim Bademeister",
+    "defibrillator:location": "Beim Bademeister / Kiosk",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -1783,11 +1798,14 @@
   "type": "Feature",
   "id": "node/7928159881",
   "properties": {
+    "access": "no",
     "defibrillator:location": "Haupteingang rechts",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "level": "0",
+    "operator": "EWG Cham",
     "wheelchair": "yes",
     "id": "node/7928159881"
   },
@@ -2023,11 +2041,14 @@
   "type": "Feature",
   "id": "node/7928182493",
   "properties": {
+    "access": "no",
     "defibrillator:location": "Im Eingang",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "level": "0",
+    "operator": "EWG Cham",
     "wheelchair": "yes",
     "id": "node/7928182493"
   },
@@ -2043,11 +2064,14 @@
   "type": "Feature",
   "id": "node/7928182494",
   "properties": {
-    "defibrillator:location": "Neben dem Eingang",
+    "access": "no",
+    "defibrillator:location": "Neben dem Eingang im Sanitätszimmer",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "level": "0",
+    "operator": "EWG Cham",
     "wheelchair": "yes",
     "id": "node/7928182494"
   },
@@ -3953,6 +3977,183 @@
     "coordinates": [
       8.5329456,
       47.1439447
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8317714104",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Gang vor WC",
+    "description": "nur während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "EWG Cham",
+    "id": "node/8317714104"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4601405,
+      47.1784849
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8317714105",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Büro Gemeinwesen / Jugilounge",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "EWG Cham",
+    "id": "node/8317714105"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.457166,
+      47.1796244
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8317714106",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Gang bei Küche",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "EWG Cham",
+    "id": "node/8317714106"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4417218,
+      47.1964303
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8317714107",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Haupteingang",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "EWG Cham",
+    "id": "node/8317714107"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4541002,
+      47.1839103
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8317714108",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Haupteingang rechts",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "EWG Cham",
+    "id": "node/8317714108"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4568682,
+      47.1803026
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8317714109",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Nordtrakt",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "EWG Cham",
+    "wheelchair": "yes",
+    "id": "node/8317714109"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4641397,
+      47.1830262
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8317714110",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "in der Turnhalle",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "EWG Cham",
+    "wheelchair": "yes",
+    "id": "node/8317714110"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4631258,
+      47.1829751
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8317714111",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Pausenraum",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "EWG Cham",
+    "id": "node/8317714111"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.459017,
+      47.1805603
     ]
   }
 }
