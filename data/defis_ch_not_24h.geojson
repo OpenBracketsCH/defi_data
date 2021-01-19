@@ -49677,7 +49677,6 @@
     "defibrillator:location": "An der Wand neben der Amavita Apotheke in der OVE (1.OG).",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "emergency_telephone_code": "144",
     "indoor": "yes",
     "id": "node/8111139829"
   },
@@ -52253,6 +52252,7 @@
   "id": "node/8259450779",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/8259450779"
   },
   "geometry": {
@@ -52268,6 +52268,7 @@
   "id": "node/8260051064",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "id": "node/8260051064"
   },
@@ -52286,6 +52287,7 @@
     "access": "yes",
     "defibrillator:location": "A la sortie des caisses de la Migros",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "id": "node/8262928342"
@@ -52303,6 +52305,7 @@
   "id": "node/8275066549",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/8275066549"
   },
   "geometry": {
@@ -52454,6 +52457,7 @@
   "properties": {
     "defibrillator:location": "Beim Haupteingang direkt nach der Schiebetüre rechts",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/8280848041"
   },
@@ -52471,6 +52475,7 @@
   "properties": {
     "defibrillator:location": "Aussenwand zwischen Eingängen Bahn und Tourismusbüro",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/8286805250"
   },
   "geometry": {
@@ -52487,6 +52492,7 @@
   "properties": {
     "defibrillator:location": "Vor dem Eingang Polizeiwache",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "id": "node/8289127637"
   },
@@ -52504,6 +52510,7 @@
   "properties": {
     "access": "private",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/8291730882"
   },
@@ -52520,6 +52527,7 @@
   "id": "node/8294483386",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/8294483386"
   },
   "geometry": {
@@ -52640,8 +52648,9 @@
   "id": "node/8308106736",
   "properties": {
     "access": "customers",
-    "defibrillator:location": "Im schulhaus",
+    "defibrillator:location": "Im Schulhaus",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
     "id": "node/8308106736"
@@ -52649,23 +52658,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4124798,
-      46.9082317
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8308106737",
-  "properties": {
-    "emergency": "defibrillator",
-    "id": "node/8308106737"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4124798,
-      46.9082317
+      7.4124815,
+      46.9082331
     ]
   }
 },

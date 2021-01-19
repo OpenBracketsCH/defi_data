@@ -31797,6 +31797,7 @@
     "access": "yes",
     "defibrillator:location": "24h‑Zone in der Geschäftsstelle Wattenwil",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "24/7",
     "id": "node/8247528319"
@@ -31815,6 +31816,7 @@
   "properties": {
     "defibrillator:location": "Vor dem Eingang Polizeiwache",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "id": "node/8289127637"
   },
@@ -31831,8 +31833,9 @@
   "id": "node/8308106736",
   "properties": {
     "access": "customers",
-    "defibrillator:location": "Im schulhaus",
+    "defibrillator:location": "Im Schulhaus",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
     "id": "node/8308106736"
@@ -31840,23 +31843,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4124798,
-      46.9082317
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8308106737",
-  "properties": {
-    "emergency": "defibrillator",
-    "id": "node/8308106737"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4124798,
-      46.9082317
+      7.4124815,
+      46.9082331
     ]
   }
 }
