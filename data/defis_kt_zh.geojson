@@ -264,16 +264,20 @@
   "type": "Feature",
   "id": "node/4985524992",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben Billetautomat, beim Stationsgebäude",
+    "description": "Öffentlich zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/4985524992"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.822579,
-      47.2708494
+      8.8225777,
+      47.2708542
     ]
   }
 },
@@ -9610,6 +9614,46 @@
     "coordinates": [
       8.7647585,
       47.5568444
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8357208578",
+  "properties": {
+    "defibrillator:location": "Beim Eingangsbereich zum Geissbergsaal",
+    "description": "Während Schulöffnungszeiten und Anlässen zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "source": "https://www.bubikon.ch/_docn/2272568/Defibrillatoren_Standorte.pdf",
+    "id": "node/8357208578"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.804482,
+      47.2570231
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8357208579",
+  "properties": {
+    "defibrillator:location": "Im Eingangsbereich zur Turn-und Schwimmhalle",
+    "description": "Während Schulöffnungszeiten zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "source": "https://www.bubikon.ch/_docn/2272568/Defibrillatoren_Standorte.pdf",
+    "id": "node/8357208579"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8146184,
+      47.2674849
     ]
   }
 }
