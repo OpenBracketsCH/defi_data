@@ -290,6 +290,8 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Bubikon",
+    "phone": "055 253 33 55",
     "id": "node/4705309319"
   },
   "geometry": {
@@ -389,6 +391,8 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Bubikon",
+    "phone": "055 253 33 55",
     "id": "node/4985524992"
   },
   "geometry": {
@@ -18007,6 +18011,8 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "operator": "Gemeinde Bubikon",
+    "phone": "055 253 33 55",
     "source": "https://www.bubikon.ch/_docn/2272568/Defibrillatoren_Standorte.pdf",
     "id": "node/8357208578"
   },
@@ -18027,6 +18033,8 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "operator": "Gemeinde Bubikon",
+    "phone": "055 253 33 55",
     "source": "https://www.bubikon.ch/_docn/2272568/Defibrillatoren_Standorte.pdf",
     "id": "node/8357208579"
   },
@@ -18035,6 +18043,70 @@
     "coordinates": [
       8.8146184,
       47.2674849
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8359649207",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Treppenaufgang Spitex",
+    "description": "von Aussen zugänglich",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Bubikon",
+    "phone": "055 253 33 55",
+    "id": "node/8359649207"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8139001,
+      47.2663243
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8359649210",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "beim Badieingang an der Kasse",
+    "description": "nur im Sommer (Mai-Sept)",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "operator": "Gemeinde Bubikon",
+    "phone": "055 253 33 55",
+    "id": "node/8359649210"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8204503,
+      47.2580621
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8359649211",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "bei der Einwohnerkontrolle",
+    "description": "nur im Winter (Okt-April)",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "operator": "Gemeinde Bubikon",
+    "phone": "055 253 33 55",
+    "id": "node/8359649211"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8157951,
+      47.2691999
     ]
   }
 }
