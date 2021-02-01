@@ -13719,8 +13719,10 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "SOB Bahnhof Wollerau, Gleis 2",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "note": "Für Schutz & Rettung u.a einsatzrelevant.",
     "opening_hours": "24/7",
     "operator": "Schweizerische Südostbahn",
@@ -35112,6 +35114,29 @@
     "coordinates": [
       9.3378752,
       47.4078293
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8382843528",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Perron Gleis 2/3",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "SOB",
+    "phone": "058 580 73 35",
+    "id": "node/8382843528"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3887987,
+      47.4627153
     ]
   }
 }
