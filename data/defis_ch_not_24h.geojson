@@ -53177,7 +53177,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Treppenhaus 2. OG",
-    "description": "24h verfügbar",
+    "description": "während Büroöffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -53190,6 +53190,26 @@
     "coordinates": [
       9.3711066,
       47.4229136
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8383958604",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bei den Liften EG",
+    "description": "während Bürozeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/8383958604"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5580139,
+      47.4321875
     ]
   }
 }
