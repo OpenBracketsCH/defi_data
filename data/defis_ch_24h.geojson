@@ -2456,12 +2456,14 @@
   "id": "node/6071133387",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "an der Säule gleisseitig",
+    "defibrillator:location": "an der Säule Gleis 1",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "SOB",
+    "phone": "058 580 73 35",
     "id": "node/6071133387"
   },
   "geometry": {
@@ -2477,19 +2479,21 @@
   "id": "node/6087082124",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Beim Bahnhof",
+    "defibrillator:location": "Unterstand Gleis 1 / 2",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "SOB",
+    "phone": "058 580 73 35",
     "id": "node/6087082124"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.0830131,
-      47.3194391
+      9.0829459,
+      47.3193359
     ]
   }
 },
@@ -2598,18 +2602,22 @@
   "id": "node/6176622643",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "At support of platform roof.",
+    "defibrillator:location": "Perron Gleis 2 / 3",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "SOB",
+    "phone": "058 580 73 35",
     "wheelchair": "yes",
     "id": "node/6176622643"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.200603,
-      47.3726046
+      9.2005501,
+      47.3725784
     ]
   }
 },
@@ -13459,8 +13467,10 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "SOB Bahnhof Rothenthurm Perron Gleis 1/2",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "note": "Für Schutz & Rettung u.a einsatzrelevant.",
     "opening_hours": "24/7",
     "operator": "Schweizerische Südostbahn",
@@ -13591,8 +13601,10 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "SOB Haltestelle Wilen",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "note": "Für Schutz & Rettung u.a einsatzrelevant.",
     "opening_hours": "24/7",
     "operator": "Schweizerische Südostbahn",
@@ -13634,9 +13646,11 @@
   "id": "node/6976909962",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "SOB Bahnhof Biberbrugg",
+    "defibrillator:location": "Perron Gleis 2",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "note": "Für Schutz & Rettung u.a einsatzrelevant.",
     "opening_hours": "24/7",
     "operator": "Schweizerische Südostbahn",
@@ -13681,8 +13695,10 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "SOB Bahnhof Schindellegi, Perron",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "note": "Für Schutz & Rettung u.a einsatzrelevant.",
     "opening_hours": "24/7",
     "operator": "Schweizerische Südostbahn",
@@ -13724,9 +13740,11 @@
   "id": "node/6976909966",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "SOB Haltestelle Riedmatt",
+    "defibrillator:location": "Unterstand Gleis 1",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "note": "Für Schutz & Rettung u.a einsatzrelevant.",
     "opening_hours": "24/7",
     "operator": "Schweizerische Südostbahn",
@@ -13813,9 +13831,11 @@
   "id": "node/6976909970",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bahnhof",
+    "defibrillator:location": "Bei Wartehalle",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "note": "Für Schutz & Rettung u.a einsatzrelevant.",
     "opening_hours": "24/7",
     "operator": "Bahnreisezentrum Einsiedeln",
@@ -18048,11 +18068,14 @@
   "type": "Feature",
   "id": "node/7093231385",
   "properties": {
-    "defibrillator:location": "Am Stützpfosten zwischen Gleis und Billetautomat",
+    "access": "yes",
+    "defibrillator:location": "Am Stützpfosten zwischen Gleis 1 und Billetautomat",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "SOB",
+    "phone": "058 580 73 35",
     "website": "aed.ch",
     "wheelchair": "yes",
     "id": "node/7093231385"
@@ -23007,10 +23030,14 @@
     "access": "yes",
     "contact:website": "http://aed.ch",
     "defibrillator:location": "Bahnhof Samstagern: Perron Gleis 2/3 am Ende der Rampe",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
+    "operator": "SOB",
+    "phone": "058 580 73 35",
     "id": "node/7619850763"
   },
   "geometry": {
@@ -29731,8 +29758,10 @@
     "description": "Öffentlich zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Gemeinde Richterswil",
+    "operator": "SOB",
+    "phone": "058 580 73 35",
     "id": "node/7819540971"
   },
   "geometry": {
@@ -31039,6 +31068,29 @@
     "coordinates": [
       9.0426033,
       47.3642663
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7873493234",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "beim Wartehäuschen",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "SOB",
+    "phone": "058 580 73 35",
+    "id": "node/7873493234"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1681698,
+      47.2489107
     ]
   }
 },
@@ -34760,6 +34812,7 @@
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Schweizerische Südostbahn AG, Herisau",
+    "phone": "058 580 73 35",
     "id": "node/8349366726"
   },
   "geometry": {
@@ -34898,6 +34951,167 @@
     "coordinates": [
       9.1358276,
       47.420747
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8382746754",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Perron Gleis 1",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "SOB",
+    "phone": "058 580 73 35",
+    "id": "node/8382746754"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1206558,
+      47.2638337
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8382752968",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Perron Gleis 2 / 3",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "SOB",
+    "phone": "058 580 73 35",
+    "id": "node/8382752968"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3589512,
+      47.5038911
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8382769389",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Unterstand Gleis 1",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "SOB",
+    "phone": "058 580 73 35",
+    "id": "node/8382769389"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3371578,
+      47.5175671
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8382783717",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Perron Gleis 1",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "SOB",
+    "phone": "058 580 73 35",
+    "id": "node/8382783717"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2760528,
+      47.3899247
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8382799472",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Perron Gleis 1 / 2",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "SOB",
+    "phone": "058 580 73 35",
+    "id": "node/8382799472"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3917764,
+      47.4856565
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8382799843",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aufnahmegebäude",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "SOB",
+    "phone": "058 580 73 35",
+    "id": "node/8382799843"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3758444,
+      47.5387477
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8382813401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Perron Gleis 2/3",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "SOB",
+    "phone": "058 580 73 35",
+    "id": "node/8382813401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3378752,
+      47.4078293
     ]
   }
 }

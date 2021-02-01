@@ -1893,8 +1893,10 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "SOB Bahnhof Rothenthurm Perron Gleis 1/2",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "note": "Für Schutz & Rettung u.a einsatzrelevant.",
     "opening_hours": "24/7",
     "operator": "Schweizerische Südostbahn",
@@ -2025,8 +2027,10 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "SOB Haltestelle Wilen",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "note": "Für Schutz & Rettung u.a einsatzrelevant.",
     "opening_hours": "24/7",
     "operator": "Schweizerische Südostbahn",
@@ -2068,9 +2072,11 @@
   "id": "node/6976909962",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "SOB Bahnhof Biberbrugg",
+    "defibrillator:location": "Perron Gleis 2",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "note": "Für Schutz & Rettung u.a einsatzrelevant.",
     "opening_hours": "24/7",
     "operator": "Schweizerische Südostbahn",
@@ -2115,8 +2121,10 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "SOB Bahnhof Schindellegi, Perron",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "note": "Für Schutz & Rettung u.a einsatzrelevant.",
     "opening_hours": "24/7",
     "operator": "Schweizerische Südostbahn",
@@ -2158,9 +2166,11 @@
   "id": "node/6976909966",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "SOB Haltestelle Riedmatt",
+    "defibrillator:location": "Unterstand Gleis 1",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "note": "Für Schutz & Rettung u.a einsatzrelevant.",
     "opening_hours": "24/7",
     "operator": "Schweizerische Südostbahn",
@@ -2247,9 +2257,11 @@
   "id": "node/6976909970",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bahnhof",
+    "defibrillator:location": "Bei Wartehalle",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "note": "Für Schutz & Rettung u.a einsatzrelevant.",
     "opening_hours": "24/7",
     "operator": "Bahnreisezentrum Einsiedeln",
@@ -6998,10 +7010,14 @@
     "access": "yes",
     "contact:website": "http://aed.ch",
     "defibrillator:location": "Bahnhof Samstagern: Perron Gleis 2/3 am Ende der Rampe",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
+    "operator": "SOB",
+    "phone": "058 580 73 35",
     "id": "node/7619850763"
   },
   "geometry": {
@@ -10387,8 +10403,10 @@
     "description": "Öffentlich zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Gemeinde Richterswil",
+    "operator": "SOB",
+    "phone": "058 580 73 35",
     "id": "node/7819540971"
   },
   "geometry": {
@@ -18148,6 +18166,28 @@
     "coordinates": [
       8.5911938,
       47.0308482
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8382790996",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Werkstatt Service Center Gebäude A",
+    "description": "nicht öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "SOB",
+    "phone": "058 580 73 35",
+    "id": "node/8382790996"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.684519,
+      47.1917165
     ]
   }
 }

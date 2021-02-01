@@ -43313,22 +43313,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7873493234",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/7873493234"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.1681698,
-      47.2489107
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7873493235",
   "properties": {
     "emergency": "defibrillator",
@@ -53096,6 +53080,72 @@
     "coordinates": [
       8.5911938,
       47.0308482
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8382783718",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Korridor EG",
+    "description": "nur während Bürozeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "SOB",
+    "phone": "058 580 73 35",
+    "id": "node/8382783718"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.278423,
+      47.3906211
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8382783719",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sitzungszimmer Säntis",
+    "description": "nur während Büroöffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "SOB",
+    "phone": "058 580 73 35",
+    "id": "node/8382783719"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2757821,
+      47.3897357
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8382790996",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Werkstatt Service Center Gebäude A",
+    "description": "nicht öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "SOB",
+    "phone": "058 580 73 35",
+    "id": "node/8382790996"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.684519,
+      47.1917165
     ]
   }
 }
