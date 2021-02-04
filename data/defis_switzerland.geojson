@@ -50980,8 +50980,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5872797,
-      46.9785657
+      8.5872375,
+      46.9785377
     ]
   }
 },
@@ -88457,6 +88457,45 @@
     "coordinates": [
       6.6330592,
       46.6396783
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8394464414",
+  "properties": {
+    "addr:housenumber": "4",
+    "addr:street": "Äusserer Rettenbachweg",
+    "defibrillator:location": "Foyer Tiefparterre (Ebene 2)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Osttor",
+    "id": "node/8394464414"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7338816,
+      47.4979764
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8394510713",
+  "properties": {
+    "defibrillator:location": "Im Eingangsbereich linke Seite",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "Stadtverwaltung Affoltern am Albis",
+    "id": "node/8394510713"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4500057,
+      47.2766284
     ]
   }
 }
