@@ -84455,15 +84455,18 @@
   "type": "Feature",
   "id": "node/8167621124",
   "properties": {
+    "defibrillator:location": "Sur le mur, entrée salle du Conseil communal",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "source": "https://vaud.momentum.dos-group.com/dae/index",
     "id": "node/8167621124"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.6347448,
-      46.5554913
+      6.6347428,
+      46.5555489
     ]
   }
 },
@@ -88500,6 +88503,24 @@
     "coordinates": [
       8.4500057,
       47.2766284
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8397852992",
+  "properties": {
+    "defibrillator:location": "Sur le mur, à côté de l'entrée principale",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "source": "https://vaud.momentum.dos-group.com/dae/index",
+    "id": "node/8397852992"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.631653,
+      46.5611362
     ]
   }
 }
