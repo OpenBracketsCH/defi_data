@@ -96,7 +96,7 @@ echo ""
 
 # Defibrillatoren Kanton Glarus
 echo -ne "Query Defibrillatoren Glarus...           "
-cat $DIR/queries/defis_kt_ne.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_gl.geojson
+cat $DIR/queries/defis_kt_gl.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_gl.geojson
 echo -ne "\t\t - Done.\r"
 echo ""
 
