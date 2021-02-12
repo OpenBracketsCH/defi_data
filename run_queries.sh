@@ -72,13 +72,13 @@ echo ""
 
 # Defibrillatoren Kanton Basel Land
 echo -ne "Query Defibrillatoren Basel Land...           "
-cat $DIR/queries/defis_kt_bl.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_sg.geojson
+cat $DIR/queries/defis_kt_bl.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_bl.geojson
 echo -ne "\t\t - Done.\r"
 echo ""
 
 # Defibrillatoren Kanton Basel Stadt
 echo -ne "Query Defibrillatoren Basel Stadt...           "
-cat $DIR/queries/defis_kt_bs.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_sg.geojson
+cat $DIR/queries/defis_kt_bs.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_bs.geojson
 echo -ne "\t\t - Done.\r"
 echo ""
 
@@ -90,7 +90,7 @@ echo ""
 
 # Defibrillatoren Kanton Genf
 echo -ne "Query Defibrillatoren Genf...           "
-cat $DIR/queries/defis_kt_ge.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_fr.geojson
+cat $DIR/queries/defis_kt_ge.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_kt_ge.geojson
 echo -ne "\t\t - Done.\r"
 echo ""
 
