@@ -25832,23 +25832,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637818386",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Schützenhaus",
-    "id": "node/7637818386"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.027784,
-      47.2184879
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637818387",
   "properties": {
     "emergency": "defibrillator",
@@ -36129,8 +36112,11 @@
   "type": "Feature",
   "id": "node/7637819090",
   "properties": {
+    "access": "no",
+    "description": "nur während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Rauch Christian, Praxis",
     "id": "node/7637819090"
   },
@@ -53463,6 +53449,50 @@
     "coordinates": [
       7.6964748,
       47.3901512
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8418455534",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Eingangshalle Windfang rechts",
+    "description": "nur während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Dagmersellen / Hauswart",
+    "phone": "062 748 52 60",
+    "id": "node/8418455534"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9854324,
+      47.2170431
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8418455535",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Eingangshalle Windfang rechts",
+    "description": "nur während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Dagmersellen / Hauswart",
+    "phone": "062 748 52 60",
+    "id": "node/8418455535"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9909283,
+      47.2147877
     ]
   }
 }
