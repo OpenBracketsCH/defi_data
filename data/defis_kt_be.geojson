@@ -13827,6 +13827,7 @@
     "defibrillator:location": "Zugriff nur während den Öffnungszeiten via Kundendienst",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "Mo-Th 08:00-19:00, Fr 08:00-20:00, Sa 08:00-17:00",
     "operator": "Migros Nidau",
     "phone": "+41 58 567 94 00",
@@ -24733,8 +24734,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6585963,
-      46.5928244
+      7.6586446,
+      46.5928129
     ]
   }
 },
@@ -31309,31 +31310,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8154312159",
-  "properties": {
-    "access": "permissive",
-    "addr:city": "Lotzwil",
-    "addr:housenumber": "1",
-    "addr:postcode": "4932",
-    "addr:street": "Kreuzfeldstrasse",
-    "defibrillator:location": "Im 1. Stock der Turnhalle",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "08:00-16:00",
-    "operator": "Schulhaus Kreuzfeld Unterstufe",
-    "phone": "+41 62 922 87 23",
-    "id": "node/8154312159"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.7875887,
-      47.1934381
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8154591429",
   "properties": {
     "access": "yes",
@@ -31864,6 +31840,24 @@
     "coordinates": [
       7.4676779,
       46.8593076
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8426539810",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Lehrereingang",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "id": "node/8426539810"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7877848,
+      47.1934609
     ]
   }
 }

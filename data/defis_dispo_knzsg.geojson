@@ -5193,6 +5193,7 @@
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "id": "node/7865158414"
   },
   "geometry": {
@@ -8383,7 +8384,7 @@
   "id": "node/8382746754",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Perron Gleis 1",
+    "defibrillator:location": "Perron Gleis 1. An Stromverteilkasten.",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -8396,8 +8397,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.1206558,
-      47.2638337
+      9.1210476,
+      47.2636072
     ]
   }
 },
@@ -8579,6 +8580,109 @@
     "coordinates": [
       9.6673769,
       47.3792362
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8402024002",
+  "properties": {
+    "emergency": "defibrillator",
+    "id": "node/8402024002"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0694483,
+      47.3358587
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8412071101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An der Wand beim Sanitätsraum",
+    "description": "nur während Badebetrieb verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Bauverwaltung Oberuzwil",
+    "phone": "071 950 48 55",
+    "id": "node/8412071101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1206007,
+      47.4270791
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8412126197",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Eingang (Foyer) an der Wand in einem gekennzeichneten Notfallschrank",
+    "description": "nur während Schulbetrieb verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Bauverwaltung Oberuzwil",
+    "phone": "071 950 48 55",
+    "id": "node/8412126197"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1285446,
+      47.4296927
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8412126215",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Eingangsbereich, links an der Wand",
+    "description": "nur während Schulbetrieb verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Bauverwaltung Oberuzwil",
+    "phone": "071 950 48 55",
+    "id": "node/8412126215"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1405551,
+      47.4193864
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8412136132",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Vorraum/Eingangsbereich von Singsaal und Turnhalle, rechts an der Wand",
+    "description": "nur während Schulbetrieb verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Bauverwaltung Oberuzwil",
+    "phone": "071 950 48 55",
+    "id": "node/8412136132"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1209241,
+      47.4292674
     ]
   }
 }

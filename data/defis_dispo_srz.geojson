@@ -933,12 +933,11 @@
   "properties": {
     "access": "no",
     "defibrillator:location": "durch Drehtüre, dann gleich rechts.",
-    "description": "nur mit Flughafenausweis erreichbar",
+    "description": "nur mit Zugangskarte erreichbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "2",
-    "operator": "Flughafen Zürich",
     "id": "node/5719351201"
   },
   "geometry": {
@@ -4025,9 +4024,8 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "AED Gemeindehaus",
-    "note": "Für Schutz & Rettung u.a einsatzrelevant.",
     "opening_hours": "Mo-Fr 08:00-11:30; 14:00-16:30",
-    "operator": "Zoll Medical Systems",
+    "operator": "Gemeinde Gossau",
     "id": "node/6992457786"
   },
   "geometry": {
@@ -4043,14 +4041,13 @@
   "id": "node/6992457787",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Feuerwehr Gossau",
+    "defibrillator:location": "Feuerwehr Gossau im SAN Fahrzeug",
     "description": "nur über Tel.118",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "AED First Responder Gossau",
-    "note": "Für Schutz & Rettung u.a einsatzrelevant.",
-    "operator": "Zoll Medical Systems",
+    "operator": "Feuerwehr Gossau",
     "id": "node/6992457787"
   },
   "geometry": {
@@ -4072,8 +4069,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "AED Badi Gossau",
-    "note": "Für Schutz & Rettung u.a einsatzrelevant.",
-    "operator": "Zoll Medical Systems",
+    "operator": "Gemeinde Gossau",
     "id": "node/6992457788"
   },
   "geometry": {
@@ -4095,8 +4091,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "AED Festhütte Altrüti",
-    "note": "Für Schutz & Rettung u.a einsatzrelevant.",
-    "operator": "Zoll Medical Systems",
+    "operator": "Gemeinde Gossau",
     "id": "node/6992457789"
   },
   "geometry": {
@@ -4118,9 +4113,8 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "AED Schulhaus Berg 1",
-    "note": "Für Schutz & Rettung u.a einsatzrelevant.",
     "opening_hours": "Mo-Fr 08:00-16:00",
-    "operator": "Zoll Medical Systems",
+    "operator": "Gemeinde Gossau",
     "id": "node/6992457790"
   },
   "geometry": {
@@ -10697,6 +10691,7 @@
     "description": "nur mit Flughafenausweis erreichbar / Notfallklingel betätigen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "operator": "Schutz & Rettung Zürich",
     "id": "node/7820028705"
   },
@@ -10713,38 +10708,23 @@
   "id": "node/7820028706",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "6.OG ELZ",
+    "defibrillator:location": "unten neben den Mitarbeitende Ablagen",
     "description": "nur mit Zugangskarte erreichbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "6",
+    "opening_hours": "24/7",
     "operator": "Schutz & Rettung Zürich",
+    "phone": "144",
+    "wheelchair": "yes",
     "id": "node/7820028706"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5643362,
-      47.4541925
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7820028707",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "5. OG",
-    "description": "nur mit Zugangskarte erreichbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "operator": "Schutz & Rettung Zürich",
-    "id": "node/7820028707"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.564447,
-      47.4538307
+      8.5643806,
+      47.45403
     ]
   }
 },
@@ -18271,6 +18251,1632 @@
     "coordinates": [
       8.4500057,
       47.2766284
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8421253581",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Hornbach-Eingang",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "wheelchair": "yes",
+    "id": "node/8421253581"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8795059,
+      47.1813374
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8424840417",
+  "properties": {
+    "emergency": "defibrillator",
+    "id": "node/8424840417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5331519,
+      47.4046457
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425555999",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 91",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG024",
+    "wheelchair": "yes",
+    "id": "node/8425555999"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5615074,
+      47.4520436
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425556295",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 75",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG025",
+    "wheelchair": "yes",
+    "id": "node/8425556295"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5618155,
+      47.4523452
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425569481",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 310",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG030",
+    "wheelchair": "yes",
+    "id": "node/8425569481"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5624228,
+      47.4522143
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425570787",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 762",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG060",
+    "wheelchair": "yes",
+    "id": "node/8425570787"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5613177,
+      47.4527567
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425572253",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 100",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG028",
+    "wheelchair": "yes",
+    "id": "node/8425572253"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.56108,
+      47.4527404
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425583115",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 200",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG015",
+    "wheelchair": "yes",
+    "id": "node/8425583115"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5610224,
+      47.4499639
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425596397",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 200",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG033",
+    "wheelchair": "yes",
+    "id": "node/8425596397"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5623262,
+      47.4522637
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425597832",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 386",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG031",
+    "wheelchair": "yes",
+    "id": "node/8425597832"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5622283,
+      47.4522029
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425603376",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 100",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG034",
+    "wheelchair": "yes",
+    "id": "node/8425603376"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5614634,
+      47.4525379
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425606223",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 100",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG029",
+    "wheelchair": "yes",
+    "id": "node/8425606223"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5610729,
+      47.4527588
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425607904",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 700",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG039",
+    "wheelchair": "yes",
+    "id": "node/8425607904"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5614334,
+      47.4535138
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425611367",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 700",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG032",
+    "wheelchair": "yes",
+    "id": "node/8425611367"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5611247,
+      47.4532847
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425613587",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 930",
+    "description": "nur mit Zugangskarte erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG043",
+    "wheelchair": "no",
+    "id": "node/8425613587"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5579734,
+      47.4538129
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425616083",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 901",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG017",
+    "wheelchair": "yes",
+    "id": "node/8425616083"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5589166,
+      47.4511499
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425621621",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 830",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0.5",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG037",
+    "wheelchair": "yes",
+    "id": "node/8425621621"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5609671,
+      47.4535518
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425628638",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 350",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG036",
+    "wheelchair": "yes",
+    "id": "node/8425628638"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5616958,
+      47.4538303
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425628674",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 871",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG057",
+    "wheelchair": "yes",
+    "id": "node/8425628674"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5596258,
+      47.4509902
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425630720",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 960",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0.5",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG038",
+    "wheelchair": "yes",
+    "id": "node/8425630720"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5581962,
+      47.4538558
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425630958",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 920",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG041",
+    "wheelchair": "yes",
+    "id": "node/8425630958"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5580076,
+      47.4537549
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425632614",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 930",
+    "description": "nur mit Zugangskarte erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG056",
+    "wheelchair": "no",
+    "id": "node/8425632614"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5580809,
+      47.4538657
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425637810",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 840",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG040",
+    "wheelchair": "yes",
+    "id": "node/8425637810"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5602759,
+      47.4537417
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425641767",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 960",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG042",
+    "wheelchair": "yes",
+    "id": "node/8425641767"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5565182,
+      47.4538465
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425647132",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 100",
+    "description": "nur mit Zugangskarte erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG006",
+    "wheelchair": "no",
+    "id": "node/8425647132"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5636424,
+      47.4542657
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425649787",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 300",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG020",
+    "wheelchair": "yes",
+    "id": "node/8425649787"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5613574,
+      47.4512063
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425651075",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 200",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG021",
+    "wheelchair": "yes",
+    "id": "node/8425651075"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5615303,
+      47.4502838
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425653640",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 200",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG022",
+    "wheelchair": "yes",
+    "id": "node/8425653640"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5612253,
+      47.4512683
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425653641",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 088B",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG027",
+    "wheelchair": "yes",
+    "id": "node/8425653641"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.560284,
+      47.4519779
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425657008",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 200",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG014",
+    "wheelchair": "yes",
+    "id": "node/8425657008"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5609593,
+      47.4494641
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425663655",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 989",
+    "description": "nur mit Zugangskarte erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG058",
+    "wheelchair": "yes",
+    "id": "node/8425663655"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5573925,
+      47.4513107
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425669085",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 090B",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG026",
+    "wheelchair": "yes",
+    "id": "node/8425669085"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5604842,
+      47.452792
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425669125",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 200",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG023",
+    "wheelchair": "yes",
+    "id": "node/8425669125"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5614003,
+      47.4509184
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425670307",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 907",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG065",
+    "wheelchair": "yes",
+    "id": "node/8425670307"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5603283,
+      47.4506464
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425679537",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 800",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG016",
+    "wheelchair": "yes",
+    "id": "node/8425679537"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5602673,
+      47.4510538
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425682245",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 170",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG047",
+    "wheelchair": "yes",
+    "id": "node/8425682245"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5608466,
+      47.4512407
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425683456",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 800",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG019",
+    "wheelchair": "yes",
+    "id": "node/8425683456"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5596698,
+      47.4509729
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425691486",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 720",
+    "description": "nur mit Zugangskarte erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG052",
+    "wheelchair": "no",
+    "id": "node/8425691486"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.570141,
+      47.4534043
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425696196",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 910",
+    "description": "nur mit Zugangskarte erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "4",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG063",
+    "wheelchair": "no",
+    "id": "node/8425696196"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5645712,
+      47.4539484
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425696231",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 750",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG050",
+    "wheelchair": "yes",
+    "id": "node/8425696231"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5532461,
+      47.4612588
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425698087",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 100",
+    "description": "nur mit Zugangskarte erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG005",
+    "wheelchair": "no",
+    "id": "node/8425698087"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5649586,
+      47.4539357
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425701626",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 900",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG018",
+    "wheelchair": "yes",
+    "id": "node/8425701626"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.558531,
+      47.4511769
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425712010",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 510",
+    "description": "nur mit Zugangskarte erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG054",
+    "wheelchair": "no",
+    "id": "node/8425712010"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5714997,
+      47.4526241
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425712679",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 910",
+    "description": "nur mit Zugangskarte erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "5",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG059",
+    "wheelchair": "no",
+    "id": "node/8425712679"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5645793,
+      47.4539486
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425722707",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 360",
+    "description": "nur mit Zugangskarte erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG048",
+    "wheelchair": "yes",
+    "id": "node/8425722707"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5567076,
+      47.4610981
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425726619",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 545",
+    "description": "nur mit Zugangskarte erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG004",
+    "wheelchair": "no",
+    "id": "node/8425726619"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5679081,
+      47.453844
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425729461",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 250",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "6",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG001",
+    "wheelchair": "yes",
+    "id": "node/8425729461"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.564797,
+      47.4508304
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425736939",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 109",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG003",
+    "wheelchair": "no",
+    "id": "node/8425736939"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5736247,
+      47.4533939
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425738769",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 340",
+    "description": "nur mit Zugangskarte erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG053",
+    "wheelchair": "no",
+    "id": "node/8425738769"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5700331,
+      47.4527291
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425743754",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 250",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG010",
+    "wheelchair": "yes",
+    "id": "node/8425743754"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5623036,
+      47.4507896
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425744089",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 730",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG044",
+    "wheelchair": "yes",
+    "id": "node/8425744089"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5545657,
+      47.4612009
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425745462",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 75",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "6",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG008",
+    "wheelchair": "yes",
+    "id": "node/8425745462"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.564604,
+      47.4502993
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425747070",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 450",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG045",
+    "wheelchair": "yes",
+    "id": "node/8425747070"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5556036,
+      47.4610488
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425749230",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 150",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG046",
+    "wheelchair": "yes",
+    "id": "node/8425749230"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5575507,
+      47.4609543
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425749974",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 270",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG009",
+    "wheelchair": "yes",
+    "id": "node/8425749974"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5621187,
+      47.4497548
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425766247",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 750",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG051",
+    "wheelchair": "yes",
+    "id": "node/8425766247"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5533876,
+      47.4612492
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425766248",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 100",
+    "description": "nur mit Zugangskarte erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG035",
+    "wheelchair": "yes",
+    "id": "node/8425766248"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5620831,
+      47.4486301
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425767491",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 200",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG007",
+    "wheelchair": "yes",
+    "id": "node/8425767491"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5637506,
+      47.4521319
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425768484",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 350",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG049",
+    "wheelchair": "yes",
+    "id": "node/8425768484"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5569243,
+      47.4609981
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425768489",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 270",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG009",
+    "wheelchair": "yes",
+    "id": "node/8425768489"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5630952,
+      47.4520178
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425781368",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 200",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG012",
+    "wheelchair": "yes",
+    "id": "node/8425781368"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.562237,
+      47.4503975
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425781369",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 200",
+    "description": "nur mit Zugangskarte erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG062",
+    "wheelchair": "no",
+    "id": "node/8425781369"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5514903,
+      47.4452593
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425785450",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 450",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG013",
+    "wheelchair": "yes",
+    "id": "node/8425785450"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5621177,
+      47.4497544
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425789243",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 450",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG064",
+    "wheelchair": "yes",
+    "id": "node/8425789243"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5624309,
+      47.4495675
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8425793496",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raumnummer 450",
+    "description": "nur mit Zugangskarte erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "24/7",
+    "operator": "Flughafen Zürich AG",
+    "phone": "+41 43 816 24 24",
+    "ref": "RNG002",
+    "wheelchair": "yes",
+    "id": "node/8425793496"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5691277,
+      47.4467552
     ]
   }
 }
