@@ -1,6 +1,1493 @@
 {
 "type": "FeatureCollection",
 "features": [
-
+{
+  "type": "Feature",
+  "id": "node/5155567241",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/5155567241"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5020466,
+      46.5985851
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/5371136952",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/5371136952"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6250445,
+      46.9024641
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/5387108677",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/5387108677"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6454612,
+      46.8824074
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/5523221438",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/5523221438"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6494954,
+      46.8793331
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/6459359556",
+  "properties": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "id": "node/6459359556"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.620949,
+      46.9493509
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/6551056358",
+  "properties": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "wheelchair": "yes",
+    "id": "node/6551056358"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5794526,
+      46.934754
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/6635532681",
+  "properties": {
+    "defibrillator:location": "Aussenwand Toiletteneingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/6635532681"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6076741,
+      46.8945266
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637812578",
+  "properties": {
+    "description": "Zentrale",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Kraftwerk Wassen AG",
+    "id": "node/7637812578"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6087968,
+      46.7143595
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818465",
+  "properties": {
+    "description": "rechts beim Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Primarschulhaus",
+    "id": "node/7637818465"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7276474,
+      46.8722739
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818466",
+  "properties": {
+    "description": "Li Wand beim öffentlichen WC",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Gemeindehausplatz",
+    "id": "node/7637818466"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.620809,
+      46.9492302
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818475",
+  "properties": {
+    "access": "yes",
+    "description": "Aussenwand Rest. Bahnhöfli",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Bahnhöfli Restaurant",
+    "opening_hours": "24/7",
+    "id": "node/7637818475"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5872375,
+      46.9785377
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818477",
+  "properties": {
+    "access": "yes",
+    "description": "Eingang MZH",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Mehrzweckhalle",
+    "opening_hours": "24/7",
+    "id": "node/7637818477"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.605082,
+      46.8849962
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818478",
+  "properties": {
+    "access": "yes",
+    "description": "Aussenwand im Parterre beim WC-Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "fixme": "duplicate of node 6635532681 ??",
+    "name": "Reussdelta Badeinseln",
+    "opening_hours": "24/7",
+    "id": "node/7637818478"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6076364,
+      46.8944612
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818479",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Seerestaurant",
+    "id": "node/7637818479"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6033307,
+      46.8883516
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818488",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Brand Metallbau AG",
+    "id": "node/7637818488"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6462162,
+      46.8633022
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818489",
+  "properties": {
+    "description": "Betriebssanität. 6 Stück",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Dätwyler Sealing Solutions",
+    "id": "node/7637818489"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6432227,
+      46.8567214
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818490",
+  "properties": {
+    "description": "li. neben Haupteingang öffentlich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Gemeindehaus Dorfplatz",
+    "id": "node/7637818490"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6552268,
+      46.8644482
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818491",
+  "properties": {
+    "description": "Gebäude 048 (878) Aufgang zum Aufenthaltsraum",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Nr. 5 RUAG Rynächt",
+    "id": "node/7637818491"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6468124,
+      46.853049
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818492",
+  "properties": {
+    "defibrillator:location": "Erdgeschoss, beim FeuerlÃ¶schposten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "SISAG",
+    "id": "node/7637818492"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6448286,
+      46.8570067
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818493",
+  "properties": {
+    "defibrillator:location": "In Ausstellung /BÃ¼ro",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Garage Walker GmbH",
+    "id": "node/7637818493"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.640834,
+      46.854931
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818965",
+  "properties": {
+    "access": "yes",
+    "description": "Eingang Aussenfassade",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Centramed Praxis",
+    "opening_hours": "24/7",
+    "id": "node/7637818965"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5859272,
+      46.6685478
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818966",
+  "properties": {
+    "description": "Office",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Göscheneralp Rest Dammagletscher",
+    "id": "node/7637818966"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4997338,
+      46.64897
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818967",
+  "properties": {
+    "description": "Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Kraftwerk Göschenen",
+    "id": "node/7637818967"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5851195,
+      46.6673458
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818968",
+  "properties": {
+    "access": "yes",
+    "description": "Haupteingang/links hinter EG Türe Polizei",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Schadenwehr Gotthard",
+    "opening_hours": "24/7",
+    "id": "node/7637818968"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5914866,
+      46.6669533
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818971",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Arnold Sand und Kieswerke AG",
+    "id": "node/7637818971"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6225154,
+      46.8996791
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818972",
+  "properties": {
+    "description": "Kleiner Wartesaal",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Bushaltestelle",
+    "id": "node/7637818972"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6250294,
+      46.902379
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818973",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Wand Betriebsgebäude Campingplatz Windsurfing Urnersee",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Einwohnergemeinde Flüelen",
+    "opening_hours": "24/7",
+    "id": "node/7637818973"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.62309,
+      46.91508
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818974",
+  "properties": {
+    "defibrillator:location": "Wand Strandgebäude Flüelen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Einwohnergemeinde Flüelen",
+    "id": "node/7637818974"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6225832,
+      46.9095921
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818986",
+  "properties": {
+    "description": "Baustelle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "AGN Gotthard-Basistunnel Nord",
+    "id": "node/7637818986"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6480521,
+      46.8317683
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818987",
+  "properties": {
+    "description": "Leitstelle TTG / Sanitätszimmer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Alpinmedic",
+    "id": "node/7637818987"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6428705,
+      46.844499
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818988",
+  "properties": {
+    "description": "Rezeption",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Hotel Frohsinn",
+    "id": "node/7637818988"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6512732,
+      46.8199668
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818989",
+  "properties": {
+    "description": "Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Pfarreizentrum",
+    "id": "node/7637818989"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6468719,
+      46.8194826
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818990",
+  "properties": {
+    "description": "Empfang EG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "STRABAG AG",
+    "id": "node/7637818990"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6413106,
+      46.830427
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818991",
+  "properties": {
+    "access": "yes",
+    "description": "Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Urner Kantonalbank",
+    "opening_hours": "24/7",
+    "id": "node/7637818991"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6498627,
+      46.8242641
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818992",
+  "properties": {
+    "description": "Pausenraum / Garderobe",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Zivilschutzausbildungszentrum",
+    "id": "node/7637818992"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6466211,
+      46.8164805
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819106",
+  "properties": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Feuerwehrlokal",
+    "opening_hours": "24/7",
+    "id": "node/7637819106"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6889162,
+      46.7687398
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819107",
+  "properties": {
+    "description": "Veloabstand Talstation Luftseilbahn Golzern",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Luftseilbahn Golzern",
+    "id": "node/7637819107"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.711369,
+      46.7664226
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819120",
+  "properties": {
+    "access": "yes",
+    "description": "WC Anlage",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Kehrplatz Baumgarten",
+    "opening_hours": "24/7",
+    "id": "node/7637819120"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.579395,
+      46.9347163
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819121",
+  "properties": {
+    "description": "Nordseite d. Gebäudes an d. Fassade",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Schweiz. Sprengstoff AG",
+    "id": "node/7637819121"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5953021,
+      46.9177428
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819127",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Arnold / Moser Praxi,",
+    "id": "node/7637819127"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6631797,
+      46.8750151
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819128",
+  "properties": {
+    "access": "yes",
+    "description": "beim Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Sporthalle",
+    "opening_hours": "24/7",
+    "id": "node/7637819128"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6659661,
+      46.8752372
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819129",
+  "properties": {
+    "description": "Links neben Haupteingang (alte Telefonkabine)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Gemeindeverwaltung",
+    "id": "node/7637819129"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6290787,
+      46.8623572
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819130",
+  "properties": {
+    "description": "Magazin EG / Bereich Eingang / Lift",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Elektrizitätswerk Ursern",
+    "id": "node/7637819130"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5911751,
+      46.634596
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819131",
+  "properties": {
+    "description": "im Büro Swiss Alps",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Feriendorf Andermatt Haus Wolf",
+    "id": "node/7637819131"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5903985,
+      46.6398309
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819132",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Gasthaus Tell",
+    "id": "node/7637819132"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5958702,
+      46.633064
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819133",
+  "properties": {
+    "description": "Rezeption",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Hotel drei Könige und Post AG",
+    "id": "node/7637819133"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5979151,
+      46.6340238
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819134",
+  "properties": {
+    "access": "yes",
+    "description": "Haupteingang Pforte",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Kaserne Andermatt",
+    "opening_hours": "24/7",
+    "id": "node/7637819134"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5949985,
+      46.6387137
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819135",
+  "properties": {
+    "access": "yes",
+    "description": "Einfahrt und Ausfahrt Parking bei der Kasse A",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Reuss Parking",
+    "opening_hours": "24/7",
+    "id": "node/7637819135"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5913808,
+      46.6399559
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819136",
+  "properties": {
+    "description": "in der Aula",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Schulhaus Andermatt",
+    "id": "node/7637819136"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5922508,
+      46.6335955
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819137",
+  "properties": {
+    "description": "SPA Rezeption EG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "SPA The Chedi",
+    "id": "node/7637819137"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5943011,
+      46.6366426
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819138",
+  "properties": {
+    "description": "Empfang - Erdgeschoss",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Swiss Alps Golf Course",
+    "id": "node/7637819138"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5840493,
+      46.6342271
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819139",
+  "properties": {
+    "access": "yes",
+    "description": "Rezeption EG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "The Chedi Hotel",
+    "opening_hours": "24/7",
+    "id": "node/7637819139"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5944033,
+      46.6365336
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819140",
+  "properties": {
+    "description": "Kantine / Haupteingang re. auf Löschpo.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Gotthard Nord",
+    "id": "node/7637819140"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6666532,
+      46.7771682
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819141",
+  "properties": {
+    "description": "Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Kraftwerk Amsteg AG",
+    "id": "node/7637819141"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6715016,
+      46.7681464
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819142",
+  "properties": {
+    "description": "Treppenhaus / Aufenthaltsraum",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Walker Stahl- und Metallbau",
+    "id": "node/7637819142"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6684665,
+      46.7803065
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819146",
+  "properties": {
+    "access": "yes",
+    "description": "Büro Alpinmedic",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Alpinmedic",
+    "opening_hours": "24/7",
+    "id": "node/7637819146"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6275427,
+      46.8830738
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819147",
+  "properties": {
+    "access": "yes",
+    "description": "Haupteingang oberhalb gelben Briefkasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "APH Rosenberg",
+    "opening_hours": "24/7",
+    "id": "node/7637819147"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6437408,
+      46.8827874
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819148",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Centramed Gesundheitspraxis",
+    "id": "node/7637819148"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6467733,
+      46.8787701
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819149",
+  "properties": {
+    "description": "Verkaufsgeschäft",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Elektrizitätswerk Altdorf",
+    "id": "node/7637819149"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6439487,
+      46.8803562
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819150",
+  "properties": {
+    "description": "Treppenhaus zwischen 1. und 2. OG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Kant Verwaltung",
+    "id": "node/7637819150"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.644118,
+      46.8820547
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819151",
+  "properties": {
+    "description": "Aussenfassade der Baudirektion beim Parkplatz",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Kant Verwaltung",
+    "id": "node/7637819151"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6524369,
+      46.8743512
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819152",
+  "properties": {
+    "description": "Eingang Turnhalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Kant. Mittelschule Kollegi",
+    "id": "node/7637819152"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6512932,
+      46.8743854
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819153",
+  "properties": {
+    "access": "yes",
+    "description": "Aussenfassade",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Mehrzweckgebäude Winkel",
+    "opening_hours": "24/7",
+    "id": "node/7637819153"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6454887,
+      46.8823282
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819154",
+  "properties": {
+    "description": "Haupteingang Südportal EZ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Nr. 1 RUAG Einsatzzentrale",
+    "id": "node/7637819154"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6394922,
+      46.8599813
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819155",
+  "properties": {
+    "description": "Gebäude 036 (813)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Nr. 2 RUAG RWMS/ Ammotec",
+    "id": "node/7637819155"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6408885,
+      46.8649506
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819156",
+  "properties": {
+    "description": "im Wandschrank Nord Zone 6",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Nr. 3 RUAG Real Estate AG",
+    "id": "node/7637819156"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6359708,
+      46.865587
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819157",
+  "properties": {
+    "description": "Gebäude 041 (823)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Nr. 4 RUAG Warenannahme",
+    "id": "node/7637819157"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6377488,
+      46.8606113
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819158",
+  "properties": {
+    "description": "Durchgang Parterre b. Sortierplatz",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Paul Baldini AG",
+    "id": "node/7637819158"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.63036,
+      46.8734274
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819159",
+  "properties": {
+    "description": "Gebäude 6 / im EG neben Lift",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Pfisterer Ixosil AG",
+    "id": "node/7637819159"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6461453,
+      46.8776791
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819160",
+  "properties": {
+    "description": "Ankenwaage, Parterre, vor Lift bei Stempeluhr",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Polizeiposten",
+    "id": "node/7637819160"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6429083,
+      46.8819415
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819161",
+  "properties": {
+    "access": "yes",
+    "description": "Beim Seiteneingang (Seite Seedorferstrasse)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "Schulhaus Bernarda",
+    "opening_hours": "24/7",
+    "website": "http://www.schule-altdorf.ch",
+    "id": "node/7637819161"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6376675,
+      46.8802917
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819162",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Schwimmbad Altdorf",
+    "id": "node/7637819162"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6285091,
+      46.8923569
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819163",
+  "properties": {
+    "description": "UG gegenüber WC Anlage",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Sportanlage Feldli",
+    "id": "node/7637819163"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6375273,
+      46.8806935
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819164",
+  "properties": {
+    "description": "Schalter u. Kasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Theater Tellspielhaus",
+    "id": "node/7637819164"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.645296,
+      46.8813406
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819165",
+  "properties": {
+    "description": "Empfang an der linken Wand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Unternehmerzentrum Q4",
+    "id": "node/7637819165"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6494087,
+      46.879273
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819166",
+  "properties": {
+    "defibrillator:location": "Im GebÃ¤ude beim Empfang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Souialversicherungsstelle Uri",
+    "id": "node/7637819166"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.645854,
+      46.879755
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819178",
+  "properties": {
+    "description": "im Tankstellen Shop",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Raststätte Gotthard R >> Süd",
+    "id": "node/7637819178"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.63212,
+      46.8474995
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819179",
+  "properties": {
+    "description": "im Tankstellen Shop",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Raststätte Gotthard R>> Nord",
+    "id": "node/7637819179"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6330142,
+      46.8476161
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7826353819",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Mounted on the ouside wall of the building",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "mapillary": "1JKdCM9mG7CvMp511rmSHm",
+    "id": "node/7826353819"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.599756,
+      46.7065701
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8319547349",
+  "properties": {
+    "access": "yes",
+    "description": "Beim Haupteingang links",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Th 08:30-18:30; Fr 08:30-19:00; Sa 08:00-17:00",
+    "id": "node/8319547349"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6457287,
+      46.8550883
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8384897885",
+  "properties": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "wheelchair": "no",
+    "id": "node/8384897885"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6394133,
+      46.8778344
+    ]
+  }
+}
 ]
 }
