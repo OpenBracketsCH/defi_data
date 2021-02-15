@@ -12537,7 +12537,6 @@
     "defibrillator:location": "Zugriff nur während den Öffnungszeiten via Kundendienst",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
     "opening_hours": "Mo-Th 08:00-19:00, Fr 08:00-20:00, Sa 08:00-17:00",
     "operator": "Migros Nidau",
     "phone": "+41 58 567 94 00",
@@ -19507,8 +19506,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6586446,
-      46.5928129
+      7.6585963,
+      46.5928244
     ]
   }
 },
@@ -20107,8 +20106,9 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "AED Gemeindehaus",
+    "note": "Für Schutz & Rettung u.a einsatzrelevant.",
     "opening_hours": "Mo-Fr 08:00-11:30; 14:00-16:30",
-    "operator": "Gemeinde Gossau",
+    "operator": "Zoll Medical Systems",
     "id": "node/6992457786"
   },
   "geometry": {
@@ -20124,13 +20124,14 @@
   "id": "node/6992457787",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Feuerwehr Gossau im SAN Fahrzeug",
+    "defibrillator:location": "Feuerwehr Gossau",
     "description": "nur über Tel.118",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "AED First Responder Gossau",
-    "operator": "Feuerwehr Gossau",
+    "note": "Für Schutz & Rettung u.a einsatzrelevant.",
+    "operator": "Zoll Medical Systems",
     "id": "node/6992457787"
   },
   "geometry": {
@@ -20152,7 +20153,8 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "AED Badi Gossau",
-    "operator": "Gemeinde Gossau",
+    "note": "Für Schutz & Rettung u.a einsatzrelevant.",
+    "operator": "Zoll Medical Systems",
     "id": "node/6992457788"
   },
   "geometry": {
@@ -20174,7 +20176,8 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "AED Festhütte Altrüti",
-    "operator": "Gemeinde Gossau",
+    "note": "Für Schutz & Rettung u.a einsatzrelevant.",
+    "operator": "Zoll Medical Systems",
     "id": "node/6992457789"
   },
   "geometry": {
@@ -20196,8 +20199,9 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "AED Schulhaus Berg 1",
+    "note": "Für Schutz & Rettung u.a einsatzrelevant.",
     "opening_hours": "Mo-Fr 08:00-16:00",
-    "operator": "Gemeinde Gossau",
+    "operator": "Zoll Medical Systems",
     "id": "node/6992457790"
   },
   "geometry": {
@@ -25833,6 +25837,23 @@
 },
 {
   "type": "Feature",
+  "id": "node/7637818386",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Schützenhaus",
+    "id": "node/7637818386"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.027784,
+      47.2184879
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/7637818387",
   "properties": {
     "emergency": "defibrillator",
@@ -29949,7 +29970,6 @@
     "description": "Praxiseingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
     "name": "Luzern Permanence,",
     "id": "node/7637818694"
   },
@@ -36114,11 +36134,8 @@
   "type": "Feature",
   "id": "node/7637819090",
   "properties": {
-    "access": "no",
-    "description": "nur während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
     "name": "Rauch Christian, Praxis",
     "id": "node/7637819090"
   },
@@ -43079,7 +43096,6 @@
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
     "id": "node/7865158414"
   },
   "geometry": {
@@ -53277,224 +53293,6 @@
     "coordinates": [
       6.631653,
       46.5611362
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8401892992",
-  "properties": {
-    "covered": "yes",
-    "defibrillator:location": "à l'extérieur, à gauche de l'entrée de la maison communale, sous le débord du 1er",
-    "emergency": "defibrillator",
-    "indoor": "no",
-    "support": "pole",
-    "id": "node/8401892992"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.0136961,
-      46.8667867
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8402024002",
-  "properties": {
-    "emergency": "defibrillator",
-    "id": "node/8402024002"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.0694483,
-      47.3358587
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8403850730",
-  "properties": {
-    "access": "private",
-    "defibrillator:location": "Im Eingangsbereich",
-    "description": "nur während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Das Kehl",
-    "phone": "056 200 28 28",
-    "id": "node/8403850730"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.2863537,
-      47.4651565
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8412071101",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "An der Wand beim Sanitätsraum",
-    "description": "nur während Badebetrieb verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Bauverwaltung Oberuzwil",
-    "phone": "071 950 48 55",
-    "id": "node/8412071101"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.1206007,
-      47.4270791
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8412126197",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Im Eingang (Foyer) an der Wand in einem gekennzeichneten Notfallschrank",
-    "description": "nur während Schulbetrieb verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Bauverwaltung Oberuzwil",
-    "phone": "071 950 48 55",
-    "id": "node/8412126197"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.1285446,
-      47.4296927
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8412126215",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Im Eingangsbereich, links an der Wand",
-    "description": "nur während Schulbetrieb verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Bauverwaltung Oberuzwil",
-    "phone": "071 950 48 55",
-    "id": "node/8412126215"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.1405551,
-      47.4193864
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8412136132",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Im Vorraum/Eingangsbereich von Singsaal und Turnhalle, rechts an der Wand",
-    "description": "nur während Schulbetrieb verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Bauverwaltung Oberuzwil",
-    "phone": "071 950 48 55",
-    "id": "node/8412136132"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.1209241,
-      47.4292674
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8418047182",
-  "properties": {
-    "emergency": "defibrillator",
-    "id": "node/8418047182"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6917776,
-      47.3973166
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8418047183",
-  "properties": {
-    "emergency": "defibrillator",
-    "id": "node/8418047183"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6964748,
-      47.3901512
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8418455534",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Eingangshalle Windfang rechts",
-    "description": "nur während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Gemeinde Dagmersellen / Hauswart",
-    "phone": "062 748 52 60",
-    "id": "node/8418455534"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.9854324,
-      47.2170431
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8418455535",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Eingangshalle Windfang rechts",
-    "description": "nur während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Gemeinde Dagmersellen / Hauswart",
-    "phone": "062 748 52 60",
-    "id": "node/8418455535"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.9909283,
-      47.2147877
     ]
   }
 }
