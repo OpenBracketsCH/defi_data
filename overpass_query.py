@@ -16,7 +16,7 @@ from dotenv import load_dotenv, find_dotenv
 load_dotenv(find_dotenv())
 
 try:
-    API_ENDPOINT = os.getenv('OVERPASS_API_ENDPOINT', 'https://overpass.openstreetmap.fr/api/interpreter')
+    API_ENDPOINT = os.getenv('OVERPASS_API_ENDPOINT', 'https://z.overpass-api.de/api/interpreter')
     query = "".join(sys.stdin.readlines())
     r = requests.get(API_ENDPOINT, params={'data': query})
     print(json.dumps(r.json(), sort_keys=True, indent=2))
