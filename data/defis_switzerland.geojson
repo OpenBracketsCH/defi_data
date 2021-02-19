@@ -90756,28 +90756,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8437321417",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Test",
-    "description": "Test",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Test",
-    "id": "node/8437321417"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.7790056,
-      47.2933615
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8438537390",
   "properties": {
     "emergency": "defibrillator",
@@ -90788,6 +90766,28 @@
     "coordinates": [
       8.0661725,
       47.1680903
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8438789920",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Links beim Haupteingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Spital Rorschach",
+    "id": "node/8438789920"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4992185,
+      47.4737323
     ]
   }
 }
