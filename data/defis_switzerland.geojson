@@ -66285,8 +66285,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7528169,
-      47.3869924
+      8.7528121,
+      47.3869972
     ]
   }
 },
@@ -66598,6 +66598,7 @@
     "defibrillator:location": "am Gebäude",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "id": "node/7717374427"
   },
@@ -90813,6 +90814,27 @@
     "coordinates": [
       9.5131953,
       46.856506
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8442763417",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bahnhof Pontresina",
+    "description": "Neben dem Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8442763417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      10.0541084,
+      46.3242384
     ]
   }
 }
