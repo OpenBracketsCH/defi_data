@@ -2480,6 +2480,70 @@
       47.2731308
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/8446804922",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhauseingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "id": "node/8446804922"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4190493,
+      47.3192451
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8446804923",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Migros Zofingen",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Migros",
+    "id": "node/8446804923"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9422287,
+      47.2915762
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8446827718",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Feuerwehrfahrzeug",
+    "description": "118",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Feuerwehr",
+    "id": "node/8446827718"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4194419,
+      47.3190626
+    ]
+  }
 }
 ]
 }
