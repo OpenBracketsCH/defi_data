@@ -53724,6 +53724,50 @@
       47.5018946
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/8446597217",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindehaus Gontrnschwil, vor Eingang",
+    "description": "immer verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde",
+    "id": "node/8446597217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1455337,
+      47.2731308
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8446642817",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "RuossTech AG, Glarnerstrasse 75, 8853 Siebnen",
+    "description": "Während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "07:00-17:00",
+    "operator": "RuossTech AG (Firma)",
+    "phone": "+41554503044",
+    "id": "node/8446642817"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9072039,
+      47.1762052
+    ]
+  }
 }
 ]
 }
