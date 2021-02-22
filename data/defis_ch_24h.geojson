@@ -1569,6 +1569,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/5110767005",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An der Hauswand.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "reavita AG",
+    "phone": "+41 44 466 80 66",
+    "wheelchair": "yes",
+    "id": "node/5110767005"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      10.0578813,
+      46.3259271
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/5111112085",
   "properties": {
     "access": "yes",
@@ -37285,8 +37308,94 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      10.0541084,
-      46.3242384
+      10.054392,
+      46.3247186
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8445470118",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hinter 1.Säule links vom Eingang Werkhofsaal",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Rüthi",
+    "id": "node/8445470118"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5361268,
+      47.2944312
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8445597217",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Turnhalle Spielbrett (Im Velounterstand)",
+    "description": "immer zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "id": "node/8445597217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.64011,
+      47.6921711
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8445599617",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Polizeiposten Feuerthalen (neben Eingang",
+    "description": "immer zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "id": "node/8445599617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6438537,
+      47.6925439
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8445603117",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kindergarten Langwiesen (beim Eingang)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "id": "node/8445603117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6632132,
+      47.6840295
     ]
   }
 }

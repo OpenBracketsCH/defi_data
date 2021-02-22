@@ -82,10 +82,15 @@
   "type": "Feature",
   "id": "node/5110767005",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "An der Hauswand.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "level": "0",
-    "operator": "Farmacia Bernina",
+    "opening_hours": "24/7",
+    "operator": "reavita AG",
+    "phone": "+41 44 466 80 66",
+    "wheelchair": "yes",
     "id": "node/5110767005"
   },
   "geometry": {
@@ -2153,8 +2158,29 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      10.0541084,
-      46.3242384
+      10.054392,
+      46.3247186
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8445539417",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Kirche Masans",
+    "description": "Nur während Öffnungszeiten der Kirche zugänglich. \n\nZum Eingang in den Vorraum der Kirche rein dann geradeaus,zwei Treppen hinunter. Auf der linken Seite an der Wand ist der Defi montiert.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Kirchgemeinde",
+    "id": "node/8445539417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5341286,
+      46.8703761
     ]
   }
 }

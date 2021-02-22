@@ -3721,24 +3721,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/5110767005",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "level": "0",
-    "operator": "Farmacia Bernina",
-    "id": "node/5110767005"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      10.0578813,
-      46.3259271
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/5113123896",
   "properties": {
     "defibrillator:location": "Links mach Eingang in Migros",
@@ -35893,25 +35875,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637819078",
-  "properties": {
-    "defibrillator:location": "Schindler Personalrestaurant",
-    "description": "nur zu Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Schindler Personalrestaurant",
-    "id": "node/7637819078"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.3512276,
-      47.0876459
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637819079",
   "properties": {
     "description": "Zugang rechts bei Dispo-Büro -> Disponent",
@@ -53567,6 +53530,88 @@
     "coordinates": [
       8.6681241,
       47.3405876
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8445496417",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bankomat Raiffeisen",
+    "description": "während den Öffnungszeiten offen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Raiffeisen Mittelthurgau",
+    "id": "node/8445496417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1064603,
+      47.5667283
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8445539417",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Kirche Masans",
+    "description": "Nur während Öffnungszeiten der Kirche zugänglich. \n\nZum Eingang in den Vorraum der Kirche rein dann geradeaus,zwei Treppen hinunter. Auf der linken Seite an der Wand ist der Defi montiert.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Kirchgemeinde",
+    "id": "node/8445539417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5341286,
+      46.8703761
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8445584053",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Eingangsbereich Pfingstweidstrasse 60b",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "wheelchair": "yes",
+    "id": "node/8445584053"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5146016,
+      47.3902248
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8445635917",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Mehrzweckgebäude, rechts beim Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde",
+    "id": "node/8445635917"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.212985,
+      47.2406002
     ]
   }
 }
