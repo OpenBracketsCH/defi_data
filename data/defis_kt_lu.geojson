@@ -10166,24 +10166,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637818895",
-  "properties": {
-    "description": "Sanitätszimmer EG",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Horwerhalle",
-    "id": "node/7637818895"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.3079669,
-      47.0196869
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637818896",
   "properties": {
     "description": "Haupteingang",
@@ -13641,6 +13623,29 @@
     "coordinates": [
       8.3118466,
       47.0345035
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8456936460",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupeingang Horwerhalle",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Horw",
+    "phone": "041 349 11 11",
+    "id": "node/8456936460"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.308393,
+      47.0197306
     ]
   }
 }
