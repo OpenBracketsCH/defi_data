@@ -44249,15 +44249,17 @@
     "defibrillator:location": "Gewerblich-Industrielles Bildungszentrum",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Kanton Zug",
+    "operator": "Hochbauamt, Kanton Zug",
+    "phone": "041 728 54 00",
     "id": "node/7568739436"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5188514,
-      47.1790191
+      8.5186513,
+      47.1789549
     ]
   }
 },
@@ -91055,8 +91057,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.333036,
-      47.0023516
+      8.3331424,
+      47.0025056
     ]
   }
 },
@@ -91078,8 +91080,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3188894,
-      47.0095691
+      8.3189017,
+      47.0096063
     ]
   }
 },
@@ -91101,8 +91103,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3379528,
-      47.0145223
+      8.3379066,
+      47.0146152
     ]
   }
 },
@@ -91124,8 +91126,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2922899,
-      47.0078732
+      8.2920846,
+      47.0078192
     ]
   }
 },
@@ -92040,6 +92042,51 @@
     "coordinates": [
       8.3258533,
       47.0207634
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8457388291",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Trakt 1, 1. OG beim Lehrerzimmer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Nach Schulöffnungszeiten",
+    "operator": "Gewerblich-industrielles Bildungszentrum Zug",
+    "phone": "041 728 30 30",
+    "id": "node/8457388291"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5192703,
+      47.1787466
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8457452918",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Bachofen AG",
+    "description": "während Öffnungszeiten via Betriebssanität Bachofen AG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Do 08.00-12.00 13.00-17.00\nFr 08.00-12.00 13.00-16.15",
+    "operator": "Betrebssanität Bachofen AG",
+    "phone": "+41449441270",
+    "id": "node/8457452918"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7089652,
+      47.3557809
     ]
   }
 }

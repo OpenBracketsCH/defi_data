@@ -448,15 +448,17 @@
     "defibrillator:location": "Gewerblich-Industrielles Bildungszentrum",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Kanton Zug",
+    "operator": "Hochbauamt, Kanton Zug",
+    "phone": "041 728 54 00",
     "id": "node/7568739436"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5188514,
-      47.1790191
+      8.5186513,
+      47.1789549
     ]
   }
 },
@@ -4188,6 +4190,28 @@
     "coordinates": [
       8.6641316,
       47.1412882
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8457388291",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Trakt 1, 1. OG beim Lehrerzimmer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Nach Schulöffnungszeiten",
+    "operator": "Gewerblich-industrielles Bildungszentrum Zug",
+    "phone": "041 728 30 30",
+    "id": "node/8457388291"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5192703,
+      47.1787466
     ]
   }
 }
