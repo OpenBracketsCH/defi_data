@@ -46452,25 +46452,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7933908934",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Gemeindekanzlei",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/7933908934"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.2271504,
-      47.3273195
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7933908935",
   "properties": {
     "access": "yes",
@@ -54277,6 +54258,51 @@
     "coordinates": [
       9.7716258,
       46.9288362
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8476102691",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im ersten Stock rechts, im Umkleideraum an der Wand",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr  06:00-17:00",
+    "operator": "HASTAG AG",
+    "phone": "071 385 77 11",
+    "id": "node/8476102691"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2430359,
+      47.4301527
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8476124556",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "neben der Türe zum Eingang. Aussen an der Fassade in geheizter Wandbox.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "Mo-Fr 06:30-17:00",
+    "operator": "HASTAG AG",
+    "phone": "078 760 99 59",
+    "id": "node/8476124556"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.339033,
+      47.4118495
     ]
   }
 }
