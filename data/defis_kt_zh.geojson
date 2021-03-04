@@ -8666,29 +8666,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8184764896",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "1. Stock, Treppenhaus, beim SanArena Empfang melden",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "name": "SanArena Rettungsschule",
-    "opening_hours": "Mo-Fr 08:00-17:00",
-    "operator": "SanArena Rettungsschule",
-    "phone": "+41444616161",
-    "id": "node/8184764896"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5210575,
-      47.3709616
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8186231091",
   "properties": {
     "access": "yes",
@@ -12030,6 +12007,29 @@
     "coordinates": [
       8.5525268,
       47.409306
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8486151363",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "name": "SanArena Rettungsschule",
+    "opening_hours": "24/7",
+    "operator": "SanArena Rettungsschule",
+    "phone": "+41444616161",
+    "id": "node/8486151363"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5210576,
+      47.3709627
     ]
   }
 }
