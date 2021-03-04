@@ -28,19 +28,20 @@
   "id": "node/2396211922",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "an der Hauswand",
-    "description": "Aed 24h Öffentlich zugänglich",
+    "defibrillator:location": "Dorfplatz Vals",
+    "description": "An der Hauswand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "level": "0",
     "opening_hours": "24/7",
-    "source": "survey",
+    "wheelchair": "yes",
     "id": "node/2396211922"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.1802946,
-      46.6180314
+      9.1803021,
+      46.6180152
     ]
   }
 },
@@ -83,9 +84,11 @@
   "id": "node/5110767005",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "An der Hauswand.",
+    "defibrillator:location": "Drogheria Farmacia Bernina",
+    "description": "An der Hauswand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
     "operator": "reavita AG",
@@ -2147,7 +2150,7 @@
   "id": "node/8442763417",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bahnhof Pontresina",
+    "defibrillator:location": "Bahnhof Poschiavo",
     "description": "Neben dem Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",

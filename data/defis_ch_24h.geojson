@@ -137,19 +137,20 @@
   "id": "node/2396211922",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "an der Hauswand",
-    "description": "Aed 24h Öffentlich zugänglich",
+    "defibrillator:location": "Dorfplatz Vals",
+    "description": "An der Hauswand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "level": "0",
     "opening_hours": "24/7",
-    "source": "survey",
+    "wheelchair": "yes",
     "id": "node/2396211922"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.1802946,
-      46.6180314
+      9.1803021,
+      46.6180152
     ]
   }
 },
@@ -1572,9 +1573,11 @@
   "id": "node/5110767005",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "An der Hauswand.",
+    "defibrillator:location": "Drogheria Farmacia Bernina",
+    "description": "An der Hauswand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
     "operator": "reavita AG",
@@ -2850,16 +2853,21 @@
   "id": "node/6459359556",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Gemeindehausplatz",
+    "description": "Li Wand beim öffentlichen WC",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
+    "wheelchair": "yes",
     "id": "node/6459359556"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.620949,
-      46.9493509
+      8.6209493,
+      46.9493595
     ]
   }
 },
@@ -37300,7 +37308,7 @@
   "id": "node/8442763417",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bahnhof Pontresina",
+    "defibrillator:location": "Bahnhof Poschiavo",
     "description": "Neben dem Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -38368,6 +38376,27 @@
     "coordinates": [
       8.5210576,
       47.3709627
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8486525584",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bergstation Eggberge",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/8486525584"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6445919,
+      46.9016261
     ]
   }
 }

@@ -71,16 +71,21 @@
   "id": "node/6459359556",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Gemeindehausplatz",
+    "description": "Li Wand beim öffentlichen WC",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
+    "wheelchair": "yes",
     "id": "node/6459359556"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.620949,
-      46.9493509
+      8.6209493,
+      46.9493595
     ]
   }
 },
@@ -154,24 +159,6 @@
     "coordinates": [
       8.7276474,
       46.8722739
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7637818466",
-  "properties": {
-    "description": "Li Wand beim öffentlichen WC",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Gemeindehausplatz",
-    "id": "node/7637818466"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.620809,
-      46.9492302
     ]
   }
 },
@@ -1486,6 +1473,27 @@
     "coordinates": [
       8.6394133,
       46.8778344
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8486525584",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bergstation Eggberge",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/8486525584"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6445919,
+      46.9016261
     ]
   }
 }
