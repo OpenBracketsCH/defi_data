@@ -5409,7 +5409,7 @@
     "type": "Point",
     "coordinates": [
       8.5459473,
-      46.3077549
+      46.3077345
     ]
   }
 },
@@ -69662,8 +69662,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.6470368,
-      46.8333963
+      9.6460894,
+      46.8338449
     ]
   }
 },
@@ -92683,8 +92683,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5855154,
-      46.3088818
+      8.585232,
+      46.3088969
     ]
   }
 },
@@ -92715,8 +92715,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6644411,
-      46.4438221
+      8.6644827,
+      46.4435938
     ]
   }
 },
@@ -92875,12 +92875,12 @@
   "id": "node/8488409717",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Mutschellenstr. 23, Zahnarztpraxis, 1. OG",
+    "defibrillator:location": "Zahnarztpraxis, 1. OG",
     "description": "Während Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo: 08:00 - 12:00, 14:00 - 18:00\nDi: 07:00 - 12:00, 13:00 - 16:00\nMi: 08:00 - 12:00, 14:00 - 18:00\nDo: 08:00 - 12:00, 12:30 - 16:30\nFr: 08:00 - 12:00, 14:00 - 18:00\nSa: 08:00 - 13:00\nSo: geschlossen",
+    "opening_hours": "Mo-Fr 08:00-12:00,14:00-18:00; Tu 07:00-12:00,13:00-16:00; Th 08:00-12:00,12:30-16:30; Sa 08:00-13:00",
     "operator": "Praxis für Zahnmedizin, Dr. med. dent. Adil Ataman",
     "phone": "+41566331534",
     "id": "node/8488409717"
@@ -92890,6 +92890,51 @@
     "coordinates": [
       8.3682571,
       47.3630257
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8489986064",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Nordfassade des Gemeindehauses",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Oberuzwil, Bauverwaltung",
+    "phone": "071 950 48 55",
+    "id": "node/8489986064"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1235369,
+      47.4295202
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8489993105",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "In der Schule erstes oder zweites Stockwerk",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-21:00",
+    "operator": "ECAL",
+    "phone": "+41 (0)21 316 99 33",
+    "id": "node/8489993105"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.5882522,
+      46.5368941
     ]
   }
 }
