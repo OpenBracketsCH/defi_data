@@ -14900,10 +14900,16 @@
   "type": "Feature",
   "id": "node/6604730800",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "1. Etage im Rössliguet (in Praxis)",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Th 07:00-12:00,13:00-18:00; We 07:00-12:00,14:00-17:00; Fr 07:30-12:00,13:00-17:00",
     "operator": "Praxis Dr. Dame",
+    "phone": "055 293 35 25",
     "id": "node/6604730800"
   },
   "geometry": {
@@ -69486,22 +69492,6 @@
     "coordinates": [
       9.2956218,
       47.6119203
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7736139490",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/7736139490"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.0245441,
-      47.2131369
     ]
   }
 },
