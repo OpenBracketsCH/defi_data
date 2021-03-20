@@ -3,6 +3,27 @@
 "features": [
 {
   "type": "Feature",
+  "id": "node/2098935833",
+  "properties": {
+    "access": "yes",
+    "addr:street": "Zürcherstrasse/Paradiesweg",
+    "defibrillator:location": "Zürcherstrasse/Paradiesweg\nneben Garagengebäude",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Galgenen",
+    "id": "node/2098935833"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8886364,
+      47.1775667
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/5533244623",
   "properties": {
     "access": "yes",
@@ -140,7 +161,7 @@
   "id": "node/6796313255",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Ostseite von Carosserie Steiner",
+    "defibrillator:location": "Brestenburgstr. 2, Carosserie Steiner\nOstseite",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -563,7 +584,7 @@
   "id": "node/6976909957",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schwyzer Kantonalbank, Vorraum, Karte nötig",
+    "defibrillator:location": "Glarnerstrasse 7, Schwyzer Kantonalbank\nVorraum, Karte nötig",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -1197,7 +1218,7 @@
   "id": "node/6976938385",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Baumgartenweg 2",
+    "defibrillator:location": "Baumgartenweg 2\nneben Garageneinfahrt",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "note": "Für Schutz & Rettung u.a einsatzrelevant.",
@@ -2566,7 +2587,7 @@
   "type": "Feature",
   "id": "node/6992954768",
   "properties": {
-    "defibrillator:location": "vor Bistro Kiosk Post",
+    "defibrillator:location": "Postplatz 1\nvor Bistro Kiosk Post",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -2586,7 +2607,7 @@
   "type": "Feature",
   "id": "node/6992994100",
   "properties": {
-    "defibrillator:location": "vor Schwanen Apotheke",
+    "defibrillator:location": "Gutenbrunnen 20\nvor Schwanen Apotheke",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -2605,7 +2626,7 @@
   "type": "Feature",
   "id": "node/7041623546",
   "properties": {
-    "defibrillator:location": "vor Haupteingang",
+    "defibrillator:location": "Kantonsstrasse 15\nvor Haupteingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -3311,7 +3332,7 @@
   "id": "node/8421253581",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Beim Hornbach-Eingang",
+    "defibrillator:location": "Kantonsstrasse 61, Hornbach\nvor Seiteneingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -3411,6 +3432,47 @@
     "coordinates": [
       8.8464422,
       47.1741435
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8541501541",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Grünhaldenstrasse 3, Gemeindehaus\nvor Eingang",
+    "emergency": "defibrillator",
+    "image": "https://firstresponder-siebnen.ch/images/AED_Standorte/Schbelbach_Grnhaldenstr_3_Gemeindehaus.jpg",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Schübelbach",
+    "id": "node/8541501541"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9256908,
+      47.1747907
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8541552038",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Ruchweid 4\nSkihaus Ruchweid, in Garage unterhalb Gebäude",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Skiclub Galgenen",
+    "id": "node/8541552038"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8629904,
+      47.1541801
     ]
   }
 }
