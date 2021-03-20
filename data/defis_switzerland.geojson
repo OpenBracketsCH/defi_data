@@ -4438,6 +4438,25 @@
 },
 {
   "type": "Feature",
+  "id": "node/4903755235",
+  "properties": {
+    "defibrillator:location": "im öffentlichen WC",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "First Responder Schams",
+    "id": "node/4903755235"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4250093,
+      46.6505076
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/4926738436",
   "properties": {
     "emergency": "defibrillator",
@@ -7512,9 +7531,11 @@
   "type": "Feature",
   "id": "node/5979337846",
   "properties": {
+    "defibrillator:location": "in beheiztem Aussenkasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "operator": "First Responder Schams",
     "id": "node/5979337846"
   },
   "geometry": {
@@ -32044,6 +32065,7 @@
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
+    "operator": "resQshock GmbH",
     "id": "node/6796313255"
   },
   "geometry": {
@@ -33081,8 +33103,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.9537124,
-      47.1741013
+      8.9537033,
+      47.1741543
     ]
   }
 },
@@ -36875,16 +36897,19 @@
   "type": "Feature",
   "id": "node/6992954768",
   "properties": {
+    "defibrillator:location": "vor Bistro Kiosk Post",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "ResQshock GmbH",
     "id": "node/6992954768"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.9291304,
-      47.173111
+      8.9291321,
+      47.1731335
     ]
   }
 },
@@ -36892,8 +36917,10 @@
   "type": "Feature",
   "id": "node/6992994100",
   "properties": {
+    "defibrillator:location": "vor Schwanen Apotheke",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "id": "node/6992994100"
   },
@@ -38724,9 +38751,12 @@
   "type": "Feature",
   "id": "node/7041623546",
   "properties": {
+    "defibrillator:location": "vor Haupteingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "MuKidi Familienzentrum am Park",
     "id": "node/7041623546"
   },
   "geometry": {
@@ -74302,22 +74332,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7878731416",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/7878731416"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.4250654,
-      46.6504476
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7880583137",
   "properties": {
     "access": "customers",
@@ -74524,8 +74538,11 @@
   "type": "Feature",
   "id": "node/7889304004",
   "properties": {
+    "defibrillator:location": "im öffentlichen WC",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "First Responder Schams",
     "id": "node/7889304004"
   },
   "geometry": {
@@ -94289,6 +94306,28 @@
 },
 {
   "type": "Feature",
+  "id": "node/8540860924",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Pfarreiheim Würenlingen, Behinderten WC",
+    "description": "während Anlässen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Kath. Kirchgemeinde Würenlingen",
+    "phone": "0562811128",
+    "id": "node/8540860924"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2581061,
+      47.529883
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8540890817",
   "properties": {
     "access": "no",
@@ -94350,6 +94389,45 @@
     "coordinates": [
       7.8057579,
       47.5538639
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8541032964",
+  "properties": {
+    "defibrillator:location": "im öffentlichen WC",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "First Responder Schams",
+    "id": "node/8541032964"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4074498,
+      46.6264634
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8541071418",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "beim Feuerwehrlokal",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "First Responder Schams",
+    "id": "node/8541071418"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.424079,
+      46.6225576
     ]
   }
 }

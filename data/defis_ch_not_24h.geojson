@@ -3147,6 +3147,25 @@
 },
 {
   "type": "Feature",
+  "id": "node/4903755235",
+  "properties": {
+    "defibrillator:location": "im öffentlichen WC",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "First Responder Schams",
+    "id": "node/4903755235"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4250093,
+      46.6505076
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/4926738436",
   "properties": {
     "emergency": "defibrillator",
@@ -5097,9 +5116,11 @@
   "type": "Feature",
   "id": "node/5979337846",
   "properties": {
+    "defibrillator:location": "in beheiztem Aussenkasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "operator": "First Responder Schams",
     "id": "node/5979337846"
   },
   "geometry": {
@@ -43070,22 +43091,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7878731416",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/7878731416"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.4250654,
-      46.6504476
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7880583137",
   "properties": {
     "access": "customers",
@@ -43270,8 +43275,11 @@
   "type": "Feature",
   "id": "node/7889304004",
   "properties": {
+    "defibrillator:location": "im öffentlichen WC",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "First Responder Schams",
     "id": "node/7889304004"
   },
   "geometry": {
@@ -55169,6 +55177,28 @@
 },
 {
   "type": "Feature",
+  "id": "node/8540860924",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Pfarreiheim Würenlingen, Behinderten WC",
+    "description": "während Anlässen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Kath. Kirchgemeinde Würenlingen",
+    "phone": "0562811128",
+    "id": "node/8540860924"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2581061,
+      47.529883
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8540890817",
   "properties": {
     "access": "no",
@@ -55230,6 +55260,24 @@
     "coordinates": [
       7.8057579,
       47.5538639
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8541032964",
+  "properties": {
+    "defibrillator:location": "im öffentlichen WC",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "First Responder Schams",
+    "id": "node/8541032964"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4074498,
+      46.6264634
     ]
   }
 }

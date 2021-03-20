@@ -146,6 +146,7 @@
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
+    "operator": "resQshock GmbH",
     "id": "node/6796313255"
   },
   "geometry": {
@@ -829,8 +830,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.9537124,
-      47.1741013
+      8.9537033,
+      47.1741543
     ]
   }
 },
@@ -2564,16 +2565,19 @@
   "type": "Feature",
   "id": "node/6992954768",
   "properties": {
+    "defibrillator:location": "vor Bistro Kiosk Post",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "ResQshock GmbH",
     "id": "node/6992954768"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.9291304,
-      47.173111
+      8.9291321,
+      47.1731335
     ]
   }
 },
@@ -2581,8 +2585,10 @@
   "type": "Feature",
   "id": "node/6992994100",
   "properties": {
+    "defibrillator:location": "vor Schwanen Apotheke",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "id": "node/6992994100"
   },
@@ -2598,9 +2604,12 @@
   "type": "Feature",
   "id": "node/7041623546",
   "properties": {
+    "defibrillator:location": "vor Haupteingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "MuKidi Familienzentrum am Park",
     "id": "node/7041623546"
   },
   "geometry": {

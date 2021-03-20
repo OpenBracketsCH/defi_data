@@ -81,6 +81,25 @@
 },
 {
   "type": "Feature",
+  "id": "node/4903755235",
+  "properties": {
+    "defibrillator:location": "im öffentlichen WC",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "First Responder Schams",
+    "id": "node/4903755235"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4250093,
+      46.6505076
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/5110767005",
   "properties": {
     "access": "yes",
@@ -186,9 +205,11 @@
   "type": "Feature",
   "id": "node/5979337846",
   "properties": {
+    "defibrillator:location": "in beheiztem Aussenkasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "operator": "First Responder Schams",
     "id": "node/5979337846"
   },
   "geometry": {
@@ -1839,26 +1860,13 @@
 },
 {
   "type": "Feature",
-  "id": "node/7878731416",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/7878731416"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.4250654,
-      46.6504476
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7889304004",
   "properties": {
+    "defibrillator:location": "im öffentlichen WC",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "First Responder Schams",
     "id": "node/7889304004"
   },
   "geometry": {
@@ -2454,6 +2462,45 @@
     "coordinates": [
       8.8418782,
       46.7002562
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8541032964",
+  "properties": {
+    "defibrillator:location": "im öffentlichen WC",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "First Responder Schams",
+    "id": "node/8541032964"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4074498,
+      46.6264634
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8541071418",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "beim Feuerwehrlokal",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "First Responder Schams",
+    "id": "node/8541071418"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.424079,
+      46.6225576
     ]
   }
 }
