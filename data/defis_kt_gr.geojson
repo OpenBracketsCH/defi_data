@@ -2485,27 +2485,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8541071418",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "beim Feuerwehrlokal",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "First Responder Schams",
-    "id": "node/8541071418"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.424079,
-      46.6225576
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8541080318",
   "properties": {
     "access": "yes",
@@ -2522,6 +2501,27 @@
     "coordinates": [
       9.4234453,
       46.6027184
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8545176318",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Grischuna Fleischtrocknerei Churwalden",
+    "description": "immer verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8545176318"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5374069,
+      46.7872626
     ]
   }
 }
