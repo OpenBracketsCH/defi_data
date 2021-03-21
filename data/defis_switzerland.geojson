@@ -94751,6 +94751,71 @@
       47.4402819
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/8544828617",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "TKB Thurgauer Kantonalbank",
+    "description": "neben Bankomat / Geldautomat ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Ermatingen ",
+    "id": "node/8544828617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.083396,
+      47.6692598
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8544840017",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Raiffeisenbank ",
+    "description": "während Öffnungszeit der Bank",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Sonntag Geschlossen\nMontag 08:30–12:00 und 13:30–16:30\nDienstag Geschlossen\nMittwoch 08:30–12:00 und 13:30–16:30\nDonnerstag 08:30–12:00 und \n13:30–16:30\nFreitag 08:30–12:00 und \n13:30–16:30\nSamstag Geschlossen",
+    "operator": "Raiffeisenbank ",
+    "id": "node/8544840017"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.083912,
+      47.6687859
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8544843017",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Mehrzweckhalle Schule",
+    "description": "während Schulzeiten - im Eingang rechts",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Ermatingen",
+    "id": "node/8544843017"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.083445,
+      47.6678681
+    ]
+  }
 }
 ]
 }
