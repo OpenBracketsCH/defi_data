@@ -45410,6 +45410,7 @@
     "defibrillator:location": "In Polizeidienststelle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Kanton Zug",
     "id": "node/7579637108"
@@ -95501,6 +95502,29 @@
     "coordinates": [
       8.0445478,
       47.3865279
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8554653118",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "beim bademeister ",
+    "description": "wärend öffunungszeiten verfügbar \n",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "hallenbad wädenswil",
+    "phone": "0799138486",
+    "id": "node/8554653118"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6606458,
+      47.2285653
     ]
   }
 }
