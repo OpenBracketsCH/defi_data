@@ -22955,22 +22955,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7569054302",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/7569054302"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.2743867,
-      47.4182085
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7573035048",
   "properties": {
     "defibrillator:location": "am Haus",
@@ -56055,6 +56039,28 @@
     "coordinates": [
       9.584904,
       47.3934687
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8554925917",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Pfrundmatttunhalle",
+    "description": "während der Schulzeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 8.00- 17.00 Uhr",
+    "operator": "Gemeinde",
+    "id": "node/8554925917"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1840666,
+      47.2550248
     ]
   }
 }

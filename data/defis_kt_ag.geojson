@@ -874,8 +874,14 @@
   "type": "Feature",
   "id": "node/7569054302",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Ausserhalb des Gemeindegebäudes",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Mellingen / Samariterverein Mellingen",
     "id": "node/7569054302"
   },
   "geometry": {
@@ -3216,6 +3222,28 @@
     "coordinates": [
       8.0842198,
       47.4760436
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8554925917",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Pfrundmatttunhalle",
+    "description": "während der Schulzeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 8.00- 17.00 Uhr",
+    "operator": "Gemeinde",
+    "id": "node/8554925917"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1840666,
+      47.2550248
     ]
   }
 }
