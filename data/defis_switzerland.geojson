@@ -32905,10 +32905,11 @@
     "defibrillator:location": "Verenasaal Pfarrheim",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "note": "Für Schutz & Rettung u.a einsatzrelevant.",
     "opening_hours": "24/7",
     "operator": "Pfarrei St. Anton",
-    "phone": "+41 41 811 50 43",
+    "phone": "041 818 61 20",
     "id": "node/6976909959"
   },
   "geometry": {
@@ -40376,8 +40377,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.8486258,
-      46.5103042
+      6.8486884,
+      46.5103411
     ]
   }
 },
@@ -95525,6 +95526,290 @@
     "coordinates": [
       8.6606458,
       47.2285653
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8554744717",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindehaus, 5079 Zeihen",
+    "description": "An der Aussenwand links neben der Eingangstüre\n\n",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde",
+    "phone": "+41628674040",
+    "id": "node/8554744717"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0842198,
+      47.4760436
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8554760558",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Werkhof PLUS;links an der Frontseite der grossen Feuerwehrtore",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Merishausen",
+    "phone": "052 653 16 35",
+    "id": "node/8554760558"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6051405,
+      47.7624681
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8554761412",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im EG beim Empfang und in jedem zweiten Stockwerk.",
+    "description": "während Büroöffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Swisscom AG, Security",
+    "id": "node/8554761412"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5208405,
+      47.3908688
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8554764936",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An der Gebäudefassade unterhalb des Logos",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Merishausen",
+    "phone": "052 653 16 35",
+    "id": "node/8554764936"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6101203,
+      47.7594976
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8554766813",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingangsbereich A der Firma Hitachi Zosen Inova AG",
+    "description": "während Büroöffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Hitachi Zosen Inova AG",
+    "phone": "0442771111",
+    "id": "node/8554766813"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5140867,
+      47.3928298
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8554775617",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Polizei Küsnacht",
+    "description": "1 AED befindet sich im Streifenwagen und einer auf der Wache",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Kapo/Gepo Küsnacht",
+    "phone": "0449142160",
+    "id": "node/8554775617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5848244,
+      47.3192314
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8554778669",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Geschäftsstelle Pro Senectute Kanton Zürich\nEG, Foyer/Haupteingang",
+    "description": "während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:30-12:00, 13:00-17:00",
+    "operator": "Pro Senectute Kanton Zürich, Interne Dienste, Andre Barfuss",
+    "phone": "058 451 51 83",
+    "id": "node/8554778669"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5638609,
+      47.3605993
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8554787355",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "im Treppenhaus, direkt beim Hauseingang",
+    "description": "24h, Tür muss jedoch von einem Bewohner oder Praxis geöffnet werden (ca 20 Klingelknöpfe)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Praxis Sihlbogen - Micha Bloch",
+    "phone": "044 500 19 25",
+    "id": "node/8554787355"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.51907,
+      47.3358098
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8554802075",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben Haupteingang Gemeindeverwaltung unter Vordach",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung Winkel",
+    "phone": "044 864 81 11",
+    "id": "node/8554802075"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5519276,
+      47.4925714
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8554804159",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vor dem Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/8554804159"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5674445,
+      47.3940351
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8554807617",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Frauenarzt Praxis Dr. Kratzer ",
+    "description": "während den Öffnungszeiten ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Aerzte Praxis ",
+    "phone": "+41448401606",
+    "id": "node/8554807617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4608618,
+      47.4308573
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8554826629",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang Foyer",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/8554826629"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5848207,
+      47.393106
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8554826630",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Turnhalle",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/8554826630"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.584904,
+      47.3934687
     ]
   }
 }

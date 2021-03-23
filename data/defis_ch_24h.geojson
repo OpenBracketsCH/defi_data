@@ -13638,10 +13638,11 @@
     "defibrillator:location": "Verenasaal Pfarrheim",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "note": "Für Schutz & Rettung u.a einsatzrelevant.",
     "opening_hours": "24/7",
     "operator": "Pfarrei St. Anton",
-    "phone": "+41 41 811 50 43",
+    "phone": "041 818 61 20",
     "id": "node/6976909959"
   },
   "geometry": {
@@ -18733,8 +18734,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.8486258,
-      46.5103042
+      6.8486884,
+      46.5103411
     ]
   }
 },
@@ -39615,6 +39616,143 @@
     "coordinates": [
       8.6606458,
       47.2285653
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8554760558",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Werkhof PLUS;links an der Frontseite der grossen Feuerwehrtore",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Merishausen",
+    "phone": "052 653 16 35",
+    "id": "node/8554760558"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6051405,
+      47.7624681
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8554764936",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An der Gebäudefassade unterhalb des Logos",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Merishausen",
+    "phone": "052 653 16 35",
+    "id": "node/8554764936"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6101203,
+      47.7594976
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8554775617",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Polizei Küsnacht",
+    "description": "1 AED befindet sich im Streifenwagen und einer auf der Wache",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Kapo/Gepo Küsnacht",
+    "phone": "0449142160",
+    "id": "node/8554775617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5848244,
+      47.3192314
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8554787355",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "im Treppenhaus, direkt beim Hauseingang",
+    "description": "24h, Tür muss jedoch von einem Bewohner oder Praxis geöffnet werden (ca 20 Klingelknöpfe)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Praxis Sihlbogen - Micha Bloch",
+    "phone": "044 500 19 25",
+    "id": "node/8554787355"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.51907,
+      47.3358098
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8554802075",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben Haupteingang Gemeindeverwaltung unter Vordach",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung Winkel",
+    "phone": "044 864 81 11",
+    "id": "node/8554802075"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5519276,
+      47.4925714
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8554807617",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Frauenarzt Praxis Dr. Kratzer ",
+    "description": "während den Öffnungszeiten ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Aerzte Praxis ",
+    "phone": "+41448401606",
+    "id": "node/8554807617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4608618,
+      47.4308573
     ]
   }
 }
