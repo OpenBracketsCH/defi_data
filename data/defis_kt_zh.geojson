@@ -1178,34 +1178,18 @@
 },
 {
   "type": "Feature",
-  "id": "node/6989544717",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "name": "AED Schulhaus Breite Hinwil",
-    "opening_hours": "24/7",
-    "source": "local knowledge",
-    "id": "node/6989544717"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.8497146,
-      47.2992822
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6989544718",
   "properties": {
-    "defibrillator:location": "Schule Hadlikon",
-    "description": "während Schulzeiten",
+    "access": "yes",
+    "defibrillator:location": "Ausserhalb des Schulhauses",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "name": "AED Schulhaus Hadlikon Hinwil",
+    "opening_hours": "24/7",
+    "operator": "Schule Hinwil / Peter Gantenbein",
+    "phone": "+41798838691",
     "source": "local knowledge",
     "id": "node/6989544718"
   },
@@ -3648,24 +3632,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7667107712",
-  "properties": {
-    "defibrillator:location": "Bei Dr.med. Hans Pfister",
-    "description": "während Öffnungszeiten",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/7667107712"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.8490367,
-      47.299842
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7667107713",
   "properties": {
     "defibrillator:location": "Tennisclub Hinwil",
@@ -3741,11 +3707,15 @@
   "id": "node/7667107717",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schule Unterbach",
+    "defibrillator:location": "Am Schulhaus",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
+    "operator": "Schule Hinwil / Peter Gantenbein",
+    "phone": "+41798838691",
     "id": "node/7667107717"
   },
   "geometry": {
@@ -3796,10 +3766,15 @@
   "type": "Feature",
   "id": "node/7667107720",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Schule Wernetshausen",
     "description": "während Schulzeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Schule Hinwil / Peter Gantenbein",
+    "phone": "+41798838691",
     "id": "node/7667107720"
   },
   "geometry": {
@@ -13320,6 +13295,412 @@
     "coordinates": [
       8.5080354,
       47.605437
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8556997037",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindehaus Eingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung 8187 Weiach",
+    "phone": "044 554 41 60",
+    "id": "node/8556997037"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4369408,
+      47.557058
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8556997038",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Seebadi Egg Rällikon am Greifensee",
+    "description": "nur in Sommermonaten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Egg H. J. Schiess",
+    "phone": "079 418 09 64",
+    "id": "node/8556997038"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6970842,
+      47.3209096
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8556997039",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Garderobengebäude UG",
+    "description": "während Spielbetrieb verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Egg H.J. Schiess",
+    "phone": "079 418 09 64",
+    "wheelchair": "yes",
+    "id": "node/8556997039"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6939889,
+      47.2911739
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8556997040",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Sanitätszimmer",
+    "description": "während Spielzeten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:30-12:00,14:00-16:30",
+    "operator": "Gemeinde Egg H.J. Schiess",
+    "phone": "079 418 09 64",
+    "wheelchair": "yes",
+    "id": "node/8556997040"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6949787,
+      47.2993581
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8556997041",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Dreifachhalle Kirchwies, UG",
+    "description": "während Spielbetrieb verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Egg H.J. Schiess",
+    "phone": "079 418 09 64",
+    "wheelchair": "yes",
+    "id": "node/8556997041"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6930957,
+      47.2997565
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8556997042",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Seiteneingang EG",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:30-12:00,14:00-16:30",
+    "operator": "Gemeinde Egg H.J. Schiess",
+    "phone": "079 418 09 64",
+    "wheelchair": "yes",
+    "id": "node/8556997042"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6891334,
+      47.3016836
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8557017645",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Links neben Hauseingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "GEWOBAG, Langggrütstr. 140, 8047 Zürich",
+    "phone": "044 406 82 20",
+    "id": "node/8557017645"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4292978,
+      47.3796139
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8557047322",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "In Apotheke",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Frau Dr. Fröhlich, Apothekerin",
+    "id": "node/8557047322"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5666309,
+      47.3645727
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8557052360",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Eingangshalle Trakt 1",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "medicteam.ch",
+    "phone": "079 424 92 99",
+    "id": "node/8557052360"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7296254,
+      47.5402187
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8557055962",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Haupteingang, vis-à-vis von Empfang",
+    "description": "24h über Notfallstation erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Kinderspital Zürich",
+    "phone": "044 266 71 11",
+    "id": "node/8557055962"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5583416,
+      47.3717379
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8557062520",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Eingang zum Büro an der Wand",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "Baupool Baumanagement AG Sylvia Krebs",
+    "phone": "0443429111",
+    "id": "node/8557062520"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5080515,
+      47.4014279
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8557096742",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "24h in Einsatzfahrzeug inkl. Firstresponder",
+    "description": "im Einsatzfahrzeug",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "NVSD-Sicherheit",
+    "phone": "0448540755",
+    "id": "node/8557096742"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4658241,
+      47.4803277
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8557121974",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Aussenfassade, bei der Schiedsrichter Kabine",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Männedorf, Facility Management",
+    "phone": "044 921 67 67",
+    "id": "node/8557121974"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.712983,
+      47.2589011
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8557121975",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Sanitäter Raum, beim Bademeister melden",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Männedorf, Facility Management",
+    "phone": "044 921 67 67",
+    "id": "node/8557121975"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7076092,
+      47.2464464
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8557121976",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Sanitäter Raum, beim Bademeister melden",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Männedorf, Facility Management",
+    "phone": "044 921 67 67",
+    "id": "node/8557121976"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7012389,
+      47.255516
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8557121977",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Treppenhaus, EG",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-11:30, 13:15-16:30",
+    "operator": "Gemeinde Männedorf, Facility Management",
+    "phone": "044 921 67 67",
+    "id": "node/8557121977"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6975943,
+      47.250064
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8557121978",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Treppenhaus, EG",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo 08:00-11:30,13:30-18:30; Tu 07:00-11:30; We,Th 08:00-11:30,13:30-16:30; Fr 08:00-13:30",
+    "operator": "Gemeinde Männedorf, Facility Management",
+    "phone": "044 921 67 67",
+    "id": "node/8557121978"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6914247,
+      47.2536144
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8557132947",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Klubhaus, untere Etage bei den Fussballplätzen, neben Toilette und Garderobe",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "FC Ellikon/Marthalen (Janine Russo)",
+    "phone": "0797804633",
+    "id": "node/8557132947"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.647635,
+      47.634625
     ]
   }
 }

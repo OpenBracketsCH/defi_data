@@ -16685,21 +16685,26 @@
 },
 {
   "type": "Feature",
-  "id": "node/6989544717",
+  "id": "node/6989544718",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Ausserhalb des Schulhauses",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "name": "AED Schulhaus Breite Hinwil",
+    "name": "AED Schulhaus Hadlikon Hinwil",
     "opening_hours": "24/7",
+    "operator": "Schule Hinwil / Peter Gantenbein",
+    "phone": "+41798838691",
     "source": "local knowledge",
-    "id": "node/6989544717"
+    "id": "node/6989544718"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8497146,
-      47.2992822
+      8.8526626,
+      47.2884432
     ]
   }
 },
@@ -27494,11 +27499,15 @@
   "id": "node/7667107717",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schule Unterbach",
+    "defibrillator:location": "Am Schulhaus",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
+    "operator": "Schule Hinwil / Peter Gantenbein",
+    "phone": "+41798838691",
     "id": "node/7667107717"
   },
   "geometry": {
@@ -27506,6 +27515,29 @@
     "coordinates": [
       8.8893949,
       47.2860483
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7667107720",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schule Wernetshausen",
+    "description": "während Schulzeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Schule Hinwil / Peter Gantenbein",
+    "phone": "+41798838691",
+    "id": "node/7667107720"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8657764,
+      47.2981157
     ]
   }
 },
@@ -40159,6 +40191,144 @@
     "coordinates": [
       8.5080354,
       47.605437
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8556997037",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindehaus Eingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung 8187 Weiach",
+    "phone": "044 554 41 60",
+    "id": "node/8556997037"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4369408,
+      47.557058
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8557017645",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Links neben Hauseingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "GEWOBAG, Langggrütstr. 140, 8047 Zürich",
+    "phone": "044 406 82 20",
+    "id": "node/8557017645"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4292978,
+      47.3796139
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8557055962",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Haupteingang, vis-à-vis von Empfang",
+    "description": "24h über Notfallstation erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Kinderspital Zürich",
+    "phone": "044 266 71 11",
+    "id": "node/8557055962"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5583416,
+      47.3717379
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8557085832",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hinter der Rezeption (rechts nach dem Hoteleingang)",
+    "description": "24h für Hotelgäste / 07.00 bis 24.00 Uhr öffentlich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Wellnesshotel Golf Panorama",
+    "phone": "052 208 08 08",
+    "id": "node/8557085832"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0586989,
+      47.6218979
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8557096742",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "24h in Einsatzfahrzeug inkl. Firstresponder",
+    "description": "im Einsatzfahrzeug",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "NVSD-Sicherheit",
+    "phone": "0448540755",
+    "id": "node/8557096742"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4658241,
+      47.4803277
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8557132947",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Klubhaus, untere Etage bei den Fussballplätzen, neben Toilette und Garderobe",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "FC Ellikon/Marthalen (Janine Russo)",
+    "phone": "0797804633",
+    "id": "node/8557132947"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.647635,
+      47.634625
     ]
   }
 }
