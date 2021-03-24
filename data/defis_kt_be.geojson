@@ -12820,30 +12820,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6636632386",
-  "properties": {
-    "access": "permissive",
-    "addr:city": "Hindelbank",
-    "addr:housenumber": "8",
-    "addr:postcode": "3324",
-    "addr:street": "Schulhausweg",
-    "defibrillator:location": "während den Öffnungszeiten der Turnhalle verfügbar, befindet sich im Eingangsbereich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "operator": "Schule Hindelbank",
-    "phone": "+41 34 411 17 54",
-    "id": "node/6636632386"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5420342,
-      47.0447569
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6636632387",
   "properties": {
     "access": "yes",
@@ -32199,6 +32175,29 @@
     "coordinates": [
       7.7392164,
       46.7863949
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8557371525",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Carport",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Kantonspolizei Bern",
+    "phone": "031 638 83 90",
+    "id": "node/8557371525"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5830967,
+      47.0847966
     ]
   }
 }

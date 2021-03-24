@@ -12078,30 +12078,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6636632386",
-  "properties": {
-    "access": "permissive",
-    "addr:city": "Hindelbank",
-    "addr:housenumber": "8",
-    "addr:postcode": "3324",
-    "addr:street": "Schulhausweg",
-    "defibrillator:location": "während den Öffnungszeiten der Turnhalle verfügbar, befindet sich im Eingangsbereich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "operator": "Schule Hindelbank",
-    "phone": "+41 34 411 17 54",
-    "id": "node/6636632386"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5420342,
-      47.0447569
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6636632388",
   "properties": {
     "access": "private",
@@ -23047,25 +23023,6 @@
     "coordinates": [
       8.3235624,
       47.4705035
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7574604114",
-  "properties": {
-    "access": "private",
-    "defibrillator:location": "Migros beim Kundendienst",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "id": "node/7574604114"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.3243054,
-      47.46718
     ]
   }
 },
@@ -52579,28 +52536,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8341587426",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Gang vor der Turnhalle",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Schulgemeinde Neckertal Herrn Christian Roth",
-    "phone": "079 775 81 05",
-    "id": "node/8341587426"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.1307679,
-      47.3498736
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8357208578",
   "properties": {
     "defibrillator:location": "Beim Eingangsbereich zum Geissbergsaal",
@@ -56976,7 +56911,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Th 07:00-11:30,13:30-17:00",
+    "opening_hours": "Mo-Th 07:00-11:30,13:30-17:00; Fr 07:00-11:30,13:30-15:00",
     "operator": "Feuerwehr Kilchberg-Rüschlikon",
     "id": "node/8557229633"
   },
@@ -57053,6 +56988,46 @@
     "coordinates": [
       8.6345619,
       47.2366423
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8557335054",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "AED im Eingangsbereich",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-23:00, Sa 09:00-23:00",
+    "id": "node/8557335054"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2780694,
+      47.384588
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8557383058",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Entrée EG, Wand rechts",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Kath. Kirchgemeinde St. Gallen",
+    "id": "node/8557383058"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3021121,
+      47.4026715
     ]
   }
 }

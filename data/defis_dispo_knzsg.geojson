@@ -8294,20 +8294,21 @@
   "id": "node/8341587426",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Gang vor der Turnhalle",
+    "defibrillator:location": "Defibrillator befindet sich vor dem Haupteingang des Oberstufenzentrums.",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "opening_hours": "24/7",
     "operator": "Schulgemeinde Neckertal Herrn Christian Roth",
-    "phone": "079 775 81 05",
+    "phone": "071 372 50 20",
     "id": "node/8341587426"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.1307679,
-      47.3498736
+      9.1306794,
+      47.3499427
     ]
   }
 },
@@ -9401,6 +9402,46 @@
     "coordinates": [
       9.5321323,
       47.4394043
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8557335054",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "AED im Eingangsbereich",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-23:00, Sa 09:00-23:00",
+    "id": "node/8557335054"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2780694,
+      47.384588
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8557383058",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Entrée EG, Wand rechts",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Kath. Kirchgemeinde St. Gallen",
+    "id": "node/8557383058"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3021121,
+      47.4026715
     ]
   }
 }

@@ -34972,6 +34972,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/8341587426",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Defibrillator befindet sich vor dem Haupteingang des Oberstufenzentrums.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Schulgemeinde Neckertal Herrn Christian Roth",
+    "phone": "071 372 50 20",
+    "id": "node/8341587426"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1306794,
+      47.3499427
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8345905862",
   "properties": {
     "access": "yes",
@@ -40531,6 +40554,29 @@
     "coordinates": [
       9.5321323,
       47.4394043
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8557371525",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Carport",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Kantonspolizei Bern",
+    "phone": "031 638 83 90",
+    "id": "node/8557371525"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5830967,
+      47.0847966
     ]
   }
 }
