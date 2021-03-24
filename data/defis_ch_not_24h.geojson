@@ -14254,6 +14254,7 @@
     "defibrillator:location": "Büros im 4. Stock des 4. Turms 2 Defibrillatoren vor Ort, Büros 3415 und 3417, Tagsüber Bürozeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "level": "4",
     "operator": "Conduent Business Solutions AG",
     "phone": "+41 79 343 61 67",
@@ -56462,6 +56463,28 @@
 },
 {
   "type": "Feature",
+  "id": "node/8556538290",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Tennisclub Itschnach im Clubhaus",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "ennisclub Itschnach",
+    "phone": "044 910 44 80",
+    "id": "node/8556538290"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6055478,
+      47.3285653
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8556563378",
   "properties": {
     "access": "no",
@@ -56471,7 +56494,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 07:45-16:45",
-    "operator": "Stadt Zürich/ Stefan Trindler, SIBE Hans Asper",
+    "operator": "Stadt Zürich, SIBE Hans Asper",
     "phone": "044 413 13 36",
     "id": "node/8556563378"
   },
@@ -56480,6 +56503,95 @@
     "coordinates": [
       8.5340837,
       47.3414991
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8556664849",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Turm 3, 1. UG beim Liftvorplatz",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00 - 17:00",
+    "operator": "Bouygues Energies & Services / Daniel Vetter",
+    "phone": "+41 76 367 18 53",
+    "id": "node/8556664849"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3987073,
+      46.9385831
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8556671479",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "EG, Eingang Werkstatt",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "062 206 16 16",
+    "id": "node/8556671479"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9049823,
+      47.3532336
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8556682159",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Standort: Garderobe Cafeteria 1. OG (via Empfang zugänglich)",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
+    "operator": "Swissmem, Verband der Maschinen-, Elektro- und Metallindustrie",
+    "phone": "044 384 41 11",
+    "id": "node/8556682159"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5099424,
+      47.3909584
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8556750383",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Gebäude, beim Haupteingang rechts",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Samariterverein Winterthur-Stadt, Franziska Kläui",
+    "phone": "079 411 53 27",
+    "id": "node/8556750383"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7304294,
+      47.5008581
     ]
   }
 }

@@ -16659,6 +16659,7 @@
     "defibrillator:location": "Büros im 4. Stock des 4. Turms 2 Defibrillatoren vor Ort, Büros 3415 und 3417, Tagsüber Bürozeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "level": "4",
     "operator": "Conduent Business Solutions AG",
     "phone": "+41 79 343 61 67",
@@ -32131,6 +32132,29 @@
     "coordinates": [
       7.2388768,
       46.9023927
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8556664849",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Turm 3, 1. UG beim Liftvorplatz",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00 - 17:00",
+    "operator": "Bouygues Energies & Services / Daniel Vetter",
+    "phone": "+41 76 367 18 53",
+    "id": "node/8556664849"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3987073,
+      46.9385831
     ]
   }
 }
