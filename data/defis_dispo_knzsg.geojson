@@ -28,6 +28,25 @@
 },
 {
   "type": "Feature",
+  "id": "node/873925262",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingangsbereich Alters und Pflegezentrum im Gebäude links",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "Mo-Sa 08:00-20:00",
+    "id": "node/873925262"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.417014,
+      47.3337593
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/1847264321",
   "properties": {
     "description": "Standort bei Shop im EG der Talstation",
@@ -1946,25 +1965,6 @@
     "coordinates": [
       9.4327461,
       47.3210971
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7721098229",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Eingangsbereich Alters und Pflegezentrum im Gebäude links",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "Mo-Sa 08:00-20:00",
-    "id": "node/7721098229"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.4169801,
-      47.3336119
     ]
   }
 },
@@ -5714,7 +5714,8 @@
     "description": "Defibrillator immer erreichbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "entrance",
+    "opening_hours": "24/7",
     "operator": "Kantonspolizei Appenzel I.Rh",
     "id": "node/7933308397"
   },
@@ -9466,6 +9467,26 @@
     "coordinates": [
       9.4821177,
       46.9483054
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8557850917",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Fachhochschule St.Gallen im Erdgeschoss links vom Eingang",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/8557850917"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3673624,
+      47.4231472
     ]
   }
 }
