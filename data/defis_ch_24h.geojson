@@ -2549,17 +2549,22 @@
   "id": "node/6089506385",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Pavillon (WC Anlage)",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Egg H.J. Schiess",
+    "phone": "079 418 09 64",
     "wheelchair": "yes",
     "id": "node/6089506385"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6895682,
-      47.3022008
+      8.6895347,
+      47.3020999
     ]
   }
 },
@@ -40046,6 +40051,114 @@
     "coordinates": [
       8.4082458,
       47.4476137
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8556933217",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Werkgebäude / Feuerwehrmagazin. Neben Eingangstüre Feuerwehrmagazin. Gegenüber Metzgerei Niedermann.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8556933217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6400725,
+      47.6673003
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8556938708",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Auf dem Schulareal, beim Eingang zur alten Turnhalle",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8556938708"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6282098,
+      47.673928
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8556938709",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Auf dem Volgplatz. Am Schopf, gegenüber vom Volg",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8556938709"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6344419,
+      47.6706585
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8556940062",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Garageneinfahrt (Defi Symbol)",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "STWEG Löwenpark Esslingen ZH",
+    "phone": "079 418 09 64",
+    "id": "node/8556940062"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7097898,
+      47.2888156
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8556943064",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der AED ist bem Eingang der Gemeinde. Frei zugänglich.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Wil ZH",
+    "id": "node/8556943064"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5080354,
+      47.605437
     ]
   }
 }
