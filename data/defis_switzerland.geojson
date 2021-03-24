@@ -77502,11 +77502,12 @@
   "id": "node/7933308397",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Polizeiposten an der Rezeption",
-    "description": "nur während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Polizeiposten im Vorraum der Rezeption links an der Wand",
+    "description": "Defibrillator immer erreichbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "Mo-Su 08:00-12:00 14:00-18:00",
+    "indoor": "yes",
+    "operator": "Kantonspolizei Appenzel I.Rh",
     "id": "node/7933308397"
   },
   "geometry": {
@@ -97607,6 +97608,29 @@
     "coordinates": [
       9.3021121,
       47.4026715
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8557604728",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Zentrale Kraftwerke Sarganserland Haupteingang",
+    "description": "Während Normalarbeitszeit verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo. - Fr. 07:00 - 16:30",
+    "operator": "Kraftwerke Sarganserland AG",
+    "phone": "0813035611",
+    "id": "node/8557604728"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4821177,
+      46.9483054
     ]
   }
 }
