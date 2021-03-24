@@ -38053,12 +38053,15 @@
   "type": "Feature",
   "id": "node/7656488588",
   "properties": {
-    "access": "private",
+    "access": "yes",
     "defibrillator:location": "Hans Kohler AG, beim Infopoint",
     "description": "während Betriebszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:15-12:00, 13:15-16:45",
+    "operator": "Hans Kohler AG",
+    "phone": "+41 44 741 80 00",
     "id": "node/7656488588"
   },
   "geometry": {
@@ -56915,6 +56918,141 @@
     "coordinates": [
       8.6914247,
       47.2536144
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8557197996",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "links vor dem Haupteingang zum Oberstufenschulhaus",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeindeverwaltung Russikon",
+    "phone": "0433556141",
+    "id": "node/8557197996"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7757775,
+      47.3968495
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8557209978",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingangsbereich Büroeinschub",
+    "description": "während Betriebszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:15-12:00, 13:15-16:45",
+    "operator": "Hans Kohler AG",
+    "phone": "+41 44 741 80 00",
+    "id": "node/8557209978"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4267175,
+      47.4008583
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8557229633",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Sanitätsfahrzeug",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Th 07:00-11:30,13:30-17:00",
+    "operator": "Feuerwehr Kilchberg-Rüschlikon",
+    "id": "node/8557229633"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5453979,
+      47.3193841
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8557282090",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Haupteingang Bernstrasse 90 benutzen (1. OG) Links Richtung Empfang gehen. Der Defi befindet sich hinter dem Tresen links an der Wand. Er ist nur von der Hinterseite der Theke sichtbar.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "bb trading werbeartikel ag",
+    "id": "node/8557282090"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4297203,
+      47.3989851
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8557288918",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Obstgartenstrasse 21, 8006 Zürich",
+    "description": "Am Empfang melden",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00 - 17:00 Uhr",
+    "operator": "BVK",
+    "phone": "+41584704600",
+    "id": "node/8557288918"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5424736,
+      47.3830087
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8557308463",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Reception area, ground floor, left at entrance to main school building",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "operator": "Amanda Gaillet and Abigail Morgan",
+    "phone": "058 750 2222",
+    "id": "node/8557308463"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6345619,
+      47.2366423
     ]
   }
 }
