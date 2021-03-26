@@ -58264,6 +58264,70 @@
       46.9490508
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/8563223317",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "ALK",
+    "description": "Aussen am Gebäude",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Albula-Landwasser Kraftwerke AG",
+    "phone": "+41798661166",
+    "id": "node/8563223317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4,
+      46.9456102
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8563229817",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Stauanlage Gigerwal",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Kraftwerke Sarganserland AG",
+    "phone": "0813035612",
+    "id": "node/8563229817"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3938322,
+      46.9134197
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8563233020",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Zentrale Sarelli",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Kraftwerke Sarganserland AG",
+    "phone": "0813035612",
+    "id": "node/8563233020"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5385314,
+      46.9772568
+    ]
+  }
 }
 ]
 }
