@@ -23607,6 +23607,48 @@
 },
 {
   "type": "Feature",
+  "id": "node/8562609161",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Vorraum der ZKB-Filiale",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Zürcher Kantonalbank",
+    "id": "node/8562609161"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8451522,
+      47.4379226
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8562609162",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Grosshalle, links im Eingang",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/8562609162"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8362037,
+      47.4417201
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8562610126",
   "properties": {
     "access": "yes",
@@ -23648,6 +23690,92 @@
     "coordinates": [
       8.6777213,
       47.4758836
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8562637924",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "im Schulhaus",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/8562637924"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7298065,
+      47.6122319
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8562698067",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Gebäude Empa Akademie",
+    "description": "interne Betriebssanität aufbieten 058 765 88 88",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Empa Zentrale, nach Renato Figi fragen",
+    "phone": "058 765 11 11",
+    "id": "node/8562698067"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6135696,
+      47.4033082
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8562698068",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Eawag Gebaude Forurm Chriesbach (= Empfang Eawag)",
+    "description": "interne Betriebssanität aufbieten 058 765 88 88",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Empa Zentrale, nach Renato Figi fragen",
+    "phone": "058 765 11 11",
+    "id": "node/8562698068"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6096093,
+      47.403901
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8562698069",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Empa Gebäude NEST (= Empfang Empa)",
+    "description": "interne Betriebssanität aufbieten 058 765 88 88",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Empa Zentrale, nach Renato Figi fragen",
+    "phone": "058 765 11 11",
+    "id": "node/8562698069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6127555,
+      47.4028063
     ]
   }
 }
