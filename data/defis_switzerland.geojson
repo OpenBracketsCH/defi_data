@@ -97397,8 +97397,8 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "24/7",
-    "operator": "Beat Schrag, SIBE, Sefar AG",
-    "phone": "071 898 56 58",
+    "operator": "Sefar AG",
+    "phone": "071 898 58 88",
     "id": "node/8557314142"
   },
   "geometry": {
@@ -99694,6 +99694,174 @@
     "coordinates": [
       8.0844529,
       47.4007866
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8563480417",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Feuerwehrlokal",
+    "description": "24/24",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde",
+    "id": "node/8563480417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8663423,
+      46.2730573
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8563513617",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Stromverteilkasten",
+    "description": "24/24",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde",
+    "id": "node/8563513617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8612021,
+      46.2782498
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8563563117",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Coop Eingang ",
+    "description": "24/24",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde",
+    "id": "node/8563563117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2696004,
+      46.4881362
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8563845217",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "im Gang vor der Turnhalle 2",
+    "description": "während Schulzeiten und Vereinstrainings geöffnet (abends max. bis 22 Uhr)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "\n7-22",
+    "operator": "Schule Merenschwand",
+    "id": "node/8563845217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.378472,
+      47.2582389
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8563849317",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "24-Stundenbereich der Raiffeisenbank",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "id": "node/8563849317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3738888,
+      47.2601695
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8563854917",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vorraum der Mehrzweckhalle (MZH)",
+    "description": "während Schulbetrieb und Vereinstrainings",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "7-22",
+    "id": "node/8563854917"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.37641,
+      47.2590731
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8563854918",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Campus Eidgenössische Zollverwaltung (EZV), beim Empfang",
+    "description": "nur während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr: 07:30-18:00",
+    "operator": "Eidgenössische Zollverwaltung",
+    "id": "node/8563854918"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.744466,
+      47.4796648
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8563935117",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rathaus Bremgarten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde",
+    "id": "node/8563935117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3424515,
+      47.3518622
     ]
   }
 }
