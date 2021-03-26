@@ -96251,11 +96251,10 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Eingang Lehrerzimmer",
-    "description": "24h verfügbar",
+    "description": "während Schulbetrieb verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
+    "indoor": "yes",
     "operator": "Gemeinde Weisslingen",
     "phone": "052 397 31 00",
     "id": "node/8556585556"
@@ -99543,6 +99542,27 @@
     "coordinates": [
       7.4395355,
       46.9490508
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8563003017",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "im 24-Stundenbereich (bei Bancomat)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Raiffeisenbank Merenschwand",
+    "id": "node/8563003017"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4,
+      46.9399504
     ]
   }
 }
