@@ -99629,6 +99629,73 @@
       46.9772568
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/8563277759",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Erdgeschoss, Eingangsfoyer rechts neben der Infotafel an der Wand montiert.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Hausdienst Berikon",
+    "id": "node/8563277759"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3694695,
+      47.3533163
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8563291289",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Empfang 3. OG, links 10m der Wand des Gebäudekerns entlang zur Kaffeeküche, Defi links neben dem Wasserspender",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-19:00",
+    "operator": "Citytrans GmbH, Silvio Libera",
+    "phone": "044 732 14 32",
+    "id": "node/8563291289"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4377736,
+      47.3996092
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8563305272",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Zivilschutz, zwischen Abfallsammelstelle und CLubhaus FC Rohr",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Zivilschutzorganisation ZSO Aare Region",
+    "phone": "+41 62 843 47 20",
+    "id": "node/8563305272"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0844529,
+      47.4007866
+    ]
+  }
 }
 ]
 }
