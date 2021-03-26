@@ -3,81 +3,6 @@
 "features": [
 {
   "type": "Feature",
-  "id": "way/379582635",
-  "properties": {
-    "addr:city": "Bern",
-    "addr:country": "CH",
-    "addr:floor": "-1",
-    "addr:housenumber": "10",
-    "addr:postcode": "3011",
-    "addr:street": "Bahnhofplatz",
-    "alt_name": "Migros Take-Away Bern Bahnhof",
-    "amenity": "fast_food",
-    "branch": "Bern Bahnhof",
-    "brand": "Migros Daily",
-    "diet:vegetarian": "yes",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "-1",
-    "name": "Migros Take-Away",
-    "opening_hours": "Mo-Sa 05:00-22:00; PH,Su 05:00-21:00",
-    "operator": "Genossenschaft Migros Aare",
-    "takeaway": "only",
-    "website": "https://filialen.migros.ch/de/migros-daily-take-away-bern-bahnhof-take-away",
-    "wheelchair": "yes",
-    "id": "way/379582635"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          7.4392781,
-          46.9489331
-        ],
-        [
-          7.4396644,
-          46.9489904
-        ],
-        [
-          7.4396631,
-          46.9490082
-        ],
-        [
-          7.4396596,
-          46.9490318
-        ],
-        [
-          7.4396653,
-          46.9490557
-        ],
-        [
-          7.4396809,
-          46.9490789
-        ],
-        [
-          7.4395403,
-          46.9491376
-        ],
-        [
-          7.4393769,
-          46.9491006
-        ],
-        [
-          7.4394298,
-          46.9490318
-        ],
-        [
-          7.4392781,
-          46.9489331
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/357181864",
   "properties": {
     "emergency": "defibrillator",
@@ -57756,7 +57681,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 09:00-18:00; Sa-Su 09:00-12:00",
-    "operator": "Evang.-ref. Kirchgemeinde Stäfa / Andreas Erni",
+    "operator": "Evang.-ref. Kirchgemeinde Stäfa",
     "phone": "044 927 10 90",
     "id": "node/8561231768"
   },
@@ -58273,6 +58198,48 @@
     "coordinates": [
       8.6127555,
       47.4028063
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8562820772",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Treppenhaus vom EG bis 5. OG jeweils ein Defi",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "Horst Ritzel Alterszentren Stadt Zürich",
+    "phone": "044 412 47 48",
+    "id": "node/8562820772"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.542493,
+      47.4160394
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8562883537",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Take-Away",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/8562883537"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4395355,
+      46.9490508
     ]
   }
 }

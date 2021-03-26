@@ -23302,7 +23302,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 09:00-18:00; Sa-Su 09:00-12:00",
-    "operator": "Evang.-ref. Kirchgemeinde Stäfa / Andreas Erni",
+    "operator": "Evang.-ref. Kirchgemeinde Stäfa",
     "phone": "044 927 10 90",
     "id": "node/8561231768"
   },
@@ -23776,6 +23776,52 @@
     "coordinates": [
       8.6127555,
       47.4028063
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8562819833",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "m Eingangsbereich, auf der Innenseite, hinter einer Glasscheibe sichtbar. Am Tag frei zugänglich, in der Nacht muss geläutet werden, dass die Nachtwache den Defi aushändigen kann",
+    "description": "24h verfügbar / über Nachtwache",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Senevita Im Rebberg",
+    "phone": "044 915 80 50",
+    "id": "node/8562819833"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6131644,
+      47.2889647
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8562820772",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Treppenhaus vom EG bis 5. OG jeweils ein Defi",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "Horst Ritzel Alterszentren Stadt Zürich",
+    "phone": "044 412 47 48",
+    "id": "node/8562820772"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.542493,
+      47.4160394
     ]
   }
 }
