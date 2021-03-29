@@ -7021,9 +7021,13 @@
   "type": "Feature",
   "id": "node/6531625096",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Bademeister",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "operator": "Gemeinde Elsau",
     "id": "node/6531625096"
   },
   "geometry": {
@@ -58585,6 +58589,201 @@
     "coordinates": [
       8.4668578,
       47.3994478
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8570538942",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hinterer Hauseingang",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Pflege Eulachtal",
+    "id": "node/8570538942"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7979322,
+      47.498714
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8570538943",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "In der Lagerhalle an der Wand.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 7:30-18:00",
+    "operator": "Sulser Trading & Services",
+    "phone": "044 847 46 45",
+    "id": "node/8570538943"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4004238,
+      47.4577972
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8570538944",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "4. Stock beim Empfang",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 7:30-18:00",
+    "operator": "Sulser Trading & Services",
+    "phone": "044 847 46 45",
+    "id": "node/8570538944"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3977728,
+      47.4578616
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8570538945",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Links vom Turnhalleneingang, im Gebäude drin",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Schule Wiesendangen, Schulverwaltung",
+    "phone": "052 320 60 70",
+    "id": "node/8570538945"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8267636,
+      47.5404242
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8570538946",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Rechts vom Turnhalleneingang, im Gebäude",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Schule Wiesendangen, Schulverwaltung",
+    "phone": "052 320 60 70",
+    "id": "node/8570538946"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7899577,
+      47.5236766
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8570538947",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Vor der Garderobe Lehrer",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Schule Wiesendangen, Schulverwaltung",
+    "phone": "052 320 60 70",
+    "id": "node/8570538947"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7913933,
+      47.5233847
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8570538973",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Süd",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "Schule Elsau- Schlatt",
+    "phone": "052 368 70 70",
+    "id": "node/8570538973"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8003519,
+      47.5021941
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8570538974",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Gebäude bei der Pflege",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "Pflege Eulachtal",
+    "phone": "052 368 61 11",
+    "id": "node/8570538974"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7837718,
+      47.5021266
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8570538975",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Tenniscenter / Empfang",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "TenniArena",
+    "phone": "052 368 78 88",
+    "id": "node/8570538975"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7848622,
+      47.5029904
     ]
   }
 }
