@@ -10610,6 +10610,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/6633502921",
+  "properties": {
+    "access": "no",
+    "addr:city": "Kandersteg",
+    "addr:housenumber": "251",
+    "addr:postcode": "3718",
+    "addr:street": "Innere Dorfstrasse",
+    "defibrillator:location": "Nach der Barriere erstes Haus Rechts Im Windfang",
+    "description": "zur Zeit geschlossen und nicht erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Schweizerische Armee",
+    "id": "node/6633502921"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6607332,
+      46.4747616
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/6633502922",
   "properties": {
     "access": "permissive",
@@ -58784,6 +58808,29 @@
     "coordinates": [
       8.7848622,
       47.5029904
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8571024617",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Grünbeck Wasseraufbereitu Schulstrasse 163, 8105 Regensdorf ",
+    "description": "Beim Haupteingang rechts an der Wand gut sichtbar montiert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr: 07:00-16:00",
+    "operator": "Grünbeck Wasseraufbereitung Schweiz GmbH",
+    "phone": "+41448423300",
+    "id": "node/8571024617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4691677,
+      47.4371894
     ]
   }
 }
