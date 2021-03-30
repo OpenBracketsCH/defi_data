@@ -32254,6 +32254,49 @@
       46.9399504
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/8573689760",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Am Empfang",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:30-16:30",
+    "operator": "SQS",
+    "id": "node/8573689760"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4566054,
+      46.9933385
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8573701059",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Parkplatz",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8573701059"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.612906,
+      47.064519
+    ]
+  }
 }
 ]
 }
