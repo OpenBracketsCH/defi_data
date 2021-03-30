@@ -1873,23 +1873,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/4316234217",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "location": "Inside ticket office / infotmation point at main entrance to zoo.",
-    "id": "node/4316234217"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5823325,
-      47.5488976
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/4321924249",
   "properties": {
     "emergency": "defibrillator",
@@ -47717,25 +47700,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8038988146",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Beim Spar Markt",
-    "description": "unbekannt wann verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/8038988146"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.0444678,
-      47.2629813
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8038988147",
   "properties": {
     "access": "yes",
@@ -59261,6 +59225,74 @@
     "coordinates": [
       8.5821623,
       47.3202751
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8573830431",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Gemeindehaus 1. Geschoss, links neben Schalter Einwohnerdienste an der Wand.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo 08:00-11:30,13:30-18:00; Tu-Th 08:00-11:30,13:30-16:30; Fr 07:00-15:00",
+    "operator": "Gemeindeverwaltung Kilchberg",
+    "id": "node/8573830431"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5451243,
+      47.3246374
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8573832498",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Zwischentrakt Wohnheimgebäude. Gemäss offizieller Beschilderung",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-21:30",
+    "operator": "ES Sicherheit AG",
+    "phone": "071 314 24 24",
+    "id": "node/8573832498"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2320736,
+      47.3319307
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8573912085",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "In der Apotheke",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-19:00; Sa 08:00-17:00",
+    "operator": "Apotheke Küsnacht",
+    "phone": "044 910 04 04",
+    "id": "node/8573912085"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5816738,
+      47.318419
     ]
   }
 }

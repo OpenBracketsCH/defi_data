@@ -7370,9 +7370,13 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Beim Spar Markt",
-    "description": "unbekannt wann verfügbar",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Politische Gemeinde Gommiswald",
+    "phone": "079 156 15 91",
     "id": "node/8038988146"
   },
   "geometry": {
@@ -9808,6 +9812,144 @@
     "coordinates": [
       9.492073,
       47.4157887
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8573815629",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "beim alten Schulhaus Rechte Gebäudeseite, Strassenseitig an der Wand",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Politische Gemeinde Gommiswald",
+    "phone": "079 156 15 91",
+    "id": "node/8573815629"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0046243,
+      47.2529859
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8573815630",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Bushäuschen Bushaltestelle Birkenhalde, zwischen Einfahrt Birkenhaldenstrasse und Ottenhofenstrasse Uetliburg",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Politische Gemeinde Gommiswald",
+    "phone": "079 156 15 91",
+    "id": "node/8573815630"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0311003,
+      47.2390525
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8573815631",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Bushäuschen zwischen Rickenstrasse 31 und 29 (Gauenhof, Coop)",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Politische Gemeinde Gommiswald",
+    "phone": "079 156 15 91",
+    "id": "node/8573815631"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0206659,
+      47.234191
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8573815632",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Oberstufenschulhaus, bei der Abwartswohnung Links an der Betonmauer, bevor man die grosse Freitreppe zum Schulhauseingang geht",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Politische Gemeinde Gommiswald",
+    "phone": "079 156 15 91",
+    "id": "node/8573815632"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0238845,
+      47.2326392
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8573815633",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Hauseingang Rechts an der Hauswand",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Politische Gemeinde Gommiswald",
+    "phone": "079 156 15 91",
+    "id": "node/8573815633"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0496693,
+      47.219712
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8573832498",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Zwischentrakt Wohnheimgebäude. Gemäss offizieller Beschilderung",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-21:30",
+    "operator": "ES Sicherheit AG",
+    "phone": "071 314 24 24",
+    "id": "node/8573832498"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2320736,
+      47.3319307
     ]
   }
 }

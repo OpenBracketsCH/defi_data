@@ -2932,9 +2932,14 @@
   "type": "Feature",
   "id": "node/4316234217",
   "properties": {
+    "defibrillator:location": "Zoo Basel, Haupteingang, unmittelbar nach der Kasse an Hausecke",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "location": "Inside ticket office / infotmation point at main entrance to zoo.",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Zoo Basel",
+    "phone": "061 295 35 35",
     "id": "node/4316234217"
   },
   "geometry": {
@@ -80372,9 +80377,13 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Beim Spar Markt",
-    "description": "unbekannt wann verfügbar",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Politische Gemeinde Gommiswald",
+    "phone": "079 156 15 91",
     "id": "node/8038988146"
   },
   "geometry": {
@@ -100849,6 +100858,298 @@
     "coordinates": [
       8.5821623,
       47.3202751
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8573815629",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "beim alten Schulhaus Rechte Gebäudeseite, Strassenseitig an der Wand",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Politische Gemeinde Gommiswald",
+    "phone": "079 156 15 91",
+    "id": "node/8573815629"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0046243,
+      47.2529859
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8573815630",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Bushäuschen Bushaltestelle Birkenhalde, zwischen Einfahrt Birkenhaldenstrasse und Ottenhofenstrasse Uetliburg",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Politische Gemeinde Gommiswald",
+    "phone": "079 156 15 91",
+    "id": "node/8573815630"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0311003,
+      47.2390525
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8573815631",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Bushäuschen zwischen Rickenstrasse 31 und 29 (Gauenhof, Coop)",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Politische Gemeinde Gommiswald",
+    "phone": "079 156 15 91",
+    "id": "node/8573815631"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0206659,
+      47.234191
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8573815632",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Oberstufenschulhaus, bei der Abwartswohnung Links an der Betonmauer, bevor man die grosse Freitreppe zum Schulhauseingang geht",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Politische Gemeinde Gommiswald",
+    "phone": "079 156 15 91",
+    "id": "node/8573815632"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0238845,
+      47.2326392
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8573815633",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Hauseingang Rechts an der Hauswand",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Politische Gemeinde Gommiswald",
+    "phone": "079 156 15 91",
+    "id": "node/8573815633"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0496693,
+      47.219712
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8573818307",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vor dem Hauseingang, direkt an der Blumenaustrasse Nr. 19",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Monika Huwyler (nothelfer-centrum Ostschweiz)",
+    "phone": "+41 79 400 65 90",
+    "id": "node/8573818307"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9696731,
+      47.4651855
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8573830431",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Gemeindehaus 1. Geschoss, links neben Schalter Einwohnerdienste an der Wand.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo 08:00-11:30,13:30-18:00; Tu-Th 08:00-11:30,13:30-16:30; Fr 07:00-15:00",
+    "operator": "Gemeindeverwaltung Kilchberg",
+    "id": "node/8573830431"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5451243,
+      47.3246374
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8573832498",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Zwischentrakt Wohnheimgebäude. Gemäss offizieller Beschilderung",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-21:30",
+    "operator": "ES Sicherheit AG",
+    "phone": "071 314 24 24",
+    "id": "node/8573832498"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2320736,
+      47.3319307
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8573912085",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "In der Apotheke",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-19:00; Sa 08:00-17:00",
+    "operator": "Apotheke Küsnacht",
+    "phone": "044 910 04 04",
+    "id": "node/8573912085"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5816738,
+      47.318419
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8573914199",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupt-Eingang Schützenhaus",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Unterägeri",
+    "id": "node/8573914199"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5609353,
+      47.1329443
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8573930036",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Links von Treppe",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Villmergen",
+    "phone": "056 619 59 00",
+    "id": "node/8573930036"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2430512,
+      47.3477765
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8573989124",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hauseingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8573989124"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5496002,
+      47.4044888
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8574001445",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hauseingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8574001445"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5501089,
+      47.4040901
     ]
   }
 }
