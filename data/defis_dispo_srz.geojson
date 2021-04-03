@@ -2020,7 +2020,7 @@
   "id": "node/6976909959",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Verenasaal Pfarrheim",
+    "defibrillator:location": "Nebeneingang Pfarrheim Ibach (Parkplatz)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -25382,6 +25382,50 @@
     "coordinates": [
       8.675348,
       47.3928994
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8589986483",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Sanitätsraum 2 OG",
+    "description": "nur während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Stadtbibliothek Winterthur / Hausdienst",
+    "phone": "+41522674121",
+    "id": "node/8589986483"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7295614,
+      47.4986739
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8590071640",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Eingang, bei der Kasse",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "www.reanimieren.com",
+    "phone": "079 518 47 20",
+    "id": "node/8590071640"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5056891,
+      47.2441801
     ]
   }
 }

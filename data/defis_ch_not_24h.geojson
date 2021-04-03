@@ -60002,6 +60002,73 @@
       46.1782012
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/8589986483",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Sanitätsraum 2 OG",
+    "description": "nur während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Stadtbibliothek Winterthur / Hausdienst",
+    "phone": "+41522674121",
+    "id": "node/8589986483"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7295614,
+      47.4986739
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8590071640",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Eingang, bei der Kasse",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "www.reanimieren.com",
+    "phone": "079 518 47 20",
+    "id": "node/8590071640"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5056891,
+      47.2441801
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8590117259",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Zwischen den Kassen und Pflanzen",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-19:00, Sa 07:30-18:00; PH off",
+    "operator": "Genossenschaft Migros Basel",
+    "phone": "+41 58 575 83 80",
+    "wheelchair": "yes",
+    "id": "node/8590117259"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6517484,
+      47.5853313
+    ]
+  }
 }
 ]
 }
