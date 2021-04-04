@@ -450,17 +450,16 @@
   "type": "Feature",
   "id": "node/3532705581",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "addr:floor": "0",
     "contact:addr": "Brünnenstrasse 66, 3018 Bern",
     "contact:emergency": "144",
     "contact:phone": "+41 31 6336001",
-    "defibrillator:location": "Beim Empfangspersonal melden. - AED im Erdgeschoss im Sanitätszimmer neben dem Empfangsraum. Bitte Öffnungszeiten beachten.",
+    "defibrillator:location": "Aussen am Gebäude der Steuerverwaltung",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00; Sa-Su off; PH off",
-    "source": "survey",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/3532705581"
   },
   "geometry": {

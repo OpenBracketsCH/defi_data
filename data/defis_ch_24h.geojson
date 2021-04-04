@@ -390,6 +390,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/3532705581",
+  "properties": {
+    "access": "yes",
+    "addr:floor": "0",
+    "contact:addr": "Brünnenstrasse 66, 3018 Bern",
+    "contact:emergency": "144",
+    "contact:phone": "+41 31 6336001",
+    "defibrillator:location": "Aussen am Gebäude der Steuerverwaltung",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/3532705581"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3859399,
+      46.942713
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/3653196823",
   "properties": {
     "addr:city": "Au",
@@ -42339,6 +42363,26 @@
     "coordinates": [
       7.308295,
       46.8871532
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8592533918",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "auf Schulhausplatz",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8592533918"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.958689,
+      46.6022252
     ]
   }
 }

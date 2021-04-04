@@ -952,31 +952,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/3532705581",
-  "properties": {
-    "access": "permissive",
-    "addr:floor": "0",
-    "contact:addr": "Brünnenstrasse 66, 3018 Bern",
-    "contact:emergency": "144",
-    "contact:phone": "+41 31 6336001",
-    "defibrillator:location": "Beim Empfangspersonal melden. - AED im Erdgeschoss im Sanitätszimmer neben dem Empfangsraum. Bitte Öffnungszeiten beachten.",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00; Sa-Su off; PH off",
-    "source": "survey",
-    "id": "node/3532705581"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.3859399,
-      46.942713
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/3548635175",
   "properties": {
     "access": "permissive",
@@ -60228,6 +60203,44 @@
     "coordinates": [
       8.5416894,
       47.521292
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8592488919",
+  "properties": {
+    "emergency": "defibrillator",
+    "id": "node/8592488919"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5760504,
+      47.4314032
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8592581718",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "2. OG Empfang Lohwisstrasse 50\nBei Eintritt links durch die Türe in den Gang, dort sofort ersichtlich",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-12:00,13:00-17:00",
+    "operator": "Procamed",
+    "phone": "0523686000",
+    "id": "node/8592581718"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6429328,
+      47.3577271
     ]
   }
 }
