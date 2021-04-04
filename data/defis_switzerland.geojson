@@ -39135,8 +39135,11 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Beim Eingang Volg (aussen)",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Danis",
     "wheelchair": "yes",
     "id": "node/7176803090"
@@ -39171,8 +39174,10 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Wand Schulhaus",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Brigels",
     "wheelchair": "limited",
@@ -39191,9 +39196,11 @@
   "id": "node/7180934122",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "An der Wand am Gebäde",
+    "defibrillator:location": "An der Wand am Gebäude, direkt neben Postbriefkasten",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Dardin",
     "wheelchair": "limited",
@@ -39202,8 +39209,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.0492001,
-      46.7580534
+      9.048953,
+      46.7577628
     ]
   }
 },
@@ -52221,8 +52228,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3767472,
-      47.1049505
+      8.3767393,
+      47.1048778
     ]
   }
 },
@@ -102608,6 +102615,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/8592538601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussenschrank am Feuerwehrdepot Braunau (Sicherheitsverbund Region Wil SG), beim Entsorgungsplatz der Gemeinde",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Sicherheitsverbund Region Wil, Feuerwehr Braunau, Thomas Widmer, 9500 Wil SG",
+    "phone": "0583462300",
+    "id": "node/8592538601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0716558,
+      47.5022894
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8592581718",
   "properties": {
     "access": "yes",
@@ -102626,6 +102656,74 @@
     "coordinates": [
       8.6429328,
       47.3577271
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8592588023",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "am Feuerwehrdepot",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Dorfverein Neukirch an der Thur, präsident Erwin Lanker",
+    "phone": "071 642 40 84",
+    "id": "node/8592588023"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1723305,
+      47.5110753
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8592588148",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang rechts neben der Türe aussen",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Reavita AG",
+    "phone": "0444668066",
+    "id": "node/8592588148"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3611156,
+      47.1090294
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8592626283",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Seebad Oberrieden bei Abfallcontainern, zwischen Badikiosk und Badmeisterraum",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Oberrieden / Badmeister Oggenfuss, Schrepfer, Barmettler",
+    "phone": "044 720 07 58",
+    "id": "node/8592626283"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5821339,
+      47.276282
     ]
   }
 }

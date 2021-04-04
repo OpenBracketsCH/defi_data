@@ -20916,26 +20916,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7176803090",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Beim Eingang Volg (aussen)",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "operator": "Danis",
-    "wheelchair": "yes",
-    "id": "node/7176803090"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.0560605,
-      46.754925
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7179636243",
   "properties": {
     "emergency": "defibrillator",
@@ -27789,8 +27769,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3767472,
-      47.1049505
+      8.3767393,
+      47.1048778
     ]
   }
 },
@@ -60241,6 +60221,28 @@
     "coordinates": [
       8.6429328,
       47.3577271
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8592626283",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Seebad Oberrieden bei Abfallcontainern, zwischen Badikiosk und Badmeisterraum",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Oberrieden / Badmeister Oggenfuss, Schrepfer, Barmettler",
+    "phone": "044 720 07 58",
+    "id": "node/8592626283"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5821339,
+      47.276282
     ]
   }
 }

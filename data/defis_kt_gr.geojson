@@ -414,8 +414,11 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Beim Eingang Volg (aussen)",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Danis",
     "wheelchair": "yes",
     "id": "node/7176803090"
@@ -434,8 +437,10 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Wand Schulhaus",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Brigels",
     "wheelchair": "limited",
@@ -454,9 +459,11 @@
   "id": "node/7180934122",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "An der Wand am Gebäde",
+    "defibrillator:location": "An der Wand am Gebäude, direkt neben Postbriefkasten",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Dardin",
     "wheelchair": "limited",
@@ -465,8 +472,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.0492001,
-      46.7580534
+      9.048953,
+      46.7577628
     ]
   }
 },
