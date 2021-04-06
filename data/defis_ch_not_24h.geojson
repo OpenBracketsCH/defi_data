@@ -10223,8 +10223,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5694763,
-      47.0741068
+      7.569648,
+      47.074779
     ]
   }
 },
@@ -60289,6 +60289,50 @@
     "coordinates": [
       9.3480201,
       47.4939622
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8597447618",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Tierarztpraxis, Fohlenweide Bodensee",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 07:00-19:00",
+    "operator": "KompetenzHaus GmbH, Christian Lüthi",
+    "phone": "0716460422",
+    "id": "node/8597447618"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.36226,
+      47.5219366
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8597448710",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Bei Familie Neufeld läuten",
+    "description": "nur bei Anwesenheit Familie verfügbar",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "Uri Neufeld",
+    "phone": "076 503 73 49",
+    "id": "node/8597448710"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5288922,
+      47.3581896
     ]
   }
 }
