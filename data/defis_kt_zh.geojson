@@ -1797,11 +1797,17 @@
   "type": "Feature",
   "id": "node/7442277478",
   "properties": {
+    "access": "yes",
     "addr:housenumber": "8",
     "addr:street": "Technikumstrasse",
+    "defibrillator:location": "Beim Haupteingang innen links gleich beim Eingang.",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "Mo-Fr 8:00–23:00; Sa 9:00–23:00",
+    "operator": "Stadt Winterthur Alte Kaserne Kulturzentrum / Kilian Schmid",
+    "phone": "052 267 57 75",
     "id": "node/7442277478"
   },
   "geometry": {
@@ -17024,6 +17030,96 @@
     "coordinates": [
       8.71811,
       47.5006448
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8601768088",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Beim Empfang",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-17:00",
+    "operator": "Sonova AG, Betriebssanität, Esther Hagen (Leitung Betriebssanität)",
+    "phone": "0589280101",
+    "id": "node/8601768088"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7439813,
+      47.2382822
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8601768098",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Richtung Eingang Migros linkerhand an einer schwarzen Säule",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Sa 08:00-20:00",
+    "id": "node/8601768098"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4875473,
+      47.3882836
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8601893894",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im EG bei den Toilettenanlagen",
+    "description": "Beim Hintereingang bei den Garderoben",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Tu-Su 10:00-17:00",
+    "operator": "Stadt Winterthur DKD Thierry Schalcher",
+    "phone": "052 267 51 75",
+    "id": "node/8601893894"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7302819,
+      47.5018425
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8601893895",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im EG bei den Toilettenanlagen",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Tu-Su 10:00-17:00",
+    "operator": "Stadt Winterthur DKD Thierry Schalcher",
+    "phone": "052 267 51 75",
+    "id": "node/8601893895"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7290246,
+      47.5004169
     ]
   }
 }
