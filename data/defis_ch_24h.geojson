@@ -39677,29 +39677,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8554653118",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "beim bademeister ",
-    "description": "wärend öffunungszeiten verfügbar \n",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "hallenbad wädenswil",
-    "phone": "0799138486",
-    "id": "node/8554653118"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6606458,
-      47.2285653
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8554760558",
   "properties": {
     "access": "yes",
@@ -42543,6 +42520,51 @@
     "coordinates": [
       8.6919115,
       47.5178628
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8602157937",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Garderobengebäude vor dem Büro auf der rechten Seite",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Tino Imfeld",
+    "phone": "079 962 39 99",
+    "id": "node/8602157937"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.74617,
+      47.495704
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8602255717",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Spital Zollikerberg, Notfallstation",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Notfall Spital Zollikerberg",
+    "phone": "+41443972111",
+    "id": "node/8602255717"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5978588,
+      47.3489942
     ]
   }
 }

@@ -95218,14 +95218,12 @@
   "id": "node/8554653118",
   "properties": {
     "access": "no",
-    "defibrillator:location": "beim bademeister ",
-    "description": "wärend öffunungszeiten verfügbar \n",
+    "defibrillator:location": "Beim Bademeister",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "hallenbad wädenswil",
-    "phone": "0799138486",
+    "operator": "Hallenbad Wädenswil",
     "id": "node/8554653118"
   },
   "geometry": {
@@ -103275,6 +103273,161 @@
     "coordinates": [
       8.7290246,
       47.5004169
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8602157935",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Kasten bei der Kasse beim Eingang des Freibades",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Urs Bösch",
+    "phone": "052 222 28 00",
+    "id": "node/8602157935"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6848795,
+      47.5120753
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8602157936",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Sanitätsraum neben dem Eingang des Freibades",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Matteo Taormina",
+    "phone": "052 212 55 92",
+    "id": "node/8602157936"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7153621,
+      47.5135815
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8602157937",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Garderobengebäude vor dem Büro auf der rechten Seite",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Tino Imfeld",
+    "phone": "079 962 39 99",
+    "id": "node/8602157937"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.74617,
+      47.495704
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8602157938",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Ost Eingang Richtung Stadt",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Tharmalingam",
+    "phone": "052 267 82 00",
+    "id": "node/8602157938"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.71684,
+      47.5009845
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8602157939",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "AED neben dem Sanitätszimmer",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Rolf Alder",
+    "phone": "079 755 62 56",
+    "id": "node/8602157939"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7117746,
+      47.503462
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8602206179",
+  "properties": {
+    "access": "044 911 11 11",
+    "defibrillator:location": "Im Treppenhaus auf höhe Hochparterre",
+    "description": "Tagsüber frei verfügbar, Nachts via Hauptnummer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Spital Uster - Medizintechnik",
+    "phone": "yes",
+    "id": "node/8602206179"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7228334,
+      47.3537844
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8602255717",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Spital Zollikerberg, Notfallstation",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Notfall Spital Zollikerberg",
+    "phone": "+41443972111",
+    "id": "node/8602255717"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5978588,
+      47.3489942
     ]
   }
 }
