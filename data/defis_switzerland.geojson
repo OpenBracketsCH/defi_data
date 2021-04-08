@@ -103657,6 +103657,68 @@
       47.0483771
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/8607991153",
+  "properties": {
+    "defibrillator:location": "Dans la cabine téléphonique à côté de la boîte aux lettres.",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/8607991153"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.6834667,
+      46.6754583
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8608015417",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Warenausgabe Eingang links",
+    "description": "während den Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "09:00-21:00",
+    "operator": "IKEA",
+    "id": "node/8608015417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.623201,
+      47.4146048
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8608023217",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Sicherheitsloge",
+    "description": "Mo-Sa. ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Sa. 0:00-23:00",
+    "operator": "IKEA",
+    "phone": "0588532100",
+    "id": "node/8608023217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6238565,
+      47.4143255
+    ]
+  }
 }
 ]
 }
