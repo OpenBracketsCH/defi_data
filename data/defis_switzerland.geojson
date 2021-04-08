@@ -103194,21 +103194,21 @@
   "id": "node/8601768088",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Beim Empfang",
+    "defibrillator:location": "Sonova AG, beim Empfang.",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 07:30-17:00",
-    "operator": "Sonova AG, Betriebssanität, Esther Hagen (Leitung Betriebssanität)",
+    "operator": "Sonova AG, Betriebssanität",
     "phone": "0589280101",
     "id": "node/8601768088"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7439813,
-      47.2382822
+      8.7440522,
+      47.2388397
     ]
   }
 },
@@ -103539,6 +103539,27 @@
     "coordinates": [
       8.8016048,
       47.0583142
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8605496117",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "volg mörschwil, rechts vom eingang um die ecke, draussen",
+    "description": "Unabhängig von den Öffnungszeiten ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8605496117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4210054,
+      47.4666798
     ]
   }
 }
