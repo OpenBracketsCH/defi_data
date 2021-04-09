@@ -2106,10 +2106,14 @@
   "id": "node/7721303953",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bei Haupteingang",
-    "description": "nur während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Im Freien, beim Haupteingang",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Politische Gemeinde Gams",
+    "phone": "+41 58 228 23 50",
     "id": "node/7721303953"
   },
   "geometry": {
