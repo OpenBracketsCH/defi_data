@@ -4978,8 +4978,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7826703,
-      47.3671608
+      8.7826874,
+      47.367158
     ]
   }
 },
@@ -103763,6 +103763,112 @@
     "coordinates": [
       8.6070065,
       47.0486667
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8611714217",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Feuerwehrlokal Steinerberg ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Steinerberg",
+    "id": "node/8611714217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5856931,
+      47.0539194
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8612245517",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Kilchbühl",
+    "description": "immer zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde",
+    "id": "node/8612245517"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5222318,
+      47.5122024
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8612262717",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schlössli",
+    "description": "Hauseingang, immer zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde",
+    "id": "node/8612262717"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5143796,
+      47.5046729
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8612272817",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "in den Kleematten 13",
+    "description": "Privathaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Denise und Edi Lüönd",
+    "phone": "+41792221986",
+    "id": "node/8612272817"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5258944,
+      47.5107113
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8612272823",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Feuerwehrmagazin",
+    "description": "Feuerwehrauto",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Feuerwehr",
+    "id": "node/8612272823"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5223267,
+      47.5071308
     ]
   }
 }
