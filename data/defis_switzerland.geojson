@@ -42417,10 +42417,10 @@
   "type": "Feature",
   "id": "node/7559459422",
   "properties": {
-    "access": "no",
+    "access": "yes",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "id": "node/7559459422"
   },
   "geometry": {
@@ -104224,6 +104224,27 @@
     "coordinates": [
       7.1323681,
       47.427504
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8625603917",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Kuratle Jacket",
+    "description": "Mo.-Do. 07-12 13-17 Fr 07-12 13-16",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41765086586",
+    "id": "node/8625603917"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7354994,
+      47.4713926
     ]
   }
 }
