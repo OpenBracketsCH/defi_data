@@ -6055,6 +6055,7 @@
     "defibrillator:location": "neben Haupteingang (Kennzeichnung mangelhaft)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Kanton Zug",
     "id": "node/7579656845"
@@ -6062,8 +6063,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5817116,
-      47.1380012
+      8.5816499,
+      47.1383351
     ]
   }
 },
@@ -13389,8 +13390,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5805878,
-      47.1357004
+      8.5784663,
+      47.1378161
     ]
   }
 },
@@ -13399,17 +13400,18 @@
   "id": "node/7930578721",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Im Schulhaus Acher Nord",
-    "description": "während Schulbetrieb verfügbar",
+    "defibrillator:location": "Eingang Acher Ost",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/7930578721"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5827845,
-      47.1394079
+      8.5830921,
+      47.1392233
     ]
   }
 },
@@ -13437,10 +13439,12 @@
   "id": "node/7930578723",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Feuerwehr",
-    "description": "über Notruf erreichbar",
+    "defibrillator:location": "Ausgang Ökihof",
+    "description": "In Mauer eingefasst",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/7930578723"
   },
   "geometry": {
