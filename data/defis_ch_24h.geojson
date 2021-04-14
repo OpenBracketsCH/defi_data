@@ -28457,6 +28457,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/7721321841",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang MZA",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Schönengrund",
+    "phone": "071 361 18 18",
+    "id": "node/7721321841"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2276581,
+      47.3275656
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/7721332845",
   "properties": {
     "access": "yes",
@@ -39530,6 +39553,8 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Procamed AG",
+    "phone": "0523686000",
     "id": "node/8547911436"
   },
   "geometry": {
@@ -39659,12 +39684,14 @@
   "id": "node/8548048565",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Direkt vor dem Denner",
+    "defibrillator:location": "Rechts am Selecta-Automaten in grünem Wandkasten",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Procamed AG",
+    "phone": "0523686000",
     "id": "node/8548048565"
   },
   "geometry": {
@@ -43030,6 +43057,98 @@
     "coordinates": [
       7.9064394,
       47.3498459
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8628017769",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An Strassenkreuzung Wasgenring/Blotzheimerstrasse in grünem Wandkasten, Selecta-Automat (bei Kiosk)",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Procamed AG",
+    "phone": "0523686000",
+    "id": "node/8628017769"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.564588,
+      47.5614566
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8628023172",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Eingang Betriebsgebäude",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Genossenschaft Elektra, Jegenstorf",
+    "phone": "031 763 31 31",
+    "id": "node/8628023172"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.504566,
+      47.044409
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8628038058",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang zur Kläranlage",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Mönchaltorf",
+    "phone": "0449494010",
+    "id": "node/8628038058"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7159703,
+      47.3141226
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8628085028",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang APTech Friedel AG, Bleiche (Hauptstrasse 68a)",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Schönengrund",
+    "phone": "071 361 18 18",
+    "id": "node/8628085028"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2300393,
+      47.3301963
     ]
   }
 }

@@ -39261,25 +39261,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7721321841",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Haupteingang",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/7721321841"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.2276581,
-      47.3275656
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7721323584",
   "properties": {
     "access": "yes",
@@ -61342,6 +61323,51 @@
     "coordinates": [
       8.1492852,
       47.4366651
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8628031037",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An Wand rechts von Eingang (nicht Wohnhaus!)",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Terresta Immobilien- & Verwaltungs AG",
+    "phone": "052 209 01 31",
+    "id": "node/8628031037"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7176138,
+      47.5077874
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8628031046",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rechts vom rechten Empfang",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-17:00",
+    "operator": "Terresta Immobilien- & Verwaltungs AG",
+    "phone": "052 209 01 31",
+    "id": "node/8628031046"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7181596,
+      47.4999779
     ]
   }
 }
