@@ -17201,15 +17201,15 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Tharmalingam",
+    "operator": "Berufsbildungsschule Winterthur",
     "phone": "052 267 82 00",
     "id": "node/8602157938"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.71684,
-      47.5009845
+      8.7137366,
+      47.5027156
     ]
   }
 },
@@ -17694,6 +17694,72 @@
     "coordinates": [
       8.4684112,
       47.3911458
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8630935506",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bei der Bushaltestelle Fahrtrichtung Zürich",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8630935506"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4426398,
+      47.4012654
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8630981392",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Links vom Eingang der Sekundarschule Schalmenacker",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Rafz",
+    "id": "node/8630981392"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5391953,
+      47.6069881
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8630990320",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Kann beim Empfang von Stadtwerk Winterthur bezogen werden",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Th 08:00-17:00; Fr 08:00-16:00",
+    "operator": "Stadtwerk Winterthur, Teamleiter Betriebssanität",
+    "phone": "052 267 61 61",
+    "id": "node/8630990320"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7093365,
+      47.4945451
     ]
   }
 }
