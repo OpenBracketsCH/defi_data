@@ -27016,6 +27016,50 @@
       47.0014403
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/8638161317",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Migros 1. Stock beim Kunendienst",
+    "description": "nur während Öffnungszeit",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Sa: 09:00-20:00",
+    "operator": "Migros",
+    "id": "node/8638161317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5959203,
+      47.4085996
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8638213517",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Auf dem Platz an einer Säule.",
+    "description": "Immer zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Resqueshok",
+    "id": "node/8638213517"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5826167,
+      47.4502594
+    ]
+  }
 }
 ]
 }
