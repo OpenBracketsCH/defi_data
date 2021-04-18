@@ -2604,7 +2604,7 @@
   "type": "Feature",
   "id": "node/8583365817",
   "properties": {
-    "access": "no",
+    "access": "yes",
     "defibrillator:location": "Coop",
     "description": "In Coop, nach Haupteingang rechts, neben Lifttüren an der Wand",
     "emergency": "defibrillator",
@@ -2739,6 +2739,23 @@
     "coordinates": [
       9.8339801,
       46.9008366
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8639535050",
+  "properties": {
+    "defibrillator:location": "Im ersten Stock neben Lift",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/8639535050"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5591961,
+      46.9546648
     ]
   }
 }

@@ -58682,7 +58682,7 @@
   "type": "Feature",
   "id": "node/8571598717",
   "properties": {
-    "access": "no",
+    "access": "yes",
     "defibrillator:location": "Jumbo, nach Eingang links an der Wand",
     "description": "währen Öffnungszeit verfügbar",
     "emergency": "defibrillator",
@@ -59813,7 +59813,7 @@
   "type": "Feature",
   "id": "node/8583365817",
   "properties": {
-    "access": "no",
+    "access": "yes",
     "defibrillator:location": "Coop",
     "description": "In Coop, nach Haupteingang rechts, neben Lifttüren an der Wand",
     "emergency": "defibrillator",
@@ -61696,6 +61696,43 @@
     "coordinates": [
       9.4957163,
       47.213106
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8639527698",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Untergeschoss, im Hamam in der Reception in Wandschrank mit AED Kleber an Tür - nur für Mitarbeiter zugänglich",
+    "description": "Nur für Mitarbeiter Zugänglich",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "Stadtbad Zürich",
+    "id": "node/8639527698"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5271904,
+      47.3755132
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8639535050",
+  "properties": {
+    "defibrillator:location": "Im ersten Stock neben Lift",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/8639535050"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5591961,
+      46.9546648
     ]
   }
 }

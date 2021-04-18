@@ -24105,7 +24105,7 @@
   "type": "Feature",
   "id": "node/8571598717",
   "properties": {
-    "access": "no",
+    "access": "yes",
     "defibrillator:location": "Jumbo, nach Eingang links an der Wand",
     "description": "währen Öffnungszeit verfügbar",
     "emergency": "defibrillator",
@@ -27057,6 +27057,26 @@
     "coordinates": [
       8.5826167,
       47.4502594
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8639527698",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Untergeschoss, im Hamam in der Reception in Wandschrank mit AED Kleber an Tür - nur für Mitarbeiter zugänglich",
+    "description": "Nur für Mitarbeiter Zugänglich",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "Stadtbad Zürich",
+    "id": "node/8639527698"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5271904,
+      47.3755132
     ]
   }
 }
