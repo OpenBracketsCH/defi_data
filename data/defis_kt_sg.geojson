@@ -1398,8 +1398,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.3028772,
-      47.1261605
+      9.3028387,
+      47.1259713
     ]
   }
 },
@@ -8393,6 +8393,50 @@
     "coordinates": [
       9.4957163,
       47.213106
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8644225557",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Beim Empfang der Helbling Technik Wil AG",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
+    "operator": "Helbling Technik Wil AG",
+    "phone": "+41794501829",
+    "id": "node/8644225557"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0407132,
+      47.4616132
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8644276787",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Auf der ersten Etage direkt bei den Liften, vis-a-vis Kiosk",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Coop",
+    "id": "node/8644276787"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4350083,
+      47.0407206
     ]
   }
 }

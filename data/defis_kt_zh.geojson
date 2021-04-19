@@ -16290,7 +16290,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 06:45-19:00; Sa 08:00-18:00",
+    "opening_hours": "Mo-Sa 06:45-19:00",
     "operator": "Gessner Immobilien AG",
     "phone": "0447898640",
     "id": "node/8577563907"
@@ -17867,6 +17867,73 @@
     "coordinates": [
       8.5271904,
       47.3755132
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8644261479",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Büro der Baugenossenschaft Zurlinden hat es am Empfang einen Defibrillator.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-12:00",
+    "id": "node/8644261479"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4854581,
+      47.3755757
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8644298813",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Am Empfang Belvoirpark Restaurant, rechts in einem Kasten (mit einem Aufkleber Signalisiert)",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Tu-Sa 07:30-00:00",
+    "operator": "Adrian Aeschlimann, Belvoirpark Restaurant",
+    "phone": "044 286 88 07",
+    "id": "node/8644298813"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5332985,
+      47.3577099
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8644298814",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "1x am Empfang der Belvoirpark Hotelfachschule, rechts nach dem Eingang (Signalisiert mit einem Aufkleber)",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Tu-Sa 05:30-19:30",
+    "operator": "Adrian Aeschlimann, Belvoirpark Restaurant",
+    "phone": "044 286 88 07",
+    "id": "node/8644298814"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5325804,
+      47.3564966
     ]
   }
 }

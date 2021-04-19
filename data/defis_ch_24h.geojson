@@ -21731,8 +21731,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.3028772,
-      47.1261605
+      9.3028387,
+      47.1259713
     ]
   }
 },
@@ -43481,32 +43481,10 @@
 },
 {
   "type": "Feature",
-  "id": "node/8643813818",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Schulhaus Vogelhalde",
-    "description": "8532 Wart-Weiningen",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde Warth-Weiningen",
-    "id": "node/8643813818"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.8768652,
-      47.5823484
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8643867217",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schulhaus Vogelhalde, Schulstrasse",
+    "defibrillator:location": "Beim Eingang der Mehrzweckhalle/Turnhalle aussen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -43519,6 +43497,50 @@
     "coordinates": [
       8.8804785,
       47.5868541
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8644201707",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An der nördlichen Aussenfassade der Gemeindeverwaltung in einem Schutzgehäuse.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung / 4118 Rodersdorf",
+    "phone": "061 731 33 16",
+    "id": "node/8644201707"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.456762,
+      47.4806551
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8644268817",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der Defi hängt an der Wand rechts wenn man vor dem Eingang der Schützi steht. Von der Badi her sieht man ihn gut, aber von der anderen Seite (Hausmattrain, Leberngasse) ist er nicht direkt ersichtlich.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8644268817"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9029574,
+      47.3482537
     ]
   }
 }
