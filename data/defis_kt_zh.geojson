@@ -11984,6 +11984,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Bassersdorf",
     "id": "node/8491952517"
   },
@@ -18112,6 +18113,50 @@
     "coordinates": [
       8.5369758,
       47.4121349
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8655381410",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "im Sanitätsraum",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Bernd Fritz",
+    "phone": "071 770 07 79",
+    "id": "node/8655381410"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.760564,
+      47.5149544
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8655381411",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rechts neben der Hauptkasse im Sanitätsraum",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Vincenzo Bocchetti",
+    "phone": "052 203 78 87",
+    "id": "node/8655381411"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.705704,
+      47.4830689
     ]
   }
 }
