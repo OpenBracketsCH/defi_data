@@ -105124,7 +105124,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Do: 08:00-19:00 Uhr; Fr: 08:00-21:00 Uhr; Sa 08:00-17:00 Uhr",
+    "opening_hours": "Mo-Th 08:00-19:00; Fr 08:00-21:00; Sa 08:00-17:00",
     "id": "node/8638623718"
   },
   "geometry": {
@@ -105921,6 +105921,28 @@
     "coordinates": [
       8.8090989,
       45.9957539
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8661870617",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Talstation grosse Gondelbahn. Direkt bei Eingang WC",
+    "description": "ausserhalb Gebäude. 24 Std erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Laax Bergbahn",
+    "id": "node/8661870617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2634446,
+      46.8200637
     ]
   }
 }
