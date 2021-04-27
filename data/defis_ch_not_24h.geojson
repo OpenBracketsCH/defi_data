@@ -61326,7 +61326,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 7-17 Uhr",
+    "opening_hours": "Mo-Fr 07:00-17:00",
     "operator": "Gemeinde Veltheim",
     "phone": "0564636699",
     "id": "node/8626739117"
@@ -62171,6 +62171,27 @@
     "coordinates": [
       7.3735765,
       46.9212113
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8672416418",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Fussballplatz FCDiessenhofen",
+    "description": "nur während Trainingsbetrieb/Spielen zugänglich\n",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "FC Diessenhofen",
+    "id": "node/8672416418"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.747349,
+      47.6863905
     ]
   }
 }
