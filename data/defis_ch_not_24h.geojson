@@ -53370,26 +53370,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8450667117",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Kirche Madiswil, Plattenstrasse 3 Seite Kirchgässli an Hauswand",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "?",
-    "id": "node/8450667117"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.7992179,
-      47.1672113
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8450820917",
   "properties": {
     "access": "no",
@@ -62256,6 +62236,27 @@
     "coordinates": [
       7.457051,
       47.4816456
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8680965617",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "MZH Widen",
+    "description": "nur während Schulbetrieb zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde",
+    "id": "node/8680965617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3581482,
+      47.3654165
     ]
   }
 }
