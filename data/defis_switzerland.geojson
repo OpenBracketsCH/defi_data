@@ -51054,8 +51054,10 @@
   "type": "Feature",
   "id": "node/7637818488",
   "properties": {
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Brand Metallbau AG",
     "id": "node/7637818488"
   },
@@ -94013,27 +94015,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8540858718",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "mehrzweckgebäude",
-    "description": "wenn Mehrzweckgebäude belegt",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Gemeinde,Samariterverein",
-    "id": "node/8540858718"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.438138,
-      47.6777342
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8540860917",
   "properties": {
     "access": "yes",
@@ -106153,6 +106134,189 @@
     "coordinates": [
       8.5605996,
       47.4796214
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8678245346",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Praxis Dr. Walter Meier",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-11:30,14:00-17:30; We,Th 08:00-11:30; Sa 08:30-10:30",
+    "operator": "Praxis Dr. Walter Meier",
+    "phone": "061 731 32 32",
+    "id": "node/8678245346"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.457051,
+      47.4816456
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8678273330",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Links vor Eingang Turnhalle",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung Sisseln",
+    "id": "node/8678273330"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9896217,
+      47.5541677
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8678273331",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Er befindet sich auf der rechten Seite hinter der Bar. (Beim Eingang vom Hotel)",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "swiss defibrillator",
+    "phone": "+41 31 339 09 09",
+    "id": "node/8678273331"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4641719,
+      46.9585128
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8678273332",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im ersten Stockwerk auf der rechten Seite.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "swiss defibrillator",
+    "phone": "+41 31 339 09 09",
+    "id": "node/8678273332"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4644026,
+      46.9586282
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8678273333",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Er befindet sich direkt auf der rechten Seite von der Rezeption. (Beim Eingang vom Hotel)",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "swiss defibrillator",
+    "phone": "+41 31 339 09 09",
+    "id": "node/8678273333"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4639292,
+      46.9587691
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8678277063",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Blaues Schulhaus beim Haupteingang.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung Hausdienst Beat Huber",
+    "phone": "+41 62 889 02 85",
+    "id": "node/8678277063"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1219944,
+      47.3848341
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8678283076",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Durchgang zum Tennisplatz rechts an der Wand",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Baumann Albert",
+    "phone": "079 518 43 97",
+    "id": "node/8678283076"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1687071,
+      47.4180754
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8678285150",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Durchgang beim Teich",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Michael Zberg",
+    "phone": "041 874 15 37",
+    "id": "node/8678285150"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6433763,
+      46.8609613
     ]
   }
 }

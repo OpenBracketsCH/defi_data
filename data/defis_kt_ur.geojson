@@ -244,8 +244,10 @@
   "type": "Feature",
   "id": "node/7637818488",
   "properties": {
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Brand Metallbau AG",
     "id": "node/7637818488"
   },
@@ -1494,6 +1496,29 @@
     "coordinates": [
       8.6445919,
       46.9016261
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8678285150",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Durchgang beim Teich",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Michael Zberg",
+    "phone": "041 874 15 37",
+    "id": "node/8678285150"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6433763,
+      46.8609613
     ]
   }
 }

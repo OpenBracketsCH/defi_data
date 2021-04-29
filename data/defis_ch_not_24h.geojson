@@ -26880,8 +26880,10 @@
   "type": "Feature",
   "id": "node/7637818488",
   "properties": {
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Brand Metallbau AG",
     "id": "node/7637818488"
   },
@@ -54685,27 +54687,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8540858718",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "mehrzweckgebäude",
-    "description": "wenn Mehrzweckgebäude belegt",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Gemeinde,Samariterverein",
-    "id": "node/8540858718"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.438138,
-      47.6777342
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8540860917",
   "properties": {
     "access": "yes",
@@ -62252,6 +62233,29 @@
     "coordinates": [
       8.5605996,
       47.4796214
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8678245346",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Praxis Dr. Walter Meier",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-11:30,14:00-17:30; We,Th 08:00-11:30; Sa 08:30-10:30",
+    "operator": "Praxis Dr. Walter Meier",
+    "phone": "061 731 32 32",
+    "id": "node/8678245346"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.457051,
+      47.4816456
     ]
   }
 }
