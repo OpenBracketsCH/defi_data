@@ -52364,12 +52364,15 @@
   "type": "Feature",
   "id": "node/7637818560",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "im Schalterraum",
-    "description": "nur während Öffnungszeiten verfügbar",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Valiant Bank",
-    "opening_hours": "Mo-Fr 09:00-11:00, 14:00-16:00",
+    "opening_hours": "24/7",
+    "operator": "Valiant Bank",
     "id": "node/7637818560"
   },
   "geometry": {
@@ -106499,6 +106502,29 @@
     "coordinates": [
       9.0493744,
       47.472883
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8684208036",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Links von den Parkplätzen unter dem Vordach",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "EMOTT AG",
+    "phone": "+41 44 881 20 10",
+    "id": "node/8684208036"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5959336,
+      47.3834051
     ]
   }
 }

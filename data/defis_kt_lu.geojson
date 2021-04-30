@@ -4643,12 +4643,15 @@
   "type": "Feature",
   "id": "node/7637818560",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "im Schalterraum",
-    "description": "nur während Öffnungszeiten verfügbar",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Valiant Bank",
-    "opening_hours": "Mo-Fr 09:00-11:00, 14:00-16:00",
+    "opening_hours": "24/7",
+    "operator": "Valiant Bank",
     "id": "node/7637818560"
   },
   "geometry": {
