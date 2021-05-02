@@ -2227,7 +2227,6 @@
   "type": "Feature",
   "id": "node/5796686039",
   "properties": {
-    "access": "yes",
     "addr:city": "Lyss",
     "addr:housenumber": "16b",
     "addr:postcode": "3250",
@@ -33468,8 +33467,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.3021144,
-      47.0721174
+      7.3021919,
+      47.0721632
     ]
   }
 },
@@ -44343,6 +44342,27 @@
     "coordinates": [
       8.7273613,
       46.144647
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8691114617",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Via Muraccio",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "id": "node/8691114617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4,
+      46.9752842
     ]
   }
 }
