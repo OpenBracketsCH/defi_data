@@ -62393,7 +62393,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Su 07:00-21:00",
+    "opening_hours": "Mo-Fr 07:00-21:00",
     "operator": "Schule Gipf-Oberfrick, Leiter Hausdienst Kurt Hartmann",
     "phone": "062 865 25 75",
     "id": "node/8695896178"
@@ -62665,6 +62665,28 @@
     "coordinates": [
       8.3276823,
       47.4519396
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8696315617",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "BZGS St. Gallen im 4. Stock",
+    "description": "während Öffnungszeiten ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08 - 17 Uhr",
+    "operator": "BZGS",
+    "id": "node/8696315617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4020013,
+      47.4373826
     ]
   }
 }
