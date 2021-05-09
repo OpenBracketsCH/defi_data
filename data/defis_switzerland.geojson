@@ -106086,7 +106086,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo - Fr: 07:00 - 22:00 Uhr",
+    "opening_hours": "Mo-Fr 07:00-22:00",
     "operator": "Schule Winkel",
     "phone": "+41792823145",
     "id": "node/8676789618"
@@ -107588,6 +107588,71 @@
     "coordinates": [
       8.6497737,
       47.0175941
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8713917717",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Braunwaldbahn Talstation, neben Kasse 3",
+    "description": "während Öffnungszeit verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "\n05.00-23.55 ",
+    "operator": "Braunwaldbahn Standseilbahn AG",
+    "phone": "+41556535030",
+    "id": "node/8713917717"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0022627,
+      46.9284699
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8713922717",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Grotzenbüehl",
+    "description": "während Öffnungszeiten verfügbar.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Sportbahnen Braunwald AG",
+    "phone": "+41556433702",
+    "id": "node/8713922717"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9941517,
+      46.9491301
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8713996417",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Wiggispark Netstal. Haupteingang linke Seite nach Brillengeschäft MC-Optikw",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/8713996417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0583718,
+      47.0677294
     ]
   }
 }
