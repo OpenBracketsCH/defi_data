@@ -209,3 +209,23 @@ echo -ne "Query Defibrillatoren Stadt Zürich...            "
 cat $DIR/queries/defis_stadt_zh.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_stadt_zh.geojson
 echo -ne "\t\t - Done.\r"
 echo ""
+
+# Liechtenstein
+
+# Defibrillatoren ganz Liechtenstein
+echo -ne "Query Defibrillatoren ganz Liechtenstein...           "
+cat $DIR/queries/defis_liechtenstein.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_liechtenstein.geojson
+echo -ne "\t\t - Done.\r"
+echo ""
+
+# Defibrillatoren ganz Liechtenstein 24h
+echo -ne "Query Defibrillatoren ganze Schweiz 24h...           "
+cat $DIR/queries/defis_li_24h.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_li_24h.geojson
+echo -ne "\t\t - Done.\r"
+echo ""
+
+# Defibrillatoren ganz Liechtenstein NICHT 24h
+echo -ne "Query Defibrillatoren ganze Schweiz, nicht 24h...           "
+cat $DIR/queries/defis_li_not_24h.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/defis_li_not_24h.geojson
+echo -ne "\t\t - Done.\r"
+echo ""
