@@ -9416,8 +9416,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5757371,
-      47.0664178
+      7.5755088,
+      47.0665263
     ]
   }
 },
@@ -9586,8 +9586,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6208737,
-      47.0590944
+      7.620875,
+      47.0590974
     ]
   }
 },
@@ -10089,7 +10089,8 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
-    "operator": "SV Arni",
+    "operator": "Gemeinde",
+    "phone": "+41 76 512 54 89",
     "id": "node/6635047512"
   },
   "geometry": {
@@ -19408,8 +19409,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4991263,
-      46.8927501
+      7.4991123,
+      46.8927697
     ]
   }
 },
@@ -20730,6 +20731,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "operator": "Fritz Studer AG",
+    "phone": "+41 33 439 12 85",
     "id": "node/6661546156"
   },
   "geometry": {
@@ -21262,8 +21264,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6249415,
-      46.7601201
+      7.624944,
+      46.7601185
     ]
   }
 },
@@ -30695,30 +30697,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8151924547",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Köniz",
-    "addr:housenumber": "42",
-    "addr:postcode": "3098",
-    "addr:street": "Sägestrasse",
-    "defibrillator:location": "Rechts neben Eingang",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Kantonspolizei Bern",
-    "id": "node/8151924547"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4136722,
-      46.9260192
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8151999644",
   "properties": {
     "access": "yes",
@@ -32823,6 +32801,29 @@
     "coordinates": [
       7.4,
       46.9406629
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728425257",
+  "properties": {
+    "access": "7/24",
+    "addr:city": "Kleindietwil",
+    "addr:postcode": "4936",
+    "addr:street": "Hunzenweg 14",
+    "defibrillator:location": "Durchgang Turnhalle zum Schulhaus direkt anschliessend an Veloparkieranlage.",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "OSZK Oberstufenzentrum Kleindietwil",
+    "phone": "+41 62 965 23 52",
+    "id": "node/8728425257"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7902546,
+      47.1462598
     ]
   }
 }
