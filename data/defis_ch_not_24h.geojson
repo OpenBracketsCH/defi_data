@@ -53147,7 +53147,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo - Fr 08.00 - 20.00 ",
+    "opening_hours": "Mo-Fr 08:00-20:00",
     "operator": "Gemeinde",
     "id": "node/8446769017"
   },
@@ -63277,6 +63277,22 @@
     "coordinates": [
       9.4028619,
       47.4310451
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8727452106",
+  "properties": {
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/8727452106"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.1038469,
+      46.1871606
     ]
   }
 }
