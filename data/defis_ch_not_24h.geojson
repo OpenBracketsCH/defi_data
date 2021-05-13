@@ -10872,6 +10872,7 @@
     "defibrillator:location": "Dans la salle d'attente",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "Mo-Fr 04:50-21:40",
     "operator": "Gare des CJ",
     "phone": "+41 32 486 93 45",
@@ -20449,7 +20450,6 @@
     "addr:housenumber": "130a",
     "addr:postcode": "3014",
     "addr:street": "Stauffacherstrasse",
-    "colour": "green",
     "defibrillator:location": "Enter through door and you see it on your left mounted on the wall",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -63294,6 +63294,406 @@
     "coordinates": [
       6.1038469,
       46.1871606
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728490398",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Tavannes",
+    "addr:housenumber": "9",
+    "addr:postcode": "2710",
+    "addr:street": "Grand-Rue",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "operator": "Polizeiwache Tavannes",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728490398"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1999289,
+      47.2202313
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728490399",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Stettlen",
+    "addr:housenumber": "2",
+    "addr:postcode": "3066",
+    "addr:street": "Kirchgasse",
+    "defibrillator:location": "im Sitzungszimmer 1. Stock, während den Öffnungszeiten des Kirchgemeindehauses oder wenn Mitarbeitende der Kirchgemeinde vor Ort sind",
+    "emergency": "defibrillator",
+    "operator": "Kirchgemeindehaus Stettlen",
+    "phone": "+41 317011701",
+    "id": "node/8728490399"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5223577,
+      46.959008
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728490400",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Stettlen",
+    "addr:housenumber": "1",
+    "addr:postcode": "3066",
+    "addr:street": "Bleichstrasse",
+    "defibrillator:location": "Beim Treppenaufgang Turnhallentrakt, während den Öffnungszeiten des Hallenbades und bei Turnbetrieb",
+    "emergency": "defibrillator",
+    "operator": "Schulanlage Bleiche",
+    "phone": "+41 764405115",
+    "id": "node/8728490400"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5180969,
+      46.9595937
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728490401",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Grindelwald",
+    "addr:housenumber": "107",
+    "addr:postcode": "3818",
+    "addr:street": "Dorfstrasse",
+    "defibrillator:location": "Rechts neben Eingang",
+    "emergency": "defibrillator",
+    "operator": "Polizeiwache Grindelwald",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728490401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0357826,
+      46.624174
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728490402",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Rubigen",
+    "addr:housenumber": "2",
+    "addr:postcode": "3113",
+    "addr:street": "altes Riedgässli",
+    "defibrillator:location": "Im Gebäude EG",
+    "emergency": "defibrillator",
+    "opening_hours": "Mo-Su 07:00-12:00; 13:00-17:00",
+    "operator": "Kästli Bau AG",
+    "phone": "079 555 94 33",
+    "id": "node/8728490402"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5362779,
+      46.9051164
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728490403",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "8",
+    "addr:postcode": "3001",
+    "addr:street": "Bernastrasse",
+    "defibrillator:location": "Empfang Büro",
+    "emergency": "defibrillator",
+    "opening_hours": "Mo-Fr 08:00-16:00",
+    "operator": "Interverband für Rettungswesen",
+    "phone": "+41 31 320 11 44",
+    "id": "node/8728490403"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4480885,
+      46.9428601
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728490404",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "4",
+    "addr:postcode": "3014",
+    "addr:street": "Gardistrasse",
+    "defibrillator:location": "an der Reception",
+    "emergency": "defibrillator",
+    "operator": "Hotel Moxy Bern Expo",
+    "id": "node/8728490404"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4646442,
+      46.9683108
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728490405",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Aarberg",
+    "addr:housenumber": "33",
+    "addr:postcode": "3270",
+    "addr:street": "Stadtplatz",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "Mo-Fr 08:30-12:00; 14:00-17:00",
+    "operator": "Polizeiwache Aarberg",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728490405"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2757043,
+      47.0438084
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728490406",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "10",
+    "addr:postcode": "3011",
+    "addr:street": "Bahnhofplatz",
+    "defibrillator:location": "Beim Empfang",
+    "emergency": "defibrillator",
+    "opening_hours": "Mo-Fr 09:30-18:00; 10:00-17:00",
+    "operator": "Polizeiwache Bahnhof Bern",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728490406"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4400796,
+      46.9485888
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728490407",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "167",
+    "addr:postcode": "3013",
+    "addr:street": "Neubrückstrasse",
+    "defibrillator:location": "Betriebsbüro",
+    "emergency": "defibrillator",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Polizeiwache Neufeld",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728490407"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4323903,
+      46.9633158
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728490408",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "42",
+    "addr:postcode": "3006",
+    "addr:street": "Brunnadernstrasse",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Polizeiwache Ostring",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728490408"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4632148,
+      46.9386328
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728490409",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "32",
+    "addr:postcode": "3011",
+    "addr:street": "Waisenhausplatz",
+    "defibrillator:location": "vor dem Betriebsbüro",
+    "emergency": "defibrillator",
+    "opening_hours": "Mo-Fr 07:00-18:00; Sa 10:00-17:00",
+    "operator": "Polizeiwache Waisenhaus",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728490409"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4446369,
+      46.9503546
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728561334",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Biel / Bienne",
+    "addr:housenumber": "20",
+    "addr:postcode": "2501",
+    "addr:street": "Spitalstrasse",
+    "defibrillator:location": "Empfang",
+    "emergency": "defibrillator",
+    "opening_hours": "Mo-Fr 08:00-11:45, 13:00-17:30, Sa 09:00-11:00",
+    "operator": "Polizeiwache Biel",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728561334"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2422256,
+      47.1360258
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728561335",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Büren",
+    "addr:housenumber": "7",
+    "addr:postcode": "3294",
+    "addr:street": "Hauptgasse",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "operator": "Polizeiwache Büren a/A",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728561335"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3716113,
+      47.1400764
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728561336",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Eggiwil",
+    "addr:housenumber": "483a",
+    "addr:postcode": "3537",
+    "addr:street": "Beisatzgasse",
+    "defibrillator:location": "Gemeindehaus",
+    "emergency": "defibrillator",
+    "operator": "Polizeiwache Eggiwil",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728561336"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7981266,
+      46.8762318
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728561337",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Herzogenbuchsee",
+    "addr:housenumber": "6",
+    "addr:postcode": "3360",
+    "addr:street": "Fabrikstrasse",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "Tu,Th 08:00-12:00, 14:00-17:00",
+    "operator": "Polizeiwache Herzogenbuchsee",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728561337"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7043075,
+      47.1882383
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728561338",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Interlaken",
+    "addr:housenumber": "12",
+    "addr:postcode": "3800",
+    "addr:street": "Untere Bönigstrasse",
+    "defibrillator:location": "Eingang/Empfang",
+    "emergency": "defibrillator",
+    "opening_hours": "Mo-Fr 08:00-18:00, Sa 08:00-16:00",
+    "operator": "Polizeiwache Interlaken, auch Seepolizei Brienzersee",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728561338"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8698684,
+      46.6899671
     ]
   }
 }
