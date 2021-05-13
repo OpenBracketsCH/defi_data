@@ -11945,31 +11945,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6636632385",
-  "properties": {
-    "access": "permissive",
-    "addr:city": "Moosseedorf",
-    "addr:housenumber": "5",
-    "addr:postcode": "3302",
-    "addr:street": "Sandstrasse",
-    "defibrillator:location": "Haupteingang links an der Wand",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "Mo-Fr 08:00-17:00",
-    "operator": "passepartout-ch AG",
-    "phone": "+41 31 850 10 20",
-    "id": "node/6636632385"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4831108,
-      47.0159923
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6636632388",
   "properties": {
     "access": "private",
@@ -14812,8 +14787,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4786366,
-      46.9764604
+      7.4786397,
+      46.9764617
     ]
   }
 },
@@ -51694,24 +51669,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8289127637",
-  "properties": {
-    "defibrillator:location": "Vor dem Eingang Polizeiwache",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/8289127637"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.3905052,
-      46.9402148
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8291730882",
   "properties": {
     "access": "private",
@@ -61329,24 +61286,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8630119351",
-  "properties": {
-    "defibrillator:location": "beim Eingang",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/8630119351"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5627544,
-      46.8696877
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8630990320",
   "properties": {
     "access": "no",
@@ -63694,6 +63633,261 @@
     "coordinates": [
       7.8698684,
       46.6899671
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728595872",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Konolfingen",
+    "addr:housenumber": "1",
+    "addr:postcode": "3510",
+    "addr:street": "Kreuzplatz",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "Mo, Tu, Th 08:00-12:00, 14:00-17:00",
+    "operator": "Polizeiwache Konolfingen",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728595872"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6203001,
+      46.8788665
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728595873",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "La Neuveville",
+    "addr:housenumber": "1",
+    "addr:postcode": "2520",
+    "addr:street": "Rue des Fossés",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "operator": "Polizeiwache La Neuveville",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728595873"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0925507,
+      47.0642287
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728595874",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Laupen",
+    "addr:housenumber": "2",
+    "addr:postcode": "3177",
+    "addr:street": "Bahnweg",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "operator": "Polizeiwache Laupen",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728595874"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2363472,
+      46.906008
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728595875",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Lengnau",
+    "addr:housenumber": "11",
+    "addr:postcode": "2543",
+    "addr:street": "Solothurnstrasse",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "operator": "Polizeiwache Lengnau",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728595875"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3667205,
+      47.1831239
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728595876",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Moutier",
+    "addr:housenumber": "30",
+    "addr:postcode": "2740",
+    "addr:street": "Rue du Château",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "Mo-Th 08:30-11:30, 14:00-17:30, Fr 08:30-11:30, 14:00-17:00, Sa 09:00-11:00",
+    "operator": "Polizeiwache Moutier",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728595876"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3727754,
+      47.2805841
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728595877",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Münchenbuchsee",
+    "addr:housenumber": "21",
+    "addr:postcode": "3053",
+    "addr:street": "Bernstrasse",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "operator": "Polizeiwache Münchenbuchsee",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728595877"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4525069,
+      47.0197508
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728595878",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Nidau",
+    "addr:housenumber": "4",
+    "addr:postcode": "2560",
+    "addr:street": "Weyermattstrasse",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "Mo-Th 08:30-11:30, 14:00-17:30, Fr 08:30-11:30, 13:00-17:00, Sa 09:00-11:00",
+    "operator": "Polizeiwache Nidau",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728595878"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2392869,
+      47.1262068
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728635217",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Waschhaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "campingplatz",
+    "id": "node/8728635217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8442637,
+      46.1746191
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728645192",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Sumiswald",
+    "addr:housenumber": "16",
+    "addr:postcode": "3454",
+    "addr:street": "Spitalstrasse",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "Tu,Fr 08:00-12:00,14:00-17:00",
+    "operator": "Polizeiwache Sumiswald",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728645192"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7481917,
+      47.0298964
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728698618",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Péry-Reuchenette",
+    "addr:housenumber": "5",
+    "addr:postcode": "2603",
+    "addr:street": "Rue de la Reuchenette",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "operator": "Polizeiwache Péry-Reuchenette",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728698618"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2462459,
+      47.1902041
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728698619",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Schwarzenburg",
+    "addr:housenumber": "10",
+    "addr:postcode": "3150",
+    "addr:street": "Bernstrasse",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "Mo,We,Fr 08:00-12:00,14:00-17:00",
+    "operator": "Polizeiwache Schwarzenburg",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728698619"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3418497,
+      46.8197682
     ]
   }
 }

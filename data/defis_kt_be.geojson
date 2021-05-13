@@ -9410,7 +9410,7 @@
     "emergency:phone": "144",
     "opening_hours": "24/7",
     "operator": "Mehrzweckanlage",
-    "phone": "+41 34 445 80 70",
+    "phone": "+41 34 445 25 15",
     "id": "node/6633263850"
   },
   "geometry": {
@@ -10082,7 +10082,7 @@
   "properties": {
     "access": "yes",
     "addr:city": "Arni",
-    "addr:housenumber": "36",
+    "addr:housenumber": "36b",
     "addr:postcode": "3508",
     "addr:street": "Arnisägestrasse",
     "defibrillator:location": "öffentlich , Turnhalleneingang",
@@ -10096,8 +10096,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6519615,
-      46.9341907
+      7.6518882,
+      46.9338103
     ]
   }
 },
@@ -12704,7 +12704,7 @@
   "type": "Feature",
   "id": "node/6636632385",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "addr:city": "Moosseedorf",
     "addr:housenumber": "5",
     "addr:postcode": "3302",
@@ -12712,16 +12712,16 @@
     "defibrillator:location": "Haupteingang links an der Wand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "Mo-Fr 08:00-17:00",
+    "opening_hours": "24/7",
     "operator": "passepartout-ch AG",
-    "phone": "+41 31 850 10 20",
+    "phone": "+41 76 398 38 58",
     "id": "node/6636632385"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4831108,
-      47.0159923
+      7.4829559,
+      47.0159331
     ]
   }
 },
@@ -17349,8 +17349,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4786366,
-      46.9764604
+      7.4786397,
+      46.9764617
     ]
   }
 },
@@ -27933,8 +27933,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6137006,
-      46.7526343
+      7.6137057,
+      46.7526378
     ]
   }
 },
@@ -30982,15 +30982,15 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
-    "operator": "Polizeiwache",
-    "phone": "+41 32 666 42 60",
+    "operator": "Polizeiwache Bätterkinden",
+    "phone": "+41 31 638 80 00",
     "id": "node/8154312152"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5382434,
-      47.130837
+      7.5380221,
+      47.130882
     ]
   }
 },
@@ -31608,11 +31608,16 @@
   "id": "node/8247528319",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "24h‑Zone in der Geschäftsstelle Wattenwil",
+    "addr:city": "Wattenwil",
+    "addr:postcode": "3665",
+    "addr:street": "Postgasse 4",
+    "defibrillator:location": "Neben dem Bankomaten im geschützen Raum",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "24/7",
+    "operator": "Raiffeisenbank Wattenwil",
+    "phone": "+41 33 359 59 11",
     "id": "node/8247528319"
   },
   "geometry": {
@@ -31627,10 +31632,18 @@
   "type": "Feature",
   "id": "node/8289127637",
   "properties": {
+    "access": "yes",
+    "addr:city": "Bern",
+    "addr:housenumber": "100",
+    "addr:postcode": "3018",
+    "addr:street": "Bernstrasse",
     "defibrillator:location": "Vor dem Eingang Polizeiwache",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Polizeiwache Bümpliz",
+    "phone": "+41 31 638 80 00",
     "id": "node/8289127637"
   },
   "geometry": {
@@ -31912,20 +31925,20 @@
   "id": "node/8541295817",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Feuerwehrmagazin",
+    "defibrillator:location": "Feuerwehrmagazin beim Toröffner",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Feuerwehr Regio Gumm",
-    "phone": "+41765125489",
+    "phone": "+41 76 512 54 89",
     "id": "node/8541295817"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6294165,
-      46.9291452
+      7.6293994,
+      46.9291185
     ]
   }
 },
@@ -32068,14 +32081,16 @@
   "id": "node/8557371525",
   "properties": {
     "access": "yes",
+    "addr:city": "Kirchberg",
+    "addr:postcode": "3422",
+    "addr:street": "Hauptstrasse 7",
     "defibrillator:location": "Carport",
-    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Kantonspolizei Bern",
-    "phone": "031 638 83 90",
+    "operator": "Polizeiwache Kirchberg",
+    "phone": "+41 31 638 80 00",
     "id": "node/8557371525"
   },
   "geometry": {
@@ -32241,12 +32256,17 @@
   "id": "node/8573701059",
   "properties": {
     "access": "yes",
+    "addr:city": "Burgdorf",
+    "addr:housenumber": "1",
+    "addr:postcode": "3401",
+    "addr:street": "Dunantstrasse",
     "defibrillator:location": "Beim Parkplatz",
-    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Polizeiwache Burgdorf",
+    "phone": "+41 31 638 80 00",
     "id": "node/8573701059"
   },
   "geometry": {
@@ -32439,10 +32459,18 @@
   "type": "Feature",
   "id": "node/8630119351",
   "properties": {
+    "access": "yes",
+    "addr:city": "Münsingen",
+    "addr:housenumber": "2",
+    "addr:postcode": "3110",
+    "addr:street": "Aeschistrasse",
     "defibrillator:location": "beim Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Polizeiwache Münsingen",
+    "phone": "+41 31 638 80 00",
     "id": "node/8630119351"
   },
   "geometry": {
@@ -33224,6 +33252,1099 @@
     "coordinates": [
       7.8698684,
       46.6899671
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728595872",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Konolfingen",
+    "addr:housenumber": "1",
+    "addr:postcode": "3510",
+    "addr:street": "Kreuzplatz",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "Mo, Tu, Th 08:00-12:00, 14:00-17:00",
+    "operator": "Polizeiwache Konolfingen",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728595872"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6203001,
+      46.8788665
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728595873",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "La Neuveville",
+    "addr:housenumber": "1",
+    "addr:postcode": "2520",
+    "addr:street": "Rue des Fossés",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "operator": "Polizeiwache La Neuveville",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728595873"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0925507,
+      47.0642287
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728595874",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Laupen",
+    "addr:housenumber": "2",
+    "addr:postcode": "3177",
+    "addr:street": "Bahnweg",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "operator": "Polizeiwache Laupen",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728595874"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2363472,
+      46.906008
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728595875",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Lengnau",
+    "addr:housenumber": "11",
+    "addr:postcode": "2543",
+    "addr:street": "Solothurnstrasse",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "operator": "Polizeiwache Lengnau",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728595875"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3667205,
+      47.1831239
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728595876",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Moutier",
+    "addr:housenumber": "30",
+    "addr:postcode": "2740",
+    "addr:street": "Rue du Château",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "Mo-Th 08:30-11:30, 14:00-17:30, Fr 08:30-11:30, 14:00-17:00, Sa 09:00-11:00",
+    "operator": "Polizeiwache Moutier",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728595876"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3727754,
+      47.2805841
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728595877",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Münchenbuchsee",
+    "addr:housenumber": "21",
+    "addr:postcode": "3053",
+    "addr:street": "Bernstrasse",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "operator": "Polizeiwache Münchenbuchsee",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728595877"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4525069,
+      47.0197508
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728595878",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Nidau",
+    "addr:housenumber": "4",
+    "addr:postcode": "2560",
+    "addr:street": "Weyermattstrasse",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "Mo-Th 08:30-11:30, 14:00-17:30, Fr 08:30-11:30, 13:00-17:00, Sa 09:00-11:00",
+    "operator": "Polizeiwache Nidau",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728595878"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2392869,
+      47.1262068
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728645192",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Sumiswald",
+    "addr:housenumber": "16",
+    "addr:postcode": "3454",
+    "addr:street": "Spitalstrasse",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "Tu,Fr 08:00-12:00,14:00-17:00",
+    "operator": "Polizeiwache Sumiswald",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728645192"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7481917,
+      47.0298964
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728645193",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Lyssach",
+    "addr:housenumber": "2",
+    "addr:postcode": "3421",
+    "addr:street": "Dorfstrasse",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Lyssach",
+    "phone": "+41 344452515",
+    "id": "node/8728645193"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5813339,
+      47.0655618
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728645194",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Münsingen",
+    "addr:housenumber": "53",
+    "addr:postcode": "3110",
+    "addr:street": "Belpbergstrasse",
+    "defibrillator:location": "links neben dem Eingang an der Fassade",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Wohnbaugenossenschaft Erlenau",
+    "phone": "+41 79 625 68 36",
+    "id": "node/8728645194"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5549998,
+      46.8682781
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728645195",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Eggiwil",
+    "addr:housenumber": "560a",
+    "addr:postcode": "3537",
+    "addr:street": "Kapfschwand",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Garage Urs Egli",
+    "phone": "+41 34 491 10 19",
+    "id": "node/8728645195"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.769595,
+      46.8687137
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728645196",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Boll",
+    "addr:housenumber": "112",
+    "addr:postcode": "3067",
+    "addr:street": "Lindentalstrasse",
+    "defibrillator:location": "Beim Haupteingang links, Tag und Nacht beleuchtet",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Arbor AG",
+    "phone": "+41 31 838 51 73",
+    "id": "node/8728645196"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5544734,
+      46.9745449
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728645197",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Lyss",
+    "addr:housenumber": "2",
+    "addr:postcode": "3250",
+    "addr:street": "Kirchenfeldstrasse",
+    "defibrillator:location": "Hauptgebäude Kirche, Süd Ost",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Kirchgemeinde Lyss",
+    "phone": "032 387 03 07",
+    "id": "node/8728645197"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3076089,
+      47.0704683
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728645198",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Lyss",
+    "addr:housenumber": "2",
+    "addr:postcode": "3250",
+    "addr:street": "Hardern",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Lyss",
+    "phone": "+41 323870307",
+    "id": "node/8728645198"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3259674,
+      47.0856826
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728645199",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Moosseedorf",
+    "addr:housenumber": "1",
+    "addr:postcode": "3302",
+    "addr:street": "Schulhausstrasse",
+    "defibrillator:location": "rechts beim Haupteingang",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung Moosseedorf",
+    "phone": "+41 76 398 38 58",
+    "id": "node/8728645199"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4824514,
+      47.0137797
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728645200",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Pieterlen",
+    "addr:postcode": "2542",
+    "addr:street": "Moosgatenweg",
+    "defibrillator:location": "Beim Eingang des Clubhauses",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Clubhaus FC Pieterlen",
+    "phone": "+41 32 376 01 96",
+    "id": "node/8728645200"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3242211,
+      47.1708245
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728645201",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Moutier",
+    "addr:housenumber": "71",
+    "addr:postcode": "2740",
+    "addr:street": "Quartier de la Verrerie",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Precidec Sàrl",
+    "phone": "+41 32 493 58 62",
+    "id": "node/8728645201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3581304,
+      47.265808
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728645202",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Lyss",
+    "addr:postcode": "3250",
+    "addr:street": "Mönchweg",
+    "defibrillator:location": "Bei Fussweg Einstellhalleneintritt, dieser liegt an Ecke Mönchweg 4E und 10.",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "id": "node/8728645202"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3162261,
+      47.0734007
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728698618",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Péry-Reuchenette",
+    "addr:housenumber": "5",
+    "addr:postcode": "2603",
+    "addr:street": "Rue de la Reuchenette",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "operator": "Polizeiwache Péry-Reuchenette",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728698618"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2462459,
+      47.1902041
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728698619",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Schwarzenburg",
+    "addr:housenumber": "10",
+    "addr:postcode": "3150",
+    "addr:street": "Bernstrasse",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "Mo,We,Fr 08:00-12:00,14:00-17:00",
+    "operator": "Polizeiwache Schwarzenburg",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728698619"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3418497,
+      46.8197682
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728792846",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Ittigen",
+    "addr:housenumber": "7",
+    "addr:postcode": "3063",
+    "addr:street": "Rain",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Polizeiwache Ittigen",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728792846"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4786905,
+      46.9765263
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728792847",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Aarwangen",
+    "addr:housenumber": "27",
+    "addr:postcode": "4912",
+    "addr:street": "Langenthalstrasse",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Polizeiwache Aarwangen",
+    "phone": "+41 31 638 8000",
+    "id": "node/8728792847"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7707508,
+      47.2385344
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728792848",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Adelboden",
+    "addr:housenumber": "11",
+    "addr:postcode": "3715",
+    "addr:street": "Obere Dorfstrasse",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Polizeiwache Adelboden",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728792848"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5581402,
+      46.4925098
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728792849",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Brienz",
+    "addr:housenumber": "107",
+    "addr:postcode": "3855",
+    "addr:street": "Hauptstrasse",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Polizeiwache Brienz",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728792849"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0327502,
+      46.7543882
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728792850",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Brügg",
+    "addr:housenumber": "16",
+    "addr:postcode": "2555",
+    "addr:street": "Hauptstrasse",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Polizeiwache Brügg",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728792850"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2806739,
+      47.1242
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728792851",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Erlach",
+    "addr:housenumber": "20",
+    "addr:postcode": "3235",
+    "addr:street": "Amthausgasse",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Polizeiwache Erlach",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728792851"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0960532,
+      47.0415177
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728792852",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Frutigen",
+    "addr:housenumber": "2",
+    "addr:postcode": "3714",
+    "addr:street": "Amthausgasse",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Polizeiwache Frutigen",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728792852"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6461399,
+      46.5882457
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728792853",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Gümligen",
+    "addr:housenumber": "201a",
+    "addr:postcode": "3073",
+    "addr:street": "Worbstrasse",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Polizeiwache Gümligen",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728792853"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5042298,
+      46.9341665
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728792854",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Hinterkappelen",
+    "addr:housenumber": "2",
+    "addr:postcode": "3032",
+    "addr:street": "Schulstrasse",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Polizeiwache Hinterkappelen auch Seepolizei Wohlensee",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728792854"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3782,
+      46.9678445
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728792855",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Huttwil",
+    "addr:housenumber": "4",
+    "addr:postcode": "4950",
+    "addr:street": "Oberdorfstrasse",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Polizeiwache Huttwil",
+    "phone": "+41316388000",
+    "id": "node/8728792855"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8501173,
+      47.1131164
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728792856",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Langenthal",
+    "addr:housenumber": "22",
+    "addr:postcode": "4901",
+    "addr:street": "Jurastrasse",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Polizeiwache Langenthal",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728792856"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7888393,
+      47.214732
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728792857",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Langnau",
+    "addr:housenumber": "5",
+    "addr:postcode": "3550",
+    "addr:street": "Güterstrasse",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Polizeiwache Langnau i.E.",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728792857"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7843522,
+      46.9372057
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728792858",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Lauterbrunnen",
+    "addr:housenumber": "460",
+    "addr:postcode": "3822",
+    "addr:street": "Stutzli",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Polizeiwache Lauterbrunnen",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728792858"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9074257,
+      46.5970874
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728792859",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Lyss",
+    "addr:housenumber": "37",
+    "addr:postcode": "3250",
+    "addr:street": "Bielstrasse",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Polizeiwache Lyss",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728792859"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3032718,
+      47.0773735
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728792860",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Meiringen",
+    "addr:housenumber": "8",
+    "addr:postcode": "3860",
+    "addr:street": "Amthausgasse",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Polizeiwache Meiringen",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728792860"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1870463,
+      46.7303184
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728792861",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Ostermundigen",
+    "addr:housenumber": "10",
+    "addr:postcode": "3071",
+    "addr:street": "Milchstrasse",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Kantonspolizei Bern Schwerverkehr",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728792861"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4825447,
+      46.9628646
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728835638",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Ostermundigen",
+    "addr:housenumber": "28",
+    "addr:postcode": "3072",
+    "addr:street": "Untere Zollgasse",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Polizeiwache Ostermundigen",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728835638"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4886766,
+      46.9612638
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728835639",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Riggisberg",
+    "addr:housenumber": "4",
+    "addr:postcode": "3132",
+    "addr:street": "Vordere Gasse",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Polizeiwache Riggisberg",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728835639"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4763385,
+      46.8093926
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728835640",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Urtenen-Schönbühl",
+    "addr:housenumber": "9",
+    "addr:postcode": "3322",
+    "addr:street": "Zentrumsplatz",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Polizeiwache Urtenen-Schönbühl",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728835640"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4985565,
+      47.0200554
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728835641",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Spiez",
+    "addr:housenumber": "30",
+    "addr:postcode": "3700",
+    "addr:street": "Seestrasse",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Polizeiwache Spiez",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728835641"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6796105,
+      46.6887014
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728835642",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Saint-Imier",
+    "addr:housenumber": "4",
+    "addr:postcode": "2610",
+    "addr:street": "Place du 16 Mars",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Polizeiwache Saint-Imier",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728835642"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.000476,
+      47.1528099
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728835643",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Twann",
+    "addr:housenumber": "4",
+    "addr:postcode": "2513",
+    "addr:street": "Chlyne Twann",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Polizeiwache Twann auch Seepolizei Bielersee",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728835643"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1533505,
+      47.0926247
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728835644",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Uetendorf",
+    "addr:housenumber": "27",
+    "addr:postcode": "3661",
+    "addr:street": "Unterbälliz",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Polizeiwache Uetendorf",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728835644"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5681254,
+      46.7745227
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728835645",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Worb",
+    "addr:housenumber": "50",
+    "addr:postcode": "3076",
+    "addr:street": "Bernstrasse",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Polizeiwache Worb",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728835645"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5639868,
+      46.9260659
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728835646",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Zweisimmen",
+    "addr:housenumber": "29h",
+    "addr:postcode": "3770",
+    "addr:street": "Thunstrasse",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Polizeiwache Zweisimmen",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728835646"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3746606,
+      46.5614131
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728835647",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Wattenwil",
+    "addr:postcode": "3665",
+    "addr:street": "Gewerbestrasse",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Feuerwehrmagazin Dorf Wattenwil",
+    "phone": "+41 33 359 59 11",
+    "id": "node/8728835647"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5115236,
+      46.7673377
     ]
   }
 }
