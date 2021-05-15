@@ -50,6 +50,7 @@
     "description": "löst keinen Alarm 144 aus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
     "wheelchair": "yes",
@@ -16553,6 +16554,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/6987948071",
+  "properties": {
+    "access": "yes",
+    "addr:city": "St.Stephan",
+    "addr:housenumber": "49",
+    "addr:postcode": "3772",
+    "addr:street": "Lenkstrasse",
+    "defibrillator:location": "Raiffeisenbank St.Stephan",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Raiffeisenbank St.Stephan",
+    "id": "node/6987948071"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3934013,
+      46.5122746
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/6987948072",
   "properties": {
     "access": "yes",
@@ -16573,6 +16598,29 @@
     "coordinates": [
       7.4408995,
       46.45695
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/6987948074",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Lenk",
+    "addr:housenumber": "5",
+    "addr:postcode": "3775",
+    "addr:street": "Oberriedstrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "TEC",
+    "id": "node/6987948074"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.44343,
+      46.4567273
     ]
   }
 },
@@ -38119,7 +38167,7 @@
   "type": "Feature",
   "id": "node/8450667117",
   "properties": {
-    "access": "yes",
+    "access": "7/24",
     "addr:city": "Madiswil",
     "addr:housenumber": "3a",
     "addr:postcode": "4934",
@@ -38129,7 +38177,8 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "?",
+    "operator": "Ref. Kirchgemeinde Madiswil",
+    "phone": "+41 76 360 33 50",
     "id": "node/8450667117"
   },
   "geometry": {
@@ -45946,6 +45995,237 @@
     "coordinates": [
       9.8945393,
       46.8617458
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8734453457",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Lenk",
+    "addr:housenumber": "33a",
+    "addr:postcode": "3775",
+    "addr:street": "Oberrriedstrasse",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Talstation Stand Xpress",
+    "id": "node/8734453457"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4567647,
+      46.4419216
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8734453458",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Lenk",
+    "addr:housenumber": "12",
+    "addr:postcode": "3775",
+    "addr:street": "Seestrasse",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Kiosk Lenkersee",
+    "id": "node/8734453458"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4419456,
+      46.44968
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8734453459",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Lenk",
+    "addr:housenumber": "2",
+    "addr:postcode": "3775",
+    "addr:street": "Bahnhofplatz",
+    "defibrillator:location": "Bahnhof Lenk",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Bahnhof Lenk",
+    "id": "node/8734453459"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4437527,
+      46.4579414
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8734453460",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Lenk",
+    "addr:housenumber": "100",
+    "addr:postcode": "3775",
+    "addr:street": "Lenkstrasse",
+    "defibrillator:location": "Elektro Schneider",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Elektro Schneider",
+    "id": "node/8734453460"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.43637,
+      46.4719413
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8734453461",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Gstaad",
+    "addr:housenumber": "156",
+    "addr:postcode": "3792",
+    "addr:street": "Gsteigstrasse",
+    "defibrillator:location": "Addor AG- Tiefbau und Transporte",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Addor AG- Tiefbau und Transporte",
+    "id": "node/8734453461"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2739601,
+      46.4453502
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8734453462",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Gstaad",
+    "addr:housenumber": "41",
+    "addr:postcode": "3792",
+    "addr:street": "Promenade",
+    "defibrillator:location": "auf der linken Seite des Gebäudes",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Tourismusbüro Gstaad",
+    "id": "node/8734453462"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2862016,
+      46.4735646
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8734453463",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Saanenmösern",
+    "addr:housenumber": "7",
+    "addr:postcode": "3777",
+    "addr:street": "Bahnhofstrasse",
+    "defibrillator:location": "links vom Haupteingang",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Golf Hotel- Les Hauts de Gstaad & Spa",
+    "id": "node/8734453463"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3104187,
+      46.5179718
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8734453464",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Boltigen",
+    "addr:housenumber": "584",
+    "addr:postcode": "3766",
+    "addr:street": "Weissenbach",
+    "defibrillator:location": "Bahnhofhaus Weissenbach",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Bahnhofhaus Weissenbach",
+    "id": "node/8734453464"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3745184,
+      46.6019777
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8734453465",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Sigriswil",
+    "addr:housenumber": "10",
+    "addr:postcode": "3655",
+    "addr:street": "Sanggenbühl",
+    "defibrillator:location": "Bei Eingangstüre",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Familie Scheer Ärztin",
+    "phone": "+41 787185552",
+    "id": "node/8734453465"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7235519,
+      46.7152753
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8734453466",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Boltigen",
+    "addr:housenumber": "194",
+    "addr:postcode": "3762",
+    "addr:street": "Dorf",
+    "defibrillator:location": "Volg Gebäude, an der Hauptstrasse zugewandten Gebäudeseite (Nord-West)",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Volg Boltigen",
+    "id": "node/8734453466"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3892803,
+      46.6281633
     ]
   }
 }
