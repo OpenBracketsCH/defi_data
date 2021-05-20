@@ -69769,9 +69769,13 @@
   "type": "Feature",
   "id": "node/7777533524",
   "properties": {
-    "defibrillator:location": "bei Weimann Medical Services",
+    "access": "no",
+    "defibrillator:location": "bei Weimann Medical Services in der Wohnung, in wenigen Fällen unterwegs",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Medical Services Weimann, Kontaktperson: Tobias Weimann",
+    "phone": "032 510 75 67",
     "id": "node/7777533524"
   },
   "geometry": {
@@ -110520,8 +110524,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3085097,
-      47.5824201
+      8.3083558,
+      47.582746
     ]
   }
 },
