@@ -9132,6 +9132,7 @@
     "defibrillator:location": "Berrgstation Halle, in Behinderten-WC",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "operator": "Harderbahn",
     "phone": "Nr. Talstation - +41 33 828 71 11",
     "id": "node/6566220014"
@@ -64085,6 +64086,26 @@
     "coordinates": [
       8.7367967,
       47.2666931
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8750041512",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Gebäude",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/8750041512"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6888081,
+      47.0297241
     ]
   }
 }
