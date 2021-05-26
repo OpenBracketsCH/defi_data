@@ -64082,7 +64082,7 @@
   "id": "node/8748371319",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Allmendstrasse 5",
+    "defibrillator:location": "Treppenhaus Haupteingang 2.Stock und Eingang hinter Bürogebäude EG",
     "description": "während Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -64095,8 +64095,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6324961,
-      47.5180188
+      8.6323459,
+      47.5183213
     ]
   }
 },
@@ -64372,6 +64372,120 @@
     "coordinates": [
       9.6456868,
       47.3966825
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8769867869",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Haupteingang , innen , linke Seite",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:45-12:00, 13:00-17:00",
+    "operator": "Brühlgut Stiftung, Winterthur",
+    "phone": "052 268 11 11",
+    "id": "node/8769867869"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.704872,
+      47.4890001
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8769867870",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Haupteingang, nach der Schiebetüre, rechte Seite",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:45-12:00, 13:00-17:00",
+    "operator": "Brühlgut Stiftung, Winterthur",
+    "phone": "052 268 11 11",
+    "id": "node/8769867870"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6811036,
+      47.5114888
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8769867871",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Haupteingang nach der Schiebetüre, innen, linke Seite",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:45-12:00, 13:00-17:00",
+    "operator": "Brühlgut Stiftung, Winterthur",
+    "phone": "052 268 11 11",
+    "id": "node/8769867871"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7119986,
+      47.4967134
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8769908299",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Einfamilienhaus",
+    "description": "nur wenn Bewohner anwesend sind",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Bruno Ducceschi",
+    "phone": "0796632703",
+    "id": "node/8769908299"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4748176,
+      47.5880948
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8769917253",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Schulgebäude, Pausenraum",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-16:00",
+    "operator": "Remo Degani",
+    "phone": "079 656 13 28",
+    "id": "node/8769917253"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.6573988,
+      47.3859619
     ]
   }
 }
