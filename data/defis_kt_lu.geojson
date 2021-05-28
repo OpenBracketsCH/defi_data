@@ -4362,10 +4362,14 @@
   "type": "Feature",
   "id": "node/7637818542",
   "properties": {
-    "description": "im grauen Gebäude",
+    "defibrillator:location": "Auf der linken Seite des Gebäudes (von der Strasse her gesehen), stehen Baracken. Im Gang dazwischen ist es die zweite Eingangstür ins Gebäude. Der AED ist am Regal, recht neben der Tür aufgehängt.",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "name": "STRABAG BMTI Bauunternehmung",
+    "opening_hours": "Mo-Th 06:30-16:30; Fr 06:30-15:30",
+    "operator": "Patrick Meier, STRABAG AG",
+    "phone": "+41796428015",
     "id": "node/7637818542"
   },
   "geometry": {
@@ -5413,24 +5417,6 @@
     "coordinates": [
       8.2104943,
       47.1757789
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7637818606",
-  "properties": {
-    "description": "in der Praxis",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Benyes Maria, Praxis",
-    "id": "node/7637818606"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.9752693,
-      47.191184
     ]
   }
 },
@@ -12859,23 +12845,6 @@
     "coordinates": [
       7.9717591,
       47.2004292
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7637819144",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Hodel Josef Praxis,",
-    "id": "node/7637819144"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.9675003,
-      47.1995043
     ]
   }
 },

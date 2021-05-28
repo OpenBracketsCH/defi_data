@@ -27589,10 +27589,14 @@
   "type": "Feature",
   "id": "node/7637818542",
   "properties": {
-    "description": "im grauen Gebäude",
+    "defibrillator:location": "Auf der linken Seite des Gebäudes (von der Strasse her gesehen), stehen Baracken. Im Gang dazwischen ist es die zweite Eingangstür ins Gebäude. Der AED ist am Regal, recht neben der Tür aufgehängt.",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "name": "STRABAG BMTI Bauunternehmung",
+    "opening_hours": "Mo-Th 06:30-16:30; Fr 06:30-15:30",
+    "operator": "Patrick Meier, STRABAG AG",
+    "phone": "+41796428015",
     "id": "node/7637818542"
   },
   "geometry": {
@@ -28405,24 +28409,6 @@
     "coordinates": [
       8.2104943,
       47.1757789
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7637818606",
-  "properties": {
-    "description": "in der Praxis",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Benyes Maria, Praxis",
-    "id": "node/7637818606"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.9752693,
-      47.191184
     ]
   }
 },
@@ -36256,23 +36242,6 @@
     "coordinates": [
       7.9717591,
       47.2004292
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7637819144",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Hodel Josef Praxis,",
-    "id": "node/7637819144"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.9675003,
-      47.1995043
     ]
   }
 },
@@ -64551,6 +64520,97 @@
     "coordinates": [
       9.5881987,
       47.4625432
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8775887217",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Strassenverkehrsamt Amriswil",
+    "description": "während der Öffnungszeiten verfügbar / Eingang, gerade aus im grossen Schrank, kniehöhe ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Kanton Thurgau",
+    "phone": "+41 58 345 36 36",
+    "id": "node/8775887217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2782074,
+      47.5480389
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8775937904",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Der Standort des Defibrillators ist im Waaghaus der Logistik von Entsorgung/Recycling der Stadt Wädenswil",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 09:30-12:00, 13:15-18:00; Sa 08:30-15:00",
+    "operator": "Stadt Wädenswil Werke",
+    "phone": "044 789 75 23",
+    "id": "node/8775937904"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6447811,
+      47.2375483
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8775966617",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Gebäude Warenannahme/Logistik Meister & Cie AG",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-16:00",
+    "operator": "Firma Meister & Cie AG",
+    "phone": "0344605555",
+    "id": "node/8775966617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6612928,
+      47.0169355
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8775966618",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Haupteingang Verwaltungsgebäude der Meister & Cie AG",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-16:00",
+    "operator": "Firma Meister & Cie AG",
+    "phone": "0344605555",
+    "id": "node/8775966618"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.661148,
+      47.015703
     ]
   }
 }
