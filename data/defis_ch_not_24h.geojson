@@ -390,32 +390,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/2659177739",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Wangen an der Aare",
-    "addr:country": "CH",
-    "addr:housenumber": "32",
-    "addr:postcode": "3380",
-    "addr:street": "Städtli",
-    "defibrillator:location": "Kantonspolizei Bern",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Kantonspolizei Bern",
-    "phone": "+41 31 638 84 40",
-    "id": "node/2659177739"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6544143,
-      47.2363952
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/2669120577",
   "properties": {
     "emergency": "defibrillator",
@@ -64751,6 +64725,29 @@
     "coordinates": [
       9.5297285,
       46.8529303
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8809163453",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Gebäude vor Eingang Gemeindeverwaltung",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 09:00-17:00",
+    "operator": "Gemeinde Wangenried",
+    "phone": "+41 32 631 14 92",
+    "wheelchair": "yes",
+    "id": "node/8809163453"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6587088,
+      47.2167919
     ]
   }
 }

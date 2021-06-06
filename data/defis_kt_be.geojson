@@ -57,15 +57,17 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Kantonspolizei Bern",
     "phone": "+41 31 638 84 40",
+    "wheelchair": "no",
     "id": "node/2659177739"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6544143,
-      47.2363952
+      7.6544139,
+      47.2363908
     ]
   }
 },
@@ -35070,6 +35072,50 @@
     "coordinates": [
       7.5832366,
       46.812189
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8809163445",
+  "properties": {
+    "defibrillator:location": "Vor Eingang an der Wand",
+    "emergency": "defibrillator",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "schule-aare-oenz.ch",
+    "phone": "+41 62 961 48 29",
+    "wheelchair": "no",
+    "id": "node/8809163445"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6687238,
+      47.2047345
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8809163453",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Gebäude vor Eingang Gemeindeverwaltung",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 09:00-17:00",
+    "operator": "Gemeinde Wangenried",
+    "phone": "+41 32 631 14 92",
+    "wheelchair": "yes",
+    "id": "node/8809163453"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6587088,
+      47.2167919
     ]
   }
 }
