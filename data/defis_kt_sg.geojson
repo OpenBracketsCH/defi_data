@@ -9209,6 +9209,70 @@
       47.1823491
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/8820824620",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kirchgemeindehaus, Foyer rechts",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Kirchgemeinde",
+    "id": "node/8820824620"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4465994,
+      47.1811758
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8820864520",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Pago AG, 1x Sanitätsraum, 1x Büro",
+    "description": "während der Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Pago AG",
+    "id": "node/8820864520"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4606664,
+      47.1831045
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8820864921",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Lippuner AG, Velounterstand",
+    "description": "im Freien, öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Lippuner EMT AG",
+    "id": "node/8820864921"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4616756,
+      47.1821699
+    ]
+  }
 }
 ]
 }

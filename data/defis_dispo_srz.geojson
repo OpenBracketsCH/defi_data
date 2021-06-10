@@ -18992,7 +18992,7 @@
     "operator": "Flughafen Zürich AG",
     "phone": "+41 43 816 24 24",
     "ref": "RNG063",
-    "wheelchair": "no",
+    "wheelchair": "yes",
     "id": "node/8425696196"
   },
   "geometry": {
@@ -19043,7 +19043,7 @@
     "operator": "Flughafen Zürich AG",
     "phone": "+41 43 816 24 24",
     "ref": "RNG005",
-    "wheelchair": "no",
+    "wheelchair": "yes",
     "id": "node/8425698087"
   },
   "geometry": {
@@ -19120,7 +19120,7 @@
     "operator": "Flughafen Zürich AG",
     "phone": "+41 43 816 24 24",
     "ref": "RNG059",
-    "wheelchair": "no",
+    "wheelchair": "yes",
     "id": "node/8425712679"
   },
   "geometry": {
@@ -27971,13 +27971,14 @@
     "opening_hours": "24/7",
     "operator": "Stadt Schlieren, Bereich Liegenschaften",
     "phone": "044 738 15 08",
+    "wheelchair": "no",
     "id": "node/8780672277"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4480438,
-      47.39778
+      8.4480516,
+      47.3977648
     ]
   }
 },
@@ -28807,6 +28808,29 @@
     "coordinates": [
       8.7483841,
       47.4951866
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8820883648",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben den Toiletten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Sa 11:30-22:00; Su 11:30-20:00",
+    "operator": "Freiruum Zug",
+    "wheelchair": "yes",
+    "id": "node/8820883648"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5127796,
+      47.1770146
     ]
   }
 }

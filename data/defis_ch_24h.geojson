@@ -1077,11 +1077,14 @@
   "type": "Feature",
   "id": "node/4131430499",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Esterno negozio",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Fondazione Ticino Cuore",
+    "wheelchair": "yes",
     "id": "node/4131430499"
   },
   "geometry": {
@@ -36839,7 +36842,7 @@
     "operator": "Flughafen Zürich AG",
     "phone": "+41 43 816 24 24",
     "ref": "RNG063",
-    "wheelchair": "no",
+    "wheelchair": "yes",
     "id": "node/8425696196"
   },
   "geometry": {
@@ -36890,7 +36893,7 @@
     "operator": "Flughafen Zürich AG",
     "phone": "+41 43 816 24 24",
     "ref": "RNG005",
-    "wheelchair": "no",
+    "wheelchair": "yes",
     "id": "node/8425698087"
   },
   "geometry": {
@@ -36967,7 +36970,7 @@
     "operator": "Flughafen Zürich AG",
     "phone": "+41 43 816 24 24",
     "ref": "RNG059",
-    "wheelchair": "no",
+    "wheelchair": "yes",
     "id": "node/8425712679"
   },
   "geometry": {
@@ -47082,13 +47085,14 @@
     "opening_hours": "24/7",
     "operator": "Stadt Schlieren, Bereich Liegenschaften",
     "phone": "044 738 15 08",
+    "wheelchair": "no",
     "id": "node/8780672277"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4480438,
-      47.39778
+      8.4480516,
+      47.3977648
     ]
   }
 },
@@ -47981,6 +47985,28 @@
     "coordinates": [
       8.7951454,
       47.3659295
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8820864921",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Lippuner AG, Velounterstand",
+    "description": "im Freien, öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Lippuner EMT AG",
+    "id": "node/8820864921"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4616756,
+      47.1821699
     ]
   }
 }
