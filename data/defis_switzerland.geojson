@@ -718,6 +718,8 @@
   "type": "Feature",
   "id": "node/2822051060",
   "properties": {
+    "defibrillator:location": "Im Pflegezentrum am Empfang",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -10537,10 +10539,14 @@
   "type": "Feature",
   "id": "node/6532007589",
   "properties": {
+    "access": "no",
+    "defibrillator:location": "TLF Feuerwehr",
+    "description": "nur über Notruf erreichbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "FW Menzingen, Auf Fahrzeug nur bei Öffnungzeit und Betrieb",
+    "operator": "Gemeinde Menzingen",
+    "phone": "041 757 22 03",
     "id": "node/6532007589"
   },
   "geometry": {
@@ -10555,17 +10561,21 @@
   "type": "Feature",
   "id": "node/6532019400",
   "properties": {
+    "defibrillator:location": "Haupteingang links",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Sportanlage Ochsenmatt",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Menzingen",
+    "phone": "041 757 22 03",
     "id": "node/6532019400"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5931185,
-      47.1794911
+      8.5932741,
+      47.1796351
     ]
   }
 },
@@ -45329,6 +45339,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "In Polizeidienststelle",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
@@ -75442,11 +75453,15 @@
   "type": "Feature",
   "id": "node/7928222742",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Pflegeheim Kloster",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "level": "0",
+    "operator": "Gemeinde Menzingen",
+    "phone": "041 757 22 03",
     "id": "node/7928222742"
   },
   "geometry": {
@@ -75466,6 +75481,8 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "level": "0",
+    "operator": "Gemeinde Menzingen",
+    "phone": "041 757 22 03",
     "id": "node/7928222743"
   },
   "geometry": {
@@ -75485,6 +75502,8 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "level": "0",
+    "operator": "Gemeinde Menzingen",
+    "phone": "041 757 22 03",
     "id": "node/7928222744"
   },
   "geometry": {
@@ -75499,11 +75518,15 @@
   "type": "Feature",
   "id": "node/7928222745",
   "properties": {
+    "access": "no",
     "defibrillator:location": "Beim Empfang",
-    "description": "während Öffnungszeiten verfügbar",
+    "description": "nicht öffentlich zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "level": "0",
+    "operator": "Gemeinde Menzingen",
+    "phone": "041 757 22 03",
     "id": "node/7928222745"
   },
   "geometry": {
@@ -75518,11 +75541,15 @@
   "type": "Feature",
   "id": "node/7928222746",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Ärztezentrum Menzingen",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "level": "0",
+    "operator": "Gemeinde Menzingen",
+    "phone": "041 757 22 03",
     "id": "node/7928222746"
   },
   "geometry": {
@@ -75537,11 +75564,15 @@
   "type": "Feature",
   "id": "node/7928222747",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Praxis van de Veen",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "level": "0",
+    "operator": "Gemeinde Menzingen",
+    "phone": "041 757 22 03",
     "id": "node/7928222747"
   },
   "geometry": {
@@ -75556,11 +75587,15 @@
   "type": "Feature",
   "id": "node/7928222748",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Praxis Dr. Klein",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "level": "0",
+    "operator": "Gemeinde Menzingen",
+    "phone": "041 757 22 03",
     "id": "node/7928222748"
   },
   "geometry": {
@@ -75575,11 +75610,16 @@
   "type": "Feature",
   "id": "node/7928222749",
   "properties": {
-    "defibrillator:location": "Eingang hinten",
+    "access": "yes",
+    "defibrillator:location": "Hintereingang Kirche, Vorzeichen, Aufgang",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "level": "0",
+    "opening_hours": "Mo-Fr 07:00-19:00",
+    "operator": "Gemeinde Menzingen",
+    "phone": "041 757 22 03",
     "id": "node/7928222749"
   },
   "geometry": {
@@ -75594,11 +75634,15 @@
   "type": "Feature",
   "id": "node/7928222750",
   "properties": {
-    "defibrillator:location": "Entsorgungshalle",
+    "access": "yes",
+    "defibrillator:location": "Büro Ökihof",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "level": "0",
+    "operator": "Gemeinde Menzingen",
+    "phone": "041 757 22 03",
     "id": "node/7928222750"
   },
   "geometry": {
@@ -75613,11 +75657,14 @@
   "type": "Feature",
   "id": "node/7928222751",
   "properties": {
-    "defibrillator:location": "Gasthof Luegisland",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Zugang zur Gartenwirtschaft, Gasthof Luegisland",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Menzingen",
+    "phone": "041 757 22 03",
     "id": "node/7928222751"
   },
   "geometry": {
@@ -113426,6 +113473,98 @@
     "coordinates": [
       9.5650417,
       47.3781924
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8831381726",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang links",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Menzingen",
+    "phone": "041 757 22 03",
+    "id": "node/8831381726"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.600015,
+      47.1728493
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8831381727",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang links",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Menzingen",
+    "phone": "041 757 22 03",
+    "id": "node/8831381727"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5919309,
+      47.1787347
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8831381728",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Bankomatenraum",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Menzingen",
+    "phone": "041 757 22 03",
+    "id": "node/8831381728"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5907742,
+      47.1780387
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8831381729",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bushaltestelle Edlibach",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Menzingen",
+    "phone": "041 757 22 03",
+    "id": "node/8831381729"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5703471,
+      47.1825704
     ]
   }
 }
