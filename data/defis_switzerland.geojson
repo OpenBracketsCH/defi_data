@@ -68374,10 +68374,12 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "im Windfang Eingang MZH Bünt",
-    "description": "Öffentlich zugänglich",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "24/7",
+    "indoor": "yes",
+    "operator": "Gemeinde Berneck, Remo Künzler",
+    "phone": "+41 71 747 44 85",
     "id": "node/7723928003"
   },
   "geometry": {
@@ -113653,6 +113655,161 @@
     "coordinates": [
       8.6549985,
       47.387416
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8834964693",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussenbereich Eingang. Zugang ist hindernisfrei über Rampe zugänglich.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Spitex Uster",
+    "phone": "044 905 70 80",
+    "id": "node/8834964693"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7284312,
+      47.3518753
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8835011418",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Florissimo der Migros",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Th 08:00-18:30; Fr 08:00-21:00; Sa 08:00-16:00",
+    "id": "node/8835011418"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9947156,
+      47.1235836
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8835033821",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Der Standort des AEDs ist im 2. OG, Halle, Türe Süd.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "B&R Industrie-Automation AG, Safety Officer",
+    "phone": "+41 52 728 56 00",
+    "id": "node/8835033821"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.912656,
+      47.5679682
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8835035957",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Auf Gebäudeseite Spielplatz/Dohlenzelgstrasse ca. mittig an Gebäudewand unter Vordach (zwischen den Bänken)",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8835035957"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2157417,
+      47.4741432
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8835035958",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Erdgeschoss im Abgang zur Tiefgarage auf Seite Dorfplatz",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Hausen",
+    "phone": "0564617040",
+    "id": "node/8835035958"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2108413,
+      47.4639687
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8835035959",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Direkt im Eingangsbereich bei den Bancomaten",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "id": "node/8835035959"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2165852,
+      47.477657
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8835039741",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "3. OG im Gang",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "AVS Systeme AG, Peter Dürger, Bösch 45, 6331 Hünenberg",
+    "phone": "0792797585",
+    "id": "node/8835039741"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4381223,
+      47.16163
     ]
   }
 }
