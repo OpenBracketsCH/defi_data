@@ -66054,7 +66054,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 09:00-17:00",
+    "opening_hours": "Mo-Su 09:00-17:00",
     "operator": "Reformierte Kirchgemeinde, Pfarrer Rolf Zaugg, Schulhausplatz 6, 5200 Brugg",
     "phone": "+41 79 474 46 84",
     "id": "node/8840947275"
@@ -66693,6 +66693,50 @@
     "coordinates": [
       8.6543694,
       47.388012
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8842064217",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bau 2 (neueres Gebäude) Eingang rechts",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Bildungszentrum für Technik Frauenfeld (BZTF)",
+    "phone": "+41583456500",
+    "id": "node/8842064217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8915709,
+      47.5567733
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8842064218",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bergpraxis/Spyrigarten, Bergstrasse 1",
+    "description": "Im Eingangsbereich neben 2. Glastür rechts",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo- So 7-20Uhr",
+    "operator": "Gemeinde Hirzel, Bergpraxis und Spyrigarten",
+    "phone": "0447287272",
+    "id": "node/8842064218"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6062658,
+      47.2179801
     ]
   }
 }
