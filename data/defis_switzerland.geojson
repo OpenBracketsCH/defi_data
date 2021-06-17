@@ -74473,13 +74473,14 @@
     "defibrillator:location": "Kassenbereich Migros (Erdgeschoss)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "id": "node/7908632207"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4384758,
-      46.9475115
+      7.4384892,
+      46.9475097
     ]
   }
 },
@@ -115699,6 +115700,50 @@
     "coordinates": [
       8.5342129,
       47.3735711
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8842863017",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Forum Würth - 1 Stück pro etage",
+    "description": "Während Museums Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-So 11.00-17.00 Uhr",
+    "operator": "Firma Würth",
+    "phone": "+41815580000",
+    "id": "node/8842863017"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5286308,
+      46.8601541
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8842863018",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schule Steinacker, am Eingang Singsaal",
+    "description": "Draussen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8842863018"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.779193,
+      47.3722803
     ]
   }
 }
