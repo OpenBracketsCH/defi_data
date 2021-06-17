@@ -13191,6 +13191,7 @@
     "addr:street": "Grütschalp",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "24/7",
     "operator": "Jungfraubahn AG",
     "phone": "+41 33 828 72 33",
@@ -115237,6 +115238,116 @@
     "coordinates": [
       8.5314432,
       47.3330879
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8841370960",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der Defibrillator befindet sich im Treppenhaus im 1. OG (Empfang) innerhalb des Gebäudes.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "record / Samuel Hedinger (SIBE)",
+    "phone": "+41 44 954 9191",
+    "id": "node/8841370960"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7421989,
+      47.3926298
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8841401617",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Baur au Lac Vins",
+    "description": "Während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Baur au Lac Vins",
+    "phone": "+41447770505",
+    "id": "node/8841401617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4657627,
+      47.4428039
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8841478117",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rathaus Weinfelden",
+    "description": "Während der Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "operator": "Gemeinde",
+    "id": "node/8841478117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1096087,
+      47.5686623
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8841486317",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Stadtverwaltung Weinfelden, Debrunnerhaus",
+    "description": "Während der Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:30-17:00",
+    "operator": "Gemeinde",
+    "id": "node/8841486317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1094014,
+      47.5690967
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8841486327",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Freibad",
+    "description": "Mai-September",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde",
+    "id": "node/8841486327"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1070261,
+      47.555147
     ]
   }
 }
