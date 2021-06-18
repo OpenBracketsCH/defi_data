@@ -30616,27 +30616,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7853303883",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Beim Eingang des Restaurant Mia Casa",
-    "description": "Öffentlich zugänglich 24h",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde Höri",
-    "id": "node/7853303883"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5077484,
-      47.5083925
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7853303884",
   "properties": {
     "access": "yes",
@@ -38081,6 +38060,28 @@
     "coordinates": [
       8.3118466,
       47.0345035
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8446285417",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben Lieferanteneingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Restaurant Raten",
+    "id": "node/8446285417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6640325,
+      47.1412479
     ]
   }
 },

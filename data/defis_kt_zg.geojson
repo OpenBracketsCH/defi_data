@@ -4204,19 +4204,21 @@
   "type": "Feature",
   "id": "node/8446285417",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "links neben dem Eingang",
-    "description": "während den Öfnungszeiten",
+    "access": "yes",
+    "defibrillator:location": "Neben Lieferanteneingang",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Restaurant Raten",
     "id": "node/8446285417"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6641316,
-      47.1412882
+      8.6640325,
+      47.1412479
     ]
   }
 },
