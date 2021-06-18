@@ -3259,13 +3259,14 @@
   "type": "Feature",
   "id": "node/7636269858",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Schalter Einwohnerkontrolle (EG)",
+    "access": "no",
+    "defibrillator:location": "Einwohnerkontrolle (Erdgeschoss)",
     "description": "während Öffnungszeiten zugänglich, Ausnahme Feiertage und ausserordentliche Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-11:30, 14:00-16:30, We 08:00-11:30, 14:00-18:00",
+    "level": "0",
+    "opening_hours": "Mo,Th 08:00-11:30, 14:00-16:30, Tu/Fr 08:00-11.30, We 08:00-11:30, 14:00-18:00,",
     "operator": "Gemeindeverwaltung Stallikon",
     "id": "node/7636269858"
   },
