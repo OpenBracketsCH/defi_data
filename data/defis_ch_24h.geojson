@@ -21672,18 +21672,22 @@
   "type": "Feature",
   "id": "node/7569750796",
   "properties": {
-    "defibrillator:location": "Von der Strasse zugänglich",
-    "description": "Privater Defi, im Winter beheizt",
+    "access": "yes",
+    "defibrillator:location": "Direkt an Strasse, frei zugänglich",
+    "description": "Unter Dach, beleuchtet",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Diener",
+    "phone": "0794202353",
     "id": "node/7569750796"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.9069563,
-      47.2758643
+      8.9071259,
+      47.2758452
     ]
   }
 },
@@ -31722,6 +31726,28 @@
     "coordinates": [
       8.6477923,
       47.2353624
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930563036",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Einwohnerkontrolle: Bei den Briefkästen unten rechts integriert",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "perator": "Gemeinde Steinhausen",
+    "id": "node/7930563036"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4842536,
+      47.1961136
     ]
   }
 },
@@ -48979,6 +49005,51 @@
     "coordinates": [
       8.6822844,
       47.5606209
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8843827096",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Defi ist beim Haupteingang in das Gebäude Schulhaus Rotflue 2 angebracht",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Primarschule Dänikon-Hüttikon",
+    "phone": "+41 43 495 36 16",
+    "id": "node/8843827096"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3964756,
+      47.4476563
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8843853656",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Tennisclub, am Geräte-Häuschen, neben der Tenniswand - schaut Richtung Norden, ist vom Haupteingang in den Tennisclub gut sichtbar.",
+    "description": "24h verfügbar (einfach über Türchen klettern)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Tennisclub Oberrieden",
+    "id": "node/8843853656"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5776823,
+      47.2690574
     ]
   }
 }

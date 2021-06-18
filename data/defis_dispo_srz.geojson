@@ -5537,18 +5537,22 @@
   "type": "Feature",
   "id": "node/7569750796",
   "properties": {
-    "defibrillator:location": "Von der Strasse zugänglich",
-    "description": "Privater Defi, im Winter beheizt",
+    "access": "yes",
+    "defibrillator:location": "Direkt an Strasse, frei zugänglich",
+    "description": "Unter Dach, beleuchtet",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Diener",
+    "phone": "0794202353",
     "id": "node/7569750796"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.9069563,
-      47.2758643
+      8.9071259,
+      47.2758452
     ]
   }
 },
@@ -7205,7 +7209,9 @@
     "description": "während Öffnungszeiten zugänglich, Ausnahme Feiertage und ausserordentliche Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "Mo-Fr 08:00-11:30, 14:00-16:30, We 08:00-11:30, 14:00-18:00",
+    "operator": "Gemeindeverwaltung Stallikon",
     "id": "node/7636269858"
   },
   "geometry": {
@@ -13188,10 +13194,13 @@
   "id": "node/7930563036",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Auf der Einwohnerkontrolle",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Einwohnerkontrolle: Bei den Briefkästen unten rechts integriert",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "perator": "Gemeinde Steinhausen",
     "id": "node/7930563036"
   },
   "geometry": {
@@ -30069,6 +30078,141 @@
     "coordinates": [
       8.6822844,
       47.5606209
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8843827096",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Defi ist beim Haupteingang in das Gebäude Schulhaus Rotflue 2 angebracht",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Primarschule Dänikon-Hüttikon",
+    "phone": "+41 43 495 36 16",
+    "id": "node/8843827096"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3964756,
+      47.4476563
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8843853656",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Tennisclub, am Geräte-Häuschen, neben der Tenniswand - schaut Richtung Norden, ist vom Haupteingang in den Tennisclub gut sichtbar.",
+    "description": "24h verfügbar (einfach über Türchen klettern)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Tennisclub Oberrieden",
+    "id": "node/8843853656"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5776823,
+      47.2690574
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8843856190",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Pfarreizentrum / Saal / Foyer",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 09:00-11:00, 14:00-16:00",
+    "operator": "Kirche und Pfarreizentrum St. Felix und Regula",
+    "phone": "044 722 70 80",
+    "id": "node/8843856190"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5590812,
+      47.2973681
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8843870678",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "1. UG, an der Wand zwischen Garderobe und Seiteneingang Süd",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Hauswart (Michael Schlegel)",
+    "phone": "044 884 72 98",
+    "id": "node/8843870678"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.402638,
+      47.4689533
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8843871246",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Am Empfang, im schwarzen Schrank, dort wo der erste Hilfe Koffer ist.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Th 07:30-12:00, 13:00-17:00; Fr 07:30-12:00, 13:00-15:30",
+    "operator": "Marcel Pfund",
+    "phone": "052 368 60 00",
+    "id": "node/8843871246"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4379439,
+      47.4030813
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8843874872",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Küche Bistro im Durchgang zum Restaurant",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "ALMAS Industries",
+    "phone": "021 637 02 30",
+    "id": "node/8843874872"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4552901,
+      47.3696577
     ]
   }
 }
