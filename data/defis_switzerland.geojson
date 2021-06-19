@@ -112354,10 +112354,14 @@
   "type": "Feature",
   "id": "node/8804586177",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Devant bureau communal",
+    "defibrillator:location:fr": "A droite de la porte d'entrée du bureau communal",
     "emergency": "defibrillator",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "commune Vuarrens",
+    "wheelchair": "yes",
     "id": "node/8804586177"
   },
   "geometry": {
@@ -116299,6 +116303,22 @@
     "coordinates": [
       8.2534514,
       47.0310625
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8849215442",
+  "properties": {
+    "defibrillator:location": "Aussenwand gegen See",
+    "emergency": "defibrillator",
+    "id": "node/8849215442"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8487576,
+      46.8564503
     ]
   }
 }
