@@ -60726,10 +60726,12 @@
   "type": "Feature",
   "id": "node/7637819022",
   "properties": {
+    "defibrillator:location": "im Freien bei der Postautohaltestelle",
     "description": "Postautohaltestelle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "name": "Postautohaltestelle",
+    "opening_hours": "24/7",
     "id": "node/7637819022"
   },
   "geometry": {
@@ -116461,6 +116463,23 @@
     "coordinates": [
       8.5086854,
       47.5546125
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8851160392",
+  "properties": {
+    "defibrillator:location": "auf dem Platz, zwischen Postfächern und Ladestationen für Elektrofahrzeuge",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "id": "node/8851160392"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5845615,
+      46.9673571
     ]
   }
 }
