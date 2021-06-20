@@ -2921,6 +2921,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/4171975608",
+  "properties": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Seilpark Balmberg",
+    "phone": "+41 32 637 14 14",
+    "website": "https://seilpark-balmberg.ch",
+    "id": "node/4171975608"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.541752,
+      47.266444
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/4313408793",
   "properties": {
     "emergency": "defibrillator",
@@ -116377,6 +116398,47 @@
     "coordinates": [
       7.409838,
       46.9190207
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8850705531",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Busstation",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8850705531"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1384716,
+      46.2570914
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8850708318",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Post Brusino-Arsizio",
+    "description": "zugänglich an Aussenwand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8850708318"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4,
+      46.9680218
     ]
   }
 }
