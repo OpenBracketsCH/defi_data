@@ -1196,6 +1196,8 @@
   "properties": {
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
     "id": "node/4753150749"
   },
   "geometry": {
@@ -35295,6 +35297,51 @@
     "coordinates": [
       7.4550584,
       47.2855236
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8852669266",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Wenn man den Haupteingang vom Waisenhausplatz aus (einziger zugänglicher Eingang) bei der NMS benützt, den Gang geradeaus läuft und dann am Ende des Flurs auf der linken Seite hängt an der Wand der Defibrillator (ca. vis-à-vis von den Toiletten).",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "Schule NMS Bern",
+    "phone": "031 310 85 85",
+    "id": "node/8852669266"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4449781,
+      46.9497688
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8852677917",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Kissling AG",
+    "description": "Mo.-Fr. zu Bürozeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Kissling AG",
+    "phone": "+41443089797",
+    "id": "node/8852677917"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3999998,
+      46.9981663
     ]
   }
 }
