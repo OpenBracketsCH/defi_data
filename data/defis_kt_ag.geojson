@@ -5284,6 +5284,48 @@
       47.4000429
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/8852653167",
+  "properties": {
+    "access": "no",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Ferdi Koller",
+    "phone": "+41566484222",
+    "id": "node/8852653167"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3906157,
+      47.3386841
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8852653168",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "im Feuerwehr-Magazin",
+    "description": "nur über Notruf erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "118",
+    "id": "node/8852653168"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3909154,
+      47.3420952
+    ]
+  }
 }
 ]
 }

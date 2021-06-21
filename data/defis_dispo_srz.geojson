@@ -27163,7 +27163,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Stadt Winterthur, DSO, A+P, Alterszentrum Adlergarten",
+    "operator": "Stadt Winterthur, DSO, A+P",
     "phone": "052 267 42 42",
     "id": "node/8646474120"
   },
@@ -30388,6 +30388,52 @@
     "coordinates": [
       8.517939,
       47.4000725
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8852653166",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Baumaschinen Werkstatt im Büro",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Th 07:30-12:00, 13:00-17:15; Fr 07:30-12:00, 13:00-15:15",
+    "operator": "STRABAG BMTI GmbH",
+    "phone": "052 320 66 00",
+    "id": "node/8852653166"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6813852,
+      47.4381616
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8852663364",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "im 2. Stock des Gebäude B",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Th 07:30-12:00, 13:00-17:15; Fr 07:30-12:00, 13:00-16:30",
+    "operator": "STRABAG BMTI GmbH",
+    "phone": "052 320 66 00",
+    "id": "node/8852663364"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6813758,
+      47.4383394
     ]
   }
 }
