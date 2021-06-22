@@ -115472,7 +115472,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 07:00-17:00 Uhr",
+    "opening_hours": "Mo-Fr 07:00-17:00",
     "operator": "Firma",
     "phone": "+41523686161",
     "id": "node/8841711317"
@@ -116953,6 +116953,27 @@
     "coordinates": [
       8.5415623,
       47.3693595
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8855965851",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindelokal neben Schulhaus",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "phone": "+41796977588",
+    "id": "node/8855965851"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7973363,
+      47.6020156
     ]
   }
 }
