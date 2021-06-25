@@ -117387,6 +117387,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Zentrum Breiten, vor Haupteingang",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -117399,27 +117400,6 @@
     "coordinates": [
       8.6245385,
       47.1321915
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8865171017",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Zentrum Breiten vor Haupteingang",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Zentrum Breiten",
-    "phone": "0417547600",
-    "id": "node/8865171017"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6245191,
-      47.1321995
     ]
   }
 },
@@ -117443,6 +117423,206 @@
     "coordinates": [
       8.818602,
       46.0116185
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8865651896",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "1. OG im Schwimmbad",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Erlenbach",
+    "phone": "+41 44 913 88 18",
+    "id": "node/8865651896"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5984299,
+      47.3011662
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8865651897",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Eingangsbereich Gemeindehaus",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Erlenbach",
+    "phone": "+41 44 913 88 18",
+    "id": "node/8865651897"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5910786,
+      47.30403
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8865651898",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Sporthalle Allmendli",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Erlenbach",
+    "phone": "+41 44 913 88 18",
+    "id": "node/8865651898"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5978478,
+      47.3019847
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8865651899",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Eingang Turnhalle",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Erlenbach",
+    "phone": "+41 44 913 88 18",
+    "id": "node/8865651899"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5971585,
+      47.3026361
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8865651900",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Eingang Turnhalle",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Erlenbach",
+    "phone": "+41 44 913 88 18",
+    "id": "node/8865651900"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5957101,
+      47.3024767
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8865651901",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Eingangsbereich zum Erlengut",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Erlenbach",
+    "phone": "+41 44 913 88 18",
+    "id": "node/8865651901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5937816,
+      47.3021338
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8865680197",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Am Ticketschalter melden",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-17:00",
+    "operator": "Bernmobil",
+    "phone": "+41 31 321 88 44",
+    "id": "node/8865680197"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4403466,
+      46.9472569
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8865680198",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Busgarage Bernmobil, vor Warenlift",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 04:00-02:00",
+    "operator": "Bernmobil",
+    "id": "node/8865680198"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.429212,
+      46.9427529
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8865756813",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "1. Stock im Fitness Studio",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 06:30-21:30; Tu,Th 08:00-21:30; Sa,Su 09:00-17:00",
+    "operator": "Activ Fitness",
+    "phone": "+41 52 550 15 05",
+    "id": "node/8865756813"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7244116,
+      47.4983996
     ]
   }
 }
