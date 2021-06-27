@@ -114944,12 +114944,12 @@
   "type": "Feature",
   "id": "node/8841032838",
   "properties": {
-    "access": "044 299 32 no",
     "defibrillator:location": "Im Büro im EG",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "note": "044 299 32 no",
     "operator": "MNSB GmbH / Fam. Nordmann - Marc Nordmann",
     "phone": "044 299 32 23",
     "id": "node/8841032838"
@@ -117896,6 +117896,22 @@
     "coordinates": [
       8.5515029,
       47.4067667
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8870217496",
+  "properties": {
+    "emergency": "defibrillator",
+    "survey:date": "2021-06-27",
+    "id": "node/8870217496"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0035464,
+      46.0058362
     ]
   }
 }
