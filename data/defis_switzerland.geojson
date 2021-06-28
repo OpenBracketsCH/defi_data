@@ -117372,10 +117372,11 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Zentrum Breiten, vor Haupteingang",
-    "description": "während Öffnungszeiten verfügbar",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Zentrum Breiten",
     "phone": "0417547600",
     "id": "node/8865156217"
@@ -117931,6 +117932,48 @@
     "coordinates": [
       7.5458948,
       46.924831
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8871047011",
+  "properties": {
+    "access": "yes",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8871047011"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6161566,
+      46.4109668
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8871080945",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Schwimmbad und Turnhalle",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Primarschule Otelfingen Martin Heimo, Schulleiter",
+    "id": "node/8871080945"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3919883,
+      47.4623957
     ]
   }
 }
