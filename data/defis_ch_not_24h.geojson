@@ -26527,23 +26527,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637818467",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Landi Tankstellen-Shop",
-    "id": "node/7637818467"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.2000797,
-      47.1160028
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637818468",
   "properties": {
     "description": "Gemeinschaftspraxis Nikolaidis",
@@ -49612,22 +49595,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8171444951",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/8171444951"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.8814217,
-      46.1516671
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8173026629",
   "properties": {
     "access": "no",
@@ -51150,22 +51117,6 @@
     "coordinates": [
       8.4647285,
       47.3356829
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8220574317",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/8220574317"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.758612,
-      46.1742072
     ]
   }
 },
@@ -53496,22 +53447,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8479519264",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/8479519264"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.7455099,
-      46.2107328
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8480125218",
   "properties": {
     "emergency": "defibrillator",
@@ -54102,22 +54037,6 @@
     "coordinates": [
       7.6870488,
       47.1612033
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8522070175",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/8522070175"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.7426858,
-      46.1626728
     ]
   }
 },
@@ -68247,6 +68166,71 @@
     "coordinates": [
       8.9961085,
       46.0106642
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8880216005",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Personaleingang",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 613173384",
+    "id": "node/8880216005"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6231512,
+      47.5531018
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8880255212",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Sporthalle Sternenfeld, Garderobenbereich",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Birsfelden, Herr Daniel Lerch",
+    "phone": "+41613173384",
+    "id": "node/8880255212"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6323927,
+      47.5518216
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8880284669",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingangsbereich der Badi",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Liegenschaften Erlenbach",
+    "phone": "+41449138818",
+    "id": "node/8880284669"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5967763,
+      47.2975355
     ]
   }
 }
