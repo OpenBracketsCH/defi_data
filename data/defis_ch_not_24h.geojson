@@ -678,22 +678,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/3508258235",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/3508258235"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.9433339,
-      46.1744947
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/3523273973",
   "properties": {
     "access": "permissive",
@@ -68156,21 +68140,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8879700761",
-  "properties": {
-    "emergency": "defibrillator",
-    "id": "node/8879700761"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.9961085,
-      46.0106642
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8880216005",
   "properties": {
     "access": "no",
@@ -68253,6 +68222,46 @@
     "coordinates": [
       9.0878088,
       47.2962837
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8881911690",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Rechts vom Eingang des Schulhauses",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "Gemeinde Männedorf, Hausdienst Schule",
+    "phone": "+41 44 921 68 11",
+    "id": "node/8881911690"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6987143,
+      47.2564594
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8881911691",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Rechts vom Eingang des Schulhauses",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "Gemeinde Männedorf, Hausdienst Schule",
+    "phone": "+41 44 921 68 11",
+    "id": "node/8881911691"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6963506,
+      47.254116
     ]
   }
 }
