@@ -66001,25 +66001,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8841083918",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Fassade, Strassenseitig",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/8841083918"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6098408,
-      46.155692
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8841099017",
   "properties": {
     "access": "no",
@@ -68262,6 +68243,29 @@
     "coordinates": [
       8.6963506,
       47.254116
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8882971239",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Restaurant Fischerstube, Hauptgebäude, nach Windfang des Haupteingangs links in der Wand",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 11:00-23:30",
+    "operator": "Restaurant Fischerstube",
+    "phone": "+41442505950",
+    "id": "node/8882971239"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5505658,
+      47.3530315
     ]
   }
 }

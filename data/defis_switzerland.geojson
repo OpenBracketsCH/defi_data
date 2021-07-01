@@ -114969,9 +114969,11 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Fassade, Strassenseitig",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/8841083918"
   },
   "geometry": {
@@ -118621,6 +118623,69 @@
     "coordinates": [
       8.5818376,
       47.4509666
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8882971239",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Restaurant Fischerstube, Hauptgebäude, nach Windfang des Haupteingangs links in der Wand",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 11:00-23:30",
+    "operator": "Restaurant Fischerstube",
+    "phone": "+41442505950",
+    "id": "node/8882971239"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5505658,
+      47.3530315
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8883006328",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Seite Parkplatz",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8883006328"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6999615,
+      46.1765942
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8883006329",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Seite Parkplatz",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8883006329"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6309335,
+      46.1546426
     ]
   }
 }
