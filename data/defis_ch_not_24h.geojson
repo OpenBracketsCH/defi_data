@@ -31986,26 +31986,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637818834",
-  "properties": {
-    "description": "Rezeption",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "name": "Hotel Löwen",
-    "operator": "Hotel Löwen",
-    "id": "node/7637818834"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.1589952,
-      46.7845911
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637818835",
   "properties": {
     "emergency": "defibrillator",
@@ -32018,23 +31998,6 @@
     "coordinates": [
       8.1430046,
       46.7778548
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7637818836",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Samariterlokal",
-    "id": "node/7637818836"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.163268,
-      46.7958636
     ]
   }
 },
@@ -68479,6 +68442,29 @@
     "coordinates": [
       8.66769,
       47.2622813
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8894546237",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Büro der Immo-Center AG",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "Immo-Center AG / Manuel Nef",
+    "phone": "+41719147272",
+    "id": "node/8894546237"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0480242,
+      47.4614768
     ]
   }
 }
