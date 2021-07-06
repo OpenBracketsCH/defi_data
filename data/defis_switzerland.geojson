@@ -553,6 +553,7 @@
   "properties": {
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Förderverein Frühdefibrillation",
     "id": "node/2510644557"
@@ -119533,6 +119534,44 @@
     "coordinates": [
       8.3079756,
       47.4763251
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8897401196",
+  "properties": {
+    "defibrillator:location": "2 au 2e étage;\n1 au 3e étage",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/8897401196"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.62277,
+      46.5291679
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8897526279",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der Defibrillator ist an der Wand des Schulhausgebäudes von der Schulstrasse aus ersichtlich",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8897526279"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2046246,
+      47.3267091
     ]
   }
 }
