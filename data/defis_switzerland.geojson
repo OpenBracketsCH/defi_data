@@ -68649,16 +68649,20 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Haupteingang links",
-    "description": "während Schulbetrieb verfügbar",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Mosnang",
+    "phone": "+41719827070",
     "id": "node/7725012751"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.9863497,
-      47.3711085
+      8.9861539,
+      47.371074
     ]
   }
 },
@@ -119680,6 +119684,96 @@
     "coordinates": [
       8.2622562,
       46.9220837
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8903334493",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der Defi befindet sich an der Ecke an einem Holzschopf",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "First Responder Schneisingen",
+    "phone": "+41764705121",
+    "id": "node/8903334493"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3671463,
+      47.5179738
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8903340334",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "In Fahrzeughalle",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-12:00, 13:30-17:30",
+    "operator": "Sicherheitsverbund Region Wil",
+    "phone": "+41719134013",
+    "id": "node/8903340334"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0404798,
+      47.4707799
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8903350646",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Schulhaus rechts",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Mosnang",
+    "phone": "+41719827070",
+    "id": "node/8903350646"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.015124,
+      47.3724465
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8903364585",
+  "properties": {
+    "defibrillator:location": "Eingangsbereich",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 04:00-18:00",
+    "operator": "Nico Leininger",
+    "phone": "+41218232929",
+    "id": "node/8903364585"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.4590918,
+      46.486598
     ]
   }
 }

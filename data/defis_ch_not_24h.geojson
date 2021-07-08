@@ -39529,25 +39529,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7725012751",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Haupteingang links",
-    "description": "während Schulbetrieb verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/7725012751"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.9863497,
-      47.3711085
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7725083360",
   "properties": {
     "defibrillator:location": "Grosses Magazin, direkt unter der MERCEDES Aufschrift am Gebäude, links neben Türe",
@@ -68540,6 +68521,50 @@
     "coordinates": [
       7.7836052,
       45.9830718
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8903340334",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "In Fahrzeughalle",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-12:00, 13:30-17:30",
+    "operator": "Sicherheitsverbund Region Wil",
+    "phone": "+41719134013",
+    "id": "node/8903340334"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0404798,
+      47.4707799
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8903364585",
+  "properties": {
+    "defibrillator:location": "Eingangsbereich",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 04:00-18:00",
+    "operator": "Nico Leininger",
+    "phone": "+41218232929",
+    "id": "node/8903364585"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.4590918,
+      46.486598
     ]
   }
 }
