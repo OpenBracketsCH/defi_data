@@ -5562,12 +5562,14 @@
   "id": "node/8898038417",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Schwimmbad Wührimatt",
+    "defibrillator:location": "Badieingang beim Kassenbereich",
     "description": "Während Öffnungszeiten/Badisaison",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "opening_hours": "24/7",
     "operator": "Gemeinde",
+    "phone": "+41 62 839 93 18",
     "id": "node/8898038417"
   },
   "geometry": {
@@ -5621,6 +5623,75 @@
     "coordinates": [
       8.0512565,
       47.407459
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8912888581",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang zum Büro des Vorgesetzten",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Karl Deiss",
+    "phone": "+4179 475 45 64",
+    "id": "node/8912888581"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0541479,
+      47.4233111
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8912888582",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Auf der Rückseite des Veloständers (Unterstand). Zugänglich vom Pausenplatz her.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Beat Jäggi",
+    "phone": "+4179 657 90 66",
+    "id": "node/8912888582"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0468336,
+      47.4162659
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8912888583",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Treppenhaus Richtung Tiefgarage",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Francesco Brescancin",
+    "phone": "+4179 657 90 63",
+    "id": "node/8912888583"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0499262,
+      47.408491
     ]
   }
 }

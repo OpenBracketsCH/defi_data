@@ -4644,6 +4644,49 @@
       47.1816457
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/8912958451",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Zimmer 2",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Th 07:30-12:00; Fr 07:30-15:00",
+    "operator": "Galexis",
+    "id": "node/8912958451"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5229512,
+      47.1939871
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8912958452",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Angebracht an der Südfassade",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8912958452"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5331627,
+      47.1979917
+    ]
+  }
 }
 ]
 }

@@ -68479,27 +68479,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8898038417",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Schwimmbad Wührimatt",
-    "description": "Während Öffnungszeiten/Badisaison",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Gemeinde",
-    "id": "node/8898038417"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.0576928,
-      47.4095595
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8898103617",
   "properties": {
     "access": "no",
@@ -68803,6 +68782,88 @@
     "coordinates": [
       8.6697025,
       47.518479
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8912885217",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "tennisclub engematt",
+    "description": "in den sommermonaten bei gutem wetter von 10 bis 22 Uhr",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "tennisclub engematt",
+    "id": "node/8912885217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5070622,
+      47.3530108
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8912921594",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Foyer linkerhand beim Treppenhaus zu den Toiletten",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "reavita AG",
+    "phone": "+41 44 466 80 66",
+    "id": "node/8912921594"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4536858,
+      47.3703056
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8912958451",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Zimmer 2",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Th 07:30-12:00; Fr 07:30-15:00",
+    "operator": "Galexis",
+    "id": "node/8912958451"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5229512,
+      47.1939871
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8912969844",
+  "properties": {
+    "emergency": "defibrillator",
+    "operator": "Gemeindeverwaltung",
+    "phone": "+41 43 204 20 40",
+    "id": "node/8912969844"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5952206,
+      47.4883241
     ]
   }
 }
