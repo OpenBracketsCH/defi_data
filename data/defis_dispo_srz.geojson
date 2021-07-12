@@ -25535,8 +25535,15 @@
   "type": "Feature",
   "id": "node/8592488919",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bei der roten Türe zum Rescueshop direkt zur Mettlengasse",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Rescue group Swiss GmbH, Alain Meiliger",
+    "phone": "+41800118144",
     "id": "node/8592488919"
   },
   "geometry": {
@@ -31477,6 +31484,29 @@
     "coordinates": [
       8.5397202,
       47.3371253
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8913921994",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "In der Garderobe beim Eingang",
+    "description": "24h verfügbar (an Haustüre klingeln)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Jean-Pierre Kousz",
+    "phone": "+41448832424",
+    "id": "node/8913921994"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6977482,
+      47.3919621
     ]
   }
 }

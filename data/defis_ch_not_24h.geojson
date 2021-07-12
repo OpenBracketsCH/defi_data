@@ -59550,22 +59550,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8592488919",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/8592488919"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5760504,
-      47.4314032
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8592581718",
   "properties": {
     "access": "yes",
@@ -68719,8 +68703,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.0772818,
-      46.9083182
+      7.0771906,
+      46.9083695
     ]
   }
 },
@@ -68906,6 +68890,27 @@
     "coordinates": [
       8.5397202,
       47.3371253
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8913898917",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Full Postautobetrieb Erne",
+    "description": "In der Fahrzeughalle wähend der Betriebszeit",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Privat",
+    "id": "node/8913898917"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2142991,
+      47.6166985
     ]
   }
 }
