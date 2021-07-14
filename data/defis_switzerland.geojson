@@ -666,6 +666,21 @@
 },
 {
   "type": "Feature",
+  "id": "node/2720821992",
+  "properties": {
+    "emergency": "defibrillator",
+    "id": "node/2720821992"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9360302,
+      45.9573729
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/2734556342",
   "properties": {
     "emergency": "defibrillator",
@@ -120677,6 +120692,27 @@
     "coordinates": [
       7.7311426,
       47.4865422
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8920427417",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hauseingang, Köschenrütistrasse 74, 8052 Zürich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Baugenossenschaft Schönau",
+    "id": "node/8920427417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5373219,
+      47.4257824
     ]
   }
 }
