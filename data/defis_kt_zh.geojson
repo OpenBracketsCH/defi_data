@@ -21619,7 +21619,13 @@
   "type": "Feature",
   "id": "node/8912969844",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "beim Gemeindehaus",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeindeverwaltung",
     "phone": "+41 43 204 20 40",
     "id": "node/8912969844"
@@ -21803,6 +21809,29 @@
     "coordinates": [
       8.7294289,
       47.4961833
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8921684790",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Schulhaus Gsteig",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung",
+    "phone": "+41 43 204 20 40",
+    "id": "node/8921684790"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5888571,
+      47.4833731
     ]
   }
 }

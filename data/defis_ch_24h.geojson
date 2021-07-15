@@ -51416,6 +51416,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/8912969844",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "beim Gemeindehaus",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung",
+    "phone": "+41 43 204 20 40",
+    "id": "node/8912969844"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5952206,
+      47.4883241
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8913921994",
   "properties": {
     "access": "no",
@@ -51816,6 +51839,50 @@
     "coordinates": [
       7.5992627,
       47.0657267
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8921679135",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Schulhaus/Mehrzweckhalle Mauer in der Nähe des Eingangsbereichs (unter dem Vordach)",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8921679135"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7454425,
+      47.5236655
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8921684790",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Schulhaus Gsteig",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung",
+    "phone": "+41 43 204 20 40",
+    "id": "node/8921684790"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5888571,
+      47.4833731
     ]
   }
 }
