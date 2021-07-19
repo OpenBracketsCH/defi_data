@@ -753,18 +753,21 @@
   "type": "Feature",
   "id": "node/4131376204",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Piazzale Municipio",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Fondazione Ticino Cuore",
+    "wheelchair": "yes",
     "id": "node/4131376204"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.0278002,
-      45.8349618
+      9.0276167,
+      45.8350752
     ]
   }
 },
@@ -52015,6 +52018,27 @@
     "coordinates": [
       7.0340278,
       46.9134413
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8933215318",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rathaus Gemeindehaus Klosters Platz",
+    "description": "Haupteingang rechts",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8933215318"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4000001,
+      46.9965379
     ]
   }
 }
