@@ -18870,15 +18870,16 @@
   "type": "Feature",
   "id": "node/6654824966",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "addr:city": "Toffen",
     "addr:housenumber": "1",
     "addr:postcode": "3125",
     "addr:street": "Bahnhofstrasse",
     "defibrillator:location": "Regiofeuerwehr TOGEKA",
+    "description": "nur bei Alarmierung Feuerwehr",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "24/7",
+    "indoor": "yes",
     "operator": "Regiofeuerwehr TOGEKA",
     "phone": "+41 79 770 12 05",
     "id": "node/6654824966"
