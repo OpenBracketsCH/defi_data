@@ -53296,15 +53296,21 @@
   "type": "Feature",
   "id": "node/8467259786",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Öffentliche Toilette",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Luzein",
+    "phone": "+41 81 300 32 20",
     "id": "node/8467259786"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.7716258,
-      46.9288362
+      9.7716473,
+      46.9288275
     ]
   }
 },
@@ -69248,6 +69254,137 @@
     "coordinates": [
       8.8530263,
       46.6972372
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8935578825",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Eingangsbereich vom Restaurant ",
+    "description": "während den Öffnungszeiten zugänglich ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Rieter",
+    "id": "node/8935578825"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7063019,
+      47.4860043
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8935584914",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Eingang Restaurant",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Luzein",
+    "phone": "+41 81 300 32 20",
+    "id": "node/8935584914"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.7666606,
+      46.9296819
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8935584915",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Öffentliche Toilette",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Luzein",
+    "phone": "+41 81 300 32 20",
+    "id": "node/8935584915"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.8152985,
+      46.9690428
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8935584916",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Alter Schulhaus, beim Eingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Luzein",
+    "phone": "+41 81 300 32 20",
+    "id": "node/8935584916"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.7165677,
+      46.9404584
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8935589217",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "altes Schulhaus Putz",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Luzein",
+    "phone": "+41 81 300 32 20",
+    "id": "node/8935589217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.7444788,
+      46.925479
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8935589219",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Schulhaus Pany",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Luzein",
+    "phone": "+41 81 300 32 20",
+    "id": "node/8935589219"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.7657473,
+      46.9266761
     ]
   }
 }
