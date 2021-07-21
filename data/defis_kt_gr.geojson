@@ -1449,6 +1449,7 @@
     "description": "Öffentlich zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "24/7",
     "id": "node/7720904275"
   },
@@ -3609,6 +3610,27 @@
     "coordinates": [
       9.7657473,
       46.9266761
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8939277617",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rathaus Klosters",
+    "description": "Fassade Haupteingang rechte Seite",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8939277617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.8835624,
+      46.8686987
     ]
   }
 }
