@@ -334,13 +334,14 @@
     "description": "nur während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "id": "node/6513267002"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.1435025,
-      47.3581097
+      9.1434691,
+      47.3580738
     ]
   }
 },
@@ -12067,6 +12068,29 @@
     "coordinates": [
       9.4216119,
       47.046886
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8943854126",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Eingangsbereich, direkt neben dem Haupteingang",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa-Su 11:00-17:00",
+    "operator": "Würth Facility Management",
+    "phone": "+41 71 225 10 00",
+    "id": "node/8943854126"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5064099,
+      47.4784379
     ]
   }
 }
