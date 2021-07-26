@@ -51981,28 +51981,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8929405617",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Wartehaus Bushaltestelle",
-    "description": "Gebäude Bushsltestelle/ Kerichthaus",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde Luzein",
-    "id": "node/8929405617"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.7676705,
-      46.9197557
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8930488917",
   "properties": {
     "access": "yes",
@@ -52062,8 +52040,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.7674009,
-      46.9192028
+      9.7675754,
+      46.9197111
     ]
   }
 },
@@ -52166,6 +52144,29 @@
     "coordinates": [
       9.7645836,
       46.9137505
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8950571897",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben Haupteingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "rwt Regionalwerk Toggenburg AG, René Rüttimann",
+    "phone": "+41 71 932 50 00",
+    "id": "node/8950571897"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0684768,
+      47.4214712
     ]
   }
 }
