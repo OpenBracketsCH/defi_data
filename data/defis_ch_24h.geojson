@@ -52352,7 +52352,7 @@
   "id": "node/8959716317",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "im Skiliftgebäude an der Wand",
+    "defibrillator:location": "Bergstation Skilift an der Wand",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -52429,6 +52429,29 @@
     "coordinates": [
       9.9556315,
       46.8573664
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8962374918",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "direkt neben Haupt-Eingang Haus Bundesplatz 7",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Citypark Immobilien AG, Rigistrasse 1, 6302 Zug, Kontaktperson: Gabriela Kottmann",
+    "phone": "+41 41 783 85 05",
+    "id": "node/8962374918"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5143728,
+      47.1710314
     ]
   }
 }

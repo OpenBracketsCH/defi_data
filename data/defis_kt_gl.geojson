@@ -174,8 +174,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.984693,
-      46.9560037
+      8.9845985,
+      46.956047
     ]
   }
 },
@@ -184,7 +184,7 @@
   "id": "node/8959716317",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "im Skiliftgebäude an der Wand",
+    "defibrillator:location": "Bergstation Skilift an der Wand",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -199,6 +199,26 @@
     "coordinates": [
       9.0275676,
       46.9649934
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8962356449",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "im Feuerwehrgebäude",
+    "description": "über Notruf verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/8962356449"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0352371,
+      46.9607169
     ]
   }
 }
