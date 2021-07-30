@@ -42415,7 +42415,8 @@
     "access": "yes",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Sirnach",
     "id": "node/7559459422"
   },
   "geometry": {
@@ -122324,6 +122325,28 @@
     "coordinates": [
       9.5418606,
       47.3789448
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8962755917",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Migros, Dreispitz Oben bei WC",
+    "description": "Während Oeffungszeiten Verfügbar ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "MO-Fr 09:00-20:00\nSa.       09:00-18:00",
+    "operator": "Migros ",
+    "id": "node/8962755917"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6040429,
+      47.5394403
     ]
   }
 }
