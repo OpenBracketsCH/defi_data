@@ -52504,14 +52504,35 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Gemeine Mels",
+    "operator": "Gemeinde Mels",
     "id": "node/8967654417"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4087909,
-      47.0603728
+      9.4088978,
+      47.0603154
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8967730029",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Süielplatz",
+    "description": "draussen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8967730029"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8939171,
+      46.1504794
     ]
   }
 }
