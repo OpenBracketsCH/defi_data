@@ -4206,26 +4206,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6551056358",
-  "properties": {
-    "access": "yes",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "wheelchair": "yes",
-    "id": "node/6551056358"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5793923,
-      46.9347357
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6563215250",
   "properties": {
     "access": "yes",
@@ -24331,18 +24311,20 @@
   "id": "node/7637818475",
   "properties": {
     "access": "yes",
-    "description": "Aussenwand Rest. Bahnhöfli",
+    "defibrillator:location": "Aussenwand Rest. Bahnhöfli",
+    "description": "Bahnhöfli Restaurant",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "name": "Bahnhöfli Restaurant",
+    "indoor": "no",
     "opening_hours": "24/7",
+    "wheelchair": "yes",
     "id": "node/7637818475"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5872375,
-      46.9785377
+      8.5871685,
+      46.9784928
     ]
   }
 },
@@ -26760,11 +26742,14 @@
   "id": "node/7637819120",
   "properties": {
     "access": "yes",
-    "description": "WC Anlage",
+    "defibrillator:location": "Im Rollstuhlgerechten WC",
+    "description": "Kehrplatz Baumgarten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "name": "Kehrplatz Baumgarten",
+    "indoor": "yes",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Bauen",
+    "wheelchair": "yes",
     "id": "node/7637819120"
   },
   "geometry": {
@@ -49419,10 +49404,14 @@
   "type": "Feature",
   "id": "node/8851160392",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "auf dem Platz, zwischen Postfächern und Ladestationen für Elektrofahrzeuge",
+    "description": "Haltestelle Tanzplatz",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
+    "wheelchair": "yes",
     "id": "node/8851160392"
   },
   "geometry": {
