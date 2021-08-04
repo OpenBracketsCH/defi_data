@@ -34564,19 +34564,21 @@
     "access": "yes",
     "colour": "green",
     "defibrillator:location": "Am Gebäude der Apotheke Rütli",
+    "description": "Apotheke Rütli",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Ingenbohl-Brunnen",
     "phone": "+41 41 825 05 62",
-    "wheelchair": "no",
+    "wheelchair": "yes",
     "id": "node/6976938443"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6054351,
-      46.9942522
+      8.6054391,
+      46.9942414
     ]
   }
 },
@@ -123238,6 +123240,49 @@
     "coordinates": [
       8.432516,
       47.033352
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8979391059",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben dem WC",
+    "description": "Jugendherberge Seelisberg",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "Jugendherberge Seelisberg",
+    "phone": "+41 41 820 52 32",
+    "wheelchair": "no",
+    "id": "node/8979391059"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5910748,
+      46.9781585
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8979429617",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "3. OG, Empfang v.FISCHER INVESTAS",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr: 08:00-12:00 13:30-17:00",
+    "phone": "+41313202727",
+    "id": "node/8979429617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4433775,
+      46.9474651
     ]
   }
 }
