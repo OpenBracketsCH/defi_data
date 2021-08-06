@@ -19736,30 +19736,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6661361771",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Freimettigen",
-    "addr:housenumber": "14",
-    "addr:postcode": "3510",
-    "addr:street": "Dorfstrasse",
-    "defibrillator:location": "unter der Treppe",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Familie Sarbach",
-    "id": "node/6661361771"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6274114,
-      46.8685321
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6661361772",
   "properties": {
     "access": "yes",
@@ -35711,6 +35687,77 @@
     "coordinates": [
       7.4433775,
       46.9474651
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8984777842",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Kommandoraum der Marzilibahn; in der Bergstation",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 06:00-21:00",
+    "operator": "Martin Neumeyer",
+    "phone": "+41 79 455 78 68",
+    "id": "node/8984777842"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4430542,
+      46.9452172
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8984806186",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Laden, bei der Information / Blumenabteilung",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Th 08:00-19:00; Fr 08:00-21:00; Sa 07:30-17:00",
+    "operator": "Migros Konolfingen",
+    "phone": "+41 58 567 82 80",
+    "id": "node/8984806186"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6210383,
+      46.8753922
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8984806187",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Freimettigen",
+    "addr:housenumber": "3",
+    "addr:postcode": "3510",
+    "addr:street": "Schulhausstrasse",
+    "defibrillator:location": "Haupteingang Schulhaus an Fassade aussen rechts neben Tür.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8984806187"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6278987,
+      46.8681112
     ]
   }
 }
