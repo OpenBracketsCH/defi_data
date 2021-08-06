@@ -65173,7 +65173,7 @@
     "indoor": "yes",
     "opening_hours": "Mo-Fr: 07:00 - 18:00",
     "operator": "Kantonsschule Trogen ",
-    "phone": "+41713436111",
+    "phone": "+41 71 343 61 11",
     "id": "node/8840728618"
   },
   "geometry": {
@@ -70852,6 +70852,48 @@
     "coordinates": [
       6.8262754,
       47.1043304
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8985701017",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Family Lodg Empfang",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Frutt lodge",
+    "id": "node/8985701017"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2684434,
+      46.7731029
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8985701024",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "fix it Znüniraum",
+    "description": "während Arbeiszeite ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "fixit",
+    "id": "node/8985701024"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3327182,
+      46.9601418
     ]
   }
 }
