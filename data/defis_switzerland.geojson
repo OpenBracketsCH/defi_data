@@ -93751,7 +93751,7 @@
     "indoor": "yes",
     "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "amberg Engineering",
-    "phone": "+41448709112",
+    "phone": "+41 44 870 91 12",
     "id": "node/8540855917"
   },
   "geometry": {
@@ -119882,7 +119882,7 @@
     "indoor": "yes",
     "opening_hours": "Mo-Fr: 09.00-18.30; Sa 09.00-16.00",
     "operator": "Swisscom Shop",
-    "phone": "+41447744848",
+    "phone": "+41 44 774 48 48",
     "id": "node/8911187817"
   },
   "geometry": {
@@ -120292,7 +120292,7 @@
     "indoor": "yes",
     "opening_hours": "24/7",
     "operator": "Jean-Pierre Kousz",
-    "phone": "+41448832424",
+    "phone": "+41 44 883 24 24",
     "id": "node/8913921994"
   },
   "geometry": {
@@ -120968,7 +120968,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "operator": "Hyatt",
-    "phone": "+41445921234",
+    "phone": "+41 44 592 12 34",
     "id": "node/8922688617"
   },
   "geometry": {
@@ -122643,7 +122643,7 @@
     "indoor": "yes",
     "level": "0",
     "operator": "VBZ",
-    "phone": "+41 44 411 41 44,",
+    "phone": "+41 44 411 41 44",
     "id": "node/8977158264"
   },
   "geometry": {
@@ -123886,6 +123886,28 @@
 },
 {
   "type": "Feature",
+  "id": "node/8988578719",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "BeSiC-CPR-Zentrum, Freiburgstr.63; 1.UG",
+    "description": "1.UG links, Nur während Kursbetrieb (klingeln!)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "BeSiC - Berner Simulations- und CPR-Zentrum",
+    "phone": "+41316322722",
+    "id": "node/8988578719"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4176803,
+      46.946104
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8988581617",
   "properties": {
     "access": "no",
@@ -123904,6 +123926,49 @@
     "coordinates": [
       7.376868,
       46.9669485
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8988599117",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Jeuss",
+    "description": "bei der Eingangstür",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8988599117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1629395,
+      46.9040941
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8988608418",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "UniZiegler 1.Stock links BeSiC-Schulungszentrum",
+    "description": "Nur während Kursbetrieb verfügbar (klingeln!)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "BeSiC - Berner Simulations- und CPR-Zentrum",
+    "phone": "+41316322722",
+    "id": "node/8988608418"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4351111,
+      46.9316798
     ]
   }
 }
