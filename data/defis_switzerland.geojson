@@ -123820,6 +123820,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/8988290985",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "beim Schulhauseingang der Oberstufe",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Küblis",
+    "phone": "+41 81 300 32 00",
+    "id": "node/8988290985"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.7803238,
+      46.9141471
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8988316871",
   "properties": {
     "access": "no",
@@ -123838,6 +123861,26 @@
     "coordinates": [
       8.7640764,
       47.4955001
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8988366817",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Schulhaus Oberstufenzentrum Dorneckberg",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Schule",
+    "id": "node/8988366817"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6670329,
+      47.4497281
     ]
   }
 }
