@@ -38677,6 +38677,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/7085949166",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Freier Platz, Verkaufshäuschen Schifffahrt",
+    "description": "Öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "wheelchair": "yes",
+    "id": "node/7085949166"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6406943,
+      47.6954141
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/7089666582",
   "properties": {
     "defibrillator:location": "An Säule zu Gaststube neben Küche",
@@ -63572,26 +63593,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7644000281",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Freier Platz",
-    "description": "Öffentlich zugänglich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "id": "node/7644000281"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6407464,
-      47.6953796
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7644000282",
   "properties": {
     "access": "yes",
@@ -64128,17 +64129,18 @@
   "id": "node/7644008610",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Munot",
+    "defibrillator:location": "Munotzinne neben Ausschank rechts",
     "description": "nur zugänglich wenn Gebäude geöffnet sind",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "level": "1",
     "id": "node/7644008610"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.639929,
-      47.6969033
+      8.6401494,
+      47.696932
     ]
   }
 },
