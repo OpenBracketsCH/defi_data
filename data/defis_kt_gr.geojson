@@ -6,21 +6,22 @@
   "id": "node/1372175088",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Perron 1",
-    "description": "löst keinen Alarm 144 aus",
+    "defibrillator:location": "Beim AG Gleis 1",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
+    "operator": "Rhätische Bahn AG",
+    "phone": "+41 81 288 65 65",
     "wheelchair": "yes",
     "id": "node/1372175088"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.8809924,
-      46.8692383
+      9.8809768,
+      46.8692475
     ]
   }
 },
@@ -171,21 +172,22 @@
   "type": "Feature",
   "id": "node/5310338121",
   "properties": {
-    "defibrillator:location": "Neben Ticketschalter RhB",
+    "access": "yes",
+    "defibrillator:location": "Beim AgG Seite Kiosk",
     "description": "Alarm gesichert und Öffentlich zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
-    "operator": "Rhätische Bahn",
+    "operator": "Rhätische Bahn AG",
+    "phone": "+41 81 288 65 65",
     "id": "node/5310338121"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.2074991,
-      46.7752395
+      9.2075126,
+      46.7752584
     ]
   }
 },
@@ -1368,18 +1370,20 @@
   "id": "node/7720904271",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Am Bahnhof",
-    "description": "Öffentlich zugänglich",
+    "defibrillator:location": "Autoverlad Ende Galerie, bei der Waage",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Rhätische Bahn AG",
+    "phone": "+41 81 288 65 65",
     "id": "node/7720904271"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      10.0963258,
-      46.7633149
+      10.0966576,
+      46.7636308
     ]
   }
 },
@@ -1798,17 +1802,21 @@
   "id": "node/7851621653",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Beim Eingang, Seite Strasse",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Rhätische Bahn AG",
+    "phone": "+41 81 288 65 65",
     "wheelchair": "yes",
     "id": "node/7851621653"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.9611674,
-      46.5999977
+      9.9612478,
+      46.6000933
     ]
   }
 },
@@ -2281,19 +2289,20 @@
   "id": "node/8463878349",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Scuol Bahnhof Ende Gleis 1",
+    "defibrillator:location": "Ende Gleis 1",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Rhätische Bahn",
+    "operator": "Rhätische Bahn AG",
+    "phone": "+41 81 288 65 65",
     "id": "node/8463878349"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      10.2869425,
-      46.7939656
+      10.2869752,
+      46.7940358
     ]
   }
 },
@@ -3073,21 +3082,20 @@
   "id": "node/8720986732",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Vor dem Warteraum",
-    "description": "24h verfügbar",
+    "defibrillator:location": "Beim AG Gleis 1",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "RhB",
-    "phone": "+41 81 288 53 36",
+    "operator": "Rhätische Bahn AG",
+    "phone": "+41 81 288 65 65",
     "id": "node/8720986732"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.8962958,
-      46.4907385
+      9.8964257,
+      46.4905777
     ]
   }
 },
@@ -3821,6 +3829,94 @@
     "coordinates": [
       9.8211893,
       46.7918892
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8992034901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim AG bei der Unterführung",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Rhätische Bahn AG",
+    "phone": "+41 81 288 65 65",
+    "id": "node/8992034901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.8722676,
+      46.532939
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8992054030",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim AG neben WC",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Rhätische Bahn AG",
+    "phone": "+41 81 288 65 65",
+    "id": "node/8992054030"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.8839225,
+      46.856108
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8992074381",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim AG bei der Unterführung",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Rhätische Bahn AG",
+    "phone": "+41 81 288 65 65",
+    "id": "node/8992074381"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4405658,
+      46.6981715
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8992076171",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kopfperron, Gleis 1",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Rhätische Bahn AG",
+    "phone": "+41 81 288 65 65",
+    "id": "node/8992076171"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.8462849,
+      46.498231
     ]
   }
 }
