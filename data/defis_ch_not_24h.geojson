@@ -9026,15 +9026,14 @@
   "id": "node/6566220014",
   "properties": {
     "access": "permissive",
-    "addr:city": "Interlaken",
-    "addr:postcode": "3800",
-    "addr:street": "Harder Kulm, Bergstation",
     "defibrillator:location": "Berrgstation Halle, in Behinderten-WC",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Harderbahn",
-    "phone": "Nr. Talstation - +41 33 828 71 11",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 09:10-21:10",
+    "operator": "Harderbahn AG",
+    "phone": "+41 33 828 71 11",
+    "wheelchair": "yes",
     "id": "node/6566220014"
   },
   "geometry": {
@@ -9050,11 +9049,11 @@
   "id": "node/6566220015",
   "properties": {
     "access": "permissive",
-    "addr:street": "Talstation, Brienzstrasse",
-    "defibrillator:location": "Halle, neben Kaffeemaschine, während Öffnungszeiten Bahn",
+    "defibrillator:location": "Talstation Halle, neben Kaffeemaschine",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "operator": "Harderbahn",
+    "opening_hours": "Mo-Su 09:10-21:10",
+    "operator": "Harderbahn AG",
     "phone": "+41 33 828 71 11",
     "id": "node/6566220015"
   },
