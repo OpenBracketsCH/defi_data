@@ -3943,26 +3943,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/5276056433",
-  "properties": {
-    "defibrillator:location": "opposite to the ramp",
-    "defibrillator:location:de": "Gegenüber der Rampe zum Bahnsteig",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "source": "survey",
-    "wheelchair": "yes",
-    "id": "node/5276056433"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.8553652,
-      46.7050983
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/5294630798",
   "properties": {
     "access": "yes",
@@ -32723,24 +32703,6 @@
     "coordinates": [
       8.3152184,
       47.0215298
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7637818898",
-  "properties": {
-    "description": "im Zentrum",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Parreizentrum Horw",
-    "id": "node/7637818898"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.3131733,
-      47.02034
     ]
   }
 },
@@ -71281,6 +71243,70 @@
     "coordinates": [
       7.5103035,
       47.0218767
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8991968293",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "HW Landquart Sanitätsraum",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Rhätische Bahn AG",
+    "phone": "+41 81 288 65 65",
+    "id": "node/8991968293"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5558785,
+      46.9656956
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8991973856",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "AD-Halle Landquart",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Rhätische Bahn AG",
+    "phone": "+41 81 288 65 65",
+    "id": "node/8991973856"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5557554,
+      46.9635742
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8991981750",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Verwaltungsgebäude RhB, WC 1. OG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "operator": "Rhätische Bahn AG",
+    "phone": "+41 81 288 65 65",
+    "id": "node/8991981750"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5325869,
+      46.8517894
     ]
   }
 }

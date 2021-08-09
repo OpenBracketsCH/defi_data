@@ -148,19 +148,22 @@
   "type": "Feature",
   "id": "node/5276056433",
   "properties": {
-    "defibrillator:location": "opposite to the ramp",
-    "defibrillator:location:de": "Gegenüber der Rampe zum Bahnsteig",
+    "access": "yes",
+    "defibrillator:location": "Beim AG Gleis 1",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "source": "survey",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Rhätische Bahn AG",
+    "phone": "+41 81 288 65 65",
     "wheelchair": "yes",
     "id": "node/5276056433"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8553652,
-      46.7050983
+      8.8553517,
+      46.7051096
     ]
   }
 },
@@ -2256,20 +2259,20 @@
   "id": "node/8462309322",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Eingang Bahnmuseum",
-    "description": "Immer verfügbar",
+    "defibrillator:location": "Neben dem Eingang zum Bahnmuseum",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Rhätische Bahn",
+    "operator": "Rhätische Bahn AG",
+    "phone": "+41 81 288 65 65",
     "id": "node/8462309322"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.7467318,
-      46.6310988
+      9.7465931,
+      46.6310456
     ]
   }
 },
@@ -3710,6 +3713,114 @@
     "coordinates": [
       9.7803238,
       46.9141471
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8991968293",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "HW Landquart Sanitätsraum",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Rhätische Bahn AG",
+    "phone": "+41 81 288 65 65",
+    "id": "node/8991968293"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5558785,
+      46.9656956
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8991973856",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "AD-Halle Landquart",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Rhätische Bahn AG",
+    "phone": "+41 81 288 65 65",
+    "id": "node/8991973856"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5557554,
+      46.9635742
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8991981750",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Verwaltungsgebäude RhB, WC 1. OG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "operator": "Rhätische Bahn AG",
+    "phone": "+41 81 288 65 65",
+    "id": "node/8991981750"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5325869,
+      46.8517894
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8992001555",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim AG Gleis 1",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Rhätische Bahn AG",
+    "phone": "+41 81 288 65 65",
+    "id": "node/8992001555"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.679351,
+      46.7837368
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8992006472",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim AG Gleis 1",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Rhätische Bahn AG",
+    "phone": "+41 81 288 65 65",
+    "id": "node/8992006472"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.8211893,
+      46.7918892
     ]
   }
 }

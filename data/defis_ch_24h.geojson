@@ -1881,6 +1881,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/5276056433",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim AG Gleis 1",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Rhätische Bahn AG",
+    "phone": "+41 81 288 65 65",
+    "wheelchair": "yes",
+    "id": "node/5276056433"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8553517,
+      46.7051096
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/5310338121",
   "properties": {
     "defibrillator:location": "Neben Ticketschalter RhB",
@@ -25701,6 +25724,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/7637818898",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben dem Hauseingang im Atrium (etwas erhöht von der Strasse)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "name": "Parreizentrum Horw",
+    "opening_hours": "24/7",
+    "id": "node/7637818898"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3133306,
+      47.020152
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/7637818903",
   "properties": {
     "access": "yes",
@@ -38732,20 +38776,20 @@
   "id": "node/8462309322",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Eingang Bahnmuseum",
-    "description": "Immer verfügbar",
+    "defibrillator:location": "Neben dem Eingang zum Bahnmuseum",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Rhätische Bahn",
+    "operator": "Rhätische Bahn AG",
+    "phone": "+41 81 288 65 65",
     "id": "node/8462309322"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.7467318,
-      46.6310988
+      9.7465931,
+      46.6310456
     ]
   }
 },
@@ -53005,6 +53049,50 @@
     "coordinates": [
       8.1742754,
       47.3086387
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8992001555",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim AG Gleis 1",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Rhätische Bahn AG",
+    "phone": "+41 81 288 65 65",
+    "id": "node/8992001555"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.679351,
+      46.7837368
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8992006472",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim AG Gleis 1",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Rhätische Bahn AG",
+    "phone": "+41 81 288 65 65",
+    "id": "node/8992006472"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.8211893,
+      46.7918892
     ]
   }
 }
