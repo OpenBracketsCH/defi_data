@@ -2446,13 +2446,13 @@
   "type": "Feature",
   "id": "node/8597447618",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Tierarztpraxis, Fohlenweide Bodensee",
+    "access": "yes",
+    "defibrillator:location": "Südfassade Tierarztpraxis Hofplatz",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Su 07:00-19:00",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "KompetenzHaus GmbH, Christian Lüthi",
     "phone": "+41 71 646 04 22",
     "id": "node/8597447618"
@@ -2460,8 +2460,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.36226,
-      47.5219366
+      9.3625148,
+      47.5220387
     ]
   }
 },
