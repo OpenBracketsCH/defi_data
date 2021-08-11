@@ -113600,13 +113600,15 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung Windisch",
+    "phone": "+41 56 460 09 40",
     "id": "node/8835035957"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2157417,
-      47.4741432
+      8.2157913,
+      47.4741133
     ]
   }
 },
@@ -125091,6 +125093,46 @@
     "coordinates": [
       8.4756216,
       47.1057136
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8998079692",
+  "properties": {
+    "defibrillator:location": "On the wall, next to the door",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/8998079692"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9235798,
+      46.4564697
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8998106117",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "SRG Gebäude",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr von 07.30 bis 17.30",
+    "operator": "SRG",
+    "phone": "+41581373111",
+    "id": "node/8998106117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.473604,
+      46.944006
     ]
   }
 }
