@@ -31192,17 +31192,21 @@
   "type": "Feature",
   "id": "node/7637818796",
   "properties": {
-    "description": "Haupteingang Dammstr. Korridor rechts",
+    "access": "yes",
+    "defibrillator:location": "Seiteneingang (Parkplatz)\n\nKorridor rechts",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "name": "Hochschule Design & Kunst (Hausdienst)",
+    "indoor": "yes",
+    "name": "PH Luzern",
+    "operator": "PH Luzern",
     "id": "node/7637818796"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2959703,
-      47.0542392
+      8.2961804,
+      47.0536267
     ]
   }
 },
@@ -71624,6 +71628,28 @@
     "coordinates": [
       7.4573984,
       46.9566258
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8998795317",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Empfang, Haupteingang ",
+    "description": "während Bürozeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr. 08.00-17.00",
+    "operator": "Medion Grifols Diagnostics AG",
+    "id": "node/8998795317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1868803,
+      46.8539439
     ]
   }
 }
