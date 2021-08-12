@@ -5404,7 +5404,8 @@
   "type": "Feature",
   "id": "node/7637818608",
   "properties": {
-    "description": "Freibad",
+    "defibrillator:location": "Haupteingang Freibad",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "name": "Schwimmbad Stämpfel",
@@ -14179,6 +14180,52 @@
     "coordinates": [
       8.2783663,
       47.0700397
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9001451255",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Clubhaus des Sportclub Nebikon. Auf der Karte ist dies das längliche Gebäude (nicht das Quadratische) direkt am Spielfeldrand. Im Unterstand des Clubhauses (Aussen, für jeden zugänglich) ist der Defibrillator installiert.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Sportclub Nebikon / Andreas Bärtschi",
+    "phone": "+41 79 601 83 19",
+    "id": "node/9001451255"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9774582,
+      47.2001048
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9001477232",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "In der Kundenzone der Valiant Bank Geschäftsstelle in Reiden (vis-a-vis) Bahnhof ist der Defibrillator für alle zugänglich.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Valiant Bank AG / Andreas Bärtschi",
+    "phone": "+41 62 749 20 06",
+    "id": "node/9001477232"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9691823,
+      47.2418824
     ]
   }
 }
