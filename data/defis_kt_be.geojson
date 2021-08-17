@@ -9847,8 +9847,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6644224,
-      46.532901
+      7.6644042,
+      46.5329129
     ]
   }
 },
@@ -36025,6 +36025,48 @@
     "coordinates": [
       7.486763,
       47.0190838
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9012947317",
+  "properties": {
+    "access": "no",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Restaurant Chalet Lenk, Pascal Gatschet",
+    "phone": "+41 32 331 22 70",
+    "id": "node/9012947317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4383309,
+      46.4548796
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9012951913",
+  "properties": {
+    "access": "yes",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "phone": "+41 32 331 22 70",
+    "id": "node/9012951913"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4328813,
+      46.4665493
     ]
   }
 }
