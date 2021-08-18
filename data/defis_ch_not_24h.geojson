@@ -53935,22 +53935,24 @@
   "type": "Feature",
   "id": "node/8540855917",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Eingang Amberg Engineering",
-    "description": "während Öffnungszeiten",
+    "access": "customers",
+    "defibrillator:location": "Entrance hall / Eingangshalle Amberg Engineering",
+    "description": "During opening hours / Während Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-17:00",
-    "operator": "amberg Engineering",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "Amberg Engineering AG",
     "phone": "+41 44 870 91 12",
+    "wheelchair": "yes",
     "id": "node/8540855917"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4743742,
-      47.4397975
+      8.4747456,
+      47.4401159
     ]
   }
 },
