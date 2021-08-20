@@ -51,10 +51,15 @@
   "type": "Feature",
   "id": "node/2502041058",
   "properties": {
-    "defibrillator:location": "An der Gebäudewand",
+    "access": "yes",
+    "defibrillator:location": "Beim AG neben WC",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Rhätische Bahn AG",
+    "phone": "+41 81 288 65 65",
     "id": "node/2502041058"
   },
   "geometry": {
@@ -3841,7 +3846,7 @@
     "defibrillator:location": "Beim AG bei der Unterführung",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "yes",
     "opening_hours": "24/7",
     "operator": "Rhätische Bahn AG",
     "phone": "+41 81 288 65 65",
@@ -3850,30 +3855,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.8722676,
-      46.532939
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8992054030",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Beim AG neben WC",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Rhätische Bahn AG",
-    "phone": "+41 81 288 65 65",
-    "id": "node/8992054030"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.8839225,
-      46.856108
+      9.873247,
+      46.5338361
     ]
   }
 },
@@ -4045,6 +4028,69 @@
     "coordinates": [
       9.4047674,
       46.8295864
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9022220503",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "In der Werkstatt Samedan",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Rhätische Bahn AG",
+    "phone": "+41 81 288 65 65",
+    "id": "node/9022220503"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.8730321,
+      46.5322477
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9022246090",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Eingang zur Materialwirtschaft",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Rhätische Bahn AG",
+    "phone": "+41 81 288 65 65",
+    "id": "node/9022246090"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5563578,
+      46.9665147
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9022246560",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Interventionsstützpunkt",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Rhätische Bahn AG",
+    "phone": "+41 81 288 65 65",
+    "id": "node/9022246560"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5526659,
+      46.9719009
     ]
   }
 }
