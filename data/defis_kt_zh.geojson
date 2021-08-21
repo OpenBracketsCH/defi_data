@@ -3286,6 +3286,7 @@
     "defibrillator:location": "Turnhalle Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "id": "node/7637800661"
   },
@@ -22973,6 +22974,28 @@
     "coordinates": [
       8.5416804,
       47.5036473
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9024846120",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "beim Portierhaus an der Militäranlage",
+    "description": "24h über Portier",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "VBS",
+    "id": "node/9024846120"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6256451,
+      47.4047473
     ]
   }
 }
