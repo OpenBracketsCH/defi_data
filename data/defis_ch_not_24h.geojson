@@ -72710,6 +72710,48 @@
       47.4835189
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/9042509748",
+  "properties": {
+    "access": "permissive",
+    "access:conditional": "wenn die Schule offen hat",
+    "defibrillator:location": "Im Eingangsbereich",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:15-17:00; SH closed",
+    "operator": "Schule Frauenfeld",
+    "phone": "144",
+    "wheelchair": "limited",
+    "id": "node/9042509748"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.939675,
+      47.577063
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9042533119",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "School",
+    "emergency": "defibrillator",
+    "level": "0",
+    "id": "node/9042533119"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9332488,
+      47.450847
+    ]
+  }
 }
 ]
 }
