@@ -25123,8 +25123,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4199259,
-      47.0366138
+      8.4196215,
+      47.0367034
     ]
   }
 },
@@ -73505,6 +73505,89 @@
     "coordinates": [
       6.6375794,
       46.5471577
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045483604",
+  "properties": {
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/9045483604"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.7827564,
+      46.8179743
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045489039",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "In der Apotheke",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-12:30, 14:00-18:30; Sa 08:00-16:00",
+    "operator": "Claudia Thalmann",
+    "phone": "+41 31 371 33 82",
+    "id": "node/9045489039"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.432711,
+      46.9368009
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045509092",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "im Gewerbezentrum 3. Stock",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Firma Saremco",
+    "phone": "+41 71 775 80 90",
+    "id": "node/9045509092"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.588918,
+      47.4016398
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045516576",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Eingangsbereich des Verwaltungsgebäudes, in der Tiefgarage, im Betriebsgebäude",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-17:30",
+    "operator": "Michael Rodenberg",
+    "phone": "+41 79 220 13 10",
+    "id": "node/9045516576"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.680602,
+      47.505615
     ]
   }
 }
