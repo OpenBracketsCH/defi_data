@@ -43767,7 +43767,9 @@
     "defibrillator:location": "Infocenter Shopping-Mall",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "24/7",
+    "indoor": "yes",
+    "opening_hours": "Mo-Sa 09:00-20:00",
+    "operator": "Shoppi Tivoli",
     "id": "node/7565185871"
   },
   "geometry": {
@@ -129075,6 +129077,60 @@
     "coordinates": [
       7.9353174,
       47.2907504
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045241417",
+  "properties": {
+    "emergency": "defibrillator",
+    "id": "node/9045241417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7595868,
+      46.3940921
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045287518",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Stadtpolizei Chur",
+    "description": "während Öffnungszeiten am Schalter verlangen und ausserhalb Öffnungszeiten am Haupteingang Seite Kornplatz läuten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadtpolizei Chur",
+    "phone": "+41812545300",
+    "id": "node/9045287518"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5310891,
+      46.8491995
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045291371",
+  "properties": {
+    "emergency": "defibrillator",
+    "phone": "144",
+    "id": "node/9045291371"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.6375794,
+      46.5471577
     ]
   }
 }

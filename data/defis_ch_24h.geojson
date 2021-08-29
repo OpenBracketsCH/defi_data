@@ -21329,25 +21329,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7565185871",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Infocenter Shopping-Mall",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "id": "node/7565185871"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.3681381,
-      47.4215744
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7565185872",
   "properties": {
     "access": "yes",
@@ -55603,6 +55584,29 @@
     "coordinates": [
       8.04921,
       47.3937047
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045287518",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Stadtpolizei Chur",
+    "description": "während Öffnungszeiten am Schalter verlangen und ausserhalb Öffnungszeiten am Haupteingang Seite Kornplatz läuten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadtpolizei Chur",
+    "phone": "+41812545300",
+    "id": "node/9045287518"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5310891,
+      46.8491995
     ]
   }
 }
