@@ -30980,27 +30980,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7863726921",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Mitte des Platzes am Beleuchtungsmasten",
-    "description": "AED ist 24h verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "id": "node/7863726921"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.0412793,
-      47.4625938
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7863726922",
   "properties": {
     "access": "yes",
@@ -53174,20 +53153,23 @@
   "id": "node/8992034901",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Beim AG bei der Unterführung",
+    "check_date": "2021-08-26",
+    "covered": "yes",
+    "defibrillator:location": "Im Durchgang zum Perron 1",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
-    "operator": "Rhätische Bahn AG",
+    "operator": "RHB",
     "phone": "+41 81 288 65 65",
     "id": "node/8992034901"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.873247,
-      46.5338361
+      9.8732778,
+      46.5338255
     ]
   }
 },
