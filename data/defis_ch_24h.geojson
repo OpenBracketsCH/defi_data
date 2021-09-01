@@ -5055,6 +5055,33 @@
 },
 {
   "type": "Feature",
+  "id": "node/6565882240",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Gündlischwand",
+    "addr:housenumber": "74c",
+    "addr:postcode": "3815",
+    "addr:street": "Dorfstrasse",
+    "defibrillator:location": "AED im Magazin beim Mittleren Tor. Schlüssel zum Magazin im Lebensmittelladen melden",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Sandro Coatti, SV Zweilütschinen Kursleiter oder Edith Zingg SV Zweilütschinen Präsidentin",
+    "phone": "+41 79 297 93 15",
+    "id": "node/6565882240"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9116121,
+      46.6321038
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/6565882241",
   "properties": {
     "access": "permissive",
@@ -56055,6 +56082,29 @@
     "coordinates": [
       9.1242244,
       47.2583156
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9052689420",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gegenüber der Bushaltestelle am Gebäude Bahnhofplatz 2",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Neuenschwander AG",
+    "phone": "+41 32 677 53 36",
+    "id": "node/9052689420"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5264072,
+      47.1633421
     ]
   }
 }
