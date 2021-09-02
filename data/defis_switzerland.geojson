@@ -57983,17 +57983,20 @@
   "type": "Feature",
   "id": "node/7637818870",
   "properties": {
-    "description": "Rechts vom Haupteingang Kirche",
+    "defibrillator:location": "In der Sakristei",
+    "description": "Nur während Veranstaltungen zugänglich.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "name": "Bruderklausenkirche Kastanienbaum",
+    "indoor": "yes",
+    "operator": "Kirchgemeindeamt  der Kath. Kirchgemeinde Horw",
+    "phone": "041 349 00 88",
     "id": "node/7637818870"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3337211,
-      47.0133268
+      8.3334341,
+      47.0132939
     ]
   }
 },
@@ -58473,8 +58476,9 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "name": "Parreizentrum Horw",
     "opening_hours": "24/7",
+    "operator": "Kirchgemeindeamt  der Kath. Kirchgemeinde Horw",
+    "phone": "041 349 00 88",
     "id": "node/7637818898"
   },
   "geometry": {
@@ -129790,6 +129794,27 @@
     "coordinates": [
       8.4681367,
       47.5904103
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9055412282",
+  "properties": {
+    "defibrillator:location": "In der Sakristei.",
+    "description": "Nur während Veranstaltungen zugänglich.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Kirchgemeindeamt  der Kath. Kirchgemeinde Horw",
+    "phone": "041 349 00 88",
+    "id": "node/9055412282"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.312768,
+      47.0191181
     ]
   }
 }
