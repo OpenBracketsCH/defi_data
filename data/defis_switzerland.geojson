@@ -817,6 +817,7 @@
     "addr:housenumber": "33",
     "addr:postcode": "8450",
     "addr:street": "Landstrasse",
+    "check_date:opening_hours": "2021-09-02",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "fitness": "exercise",
@@ -54902,6 +54903,7 @@
   "properties": {
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Reha-Zentrum Graf",
     "id": "node/7637818700"
   },
@@ -129815,6 +129817,46 @@
     "coordinates": [
       8.312768,
       47.0191181
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9056541617",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Unter dem Baum, bei Briefkästen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9056541617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7360971,
+      47.4305138
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9056666517",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "MZH",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9056666517"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.761156,
+      47.4271862
     ]
   }
 }
