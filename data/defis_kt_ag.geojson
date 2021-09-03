@@ -3068,12 +3068,13 @@
   "type": "Feature",
   "id": "node/8540860924",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Pfarreiheim Würenlingen, Behinderten WC",
-    "description": "während Anlässen",
+    "access": "yes",
+    "defibrillator:location": "Pfarreiheim Würenlingen: unter dem Vordach neben dem Eingang",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Kath. Kirchgemeinde Würenlingen",
     "phone": "0562811128",
     "id": "node/8540860924"
@@ -5306,13 +5307,11 @@
   "type": "Feature",
   "id": "node/8859039658",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "bei der Bushaltestelle und vor dem Eingang zu Poscht-Beck",
-    "description": "24h verfügbar",
+    "access": "no",
+    "description": "nur für First Responder zugägnlich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
     "id": "node/8859039658"
   },
   "geometry": {
@@ -8719,6 +8718,28 @@
     "coordinates": [
       7.7967766,
       47.5561023
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9058109799",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Ist im Haus in einem Zimmer deponiert.",
+    "description": "Immer wenn jemand zuhause ist. Sonst Tel. 076 749 76 01 melden",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Stäuble Roger",
+    "phone": "+41 76 749 76 01",
+    "id": "node/9058109799"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.099764,
+      47.5417031
     ]
   }
 }
