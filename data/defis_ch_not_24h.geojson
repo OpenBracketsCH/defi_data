@@ -42501,9 +42501,15 @@
   "type": "Feature",
   "id": "node/7892371822",
   "properties": {
+    "access": "no",
+    "addr:city": "Bettlach",
+    "addr:housenumber": "52",
+    "addr:postcode": "2544",
+    "addr:street": "Bielstrasse",
     "defibrillator:location": "An der Wand im Treppenhaus auf Boden-/Eingansstockwerk.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "opening_hours": "08:00-17:00",
     "id": "node/7892371822"
   },
   "geometry": {
@@ -73834,6 +73840,28 @@
     "coordinates": [
       8.6023734,
       47.3947013
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9061836813",
+  "properties": {
+    "access": "customers",
+    "defibrillator:location": "In toilet corridor / In WC-Gang",
+    "emergency": "defibrillator",
+    "emergency:phone": "112",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Versuchsstollen Hagerbach",
+    "wheelchair": "yes",
+    "id": "node/9061836813"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3899289,
+      47.0769406
     ]
   }
 }
