@@ -127070,12 +127070,13 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Korridor vor Leiter Hausdienst",
-    "description": "24h verfügbar",
+    "description": "Schulöffnungszeiten 0700 -1800 / Mo-Fr ohne Schulferien",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
+    "note": "Kontakt::  +41 62 834 67 00",
+    "opening_hours": "Schulöffnungszeiten 0700 -1800 / Mo-Fr ohne Schulferien",
+    "operator": "Alte Kantonsschule Aarau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223367"
   },
@@ -130302,6 +130303,26 @@
     "coordinates": [
       7.2361133,
       46.9871382
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9074140817",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindehaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9074140817"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8983655,
+      47.4266745
     ]
   }
 }

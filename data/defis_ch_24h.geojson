@@ -54299,29 +54299,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9045223367",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Korridor vor Leiter Hausdienst",
-    "description": "24h verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
-    "phone": "+41 62 835 35 00",
-    "id": "node/9045223367"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.0533352,
-      47.3933961
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9045223368",
   "properties": {
     "access": "yes",
@@ -56329,6 +56306,26 @@
     "coordinates": [
       6.536912,
       46.5152449
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9074140817",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindehaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9074140817"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8983655,
+      47.4266745
     ]
   }
 }
