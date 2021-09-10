@@ -5933,12 +5933,16 @@
   "type": "Feature",
   "id": "node/5321981037",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Deck 2, hinter Liftschacht gleisseitig",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "2",
     "opening_hours": "Mo-Fr 06:00-22:30; Sa 06:00-22:00; Su,PH closed",
+    "operator": "Genossenschaft Migros, Aare Welle7",
+    "phone": "+41 58 567 77 77",
+    "wheelchair": "yes",
     "id": "node/5321981037"
   },
   "geometry": {
@@ -11513,7 +11517,7 @@
   "id": "node/6546027575",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Seiteneingang",
+    "defibrillator:location": "Seiteneingang Fachhochschule Nordwestschweiz FHNW",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -38504,12 +38508,16 @@
   "type": "Feature",
   "id": "node/7040469290",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Deck 1, vor Toiletten gegenüber Rolltreppenaufgang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
     "opening_hours": "Mo-Fr 06:00-22:30; Sa 06:00-22:00; Su,PH closed",
+    "operator": "Genossenschaft Migros, Aare Welle7",
+    "phone": "+41 58 567 77 77",
+    "wheelchair": "yes",
     "id": "node/7040469290"
   },
   "geometry": {
@@ -38524,12 +38532,16 @@
   "type": "Feature",
   "id": "node/7040469291",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Deck 0, bei Umkleidekabinen Collect Lounge",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "opening_hours": "Mo-Fr 06:00-22:30; Sa 06:00-22:00; Su,PH closed",
+    "operator": "Genossenschaft Migros, Aare Welle7",
+    "phone": "+41 58 567 77 77",
+    "wheelchair": "yes",
     "id": "node/7040469291"
   },
   "geometry": {
@@ -130538,6 +130550,72 @@
     "coordinates": [
       9.5379943,
       47.2890435
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9078630877",
+  "properties": {
+    "access": "customers",
+    "defibrillator:location": "Inside lifeguard office / Im Badmeisterbüro",
+    "emergency": "defibrillator",
+    "emergency:phone": "112",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Hallenbad Oerlikon",
+    "wheelchair": "no",
+    "id": "node/9078630877"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5567342,
+      47.4102321
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9078684953",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "EG der Stadtverwaltung",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Stadtverwaltung Maienfeld",
+    "phone": "+41 81 300 45 65",
+    "id": "node/9078684953"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.531506,
+      47.0056184
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9078711431",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Zwischen WC und Schliessfächer, in einem Raum",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Zoo Zürich AG",
+    "phone": "044 254 25 00",
+    "wheelchair": "no",
+    "id": "node/9078711431"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5747704,
+      47.3847381
     ]
   }
 }
