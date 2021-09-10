@@ -7239,9 +7239,16 @@
   "type": "Feature",
   "id": "node/6546027575",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Seiteneingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-21:00; Sa 07:00-18:00",
+    "operator": "Fachhochschule Nordwestschweiz FHNW",
+    "phone": "+41 84 882 10 11",
+    "wheelchair": "yes",
     "id": "node/6546027575"
   },
   "geometry": {
@@ -33282,24 +33289,6 @@
     "coordinates": [
       8.3959663,
       47.1222207
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7637818956",
-  "properties": {
-    "description": "Sanizimmer 3. OG / Empfang 4. OG",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Implenia Schweiz AG",
-    "id": "node/7637818956"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.396022,
-      47.1275547
     ]
   }
 },
@@ -74084,6 +74073,97 @@
     "coordinates": [
       8.2941225,
       47.3100863
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9078511741",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Beim Eingang von Samariter Zürich 2 im 2. Stock",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-18:00, Sa-Su 08:00-17:30",
+    "operator": "Samariter Zürich 2, Britta Kuratli",
+    "phone": "+4143 244 61 23",
+    "id": "node/9078511741"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5204285,
+      47.3422506
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9078525921",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Neben dem Klavier im Büro.",
+    "description": "Defibrillator in einem privaten Haushalt. Nur erreichbar mit Hausschlüssel bzw. Anwesenheit der Hausbewohner.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Oliver Müller",
+    "phone": "+41 79 425 70 34",
+    "id": "node/9078525921"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0455744,
+      47.3837654
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9078526198",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang / Empfang in grüner Defi Box an der Wand",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Th 07:30-17:00, Fr 07:30-16:00",
+    "operator": "Soudronic AG, Sicherheitsbeauftragter: Christian Rahm, Leiter Betriebssanität: Walter Stutz",
+    "phone": "+41 44 743 66 66",
+    "id": "node/9078526198"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3939429,
+      47.3860172
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9078528061",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "In der Montagehalle, vor Büezerstube.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 06:00-18:00",
+    "operator": "Menzi Muck AG",
+    "phone": "+41 71 727 12 12",
+    "id": "node/9078528061"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5379943,
+      47.2890435
     ]
   }
 }
