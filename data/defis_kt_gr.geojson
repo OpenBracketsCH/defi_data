@@ -4342,6 +4342,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Landquart",
     "phone": "+41 81 307 36 62",
     "id": "node/9078715611"
@@ -4386,6 +4387,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Landquart",
     "phone": "+41 81 307 36 62",
     "id": "node/9078745292"
@@ -4408,6 +4410,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Landquart",
     "phone": "+41 81 307 36 62",
     "id": "node/9078745293"
@@ -4424,12 +4427,12 @@
   "type": "Feature",
   "id": "node/9078745294",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "In der neuen Sporthalle, im UG zwischen Herren und Damen WC",
-    "description": "24h verfügbar",
+    "description": "nur während Hallenöffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "yes",
     "operator": "Gemeinde Landquart",
     "phone": "+41 81 307 36 62",
     "id": "node/9078745294"
@@ -4437,8 +4440,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5629469,
-      46.9592662
+      9.5631042,
+      46.9585325
     ]
   }
 },
@@ -4452,6 +4455,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "opening_hours": "24/7",
     "operator": "Neugut Haus der Generationen",
     "phone": "+41 81 307 24 00",
     "id": "node/9078748680"
@@ -4474,6 +4478,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Landquart",
     "phone": "+41 81 307 36 62",
     "id": "node/9078768239"
@@ -4496,6 +4501,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Landquart",
     "phone": "+41 81 307 36 62",
     "id": "node/9078773490"
@@ -4518,6 +4524,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Landquart",
     "phone": "+41 81 307 36 62",
     "id": "node/9078778319"
