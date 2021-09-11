@@ -36345,8 +36345,8 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Sandrine Gasser",
-    "phone": "+41 78 686 90 74",
+    "operator": "Gemeinde Eschert",
+    "phone": "+41 32 493 40 91",
     "id": "node/9078792838"
   },
   "geometry": {
@@ -36354,6 +36354,75 @@
     "coordinates": [
       7.3999585,
       47.2752877
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9081342762",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Beim oberen Eingang der Turnhalle",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Müntschemier",
+    "phone": "+41 32 313 17 72",
+    "id": "node/9081342762"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1438786,
+      46.9977199
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9081342763",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Links neben Haupteingang der Zivilschutzanlage",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Müntschemier",
+    "phone": "+41 32 313 17 72",
+    "id": "node/9081342763"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1469464,
+      47.0003322
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9081342764",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Nordseite des Bauernhauses in Aussentoilette (weisser Vorbau). Defi ist signalisiert.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Marco Etter",
+    "phone": "+41 79 380 74 88",
+    "id": "node/9081342764"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1514465,
+      46.9953381
     ]
   }
 }
