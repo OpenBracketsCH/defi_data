@@ -30,7 +30,7 @@ jobs:
     
     - uses: stefanzweifel/git-auto-commit-action@v4
       with:
-        commit_message: Update overpass query results
+        commit_message: Convert json -> xml
         commit_user_name: chnuessli
         commit_user_email: chrigi@chnuessli.ch
         commit_author: GitHub Action Bot <chrigi@chnuessli.ch>
