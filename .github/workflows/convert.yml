@@ -7,7 +7,7 @@ on:
   workflow_dispatch: ~
 
 jobs:
-  converter:
+  convert_data:
     runs-on: ubuntu-18.04
     continue-on-error: false
     timeout-minutes: 10
