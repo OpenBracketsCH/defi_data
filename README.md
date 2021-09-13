@@ -1,22 +1,22 @@
-# Defi Archiv Schweiz
+# Defi Data Schweiz
 
 ![data screenshot](data.png)
 
-Sammlung von Files für die Defikarte.ch und deren Partner die in Zukunft Daten beziehen möchten.
+Sammlung von Files (JSON und CSV) für die Defikarte.ch und deren Partner die in Zukunft Daten beziehen möchten.
 Die Daten können hier bezogen werden: [`data` Verzeichnis](https://github.com/chnuessli/defi_archive/tree/main/data)
 **Wichtig**
-Die Daten sind direkt aus OSM exportiert.
+Die Daten sind direkt aus OSM exportiert und in GeoJSON abgefüllt, danach werden die Daten in CSV konvertiert.
 
 ## Sinn und Zweck
 
-Sinn dieses Archivs ist es, Datenveränderungen täglich nachzuvollziehen. Täglich wird nun automatisiert ein GeoJSON generiert und somit Datenveränderungen dokumentiert.
-Die JSON Datensammlung soll stetig wachsen und so ein sauberes Archiv generieren.
+Sinn dieses Archivs ist es, Datenveränderungen täglich nachzuvollziehen. Stündlich wird nun automatisiert ein GeoJSON generiert und somit Datenveränderungen dokumentiert. Für weitere Verarbeitung stellen wir nun auch CSV Dateien zu Verfügung.
+Die Datensammlung soll stetig wachsen und so ein sauberes Archiv generieren.
 
 ## Overpass Abfragen via Overpass API
 
 Die Abfragen sind immer gleich aufgebaut, hier ein paar Beispiele. Für alle Abfragen besuche bitte die TXT Files. Die TXT Files dazu findet man in `queries`.
 
-Umgebaute Queries die mit der Overpass API korrespondieren können.
+Umgebaute Queries die mit der Overpass API korrespondieren können, ein Auszug und nicht vollständig.
 
 <details><summary>Abfragen ausklappen</summary>
 <p>
@@ -191,5 +191,12 @@ In diesem Repository sind GitHub Actions eingerichtet, um täglich aktuelle Date
 Um ein neues Query hinzuzufügen, müssen folgende Schritte befolgt werden:
 
 1. Query schreiben und via http://overpass-turbo.osm.ch/ testen. **ACHTUNG:** es ist nur die Overpass Query Syntax unterstützt, **keine [Overpass Turbo Shortcuts](https://wiki.openstreetmap.org/wiki/Overpass_turbo/Extended_Overpass_Turbo_Queries)** (z.B. ` {{geocodeArea:CH-ZH}}`)
-1. Query als neue Datei in [`queries` Verzeichnis](https://github.com/Schutz-Rettung-Zurich/json-archive/tree/main/queries) ablegen
-1. Neues Query in [`run_queries.sh`](https://github.com/Schutz-Rettung-Zurich/json-archive/blob/main/run_queries.sh) aufrufen
+2. Query als neue Datei in [`queries` Verzeichnis](https://github.com/Schutz-Rettung-Zurich/json-archive/tree/main/queries) ablegen
+3. Neues Query in [`run_queries.sh`](https://github.com/Schutz-Rettung-Zurich/json-archive/blob/main/run_queries.sh) aufrufen
+
+### Konertierung der Daten
+
+Um die Daten in CSV zu konvertieren wurde ein neuer Workflow eingerichtet.
+
+1. In der Datei `converter.py` die Input Datei (GeoJSON) und die Output Datei (CSV) in eine neue Zeile schreiben. 
+2. Den Workflow `convert.yml`laufen lassen
