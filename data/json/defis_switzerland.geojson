@@ -131464,6 +131464,48 @@
       46.9853639
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/9095078517",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Apotheke neben Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9095078517"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2500254,
+      46.8543988
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9095087117",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "In Migros",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 8.00-19.00\nSa 7.30-17.00",
+    "operator": "Migros",
+    "id": "node/9095087117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3395344,
+      46.8176911
+    ]
+  }
 }
 ]
 }
