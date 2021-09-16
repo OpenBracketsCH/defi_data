@@ -74267,6 +74267,28 @@
 },
 {
   "type": "Feature",
+  "id": "node/9081342762",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Beim oberen Eingang der Turnhalle",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Müntschemier",
+    "phone": "+41 32 313 17 72",
+    "id": "node/9081342762"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1438786,
+      46.9977199
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9083837617",
   "properties": {
     "access": "no",
@@ -74628,6 +74650,71 @@
     "coordinates": [
       7.3395344,
       46.8176911
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9097083413",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Migros bei den Kassen / Kalchackermärit",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Migros Aare",
+    "phone": "+41585673150",
+    "id": "node/9097083413"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4375958,
+      46.9754789
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9097102110",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Praxis 1. OG links",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-12:30, 13:30-18:00",
+    "operator": "Dr. med. Ernst und Elisabeth Schürch",
+    "phone": "+41 34 423 03 23",
+    "id": "node/9097102110"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6241216,
+      47.052246
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9097163110",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Garage Polizeistation",
+    "description": "nur über Notruf erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Kantonspolizei St.Gallen",
+    "phone": "117",
+    "id": "node/9097163110"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4539285,
+      47.2049485
     ]
   }
 }

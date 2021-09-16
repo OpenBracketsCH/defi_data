@@ -130971,7 +130971,6 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
     "operator": "Gemeinde Müntschemier",
     "phone": "+41 32 313 17 72",
     "id": "node/9081342762"
@@ -131504,6 +131503,140 @@
     "coordinates": [
       7.3395344,
       46.8176911
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9097078504",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Am Hochkamin",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Feldschlösschen Getränke AG, Andreas Sulser",
+    "phone": "+41 58 123 40 00",
+    "id": "node/9097078504"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7856764,
+      47.5467618
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9097083413",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Migros bei den Kassen / Kalchackermärit",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Migros Aare",
+    "phone": "+41585673150",
+    "id": "node/9097083413"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4375958,
+      46.9754789
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9097102110",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Praxis 1. OG links",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-12:30, 13:30-18:00",
+    "operator": "Dr. med. Ernst und Elisabeth Schürch",
+    "phone": "+41 34 423 03 23",
+    "id": "node/9097102110"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6241216,
+      47.052246
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9097126547",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "links vom Haupteingang zur Mehrzweckhalle/Turnhalle",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Schule Oberes Neckertal / Martin Raschle",
+    "phone": "+41 79 374 25 23",
+    "id": "node/9097126547"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1761938,
+      47.3187139
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9097131507",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Am Gemeindehaus",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Lupsingen",
+    "phone": "+41 61 915 90 50",
+    "id": "node/9097131507"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6952013,
+      47.4461988
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9097163110",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Garage Polizeistation",
+    "description": "nur über Notruf erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Kantonspolizei St.Gallen",
+    "phone": "117",
+    "id": "node/9097163110"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4539285,
+      47.2049485
     ]
   }
 }

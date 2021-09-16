@@ -12451,6 +12451,51 @@
       47.059784
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/9097126547",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "links vom Haupteingang zur Mehrzweckhalle/Turnhalle",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Schule Oberes Neckertal / Martin Raschle",
+    "phone": "+41 79 374 25 23",
+    "id": "node/9097126547"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1761938,
+      47.3187139
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9097163110",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Garage Polizeistation",
+    "description": "nur über Notruf erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Kantonspolizei St.Gallen",
+    "phone": "117",
+    "id": "node/9097163110"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4539285,
+      47.2049485
+    ]
+  }
 }
 ]
 }
