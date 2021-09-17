@@ -52427,7 +52427,7 @@
     "access": "yes",
     "defibrillator:location": "In underpass / In Unterführung",
     "emergency": "defibrillator",
-    "emergency:phone": "112",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "-1",
     "opening_hours": "24/7",
@@ -52449,7 +52449,7 @@
     "access": "yes",
     "defibrillator:location": "On wall outside building / An Aussenwand",
     "emergency": "defibrillator",
-    "emergency:phone": "112",
+    "emergency:phone": "144",
     "level": "0",
     "opening_hours": "24/7",
     "wheelchair": "yes",
@@ -52470,7 +52470,7 @@
     "access": "yes",
     "defibrillator:location": "On wall outside building / An Aussenwand",
     "emergency": "defibrillator",
-    "emergency:phone": "112",
+    "emergency:phone": "144",
     "level": "0",
     "opening_hours": "24/7",
     "wheelchair": "yes",
@@ -52597,6 +52597,7 @@
   "properties": {
     "check_date": "2021-07-29",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "-1",
     "opening_hours": "24/7",
@@ -52765,6 +52766,7 @@
     "access": "yes",
     "defibrillator:location": "Devant les caisses",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "opening_hours": "24/7",
     "wheelchair": "yes",
     "id": "node/8979541306"
@@ -53817,6 +53819,7 @@
   "properties": {
     "access": "yes",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
@@ -55569,6 +55572,7 @@
   "properties": {
     "defibrillator:location": "Sur le mur, à gauche de l'entrée principale",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "phone": "144",
@@ -56194,6 +56198,7 @@
     "check_date": "2021-09-04",
     "defibrillator:location": "Links neben Eingang Polizei",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "id": "node/9062305414"
@@ -56406,6 +56411,7 @@
     "access": "private",
     "defibrillator:location": "Zwischen WC und Schliessfächer, in einem Raum",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "24/7",
     "operator": "Zoo Zürich AG",
@@ -57100,6 +57106,29 @@
     "coordinates": [
       7.5408094,
       46.9994065
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9101273185",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Firma Kenny Design GmbH",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Nicole Martin, Kenny Design GmbH",
+    "phone": "+41 61 545 99 10",
+    "id": "node/9101273185"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5223437,
+      47.4849093
     ]
   }
 }
