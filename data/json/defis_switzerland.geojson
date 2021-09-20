@@ -132095,29 +132095,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9103066117",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Vista Klinik Binningen, Patientenempfang",
-    "description": "während der Öffnungszeiten",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00 - 18:00 Uhr",
-    "operator": "Vista Klinik Binningen",
-    "phone": "061 426 60 00",
-    "id": "node/9103066117"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5743388,
-      47.5432808
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9103439836",
   "properties": {
     "access": "yes",
@@ -132436,6 +132413,29 @@
     "coordinates": [
       7.8410223,
       47.2297543
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9107168038",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bei Eingang rechts",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 08:00-18:00",
+    "operator": "Kath. Kirchgemeinde Uster",
+    "phone": "+41 44 944 85 48",
+    "id": "node/9107168038"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7236662,
+      47.3494284
     ]
   }
 }
