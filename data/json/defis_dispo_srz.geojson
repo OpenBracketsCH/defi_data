@@ -20874,25 +20874,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8541361717",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Bei Travohaus",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/8541361717"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.8464422,
-      47.1741435
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8541501541",
   "properties": {
     "access": "yes",
@@ -34064,6 +34045,26 @@
     "coordinates": [
       8.6017719,
       47.3953207
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9120769417",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bönicenter",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00 - 20:00\nsa 08:00 - 18:00",
+    "id": "node/9120769417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5644629,
+      47.2851911
     ]
   }
 }
