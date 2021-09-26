@@ -132851,6 +132851,67 @@
       46.1818759
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/9124710417",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Trafokasten Allmendstrasse / von Fehraltorf her auf der rechten Strassenseite",
+    "description": "öffentlich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9124710417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7410808,
+      47.3925525
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9124739617",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Werkhof Fehraltorf",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo - Do: 07.30-11.30 \nMo - Do: 13.30-16.30\nFr:             07.30-11.30",
+    "operator": "Gemeinde",
+    "id": "node/9124739617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7399627,
+      47.3948724
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9124792249",
+  "properties": {
+    "access": "customers",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/9124792249"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8365544,
+      47.1123214
+    ]
+  }
 }
 ]
 }
