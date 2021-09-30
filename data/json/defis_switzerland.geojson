@@ -42786,25 +42786,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7559692344",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Haupteingang rechts",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "id": "node/7559692344"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.1631905,
-      47.3495275
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7559692345",
   "properties": {
     "access": "yes",
@@ -133261,6 +133242,50 @@
     "coordinates": [
       8.392437,
       46.9339096
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9134247938",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "In der Eingangshalle neben den Aufzügen",
+    "description": "24h verfügbar (in der Nacht über Portier)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Alterszentrum Bodenacker",
+    "phone": "+41797674236",
+    "id": "node/9134247938"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5443807,
+      47.4055511
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9134262228",
+  "properties": {
+    "access": "customers",
+    "defibrillator:location": "Beim Empfang, links unter dem Tisch.",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-18:00",
+    "operator": "Siemens Abteilung EHS",
+    "phone": "+41 44 558 52 52",
+    "id": "node/9134262228"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4915157,
+      47.3793775
     ]
   }
 }
