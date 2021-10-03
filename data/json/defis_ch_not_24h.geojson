@@ -64834,25 +64834,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8838711518",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Gemeinehaus in Praden ( in der egemaligen Telefonkabine)",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/8838711518"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.5810816,
-      46.8243652
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8838998717",
   "properties": {
     "access": "yes",
@@ -72474,27 +72455,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9037543317",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Wohngebäude Wisentalstrasse 1",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Privatperson",
-    "phone": "0438189228",
-    "id": "node/9037543317"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5395368,
-      47.5134858
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9037951717",
   "properties": {
     "access": "no",
@@ -77306,6 +77266,157 @@
     "coordinates": [
       7.7332516,
       47.0140221
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9141378798",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Raum Bademeister",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Einwohnergemeinde Beringen",
+    "phone": "+41 52 687 24 24",
+    "id": "node/9141378798"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5728671,
+      47.7049208
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9141463487",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Restaurant Caischavedra",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Bergbahnen Disentis/ Otmar Venzin",
+    "phone": "+41793812552",
+    "id": "node/9141463487"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8157357,
+      46.7044812
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9141463488",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bergrestaurant Lai Alv",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Bergbahnen Disentis/ Otmar Venzin",
+    "phone": "+41793812552",
+    "id": "node/9141463488"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7888761,
+      46.7115981
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9141466037",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Gebäude, an der Wand links von der Rezeption",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Service de la sécurité civile et militaire",
+    "phone": "+41 21 316 51 00",
+    "id": "node/9141466037"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.5122372,
+      46.5859723
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9141470790",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "In der Massagepraxis Garderobe",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Claudia Bossart",
+    "phone": "+41 79 710 72 33",
+    "id": "node/9141470790"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7913257,
+      47.2979857
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9141475837",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Hotel vermutlich an der Reception",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "The Alpina Hotel Frau Andrea Rämy",
+    "id": "node/9141475837"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.6051407,
+      46.8175271
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9141505317",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Gemeindehaus Obersiggenthal",
+    "description": "öffentlich zugänglich ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/9141505317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2936179,
+      47.4873891
     ]
   }
 }
