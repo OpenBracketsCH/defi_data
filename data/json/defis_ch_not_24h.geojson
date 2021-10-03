@@ -33459,6 +33459,7 @@
     "description": "Kleiner Wartesaal",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "name": "Bushaltestelle",
     "id": "node/7637818972"
   },
@@ -75426,6 +75427,29 @@
     "coordinates": [
       8.5567342,
       47.4102321
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9078711431",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Zwischen WC und Schliessfächer, in einem Raum",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 09:00-17:00",
+    "operator": "Zoo Zürich AG",
+    "phone": "+41 44 254 25 00",
+    "wheelchair": "no",
+    "id": "node/9078711431"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5747704,
+      47.3847381
     ]
   }
 },
