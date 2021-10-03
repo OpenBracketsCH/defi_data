@@ -67170,6 +67170,7 @@
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "fixme": "Bitte überprüfen, ob sich der Defi hier befindet. Defi war neben Billettautomaten vor UBS eingezeichnet, wo sich jedoch kein Defi befindet.",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-17:00",
     "operator": "Bernmobil",
@@ -67179,8 +67180,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4403466,
-      46.9472569
+      7.4400749,
+      46.9471763
     ]
   }
 },
@@ -67419,7 +67420,8 @@
   "type": "Feature",
   "id": "node/8869353118",
   "properties": {
-    "defibrillator:location": "Im Migros auf der 1. Etage, rechts bei der zweiten automatischen Tür. Grüne Box.",
+    "colour": "lime",
+    "defibrillator:location": "In der Migros auf der 1. Etage, rechts bei der zweiten automatischen Tür (Ausgang).",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -67429,8 +67431,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4401953,
-      46.9492443
+      7.4402198,
+      46.9493084
     ]
   }
 },
