@@ -38667,10 +38667,16 @@
   "type": "Feature",
   "id": "node/7080244210",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Beim Eingang links bei den Schliessfächern",
+    "description": "währen Öffnungszeit verfügbar",
+    "destination": "währen Öffnungszeit verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Sa 09:00-21:00",
+    "operator": "IKEA AG",
     "wheelchair": "yes",
     "id": "node/7080244210"
   },
@@ -99904,8 +99910,11 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Mi: 08:30-20:00\nDo-Fr: 08:40-21:00\nSa: 08:00-20:00",
-    "operator": "Jumbo",
+    "level": "0",
+    "opening_hours": "Mo-We 08:30-20:00; Th-Fr 08:40-21:00; Sa 08:00-20:00",
+    "operator": "Jumbo-Markt AG",
+    "phone": "+848 11 33 11",
+    "wheelchair": "yes",
     "id": "node/8571598717"
   },
   "geometry": {
