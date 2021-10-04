@@ -17011,6 +17011,8 @@
     "addr:housenumber": "24",
     "addr:postcode": "3251",
     "addr:street": "Hauptstrasse",
+    "defibrillator:location": "Strassenseitig unter der Laube angebracht.",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
@@ -17021,8 +17023,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4254221,
-      47.0878917
+      7.4250166,
+      47.0878384
     ]
   }
 },
@@ -24596,11 +24598,15 @@
   "id": "node/7637818530",
   "properties": {
     "access": "yes",
-    "description": "An Hausfassade CinqueSensi Kosmetik",
+    "defibrillator:location": "An der Fassade vom Geschäft cinquesensi Kosmetik & SPA",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "name": "CinqueSensi Kosmetik",
     "opening_hours": "24/7",
+    "operator": "Samariterverein Ruswil, Roger Duss",
+    "phone": "+41 78 707 35 25",
     "id": "node/7637818530"
   },
   "geometry": {
@@ -56443,29 +56449,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9141455446",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Der Defi befindet sich an der Aussenseite der Gemeindegarage. Diese befindet sich dort, wo im Dorf die Srrasse Richtung Schulhaus abzweigt. Der Defi ist in einem grauen Kast mit grünem Defi-Aufkleber.",
-    "description": "24h verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "FirstResponder Avers Ferrera / Claudia Buchli",
-    "phone": "+41 79 636 73 18",
-    "id": "node/9141455446"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.4495665,
-      46.5619794
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9141455447",
   "properties": {
     "access": "yes",
@@ -56571,6 +56554,73 @@
     "coordinates": [
       8.2569844,
       47.4994156
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9143865714",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vor der Tribüne des Fussballfeldes",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadt Lenzburg, reaktion.ch",
+    "phone": "+41 78 736 77 59",
+    "id": "node/9143865714"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1741232,
+      47.3797271
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9143872307",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der Defi befindet sich an der Aussenseite der Gemeindegarage. Diese befindet sich dort, wo im Dorf die Srrasse Richtung Schulhaus abzweigt. Der Defi ist in einem grauen Kast mit grünem Defi-Aufkleber.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "FirstResponder Avers Ferrera / Claudia Buchli",
+    "phone": "+41 79 636 73 18",
+    "id": "node/9143872307"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5124729,
+      46.4730188
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9143874864",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "à gauche de la porte d'entrée au poste",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "commune d'Ollon",
+    "phone": "+41 24 499 01 40",
+    "id": "node/9143874864"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9947908,
+      46.2964668
     ]
   }
 }
