@@ -1331,10 +1331,16 @@
   "type": "Feature",
   "id": "node/7080244210",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Beim Eingang links bei den Schliessfächern",
+    "description": "währen Öffnungszeit verfügbar",
+    "destination": "währen Öffnungszeit verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Sa 09:00-21:00",
+    "operator": "IKEA AG",
     "wheelchair": "yes",
     "id": "node/7080244210"
   },
@@ -5461,8 +5467,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.517318,
-      47.5773271
+      8.5174615,
+      47.5773778
     ]
   }
 },
@@ -12314,8 +12320,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7738,
-      47.4581938
+      8.7739401,
+      47.458113
     ]
   }
 },
@@ -14770,7 +14776,7 @@
   "id": "node/8562819833",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "m Eingangsbereich, auf der Innenseite, hinter einer Glasscheibe sichtbar. Am Tag frei zugänglich, in der Nacht muss geläutet werden, dass die Nachtwache den Defi aushändigen kann",
+    "defibrillator:location": "Im Eingangsbereich, auf der Innenseite, hinter einer Glasscheibe sichtbar. Am Tag frei zugänglich, in der Nacht muss geläutet werden, dass die Nachtwache den Defi aushändigen kann",
     "description": "24h verfügbar / über Nachtwache",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -15224,8 +15230,11 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Mi: 08:30-20:00\nDo-Fr: 08:40-21:00\nSa: 08:00-20:00",
-    "operator": "Jumbo",
+    "level": "0",
+    "opening_hours": "Mo-We 08:30-20:00; Th-Fr 08:40-21:00; Sa 08:00-20:00",
+    "operator": "Jumbo-Markt AG",
+    "phone": "+848 11 33 11",
+    "wheelchair": "yes",
     "id": "node/8571598717"
   },
   "geometry": {
@@ -23167,27 +23176,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9037543317",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Wohngebäude Wisentalstrasse 1",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Privatperson",
-    "phone": "0438189228",
-    "id": "node/9037543317"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5395368,
-      47.5134858
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9041755617",
   "properties": {
     "access": "yes",
@@ -23522,9 +23510,9 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
+    "opening_hours": "Mo-Su 09:00-17:00",
     "operator": "Zoo Zürich AG",
-    "phone": "044 254 25 00",
+    "phone": "+41 44 254 25 00",
     "wheelchair": "no",
     "id": "node/9078711431"
   },
@@ -23687,6 +23675,472 @@
     "coordinates": [
       8.5559138,
       47.4038265
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9105841317",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Wygarten bei Hallenbadeingang",
+    "description": "nur während Öffnungszeiten zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr: 07.30-22.00",
+    "operator": "Schule",
+    "phone": "0041786019606",
+    "id": "node/9105841317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4633508,
+      47.2463268
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9107168038",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bei Eingang rechts",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 08:00-18:00",
+    "operator": "Kath. Kirchgemeinde Uster",
+    "phone": "+41 44 944 85 48",
+    "id": "node/9107168038"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7236662,
+      47.3494284
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9115252217",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Colt Technology services AG",
+    "description": "nur zu Bürozeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Colt Technology Services AG",
+    "phone": "+41585601600",
+    "id": "node/9115252217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4935273,
+      47.3879521
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9119325432",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Ausserhalb Betriebsgebäude/Büro Stadtgärtnerei / Stadtgrün, gut signalisiert und ersichtlich an der Aussenwand montiert",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadtgrün Winterthur / Lorenz Schemel",
+    "phone": "+41 52 267 54 52",
+    "id": "node/9119325432"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7268627,
+      47.4938038
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9119697454",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "4. OG, Empfang Veriduna Treuhand AG, im weissen Regal im Empfangsbereich",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "4",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
+    "operator": "Sara Schmid",
+    "phone": "+41448228010",
+    "id": "node/9119697454"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6017719,
+      47.3953207
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9120769417",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bönicenter",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00 - 20:00\nsa 08:00 - 18:00",
+    "id": "node/9120769417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5644629,
+      47.2851911
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9124710417",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Trafokasten Allmendstrasse / von Fehraltorf her auf der rechten Strassenseite",
+    "description": "öffentlich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9124710417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7410808,
+      47.3925525
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9124739617",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Werkhof Fehraltorf",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo - Do: 07.30-11.30 \nMo - Do: 13.30-16.30\nFr:             07.30-11.30",
+    "operator": "Gemeinde",
+    "id": "node/9124739617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7399627,
+      47.3948724
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9125922857",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Y19-G Fakultätsache, Uni Irchel",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Universität Zürich, Sicherheit und Umwelt, Betriebssanität",
+    "phone": "+41 44 635 41 41",
+    "id": "node/9125922857"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.551223,
+      47.3970402
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9128876334",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Am Empfang im Schrank",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Physio Gossau",
+    "phone": "+41 43 477 55 00",
+    "id": "node/9128876334"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7578442,
+      47.3068757
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9134262228",
+  "properties": {
+    "access": "customers",
+    "defibrillator:location": "Beim Empfang, links unter dem Tisch.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-18:00",
+    "operator": "Siemens Abteilung EHS",
+    "phone": "+41 44 558 52 52",
+    "id": "node/9134262228"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4915157,
+      47.3793775
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9137565317",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Defi ist an der Südseite des Gebäudes angebracht",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Uetikon am See, Abteilung Sicherheit",
+    "phone": "+41 44 922 72 30",
+    "id": "node/9137565317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6789162,
+      47.259409
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9137565318",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Defi ist an der Nordseite des Gebäudes angebracht",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Uetikon am See, Abteilung Sicherheit",
+    "phone": "+41 44 922 72 30",
+    "id": "node/9137565318"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6757807,
+      47.2671049
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9137565319",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Defi ist an der Ostseite am Bushäuschen angebracht",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Uetikon am See, Abteilung Sicherheit",
+    "phone": "+41 44 922 72 30",
+    "id": "node/9137565319"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.683643,
+      47.2666162
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9139030417",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Schwimmbad Benglen Garderobe SchwimmlehrerInnen",
+    "description": "nur Verfügbar wenn Schwimmuntericht und/ oder öffentliches Schwimmen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Schulgemeinde Fällanden",
+    "id": "node/9139030417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6366125,
+      47.3607582
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9141209418",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Variabel für 8172, bitte Telefon! - 076 610 01 44",
+    "description": "Bitte anruf für AED nach Notruf 144!",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "PG Medical",
+    "phone": "0766110144",
+    "id": "node/9141209418"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4974893,
+      47.4883366
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9141468018",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der Defi befindet sich im vis a vis der Eingangstüre an der Murstrasse 1",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9141468018"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5157669,
+      47.5776114
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9144102517",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Schulhaus im Birch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/9144102517"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5397238,
+      47.4160244
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9144584317",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Medbase Apotheke Winterthur Altstadt",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr: 08:00-18:30\nSa: 08:00-17:00",
+    "operator": "Medbase Apotheke",
+    "phone": "+41522691920",
+    "id": "node/9144584317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7256249,
+      47.4996187
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9146287020",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Beim Ausgang in der Migros",
+    "description": "nur während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Sa 8.00-20.00",
+    "operator": "Migros",
+    "id": "node/9146287020"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6679192,
+      47.2290073
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9153661772",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "3. Stock, innerhalb der Physiotherapie-Praxis",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Th 07:00-20:00; Fr 07:00-19:00",
+    "operator": "Physio One GmbH",
+    "phone": "+41 52 246 10 80",
+    "id": "node/9153661772"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7715953,
+      47.5041446
     ]
   }
 }

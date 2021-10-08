@@ -3303,25 +3303,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8541361717",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Bei Travohaus",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/8541361717"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.8464422,
-      47.1741435
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8541501541",
   "properties": {
     "access": "yes",
@@ -4108,6 +4089,74 @@
     "coordinates": [
       8.9069678,
       47.1759875
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9113383211",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Restaurant Grüne Gans links vor dem Haupteingang",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "Mo-Su 09:00-17:00",
+    "operator": "Natur und Tierpark Goldau",
+    "phone": "+41 41 859 06 06",
+    "id": "node/9113383211"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5570742,
+      47.053058
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9117239117",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Eingang Links",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Montag bis Freitag 07.15 - 18.15 Uhr",
+    "operator": "A. Bruhin AG",
+    "id": "node/9117239117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8383913,
+      47.1895931
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9152057430",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Halle 1-3 (Nordseite)",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung Arth",
+    "phone": "+41 41 859 02 02",
+    "id": "node/9152057430"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5402903,
+      47.0531229
     ]
   }
 }

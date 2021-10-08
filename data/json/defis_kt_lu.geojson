@@ -3394,64 +3394,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637818455",
-  "properties": {
-    "access": "yes",
-    "description": "1. OG D201 Medikamentenraum",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Lups Haus D",
-    "opening_hours": "24/7",
-    "id": "node/7637818455"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.8425361,
-      47.23137
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7637818456",
-  "properties": {
-    "description": "EG F102 TLF Feuerwehr",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Lups Haus F Betriebsfeuerwehr",
-    "id": "node/7637818456"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.8407666,
-      47.2293577
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7637818457",
-  "properties": {
-    "access": "yes",
-    "description": "Erdgeschoss P146 Lagerraum",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Lups Haus P1",
-    "opening_hours": "24/7",
-    "id": "node/7637818457"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.8409053,
-      47.2309238
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637818458",
   "properties": {
     "description": "Hallenbad 1.UG Kasten an Wand montiert",
@@ -3475,14 +3417,14 @@
     "description": "ehem. Kloster 2.OG In Feuerlöschkasten integriert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "name": "Lups Konvent Süd (eh Kloster)",
+    "name": "Lups Konvent Ost (eh Kloster)",
     "id": "node/7637818459"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.8400336,
-      47.2314884
+      7.8404198,
+      47.2318918
     ]
   }
 },
@@ -4107,11 +4049,15 @@
   "id": "node/7637818530",
   "properties": {
     "access": "yes",
-    "description": "An Hausfassade CinqueSensi Kosmetik",
+    "defibrillator:location": "An der Fassade vom Geschäft cinquesensi Kosmetik & SPA",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "name": "CinqueSensi Kosmetik",
     "opening_hours": "24/7",
+    "operator": "Samariterverein Ruswil, Roger Duss",
+    "phone": "+41 78 707 35 25",
     "id": "node/7637818530"
   },
   "geometry": {
@@ -5679,6 +5625,7 @@
     "description": "im Sanitärgebäude",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Camping Sternen",
     "id": "node/7637818626"
   },
@@ -6296,6 +6243,7 @@
     "description": "Im Anmeldungsbüro",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Camping Lido",
     "id": "node/7637818659"
   },
@@ -6622,6 +6570,7 @@
     "description": "Einsatzleiter verlangen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Verkehrshaus der Schweiz",
     "id": "node/7637818677"
   },
@@ -7428,9 +7377,16 @@
   "type": "Feature",
   "id": "node/7637818722",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang, rechte Seite im Seitengang",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Universität Luzern",
+    "opening_hours": "Mo-Fr 07:00-21:30",
+    "operator": "Universität Luzern, Facility Management, Kontakt: Patrik Meier, Leiter Facility Management",
+    "phone": "+41412295152",
     "id": "node/7637818722"
   },
   "geometry": {
@@ -12950,8 +12906,12 @@
   "type": "Feature",
   "id": "node/7997198486",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hauswand bei Fussgängerampel.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/7997198486"
   },
   "geometry": {
@@ -14398,6 +14358,69 @@
     "coordinates": [
       7.9802306,
       46.9798067
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9107093746",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Briefkastenanlage, Eingang Stadthaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9107093746"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2805728,
+      47.034147
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9107130135",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An der Fassade des Haus H beim Eingang in einem Wandkasten vorhanden.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Luzerner Psychiatrie | Thomas Wicki, Leiter Sicherheit",
+    "phone": "+41 58 856 50 46",
+    "id": "node/9107130135"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8410223,
+      47.2297543
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9115810031",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "In der Nähe des Turnhalleneingangs.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9115810031"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2899706,
+      47.0256316
     ]
   }
 }

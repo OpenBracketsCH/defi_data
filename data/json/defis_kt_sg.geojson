@@ -2936,17 +2936,20 @@
   "type": "Feature",
   "id": "node/7725083360",
   "properties": {
-    "defibrillator:location": "Grosses Magazin, direkt unter der MERCEDES Aufschrift am Gebäude, links neben Türe",
-    "description": "nur während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Unter grossem Vordach links neben Eingangstüre zu Ersatzteillager",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Altherr Nutzfahrzeuge AG/ Raffael Brunner",
+    "phone": "+41 71 994 12 52",
     "id": "node/7725083360"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.2014039,
-      47.2224974
+      9.2011464,
+      47.2222551
     ]
   }
 },
@@ -10235,8 +10238,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.1242244,
-      47.2583156
+      9.1237815,
+      47.2593096
     ]
   }
 },
@@ -10439,6 +10442,74 @@
     "coordinates": [
       9.1755524,
       47.3011825
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9119281419",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Eingangsbereich",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Veratron AG",
+    "phone": "+41717679111",
+    "id": "node/9119281419"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5504692,
+      47.298987
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9128870869",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Haupteingang leicht Rechts an einer wand",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 08:00-18:00",
+    "operator": "Evang. Ref. Kirche St. Gallen Centrum",
+    "phone": "+41712427060",
+    "id": "node/9128870869"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3648885,
+      47.4118871
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9147615915",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Linke Seite bei der Reception",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "Merck Reception",
+    "phone": "+41 81 755 25 11",
+    "id": "node/9147615915"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4787416,
+      47.1745213
     ]
   }
 }

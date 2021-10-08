@@ -198,14 +198,15 @@
     "emergency:phone": "144",
     "opening_hours": "24/7",
     "operator": "Einwohnergemeinde Deitingen",
+    "outdoor": "yes",
     "phone": "+41 76 570 1579",
     "id": "node/6532311694"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6192793,
-      47.2121938
+      7.619284,
+      47.212281
     ]
   }
 },
@@ -1720,6 +1721,7 @@
     "access": "yes",
     "defibrillator:location": "gleich an Aussenfassade",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "level": "0",
     "name": "Garten Wyss",
     "opening_hours": "24/7",
@@ -1741,6 +1743,7 @@
     "access": "private",
     "defibrillator:location": "Aussenfassade bei Velostation",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "name": "Biogen",
     "opening_hours": "24/7",
@@ -1752,6 +1755,219 @@
     "coordinates": [
       7.5804923,
       47.221871
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9112783025",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Auf der rechten Seite der Fassade zum Bahnhofplatz.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Neuenschwander AG Mulden-Service + Entsorgung / Flury + Maeder Zahnärzte Solothurn Süd",
+    "phone": "+41 32 677 10 32",
+    "id": "node/9112783025"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5264213,
+      47.1633372
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9121866714",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Kantonalbank",
+    "wheelchair": "yes",
+    "id": "node/9121866714"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9031799,
+      47.3499023
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9122029900",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bei Lieferqanteneingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Brönnimann",
+    "opening_hours": "24/7",
+    "id": "node/9122029900"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5986478,
+      47.1969664
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9128865040",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussen beim Käch an der Wand richtung Strasse.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9128865040"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6136126,
+      47.4832507
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9129678917",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Produktion UG",
+    "description": "Mo bis Fr, ca. 07:00-17:00",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Firma",
+    "phone": "0793355020",
+    "id": "node/9129678917"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.39132,
+      47.1128067
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9134247938",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "In der Eingangshalle neben den Aufzügen",
+    "description": "24h verfügbar (in der Nacht über Portier)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Alterszentrum Bodenacker",
+    "phone": "+41797674236",
+    "id": "node/9134247938"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5443807,
+      47.4055511
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9137534605",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim alten Schulhaus Haupteingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Lohn-Ammannsegg",
+    "phone": "+49792987924",
+    "id": "node/9137534605"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5277913,
+      47.171185
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9137626118",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Werkhof Messen/Glasentsorgung",
+    "description": "Fassade rechts",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "id": "node/9137626118"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4466246,
+      47.0914943
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9141470790",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "In der Massagepraxis Garderobe",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Claudia Bossart",
+    "phone": "+41 79 710 72 33",
+    "id": "node/9141470790"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7913257,
+      47.2979857
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9148386151",
+  "properties": {
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/9148386151"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6531786,
+      47.313124
     ]
   }
 }

@@ -637,6 +637,7 @@
   "type": "Feature",
   "id": "node/4353787897",
   "properties": {
+    "defibrillator:location": "Neben Kasse Bergbahn",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "id": "node/4353787897"
@@ -2882,7 +2883,10 @@
     "defibrillator:location": "Biketec AG, Personaleingang Parterre",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "Flyer",
     "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "FLYER Werk",
     "id": "node/6516286746"
   },
   "geometry": {
@@ -13668,7 +13672,7 @@
     "addr:city": "Nidau",
     "addr:housenumber": "15",
     "addr:postcode": "2560",
-    "addr:street": "Lyssstrasse",
+    "addr:street": "Lyss-Strasse",
     "defibrillator:location": "Zugriff nur während den Öffnungszeiten via Kundendienst",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -18102,6 +18106,7 @@
     "defibrillator:location": "Im 1. Untergeschoss neben den Liften",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "level": "-1",
     "opening_hours": "Mo-Th 08:00-19:00, Fr 08:00-21:00, Sa 08:00-17:00",
     "operator": "Migros Aare",
@@ -26039,8 +26044,11 @@
     "addr:housenumber": "24",
     "addr:postcode": "3251",
     "addr:street": "Hauptstrasse",
+    "defibrillator:location": "Strassenseitig unter der Laube angebracht.",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Samariterverein Wengi- Ruppoldsried",
     "phone": "+41 32 389 11 90",
@@ -26049,8 +26057,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4254221,
-      47.0878917
+      7.4250166,
+      47.0878384
     ]
   }
 },
@@ -32726,27 +32734,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8691114617",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Via Muraccio",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde",
-    "id": "node/8691114617"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4,
-      46.9752842
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8702580717",
   "properties": {
     "access": "no",
@@ -35326,6 +35313,7 @@
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "fixme": "Bitte überprüfen, ob sich der Defi hier befindet. Defi war neben Billettautomaten vor UBS eingezeichnet, wo sich jedoch kein Defi befindet.",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-17:00",
     "operator": "Bernmobil",
@@ -35335,8 +35323,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4403466,
-      46.9472569
+      7.4400749,
+      46.9471763
     ]
   }
 },
@@ -35427,7 +35415,8 @@
   "type": "Feature",
   "id": "node/8869353118",
   "properties": {
-    "defibrillator:location": "Im Migros auf der 1. Etage, rechts bei der zweiten automatischen Tür. Grüne Box.",
+    "colour": "lime",
+    "defibrillator:location": "In der Migros auf der 1. Etage, rechts bei der zweiten automatischen Tür (Ausgang).",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -35437,8 +35426,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4401953,
-      46.9492443
+      7.4402198,
+      46.9493084
     ]
   }
 },
@@ -35793,22 +35782,21 @@
   "type": "Feature",
   "id": "node/8988581617",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Migros Chappelemärit (Kundendienst)",
+    "check_date:opening_hours": "2021-09-24",
+    "defibrillator:location": "Beim Kundendienst Migros Chappelemärit",
     "description": "Während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Sa ",
-    "operator": "Migros Genossenschaft",
-    "phone": "+41585678000",
+    "opening_hours": "Mo-We 08:00-19:00; Th,Fr 08:00-20:00; Sa 07:30-17:00; Su,PH off",
+    "operator": "Migros",
     "id": "node/8988581617"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.376868,
-      46.9669485
+      7.376505,
+      46.967023
     ]
   }
 },
@@ -36740,6 +36728,224 @@
     "coordinates": [
       7.5826595,
       46.7769178
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9105937398",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Gurtenbahn Talstation im Kassenraum",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gurtenbahn AG",
+    "phone": "+41 31 961 23 23",
+    "id": "node/9105937398"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4460484,
+      46.9278146
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9105953672",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Gurtenbahn Bergstation, im Kommandoraum",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gurtenbahn AG",
+    "phone": "+41 31 961 23 23",
+    "id": "node/9105953672"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4397056,
+      46.9195052
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9111725017",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Asic Robotics AG Umkleide",
+    "description": "während Betriebszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr: 08:00 - 17:00",
+    "operator": "Asic Robotics AG",
+    "phone": "+41344204242",
+    "id": "node/9111725017"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6086455,
+      47.0637743
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9115883117",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "AMAG Skoda Reception Eingang Rechts",
+    "description": "Während Oeffungszeiten Verfügbar ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "MO. - Fr. 08:15-12:00 13:30-18:30 Sa :09:00-16:00",
+    "operator": "AMAG Liestal",
+    "id": "node/9115883117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3999998,
+      46.9972034
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9136165483",
+  "properties": {
+    "check_date:opening_hours": "2021-09-30",
+    "defibrillator:location": "Rechts vor dem Migros-Kundendienst",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Th 08:00-19:00; Fr 08:00-21:00; Sa 07:30-17:00; Su,PH closed",
+    "id": "node/9136165483"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4957347,
+      46.9567693
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9139434717",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "2 stock technomag",
+    "description": "nur mo-fr",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "technomag firma",
+    "id": "node/9139434717"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4142356,
+      46.9408146
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9141272959",
+  "properties": {
+    "defibrillator:location": "In Gebäude",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "Haflinger Zentrum AG",
+    "id": "node/9141272959"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7332516,
+      47.0140221
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9146494017",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Bernstrasse 34 3275 Flamatt ",
+    "description": "während den Öffnungszeiten ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Gesundheitscenter",
+    "phone": "0317411551",
+    "id": "node/9146494017"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4000003,
+      46.9969694
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9149857817",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Bernstrasse 34 3175 Flamatt ",
+    "description": "während den 6",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Gesundheitscenter",
+    "phone": "031 741 15 51",
+    "id": "node/9149857817"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3019737,
+      46.9544886
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9153662522",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Treppenhaus Gebäude Eingang Südseite",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-16:30",
+    "operator": "Raphael Berger",
+    "phone": "+41 34 428 54 71",
+    "id": "node/9153662522"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6042128,
+      47.0672728
     ]
   }
 }

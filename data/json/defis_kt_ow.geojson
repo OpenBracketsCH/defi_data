@@ -1500,19 +1500,19 @@
   "id": "node/8978069317",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "beim Aussenpool",
+    "defibrillator:location": "Beim Eingang zum Schwimmbad",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
+    "indoor": "yes",
+    "opening_hours": "Während den Öffnungszeiten des Schwimmbades",
     "operator": "Gemeinde Sarnen",
     "id": "node/8978069317"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2425475,
-      46.8831592
+      8.2435842,
+      46.88404
     ]
   }
 },
@@ -1639,6 +1639,27 @@
     "coordinates": [
       8.2684434,
       46.7731029
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9108600418",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sanitärgebäude Campingplatz",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Seefeld Park Sarnen",
+    "id": "node/9108600418"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2425151,
+      46.8828742
     ]
   }
 }

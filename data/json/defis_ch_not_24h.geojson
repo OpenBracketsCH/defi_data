@@ -1828,6 +1828,7 @@
   "type": "Feature",
   "id": "node/4353787897",
   "properties": {
+    "defibrillator:location": "Neben Kasse Bergbahn",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "id": "node/4353787897"
@@ -4080,8 +4081,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0642029,
-      46.392166
+      8.0642281,
+      46.3921845
     ]
   }
 },
@@ -6169,7 +6170,10 @@
     "defibrillator:location": "Biketec AG, Personaleingang Parterre",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "Flyer",
     "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "FLYER Werk",
     "id": "node/6516286746"
   },
   "geometry": {
@@ -12186,7 +12190,7 @@
     "addr:city": "Nidau",
     "addr:housenumber": "15",
     "addr:postcode": "2560",
-    "addr:street": "Lyssstrasse",
+    "addr:street": "Lyss-Strasse",
     "defibrillator:location": "Zugriff nur während den Öffnungszeiten via Kundendienst",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -15315,6 +15319,7 @@
     "defibrillator:location": "Im 1. Untergeschoss neben den Liften",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "level": "-1",
     "opening_hours": "Mo-Th 08:00-19:00, Fr 08:00-21:00, Sa 08:00-17:00",
     "operator": "Migros Aare",
@@ -18521,22 +18526,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6786452044",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/6786452044"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.58646,
-      47.5491
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6788958396",
   "properties": {
     "defibrillator:location": "A l'entrée arrière du bâtiment",
@@ -20302,10 +20291,16 @@
   "type": "Feature",
   "id": "node/7080244210",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Beim Eingang links bei den Schliessfächern",
+    "description": "währen Öffnungszeit verfügbar",
+    "destination": "währen Öffnungszeit verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Sa 09:00-21:00",
+    "operator": "IKEA AG",
     "wheelchair": "yes",
     "id": "node/7080244210"
   },
@@ -26214,24 +26209,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637818456",
-  "properties": {
-    "description": "EG F102 TLF Feuerwehr",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Lups Haus F Betriebsfeuerwehr",
-    "id": "node/7637818456"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.8407666,
-      47.2293577
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637818458",
   "properties": {
     "description": "Hallenbad 1.UG Kasten an Wand montiert",
@@ -26255,14 +26232,14 @@
     "description": "ehem. Kloster 2.OG In Feuerlöschkasten integriert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "name": "Lups Konvent Süd (eh Kloster)",
+    "name": "Lups Konvent Ost (eh Kloster)",
     "id": "node/7637818459"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.8400336,
-      47.2314884
+      7.8404198,
+      47.2318918
     ]
   }
 },
@@ -28320,6 +28297,7 @@
     "description": "im Sanitärgebäude",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Camping Sternen",
     "id": "node/7637818626"
   },
@@ -28695,6 +28673,7 @@
     "description": "Im Anmeldungsbüro",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Camping Lido",
     "id": "node/7637818659"
   },
@@ -29001,6 +28980,7 @@
     "description": "Einsatzleiter verlangen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Verkehrshaus der Schweiz",
     "id": "node/7637818677"
   },
@@ -29767,9 +29747,16 @@
   "type": "Feature",
   "id": "node/7637818722",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang, rechte Seite im Seitengang",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Universität Luzern",
+    "opening_hours": "Mo-Fr 07:00-21:30",
+    "operator": "Universität Luzern, Facility Management, Kontakt: Patrik Meier, Leiter Facility Management",
+    "phone": "+41412295152",
     "id": "node/7637818722"
   },
   "geometry": {
@@ -33488,6 +33475,7 @@
     "description": "Kleiner Wartesaal",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "name": "Bushaltestelle",
     "id": "node/7637818972"
   },
@@ -39352,24 +39340,6 @@
     "coordinates": [
       9.1497552,
       47.4764157
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7725083360",
-  "properties": {
-    "defibrillator:location": "Grosses Magazin, direkt unter der MERCEDES Aufschrift am Gebäude, links neben Türe",
-    "description": "nur während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/7725083360"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.2014039,
-      47.2224974
     ]
   }
 },
@@ -46192,22 +46162,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7997198486",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/7997198486"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.2814149,
-      47.0327843
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8001261698",
   "properties": {
     "access": "yes",
@@ -52909,7 +52863,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 07:00-22:00; Sa 07:00-17:00",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/8457810817"
   },
@@ -54083,25 +54036,6 @@
     "coordinates": [
       8.6939173,
       47.6380056
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8541361717",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Bei Travohaus",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/8541361717"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.8464422,
-      47.1741435
     ]
   }
 },
@@ -57851,8 +57785,11 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Mi: 08:30-20:00\nDo-Fr: 08:40-21:00\nSa: 08:00-20:00",
-    "operator": "Jumbo",
+    "level": "0",
+    "opening_hours": "Mo-We 08:30-20:00; Th-Fr 08:40-21:00; Sa 08:00-20:00",
+    "operator": "Jumbo-Markt AG",
+    "phone": "+848 11 33 11",
+    "wheelchair": "yes",
     "id": "node/8571598717"
   },
   "geometry": {
@@ -64034,6 +63971,8 @@
     "access": "yes",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "wheelchair": "yes",
     "id": "node/8783193999"
   },
   "geometry": {
@@ -64910,25 +64849,6 @@
     "coordinates": [
       8.5318261,
       47.3774582
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8838711518",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Gemeinehaus in Praden ( in der egemaligen Telefonkabine)",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/8838711518"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.5810816,
-      46.8243652
     ]
   }
 },
@@ -67269,6 +67189,7 @@
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "fixme": "Bitte überprüfen, ob sich der Defi hier befindet. Defi war neben Billettautomaten vor UBS eingezeichnet, wo sich jedoch kein Defi befindet.",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-17:00",
     "operator": "Bernmobil",
@@ -67278,8 +67199,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4403466,
-      46.9472569
+      7.4400749,
+      46.9471763
     ]
   }
 },
@@ -67518,7 +67439,8 @@
   "type": "Feature",
   "id": "node/8869353118",
   "properties": {
-    "defibrillator:location": "Im Migros auf der 1. Etage, rechts bei der zweiten automatischen Tür. Grüne Box.",
+    "colour": "lime",
+    "defibrillator:location": "In der Migros auf der 1. Etage, rechts bei der zweiten automatischen Tür (Ausgang).",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -67528,8 +67450,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4401953,
-      46.9492443
+      7.4402198,
+      46.9493084
     ]
   }
 },
@@ -70324,6 +70246,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/8978069317",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Eingang zum Schwimmbad",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Während den Öffnungszeiten des Schwimmbades",
+    "operator": "Gemeinde Sarnen",
+    "id": "node/8978069317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2435842,
+      46.88404
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8978072217",
   "properties": {
     "access": "no",
@@ -70901,22 +70844,21 @@
   "type": "Feature",
   "id": "node/8988581617",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Migros Chappelemärit (Kundendienst)",
+    "check_date:opening_hours": "2021-09-24",
+    "defibrillator:location": "Beim Kundendienst Migros Chappelemärit",
     "description": "Während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Sa ",
-    "operator": "Migros Genossenschaft",
-    "phone": "+41585678000",
+    "opening_hours": "Mo-We 08:00-19:00; Th,Fr 08:00-20:00; Sa 07:30-17:00; Su,PH off",
+    "operator": "Migros",
     "id": "node/8988581617"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.376868,
-      46.9669485
+      7.376505,
+      46.967023
     ]
   }
 },
@@ -72535,27 +72477,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9037543317",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Wohngebäude Wisentalstrasse 1",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Privatperson",
-    "phone": "0438189228",
-    "id": "node/9037543317"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5395368,
-      47.5134858
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9037951717",
   "properties": {
     "access": "no",
@@ -72731,6 +72652,152 @@
 },
 {
   "type": "Feature",
+  "id": "node/9045223353",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Eingang Aula links",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/9045223353"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2697654,
+      47.3562509
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223354",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "In den Büroräumlichkeiten",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223354"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2710535,
+      47.3511094
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223355",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Sanitätszimmer (Raum Nr. 124)",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223355"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2775069,
+      47.3494516
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223356",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Korridor vor Notausgang",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223356"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2915489,
+      47.4502927
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223357",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Rechts neben Personaleingang",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223357"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3056587,
+      47.4751457
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223358",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Eingangshalle",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223358"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2996874,
+      47.4809432
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223359",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Haupteingang rechts in der Nische",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223359"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3061328,
+      47.4747274
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9045223360",
   "properties": {
     "access": "yes",
@@ -72740,7 +72807,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 08:00-17:00",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223360"
   },
@@ -72763,7 +72829,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 08:00-17:00",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223361"
   },
@@ -72786,7 +72851,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 07:30-17:00",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223362"
   },
@@ -72795,6 +72859,90 @@
     "coordinates": [
       8.0447401,
       47.3899869
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223363",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Korridor",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223363"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0475041,
+      47.3930583
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223364",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Korridor",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223364"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0482981,
+      47.3936648
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223365",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Korridor",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223365"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0486253,
+      47.3928641
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223366",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "neben Eingang Halle",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223366"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0500643,
+      47.3948614
     ]
   }
 },
@@ -72824,6 +72972,132 @@
 },
 {
   "type": "Feature",
+  "id": "node/9045223368",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Foyer",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223368"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0467608,
+      47.3889332
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223369",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Treppenhaus",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223369"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0447512,
+      47.3881653
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223370",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Sanitätsraum",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223370"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.049548,
+      47.3873011
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223371",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Eingangsbereich",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223371"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0461992,
+      47.3895352
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223372",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Treppenhaus",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223372"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0465472,
+      47.393978
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223373",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Schalterraum",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223373"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0526074,
+      47.3905995
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9045223374",
   "properties": {
     "access": "yes",
@@ -72847,6 +73121,213 @@
 },
 {
   "type": "Feature",
+  "id": "node/9045223375",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Schrank in der Küche/Pausenraum",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223375"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0538455,
+      47.3926811
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223376",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Sanitätsraum",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223376"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0491342,
+      47.3900625
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223377",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Regal im Eingangsbereich",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223377"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.048863,
+      47.3899503
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223378",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Erste-Hilfe Schrank neben Lift",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223378"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9470487,
+      47.2851936
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223379",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223379"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7963448,
+      47.5548388
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223380",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Korridor, gemischte Zone",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223380"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1140149,
+      47.3100904
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223381",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Korridor, vor Lift",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223381"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.113929,
+      47.3101227
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223382",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Liebegg 2 im Büro",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223382"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1181079,
+      47.3395352
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223383",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Eingangshalle",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223383"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1190225,
+      47.3397824
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223384",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "EG in der Zentrale",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223384"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3387645,
+      47.2738022
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9045223385",
   "properties": {
     "access": "yes",
@@ -72856,7 +73337,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 08:00-17:00",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223385"
   },
@@ -72865,6 +73345,278 @@
     "coordinates": [
       8.2071291,
       47.388753
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223386",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Gesundheitsdienst",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223386"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1761952,
+      47.3758739
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223387",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Schlüsselraum",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223387"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1754187,
+      47.3760183
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223388",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Mannschaftsbüro",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223388"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1799868,
+      47.3899183
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223389",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Eingangshalle links neben Schalter",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223389"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1806714,
+      47.3867001
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223390",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Pavillon Gesundheitsdienst",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223390"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.178691,
+      47.3792059
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223391",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Eingang Portier",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223391"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1778058,
+      47.3799887
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223392",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "im Büro",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223392"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3073086,
+      47.4745137
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223393",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Vorraum Rapportsaal",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223393"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1435835,
+      47.3922703
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223394",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Korridore West",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223394"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3068791,
+      47.4711535
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223395",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Kassenhaus",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223395"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2178955,
+      47.4802516
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223396",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Gegenüber des Personenlift",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223396"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2065028,
+      47.4770176
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223397",
+  "properties": {
+    "access": "no",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223397"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2079297,
+      47.4816615
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223398",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Korridor, neben Lift",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223398"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2105757,
+      47.4805924
     ]
   }
 },
@@ -72879,7 +73631,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Tu-Fr 13:00-17:00",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223399"
   },
@@ -72893,6 +73644,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/9045223400",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Infobüro",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223400"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1858317,
+      47.4686183
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9045223401",
   "properties": {
     "access": "yes",
@@ -72901,7 +73673,6 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223401"
   },
@@ -72915,6 +73686,48 @@
 },
 {
   "type": "Feature",
+  "id": "node/9045223402",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Pausenraum",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223402"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0205808,
+      47.5073052
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223403",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Ausrückraum",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223403"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0205873,
+      47.5072709
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9045223404",
   "properties": {
     "access": "yes",
@@ -72923,7 +73736,6 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223404"
   },
@@ -72932,6 +73744,216 @@
     "coordinates": [
       8.0796598,
       47.3698344
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223405",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "15 Meter nach Haupteingang rechts, bei der internen Briefkastenwand",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223405"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0689162,
+      47.3939971
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223406",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Korridor bei Lift",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223406"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0460356,
+      47.3903233
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223407",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Korridor bei Eingang Kern",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223407"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0513196,
+      47.3914949
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223408",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "in der KNZ",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223408"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0607837,
+      47.3986252
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223409",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Schalterbüro",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223409"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0520692,
+      47.3922108
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223410",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Zwischenetage bei Dusche/WC",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223410"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0494564,
+      47.3925197
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223411",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Korridor gemischte Zone",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223411"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0465915,
+      47.3934912
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223412",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Korridor bei Lift",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223412"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0518396,
+      47.390176
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223413",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Korridor",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223413"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0530328,
+      47.3906942
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045223414",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "im Durchgang Rain 47/53",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223414"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.043199,
+      47.3894394
     ]
   }
 },
@@ -72960,6 +73982,69 @@
 },
 {
   "type": "Feature",
+  "id": "node/9045223416",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Gang zw. Schalter und Einsatzzentrale",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045223416"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9435702,
+      47.2875609
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045229717",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "WC Betriebsleiter",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045229717"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9026876,
+      47.321386
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045229718",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Cerberus Raum",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045229718"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9014941,
+      47.3215397
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9045229719",
   "properties": {
     "access": "yes",
@@ -72968,7 +74053,6 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229719"
   },
@@ -72977,6 +74061,90 @@
     "coordinates": [
       7.7920264,
       47.5523407
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045229720",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "bei der Polizei",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045229720"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.805304,
+      47.5531811
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045229722",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Cafe Mehrzweckgebäude",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045229722"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1946421,
+      47.3231879
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045229723",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "technische Prüfhalle",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045229723"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1405298,
+      47.3914505
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045229724",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Schalterhalle",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045229724"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1405935,
+      47.3918227
     ]
   }
 },
@@ -72991,7 +74159,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 08:00-17:00",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229725"
   },
@@ -73060,7 +74227,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 06:45-19:00; Sa 06:45-13:00",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229728"
   },
@@ -73083,7 +74249,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 06:45-19:00; Sa 06:45-13:00",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229729"
   },
@@ -73106,7 +74271,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 06:45-19:00; Sa 06:45-13:00",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229730"
   },
@@ -73129,7 +74293,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 06:45-19:00; Sa 06:45-13:00",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229731"
   },
@@ -73152,7 +74315,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 06:45-19:00; Sa 06:45-13:00",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229732"
   },
@@ -73175,7 +74337,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Sa 08:00-22:00",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229733"
   },
@@ -73196,7 +74357,6 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229734"
   },
@@ -73219,7 +74379,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 07:00-21:30",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229735"
   },
@@ -73242,7 +74401,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 06:30-19:00",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229736"
   },
@@ -73265,7 +74423,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 07:00-19:00",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229738"
   },
@@ -73288,7 +74445,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 07:00-17:00",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229739"
   },
@@ -73311,7 +74467,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 07:30-18:00",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229741"
   },
@@ -73320,6 +74475,27 @@
     "coordinates": [
       8.080843,
       47.3738457
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045229742",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Eingangsbereich/Haupteingang",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045229742"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0461872,
+      47.3901685
     ]
   }
 },
@@ -73334,7 +74510,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 06:00-17:00",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229743"
   },
@@ -73348,6 +74523,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/9045229744",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Korridor",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045229744"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.04921,
+      47.3937047
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9045229745",
   "properties": {
     "access": "yes",
@@ -73356,7 +74552,6 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229745"
   },
@@ -73379,7 +74574,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 07:30-18:00",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229746"
   },
@@ -73425,7 +74619,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 06:00-23:30",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229748"
   },
@@ -73447,7 +74640,6 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229749"
   },
@@ -73470,7 +74662,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 06:00-18:00",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229750"
   },
@@ -73493,7 +74684,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229751"
   },
@@ -73516,7 +74706,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229752"
   },
@@ -73540,7 +74729,6 @@
     "indoor": "yes",
     "level": "0",
     "opening_hours": "Mo-Fr 07:00-18:00",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229753"
   },
@@ -74265,6 +75453,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/9078711431",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Zwischen WC und Schliessfächer, in einem Raum",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 09:00-17:00",
+    "operator": "Zoo Zürich AG",
+    "phone": "+41 44 254 25 00",
+    "wheelchair": "no",
+    "id": "node/9078711431"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5747704,
+      47.3847381
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9078745294",
   "properties": {
     "access": "no",
@@ -74902,6 +76113,7 @@
     "access": "yes",
     "defibrillator:location": "Eingang WC",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "opening_hours": "Mo-Su 10:00-19:00",
@@ -74923,6 +76135,7 @@
     "access": "yes",
     "defibrillator:location": "Eingang WC",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "opening_hours": "Mo-Su 10:00-19:00",
@@ -74934,29 +76147,6 @@
     "coordinates": [
       9.5535943,
       46.9651197
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9103066117",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Vista Klinik Binningen, Patientenempfang",
-    "description": "während der Öffnungszeiten",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00 - 18:00 Uhr",
-    "operator": "Vista Klinik Binningen",
-    "phone": "061 426 60 00",
-    "id": "node/9103066117"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5743388,
-      47.5432808
     ]
   }
 },
@@ -74976,6 +76166,1518 @@
     "coordinates": [
       8.900581,
       47.5525299
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9105678717",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Auf dem Perron",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/9105678717"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3918466,
+      47.4857507
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9105841317",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Wygarten bei Hallenbadeingang",
+    "description": "nur während Öffnungszeiten zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr: 07.30-22.00",
+    "operator": "Schule",
+    "phone": "0041786019606",
+    "id": "node/9105841317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4633508,
+      47.2463268
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9105937398",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Gurtenbahn Talstation im Kassenraum",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gurtenbahn AG",
+    "phone": "+41 31 961 23 23",
+    "id": "node/9105937398"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4460484,
+      46.9278146
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9105953672",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Gurtenbahn Bergstation, im Kommandoraum",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gurtenbahn AG",
+    "phone": "+41 31 961 23 23",
+    "id": "node/9105953672"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4397056,
+      46.9195052
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9107008211",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Mehrzweckhalle",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Mahler Daniela",
+    "phone": "+41 78 863 00 00",
+    "id": "node/9107008211"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2893404,
+      47.438733
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9107013776",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Hauseingeng Rechts an der Wand.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 06:00-18:00",
+    "operator": "ED Basel-Stadt, Digitalisierung und Informatik DIG-IT, Basel-Stadt",
+    "phone": "+41 61 267 42 22",
+    "id": "node/9107013776"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5828557,
+      47.5574609
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9107119148",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schalterhalle Credit-Suisse",
+    "description": "24h verfüpgbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Mahler Daniela",
+    "phone": "+41 78 863 00 00",
+    "id": "node/9107119148"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.291445,
+      47.4357423
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9107119149",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Alterszentrum Buechberg Empfangshalle",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/9107119149"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2919566,
+      47.4426915
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9107119150",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Feuerwehrmagazin",
+    "description": "über Notruf aufbieten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Mahler Daniela",
+    "phone": "+41 78 863 00 00",
+    "id": "node/9107119150"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2892355,
+      47.4436176
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9107124551",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Am Patientenempfang Haupteingang",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "operator": "Vista Klinik Binningen, Heike Müller",
+    "phone": "+41 61 426 60 00",
+    "id": "node/9107124551"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5748436,
+      47.542233
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9107168038",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bei Eingang rechts",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 08:00-18:00",
+    "operator": "Kath. Kirchgemeinde Uster",
+    "phone": "+41 44 944 85 48",
+    "id": "node/9107168038"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7236662,
+      47.3494284
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9111725017",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Asic Robotics AG Umkleide",
+    "description": "während Betriebszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr: 08:00 - 17:00",
+    "operator": "Asic Robotics AG",
+    "phone": "+41344204242",
+    "id": "node/9111725017"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6086455,
+      47.0637743
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9111836770",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Foyer Kirchgemeindehaus, Wand links neben Eingangstüre",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Reformierte Kirchgemeinde Liestal-Seltisberg",
+    "phone": "+41 61 921 22 50",
+    "id": "node/9111836770"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7348485,
+      47.4845719
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9112773117",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "SeebliCenter",
+    "description": "An aussenwand von Dosenbach",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/9112773117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2150957,
+      47.4491906
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9112852017",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Toppharm Apotheke Arbogast",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 8.00-19.00\nSa 8.00-18.00",
+    "id": "node/9112852017"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6464065,
+      47.5278157
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9112938930",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Erdgeschoss im Treppenhaus zur Bibliothek",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Sicherheitsbeauftragter Daniel Magne",
+    "phone": "+41 41 748 11 06",
+    "id": "node/9112938930"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4835079,
+      47.1962339
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9113359017",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Kanti Baden",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 7.00-22.00 Uhr",
+    "operator": "Kantonsschule Baden",
+    "phone": "+41562000444",
+    "id": "node/9113359017"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3133579,
+      47.47036
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9113383211",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Restaurant Grüne Gans links vor dem Haupteingang",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "Mo-Su 09:00-17:00",
+    "operator": "Natur und Tierpark Goldau",
+    "phone": "+41 41 859 06 06",
+    "id": "node/9113383211"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5570742,
+      47.053058
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9115252217",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Colt Technology services AG",
+    "description": "nur zu Bürozeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Colt Technology Services AG",
+    "phone": "+41585601600",
+    "id": "node/9115252217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4935273,
+      47.3879521
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9115883117",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "AMAG Skoda Reception Eingang Rechts",
+    "description": "Während Oeffungszeiten Verfügbar ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "MO. - Fr. 08:15-12:00 13:30-18:30 Sa :09:00-16:00",
+    "operator": "AMAG Liestal",
+    "id": "node/9115883117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3999998,
+      46.9972034
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9115890817",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Amag Liestal Reception Eingang Rechts",
+    "description": "Während Oeffungszeiten Verfügbar! ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "MO. - Fr. 08:15-12:00 13:30-18:30 Sa:09:00-16:00",
+    "operator": "Amag Liestal ",
+    "id": "node/9115890817"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7235783,
+      47.4962549
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9117239117",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Eingang Links",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Montag bis Freitag 07.15 - 18.15 Uhr",
+    "operator": "A. Bruhin AG",
+    "id": "node/9117239117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8383913,
+      47.1895931
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9119281419",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Eingangsbereich",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Veratron AG",
+    "phone": "+41717679111",
+    "id": "node/9119281419"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5504692,
+      47.298987
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9119697454",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "4. OG, Empfang Veriduna Treuhand AG, im weissen Regal im Empfangsbereich",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "4",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
+    "operator": "Sara Schmid",
+    "phone": "+41448228010",
+    "id": "node/9119697454"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6017719,
+      47.3953207
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9120769417",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bönicenter",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00 - 20:00\nsa 08:00 - 18:00",
+    "id": "node/9120769417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5644629,
+      47.2851911
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9121866714",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Kantonalbank",
+    "wheelchair": "yes",
+    "id": "node/9121866714"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9031799,
+      47.3499023
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9123620819",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "bâtiment administratif OCPPAM",
+    "description": "pendant les heures de travail",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "lu-ve; 08:00-17:00",
+    "operator": "OCPPAM",
+    "id": "node/9123620819"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.0768947,
+      46.1818759
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9124739617",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Werkhof Fehraltorf",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo - Do: 07.30-11.30 \nMo - Do: 13.30-16.30\nFr:             07.30-11.30",
+    "operator": "Gemeinde",
+    "id": "node/9124739617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7399627,
+      47.3948724
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9124792249",
+  "properties": {
+    "access": "customers",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/9124792249"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8365544,
+      47.1123214
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9125922857",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Y19-G Fakultätsache, Uni Irchel",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Universität Zürich, Sicherheit und Umwelt, Betriebssanität",
+    "phone": "+41 44 635 41 41",
+    "id": "node/9125922857"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.551223,
+      47.3970402
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9128870869",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Haupteingang leicht Rechts an einer wand",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 08:00-18:00",
+    "operator": "Evang. Ref. Kirche St. Gallen Centrum",
+    "phone": "+41712427060",
+    "id": "node/9128870869"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3648885,
+      47.4118871
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9128876334",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Am Empfang im Schrank",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Physio Gossau",
+    "phone": "+41 43 477 55 00",
+    "id": "node/9128876334"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7578442,
+      47.3068757
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9129678917",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Produktion UG",
+    "description": "Mo bis Fr, ca. 07:00-17:00",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Firma",
+    "phone": "0793355020",
+    "id": "node/9129678917"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.39132,
+      47.1128067
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9129764663",
+  "properties": {
+    "defibrillator:location": "Treppenhaus Abgang Parkhaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/9129764663"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1928599,
+      46.7747966
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9130451418",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Schulhaus Islikon (Neubau)",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Primarschule Gachnang",
+    "id": "node/9130451418"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8385664,
+      47.5453359
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9130489117",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Mehrzweckhalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/9130489117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.853864,
+      47.5413302
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9131353517",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Stücki Center Kiosk /Migros ",
+    "description": "während Oeffzngszeiten Verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo.–Fr.09:00–19:00;Sa. 09:00–18:00",
+    "id": "node/9131353517"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5959054,
+      47.5803125
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9131353518",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Stücki Center direkt bei Migros Kundendienst",
+    "description": "während Oeffungszeiten ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo.–Fr. 09:00–19:00  Sa.09:00 –18:00",
+    "operator": "Migros ",
+    "id": "node/9131353518"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5959054,
+      47.5803125
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9131895535",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "In der Apotheke drin",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-18:30; Sa 08:00-16:00",
+    "operator": "Apotheke Spillmann",
+    "phone": "+41 41 711 15 47",
+    "id": "node/9131895535"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5155731,
+      47.1687938
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9133210017",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "TBGN",
+    "description": "Während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 8.00-17.00",
+    "operator": "TBGN",
+    "id": "node/9133210017"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0602801,
+      47.0979716
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9133210018",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Bahnhofstrasse 12",
+    "description": "TBGN",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 8.00-17.00",
+    "operator": "TBGN",
+    "id": "node/9133210018"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0572469,
+      47.1237878
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9134262228",
+  "properties": {
+    "access": "customers",
+    "defibrillator:location": "Beim Empfang, links unter dem Tisch.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-18:00",
+    "operator": "Siemens Abteilung EHS",
+    "phone": "+41 44 558 52 52",
+    "id": "node/9134262228"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4915157,
+      47.3793775
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9136165483",
+  "properties": {
+    "check_date:opening_hours": "2021-09-30",
+    "defibrillator:location": "Rechts vor dem Migros-Kundendienst",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Th 08:00-19:00; Fr 08:00-21:00; Sa 07:30-17:00; Su,PH closed",
+    "id": "node/9136165483"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4957347,
+      46.9567693
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9136650217",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Firma Bühler 10m nach Haupteingang",
+    "description": "unter der Woche, es muss links von der Türe geklingelt werden für den Einlass",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "07.00 - 16.00Uhr",
+    "operator": "Firma",
+    "id": "node/9136650217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4017022,
+      47.3361684
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9137525706",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Hinter der Haupteingangstüre des Wohnheims Schönenbach",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Wohnheim Schönenbach, Frau Eveline Fiechter (Standortleiterin), Reinach",
+    "phone": "+41 61 500 62 20",
+    "id": "node/9137525706"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5955895,
+      47.4998271
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9137586213",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Sekretariat",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-20:30",
+    "operator": "Reformierte Kirche Aarau, Sekretariat",
+    "phone": "+41 62 836 60 70",
+    "id": "node/9137586213"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0440893,
+      47.3687778
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9138168517",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Arztpraxis Dr. med. Fierz",
+    "description": "während Praxisöffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Arztpraxis Dr. med. Fierz",
+    "id": "node/9138168517"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5490763,
+      46.7278926
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9138498017",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhauseingang bei der Turnhalle",
+    "description": "Draussen, 24 Std. verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde",
+    "id": "node/9138498017"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2102042,
+      47.5080445
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9138626317",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Haus A, Tan 840, Wienacht-Tobel AR, EG, Eingang im Treppenhaus neben Heizkörper",
+    "description": "Tags/Nachts evt. an jeder Klingel Drücken",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "STWEG Tan 840, Mike Etter, Roland Beleffi",
+    "phone": "+41786003641",
+    "id": "node/9138626317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5288476,
+      47.4622481
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9139030417",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Schwimmbad Benglen Garderobe SchwimmlehrerInnen",
+    "description": "nur Verfügbar wenn Schwimmuntericht und/ oder öffentliches Schwimmen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Schulgemeinde Fällanden",
+    "id": "node/9139030417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6366125,
+      47.3607582
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9139434717",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "2 stock technomag",
+    "description": "nur mo-fr",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "technomag firma",
+    "id": "node/9139434717"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4142356,
+      46.9408146
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9140201517",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Einkaufscenter Mischeli, im Innenhof, neben gelbem Post-Briefkasten, bei Lift",
+    "description": "Während Öffnungszeiten Migros zugänglich ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Sa ",
+    "operator": "? Gemeinde Reinach BL? ",
+    "id": "node/9140201517"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5964055,
+      47.5023528
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9141272959",
+  "properties": {
+    "defibrillator:location": "In Gebäude",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "Haflinger Zentrum AG",
+    "id": "node/9141272959"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7332516,
+      47.0140221
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9141378798",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Raum Bademeister",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Einwohnergemeinde Beringen",
+    "phone": "+41 52 687 24 24",
+    "id": "node/9141378798"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5728671,
+      47.7049208
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9141463487",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Restaurant Caischavedra",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Bergbahnen Disentis/ Otmar Venzin",
+    "phone": "+41793812552",
+    "id": "node/9141463487"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8157357,
+      46.7044812
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9141463488",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bergrestaurant Lai Alv",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Bergbahnen Disentis/ Otmar Venzin",
+    "phone": "+41793812552",
+    "id": "node/9141463488"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7888761,
+      46.7115981
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9141466037",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Gebäude, an der Wand links von der Rezeption",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Service de la sécurité civile et militaire",
+    "phone": "+41 21 316 51 00",
+    "id": "node/9141466037"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.5122372,
+      46.5859723
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9141470790",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "In der Massagepraxis Garderobe",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Claudia Bossart",
+    "phone": "+41 79 710 72 33",
+    "id": "node/9141470790"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7913257,
+      47.2979857
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9141475837",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Hotel vermutlich an der Reception",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "The Alpina Hotel Frau Andrea Rämy",
+    "id": "node/9141475837"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.6051407,
+      46.8175271
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9141505317",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Gemeindehaus Obersiggenthal",
+    "description": "öffentlich zugänglich ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/9141505317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2936179,
+      47.4873891
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9143873802",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "im Gebäude",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Office du tourisme de Montreux-Vevey",
+    "phone": "+41 848 868 484",
+    "id": "node/9143873802"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9097992,
+      46.4340582
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9144102517",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Schulhaus im Birch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/9144102517"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5397238,
+      47.4160244
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9144584317",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Medbase Apotheke Winterthur Altstadt",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr: 08:00-18:30\nSa: 08:00-17:00",
+    "operator": "Medbase Apotheke",
+    "phone": "+41522691920",
+    "id": "node/9144584317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7256249,
+      47.4996187
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9146287020",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Beim Ausgang in der Migros",
+    "description": "nur während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Sa 8.00-20.00",
+    "operator": "Migros",
+    "id": "node/9146287020"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6679192,
+      47.2290073
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9147615915",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Linke Seite bei der Reception",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "Merck Reception",
+    "phone": "+41 81 755 25 11",
+    "id": "node/9147615915"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4787416,
+      47.1745213
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9153661772",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "3. Stock, innerhalb der Physiotherapie-Praxis",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Th 07:00-20:00; Fr 07:00-19:00",
+    "operator": "Physio One GmbH",
+    "phone": "+41 52 246 10 80",
+    "id": "node/9153661772"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7715953,
+      47.5041446
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9153662522",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Treppenhaus Gebäude Eingang Südseite",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-16:30",
+    "operator": "Raphael Berger",
+    "phone": "+41 34 428 54 71",
+    "id": "node/9153662522"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6042128,
+      47.0672728
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9154049117",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Jennyareal Fabrikstrasse 2",
+    "description": "während öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "F + C Jenny AG",
+    "phone": "+41556173200",
+    "id": "node/9154049117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0600236,
+      47.1269625
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9155162817",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Simply Fit, hinter der Theke and der Wand",
+    "description": "Wenn Personal da ist, oder mit Mitgliederkarte",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "06:00-23:00",
+    "operator": "Simply Fit ",
+    "phone": "0714478989",
+    "id": "node/9155162817"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4314166,
+      47.5118223
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9155678657",
+  "properties": {
+    "emergency": "defibrillator",
+    "phone": "144",
+    "id": "node/9155678657"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.6323881,
+      46.5229902
     ]
   }
 }

@@ -299,16 +299,21 @@
   "id": "node/6160120165",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Unterstand Schulhaus Badiblick (Eingang Schulleiterbüro)",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Dietwil",
+    "phone": "+41 41 787 34 72",
     "id": "node/6160120165"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3915142,
-      47.1475071
+      8.3914245,
+      47.1478177
     ]
   }
 },
@@ -792,25 +797,6 @@
     "coordinates": [
       8.15483,
       47.346747
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7559692344",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Haupteingang rechts",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "id": "node/7559692344"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.1631905,
-      47.3495275
     ]
   }
 },
@@ -2681,7 +2667,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 07:00-22:00; Sa 07:00-17:00",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/8457810817"
   },
@@ -6108,7 +6093,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9000289832"
   },
@@ -6228,14 +6212,12 @@
   "type": "Feature",
   "id": "node/9045223353",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Eingang Aula links",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "id": "node/9045223353"
   },
   "geometry": {
@@ -6250,14 +6232,12 @@
   "type": "Feature",
   "id": "node/9045223354",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "In den Büroräumlichkeiten",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223354"
   },
@@ -6273,14 +6253,12 @@
   "type": "Feature",
   "id": "node/9045223355",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Im Sanitätszimmer (Raum Nr. 124)",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223355"
   },
@@ -6296,14 +6274,12 @@
   "type": "Feature",
   "id": "node/9045223356",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Korridor vor Notausgang",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223356"
   },
@@ -6319,14 +6295,12 @@
   "type": "Feature",
   "id": "node/9045223357",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Rechts neben Personaleingang",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223357"
   },
@@ -6342,14 +6316,12 @@
   "type": "Feature",
   "id": "node/9045223358",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Eingangshalle",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223358"
   },
@@ -6365,14 +6337,12 @@
   "type": "Feature",
   "id": "node/9045223359",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Haupteingang rechts in der Nische",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223359"
   },
@@ -6395,7 +6365,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 08:00-17:00",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223360"
   },
@@ -6418,7 +6387,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 08:00-17:00",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223361"
   },
@@ -6441,7 +6409,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 07:30-17:00",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223362"
   },
@@ -6457,14 +6424,12 @@
   "type": "Feature",
   "id": "node/9045223363",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Korridor",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223363"
   },
@@ -6480,14 +6445,12 @@
   "type": "Feature",
   "id": "node/9045223364",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Korridor",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223364"
   },
@@ -6503,14 +6466,12 @@
   "type": "Feature",
   "id": "node/9045223365",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Korridor",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223365"
   },
@@ -6526,14 +6487,12 @@
   "type": "Feature",
   "id": "node/9045223366",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "neben Eingang Halle",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223366"
   },
@@ -6573,14 +6532,12 @@
   "type": "Feature",
   "id": "node/9045223368",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Foyer",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223368"
   },
@@ -6596,14 +6553,12 @@
   "type": "Feature",
   "id": "node/9045223369",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Treppenhaus",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223369"
   },
@@ -6619,14 +6574,12 @@
   "type": "Feature",
   "id": "node/9045223370",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Sanitätsraum",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223370"
   },
@@ -6642,14 +6595,12 @@
   "type": "Feature",
   "id": "node/9045223371",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Eingangsbereich",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223371"
   },
@@ -6665,14 +6616,12 @@
   "type": "Feature",
   "id": "node/9045223372",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Treppenhaus",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223372"
   },
@@ -6688,14 +6637,12 @@
   "type": "Feature",
   "id": "node/9045223373",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Schalterraum",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223373"
   },
@@ -6734,14 +6681,12 @@
   "type": "Feature",
   "id": "node/9045223375",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Schrank in der Küche/Pausenraum",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223375"
   },
@@ -6757,14 +6702,12 @@
   "type": "Feature",
   "id": "node/9045223376",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Sanitätsraum",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223376"
   },
@@ -6780,14 +6723,12 @@
   "type": "Feature",
   "id": "node/9045223377",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Regal im Eingangsbereich",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223377"
   },
@@ -6803,14 +6744,12 @@
   "type": "Feature",
   "id": "node/9045223378",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Erste-Hilfe Schrank neben Lift",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223378"
   },
@@ -6826,14 +6765,9 @@
   "type": "Feature",
   "id": "node/9045223379",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Korridor, im inneren Bereich",
-    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223379"
   },
@@ -6849,14 +6783,12 @@
   "type": "Feature",
   "id": "node/9045223380",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Korridor, gemischte Zone",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223380"
   },
@@ -6872,14 +6804,12 @@
   "type": "Feature",
   "id": "node/9045223381",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Korridor, vor Lift",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223381"
   },
@@ -6895,14 +6825,12 @@
   "type": "Feature",
   "id": "node/9045223382",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Liebegg 2 im Büro",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223382"
   },
@@ -6918,14 +6846,12 @@
   "type": "Feature",
   "id": "node/9045223383",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Eingangshalle",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223383"
   },
@@ -6941,14 +6867,12 @@
   "type": "Feature",
   "id": "node/9045223384",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "EG in der Zentrale",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223384"
   },
@@ -6971,7 +6895,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 08:00-17:00",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223385"
   },
@@ -6987,14 +6910,12 @@
   "type": "Feature",
   "id": "node/9045223386",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Gesundheitsdienst",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223386"
   },
@@ -7010,14 +6931,12 @@
   "type": "Feature",
   "id": "node/9045223387",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Schlüsselraum",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223387"
   },
@@ -7033,14 +6952,12 @@
   "type": "Feature",
   "id": "node/9045223388",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Mannschaftsbüro",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223388"
   },
@@ -7056,14 +6973,12 @@
   "type": "Feature",
   "id": "node/9045223389",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Eingangshalle links neben Schalter",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223389"
   },
@@ -7079,14 +6994,12 @@
   "type": "Feature",
   "id": "node/9045223390",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Im Pavillon Gesundheitsdienst",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223390"
   },
@@ -7102,14 +7015,12 @@
   "type": "Feature",
   "id": "node/9045223391",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Eingang Portier",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223391"
   },
@@ -7125,14 +7036,12 @@
   "type": "Feature",
   "id": "node/9045223392",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "im Büro",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223392"
   },
@@ -7148,14 +7057,12 @@
   "type": "Feature",
   "id": "node/9045223393",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Vorraum Rapportsaal",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223393"
   },
@@ -7171,14 +7078,12 @@
   "type": "Feature",
   "id": "node/9045223394",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Korridore West",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223394"
   },
@@ -7194,14 +7099,12 @@
   "type": "Feature",
   "id": "node/9045223395",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Im Kassenhaus",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223395"
   },
@@ -7217,14 +7120,12 @@
   "type": "Feature",
   "id": "node/9045223396",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Gegenüber des Personenlift",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223396"
   },
@@ -7240,13 +7141,11 @@
   "type": "Feature",
   "id": "node/9045223397",
   "properties": {
-    "access": "yes",
-    "description": "24h verfügbar",
+    "access": "no",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223397"
   },
@@ -7262,14 +7161,12 @@
   "type": "Feature",
   "id": "node/9045223398",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Korridor, neben Lift",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223398"
   },
@@ -7292,7 +7189,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Tu-Fr 13:00-17:00",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223399"
   },
@@ -7308,14 +7204,12 @@
   "type": "Feature",
   "id": "node/9045223400",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Infobüro",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223400"
   },
@@ -7337,7 +7231,6 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223401"
   },
@@ -7353,14 +7246,12 @@
   "type": "Feature",
   "id": "node/9045223402",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Pausenraum",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223402"
   },
@@ -7376,14 +7267,12 @@
   "type": "Feature",
   "id": "node/9045223403",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Ausrückraum",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223403"
   },
@@ -7405,7 +7294,6 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223404"
   },
@@ -7421,14 +7309,12 @@
   "type": "Feature",
   "id": "node/9045223405",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "15 Meter nach Haupteingang rechts, bei der internen Briefkastenwand",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223405"
   },
@@ -7444,14 +7330,12 @@
   "type": "Feature",
   "id": "node/9045223406",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Korridor bei Lift",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223406"
   },
@@ -7467,14 +7351,12 @@
   "type": "Feature",
   "id": "node/9045223407",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Korridor bei Eingang Kern",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223407"
   },
@@ -7490,14 +7372,12 @@
   "type": "Feature",
   "id": "node/9045223408",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "in der KNZ",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223408"
   },
@@ -7513,14 +7393,12 @@
   "type": "Feature",
   "id": "node/9045223409",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Schalterbüro",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223409"
   },
@@ -7536,14 +7414,12 @@
   "type": "Feature",
   "id": "node/9045223410",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Zwischenetage bei Dusche/WC",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223410"
   },
@@ -7559,14 +7435,12 @@
   "type": "Feature",
   "id": "node/9045223411",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Korridor gemischte Zone",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223411"
   },
@@ -7582,14 +7456,12 @@
   "type": "Feature",
   "id": "node/9045223412",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Korridor bei Lift",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223412"
   },
@@ -7605,14 +7477,12 @@
   "type": "Feature",
   "id": "node/9045223413",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Korridor",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223413"
   },
@@ -7628,14 +7498,12 @@
   "type": "Feature",
   "id": "node/9045223414",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "im Durchgang Rain 47/53",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223414"
   },
@@ -7674,14 +7542,12 @@
   "type": "Feature",
   "id": "node/9045223416",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Gang zw. Schalter und Einsatzzentrale",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045223416"
   },
@@ -7697,14 +7563,12 @@
   "type": "Feature",
   "id": "node/9045229717",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "WC Betriebsleiter",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229717"
   },
@@ -7720,14 +7584,12 @@
   "type": "Feature",
   "id": "node/9045229718",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Cerberus Raum",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229718"
   },
@@ -7749,7 +7611,6 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229719"
   },
@@ -7765,14 +7626,12 @@
   "type": "Feature",
   "id": "node/9045229720",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "bei der Polizei",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229720"
   },
@@ -7795,7 +7654,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229721"
   },
@@ -7811,14 +7669,12 @@
   "type": "Feature",
   "id": "node/9045229722",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Cafe Mehrzweckgebäude",
-    "description": "für Mitarbeiter: 24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229722"
   },
@@ -7834,14 +7690,12 @@
   "type": "Feature",
   "id": "node/9045229723",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "technische Prüfhalle",
-    "description": "für Mitarbeiter: 24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229723"
   },
@@ -7857,14 +7711,12 @@
   "type": "Feature",
   "id": "node/9045229724",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Schalterhalle",
-    "description": "für Mitarbeiter: 24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229724"
   },
@@ -7887,7 +7739,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 08:00-17:00",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229725"
   },
@@ -7956,7 +7807,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 06:45-19:00; Sa 06:45-13:00",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229728"
   },
@@ -7979,7 +7829,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 06:45-19:00; Sa 06:45-13:00",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229729"
   },
@@ -8002,7 +7851,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 06:45-19:00; Sa 06:45-13:00",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229730"
   },
@@ -8025,7 +7873,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 06:45-19:00; Sa 06:45-13:00",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229731"
   },
@@ -8048,7 +7895,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 06:45-19:00; Sa 06:45-13:00",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229732"
   },
@@ -8071,7 +7917,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Sa 08:00-22:00",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229733"
   },
@@ -8092,7 +7937,6 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229734"
   },
@@ -8115,7 +7959,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 07:00-21:30",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229735"
   },
@@ -8138,7 +7981,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 06:30-19:00",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229736"
   },
@@ -8159,9 +8001,8 @@
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229737"
   },
@@ -8184,7 +8025,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 07:00-19:00",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229738"
   },
@@ -8207,7 +8047,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 07:00-17:00",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229739"
   },
@@ -8230,7 +8069,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229740"
   },
@@ -8253,7 +8091,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 07:30-18:00",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229741"
   },
@@ -8269,14 +8106,12 @@
   "type": "Feature",
   "id": "node/9045229742",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Eingangsbereich/Haupteingang",
-    "description": "für Mitarbeiter: 24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229742"
   },
@@ -8299,7 +8134,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 06:00-17:00",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229743"
   },
@@ -8315,14 +8149,12 @@
   "type": "Feature",
   "id": "node/9045229744",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Korridor",
-    "description": "24h verfügbar",
+    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229744"
   },
@@ -8344,7 +8176,6 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229745"
   },
@@ -8367,7 +8198,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 07:30-18:00",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229746"
   },
@@ -8413,7 +8243,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 06:00-23:30",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229748"
   },
@@ -8435,7 +8264,6 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229749"
   },
@@ -8458,7 +8286,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 06:00-18:00",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229750"
   },
@@ -8481,7 +8308,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229751"
   },
@@ -8504,7 +8330,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229752"
   },
@@ -8528,7 +8353,6 @@
     "indoor": "yes",
     "level": "0",
     "opening_hours": "Mo-Fr 07:00-18:00",
-    "operator": "Immobilien Aargau",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229753"
   },
@@ -9006,6 +8830,444 @@
     "coordinates": [
       8.3569059,
       47.4270305
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9107008211",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Mehrzweckhalle",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Mahler Daniela",
+    "phone": "+41 78 863 00 00",
+    "id": "node/9107008211"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2893404,
+      47.438733
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9107119148",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schalterhalle Credit-Suisse",
+    "description": "24h verfüpgbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Mahler Daniela",
+    "phone": "+41 78 863 00 00",
+    "id": "node/9107119148"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.291445,
+      47.4357423
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9107119149",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Alterszentrum Buechberg Empfangshalle",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/9107119149"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2919566,
+      47.4426915
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9107119150",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Feuerwehrmagazin",
+    "description": "über Notruf aufbieten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Mahler Daniela",
+    "phone": "+41 78 863 00 00",
+    "id": "node/9107119150"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2892355,
+      47.4436176
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9112773117",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "SeebliCenter",
+    "description": "An aussenwand von Dosenbach",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/9112773117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2150957,
+      47.4491906
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9113359017",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Kanti Baden",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 7.00-22.00 Uhr",
+    "operator": "Kantonsschule Baden",
+    "phone": "+41562000444",
+    "id": "node/9113359017"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3133579,
+      47.47036
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9119292851",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Eingang zum Pfarreiheim im Gebäude rechts von der Kirche",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Röm.-Kath. Kirchgemeinde Lenzburg",
+    "phone": "+41 62 885 05 05",
+    "id": "node/9119292851"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1628079,
+      47.3495122
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9119292852",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "rechts neben dem Eingang zur Kirche",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Röm.-Kath. Kirchgemeinde Lenzburg",
+    "phone": "+41 62 885 05 05",
+    "id": "node/9119292852"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1710279,
+      47.4158104
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9119292853",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rechts neben dem Haupteingang zur Kirche",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Röm.-Kath. Kirchgemeinde Lenzburg",
+    "phone": "+41 62 885 05 05",
+    "id": "node/9119292853"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1734426,
+      47.3897585
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9132359017",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindehaus",
+    "description": "immer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "id": "node/9132359017"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9918603,
+      47.5312307
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9137586213",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Sekretariat",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-20:30",
+    "operator": "Reformierte Kirche Aarau, Sekretariat",
+    "phone": "+41 62 836 60 70",
+    "id": "node/9137586213"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0440893,
+      47.3687778
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9138498017",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhauseingang bei der Turnhalle",
+    "description": "Draussen, 24 Std. verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde",
+    "id": "node/9138498017"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2102042,
+      47.5080445
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9138502219",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Mühle, Pet Shop",
+    "description": "Draussen rechts vom Eingang des Pet Shops",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Meyer Mühle",
+    "phone": "+41 56 444 91 08",
+    "id": "node/9138502219"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1847963,
+      47.4461998
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9141468363",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Pflegewohnung",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Nicole Nacht",
+    "phone": "+41 79 403 38 04",
+    "id": "node/9141468363"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2273429,
+      47.4114992
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9141505317",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Gemeindehaus Obersiggenthal",
+    "description": "öffentlich zugänglich ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/9141505317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2936179,
+      47.4873891
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9143806117",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindehaus Untersiggenthal neben Eingang",
+    "description": "ofen zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "id": "node/9143806117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2569844,
+      47.4994156
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9143865714",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vor der Tribüne des Fussballfeldes",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadt Lenzburg, reaktion.ch",
+    "phone": "+41 78 736 77 59",
+    "id": "node/9143865714"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1741232,
+      47.3797271
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9147441059",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Haupteingang zur Mehrzweckhalle",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung Sarmenstorf",
+    "phone": "+41 56 667 93 93",
+    "id": "node/9147441059"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.250145,
+      47.3103946
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9147456981",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Direkt beim Haupteingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Pfarrei Sarmenstorf, Büttikerstrasse 1, 5614 Sarmenstorf",
+    "phone": "+41566672040",
+    "id": "node/9147456981"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2522398,
+      47.3134879
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9147489163",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Anschlagkasten der Gemeindeverwaltung.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung Obermumpf",
+    "phone": "+41 62 873 14 09",
+    "id": "node/9147489163"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9372871,
+      47.5305236
     ]
   }
 }
