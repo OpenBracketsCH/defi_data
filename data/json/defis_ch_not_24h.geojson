@@ -33536,8 +33536,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0158383,
-      47.145302
+      8.0158946,
+      47.1452163
     ]
   }
 },
@@ -33545,33 +33545,22 @@
   "type": "Feature",
   "id": "node/7637818978",
   "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Foyer, vor dem Eingang bei der Küche.",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Büelacherhalle",
+    "operator": "Gemeinde Ettiswil / Abwart Martin Weibel",
+    "phone": "+41 41 984 13 59",
     "id": "node/7637818978"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0182813,
-      47.1505339
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7637818979",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Raiffeisen Bank",
-    "id": "node/7637818979"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.0171829,
-      47.1489473
+      8.0180614,
+      47.1508768
     ]
   }
 },
@@ -48758,6 +48747,7 @@
     "defibrillator:location": "Abt. BMS: Gebäudeeingang – Erdgeschoss, Korridor links, Schalter Sekretariat",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "operator": "gibb Berufsfachschule Bern",
     "phone": "+41 31 335 91 11",
     "id": "node/8149347318"

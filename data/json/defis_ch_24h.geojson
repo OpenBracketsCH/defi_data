@@ -26311,6 +26311,28 @@
 },
 {
   "type": "Feature",
+  "id": "node/7637818979",
+  "properties": {
+    "defibrillator:location": "Im Foyer, vis-a-vis Bankomat",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Raiffeisen Bank",
+    "opening_hours": "24/7",
+    "operator": "Samariter Ettiswil",
+    "phone": "+41 79 598 24 64",
+    "id": "node/7637818979"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0171829,
+      47.1489473
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/7637818981",
   "properties": {
     "access": "yes",
@@ -59376,6 +59398,95 @@
     "coordinates": [
       8.8541984,
       47.1970744
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9164605183",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "AED befindet sich in Garage Hausnummer 35/37",
+    "description": "24h verfügbar über Bewohner",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Prisedes AG/Verwaltung",
+    "id": "node/9164605183"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5994048,
+      47.3600856
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9164624424",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Schulhaus",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Alberswil",
+    "phone": "+41 41 980 17 54",
+    "id": "node/9164624424"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.00157,
+      47.1496309
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9164634567",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben dem grossen Lift beim Mietereingang",
+    "description": "24h (Klingel in der Nacht) verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "phone": "+41 56 298 50 50",
+    "id": "node/9164634567"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.250035,
+      47.5037306
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9164637680",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "SRS Medical GmbH Rettungsdienst",
+    "phone": "+41 800 777 668",
+    "id": "node/9164637680"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8114469,
+      47.3101845
     ]
   }
 }

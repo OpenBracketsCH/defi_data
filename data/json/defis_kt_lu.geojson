@@ -11040,8 +11040,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0158383,
-      47.145302
+      8.0158946,
+      47.1452163
     ]
   }
 },
@@ -11049,16 +11049,22 @@
   "type": "Feature",
   "id": "node/7637818978",
   "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Foyer, vor dem Eingang bei der Küche.",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Büelacherhalle",
+    "operator": "Gemeinde Ettiswil / Abwart Martin Weibel",
+    "phone": "+41 41 984 13 59",
     "id": "node/7637818978"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0182813,
-      47.1505339
+      8.0180614,
+      47.1508768
     ]
   }
 },
@@ -11066,9 +11072,14 @@
   "type": "Feature",
   "id": "node/7637818979",
   "properties": {
+    "defibrillator:location": "Im Foyer, vis-a-vis Bankomat",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "name": "Raiffeisen Bank",
+    "opening_hours": "24/7",
+    "operator": "Samariter Ettiswil",
+    "phone": "+41 79 598 24 64",
     "id": "node/7637818979"
   },
   "geometry": {
@@ -14421,6 +14432,29 @@
     "coordinates": [
       8.2899706,
       47.0256316
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9164624424",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Schulhaus",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Alberswil",
+    "phone": "+41 41 980 17 54",
+    "id": "node/9164624424"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.00157,
+      47.1496309
     ]
   }
 }
