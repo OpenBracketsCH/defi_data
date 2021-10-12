@@ -59835,10 +59835,16 @@
   "type": "Feature",
   "id": "node/7637818977",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Werkeingang Brandschutz Ettiswil AG",
     "description": "Werkeingang Bresteneggstrase",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "name": "Brandschutz AG",
+    "opening_hours": "24/7",
+    "operator": "Brandschutz Ettiswil AG",
+    "phone": "+41 41 980 18 18",
     "id": "node/7637818977"
   },
   "geometry": {
@@ -138240,6 +138246,117 @@
     "coordinates": [
       7.6698457,
       46.4950135
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9168319086",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Haupteingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde Liesberg",
+    "phone": "+41 61 775 97 97",
+    "id": "node/9168319086"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4267592,
+      47.4017524
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9168319087",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An der Wand bei der Posthaltestelle",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Liesberg",
+    "phone": "+41 61 775 97 97",
+    "id": "node/9168319087"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4214926,
+      47.3957147
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9168319088",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An der Mauer zwischen Dorfstrasse 11 und Dorfstrasse 15 (Schulhaus)",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Liesberg",
+    "phone": "+41 61 775 97 97",
+    "id": "node/9168319088"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4300086,
+      47.4039128
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9168326063",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Movement Lab: Vom Eingang her gerade aus an der gegenüberliegenden Wand beim Fenster zum Büro",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/9168326063"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2871729,
+      47.4559913
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9168332270",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "à gauche de l'entrée à l'administration, à l'extérieur du bâtiment",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Eventuellement la Commune",
+    "phone": "+41 22 366 8787",
+    "id": "node/9168332270"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.20807,
+      46.4600803
     ]
   }
 }

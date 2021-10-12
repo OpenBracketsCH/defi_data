@@ -33525,24 +33525,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637818977",
-  "properties": {
-    "description": "Werkeingang Bresteneggstrase",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Brandschutz AG",
-    "id": "node/7637818977"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.0158946,
-      47.1452163
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637818978",
   "properties": {
     "access": "no",
@@ -78729,6 +78711,48 @@
     "coordinates": [
       7.6698457,
       46.4950135
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9168319086",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Haupteingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde Liesberg",
+    "phone": "+41 61 775 97 97",
+    "id": "node/9168319086"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4267592,
+      47.4017524
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9168326063",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Movement Lab: Vom Eingang her gerade aus an der gegenüberliegenden Wand beim Fenster zum Büro",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/9168326063"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2871729,
+      47.4559913
     ]
   }
 }
