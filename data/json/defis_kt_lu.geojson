@@ -14485,6 +14485,51 @@
       47.058869
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/9180998050",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussenfassade der Firma Emmi Käse AG, Kaltbach",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Emmi Käse AG, Kaltbach",
+    "phone": "+41 58 227 26 17",
+    "id": "node/9180998050"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0631548,
+      47.1826142
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9181018700",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Mehrzweckhalle der Gemeinde Mauensee",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Mauensee",
+    "phone": "+ 41 41 921 14 84",
+    "id": "node/9181018700"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0731755,
+      47.1664253
+    ]
+  }
 }
 ]
 }
