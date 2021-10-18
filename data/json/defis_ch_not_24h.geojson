@@ -78859,7 +78859,6 @@
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
     "operator": "Schule",
     "id": "node/9173219116"
   },
@@ -78880,15 +78879,14 @@
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Eigentum Samariterverein Valposchiavo - Petra Zanolari",
+    "operator": "Banca Popolare di Sondrio (Suisse)",
     "id": "node/9173243618"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      10.0570349,
-      46.3240526
+      10.0570236,
+      46.3240156
     ]
   }
 },
@@ -79079,6 +79077,73 @@
     "coordinates": [
       8.0731755,
       47.1664253
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9181030071",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Fitnessstudio, Erdgeschoss, Im hinteren Teil des Studios, direkt vor den WCs",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 18:00-20:00",
+    "operator": "ONE MORE GmbH, Aaron Müller",
+    "phone": "+41 43 499 80 10",
+    "id": "node/9181030071"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3773407,
+      47.5083198
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9181030972",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Hotel",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Hotel Arcade",
+    "id": "node/9181030972"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3967264,
+      47.187501
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9181031581",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der Defi befindet sich im Haupteingang rechts beim Büroeingang an der Ecke.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "Samuel Werder AG / Raphael Vögtli",
+    "phone": "+41 56 463 66 00",
+    "id": "node/9181031581"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1571099,
+      47.4362322
     ]
   }
 }

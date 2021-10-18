@@ -138535,7 +138535,6 @@
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
     "operator": "Schule",
     "id": "node/9173219116"
   },
@@ -138578,15 +138577,14 @@
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Eigentum Samariterverein Valposchiavo - Petra Zanolari",
+    "operator": "Banca Popolare di Sondrio (Suisse)",
     "id": "node/9173243618"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      10.0570349,
-      46.3240526
+      10.0570236,
+      46.3240156
     ]
   }
 },
@@ -138623,7 +138621,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Eigentum Samariterverein Valposchiavo - Petra Zanolari",
+    "operator": "Eigentum Samariterverein Valposchiavo",
     "id": "node/9173243620"
   },
   "geometry": {
@@ -138645,7 +138643,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Eigentum Samariterverein Valposchiavo - Petra Zanolari",
+    "operator": "Eigentum Samariterverein Valposchiavo",
     "id": "node/9173243621"
   },
   "geometry": {
@@ -138909,6 +138907,278 @@
     "coordinates": [
       8.0731755,
       47.1664253
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9181030071",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Fitnessstudio, Erdgeschoss, Im hinteren Teil des Studios, direkt vor den WCs",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 18:00-20:00",
+    "operator": "ONE MORE GmbH, Aaron Müller",
+    "phone": "+41 43 499 80 10",
+    "id": "node/9181030071"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3773407,
+      47.5083198
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9181030072",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Fitnessstudio, Erdgeschoss, bei der Eingangstüre links",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "ONE MORE GmbH, Aaron Müller",
+    "phone": "+41 43 499 80 10",
+    "id": "node/9181030072"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.397922,
+      47.5030423
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9181030972",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Hotel",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Hotel Arcade",
+    "id": "node/9181030972"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3967264,
+      47.187501
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9181030973",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vor dem Ärztezentrum",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Sins",
+    "phone": "+41 41 789 70 10",
+    "id": "node/9181030973"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3950755,
+      47.1911966
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9181030974",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vor der MZH Ammannsmatt",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Sins",
+    "phone": "+41 41 789 70 10",
+    "id": "node/9181030974"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3936083,
+      47.1933761
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9181030975",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Haupteingang des Schulhaus (auf der rechten Seite)",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Sins",
+    "phone": "+41 41 789 70 10",
+    "id": "node/9181030975"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3902448,
+      47.1899768
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9181031581",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der Defi befindet sich im Haupteingang rechts beim Büroeingang an der Ecke.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "Samuel Werder AG / Raphael Vögtli",
+    "phone": "+41 56 463 66 00",
+    "id": "node/9181031581"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1571099,
+      47.4362322
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9181037287",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Eingang zur Raiffeisenbank rechts",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Raiffeisenbank",
+    "phone": "+41 56 436 75 75",
+    "id": "node/9181037287"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3288595,
+      47.448702
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9181037692",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der Defibrillator ist direkt neben der Haupteingangstüre vom grossen Gebäude montiert.",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "ARAG Bau AG Kontakt Juliette Bieri",
+    "phone": "+41 58 710 00 00",
+    "id": "node/9181037692"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0385536,
+      46.9720847
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9181055382",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Eingang Medizinisches Center Bonaduz",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Samariterverein Bonaduz/Rhäzüns",
+    "phone": "+41 79 823 67 77",
+    "id": "node/9181055382"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3947321,
+      46.8107821
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9181061819",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Cafeteria Altersheim",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Altersheim Geserhus, Daniel Hutter",
+    "phone": "+41 71 775 90 20",
+    "id": "node/9181061819"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5775693,
+      47.3976196
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9181066370",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Defibrilator hängt unter dem Vordach an der Aussenwand rechts vor dem Haupteingang auf der Süd/Ostseite des Gemeindezentrums/ Turnhalle",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Primarschule Stettfurt, Roland E. Keller",
+    "phone": "+41 79 303 61 05",
+    "id": "node/9181066370"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9544609,
+      47.5250511
     ]
   }
 }
