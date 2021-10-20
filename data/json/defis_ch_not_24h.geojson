@@ -41023,11 +41023,15 @@
   "type": "Feature",
   "id": "node/7822781220",
   "properties": {
-    "defibrillator:location": "Pflegeabteilung im EG",
-    "description": "bei Pflegeabteilung melden",
+    "access": "yes",
+    "defibrillator:location": "Beim Haupteingang in der Eingangshalle",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-19:00",
+    "operator": "first-responder.ch",
+    "phone": "+41 76 428 11 44",
     "id": "node/7822781220"
   },
   "geometry": {
@@ -79123,6 +79127,52 @@
     "coordinates": [
       8.1571099,
       47.4362322
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9187540871",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Beratungsraum EG",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-12:00, 13:30-18:30",
+    "operator": "Barbara Kursawe",
+    "phone": "+41 62 765 40 60",
+    "id": "node/9187540871"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.202863,
+      47.2669889
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9187618114",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Erdgeschoss, rechts vom Lift",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Sa 08:00-18:00",
+    "operator": "Politische Gemeinde Wäldi",
+    "phone": "+41 58 346 10 00",
+    "id": "node/9187618114"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0634122,
+      47.6169563
     ]
   }
 }

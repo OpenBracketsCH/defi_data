@@ -71505,11 +71505,15 @@
   "type": "Feature",
   "id": "node/7822781220",
   "properties": {
-    "defibrillator:location": "Pflegeabteilung im EG",
-    "description": "bei Pflegeabteilung melden",
+    "access": "yes",
+    "defibrillator:location": "Beim Haupteingang in der Eingangshalle",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-19:00",
+    "operator": "first-responder.ch",
+    "phone": "+41 76 428 11 44",
     "id": "node/7822781220"
   },
   "geometry": {
@@ -99908,29 +99912,6 @@
     "coordinates": [
       8.4691677,
       47.4371894
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8571190317",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "KZU PFLEGEZENTRUM BÄCHLI",
-    "description": "24h verfügbar. Nachts beim Haupteingang klingeln",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "KZU",
-    "phone": "+41448385111",
-    "id": "node/8571190317"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6355281,
-      47.4401599
     ]
   }
 },
@@ -139184,6 +139165,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/9187540871",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Beratungsraum EG",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-12:00, 13:30-18:30",
+    "operator": "Barbara Kursawe",
+    "phone": "+41 62 765 40 60",
+    "id": "node/9187540871"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.202863,
+      47.2669889
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9187600026",
   "properties": {
     "access": "yes",
@@ -139202,6 +139206,167 @@
     "coordinates": [
       7.5649855,
       47.2066773
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9187601662",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingangshalle Sunnewies Unterhalb Empfang/Anmeldung",
+    "description": "24h (Klingel in der Nacht) verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Leitung Infrastruktur",
+    "phone": "+41 71 918 62 62",
+    "id": "node/9187601662"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0337872,
+      47.5131274
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9187601688",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussenbereich rechts neben Schulhauseingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung Biel-Benken",
+    "phone": "+41 61 726 82 82",
+    "id": "node/9187601688"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5232758,
+      47.5072339
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9187601815",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Am Gebäude sichtbar angebracht",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Kläy",
+    "phone": "+49326231659",
+    "id": "node/9187601815"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5320452,
+      47.1637145
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9187601816",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "an der Hauswand",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Neuenschwander Mulden AG",
+    "phone": "+49326231659",
+    "id": "node/9187601816"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5279281,
+      47.1640728
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9187618114",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Erdgeschoss, rechts vom Lift",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Sa 08:00-18:00",
+    "operator": "Politische Gemeinde Wäldi",
+    "phone": "+41 58 346 10 00",
+    "id": "node/9187618114"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0634122,
+      47.6169563
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9187639163",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der Defibrillator befindet sichbeim Sigristenhaus Er ist jederzeit frei zugänglich und dank einem beheizten Gehäuse auch bei Kälte betriebsbereit.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Reformierte Kirchgemeinde Ziefen, Lupsingen, Arboldswil",
+    "phone": "+41 61 911 11 16",
+    "id": "node/9187639163"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7105865,
+      47.4299045
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9187639705",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eienstrasse 21, 4417 Ziefen",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Ziefen",
+    "phone": "+41 61 935 95 95",
+    "id": "node/9187639705"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7078319,
+      47.4321136
     ]
   }
 }

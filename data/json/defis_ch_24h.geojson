@@ -42145,29 +42145,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8571190317",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "KZU PFLEGEZENTRUM BÄCHLI",
-    "description": "24h verfügbar. Nachts beim Haupteingang klingeln",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "KZU",
-    "phone": "+41448385111",
-    "id": "node/8571190317"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6355281,
-      47.4401599
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8571282217",
   "properties": {
     "access": "yes",
@@ -60077,6 +60054,144 @@
     "coordinates": [
       7.5649855,
       47.2066773
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9187601662",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingangshalle Sunnewies Unterhalb Empfang/Anmeldung",
+    "description": "24h (Klingel in der Nacht) verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Leitung Infrastruktur",
+    "phone": "+41 71 918 62 62",
+    "id": "node/9187601662"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0337872,
+      47.5131274
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9187601688",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussenbereich rechts neben Schulhauseingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung Biel-Benken",
+    "phone": "+41 61 726 82 82",
+    "id": "node/9187601688"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5232758,
+      47.5072339
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9187601815",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Am Gebäude sichtbar angebracht",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Kläy",
+    "phone": "+49326231659",
+    "id": "node/9187601815"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5320452,
+      47.1637145
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9187601816",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "an der Hauswand",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Neuenschwander Mulden AG",
+    "phone": "+49326231659",
+    "id": "node/9187601816"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5279281,
+      47.1640728
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9187639163",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der Defibrillator befindet sichbeim Sigristenhaus Er ist jederzeit frei zugänglich und dank einem beheizten Gehäuse auch bei Kälte betriebsbereit.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Reformierte Kirchgemeinde Ziefen, Lupsingen, Arboldswil",
+    "phone": "+41 61 911 11 16",
+    "id": "node/9187639163"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7105865,
+      47.4299045
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9187639705",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eienstrasse 21, 4417 Ziefen",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Ziefen",
+    "phone": "+41 61 935 95 95",
+    "id": "node/9187639705"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7078319,
+      47.4321136
     ]
   }
 }

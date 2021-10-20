@@ -5192,11 +5192,15 @@
   "type": "Feature",
   "id": "node/7822781220",
   "properties": {
-    "defibrillator:location": "Pflegeabteilung im EG",
-    "description": "bei Pflegeabteilung melden",
+    "access": "yes",
+    "defibrillator:location": "Beim Haupteingang in der Eingangshalle",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-19:00",
+    "operator": "first-responder.ch",
+    "phone": "+41 76 428 11 44",
     "id": "node/7822781220"
   },
   "geometry": {
@@ -15194,29 +15198,6 @@
     "coordinates": [
       8.4691677,
       47.4371894
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8571190317",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "KZU PFLEGEZENTRUM BÄCHLI",
-    "description": "24h verfügbar. Nachts beim Haupteingang klingeln",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "KZU",
-    "phone": "+41448385111",
-    "id": "node/8571190317"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6355281,
-      47.4401599
     ]
   }
 },
