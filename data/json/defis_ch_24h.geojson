@@ -14401,6 +14401,7 @@
     "defibrillator:location": "Clubhaus Seeanlage",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "24/7",
     "operator": "Gemeinde Freienbach",
     "phone": "+41 78 605 77 27",
@@ -60211,6 +60212,25 @@
     "coordinates": [
       8.1750913,
       46.8164359
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9197347058",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "all'entrata del parcheggio",
+    "emergency": "defibrillator",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/9197347058"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8759286,
+      45.9773895
     ]
   }
 }
