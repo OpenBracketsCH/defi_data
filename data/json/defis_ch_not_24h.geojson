@@ -45340,17 +45340,19 @@
   "id": "node/7933865232",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bei Dr. med Rohner",
+    "defibrillator:location": "Ärztezentrum Linde beim Empfang",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Ärztezentrum Linde",
     "id": "node/7933865232"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.442348,
-      47.4117565
+      9.4403471,
+      47.4125497
     ]
   }
 },
@@ -79229,6 +79231,174 @@
     "coordinates": [
       7.3999998,
       46.9977591
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9199400450",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Foyer Gemeindeverwaltung",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/9199400450"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5750411,
+      47.5418609
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9199400451",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bauabteilungen der Gemeindeverwaltung",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/9199400451"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.57359,
+      47.541956
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9199400452",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Werkhof",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/9199400452"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5733451,
+      47.5347651
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9199400453",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Garderobengebäude Spiegelfeld (auch für Vereine gedacht)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/9199400453"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5689128,
+      47.5331095
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9199425516",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "im Foyer",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Primarschulgemeinde Rebstein",
+    "phone": "+41 71 777 20 90",
+    "id": "node/9199425516"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5840237,
+      47.395653
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9199447901",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Direkt an der Reception",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-17:30",
+    "operator": "Administrations Team",
+    "phone": "+41 58 316 10 10",
+    "id": "node/9199447901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5183451,
+      47.3385887
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9199466348",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Bahnhof Apotheke Stettbach",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Bahnhof Apotheke Stettbach",
+    "phone": "+41 44 244 05 05",
+    "id": "node/9199466348"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.597298,
+      47.3970579
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9199468299",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang zur Turnhalle",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gesundheitssekretariat Gemeindeverwaltung Knonau",
+    "phone": "+41 44 768 50 57",
+    "id": "node/9199468299"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4632254,
+      47.2201486
     ]
   }
 }

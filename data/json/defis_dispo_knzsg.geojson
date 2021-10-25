@@ -6199,17 +6199,19 @@
   "id": "node/7933865232",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bei Dr. med Rohner",
+    "defibrillator:location": "Ärztezentrum Linde beim Empfang",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Ärztezentrum Linde",
     "id": "node/7933865232"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.442348,
-      47.4117565
+      9.4403471,
+      47.4125497
     ]
   }
 },
@@ -12785,6 +12787,51 @@
     "coordinates": [
       9.5775693,
       47.3976196
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9199400454",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Turnhalle",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Primarschulgemeinde Rebstein",
+    "phone": "+41 71 777 20 90",
+    "id": "node/9199400454"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5826463,
+      47.4011161
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9199425516",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "im Foyer",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Primarschulgemeinde Rebstein",
+    "phone": "+41 71 777 20 90",
+    "id": "node/9199425516"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5840237,
+      47.395653
     ]
   }
 }
