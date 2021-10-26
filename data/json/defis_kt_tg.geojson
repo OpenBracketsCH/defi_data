@@ -986,6 +986,7 @@
     "description": "AED ist 24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "id": "node/7860331949"
   },
@@ -3588,6 +3589,96 @@
     "coordinates": [
       9.4314166,
       47.5118223
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9181066370",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Defibrilator hängt unter dem Vordach an der Aussenwand rechts vor dem Haupteingang auf der Süd/Ostseite des Gemeindezentrums/ Turnhalle",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Primarschule Stettfurt, Roland E. Keller",
+    "phone": "+41 79 303 61 05",
+    "id": "node/9181066370"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9544609,
+      47.5250511
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9187601662",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingangshalle Sunnewies Unterhalb Empfang/Anmeldung",
+    "description": "24h (Klingel in der Nacht) verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Leitung Infrastruktur",
+    "phone": "+41 71 918 62 62",
+    "id": "node/9187601662"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0337872,
+      47.5131274
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9187618114",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Erdgeschoss, rechts vom Lift",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Sa 08:00-18:00",
+    "operator": "Politische Gemeinde Wäldi",
+    "phone": "+41 58 346 10 00",
+    "id": "node/9187618114"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0634122,
+      47.6169563
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9195148718",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "im Café",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Tennisclub Frauenfeld",
+    "id": "node/9195148718"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8865609,
+      47.5647986
     ]
   }
 }

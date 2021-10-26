@@ -6763,24 +6763,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9045223379",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "phone": "+41 62 835 35 00",
-    "id": "node/9045223379"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.7963448,
-      47.5548388
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9045223380",
   "properties": {
     "access": "no",
@@ -9061,7 +9043,6 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-20:30",
     "operator": "Reformierte Kirche Aarau, Sekretariat",
     "phone": "+41 62 836 60 70",
     "id": "node/9137586213"
@@ -9069,8 +9050,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0440893,
-      47.3687778
+      8.0516662,
+      47.3883836
     ]
   }
 },
@@ -9268,6 +9249,363 @@
     "coordinates": [
       7.9372871,
       47.5305236
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157307069",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Fahrzeug von Sanität Entfelden-Muhen im Feuerwehr Magazin",
+    "description": "nur über Notruf erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gabriela Hermann Präsidentin von Sanität Entfelden - Muhen",
+    "phone": "+41 62 723 20 50",
+    "id": "node/9157307069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0505994,
+      47.3491485
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9164634567",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben dem grossen Lift beim Mietereingang",
+    "description": "24h (Klingel in der Nacht) verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "phone": "+41 56 298 50 50",
+    "id": "node/9164634567"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.250035,
+      47.5037306
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9168326063",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Movement Lab: Vom Eingang her gerade aus an der gegenüberliegenden Wand beim Fenster zum Büro",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/9168326063"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2871729,
+      47.4559913
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9169599417",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Turnhalle Umiken",
+    "description": "im Eingangsbereich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00 - 17:00",
+    "id": "node/9169599417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1865733,
+      47.4810216
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9173201313",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der entsprechende Aussenwandkasten ist an der Nordwestfassade des ehemaligen Feuerwehrmagazins, unter dem Treppenaufgang zum Dachraum, angebracht worden.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Egliswil / Hauswart Schulhaus 062 769 75 65",
+    "phone": "+41 62 769 75 75",
+    "id": "node/9173201313"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1853901,
+      47.3498916
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9174051018",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Kasten in Landrover in Garage",
+    "description": "nur verfügbar wenn Bewohner Zuhause ist.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "PD Dr. med. Rolf Inderbitzi, Chirurgie FMH",
+    "phone": "+41 79 677 49 28",
+    "id": "node/9174051018"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3589416,
+      47.3723024
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9181008148",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Eingangsbereich",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeindekanzlei Buchs, Cornelia Byland, Gemeindeschreiberin",
+    "phone": "+41 62 384 74 10",
+    "id": "node/9181008148"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0748466,
+      47.3890617
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9181008149",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Eingangsbereich (Innenbereich) des Gemeindehauses, direkt vor der Abteilung Finanzen",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo 08:00-11:30, 14:00-18:00; Tu-Fr 08:00-11:30, 14:00-16:30",
+    "operator": "Gemeindekanzlei Buchs, Cornelia Byland, Gemeindeschreiberin",
+    "phone": "+41 62 384 74 10",
+    "id": "node/9181008149"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0730978,
+      47.388615
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9181030972",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Hotel",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Hotel Arcade",
+    "id": "node/9181030972"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3967264,
+      47.187501
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9181030973",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vor dem Ärztezentrum",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Sins",
+    "phone": "+41 41 789 70 10",
+    "id": "node/9181030973"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3950755,
+      47.1911966
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9181030974",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vor der MZH Ammannsmatt",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Sins",
+    "phone": "+41 41 789 70 10",
+    "id": "node/9181030974"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3936083,
+      47.1933761
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9181030975",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Haupteingang des Schulhaus (auf der rechten Seite)",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Sins",
+    "phone": "+41 41 789 70 10",
+    "id": "node/9181030975"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3902448,
+      47.1899768
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9181031581",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der Defi befindet sich im Haupteingang rechts beim Büroeingang an der Ecke.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "Samuel Werder AG / Raphael Vögtli",
+    "phone": "+41 56 463 66 00",
+    "id": "node/9181031581"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1571099,
+      47.4362322
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9181037287",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Eingang zur Raiffeisenbank rechts",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Raiffeisenbank",
+    "phone": "+41 56 436 75 75",
+    "id": "node/9181037287"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3288595,
+      47.448702
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9187540871",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Homberg Apotheke im Beratungsraum im EG",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-12:00, 13:30-18:30",
+    "operator": "Barbara Kursawe",
+    "phone": "+41 62 765 40 60",
+    "id": "node/9187540871"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.202863,
+      47.2669889
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9199429892",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Gemeindehauseingang (Gässli 265) links",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Bauamt Thalheim",
+    "phone": "+41 79 366 99 82",
+    "id": "node/9199429892"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1003872,
+      47.4356829
     ]
   }
 }

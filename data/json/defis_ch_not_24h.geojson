@@ -19,6 +19,21 @@
 },
 {
   "type": "Feature",
+  "id": "node/417175648",
+  "properties": {
+    "emergency": "defibrillator",
+    "id": "node/417175648"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9945017,
+      46.0539008
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/506084559",
   "properties": {
     "access": "yes",
@@ -39,6 +54,21 @@
     "coordinates": [
       9.0417132,
       47.4630852
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/738927042",
+  "properties": {
+    "emergency": "defibrillator",
+    "id": "node/738927042"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8056112,
+      46.4866565
     ]
   }
 },
@@ -5238,6 +5268,7 @@
     "defibrillator:location": "Ausgang Gondelbahn",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "id": "node/6167968547"
   },
   "geometry": {
@@ -8320,7 +8351,6 @@
   "type": "Feature",
   "id": "node/6565869521",
   "properties": {
-    "access": "-",
     "addr:city": "Mürren",
     "addr:housenumber": "954d",
     "addr:place": "Eggli",
@@ -10307,6 +10337,7 @@
     "defibrillator:location": "im Betriebsbüro melden",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "08:40-17:40",
     "operator": "Niederhornbahn, Station Niederhorn",
     "phone": "+41 33 841 08 41",
@@ -11061,10 +11092,14 @@
   "id": "node/6635277243",
   "properties": {
     "access": "permissive",
-    "addr:city": "Biel",
+    "addr:city": "Biel/Bienne",
+    "addr:city:de": "Biel",
+    "addr:city:fr": "Bienne",
     "addr:housenumber": "7",
     "addr:postcode": "2502",
-    "addr:street": "Schlösslistrasse",
+    "addr:street": "Rue du Châtelet / Schlösslistrasse",
+    "addr:street:de": "Schlösslistrasse",
+    "addr:street:fr": "Rue du Châtelet",
     "defibrillator:location": "Via Kundendienst",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -24563,13 +24598,13 @@
   "id": "node/7636269858",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Einwohnerkontrolle (Erdgeschoss)",
-    "description": "während Öffnungszeiten zugänglich, Ausnahme Feiertage und ausserordentliche Öffnungszeiten",
+    "defibrillator:location": "Eingangsbereich im Erdgeschoss",
+    "description": "während ordentlichen Öffnungszeiten zugänglich. Ausnahme: Während Schulferien, Feiertage und ausserordentliche Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo,Th 08:00-11:30, 14:00-16:30, Tu/Fr 08:00-11.30, We 08:00-11:30, 14:00-18:00,",
+    "opening_hours": "Mo,Th 08:00-11:30, 14:00-16:00, Tu/Fr 08:00-11.30, We 08:00-11:30, 14:00-17.30,",
     "operator": "Gemeindeverwaltung Stallikon",
     "id": "node/7636269858"
   },
@@ -33525,53 +33560,24 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637818977",
-  "properties": {
-    "description": "Werkeingang Bresteneggstrase",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Brandschutz AG",
-    "id": "node/7637818977"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.0158383,
-      47.145302
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637818978",
   "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Foyer, vor dem Eingang bei der Küche.",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Büelacherhalle",
+    "operator": "Gemeinde Ettiswil / Abwart Martin Weibel",
+    "phone": "+41 41 984 13 59",
     "id": "node/7637818978"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0182813,
-      47.1505339
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7637818979",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Raiffeisen Bank",
-    "id": "node/7637818979"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.0171829,
-      47.1489473
+      8.0180614,
+      47.1508768
     ]
   }
 },
@@ -41031,11 +41037,15 @@
   "type": "Feature",
   "id": "node/7822781220",
   "properties": {
-    "defibrillator:location": "Pflegeabteilung im EG",
-    "description": "bei Pflegeabteilung melden",
+    "access": "yes",
+    "defibrillator:location": "Beim Haupteingang in der Eingangshalle",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-19:00",
+    "operator": "first-responder.ch",
+    "phone": "+41 76 428 11 44",
     "id": "node/7822781220"
   },
   "geometry": {
@@ -45177,7 +45187,7 @@
   "id": "node/7933745040",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Garrderobe Lehrer",
+    "defibrillator:location": "Garderobe Lehrer",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -45330,17 +45340,19 @@
   "id": "node/7933865232",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bei Dr. med Rohner",
+    "defibrillator:location": "Ärztezentrum Linde beim Empfang",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Ärztezentrum Linde",
     "id": "node/7933865232"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.442348,
-      47.4117565
+      9.4403471,
+      47.4125497
     ]
   }
 },
@@ -48758,6 +48770,7 @@
     "defibrillator:location": "Abt. BMS: Gebäudeeingang – Erdgeschoss, Korridor links, Schalter Sekretariat",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "operator": "gibb Berufsfachschule Bern",
     "phone": "+41 31 335 91 11",
     "id": "node/8149347318"
@@ -49137,6 +49150,7 @@
   "properties": {
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "id": "node/8165390899"
   },
   "geometry": {
@@ -60044,27 +60058,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8612262717",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Schlössli",
-    "description": "Hauseingang, immer zugänglich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Gemeinde",
-    "id": "node/8612262717"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5143796,
-      47.5046729
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8612272817",
   "properties": {
     "access": "no",
@@ -61435,8 +61428,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.2474158,
-      47.1406324
+      7.2473959,
+      47.1406184
     ]
   }
 },
@@ -63198,10 +63191,11 @@
   "type": "Feature",
   "id": "node/8736845296",
   "properties": {
-    "defibrillator:location": "To the right of lift doors",
+    "defibrillator:location": "Rechts bei der unteren Lifttüre",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "operator": "144",
     "id": "node/8736845296"
   },
   "geometry": {
@@ -63419,23 +63413,6 @@
     "coordinates": [
       8.2481709,
       46.8915501
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8754970096",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/8754970096"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.461255,
-      47.2232819
     ]
   }
 },
@@ -67735,12 +67712,12 @@
   "type": "Feature",
   "id": "node/8880370617",
   "properties": {
-    "access": "no",
+    "access": "yes",
     "defibrillator:location": "Bleikenstrasse 11",
-    "description": "Während der Offnungszeiten verfügbar",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "operator": "Heberlein AG",
     "phone": "+41 71 987 44 44",
     "id": "node/8880370617"
@@ -67748,8 +67725,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.0878088,
-      47.2962837
+      9.0877536,
+      47.2953739
     ]
   }
 },
@@ -69137,8 +69114,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5064099,
-      47.4784379
+      9.5064677,
+      47.478449
     ]
   }
 },
@@ -71130,8 +71107,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5557554,
-      46.9635742
+      9.5556994,
+      46.9635799
     ]
   }
 },
@@ -73205,24 +73182,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9045223379",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "phone": "+41 62 835 35 00",
-    "id": "node/9045223379"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.7963448,
-      47.5548388
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9045223380",
   "properties": {
     "access": "no",
@@ -75058,6 +75017,7 @@
   "type": "Feature",
   "id": "node/9060671317",
   "properties": {
+    "defibrillator:location": "Aussenwand BAG, gegen Strasse",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "id": "node/9060671317"
@@ -77155,7 +77115,6 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-20:30",
     "operator": "Reformierte Kirche Aarau, Sekretariat",
     "phone": "+41 62 836 60 70",
     "id": "node/9137586213"
@@ -77163,8 +77122,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0440893,
-      47.3687778
+      8.0516662,
+      47.3883836
     ]
   }
 },
@@ -78584,6 +78543,846 @@
     "coordinates": [
       7.343972,
       47.3651447
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157307069",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Fahrzeug von Sanität Entfelden-Muhen im Feuerwehr Magazin",
+    "description": "nur über Notruf erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gabriela Hermann Präsidentin von Sanität Entfelden - Muhen",
+    "phone": "+41 62 723 20 50",
+    "id": "node/9157307069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0505994,
+      47.3491485
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157700989",
+  "properties": {
+    "defibrillator:location": "Neben dem Museum-Haupteingang.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 10:00-17:00",
+    "id": "node/9157700989"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6338684,
+      47.5376662
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9158311018",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Lido Melide ",
+    "description": "Immer Verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde",
+    "id": "node/9158311018"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9493766,
+      45.9528017
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9158929778",
+  "properties": {
+    "emergency": "defibrillator",
+    "id": "node/9158929778"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8086079,
+      46.8260286
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9160763917",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Haupteingang zwischen beiden Gebäuden",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde Wittenbach ",
+    "id": "node/9160763917"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3797406,
+      47.4669534
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9162239319",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Reception TCS Camping Sion",
+    "description": "während Öffnungszeiten verfügbar ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "Mo - So 07.00 - 22.00",
+    "operator": "TCS Camping",
+    "phone": "+41791245169",
+    "id": "node/9162239319"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3137988,
+      46.2117066
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9165152374",
+  "properties": {
+    "emergency": "defibrillator",
+    "id": "node/9165152374"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7728693,
+      46.1100634
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9165400417",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "neben snackbar",
+    "description": "während zugbetrieb",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/9165400417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6698457,
+      46.4950135
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9168319086",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Haupteingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde Liesberg",
+    "phone": "+41 61 775 97 97",
+    "id": "node/9168319086"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4267592,
+      47.4017524
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9168326063",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Movement Lab: Vom Eingang her gerade aus an der gegenüberliegenden Wand beim Fenster zum Büro",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/9168326063"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2871729,
+      47.4559913
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9169169121",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Erdgeschoss, Glas-Foyer",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Zima Gastro GmbH - Rössli ess-kultur",
+    "phone": "+41414926060",
+    "id": "node/9169169121"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0735148,
+      47.058869
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9169599417",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Turnhalle Umiken",
+    "description": "im Eingangsbereich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00 - 17:00",
+    "id": "node/9169599417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1865733,
+      47.4810216
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9169730417",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "untere Ey, Clubhaus FC Dulliken",
+    "description": "Während Trainings-und Spielbetrieb offen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo - Fr. 17.30 - 21.30",
+    "operator": "FC Dulliken",
+    "phone": "+41794434462",
+    "id": "node/9169730417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9461676,
+      47.3566057
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9172629008",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im 1. OG im Aufenthaltsraum, hinter einer grosse Pflanze",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-17:30",
+    "operator": "Life Safe Service GmbH, DE-57223 Kreuztal",
+    "phone": "+49 2732 25 735",
+    "id": "node/9172629008"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7762053,
+      47.5020115
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9173219116",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Nell'atrio delle palestre appeso al muro.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Schule",
+    "id": "node/9173219116"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      10.0612128,
+      46.3214015
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9173243618",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "All'interno della banca.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Banca Popolare di Sondrio (Suisse)",
+    "id": "node/9173243618"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      10.0570236,
+      46.3240156
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9174051018",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Kasten in Landrover in Garage",
+    "description": "nur verfügbar wenn Bewohner Zuhause ist.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "PD Dr. med. Rolf Inderbitzi, Chirurgie FMH",
+    "phone": "+41 79 677 49 28",
+    "id": "node/9174051018"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3589416,
+      47.3723024
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9177157832",
+  "properties": {
+    "emergency": "defibrillator",
+    "id": "node/9177157832"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7654691,
+      46.1068814
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9177599290",
+  "properties": {
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/9177599290"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.0777006,
+      46.1578138
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9177738540",
+  "properties": {
+    "emergency": "defibrillator",
+    "id": "node/9177738540"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7087468,
+      46.1177753
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9178451953",
+  "properties": {
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "Booster Transform - Studio Seefeld",
+    "id": "node/9178451953"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5637351,
+      47.348429
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9179598206",
+  "properties": {
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/9179598206"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.2440102,
+      46.3012725
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9180923977",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im 1. OG bei der Recycling Station",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-20:00; Sa 08:00-17:00",
+    "operator": "Migros",
+    "id": "node/9180923977"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2075946,
+      46.7746366
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9181008148",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Eingangsbereich",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeindekanzlei Buchs, Cornelia Byland, Gemeindeschreiberin",
+    "phone": "+41 62 384 74 10",
+    "id": "node/9181008148"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0748466,
+      47.3890617
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9181008149",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Eingangsbereich (Innenbereich) des Gemeindehauses, direkt vor der Abteilung Finanzen",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo 08:00-11:30, 14:00-18:00; Tu-Fr 08:00-11:30, 14:00-16:30",
+    "operator": "Gemeindekanzlei Buchs, Cornelia Byland, Gemeindeschreiberin",
+    "phone": "+41 62 384 74 10",
+    "id": "node/9181008149"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0730978,
+      47.388615
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9181018700",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Mehrzweckhalle der Gemeinde Mauensee",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Mauensee",
+    "phone": "+ 41 41 921 14 84",
+    "id": "node/9181018700"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0731755,
+      47.1664253
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9181030071",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Fitnessstudio, Erdgeschoss, Im hinteren Teil des Studios, direkt vor den WCs",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 18:00-20:00",
+    "operator": "ONE MORE GmbH, Aaron Müller",
+    "phone": "+41 43 499 80 10",
+    "id": "node/9181030071"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3773407,
+      47.5083198
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9181030972",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Hotel",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Hotel Arcade",
+    "id": "node/9181030972"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3967264,
+      47.187501
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9181031581",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der Defi befindet sich im Haupteingang rechts beim Büroeingang an der Ecke.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "Samuel Werder AG / Raphael Vögtli",
+    "phone": "+41 56 463 66 00",
+    "id": "node/9181031581"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1571099,
+      47.4362322
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9187540871",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Homberg Apotheke im Beratungsraum im EG",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-12:00, 13:30-18:30",
+    "operator": "Barbara Kursawe",
+    "phone": "+41 62 765 40 60",
+    "id": "node/9187540871"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.202863,
+      47.2669889
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9187618114",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Erdgeschoss, rechts vom Lift",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Sa 08:00-18:00",
+    "operator": "Politische Gemeinde Wäldi",
+    "phone": "+41 58 346 10 00",
+    "id": "node/9187618114"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0634122,
+      47.6169563
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9195148718",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "im Café",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Tennisclub Frauenfeld",
+    "id": "node/9195148718"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8865609,
+      47.5647986
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9195321717",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Büro, neben ",
+    "description": "Verfügbar während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-So 10:00-22:30",
+    "operator": "just eat",
+    "id": "node/9195321717"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3999998,
+      46.9977591
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9199400450",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Foyer Gemeindeverwaltung",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/9199400450"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5750411,
+      47.5418609
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9199400451",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bauabteilungen der Gemeindeverwaltung",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/9199400451"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.57359,
+      47.541956
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9199400452",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Werkhof",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/9199400452"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5733451,
+      47.5347651
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9199400453",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Garderobengebäude Spiegelfeld (auch für Vereine gedacht)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/9199400453"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5689128,
+      47.5331095
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9199425516",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "im Foyer",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Primarschulgemeinde Rebstein",
+    "phone": "+41 71 777 20 90",
+    "id": "node/9199425516"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5840237,
+      47.395653
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9199447901",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Direkt an der Reception",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-17:30",
+    "operator": "Administrations Team",
+    "phone": "+41 58 316 10 10",
+    "id": "node/9199447901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5183451,
+      47.3385887
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9199466348",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Bahnhof Apotheke Stettbach",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Bahnhof Apotheke Stettbach",
+    "phone": "+41 44 244 05 05",
+    "id": "node/9199466348"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.597298,
+      47.3970579
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9199468299",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang zur Turnhalle",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gesundheitssekretariat Gemeindeverwaltung Knonau",
+    "phone": "+41 44 768 50 57",
+    "id": "node/9199468299"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4632254,
+      47.2201486
     ]
   }
 }

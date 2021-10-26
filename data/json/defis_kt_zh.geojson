@@ -3268,13 +3268,13 @@
   "id": "node/7636269858",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Einwohnerkontrolle (Erdgeschoss)",
-    "description": "während Öffnungszeiten zugänglich, Ausnahme Feiertage und ausserordentliche Öffnungszeiten",
+    "defibrillator:location": "Eingangsbereich im Erdgeschoss",
+    "description": "während ordentlichen Öffnungszeiten zugänglich. Ausnahme: Während Schulferien, Feiertage und ausserordentliche Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo,Th 08:00-11:30, 14:00-16:30, Tu/Fr 08:00-11.30, We 08:00-11:30, 14:00-18:00,",
+    "opening_hours": "Mo,Th 08:00-11:30, 14:00-16:00, Tu/Fr 08:00-11.30, We 08:00-11:30, 14:00-17.30,",
     "operator": "Gemeindeverwaltung Stallikon",
     "id": "node/7636269858"
   },
@@ -5192,11 +5192,15 @@
   "type": "Feature",
   "id": "node/7822781220",
   "properties": {
-    "defibrillator:location": "Pflegeabteilung im EG",
-    "description": "bei Pflegeabteilung melden",
+    "access": "yes",
+    "defibrillator:location": "Beim Haupteingang in der Eingangshalle",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-19:00",
+    "operator": "first-responder.ch",
+    "phone": "+41 76 428 11 44",
     "id": "node/7822781220"
   },
   "geometry": {
@@ -15199,29 +15203,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8571190317",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "KZU PFLEGEZENTRUM BÄCHLI",
-    "description": "24h verfügbar. Nachts beim Haupteingang klingeln",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "KZU",
-    "phone": "+41448385111",
-    "id": "node/8571190317"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6355281,
-      47.4401599
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8571598717",
   "properties": {
     "access": "yes",
@@ -18246,10 +18227,11 @@
   "type": "Feature",
   "id": "node/8736845296",
   "properties": {
-    "defibrillator:location": "To the right of lift doors",
+    "defibrillator:location": "Rechts bei der unteren Lifttüre",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "operator": "144",
     "id": "node/8736845296"
   },
   "geometry": {
@@ -18322,23 +18304,6 @@
     "coordinates": [
       8.7367967,
       47.2666931
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8754970096",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/8754970096"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.461255,
-      47.2232819
     ]
   }
 },
@@ -23340,8 +23305,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4681367,
-      47.5904103
+      8.4689147,
+      47.5907626
     ]
   }
 },
@@ -24141,6 +24106,246 @@
     "coordinates": [
       8.7715953,
       47.5041446
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9164605183",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "AED befindet sich in Garage Hausnummer 35/39",
+    "description": "24h verfügbar über Bewohner",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Prisedes AG/Verwaltung",
+    "id": "node/9164605183"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5994786,
+      47.3601419
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9172629008",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im 1. OG im Aufenthaltsraum, hinter einer grosse Pflanze",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-17:30",
+    "operator": "Life Safe Service GmbH, DE-57223 Kreuztal",
+    "phone": "+49 2732 25 735",
+    "id": "node/9172629008"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7762053,
+      47.5020115
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9178451953",
+  "properties": {
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "Booster Transform - Studio Seefeld",
+    "id": "node/9178451953"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5637351,
+      47.348429
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9181030071",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Fitnessstudio, Erdgeschoss, Im hinteren Teil des Studios, direkt vor den WCs",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 18:00-20:00",
+    "operator": "ONE MORE GmbH, Aaron Müller",
+    "phone": "+41 43 499 80 10",
+    "id": "node/9181030071"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3773407,
+      47.5083198
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9181030072",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Fitnessstudio, Erdgeschoss, bei der Eingangstüre links",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "ONE MORE GmbH, Aaron Müller",
+    "phone": "+41 43 499 80 10",
+    "id": "node/9181030072"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.397922,
+      47.5030423
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9183948770",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Auf der hinteren Seite beim Wohnungseingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9183948770"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6079316,
+      47.6710328
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9199359850",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Zwischen Selbstbedienungsrestaurant und Uhrengeschäft beim Besucherzentrum",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9199359850"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6149187,
+      47.6764668
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9199447901",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Direkt an der Reception",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-17:30",
+    "operator": "Administrations Team",
+    "phone": "+41 58 316 10 10",
+    "id": "node/9199447901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5183451,
+      47.3385887
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9199466348",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Bahnhof Apotheke Stettbach",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Bahnhof Apotheke Stettbach",
+    "phone": "+41 44 244 05 05",
+    "id": "node/9199466348"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.597298,
+      47.3970579
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9199468299",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang zur Turnhalle",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gesundheitssekretariat Gemeindeverwaltung Knonau",
+    "phone": "+41 44 768 50 57",
+    "id": "node/9199468299"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4632254,
+      47.2201486
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9199468300",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang zur Gemeindeverwaltung",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gesundheitssekretariat Gemeindeverwaltung Knonau",
+    "phone": "+41 44 768 50 57",
+    "id": "node/9199468300"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4612137,
+      47.2233034
     ]
   }
 }

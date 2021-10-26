@@ -9851,12 +9851,12 @@
   "type": "Feature",
   "id": "node/8880370617",
   "properties": {
-    "access": "no",
+    "access": "yes",
     "defibrillator:location": "Bleikenstrasse 11",
-    "description": "Während der Offnungszeiten verfügbar",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "operator": "Heberlein AG",
     "phone": "+41 71 987 44 44",
     "id": "node/8880370617"
@@ -9864,8 +9864,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.0878088,
-      47.2962837
+      9.0877536,
+      47.2953739
     ]
   }
 },
@@ -10041,8 +10041,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5064099,
-      47.4784379
+      9.5064677,
+      47.478449
     ]
   }
 },
@@ -10510,6 +10510,94 @@
     "coordinates": [
       9.4787416,
       47.1745213
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9160763917",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Haupteingang zwischen beiden Gebäuden",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde Wittenbach ",
+    "id": "node/9160763917"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3797406,
+      47.4669534
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9181061819",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Cafeteria Altersheim",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Altersheim Geserhus, Daniel Hutter",
+    "phone": "+41 71 775 90 20",
+    "id": "node/9181061819"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5775693,
+      47.3976196
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9199400454",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Turnhalle",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Primarschulgemeinde Rebstein",
+    "phone": "+41 71 777 20 90",
+    "id": "node/9199400454"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5826463,
+      47.4011161
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9199425516",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "im Foyer",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Primarschulgemeinde Rebstein",
+    "phone": "+41 71 777 20 90",
+    "id": "node/9199425516"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5840237,
+      47.395653
     ]
   }
 }

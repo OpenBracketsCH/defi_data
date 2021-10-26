@@ -3,6 +3,26 @@
 "features": [
 {
   "type": "Feature",
+  "id": "node/2072537065",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "beim Kirchenaufgang li an Mauer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Kirchgemeinde Werthenstein",
+    "opening_hours": "24/7",
+    "id": "node/2072537065"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1035636,
+      47.0542149
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/4321924249",
   "properties": {
     "emergency": "defibrillator",
@@ -2179,26 +2199,6 @@
     "coordinates": [
       7.910933,
       46.895748
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7637812563",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "beim Kirchenaufgang li an Mauer",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Kirchgemeinde Werthenstein",
-    "opening_hours": "24/7",
-    "id": "node/7637812563"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.10361,
-      47.05417
     ]
   }
 },
@@ -4957,8 +4957,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.1157494,
-      47.1569008
+      8.1157397,
+      47.1568857
     ]
   }
 },
@@ -11031,17 +11031,23 @@
   "type": "Feature",
   "id": "node/7637818977",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Werkeingang Brandschutz Ettiswil AG",
     "description": "Werkeingang Bresteneggstrase",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "name": "Brandschutz AG",
+    "opening_hours": "24/7",
+    "operator": "Brandschutz Ettiswil AG",
+    "phone": "+41 41 980 18 18",
     "id": "node/7637818977"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0158383,
-      47.145302
+      8.0158946,
+      47.1452163
     ]
   }
 },
@@ -11049,16 +11055,22 @@
   "type": "Feature",
   "id": "node/7637818978",
   "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Foyer, vor dem Eingang bei der Küche.",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Büelacherhalle",
+    "operator": "Gemeinde Ettiswil / Abwart Martin Weibel",
+    "phone": "+41 41 984 13 59",
     "id": "node/7637818978"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0182813,
-      47.1505339
+      8.0180614,
+      47.1508768
     ]
   }
 },
@@ -11066,9 +11078,14 @@
   "type": "Feature",
   "id": "node/7637818979",
   "properties": {
+    "defibrillator:location": "Im Foyer, vis-a-vis Bankomat",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "name": "Raiffeisen Bank",
+    "opening_hours": "24/7",
+    "operator": "Samariter Ettiswil",
+    "phone": "+41 79 598 24 64",
     "id": "node/7637818979"
   },
   "geometry": {
@@ -14421,6 +14438,117 @@
     "coordinates": [
       8.2899706,
       47.0256316
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9164624424",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Schulhaus",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Alberswil",
+    "phone": "+41 41 980 17 54",
+    "id": "node/9164624424"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.00157,
+      47.1496309
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9169169121",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Erdgeschoss, Glas-Foyer",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Zima Gastro GmbH - Rössli ess-kultur",
+    "phone": "+41414926060",
+    "id": "node/9169169121"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0735148,
+      47.058869
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9180998050",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussenfassade der Firma Emmi Käse AG, Kaltbach",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Emmi Käse AG, Kaltbach",
+    "phone": "+41 58 227 26 17",
+    "id": "node/9180998050"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0631548,
+      47.1826142
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9181018700",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Mehrzweckhalle der Gemeinde Mauensee",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Mauensee",
+    "phone": "+ 41 41 921 14 84",
+    "id": "node/9181018700"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0731755,
+      47.1664253
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9181037692",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der Defibrillator ist direkt neben der Haupteingangstüre vom grossen Gebäude montiert.",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "ARAG Bau AG Kontakt Juliette Bieri",
+    "phone": "+41 58 710 00 00",
+    "id": "node/9181037692"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0385536,
+      46.9720847
     ]
   }
 }

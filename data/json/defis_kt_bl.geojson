@@ -464,27 +464,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8612262717",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Schlössli",
-    "description": "Hauseingang, immer zugänglich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Gemeinde",
-    "id": "node/8612262717"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5143796,
-      47.5046729
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8612272817",
   "properties": {
     "access": "no",
@@ -1061,13 +1040,13 @@
   "id": "node/8984812456",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Hauseingang, an der Wand rechts",
+    "defibrillator:location": "Schlössli: Hauseingang, an der Wand rechts",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Lifehacker / Gemeine Biel-Benken",
+    "operator": "Gemeinde Biel-Benken",
     "phone": "+41 61 726 82 82",
     "id": "node/8984812456"
   },
@@ -1660,6 +1639,241 @@
     "coordinates": [
       7.5995387,
       47.4942878
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157700989",
+  "properties": {
+    "defibrillator:location": "Neben dem Museum-Haupteingang.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 10:00-17:00",
+    "id": "node/9157700989"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6338684,
+      47.5376662
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9168319086",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Haupteingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde Liesberg",
+    "phone": "+41 61 775 97 97",
+    "id": "node/9168319086"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4267592,
+      47.4017524
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9168319087",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An der Wand bei der Posthaltestelle",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Liesberg",
+    "phone": "+41 61 775 97 97",
+    "id": "node/9168319087"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4214926,
+      47.3957147
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9168319088",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An der Mauer zwischen Dorfstrasse 11 und Dorfstrasse 15 (Schulhaus)",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Liesberg",
+    "phone": "+41 61 775 97 97",
+    "id": "node/9168319088"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4300086,
+      47.4039128
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9187601688",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussenbereich rechts neben Schulhauseingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung Biel-Benken",
+    "phone": "+41 61 726 82 82",
+    "id": "node/9187601688"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5232758,
+      47.5072339
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9187639163",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der Defibrillator befindet sichbeim Sigristenhaus Er ist jederzeit frei zugänglich und dank einem beheizten Gehäuse auch bei Kälte betriebsbereit.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Reformierte Kirchgemeinde Ziefen, Lupsingen, Arboldswil",
+    "phone": "+41 61 911 11 16",
+    "id": "node/9187639163"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7105865,
+      47.4299045
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9187639705",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eienstrasse 21, 4417 Ziefen",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Ziefen",
+    "phone": "+41 61 935 95 95",
+    "id": "node/9187639705"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7078319,
+      47.4321136
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9199400450",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Foyer Gemeindeverwaltung",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/9199400450"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5750411,
+      47.5418609
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9199400451",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bauabteilungen der Gemeindeverwaltung",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/9199400451"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.57359,
+      47.541956
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9199400452",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Werkhof",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/9199400452"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5733451,
+      47.5347651
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9199400453",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Garderobengebäude Spiegelfeld (auch für Vereine gedacht)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/9199400453"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5689128,
+      47.5331095
     ]
   }
 }

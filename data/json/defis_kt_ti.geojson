@@ -3,6 +3,36 @@
 "features": [
 {
   "type": "Feature",
+  "id": "node/417175648",
+  "properties": {
+    "emergency": "defibrillator",
+    "id": "node/417175648"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9945017,
+      46.0539008
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/738927042",
+  "properties": {
+    "emergency": "defibrillator",
+    "id": "node/738927042"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8056112,
+      46.4866565
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/2421638144",
   "properties": {
     "emergency": "defibrillator",
@@ -1532,8 +1562,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.607652,
-      46.3392371
+      8.6076457,
+      46.3392383
     ]
   }
 },
@@ -1840,8 +1870,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7426858,
-      46.1626728
+      8.7426268,
+      46.1627132
     ]
   }
 },
@@ -2184,8 +2214,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6410367,
-      46.3610139
+      8.6407318,
+      46.3608584
     ]
   }
 },
@@ -3158,6 +3188,92 @@
     "coordinates": [
       9.0657632,
       46.2311252
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9158311018",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Lido Melide ",
+    "description": "Immer Verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde",
+    "id": "node/9158311018"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9493766,
+      45.9528017
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9165152374",
+  "properties": {
+    "emergency": "defibrillator",
+    "id": "node/9165152374"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7728693,
+      46.1100634
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9177157832",
+  "properties": {
+    "emergency": "defibrillator",
+    "id": "node/9177157832"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7654691,
+      46.1068814
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9177738540",
+  "properties": {
+    "emergency": "defibrillator",
+    "id": "node/9177738540"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7087468,
+      46.1177753
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9197347058",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "all'entrata del parcheggio",
+    "emergency": "defibrillator",
+    "level": "0",
+    "opening_hours": "24/7",
+    "wheelchair": "yes",
+    "id": "node/9197347058"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8759286,
+      45.9773895
     ]
   }
 }

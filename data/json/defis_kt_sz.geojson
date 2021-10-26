@@ -87,9 +87,10 @@
     "addr:housenumber": "2",
     "addr:postcode": "8855",
     "addr:street": "Seestrasse",
+    "defibrillator:location": "Im Mehrzweckgebäude",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "name": "Defibrillator (im Mehrzweckgebäude)",
+    "indoor": "yes",
     "opening_hours": "24/7",
     "id": "node/5823349636"
   },
@@ -880,6 +881,7 @@
     "defibrillator:location": "Mehrzweckanlage",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "24/7",
     "operator": "Gemeinde Alpthal",
     "phone": "+41 78 707 41 95",
@@ -1113,6 +1115,7 @@
     "defibrillator:location": "Clubhaus Seeanlage",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "24/7",
     "operator": "Gemeinde Freienbach",
     "phone": "+41 78 605 77 27",
@@ -3727,8 +3730,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8946078,
-      47.1929326
+      8.8945859,
+      47.1929292
     ]
   }
 },
@@ -4157,6 +4160,27 @@
     "coordinates": [
       8.5402903,
       47.0531229
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9159456417",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Parkplatz Ticketautomat",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "id": "node/9159456417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8541984,
+      47.1970744
     ]
   }
 }

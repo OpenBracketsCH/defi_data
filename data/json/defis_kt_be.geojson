@@ -3226,8 +3226,8 @@
     "access": "yes",
     "addr:city": "Ochlenberg",
     "addr:housenumber": "38a",
+    "addr:place": "Dornegg",
     "addr:postcode": "3367",
-    "addr:street": "Dornegg",
     "defibrillator:location": "24h verfügbar bei Fam. Loosli",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -6416,7 +6416,6 @@
   "type": "Feature",
   "id": "node/6565869521",
   "properties": {
-    "access": "-",
     "addr:city": "Mürren",
     "addr:housenumber": "954d",
     "addr:place": "Eggli",
@@ -7080,8 +7079,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.9642062,
-      46.7114438
+      7.9641716,
+      46.711444
     ]
   }
 },
@@ -7785,8 +7784,8 @@
     "access": "permissive",
     "addr:city": "Oschwand",
     "addr:housenumber": "91c",
+    "addr:place": "Wäckerschwend",
     "addr:postcode": "3476",
-    "addr:street": "Wäckerschwend",
     "defibrillator:location": "24h verfügbar bei Fam. Hofer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -9613,6 +9612,7 @@
     "defibrillator:location": "im Betriebsbüro melden",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "08:40-17:40",
     "operator": "Niederhornbahn, Station Niederhorn",
     "phone": "+41 33 841 08 41",
@@ -11922,10 +11922,14 @@
   "id": "node/6635277243",
   "properties": {
     "access": "permissive",
-    "addr:city": "Biel",
+    "addr:city": "Biel/Bienne",
+    "addr:city:de": "Biel",
+    "addr:city:fr": "Bienne",
     "addr:housenumber": "7",
     "addr:postcode": "2502",
-    "addr:street": "Schlösslistrasse",
+    "addr:street": "Rue du Châtelet / Schlösslistrasse",
+    "addr:street:de": "Schlösslistrasse",
+    "addr:street:fr": "Rue du Châtelet",
     "defibrillator:location": "Via Kundendienst",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -18641,10 +18645,7 @@
   "id": "node/6654818349",
   "properties": {
     "access": "yes",
-    "addr:city": "Bolligen",
-    "addr:housenumber": "12",
-    "addr:postcode": "3065",
-    "addr:street": "Dorfmärit",
+    "check_date": "2021-10-07",
     "defibrillator:location": "Treppenabgang Einstellhalle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -18656,8 +18657,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4971194,
-      46.9745581
+      7.497136,
+      46.9745086
     ]
   }
 },
@@ -27403,6 +27404,7 @@
     "defibrillator:location": "Links vor dem Haupteingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeindeverwaltung Worben",
     "phone": "+41 79 738 90 77",
@@ -30282,6 +30284,7 @@
     "defibrillator:location": "Abt. BMS: Gebäudeeingang – Erdgeschoss, Korridor links, Schalter Sekretariat",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "operator": "gibb Berufsfachschule Bern",
     "phone": "+41 31 335 91 11",
     "id": "node/8149347318"
@@ -31069,19 +31072,21 @@
     "addr:housenumber": "90",
     "addr:postcode": "3065",
     "addr:street": "Bolligenstrasse",
+    "covered": "yes",
     "defibrillator:location": "neben Billettautomat",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
     "operator": "Bahnhof Bolligen (RBS)",
+    "outdoor": "yes",
     "phone": "+41 79 276 13 13",
     "id": "node/8154312157"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4968715,
-      46.9701472
+      7.4967909,
+      46.9701186
     ]
   }
 },
@@ -32727,8 +32732,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.2474158,
-      47.1406324
+      7.2473959,
+      47.1406184
     ]
   }
 },
@@ -34807,8 +34812,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4159389,
-      46.8825246
+      7.4159434,
+      46.8825092
     ]
   }
 },
@@ -35935,27 +35940,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9004560817",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Swisspeak Vercorin",
-    "description": "bancomat raiffeisen",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "id": "node/9004560817"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.438,
-      46.6400642
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9006190804",
   "properties": {
     "access": "yes",
@@ -36226,6 +36210,7 @@
   "type": "Feature",
   "id": "node/9060671317",
   "properties": {
+    "defibrillator:location": "Aussenwand BAG, gegen Strasse",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "id": "node/9060671317"
@@ -36946,6 +36931,48 @@
     "coordinates": [
       7.6042128,
       47.0672728
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9165400417",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "neben snackbar",
+    "description": "während zugbetrieb",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/9165400417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6698457,
+      46.4950135
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9195321717",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Büro, neben ",
+    "description": "Verfügbar während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-So 10:00-22:30",
+    "operator": "just eat",
+    "id": "node/9195321717"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3999998,
+      46.9977591
     ]
   }
 }
