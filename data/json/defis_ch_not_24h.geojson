@@ -45001,6 +45001,7 @@
     "description": "nur während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "id": "node/7933309819"
   },
   "geometry": {
@@ -79471,6 +79472,248 @@
     "coordinates": [
       8.2046002,
       47.4848187
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9204703517",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulanlage Hallwyler, Eingang Turnhalle ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr: 8:00-17:00",
+    "operator": "Stadt Brugg",
+    "phone": "0564617633",
+    "id": "node/9204703517"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2042309,
+      47.485589
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9204746917",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schützenmatt, Eingang Turnhalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr: 8:00-17:00",
+    "operator": "Stadt Brugg",
+    "phone": "0564617633",
+    "id": "node/9204746917"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2088424,
+      47.4869753
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9204746919",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Alte Post, Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr: 8:00-17:00",
+    "operator": "Stadt Brugg",
+    "phone": "0564617633",
+    "id": "node/9204746919"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2073381,
+      47.484097
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9204750217",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulanlage Au, Eingang Turnhalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr: 8:00-17:00",
+    "operator": "Stadt Brugg",
+    "phone": "0564617633",
+    "id": "node/9204750217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2247785,
+      47.496378
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9204755217",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulanlage Erle, Eingang Turnhalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr: 8:00-17:00",
+    "operator": "Stadt Brugg",
+    "phone": "0564617633",
+    "id": "node/9204755217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2254831,
+      47.4962317
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9204757217",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kornhaus, Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr: 8:00-17:00",
+    "operator": "Stadt Brugg",
+    "phone": "0564617633",
+    "id": "node/9204757217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2074774,
+      47.4850466
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9204757218",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Salzhaus, Eingang",
+    "description": "nur bei Veranstaltungen verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Stadt Brugg",
+    "phone": "0564617633",
+    "id": "node/9204757218"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2084978,
+      47.4852874
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9204774618",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Hallenbad, Raum Badmeister",
+    "description": "während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Stadt Brugg",
+    "phone": "0564617633",
+    "id": "node/9204774618"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1946007,
+      47.4789951
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9204780317",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Freibad, Sanitätsraum Badmeister",
+    "description": "während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Stadt Brugg",
+    "phone": "0564617633",
+    "id": "node/9204780317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1948689,
+      47.4784646
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9204792817",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulanlage Freudenstein, Eingang Turnhalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr: 7:00-17:30",
+    "operator": "Stadt Brugg",
+    "phone": "0564617633",
+    "id": "node/9204792817"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2009851,
+      47.4846285
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9204796817",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulanlage Freudenstein, Eingang Schule",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr: 7:00-17:30",
+    "operator": "Stadt Brugg",
+    "phone": "0564617633",
+    "id": "node/9204796817"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2015091,
+      47.4847733
     ]
   }
 }
