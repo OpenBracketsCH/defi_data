@@ -1153,15 +1153,20 @@
   "type": "Feature",
   "id": "node/8920474250",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Bankomatenraum",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
     "id": "node/8920474250"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.8163907,
-      46.2817005
+      7.8164158,
+      46.2816956
     ]
   }
 },
@@ -1545,6 +1550,27 @@
     "coordinates": [
       7.3137988,
       46.2117066
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9207291543",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Gebäude",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "id": "node/9207291543"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8223635,
+      46.2800596
     ]
   }
 }

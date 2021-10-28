@@ -65411,10 +65411,12 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Eingang zur Aula/Turnhalle",
-    "description": "immer zugänglich",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Eschenbach",
     "id": "node/7667048303"
   },
   "geometry": {
@@ -120538,15 +120540,20 @@
   "type": "Feature",
   "id": "node/8920474250",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Bankomatenraum",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
     "id": "node/8920474250"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.8163907,
-      46.2817005
+      7.8164158,
+      46.2816956
     ]
   }
 },
@@ -140117,6 +140124,408 @@
     "coordinates": [
       8.7213558,
       47.3483419
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9207241170",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang rechts bim Postbüro",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Stiftung Loogarten Alters- und Pflegezentrum Herr Ralph Liechti",
+    "phone": "+41 44 986 22 20",
+    "id": "node/9207241170"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7125471,
+      47.2913217
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9207275554",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "2. Stock - Bereich Mitarbeitende",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Abteilung Soziales Biel",
+    "phone": "+41 32 326 25 41",
+    "id": "node/9207275554"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2486699,
+      47.1362715
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9207277698",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Erdgeschoss Empfangshalle",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Abteilung Soziales Biel",
+    "phone": "+41 32 326 25 41",
+    "id": "node/9207277698"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2486779,
+      47.1361967
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9207282332",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Seite Dorfstrasse, bei Schaukästen Neu-/Anbau",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Beringen",
+    "phone": "+41 52 687 24 24",
+    "id": "node/9207282332"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5569552,
+      47.6855722
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9207283504",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bei der Bushaltestelle Freienstein Dorf",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Politische Gemeinde Freienstein-Teufen / Markus Lienhard",
+    "phone": "+4144 866 34 25",
+    "id": "node/9207283504"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5852622,
+      47.5305652
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9207291543",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Gebäude",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "id": "node/9207291543"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8223635,
+      46.2800596
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9207294897",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Eingangsbereich bei den Schiebetüren",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Philipp Stieger",
+    "phone": "+41 71 966 59 19",
+    "id": "node/9207294897"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9975305,
+      47.4766341
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9207297757",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Feuerwehrdepot",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Stadt Romanshorn Feuerwehr",
+    "phone": "+41 58 346 84 14",
+    "id": "node/9207297757"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3740657,
+      47.567029
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9207304419",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Seiteneingang Mehrzweckgebäude",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Eschenbach",
+    "id": "node/9207304419"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9758515,
+      47.252604
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9207304420",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Schulhaus",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Eschenbach",
+    "id": "node/9207304420"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0094583,
+      47.2697613
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9207309542",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Gang zum WC-Duschen / Restaurant Mole",
+    "description": "während Saison",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Stadt Romanshorn",
+    "phone": "+41 58 346 83 83",
+    "id": "node/9207309542"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3841307,
+      47.5683908
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9207309543",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Kasse / Badmeister",
+    "description": "während Saison",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Stadt Romanshorn",
+    "phone": "+41 58 346 83 83",
+    "id": "node/9207309543"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3762195,
+      47.5727149
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9207309544",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hausfassade am Egnacherweg 7",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadt Romanshorn",
+    "phone": "+41 58 346 83 83",
+    "id": "node/9207309544"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3753371,
+      47.5577694
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9207309545",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Kasse Eingang Eishalle",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "EZO Eissportzentrum Roamnshorn",
+    "phone": "+41 71 466 75 05",
+    "id": "node/9207309545"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3745914,
+      47.5578047
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9207316764",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Treppenhaus zu den öffentlichen Toiletten. Hängt links beim Treppenabgang.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-22:00",
+    "operator": "Edith Sprecher",
+    "phone": "+41 81 306 13 73",
+    "id": "node/9207316764"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4401178,
+      46.9089416
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9207316919",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "TopShop (Tankstellen Shop) 15 mtr. links vom Haupteingang.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "LANDI Sempach-Emmen",
+    "phone": "+41 58 434 21 20",
+    "id": "node/9207316919"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.253479,
+      47.0926569
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9207322875",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Eingang zur Mehrzweckhalle Jonen",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Jonen / Lorenz Staubli",
+    "phone": "+41 566499292",
+    "id": "node/9207322875"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3933777,
+      47.2976009
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9207324954",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im 2. Stock beim Drucker/Treppe steht unser Defibrillator.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr08:30-17:30",
+    "operator": "reaplus gmbh, Patric Egger, Buhaldenstrasse 8D, 5023 Biberstein",
+    "phone": "+41 43 536 69 15",
+    "id": "node/9207324954"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6051832,
+      47.5212634
     ]
   }
 }

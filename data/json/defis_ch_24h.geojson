@@ -27856,10 +27856,12 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Eingang zur Aula/Turnhalle",
-    "description": "immer zugänglich",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Eschenbach",
     "id": "node/7667048303"
   },
   "geometry": {
@@ -51926,6 +51928,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/8920474250",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Bankomatenraum",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "id": "node/8920474250"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8164158,
+      46.2816956
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8920604017",
   "properties": {
     "access": "yes",
@@ -60363,6 +60386,186 @@
     "coordinates": [
       8.0961946,
       47.1112687
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9207282332",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Seite Dorfstrasse, bei Schaukästen Neu-/Anbau",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Beringen",
+    "phone": "+41 52 687 24 24",
+    "id": "node/9207282332"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5569552,
+      47.6855722
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9207283504",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bei der Bushaltestelle Freienstein Dorf",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Politische Gemeinde Freienstein-Teufen / Markus Lienhard",
+    "phone": "+4144 866 34 25",
+    "id": "node/9207283504"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5852622,
+      47.5305652
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9207291543",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Gebäude",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "id": "node/9207291543"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8223635,
+      46.2800596
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9207304419",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Seiteneingang Mehrzweckgebäude",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Eschenbach",
+    "id": "node/9207304419"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9758515,
+      47.252604
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9207304420",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Schulhaus",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Eschenbach",
+    "id": "node/9207304420"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0094583,
+      47.2697613
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9207309544",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hausfassade am Egnacherweg 7",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadt Romanshorn",
+    "phone": "+41 58 346 83 83",
+    "id": "node/9207309544"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3753371,
+      47.5577694
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9207316919",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "TopShop (Tankstellen Shop) 15 mtr. links vom Haupteingang.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "LANDI Sempach-Emmen",
+    "phone": "+41 58 434 21 20",
+    "id": "node/9207316919"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.253479,
+      47.0926569
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9207322875",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Eingang zur Mehrzweckhalle Jonen",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Jonen / Lorenz Staubli",
+    "phone": "+41 566499292",
+    "id": "node/9207322875"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3933777,
+      47.2976009
     ]
   }
 }
