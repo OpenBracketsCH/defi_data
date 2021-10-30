@@ -14680,7 +14680,7 @@
     "description": "Zugänglich während Öffnungszeiten der Gemeindeverwaltung.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "Mo-Th 08:00-11:30,14:00-16:30; Fr 07:00-13:00; PH off",
+    "opening_hours": "Mo-Th 08:00-11:30,14:00-16:30; Fr 07:00-13:00",
     "phone": "+41 44 701 95 00",
     "id": "node/8062414468"
   },
@@ -14701,7 +14701,7 @@
     "description": "Zugänglich während Öffnungszeiten des Betreibungsamtes.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "Mo-Th 08:00-11:30,14:00-16:30; Fr 07:00-13:00; PH off",
+    "opening_hours": "Mo-Th 08:00-11:30,14:00-16:30; Fr 07:00-13:00",
     "phone": "+41 44 701 95 45",
     "id": "node/8062414469"
   },
@@ -34811,6 +34811,26 @@
     "coordinates": [
       8.5852622,
       47.5305652
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9211814317",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "im Gebäude, Erdgeschoss beim Lift",
+    "description": "Zugangsschlüssel benötigt",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/9211814317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.601442,
+      47.6753611
     ]
   }
 }
