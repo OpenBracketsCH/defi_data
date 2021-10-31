@@ -3839,22 +3839,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/5214074121",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/5214074121"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      6.8886613,
-      46.4521777
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/5239665922",
   "properties": {
     "amenity": "social_facility",
@@ -80033,8 +80017,9 @@
   "id": "node/9211918115",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "A côté du terrain",
+    "defibrillator:location": "Dans l'abri à côté du terrain",
     "emergency": "defibrillator",
+    "indoor": "no",
     "id": "node/9211918115"
   },
   "geometry": {

@@ -5765,8 +5765,11 @@
   "type": "Feature",
   "id": "node/5214074121",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sur la façade du bâtiment côté terrain",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "opening_hours": "24/7",
     "id": "node/5214074121"
   },
   "geometry": {
@@ -133656,9 +133659,9 @@
   "type": "Feature",
   "id": "node/9141209418",
   "properties": {
-    "access": "no",
+    "access": "yes",
     "defibrillator:location": "Beim Hauseingang, in grünem AED Kasten",
-    "description": "Komplettes AED Set inkl. Notfall-Material. Unbedingt NOTRUF 144!   Nach Verwendung AED bitte Rückmeldung an: 076 61 10 144- Danke!",
+    "description": "Komplettes AED Set inkl. Notfall-Material. Unbedingt NOTRUF 144!  Prüfen, Rufen, Drücken! Nach Verwendung AED bitte Rückmeldung an: 076 61 10 144- Danke!",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "image": "https://drive.google.com/file/d/11MSNRA5w8jax0IiFzrfZ_z2EJo-K709x/view?usp=sharing",
@@ -133671,8 +133674,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4974893,
-      47.4883366
+      8.4973606,
+      47.4884363
     ]
   }
 },
@@ -140662,8 +140665,9 @@
   "id": "node/9211918115",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "A côté du terrain",
+    "defibrillator:location": "Dans l'abri à côté du terrain",
     "emergency": "defibrillator",
+    "indoor": "no",
     "id": "node/9211918115"
   },
   "geometry": {

@@ -422,8 +422,11 @@
   "type": "Feature",
   "id": "node/5214074121",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sur la façade du bâtiment côté terrain",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "opening_hours": "24/7",
     "id": "node/5214074121"
   },
   "geometry": {
@@ -2844,8 +2847,9 @@
   "id": "node/9211918115",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "A côté du terrain",
+    "defibrillator:location": "Dans l'abri à côté du terrain",
     "emergency": "defibrillator",
+    "indoor": "no",
     "id": "node/9211918115"
   },
   "geometry": {
