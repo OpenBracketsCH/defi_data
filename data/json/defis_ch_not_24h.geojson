@@ -5858,42 +5858,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6497155938",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Friedhofwesen Rorbas-Freienstein-Teufen",
-    "id": "node/6497155938"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5722513,
-      47.5412755
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/6497172539",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Politische Gemeinde Freienstein-Teufen",
-    "id": "node/6497172539"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5558831,
-      47.5515774
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6497177507",
   "properties": {
     "emergency": "defibrillator",
@@ -80042,6 +80006,29 @@
     "coordinates": [
       6.8858426,
       46.4528658
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9215556181",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "In der Apotheke (Beratungsraum)",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 7:30-18:30, Sa 9:00-17:00",
+    "operator": "A. Endrass-Korach / S. Allen",
+    "phone": "+41 44 201 17 25",
+    "id": "node/9215556181"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5348984,
+      47.3678875
     ]
   }
 },

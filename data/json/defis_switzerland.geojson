@@ -9140,9 +9140,13 @@
   "type": "Feature",
   "id": "node/6497155938",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Am Friedhofsgebäude",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Friedhofwesen Rorbas-Freienstein-Teufen",
     "id": "node/6497155938"
   },
@@ -9158,9 +9162,13 @@
   "type": "Feature",
   "id": "node/6497172539",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bei der Schiffanlegestelle",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Politische Gemeinde Freienstein-Teufen",
     "id": "node/6497172539"
   },
@@ -140796,6 +140804,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/9215556181",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "In der Apotheke (Beratungsraum)",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 7:30-18:30, Sa 9:00-17:00",
+    "operator": "A. Endrass-Korach / S. Allen",
+    "phone": "+41 44 201 17 25",
+    "id": "node/9215556181"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5348984,
+      47.3678875
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9215557997",
   "properties": {
     "access": "no",
@@ -140905,6 +140936,28 @@
     "coordinates": [
       7.6290272,
       47.0490837
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9215590142",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Politische Gemeinde Lengwil",
+    "id": "node/9215590142"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2071411,
+      47.6034391
     ]
   }
 }
