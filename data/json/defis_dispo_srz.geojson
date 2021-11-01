@@ -34496,6 +34496,7 @@
   "id": "node/9178451953",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "operator": "Booster Transform - Studio Seefeld",
     "id": "node/9178451953"
@@ -34692,6 +34693,7 @@
   "properties": {
     "access": "yes",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "id": "node/9205141659"
   },
@@ -34831,6 +34833,52 @@
     "coordinates": [
       8.601442,
       47.6753611
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9215556164",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Standort Werkhof, Türe ganz rechts, Zugang Gemeindestube",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Ellikon an der Thur",
+    "phone": "+41 52 375 11 35",
+    "id": "node/9215556164"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8261058,
+      47.5618021
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9215585439",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der Defi befindet sich im Parterre im Technikraum",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-12:00, 13:15-17:00",
+    "operator": "Jolanda Zwyer",
+    "phone": "+41 41 819 79 23",
+    "id": "node/9215585439"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6506035,
+      47.0180569
     ]
   }
 }

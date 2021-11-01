@@ -3870,15 +3870,38 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Gemeinde Ermatingen ",
+    "operator": "Gemeinde Ermatingen",
     "phone": "+41716633030",
     "id": "node/9209447117"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.0730548,
-      47.6713925
+      9.0730468,
+      47.6713595
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9215585440",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im alten Zollhaus / im öffentlichen WC links",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Ermatingen",
+    "phone": "+41 71 663 30 30",
+    "id": "node/9215585440"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0846979,
+      47.6741671
     ]
   }
 }

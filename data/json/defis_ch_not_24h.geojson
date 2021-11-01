@@ -22,6 +22,7 @@
   "id": "node/417175648",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/417175648"
   },
   "geometry": {
@@ -62,6 +63,7 @@
   "id": "node/738927042",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/738927042"
   },
   "geometry": {
@@ -77214,6 +77216,7 @@
   "properties": {
     "defibrillator:location": "In Gebäude",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "operator": "Haflinger Zentrum AG",
     "id": "node/9141272959"
@@ -77582,6 +77585,7 @@
   "id": "node/9155678657",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "phone": "144",
     "id": "node/9155678657"
   },
@@ -78566,6 +78570,7 @@
   "id": "node/9158929778",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/9158929778"
   },
   "geometry": {
@@ -78624,6 +78629,7 @@
   "id": "node/9165152374",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/9165152374"
   },
   "geometry": {
@@ -78852,6 +78858,7 @@
   "id": "node/9177157832",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/9177157832"
   },
   "geometry": {
@@ -78867,6 +78874,7 @@
   "id": "node/9177599290",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "id": "node/9177599290"
   },
@@ -78883,6 +78891,7 @@
   "id": "node/9177738540",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/9177738540"
   },
   "geometry": {
@@ -78898,6 +78907,7 @@
   "id": "node/9178451953",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "operator": "Booster Transform - Studio Seefeld",
     "id": "node/9178451953"
@@ -78915,6 +78925,7 @@
   "id": "node/9179598206",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "id": "node/9179598206"
   },
@@ -79675,6 +79686,7 @@
   "properties": {
     "access": "yes",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "id": "node/9205141659"
   },
@@ -79962,15 +79974,15 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Gemeinde Ermatingen ",
+    "operator": "Gemeinde Ermatingen",
     "phone": "+41716633030",
     "id": "node/9209447117"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.0730548,
-      47.6713925
+      9.0730468,
+      47.6713595
     ]
   }
 },
@@ -79981,6 +79993,7 @@
     "access": "yes",
     "defibrillator:location": "A l'accueil du musée",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "id": "node/9210122062"
@@ -80020,6 +80033,7 @@
     "access": "yes",
     "defibrillator:location": "Dans l'abri à côté du terrain",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "id": "node/9211918115"
   },
@@ -80028,6 +80042,97 @@
     "coordinates": [
       6.8858426,
       46.4528658
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9215557997",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im EG (Badmeisterbüro) im Appenzeller Heilbad",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Appenzeller Heilbad, Marlene Kellenberger, Postfach 131, 9410 Heiden",
+    "phone": "+41 71 898 33 88",
+    "id": "node/9215557997"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5160904,
+      47.4309339
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9215581350",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Haupteingang links",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 06:30-21:00",
+    "operator": "Pflegeheim Bruggen",
+    "phone": "+41 71 274 13 11",
+    "id": "node/9215581350"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.333335,
+      47.4127883
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9215585439",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der Defi befindet sich im Parterre im Technikraum",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-12:00, 13:15-17:00",
+    "operator": "Jolanda Zwyer",
+    "phone": "+41 41 819 79 23",
+    "id": "node/9215585439"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6506035,
+      47.0180569
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9215589334",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Rampe runter, nach 10m Rechts neben dem Feuerlöscher",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-17:00",
+    "operator": "Lukas Graf",
+    "phone": "+41 79 299 86 93",
+    "id": "node/9215589334"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6290272,
+      47.0490837
     ]
   }
 }

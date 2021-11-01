@@ -24160,6 +24160,7 @@
   "id": "node/9178451953",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "operator": "Booster Transform - Studio Seefeld",
     "id": "node/9178451953"
@@ -24356,6 +24357,7 @@
   "properties": {
     "access": "yes",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "id": "node/9205141659"
   },
@@ -24452,6 +24454,29 @@
     "coordinates": [
       8.5852622,
       47.5305652
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9215556164",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Standort Werkhof, Türe ganz rechts, Zugang Gemeindestube",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Ellikon an der Thur",
+    "phone": "+41 52 375 11 35",
+    "id": "node/9215556164"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8261058,
+      47.5618021
     ]
   }
 }

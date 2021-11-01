@@ -36856,6 +36856,7 @@
   "properties": {
     "defibrillator:location": "In Gebäude",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "operator": "Haflinger Zentrum AG",
     "id": "node/9141272959"
@@ -37020,6 +37021,29 @@
     "coordinates": [
       7.2486779,
       47.1361967
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9215589334",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Rampe runter, nach 10m Rechts neben dem Feuerlöscher",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-17:00",
+    "operator": "Lukas Graf",
+    "phone": "+41 79 299 86 93",
+    "id": "node/9215589334"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6290272,
+      47.0490837
     ]
   }
 }
