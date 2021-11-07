@@ -120535,27 +120535,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8920474250",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Im Bankomatenraum",
-    "description": "24h verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "id": "node/8920474250"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.8164158,
-      46.2816956
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8920604017",
   "properties": {
     "access": "yes",
@@ -140260,27 +140239,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9207291543",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Im Gebäude",
-    "description": "24h verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "id": "node/9207291543"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.8223635,
-      46.2800596
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9207294897",
   "properties": {
     "access": "yes",
@@ -141340,6 +141298,50 @@
     "coordinates": [
       7.2694653,
       46.8732262
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9232515891",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Hauptgebäude (signalisiert)",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Simon Lenggenhager",
+    "phone": "+41 62 785 70 86",
+    "id": "node/9232515891"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8794342,
+      47.3088815
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9232532734",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Umschlagplattform / ex Rüegger Transport AG",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Simon Lenggenhager",
+    "phone": "+41 62 785 70 86",
+    "id": "node/9232532734"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8928372,
+      47.3089815
     ]
   }
 }
