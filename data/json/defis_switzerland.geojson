@@ -81366,6 +81366,7 @@
   "properties": {
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "id": "node/8081635849"
   },
   "geometry": {
@@ -141626,6 +141627,40 @@
     "coordinates": [
       8.7917489,
       47.3189956
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9235541583",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/9235541583"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2396672,
+      47.4799779
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9235573555",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/9235573555"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2385266,
+      47.4831809
     ]
   }
 }
