@@ -79987,13 +79987,13 @@
   "id": "node/9215585439",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Der Defi befindet sich im Parterre im Technikraum",
+    "defibrillator:location": "Der Defi befindet sich im Parterre des Gebäudes im Technikraum",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 07:30-12:00, 13:15-17:00",
-    "operator": "Jolanda Zwyer",
+    "operator": "die Mobiliar",
     "phone": "+41 41 819 79 23",
     "id": "node/9215585439"
   },
@@ -80502,6 +80502,29 @@
     "coordinates": [
       7.5110422,
       47.0219038
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9239596408",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Segelyacht Adora, Bojenfeld Minusio",
+    "description": "Defi ist auf einem Segelschiff dass am Wochenende immer besetzt ist.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Th-Su",
+    "operator": "Jürg Landolt",
+    "phone": "+41 79 821 15 40",
+    "id": "node/9239596408"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8134652,
+      46.1711735
     ]
   }
 }
