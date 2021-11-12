@@ -7403,7 +7403,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "phone": "+41 62 835 35 00",
+    "phone": "+41 62 835 80 90",
     "id": "node/9045223410"
   },
   "geometry": {
@@ -10108,6 +10108,29 @@
     "coordinates": [
       8.3348505,
       47.3453662
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9245636914",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Grüner Schrank direkt beim Haupteingang zur Gemeindeverwaltung (im Durchgang neben Glaskasten)",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung Döttingen",
+    "phone": "+41 56 269 11 30",
+    "id": "node/9245636914"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2574379,
+      47.5709569
     ]
   }
 }
