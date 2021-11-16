@@ -11070,10 +11070,14 @@
   "id": "node/6635277244",
   "properties": {
     "access": "permissive",
-    "addr:city": "Biel",
-    "addr:housenumber": "98",
+    "addr:city": "Biel/Bienne",
+    "addr:city:de": "Biel",
+    "addr:city:fr": "Bienne",
+    "addr:housenumber": "88",
     "addr:postcode": "2501",
-    "addr:street": "Vogelsang",
+    "addr:street": "Chante-Merle / Vogelsang",
+    "addr:street:de": "Vogelsang",
+    "addr:street:fr": "Chante-Merle",
     "defibrillator:location": "Wirtschaftstrackt Etage F. Nr. 1 auf Plan, Zeitweise öffentlich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -46467,8 +46471,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.1352545,
-      47.4367669
+      9.1350936,
+      47.4366308
     ]
   }
 },
@@ -81026,7 +81030,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Fitnessplus beim Empfang",
-    "description": "während Öffnungszeiten verfügbat",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -81079,8 +81083,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5348441,
-      47.3831038
+      8.5354897,
+      47.381974
     ]
   }
 },
