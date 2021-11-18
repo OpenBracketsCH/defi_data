@@ -81143,7 +81143,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr. 07.00-17.00Uhr",
+    "opening_hours": "Mo-Fr 07:00-18:00",
     "operator": "Präzisionsmechanik Neff AG",
     "phone": "0788991509",
     "id": "node/9261389617"
@@ -81151,8 +81151,189 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8273521,
-      47.5681596
+      8.8274996,
+      47.5682618
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9263258726",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Administration side",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 10:00-23:00",
+    "operator": "JUSTEATTAKEAWAY.COM",
+    "phone": "+41796934592",
+    "id": "node/9263258726"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.1377914,
+      46.2032817
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9263267818",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Inside JustEat Takeaway office, on the ground flood of the building.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Marina Juaneda",
+    "phone": "+41795547616",
+    "id": "node/9263267818"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5136057,
+      47.3919884
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9263269359",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Zuschauerbereich der AXA ARENA im Obergeschoss beim Lift",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-20:00",
+    "operator": "WIN4 AG",
+    "phone": "+41 79 936 09 72",
+    "id": "node/9263269359"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7495241,
+      47.4941971
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9263275793",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Verkaufsraum, Eingang Ackerstrasse",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-12:00, 13:00-18:30; Sa 09:00-16:00; Su closed",
+    "operator": "Amag Uster, Ruedi Schoch",
+    "phone": "+44 905 57 60",
+    "id": "node/9263275793"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7285519,
+      47.35757
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9263275794",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Verkaufsraum, Eingang Ackerstrasse",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-12:00, 13:00-18:30; Sa 09:00-16:00; Su closed",
+    "operator": "Amag Uster, Ruedi Schoch",
+    "phone": "+44 905 57 60",
+    "id": "node/9263275794"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7061581,
+      47.3565689
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9263283183",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Beim Haupteingang an der Wand",
+    "description": "Wärend Öffnungszeiten, oder telefonisch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "Präzisionsmechanik Neff AG",
+    "phone": "0788991509",
+    "id": "node/9263283183"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8274087,
+      47.5681727
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9263289825",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Der Defibrillator befindet sich links neben der Eingangstür.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 09:00-22:30",
+    "operator": "Tim Schwaar",
+    "phone": "+41 79 576 04 12",
+    "id": "node/9263289825"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4570906,
+      46.9473631
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9263298912",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "beim hinteren Eingang zu Bahnhof, neben dem Lift, 1. OG",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 62 835 22 22",
+    "id": "node/9263298912"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0479802,
+      47.3902102
     ]
   }
 }
