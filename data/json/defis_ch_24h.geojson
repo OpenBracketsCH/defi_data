@@ -60802,28 +60802,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9215102317",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Beim Empfang",
-    "description": "Empfang ist 24/7 besetzt.",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Psychiatrische Dienste Aargau AG",
-    "id": "node/9215102317"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.2159107,
-      47.4821919
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9215556164",
   "properties": {
     "access": "yes",
@@ -61580,6 +61558,52 @@
     "coordinates": [
       8.1917872,
       46.7293475
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9263271772",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Links neben dem Haupteingang des Sportzentrums Prau la Selva",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Bauamt Flims / Gian-Andrea Haltiner",
+    "phone": "+41 81 928 29 60",
+    "id": "node/9263271772"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2764789,
+      46.8234352
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9263312174",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bürogebäude (Anmeldung) bei Hauptzutritt Betriebsgelände",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Biomasse Energie AG, Fildern 5, 6331 Hünenberg",
+    "phone": "+41 79 227 76 77",
+    "id": "node/9263312174"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.435365,
+      47.1823152
     ]
   }
 }

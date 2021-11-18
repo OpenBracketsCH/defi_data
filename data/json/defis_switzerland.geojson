@@ -76524,32 +76524,15 @@
 },
 {
   "type": "Feature",
-  "id": "node/7930654666",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Garderobengebäude Sportanlage",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/7930654666"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4894115,
-      47.1830772
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7930654667",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schulhaus Riedmatt",
+    "defibrillator:location": "Innenbereich vor der Turnhallentüre im EG",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Zug, Schulhaus Riedmatt",
     "id": "node/7930654667"
   },
   "geometry": {
@@ -140744,28 +140727,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9215102317",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Beim Empfang",
-    "description": "Empfang ist 24/7 besetzt.",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Psychiatrische Dienste Aargau AG",
-    "id": "node/9215102317"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.2159107,
-      47.4821919
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9215556164",
   "properties": {
     "access": "yes",
@@ -142808,6 +142769,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/9263271772",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Links neben dem Haupteingang des Sportzentrums Prau la Selva",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Bauamt Flims / Gian-Andrea Haltiner",
+    "phone": "+41 81 928 29 60",
+    "id": "node/9263271772"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2764789,
+      46.8234352
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9263275793",
   "properties": {
     "access": "yes",
@@ -142877,6 +142861,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/9263287022",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "It is located on a wall in the entrance. Accessible to everyone.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 09:00-22:30",
+    "operator": "Just Eat Takeaway",
+    "phone": "+41 79 471 86 26",
+    "id": "node/9263287022"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.6262733,
+      46.5228719
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9263289825",
   "properties": {
     "access": "no",
@@ -142916,6 +142923,52 @@
     "coordinates": [
       8.0479802,
       47.3902102
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9263312174",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bürogebäude (Anmeldung) bei Hauptzutritt Betriebsgelände",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Biomasse Energie AG, Fildern 5, 6331 Hünenberg",
+    "phone": "+41 79 227 76 77",
+    "id": "node/9263312174"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.435365,
+      47.1823152
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9263328318",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "EG, beim Treppenaufgang auf der linken Seite",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Th 07:30-12:00, 13:00-16:30; Fr 07:30-16:30",
+    "operator": "Strassenverkehrsamt des Kantons Luzernm, Gregor Eicher",
+    "phone": "+41 41 318 19 20",
+    "id": "node/9263328318"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2967276,
+      47.0367529
     ]
   }
 }

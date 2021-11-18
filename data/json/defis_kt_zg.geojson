@@ -3439,32 +3439,15 @@
 },
 {
   "type": "Feature",
-  "id": "node/7930654666",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Garderobengebäude Sportanlage",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/7930654666"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4894115,
-      47.1830772
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7930654667",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schulhaus Riedmatt",
+    "defibrillator:location": "Innenbereich vor der Turnhallentüre im EG",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Zug, Schulhaus Riedmatt",
     "id": "node/7930654667"
   },
   "geometry": {
@@ -4798,6 +4781,29 @@
     "coordinates": [
       8.518791,
       47.1622227
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9263312174",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bürogebäude (Anmeldung) bei Hauptzutritt Betriebsgelände",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Biomasse Energie AG, Fildern 5, 6331 Hünenberg",
+    "phone": "+41 79 227 76 77",
+    "id": "node/9263312174"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.435365,
+      47.1823152
     ]
   }
 }
