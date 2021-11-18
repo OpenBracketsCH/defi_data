@@ -53428,7 +53428,7 @@
   "id": "node/8992194797",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Neben der Eingangstüre zur Garage",
+    "defibrillator:location": "Huggenbergerstrasse 9, 8500 Gerlikon \nNeben der Eingangstüre zur Garage",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -61602,8 +61602,31 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.435365,
-      47.1823152
+      8.4351464,
+      47.1825221
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9263936817",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Mehrzweckhalle",
+    "description": "Aussenwand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Primarschulgemeinde Freidorf-Watt",
+    "phone": "+41714551143",
+    "id": "node/9263936817"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3881818,
+      47.4876524
     ]
   }
 }
