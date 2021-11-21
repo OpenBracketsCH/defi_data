@@ -140610,6 +140610,7 @@
     "defibrillator:location": "A l'accueil du musée",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "fixme": "Emplacement\nHoraires accès",
     "indoor": "yes",
     "level": "0",
     "id": "node/9210122062"
@@ -140617,8 +140618,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.3641644,
-      46.2341098
+      7.3643261,
+      46.2341146
     ]
   }
 },
@@ -143103,6 +143104,27 @@
     "coordinates": [
       8.5176051,
       47.098648
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9271939917",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Turnhalle rechts neben Eingang ",
+    "description": "frei zugänglich ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9271939917"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8887251,
+      47.4867789
     ]
   }
 }
