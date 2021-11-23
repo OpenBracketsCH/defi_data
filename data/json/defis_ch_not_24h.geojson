@@ -73694,12 +73694,12 @@
   "id": "node/9045223413",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Korridor",
+    "defibrillator:location": "2. OG / Empfang",
     "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "phone": "+41 62 835 80 44",
+    "phone": "+41 62 835 16 10",
     "id": "node/9045223413"
   },
   "geometry": {
@@ -81667,6 +81667,130 @@
     "coordinates": [
       7.5853977,
       47.558124
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9277808617",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Stadthaus, Erdgeschoss",
+    "description": "Während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo: 08:30 - 17:00 Uhr\nDi & Do: 08.30 - 11.30 Uhr\nMi & Fr: 08:30 - 11:30 Uhr, 14:00 - 16:30 Uhr",
+    "operator": "Stadt Chur",
+    "id": "node/9277808617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5347129,
+      46.851804
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9277827317",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rathaushalle, Aufgang Cafeteria",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Stadt Chur",
+    "id": "node/9277827317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5325685,
+      46.849035
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9277827318",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Hallenbad Obere Au, Kassa Bereich",
+    "description": "Während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Stadt Chur",
+    "id": "node/9277827318"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5059446,
+      46.858973
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9277830917",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Werkhof, Eingang Bürogebäude",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Stadt Chur",
+    "id": "node/9277830917"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5106659,
+      46.8556683
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9277892417",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Turn- und Sportanlage Gewerbliche Berufsschule Chur",
+    "description": "Turn- und Sportanlage",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gewerbliche Berufsschule Chur",
+    "id": "node/9277892417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5228465,
+      46.8564682
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9277898117",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "EIngangsbereich Gewerbliche Berufsschule Chur",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gewerbliche Berufsschule Chur",
+    "id": "node/9277898117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5243693,
+      46.8560122
     ]
   }
 }

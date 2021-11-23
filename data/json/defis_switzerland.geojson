@@ -127903,12 +127903,12 @@
   "id": "node/9045223413",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Korridor",
+    "defibrillator:location": "2. OG / Empfang",
     "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "phone": "+41 62 835 80 44",
+    "phone": "+41 62 835 16 10",
     "id": "node/9045223413"
   },
   "geometry": {
@@ -139079,8 +139079,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.3947321,
-      46.8107821
+      9.3938918,
+      46.8113504
     ]
   }
 },
@@ -143544,6 +143544,199 @@
     "coordinates": [
       7.5853977,
       47.558124
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9277808617",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Stadthaus, Erdgeschoss",
+    "description": "Während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo: 08:30 - 17:00 Uhr\nDi & Do: 08.30 - 11.30 Uhr\nMi & Fr: 08:30 - 11:30 Uhr, 14:00 - 16:30 Uhr",
+    "operator": "Stadt Chur",
+    "id": "node/9277808617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5347129,
+      46.851804
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9277816171",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang Gemeinde Maur",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Maur, Zürichstrasse 8, 8124 Maur",
+    "phone": "+41 43 366 13 66",
+    "id": "node/9277816171"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6678461,
+      47.3404917
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9277816172",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der Defibrillator befindet sich am Gebäude der Schulanlage aber strassenseitig zur Zollikonerstrasse/Zürichstrasse",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Maur, Zürichstrasse 8, 8124 Maur",
+    "phone": "+41 43 366 13 66",
+    "id": "node/9277816172"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6290781,
+      47.3570558
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9277816173",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der Defibrillator befindet sich an der Aussenwand der Badanstalt zum Fussgängerweg und ist frei zugänglich.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Maur, Zürichstrasse 8, 8124 Maur",
+    "phone": "+41 43 366 13 66",
+    "id": "node/9277816173"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6753774,
+      47.3451597
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9277827317",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rathaushalle, Aufgang Cafeteria",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Stadt Chur",
+    "id": "node/9277827317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5325685,
+      46.849035
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9277827318",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Hallenbad Obere Au, Kassa Bereich",
+    "description": "Während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Stadt Chur",
+    "id": "node/9277827318"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5059446,
+      46.858973
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9277830917",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Werkhof, Eingang Bürogebäude",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Stadt Chur",
+    "id": "node/9277830917"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5106659,
+      46.8556683
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9277892417",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Turn- und Sportanlage Gewerbliche Berufsschule Chur",
+    "description": "Turn- und Sportanlage",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gewerbliche Berufsschule Chur",
+    "id": "node/9277892417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5228465,
+      46.8564682
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9277898117",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "EIngangsbereich Gewerbliche Berufsschule Chur",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gewerbliche Berufsschule Chur",
+    "id": "node/9277898117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5243693,
+      46.8560122
     ]
   }
 }
