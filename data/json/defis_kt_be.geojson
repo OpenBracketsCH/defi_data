@@ -12176,22 +12176,21 @@
   "id": "node/6635553934",
   "properties": {
     "access": "permissive",
-    "addr:city": "Magglingen / Macolin",
-    "addr:housenumber": "3",
-    "addr:postcode": "2532",
-    "addr:street": "Hohmattstrasse",
-    "defibrillator:location": "Sport-Toto Halle Haupteingang Foyer, Zeitweise öffentlich",
+    "defibrillator:location": "Sport-Toto Halle Haupteingang Foyer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "operator": "BASPO / OFSPO",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "BASPO / OFSPO Macolin / Maggligen",
     "phone": "+41 58 467 62 92",
+    "wheelchair": "limited",
     "id": "node/6635553934"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.206791,
-      47.1359066
+      7.2064436,
+      47.1358889
     ]
   }
 },
@@ -12416,22 +12415,22 @@
   "id": "node/6635553944",
   "properties": {
     "access": "permissive",
-    "addr:city": "Magglingen / Macolin",
-    "addr:housenumber": "253",
-    "addr:postcode": "2532",
-    "addr:street": "Hauptstrasse",
-    "defibrillator:location": "Bellavista Foyer G3 vor Restaurant, Zeitweise öffentlich",
+    "defibrillator:location": "Bellavista Foyer, vor Restaurant",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "11:30-13:15,18:00-19:30",
     "operator": "BASPO / OFSPO Macolin / Maggligen",
     "phone": "+41 58 467 62 92",
+    "wheelchair": "limited",
     "id": "node/6635553944"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.2117733,
-      47.1371694
+      7.2119243,
+      47.1372899
     ]
   }
 },
@@ -12464,22 +12463,22 @@
   "id": "node/6635553946",
   "properties": {
     "access": "permissive",
-    "addr:city": "Magglingen / Macolin",
-    "addr:housenumber": "251",
-    "addr:postcode": "2532",
-    "addr:street": "Hauptstrasse",
-    "defibrillator:location": "Grand Hotel Foyer G4, Zeitweise öffentlich",
+    "defibrillator:location": "Grand Hotel Foyer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Th 09:00-23:30; Fr 09:00-24:00; Sa 00:00-00:30,09:00-24:00; Su 00:00-00:30,09:00-15:00",
     "operator": "BASPO / OFSPO Macolin / Maggligen",
     "phone": "+41 58 467 62 92",
+    "wheelchair": "limited",
     "id": "node/6635553946"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.2122664,
-      47.1375123
+      7.2124798,
+      47.1376337
     ]
   }
 },
