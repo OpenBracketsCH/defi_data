@@ -3828,9 +3828,11 @@
   "type": "Feature",
   "id": "node/5214073921",
   "properties": {
+    "defibrillator:location": "Dans le hall d'entrée, à droite",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "id": "node/5214073921"
   },
   "geometry": {
@@ -82380,6 +82382,26 @@
     "coordinates": [
       7.7378793,
       46.9741698
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9288935118",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Gemeindeverwaltung",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Thalwil",
+    "id": "node/9288935118"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5651704,
+      47.2922494
     ]
   }
 }
