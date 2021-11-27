@@ -59501,9 +59501,10 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Tu-Su 10:00-17:00",
+    "opening_hours": "Tu 10:00-20:00; We-Su 10:00-17:00",
     "operator": "Stadt Winterthur DKD Thierry Schalcher",
     "phone": "+41 52 267 51 75",
+    "wheelchair": "no",
     "id": "node/8601893894"
   },
   "geometry": {
@@ -82359,6 +82360,27 @@
     "coordinates": [
       7.9351764,
       47.2984551
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9288166817",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aula Zollbrück",
+    "description": "Immer zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde",
+    "id": "node/9288166817"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7378793,
+      46.9741698
     ]
   }
 }
