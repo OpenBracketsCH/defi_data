@@ -29432,32 +29432,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6687203165",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Thun",
-    "addr:housenumber": "34a",
-    "addr:postcode": "3603",
-    "addr:street": "Lerchenfeldstrasse",
-    "defibrillator:location": "Kabine zwischen Damen- und Herren-WC",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Ehem. Feuerwehrmagazin Lerchenfeld",
-    "phone": "+41 58 636 71 00",
-    "id": "node/6687203165"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6015842,
-      46.7655656
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6687203166",
   "properties": {
     "access": "permissive",
@@ -57967,24 +57941,6 @@
     "coordinates": [
       8.2750555,
       46.9048405
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7637818867",
-  "properties": {
-    "description": "Verwaltungsgebäude",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Elektrizitätswerk",
-    "id": "node/7637818867"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.2781206,
-      46.9027581
     ]
   }
 },
@@ -144796,6 +144752,44 @@
     "coordinates": [
       8.5904411,
       47.6731789
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9293583817",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Lindenhalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9293583817"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5711282,
+      47.2009341
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9293592846",
+  "properties": {
+    "defibrillator:location": "A côté de la caisse (niveau -2) du parking de la Cible",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "id": "node/9293592846"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3613613,
+      46.2358972
     ]
   }
 }
