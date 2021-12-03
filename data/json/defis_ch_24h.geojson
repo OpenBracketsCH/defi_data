@@ -46432,11 +46432,7 @@
   "id": "node/8728835640",
   "properties": {
     "access": "yes",
-    "addr:city": "Urtenen-Schönbühl",
-    "addr:housenumber": "9",
-    "addr:postcode": "3322",
-    "addr:street": "Zentrumsplatz",
-    "defibrillator:location": "-",
+    "defibrillator:location": "Links vor Eingang Polizei",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
@@ -46447,8 +46443,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4985565,
-      47.0200554
+      7.4984895,
+      47.0199938
     ]
   }
 },
@@ -62519,6 +62515,27 @@
     "coordinates": [
       7.7563902,
       47.2801306
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9309393117",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Zoll Thayngen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "EZV",
+    "id": "node/9309393117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7191568,
+      47.7405717
     ]
   }
 }

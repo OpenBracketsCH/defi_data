@@ -109296,11 +109296,7 @@
   "id": "node/8728835640",
   "properties": {
     "access": "yes",
-    "addr:city": "Urtenen-Schönbühl",
-    "addr:housenumber": "9",
-    "addr:postcode": "3322",
-    "addr:street": "Zentrumsplatz",
-    "defibrillator:location": "-",
+    "defibrillator:location": "Links vor Eingang Polizei",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
@@ -109311,8 +109307,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4985565,
-      47.0200554
+      7.4984895,
+      47.0199938
     ]
   }
 },
@@ -145178,6 +145174,111 @@
     "coordinates": [
       8.709225,
       47.3589061
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9309393117",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Zoll Thayngen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "EZV",
+    "id": "node/9309393117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7191568,
+      47.7405717
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9309393118",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Zoll Bargen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo- Fr 07.00 - 20.00",
+    "operator": "EZV",
+    "id": "node/9309393118"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5879785,
+      47.7941209
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9309393119",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Zoll Schaffhausen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr: 08:00 - 17:00",
+    "operator": "EZV",
+    "id": "node/9309393119"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6450906,
+      47.7080031
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9309393120",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Zoll Neuhausen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07.00-20.00",
+    "operator": "EZV",
+    "id": "node/9309393120"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5958001,
+      47.6695991
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9309410817",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Zoll Ramsen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00- 17:00",
+    "operator": "EZV",
+    "id": "node/9309410817"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8224614,
+      47.7121367
     ]
   }
 }
