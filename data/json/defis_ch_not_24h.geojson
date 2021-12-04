@@ -60056,27 +60056,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8625603917",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Kuratle Jacket",
-    "description": "Mo.-Do. 07-12 13-17 Fr 07-12 13-16",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "phone": "+41765086586",
-    "id": "node/8625603917"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.7354994,
-      47.4713926
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8626412817",
   "properties": {
     "emergency": "defibrillator",
@@ -66692,25 +66671,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8862818861",
-  "properties": {
-    "defibrillator:location": "Rechte Gebäudeseite, beim Hintereingang",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Gemeinde Seltisberg",
-    "id": "node/8862818861"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.7207351,
-      47.4634765
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8865042917",
   "properties": {
     "access": "no",
@@ -70493,8 +70453,8 @@
   "type": "Feature",
   "id": "node/8988366817",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Schulhaus Oberstufenzentrum Dorneckberg",
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Oberstufenzentrum Dorneckberg Haupteingang aussen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -70504,8 +70464,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6670329,
-      47.4497281
+      7.6667781,
+      47.4497427
     ]
   }
 },
@@ -82866,6 +82826,116 @@
     "coordinates": [
       9.5009454,
       47.0033338
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9310709715",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Stelzenstrasse 4, 6. Obergeschoss Erreichbarkeit des 6. Obergeschosses nur mit Mitarbeiter-Badge oder durch \";abgeholt werden\"",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Franziska Pfennich",
+    "phone": "+41 79 637 43 78",
+    "id": "node/9310709715"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5593836,
+      47.4252987
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9310731916",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Hotel Rössli unter der Brandmeldeanlage im Eingang.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Th-Tu 06:30-23:00; Su 07:30-22:00",
+    "operator": "Hotel Rössli Allschwil",
+    "phone": "+41 61 486 96 96",
+    "id": "node/9310731916"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5361852,
+      47.5507277
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9310747186",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Kuratle Jacket",
+    "description": "Mo.-Do. 07-12 13-17 Fr 07-12 13-16",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41765086586",
+    "id": "node/9310747186"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1680024,
+      47.5917209
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9310756230",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der Defi hängt oben nach der ersten Treppe sichtbar im Innern des Eingangsbereichs",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-21:00; Sa-Su 09:00-21:00",
+    "operator": "Hardoskop, Wohngruppe Freienstein",
+    "phone": "+41 44 865 28 90",
+    "id": "node/9310756230"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5843516,
+      47.5282532
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9310885217",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Schulhaus",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde",
+    "id": "node/9310885217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7184608,
+      47.4602191
     ]
   }
 }

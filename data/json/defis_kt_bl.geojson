@@ -507,27 +507,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8625603917",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Kuratle Jacket",
-    "description": "Mo.-Do. 07-12 13-17 Fr 07-12 13-16",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "phone": "+41765086586",
-    "id": "node/8625603917"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.7354994,
-      47.4713926
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8660342817",
   "properties": {
     "access": "yes",
@@ -745,18 +724,21 @@
   "type": "Feature",
   "id": "node/8862818861",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Rechte Gebäudeseite, beim Hintereingang",
+    "description": "Rechts ums Gebäude Hintereingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Seltisberg",
     "id": "node/8862818861"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7207351,
-      47.4634765
+      7.7209376,
+      47.463445
     ]
   }
 },
@@ -2252,6 +2234,50 @@
     "coordinates": [
       7.7419083,
       47.4865086
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9310731916",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Hotel Rössli unter der Brandmeldeanlage im Eingang.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Th-Tu 06:30-23:00; Su 07:30-22:00",
+    "operator": "Hotel Rössli Allschwil",
+    "phone": "+41 61 486 96 96",
+    "id": "node/9310731916"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5361852,
+      47.5507277
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9310885217",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Schulhaus",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde",
+    "id": "node/9310885217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7184608,
+      47.4602191
     ]
   }
 }
