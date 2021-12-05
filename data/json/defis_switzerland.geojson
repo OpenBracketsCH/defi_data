@@ -455,8 +455,14 @@
   "type": "Feature",
   "id": "node/2429003993",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bergsation Eingang Restaurant",
+    "description": "24/365",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Luftseilbahn Reigoldswil Wasserfallen",
     "id": "node/2429003993"
   },
   "geometry": {
@@ -140666,8 +140672,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6506035,
-      47.0180569
+      8.6506001,
+      47.0180564
     ]
   }
 },
@@ -145689,6 +145695,28 @@
     "coordinates": [
       9.0247527,
       47.1543559
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9312213817",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "wand an der Klosterpforte beim Posteinwurf",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "reavita zürich",
+    "phone": "0444668066",
+    "id": "node/9312213817"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.439451,
+      47.4082947
     ]
   }
 }
