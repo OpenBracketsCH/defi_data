@@ -65739,14 +65739,13 @@
   "id": "node/8842863017",
   "properties": {
     "access": "no",
+    "contact:phone": "+41 81 558 0000",
     "defibrillator:location": "Forum Würth - 1 Stück pro etage",
-    "description": "Während Museums Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-So 11.00-17.00 Uhr",
+    "opening_hours": "Mo-Su 11:00-17:00",
     "operator": "Firma Würth",
-    "phone": "+41815580000",
     "id": "node/8842863017"
   },
   "geometry": {
@@ -76122,14 +76121,13 @@
   "id": "node/9113359017",
   "properties": {
     "access": "yes",
+    "contact:phone": "+41 56 200 0444",
     "defibrillator:location": "Schulhaus Kanti Baden",
-    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 7.00-22.00 Uhr",
+    "opening_hours": "Mo-Fr 07:00-22:00",
     "operator": "Kantonsschule Baden",
-    "phone": "+41562000444",
     "id": "node/9113359017"
   },
   "geometry": {
@@ -82961,6 +82959,23 @@
     "coordinates": [
       9.0247527,
       47.1543559
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9315256905",
+  "properties": {
+    "defibrillator:location": "Eingangshalle rechts",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/9315256905"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4250775,
+      46.9567359
     ]
   }
 }
