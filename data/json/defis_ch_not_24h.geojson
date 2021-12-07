@@ -66118,7 +66118,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "mo-sa \n8-18 uhr",
+    "opening_hours": "Mo-Sa 08:00-18:00",
     "operator": "migros",
     "id": "node/8847760917"
   },
@@ -66178,11 +66178,11 @@
   "properties": {
     "access": "no",
     "defibrillator:location": "Migros, im Eingang",
-    "description": "während Öffnungszeiten verfügbar ",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Sa 8.00 - 20.00 Uhr",
+    "opening_hours": "Mo-Sa 08:00-20:00",
     "id": "node/8848381627"
   },
   "geometry": {
@@ -74553,8 +74553,8 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr: 07 bis 19 Uhr\nSa: 09 bis 16 Uhr",
-    "operator": "Privat",
+    "opening_hours": "Mo-Fr 07:00-19:00; Sa 09:00-16:00",
+    "operator:type": "private",
     "id": "node/9053956917"
   },
   "geometry": {
@@ -84125,6 +84125,52 @@
     "coordinates": [
       8.548634,
       47.41962
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9318452134",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Gebäude 'Turicum' an der Zürcherstrasse 48 im Eingangsbereich (EG), vom Eingang aus gut sichtbar.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "RegioSpitex Limmattal",
+    "phone": "+41 43 322 30 30",
+    "id": "node/9318452134"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4032556,
+      47.4039164
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9318456656",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Sanitätsraum Hallenbad",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 08:00-21:00",
+    "operator": "Zweckverband Hallenbad Oberes Rheintal",
+    "phone": "+41 71 757 78 46",
+    "id": "node/9318456656"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5456072,
+      47.384189
     ]
   }
 }
