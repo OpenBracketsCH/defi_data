@@ -60358,8 +60358,10 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "1",
     "opening_hours": "Mo-Sa: 09:00-20:00",
     "operator": "Migros",
+    "wheelchair": "yes",
     "id": "node/8638161317"
   },
   "geometry": {
@@ -84054,6 +84056,52 @@
     "coordinates": [
       8.3149447,
       47.4788271
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9317840941",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Mittelstrasse 8 ",
+    "description": "Im Büro unter dem Glasdach eintreten und danach fragen ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr: 07:00 - 17:00 ",
+    "operator": "Waterjet AG ",
+    "phone": "0629194282",
+    "id": "node/9317840941"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7769861,
+      47.233163
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9317853521",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "In der Krankenabteilung",
+    "description": "Während Öffnungszeiten, zum Teil auch ausserhalb Öffnungszeiten über die Tel.-Nummer erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr: 08:00-16:00",
+    "operator": "Krankenabteilung Monte Ceneri (Militär)",
+    "phone": "+41584698050",
+    "id": "node/9317853521"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9163228,
+      46.1406743
     ]
   }
 }
