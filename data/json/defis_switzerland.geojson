@@ -65203,22 +65203,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7663988023",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/7663988023"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.3371702,
-      46.7925139
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7667048295",
   "properties": {
     "access": "yes",
@@ -147213,7 +147197,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "operator": "Beda Kurath",
+    "operator": "Gemeinde Safiental",
     "id": "node/9327291216"
   },
   "geometry": {
@@ -147350,7 +147334,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Beda Kurath",
+    "operator": "Gemeinde Safiental",
     "id": "node/9327362717"
   },
   "geometry": {
@@ -147372,7 +147356,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Beda Kurath",
+    "operator": "Gemeinde Safiental",
     "id": "node/9327362718"
   },
   "geometry": {
@@ -147394,7 +147378,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Beda Kurath",
+    "operator": "Gemeinde Safiental",
     "id": "node/9327362719"
   },
   "geometry": {
@@ -147437,7 +147421,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "operator": "Beda Kurath",
+    "operator": "KWZ",
     "id": "node/9327362721"
   },
   "geometry": {
@@ -147459,7 +147443,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Beda Kurath",
+    "operator": "Gemeinde Safiental",
     "id": "node/9327362722"
   },
   "geometry": {
@@ -147633,6 +147617,29 @@
     "coordinates": [
       7.6287209,
       46.7624414
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9336472276",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Kies- und Betonzentrale Werkleiter Büro",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-11:50, 13:00-16:45",
+    "operator": "Grob Kies AG",
+    "phone": "+41 79 681 93 37",
+    "id": "node/9336472276"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.07672,
+      47.3765314
     ]
   }
 }
