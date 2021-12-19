@@ -29760,19 +29760,20 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Warteraum SZU Bahnhof Uitikon Waldegg",
-    "description": "immer zugänglich",
+    "description": "immer zugänglich, rechts an der Wand unter dem Vordach",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "SZU",
+    "wheelchair": "no",
     "id": "node/8841893617"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4655872,
-      47.3662513
+      8.4655189,
+      47.36614
     ]
   }
 },
