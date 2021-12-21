@@ -3515,7 +3515,7 @@
     "addr:housenumber": "4",
     "addr:postcode": "4912",
     "addr:street": "Langenthalstrasse",
-    "defibrillator:location": "Gemeindeverwaltung",
+    "defibrillator:location": "Eingang Gemeindeverwaltung",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -37546,6 +37546,29 @@
     "coordinates": [
       7.4407524,
       46.9425986
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9355869911",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Dorfbeck Nyfeler Gebäude Links",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Daniel Nyfeler Dorfbeck Nyfeler AG",
+    "phone": "+41 62 922 22 63",
+    "id": "node/9355869911"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.77025,
+      47.2390057
     ]
   }
 }

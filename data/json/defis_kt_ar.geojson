@@ -200,26 +200,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7727112234",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Rechts neben den blauen Toren",
-    "description": "Öffentlich zugänglich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "id": "node/7727112234"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.3877731,
-      47.389729
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7813190775",
   "properties": {
     "access": "private",
@@ -683,25 +663,6 @@
     "coordinates": [
       9.3935466,
       47.3906542
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7933861734",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Schrank neben Office im Saal",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/7933861734"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.3927124,
-      47.3870133
     ]
   }
 },
@@ -1283,6 +1244,298 @@
     "coordinates": [
       9.4375127,
       47.4153478
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9355814377",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Altes Feuerwehrhaus Dorf, Aussenstandort, rechts neben Haupteingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Teufen",
+    "phone": "+41 71 333 55 03",
+    "id": "node/9355814377"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3877731,
+      47.3897291
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9355814378",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Werkhof Forstamt Aussenstandort, Gebäudemitte",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Teufen",
+    "phone": "+41 71 333 55 03",
+    "id": "node/9355814378"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3851942,
+      47.3885097
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9355814379",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "WC-Haus Aussenstandort, gegen Rasenplatz",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Teufen",
+    "phone": "+41 71 333 55 03",
+    "id": "node/9355814379"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3942279,
+      47.3869879
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9355814380",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussensportanlage Landhaus Aussenstandort, beim Gerätemagazin",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Teufen",
+    "phone": "+41 71 333 55 03",
+    "id": "node/9355814380"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3932194,
+      47.3895266
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9355814381",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Turnhalle Niederteufen Aussenstandort, links vor dem Haupteingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Teufen",
+    "phone": "+41 71 333 55 03",
+    "id": "node/9355814381"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3637177,
+      47.3943348
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9355814382",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Gemeindeverwaltung Front-Office, EG",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Th 08:30-11:30, 14:00-17:00; Fr 08:30-11:30, 14:00-16:00",
+    "operator": "Gemeinde Teufen",
+    "phone": "+41 71 333 55 03",
+    "id": "node/9355814382"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3875438,
+      47.3904272
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9355814383",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Turnhalle Dorf Vorraum Turnhalle, rechts nach dem Eingang",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Teufen",
+    "phone": "+41 71 333 55 03",
+    "id": "node/9355814383"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3855053,
+      47.3915222
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9355814384",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Sekschulhaus Hörli Lehrerzimmer, neues Hörli",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Teufen",
+    "phone": "+41 71 333 55 03",
+    "id": "node/9355814384"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3868196,
+      47.3919652
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9355814385",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Lindensaal Kasten vor dem Office",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Teufen",
+    "phone": "+41 71 333 55 03",
+    "id": "node/9355814385"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3927084,
+      47.3870151
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9355814386",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Primarschulhaus Landhaus Nach dem Haupteingang rechts",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Teufen",
+    "phone": "+41 71 333 55 03",
+    "id": "node/9355814386"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3935466,
+      47.3905961
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9355814387",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Sporthalle Landhaus Geräteraum links",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Teufen",
+    "phone": "+41 71 333 55 03",
+    "id": "node/9355814387"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.392817,
+      47.3896773
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9355814388",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Turnhalle Landhaus Nach dem Haupteingang rechts",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Teufen",
+    "phone": "+41 71 333 55 03",
+    "id": "node/9355814388"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3934607,
+      47.3901712
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9355814389",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Freibad Teufen Sanitätsraum Freibad, beim Büro Bademeister",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Teufen",
+    "phone": "+41 71 333 55 03",
+    "id": "node/9355814389"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3944102,
+      47.3838353
     ]
   }
 }

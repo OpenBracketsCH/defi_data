@@ -3207,28 +3207,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8555759018",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Sandackerstrasse 591",
-    "description": "gut sichtbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Privatperson",
-    "id": "node/8555759018"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.2082169,
-      47.6164399
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8556329626",
   "properties": {
     "access": "yes",
@@ -10472,6 +10450,96 @@
     "coordinates": [
       8.0640902,
       47.2677758
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9355827883",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im hinteren Sprechzimmer",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:30",
+    "id": "node/9355827883"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2478045,
+      47.4633252
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9355841116",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "In der Praxis im Erdgeschoss",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Tu 07:30-18:00; We 07:30-18:00; Th 07:30-12:00; Fr 07:30-18:00",
+    "operator": "Praxis Etzelmatt",
+    "phone": "+41 56 437 00 10",
+    "id": "node/9355841116"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3174834,
+      47.4599789
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9355850476",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Arztpraxis beim Empfang",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-17:00; Sa 07:30-12:00",
+    "operator": "Dr. Bettina Gantenbein",
+    "phone": "+41 56 491 20 30",
+    "id": "node/9355850476"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2755831,
+      47.4191049
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9355896653",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "In der Arztpraxis im EG",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Dorfpraxis Kleindöttingen GmbH",
+    "phone": "+41 56 250 09 00",
+    "id": "node/9355896653"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2473984,
+      47.5718897
     ]
   }
 }
