@@ -61283,7 +61283,7 @@
   "id": "node/9245658038",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Eingang 1. UG",
+    "defibrillator:location": "Eingang 1. UG auf Seite Aussenfeld",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -61296,8 +61296,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7695038,
-      47.2997565
+      8.7691106,
+      47.2997751
     ]
   }
 },
@@ -63570,6 +63570,92 @@
     "coordinates": [
       8.6246562,
       47.5249496
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9363599746",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der Defibrillator befindet sich beim Gemeindehaus.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9363599746"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3281168,
+      47.3899306
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9363625131",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "1. OG Stationsbüro Station Abhängigkeitserkrankungen 1",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Luzerner Psychiatrie",
+    "phone": "+41 58 856 50 46",
+    "id": "node/9363625131"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.843895,
+      47.2303553
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9363629004",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Feuerwehrdepot",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "id": "node/9363629004"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.6333394,
+      47.4099236
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9363629005",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Polizeiposten",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "id": "node/9363629005"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.6350919,
+      47.4056886
     ]
   }
 }

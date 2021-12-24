@@ -10542,6 +10542,68 @@
       47.5718897
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/9363598132",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Arztpraxis 1. Stock links",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Hausaerztehaus Schöftland Dorfstrasse 13 5040 Schöftland",
+    "phone": "+41 62 739 00 60",
+    "id": "node/9363598132"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0508395,
+      47.3055569
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9363599746",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der Defibrillator befindet sich beim Gemeindehaus.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9363599746"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3281168,
+      47.3899306
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9363599747",
+  "properties": {
+    "defibrillator:location": "Im Schulhaus",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/9363599747"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3279428,
+      47.3878371
+    ]
+  }
 }
 ]
 }

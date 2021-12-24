@@ -15104,6 +15104,71 @@
       47.3211509
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/9363593951",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "In der Praxis",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-12:00, 14:00-18:00; Th 08:00-12:00",
+    "operator": "Dr. med. Reto Engel",
+    "phone": "+41 71 227 40 60",
+    "id": "node/9363593951"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3725045,
+      47.4237401
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9363629004",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Feuerwehrdepot",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "id": "node/9363629004"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.6333394,
+      47.4099236
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9363629005",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Polizeiposten",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "id": "node/9363629005"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.6350919,
+      47.4056886
+    ]
+  }
 }
 ]
 }
