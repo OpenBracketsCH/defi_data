@@ -19524,30 +19524,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6987948065",
-  "properties": {
-    "access": "permissive",
-    "addr:city": "Lenk",
-    "addr:housenumber": "2",
-    "addr:postcode": "3775",
-    "addr:street": "Schulhausstrasse",
-    "defibrillator:location": "Foyer",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "07:30-18:00",
-    "operator": "Schulhaus Dorf",
-    "id": "node/6987948065"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4446295,
-      46.45588
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6987948067",
   "properties": {
     "access": "permissive",
@@ -69129,23 +69105,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8974648729",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/8974648729"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.3112843,
-      46.5174082
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8977133617",
   "properties": {
     "access": "yes",
@@ -78199,26 +78158,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9165400417",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "neben snackbar",
-    "description": "während zugbetrieb",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/9165400417"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6698457,
-      46.4950135
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9168319086",
   "properties": {
     "access": "yes",
@@ -85334,6 +85273,171 @@
     "coordinates": [
       8.0443425,
       46.7538317
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367990440",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Saanen",
+    "addr:housenumber": "32",
+    "addr:postcode": "3792",
+    "addr:street": "Alpenruhstrasse",
+    "defibrillator:location": "Im Haupteingang Wohnheim links, im Löschkasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "Mo-Su 07:00-22:00",
+    "operator": "Stiftung Alpenruhe",
+    "id": "node/9367990440"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2708635,
+      46.4844057
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367990441",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Gstaad",
+    "addr:housenumber": "8",
+    "addr:postcode": "3780",
+    "addr:street": "Rumpleregässli",
+    "defibrillator:location": "in der Dreifachturnhalle im Untergeschoss im Sanitätszimmer (Treppe hinunter, 2. Tür rechts)",
+    "description": "nur wenn Anlässe stattfinden oder die Halle besetzt ist",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Oberstufenzentrum",
+    "phone": "+41 33 744 16 37",
+    "id": "node/9367990441"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2764141,
+      46.4820532
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367990442",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Gstaad",
+    "addr:postcode": "3780",
+    "addr:street": "Untergstaadstrasse 3",
+    "defibrillator:location": "Migros",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Genossenschaft Migros Aare",
+    "phone": "+41 58 567 46 80",
+    "id": "node/9367990442"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.282448,
+      46.4782763
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367990443",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Gstaad",
+    "addr:housenumber": "8",
+    "addr:postcode": "3780",
+    "addr:street": "Untergstaadstrasse",
+    "defibrillator:location": "Kirchgemeindehaus, Foyer, Wandschrank, links neben dem Eingang zum kleinen Saal",
+    "description": "wenn Anlässe stattfinden und während den Öffnungszeiten der Bibliothek",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Kirchgemeindehaus Gstaad",
+    "phone": "+41 33 744 53 30",
+    "id": "node/9367990443"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2820467,
+      46.4774084
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367990446",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Gstaad",
+    "addr:housenumber": "5",
+    "addr:postcode": "3780",
+    "addr:street": "Sportzentrumstrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Sportzentrum Gstaad",
+    "id": "node/9367990446"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2828341,
+      46.4707887
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367990450",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Gsteig",
+    "addr:housenumber": "17",
+    "addr:postcode": "3785",
+    "addr:street": "Saalistrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Ferdinand Eschler",
+    "id": "node/9367990450"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2691726,
+      46.3891447
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367990458",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Zweisimmen",
+    "addr:housenumber": "1a",
+    "addr:postcode": "3770",
+    "addr:street": "Schützenstrasse",
+    "defibrillator:location": "Raiffeisenbank Provisorium, Verfügbar während Schalteröffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Raiffeisenbank Zweisimmen",
+    "id": "node/9367990458"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3730768,
+      46.5546586
     ]
   }
 }

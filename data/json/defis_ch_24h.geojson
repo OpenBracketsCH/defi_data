@@ -16370,31 +16370,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6987098603",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Abländschen",
-    "addr:housenumber": "3b",
-    "addr:postcode": "1657",
-    "addr:street": "Abländschenstrasse",
-    "defibrillator:location": "kleines Gebäude seitlich der ARA",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "SamaritervereinJaun-Im Fang",
-    "phone": "+41 79 600 72 86",
-    "id": "node/6987098603"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.2877814,
-      46.6099132
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6987098604",
   "properties": {
     "access": "yes",
@@ -16413,8 +16388,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.2756757,
-      46.6109464
+      7.2756067,
+      46.6109487
     ]
   }
 },
@@ -16424,9 +16399,10 @@
   "properties": {
     "access": "yes",
     "addr:city": "Abländschen",
-    "addr:housenumber": "3a",
+    "addr:housenumber": "3b",
     "addr:postcode": "1657",
     "addr:street": "Abländschenstrasse",
+    "defibrillator:location": "kleines Gebäude seitlich der ARA",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
@@ -16437,8 +16413,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.2928195,
-      46.57269
+      7.2928209,
+      46.572689
     ]
   }
 },
@@ -16753,8 +16729,32 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4431262,
-      46.4012576
+      7.4429779,
+      46.4012075
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/6987948065",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Lenk",
+    "addr:housenumber": "2",
+    "addr:postcode": "3775",
+    "addr:street": "Schulhausstrasse",
+    "defibrillator:location": "Foyer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Volksschule Lenk",
+    "id": "node/6987948065"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4446295,
+      46.45588
     ]
   }
 },
@@ -34344,8 +34344,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.2851959,
-      46.4688441
+      7.2852106,
+      46.4690642
     ]
   }
 },
@@ -46758,30 +46758,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8734453464",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Boltigen",
-    "addr:housenumber": "584",
-    "addr:postcode": "3766",
-    "addr:street": "Weissenbach",
-    "defibrillator:location": "Bahnhofhaus Weissenbach",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Bahnhofhaus Weissenbach",
-    "id": "node/8734453464"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.3745184,
-      46.6019777
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8734453465",
   "properties": {
     "access": "yes",
@@ -46840,6 +46816,7 @@
     "defibrillator:location": "Passhöhe Werkhofgebäude Nordseite, neben Parkuhr",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Werkhofgebäude Passhöhe Jaunpass",
     "id": "node/8734513566"
@@ -52772,6 +52749,32 @@
     "coordinates": [
       8.8939171,
       46.1504794
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8974648729",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Saanenmöser",
+    "addr:housenumber": "29",
+    "addr:postcode": "3777",
+    "addr:street": "Bahnhofstrasse",
+    "defibrillator:location": "Westseite des Gebäudes",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Bahnhof Saanenmöser MOB",
+    "phone": "+41 41 21 989 81 90",
+    "id": "node/8974648729"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3112843,
+      46.5174082
     ]
   }
 },
@@ -59602,6 +59605,32 @@
 },
 {
   "type": "Feature",
+  "id": "node/9165400417",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Kandersteg",
+    "addr:housenumber": "22",
+    "addr:postcode": "3718",
+    "addr:street": "Bahnhofstrasse",
+    "defibrillator:location": "Büvette, Verladerampe Kandersteg bei den WC`s",
+    "description": "während zugbetrieb",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "BLS AG",
+    "id": "node/9165400417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6699724,
+      46.4951042
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9168319087",
   "properties": {
     "access": "yes",
@@ -63791,6 +63820,648 @@
     "coordinates": [
       8.2290217,
       46.7055395
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367990430",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Schönried",
+    "addr:housenumber": "1",
+    "addr:postcode": "3778",
+    "addr:street": "Hubelstrasse",
+    "defibrillator:location": "Beim Eingang zur Turnhalle, hinter dem Holzpfosten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Mehrzweckhalle beim Schulhaus",
+    "phone": "+41 33 748 92 78",
+    "id": "node/9367990430"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2872333,
+      46.5038789
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367990431",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Schönried",
+    "addr:housenumber": "46",
+    "addr:postcode": "3778",
+    "addr:street": "Dorfstrasse",
+    "defibrillator:location": "Beim Haupteingang bei der Reception rechts in der Garderobe an der linken Wand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Hotel Ermitage Schönried",
+    "phone": "+41 33 748 04 30",
+    "id": "node/9367990431"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2879027,
+      46.5034697
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367990432",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Saanenmöser",
+    "addr:housenumber": "45",
+    "addr:postcode": "3777",
+    "addr:street": "Hornbergstrasse",
+    "defibrillator:location": "Fassade links bei Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Hotel Restaurant Hornfluh",
+    "phone": "+41 58 636 71 00",
+    "id": "node/9367990432"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3230987,
+      46.4878201
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367990433",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Turbach",
+    "addr:postcode": "3781",
+    "addr:street": "Turbachstrasse 125a",
+    "defibrillator:location": "öffentliche Toilette",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "phone": "+41 79 332 82 97",
+    "id": "node/9367990433"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3322065,
+      46.4789553
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367990435",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Saanen",
+    "addr:housenumber": "29",
+    "addr:postcode": "3792",
+    "addr:street": "Oeystrasse",
+    "defibrillator:location": "An Fassade ersichtlich bei Drop Off Zone / Eingang Küche",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Airport Gstaad",
+    "id": "node/9367990435"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2459229,
+      46.4872384
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367990436",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Saanen",
+    "addr:postcode": "3792",
+    "addr:street": "Dorfstrasse 121",
+    "defibrillator:location": "Sichtbar an der Fassade.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Schmid Früchte Gemüse und Getränke AG",
+    "phone": "+41 33 748 75 75",
+    "id": "node/9367990436"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2545395,
+      46.48926
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367990437",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Saanen",
+    "addr:postcode": "3792",
+    "addr:street": "Bortgässli",
+    "defibrillator:location": "im Gang vom WC, neben dem obersten Eingang der Kirche (Südseite)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Kirche Saanen",
+    "phone": "+41 79 857 46 90",
+    "id": "node/9367990437"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2585895,
+      46.4902161
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367990438",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Saanen",
+    "addr:housenumber": "74",
+    "addr:postcode": "3792",
+    "addr:street": "Dorfstrasse",
+    "defibrillator:location": "An Hausfassade",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Hotel Landhaus",
+    "phone": "+41 33 745 40 40",
+    "id": "node/9367990438"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.260326,
+      46.4897883
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367990439",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Saanen",
+    "addr:housenumber": "8",
+    "addr:postcode": "3792",
+    "addr:street": "Schönriedstrasse",
+    "defibrillator:location": "Beim Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung Saanen",
+    "phone": "+41 33 748 92 10",
+    "id": "node/9367990439"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2624325,
+      46.4905317
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367990444",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Gstaad",
+    "addr:housenumber": "23",
+    "addr:postcode": "3780",
+    "addr:street": "Alpinastrasse",
+    "defibrillator:location": "Concierge-Desk beim Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "The Alpina Gstaad",
+    "phone": "+41 33 888 98 88",
+    "id": "node/9367990444"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2884855,
+      46.4759989
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367990445",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Gstaad",
+    "addr:housenumber": "28",
+    "addr:postcode": "3780",
+    "addr:street": "Palacestrasse",
+    "defibrillator:location": "Defi ist beim Concierge",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Hotel Palace Gstaad",
+    "phone": "+41 33 748 50 00",
+    "id": "node/9367990445"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2893315,
+      46.4731762
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367990447",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Grund b. Gstaad",
+    "addr:housenumber": "2",
+    "addr:postcode": "3783",
+    "addr:street": "Bodenstrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Arnold Reuteler Holzbau AG",
+    "phone": "+41 33 744 23 20",
+    "id": "node/9367990447"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2784859,
+      46.4561562
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367990448",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Feutersoey",
+    "addr:housenumber": "174",
+    "addr:postcode": "3784",
+    "addr:street": "Gsteigstrasse",
+    "defibrillator:location": "Bei Tankstelle sichtbar montiert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Autogarage Gehret",
+    "phone": "+41 33 755 20 40",
+    "id": "node/9367990448"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2707495,
+      46.41803
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367990449",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Gsteig b. Gstaad",
+    "addr:housenumber": "82",
+    "addr:postcode": "3785",
+    "addr:street": "Gsteigstrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Chaletbau Annen Gsteig AG",
+    "phone": "+41 79 408 03 72 / 033",
+    "id": "node/9367990449"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2679932,
+      46.4008801
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367990451",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Gsteig",
+    "addr:postcode": "3785",
+    "addr:street": "Gsteigstrasse",
+    "description": "Zuständig: Liegenschaftsverwalter Karl Graa",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Gsteig",
+    "phone": "+41 33 755 19 77",
+    "id": "node/9367990451"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2680371,
+      46.3870553
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367990452",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Gsteig bei Gstaad",
+    "addr:country": "CH",
+    "addr:housenumber": "2",
+    "addr:postcode": "3785",
+    "addr:street": "Campingstrasse",
+    "building": "yes",
+    "defibrillator:location": "Glas Türe mit AED Aufschrift. Links an der Wand.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Hotel-Restaurant-Campingplatz Heiti",
+    "phone": "+41 33 755 11 48",
+    "id": "node/9367990452"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2629148,
+      46.3819711
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367990453",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Gsteig b. Gstaad",
+    "addr:housenumber": "81",
+    "addr:postcode": "3785",
+    "addr:street": "Pillonstrasse",
+    "defibrillator:location": "An Fassade bei Eingang ersichtlich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Reusch Talstation (Glacier 3000)",
+    "phone": "+41 79 328 83 04",
+    "id": "node/9367990453"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2354766,
+      46.3653747
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367990454",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Lauenen",
+    "addr:housenumber": "92a",
+    "addr:postcode": "3782",
+    "addr:street": "Lauenenseestrasse",
+    "defibrillator:location": "Fassade Parkplatzhäuschen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Parkplatzhüsi Lauenensee",
+    "phone": "+41 33 765 30 15",
+    "id": "node/9367990454"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3409187,
+      46.3937298
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367990455",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Boltigen",
+    "addr:housenumber": "583a",
+    "addr:postcode": "3766",
+    "addr:street": "Weissenbach 583a",
+    "defibrillator:location": "Bahnhofgebäude Weissenbach, an der Hauptstrasse zugewandten Gebäudeseite neben Hauseingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Bahnhofgebäude Weissenbach",
+    "id": "node/9367990455"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.374211,
+      46.6034708
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367990456",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Zweisimmen",
+    "addr:postcode": "3770",
+    "addr:street": "Sparenmoos",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Berghaus Sparenmoos GmbH",
+    "phone": "+41 79 834 70 40",
+    "id": "node/9367990456"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3389118,
+      46.551089
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367990457",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Zweisimmen",
+    "addr:housenumber": "1",
+    "addr:postcode": "3770",
+    "addr:street": "Simmengasse",
+    "defibrillator:location": "Bank-Eingang links",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Valiant Bank Zweisimmen",
+    "id": "node/9367990457"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3730395,
+      46.55424
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367990459",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Lenk im Simmental",
+    "addr:housenumber": "54g",
+    "addr:postcode": "3775",
+    "addr:street": "Gutenbrunnenstrasse",
+    "defibrillator:location": "An Gebäudefassade, ausgerichtet an Gutenbrunnenstrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Wasserpumpstation (Lehn)",
+    "id": "node/9367990459"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4451606,
+      46.4630926
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367990460",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Lenk",
+    "addr:housenumber": "15",
+    "addr:postcode": "3775",
+    "addr:street": "Oberriedstrasse",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "TEC (Tennis, Eisbahn, Curling)",
+    "id": "node/9367990460"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4438984,
+      46.4550598
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367990461",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Lenk im Simmental",
+    "addr:housenumber": "1",
+    "addr:postcode": "3775",
+    "addr:street": "Pöschenriedstrasse",
+    "defibrillator:location": "An Gebäudefassade ersichtlich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Feuerwehrmagazin",
+    "id": "node/9367990461"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4393108,
+      46.4516999
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367990462",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Lenk im Simmental",
+    "addr:housenumber": "112",
+    "addr:postcode": "3775",
+    "addr:street": "Bühlbergstrasse",
+    "defibrillator:location": "An Gebäudefassade des Bauernhofes. Sichtbar von der Strasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Bauernhof (Fam. Siegfried)",
+    "id": "node/9367990462"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4556202,
+      46.4552352
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367990463",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Lenk im Simmental",
+    "addr:housenumber": "76",
+    "addr:postcode": "3775",
+    "addr:street": "Oberriedstrasse",
+    "defibrillator:location": "Gut ersichtlich an Fassade vom angrenzenden Häuschen beim Parkplatz",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Hotel Restaurant Simmenfälle",
+    "id": "node/9367990463"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4761448,
+      46.4265266
     ]
   }
 }
