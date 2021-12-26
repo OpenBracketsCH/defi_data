@@ -16795,28 +16795,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6633309456",
-  "properties": {
-    "access": "permissive",
-    "addr:city": "Oberlangenegg",
-    "addr:postcode": "3616",
-    "addr:street": "Kreuzweg",
-    "defibrillator:location": "Kunsteisbahn",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "operator": "Kunsteisbahn",
-    "id": "node/6633309456"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.7429981,
-      46.8075001
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6633334885",
   "properties": {
     "access": "yes",
@@ -37914,8 +37892,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6367259,
-      46.7472001
+      7.6367612,
+      46.7471985
     ]
   }
 },
@@ -38668,22 +38646,6 @@
     "coordinates": [
       8.559856,
       47.1324409
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7074573186",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/7074573186"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6367582,
-      46.7472017
     ]
   }
 },
@@ -96610,6 +96572,10 @@
   "id": "node/8557259190",
   "properties": {
     "access": "yes",
+    "addr:city": "Eriz",
+    "addr:housenumber": "13D",
+    "addr:postcode": "3619",
+    "addr:street": "Losenegg",
     "defibrillator:location": "Beim Öffentlichen WC, Abfallsammelkontainer",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
@@ -96621,8 +96587,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7392164,
-      46.7863949
+      7.7397639,
+      46.7875482
     ]
   }
 },
@@ -149902,6 +149868,55 @@
     "coordinates": [
       7.4761448,
       46.4265266
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9368212799",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Thun",
+    "addr:housenumber": "8",
+    "addr:postcode": "3600",
+    "addr:street": "Allmendstrasse",
+    "defibrillator:location": "Hausfassade",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Wohnhilfe Thun",
+    "phone": "+41 33 222 68 22",
+    "id": "node/9368212799"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6245586,
+      46.7597664
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9368212800",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Eriz",
+    "addr:housenumber": "132a",
+    "addr:postcode": "3619",
+    "addr:street": "Geissegg 132a",
+    "defibrillator:location": "Herren-WC",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Betriebsgebäude des Snowpark Eriz",
+    "id": "node/9368212800"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8254585,
+      46.7822501
     ]
   }
 }

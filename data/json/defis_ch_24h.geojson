@@ -17926,8 +17926,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6367259,
-      46.7472001
+      7.6367612,
+      46.7471985
     ]
   }
 },
@@ -41235,6 +41235,10 @@
   "id": "node/8557259190",
   "properties": {
     "access": "yes",
+    "addr:city": "Eriz",
+    "addr:housenumber": "13D",
+    "addr:postcode": "3619",
+    "addr:street": "Losenegg",
     "defibrillator:location": "Beim Öffentlichen WC, Abfallsammelkontainer",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
@@ -41246,8 +41250,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7392164,
-      46.7863949
+      7.7397639,
+      46.7875482
     ]
   }
 },
@@ -64462,6 +64466,55 @@
     "coordinates": [
       7.4761448,
       46.4265266
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9368212799",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Thun",
+    "addr:housenumber": "8",
+    "addr:postcode": "3600",
+    "addr:street": "Allmendstrasse",
+    "defibrillator:location": "Hausfassade",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Wohnhilfe Thun",
+    "phone": "+41 33 222 68 22",
+    "id": "node/9368212799"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6245586,
+      46.7597664
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9368212800",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Eriz",
+    "addr:housenumber": "132a",
+    "addr:postcode": "3619",
+    "addr:street": "Geissegg 132a",
+    "defibrillator:location": "Herren-WC",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Betriebsgebäude des Snowpark Eriz",
+    "id": "node/9368212800"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8254585,
+      46.7822501
     ]
   }
 }
