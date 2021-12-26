@@ -6417,8 +6417,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.05555,
-      46.7588356
+      8.0555039,
+      46.7588859
     ]
   }
 },
@@ -12033,8 +12033,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.1873093,
-      46.7289755
+      8.187343,
+      46.7289194
     ]
   }
 },
@@ -13469,8 +13469,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.891407,
-      46.5579049
+      7.8912096,
+      46.5578634
     ]
   }
 },
@@ -13575,24 +13575,23 @@
   "properties": {
     "access": "yes",
     "addr:city": "Gündlischwand",
-    "addr:housenumber": "74c",
+    "addr:housenumber": "75",
     "addr:postcode": "3815",
     "addr:street": "Dorfstrasse",
-    "defibrillator:location": "AED im Magazin beim Mittleren Tor. Schlüssel zum Magazin im Lebensmittelladen melden",
-    "description": "24h verfügbar",
+    "defibrillator:location": "an der Frontseite/Strassenseitig",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Sandro Coatti, SV Zweilütschinen Kursleiter oder Edith Zingg SV Zweilütschinen Präsidentin",
+    "operator": "Feuerwehrmagazin Gündlischwand",
     "phone": "+41 79 297 93 15",
     "id": "node/6565882240"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.9116121,
-      46.6321038
+      7.9119749,
+      46.6320627
     ]
   }
 },
@@ -74279,8 +74278,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.8957169,
-      46.5626412
+      7.8958671,
+      46.5626869
     ]
   }
 },
@@ -114911,6 +114910,7 @@
     "description": "immer zugänglich, rechts an der Wand unter dem Vordach",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "level": "0",
     "opening_hours": "24/7",
     "operator": "SZU",
@@ -148901,6 +148901,232 @@
     "coordinates": [
       8.6525063,
       47.6865938
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367107200",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Stechelberg",
+    "addr:housenumber": "483b",
+    "addr:postcode": "3824",
+    "addr:street": "Stechelberg",
+    "defibrillator:location": "EWL Genossenschaft",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "EWL Stechelberg",
+    "phone": "+41 79 353 60 43",
+    "id": "node/9367107200"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8998889,
+      46.5446026
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367107201",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Zweilütschienen",
+    "addr:postcode": "3815",
+    "addr:street": "Bahnstation",
+    "defibrillator:location": "Büro Fahrdienst, zugänglich 04.30 - 23.15",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "Mo-Su 04:30-23:15",
+    "operator": "Berner Oberland-Bahn",
+    "id": "node/9367107201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9047906,
+      46.6311266
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367107202",
+  "properties": {
+    "access": "yes",
+    "addr:street": "Station Wengernalp",
+    "defibrillator:location": "Wartsaal",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Wengernalpbahn",
+    "id": "node/9367107202"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9390358,
+      46.5756526
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367107203",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Grindelwald",
+    "addr:postcode": "3818",
+    "addr:street": "Kleine Scheidegg",
+    "defibrillator:location": "Bei SOS-Station, Gleis 12",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Bahnhof Kleine Scheidegg",
+    "phone": "+41 33 828 76 23",
+    "id": "node/9367107203"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9604109,
+      46.5851648
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367107204",
+  "properties": {
+    "access": "permissive",
+    "addr:street": "Station Eigergletscher",
+    "defibrillator:location": "Station Eigergletscher",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Jungfraubahn",
+    "id": "node/9367107204"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9746295,
+      46.57466
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367107205",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Station Eigerwand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Jungfraubahn",
+    "id": "node/9367107205"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0040795,
+      46.58129
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367107206",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Grindelwald",
+    "addr:country": "CH",
+    "addr:postcode": "3818",
+    "addr:street": "Alpiglen",
+    "defibrillator:location": "SOS",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Wengernalpbahn",
+    "id": "node/9367107206"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0019025,
+      46.600105
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367107207",
+  "properties": {
+    "access": "yes",
+    "addr:place": "Brandegg",
+    "defibrillator:location": "Herren WC, 24h zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Wengernalpbahn",
+    "id": "node/9367107207"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0111735,
+      46.60918
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367107208",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Brienz",
+    "addr:housenumber": "188",
+    "addr:postcode": "3855",
+    "addr:street": "Hauptstrasse",
+    "defibrillator:location": "in der Drogerie, zu Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:30-18:00",
+    "operator": "Drogerie Landmesser",
+    "phone": "+41 33 951 32 56",
+    "id": "node/9367107208"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0443425,
+      46.7538317
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367107209",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Innertkirchen",
+    "addr:housenumber": "2",
+    "addr:postcode": "3862",
+    "addr:street": "Grimselstrasse",
+    "defibrillator:location": "Grimseltor - Im Innenraum vor den WC-Anlagen.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Kraftwerke Oberhasli",
+    "phone": "+41 33 982 42 60",
+    "id": "node/9367107209"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2290217,
+      46.7055395
     ]
   }
 }

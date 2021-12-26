@@ -7474,8 +7474,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.1873093,
-      46.7289755
+      8.187343,
+      46.7289194
     ]
   }
 },
@@ -8303,8 +8303,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.891407,
-      46.5579049
+      7.8912096,
+      46.5578634
     ]
   }
 },
@@ -42428,8 +42428,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.8957169,
-      46.5626412
+      7.8958671,
+      46.5626869
     ]
   }
 },
@@ -85224,6 +85224,116 @@
     "coordinates": [
       7.5298568,
       47.2131872
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367107201",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Zweilütschienen",
+    "addr:postcode": "3815",
+    "addr:street": "Bahnstation",
+    "defibrillator:location": "Büro Fahrdienst, zugänglich 04.30 - 23.15",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "Mo-Su 04:30-23:15",
+    "operator": "Berner Oberland-Bahn",
+    "id": "node/9367107201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9047906,
+      46.6311266
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367107204",
+  "properties": {
+    "access": "permissive",
+    "addr:street": "Station Eigergletscher",
+    "defibrillator:location": "Station Eigergletscher",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Jungfraubahn",
+    "id": "node/9367107204"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9746295,
+      46.57466
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367107205",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Station Eigerwand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Jungfraubahn",
+    "id": "node/9367107205"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0040795,
+      46.58129
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367107206",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Grindelwald",
+    "addr:country": "CH",
+    "addr:postcode": "3818",
+    "addr:street": "Alpiglen",
+    "defibrillator:location": "SOS",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Wengernalpbahn",
+    "id": "node/9367107206"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0019025,
+      46.600105
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9367107208",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Brienz",
+    "addr:housenumber": "188",
+    "addr:postcode": "3855",
+    "addr:street": "Hauptstrasse",
+    "defibrillator:location": "in der Drogerie, zu Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:30-18:00",
+    "operator": "Drogerie Landmesser",
+    "phone": "+41 33 951 32 56",
+    "id": "node/9367107208"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0443425,
+      46.7538317
     ]
   }
 }
