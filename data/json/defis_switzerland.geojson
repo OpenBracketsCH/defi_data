@@ -30287,6 +30287,10 @@
   "id": "node/6689134295",
   "properties": {
     "access": "permissive",
+    "addr:city": "Spiez",
+    "addr:housenumber": "6",
+    "addr:postcode": "3700",
+    "addr:street": "Belvédèrestrasse",
     "defibrillator:location": "Röm.-kath. Kirche Bruder Klaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -30332,6 +30336,10 @@
   "id": "node/6689134297",
   "properties": {
     "access": "permissive",
+    "addr:city": "Einigen",
+    "addr:housenumber": "40",
+    "addr:postcode": "3646",
+    "addr:street": "Dorfstrasse",
     "defibrillator:location": "In Kirche vorne rechts unter Kanzel.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -115798,8 +115806,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4550584,
-      47.2855236
+      7.4550497,
+      47.285507
     ]
   }
 },
@@ -143573,21 +143581,21 @@
   "id": "node/9285764238",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schule",
+    "defibrillator:location": "neben der Parkuhr des öffentlichen Parkplatzes",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Stadt Thun, Amt für Sicherheit und Soziales",
-    "phone": "+41 33 225 88 11",
+    "operator": "Lerchenfeldschulhaus",
+    "phone": "+41 58 636 71 00",
     "id": "node/9285764238"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5967643,
-      46.7639534
+      7.5970725,
+      46.7642378
     ]
   }
 },
@@ -149976,6 +149984,104 @@
     "coordinates": [
       8.8252585,
       46.1356738
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9371083365",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Allmendingen b. Thun",
+    "addr:housenumber": "11a",
+    "addr:postcode": "3608",
+    "addr:street": "Im Dorf",
+    "defibrillator:location": "vis-à-vis Kindergarten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Schulhaus Allmendingen",
+    "id": "node/9371083365"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.596039,
+      46.7423801
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9371083366",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Gwatt",
+    "addr:housenumber": "14",
+    "addr:postcode": "3645",
+    "addr:street": "Strättligenstrasse",
+    "defibrillator:location": "Auf dem Parkplatz neben Parkuhr",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Krematorium Thun",
+    "phone": "+41 33 225 89 87",
+    "id": "node/9371083366"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6142044,
+      46.7299755
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9371083367",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Thun",
+    "addr:housenumber": "10",
+    "addr:postcode": "3604",
+    "addr:street": "Länggässli",
+    "defibrillator:location": "WC Gebäude",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Schorenfriedhof",
+    "id": "node/9371083367"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6141967,
+      46.7320513
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9371083368",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Erlenbach im Simmental",
+    "addr:housenumber": "363a",
+    "addr:postcode": "3762",
+    "addr:street": "Pfrundhubel",
+    "defibrillator:location": "neben Briefkasten beim Eingang Pfrundscheune",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Kirchgemeinde Erlenbach",
+    "id": "node/9371083368"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5512845,
+      46.6610305
     ]
   }
 }
