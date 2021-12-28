@@ -883,36 +883,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/3531534217",
-  "properties": {
-    "access": "permissive",
-    "addr:floor": "0",
-    "contact:addr": "Murtenstrasse 111, 3008 Bern",
-    "contact:emergency": "144",
-    "contact:phone": "+41 31 6389400",
-    "defibrillator:location": "AED im Erdgeschoss, rechts an der Wand im Empfangsraum. Zugang via Haupteingang Murtenstrasse mit Gegensprechanlage. Bitte Öffnungszeiten beachten.",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "image_1": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/20150520_SanPol_Zugang_DSC05200.JPG/800px-20150520_SanPol_Zugang_DSC05200.JPG",
-    "image_2": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/20150520_SanPol_AED_DSC05200.JPG/800px-20150520_SanPol_AED_DSC05200.JPG",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-11:30, 14:00-17:00; Sa-Su off; PH off",
-    "operator": "Sanitätspolizei der Stadt Bern",
-    "phone": "+41 31 342 84 44",
-    "source": "survey",
-    "wikimedia_commons": "Category:Sanitätspolizei (Bern)",
-    "id": "node/3531534217"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4141863,
-      46.950201
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/3548635175",
   "properties": {
     "access": "permissive",
@@ -1822,24 +1792,6 @@
     "coordinates": [
       8.0686385,
       47.2429227
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/4339099920",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Gemeindeverwaltung",
-    "id": "node/4339099920"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5128985,
-      46.8141595
     ]
   }
 },
@@ -13786,8 +13738,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4143029,
-      46.9232563
+      7.4141501,
+      46.9232948
     ]
   }
 },
@@ -13886,8 +13838,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4159724,
-      46.8916024
+      7.4162494,
+      46.8922495
     ]
   }
 },
@@ -16002,8 +15954,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4993737,
-      46.8879732
+      7.499459,
+      46.8880103
     ]
   }
 },
@@ -21236,21 +21188,21 @@
   "properties": {
     "access": "permissive",
     "addr:city": "Rüfenacht",
-    "addr:housenumber": "2",
+    "addr:housenumber": "1",
     "addr:postcode": "3075",
     "addr:street": "Sperlisacker",
     "defibrillator:location": "Während den Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "operator": "Kirchgemeindehaus Rüfenacht",
-    "phone": "+41 32 491 61 66",
+    "phone": "+41 31 839 54 38",
     "id": "node/7534004739"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5384053,
-      46.9292791
+      7.5386372,
+      46.9294505
     ]
   }
 },
@@ -59903,18 +59855,24 @@
   "id": "node/8626511217",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Weissensteinstrasse 34, an der Wand nach dem Eingang",
+    "addr:city": "Bern",
+    "addr:housenumber": "34",
+    "addr:postcode": "3007",
+    "addr:street": "Weissensteinstrasse",
+    "defibrillator:location": "an der Wand nach dem Eingang",
     "description": "Kann abgeschlossen sein.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "operator": "Turnhalle Fischermätteli",
+    "phone": "+41 31 370 01 70",
     "id": "node/8626511217"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4192595,
-      46.9407311
+      7.419501,
+      46.9406579
     ]
   }
 },
@@ -62669,8 +62627,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.3418497,
-      46.8197682
+      7.3420438,
+      46.8197332
     ]
   }
 },
@@ -74483,24 +74441,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9060671317",
-  "properties": {
-    "defibrillator:location": "Aussenwand BAG, gegen Strasse",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/9060671317"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4215867,
-      46.9295946
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9061117553",
   "properties": {
     "emergency": "defibrillator",
@@ -85513,6 +85453,384 @@
     "coordinates": [
       8.5840116,
       47.5312704
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9373986238",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "56",
+    "addr:postcode": "3004",
+    "addr:street": "Studerstrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Schulhaus Enge",
+    "phone": "+41 31 321 25 94",
+    "id": "node/9373986238"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4407946,
+      46.9664492
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9373986240",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "139",
+    "addr:postcode": "3012",
+    "addr:street": "Neubrückstrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Sportanlage Länggasse",
+    "phone": "+41 31 321 54 88",
+    "id": "node/9373986240"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4323039,
+      46.9596338
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9373986242",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "40",
+    "addr:postcode": "3012",
+    "addr:street": "Neufeldstrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Schulhaus Länggasse",
+    "phone": "+41 31 321 28 50",
+    "id": "node/9373986242"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4328871,
+      46.9574661
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9373986243",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "42",
+    "addr:postcode": "3012",
+    "addr:street": "Hochfeldstrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Schulanlage Hochfeld",
+    "phone": "+41 31 321 28 60",
+    "id": "node/9373986243"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4287785,
+      46.957208
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9373986244",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "55b",
+    "addr:postcode": "3008",
+    "addr:street": "Steigerhubelstrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Sportanlage Steigerhubel",
+    "phone": "+41 31 321 54 74",
+    "id": "node/9373986244"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4145209,
+      46.9471055
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9373986245",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "16",
+    "addr:postcode": "3007",
+    "addr:street": "Brunnmattstrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Schulhaus Brunnmatt",
+    "phone": "+41 31 380 70 61",
+    "id": "node/9373986245"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4266691,
+      46.945972
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9373986246",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "12",
+    "addr:postcode": "3008",
+    "addr:street": "Schlossstrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Sportanlage Lory",
+    "phone": "+41 31 321 54 74",
+    "id": "node/9373986246"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4201794,
+      46.944756
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9373986247",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "11",
+    "addr:postcode": "3007",
+    "addr:street": "Munzingerstrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Schulhaus Munzinger",
+    "phone": "+41 31 321 21 00",
+    "id": "node/9373986247"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4217684,
+      46.9410428
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9373986248",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "41",
+    "addr:postcode": "3007",
+    "addr:street": "Weissensteinstrasse",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Schulhaus Pestalozzi",
+    "phone": "+41 31 370 01 70",
+    "id": "node/9373986248"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4242772,
+      46.9399187
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9373986249",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "22",
+    "addr:postcode": "3007",
+    "addr:street": "Philosphenweg",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Turnhalle Philosophenweg",
+    "phone": "+41 31 321 21 00",
+    "id": "node/9373986249"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4288129,
+      46.9425601
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9373986250",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "10",
+    "addr:postcode": "3007",
+    "addr:street": "Tscharnerstrasse",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Schulhaus HPS",
+    "phone": "+41 31 380 70 61",
+    "id": "node/9373986250"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4297144,
+      46.9411158
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9373986251",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "38",
+    "addr:postcode": "3007",
+    "addr:street": "Eigerstrasse",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Schulhaus Sulgenbach",
+    "phone": "+41 31 370 01 70",
+    "id": "node/9373986251"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4341413,
+      46.9401477
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9373986252",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "1b",
+    "addr:postcode": "3007",
+    "addr:street": "Roschistrasse",
+    "defibrillator:location": "Physiopraxis, Während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Iff Physio synergy",
+    "phone": "+41 31 558 28 00",
+    "id": "node/9373986252"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4382116,
+      46.9355149
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9373986253",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "10",
+    "addr:postcode": "3007",
+    "addr:street": "Chutzenstrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "Mo-Th 08:00-12:00,13:30-17:00; Fr 08:00-12:00,13:30-16:00",
+    "operator": "Ausgleichskasse des Kantons Bern",
+    "phone": "+41 31 379 78 97",
+    "id": "node/9373986253"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.42876,
+      46.937565
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9373986255",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Liebefeld",
+    "addr:housenumber": "153",
+    "addr:postcode": "3097",
+    "addr:street": "Schwarzenburgstrasse",
+    "defibrillator:location": "Empfang, zu Bürozeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Campus Liebefeld Empfang",
+    "phone": "+41 58 465 08 74",
+    "id": "node/9373986255"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4213589,
+      46.930166
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9373986257",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Konolfingen",
+    "addr:housenumber": "3",
+    "addr:postcode": "3510",
+    "addr:street": "Freimettigenstrasse",
+    "defibrillator:location": "Im EG bei der Stempeluhr",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "Mo-Fr 06:00-17:30",
+    "operator": "Kern AG",
+    "phone": "+41 31 790 35 35",
+    "id": "node/9373986257"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6219831,
+      46.8716233
     ]
   }
 }

@@ -526,6 +526,36 @@
 },
 {
   "type": "Feature",
+  "id": "node/3531534217",
+  "properties": {
+    "access": "yes",
+    "addr:floor": "0",
+    "contact:addr": "Murtenstrasse 111, 3008 Bern",
+    "contact:emergency": "144",
+    "contact:phone": "+41 31 6389400",
+    "defibrillator:location": "AED im Erdgeschoss, rechts an der Wand im Empfangsraum. Zugang via Haupteingang Murtenstrasse mit Gegensprechanlage. Bitte Öffnungszeiten beachten.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "image_1": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/20150520_SanPol_Zugang_DSC05200.JPG/800px-20150520_SanPol_Zugang_DSC05200.JPG",
+    "image_2": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/20150520_SanPol_AED_DSC05200.JPG/800px-20150520_SanPol_AED_DSC05200.JPG",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Sanitätspolizei der Stadt Bern",
+    "phone": "+41 31 342 84 44",
+    "source": "survey",
+    "wikimedia_commons": "Category:Sanitätspolizei (Bern)",
+    "id": "node/3531534217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4141863,
+      46.950201
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/3532705581",
   "properties": {
     "access": "yes",
@@ -11177,31 +11207,6 @@
     "coordinates": [
       7.5632483,
       46.8779437
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/6661361782",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Mühlethurnen",
-    "addr:housenumber": "13",
-    "addr:postcode": "3127",
-    "addr:street": "Schulhausweg",
-    "defibrillator:location": "Standort in der Pausenhalle",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Schule Mühlethurnen",
-    "id": "node/6661361782"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5110126,
-      46.81159
     ]
   }
 },
@@ -46469,8 +46474,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5639868,
-      46.9260659
+      7.5639543,
+      46.9259567
     ]
   }
 },
@@ -47055,31 +47060,6 @@
     "coordinates": [
       7.343855,
       47.1203472
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8734513578",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Stettlen",
-    "addr:housenumber": "43",
-    "addr:postcode": "3066",
-    "addr:street": "Bernstrasse",
-    "defibrillator:location": "An der Gebäudefassade bei den Briefkästen",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Turnhalle Bernstrasse",
-    "phone": "+41 76 440 51 15",
-    "id": "node/8734513578"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5420413,
-      46.9520714
     ]
   }
 },
@@ -54776,6 +54756,32 @@
     "coordinates": [
       8.6012122,
       47.2912404
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9060671317",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Liebefeld",
+    "addr:housenumber": "157",
+    "addr:postcode": "3097",
+    "addr:street": "Schwarzenburgstrasse",
+    "defibrillator:location": "An der Bündenackerstrasse, Anlieferung BAG, gegenüber Liebefeldpark",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Bundesamt für Gesundheit BAG",
+    "phone": "+41584650874",
+    "id": "node/9060671317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4215867,
+      46.9295946
     ]
   }
 },
@@ -64697,6 +64703,155 @@
     "coordinates": [
       8.6418843,
       47.5149349
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9373986237",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Bern",
+    "addr:housenumber": "37",
+    "addr:postcode": "3004",
+    "addr:street": "Fährstrasse",
+    "defibrillator:location": "Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Wohngemeinschaft Drehpunkt",
+    "id": "node/9373986237"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4417245,
+      46.9750564
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9373986239",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Bern",
+    "addr:housenumber": "31",
+    "addr:postcode": "3004",
+    "addr:street": "Studerstrasse",
+    "defibrillator:location": "An der Hausfassade vom Garderobengebäude",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Sportanlage Viererfeld",
+    "phone": "+41 31 321 54 88",
+    "id": "node/9373986239"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4376476,
+      46.9654707
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9373986241",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Bern",
+    "addr:housenumber": "147",
+    "addr:postcode": "3012",
+    "addr:street": "Neubrückstrasse",
+    "defibrillator:location": "Bei der Buvette an der Hausfassade",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Sportanlage Neufeld",
+    "phone": "+41 31 321 54 88",
+    "id": "node/9373986241"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4311954,
+      46.9602036
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9373986254",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Bern",
+    "addr:housenumber": "18",
+    "addr:postcode": "3008",
+    "addr:street": "Somazzistrasse",
+    "defibrillator:location": "Bei Kunstrasen am Zaun montiert, neben dem Elektrokasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Sportanlage Weissenstein",
+    "phone": "+41 31 321 54 74",
+    "id": "node/9373986254"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4220138,
+      46.9354829
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9373986256",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Utzigen",
+    "addr:housenumber": "244",
+    "addr:postcode": "3068",
+    "addr:street": "Aetzrütti",
+    "defibrillator:location": "Bauernhaus an Fassade",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "phone": "+41 31 838 00 12",
+    "id": "node/9373986256"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.599333,
+      46.9666499
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9373986258",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Freimettigen",
+    "addr:housenumber": "14",
+    "addr:postcode": "3510",
+    "addr:street": "Dorfstrasse",
+    "defibrillator:location": "unter der Treppe",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Familie Sarbach",
+    "id": "node/9373986258"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6274114,
+      46.8685321
     ]
   }
 }
