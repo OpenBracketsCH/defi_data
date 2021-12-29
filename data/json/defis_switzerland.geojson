@@ -7024,10 +7024,16 @@
   "type": "Feature",
   "id": "node/5761310807",
   "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "1",
+    "addr:postcode": "3005",
+    "addr:street": "Tierparkweg",
     "defibrillator:location": "rechts neben Zoo-Shop an der Aussenwand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "operator": "Vivarium Tierpark",
     "id": "node/5761310807"
   },
   "geometry": {
@@ -151037,6 +151043,444 @@
     "coordinates": [
       7.4908356,
       46.9236163
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9376215928",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "5",
+    "addr:postcode": "3027",
+    "addr:street": "Billeweg",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Schulhaus Brünnen",
+    "phone": "+41 31 321 54 32",
+    "id": "node/9376215928"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3787477,
+      46.9474383
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9376215929",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:postcode": "3027",
+    "addr:street": "Holenackerstrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Sportanlage Holenacker",
+    "phone": "+41 31 321 54 74",
+    "id": "node/9376215929"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3803282,
+      46.9497209
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9376215930",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "109",
+    "addr:postcode": "3027",
+    "addr:street": "Kornweg",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Schulanlage Bethlehem",
+    "phone": "+41 31 321 54 00",
+    "id": "node/9376215930"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.387142,
+      46.9505373
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9376215931",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "22",
+    "addr:postcode": "3027",
+    "addr:street": "Fellerstrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Schulhaus Tscharnergut",
+    "phone": "+41 31 321 20 05",
+    "id": "node/9376215931"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3901555,
+      46.947707
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9376215932",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "37",
+    "addr:postcode": "3018",
+    "addr:street": "Keltenstrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Schulhaus Schwabgut",
+    "phone": "+41 31 321 27 00",
+    "id": "node/9376215932"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3968838,
+      46.9447019
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9376215933",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "5",
+    "addr:postcode": "3018",
+    "addr:street": "Bienenstrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Schulhaus Stöckacker",
+    "phone": "+41 31 321 27 20",
+    "id": "node/9376215933"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4024381,
+      46.9453805
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9376215934",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "35",
+    "addr:postcode": "3018",
+    "addr:street": "Bernstrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Schulhaus Höhe",
+    "phone": "+41 31 321 51 05",
+    "id": "node/9376215934"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.398181,
+      46.9421968
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9376215935",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Bern",
+    "addr:housenumber": "201",
+    "addr:postcode": "3018",
+    "addr:street": "Freiburgstrasse",
+    "defibrillator:location": "Beim Haupteingang rechts, an der Hausfassade montiert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Sportanlage Bodenweid",
+    "phone": "+41 31 321 54 74",
+    "id": "node/9376215935"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.40233,
+      46.9405173
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9376215936",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "21",
+    "addr:postcode": "3008",
+    "addr:street": "Effingerstrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Verwaltungsgebäude Meerhaus",
+    "phone": "+41 31 321 65 72",
+    "id": "node/9376215936"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4340873,
+      46.9457035
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9376215937",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "2",
+    "addr:postcode": "3011",
+    "addr:street": "Hirschengraben",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "Mo-Fr 08:00-17:30",
+    "operator": "Domenig & Partner",
+    "phone": "+41 31 380 11 00",
+    "id": "node/9376215937"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4374884,
+      46.9468886
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9376215938",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "71f",
+    "addr:postcode": "3005",
+    "addr:street": "Brückenstrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Schulanlage Marzili",
+    "phone": "+41 31 980 24 24",
+    "id": "node/9376215938"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4402343,
+      46.9421056
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9376215939",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "46",
+    "addr:postcode": "3005",
+    "addr:street": "Aegertenstrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Schulhaus Kirchenfeld",
+    "phone": "+41 31 321 22 95",
+    "id": "node/9376215939"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4471067,
+      46.9395318
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9376215940",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "12",
+    "addr:postcode": "3011",
+    "addr:street": "Predigergasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Verwaltungsgebäude",
+    "phone": "+41 31 321 50 35",
+    "id": "node/9376215940"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4459605,
+      46.9495889
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9376215941",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:postcode": "3011",
+    "addr:street": "Langmauerweg 12",
+    "defibrillator:location": "Beim Firmeneingang muss geklingelt werden, da die Eingangstüre automatisch schliesst",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Empiricon AG",
+    "phone": "+41 31 318 86 06",
+    "id": "node/9376215941"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.456295,
+      46.9499716
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9376215942",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:postcode": "3011",
+    "addr:street": "Schifflaube",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Schulanlage Matte",
+    "phone": "+41 31 321 22 95",
+    "id": "node/9376215942"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4555923,
+      46.9466806
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9376215943",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "23",
+    "addr:postcode": "3006",
+    "addr:street": "Laubeggstrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Schulhaus Laubegg",
+    "phone": "+41 31 321 22 28",
+    "id": "node/9376215943"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.462019,
+      46.9512186
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9376215944",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "15",
+    "addr:postcode": "3006",
+    "addr:street": "Bitziusstrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Schulhaus Bitzius",
+    "phone": "+41 31 321 29 99",
+    "id": "node/9376215944"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4667169,
+      46.9511875
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9376215945",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "1",
+    "addr:postcode": "3006",
+    "addr:street": "Jolimontstrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Schulhaus Sonnenhof",
+    "phone": "+41 31 321 22 28",
+    "id": "node/9376215945"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4709746,
+      46.9425854
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9376215946",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "10",
+    "addr:postcode": "3006",
+    "addr:street": "Elfenauweg",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Schulanlage Manuel",
+    "phone": "+41 31 350 41 40",
+    "id": "node/9376215946"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.46883,
+      46.9383588
     ]
   }
 }
