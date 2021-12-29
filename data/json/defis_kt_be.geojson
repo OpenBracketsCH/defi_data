@@ -16822,8 +16822,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4721839,
-      46.9704845
+      7.472295,
+      46.9704805
     ]
   }
 },
@@ -16943,8 +16943,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4633659,
-      46.9657157
+      7.4640071,
+      46.9659062
     ]
   }
 },
@@ -17674,6 +17674,10 @@
   "id": "node/6646758384",
   "properties": {
     "access": "yes",
+    "addr:city": "Bern",
+    "addr:housenumber": "1",
+    "addr:postcode": "3013",
+    "addr:street": "Laubeggstrasse",
     "defibrillator:location": "Im Rosengarten beim WC im Gartenhaus draussen neben dem Lavabo (nicht das obere WC aus Metall beim Restaurant.)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -18332,8 +18336,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5066805,
-      46.9330849
+      7.5068,
+      46.9330732
     ]
   }
 },
@@ -28057,8 +28061,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5065929,
-      46.9314403
+      7.5068783,
+      46.9309961
     ]
   }
 },
@@ -28107,8 +28111,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4875111,
-      46.92995
+      7.48725,
+      46.929975
     ]
   }
 },
@@ -28506,8 +28510,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4977793,
-      46.9345704
+      7.4980321,
+      46.9345479
     ]
   }
 },
@@ -32887,8 +32891,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4646442,
-      46.9683108
+      7.4646719,
+      46.9681697
     ]
   }
 },
@@ -35955,7 +35959,7 @@
   "type": "Feature",
   "id": "node/9019542019",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Haupteingang Bolligenstrasse 82, Erdgeschoss, beim BMA-Tableau platziert",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
@@ -39256,6 +39260,309 @@
     "coordinates": [
       7.5135194,
       46.4565636
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9375906092",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Bern",
+    "addr:postcode": "3013",
+    "addr:street": "Spitalackerstrasse",
+    "defibrillator:location": "Bei der Buvette FC Breitenrain, an der Hausfassade",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Sportanlage Spitalacker",
+    "phone": "+41 31 321 54 88",
+    "id": "node/9375906092"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4544957,
+      46.9551948
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9375906093",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:postcode": "3013",
+    "addr:street": "Gotthelfstrasse 40",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Schulhaus Spitalacker",
+    "phone": "+41 31 321 24 24",
+    "id": "node/9375906093"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4533061,
+      46.9551987
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9375906094",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "42",
+    "addr:postcode": "3013",
+    "addr:street": "Breitenrainstrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Schulhaus Breitenrain",
+    "phone": "+41 31 321 24 24",
+    "id": "node/9375906094"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4477949,
+      46.9568763
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9375906095",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "33",
+    "addr:postcode": "3013",
+    "addr:street": "Lorrainestrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Schulhaus Lorraine",
+    "phone": "+41 31 321 25 69",
+    "id": "node/9375906095"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4443686,
+      46.9585596
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9375906096",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "82",
+    "addr:postcode": "3006",
+    "addr:street": "Bolligenstrasse",
+    "defibrillator:location": "Bei der Brandmeldeanlage im Gebäude, Zu Büroöffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Scout & Sport AG",
+    "phone": "41 31 838 38 38",
+    "id": "node/9375906096"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4718212,
+      46.9586254
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9375906097",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "18",
+    "addr:postcode": "3014",
+    "addr:street": "Weingartstrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Schulhaus Markus",
+    "phone": "+41 31 321 25 08",
+    "id": "node/9375906097"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.456504,
+      46.962411
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9375906098",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "61",
+    "addr:postcode": "3006",
+    "addr:street": "Standstrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Schulhaus Breitfeld",
+    "phone": "+41 31 321 25 08",
+    "id": "node/9375906098"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4533225,
+      46.9625424
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9375906099",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "101",
+    "addr:postcode": "3004",
+    "addr:street": "Reichenbachstrasse 101",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Schulhaus Rossfeld",
+    "phone": "+41 31 321 25 94",
+    "id": "node/9375906099"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4487973,
+      46.9736722
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9375906100",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "60",
+    "addr:postcode": "3014",
+    "addr:street": "Dändlikerweg 60",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Schulhaus Wylergut",
+    "phone": "+41 31 321 25 69",
+    "id": "node/9375906100"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4493992,
+      46.9652848
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9375906101",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Bern",
+    "addr:housenumber": "65b",
+    "addr:postcode": "3014",
+    "addr:street": "Scheibenstrasse 65B",
+    "defibrillator:location": "An der Hausfassade, neben Platzwart Büro",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Sportanlage Wyler",
+    "phone": "+41 31 321 54 88",
+    "id": "node/9375906101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4513992,
+      46.9657197
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9375906102",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "2",
+    "addr:postcode": "3014",
+    "addr:street": "Morgartenstrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Schulhaus Wankdorf",
+    "phone": "+41 31 321 25 35",
+    "id": "node/9375906102"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4617648,
+      46.9638985
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9375906103",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "35",
+    "addr:postcode": "3015",
+    "addr:street": "Jupiterstrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Schulhaus Wittigkofen",
+    "phone": "+41 31 321 21 61",
+    "id": "node/9375906103"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4833008,
+      46.9385594
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9375906104",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Bern",
+    "addr:postcode": "3074",
+    "addr:street": "Kriegliweg",
+    "defibrillator:location": "Eingang Kasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Aarebad Muri",
+    "phone": "+41 31 950 54 18",
+    "id": "node/9375906104"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4908356,
+      46.9236163
     ]
   }
 }

@@ -10138,6 +10138,10 @@
   "id": "node/6646758384",
   "properties": {
     "access": "yes",
+    "addr:city": "Bern",
+    "addr:housenumber": "1",
+    "addr:postcode": "3013",
+    "addr:street": "Laubeggstrasse",
     "defibrillator:location": "Im Rosengarten beim WC im Gartenhaus draussen neben dem Lavabo (nicht das obere WC aus Metall beim Restaurant.)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -64875,6 +64879,79 @@
     "coordinates": [
       7.5135194,
       46.4565636
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9375906092",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Bern",
+    "addr:postcode": "3013",
+    "addr:street": "Spitalackerstrasse",
+    "defibrillator:location": "Bei der Buvette FC Breitenrain, an der Hausfassade",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Sportanlage Spitalacker",
+    "phone": "+41 31 321 54 88",
+    "id": "node/9375906092"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4544957,
+      46.9551948
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9375906101",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Bern",
+    "addr:housenumber": "65b",
+    "addr:postcode": "3014",
+    "addr:street": "Scheibenstrasse 65B",
+    "defibrillator:location": "An der Hausfassade, neben Platzwart Büro",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Sportanlage Wyler",
+    "phone": "+41 31 321 54 88",
+    "id": "node/9375906101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4513992,
+      46.9657197
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9375906104",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Bern",
+    "addr:postcode": "3074",
+    "addr:street": "Kriegliweg",
+    "defibrillator:location": "Eingang Kasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Aarebad Muri",
+    "phone": "+41 31 950 54 18",
+    "id": "node/9375906104"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4908356,
+      46.9236163
     ]
   }
 }
