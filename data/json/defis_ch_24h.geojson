@@ -3188,10 +3188,16 @@
   "id": "node/6418976583",
   "properties": {
     "access": "yes",
+    "addr:city": "Gondiswil",
+    "addr:housenumber": "50",
+    "addr:postcode": "4955",
+    "addr:street": "Dorfstrasse",
     "defibrillator:location": "Haupteingang aussen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
+    "operator": "Mehrzweckhalle Gondiswil",
+    "phone": "+41 79 759 24 15",
     "wheelchair": "yes",
     "id": "node/6418976583"
   },
@@ -5739,7 +5745,7 @@
     "addr:housenumber": "9",
     "addr:postcode": "4952",
     "addr:street": "Ahornstrasse",
-    "defibrillator:location": "Gemeindeverwaltung Eriswil",
+    "defibrillator:location": "beim Eingang Gemeindeverwaltung Eriswil",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
@@ -5750,8 +5756,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.8512637,
-      47.0776156
+      7.8512052,
+      47.0776269
     ]
   }
 },
@@ -19203,8 +19209,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6775543,
-      46.8477403
+      7.6774371,
+      46.8477853
     ]
   }
 },
@@ -34454,8 +34460,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6933193,
-      47.0387909
+      7.6934482,
+      47.0388077
     ]
   }
 },
@@ -64954,6 +64960,103 @@
     "coordinates": [
       7.40233,
       46.9405173
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9376938052",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Neuenegg",
+    "addr:housenumber": "6",
+    "addr:postcode": "3176",
+    "addr:street": "Stuberweg",
+    "defibrillator:location": "an der Fassade des Zwischentraktes zwischen Sek.schulhaus + Prim.schulhaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Schul- und Kirchenzentrum Neuenegg",
+    "phone": "+41 31 744 01 00",
+    "id": "node/9376938052"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.29604,
+      46.8964738
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9376968701",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Wasen im Emmental",
+    "addr:housenumber": "16",
+    "addr:postcode": "3457",
+    "addr:street": "Lugenbachweg",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Hans Sommer GmbH",
+    "phone": "+41 797712660",
+    "id": "node/9376968701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8055139,
+      47.0457636
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9376968702",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Wasen im Emmental",
+    "addr:housenumber": "2",
+    "addr:postcode": "3457",
+    "addr:street": "Engeweg",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Feuerwehrmagazin Wasen",
+    "phone": "+41 79 771 26 60",
+    "id": "node/9376968702"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7949589,
+      47.0434112
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9376968703",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Grünen",
+    "addr:housenumber": "30",
+    "addr:postcode": "3455",
+    "addr:street": "Eystrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "PB Swiss Tools AG",
+    "phone": "+41 797712660",
+    "id": "node/9376968703"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7493517,
+      47.0260653
     ]
   }
 }

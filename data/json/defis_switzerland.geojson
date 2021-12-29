@@ -8850,10 +8850,16 @@
   "id": "node/6418976583",
   "properties": {
     "access": "yes",
+    "addr:city": "Gondiswil",
+    "addr:housenumber": "50",
+    "addr:postcode": "4955",
+    "addr:street": "Dorfstrasse",
     "defibrillator:location": "Haupteingang aussen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
+    "operator": "Mehrzweckhalle Gondiswil",
+    "phone": "+41 79 759 24 15",
     "wheelchair": "yes",
     "id": "node/6418976583"
   },
@@ -9448,7 +9454,7 @@
     "addr:housenumber": "51",
     "addr:postcode": "4950",
     "addr:street": "Spitalstrasse",
-    "defibrillator:location": "Beim Haupteingang Verfügbar von 07.00 Uhr - 20.00 Uhr",
+    "defibrillator:location": "Beim Haupteingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "07:00-20:00",
@@ -9615,13 +9621,18 @@
   "id": "node/6516286746",
   "properties": {
     "access": "permissive",
+    "addr:city": "Huttwil",
+    "addr:housenumber": "1",
+    "addr:postcode": "4950",
+    "addr:street": "Schwende",
     "defibrillator:location": "Biketec AG, Personaleingang Parterre",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "Flyer",
     "opening_hours": "Mo-Fr 08:00-17:00",
-    "operator": "FLYER Werk",
+    "operator": "Biketec AG",
+    "phone": "+41 79 372 00 27",
     "id": "node/6516286746"
   },
   "geometry": {
@@ -11364,8 +11375,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7016156,
-      46.9979566
+      7.7015621,
+      46.9978274
     ]
   }
 },
@@ -11514,8 +11525,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7606192,
-      47.0309296
+      7.7608406,
+      47.0309228
     ]
   }
 },
@@ -11831,29 +11842,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6563309418",
-  "properties": {
-    "access": "permissive",
-    "addr:city": "Langnau im Emmental",
-    "addr:housenumber": "34",
-    "addr:postcode": "3550",
-    "addr:street": "Bahnhofstrasse",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "operator": "Emmi Fondue AG",
-    "phone": "+41 58 227 20 20",
-    "id": "node/6563309418"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.7888587,
-      46.9372004
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6563309419",
   "properties": {
     "access": "permissive",
@@ -11971,8 +11959,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.784649,
-      46.9410522
+      7.7847044,
+      46.9411156
     ]
   }
 },
@@ -14878,7 +14866,7 @@
     "addr:housenumber": "9",
     "addr:postcode": "4952",
     "addr:street": "Ahornstrasse",
-    "defibrillator:location": "Gemeindeverwaltung Eriswil",
+    "defibrillator:location": "beim Eingang Gemeindeverwaltung Eriswil",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
@@ -14889,8 +14877,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.8512637,
-      47.0776156
+      7.8512052,
+      47.0776269
     ]
   }
 },
@@ -15272,8 +15260,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7856606,
-      46.9362901
+      7.7860944,
+      46.9361686
     ]
   }
 },
@@ -15343,8 +15331,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7487624,
-      46.9716013
+      7.7484606,
+      46.9713461
     ]
   }
 },
@@ -40350,8 +40338,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6775543,
-      46.8477403
+      7.6774371,
+      46.8477853
     ]
   }
 },
@@ -83151,8 +83139,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6933193,
-      47.0387909
+      7.6934482,
+      47.0388077
     ]
   }
 },
@@ -144265,12 +144253,16 @@
   "id": "node/9288166817",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Aula Zollbrück",
+    "addr:city": "Zollbrück",
+    "addr:postcode": "3436",
+    "addr:street": "Lauperswilstrasse 2",
+    "defibrillator:location": "Haupteingang",
     "description": "Immer zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "operator": "Gemeinde",
+    "operator": "Neue Sekundarschule Zollbrück",
+    "phone": "+41 79 652 39 48",
     "id": "node/9288166817"
   },
   "geometry": {
@@ -151594,6 +151586,103 @@
     "coordinates": [
       7.3837668,
       46.9444578
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9376938052",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Neuenegg",
+    "addr:housenumber": "6",
+    "addr:postcode": "3176",
+    "addr:street": "Stuberweg",
+    "defibrillator:location": "an der Fassade des Zwischentraktes zwischen Sek.schulhaus + Prim.schulhaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Schul- und Kirchenzentrum Neuenegg",
+    "phone": "+41 31 744 01 00",
+    "id": "node/9376938052"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.29604,
+      46.8964738
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9376968701",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Wasen im Emmental",
+    "addr:housenumber": "16",
+    "addr:postcode": "3457",
+    "addr:street": "Lugenbachweg",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Hans Sommer GmbH",
+    "phone": "+41 797712660",
+    "id": "node/9376968701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8055139,
+      47.0457636
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9376968702",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Wasen im Emmental",
+    "addr:housenumber": "2",
+    "addr:postcode": "3457",
+    "addr:street": "Engeweg",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Feuerwehrmagazin Wasen",
+    "phone": "+41 79 771 26 60",
+    "id": "node/9376968702"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7949589,
+      47.0434112
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9376968703",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Grünen",
+    "addr:housenumber": "30",
+    "addr:postcode": "3455",
+    "addr:street": "Eystrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "PB Swiss Tools AG",
+    "phone": "+41 797712660",
+    "id": "node/9376968703"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7493517,
+      47.0260653
     ]
   }
 }

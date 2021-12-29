@@ -5999,7 +5999,7 @@
     "addr:housenumber": "51",
     "addr:postcode": "4950",
     "addr:street": "Spitalstrasse",
-    "defibrillator:location": "Beim Haupteingang Verfügbar von 07.00 Uhr - 20.00 Uhr",
+    "defibrillator:location": "Beim Haupteingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "07:00-20:00",
@@ -6116,13 +6116,18 @@
   "id": "node/6516286746",
   "properties": {
     "access": "permissive",
+    "addr:city": "Huttwil",
+    "addr:housenumber": "1",
+    "addr:postcode": "4950",
+    "addr:street": "Schwende",
     "defibrillator:location": "Biketec AG, Personaleingang Parterre",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "Flyer",
     "opening_hours": "Mo-Fr 08:00-17:00",
-    "operator": "FLYER Werk",
+    "operator": "Biketec AG",
+    "phone": "+41 79 372 00 27",
     "id": "node/6516286746"
   },
   "geometry": {
@@ -7096,8 +7101,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7016156,
-      46.9979566
+      7.7015621,
+      46.9978274
     ]
   }
 },
@@ -7147,8 +7152,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7606192,
-      47.0309296
+      7.7608406,
+      47.0309228
     ]
   }
 },
@@ -7317,29 +7322,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6563309418",
-  "properties": {
-    "access": "permissive",
-    "addr:city": "Langnau im Emmental",
-    "addr:housenumber": "34",
-    "addr:postcode": "3550",
-    "addr:street": "Bahnhofstrasse",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "operator": "Emmi Fondue AG",
-    "phone": "+41 58 227 20 20",
-    "id": "node/6563309418"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.7888587,
-      46.9372004
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6563309419",
   "properties": {
     "access": "permissive",
@@ -7407,8 +7389,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.784649,
-      46.9410522
+      7.7847044,
+      46.9411156
     ]
   }
 },
@@ -9424,8 +9406,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7856606,
-      46.9362901
+      7.7860944,
+      46.9361686
     ]
   }
 },
@@ -9446,8 +9428,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7487624,
-      46.9716013
+      7.7484606,
+      46.9713461
     ]
   }
 },
@@ -82043,12 +82025,16 @@
   "id": "node/9288166817",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Aula Zollbrück",
+    "addr:city": "Zollbrück",
+    "addr:postcode": "3436",
+    "addr:street": "Lauperswilstrasse 2",
+    "defibrillator:location": "Haupteingang",
     "description": "Immer zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "operator": "Gemeinde",
+    "operator": "Neue Sekundarschule Zollbrück",
+    "phone": "+41 79 652 39 48",
     "id": "node/9288166817"
   },
   "geometry": {
