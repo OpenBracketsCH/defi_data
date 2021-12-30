@@ -17788,31 +17788,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6646804889",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Herrenschwanden",
-    "addr:housenumber": "9",
-    "addr:postcode": "3037",
-    "addr:street": "Halegasse",
-    "defibrillator:location": "vor Haupteingang Schulhaus Herrenschwanden",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Primarschule Herrenschwanden",
-    "phone": "+41 31 302 04 53",
-    "id": "node/6646804889"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4195492,
-      46.975215
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6646804890",
   "properties": {
     "access": "permissive",
@@ -40209,6 +40184,27 @@
     "coordinates": [
       7.7493517,
       47.0260653
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9378383913",
+  "properties": {
+    "access": "yes",
+    "check_date": "2021-12-29",
+    "covered": "yes",
+    "defibrillator:location": "links vor Eingang des Schulhauses",
+    "emergency": "defibrillator",
+    "location": "outdoor",
+    "opening_hours": "24/7",
+    "id": "node/9378383913"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4189901,
+      46.9757441
     ]
   }
 }
