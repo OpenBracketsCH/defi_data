@@ -25448,30 +25448,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6987868230",
-  "properties": {
-    "access": "permissive",
-    "addr:city": "Adelboden",
-    "addr:housenumber": "1149",
-    "addr:postcode": "3715",
-    "addr:street": "Geils",
-    "defibrillator:location": "Im Sanitätsraum - Abrufbar über Pisten SOS (s. Tel.)",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "operator": "Bergbahnen Adelboden AG (BAAG)",
-    "phone": "+41 33 673 90 90",
-    "id": "node/6987868230"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5130129,
-      46.4569355
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6987868231",
   "properties": {
     "access": "permissive",
@@ -37236,6 +37212,7 @@
   "properties": {
     "defibrillator:location": "Eingangshalle rechts",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/9315256905"
   },
@@ -40201,6 +40178,7 @@
     "covered": "yes",
     "defibrillator:location": "links vor Eingang des Schulhauses",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "location": "outdoor",
     "opening_hours": "24/7",
     "id": "node/9378383913"
@@ -40220,6 +40198,7 @@
     "access": "yes",
     "defibrillator:location": "Near the toilets",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "id": "node/9379133618"

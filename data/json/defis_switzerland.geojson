@@ -36012,30 +36012,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6987868230",
-  "properties": {
-    "access": "permissive",
-    "addr:city": "Adelboden",
-    "addr:housenumber": "1149",
-    "addr:postcode": "3715",
-    "addr:street": "Geils",
-    "defibrillator:location": "Im Sanitätsraum - Abrufbar über Pisten SOS (s. Tel.)",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "operator": "Bergbahnen Adelboden AG (BAAG)",
-    "phone": "+41 33 673 90 90",
-    "id": "node/6987868230"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5130129,
-      46.4569355
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6987868231",
   "properties": {
     "access": "permissive",
@@ -129781,7 +129757,6 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
     "operator": "Stadtverwaltung Maienfeld",
     "phone": "+41 81 300 45 65",
     "id": "node/9078684953"
@@ -129850,7 +129825,6 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
     "operator": "Betriebsleiter Liegenschaften",
     "phone": "+41 81 300 45 63",
     "id": "node/9078714468"
@@ -129896,7 +129870,6 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
     "operator": "Senesca Maienfeld Pflegezentrum",
     "phone": "+41 81 303 85 85",
     "id": "node/9078716753"
@@ -145008,6 +144981,7 @@
     "access": "customers",
     "defibrillator:location": "Im Innenraum nahe Geldautomat",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "opening_hours": "24/7",
@@ -145231,6 +145205,7 @@
     "defibrillator:location": "in der Eingangshalle",
     "description": "während den Öffnungszeiten des Gebäudes allgemein zugänglich",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/9311085773"
   },
@@ -145332,6 +145307,7 @@
   "properties": {
     "defibrillator:location": "Eingangshalle rechts",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/9315256905"
   },
@@ -146635,6 +146611,7 @@
   "properties": {
     "defibrillator:location": "Bei Kundeninformation",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Su 09:00-20:00",
     "operator": "Shoppi Tivoli",
@@ -146655,6 +146632,7 @@
     "access": "permit",
     "defibrillator:location": "Personaleingang",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "name": "BOGG",
@@ -147203,6 +147181,7 @@
   "id": "node/9330065892",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/9330065892"
   },
   "geometry": {
@@ -147328,6 +147307,7 @@
   "properties": {
     "defibrillator:location": "Beim Hauseingang links",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "id": "node/9339536025"
   },
@@ -148489,6 +148469,7 @@
   "properties": {
     "access": "yes",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "wheelchair": "yes",
@@ -148508,6 +148489,7 @@
   "properties": {
     "access": "yes",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "wheelchair": "limited",
     "id": "node/9356644189"
@@ -148719,6 +148701,7 @@
   "properties": {
     "access": "yes",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
     "name": "Feuerwehrmagazin Solothurn",
@@ -148740,6 +148723,7 @@
     "access": "yes",
     "defibrillator:location": "An der Kirchenwand aussen",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "opening_hours": "24/7",
     "wheelchair": "yes",
     "id": "node/9365342487"
@@ -149839,6 +149823,7 @@
   "id": "node/9369810947",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/9369810947"
   },
@@ -149998,6 +149983,7 @@
     "access": "yes",
     "defibrillator:location": "A la caisse accueil Migros (fleurs)",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
     "id": "node/9373267160"
@@ -150017,6 +150003,7 @@
     "access": "yes",
     "defibrillator:location": "Alterswohnheim Flaachtal Beim Eingang, im Haus, gleich links neben der Türe",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "24/7",
     "phone": "+41 52 305 36 96",
@@ -151675,6 +151662,7 @@
     "covered": "yes",
     "defibrillator:location": "links vor Eingang des Schulhauses",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "location": "outdoor",
     "opening_hours": "24/7",
     "id": "node/9378383913"
@@ -151694,6 +151682,7 @@
     "access": "yes",
     "defibrillator:location": "Near the toilets",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "id": "node/9379133618"
