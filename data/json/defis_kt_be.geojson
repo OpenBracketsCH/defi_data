@@ -3740,18 +3740,20 @@
     "addr:housenumber": "3a",
     "addr:postcode": "4707",
     "addr:street": "Doktorsträssli",
-    "defibrillator:location": "Turnhalle",
+    "defibrillator:location": "Turnhalle, EG, Saniraum, beschildert im Treppenhaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:15-12:00, 13:00-16:00",
     "operator": "Schule Niederbipp",
+    "phone": "+41 32 633 26 86",
     "id": "node/6518992270"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6928396,
-      47.2716462
+      7.6933621,
+      47.2714675
     ]
   }
 },
@@ -40208,6 +40210,27 @@
     "coordinates": [
       7.4495872,
       46.934457
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9385872405",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Privat Eigentum. Einfach klingeln",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Pascal Vizeli",
+    "phone": "+41 79 720 95 57",
+    "id": "node/9385872405"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.611223,
+      46.8378711
     ]
   }
 }

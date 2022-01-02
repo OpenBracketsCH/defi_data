@@ -10500,18 +10500,20 @@
     "addr:housenumber": "3a",
     "addr:postcode": "4707",
     "addr:street": "Doktorsträssli",
-    "defibrillator:location": "Turnhalle",
+    "defibrillator:location": "Turnhalle, EG, Saniraum, beschildert im Treppenhaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:15-12:00, 13:00-16:00",
     "operator": "Schule Niederbipp",
+    "phone": "+41 32 633 26 86",
     "id": "node/6518992270"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6928396,
-      47.2716462
+      7.6933621,
+      47.2714675
     ]
   }
 },
@@ -151692,6 +151694,50 @@
     "coordinates": [
       7.4495872,
       46.934457
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9385872405",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Privat Eigentum. Einfach klingeln",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Pascal Vizeli",
+    "phone": "+41 79 720 95 57",
+    "id": "node/9385872405"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.611223,
+      46.8378711
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9385893441",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Windfang des Hauseinganges im Gebäude der Apotheke",
+    "description": "Defi im geschützten Windfang im Eingang des Gebäudes. Die Eingangstüre ist immer offen. Kennzeichnung an der Eingangstüre und Leuchtkreuz an der Hauptstrasse vis à vis Coop",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Dr. Theo Voegtli, Hauptstrasse 5, 5314 Kleindöttingen",
+    "phone": "+41 79 634 93 93",
+    "id": "node/9385893441"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2493591,
+      47.5717518
     ]
   }
 }
