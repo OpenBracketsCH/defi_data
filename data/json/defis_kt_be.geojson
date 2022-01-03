@@ -4064,8 +4064,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6652091,
-      47.1475061
+      7.6651733,
+      47.1476608
     ]
   }
 },
@@ -10985,31 +10985,6 @@
     "coordinates": [
       7.2859818,
       47.1880963
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/6635192989",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Péry",
-    "addr:housenumber": "10",
-    "addr:postcode": "2603",
-    "addr:street": "Rue du Collège",
-    "defibrillator:location": "En extérieur sous le couvert du Centre communal (salle des fêtes)",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Commune de Péry-La Heutte",
-    "phone": "+41 32 485 01 51",
-    "id": "node/6635192989"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.2510383,
-      47.1930524
     ]
   }
 },
@@ -25929,7 +25904,7 @@
   "properties": {
     "access": "yes",
     "addr:city": "Ruppoldsried",
-    "addr:housenumber": "24",
+    "addr:housenumber": "22",
     "addr:postcode": "3251",
     "addr:street": "Hauptstrasse",
     "defibrillator:location": "Strassenseitig unter der Laube angebracht.",
@@ -26136,14 +26111,14 @@
     "emergency:phone": "144",
     "opening_hours": "24/7",
     "operator": "Administration communale",
-    "phone": "+41 32 497 71 10",
+    "phone": "+41 793139098",
     "id": "node/6997169209"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.3390867,
-      47.2385701
+      7.3393536,
+      47.2386052
     ]
   }
 },
@@ -26341,8 +26316,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4034856,
-      47.1530938
+      7.4035617,
+      47.1530166
     ]
   }
 },
@@ -35055,9 +35030,15 @@
   "id": "node/8851322533",
   "properties": {
     "access": "yes",
+    "addr:city": "Corcelles",
+    "addr:housenumber": "27",
+    "addr:postcode": "2747",
+    "addr:street": "Clos-la Jus",
+    "defibrillator:location": "Bâtiment de l’administration communale",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
+    "operator": "Association katecholamine",
     "wheelchair": "limited",
     "id": "node/8851322533"
   },
@@ -40231,6 +40212,77 @@
     "coordinates": [
       7.611223,
       46.8378711
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9389349935",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Ersigen",
+    "addr:postcode": "3423",
+    "addr:street": "Huebstrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Ersigen",
+    "phone": "+41 79 480 42 31",
+    "id": "node/9389349935"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5984409,
+      47.0969966
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9389349936",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Koppigen",
+    "addr:housenumber": "2",
+    "addr:postcode": "3425",
+    "addr:street": "Waltersmattstrasse",
+    "defibrillator:location": "nicht öffentlich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Choppiger Praxis",
+    "id": "node/9389349936"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6067966,
+      47.1311762
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9389349937",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Eschert",
+    "addr:housenumber": "1",
+    "addr:postcode": "2743",
+    "addr:street": "Rue du Tilleul",
+    "defibrillator:location": "Extérieur",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Administration communale",
+    "phone": "+41 78 686 90 74",
+    "id": "node/9389349937"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3994631,
+      47.2755555
     ]
   }
 }

@@ -9663,30 +9663,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6629821169",
-  "properties": {
-    "access": "permissive",
-    "addr:city": "Subigen",
-    "addr:postcode": "4553",
-    "addr:street": "Industriestrasse",
-    "defibrillator:location": "Eingang Spedition",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "Mo-Fr 06:30-16:30",
-    "operator": "VSL Schweiz AG",
-    "phone": "+41 58 356 30 40",
-    "id": "node/6629821169"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6075295,
-      47.1940979
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6633263824",
   "properties": {
     "access": "permissive",
@@ -86702,6 +86678,29 @@
     "coordinates": [
       7.8412778,
       46.1945205
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9389349936",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Koppigen",
+    "addr:housenumber": "2",
+    "addr:postcode": "3425",
+    "addr:street": "Waltersmattstrasse",
+    "defibrillator:location": "nicht öffentlich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Choppiger Praxis",
+    "id": "node/9389349936"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6067966,
+      47.1311762
     ]
   }
 }
