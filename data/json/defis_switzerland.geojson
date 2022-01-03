@@ -103380,7 +103380,7 @@
   "id": "node/8624692201",
   "properties": {
     "access": "no",
-    "defibrillator:location": "in unserem Notfallrucksack des Sanitätsdienstmaterials",
+    "defibrillator:location": "Sanitätsdienstmaterial",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -148660,11 +148660,11 @@
   "id": "node/9363629004",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Im Feuerwehrdepot",
+    "defibrillator:location": "Eingang Feuerwehrdepot",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "opening_hours": "24/7",
     "id": "node/9363629004"
   },
@@ -148681,11 +148681,11 @@
   "id": "node/9363629005",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Im Polizeiposten",
+    "defibrillator:location": "Eingng Polizeiposten",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "opening_hours": "24/7",
     "id": "node/9363629005"
   },
@@ -151754,6 +151754,46 @@
     "coordinates": [
       7.8412778,
       46.1945205
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9388476617",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Törbel öffentliche Toilette",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9388476617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8514972,
+      46.2374113
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9388480517",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Törbel öffentliche Toilette",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9388480517"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8515248,
+      46.2373854
     ]
   }
 }
