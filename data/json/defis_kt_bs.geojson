@@ -277,6 +277,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "opening_hours": "24/7",
     "wheelchair": "yes",
     "id": "node/8820880778"
   },
@@ -825,6 +826,28 @@
     "coordinates": [
       7.580843,
       47.5596584
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9388530737",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben dem Brezelkönig und Rolltreppe",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "24/7",
+    "wheelchair": "yes",
+    "id": "node/9388530737"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5890529,
+      47.5467676
     ]
   }
 }

@@ -659,6 +659,26 @@
 },
 {
   "type": "Feature",
+  "id": "node/3931878711",
+  "properties": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "wheelchair": "limited",
+    "id": "node/3931878711"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8834187,
+      45.9700112
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/3981860525",
   "properties": {
     "emergency": "defibrillator",
@@ -47967,7 +47987,6 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "0",
     "opening_hours": "24/7",
     "phone": "144",
     "wheelchair": "limited",
@@ -48394,6 +48413,28 @@
     "coordinates": [
       9.4616756,
       47.1821699
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8820880778",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben den Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "wheelchair": "yes",
+    "id": "node/8820880778"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5895015,
+      47.5477948
     ]
   }
 },
@@ -60196,16 +60237,16 @@
     "defibrillator:location": "all'entrata del parcheggio",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "level": "0",
+    "indoor": "no",
     "opening_hours": "24/7",
-    "wheelchair": "yes",
+    "wheelchair": "limited",
     "id": "node/9197347058"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8759286,
-      45.9773895
+      8.8761521,
+      45.977248
     ]
   }
 },
@@ -65053,6 +65094,109 @@
     "coordinates": [
       7.8515248,
       46.2373854
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9388488317",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Törbel öffentliche Toilette 2",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9388488317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8530274,
+      46.2385302
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9388492517",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Törbel öffentliche Toilette",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9388492517"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8529918,
+      46.2385322
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9388492518",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Törbel öffentliche Toilette 2",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9388492518"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.851435,
+      46.2373865
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9388530737",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben dem Brezelkönig und Rolltreppe",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "24/7",
+    "wheelchair": "yes",
+    "id": "node/9388530737"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5890529,
+      47.5467676
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9388573185",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben dem Eingang des Fussballfeld",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "wheelchair": "limited",
+    "id": "node/9388573185"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8733122,
+      45.9703451
     ]
   }
 }
