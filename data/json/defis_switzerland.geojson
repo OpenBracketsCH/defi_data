@@ -16321,14 +16321,14 @@
   "type": "Feature",
   "id": "node/6633263835",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "addr:city": "Burgdorf",
-    "addr:housenumber": "92",
+    "addr:housenumber": "96",
     "addr:postcode": "3400",
     "addr:street": "Lyssachstrasse",
-    "defibrillator:location": "Vorraum Schreinerei",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "opening_hours": "24/7",
     "operator": "Baudirektion",
     "phone": "+41 34 429 42 46",
     "id": "node/6633263835"
@@ -16336,8 +16336,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6122253,
-      47.0607228
+      7.611611,
+      47.0606968
     ]
   }
 },
@@ -120102,21 +120102,25 @@
   "id": "node/8921660233",
   "properties": {
     "access": "yes",
+    "addr:city": "Burgdorf",
+    "addr:housenumber": "5",
+    "addr:postcode": "3400",
+    "addr:street": "Buchmattstrasse",
     "defibrillator:location": "Der Defi hängt an der Gebäudefassade an der Westfassade der Garage. Er ist beim Betreten des Areal am anderen Ende des Hauptgebäudes aussen sichtbar montiert.",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Dominic Schärer",
+    "operator": "Etavis Beutler AG",
     "phone": "+41 34 421 44 44",
     "id": "node/8921660233"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5992627,
-      47.0657267
+      7.5991676,
+      47.0657502
     ]
   }
 },
@@ -133854,13 +133858,17 @@
   "id": "node/9153662522",
   "properties": {
     "access": "yes",
+    "addr:city": "Burgdorf",
+    "addr:housenumber": "209",
+    "addr:postcode": "3400",
+    "addr:street": "Kirchbergstrasse",
     "defibrillator:location": "Treppenhaus Gebäude Eingang Südseite",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 07:00-16:30",
-    "operator": "Raphael Berger",
+    "operator": "Naturex AG",
     "phone": "+41 34 428 54 71",
     "id": "node/9153662522"
   },
@@ -152287,6 +152295,31 @@
     "coordinates": [
       7.2601725,
       47.1206147
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9392940670",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Burgdorf",
+    "addr:housenumber": "45",
+    "addr:postcode": "3400",
+    "addr:street": "Bahnhofstrasse",
+    "defibrillator:location": "Im Schalterraum",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Valiant Bank AG",
+    "phone": "+41 34 423 14 87",
+    "id": "node/9392940670"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.622104,
+      47.0603965
     ]
   }
 }

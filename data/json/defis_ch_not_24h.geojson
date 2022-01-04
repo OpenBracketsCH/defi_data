@@ -9904,30 +9904,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6633263835",
-  "properties": {
-    "access": "permissive",
-    "addr:city": "Burgdorf",
-    "addr:housenumber": "92",
-    "addr:postcode": "3400",
-    "addr:street": "Lyssachstrasse",
-    "defibrillator:location": "Vorraum Schreinerei",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "operator": "Baudirektion",
-    "phone": "+41 34 429 42 46",
-    "id": "node/6633263835"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6122253,
-      47.0607228
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6633263838",
   "properties": {
     "access": "permissive",
@@ -76974,13 +76950,17 @@
   "id": "node/9153662522",
   "properties": {
     "access": "yes",
+    "addr:city": "Burgdorf",
+    "addr:housenumber": "209",
+    "addr:postcode": "3400",
+    "addr:street": "Kirchbergstrasse",
     "defibrillator:location": "Treppenhaus Gebäude Eingang Südseite",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 07:00-16:30",
-    "operator": "Raphael Berger",
+    "operator": "Naturex AG",
     "phone": "+41 34 428 54 71",
     "id": "node/9153662522"
   },
