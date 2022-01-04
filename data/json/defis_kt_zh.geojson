@@ -26372,7 +26372,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "24/7",
-    "phone": "+41 52 305 36 96",
+    "phone": "+41 52 305 36 00",
     "id": "node/9373715700"
   },
   "geometry": {
@@ -26470,6 +26470,29 @@
     "coordinates": [
       8.6418843,
       47.5149349
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9391504727",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Büro bei der Annahme",
+    "description": "während Öffnungszeiten verfügbar, instruirte Personen vor Ort",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr: 08:00-18:00",
+    "operator": "Privatperson",
+    "phone": "+41792385157",
+    "id": "node/9391504727"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4431135,
+      47.2723201
     ]
   }
 }
