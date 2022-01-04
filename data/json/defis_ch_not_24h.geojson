@@ -15327,10 +15327,18 @@
   "type": "Feature",
   "id": "node/6651839187",
   "properties": {
+    "access": "permissive",
+    "addr:city": "Nidau",
+    "addr:housenumber": "40",
+    "addr:postcode": "2560",
+    "addr:street": "Erlenweg",
+    "defibrillator:location": "Bei Beckenbereich A proximité du bassin de natation",
     "description": "Defibrillator is only available if the public bath is open.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "operator": "Strandbad Nidau",
+    "phone": "+41 32 332 94 41",
     "seasonal": "summer",
     "id": "node/6651839187"
   },
@@ -86786,6 +86794,198 @@
     "coordinates": [
       8.7234186,
       47.5009631
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9392889963",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Nidau",
+    "addr:housenumber": "17a",
+    "addr:postcode": "2560",
+    "addr:street": "Burgerallee",
+    "defibrillator:location": "Sporthalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Schule Burgerbeunden",
+    "phone": "+41 32 332 94 41",
+    "id": "node/9392889963"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2377807,
+      47.1211102
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9392889964",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Nidau",
+    "addr:housenumber": "25",
+    "addr:postcode": "2560",
+    "addr:street": "Balainenewg",
+    "defibrillator:location": "Turnhalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Schule Balainen",
+    "phone": "+41 32 332 94 41",
+    "id": "node/9392889964"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.238266,
+      47.1231982
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9392889965",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Nidau",
+    "addr:housenumber": "25a",
+    "addr:postcode": "2560",
+    "addr:street": "Balaineneweg",
+    "defibrillator:location": "im Gebäude",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Schule Balainen",
+    "phone": "+41 32 332 94 41",
+    "id": "node/9392889965"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2392057,
+      47.1232052
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9392889966",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Nidau",
+    "addr:housenumber": "2",
+    "addr:postcode": "2560",
+    "addr:street": "Schulgasse",
+    "defibrillator:location": "EG Rez de chaussée",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Stadtverwaltung",
+    "phone": "+41 32 332 94 41",
+    "id": "node/9392889966"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2405181,
+      47.1249046
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9392889967",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Nidau",
+    "addr:housenumber": "32",
+    "addr:postcode": "2560",
+    "addr:street": "Lyss-Strasse",
+    "defibrillator:location": "Turnhalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Schule Weidteile Turnhalle",
+    "phone": "+41 32 332 94 41",
+    "id": "node/9392889967"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2457541,
+      47.1256835
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9392889968",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Nidau",
+    "addr:housenumber": "36",
+    "addr:postcode": "2560",
+    "addr:street": "Lyss-Strasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Schule Weidteile",
+    "phone": "+41 32 332 94 41",
+    "id": "node/9392889968"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2461603,
+      47.1251423
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9392889969",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Biel",
+    "addr:housenumber": "2",
+    "addr:postcode": "2501",
+    "addr:street": "Mühlebrücke",
+    "defibrillator:location": "Erdgeschoss und 2. OG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Geschäftshaus Mühlebrücke",
+    "phone": "+41 79 222 75 05",
+    "id": "node/9392889969"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2439371,
+      47.1397631
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9392889970",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Brügg",
+    "addr:housenumber": "52",
+    "addr:postcode": "2555",
+    "addr:street": "Erlenstrasse",
+    "defibrillator:location": "Innerhalb Fabrikgebäude",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "Mo-Fr 07:00-17:00",
+    "operator": "Mecanor SA",
+    "phone": "+41 32 366 68 00",
+    "id": "node/9392889970"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2601725,
+      47.1206147
     ]
   }
 }

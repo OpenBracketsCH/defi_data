@@ -1171,8 +1171,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.9932746,
-      45.8724707
+      8.9932253,
+      45.872529
     ]
   }
 },
@@ -28991,8 +28991,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.3101944,
-      47.1392473
+      7.310027,
+      47.1390679
     ]
   }
 },
@@ -46357,8 +46357,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.000476,
-      47.1528099
+      7.0004624,
+      47.1529216
     ]
   }
 },
@@ -46382,8 +46382,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.1533505,
-      47.0926247
+      7.1521864,
+      47.0922688
     ]
   }
 },
@@ -65249,6 +65249,56 @@
     "coordinates": [
       7.6372789,
       47.5362695
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9392889961",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Vinelz",
+    "addr:housenumber": "13",
+    "addr:postcode": "3234",
+    "addr:street": "Dorfstrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Evangelische-reformierte Kirchgemeinde Vinelz-Lüscherz",
+    "phone": "+41 32 338 11 38",
+    "id": "node/9392889961"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1111377,
+      47.0337641
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9392889962",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Vinelz",
+    "addr:housenumber": "20",
+    "addr:postcode": "3234",
+    "addr:street": "Ländtweg",
+    "defibrillator:location": "Strandboden, Kiosk Camping Strand",
+    "description": "Apri l- September",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Kiosk Camping Strand",
+    "phone": "+41 32 338 16 66",
+    "id": "node/9392889962"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1096832,
+      47.037505
     ]
   }
 }
