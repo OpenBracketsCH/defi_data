@@ -3897,7 +3897,9 @@
   "properties": {
     "access": "yes",
     "addr:city": "Rohrbach",
+    "addr:housenumber": "16",
     "addr:postcode": "4938",
+    "addr:street": "Allmendstrasse",
     "defibrillator:location": "Bei Haupteingang rechts an Wand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -65523,6 +65525,48 @@
     "coordinates": [
       7.6292574,
       47.0587795
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9395215218",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "St. Gabriel Kirche",
+    "description": "von aussen zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9395215218"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6512167,
+      47.3813887
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9395239117",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Pfarreizentrum St. Gabriel",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Katholische Kirche",
+    "id": "node/9395239117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6511241,
+      47.38137
     ]
   }
 }
