@@ -16567,23 +16567,24 @@
   "type": "Feature",
   "id": "node/6633263845",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "addr:city": "Burgdorf",
-    "addr:housenumber": "102",
+    "addr:housenumber": "100",
     "addr:postcode": "3400",
     "addr:street": "Bernstrasse",
-    "defibrillator:location": "Empfang Localnet",
+    "defibrillator:location": "Gebäude Aussenwand, re von Eingangstüre",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "Mo-Fr 06:45-12:00,13:15-17:15",
+    "opening_hours": "24/7",
+    "operator": "Localnet AG",
     "phone": "+41 34 420 00 20",
     "id": "node/6633263845"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6104481,
-      47.0526044
+      7.6107202,
+      47.0528316
     ]
   }
 },
@@ -16810,15 +16811,15 @@
   "type": "Feature",
   "id": "node/6633334887",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "addr:city": "Burgdorf",
-    "addr:housenumber": "8",
+    "addr:housenumber": "4",
     "addr:postcode": "3400",
     "addr:street": "Friedhof",
-    "defibrillator:location": "Krematorium, Gang vor Aufbahrungshalle",
+    "defibrillator:location": "neben öffentlichem WC",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "Apr-Oct 08:00-21:00, Nov-Mar 08:00-19:00",
+    "opening_hours": "24/7",
     "operator": "Friedhof Krematorium Burgdorf",
     "phone": "+41 34 429 42 46",
     "id": "node/6633334887"
@@ -16826,8 +16827,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6111477,
-      47.054187
+      7.6124039,
+      47.0549988
     ]
   }
 },
@@ -23011,11 +23012,16 @@
   "id": "node/6637275867",
   "properties": {
     "access": "permissive",
+    "addr:city": "Zollikofen",
+    "addr:housenumber": "58",
+    "addr:postcode": "3052",
+    "addr:street": "Alpenstrasse",
     "defibrillator:location": "Empfang, 1. OG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
+    "opening_hours": "Mo-Fr 07:00-18:00",
     "operator": "GEWA",
     "id": "node/6637275867"
   },
@@ -40745,8 +40751,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4304107,
-      47.0402877
+      7.4301514,
+      47.0404694
     ]
   }
 },
@@ -108221,9 +108227,9 @@
   "properties": {
     "access": "yes",
     "addr:city": "Lyss",
-    "addr:housenumber": "2",
+    "addr:housenumber": "4",
     "addr:postcode": "3250",
-    "addr:street": "Kirchenfeldstrasse",
+    "addr:street": "Kirchgasse",
     "defibrillator:location": "Hauptgebäude Kirche, Süd Ost",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -108865,6 +108871,10 @@
   "id": "node/8728835640",
   "properties": {
     "access": "yes",
+    "addr:city": "Urtenen-Schönbühl",
+    "addr:housenumber": "9",
+    "addr:postcode": "3322",
+    "addr:street": "Zentrumsplatz",
     "defibrillator:location": "Links vor Eingang Polizei",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -152360,6 +152370,154 @@
     "coordinates": [
       6.8323403,
       46.4820656
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9395091390",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Siselen",
+    "addr:housenumber": "2",
+    "addr:postcode": "2577",
+    "addr:street": "Käsereiweg",
+    "defibrillator:location": "Haupteingang Gemeindehaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Gemeineverwaltung Siselen",
+    "phone": "+41 32 396 25 66",
+    "id": "node/9395091390"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1889935,
+      47.0323595
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9395091391",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Siselen",
+    "addr:housenumber": "8",
+    "addr:postcode": "2577",
+    "addr:street": "Schulhausstrasse",
+    "defibrillator:location": "Turnhalle Siselen (Eingang)",
+    "description": "Nur während dem Schulbetrieb oder bei Turnhallenbenützung zugänglich.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Turnhalle Siselen",
+    "phone": "+41 32 396 25 66",
+    "id": "node/9395091391"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1878329,
+      47.0345702
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9395091392",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Burgdorf",
+    "addr:postcode": "3400",
+    "addr:street": "Zähringerstrasse",
+    "defibrillator:location": "Eingang Mensa",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Bildungszentrum Emme bz",
+    "phone": "+41 31 635 32 05",
+    "id": "node/9395091392"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6186425,
+      47.0511228
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9395091393",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Burgdorf",
+    "addr:housenumber": "12",
+    "addr:postcode": "3400",
+    "addr:street": "Kornhausgasse",
+    "defibrillator:location": "Seite Kornhaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Jugendhaus",
+    "phone": "+41 34 429 42 46",
+    "id": "node/9395091393"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.627209,
+      47.0580307
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9395091394",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Burgdorf",
+    "addr:housenumber": "8",
+    "addr:postcode": "3400",
+    "addr:street": "Neuhofweg",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Kindergarten Neuhofweg",
+    "phone": "+41 34 429 42 46",
+    "id": "node/9395091394"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6292574,
+      47.0587795
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9395132401",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Vinelz",
+    "addr:housenumber": "55",
+    "addr:postcode": "3234",
+    "addr:street": "Dorfstrasse",
+    "defibrillator:location": "Eingang Turnhalle",
+    "description": "Oktober - März",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Eingang Turnhalle Vinelz",
+    "phone": "+41 32 338 16 66",
+    "id": "node/9395132401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1125967,
+      47.0323281
     ]
   }
 }
