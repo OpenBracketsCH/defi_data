@@ -61681,24 +61681,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637819091",
-  "properties": {
-    "description": "Beim Haupteingang",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "SPV Schweiz. Keramikverband",
-    "id": "node/7637819091"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.982619,
-      47.2093463
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637819092",
   "properties": {
     "description": "Kassenraum",
@@ -152566,6 +152548,28 @@
     "coordinates": [
       8.6511241,
       47.38137
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9396258720",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Stapferhaus",
+    "description": "während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Di-Sa: 09:00-17:00",
+    "operator": "Stapferhaus",
+    "id": "node/9396258720"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1700749,
+      47.3904372
     ]
   }
 }
