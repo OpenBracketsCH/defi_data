@@ -7149,29 +7149,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6535738676",
-  "properties": {
-    "access": "private",
-    "addr:city": "Wasen im Emmental",
-    "addr:postcode": "3457",
-    "defibrillator:location": "nur für First-Responder Feuerwehr",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Gemeinde Sumiswald",
-    "phone": "+41 79 387 07 36",
-    "id": "node/6535738676"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.7973209,
-      47.0434722
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6538882477",
   "properties": {
     "emergency": "defibrillator",
@@ -84105,13 +84082,13 @@
   "type": "Feature",
   "id": "node/9329482917",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Oberland Zentrum neben Piazzetta Restaurant",
     "description": "währen Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-20:00\nDo 08:00-21:00\nSa 07:30-17:00",
+    "opening_hours": "Mo-Fr 08:00-20:00, Th 08:00-21:00, Sa 07:30-17:00",
     "id": "node/9329482917"
   },
   "geometry": {
@@ -84126,13 +84103,13 @@
   "type": "Feature",
   "id": "node/9329484517",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "2.UG bei Migros Kundendienst",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-20:00\nDo 08:00-21:00\nSa 07:30-17:00",
+    "opening_hours": "Mo-Fr 08:00-20:00, Th 08:00-21:00, Sa 07:30-17:00",
     "operator": "Migros",
     "id": "node/9329484517"
   },
