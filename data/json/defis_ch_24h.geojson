@@ -5855,6 +5855,31 @@
 },
 {
   "type": "Feature",
+  "id": "node/6617504177",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Sumiswald",
+    "addr:housenumber": "2",
+    "addr:postcode": "3454",
+    "addr:street": "Turnhallenstrasse",
+    "defibrillator:location": "Feuerwehrmagazin",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "phone": "+41 79 387 07 36",
+    "id": "node/6617504177"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7438994,
+      47.0283429
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/6617511835",
   "properties": {
     "access": "yes",
@@ -65020,6 +65045,7 @@
     "addr:street": "Lugenbachweg",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Hans Sommer GmbH",
     "phone": "+41 797712660",
@@ -65028,8 +65054,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.8055139,
-      47.0457636
+      7.8054442,
+      47.0457981
     ]
   }
 },
@@ -65052,8 +65078,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7949589,
-      47.0434112
+      7.795114,
+      47.0434031
     ]
   }
 },
@@ -65068,6 +65094,7 @@
     "addr:street": "Eystrasse",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "PB Swiss Tools AG",
     "phone": "+41 797712660",
@@ -65076,8 +65103,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7493517,
-      47.0260653
+      7.7495289,
+      47.0262937
     ]
   }
 },
@@ -65845,6 +65872,30 @@
     "coordinates": [
       8.6689055,
       47.7182938
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9403147256",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Sumiswald",
+    "addr:housenumber": "16",
+    "addr:postcode": "3454",
+    "addr:street": "Spitalstrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "DLZ Sumiswald AG",
+    "id": "node/9403147256"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7477476,
+      47.0297189
     ]
   }
 }
