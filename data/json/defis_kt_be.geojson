@@ -24307,31 +24307,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6985287279",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Aeschi",
-    "addr:housenumber": "55a",
-    "addr:postcode": "3703",
-    "addr:street": "Aeschiriedstrasse",
-    "defibrillator:location": "Iin der Damen-Toilette links",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Spritzenhaus Aeschiried",
-    "phone": "+41 794394180",
-    "id": "node/6985287279"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.7245007,
-      46.645549
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6985312864",
   "properties": {
     "access": "yes",
@@ -29842,7 +29817,7 @@
   "id": "node/7908403873",
   "properties": {
     "access": "yes",
-    "defibrillator:location:de": "In der Nähe des östlichen Eingangs",
+    "defibrillator:location": "In der Nähe des östlichen Eingangs",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -40761,6 +40736,52 @@
     "coordinates": [
       7.3845077,
       47.1408782
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9406921983",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Haupteigang des Parkhauses, beim Busbahnhof, Sammelplatz",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Sandro Coatti",
+    "phone": "+41 79 297 93 15",
+    "id": "node/9406921983"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0199269,
+      46.6244785
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9406921984",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der AED befindet sich innerhalb des Gebäudes zwischen dem Bistro und Hauptausgang rechts an der Wand",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "Mo-Su 08:00-17:00",
+    "operator": "Sandro Coatti",
+    "phone": "+41 79 297 93 15",
+    "id": "node/9406921984"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9753803,
+      46.5753978
     ]
   }
 }

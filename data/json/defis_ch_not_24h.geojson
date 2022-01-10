@@ -42192,7 +42192,7 @@
   "id": "node/7908403873",
   "properties": {
     "access": "yes",
-    "defibrillator:location:de": "In der Nähe des östlichen Eingangs",
+    "defibrillator:location": "In der Nähe des östlichen Eingangs",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -87123,6 +87123,29 @@
     "coordinates": [
       7.5740912,
       46.1761047
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9406921984",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der AED befindet sich innerhalb des Gebäudes zwischen dem Bistro und Hauptausgang rechts an der Wand",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "Mo-Su 08:00-17:00",
+    "operator": "Sandro Coatti",
+    "phone": "+41 79 297 93 15",
+    "id": "node/9406921984"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9753803,
+      46.5753978
     ]
   }
 }
