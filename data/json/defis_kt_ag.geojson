@@ -10465,6 +10465,8 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:30",
+    "operator": "Arztpraxis Birmenstorf",
+    "phone": "+41 56 225 22 22",
     "id": "node/9355827883"
   },
   "geometry": {
@@ -10736,6 +10738,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/9417898873",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "In Arztpraxis 3. Stock, zweite Türe rechts",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-We 07:30-12:00, 13:30-17:00; Th 07:30-12:00; Fr 07:30-12:00, 12:30-16:00",
+    "operator": "Dr. med. Karim El-Haschimi",
+    "phone": "+41 56 222 93 22",
+    "id": "node/9417898873"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3085246,
+      47.4761184
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9417905319",
   "properties": {
     "access": "no",
@@ -10754,6 +10779,120 @@
     "coordinates": [
       8.2724925,
       47.3472622
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9417907249",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "in der Arztpraxis im 1. Stock Am Empfang vorne in der 2. linken Schublade angeschrieben mit Defibrillator",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-11:30, 14:00-17:15",
+    "operator": "Gemeinschaftspraxis Gebenstorf AG",
+    "phone": "+41 56 223 13 41",
+    "id": "node/9417907249"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2484851,
+      47.4772811
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9417952919",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "In Arztpraxis: 1. Zimmer rechts",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-We 07:45-12:00, 14:00-18:00",
+    "operator": "Praxis Dr. med. Markus Egolf",
+    "phone": "+41 56 496 51 50",
+    "id": "node/9417952919"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3123458,
+      47.4044437
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9417959542",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Praxiszentrum Frick, 1. Stock oberhalb Migros",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-12:00, 13:30-18:00",
+    "operator": "Praxiszentrum Frick",
+    "phone": "+41 62 865 70 25",
+    "id": "node/9417959542"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0192176,
+      47.5080528
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9417985709",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Untergeschoss Arztpraxis, Sprechzimmer vis à vis Treppe",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-12:30,13:30-18:00",
+    "operator": "Ärztezentrum Othmarsingen AG",
+    "phone": "+41 62 889 02 33",
+    "id": "node/9417985709"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2175173,
+      47.4050164
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9417994328",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "In der Arztpraxis, Erdgeschoss, beim Empfang links, im (EKG)-Zimmer links unter dem Fenster",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Frei Conrad + Michael",
+    "phone": "+41 56 441 74 41",
+    "id": "node/9417994328"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2112235,
+      47.4630911
     ]
   }
 }
