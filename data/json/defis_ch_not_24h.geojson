@@ -2815,7 +2815,7 @@
   "type": "Feature",
   "id": "node/4771300788",
   "properties": {
-    "access": "private",
+    "access": "yes",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -73586,6 +73586,30 @@
     "coordinates": [
       8.198258,
       47.4849108
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045229737",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingangsbereich Haupteingang EG vor Treppe",
+    "description": "während Öffnungszeiten Gemeindehaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo 0800-1130,1400-1700; Tu 0800-1130,1400-1800; We 0800-1130; Th 0800-1130,1400-1700; Fr 0800-1500",
+    "operator": "Gemeinde Oberentfelden",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045229737"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0471891,
+      47.3559975
     ]
   }
 },
