@@ -150637,8 +150637,9 @@
   "properties": {
     "access": "permissive",
     "addr:city": "Bern",
+    "addr:housenumber": "40",
     "addr:postcode": "3013",
-    "addr:street": "Gotthelfstrasse 40",
+    "addr:street": "Gotthelfstrasse",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "operator": "Schulhaus Spitalacker",
@@ -150777,7 +150778,7 @@
     "addr:city": "Bern",
     "addr:housenumber": "101",
     "addr:postcode": "3004",
-    "addr:street": "Reichenbachstrasse 101",
+    "addr:street": "Reichenbachstrasse",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "operator": "Schulhaus Rossfeld",
@@ -153725,6 +153726,26 @@
     "coordinates": [
       8.2525677,
       47.2394139
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9426217917",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Hittnau Sekundärstufengebäude",
+    "description": "immer verfügbar, an aussenwand richtung Mittelstufengebäude",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/9426217917"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8240005,
+      47.3639674
     ]
   }
 }
