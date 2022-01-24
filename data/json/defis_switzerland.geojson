@@ -40454,14 +40454,9 @@
   "id": "node/7538717847",
   "properties": {
     "access": "permissive",
-    "addr:city": "Muri bei Bern",
-    "addr:housenumber": "74",
-    "addr:postcode": "3074",
-    "addr:street": "Thunstrasse",
-    "defibrillator:location": "-",
+    "defibrillator:location": "rechts vor Gebäudeeingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Gemeindeverwaltung",
     "phone": "+41 31 950 54 54",
     "id": "node/7538717847"
@@ -40469,8 +40464,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4856235,
-      46.9312947
+      7.485655,
+      46.9313305
     ]
   }
 },
@@ -154398,6 +154393,27 @@
     "coordinates": [
       7.6975665,
       47.4476081
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9445785820",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Studacherstrasse 15, 5416 Kirchdorf AG",
+    "description": "während der Geschäftsöffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Lokales Gewerbe",
+    "id": "node/9445785820"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2765514,
+      47.4929899
     ]
   }
 }
