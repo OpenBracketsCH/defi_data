@@ -399,10 +399,11 @@
   "type": "Feature",
   "id": "node/3166746986",
   "properties": {
+    "defibrillator:location": "Velounterstand gegenüber Auholzsaal Sulgen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Sulgen",
     "id": "node/3166746986"
   },
   "geometry": {
@@ -66251,6 +66252,28 @@
     "coordinates": [
       9.6794628,
       46.7821556
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9444942317",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Turnhalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "phone": "+41619159050",
+    "id": "node/9444942317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6975665,
+      47.4476081
     ]
   }
 }

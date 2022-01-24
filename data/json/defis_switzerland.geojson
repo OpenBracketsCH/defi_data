@@ -984,10 +984,11 @@
   "type": "Feature",
   "id": "node/3166746986",
   "properties": {
+    "defibrillator:location": "Velounterstand gegenüber Auholzsaal Sulgen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Sulgen",
     "id": "node/3166746986"
   },
   "geometry": {
@@ -153907,11 +153908,12 @@
   "id": "node/9437128268",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Der Defibrillator befindet sich im Let's Go Fitness im 2. Stock, an der Theke mit Defi Kennzeichen markiert. (im Campfield-Gebäude)",
+    "defibrillator:location": "Der Defibrillator befindet sich im Let's Go Fitness im 1. Stock, an der Theke mit Defi Kennzeichen markiert. (im Campfield-Gebäude)",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "1",
     "operator": "Procamed",
     "id": "node/9437128268"
   },
@@ -154374,6 +154376,28 @@
     "coordinates": [
       7.5296215,
       46.2557798
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9444942317",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Turnhalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "phone": "+41619159050",
+    "id": "node/9444942317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6975665,
+      47.4476081
     ]
   }
 }
