@@ -51502,18 +51502,21 @@
   "id": "node/7637818528",
   "properties": {
     "access": "yes",
+    "colour": "green",
     "defibrillator:location": "Eingang zur Gondelbahn Bergstation an der Aussenmauer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "name": "Bergbahnen Sörenberg AG",
     "opening_hours": "24/7",
+    "wheelchair": "no",
     "id": "node/7637818528"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0271998,
-      46.8087891
+      8.0270908,
+      46.80876
     ]
   }
 },
@@ -154533,6 +154536,28 @@
     "coordinates": [
       9.3140488,
       47.121641
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9449384817",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Regionalpolizei Muri",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Regionalpolizei Muri",
+    "phone": "+41566755225",
+    "id": "node/9449384817"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.336807,
+      47.2785804
     ]
   }
 }
