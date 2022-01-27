@@ -1,6 +1,383 @@
 {
 "type": "FeatureCollection",
 "features": [
-
+{
+  "type": "Feature",
+  "id": "node/6651535154",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/6651535154"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9983486,
+      46.9387644
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7559412996",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "im Vorraum bei den Bancomaten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "id": "node/7559412996"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0694633,
+      47.0992943
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8684770249",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/8684770249"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9998459,
+      46.9267376
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8684770258",
+  "properties": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "id": "node/8684770258"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9951775,
+      46.9196504
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8713917717",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Braunwaldbahn Talstation, neben Kasse 3",
+    "description": "während Öffnungszeit verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "\n05.00-23.55 ",
+    "operator": "Braunwaldbahn Standseilbahn AG",
+    "phone": "+41556535030",
+    "id": "node/8713917717"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0022627,
+      46.9284699
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8713922717",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Grotzenbüehl",
+    "description": "während Öffnungszeiten verfügbar.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Sportbahnen Braunwald AG",
+    "phone": "+41556433702",
+    "id": "node/8713922717"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9941517,
+      46.9491301
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8713996417",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Wiggispark Netstal. Haupteingang linke Seite nach Brillengeschäft MC-Optikw",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/8713996417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0583718,
+      47.0677294
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8868493618",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Märchenhotel",
+    "description": "während Öffnungszeit verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Märchenhotel",
+    "phone": "+41556537171",
+    "id": "node/8868493618"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9998847,
+      46.9410747
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8959492618",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bergstation Gumenbahn",
+    "description": "während Betriebszeiten der Bahn",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/8959492618"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9845985,
+      46.956047
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8959716317",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bergstation Skilift an der Wand",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Genossenschaft Schlattberg",
+    "phone": "+41786038620",
+    "id": "node/8959716317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0275676,
+      46.9649934
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8962356449",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "im Feuerwehrgebäude",
+    "description": "über Notruf verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Feuerwehr Glarus Süd",
+    "id": "node/8962356449"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0352371,
+      46.9607169
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9115107518",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Migros, Niederurnen",
+    "description": "während Öffnungszeiten links neben Drehtüre",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-20:00; Sa 07:30-18:00",
+    "operator": "Migros",
+    "id": "node/9115107518"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0560804,
+      47.1283923
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9133210017",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "TBGN",
+    "description": "Während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 8.00-17.00",
+    "operator": "TBGN",
+    "id": "node/9133210017"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0602801,
+      47.0979716
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9133210018",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Bahnhofstrasse 12",
+    "description": "TBGN",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 8.00-17.00",
+    "operator": "TBGN",
+    "id": "node/9133210018"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0572469,
+      47.1237878
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9139421417",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Kommandoraum KLL",
+    "description": "Über Operator verfügbar ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Kraftwerke Linth-Limmern AG ",
+    "phone": "+41552852413",
+    "id": "node/9139421417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9833745,
+      46.8793497
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9154049117",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Jennyareal Fabrikstrasse 2",
+    "description": "während öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "F + C Jenny AG",
+    "phone": "+41556173200",
+    "id": "node/9154049117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0600236,
+      47.1269625
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9254795117",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Gemeindehaus Glarus, Gemeindehausplatz 1, Glarus, Hintereingang links",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-We,Fr 08:00-12:00,13:30-17:00; Th 08:00-12:00,13:30-18:00",
+    "operator": "Gemeinde",
+    "phone": "+41586118111",
+    "id": "node/9254795117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0701273,
+      47.0396455
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9312199018",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "EG bei den Schliessfächern",
+    "description": "während Offnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo - So 09:00 bis 18:00 Uhr",
+    "operator": "Läderach Chocolatier",
+    "id": "node/9312199018"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0247527,
+      47.1543559
+    ]
+  }
+}
 ]
 }

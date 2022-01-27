@@ -1,6 +1,5353 @@
 {
 "type": "FeatureCollection",
 "features": [
-
+{
+  "type": "Feature",
+  "id": "node/2450774413",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/2450774413"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5299237,
+      47.3625338
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/3561848902",
+  "properties": {
+    "defibrillator:location": "AVANTEC AG, 3rd floor",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:30-18:00",
+    "operator": "AVANTEC AG",
+    "phone": "+41 44 457 13 13",
+    "id": "node/3561848902"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5142004,
+      47.3763124
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/3561848903",
+  "properties": {
+    "defibrillator:location": "at pillar in front of the pharmacy",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-21:00",
+    "id": "node/3561848903"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5408312,
+      47.4131981
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/3615202622",
+  "properties": {
+    "defibrillator:location": "six, ask at reception",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:30-18:00",
+    "operator": "SIX",
+    "id": "node/3615202622"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5092532,
+      47.3934371
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/4029060493",
+  "properties": {
+    "defibrillator:location": "leftlhand side behind the sliding door",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/4029060493"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.527531,
+      47.4144387
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/5722961647",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "HPL: E20 Eingang, Infomonitor",
+    "description": "über Alarmzentrale 24h verfügbar, ansonsten während Betriebszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "ETH Zürich",
+    "phone": "+41 44 342 11 88",
+    "id": "node/5722961647"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5114992,
+      47.4090381
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/5807805187",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "foot": "yes",
+    "indoor": "yes",
+    "level": "-1",
+    "id": "node/5807805187"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5484823,
+      47.3666867
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/5811716467",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/5811716467"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5477236,
+      47.4130297
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/5831745723",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "note": "hinter den beiden Aufzügen gegenüber dem Empfang",
+    "operator": "ewz",
+    "id": "node/5831745723"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5492219,
+      47.4089119
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/6398162759",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "note": "Hängt an der Wand; linke neben dem Eingagn zur Rezeption",
+    "operator": "Gästehaus Hunziker",
+    "id": "node/6398162759"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5599652,
+      47.4142233
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/6979662526",
+  "properties": {
+    "defibrillator:location": "Beim Haupteingang links. Vor dem Büro des Hausmeisters",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "wheelchair": "yes",
+    "id": "node/6979662526"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5310801,
+      47.3785389
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7089666582",
+  "properties": {
+    "defibrillator:location": "An Säule zu Gaststube neben Küche",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Linde Oberstrass",
+    "id": "node/7089666582"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5479679,
+      47.3834157
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7126089878",
+  "properties": {
+    "defibrillator:location": "Beim Haupteingang rects die Treppe runter",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "wheelchair": "no",
+    "id": "node/7126089878"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4978017,
+      47.3794234
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7179636243",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/7179636243"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5238766,
+      47.3902069
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7246185951",
+  "properties": {
+    "defibrillator:location": "Im Erdgeschoss links neben der Hauptreppe in den ersten Stock",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "wheelchair": "yes",
+    "id": "node/7246185951"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.535894,
+      47.3864863
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7289424966",
+  "properties": {
+    "defibrillator:location": "Durch den Haupteingang, links am am Empfang vorbei, gegenüber den Aufzügen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "wheelchair": "yes",
+    "id": "node/7289424966"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4949249,
+      47.3841304
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7380050795",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Erdgeschosse neben der Treppe zur Garage.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "wheelchair": "yes",
+    "id": "node/7380050795"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4880788,
+      47.377637
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7561453184",
+  "properties": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "id": "node/7561453184"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5474779,
+      47.3864463
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7574664756",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sektor B Gleis 22",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "24/7",
+    "id": "node/7574664756"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5397029,
+      47.3773878
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7592872950",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "im Turm",
+    "description": "8. Stock: Immer öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "8",
+    "opening_hours": "24/7",
+    "id": "node/7592872950"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5114539,
+      47.3903346
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7592872951",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sektor G",
+    "description": "7. Stock: Immer öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "7",
+    "opening_hours": "24/7",
+    "id": "node/7592872951"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5121351,
+      47.3913569
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7592872952",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bei Sektor T (Gang)",
+    "description": "7. Stock: Immer öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "7",
+    "opening_hours": "24/7",
+    "id": "node/7592872952"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5115075,
+      47.3903655
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7592872953",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sektor G",
+    "description": "5. Stock: Immer öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "5",
+    "opening_hours": "24/7",
+    "id": "node/7592872953"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5121271,
+      47.3913969
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7592872954",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Treppenhaus",
+    "description": "5. Stock: Immer öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "5",
+    "opening_hours": "24/7",
+    "id": "node/7592872954"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5114646,
+      47.390282
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7592872955",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "im Turm",
+    "description": "2. Stock: Immer öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "24/7",
+    "id": "node/7592872955"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5114995,
+      47.3903237
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7592872956",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bei Sektor G (Kino)",
+    "description": "3. Stock: Immer öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "opening_hours": "24/7",
+    "id": "node/7592872956"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5120895,
+      47.3913333
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7592872957",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Empfang",
+    "description": "3. Stock: Immer öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "opening_hours": "24/7",
+    "id": "node/7592872957"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5116336,
+      47.3908322
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7592872958",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sektor D",
+    "description": "2. Stock: Immer öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "24/7",
+    "id": "node/7592872958"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5116631,
+      47.3908848
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7592872959",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bei Anlieferung Ost",
+    "description": "1. Stock: Immer öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "24/7",
+    "id": "node/7592872959"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5118401,
+      47.3906451
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7644275284",
+  "properties": {
+    "defibrillator:location": "Im Foyer des UBS-Gebäudes. Zugriff über Loge/Anmeldung möglich.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "UBS AG",
+    "id": "node/7644275284"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4945281,
+      47.3830488
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7717360535",
+  "properties": {
+    "defibrillator:location": "Im Amtshaus IV",
+    "description": "nur während Amtszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/7717360535"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5401631,
+      47.3741591
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7717388350",
+  "properties": {
+    "defibrillator:location": "Im Museum",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Tu 13:00-17:00, Su 13:00-17:00",
+    "id": "node/7717388350"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.565448,
+      47.3469944
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7720925040",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "In der Apotheke",
+    "description": "nur während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/7720925040"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5725335,
+      47.4039046
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7723658566",
+  "properties": {
+    "defibrillator:location": "Im Kirchgemeindehaus",
+    "description": "nur zu Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 07:00-19:00",
+    "id": "node/7723658566"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5441451,
+      47.3941273
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7727118196",
+  "properties": {
+    "defibrillator:location": "Bei Ergon Informatik melden",
+    "description": "nur während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
+    "operator": "Ergon Informatik AG",
+    "id": "node/7727118196"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5544108,
+      47.3673965
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7727138533",
+  "properties": {
+    "defibrillator:location": "in der Kirche",
+    "description": "nur während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 07:00-19:00",
+    "operator": "Katholische Kirche Zürich",
+    "id": "node/7727138533"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.503009,
+      47.4012635
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7727140868",
+  "properties": {
+    "defibrillator:location": "Bei Ergon Informatik melden",
+    "description": "nur während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
+    "operator": "Ergon Informatik AG",
+    "id": "node/7727140868"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5533896,
+      47.3639645
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7727162334",
+  "properties": {
+    "defibrillator:location": "Bei Ergon Informatik melden",
+    "description": "nur während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
+    "operator": "Ergon Informatik AG",
+    "id": "node/7727162334"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5486181,
+      47.3657185
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7817190763",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/7817190763"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4924208,
+      47.374091
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7820028703",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "2. OG Immobilien",
+    "description": "Bei Feuerwehr melden",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Schutz & Rettung Zürich",
+    "id": "node/7820028703"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5239156,
+      47.3708422
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7820028704",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "EG Feuerpolizei",
+    "description": "Bei Feuerwehr melden",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Schutz & Rettung Zürich",
+    "id": "node/7820028704"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5412409,
+      47.375807
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7820028708",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "3. OG Verwaltung",
+    "description": "Bei Feuerwehr melden",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Schutz & Rettung Zürich",
+    "id": "node/7820028708"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5247762,
+      47.3691742
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7836915810",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "hängt an der Hauswand",
+    "description": "24h öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/7836915810"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4877483,
+      47.3766954
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7840576748",
+  "properties": {
+    "defibrillator:location": "Haupteingang Parterre",
+    "description": "während Betriebszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/7840576748"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5245485,
+      47.3875604
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7920139394",
+  "properties": {
+    "defibrillator:location": "Empfang Intercomestibles Getränke",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Intercomestibles",
+    "opening_hours": "Mo-Fr 06:00-18:00",
+    "operator": "Intercomestibles",
+    "id": "node/7920139394"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5138279,
+      47.3620683
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8083446424",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "hängt an der Hauswand",
+    "description": "24h öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8083446424"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4893805,
+      47.3770975
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8173606044",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "SEW: B10.001 im Gang",
+    "description": "über Alarmzentrale 24h verfügbar, ansonsten während Betriebszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "ETH Zürich",
+    "phone": "+41 44 342 11 88",
+    "id": "node/8173606044"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5454187,
+      47.3866338
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8173606045",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "TURC10 beim Eingang",
+    "description": "über Alarmzentrale 24h verfügbar, ansonsten während Betriebszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "ETH Zürich",
+    "phone": "+41 44 342 11 88",
+    "id": "node/8173606045"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5448474,
+      47.3831379
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8173606046",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "STB: E14.2 im Sanitätszimmer",
+    "description": "über Alarmzentrale 24h verfügbar, ansonsten während Betriebszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "ETH Zürich",
+    "phone": "+41 44 342 11 88",
+    "id": "node/8173606046"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5416703,
+      47.3815188
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8173606047",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "WEV: E50 beim Eingang",
+    "description": "über Alarmzentrale 24h verfügbar, ansonsten während Betriebszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "ETH Zürich",
+    "phone": "+41 44 342 11 88",
+    "id": "node/8173606047"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5441446,
+      47.3815615
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8173606048",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "IFW: E30 beim Lift",
+    "description": "über Alarmzentrale 24h verfügbar, ansonsten während Betriebszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "ETH Zürich",
+    "phone": "+41 44 342 11 88",
+    "id": "node/8173606048"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5447361,
+      47.3803356
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8173606049",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "ETZ: C77 Vorraum Lift",
+    "description": "über Alarmzentrale 24h verfügbar, ansonsten während Betriebszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "ETH Zürich",
+    "phone": "+41 44 342 11 88",
+    "id": "node/8173606049"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5525158,
+      47.3778001
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8173606050",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "ETL: H10 beim Treppenhaus",
+    "description": "über Alarmzentrale 24h verfügbar, ansonsten während Betriebszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "ETH Zürich",
+    "phone": "+41 44 342 11 88",
+    "id": "node/8173606050"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5523871,
+      47.3785756
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8173606051",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "ETL: E10 beim Treppenhaus",
+    "description": "über Alarmzentrale 24h verfügbar, ansonsten während Betriebszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "ETH Zürich",
+    "phone": "+41 44 342 11 88",
+    "id": "node/8173606051"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5522824,
+      47.3786556
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8173606052",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "CHN: D10 beim Lift",
+    "description": "über Alarmzentrale 24h verfügbar, ansonsten während Betriebszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "ETH Zürich",
+    "phone": "+41 41 44 342 11 88",
+    "id": "node/8173606052"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5486159,
+      47.3793348
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8173606053",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "CAB: F10 Halle, beim ISC",
+    "description": "über Alarmzentrale 24h verfügbar, ansonsten während Betriebszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "ETH Zürich",
+    "phone": "+41 44 342 11 88",
+    "id": "node/8173606053"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5487983,
+      47.3785121
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8173606054",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "NO: C50 Halle Seite Clausiusstrasse",
+    "description": "über Alarmzentrale 24h verfügbar, ansonsten während Betriebszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "ETH Zürich",
+    "phone": "+41 44 342 11 88",
+    "id": "node/8173606054"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5470495,
+      47.3784939
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8173606055",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "LEE: E20 Vorraum Lift",
+    "description": "über Alarmzentrale 24h verfügbar, ansonsten während Betriebszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "ETH Zürich",
+    "phone": "+41 44 342 11 88",
+    "id": "node/8173606055"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5461389,
+      47.3780961
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8173606056",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "MM: A90 Treppenhaus bei Loge",
+    "description": "über Alarmzentrale 24h verfügbar, ansonsten während Betriebszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "ETH Zürich",
+    "phone": "+41 44 342 11 88",
+    "id": "node/8173606056"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.546973,
+      47.3758357
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8173606057",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "HG: F30.6 Audimax, Laubengang innen links",
+    "description": "über Alarmzentrale 24h verfügbar, ansonsten während Betriebszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "ETH Zürich",
+    "phone": "+41 44 342 11 88",
+    "id": "node/8173606057"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5478595,
+      47.3766776
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8173632415",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "HCP: G20 Eingang",
+    "description": "über Alarmzentrale 24h verfügbar, ansonsten während Betriebszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "ETH Zürich",
+    "phone": "+41 44 342 11 88",
+    "id": "node/8173632415"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.508887,
+      47.4057435
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8173632416",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "HPS: E10 Eingang",
+    "description": "über Alarmzentrale 24h verfügbar, ansonsten während Betriebszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "ETH Zürich",
+    "phone": "+41 44 342 11 88",
+    "id": "node/8173632416"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5109925,
+      47.4065114
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8173672417",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "HPH: D10 Halle, Eingang food market",
+    "description": "über Alarmzentrale 24h verfügbar, ansonsten während Betriebszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "ETH Zürich",
+    "phone": "+41 44 342 11 88",
+    "id": "node/8173672417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5092652,
+      47.4075861
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8173672418",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "HCI: D379.2 Gang",
+    "description": "über Alarmzentrale 24h verfügbar, ansonsten während Betriebszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "ETH Zürich",
+    "phone": "+41 44 342 11 88",
+    "id": "node/8173672418"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5092437,
+      47.4068164
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8173672419",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "HCI: E473.2 Gang",
+    "description": "über Alarmzentrale 24h verfügbar, ansonsten während Betriebszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "ETH Zürich",
+    "phone": "+41 44 342 11 88",
+    "id": "node/8173672419"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5085195,
+      47.4070415
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8173672420",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "HCI: E30 Halle, Infokasten",
+    "description": "über Alarmzentrale 24h verfügbar, ansonsten während Betriebszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "ETH Zürich",
+    "phone": "+41 44 342 11 88",
+    "id": "node/8173672420"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5074198,
+      47.4077494
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8173672421",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "HIL: D10 Halle",
+    "description": "über Alarmzentrale 24h verfügbar, ansonsten während Betriebszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "ETH Zürich",
+    "phone": "+41 44 342 11 88",
+    "id": "node/8173672421"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5074306,
+      47.4086825
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8173672422",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "HIF: C80.0011 im Treppenhaus",
+    "description": "über Alarmzentrale 24h verfügbar, ansonsten während Betriebszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "ETH Zürich",
+    "phone": "+41 44 342 11 88",
+    "id": "node/8173672422"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5065561,
+      47.4097571
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8173672423",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "HPF: C10 beim Eingang",
+    "description": "über Alarmzentrale 24h verfügbar, ansonsten während Betriebszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "ETH Zürich",
+    "phone": "+41 44 342 11 88",
+    "id": "node/8173672423"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5094073,
+      47.4094639
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8173672424",
+  "properties": {
+    "access": "permit",
+    "defibrillator:location": "HIT: E10 Eingang, bei Postfächer",
+    "description": "über Alarmzentrale 24h verfügbar, ansonsten während Betriebszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "ETH Zürich",
+    "phone": "+41 44 342 11 88",
+    "id": "node/8173672424"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5084887,
+      47.410192
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8173672425",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "HEZ: E10 beim Eingang",
+    "description": "über Alarmzentrale 24h verfügbar, ansonsten während Betriebszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "ETH Zürich",
+    "phone": "+41 44 342 11 88",
+    "id": "node/8173672425"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5120949,
+      47.4108316
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8173673039",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "OCT: E10.0011 beim Eingang",
+    "description": "über Alarmzentrale 24h verfügbar, ansonsten während Betriebszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "ETH Zürich",
+    "phone": "+41 44 342 11 88",
+    "id": "node/8173673039"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.537136,
+      47.4132385
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8173673040",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "ONA: E10 beim Eingang",
+    "description": "über Alarmzentrale 24h verfügbar, ansonsten während Betriebszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "ETH Zürich",
+    "phone": "+41 44 342 11 88",
+    "id": "node/8173673040"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5394213,
+      47.4173785
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8173673066",
+  "properties": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/8173673066"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5408348,
+      47.383917
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8173737656",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "ETH: Eingang (Erste Hilfe Raum)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:30-18:00",
+    "operator": "ETH Zürich",
+    "id": "node/8173737656"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5095468,
+      47.393485
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8178867247",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Masoala Halle: Im Sanitätszimmer",
+    "description": "Verwendung durch Betriebssanität Zoo Zürich AG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 09:00-17:00",
+    "operator": "Zoo Zürich AG",
+    "phone": "+41 44 254 25 00",
+    "id": "node/8178867247"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5779029,
+      47.3843038
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8178867248",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aufgang Thai Lodge",
+    "description": "Verwendung durch Betriebssanität Zoo Zürich AG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 09:00-17:00",
+    "operator": "Zoo Zürich AG",
+    "phone": "+41 44 254 25 00",
+    "id": "node/8178867248"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5770044,
+      47.3883135
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8178867249",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Büro Abteilungsleitung Tierpflege",
+    "description": "Verwendung durch Betriebssanität Zoo Zürich AG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 09:00-17:00",
+    "operator": "Zoo Zürich AG",
+    "phone": "+41 44 254 25 00",
+    "id": "node/8178867249"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5739252,
+      47.3886259
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8178867250",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sanitätszimmer Hauptkasse Betriebssanität Zoo Zürich AG",
+    "description": "Verwendung durch Betriebssanität Zoo Zürich AG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 09:00-17:00",
+    "operator": "Zoo Zürich AG",
+    "phone": "+41 44 254 25 00",
+    "id": "node/8178867250"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5744214,
+      47.3844228
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8190623269",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "ZUI A, B, E + H bei Lift, 6 Standorte",
+    "description": "während Gebäudeöffnungszeiten (tagsüber) verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Betriebssanität UZH",
+    "phone": "+41 44 635 41 41",
+    "id": "node/8190623269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5531703,
+      47.3747241
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8190623270",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Y52-E-03 / Rechtsmedizin, bei Anmeldung (Tasche)",
+    "description": "während Gebäudeöffnungszeiten (tagsüber) verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Betriebssanität UZH",
+    "phone": "+41 44 635 41 41",
+    "id": "node/8190623270"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5492904,
+      47.3987995
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8190623271",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Y30-E-100 / HSA Irchel Eingangshalle",
+    "description": "während Gebäudeöffnungszeiten (tagsüber) verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Betriebssanität UZH",
+    "phone": "+41 44 635 41 41",
+    "id": "node/8190623271"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5461643,
+      47.3984672
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8190623272",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Y24-G-110 / Lichthof Irchel, Infosäule",
+    "description": "während Gebäudeöffnungszeiten (tagsüber) verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Betriebssanität UZH",
+    "phone": "+41 44 635 41 41",
+    "id": "node/8190623272"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5491872,
+      47.3969131
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8190623273",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "WIL-E-400 / Treppenhaus neben Hinterausgang",
+    "description": "während Gebäudeöffnungszeiten (tagsüber) verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Betriebssanität UZH",
+    "phone": "+41 44 635 41 41",
+    "id": "node/8190623273"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.554038,
+      47.3701096
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8190623275",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "TNU 10.60 / Korridor 1. OG, neben Lift",
+    "description": "während Gebäudeöffnungszeiten (tagsüber) verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Betriebssanität UZH",
+    "phone": "+41 44 635 41 41",
+    "id": "node/8190623275"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5522234,
+      47.3998171
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8190623276",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "TKK-00-400 / bei Anmeldung, hinter Glastüre",
+    "description": "während Gebäudeöffnungszeiten (tagsüber) verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Betriebssanität UZH",
+    "phone": "+41 44 635 41 41",
+    "id": "node/8190623276"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5505336,
+      47.3998307
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8190623277",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "neben TFA 00.46 / Geschoss 00, neben Lift",
+    "description": "während Gebäudeöffnungszeiten (tagsüber) verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Betriebssanität UZH",
+    "phone": "+41 44 635 41 41",
+    "id": "node/8190623277"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5512002,
+      47.4006794
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8190623278",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "TDI 10.00 / im Haupttreppenhaus, höhe Hörsaal",
+    "description": "während Gebäudeöffnungszeiten (tagsüber) verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Betriebssanität UZH",
+    "phone": "+41 44 635 41 41",
+    "id": "node/8190623278"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5536343,
+      47.4005133
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8190623279",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "STB-E-820 / vor Cafeteria (STB E 020)",
+    "description": "während Gebäudeöffnungszeiten (tagsüber) verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Betriebssanität UZH",
+    "phone": "+41 44 635 41 41",
+    "id": "node/8190623279"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5414866,
+      47.381774
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8190623280",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "SPO-E-31A / HSA Fluntern, Eingangshalle",
+    "description": "während Gebäudeöffnungszeiten (tagsüber) verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Betriebssanität UZH",
+    "phone": "+41 44 635 41 41",
+    "id": "node/8190623280"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5739265,
+      47.383561
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8190623281",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "SCA-E-427B / Eingangshalle, neben Validierstation",
+    "description": "während Gebäudeöffnungszeiten (tagsüber) verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Betriebssanität UZH",
+    "phone": "+41 44 635 41 41",
+    "id": "node/8190623281"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5464688,
+      47.4020247
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8190623282",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "RAI-E-435 / neben Eingang Cafeteria, RAI-E-041",
+    "description": "während Gebäudeöffnungszeiten (tagsüber) verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Betriebssanität UZH",
+    "phone": "+41 44 635 41 41",
+    "id": "node/8190623282"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5506356,
+      47.3732147
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8190623283",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "RAA-E-400 / Eingangshalle bei Cafeteria, Lift",
+    "description": "während Gebäudeöffnungszeiten (tagsüber) verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Betriebssanität UZH",
+    "phone": "+41 44 635 41 41",
+    "id": "node/8190623283"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5499208,
+      47.3720721
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8190623284",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "PEA-E-410 / Eingangshalle, gegenüber Lift",
+    "description": "während Gebäudeöffnungszeiten (tagsüber) verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Betriebssanität UZH",
+    "phone": "+41 44 635 41 41",
+    "id": "node/8190623284"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5343391,
+      47.3708287
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8190623285",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "HRS-E-400 / Eingangsbereich",
+    "description": "während Gebäudeöffnungszeiten (tagsüber) verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Betriebssanität UZH",
+    "phone": "+41 44 635 41 41",
+    "id": "node/8190623285"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5478766,
+      47.372088
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8190623286",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "GLL-F / Eingangsbereich F",
+    "description": "während Gebäudeöffnungszeiten (tagsüber) verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Betriebssanität UZH",
+    "phone": "+41 44 635 41 41",
+    "id": "node/8190623286"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5534532,
+      47.3764061
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8190623287",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "KOL-E-41A / neben VD Büro, KOL-E-1A",
+    "description": "während Gebäudeöffnungszeiten (tagsüber) verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Betriebssanität UZH",
+    "phone": "+41 44 635 41 41",
+    "id": "node/8190623287"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5487285,
+      47.3745661
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8190623288",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "BOT-0-78 / beim Haupteingang",
+    "description": "während Gebäudeöffnungszeiten (tagsüber) verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Betriebssanität UZH",
+    "phone": "+41 44 635 41 41",
+    "id": "node/8190623288"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5600877,
+      47.358916
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8190623289",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "BIN-0-L.03 / neben Postschalter, vor BD-Büro",
+    "description": "während Gebäudeöffnungszeiten (tagsüber) verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Betriebssanität UZH",
+    "phone": "+41 44 635 41 41",
+    "id": "node/8190623289"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5496205,
+      47.4143659
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8190623290",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "AND-2-408 / Vorraum Warenlifte 2. Stock",
+    "description": "während Gebäudeöffnungszeiten (tagsüber) verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Betriebssanität UZH",
+    "phone": "+41 44 635 41 41",
+    "id": "node/8190623290"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5487518,
+      47.4131862
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8190623291",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "AFL-E-070 / Eingangshalle, nähe Postfächer",
+    "description": "während Gebäudeöffnungszeiten (tagsüber) verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Betriebssanität UZH",
+    "phone": "+41 44 635 41 41",
+    "id": "node/8190623291"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5402105,
+      47.4107906
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8190630344",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "in der HWZ (Empfang)",
+    "description": "während Ferien gelten die Öffnungszeiten nicht",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-21:30; Sa 07:00-16:00",
+    "operator": "HWZ",
+    "id": "node/8190630344"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5338181,
+      47.3768048
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8230591073",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Treppenhaus, 1. Stock",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-12:00, 13:00-16:30",
+    "operator": "Stadtpolizei Zürich",
+    "phone": "+41 44 411 71 17",
+    "id": "node/8230591073"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5304761,
+      47.3753553
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8257971367",
+  "properties": {
+    "defibrillator:location": "Vor dem Hauseingang rechts an der Dachsäule",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "wheelchair": "yes",
+    "id": "node/8257971367"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4956974,
+      47.3819067
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8280848041",
+  "properties": {
+    "defibrillator:location": "Beim Haupteingang direkt nach der Schiebetüre rechts",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/8280848041"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4772382,
+      47.3807456
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8382845170",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Büro der SOB",
+    "description": "nur während Büroöffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "SOB",
+    "phone": "+41 58 580 73 35",
+    "id": "node/8382845170"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5402954,
+      47.3761554
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8424840417",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/8424840417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5331519,
+      47.4046457
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8445584053",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Eingangsbereich Pfingstweidstrasse 60b",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "wheelchair": "yes",
+    "id": "node/8445584053"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5146016,
+      47.3902248
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8448182917",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "neue Hard 9 bei der Loge 7/24h",
+    "description": "rund um die Uhr",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Zürcher Kantonalbank",
+    "id": "node/8448182917"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5198691,
+      47.386347
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8461458032",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben dem Kundendienst",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Sa 08:00-20:00; PH off",
+    "operator": "Genossenschaft Migros Zürich",
+    "phone": "+41 58 543 98 00",
+    "wheelchair": "yes",
+    "id": "node/8461458032"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5431598,
+      47.4105926
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8461565646",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Höhere Fachschule für Rettungsberufe (HFRB)",
+    "description": "Beim Eingang 1.OG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 07:30-13:30",
+    "operator": "Schutz & Rettung, Zürich",
+    "wheelchair": "yes",
+    "id": "node/8461565646"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5633227,
+      47.4151496
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8461610909",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingangshalle an Säule",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00 - 17:00",
+    "operator": "Helbling AG",
+    "phone": "+41 44 438 17 11",
+    "id": "node/8461610909"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4839073,
+      47.3921241
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8467137519",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Lerchenhalde 67. Ecke vom Gebäude, links von de Treppen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8467137519"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5076112,
+      47.4155852
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8480125218",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/8480125218"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5525268,
+      47.409306
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8486151363",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "name": "SanArena Rettungsschule",
+    "opening_hours": "24/7",
+    "operator": "SanArena Rettungsschule",
+    "phone": "+41444616161",
+    "id": "node/8486151363"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5210576,
+      47.3709627
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8500495394",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/8500495394"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4931359,
+      47.3756114
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8510071621",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulthess Klinik, neben dem Hautempfang links an der Wand",
+    "description": "Während Öffnungszeiten Empfang verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-21:00",
+    "id": "node/8510071621"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5733847,
+      47.3520173
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8554761412",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im EG beim Empfang und in jedem zweiten Stockwerk.",
+    "description": "während Büroöffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Swisscom AG, Security",
+    "id": "node/8554761412"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5208405,
+      47.3908688
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8554766813",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingangsbereich A der Firma Hitachi Zosen Inova AG",
+    "description": "während Büroöffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Hitachi Zosen Inova AG",
+    "phone": "+41 44 277 11 11",
+    "id": "node/8554766813"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5140867,
+      47.3928298
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8554778669",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Geschäftsstelle Pro Senectute Kanton Zürich EG, Foyer/Haupteingang",
+    "description": "während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:30-12:00, 13:00-17:00",
+    "operator": "Pro Senectute Kanton Zürich, Interne Dienste, Andre Barfuss",
+    "phone": "+41 58 451 51 83",
+    "id": "node/8554778669"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5638609,
+      47.3605993
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8554787355",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "im Treppenhaus, direkt beim Hauseingang",
+    "description": "24h, Tür muss jedoch von einem Bewohner oder Praxis geöffnet werden (ca 20 Klingelknöpfe)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Praxis Sihlbogen - Micha Bloch",
+    "phone": "+41 44 500 19 25",
+    "id": "node/8554787355"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.51907,
+      47.3358098
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8556563378",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Beim Haupteingang ins Gebäude und ins 1. OG vor dem Teamzimmer in einer Kunststoffbox aufgehängt",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:45-16:45",
+    "operator": "Stadt Zürich, SIBE Hans Asper",
+    "phone": "+41 44 413 13 36",
+    "id": "node/8556563378"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5340837,
+      47.3414991
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8556682159",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Standort: Garderobe Cafeteria 1. OG (via Empfang zugänglich)",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
+    "operator": "Swissmem, Verband der Maschinen-, Elektro- und Metallindustrie",
+    "phone": "+41 44 384 41 11",
+    "id": "node/8556682159"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5099424,
+      47.3909584
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8557047322",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "In Apotheke",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Frau Dr. Fröhlich, Apothekerin",
+    "id": "node/8557047322"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5666309,
+      47.3645727
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8557055962",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Haupteingang, vis-à-vis von Empfang",
+    "description": "24h über Notfallstation erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Kinderspital Zürich",
+    "phone": "+41 44 266 71 11",
+    "id": "node/8557055962"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5583416,
+      47.3717379
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8557062520",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Eingang zum Büro an der Wand",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "Baupool Baumanagement AG Sylvia Krebs",
+    "phone": "+41 44 342 91 11",
+    "id": "node/8557062520"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5080515,
+      47.4014279
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8557288918",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Obstgartenstrasse 21, 8006 Zürich",
+    "description": "Am Empfang melden",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "BVK",
+    "phone": "+41584704600",
+    "id": "node/8557288918"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5424736,
+      47.3830087
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8562506992",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "2. Stock rechts bei Eingangstüre in der Garderobe",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "id": "node/8562506992"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5520075,
+      47.3633441
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8562553021",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Treppenhaus 2.OG",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 06:45-18:00",
+    "operator": "Herbert Heeb, Preisig AG 079 692 28 74",
+    "phone": "+41 44 315 41 41",
+    "id": "node/8562553021"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5480653,
+      47.4124015
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8562820772",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Treppenhaus vom EG bis 5. OG jeweils ein Defi",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "Horst Ritzel Alterszentren Stadt Zürich",
+    "phone": "+41 44 412 47 48",
+    "id": "node/8562820772"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.542493,
+      47.4160394
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8570534041",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben dem Eingang BG Zurlinden",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Baugenossenschaft Zurlinden",
+    "phone": "+41 44 497 10 60",
+    "id": "node/8570534041"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4855645,
+      47.375536
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8570581775",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "1. OG - Empfangsdesk Genossenschaft Migros Zürich",
+    "description": "24h verfügbar via Portier",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Genossenschaft Migros Zürich, Adrian Eigenmann (Verantwortlich für die Betriebssanität Areal",
+    "phone": "+41 58 561 51 11",
+    "id": "node/8570581775"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.508537,
+      47.3898698
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8573701621",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "3. Stock bei Reavita",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-19:00",
+    "operator": "Reavita AG",
+    "phone": "+41 44 466 80 66",
+    "id": "node/8573701621"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5106298,
+      47.3628967
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8573989124",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hauseingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8573989124"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5496002,
+      47.4044888
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8574001445",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hauseingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8574001445"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5501089,
+      47.4040901
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8575469417",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Migros Witikon, bei Selfcheck-Kasse",
+    "description": "während Öffnungszeiten verfügbsr",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Sa 08:00-20:00",
+    "operator": "Migros",
+    "phone": "+41 58 563 52 70",
+    "id": "node/8575469417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5857016,
+      47.3591075
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8597448710",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Bei Familie Neufeld läuten",
+    "description": "nur bei Anwesenheit Familie verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Uri Neufeld",
+    "phone": "+41 76 503 73 49",
+    "id": "node/8597448710"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5288922,
+      47.3581896
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8601768098",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Richtung Eingang Migros linkerhand an einer schwarzen Säule",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Sa 08:00-20:00",
+    "id": "node/8601768098"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4875473,
+      47.3882836
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8617262275",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "bei den Kassen des Coop",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Sa 09:00-20:00",
+    "operator": "Letzipark",
+    "id": "node/8617262275"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4996668,
+      47.3862505
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8617262276",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Eingang links",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Sa 09:00-20:00",
+    "operator": "Letzipark",
+    "id": "node/8617262276"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4983069,
+      47.3864207
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8626412817",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/8626412817"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5448611,
+      47.421011
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8629993020",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Alters- und Pflegezentrum Herrenbergli",
+    "description": "24 h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Alterszentrum",
+    "phone": "+41434348073",
+    "id": "node/8629993020"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4684112,
+      47.3911458
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8636063917",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sunnige Hof, Dübendorfstrasse 190, von der Hauptstrasse her auf den Weg einbiegen, zweiter Eingabgsbereich,  Box Sichtbar aussen",
+    "description": "Box Sichtbar von der Hauptstrasse her",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Sunnige Hof",
+    "id": "node/8636063917"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5839815,
+      47.4005006
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8639527698",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Untergeschoss, im Hamam in der Reception in Wandschrank mit AED Kleber an Tür - nur für Mitarbeiter zugänglich",
+    "description": "Nur für Mitarbeiter Zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Stadtbad Zürich",
+    "id": "node/8639527698"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5271904,
+      47.3755132
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8644261479",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Büro der Baugenossenschaft Zurlinden hat es am Empfang einen Defibrillator.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-12:00",
+    "id": "node/8644261479"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4854581,
+      47.3755757
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8644298813",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Am Empfang Belvoirpark Restaurant, rechts in einem Kasten (mit einem Aufkleber Signalisiert)",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Tu-Sa 07:30-24:00",
+    "operator": "Adrian Aeschlimann, Belvoirpark Restaurant",
+    "phone": "+41 44 286 88 07",
+    "id": "node/8644298813"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5332985,
+      47.3577099
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8644298814",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "1x am Empfang der Belvoirpark Hotelfachschule, rechts nach dem Eingang (Signalisiert mit einem Aufkleber)",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Tu-Sa 05:30-19:30",
+    "operator": "Adrian Aeschlimann, Belvoirpark Restaurant",
+    "phone": "+41 44 286 88 07",
+    "id": "node/8644298814"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5325804,
+      47.3564966
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8649748320",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "beim Empfang",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-17:30",
+    "operator": "Rheinmetall Air Defence AG",
+    "phone": "+41 44 316 22 11",
+    "id": "node/8649748320"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5369758,
+      47.4121349
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8658143939",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang SQ125 an Innenkasten",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Kollektiv Werk Yanis Labhart / Raumbörse Dynamo",
+    "phone": "+41 77 961 84 66",
+    "id": "node/8658143939"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5340402,
+      47.3847419
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8794499680",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/8794499680"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4922967,
+      47.3760507
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8823593804",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im EG für alle Bewohner zugänglich",
+    "description": "für Bewohner verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Büro für Betriebsschutz AG",
+    "phone": "+41 43 255 05 05",
+    "id": "node/8823593804"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5322656,
+      47.397077
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8832545418",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "John Reed Fitness",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 06:00-23:00; Sa-Su 09:00-21:00",
+    "phone": "+41 44 500 56 40",
+    "id": "node/8832545418"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5526044,
+      47.4157701
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8838291617",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Empfangsdesk;Eingang links gleich an der Wand  (Zoll Defibrillator)",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Sanitas Krankenversicherung Facility Management",
+    "phone": "+41 76 566 96 21",
+    "id": "node/8838291617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5318261,
+      47.3774582
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8838495918",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Büro 1 Stock",
+    "description": "vom 7.00 uhr bis 17.00",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Firma",
+    "phone": "+41 44 258 88 88",
+    "id": "node/8838495918"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5622782,
+      47.3812898
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8838505917",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Büro 1 stock",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Firma",
+    "phone": "+41 44 258 88 88",
+    "id": "node/8838505917"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5537522,
+      47.3676549
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8840651017",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Kantonale Verwaltung, Stsmofenbachstrasse 12",
+    "description": "während Öffnungszeiten der Verwaltung verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00",
+    "operator": "Kantonale Verwaltung",
+    "phone": "+41 43 259 32 71",
+    "id": "node/8840651017"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5437994,
+      47.3784945
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8840773017",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Schulhaus EG, Vorbereitungszimmer",
+    "description": "Nur mit Schlüssel zugänglich, Personal fragen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/8840773017"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.499976,
+      47.3640093
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8840853517",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Baur au Lac Garage",
+    "description": "Während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Baur au Lac",
+    "phone": "+41442205020",
+    "id": "node/8840853517"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5386215,
+      47.3667519
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8840856418",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Baur au Lac",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Baur au Lac",
+    "phone": "+41442205020",
+    "id": "node/8840856418"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5389178,
+      47.3675822
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8840866217",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Baur au Lac Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Baur au Lac",
+    "phone": "+41442205020",
+    "id": "node/8840866217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5394229,
+      47.3670468
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8841003517",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "The Metropolitans West",
+    "description": "Privatwohngebäude / Schärenmoosstr. 76 / Aufzüge A / Etage 7 / Defi in Feuerwehrschrank auf Etagenvorplatz zu den Wohnungen A, B und C / Nur mit Hausschlüssel erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Privatperson",
+    "phone": "+41 76 202 08 07",
+    "id": "node/8841003517"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5567311,
+      47.4189692
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8841327418",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Stadt Zürich Wasserversorgung",
+    "description": "Während den Öffnnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Stadt Zürich Wasserversorgung",
+    "id": "node/8841327418"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.496719,
+      47.3979036
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8841334217",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Stadt Zürich Wasserversorgung ",
+    "description": "Während den Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Stadt Zürich Wasserversorgung",
+    "id": "node/8841334217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4961395,
+      47.3979677
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8841334220",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Stadt Zürich Wasserversorgung",
+    "description": "während der Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Stadt Zürich Wasserversorgung",
+    "id": "node/8841334220"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5319136,
+      47.3310996
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8841345318",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Wasserversorgung Stadt Zürich",
+    "description": "Während den Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Stadt Zürich Wasserversorgung",
+    "id": "node/8841345318"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5726037,
+      47.3498687
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8841354417",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Stadt Zürich Wasserversorgung",
+    "description": "Während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Stadt Zürich Wasserversorgung",
+    "id": "node/8841354417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5314432,
+      47.3330879
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8842619822",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Nüschelerstrasse 45. 2. OG. Eingangsbereich med. Rücken-Center",
+    "description": "während Öffnungszeit",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 8 bis 20 Uhr\nSa 10 bis 13 Uhr",
+    "operator": "med. Rücken-Center, Therapie & Training",
+    "phone": "+41442116080",
+    "id": "node/8842619822"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5342129,
+      47.3735711
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8852182217",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Suchtfachklinik Zürich, Emil-Klöti-Str. 18, 8037 Zürich, Pflegestation 3.Stock",
+    "description": "Bei Pflegepersonal melden 044 415 56 51",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Suchtfachklinik Zürich",
+    "phone": "+41444155651",
+    "id": "node/8852182217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.517939,
+      47.4000725
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8853928717",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Stadthaus Zürich, Stadthausquai 17",
+    "description": "wärend Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr: 07:30-21:00\nSamstag: 07:30-12:30",
+    "operator": "Immo Stadt Zürich",
+    "phone": "+41444121313",
+    "id": "node/8853928717"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5415623,
+      47.3693595
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8861522717",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Jelmoli",
+    "description": "während Öffnungszeiten auf verschiedenen Stockwerken",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Jelmoli",
+    "id": "node/8861522717"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5372171,
+      47.374248
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8869389117",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Foyer Pfarreizentrum",
+    "description": "Nur bei einer Veranstaltung im Zentrum zugänglich ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Röm. Kath. Kirchgemeinde Herz Jesu Oerlikon",
+    "phone": "+41 44 315 65 65",
+    "id": "node/8869389117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5515029,
+      47.4067667
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8882971239",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Restaurant Fischerstube, Hauptgebäude, nach Windfang des Haupteingangs links in der Wand",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 11:00-23:30",
+    "operator": "Restaurant Fischerstube",
+    "phone": "+41442505950",
+    "id": "node/8882971239"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5505658,
+      47.3530315
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8887207417",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Migros Brunaupark 8045 Zürich ",
+    "description": "während Öffnungszeiten verfügbar ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo - Sa 08:00 bis 20:00",
+    "id": "node/8887207417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5176804,
+      47.3583982
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8895296417",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Bahnhofstrasse 39",
+    "description": "4. Stock Bürogebäude ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "BlackRock",
+    "id": "node/8895296417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5385591,
+      47.3714979
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8912885217",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "tennisclub engematt",
+    "description": "in den sommermonaten bei gutem wetter von 10 bis 22 Uhr",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "tennisclub engematt",
+    "id": "node/8912885217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5070622,
+      47.3530108
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8913469331",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "1. Stock linker Flügel - Grünes Symbol gut sichtbar",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Filipe Sampaio",
+    "phone": "+41764007644",
+    "id": "node/8913469331"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5397202,
+      47.3371253
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8920427417",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hauseingang, Köschenrütistrasse 74, 8052 Zürich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Baugenossenschaft Schönau",
+    "id": "node/8920427417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5373219,
+      47.4257824
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8956636317",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "EWZ Kraftwerk Letten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "EWZ",
+    "id": "node/8956636317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5326688,
+      47.3872467
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8977158256",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Seilbahn Polybahn, Betriebsgebäude",
+    "description": "nur für Mitarbeiter der VBZ zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "VBZ",
+    "phone": "+41 44 411 41 44,",
+    "id": "node/8977158256"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5441741,
+      47.3765314
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8977158257",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Seilbahn Rigiblick, Betriebsgebäude",
+    "description": "nur für Mitarbeiter der VBZ zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "VBZ",
+    "phone": "+41 44 411 41 44,",
+    "id": "node/8977158257"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5489082,
+      47.3858838
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8977158258",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Halle EG, Seite Meisterbüro",
+    "description": "nur für Mitarbeiter der VBZ zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "VBZ",
+    "phone": "+41 44 411 41 44,",
+    "id": "node/8977158258"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5574055,
+      47.4154601
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8977158259",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Betriebsgebäude UB-B",
+    "description": "nur für Mitarbeiter der VBZ zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "VBZ",
+    "phone": "+41 44 411 41 44,",
+    "id": "node/8977158259"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5580358,
+      47.4151352
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8977158260",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Betriebsgebäude UB-B",
+    "description": "nur für Mitarbeiter der VBZ zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "VBZ",
+    "phone": "+41 44 411 41 44,",
+    "id": "node/8977158260"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5075942,
+      47.3820519
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8977158261",
+  "properties": {
+    "access": "no",
+    "description": "nur für Mitarbeiter der VBZ zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "VBZ",
+    "phone": "+41 44 411 41 44,",
+    "id": "node/8977158261"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5080421,
+      47.3819411
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8977158262",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Fahrzeughalle neben Hallenausfahrt Bullingerstrasse",
+    "description": "nur für Mitarbeiter der VBZ zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "VBZ",
+    "phone": "+41 44 411 41 44,",
+    "id": "node/8977158262"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.506929,
+      47.3822716
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8977158263",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "1. Untergeschoss",
+    "description": "nur für Mitarbeiter der VBZ zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "operator": "VBZ",
+    "phone": "+41 44 411 41 44,",
+    "id": "node/8977158263"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5068727,
+      47.3818557
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8977158264",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Gleis 1-3",
+    "description": "nur für Mitarbeiter der VBZ zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "VBZ",
+    "phone": "+41 44 411 41 44",
+    "id": "node/8977158264"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5481599,
+      47.4097553
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8977158265",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "neben dem Ausfahrtshaus",
+    "description": "nur für Mitarbeiter der VBZ zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "VBZ",
+    "phone": "+41 44 411 41 44,",
+    "id": "node/8977158265"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5489163,
+      47.4092216
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8977158266",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "in der linken Depothalle auf der rechten Seite",
+    "description": "nur für Mitarbeiter der VBZ zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "VBZ",
+    "phone": "+41 44 411 41 44,",
+    "id": "node/8977158266"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5440424,
+      47.3950037
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8977158267",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "in der Tramhalle Seite Hardturmstrasse",
+    "description": "nur für Mitarbeiter der VBZ zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "VBZ",
+    "phone": "+41 44 411 41 44,",
+    "id": "node/8977158267"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5211916,
+      47.3914205
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8977158268",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "gegenüber vom Ausfahrtshüsli",
+    "description": "nur für Mitarbeiter der VBZ zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "VBZ",
+    "phone": "+41 44 411 41 44,",
+    "id": "node/8977158268"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5226279,
+      47.3724
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8977158269",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Eingang Elisabethenstrassse 43",
+    "description": "nur für Mitarbeiter der VBZ zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "VBZ",
+    "phone": "+41 44 411 41 44,",
+    "id": "node/8977158269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5210294,
+      47.3738641
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8977158270",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Haupteingang Halle links",
+    "description": "nur für Mitarbeiter der VBZ zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "VBZ",
+    "phone": "+41 44 411 41 44,",
+    "id": "node/8977158270"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5309938,
+      47.3372813
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8977158271",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Fluchtweg Treppenhaus Süd 1. / 3. und 5. OG",
+    "description": "nur für Mitarbeiter der VBZ zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "operator": "VBZ",
+    "phone": "+41 44 411 41 44,",
+    "id": "node/8977158271"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4912045,
+      47.3825513
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8977158272",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Eingang SW",
+    "description": "nur für Mitarbeiter der VBZ zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "VBZ",
+    "phone": "+41 44 411 41 44,",
+    "id": "node/8977158272"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4912957,
+      47.3828319
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8977158273",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Treppenhaus",
+    "description": "nur für Mitarbeiter der VBZ zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "VBZ",
+    "phone": "+41 44 411 41 44,",
+    "id": "node/8977158273"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4917812,
+      47.3861666
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8977158274",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Elektroverteilraum HG-UG",
+    "description": "nur für Mitarbeiter der VBZ zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "VBZ",
+    "phone": "+41 44 411 41 44,",
+    "id": "node/8977158274"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4905326,
+      47.3852482
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8977158275",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Gleis 38",
+    "description": "nur für Mitarbeiter der VBZ zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "VBZ",
+    "phone": "+41 44 411 41 44,",
+    "id": "node/8977158275"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4914768,
+      47.3853953
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8977158276",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Gleis 16/18",
+    "description": "nur für Mitarbeiter der VBZ zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "VBZ",
+    "phone": "+41 44 411 41 44,",
+    "id": "node/8977158276"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4910288,
+      47.3846925
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8977158277",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Büro Betriebsanität",
+    "description": "nur für Mitarbeiter der VBZ zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "VBZ",
+    "phone": "+41 44 411 41 44,",
+    "id": "node/8977158277"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4908867,
+      47.3851428
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8977158278",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Eingang ZW beim Kaffeeautomaten",
+    "description": "nur für Mitarbeiter der VBZ zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "VBZ",
+    "phone": "+41 44 411 41 44,",
+    "id": "node/8977158278"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4912515,
+      47.3858892
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8977158279",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Vor Kantine",
+    "description": "nur für Mitarbeiter der VBZ zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "VBZ",
+    "phone": "+41 44 411 41 44,",
+    "id": "node/8977158279"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4904327,
+      47.3844763
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8977158280",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Bei den Garderoben",
+    "description": "nur für Mitarbeiter der VBZ zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "VBZ",
+    "phone": "+41 44 411 41 44,",
+    "id": "node/8977158280"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4909081,
+      47.3852409
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8989529256",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "1.OG beim Durchgang zur Garderobe",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-16:00",
+    "operator": "Stadt Zürich, Dienstabteilung Verkehr",
+    "phone": "+41 44 411 88 88",
+    "id": "node/8989529256"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5557988,
+      47.4151284
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9007992006",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "4. OG, Wandschrank Korridor - jedoch nicht zugänglich - an Glastüre klopfen",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr08:00-12:00-13:00-17:00",
+    "operator": "Pensionskasse Stadt Zürich / Bruno Langenegger",
+    "phone": "+41 44 412 52 12",
+    "id": "node/9007992006"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5275568,
+      47.3715746
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9028142165",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Kieser Training, im 1. Stock, hinter der Rezeption",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 06:30-21:00; Sa-Su 09:00-18:00",
+    "operator": "Kieser Training Schweiz AG, Studio Zürich Enge",
+    "phone": "+41 44 250 20 50",
+    "id": "node/9028142165"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.524026,
+      47.3594819
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9036239617",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Urania Parkhaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "id": "node/9036239617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5413583,
+      47.3740263
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9047970539",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/9047970539"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5530505,
+      47.3688096
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9053956917",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haus Stadthof",
+    "description": "zu Bürozeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-19:00; Sa 09:00-16:00",
+    "operator:type": "private",
+    "id": "node/9053956917"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5405329,
+      47.3764068
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9078511741",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Beim Eingang von Samariter Zürich 2 im 2. Stock",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-18:00, Sa-Su 08:00-17:30",
+    "operator": "Samariter Zürich 2, Britta Kuratli",
+    "phone": "+4143 244 61 23",
+    "id": "node/9078511741"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5204285,
+      47.3422506
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9078630877",
+  "properties": {
+    "access": "customers",
+    "defibrillator:location": "Inside lifeguard office / Im Badmeisterbüro",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Hallenbad Oerlikon",
+    "wheelchair": "no",
+    "id": "node/9078630877"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5567342,
+      47.4102321
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9078711431",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Zwischen WC und Schliessfächer, in einem Raum",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 09:00-17:00",
+    "operator": "Zoo Zürich AG",
+    "phone": "+41 44 254 25 00",
+    "wheelchair": "no",
+    "id": "node/9078711431"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5747704,
+      47.3847381
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9084201217",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Basefit 3 Stock ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "6:30-23:00",
+    "operator": "Basefit",
+    "id": "node/9084201217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5193911,
+      47.3754136
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9094570217",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "im Büro bei Held & Partner GmbH",
+    "description": "während der Öffnungszeiten ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr: 07:30-16:30 h",
+    "operator": "Held & Partner GmbH - Sanitäre Reparaturen",
+    "phone": "+41443504070",
+    "id": "node/9094570217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5559138,
+      47.4038265
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9115252217",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Colt Technology services AG",
+    "description": "nur zu Bürozeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Colt Technology Services AG",
+    "phone": "+41585601600",
+    "id": "node/9115252217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4935273,
+      47.3879521
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9125922857",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Y19-G Fakultätsache, Uni Irchel",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Universität Zürich, Sicherheit und Umwelt, Betriebssanität",
+    "phone": "+41 44 635 41 41",
+    "id": "node/9125922857"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.551223,
+      47.3970402
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9134262228",
+  "properties": {
+    "access": "customers",
+    "defibrillator:location": "Beim Empfang, links unter dem Tisch.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-18:00",
+    "operator": "Siemens Abteilung EHS",
+    "phone": "+41 44 558 52 52",
+    "id": "node/9134262228"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4915157,
+      47.3793775
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9144102517",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Schulhaus im Birch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/9144102517"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5397238,
+      47.4160244
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9164605183",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "AED befindet sich in Garage Hausnummer 35/39",
+    "description": "24h verfügbar über Bewohner",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Prisedes AG/Verwaltung",
+    "id": "node/9164605183"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5994786,
+      47.3601419
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9178451953",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Booster Transform - Studio Seefeld",
+    "id": "node/9178451953"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5637351,
+      47.348429
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9199447901",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Direkt an der Reception",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-17:30",
+    "operator": "Administrations Team",
+    "phone": "+41 58 316 10 10",
+    "id": "node/9199447901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5183451,
+      47.3385887
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9215556181",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "In der Apotheke (Beratungsraum)",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 7:30-18:30, Sa 9:00-17:00",
+    "operator": "A. Endrass-Korach / S. Allen",
+    "phone": "+41 44 201 17 25",
+    "id": "node/9215556181"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5348984,
+      47.3678875
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9221432969",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "outside of the entry to building 308",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/9221432969"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5259442,
+      47.4142724
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9227261896",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Verbindungstrakt (Pausenzone)",
+    "description": "In Wandkasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "9",
+    "operator": "Stadt Zürich",
+    "wheelchair": "yes",
+    "id": "node/9227261896"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5271413,
+      47.3719078
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9227265862",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "EG, Loge Securitas",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:30-16:30",
+    "operator": "Stadt Zürich",
+    "wheelchair": "yes",
+    "id": "node/9227265862"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5270971,
+      47.3719408
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9245636467",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussenfassade neben Hauseingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Procamed AG",
+    "phone": "+41 52 368 60 00",
+    "id": "node/9245636467"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5447998,
+      47.3717778
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9253648219",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Digicomp: Beim Empfang",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-20:00",
+    "operator": "Digicomp",
+    "id": "node/9253648219"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5354897,
+      47.381974
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9263267818",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Inside JustEat Takeaway office, on the ground flood of the building.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Marina Juaneda",
+    "phone": "+41795547616",
+    "id": "node/9263267818"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5136057,
+      47.3919884
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9280380543",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Rechts, neben den Liften",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 06:00-20:00; Sa 06:00-17:00",
+    "operator": "Stiftung TECHNOPARK® Zürich",
+    "phone": "+41 44 445 11 11",
+    "wheelchair": "limited",
+    "id": "node/9280380543"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5156319,
+      47.3899675
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9280404594",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Rechts, neben den Market und Café",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 06:00-20:00; Sa 06:00-17:00",
+    "operator": "Stiftung TECHNOPARK® Zürich",
+    "phone": "+41 44 445 11 11",
+    "wheelchair": "limited",
+    "id": "node/9280404594"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5153856,
+      47.3900777
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9281134317",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "beim Eingangsbereich 593",
+    "description": "öffentlich zugänglich an der Wand Montiert. Gekennzeichnet an der Fassade.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Genossenschaft Baufreunde",
+    "phone": "043 299 20 60",
+    "id": "node/9281134317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5819271,
+      47.4064077
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9285774602",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sporttrakt B",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "Kantonsschule Zürich Nord",
+    "phone": "+41 78 709 29 02",
+    "id": "node/9285774602"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5344484,
+      47.4077912
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9285774603",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Backsteingebäude",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "Kantonsschule Zürich Nord",
+    "phone": "+41 78 709 29 02",
+    "id": "node/9285774603"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5363394,
+      47.4078148
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9285774604",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Trakt B",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "Kantonsschule Zürich Nord",
+    "phone": "+41 78 709 29 02",
+    "id": "node/9285774604"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5349527,
+      47.4082087
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9285774605",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aula",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "Kantonsschule Zürich Nord",
+    "phone": "+41 78 709 29 02",
+    "id": "node/9285774605"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5356849,
+      47.4076877
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9285774606",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Mensa",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "Kantonsschule Zürich Nord",
+    "phone": "+41 78 709 29 02",
+    "id": "node/9285774606"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5360122,
+      47.4082268
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9303554417",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Bildungszentrum OdA Gesundheit Zürich",
+    "description": "8.Stock beim Lift",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "7:00 - 17:00 Werktags",
+    "operator": "OdA Gesundheit Zürich",
+    "phone": "0445768650",
+    "id": "node/9303554417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5206854,
+      47.3418944
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9318224972",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Gesundhaus Falken Apotheke, Sprechzimmer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Sa 08:00-20:00",
+    "operator": "Rotpunkt Pharma",
+    "phone": "+41 44 308 80 10",
+    "wheelchair": "yes",
+    "id": "node/9318224972"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.548634,
+      47.41962
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9330426117",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Klinik Hirslanden Foyer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Klinik Hirslanden Zürich",
+    "phone": "+41443872111",
+    "id": "node/9330426117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5762714,
+      47.3504048
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9355804534",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Hochparterre im Büro der Firma Tanner Gartenbau AG",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-17:30",
+    "operator": "Tanner Gartenbau AG",
+    "phone": "+41 44 201 69 06",
+    "id": "node/9355804534"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5317468,
+      47.3565489
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9398447254",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bei den Garagenboxen, ganz rechts",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Genossenschaft Baufreunde, Herr Beno Schönenberger",
+    "phone": "+41 79 902 71 02",
+    "id": "node/9398447254"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5259713,
+      47.4106678
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9398461809",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Direkt neben dem Hauseingang zur Binzmühlestrasse 306",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Genossenschaft Baufreunde, Herr Beno Schönenberger",
+    "phone": "+41 79 902 71 02",
+    "id": "node/9398461809"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.526253,
+      47.4141859
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9398461810",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Hintereingang des Gemeinschafts-Lokal der Genossenschaft Baufreunde. Wenn man vom Wendeplatz auf das Gemeinschafts-Lokal sieht, befindet sich der AED links neben der Eingangstüre.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Genossenschaft Baufreunde, Herr Beno Schönenberger",
+    "phone": "+41 79 902 71 02",
+    "id": "node/9398461810"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5624871,
+      47.4093864
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9398461811",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "In der Ausfahrt der Tiefgarage welche sich rechts neben der Treppe zur Hausnummer 53 befindet.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Genossenschaft Baufreunde, Herr Beno Schönenberger",
+    "phone": "+41 79 902 71 02",
+    "id": "node/9398461811"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5242703,
+      47.4130164
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9398461812",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Innenhof der Siedlung beim Gemeinschaftsplatz, links neben der Türe zur Tiefgarage.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Genossenschaft Baufreunde, Herr Beno Schönenberger",
+    "phone": "+41 79 902 71 02",
+    "id": "node/9398461812"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5875944,
+      47.4007355
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9444097957",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben den Rolltreppen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Sa 08:00-20:00; PH off",
+    "wheelchair": "limited",
+    "id": "node/9444097957"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5083936,
+      47.3702001
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9447026516",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "ÄrzteZentrum Hirslanden - Foyer",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Klinik Hirslanden Zürich / Alfons Url",
+    "phone": "+41 44 387 35 79",
+    "id": "node/9447026516"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5587419,
+      47.3529665
+    ]
+  }
+}
 ]
 }
