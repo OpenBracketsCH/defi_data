@@ -20327,6 +20327,7 @@
     "defibrillator:location": "Im Eingangsbereich / Garderobe vor den Toiletten befindet sich der AED",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "24/7",
     "operator": "Pfrundhaus, Kirchgemeinde Kirchlindach",
     "phone": "+41 31 829 29 51",
@@ -66418,6 +66419,28 @@
     "coordinates": [
       8.9151695,
       47.2575085
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9461121517",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Turnhalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Lupsingen",
+    "phone": "+41619159050",
+    "id": "node/9461121517"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6975587,
+      47.4476197
     ]
   }
 }
