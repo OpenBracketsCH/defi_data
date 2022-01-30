@@ -12224,9 +12224,9 @@
   "id": "node/6564797301",
   "properties": {
     "addr:city": "Gadmen",
-    "addr:housenumber": "6",
+    "addr:housenumber": "296a",
     "addr:postcode": "3863",
-    "addr:street": "Sustenstrasse",
+    "addr:street": "Gadmen",
     "defibrillator:location": "Aussenkasten Parkplatz Mehrzweckhalle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -154852,6 +154852,51 @@
     "coordinates": [
       8.1699305,
       47.3617037
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9459858692",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Private Doppelgarage an der Hiltisbergstrasse, der Defibrillator ist oberhalb der beiden Briefkästen montiert, frei zugänglich 7x24h für jedermann",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Daniel Heusser",
+    "phone": "+41 76 594 07 80",
+    "id": "node/9459858692"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9151695,
+      47.2575085
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9459918657",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Treppenhaus im Erdgeschoss",
+    "description": "24h verfügbar (über Türöffnung)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Markus Gössi",
+    "phone": "+41 78 839 80 74",
+    "id": "node/9459918657"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.582045,
+      47.1361336
     ]
   }
 }
