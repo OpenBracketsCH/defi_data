@@ -61819,7 +61819,7 @@
     "addr:city": "Stettlen",
     "addr:housenumber": "1",
     "addr:postcode": "3066",
-    "addr:street": "Bleichstrasse",
+    "addr:street": "Bleichestrasse",
     "defibrillator:location": "Beim Treppenaufgang Turnhallentrakt, während den Öffnungszeiten des Hallenbades und bei Turnbetrieb",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -84385,29 +84385,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9352189617",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Medbase Wetzikon",
-    "description": "während Öffnungszeiten 1. Stock Empfang",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr. 08.00-12.00 und 14.00-18.00Uhr",
-    "operator": "Medbase Wetzikon",
-    "phone": "0449343030",
-    "id": "node/9352189617"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.3915916,
-      47.2198108
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9355715313",
   "properties": {
     "access": "no",
@@ -88479,6 +88456,29 @@
     "coordinates": [
       8.582045,
       47.1361336
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9464349744",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Medbase Wetzikon",
+    "description": "während Öffnungszeiten 1. Stock Empfang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr. 08.00-12.00 und 14.00-18.00Uhr",
+    "operator": "Medbase Wetzikon",
+    "phone": "0449343030",
+    "id": "node/9464349744"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7941612,
+      47.3210692
     ]
   }
 }
