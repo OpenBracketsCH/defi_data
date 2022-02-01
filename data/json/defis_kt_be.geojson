@@ -40736,6 +40736,7 @@
     "defibrillator:location": "Aussenwand Kehrichthaus",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Eigentümergemeinschaft Eschenweg",
@@ -40911,6 +40912,7 @@
   "id": "node/9436903769",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/9436903769"
   },
   "geometry": {
@@ -40983,6 +40985,28 @@
     "coordinates": [
       7.8694403,
       46.6695368
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9465693722",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Beim Bademeister im Rettungsrucksack am Schwimmbecken.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde Muri bei Bern, Aarebad Muri bei Bern, Betriebsleiter Rasch Andreas",
+    "phone": "+41794250061",
+    "website": "https://www.hirslanden.ch/de/klinik-hirslanden/centers/checkupzentrum-hirslanden.html",
+    "id": "node/9465693722"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4916364,
+      46.9233339
     ]
   }
 }

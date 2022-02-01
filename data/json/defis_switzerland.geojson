@@ -151671,6 +151671,7 @@
   "properties": {
     "defibrillator:location": "Eingang Restaurant Sportzentrum",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/9386446353"
   },
   "geometry": {
@@ -151970,6 +151971,7 @@
   "properties": {
     "defibrillator:location": "An der Hauswand",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "id": "node/9391612356"
   },
@@ -152298,6 +152300,7 @@
     "access": "yes",
     "defibrillator:location": "Sur la façade du bâtiment",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "id": "node/9394502661"
@@ -152552,6 +152555,7 @@
     "addr:housenumber": "7",
     "addr:street": "Industriestrasse",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/9397524139"
   },
   "geometry": {
@@ -152930,6 +152934,7 @@
     "access": "yes",
     "defibrillator:location": "A côté de l'ascenseur",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "id": "node/9402113896"
@@ -152972,6 +152977,7 @@
   "properties": {
     "access": "yes",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "level": "0",
     "wheelchair": "yes",
     "id": "node/9405572930"
@@ -152992,6 +152998,7 @@
     "defibrillator:location": "Aussenwand Kehrichthaus",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Eigentümergemeinschaft Eschenweg",
@@ -153014,6 +153021,7 @@
     "defibrillator:location": "2m rechts vom Haupteingang TopShop",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "LANDI Matzingen, Sicherheitsbeauftragter",
@@ -153790,6 +153798,7 @@
   "id": "node/9436903769",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/9436903769"
   },
   "geometry": {
@@ -154331,6 +154340,7 @@
   "id": "node/9444758899",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/9444758899"
   },
   "geometry": {
@@ -154583,8 +154593,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4279419,
-      47.5019603
+      9.4275718,
+      47.5006013
     ]
   }
 },
@@ -154606,8 +154616,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.427844,
-      47.5022964
+      9.4281229,
+      47.5023761
     ]
   }
 },
@@ -154965,6 +154975,163 @@
     "coordinates": [
       8.7941612,
       47.3210692
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9465639435",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rechts von Volg- und Hauseingang, oberhalb Post-Briefkasten",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Benken, 8463 Benken ZH",
+    "phone": "+41 52 319 11 80",
+    "id": "node/9465639435"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6535928,
+      47.6529261
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9465639436",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rechts vom Turnhalleneingang/Mehrzweckgebäude",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Benken, 8463 Benken ZH",
+    "phone": "+41 52 319 11 80",
+    "id": "node/9465639436"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.654885,
+      47.6514169
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9465672760",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "In der Reception Camping St. Cassian. Zugänglich für jedermann. Jedoch nur während den Öffnungszeiten des Camping-/Restaurantbetriebs oder auf Abruf (Glocke).",
+    "description": "24h verfügbar (über Glocke)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Camping St. Cassian",
+    "phone": "+41 81 384 24 72",
+    "id": "node/9465672760"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5583898,
+      46.6987862
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9465672761",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Schulhaus beim Eingang. Zugänglich für jedermann. Jedoch nur während Schulbetrieb und an Abenden, wenn Vereine vor Ort sind.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Lantsch/Lenz, Werke",
+    "phone": "+41 81 659 01 04",
+    "id": "node/9465672761"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5631802,
+      46.6835287
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9465672762",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Bei der Rezeption im Nordic House und im Betriebsgebäude bei der Schiessanlage. Zugänglich nur durch Personal und nur während Öffnungszeiten.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Biathlon Lenzerheide c/o Verein Arena Nordic-Events",
+    "phone": "+41 81 659 11 05",
+    "id": "node/9465672762"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5590174,
+      46.6922122
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9465688647",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Praxis des CheckupZentrums der Klinik Hirslanden - Forchstrasse 420 (Nähe Tramstation Rehalp)",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
+    "operator": "Klinik Hirslanden Zürich / Alfons Url",
+    "phone": "+41 44 387 35 79",
+    "id": "node/9465688647"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5844032,
+      47.3501094
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9465693722",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Beim Bademeister im Rettungsrucksack am Schwimmbecken.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde Muri bei Bern, Aarebad Muri bei Bern, Betriebsleiter Rasch Andreas",
+    "phone": "+41794250061",
+    "website": "https://www.hirslanden.ch/de/klinik-hirslanden/centers/checkupzentrum-hirslanden.html",
+    "id": "node/9465693722"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4916364,
+      46.9233339
     ]
   }
 }

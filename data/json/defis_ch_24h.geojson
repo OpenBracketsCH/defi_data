@@ -65399,6 +65399,7 @@
     "access": "yes",
     "defibrillator:location": "Sur la façade du bâtiment",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "id": "node/9394502661"
@@ -65857,6 +65858,7 @@
     "defibrillator:location": "Aussenwand Kehrichthaus",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Eigentümergemeinschaft Eschenweg",
@@ -65879,6 +65881,7 @@
     "defibrillator:location": "2m rechts vom Haupteingang TopShop",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "LANDI Matzingen, Sicherheitsbeauftragter",
@@ -66484,6 +66487,52 @@
     "coordinates": [
       8.782163,
       47.6373513
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9465639435",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rechts von Volg- und Hauseingang, oberhalb Post-Briefkasten",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Benken, 8463 Benken ZH",
+    "phone": "+41 52 319 11 80",
+    "id": "node/9465639435"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6535928,
+      47.6529261
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9465639436",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rechts vom Turnhalleneingang/Mehrzweckgebäude",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Benken, 8463 Benken ZH",
+    "phone": "+41 52 319 11 80",
+    "id": "node/9465639436"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.654885,
+      47.6514169
     ]
   }
 }
