@@ -35083,12 +35083,11 @@
   "id": "node/8865680197",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Am Ticketschalter melden",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Bernmobil Büro, 2. Stock",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "fixme": "Bitte überprüfen, ob sich der Defi hier befindet. Defi war neben Billettautomaten vor UBS eingezeichnet, wo sich jedoch kein Defi befindet.",
     "indoor": "yes",
+    "level": "2",
     "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-17:00",
     "operator": "Bernmobil",
     "phone": "+41 31 321 88 44",
@@ -35097,8 +35096,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4400749,
-      46.9471763
+      7.4398409,
+      46.9472476
     ]
   }
 },
@@ -41051,6 +41050,29 @@
     "coordinates": [
       7.6399565,
       46.9011942
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9474628117",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Flamatt ",
+    "description": "Während der Öffnungszeiten ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Privat",
+    "phone": "0317411551",
+    "id": "node/9474628117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4000003,
+      46.9969694
     ]
   }
 }
