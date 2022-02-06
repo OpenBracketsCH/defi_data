@@ -59679,7 +59679,7 @@
     "description": "Aussenwand Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "name": "Sunnematte APH",
+    "name": "Alters- und Pflegeheim Sunnematte",
     "opening_hours": "24/7",
     "id": "node/7637818981"
   },
@@ -155581,6 +155581,45 @@
     "coordinates": [
       9.1712118,
       47.6419843
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9482829517",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Schulhaus Mühlematt, neben Eingang rechts",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/9482829517"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0044165,
+      47.3968416
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9482831617",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Migros, Untergeschoss",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr: 08:00-19:00 Uhr\nSa: 08:00-17:00 Uhr",
+    "id": "node/9482831617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0085295,
+      47.4052982
     ]
   }
 }
