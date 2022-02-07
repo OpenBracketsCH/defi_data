@@ -7075,11 +7075,13 @@
   "type": "Feature",
   "id": "node/8445635917",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Mehrzweckgebäude, rechts beim Eingang",
+    "access": "yes",
+    "defibrillator:location": "Mehrzweckgebäude, rechts beim Haupteingang",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde",
     "id": "node/8445635917"
   },
