@@ -12177,8 +12177,8 @@
   "properties": {
     "addr:city": "Hasliberg - Hohfluh",
     "addr:housenumber": "86j",
+    "addr:place": "Weidli",
     "addr:postcode": "6083",
-    "addr:street": "Weidli",
     "defibrillator:location": "Feuerwehrmagazin - zugänglich mit PLZ Code",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -155960,6 +155960,25 @@
     "coordinates": [
       9.5173092,
       47.4782316
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9490865717",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rezeption der Jugendherberge, réception de l‘auberge de jeunesse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/9490865717"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.1493642,
+      46.214992
     ]
   }
 }
