@@ -53887,6 +53887,7 @@
     "description": "beim Empfang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Ausgleichskasse",
     "id": "node/7637818658"
   },
@@ -155936,6 +155937,29 @@
     "coordinates": [
       8.9381854,
       47.622707
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9490788817",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Saropack AG Seebleichestrasse 50 9404 Rorschacherberg",
+    "description": "beim Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Firma Saropack AG",
+    "phone": "+41718583838",
+    "id": "node/9490788817"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5173092,
+      47.4782316
     ]
   }
 }
