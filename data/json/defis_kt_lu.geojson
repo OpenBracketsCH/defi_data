@@ -9862,23 +9862,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637818862",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Tillinger Bernd, Praxis",
-    "id": "node/7637818862"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.277365,
-      47.0335789
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637818863",
   "properties": {
     "description": "2. Etage (Treppenhaus)",
@@ -14812,6 +14795,27 @@
     "coordinates": [
       7.843895,
       47.2303553
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9375854733",
+  "properties": {
+    "amenity": "doctors",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "healthcare": "doctor",
+    "healthcare:speciality": "general",
+    "name": "Praxis Dr. Tillinger",
+    "phone": "+41 41 320 66 88",
+    "id": "node/9375854733"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2773151,
+      47.0336106
     ]
   }
 },
