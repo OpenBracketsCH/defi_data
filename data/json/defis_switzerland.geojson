@@ -59061,6 +59061,7 @@
     "emergency:phone": "144",
     "name": "Feuerwehrmagazin",
     "opening_hours": "24/7",
+    "operator": "Samariter Grosswangen",
     "id": "node/7637818947"
   },
   "geometry": {
@@ -59075,11 +59076,13 @@
   "type": "Feature",
   "id": "node/7637818948",
   "properties": {
-    "access": "yes",
+    "defibrillator:location": "Beim Haupteingang Kalofenhalle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "name": "Kalofenhalle",
     "opening_hours": "24/7",
+    "operator": "Samariter Grosswangen",
     "id": "node/7637818948"
   },
   "geometry": {
@@ -59099,6 +59102,7 @@
     "emergency:phone": "144",
     "name": "Meyer Blechtechnik",
     "opening_hours": "24/7",
+    "operator": "Meyer Blechtechnik",
     "id": "node/7637818949"
   },
   "geometry": {
@@ -156145,6 +156149,49 @@
     "coordinates": [
       9.2884793,
       47.1145697
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9492727417",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Halden Trakt E",
+    "description": "Der Defibrillator befindet sich im Schulhaus Halden Trakt E",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-17:00",
+    "operator": "Gemeinde",
+    "id": "node/9492727417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5687505,
+      47.4296703
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9492741618",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Jumbo Baumarkt",
+    "description": "Während Oeffungszeiten Verfügbar ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "MO. - Fr. 08:30-20:00 08:00-18:00",
+    "id": "node/9492741618"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3999998,
+      46.9972034
     ]
   }
 }
