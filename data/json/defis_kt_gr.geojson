@@ -5923,6 +5923,48 @@
       46.8972422
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/9498447526",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Feuerwehrlokal, Untergeschoss",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9498447526"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.7992468,
+      46.9014475
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9498474641",
+  "properties": {
+    "defibrillator:location": "Bei Bucherer",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Sa 09:00-19:00; Su 13:00-18:00",
+    "operator": "Bucherer SA",
+    "id": "node/9498474641"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.8396519,
+      46.4984695
+    ]
+  }
 }
 ]
 }

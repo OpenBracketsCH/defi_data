@@ -9063,28 +9063,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8548038222",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "neben Vital Gelati Stand, Richtung See. Direkt bei der grossen Bootsrampe/Hafeneinfahrt Rietli Goldach.",
-    "description": "24h verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde Goldach",
-    "id": "node/8548038222"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.4786169,
-      47.4834682
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8554804159",
   "properties": {
     "access": "yes",
@@ -15662,6 +15640,27 @@
     "coordinates": [
       9.2884793,
       47.1145697
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9498474635",
+  "properties": {
+    "defibrillator:location": "Bei Bucherer",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 09:00-18:30; Sa 09:00-17:00",
+    "operator": "Bucherer SA",
+    "id": "node/9498474635"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3757173,
+      47.4243296
     ]
   }
 }
