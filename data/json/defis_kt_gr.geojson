@@ -5143,11 +5143,12 @@
   "id": "node/9277808617",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Stadthaus, Erdgeschoss",
+    "defibrillator:location": "Eingangsbereich Stadthaus, Erdgeschoss",
     "description": "Während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo: 08:30 - 17:00 Uhr\nDi & Do: 08.30 - 11.30 Uhr\nMi & Fr: 08:30 - 11:30 Uhr, 14:00 - 16:30 Uhr",
     "operator": "Stadt Chur",
     "id": "node/9277808617"
@@ -5155,8 +5156,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5347129,
-      46.851804
+      9.5345961,
+      46.8517538
     ]
   }
 },
@@ -5166,17 +5167,19 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Rathaushalle, Aufgang Cafeteria",
+    "description": "Nur während Öffnungszeiten zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "yes",
+    "level": "1",
     "operator": "Stadt Chur",
     "id": "node/9277827317"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5325685,
-      46.849035
+      9.5325057,
+      46.849061
     ]
   }
 },
@@ -5184,20 +5187,21 @@
   "type": "Feature",
   "id": "node/9277827318",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Hallenbad Obere Au, Kassa Bereich",
+    "access": "permit",
+    "defibrillator:location": "Hallenbad Obere Au, an der Kasse beim Schwimmbad",
     "description": "Während den Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "operator": "Stadt Chur",
     "id": "node/9277827318"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5059446,
-      46.858973
+      9.5059493,
+      46.8589698
     ]
   }
 },
@@ -5205,11 +5209,12 @@
   "type": "Feature",
   "id": "node/9277830917",
   "properties": {
-    "access": "no",
+    "access": "permit",
     "defibrillator:location": "Werkhof, Eingang Bürogebäude",
+    "description": "Nur während Öffnungszeiten zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "yes",
     "operator": "Stadt Chur",
     "id": "node/9277830917"
   },
@@ -5225,20 +5230,21 @@
   "type": "Feature",
   "id": "node/9277892417",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Turn- und Sportanlage Gewerbliche Berufsschule Chur",
-    "description": "Turn- und Sportanlage",
+    "access": "yes",
+    "defibrillator:location": "Turn- und Sportanlage, Eingang Foyer",
+    "description": "Nur während Öffnungszeiten zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "yes",
+    "level": "0",
     "operator": "Gewerbliche Berufsschule Chur",
     "id": "node/9277892417"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5228465,
-      46.8564682
+      9.523446,
+      46.8563197
     ]
   }
 },
@@ -5246,11 +5252,13 @@
   "type": "Feature",
   "id": "node/9277898117",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "EIngangsbereich Gewerbliche Berufsschule Chur",
+    "access": "yes",
+    "defibrillator:location": "Eingangsbereich GBC, vor dem Sekretariat",
+    "description": "Nur während Öffnungszeiten zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "operator": "Gewerbliche Berufsschule Chur",
     "id": "node/9277898117"
   },
@@ -5978,6 +5986,70 @@
     "coordinates": [
       9.2676919,
       46.8466304
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9505534749",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eishalle, Gebäudeeingang",
+    "description": "Nur während Öffnungszeiten zugänglich",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "name": "Defibrillator Eishalle",
+    "operator": "Stadt Chur",
+    "id": "node/9505534749"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5049097,
+      46.8578989
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9505534750",
+  "properties": {
+    "access": "permit",
+    "defibrillator:location": "Im Gebäude der Kasse für das Quader Eisfeld",
+    "description": "Von Ende November bis Ende Februar! Während den Öffnungszeiten des Eisfelds",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Stadt Chur",
+    "id": "node/9505534750"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5345877,
+      46.8534951
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9505534751",
+  "properties": {
+    "access": "permit",
+    "defibrillator:location": "Im Gebäude an der Kasse der Badi Sand",
+    "description": "Von Anfangs Mais bis Ende August!",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Stadt Chur",
+    "id": "node/9505534751"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5362934,
+      46.8463352
     ]
   }
 }
