@@ -10709,6 +10709,7 @@
   "id": "node/7637818946",
   "properties": {
     "access": "yes",
+    "contact:phone": "041 984 29 29",
     "description": "im Eingangsbereich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -10729,6 +10730,7 @@
   "id": "node/7637818947",
   "properties": {
     "access": "yes",
+    "contact:phone": "041 920 17 19",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "name": "Feuerwehrmagazin",
@@ -10739,8 +10741,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0467098,
-      47.1343578
+      8.0464389,
+      47.1343197
     ]
   }
 },
@@ -10748,6 +10750,7 @@
   "type": "Feature",
   "id": "node/7637818948",
   "properties": {
+    "contact:phone": "041 920 17 19",
     "defibrillator:location": "Beim Haupteingang Kalofenhalle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -10761,7 +10764,7 @@
     "type": "Point",
     "coordinates": [
       8.0493747,
-      47.1307421
+      47.1307485
     ]
   }
 },
@@ -10770,9 +10773,10 @@
   "id": "node/7637818949",
   "properties": {
     "access": "yes",
+    "contact:phone": "041 984 22 66",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "name": "Meyer Blechtechnik",
+    "name": "AED Meyer Blechtechnik",
     "opening_hours": "24/7",
     "operator": "Meyer Blechtechnik",
     "id": "node/7637818949"
@@ -10780,8 +10784,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0451079,
-      47.1302465
+      8.0447734,
+      47.1298225
     ]
   }
 },
@@ -10789,16 +10793,19 @@
   "type": "Feature",
   "id": "node/7637818950",
   "properties": {
+    "defibrillator:location": "In der Schalterhalle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Valiant Bank",
+    "opening_hours": "24/7",
     "id": "node/7637818950"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0487958,
-      47.1334922
+      8.0487557,
+      47.1335383
     ]
   }
 },
