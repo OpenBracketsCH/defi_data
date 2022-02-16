@@ -10414,7 +10414,7 @@
     "description": "Lernhaus EG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "name": "IPH (Interkantonale Polizeischule Hitzkirch)",
+    "name": "Campus Polizeischule IPH Hitzkirch",
     "id": "node/7637818917"
   },
   "geometry": {
@@ -15109,6 +15109,29 @@
     "coordinates": [
       8.308416,
       47.0534062
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9512210517",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Sonnmattstrasse 45",
+    "description": "In Garage",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Privatperson",
+    "phone": "+41794111892",
+    "id": "node/9512210517"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3795584,
+      47.076654
     ]
   }
 }
