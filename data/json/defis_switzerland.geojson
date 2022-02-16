@@ -116039,10 +116039,15 @@
   "type": "Feature",
   "id": "node/8858062186",
   "properties": {
-    "defibrillator:location": "im 24h Bereich",
+    "access": "yes",
+    "defibrillator:location": "Das Gebäude liegt direkt an der Hauptstrasse, der Defibrillator ist in der 24h-Zone beim Bankautomaten.",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "David Ruess (Leiter Niederlassung)",
+    "phone": "+41 71 733 77 11",
     "id": "node/8858062186"
   },
   "geometry": {
@@ -146466,13 +146471,14 @@
   "id": "node/9320657582",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Im 24h Bereich bei den Bancomaten",
+    "defibrillator:location": "Das Gebäude liegt direkt an der Hauptstrasse, der Defibrillator ist an der Wand zwischen Bankomat und links vom Haupteingang (beim Kundenparkplatz) montiert",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "24/7",
-    "operator": "Gemeinde Diepoldau",
+    "operator": "Andreas Schmid (Vorsitzender Der Bankleitung)",
+    "phone": "+41 71 737 88 88",
     "id": "node/9320657582"
   },
   "geometry": {
@@ -156723,49 +156729,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9498544717",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Garage",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Privatperson",
-    "phone": "+41794111892",
-    "id": "node/9498544717"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.3795137,
-      47.0766658
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9498552317",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Sonnmattstrasse 45",
-    "description": "Garage",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Privatperson",
-    "phone": "+41794111892",
-    "id": "node/9498552317"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.3796153,
-      47.0766321
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9500428756",
   "properties": {
     "emergency": "defibrillator",
@@ -156973,6 +156936,144 @@
     "coordinates": [
       8.0252298,
       46.6233205
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9510963657",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang, Treppenhaus 1. Stock",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-20:00",
+    "operator": "Hauswarte, zksk",
+    "phone": "+41 32 625 82 50",
+    "id": "node/9510963657"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5352431,
+      47.2102063
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9510963658",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang, direkt nach der Glasschiebetüre",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "Hauswarte, zksk",
+    "phone": "+41 32 625 82 50",
+    "id": "node/9510963658"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7112587,
+      47.287721
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9510968872",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Erweiterungsbau rechts neben dem Eingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Schulhaus Feld - Oberstufe",
+    "phone": "+41 757 90 40",
+    "id": "node/9510968872"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.540018,
+      47.3794538
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9510974095",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindeverwaltung, angrenzender Fahrradunterstand aus Holz",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Aesch",
+    "phone": "+41 61 756 77 74",
+    "id": "node/9510974095"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.598932,
+      47.4656919
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9510993295",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "First Responder Fahrzeug",
+    "description": "24h über Notruf erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Feuerwehr Steinach",
+    "phone": "+41787964090",
+    "id": "node/9510993295"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4428758,
+      47.5023825
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9511002128",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang, Zwischenraum Schiebetüren",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-20:00",
+    "operator": "Hauswarte, zksk",
+    "phone": "+41 32 625 82 50",
+    "id": "node/9511002128"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5385483,
+      47.1985334
     ]
   }
 }
