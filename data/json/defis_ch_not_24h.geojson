@@ -1717,6 +1717,26 @@
 },
 {
   "type": "Feature",
+  "id": "node/4132686802",
+  "properties": {
+    "addr:city": "Altishofen",
+    "addr:housenumber": "9",
+    "addr:postcode": "6246",
+    "addr:street": "Oberdorf",
+    "defibrillator:location": "Oberdorf 9",
+    "emergency": "defibrillator",
+    "id": "node/4132686802"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9627459,
+      47.2010431
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/4162994703",
   "properties": {
     "emergency": "defibrillator",
@@ -90108,6 +90128,22 @@
     "coordinates": [
       8.6506999,
       46.8727116
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9516021421",
+  "properties": {
+    "defibrillator:location": "Arztpraxis Dr. Hodel",
+    "emergency": "defibrillator",
+    "id": "node/9516021421"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9675794,
+      47.1994677
     ]
   }
 }
