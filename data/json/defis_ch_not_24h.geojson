@@ -89832,27 +89832,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9508202117",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Schopfrückwand, Weg zur Schule",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Privat",
-    "phone": "+41763054171",
-    "id": "node/9508202117"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.2798365,
-      47.3143037
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9508364654",
   "properties": {
     "access": "yes",
@@ -90144,6 +90123,29 @@
     "coordinates": [
       7.9675794,
       47.1994677
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9522276221",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "In der Raiffeisenbank Schwarzwasser",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 09:00-12:00, 14:00-17:00",
+    "operator": "Raiffeisenbank Schwarzwasser",
+    "phone": "+41 31 734 55 55",
+    "id": "node/9522276221"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3433887,
+      46.8183638
     ]
   }
 }

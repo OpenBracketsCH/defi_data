@@ -156875,9 +156875,11 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Schopfrückwand, Weg zur Schule",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Privat",
     "phone": "+41763054171",
     "id": "node/9508202117"
@@ -157360,6 +157362,190 @@
     "coordinates": [
       7.8984798,
       47.3430765
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9522199613",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Unter der Treppe bei der Restaurantterrasse",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gerti & Markus Hitz",
+    "phone": "+41 81 328 18 88",
+    "id": "node/9522199613"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.7372284,
+      46.9911847
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9522267876",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der Defibrillator befindet sich gut zugänglich direkt neben der Eingangstüre des Clubhauses.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Uitikon",
+    "phone": "+41 44 200 15 00",
+    "id": "node/9522267876"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4567153,
+      47.3629989
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9522267877",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Clubhaus FC Uitikon",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Uitikon",
+    "phone": "+41 44 200 15 00",
+    "id": "node/9522267877"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.457858,
+      47.3629553
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9522276221",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "In der Raiffeisenbank Schwarzwasser",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 09:00-12:00, 14:00-17:00",
+    "operator": "Raiffeisenbank Schwarzwasser",
+    "phone": "+41 31 734 55 55",
+    "id": "node/9522276221"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3433887,
+      46.8183638
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9522278423",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "24h Zone bei den Bancomaten",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Raiffeisenbank Schwarzwasser",
+    "phone": "+41 31 734 55 55",
+    "id": "node/9522278423"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.310881,
+      46.8648163
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9522282879",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "SPAR Supermarkt Städtli-Markt Genossenschaft",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadt Maienfeld",
+    "phone": "+41 79 218 05 50",
+    "id": "node/9522282879"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5311385,
+      47.0074548
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9522296643",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gerät befindet sich direkt neben dem Spezialtrakt (Eingang ehemalige Abwart Wohnung)",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadt Maienfeld",
+    "phone": "+41 79 218 05 50",
+    "id": "node/9522296643"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5280057,
+      47.0061836
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9522296644",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gerät befindet sich direkt beim Haupteingang der Stadtverwaltung",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadt Maienfeld",
+    "phone": "+41 79 218 05 50",
+    "id": "node/9522296644"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5313799,
+      47.0056413
     ]
   }
 }
