@@ -40848,6 +40848,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/8556389382",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben dem WC",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Bergbahnen Arosa",
+    "phone": "144",
+    "wheelchair": "limited",
+    "id": "node/8556389382"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.6630199,
+      46.7864496
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8556519066",
   "properties": {
     "access": "yes",
@@ -67420,6 +67444,97 @@
     "coordinates": [
       8.8157977,
       47.2691226
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9523916721",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben Info & Caisse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "wheelchair": "limited",
+    "id": "node/9523916721"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2699864,
+      46.0800043
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9523951049",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben dem Lift",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Bergbahnen Arosa",
+    "phone": "144",
+    "wheelchair": "limited",
+    "id": "node/9523951049"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.6651621,
+      46.7759031
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9523960380",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Neben dem Büro",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadt Zürich",
+    "phone": "144",
+    "wheelchair": "limited",
+    "id": "node/9523960380"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.537951,
+      47.417719
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9524040567",
+  "properties": {
+    "access": "customers",
+    "defibrillator:location": "Hautspezialisten am Glattpark",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "24/7",
+    "operator": "Hautspezialisten am Glattpark",
+    "phone": "+41 44 310 12 40",
+    "wheelchair": "limited",
+    "id": "node/9524040567"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5576513,
+      47.4223098
     ]
   }
 }
