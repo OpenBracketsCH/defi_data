@@ -2503,6 +2503,73 @@
       47.4656919
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/9524918530",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Garage Wirz",
+    "description": "Waschanlage",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Garage Wirz Sissach",
+    "id": "node/9524918530"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8006209,
+      47.4674325
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9524918532",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "AMAG Skoda Reception Eingang Rechts",
+    "description": "Während Oeffungszeiten Verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "MO. - Fr. 08:15-12:00 13:30-18:30 Sa :09:00-16:00",
+    "operator": "AMAG Liestal",
+    "id": "node/9524918532"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7232009,
+      47.4969191
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9524918534",
+  "properties": {
+    "Sa-So": "08:00-21:00",
+    "access": "yes",
+    "defibrillator:location": "Migros Fitness Aquabasilea bei Rezeption",
+    "description": "Während Oeffungszeiten Verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 06:30-22:00",
+    "operator": "Fitness Zentrum",
+    "id": "node/9524918534"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6812887,
+      47.5243664
+    ]
+  }
 }
 ]
 }
