@@ -12864,30 +12864,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6565703792",
-  "properties": {
-    "access": "permissive",
-    "addr:city": "Grindelwald-Grund",
-    "addr:housenumber": "61",
-    "addr:postcode": "3818",
-    "addr:street": "Grundstrasse",
-    "defibrillator:location": "Wartsaal",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "Zeitweise öffentlich",
-    "operator": "Wengernalpbahn",
-    "id": "node/6565703792"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.0233821,
-      46.6225569
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6565703793",
   "properties": {
     "access": "permissive",
@@ -157581,6 +157557,119 @@
     "coordinates": [
       7.2849897,
       46.4656297
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9529311041",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "ED befindet sich Perron seitig beim Gleis 1 direkt neben Eingang zur Verkaufsstelle",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Jungfraubahnen Management AG Interlaken",
+    "phone": "+41 79 297 93 15",
+    "id": "node/9529311041"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.023495,
+      46.6224936
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9529314164",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rechts neben der Eingangstür der Gemeindeverwaltung sind die öffentlichen Toiletten. Zwischen der Damentoilette und der Rollstuhl Toilette befindet sich der Defibrillator.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung Ueberstorf",
+    "phone": "+41 31 740 88 88",
+    "id": "node/9529314164"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.314107,
+      46.8661151
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9529320126",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "direkt bei der Hauswand beim Perron 1",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Jungfraubahnen Management AG Interlaken",
+    "phone": "+41 79 297 93 15",
+    "id": "node/9529320126"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9211272,
+      46.6049978
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9529336016",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im IV-WC im Erdgeschoss neben dem Haupteingang",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "DocCheck Shop Schweiz",
+    "id": "node/9529336016"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0741532,
+      46.785657
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9529344026",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Gebäude drin.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-18:30, Sa 08:00-16:00",
+    "operator": "Apotheke Wülflingen",
+    "phone": "+41 52 222 32 79",
+    "id": "node/9529344026"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6935868,
+      47.510686
     ]
   }
 }

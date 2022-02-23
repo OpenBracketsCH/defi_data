@@ -7859,30 +7859,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6565703792",
-  "properties": {
-    "access": "permissive",
-    "addr:city": "Grindelwald-Grund",
-    "addr:housenumber": "61",
-    "addr:postcode": "3818",
-    "addr:street": "Grundstrasse",
-    "defibrillator:location": "Wartsaal",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "Zeitweise öffentlich",
-    "operator": "Wengernalpbahn",
-    "id": "node/6565703792"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.0233821,
-      46.6225569
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6565703793",
   "properties": {
     "access": "permissive",
@@ -90000,6 +89976,50 @@
     "coordinates": [
       8.5398048,
       47.5052943
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9529336016",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im IV-WC im Erdgeschoss neben dem Haupteingang",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "DocCheck Shop Schweiz",
+    "id": "node/9529336016"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0741532,
+      46.785657
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9529344026",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Gebäude drin.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-18:30, Sa 08:00-16:00",
+    "operator": "Apotheke Wülflingen",
+    "phone": "+41 52 222 32 79",
+    "id": "node/9529344026"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6935868,
+      47.510686
     ]
   }
 }
