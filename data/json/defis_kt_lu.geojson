@@ -3,6 +3,22 @@
 "features": [
 {
   "type": "Feature",
+  "id": "node/1025912519",
+  "properties": {
+    "defibrillator:location": "AED Südpol\nArsenalstrasse 1",
+    "emergency": "defibrillator",
+    "id": "node/1025912519"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2919522,
+      47.0299383
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/2072537065",
   "properties": {
     "access": "yes",
@@ -15522,6 +15538,38 @@
     "coordinates": [
       8.2806837,
       47.0409113
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9534284684",
+  "properties": {
+    "defibrillator:location": "Schulhaus Meiersmatt",
+    "emergency": "defibrillator",
+    "id": "node/9534284684"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2687086,
+      47.0313401
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9534301737",
+  "properties": {
+    "defibrillator:location": "Praxis Dr. Tillinger",
+    "emergency": "defibrillator",
+    "id": "node/9534301737"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.277255,
+      47.0336728
     ]
   }
 }
