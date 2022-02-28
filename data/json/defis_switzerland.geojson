@@ -62175,18 +62175,20 @@
   "id": "node/7637819118",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "An der Wand",
     "description": "Seite Hauptstr. neben Raiffeisen Bancomat",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "name": "Tourismusbüro",
     "opening_hours": "24/7",
+    "wheelchair": "limited",
     "id": "node/7637819118"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4754102,
-      46.9669835
+      8.4753374,
+      46.9669349
     ]
   }
 },
@@ -159072,6 +159074,27 @@
     "coordinates": [
       6.9086019,
       46.4823562
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9544507117",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "In der Carmenna-Hütte",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Carmenna Hütte",
+    "id": "node/9544507117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.6402089,
+      46.7784266
     ]
   }
 }
