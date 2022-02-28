@@ -94981,7 +94981,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "opening_hours": "Mo-Fr 08:00-12:00; 13:30-16:00",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:30-16:00",
     "operator": "Aicher, De Martin, Zweng AG (Natascha Hermann)",
     "phone": "+41 58 721 70 00",
     "id": "node/8556347974"
@@ -115173,7 +115173,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr: 07:00-19:00",
+    "opening_hours": "Mo-Fr 07:00-19:00",
     "operator": "Kanton Baselland",
     "phone": "+41 61 552 18 18",
     "id": "node/8846606519"
@@ -159230,6 +159230,27 @@
     "coordinates": [
       8.1801191,
       47.4681467
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9545837617",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bülach Kaserne 3 EG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Armee",
+    "id": "node/9545837617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5264891,
+      47.5105174
     ]
   }
 }
