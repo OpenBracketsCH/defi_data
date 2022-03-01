@@ -119915,8 +119915,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4181577,
-      47.4254856
+      7.4182785,
+      47.4254831
     ]
   }
 },
@@ -159272,6 +159272,49 @@
     "coordinates": [
       8.4864075,
       47.3938664
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9547967417",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus, vor dem Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9547967417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3573418,
+      47.3480292
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9547980817",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Bei der Firma Kromer Print AG",
+    "description": "Betriebsinterner Defi im Drucksaal beim der Eingangstür",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 7.30-17.30 Uhr",
+    "operator": "Kromer Print AG",
+    "phone": "+41628863333",
+    "id": "node/9547980817"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1934943,
+      47.3913823
     ]
   }
 }
