@@ -272,6 +272,22 @@
 },
 {
   "type": "Feature",
+  "id": "node/1765503500",
+  "properties": {
+    "defibrillator:location": "Schulhaus Schlierbach\nSchulhausstrasse 1",
+    "emergency": "defibrillator",
+    "id": "node/1765503500"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1089743,
+      47.2288916
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/1847264321",
   "properties": {
     "description": "Standort bei Shop im EG der Talstation",
@@ -159650,6 +159666,91 @@
     "coordinates": [
       7.9573684,
       47.1618372
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9553663536",
+  "properties": {
+    "defibrillator:location": "Feuerwehrlokal\nBodenwaldstrasse 6",
+    "emergency": "defibrillator",
+    "id": "node/9553663536"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6123703,
+      46.8806885
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9553724126",
+  "properties": {
+    "defibrillator:location": "Zgraggen Holding\nUmfahrungsstrasse 26c",
+    "emergency": "defibrillator",
+    "id": "node/9553724126"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6406968,
+      46.8572924
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9553727298",
+  "properties": {
+    "defibrillator:location": "Dreifachturnhalle",
+    "emergency": "defibrillator",
+    "id": "node/9553727298"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9905247,
+      47.171362
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9553744417",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeinde Walterswil ",
+    "description": "Immer verfügbar ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde ",
+    "id": "node/9553744417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9716955,
+      47.3292593
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9553753819",
+  "properties": {
+    "defibrillator:location": "Valiant Bank (24)",
+    "emergency": "defibrillator",
+    "id": "node/9553753819"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9883021,
+      47.170106
     ]
   }
 }
