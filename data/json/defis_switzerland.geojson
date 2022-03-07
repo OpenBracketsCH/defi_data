@@ -21880,14 +21880,17 @@
   "type": "Feature",
   "id": "node/6636906411",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "addr:city": "Aarberg",
     "addr:housenumber": "29",
     "addr:postcode": "3270",
     "addr:street": "Stadtplatz",
-    "defibrillator:location": "Wären Restaurantöffnungszeiten (06.00 Uhr- 23.30)",
+    "defibrillator:location": "Windfang Eingang Restaurant",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 06:00-23:00",
     "operator": "Hotel Restaurant Krone",
     "phone": "+41 32 391 99 66",
     "id": "node/6636906411"
@@ -42684,10 +42687,13 @@
   "type": "Feature",
   "id": "node/7559692340",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Büro Bademeister",
+    "access": "yes",
+    "defibrillator:location": "Im Restaurant an der Wand befestigt",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "operator": "Sarah Meister",
+    "phone": "+41 62 769 85 91",
     "id": "node/7559692340"
   },
   "geometry": {
@@ -160288,6 +160294,98 @@
     "coordinates": [
       9.4452255,
       46.6996605
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9559687650",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Zentrum Bruder Klaus - Haupteingang Aussenbereich",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Kath. Kirchgemeinde Kriens",
+    "phone": "+41 41 317 30 23",
+    "id": "node/9559687650"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2905827,
+      47.0329268
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9559687651",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Begegnungszentrum St. Franziskus - Haupteingang Aussenbereich",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Kath. Kirchgemeinde Kriens",
+    "phone": "+41 41 317 30 23",
+    "id": "node/9559687651"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2673112,
+      47.0329935
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9559687652",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Kirche St. Gallus - Haupteingang Innenbereich - Montage Wand rechte Seite in Ecke - mit Kennzeichnung",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "operator": "Kath. Kirchgemeinde Kriens",
+    "phone": "+41 41 317 30 23",
+    "id": "node/9559687652"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.279717,
+      47.032736
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9559687653",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Gallusheim - Haupteingang Innenbereich - rechte Seite",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-17:30",
+    "operator": "Kath. Kirchgemeinde Kriens",
+    "phone": "+41 41 317 30 23",
+    "id": "node/9559687653"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2788876,
+      47.0356246
     ]
   }
 }
