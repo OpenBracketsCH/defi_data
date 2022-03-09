@@ -79346,6 +79346,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "9",
+    "opening_hours": "Mo-Fr 07:30-17:00",
     "operator": "Stadt Zürich",
     "wheelchair": "yes",
     "id": "node/9227261896"
@@ -79368,7 +79369,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 08:30-16:30",
+    "opening_hours": "Mo-Fr 07:30-17:00",
     "operator": "Stadt Zürich",
     "wheelchair": "yes",
     "id": "node/9227265862"
@@ -92199,6 +92200,30 @@
     "coordinates": [
       8.865983,
       47.2241678
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9566219151",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Verbindungstrakt (Pausenzone)",
+    "description": "In Wandkasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "4",
+    "opening_hours": "Mo-Fr 07:30-17:00",
+    "operator": "Stadt Zürich",
+    "wheelchair": "yes",
+    "id": "node/9566219151"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5271495,
+      47.3719159
     ]
   }
 }
