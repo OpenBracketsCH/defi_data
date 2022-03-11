@@ -15759,15 +15759,22 @@
   "type": "Feature",
   "id": "node/9553547770",
   "properties": {
-    "defibrillator:location": "Feuerwehrlokal\nDorfstrasse 59",
+    "access": "yes",
+    "defibrillator:location": "Defi befindet sich beim Schulhaus",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Roggliswil",
+    "phone": "+41 79 215 51 21",
     "id": "node/9553547770"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.8818335,
-      47.2096169
+      7.8847419,
+      47.2117273
     ]
   }
 },
