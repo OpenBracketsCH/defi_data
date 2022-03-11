@@ -160647,6 +160647,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/9570775682",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Zwischengang vom Hotel Siesta und Hotel Oase",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 07:00-02:00",
+    "operator": "Zentrum Artos, Lori Michel",
+    "phone": "+41 33 828 88 75",
+    "id": "node/9570775682"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8664966,
+      46.6855086
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9570922164",
   "properties": {
     "access": "no",
@@ -160665,6 +160688,29 @@
     "coordinates": [
       9.2746228,
       47.3096871
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9570923453",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussenwand des Gemeindesaals Riken",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Roger Haller, Chef Technische Dienste/Bauverwalter",
+    "phone": "+41 62 917 00 36",
+    "id": "node/9570923453"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8493398,
+      47.2762874
     ]
   }
 }
