@@ -86726,12 +86726,14 @@
   "id": "node/9399744617",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Im Coop Rhymarkt neben dem Kiosk",
+    "defibrillator:location": "Im Coop Rhymarkt zwischen Eingang Schützenstrasse und Kiosk an der Wand mit den Self-Scan-Geräten",
     "description": "während den Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Sa 8:00-7:00",
+    "level": "0",
+    "opening_hours": "Mo-Sa 08:00-20:00; PH off",
+    "wheelchair": "yes",
     "id": "node/9399744617"
   },
   "geometry": {
@@ -92280,6 +92282,46 @@
     "coordinates": [
       8.6079508,
       47.6424278
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9574983617",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Maschwanden, Dorfstrasse 24; Gerbi",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/9574983617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4230035,
+      47.2339863
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9574996217",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "ZIVI Gebäude A",
+    "description": "im Eingangsbereich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "ZIVI",
+    "id": "node/9574996217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2759761,
+      46.6632041
     ]
   }
 }
