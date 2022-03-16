@@ -119609,7 +119609,7 @@
   "id": "node/8918652517",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "\"Milchhüsli\"\nTeuschenstrasse 8, 8500 Gerlikon",
+    "defibrillator:location": "\"Milchhüsli\" Teuschenstrasse 8, 8500 Gerlikon",
     "description": "immer verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -119623,8 +119623,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8780384,
-      47.537132
+      8.8780411,
+      47.5371314
     ]
   }
 },
@@ -160997,6 +160997,28 @@
     "coordinates": [
       9.4053087,
       47.4314431
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9582788317",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Bahnhofstrasse 44",
+    "description": "während Öffnungszeiten ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Montag-Freitag 10:00-19:00 Samstag 10:00-18:00",
+    "id": "node/9582788317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5347014,
+      47.3660722
     ]
   }
 }
