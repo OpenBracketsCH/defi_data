@@ -61764,12 +61764,13 @@
   "id": "node/7637819093",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Gewerbezone 82\n6018 Buttisholz",
+    "defibrillator:location": "Gewerbezone 82, 6018 Buttisholz",
     "description": "Haupteingang / Empfang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "name": "Beck Konzept AG",
+    "opening_hours": "24/7",
     "operator": "Beck Konzept AG",
     "id": "node/7637819093"
   },
@@ -61785,17 +61786,22 @@
   "type": "Feature",
   "id": "node/7637819094",
   "properties": {
+    "defibrillator:location": "Gesundheitszentrum Buttisholz\nArigstrasse 17, 6018 Buttisholz",
     "description": "Arztpraxis",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Xundheitszentrum Buttisholz",
+    "opening_hours": "Mo-Mi + Fr 07:30-12:00, 14:00-18:00 | Do 07:30-12:00",
+    "operator": "Xundheitszentrum Buttisholz",
+    "phone": "+41 41 929 69 29",
     "id": "node/7637819094"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.097468,
-      47.1125987
+      8.0975548,
+      47.1127528
     ]
   }
 },
@@ -139249,12 +139255,13 @@
   "type": "Feature",
   "id": "node/9205455317",
   "properties": {
-    "access": "no",
+    "access": "yes",
     "defibrillator:location": "Im Wartehäuschen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Zahnarztpraxis Dr. med. dent. Matthias Käch",
     "id": "node/9205455317"
   },
   "geometry": {
@@ -139269,19 +139276,20 @@
   "type": "Feature",
   "id": "node/9205456317",
   "properties": {
-    "access": "no",
+    "access": "yes",
     "defibrillator:location": "Bösgasse 6/8",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Samariter Buttisholz",
     "id": "node/9205456317"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0961946,
-      47.1112687
+      8.0961106,
+      47.1112879
     ]
   }
 },
@@ -158095,6 +158103,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Buttisholz",
     "id": "node/9531800666"
   },

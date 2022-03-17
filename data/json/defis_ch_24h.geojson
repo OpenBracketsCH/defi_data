@@ -26771,6 +26771,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/7637819093",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gewerbezone 82, 6018 Buttisholz",
+    "description": "Haupteingang / Empfang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "name": "Beck Konzept AG",
+    "opening_hours": "24/7",
+    "operator": "Beck Konzept AG",
+    "id": "node/7637819093"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0781129,
+      47.1133914
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/7637819095",
   "properties": {
     "access": "yes",
@@ -60559,12 +60582,13 @@
   "type": "Feature",
   "id": "node/9205455317",
   "properties": {
-    "access": "no",
+    "access": "yes",
     "defibrillator:location": "Im Wartehäuschen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Zahnarztpraxis Dr. med. dent. Matthias Käch",
     "id": "node/9205455317"
   },
   "geometry": {
@@ -60579,19 +60603,20 @@
   "type": "Feature",
   "id": "node/9205456317",
   "properties": {
-    "access": "no",
+    "access": "yes",
     "defibrillator:location": "Bösgasse 6/8",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Samariter Buttisholz",
     "id": "node/9205456317"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0961946,
-      47.1112687
+      8.0961106,
+      47.1112879
     ]
   }
 },
@@ -67697,6 +67722,27 @@
     "coordinates": [
       8.7076582,
       47.6771015
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9531800666",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Neugass\nHaupteingang Trakt D aussen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Buttisholz",
+    "id": "node/9531800666"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0947206,
+      47.1165689
     ]
   }
 },
