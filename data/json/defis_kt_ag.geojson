@@ -11541,6 +11541,51 @@
       47.2762874
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/9587113567",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Feuerwehrmagazin, auf Fahrzeugen 2 Stk.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "FW Rohrdorf",
+    "id": "node/9587113567"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3040293,
+      47.4228203
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9587170075",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Eingang des Gebäudes",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "note": "https://www.mc-bauchemie.ch/assets/Swiss/PDF/Defibrillator-Siloring_8-5606_Dintikon.pdf",
+    "opening_hours": "24/7",
+    "operator": "MC-Bauchemie AG",
+    "phone": "+41 56 616 68 68",
+    "id": "node/9587170075"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2246399,
+      47.3759475
+    ]
+  }
 }
 ]
 }
