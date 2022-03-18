@@ -83428,29 +83428,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8167091003",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Bei Stempeluhr",
-    "description": "während Öffnungszeiten erreichbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-16:00",
-    "operator": "Picatech Huber AG",
-    "phone": "+41 41 349 68 68",
-    "id": "node/8167091003"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.3128876,
-      47.0135078
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8167231832",
   "properties": {
     "access": "yes",
@@ -158011,6 +157988,7 @@
     "defibrillator:location": "Senioren- und Gesundheitszentrum Ursern",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "id": "node/9531735253"
   },
   "geometry": {
@@ -161099,6 +161077,52 @@
     "coordinates": [
       8.5069069,
       47.5583373
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9587061056",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Bei Stempeluhr",
+    "description": "während Öffnungszeiten erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-16:00",
+    "operator": "Picatech Huber AG",
+    "phone": "+41 41 349 68 68",
+    "id": "node/9587061056"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2970658,
+      47.031169
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9587163942",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussenwand Nord",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "MassTechnik GmbH, 6460 Altdorf",
+    "phone": "+41 41 870 52 29",
+    "id": "node/9587163942"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6278058,
+      46.8901806
     ]
   }
 }
