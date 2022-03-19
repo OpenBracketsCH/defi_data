@@ -864,6 +864,7 @@
     "description": "Empfang - Erdgeschoss",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Swiss Alps Golf Course",
     "id": "node/7637819138"
   },
@@ -1739,6 +1740,22 @@
     "coordinates": [
       8.6278058,
       46.8901806
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9589469348",
+  "properties": {
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/9589469348"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5913283,
+      46.6393155
     ]
   }
 }
