@@ -28240,7 +28240,7 @@
   "id": "node/9587110238",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Halle 1 & 8",
+    "defibrillator:location": "Pestalozzi AG in der Halle 8",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -28252,7 +28252,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3959687,
+      8.3959917,
       47.4156779
     ]
   }
@@ -28262,7 +28262,7 @@
   "id": "node/9587110239",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Bürogebäude bei Transstahl",
+    "defibrillator:location": "Pestalozzi AG, Bürogebäude bei Transstahl",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -28384,6 +28384,28 @@
     "coordinates": [
       8.4014467,
       47.4155018
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9591629542",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Pestalozzi AG in der Halle 1",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "reavita AG, Grubenstrasse 56, 8045 Zürich",
+    "phone": "+41 44 466 80 66",
+    "id": "node/9591629542"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.397697,
+      47.4143796
     ]
   }
 }
