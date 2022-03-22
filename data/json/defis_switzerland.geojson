@@ -94818,11 +94818,14 @@
   "id": "node/8554826629",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Haupteingang Foyer",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Haupteingang",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Oberstufe Rebstein-Marbach",
+    "phone": "+41 71 777 37 20",
     "id": "node/8554826629"
   },
   "geometry": {
@@ -161530,6 +161533,73 @@
     "coordinates": [
       8.6095608,
       47.7613659
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9596873572",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Informationszentrum in Brambrüesch",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Churwalden",
+    "phone": "+41 81 382 00 11",
+    "id": "node/9596873572"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5149058,
+      46.8222907
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9596928952",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kleine Cafeteria (bei den Parkplätzen)",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "id": "node/9596928952"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.780407,
+      47.645
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9596963160",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang (ROTER Eingang), am Empfang vorbei gehen. DEFI-Kennzeichnung an der rechten Seite ersichtlich. Defi ist direkt darunter.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-12:00, 13:00-17:00",
+    "operator": "Procamed AG",
+    "phone": "+41 44 905 95 87",
+    "id": "node/9596963160"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4215502,
+      47.3925363
     ]
   }
 }
