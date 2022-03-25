@@ -162333,6 +162333,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/9604814181",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Foyer beim Haupteingang des Bürogebäudes der Stadtwerke Gossau.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-11:30, 13:30-16:30",
+    "operator": "Michael Ammann / Leiter Netze, SIBE / Stadtwerke Gossau",
+    "phone": "+41 79 772 91 62",
+    "id": "node/9604814181"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2421305,
+      47.4229573
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9604836095",
   "properties": {
     "access": "yes",
@@ -162370,6 +162393,52 @@
     "coordinates": [
       9.5301662,
       46.8529195
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9604883719",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "bei Briefkastenanlage Haupteingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Politische Gemeinde Kirchberg, Leiter Liegenschaften &amp; Infrastruktur, Segmüller Stefan",
+    "phone": "+41719317051",
+    "id": "node/9604883719"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9995797,
+      47.3963566
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9604890414",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang EG, Schulhaus Eichbüel,",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Politische Gemeinde Kirchberg, Leiter Liegenschaften &amp; Infrastruktur, Segmüller Stefan",
+    "phone": "+41 71 931 70 51",
+    "id": "node/9604890414"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.065727,
+      47.4136922
     ]
   }
 }
