@@ -12656,10 +12656,14 @@
   "id": "node/7930220203",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Im Restaurant Gotschalkenberg",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "an Aussenfassade des Restaurants/Lagerhauses",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Fachbereich Interne Sicherheit",
+    "phone": "+41 58 728 90 63",
     "id": "node/7930220203"
   },
   "geometry": {
@@ -13463,25 +13467,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7930654663",
-  "properties": {
-    "access": "yes",
-    "description": "24h verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "id": "node/7930654663"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5163704,
-      47.1669459
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7930654664",
   "properties": {
     "access": "yes",
@@ -13504,10 +13489,13 @@
   "id": "node/7930654665",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Im Schwimmbad",
+    "defibrillator:location": "bei der Badeaufsicht",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Stadtverwaltung Zug, Fachbereich Interne Sicherheit",
+    "phone": "+41 58 728 90 63",
     "id": "node/7930654665"
   },
   "geometry": {
@@ -13523,12 +13511,14 @@
   "id": "node/7930654667",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Innenbereich vor der Turnhallentüre im EG",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Fassade Velounterstand",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Gemeinde Zug, Schulhaus Riedmatt",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Fachbereich Interne Sicherheit",
+    "phone": "+41 58 728 90 63",
     "id": "node/7930654667"
   },
   "geometry": {
@@ -13544,17 +13534,21 @@
   "id": "node/7930654668",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schulhaus Guthirt",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Zwischen Trakt A und Trakt B",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Fachbereich Interne Sicherheit",
+    "phone": "+41 58 728 90 63",
     "id": "node/7930654668"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5191867,
-      47.1777949
+      8.5190472,
+      47.1776673
     ]
   }
 },
@@ -13563,17 +13557,21 @@
   "id": "node/7930654669",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schulhaus Letzi",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Box bei Briefkasten Trakt 4 beim oberen Parkplatz",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Fachbereich Interne Sicherheit",
+    "phone": "+41 58 728 90 63",
     "id": "node/7930654669"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.523218,
-      47.171046
+      8.5244143,
+      47.1709257
     ]
   }
 },
@@ -13582,17 +13580,20 @@
   "id": "node/7930654670",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schwimmbad",
+    "defibrillator:location": "bei der Badeaufsicht",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Stadtverwaltung Zug, Fachbereich Interne Sicherheit",
+    "phone": "+41 58 728 90 63",
     "id": "node/7930654670"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5241005,
-      47.1710788
+      8.5236941,
+      47.17101
     ]
   }
 },
@@ -13601,36 +13602,21 @@
   "id": "node/7930654671",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schulhaus Letzi",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Fassade bei Pavillon EG",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Fachbereich Interne Sicherheit",
+    "phone": "+41 58 728 90 63",
     "id": "node/7930654671"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5015056,
-      47.1777538
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7930654672",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Tagesschule",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/7930654672"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5204849,
-      47.163378
+      8.5006124,
+      47.1777374
     ]
   }
 },
@@ -13639,17 +13625,21 @@
   "id": "node/7930654673",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schulhaus Maria Opferung",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Box bei Toreingang",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Fachbereich Interne Sicherheit",
+    "phone": "+41 58 728 90 63",
     "id": "node/7930654673"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5205331,
-      47.1630042
+      8.5201844,
+      47.1627507
     ]
   }
 },
@@ -13658,10 +13648,14 @@
   "id": "node/7930654674",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schulhaus Kirchmatt",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Fassade bei Haupteingang",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Fachbereich Interne Sicherheit",
+    "phone": "+41 58 728 90 63",
     "id": "node/7930654674"
   },
   "geometry": {
@@ -13734,17 +13728,21 @@
   "id": "node/7930654678",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schulhaus Gimenen",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Holzschopf vor Eingang",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Fachbereich Interne Sicherheit",
+    "phone": "+41 58 728 90 63",
     "id": "node/7930654678"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5166949,
-      47.1523802
+      8.5179073,
+      47.1526465
     ]
   }
 },
@@ -13753,10 +13751,13 @@
   "id": "node/7930654679",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "In der Sporthalle",
+    "defibrillator:location": "Im Eingangsbereich",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Stadtverwaltung Zug, Fachbereich Interne Sicherheit",
+    "phone": "+41 58 728 90 63",
     "id": "node/7930654679"
   },
   "geometry": {
@@ -13772,17 +13773,21 @@
   "id": "node/7930654680",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schulhaus Herti",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Fassade Seiteneingang",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Fachbereich Interne Sicherheit",
+    "phone": "+41 58 728 90 63",
     "id": "node/7930654680"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5040912,
-      47.1812269
+      8.5040724,
+      47.1815204
     ]
   }
 },
@@ -13791,10 +13796,14 @@
   "id": "node/7930654681",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "im Schulhaus",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Box bei Toreingang",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Fachbereich Interne Sicherheit",
+    "phone": "+41 58 728 90 63",
     "id": "node/7930654681"
   },
   "geometry": {
@@ -13810,17 +13819,21 @@
   "id": "node/7930654682",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Im Saal",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Bei Notschlüsselbox",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Fachbereich Interne Sicherheit",
+    "phone": "+41 58 728 90 63",
     "id": "node/7930654682"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5172313,
-      47.1653384
+      8.5171884,
+      47.165482
     ]
   }
 },
@@ -13829,10 +13842,13 @@
   "id": "node/7930654683",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Im Strandbad",
+    "defibrillator:location": "Bei der Badaufsicht",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Stadtverwaltung Zug, Fachbereich Interne Sicherheit",
+    "phone": "+41 58 728 90 63",
     "id": "node/7930654683"
   },
   "geometry": {
@@ -13848,10 +13864,14 @@
   "id": "node/7930654684",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "In Musikschule",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Rückwand von Parkhaus Kasse",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Fachbereich Interne Sicherheit",
+    "phone": "+41 58 728 90 63",
     "id": "node/7930654684"
   },
   "geometry": {
@@ -13859,25 +13879,6 @@
     "coordinates": [
       8.5131597,
       47.1718774
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7930677685",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Im Schulhaus",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/7930677685"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5080796,
-      47.1488834
     ]
   }
 },
@@ -13905,17 +13906,21 @@
   "id": "node/7930677687",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "im Theater Casino",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Stütze Haupteingang",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Fachbereich Interne Sicherheit",
+    "phone": "+41 58 728 90 63",
     "id": "node/7930677687"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5139564,
-      47.1643619
+      8.5140369,
+      47.1641394
     ]
   }
 },
@@ -13924,17 +13929,21 @@
   "id": "node/7930677688",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Seebad Seeliken",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Bei der Badaufsicht",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Fachbereich Interne Sicherheit",
+    "phone": "+41 58 728 90 63",
     "id": "node/7930677688"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5133301,
-      47.1642753
+      8.5134937,
+      47.1646947
     ]
   }
 },
@@ -13943,10 +13952,14 @@
   "id": "node/7930677689",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Leichtathletikanlage im Gebäude",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Fassade bei Haupteingang",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Fachbereich Interne Sicherheit",
+    "phone": "+41 58 728 90 63",
     "id": "node/7930677689"
   },
   "geometry": {
@@ -13962,10 +13975,14 @@
   "id": "node/7930677690",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Fussballstadion im Gebäude",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Fassade bei Restaurant",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Fachbereich Interne Sicherheit",
+    "phone": "+41 58 728 90 63",
     "id": "node/7930677690"
   },
   "geometry": {
@@ -13980,11 +13997,15 @@
   "type": "Feature",
   "id": "node/7930677691",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Feuerwehr",
+    "access": "no",
+    "defibrillator:location": "Hintereingang, Seite Industriestrasse",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Feuerwehramt Stadt Zug",
+    "phone": "+41 58 728 18 18",
     "id": "node/7930677691"
   },
   "geometry": {
@@ -26578,12 +26599,14 @@
   "id": "node/8624719432",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Steht man vor der Reception sieht man rechts an der Wand den Defibrillator",
+    "defibrillator:location": "an der Fassade am Eingang",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "yes",
     "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Fachbereich Interne Sicherheit",
+    "phone": "+41 58 728 90 63",
     "id": "node/8624719432"
   },
   "geometry": {
@@ -39245,27 +39268,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9567176317",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Schützenhaus Chollermühli",
-    "description": "An Aussenwand angebracht",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "id": "node/9567176317"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4822344,
-      47.1811326
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9572289517",
   "properties": {
     "access": "no",
@@ -40044,6 +40046,253 @@
     "coordinates": [
       8.639068,
       47.2691472
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9605130355",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Fassade Richtung PP",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Fachbereich Interne Sicherheit",
+    "phone": "+41 58 728 90 63",
+    "id": "node/9605130355"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4821065,
+      47.1811558
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9605130356",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Wand links von Schuhputzstation",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Fachbereich Interne Sicherheit",
+    "phone": "+41 58 728 90 63",
+    "id": "node/9605130356"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4865599,
+      47.1823027
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9605130357",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Fassade bei Haupteingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Fachbereich Interne Sicherheit",
+    "phone": "+41 58 728 90 63",
+    "id": "node/9605130357"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5108316,
+      47.1821329
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9605130358",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "In der Sporthalle",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/9605130358"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5083264,
+      47.1750919
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9605130359",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Zwischen Trakt A und Trakt B",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Stadtverwaltung Zug, Fachbereich Interne Sicherheit",
+    "phone": "+41 58 728 90 63",
+    "id": "node/9605130359"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5166319,
+      47.1774475
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9605130360",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bibliothek EG",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Stadtverwaltung Zug, Fachbereich Interne Sicherheit",
+    "phone": "+41 58 728 90 63",
+    "id": "node/9605130360"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5151795,
+      47.1645114
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9605130361",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Fassade bei Hauptplatz",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Fachbereich Interne Sicherheit",
+    "phone": "+41 58 728 90 63",
+    "id": "node/9605130361"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5214102,
+      47.1605458
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9605130362",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang ZSA links",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Fachbereich Interne Sicherheit",
+    "phone": "+41 58 728 90 63",
+    "id": "node/9605130362"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5085209,
+      47.149137
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9605130363",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingangstüre Rechts",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Fachbereich Interne Sicherheit",
+    "phone": "+41 58 728 90 63",
+    "id": "node/9605130363"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5047852,
+      47.1386357
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9605130364",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bei Briefkasten",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Fachbereich Interne Sicherheit",
+    "phone": "+41 58 728 90 63",
+    "id": "node/9605130364"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5141093,
+      47.1756344
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9605130365",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang West, Blinddeckel Elektro",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Fachbereich Interne Sicherheit",
+    "phone": "+41 58 728 90 63",
+    "id": "node/9605130365"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5133851,
+      47.1756909
     ]
   }
 }
