@@ -3,6 +3,97 @@
 "features": [
 {
   "type": "Feature",
+  "id": "way/539871830",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Brienz BE",
+    "addr:country": "CH",
+    "addr:housenumber": "494",
+    "addr:place": "Brienzer Rothorn",
+    "addr:postcode": "3855",
+    "addr:street": "Brienzer Rothorn",
+    "building": "yes",
+    "defibrillator:location": "Reception Berghaus, Von Juni bis Oktober",
+    "ele": "2265",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "layer": "1",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Berghaus Rothorn Kulm",
+    "phone": "+411 33 952 22 22",
+    "id": "way/539871830"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          8.0419118,
+          46.7874719
+        ],
+        [
+          8.0419632,
+          46.7876339
+        ],
+        [
+          8.0417858,
+          46.7876623
+        ],
+        [
+          8.041798,
+          46.7876975
+        ],
+        [
+          8.0417661,
+          46.7877026
+        ],
+        [
+          8.0417542,
+          46.7876673
+        ],
+        [
+          8.0414631,
+          46.7877138
+        ],
+        [
+          8.0414389,
+          46.7876388
+        ],
+        [
+          8.0414498,
+          46.7876357
+        ],
+        [
+          8.0414636,
+          46.7876154
+        ],
+        [
+          8.0414508,
+          46.7875747
+        ],
+        [
+          8.0414209,
+          46.7875598
+        ],
+        [
+          8.041457,
+          46.7875243
+        ],
+        [
+          8.0414828,
+          46.7875378
+        ],
+        [
+          8.0419118,
+          46.7874719
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/1743453065",
   "properties": {
     "emergency": "defibrillator",
