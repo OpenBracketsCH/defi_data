@@ -6129,23 +6129,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/5294630798",
-  "properties": {
-    "access": "yes",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/5294630798"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.3638183,
-      47.0717849
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/5310338121",
   "properties": {
     "access": "yes",
@@ -63298,8 +63281,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3638386,
-      47.0720186
+      8.3638024,
+      47.0718021
     ]
   }
 },
@@ -163273,6 +163256,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/9625587989",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang (ProCase Wandschrank)",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Bezirksgericht Willisau, Felber Bruno",
+    "phone": "+41 41 228 34 34",
+    "id": "node/9625587989"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9945211,
+      47.1186198
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9625588450",
   "properties": {
     "access": "no",
@@ -163318,6 +163324,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/9625603389",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Sporthalle Hermoos 9",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Bühler, Peter Aemisegger",
+    "phone": "+41 71 791 70 27",
+    "id": "node/9625603389"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.423928,
+      47.3716879
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9625608316",
   "properties": {
     "access": "yes",
@@ -163358,6 +163385,297 @@
     "coordinates": [
       7.9408702,
       47.2972753
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9625613709",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Bank Cler AG, EG, Sitzungszimmer \"Glasbox\" Beistellmöbel rechts an der Wand",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 09:00-12:00, 13:30-17:00",
+    "operator": "Bank Cler AG / Heinz Kuhn und/oder Jacqueline Germann",
+    "phone": "+41 71 227 65 37",
+    "id": "node/9625613709"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.372744,
+      47.4225984
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9625620056",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Grossraumbüro Garderobe 1. OG",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Empfang Zug",
+    "phone": "+41 41 726 11 11",
+    "id": "node/9625620056"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5159385,
+      47.1688955
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9625624140",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Garderobengebäude Fussballclub Oftringen, EG",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Sicherheitsdienste Gemeinde Oftringen",
+    "phone": "+49627898380",
+    "id": "node/9625624140"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9296935,
+      47.3159047
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9625624141",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Liegenschaft Soziale Dienste, 2. OG",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Sicherheitsdienste Gemeinde Oftringen",
+    "phone": "+49627898380",
+    "id": "node/9625624141"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9166096,
+      47.3166139
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9625624142",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Mehrzweckhalle, Foyer, Seite Garderoben an der Wand",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Sicherheitsdienste Gemeinde Oftringen",
+    "phone": "+49627898380",
+    "id": "node/9625624142"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9290792,
+      47.3110093
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9625624143",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Schulhaus, neben Haupteingang rechts an der Wand",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Sicherheitsdienste Gemeinde Oftringen",
+    "phone": "+49627898380",
+    "id": "node/9625624143"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.930541,
+      47.311142
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9625624148",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussenfassade der Gemeindeverwaltung in Richtung Dorfplatz/Dorfstrasse",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Neuenegg",
+    "phone": "+41 31 744 01 00",
+    "id": "node/9625624148"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3018896,
+      46.8939378
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9625624149",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussenfassade (Strassenseite) des Restaurants zum Denkmal Bramberg",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Neuenegg",
+    "phone": "+41 31 744 01 00",
+    "id": "node/9625624149"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2805432,
+      46.9076978
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9625633024",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Schalterhalle Erdgeschoss (Haupteingang; Säule Seeseite)",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeindeverwaltung Horgen / Neidhart Monika",
+    "phone": "+41 44 728 41 11",
+    "id": "node/9625633024"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5977881,
+      47.2609212
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9625633025",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "im unteren Foyer des Gemeindesaals (Schinzenhofsaal)",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeindeverwaltung Horgen / Neidhart Monika",
+    "phone": "+41 44 728 41 11",
+    "id": "node/9625633025"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.596901,
+      47.2604024
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9625649606",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der Defibrillator befindet sich im Wintergarten zwischen Bistro und Gartenterasse im Landhaus",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 09:00-17:00",
+    "operator": "Technik & Unterhalt Landhaus",
+    "id": "node/9625649606"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3005572,
+      46.8970005
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9625652538",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Parkplatz von Zimmermann Holzbau und Sägerei AG, befindet sich ein Defibrillator. Er ist an der Wand befestigt.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Römerswil",
+    "phone": "+41 41 914 20 60",
+    "id": "node/9625652538"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2307419,
+      47.1986542
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9625721817",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Kasten beim Eingang vonAnima Engineering",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-18:00",
+    "operator": "Harald Burger",
+    "phone": "+41 79 558 13 45",
+    "id": "node/9625721817"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5849357,
+      47.5556357
     ]
   }
 }

@@ -251,23 +251,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/5294630798",
-  "properties": {
-    "access": "yes",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/5294630798"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.3638183,
-      47.0717849
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/5471369425",
   "properties": {
     "emergency": "defibrillator",
@@ -12966,8 +12949,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3638386,
-      47.0720186
+      8.3638024,
+      47.0718021
     ]
   }
 },
@@ -16117,6 +16100,52 @@
     "coordinates": [
       8.0193342,
       47.1841218
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9625587989",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang (ProCase Wandschrank)",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Bezirksgericht Willisau, Felber Bruno",
+    "phone": "+41 41 228 34 34",
+    "id": "node/9625587989"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9945211,
+      47.1186198
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9625652538",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Parkplatz von Zimmermann Holzbau und Sägerei AG, befindet sich ein Defibrillator. Er ist an der Wand befestigt.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Römerswil",
+    "phone": "+41 41 914 20 60",
+    "id": "node/9625652538"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2307419,
+      47.1986542
     ]
   }
 }
