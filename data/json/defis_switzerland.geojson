@@ -151748,8 +151748,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.376761,
-      47.070468
+      8.3768173,
+      47.0704808
     ]
   }
 },
@@ -163245,6 +163245,119 @@
     "coordinates": [
       7.5560821,
       47.5146662
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9625565570",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang PFGM GmbH",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "PFGM GmbH",
+    "phone": "+41 41 980 55 55",
+    "id": "node/9625565570"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0193342,
+      47.1841218
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9625588450",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Am Empfang beim Eingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "COOP Verteilzentrale",
+    "id": "node/9625588450"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4011775,
+      47.415687
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9625596485",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Camping Manor Farm, Sanitärgebäude 3, Eingang Nordwest, Treppe zum Obergeschoss.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Camping Manor Farm",
+    "phone": "+41 33 822 22 64",
+    "id": "node/9625596485"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.815139,
+      46.6809564
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9625608316",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Direkt neben dem Seiteneigang zur Stadtpolizei.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Feuerwehr Stadt Solothurn",
+    "phone": "+41 32 626 92 70",
+    "id": "node/9625608316"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5409495,
+      47.2096465
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9625613657",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Turnhallentrakt, Foyer, rechte Seite an der Wand",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Sicherheitsdienste Gemeinde Oftringen",
+    "phone": "+49627898380",
+    "id": "node/9625613657"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9408702,
+      47.2972753
     ]
   }
 }
