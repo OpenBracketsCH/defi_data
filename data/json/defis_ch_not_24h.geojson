@@ -60078,9 +60078,12 @@
   "type": "Feature",
   "id": "node/8684770249",
   "properties": {
+    "access": "nur_bei_geöffneter_praxis",
+    "defibrillator:location": "Linthpraxen Gesundheitszentrum, Bahnhofstrasse 1",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "1.",
     "id": "node/8684770249"
   },
   "geometry": {
@@ -93474,12 +93477,13 @@
   "id": "node/9625620056",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Grossraumbüro Garderobe 1. OG",
+    "defibrillator:location": "VZ Empfang Zug: Grossraumbüro Garderobe 1. OG",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Empfang Zug",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "VZ VermögensZentrum AG",
     "phone": "+41 41 726 11 11",
     "id": "node/9625620056"
   },
