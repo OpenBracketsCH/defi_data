@@ -82064,8 +82064,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.153257,
-      47.4520449
+      9.1539276,
+      47.4527994
     ]
   }
 },
@@ -93806,6 +93806,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/9628033485",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Haupteingang, innen links an der Wand. Sichtbar von aussen durch Glasscheibe",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Tu 06:30-19:00; Fr 06:30-18:00",
+    "operator": "Töpferhaus Suhr",
+    "phone": "+41 62 837 61 82",
+    "id": "node/9628033485"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0837629,
+      47.3671383
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9628048120",
   "properties": {
     "access": "yes",
@@ -93824,6 +93847,51 @@
     "coordinates": [
       8.7978427,
       47.3090688
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9628054736",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Werkhof Clavadoiras",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Vaz/Obervaz / Adrian Lenz",
+    "phone": "+41 81 385 21 14",
+    "id": "node/9628054736"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5597979,
+      46.7203984
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9628058472",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Eingangsbereich nach links im Sanitätsraum (Bademeister)",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 10:00-21:00",
+    "operator": "Medtronic",
+    "phone": "+41 33 334 11 11",
+    "id": "node/9628058472"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4692909,
+      47.240981
     ]
   }
 }

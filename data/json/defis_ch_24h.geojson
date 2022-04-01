@@ -26313,6 +26313,7 @@
   "type": "Feature",
   "id": "node/7637818948",
   "properties": {
+    "access": "yes",
     "contact:phone": "+41 41 920 17 19",
     "defibrillator:location": "Beim Haupteingang Kalofenhalle",
     "emergency": "defibrillator",
@@ -26321,7 +26322,7 @@
     "name": "Kalofenhalle",
     "opening_hours": "24/7",
     "operator": "Samariter Grosswangen",
-    "ref": "041 920 17 19",
+    "ref": "+41 41 920 17 19",
     "id": "node/7637818948"
   },
   "geometry": {
@@ -70100,6 +70101,75 @@
 },
 {
   "type": "Feature",
+  "id": "node/9628012990",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kirche Segnas, Eingang Sakristei links",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Kirche Segnas, Via Salez 11, 7186 Segnas",
+    "phone": "+41 81 947 46 55",
+    "id": "node/9628012990"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8281476,
+      46.6949304
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9628028338",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben Bancomat",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Raiffeisenbank Jungfrau, 3800 Interlaken",
+    "phone": "+41 33 828 82 88",
+    "id": "node/9628028338"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8953907,
+      46.7020605
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9628028339",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben Haupteingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde, Schulhausabwart Jens Frutiger",
+    "phone": "+41 79 682 76 53",
+    "id": "node/9628028339"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8895924,
+      46.6984565
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9628051837",
   "properties": {
     "access": "yes",
@@ -70116,6 +70186,50 @@
     "coordinates": [
       8.6583209,
       47.7385189
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9628054735",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Bei der Reception",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Alters-und Pflegeheim Parc / 7078 Lenzerheide / Markus Pieren",
+    "phone": "+41 81 385 16 66",
+    "id": "node/9628054735"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5570701,
+      46.730101
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9628057163",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Westseite, Seite Dorfgasse",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde, Schulhausabwart Jens Frutiger",
+    "phone": "+41 79 682 76 53",
+    "id": "node/9628057163"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8766142,
+      46.6963212
     ]
   }
 }
