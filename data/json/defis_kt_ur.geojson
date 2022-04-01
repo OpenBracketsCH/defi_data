@@ -1653,8 +1653,9 @@
   "type": "Feature",
   "id": "node/9553663536",
   "properties": {
-    "defibrillator:location": "Feuerwehrlokal\nBodenwaldstrasse 6",
+    "defibrillator:location": "Feuerwehrlokal Bodenwaldstrasse 6",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/9553663536"
   },
   "geometry": {
@@ -1669,8 +1670,9 @@
   "type": "Feature",
   "id": "node/9553724126",
   "properties": {
-    "defibrillator:location": "Zgraggen Holding\nUmfahrungsstrasse 26c",
+    "defibrillator:location": "Zgraggen Holding Umfahrungsstrasse 26c",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/9553724126"
   },
   "geometry": {
@@ -1685,8 +1687,9 @@
   "type": "Feature",
   "id": "node/9553799872",
   "properties": {
-    "defibrillator:location": "Schulhaus\nKirchstrasse 28",
+    "defibrillator:location": "Schulhaus Kirchstrasse 28",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/9553799872"
   },
   "geometry": {
@@ -1748,6 +1751,7 @@
   "id": "node/9589469348",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/9589469348"
   },

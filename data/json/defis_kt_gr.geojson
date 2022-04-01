@@ -6467,6 +6467,7 @@
   "id": "node/9599350327",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/9599350327"
   },
   "geometry": {
@@ -6484,6 +6485,7 @@
     "access": "no",
     "defibrillator:location": "VZ: 2. Stock, Empfang",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 08:00-12:00, 13:00-18:00",
     "operator": "reaplus GmbH",
@@ -6495,6 +6497,29 @@
     "coordinates": [
       9.5301662,
       46.8529195
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9627988871",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vor Eingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Vaz/Obervaz / Adrian Lenz",
+    "phone": "+41 81 385 21 14",
+    "id": "node/9627988871"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5282833,
+      46.6973385
     ]
   }
 }

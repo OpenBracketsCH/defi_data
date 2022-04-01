@@ -28372,11 +28372,11 @@
   "type": "Feature",
   "id": "node/9587532200",
   "properties": {
-    "Tel Betriebssanität": "044 275 45 55",
     "access": "no",
     "defibrillator:location": "Beim Empfang im Gebäude",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "operator": "COOP Betriebssanität",
     "id": "node/9587532200"
@@ -28774,7 +28774,6 @@
   "type": "Feature",
   "id": "node/9625588450",
   "properties": {
-    "Tel. Betriebssanität: 044 275 4555": "044 275 45 55",
     "access": "no",
     "defibrillator:location": "Am Empfang beim Eingang",
     "description": "24h verfügbar",
@@ -28834,6 +28833,29 @@
     "coordinates": [
       8.596901,
       47.2604024
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9628048120",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Empfang im Erdgeschoss des Bürogebäudes, hintere linke Ecke",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-16:30",
+    "operator": "Elma Electronic AG / Daniel Kälin",
+    "phone": "+41 44 933 41 11",
+    "id": "node/9628048120"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7978427,
+      47.3090688
     ]
   }
 }

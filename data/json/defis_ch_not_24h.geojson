@@ -165,8 +165,9 @@
   "type": "Feature",
   "id": "node/1765503500",
   "properties": {
-    "defibrillator:location": "Schulhaus Schlierbach\nSchulhausstrasse 1",
+    "defibrillator:location": "Schulhaus Schlierbach Schulhausstrasse 1",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/1765503500"
   },
   "geometry": {
@@ -411,6 +412,7 @@
   "properties": {
     "defibrillator:location": "Valliant Bank",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/2659529614"
   },
   "geometry": {
@@ -443,6 +445,7 @@
   "properties": {
     "defibrillator:location": "Stationsgebäude (24)",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/2696463600"
   },
   "geometry": {
@@ -3657,6 +3660,7 @@
   "properties": {
     "defibrillator:location": "Josef Hunkeler AG",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/5149554201"
   },
   "geometry": {
@@ -44078,25 +44082,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7933311301",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Gemeindeverwaltung",
-    "description": "nur während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/7933311301"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.4234049,
-      47.3731684
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7933423093",
   "properties": {
     "access": "yes",
@@ -75333,6 +75318,7 @@
   "properties": {
     "defibrillator:location": "ref. Kirche (24)",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/9129946866"
   },
   "geometry": {
@@ -90807,6 +90793,7 @@
     "access": "yes",
     "defibrillator:location": "Dans le hall d'entrée",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "id": "node/9550502223"
@@ -90823,8 +90810,9 @@
   "type": "Feature",
   "id": "node/9551027376",
   "properties": {
-    "defibrillator:location": "Samariterlokal\nBrünigstrasse 107",
+    "defibrillator:location": "Samariterlokal Brünigstrasse 107",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/9551027376"
   },
   "geometry": {
@@ -90839,8 +90827,9 @@
   "type": "Feature",
   "id": "node/9551411172",
   "properties": {
-    "defibrillator:location": "Chiro Training\nBruchstrasse 10",
+    "defibrillator:location": "Chiro Training Bruchstrasse 10",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/9551411172"
   },
   "geometry": {
@@ -90855,8 +90844,9 @@
   "type": "Feature",
   "id": "node/9551591256",
   "properties": {
-    "defibrillator:location": "Praxis Dr. Schlichting\nHofmattweg 15",
+    "defibrillator:location": "Praxis Dr. Schlichting Hofmattweg 15",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/9551591256"
   },
   "geometry": {
@@ -90871,8 +90861,9 @@
   "type": "Feature",
   "id": "node/9551658305",
   "properties": {
-    "defibrillator:location": "Wechsler Metzg\nEgolzwilerstrasse 10",
+    "defibrillator:location": "Wechsler Metzg Egolzwilerstrasse 10",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/9551658305"
   },
   "geometry": {
@@ -90889,6 +90880,7 @@
   "properties": {
     "defibrillator:location": "Fruttsrasse bei Stiftung Juvenat",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/9551659617"
   },
   "geometry": {
@@ -90903,8 +90895,9 @@
   "type": "Feature",
   "id": "node/9551665972",
   "properties": {
-    "defibrillator:location": "Kirchplatz 3\nPraxis Maria Benyes",
+    "defibrillator:location": "Kirchplatz 3 Praxis Maria Benyes",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/9551665972"
   },
   "geometry": {
@@ -90919,8 +90912,9 @@
   "type": "Feature",
   "id": "node/9553479159",
   "properties": {
-    "defibrillator:location": "Holzbau Kayser\nGerenmüll 16",
+    "defibrillator:location": "Holzbau Kayser Gerenmüll 16",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/9553479159"
   },
   "geometry": {
@@ -90935,8 +90929,9 @@
   "type": "Feature",
   "id": "node/9553515149",
   "properties": {
-    "defibrillator:location": "Truttmann Kühlanlagen\nBodenachermatte 2",
+    "defibrillator:location": "Truttmann Kühlanlagen Bodenachermatte 2",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/9553515149"
   },
   "geometry": {
@@ -90976,6 +90971,7 @@
   "properties": {
     "defibrillator:location": "Schulhaus",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/9553547982"
   },
   "geometry": {
@@ -90990,8 +90986,9 @@
   "type": "Feature",
   "id": "node/9553663536",
   "properties": {
-    "defibrillator:location": "Feuerwehrlokal\nBodenwaldstrasse 6",
+    "defibrillator:location": "Feuerwehrlokal Bodenwaldstrasse 6",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/9553663536"
   },
   "geometry": {
@@ -91006,8 +91003,9 @@
   "type": "Feature",
   "id": "node/9553724126",
   "properties": {
-    "defibrillator:location": "Zgraggen Holding\nUmfahrungsstrasse 26c",
+    "defibrillator:location": "Zgraggen Holding Umfahrungsstrasse 26c",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/9553724126"
   },
   "geometry": {
@@ -91024,6 +91022,7 @@
   "properties": {
     "defibrillator:location": "Dreifachturnhalle",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/9553727298"
   },
   "geometry": {
@@ -91040,6 +91039,7 @@
   "properties": {
     "defibrillator:location": "Gemeindehaus (24)",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/9553730800"
   },
   "geometry": {
@@ -91077,6 +91077,7 @@
   "properties": {
     "defibrillator:location": "Valiant Bank (24)",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/9553753819"
   },
   "geometry": {
@@ -91093,6 +91094,7 @@
   "properties": {
     "defibrillator:location": "Schulhaus Tormatt",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/9553776436"
   },
   "geometry": {
@@ -91109,6 +91111,7 @@
   "properties": {
     "defibrillator:location": "Zivilschutz Ausbildungszentrum",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/9553777640"
   },
   "geometry": {
@@ -91125,6 +91128,7 @@
   "properties": {
     "defibrillator:location": "Seeclub Sempach",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/9553787415"
   },
   "geometry": {
@@ -91139,8 +91143,9 @@
   "type": "Feature",
   "id": "node/9553799872",
   "properties": {
-    "defibrillator:location": "Schulhaus\nKirchstrasse 28",
+    "defibrillator:location": "Schulhaus Kirchstrasse 28",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/9553799872"
   },
   "geometry": {
@@ -91157,6 +91162,7 @@
   "properties": {
     "defibrillator:location": "Bundesasylcenter",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/9553821878"
   },
   "geometry": {
@@ -91173,6 +91179,7 @@
   "properties": {
     "defibrillator:location": "Schulhaus Turmatt",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/9553829581"
   },
   "geometry": {
@@ -91208,8 +91215,9 @@
   "type": "Feature",
   "id": "node/9553875038",
   "properties": {
-    "defibrillator:location": "Dorfturnhalle\nOberdorf 5",
+    "defibrillator:location": "Dorfturnhalle Oberdorf 5",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/9553875038"
   },
   "geometry": {
@@ -91226,6 +91234,7 @@
   "properties": {
     "defibrillator:location": "Polizeiposten Triengen",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/9553916504"
   },
   "geometry": {
@@ -91242,6 +91251,7 @@
   "properties": {
     "defibrillator:location": "Kurhaus am Sarnersee",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/9553918879"
   },
   "geometry": {
@@ -91256,8 +91266,9 @@
   "type": "Feature",
   "id": "node/9553925352",
   "properties": {
-    "defibrillator:location": "Schulhaus\nHofacker 4",
+    "defibrillator:location": "Schulhaus Hofacker 4",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/9553925352"
   },
   "geometry": {
@@ -91274,6 +91285,7 @@
   "properties": {
     "defibrillator:location": "Gemeindeverwaltung",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/9553926868"
   },
   "geometry": {
@@ -91290,6 +91302,7 @@
   "properties": {
     "defibrillator:location": "Spitex Winikon",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/9553968987"
   },
   "geometry": {
@@ -91466,6 +91479,7 @@
     "access": "customers",
     "defibrillator:location": "Im Manor beim Durchgang zum Coop oberhalb der Rolltreppen und den zwei Treppenstufen an der Wand beim Fotoautomat.",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "opening_hours": "Mo-Fr 08:00-19:00, Sa 08:00-18:00",
@@ -91624,6 +91638,7 @@
     "access": "permissive",
     "defibrillator:location": "To open automatic building door push the white button. AED is on the first floor. Enter building. Use stairs on your right to first floor. There is an elevator as well but the AED is situated right above a recycling box. Not really accessible for wheels.",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
     "opening_hours": "Mo-Fr 07:30-16:00",
@@ -92142,11 +92157,11 @@
   "type": "Feature",
   "id": "node/9587532200",
   "properties": {
-    "Tel Betriebssanität": "044 275 45 55",
     "access": "no",
     "defibrillator:location": "Beim Empfang im Gebäude",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "operator": "COOP Betriebssanität",
     "id": "node/9587532200"
@@ -92164,6 +92179,7 @@
   "id": "node/9589469348",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/9589469348"
   },
@@ -92181,6 +92197,7 @@
   "properties": {
     "defibrillator:location": "Innen im Foyer an der Wand vor Halle 1 - zwischen Lift und Aussenfassade.",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/9590509321"
   },
@@ -92261,6 +92278,7 @@
   "id": "node/9595340431",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "id": "node/9595340431"
   },
@@ -92319,6 +92337,7 @@
   "id": "node/9599350327",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/9599350327"
   },
   "geometry": {
@@ -92380,6 +92399,7 @@
   "id": "node/9600998966",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/9600998966"
   },
@@ -92398,6 +92418,7 @@
     "access": "private",
     "defibrillator:location": "Haupteingang Links",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "id": "node/9601797393"
@@ -92417,6 +92438,7 @@
     "access": "yes",
     "defibrillator:location": "Unterstand",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
     "name": "Golfclub Wylihof",
@@ -92438,6 +92460,7 @@
     "access": "private",
     "defibrillator:location": "Eingang Links",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "name": "Vigier",
     "operator": "Vigier",
@@ -92458,6 +92481,7 @@
     "access": "private",
     "defibrillator:location": "Treppenhaus",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "name": "Dosenbach Logistik",
     "id": "node/9601824642"
@@ -92477,6 +92501,7 @@
     "access": "private",
     "defibrillator:location": "Erste Hilfe Station",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "name": "Biogen",
@@ -92604,6 +92629,7 @@
     "access": "yes",
     "defibrillator:location": "Vermögenszentrum: Am Empfang im dunklen Schrank",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 07:30-17:00",
     "operator": "Marlies Bobst",
@@ -92939,6 +92965,7 @@
     "access": "no",
     "defibrillator:location": "VZ: 2. Stock, Empfang",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 08:00-12:00, 13:00-18:00",
     "operator": "reaplus GmbH",
@@ -93223,6 +93250,7 @@
   "id": "node/9610947189",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "id": "node/9610947189"
   },
@@ -93261,6 +93289,7 @@
   "id": "node/9611094117",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/9611094117"
   },
   "geometry": {
@@ -93299,6 +93328,7 @@
   "id": "node/9620579417",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/9620579417"
   },
   "geometry": {
@@ -93316,6 +93346,7 @@
     "access": "yes",
     "defibrillator:location": "Dans l'entrée du centre commercial",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "3",
     "id": "node/9622997154"
@@ -93335,6 +93366,7 @@
     "access": "yes",
     "defibrillator:location": "Dans l'entrée du centre commercial",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "2",
     "id": "node/9623065287"
@@ -93769,6 +93801,29 @@
     "coordinates": [
       7.4486621,
       46.9468758
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9628048120",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Empfang im Erdgeschoss des Bürogebäudes, hintere linke Ecke",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-16:30",
+    "operator": "Elma Electronic AG / Daniel Kälin",
+    "phone": "+41 44 933 41 11",
+    "id": "node/9628048120"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7978427,
+      47.3090688
     ]
   }
 }

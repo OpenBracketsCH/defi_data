@@ -1721,6 +1721,7 @@
     "access": "yes",
     "defibrillator:location": "An der Wand rechts neben dem Eingang zur Life Hall aussen an der Fassade.",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "level": "0",
     "opening_hours": "24/7",
     "operator": "Life Church",
@@ -1742,6 +1743,7 @@
     "access": "customers",
     "defibrillator:location": "Im Manor beim Durchgang zum Coop oberhalb der Rolltreppen und den zwei Treppenstufen an der Wand beim Fotoautomat.",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "opening_hours": "Mo-Fr 08:00-19:00, Sa 08:00-18:00",
@@ -1783,6 +1785,7 @@
   "id": "node/9595340431",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "id": "node/9595340431"
   },
@@ -1791,6 +1794,48 @@
     "coordinates": [
       8.6095608,
       47.7613659
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9628005316",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben dem Haupteingang vom Schulhaus, direkt an der Dorfstrasse",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9628005316"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6619117,
+      47.7402153
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9628051837",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben dem Eingang zum Dorfladen im Zwischengang zwischen Gemeindekanzlei und Dorfladen.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9628051837"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6583209,
+      47.7385189
     ]
   }
 }

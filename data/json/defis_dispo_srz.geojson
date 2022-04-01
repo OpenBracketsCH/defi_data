@@ -39183,6 +39183,7 @@
     "access": "yes",
     "defibrillator:location": "An der Wand rechts neben dem Eingang zur Life Hall aussen an der Fassade.",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "level": "0",
     "opening_hours": "24/7",
     "operator": "Life Church",
@@ -39226,6 +39227,7 @@
     "access": "customers",
     "defibrillator:location": "Im Manor beim Durchgang zum Coop oberhalb der Rolltreppen und den zwei Treppenstufen an der Wand beim Fotoautomat.",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "opening_hours": "Mo-Fr 08:00-19:00, Sa 08:00-18:00",
@@ -39683,11 +39685,11 @@
   "type": "Feature",
   "id": "node/9587532200",
   "properties": {
-    "Tel Betriebssanität": "044 275 45 55",
     "access": "no",
     "defibrillator:location": "Beim Empfang im Gebäude",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "operator": "COOP Betriebssanität",
     "id": "node/9587532200"
@@ -39750,6 +39752,7 @@
   "id": "node/9595340431",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "id": "node/9595340431"
   },
@@ -40391,7 +40394,6 @@
   "type": "Feature",
   "id": "node/9625588450",
   "properties": {
-    "Tel. Betriebssanität: 044 275 4555": "044 275 45 55",
     "access": "no",
     "defibrillator:location": "Am Empfang beim Eingang",
     "description": "24h verfügbar",
@@ -40473,6 +40475,71 @@
     "coordinates": [
       8.596901,
       47.2604024
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9628005316",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben dem Haupteingang vom Schulhaus, direkt an der Dorfstrasse",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9628005316"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6619117,
+      47.7402153
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9628048120",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Empfang im Erdgeschoss des Bürogebäudes, hintere linke Ecke",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-16:30",
+    "operator": "Elma Electronic AG / Daniel Kälin",
+    "phone": "+41 44 933 41 11",
+    "id": "node/9628048120"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7978427,
+      47.3090688
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9628051837",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben dem Eingang zum Dorfladen im Zwischengang zwischen Gemeindekanzlei und Dorfladen.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9628051837"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6583209,
+      47.7385189
     ]
   }
 }
