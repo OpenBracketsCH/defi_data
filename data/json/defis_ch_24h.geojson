@@ -33578,27 +33578,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8007116028",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Rechts neben Metzgerei, bei Tramhaltestelle",
-    "description": "24h verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "id": "node/8007116028"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5569924,
-      47.4991272
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8012536542",
   "properties": {
     "access": "yes",
@@ -70386,6 +70365,29 @@
     "coordinates": [
       8.5639592,
       47.4102458
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9643539213",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "neben der katholischen Kirche beim Jakobihuus",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Widnau",
+    "phone": "+41 79 263 90 28",
+    "id": "node/9643539213"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.6393013,
+      47.4037675
     ]
   }
 }
