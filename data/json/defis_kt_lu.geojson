@@ -12724,23 +12724,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637819110",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Suter Dr dent Zahnarztpraxis,",
-    "id": "node/7637819110"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.1869575,
-      47.2076783
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637819111",
   "properties": {
     "access": "yes",
@@ -16176,6 +16159,52 @@
     "coordinates": [
       8.2307419,
       47.1986542
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9649169998",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Beim Empfang von OTTO'S AG",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-12:00, 13:00-17:00",
+    "operator": "OTTO'S AG / Welker Oliver",
+    "phone": "+41 41 925 04 45",
+    "id": "node/9649169998"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1075963,
+      47.181792
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9649193702",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "In der Zahnarztpraxis",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-16:00",
+    "operator": "Peter Suter",
+    "phone": "+41 41 932 10 30",
+    "id": "node/9649193702"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1870039,
+      47.2076109
     ]
   }
 }
