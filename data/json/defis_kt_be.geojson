@@ -27602,7 +27602,7 @@
   "type": "Feature",
   "id": "node/7019116009",
   "properties": {
-    "defibrillator:location": "Beim Haupteingang UniS von der Schanzeneckstrasse her",
+    "defibrillator:location": "Rechts nach dem Haupteingang UniS von der Schanzeneckstrasse her",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -41405,6 +41405,97 @@
     "coordinates": [
       7.4132706,
       46.9258049
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9649244428",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "AED befindet sich zwischen Eingang Gepäck sowie zur Schalterhalle - direkt an der Frontseite",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Jungfraubahnnen Management AG",
+    "id": "node/9649244428"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0330215,
+      46.6242386
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9649244449",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Direkt beim Schalter Eingang, Gleis 1 Perronseitig - nähe Ticketautomat",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Jungfraubahnnen Management AG",
+    "phone": "+41 33 828 70 38",
+    "id": "node/9649244449"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9077691,
+      46.5984137
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9649293686",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Erdgeschoss, bei Treppenaufgang",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:20-18:00",
+    "operator": "Ernst Marti AG",
+    "phone": "+41 32 391 01 11",
+    "id": "node/9649293686"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2335053,
+      47.0253655
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9649305874",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben Eingangstüre Saalbau Gasel",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Ortsverein Gasel-Mengestorf, Nadine Schneeberger",
+    "phone": "+41 78 711 80 25",
+    "id": "node/9649305874"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4015085,
+      46.901467
     ]
   }
 }
