@@ -98714,10 +98714,11 @@
   "id": "node/8562883537",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Beim Take-Away",
+    "defibrillator:location": "Beim Migros-Take-Away rechts hinten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "-1",
     "id": "node/8562883537"
   },
   "geometry": {
@@ -165666,6 +165667,25 @@
     "coordinates": [
       8.647878,
       47.0169384
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9655854529",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "In bus-stop shelter / In Wartehäuschen",
+    "emergency": "defibrillator",
+    "level": "0",
+    "wheelchair": "yes",
+    "id": "node/9655854529"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2585515,
+      47.612044
     ]
   }
 }
