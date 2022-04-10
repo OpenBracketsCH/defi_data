@@ -51565,6 +51565,7 @@
   "properties": {
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "survey:date": "2021-07-02",
     "id": "node/8889456279"
@@ -70794,6 +70795,29 @@
     "coordinates": [
       9.9045792,
       46.489372
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9655452817",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Betriebshalle Zimmermann Holz und Bau AG",
+    "description": "Aussenwand bei Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Zimmermann Holz und Bau AG",
+    "phone": "+41419324090",
+    "id": "node/9655452817"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2368161,
+      47.1880284
     ]
   }
 }
