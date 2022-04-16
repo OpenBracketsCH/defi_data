@@ -62057,27 +62057,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9253031318",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "etuna St. Johann Klingnau",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "etuna St. Johann",
-    "id": "node/9253031318"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.248156,
-      47.5843723
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9254406117",
   "properties": {
     "access": "yes",
@@ -70971,6 +70950,51 @@
     "coordinates": [
       8.4983642,
       47.2224814
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9669943244",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Notfalltreffpunkt rechts neben dem Eingang Feuerwehr beim Feuerwehrmagazin",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "defibrillator.ch",
+    "wheelchair": "yes",
+    "id": "node/9669943244"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6046542,
+      47.7622448
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9670083617",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "etuna St. Johann Klingnau",
+    "description": "Beim Durchgang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "etuna St. Johann",
+    "phone": "+41 56 269 10 00",
+    "id": "node/9670083617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2481711,
+      47.5843867
     ]
   }
 }
