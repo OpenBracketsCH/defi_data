@@ -1030,29 +1030,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8554760558",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Werkhof PLUS;links an der Frontseite der grossen Feuerwehrtore",
-    "description": "24h verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde Merishausen",
-    "phone": "052 653 16 35",
-    "id": "node/8554760558"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6051405,
-      47.7624681
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8554764936",
   "properties": {
     "access": "yes",
@@ -1890,20 +1867,24 @@
   "id": "node/9669943244",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Beim Notfalltreffpunkt rechts neben dem Eingang Feuerwehr beim Feuerwehrmagazin",
+    "defibrillator:location": "Werkhof PLUS, beim Notfalltreffpunkt rechts neben dem Eingang Feuerwehr bei den Toren des Feuerwehrmagazins",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
-    "operator": "defibrillator.ch",
+    "operator": "Gemeinde Merishausen",
+    "phone": "052 653 16 35",
+    "website": "https://defibrillator.ch/",
     "wheelchair": "yes",
     "id": "node/9669943244"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6046542,
-      47.7622448
+      8.6046538,
+      47.7622447
     ]
   }
 }
