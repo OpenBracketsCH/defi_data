@@ -95605,29 +95605,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8556827617",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "HGC Shop Hertistrasse 19",
-    "description": "Im Shop am Schalter",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 06:30 - 16:30",
-    "operator": "HGC",
-    "phone": "+41 43 233 32 33",
-    "id": "node/8556827617"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.3999998,
-      47.0000843
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8556933217",
   "properties": {
     "access": "yes",
@@ -130278,28 +130255,6 @@
     "coordinates": [
       8.5559138,
       47.4038265
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9094592518",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Einkaufszentrum St.Jakob  Parterre Hinterer Teil NewYorker Mode",
-    "description": "Während Oeffungszeiten Verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo.-Fr. 09:00= 20:00 Sa. 09:00-18:00",
-    "operator": "Shoppingcenter",
-    "id": "node/9094592518"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4,
-      46.9853639
     ]
   }
 },
@@ -166725,6 +166680,95 @@
     "coordinates": [
       9.8130894,
       46.4780372
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9680907781",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Einkaufszentrum St.Jakob  Parterre Hinterer Teil NewYorker Mode",
+    "description": "Während Oeffungszeiten Verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo.-Fr. 09:00= 20:00 Sa. 09:00-18:00",
+    "operator": "Shoppingcenter",
+    "id": "node/9680907781"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6198577,
+      47.5410729
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9680969317",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Dorfladen Furna",
+    "description": "an Aussenwand zur Strasse hin",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9680969317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.6763277,
+      46.9352212
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9680997477",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang, Trakt 1",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "Hochbauamt des Kt. Zug / Claudia Regli",
+    "phone": "+41 41 728 54 35",
+    "id": "node/9680997477"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5231899,
+      47.1744073
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9680997478",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Sporthallen Trakt 8",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-22:00",
+    "operator": "Kantonsschule Zug / Reto Lehmann",
+    "phone": "+41 41 728 13 01",
+    "id": "node/9680997478"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5247804,
+      47.1746206
     ]
   }
 }
