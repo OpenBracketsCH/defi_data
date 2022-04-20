@@ -94913,9 +94913,31 @@
 },
 {
   "type": "Feature",
-  "id": "node/9679192435",
+  "id": "node/9679174371",
   "properties": {
     "access": "no",
+    "defibrillator:location": "Sportplatz Schachen",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeindeverwaltung Holderbank",
+    "phone": "+41 62 893 12 28",
+    "id": "node/9679174371"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1644994,
+      47.4308489
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9679192435",
+  "properties": {
+    "access": "yes",
     "defibrillator:location": "1. UG, SOMC / Konsiliarzimmer, schwarzer Kasten (Sauerstoff)",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
@@ -94929,8 +94951,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5034568,
-      46.9994367
+      9.5030934,
+      46.9994376
     ]
   }
 },
@@ -94938,7 +94960,7 @@
   "type": "Feature",
   "id": "node/9679192436",
   "properties": {
-    "access": "no",
+    "access": "yes",
     "defibrillator:location": "OG, Medizin / OP (Sauerstoff)",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
@@ -95076,7 +95098,7 @@
   "type": "Feature",
   "id": "node/9679192445",
   "properties": {
-    "access": "no",
+    "access": "yes",
     "defibrillator:location": "1. OG, Kaufmännische Direktion, HR Schalter linke Seite",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
@@ -95160,6 +95182,188 @@
     "coordinates": [
       8.048056,
       47.3193002
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9679237726",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "1. Stock in der Praxis",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-12:00, 14:00-17:00",
+    "operator": "Ärzte & Physio am Platz AG / Fabienne Bernold",
+    "phone": "+41 81 300 40 30",
+    "id": "node/9679237726"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5001577,
+      47.0020406
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9679237727",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "In einem Schrank in der Wellnessanlage (für Externe schwer zugänglich)",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 08:00-20:00",
+    "operator": "Hotel Schloss Ragaz / Martina Mächler",
+    "phone": "+41 81 303 77 77",
+    "id": "node/9679237727"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5084715,
+      46.9974796
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9679237728",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Eingang",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Th 07:15-12:00; Fr 13:30-17:00",
+    "operator": "ewr elektro ag",
+    "phone": "+41 81 300 46 01",
+    "id": "node/9679237728"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5028379,
+      47.007239
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9679237729",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Empfang Erdgeschoss",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Sa 09:00-16:30; Su 10:00-16:30",
+    "operator": "Kurhotel Cristal",
+    "phone": "+41 81 303 84 00",
+    "id": "node/9679237729"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5049494,
+      47.0083931
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9679237730",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "MTT/Benefit 2. Obergeschoss",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Th 08:00-12:00, 13:00-17:30; Fr 08:00-12:00, 13:00-17:00",
+    "operator": "Medizinisches Zentrum / Sarah Tschirky",
+    "phone": "+41 81 303 38 59",
+    "id": "node/9679237730"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5031966,
+      46.9995282
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9679237731",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "EG, Medizinisches Zentrum, zwischen den zwei Liften",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Th 08:00-12:00, 13:00-17:30; Fr 08:00-12:00, 13:00-17:00",
+    "operator": "Medizinisches Zentrum / Sarah Tschirky",
+    "phone": "+41 81 303 38 59",
+    "id": "node/9679237731"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5030867,
+      46.9994797
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9679237732",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "1. OG, Medizinisches Zentrum, zwischen den zwei Liften",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Th 08:00-12:00, 13:00-17:30; Fr 08:00-12:00, 13:00-17:00",
+    "operator": "Medizinisches Zentrum / Sarah Tschirky",
+    "phone": "+41 81 303 38 59",
+    "id": "node/9679237732"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5031121,
+      46.9994925
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9679237733",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "EG, Grüner Kasten neben der Glastür",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:15-18:00; Sa-Su 09:30-18:30",
+    "operator": "Medizinisches Zentrum / Sarah Tschirky",
+    "phone": "+41 81 303 38 59",
+    "id": "node/9679237733"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5030813,
+      46.9994056
     ]
   }
 }
