@@ -77359,18 +77359,20 @@
   "id": "node/7933881642",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "MFK",
+    "defibrillator:location": "MFK: Er hängt an der Wand im Erdgeschoss hinten links vor der Treppe.",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "24/7",
+    "opening_hours": "Mo-Fr 07:30-12:00, 13:30-17:00",
+    "operator": "Amt für Immobilien, Obstmarkt 1, Herisau",
+    "phone": "+41 71 353 65 82",
     "id": "node/7933881642"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4650529,
-      47.4079645
+      9.4649724,
+      47.4081224
     ]
   }
 },
@@ -166561,8 +166563,8 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "opening_hours": "Mo-Fr: 7.00-17.00",
-    "operator": "Kanton Zürich, Abtei ung Wald, Staatswald",
+    "opening_hours": "Mo-Fr 07:00-17:15",
+    "operator": "Kanton Zürich, Abteilung Wald, Staatswald",
     "phone": "043 257 98 25",
     "id": "node/9679764617"
   },
@@ -166769,6 +166771,75 @@
     "coordinates": [
       8.5247804,
       47.1746206
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9681009344",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Erdgeschoss, Praxisräumlichkeiten",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-12:00, 13:30-17:30",
+    "operator": "Dr. med. Jean-Paul Jürgens",
+    "phone": "+41 81 300 40 50",
+    "id": "node/9681009344"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5005064,
+      47.005206
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9681011630",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Beim Eingang neben dem Ticketautomat",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Apr-Oct 09:00-17:00",
+    "operator": "Altes Bad Pfäfers",
+    "phone": "+41 81 302 71 61",
+    "id": "node/9681011630"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4878195,
+      46.9740101
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9681020086",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Der Defibrillator ist Im EG an der linken Wand, bei der Treppe hinunter ins Tiefgeschoss, befestigt.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-12:00, 13:30-17:00",
+    "operator": "Arbenz + Partner AG, Sekretariat",
+    "phone": "+41 52 724 04 04",
+    "id": "node/9681020086"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8884873,
+      47.5528365
     ]
   }
 }
