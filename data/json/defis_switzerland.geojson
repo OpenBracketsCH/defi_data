@@ -63499,6 +63499,7 @@
     "description": "nur zugänglich wenn Gebäude geöffnet sind",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "id": "node/7644000283"
   },
   "geometry": {
@@ -118049,29 +118050,6 @@
     "coordinates": [
       8.2808429,
       47.1851025
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8894440701",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Direkt an der Bushaltestelle/Kapelle St. Anton",
-    "description": "24h verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Rettungsdienst Appenzell Innerrhoden",
-    "phone": "+41 71 788 73 33",
-    "id": "node/8894440701"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.5400294,
-      47.4107736
     ]
   }
 },
