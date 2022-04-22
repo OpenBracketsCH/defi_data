@@ -129126,28 +129126,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9073827017",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Neuhofstrasse 23",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 9:00 bis 16:00h",
-    "operator": "Abbott AG",
-    "phone": "+41417684333",
-    "id": "node/9073827017"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.2361133,
-      46.9871382
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9074140817",
   "properties": {
     "access": "yes",
@@ -166886,6 +166864,96 @@
     "coordinates": [
       9.3460639,
       47.4128898
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9684491181",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Neuhofstrasse 23",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 9:00 bis 16:00h",
+    "operator": "Abbott AG",
+    "phone": "+41417684333",
+    "id": "node/9684491181"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5154493,
+      47.1893891
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9684536672",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "VZ Depotbank AG",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Reaplus GmbH",
+    "phone": "+41 43 536 69 15",
+    "id": "node/9684536672"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5171562,
+      47.1769507
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9684540287",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Anmeldung Eltromatic AG im EG",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Kevin Fiechter",
+    "phone": "+41 52 224 03 30",
+    "id": "node/9684540287"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6147591,
+      47.5807759
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9684548404",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Raiffeisenbank Untergäu",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Raiffeisenbank Untergäu Hägendorf",
+    "phone": "+41 62 206 81 81",
+    "id": "node/9684548404"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8422456,
+      47.3347743
     ]
   }
 }
