@@ -92733,8 +92733,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.6944786,
-      46.4040855
+      9.6961925,
+      46.4039301
     ]
   }
 },
@@ -166247,7 +166247,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Marianne Elmer-Stürzinger",
+    "operator": "Die Luftseilbahn Matt-Weissenberge",
     "phone": "+41 55 642 15 46",
     "id": "node/9679226307"
   },
@@ -166936,6 +166936,73 @@
 },
 {
   "type": "Feature",
+  "id": "node/9684540390",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Erdgeschoss im Eingangsbereich neben dem Lift. Der Defi ist an der Wand montiert.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Oberglatt",
+    "phone": "+41 44 852 37 00",
+    "id": "node/9684540390"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5206817,
+      47.4762963
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9684540391",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Bei KNF Flodos AG",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "KNF Flodos AG",
+    "phone": "+41 41 925 00 25",
+    "id": "node/9684540391"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1060554,
+      47.1831574
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9684540597",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rechts beim Eingang der Mehrzweckhalle beim Sportzentrum",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Ursula Giovannini",
+    "phone": "+41 81 824 33 43",
+    "id": "node/9684540597"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.6185034,
+      46.3521375
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9684548404",
   "properties": {
     "access": "yes",
@@ -166954,6 +167021,72 @@
     "coordinates": [
       7.8422456,
       47.3347743
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9684571952",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "5. Stock, Eingang und dann links",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "5",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "operator": "LetzHelp GmbH",
+    "phone": "+41 41 370 01 44",
+    "id": "node/9684571952"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5326561,
+      47.3664866
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9684574891",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Dans le bâtiment - im Gebäude",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/9684574891"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9636208,
+      47.0061361
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9684575107",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Seniorenzentrum Eingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "phone": "+41 41 888 70 10",
+    "id": "node/9684575107"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5957272,
+      46.6350816
     ]
   }
 }
