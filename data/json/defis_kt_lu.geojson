@@ -8936,6 +8936,7 @@
     "description": "3. OG Küche",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Jürg Lienert AG",
     "id": "node/7637818798"
   },
@@ -16362,6 +16363,28 @@
     "coordinates": [
       8.2746257,
       47.0342143
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9689566853",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Erschliessung Toilettenanlage Clubhaus",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "FC Buttisholz",
+    "phone": "+41 79 466 76 74",
+    "id": "node/9689566853"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0842477,
+      47.1128204
     ]
   }
 }
