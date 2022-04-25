@@ -54674,6 +54674,7 @@
     "description": "Empfang EG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Lifetec Benedict-Schule",
     "id": "node/7637818692"
   },
@@ -54692,6 +54693,7 @@
     "description": "2. Etage",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Lifetec Benedict-Schule",
     "id": "node/7637818693"
   },
@@ -167405,6 +167407,27 @@
     "coordinates": [
       6.8541263,
       46.3861445
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9692074717",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Treppenhaus Bürogebäude, 3.Etage",
+    "description": "während Büroöffnungszeiten zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "privat",
+    "id": "node/9692074717"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8930442,
+      47.5487002
     ]
   }
 }
