@@ -84306,13 +84306,14 @@
     "opening_hours": "24/7",
     "operator": "Jucker Farm AG",
     "phone": "+41 44 934 34 84",
+    "wheelchair": "limited",
     "id": "node/8186231097"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7728021,
-      47.3437458
+      8.7728487,
+      47.3436523
     ]
   }
 },
@@ -87040,20 +87041,20 @@
   "id": "node/8382998836",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Treppenhaus 2. OG",
+    "defibrillator:location": "Südostbahn: Treppenhaus 2. OG",
     "description": "während Büroöffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "SOB",
+    "operator": "Südostbahn",
     "phone": "+41 58 580 73 35",
     "id": "node/8382998836"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.3711066,
-      47.4229136
+      9.3710628,
+      47.422961
     ]
   }
 },
@@ -167817,6 +167818,139 @@
     "coordinates": [
       8.4402592,
       47.272415
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9711485602",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben den Liften",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "Mo-Sa 08:00-20:00; PH off",
+    "wheelchair": "limited",
+    "id": "node/9711485602"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5427817,
+      47.41051
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9711491717",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "UG, Treppe bei der Reception runter, dann Richtung Halle",
+    "description": "Während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "08:00 - 17:00 Uhr, Mo-Fr",
+    "id": "node/9711491717"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6467106,
+      47.720044
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9711495617",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "UG, bei der Reception Treppe runter Richtung Halle",
+    "description": "Während den Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "08:00-17:00",
+    "id": "node/9711495617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6467187,
+      47.7200496
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9711532241",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der DEFI befindet sich seitlich der Rezeption, an der östlichen Hausfassade des Gebäudes Nr. 45",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Camping Eichholz, Sebastian Geissel",
+    "phone": "+41 31 961 26 02",
+    "id": "node/9711532241"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4555802,
+      46.9329687
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9711532242",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An Hauswand Richtung Hauptstrasse",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung Arth",
+    "phone": "+41 41 859 02 02",
+    "id": "node/9711532242"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5207018,
+      47.0619956
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9711537463",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Beim Durchgang von der ersten in die zweite Halle in der Produktionsabteilung",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-22:00",
+    "operator": "Stephan Keller",
+    "phone": "+41 52 646 21 50",
+    "id": "node/9711537463"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7587053,
+      47.6807319
     ]
   }
 }

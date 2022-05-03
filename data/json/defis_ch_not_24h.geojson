@@ -50454,20 +50454,20 @@
   "id": "node/8382998836",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Treppenhaus 2. OG",
+    "defibrillator:location": "Südostbahn: Treppenhaus 2. OG",
     "description": "während Büroöffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "SOB",
+    "operator": "Südostbahn",
     "phone": "+41 58 580 73 35",
     "id": "node/8382998836"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.3711066,
-      47.4229136
+      9.3710628,
+      47.422961
     ]
   }
 },
@@ -96209,6 +96209,93 @@
     "coordinates": [
       7.395209,
       46.9395759
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9711485602",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben den Liften",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "Mo-Sa 08:00-20:00; PH off",
+    "wheelchair": "limited",
+    "id": "node/9711485602"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5427817,
+      47.41051
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9711491717",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "UG, Treppe bei der Reception runter, dann Richtung Halle",
+    "description": "Während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "08:00 - 17:00 Uhr, Mo-Fr",
+    "id": "node/9711491717"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6467106,
+      47.720044
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9711495617",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "UG, bei der Reception Treppe runter Richtung Halle",
+    "description": "Während den Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "08:00-17:00",
+    "id": "node/9711495617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6467187,
+      47.7200496
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9711537463",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Beim Durchgang von der ersten in die zweite Halle in der Produktionsabteilung",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-22:00",
+    "operator": "Stephan Keller",
+    "phone": "+41 52 646 21 50",
+    "id": "node/9711537463"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7587053,
+      47.6807319
     ]
   }
 }

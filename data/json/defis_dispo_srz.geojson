@@ -16819,13 +16819,14 @@
     "opening_hours": "24/7",
     "operator": "Jucker Farm AG",
     "phone": "+41 44 934 34 84",
+    "wheelchair": "limited",
     "id": "node/8186231097"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7728021,
-      47.3437458
+      8.7728487,
+      47.3436523
     ]
   }
 },
@@ -41383,6 +41384,93 @@
     "coordinates": [
       8.4402592,
       47.272415
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9711485602",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben den Liften",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "Mo-Sa 08:00-20:00; PH off",
+    "wheelchair": "limited",
+    "id": "node/9711485602"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5427817,
+      47.41051
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9711491717",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "UG, Treppe bei der Reception runter, dann Richtung Halle",
+    "description": "Während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "08:00 - 17:00 Uhr, Mo-Fr",
+    "id": "node/9711491717"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6467106,
+      47.720044
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9711495617",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "UG, bei der Reception Treppe runter Richtung Halle",
+    "description": "Während den Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "08:00-17:00",
+    "id": "node/9711495617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6467187,
+      47.7200496
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9711532242",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An Hauswand Richtung Hauptstrasse",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung Arth",
+    "phone": "+41 41 859 02 02",
+    "id": "node/9711532242"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5207018,
+      47.0619956
     ]
   }
 }

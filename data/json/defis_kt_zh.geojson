@@ -8699,13 +8699,14 @@
     "opening_hours": "24/7",
     "operator": "Jucker Farm AG",
     "phone": "+41 44 934 34 84",
+    "wheelchair": "limited",
     "id": "node/8186231097"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7728021,
-      47.3437458
+      8.7728487,
+      47.3436523
     ]
   }
 },
@@ -29445,6 +29446,28 @@
     "coordinates": [
       8.4402592,
       47.272415
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9711485602",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben den Liften",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "Mo-Sa 08:00-20:00; PH off",
+    "wheelchair": "limited",
+    "id": "node/9711485602"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5427817,
+      47.41051
     ]
   }
 }

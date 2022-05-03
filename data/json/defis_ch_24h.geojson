@@ -35408,13 +35408,14 @@
     "opening_hours": "24/7",
     "operator": "Jucker Farm AG",
     "phone": "+41 44 934 34 84",
+    "wheelchair": "limited",
     "id": "node/8186231097"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7728021,
-      47.3437458
+      8.7728487,
+      47.3436523
     ]
   }
 },
@@ -71606,6 +71607,52 @@
     "coordinates": [
       8.4402592,
       47.272415
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9711532241",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der DEFI befindet sich seitlich der Rezeption, an der östlichen Hausfassade des Gebäudes Nr. 45",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Camping Eichholz, Sebastian Geissel",
+    "phone": "+41 31 961 26 02",
+    "id": "node/9711532241"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4555802,
+      46.9329687
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9711532242",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An Hauswand Richtung Hauptstrasse",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung Arth",
+    "phone": "+41 41 859 02 02",
+    "id": "node/9711532242"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5207018,
+      47.0619956
     ]
   }
 }
