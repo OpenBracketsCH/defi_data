@@ -14265,12 +14265,13 @@
     "addr:city": "Bern",
     "addr:housenumber": "5",
     "addr:postcode": "3011",
-    "addr:street": "Schwanengasse",
+    "addr:street": "Schwanengasse 5+7",
     "defibrillator:location": "Im zweiten Stock melden",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "Mo-Fr 07:00-17:00",
-    "operator": "Reservesuisse Genossenschaft",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-16:00",
+    "operator": "réservesuisse genossenschaft",
     "phone": "+41 31 328 72 72",
     "id": "node/6641800664"
   },
@@ -96317,6 +96318,50 @@
     "coordinates": [
       8.7632998,
       47.5093373
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9713806617",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Kantine auf der linken Seite beim Windfang",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Ausbildungszentrum Riedikon",
+    "id": "node/9713806617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7165204,
+      47.3309614
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9713821417",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Lanz Oensingen AG, Empfang",
+    "description": "08:15 - 12:00 / 13:15 - 17:15",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Lanz Oensingen AG",
+    "phone": "0623882121",
+    "id": "node/9713821417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7184586,
+      47.2808932
     ]
   }
 }
