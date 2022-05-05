@@ -38380,25 +38380,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7721434861",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Im Gebäude des EW",
-    "description": "nur während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/7721434861"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.4427182,
-      47.026484
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7721434862",
   "properties": {
     "access": "yes",
@@ -96425,6 +96406,72 @@
     "coordinates": [
       7.3148433,
       47.1111748
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9717780045",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Büro Empfang EG",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-16:00",
+    "id": "node/9717780045"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7910393,
+      47.332896
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9717819513",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Treppenhaus, 1. OG",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "IMT AG",
+    "phone": "+41 81 750 06 40",
+    "id": "node/9717819513"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.481912,
+      47.1733844
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9717825730",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Eingangsbereich EG des Fitnesszenters",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "FITIN Fitness- & Gesundheitscenter",
+    "phone": "+41 81 756 21 52",
+    "id": "node/9717825730"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4571418,
+      47.1827199
     ]
   }
 }

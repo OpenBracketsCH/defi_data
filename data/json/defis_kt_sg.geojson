@@ -2459,10 +2459,13 @@
   "id": "node/7721434861",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Im Gebäude des EW",
+    "defibrillator:location": "AED hängt VOR dem Haupteingang des EW links an der Wand",
     "description": "nur während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Vilters-Wangs",
     "id": "node/7721434861"
   },
   "geometry": {
@@ -14461,6 +14464,51 @@
     "coordinates": [
       9.6073817,
       47.3589464
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9717819513",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Treppenhaus, 1. OG",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "IMT AG",
+    "phone": "+41 81 750 06 40",
+    "id": "node/9717819513"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.481912,
+      47.1733844
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9717825730",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Eingangsbereich EG des Fitnesszenters",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "FITIN Fitness- & Gesundheitscenter",
+    "phone": "+41 81 756 21 52",
+    "id": "node/9717825730"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4571418,
+      47.1827199
     ]
   }
 }
