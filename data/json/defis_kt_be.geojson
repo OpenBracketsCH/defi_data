@@ -23980,6 +23980,7 @@
     "defibrillator:location": "Kassenbereich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "id": "node/6727069174"
   },
   "geometry": {
@@ -41574,6 +41575,28 @@
     "coordinates": [
       7.3148433,
       47.1111748
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9720233799",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Im östlichen Treppenhaus im ersten Stock",
+    "defibrillator:location:de": "Im östlichen Treppenhaus im ersten Stock",
+    "defibrillator:location:en": "In the eastern staircase on the first floor",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "1",
+    "source": "survey",
+    "id": "node/9720233799"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4560742,
+      46.964895
     ]
   }
 }
