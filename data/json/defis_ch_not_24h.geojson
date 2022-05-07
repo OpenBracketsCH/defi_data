@@ -6359,6 +6359,7 @@
     "defibrillator:location": "im Erdgeschoss",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Verwaltungszentrum (Stadt Langenthal)",
     "phone": "+41 79 632 65 55",
@@ -96658,6 +96659,28 @@
     "coordinates": [
       9.2998785,
       47.5479604
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9722513417",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Trepprnhaus im 3. Stock",
+    "description": "Während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07.30-18.00",
+    "operator": "Firma",
+    "id": "node/9722513417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7214829,
+      47.5024536
     ]
   }
 }
