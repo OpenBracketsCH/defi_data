@@ -15801,7 +15801,7 @@
   "id": "node/8168710814",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "An der Wand, direkt beim Eingang zum eidg. Zollamt",
+    "defibrillator:location": "An der Wand, direkt beim Eingang zum eidg. Zollamt.",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -15809,13 +15809,14 @@
     "opening_hours": "24/7",
     "operator": "SUSV (Schweizer Unterwasser-Sport-Verband)/ Sandra Büchi",
     "phone": "+41 31 301 43 43",
+    "wheelchair": "no",
     "id": "node/8168710814"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6037694,
-      47.6475475
+      8.6037647,
+      47.6475458
     ]
   }
 },
@@ -42458,6 +42459,27 @@
     "coordinates": [
       8.8015264,
       47.0571856
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9745499145",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Feuerwehrdepot bei den Garagetoren in der Mitte an der Aussenmauer.",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "wheelchair": "yes",
+    "id": "node/9745499145"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6000299,
+      47.6429649
     ]
   }
 }
