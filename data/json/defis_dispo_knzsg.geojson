@@ -1865,10 +1865,12 @@
   "id": "node/7721050590",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Straub Werke",
+    "defibrillator:location": "Straub Werke: Wand vor Haupteingang",
     "description": "nur während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/7721050590"
   },
   "geometry": {
@@ -2751,10 +2753,12 @@
   "id": "node/7721434862",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Praxis im Rosengarten",
+    "defibrillator:location": "Praxis im Rosengarten: Eingangsbereich der Arztpraxis",
     "description": "nur während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/7721434862"
   },
   "geometry": {
@@ -17385,6 +17389,29 @@
     "coordinates": [
       9.3145413,
       47.4169909
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9749069701",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Empfang der Gruppenpraxis",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-18:00; Sa 07:15-12:00",
+    "operator": "PizolCare-Praxis Sargans",
+    "phone": "+41 81 725 88 00",
+    "id": "node/9749069701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.444469,
+      47.0458149
     ]
   }
 }

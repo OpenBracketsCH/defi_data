@@ -37686,25 +37686,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7721050590",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Straub Werke",
-    "description": "nur während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/7721050590"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.4387767,
-      47.0317568
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7721055966",
   "properties": {
     "access": "yes",
@@ -38365,25 +38346,6 @@
     "coordinates": [
       9.4328423,
       47.0321873
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7721434862",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Praxis im Rosengarten",
-    "description": "nur während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/7721434862"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.4493902,
-      47.0263963
     ]
   }
 },
@@ -97720,6 +97682,52 @@
     "coordinates": [
       9.3145413,
       47.4169909
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9749069701",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Empfang der Gruppenpraxis",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-18:00; Sa 07:15-12:00",
+    "operator": "PizolCare-Praxis Sargans",
+    "phone": "+41 81 725 88 00",
+    "id": "node/9749069701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.444469,
+      47.0458149
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9749103704",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Gebäude des Mediamarktes im 3. Stock, Empfangsbereich Frigo-Consulting AG",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
+    "operator": "Frigo-Consulting AG",
+    "phone": "+41 31 996 48 48",
+    "id": "node/9749103704"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5037372,
+      46.9263308
     ]
   }
 }
