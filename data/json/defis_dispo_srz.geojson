@@ -8863,6 +8863,7 @@
     "description": "Öffentlich 24h zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "id": "node/7667107724"
   },
@@ -42572,6 +42573,26 @@
     "coordinates": [
       8.7292868,
       47.5577782
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9752218819",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Mehrzweckhalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9752218819"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8724632,
+      47.1816388
     ]
   }
 }
