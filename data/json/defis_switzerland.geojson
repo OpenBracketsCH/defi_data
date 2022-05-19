@@ -7970,10 +7970,12 @@
   "type": "Feature",
   "id": "node/6082068638",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Between femal and male toilets, at the wall",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "note": "Bei den Toiletten",
+    "level": "0",
     "id": "node/6082068638"
   },
   "geometry": {
@@ -150821,26 +150823,6 @@
     "coordinates": [
       7.4189901,
       46.9757441
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9379133618",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Near the toilets",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "id": "node/9379133618"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4495872,
-      46.934457
     ]
   }
 },
