@@ -238,22 +238,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/5471369425",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/5471369425"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.1081043,
-      47.1725949
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/5746459151",
   "properties": {
     "emergency": "defibrillator",
@@ -2974,18 +2958,22 @@
   "id": "node/7637818402",
   "properties": {
     "access": "yes",
-    "description": "Seiteneingang Surseepark II ,Do it Garden, Kundendiest, Apotheke",
+    "alt_name": "Surseepark",
+    "defibrillator:location": "Seiteneingang Surseepark II ,Do it Garden, Kundendiest, Apotheke",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "name": "Einkaufscenter Surseepark",
     "opening_hours": "24/7",
+    "operator": "Einkaufscenter Surseepark",
+    "phone": "+41 41 455 74 72",
+    "wheelchair": "limited",
     "id": "node/7637818402"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.1023087,
-      47.1726126
+      8.102266,
+      47.1725159
     ]
   }
 },
@@ -3363,16 +3351,19 @@
   "type": "Feature",
   "id": "node/7637818424",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Wirtshaus Wilder Mann",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "name": "Wirtshaus Wilder Mann",
+    "opening_hours": "24/7",
+    "wheelchair": "limited",
     "id": "node/7637818424"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.1081392,
-      47.1726238
+      8.108072,
+      47.1726162
     ]
   }
 },
@@ -13677,13 +13668,15 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Mauensee",
+    "wheelchair": "limited",
     "id": "node/8645178817"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0937009,
-      47.1716245
+      8.0938874,
+      47.1715475
     ]
   }
 },
@@ -16455,6 +16448,28 @@
     "coordinates": [
       8.1766853,
       47.0406245
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9754408253",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben der Kassen",
+    "emergency": "defibrillator",
+    "level": "0",
+    "opening_hours": "Mo-Fr 09:00-18:00; We,Sa 09:00-17:00",
+    "operator": "CALIDA GROUP",
+    "phone": "+41 41 925 43 82",
+    "wheelchair": "limited",
+    "id": "node/9754408253"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1070623,
+      47.1632856
     ]
   }
 }

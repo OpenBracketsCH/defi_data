@@ -2576,17 +2576,23 @@
   "type": "Feature",
   "id": "node/9590509321",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Innen im Foyer an der Wand vor Halle 1 - zwischen Lift und Aussenfassade.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 09:00-12:00,13:30-16:00",
+    "operator": "St. Jakobshalle Basel",
+    "phone": "+41 61 317 82 22",
+    "wheelchair": "limited",
     "id": "node/9590509321"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6190171,
-      47.5400214
+      7.6188595,
+      47.5400511
     ]
   }
 },
@@ -3007,6 +3013,30 @@
     "coordinates": [
       7.8154448,
       47.4642298
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9754307849",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben Rollstuhl WC und Tribüne rechts",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 09:00-12:00,13:30-16:00",
+    "operator": "St. Jakobshalle Basel",
+    "phone": "+41 61 317 82 22",
+    "wheelchair": "limited",
+    "id": "node/9754307849"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6181937,
+      47.5395889
     ]
   }
 }

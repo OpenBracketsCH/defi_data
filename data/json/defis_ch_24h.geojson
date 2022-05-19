@@ -505,6 +505,28 @@
 },
 {
   "type": "Feature",
+  "id": "node/3361809293",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bahnhof SBB Passarelle Eingang Süd bei Dosenbach",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "24/7",
+    "wheelchair": "limited",
+    "id": "node/3361809293"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5884023,
+      47.5459525
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/3508258235",
   "properties": {
     "description": "24h verfügbar",
@@ -24266,18 +24288,42 @@
   "id": "node/7637818402",
   "properties": {
     "access": "yes",
-    "description": "Seiteneingang Surseepark II ,Do it Garden, Kundendiest, Apotheke",
+    "alt_name": "Surseepark",
+    "defibrillator:location": "Seiteneingang Surseepark II ,Do it Garden, Kundendiest, Apotheke",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "name": "Einkaufscenter Surseepark",
     "opening_hours": "24/7",
+    "operator": "Einkaufscenter Surseepark",
+    "phone": "+41 41 455 74 72",
+    "wheelchair": "limited",
     "id": "node/7637818402"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.1023087,
-      47.1726126
+      8.102266,
+      47.1725159
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818424",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Wirtshaus Wilder Mann",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "wheelchair": "limited",
+    "id": "node/7637818424"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.108072,
+      47.1726162
     ]
   }
 },
@@ -45032,13 +45078,15 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Mauensee",
+    "wheelchair": "limited",
     "id": "node/8645178817"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0937009,
-      47.1716245
+      8.0938874,
+      47.1715475
     ]
   }
 },
@@ -52920,26 +52968,6 @@
     "coordinates": [
       9.7675754,
       46.9197111
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8935757418",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Bahnhof SBB Passarelle Eingang Süd bei Dosenbach",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "id": "node/8935757418"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5882052,
-      47.546087
     ]
   }
 },
@@ -65760,7 +65788,7 @@
   "id": "node/9388530737",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Neben dem Brezelkönig und Rolltreppe",
+    "defibrillator:location": "Neben dem Brezelkönig und Rolltreppe Gleis 11/12",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -72560,6 +72588,28 @@
     "coordinates": [
       8.1055287,
       47.2708321
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9754274669",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben dem Brezelkönig und Rolltreppe Gleis 11/12",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "24/7",
+    "wheelchair": "yes",
+    "id": "node/9754274669"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5886105,
+      47.5460061
     ]
   }
 }

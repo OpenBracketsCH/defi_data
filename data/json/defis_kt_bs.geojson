@@ -5,10 +5,14 @@
   "type": "Feature",
   "id": "node/3361809293",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bahnhof SBB Passarelle Eingang Süd bei Dosenbach",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
+    "opening_hours": "24/7",
+    "wheelchair": "limited",
     "id": "node/3361809293"
   },
   "geometry": {
@@ -286,26 +290,6 @@
     "coordinates": [
       7.5895015,
       47.5477948
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8935757418",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Bahnhof SBB Passarelle Eingang Süd bei Dosenbach",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "id": "node/8935757418"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5882052,
-      47.546087
     ]
   }
 },
@@ -834,7 +818,7 @@
   "id": "node/9388530737",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Neben dem Brezelkönig und Rolltreppe",
+    "defibrillator:location": "Neben dem Brezelkönig und Rolltreppe Gleis 11/12",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -878,19 +862,22 @@
   "properties": {
     "access": "no",
     "defibrillator:location": "Shopping Center St. Jakob BS",
-    "description": "Während Oeffungszeiten 9 bis 20 Uhr bei Beldona Store /Mall",
+    "description": "Während Oeffungszeiten Verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "-1",
     "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-18:00",
-    "operator": "Lifepack",
+    "operator": "Wincasa AG",
+    "phone": "+41 61 377 81 11",
+    "wheelchair": "limited",
     "id": "node/9524918533"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6198339,
-      47.5412191
+      7.6196985,
+      47.5410014
     ]
   }
 },
@@ -986,20 +973,23 @@
   "id": "node/9680907781",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Einkaufszentrum St.Jakob  Parterre Hinterer Teil NewYorker Mode",
+    "defibrillator:location": "Einkaufszentrum St.Jakob Parterre Hinterer Teil NewYorker Mode",
     "description": "Während Oeffungszeiten Verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo.-Fr. 09:00= 20:00 Sa. 09:00-18:00",
-    "operator": "Shoppingcenter",
+    "level": "-2",
+    "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-18:00",
+    "operator": "Wincasa AG",
+    "phone": "+41 61 377 81 11",
+    "wheelchair": "limited",
     "id": "node/9680907781"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6198577,
-      47.5410729
+      7.61987,
+      47.5408751
     ]
   }
 },
@@ -1134,6 +1124,28 @@
     "coordinates": [
       7.5757679,
       47.5617596
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9754274669",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben dem Brezelkönig und Rolltreppe Gleis 11/12",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "24/7",
+    "wheelchair": "yes",
+    "id": "node/9754274669"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5886105,
+      47.5460061
     ]
   }
 }
