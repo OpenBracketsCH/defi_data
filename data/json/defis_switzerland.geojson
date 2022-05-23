@@ -30233,7 +30233,7 @@
     "addr:housenumber": "6",
     "addr:postcode": "3700",
     "addr:street": "Belvédèrestrasse",
-    "defibrillator:location": "Röm.-kath. Kirche Bruder Klaus",
+    "defibrillator:location": "offener, gedeckter Zugang zur Kirche",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -59501,7 +59501,6 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "name": "Büelacherhalle",
     "operator": "Gemeinde Ettiswil / Abwart Martin Weibel",
     "phone": "+41 41 984 13 59",
     "id": "node/7637818978"
@@ -59518,13 +59517,15 @@
   "type": "Feature",
   "id": "node/7637818979",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Im Foyer, vis-a-vis Bankomat",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Raiffeisen Bank",
     "opening_hours": "24/7",
-    "operator": "Samariter Ettiswil",
+    "operator": "Sanitätsteam Ettiswil",
     "phone": "+41 79 598 24 64",
     "id": "node/7637818979"
   },
@@ -73972,18 +73973,20 @@
   "id": "node/7913121742",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Im Altersheim",
-    "description": "nur während Postendiensten nicht verfügbar. Nummer hinterlegt",
+    "defibrillator:location": "Er befindet sich an einem Fussweg entlang. Turnhalle in Richtung Fussballplatz.",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Pfäfers",
     "id": "node/7913121742"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4962538,
-      46.9881838
+      9.4983672,
+      46.9912557
     ]
   }
 },
@@ -136801,7 +136804,7 @@
   "id": "node/9164624424",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Eingang Schulhaus",
+    "defibrillator:location": "Eingang Schulhaus Alberswil",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -170572,6 +170575,179 @@
     "coordinates": [
       7.5083571,
       47.2519485
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9763745552",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Haus drinnen, privates Gebäude",
+    "description": "nur wenn Bewohner zu Hause sind",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Daniela Rüsch-Santi",
+    "phone": "+41 79 434 52 88",
+    "id": "node/9763745552"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6826254,
+      47.4734839
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9763758632",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Swiss Casino am Empfang",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Grand Casino St. Gallen AG",
+    "phone": "+41 71 394 30 30",
+    "id": "node/9763758632"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3803072,
+      47.431083
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9763763211",
+  "properties": {
+    "emergency": "defibrillator",
+    "id": "node/9763763211"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9571136,
+      46.0206841
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9763767232",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Vorraum zum Flugplatzbüro an der Nordwand links von der Tür",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 07:00-20:00",
+    "operator": "AeCS der SchweizRegionalverband",
+    "id": "node/9763767232"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9530823,
+      47.508706
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9763784147",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Erdgeschoss, Empfangsbereich Frigo-Consulting SA",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
+    "operator": "Frigo-Consulting SA",
+    "phone": "+41 21 633 44 66",
+    "id": "node/9763784147"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.5738717,
+      46.554965
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9763784981",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Vermögenszentrum",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-17:30",
+    "operator": "Tamara Oppliger, Jennifer Meuwly",
+    "phone": "+41 26 350 90 90",
+    "id": "node/9763784981"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1547925,
+      46.8035433
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9763787346",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Empfang Amt für Wirtschaft und Arbeit",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-11:30, 14:00-16:30",
+    "operator": "Hochbauamt Kanton St.Gallen",
+    "phone": "+41 58 229 30 17",
+    "id": "node/9763787346"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3682976,
+      47.4194865
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9763790358",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vor dem Haupteingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Primarschule Bachs",
+    "phone": "+41 43 433 20 80",
+    "id": "node/9763790358"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4408031,
+      47.5237225
     ]
   }
 }

@@ -13005,7 +13005,7 @@
     "addr:housenumber": "6",
     "addr:postcode": "3700",
     "addr:street": "Belvédèrestrasse",
-    "defibrillator:location": "Röm.-kath. Kirche Bruder Klaus",
+    "defibrillator:location": "offener, gedeckter Zugang zur Kirche",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -26555,13 +26555,15 @@
   "type": "Feature",
   "id": "node/7637818979",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Im Foyer, vis-a-vis Bankomat",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Raiffeisen Bank",
     "opening_hours": "24/7",
-    "operator": "Samariter Ettiswil",
+    "operator": "Sanitätsteam Ettiswil",
     "phone": "+41 79 598 24 64",
     "id": "node/7637818979"
   },
@@ -32180,18 +32182,20 @@
   "id": "node/7913121742",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Im Altersheim",
-    "description": "nur während Postendiensten nicht verfügbar. Nummer hinterlegt",
+    "defibrillator:location": "Er befindet sich an einem Fussweg entlang. Turnhalle in Richtung Fussballplatz.",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Pfäfers",
     "id": "node/7913121742"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4962538,
-      46.9881838
+      9.4983672,
+      46.9912557
     ]
   }
 },
@@ -60077,7 +60081,7 @@
   "id": "node/9164624424",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Eingang Schulhaus",
+    "defibrillator:location": "Eingang Schulhaus Alberswil",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -72632,6 +72636,29 @@
     "coordinates": [
       8.5970132,
       47.6050289
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9763790358",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vor dem Haupteingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Primarschule Bachs",
+    "phone": "+41 43 433 20 80",
+    "id": "node/9763790358"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4408031,
+      47.5237225
     ]
   }
 }

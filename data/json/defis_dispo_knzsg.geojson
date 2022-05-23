@@ -5484,18 +5484,20 @@
   "id": "node/7913121742",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Im Altersheim",
-    "description": "nur während Postendiensten nicht verfügbar. Nummer hinterlegt",
+    "defibrillator:location": "Er befindet sich an einem Fussweg entlang. Turnhalle in Richtung Fussballplatz.",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Pfäfers",
     "id": "node/7913121742"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4962538,
-      46.9881838
+      9.4983672,
+      46.9912557
     ]
   }
 },
@@ -17457,6 +17459,51 @@
     "coordinates": [
       9.4170042,
       47.0515424
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9763758632",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Swiss Casino am Empfang",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Grand Casino St. Gallen AG",
+    "phone": "+41 71 394 30 30",
+    "id": "node/9763758632"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3803072,
+      47.431083
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9763787346",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Empfang Amt für Wirtschaft und Arbeit",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-11:30, 14:00-16:30",
+    "operator": "Hochbauamt Kanton St.Gallen",
+    "phone": "+41 58 229 30 17",
+    "id": "node/9763787346"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3682976,
+      47.4194865
     ]
   }
 }

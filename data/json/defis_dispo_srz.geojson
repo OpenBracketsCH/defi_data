@@ -42673,6 +42673,51 @@
       47.6050289
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/9763745552",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Haus drinnen, privates Gebäude",
+    "description": "nur wenn Bewohner zu Hause sind",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Daniela Rüsch-Santi",
+    "phone": "+41 79 434 52 88",
+    "id": "node/9763745552"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6826254,
+      47.4734839
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9763790358",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vor dem Haupteingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Primarschule Bachs",
+    "phone": "+41 43 433 20 80",
+    "id": "node/9763790358"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4408031,
+      47.5237225
+    ]
+  }
 }
 ]
 }
