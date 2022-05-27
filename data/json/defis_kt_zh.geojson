@@ -273,23 +273,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/4722090399",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/4722090399"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5974058,
-      47.6047395
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/4985524992",
   "properties": {
     "access": "yes",
@@ -30500,6 +30483,28 @@
     "coordinates": [
       8.7313181,
       47.4986469
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9775303777",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Im Eingangsbereich der Privatschule Morgentau gegenüber der Eingangstüre an der Wand.",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 06:30-21:00; PH off",
+    "operator": "Privatschule Morgentau",
+    "wheelchair": "no",
+    "id": "node/9775303777"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7247968,
+      47.5035583
     ]
   }
 }
