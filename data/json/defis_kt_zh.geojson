@@ -3264,18 +3264,22 @@
   "id": "node/7636269857",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "in der ehemaligen Telefonkabine",
+    "defibrillator:location": "Im Gebäude hinter der grün/glasigen Türe der ehemaligen Telefonkabine.",
     "description": "Defi ist in der ehem. Telefonkabine und 24h zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
     "opening_hours": "24/7",
+    "website": "https://aed.ch/",
+    "wheelchair": "limited",
     "id": "node/7636269857"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6249502,
-      47.5743779
+      8.6249304,
+      47.5745052
     ]
   }
 },
@@ -30398,19 +30402,20 @@
   "id": "node/9761953850",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "An der Aussenwand des Milchhüsli in einem Kasten.",
+    "defibrillator:location": "An der Aussenwand des Milchlokal in einem Kasten bei dem Anschlagbrett.",
     "emergency": "defibrillator",
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
+    "operator": "defibrillator.ch",
     "wheelchair": "yes",
     "id": "node/9761953850"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5970132,
-      47.6050289
+      8.5970184,
+      47.6050371
     ]
   }
 },
