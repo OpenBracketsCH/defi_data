@@ -42378,25 +42378,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7928195412",
-  "properties": {
-    "defibrillator:location": "Beim Bademeister",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "level": "0",
-    "id": "node/7928195412"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4526572,
-      47.1697915
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7928195413",
   "properties": {
     "defibrillator:location": "Im Pikett und Atemschutzfahrzeug",
@@ -42429,26 +42410,6 @@
     "coordinates": [
       8.4464049,
       47.1761968
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7928195415",
-  "properties": {
-    "defibrillator:location": "Eingang Primarschule, West, Schulhaus Eichmatt",
-    "description": "Aussenwand, links vor Aussentüre",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "level": "0",
-    "operator": "EWG Hünenberg",
-    "id": "node/7928195415"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4471748,
-      47.1772361
     ]
   }
 },
@@ -98328,6 +98289,38 @@
     "coordinates": [
       8.9810922,
       47.223623
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9779081121",
+  "properties": {
+    "defibrillator:location": "Left of campsite reception",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/9779081121"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.7173155,
+      46.8036661
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9779145431",
+  "properties": {
+    "emergency": "defibrillator",
+    "id": "node/9779145431"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.6300446,
+      46.5454101
     ]
   }
 }
