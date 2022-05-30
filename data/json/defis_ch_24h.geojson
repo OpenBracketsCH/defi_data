@@ -3285,6 +3285,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/6454393824",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben den Schliessfächer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "level": "0",
+    "opening_hours": "24/7",
+    "wheelchair": "limited",
+    "id": "node/6454393824"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.8208889,
+      46.7915442
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/6459359556",
   "properties": {
     "access": "yes",
@@ -72838,6 +72859,50 @@
     "coordinates": [
       8.459678,
       47.1811023
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9780863555",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Neben den Liften",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "F. Hoffmann-La Roche Ltd",
+    "wheelchair": "limited",
+    "id": "node/9780863555"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6073579,
+      47.5594462
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9780881594",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Neben den WC",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "F. Hoffmann-La Roche Ltd",
+    "wheelchair": "limited",
+    "id": "node/9780881594"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6074008,
+      47.5587466
     ]
   }
 }
