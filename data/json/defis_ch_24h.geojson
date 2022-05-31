@@ -22010,8 +22010,10 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Strassenverkehrsamt",
+    "description": "Aussenwand rechts vom Haupteingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Kanton Zug",
     "id": "node/7568751056"
@@ -22019,8 +22021,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4756544,
-      47.1919909
+      8.4757724,
+      47.19163
     ]
   }
 },
@@ -44156,6 +44158,29 @@
     "coordinates": [
       8.6919115,
       47.5178628
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8601768088",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang (draussen)",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Sonova AG, Betriebssanität",
+    "phone": "+41 58 928 01 01",
+    "id": "node/8601768088"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7440448,
+      47.2389531
     ]
   }
 },
@@ -73132,6 +73157,74 @@
     "coordinates": [
       8.3131581,
       47.3074593
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9784783146",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Parkhaus Technikum 1. UG zwischen Einfahrt und Treppenhaus. Neben einem Getränkeautomaten",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Stadtpolizei Winterthur, Abteilung Parkieren, Gianni Sabatino",
+    "phone": "+41 52 267 58 08",
+    "id": "node/9784783146"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7299795,
+      47.4976906
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9784788680",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Erdgeschoss beim Treppenhaus zum Parkhaus. Neben dem Kassenautomat.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Politische Gemeinde Bad Ragaz",
+    "phone": "+41 81 303 49 60",
+    "id": "node/9784788680"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5000464,
+      47.0024138
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9784821613",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der AED befindet sich beim Haupteingang OASE auf der rechten Seite am Pfeiler zum Forum",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Paul Scherrer Institut",
+    "phone": "+41 56 310 21 11",
+    "id": "node/9784821613"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2268192,
+      47.5369122
     ]
   }
 }

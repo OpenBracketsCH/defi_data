@@ -614,8 +614,10 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Strassenverkehrsamt",
+    "description": "Aussenwand rechts vom Haupteingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Kanton Zug",
     "id": "node/7568751056"
@@ -623,8 +625,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4756544,
-      47.1919909
+      8.4757724,
+      47.19163
     ]
   }
 },
@@ -5568,6 +5570,29 @@
     "coordinates": [
       8.459678,
       47.1811023
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9784802617",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "EG, Vorraum Kanzlei, Eingangstür rechts an der Wand",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Korporation Baar-Dorf / Frau Corinna Müller, Korporationsschreiberin",
+    "phone": "+41 41 766 09 66",
+    "id": "node/9784802617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5398826,
+      47.1962202
     ]
   }
 }

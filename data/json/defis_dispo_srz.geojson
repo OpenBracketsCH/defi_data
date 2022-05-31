@@ -5555,8 +5555,10 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Strassenverkehrsamt",
+    "description": "Aussenwand rechts vom Haupteingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Kanton Zug",
     "id": "node/7568751056"
@@ -5564,8 +5566,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4756544,
-      47.1919909
+      8.4757724,
+      47.19163
     ]
   }
 },
@@ -25891,13 +25893,13 @@
   "type": "Feature",
   "id": "node/8601768088",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Sonova AG, beim Empfang.",
-    "description": "während Öffnungszeiten verfügbar",
+    "access": "yes",
+    "defibrillator:location": "Haupteingang (draussen)",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 07:30-17:00",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Sonova AG, Betriebssanität",
     "phone": "+41 58 928 01 01",
     "id": "node/8601768088"
@@ -25905,8 +25907,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7440522,
-      47.2388397
+      8.7440448,
+      47.2389531
     ]
   }
 },
@@ -42892,6 +42894,75 @@
     "coordinates": [
       8.7329675,
       47.5015193
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9784783146",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Parkhaus Technikum 1. UG zwischen Einfahrt und Treppenhaus. Neben einem Getränkeautomaten",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Stadtpolizei Winterthur, Abteilung Parkieren, Gianni Sabatino",
+    "phone": "+41 52 267 58 08",
+    "id": "node/9784783146"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7299795,
+      47.4976906
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9784802617",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "EG, Vorraum Kanzlei, Eingangstür rechts an der Wand",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Korporation Baar-Dorf / Frau Corinna Müller, Korporationsschreiberin",
+    "phone": "+41 41 766 09 66",
+    "id": "node/9784802617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5398826,
+      47.1962202
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9784813596",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "In der Schule, einen bei der Rezeption und einen beim Eingang von der Turnhalle",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-17:30",
+    "operator": "Zurich International School",
+    "phone": "+41 58 750 24 22",
+    "id": "node/9784813596"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5322034,
+      47.321576
     ]
   }
 }
