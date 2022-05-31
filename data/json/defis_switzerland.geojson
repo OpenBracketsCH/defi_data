@@ -170609,13 +170609,14 @@
   "id": "node/9763767232",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Im Vorraum zum Flugplatzbüro an der Nordwand links von der Tür",
+    "defibrillator:location": "Durchgang zwischen Flugplatzbüro und Restaurant, beim Ausgang zur Terrasse",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Su 07:00-20:00",
+    "opening_hours": "Mo-Su 08:00-21:00",
     "operator": "AeCS der SchweizRegionalverband",
+    "phone": "+41 62 871 22 22",
     "id": "node/9763767232"
   },
   "geometry": {
@@ -171337,6 +171338,304 @@
     "coordinates": [
       8.5911289,
       46.6365962
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9784633970",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Auf der Ostseite des Gebäudes die Eingangstüre nutzen. Neben der Türe den Klingelknopf betätigen, ein Angestellter öffnet die Türe. Der Defibrillator ist im Gebäude im Eingangsbereich.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 05:00-20:00; Sa 05:00-15:00",
+    "operator": "Post CH AG",
+    "phone": "+41 58 453 64 32",
+    "id": "node/9784633970"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5275337,
+      47.5160504
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9784633971",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Auf der Frontseite des Gebäudes die Eingangstüre rechts nutzen. Neben der Türe den Klingelknopf betätigen, ein Angestellter öffnet die Türe. Der Defibrillator ist im Gebäude neben dem Einfahrtstor auf der Westseite stationiert.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 05:00-20:00; Sa 05:00-15:00",
+    "operator": "Post CH AG",
+    "phone": "+41 58 453 64 32",
+    "id": "node/9784633971"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5281613,
+      47.5162279
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9784644829",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Wand Haupteingang Primarschule Evilard",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Evilard",
+    "phone": "+41 32 329 91 00",
+    "id": "node/9784644829"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2378076,
+      47.1511271
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9784652337",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Gemeinschaftsgarage Wohnsiedlung Pfaffenstein 1",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Wohn-Siedlung Pfaffenstein 1, B. Imbach",
+    "phone": "+41 79 319 33 34",
+    "id": "node/9784652337"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6302583,
+      47.3665988
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9784666908",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "im Empfangsbereich der 24h-Zone",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Valiant Bank AG, Geschäftsstelle Hochdorf",
+    "phone": "+41 41 914 02 32",
+    "id": "node/9784666908"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2895547,
+      47.1669555
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9784667499",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Matterhaus EG, beim Eingang zu Toiletten (bei Pfarrkirche St. Goar)",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Kath. Pfarramt, Muri AG",
+    "id": "node/9784667499"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3377513,
+      47.2726905
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9784668623",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An der Mauer beim Gesundheitszentrum",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 09:00-21:30",
+    "operator": "Sandra Flury",
+    "phone": "+41 61 411 16 05",
+    "id": "node/9784668623"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6166482,
+      47.510183
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9784668805",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Anfordern über Empfang.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-12:00, 13:00-16:00",
+    "operator": "Ernst Sutter AG",
+    "phone": "+41 58 476 63 00",
+    "id": "node/9784668805"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1036897,
+      47.1944177
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9784670666",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bei Autounterstand",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Heiligenschwendi",
+    "phone": "+41 33 244 14 14",
+    "id": "node/9784670666"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6674237,
+      46.7477523
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9784670958",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussentor, Magazin Busi-Gartenbau",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Peter Sandmeier",
+    "phone": "+41 79 222 34 24",
+    "id": "node/9784670958"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1725702,
+      47.3318571
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9784679138",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Parkhaus Theater. Personenzugang via Sträulistrasse. Standort Geschoss A (1.UG) neben Kasse nähe Einfahrt",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Stadtpolizei Winterthur, Abteilung Parkieren, Gianni Sabatino",
+    "phone": "+41 52 267 58 08",
+    "id": "node/9784679138"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7280999,
+      47.5016722
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9784679139",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Personeneingang in das Parkhaus AXA Winterthur. EG direkt neben der Kasse",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Stadtpolizei Winterthur, Abteilung Parkieren, Gianni Sabatino",
+    "phone": "+41 52 267 58 08",
+    "id": "node/9784679139"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7329675,
+      47.5015193
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9784681536",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "swisspor AG, Speditionsbüro, gedeckt beim Eingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "swisspor AG/Alporit AG / Rolf Furrer",
+    "phone": "+41 56 678 99 42",
+    "id": "node/9784681536"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3131581,
+      47.3074593
     ]
   }
 }

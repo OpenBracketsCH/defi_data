@@ -97900,13 +97900,14 @@
   "id": "node/9763767232",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Im Vorraum zum Flugplatzbüro an der Nordwand links von der Tür",
+    "defibrillator:location": "Durchgang zwischen Flugplatzbüro und Restaurant, beim Ausgang zur Terrasse",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Su 07:00-20:00",
+    "opening_hours": "Mo-Su 08:00-21:00",
     "operator": "AeCS der SchweizRegionalverband",
+    "phone": "+41 62 871 22 22",
     "id": "node/9763767232"
   },
   "geometry": {
@@ -98409,6 +98410,98 @@
     "coordinates": [
       8.5911289,
       46.6365962
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9784633970",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Auf der Ostseite des Gebäudes die Eingangstüre nutzen. Neben der Türe den Klingelknopf betätigen, ein Angestellter öffnet die Türe. Der Defibrillator ist im Gebäude im Eingangsbereich.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 05:00-20:00; Sa 05:00-15:00",
+    "operator": "Post CH AG",
+    "phone": "+41 58 453 64 32",
+    "id": "node/9784633970"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5275337,
+      47.5160504
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9784633971",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Auf der Frontseite des Gebäudes die Eingangstüre rechts nutzen. Neben der Türe den Klingelknopf betätigen, ein Angestellter öffnet die Türe. Der Defibrillator ist im Gebäude neben dem Einfahrtstor auf der Westseite stationiert.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 05:00-20:00; Sa 05:00-15:00",
+    "operator": "Post CH AG",
+    "phone": "+41 58 453 64 32",
+    "id": "node/9784633971"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5281613,
+      47.5162279
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9784668623",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An der Mauer beim Gesundheitszentrum",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 09:00-21:30",
+    "operator": "Sandra Flury",
+    "phone": "+41 61 411 16 05",
+    "id": "node/9784668623"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6166482,
+      47.510183
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9784668805",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Anfordern über Empfang.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-12:00, 13:00-16:00",
+    "operator": "Ernst Sutter AG",
+    "phone": "+41 58 476 63 00",
+    "id": "node/9784668805"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1036897,
+      47.1944177
     ]
   }
 }
