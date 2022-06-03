@@ -32893,24 +32893,26 @@
   "type": "Feature",
   "id": "node/8728561337",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "addr:city": "Herzogenbuchsee",
     "addr:housenumber": "6",
     "addr:postcode": "3360",
     "addr:street": "Fabrikstrasse",
-    "defibrillator:location": "-",
+    "defibrillator:location": "Befindet sich an der Polizeiwache",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "Tu,Th 08:00-12:00, 14:00-17:00",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Polizeiwache Herzogenbuchsee",
-    "phone": "+41 31 638 80 00",
+    "phone": "+41 31 638 84 50",
     "id": "node/8728561337"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7043075,
-      47.1882383
+      7.7044987,
+      47.1884599
     ]
   }
 },
@@ -41783,6 +41785,29 @@
     "coordinates": [
       7.6674237,
       46.7477523
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9791631700",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Am Clubhaus des FC Herzogenbuchsee",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung Herzogenbuchsee / Bauabteilung",
+    "phone": "+41 62 956 51 11",
+    "id": "node/9791631700"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7139969,
+      47.2005066
     ]
   }
 }
