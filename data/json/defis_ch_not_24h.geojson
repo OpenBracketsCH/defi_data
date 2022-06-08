@@ -4037,6 +4037,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/5409196565",
+  "properties": {
+    "emergency": "defibrillator",
+    "recycling:cans": "yes",
+    "recycling:clothes": "yes",
+    "recycling:coffee_capsules": "yes",
+    "recycling:glass": "yes",
+    "recycling:glass_bottles": "yes",
+    "recycling:paper": "yes",
+    "recycling:shoes": "yes",
+    "recycling:waste": "yes",
+    "id": "node/5409196565"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1255545,
+      46.1437417
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/5412526955",
   "properties": {
     "defibrillator:location": "AED an Aussenmauer bei Eingang",
@@ -72729,6 +72752,7 @@
   "properties": {
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "id": "node/9047970539"
   },
   "geometry": {
@@ -99002,6 +99026,41 @@
     "coordinates": [
       8.526865,
       47.1949505
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9804686816",
+  "properties": {
+    "defibrillator:location": "Devant l'entrée de Carron-Lugon",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "ref": "CH1926",
+    "id": "node/9804686816"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1226917,
+      46.1417599
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9804706317",
+  "properties": {
+    "defibrillator:location": "Devant l'entrepôt",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/9804706317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1283834,
+      46.144895
     ]
   }
 }
