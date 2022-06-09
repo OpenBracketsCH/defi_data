@@ -10367,17 +10367,20 @@
   "type": "Feature",
   "id": "node/7637818917",
   "properties": {
-    "description": "Lernhaus EG",
+    "defibrillator:location": "bei Briefkastenanlage",
+    "description": "Campus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "name": "Campus Polizeischule IPH Hitzkirch",
+    "operator": "IPH Hitzkirch",
     "id": "node/7637818917"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2657948,
-      47.2234507
+      8.2657182,
+      47.2234827
     ]
   }
 },
@@ -10385,17 +10388,20 @@
   "type": "Feature",
   "id": "node/7637818918",
   "properties": {
-    "description": "Trainingscentrum Aabach OG",
+    "defibrillator:location": "Gang 1.OG",
+    "description": "Trainingszentrum Aabach OG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "IPH (Interkantonale Polizeischule Hitzkirch)",
+    "operator": "IPH Hitzkirch",
     "id": "node/7637818918"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2489851,
-      47.2208772
+      8.2489477,
+      47.2206148
     ]
   }
 },
