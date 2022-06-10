@@ -56306,6 +56306,7 @@
     "description": "Haupteingang hinter Treppe neben Lift",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Bildungs- und Kulturdepartement",
     "id": "node/7637818789"
   },
@@ -105418,7 +105419,7 @@
   "properties": {
     "access": "no",
     "defibrillator:location": "Migros Öufi",
-    "description": "während fen Öffnungszeiten",
+    "description": "während den Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -105428,8 +105429,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5261246,
-      47.2110688
+      7.5261007,
+      47.211143
     ]
   }
 },
@@ -173079,6 +173080,26 @@
     "coordinates": [
       7.9072499,
       47.3516861
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9809316759",
+  "properties": {
+    "access": "customers",
+    "defibrillator:location": "Inside mall, next to elevators on ground floor / Im EG, links nebem Liftreihe",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "wheelchair": "yes",
+    "id": "node/9809316759"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.507888,
+      47.4200735
     ]
   }
 }
