@@ -43126,8 +43126,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5698174,
-      47.4286008
+      8.5700414,
+      47.4289093
     ]
   }
 },
@@ -43279,6 +43279,51 @@
     "coordinates": [
       8.5225922,
       47.3713691
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9807817947",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Glas-Foyer Parterre/Kirchenvorplatz",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Kirchgemeinde Uster",
+    "phone": "+41 44 908 40 20",
+    "id": "node/9807817947"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6835317,
+      47.3883798
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9807826842",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Foyer, wenn man hinein kommt links neben der Eingangstür",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "operator": "Kath. Kirchgemeinde Uster/Pfarrei Greifensee, Kontaktperson: Monika Streuli (Hauswartin)",
+    "phone": "+41 75 422 94 33",
+    "id": "node/9807826842"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6764218,
+      47.3650409
     ]
   }
 }

@@ -12797,24 +12797,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637819176",
-  "properties": {
-    "description": "ehem.Dorfstrasse 4 Gemeinschaftspraxis",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Gemeinschaftspraxis",
-    "id": "node/7637819176"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.365038,
-      47.0720899
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637819180",
   "properties": {
     "description": "Holiday Inn",
@@ -16500,6 +16482,29 @@
     "coordinates": [
       8.1036897,
       47.1944177
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9807797254",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Halle",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 05:00-22:00",
+    "operator": "Stahl Reiden AG",
+    "phone": "+41 62 749 10 80",
+    "id": "node/9807797254"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9652971,
+      47.2500096
     ]
   }
 }

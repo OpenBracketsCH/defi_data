@@ -63034,24 +63034,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637819176",
-  "properties": {
-    "description": "ehem.Dorfstrasse 4 Gemeinschaftspraxis",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Gemeinschaftspraxis",
-    "id": "node/7637819176"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.365038,
-      47.0720899
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637819178",
   "properties": {
     "description": "im Tankstellen Shop",
@@ -109689,19 +109671,20 @@
   "id": "node/8752763721",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Resedenz am Schärme",
-    "description": "währen Haupteingang geöffnet ist",
+    "defibrillator:location": "im Neubau Schmetterling im Eingangsbereich",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Residenz am Schärme",
+    "operator": "Sandra Schallberger",
+    "phone": "+41 79 961 62 41",
     "id": "node/8752763721"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2481709,
-      46.8915501
+      8.2476063,
+      46.8907692
     ]
   }
 },
@@ -172261,8 +172244,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5698174,
-      47.4286008
+      8.5700414,
+      47.4289093
     ]
   }
 },
@@ -172872,6 +172855,165 @@
     "coordinates": [
       8.5225922,
       47.3713691
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9807797254",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Halle",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 05:00-22:00",
+    "operator": "Stahl Reiden AG",
+    "phone": "+41 62 749 10 80",
+    "id": "node/9807797254"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9652971,
+      47.2500096
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9807810557",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang Schulhaus Widenbach, auf der rechten Seite.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Primarschule Hinterforst",
+    "id": "node/9807810557"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5306232,
+      47.3633096
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9807817946",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Haupteingang Zugang Wareneingang",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "Postlogistics AG/ Felix Simm",
+    "phone": "+41 76 203 15 88",
+    "id": "node/9807817946"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2358193,
+      47.4155436
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9807817947",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Glas-Foyer Parterre/Kirchenvorplatz",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Kirchgemeinde Uster",
+    "phone": "+41 44 908 40 20",
+    "id": "node/9807817947"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6835317,
+      47.3883798
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9807826842",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Foyer, wenn man hinein kommt links neben der Eingangstür",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "operator": "Kath. Kirchgemeinde Uster/Pfarrei Greifensee, Kontaktperson: Monika Streuli (Hauswartin)",
+    "phone": "+41 75 422 94 33",
+    "id": "node/9807826842"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6764218,
+      47.3650409
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9807832365",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussenfassade Nebengebäude Gemeindeverwaltung",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung Matzingen",
+    "phone": "+41 58 346 15 01",
+    "id": "node/9807832365"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9337858,
+      47.5205509
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9807840549",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vor dem Eingang des Verwaltungsgebäude",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
+    "operator": "Edmund Frey Kuron",
+    "phone": "+41617751010",
+    "id": "node/9807840549"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4347562,
+      47.3966153
     ]
   }
 }
