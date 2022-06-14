@@ -63833,17 +63833,20 @@
   "id": "node/7644008616",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Eckstein",
+    "defibrillator:location": "Treppenhaus, EG, Seite Pfarrhofgasse",
     "description": "nur zugänglich wenn Gebäude geöffnet sind",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Stadt Schaffhausen",
+    "phone": "+41 52 632 57 55",
     "id": "node/7644008616"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6349689,
-      47.6970689
+      8.6375358,
+      47.6969543
     ]
   }
 },
@@ -128994,8 +128997,8 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 07:00-18:00, Sa-Su 08:00-17:30",
-    "operator": "Samariter Zürich 2, Britta Kuratli",
+    "opening_hours": "Mo-Fr 07:00-17:15, Sa-Su 08:00-17:00",
+    "operator": "Samariter Zürich 2",
     "phone": "+4143 244 61 23",
     "id": "node/9078511741"
   },
@@ -152632,7 +152635,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 07:45-12:00,14:00-17:00",
+    "opening_hours": "Mo-Fr 07:45-12:00,13:30-18:00",
     "operator": "Praxis Busche",
     "phone": "+41 31 829 32 62",
     "id": "node/9417953232"
