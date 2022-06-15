@@ -79722,19 +79722,20 @@
   "id": "node/8040758861",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Im Ausbildungszentrum AGVS",
+    "defibrillator:location": "Im Ausbildungszentrum AGVS. EG Hauptgebäude.",
     "description": "während Schulbetrieb verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 07:30-17:00",
+    "operator": "AGVS",
     "id": "node/8040758861"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4136934,
-      47.4415762
+      9.4135776,
+      47.4416557
     ]
   }
 },
@@ -173331,6 +173332,29 @@
     "coordinates": [
       9.4722734,
       47.2443622
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9819514717",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sagiweg 218 5054 Moosleerau",
+    "description": "immer verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Hans Hunziker AG",
+    "phone": "0627387740",
+    "id": "node/9819514717"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0655784,
+      47.2712304
     ]
   }
 }
