@@ -1120,6 +1120,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/3193178039",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An der Hausfassade",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "SUSPI",
+    "id": "node/3193178039"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8243193,
+      46.093704
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/3201227964",
   "properties": {
     "access": "yes",
@@ -168648,7 +168669,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr: 08.30-17.00",
+    "opening_hours": "Mo-Fr 08:30-17:00",
     "operator": "Firma",
     "phone": "+41417843535",
     "id": "node/9724225117"
@@ -173202,7 +173223,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 8.00-17.00",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "id": "node/9813938720"
   },
   "geometry": {
@@ -173610,6 +173631,48 @@
     "coordinates": [
       7.5166745,
       47.4766078
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9830487225",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "BIZ Berufsinformationszentrum, Sekretariat",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/9830487225"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6329443,
+      47.6951848
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9830509030",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rechts neben Haupteingang vom Clubhaus",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "FC Konolfingen Matthias Christen",
+    "phone": "+41 79 602 53 81",
+    "id": "node/9830509030"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6247195,
+      46.8752595
     ]
   }
 }

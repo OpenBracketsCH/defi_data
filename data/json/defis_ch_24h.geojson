@@ -480,6 +480,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/3193178039",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An der Hausfassade",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "SUSPI",
+    "id": "node/3193178039"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8243193,
+      46.093704
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/3201227964",
   "properties": {
     "access": "yes",
@@ -73859,6 +73880,28 @@
     "coordinates": [
       8.6167214,
       47.6616082
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9830509030",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rechts neben Haupteingang vom Clubhaus",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "FC Konolfingen Matthias Christen",
+    "phone": "+41 79 602 53 81",
+    "id": "node/9830509030"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6247195,
+      46.8752595
     ]
   }
 }
