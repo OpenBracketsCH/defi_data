@@ -76867,22 +76867,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9177738540",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/9177738540"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.7087468,
-      46.1177753
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9178451953",
   "properties": {
     "emergency": "defibrillator",
@@ -95803,28 +95787,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9705262406",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Im Gemeindehaus hinter der zweiten Eingangstür an der Wand ist ein Notfallkoffer. Kann nur während den Öffnungszeiten erreicht werden.",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "opening_hours": "Mo-Fr 09:00-12:00,13:30-17:00",
-    "wheelchair": "no",
-    "id": "node/9705262406"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.619713,
-      47.6813681
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9705890117",
   "properties": {
     "access": "no",
@@ -99813,6 +99775,73 @@
     "coordinates": [
       8.5147972,
       47.3623226
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9836011697",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Eingangsbereich der Rheinfallhalle links am Infobrett neben der Tür zum Pedellbüro an der Wand oberhalb des Notfallkoffers in einem roten, alarmgesicherten Kästchen.",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Gemeinde Neuhausen",
+    "wheelchair": "limited",
+    "id": "node/9836011697"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6203475,
+      47.6804843
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9836097944",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "1.OG Beim Eingang links im Gang gekenzeichnet im Schrank. Mitarbeiter wissen ALLE bescheid",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Désirée Albrecher",
+    "phone": "+41795790336",
+    "id": "node/9836097944"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4386547,
+      47.1622218
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9836109557",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Haupteingang links am Empfang vorbei (Treppe Rollstuhlrampe) zum Vorplatz Treppenhaus. Links beim Treppenaufgang an der Wand. Zwischen dem Zimmer W001 Und der Abfallsammelstelle.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-16:45",
+    "operator": "Thomas Trutmann / Urs Kehl",
+    "phone": "+41 52 354 64 00",
+    "id": "node/9836109557"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6920175,
+      47.4234509
     ]
   }
 }

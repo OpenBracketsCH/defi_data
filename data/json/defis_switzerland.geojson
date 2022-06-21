@@ -137425,8 +137425,13 @@
   "type": "Feature",
   "id": "node/9177738540",
   "properties": {
+    "access": "yes",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "SUSPI",
     "id": "node/9177738540"
   },
   "geometry": {
@@ -167658,28 +167663,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9705262406",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Im Gemeindehaus hinter der zweiten Eingangstür an der Wand ist ein Notfallkoffer. Kann nur während den Öffnungszeiten erreicht werden.",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "opening_hours": "Mo-Fr 09:00-12:00,13:30-17:00",
-    "wheelchair": "no",
-    "id": "node/9705262406"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.619713,
-      47.6813681
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9705890117",
   "properties": {
     "access": "no",
@@ -173714,6 +173697,164 @@
     "coordinates": [
       8.5147972,
       47.3623226
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9836011697",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Eingangsbereich der Rheinfallhalle links am Infobrett neben der Tür zum Pedellbüro an der Wand oberhalb des Notfallkoffers in einem roten, alarmgesicherten Kästchen.",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Gemeinde Neuhausen",
+    "wheelchair": "limited",
+    "id": "node/9836011697"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6203475,
+      47.6804843
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9836095818",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An der Aussenfasse Bushaltestelle / Transformatorengebäude",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Walchwil",
+    "phone": "+41 41 759 80 10",
+    "id": "node/9836095818"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5137121,
+      47.1059152
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9836095819",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der Defi ist gut sichtbar ausgeschildert bei der S-Bahn-Wartehalle / direkt neben dem Fahrticketautomaten",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Walchwil",
+    "phone": "+41 41 759 80 10",
+    "id": "node/9836095819"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.50481,
+      47.1084639
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9836097944",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "1.OG Beim Eingang links im Gang gekenzeichnet im Schrank. Mitarbeiter wissen ALLE bescheid",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Désirée Albrecher",
+    "phone": "+41795790336",
+    "id": "node/9836097944"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4386547,
+      47.1622218
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9836098592",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben dem Haupteingang Bürogebäude",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Sustra Tiefbau + Strassen AG, Norbert Bättig",
+    "phone": "+41 41 926 34 34",
+    "id": "node/9836098592"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1066086,
+      47.1847571
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9836109557",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Haupteingang links am Empfang vorbei (Treppe Rollstuhlrampe) zum Vorplatz Treppenhaus. Links beim Treppenaufgang an der Wand. Zwischen dem Zimmer W001 Und der Abfallsammelstelle.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-16:45",
+    "operator": "Thomas Trutmann / Urs Kehl",
+    "phone": "+41 52 354 64 00",
+    "id": "node/9836109557"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6920175,
+      47.4234509
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9836109612",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Durchgang zu den Parkplätzen hinter dem Haus benützen",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "SUSPI",
+    "id": "node/9836109612"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0114257,
+      46.1743162
     ]
   }
 }

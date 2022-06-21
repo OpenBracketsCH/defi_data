@@ -3287,8 +3287,13 @@
   "type": "Feature",
   "id": "node/9177738540",
   "properties": {
+    "access": "yes",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "SUSPI",
     "id": "node/9177738540"
   },
   "geometry": {
@@ -3666,6 +3671,28 @@
     "coordinates": [
       8.7607193,
       46.1670911
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9836109612",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Durchgang zu den Parkplätzen hinter dem Haus benützen",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "SUSPI",
+    "id": "node/9836109612"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0114257,
+      46.1743162
     ]
   }
 }

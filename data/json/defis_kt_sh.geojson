@@ -1899,28 +1899,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9705262406",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Im Gemeindehaus hinter der zweiten Eingangstür an der Wand ist ein Notfallkoffer. Kann nur während den Öffnungszeiten erreicht werden.",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "opening_hours": "Mo-Fr 09:00-12:00,13:30-17:00",
-    "wheelchair": "no",
-    "id": "node/9705262406"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.619713,
-      47.6813681
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9711491717",
   "properties": {
     "access": "yes",
@@ -2024,6 +2002,27 @@
     "coordinates": [
       8.6329443,
       47.6951848
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9836011697",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Eingangsbereich der Rheinfallhalle links am Infobrett neben der Tür zum Pedellbüro an der Wand oberhalb des Notfallkoffers in einem roten, alarmgesicherten Kästchen.",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Gemeinde Neuhausen",
+    "wheelchair": "limited",
+    "id": "node/9836011697"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6203475,
+      47.6804843
     ]
   }
 }
