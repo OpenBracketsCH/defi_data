@@ -69103,6 +69103,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/9579223617",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bei Eingang",
+    "description": "Immer zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9579223617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6074096,
+      46.9998193
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9582788317",
   "properties": {
     "access": "no",
@@ -74044,10 +74065,13 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Schwyzer Kantonalbank, Eingang",
+    "description": "Immer zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Schwyzer Kantonalbank",
+    "phone": "+41 58 8006985",
     "id": "node/9838921817"
   },
   "geometry": {
@@ -74078,6 +74102,52 @@
     "coordinates": [
       8.577098,
       47.0840303
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9843994354",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der Defibrillator befindet sich im Pfarreihaus Antoniusweg 32 (im Eingang), 1713 St. Antoni Der Eingang befindet sich ca. 50 m östlich der (weitherum gut sichtbaren) katholischen Kirche.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "katholische Pfarrei St. Antoni",
+    "phone": "+41 26 495 11 31",
+    "id": "node/9843994354"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2588226,
+      46.8199316
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9844035509",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Hauseingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "GEBNET AG",
+    "phone": "+41 32 677 16 96",
+    "id": "node/9844035509"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4649622,
+      47.1252463
     ]
   }
 }

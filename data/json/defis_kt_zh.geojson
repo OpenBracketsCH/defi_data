@@ -28242,8 +28242,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3959917,
-      47.4156779
+      8.3955784,
+      47.4159899
     ]
   }
 },
@@ -28252,7 +28252,7 @@
   "id": "node/9587110239",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Pestalozzi AG, Bürogebäude bei Transstahl",
+    "defibrillator:location": "Transstah AG im Bürogebäude",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -28274,7 +28274,7 @@
   "id": "node/9587110240",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Bürogebäude, 4. OG bei pestalozzi",
+    "defibrillator:location": "Pestalozzi AG: Bürogebäude, 4. OG bei pestalozzi",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -28396,8 +28396,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.397697,
-      47.4143796
+      8.3963696,
+      47.4154204
     ]
   }
 },
@@ -31333,6 +31333,48 @@
     "coordinates": [
       8.7147444,
       47.5053655
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9843957619",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bei PAWI Verpackung",
+    "description": "während Bürozeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "PAWI Verpackungen",
+    "id": "node/9843957619"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7585956,
+      47.4927397
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9844061219",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Konica Minolta: Büro im 3 Stock, rechts vom Lift",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "Konica Minolta Sensing Europe B.V.",
+    "phone": "+41 43 322 98 00",
+    "id": "node/9844061219"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3951622,
+      47.4198015
     ]
   }
 }

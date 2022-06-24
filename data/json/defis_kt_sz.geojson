@@ -4425,11 +4425,12 @@
   "id": "node/9579223617",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bei Eingang ",
-    "description": "Immer zugänglich ",
+    "defibrillator:location": "Bei Eingang",
+    "description": "Immer zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/9579223617"
   },
   "geometry": {
@@ -4724,34 +4725,17 @@
 },
 {
   "type": "Feature",
-  "id": "node/9837036717",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Strandbad Hopfräben",
-    "description": "Während Öffnungszeiten der Badi im Sanitätsraum",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "id": "node/9837036717"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5890019,
-      47.0003296
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9838921817",
   "properties": {
     "access": "yes",
     "defibrillator:location": "Schwyzer Kantonalbank, Eingang",
+    "description": "Immer zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Schwyzer Kantonalbank",
+    "phone": "+41 58 8006985",
     "id": "node/9838921817"
   },
   "geometry": {

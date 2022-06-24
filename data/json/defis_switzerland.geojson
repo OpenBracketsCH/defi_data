@@ -160327,11 +160327,12 @@
   "id": "node/9579223617",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bei Eingang ",
-    "description": "Immer zugänglich ",
+    "defibrillator:location": "Bei Eingang",
+    "description": "Immer zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/9579223617"
   },
   "geometry": {
@@ -160541,7 +160542,7 @@
   "id": "node/9587110236",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Pestalozzi AG, Bürogebäude 4.OG",
+    "defibrillator:location": "Gabs AG im Bürogebäude",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -160597,8 +160598,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3959917,
-      47.4156779
+      8.3955784,
+      47.4159899
     ]
   }
 },
@@ -160607,7 +160608,7 @@
   "id": "node/9587110239",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Pestalozzi AG, Bürogebäude bei Transstahl",
+    "defibrillator:location": "Transstah AG im Bürogebäude",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -160629,7 +160630,7 @@
   "id": "node/9587110240",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Bürogebäude, 4. OG bei pestalozzi",
+    "defibrillator:location": "Pestalozzi AG: Bürogebäude, 4. OG bei pestalozzi",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -160995,8 +160996,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.397697,
-      47.4143796
+      8.3963696,
+      47.4154204
     ]
   }
 },
@@ -173886,26 +173887,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9837036717",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Strandbad Hopfräben",
-    "description": "Während Öffnungszeiten der Badi im Sanitätsraum",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "id": "node/9837036717"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5890019,
-      47.0003296
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9837879717",
   "properties": {
     "access": "no",
@@ -173955,10 +173936,13 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Schwyzer Kantonalbank, Eingang",
+    "description": "Immer zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Schwyzer Kantonalbank",
+    "phone": "+41 58 8006985",
     "id": "node/9838921817"
   },
   "geometry": {
@@ -174033,6 +174017,137 @@
     "coordinates": [
       9.0064998,
       47.5880775
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9843957619",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bei PAWI Verpackung",
+    "description": "während Bürozeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "PAWI Verpackungen",
+    "id": "node/9843957619"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7585956,
+      47.4927397
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9843994354",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der Defibrillator befindet sich im Pfarreihaus Antoniusweg 32 (im Eingang), 1713 St. Antoni Der Eingang befindet sich ca. 50 m östlich der (weitherum gut sichtbaren) katholischen Kirche.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "katholische Pfarrei St. Antoni",
+    "phone": "+41 26 495 11 31",
+    "id": "node/9843994354"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2588226,
+      46.8199316
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9844029694",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Bei uns Zuhause, beim Eingang",
+    "description": "während Anwesenheit verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Christian Hofmann",
+    "phone": "+41 79 636 19 94",
+    "id": "node/9844029694"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4485502,
+      47.167277
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9844035509",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Hauseingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "GEBNET AG",
+    "phone": "+41 32 677 16 96",
+    "id": "node/9844035509"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4649622,
+      47.1252463
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9844042532",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Eingang",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 417857010",
+    "id": "node/9844042532"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4402546,
+      47.1466141
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9844061219",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Konica Minolta: Büro im 3 Stock, rechts vom Lift",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "Konica Minolta Sensing Europe B.V.",
+    "phone": "+41 43 322 98 00",
+    "id": "node/9844061219"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3951622,
+      47.4198015
     ]
   }
 }
