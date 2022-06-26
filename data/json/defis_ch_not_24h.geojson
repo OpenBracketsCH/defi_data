@@ -99986,9 +99986,11 @@
   "id": "node/9844061219",
   "properties": {
     "access": "no",
+    "addr:street": "Riedstrasse 6",
     "defibrillator:location": "Konica Minolta: Büro im 3 Stock, rechts vom Lift",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "operator": "Konica Minolta Sensing Europe B.V.",
     "phone": "+41 43 322 98 00",
@@ -99997,8 +99999,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3951622,
-      47.4198015
+      8.3944077,
+      47.4194511
     ]
   }
 },
@@ -100124,6 +100126,69 @@
     "coordinates": [
       9.4773304,
       47.1763592
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9848625660",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "In Arztpraxis",
+    "description": "während Öffnungzeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Med. Praxiskoordinatorinnen, DoktorZentrum Mutschellen",
+    "phone": "+41 56 633 03 03",
+    "id": "node/9848625660"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3682439,
+      47.3618406
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9848669617",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Kantobalbank Affeltrangen",
+    "description": "während Öffnungszeiten zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/9848669617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0307594,
+      47.5274391
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9848669618",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Feuerwehrdepot Affeltrangen",
+    "description": "nicht zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "First Responder Feuerwehr Lauchetal",
+    "id": "node/9848669618"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0389599,
+      47.5247278
     ]
   }
 }

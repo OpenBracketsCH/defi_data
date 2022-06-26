@@ -5632,6 +5632,47 @@
       47.5163258
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/9848669617",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Kantobalbank Affeltrangen",
+    "description": "während Öffnungszeiten zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/9848669617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0307594,
+      47.5274391
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9848669618",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Feuerwehrdepot Affeltrangen",
+    "description": "nicht zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "First Responder Feuerwehr Lauchetal",
+    "id": "node/9848669618"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0389599,
+      47.5247278
+    ]
+  }
 }
 ]
 }
