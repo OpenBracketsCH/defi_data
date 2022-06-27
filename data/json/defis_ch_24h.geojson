@@ -70843,7 +70843,7 @@
     "indoor": "yes",
     "opening_hours": "24/7",
     "operator": "Gemeinde Pontresina",
-    "phone": "0041818388165",
+    "phone": "+41 818388165",
     "id": "node/9651932217"
   },
   "geometry": {
@@ -73309,7 +73309,7 @@
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Praxis Jenaz",
-    "phone": "0813323535",
+    "phone": "+41 813323535",
     "id": "node/9789974717"
   },
   "geometry": {
@@ -74274,6 +74274,28 @@
     "coordinates": [
       9.8418987,
       46.4967015
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9850658117",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "cantonnement troupe Meyrin Mategnin",
+    "description": "seulement pour la troupe ou le locataire de l’infrastructure ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Armée Suisse / CLCM",
+    "id": "node/9850658117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.0962476,
+      46.2345082
     ]
   }
 }
