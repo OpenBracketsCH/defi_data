@@ -65686,18 +65686,24 @@
   "type": "Feature",
   "id": "node/7717360535",
   "properties": {
-    "defibrillator:location": "Im Amtshaus IV",
+    "access": "permissive",
+    "defibrillator:location": "Im Zimmer neben dem Eingang",
     "description": "nur während Amtszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Stadt Zürich, Amt für Städtebau",
+    "phone": "+41 44 412 11 11",
+    "wheelchair": "limited",
     "id": "node/7717360535"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5401631,
-      47.3741591
+      8.5401578,
+      47.3741741
     ]
   }
 },
