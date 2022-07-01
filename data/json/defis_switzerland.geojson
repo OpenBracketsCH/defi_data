@@ -174572,7 +174572,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 06:30-18:00",
-    "operator": "Procamed / Marco Jenni",
+    "operator": "Mi Adelita GmbH",
     "phone": "+41 052 368 60 00",
     "id": "node/9852194594"
   },
@@ -174581,29 +174581,6 @@
     "coordinates": [
       8.6384216,
       47.2399639
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9852282561",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Kirchen-Haupteingang, Rechts, Wand",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Su 08:30-12:00, 13:30-17:00",
-    "operator": "Ref.Kirche, Sandra Landolfi, Sigristin",
-    "phone": "+41 41 250 13 16",
-    "id": "node/9852282561"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.2654152,
-      47.0541392
     ]
   }
 },
@@ -174835,6 +174812,121 @@
     "coordinates": [
       9.4550233,
       47.2964224
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9860078807",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Wandschrank Reception",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Operation / FM - Zurich Development Center",
+    "phone": "+41 44 626 75 75",
+    "id": "node/9860078807"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5649995,
+      47.3752136
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9860093123",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der Defi ist beim Velounterstand auf der rechten Seite angebracht.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stiftung Terra-Vecchia",
+    "phone": "+41 31 951 88 15",
+    "id": "node/9860093123"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4919087,
+      46.9391721
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9860096158",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der Defibrillator befindet sich an der Wand im Durchgang zum Schulhausplatz, zwischen den Eingängen der Turnhalle und dem Schulsekretariat.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Hauswart, Ralf Branger",
+    "phone": "+41816328243",
+    "id": "node/9860096158"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4526933,
+      46.835323
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9860098958",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "zweiter Stock",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-We 07:00-12:00, 13:00-17:30; Th 07:00-15:00",
+    "operator": "Marc Schätzle AG",
+    "phone": "+41414108686",
+    "id": "node/9860098958"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3112752,
+      47.0548096
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9860098960",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Eingang, in gelber Metallbox unter Briefkasten",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Krones AG / Benjamin Rey",
+    "phone": "+41 56 675 50 40",
+    "id": "node/9860098960"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.313185,
+      47.2686738
     ]
   }
 }
