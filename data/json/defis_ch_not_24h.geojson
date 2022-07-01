@@ -32511,9 +32511,13 @@
   "type": "Feature",
   "id": "node/7637818929",
   "properties": {
+    "access": "no",
+    "defibrillator:location": "Den Fussweg hoch bis zum 2 obersten Haus.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Praevo GmbH",
+    "phone": "+41794403284",
     "id": "node/7637818929"
   },
   "geometry": {
@@ -100468,6 +100472,92 @@
     "coordinates": [
       8.3112752,
       47.0548096
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9860339575",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Empfang Augenarztpraxis, 2. OG",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41412100707",
+    "id": "node/9860339575"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3057412,
+      47.0491787
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9860341170",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Nach der zweiten Schiebetüre links um die Ecke.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-18:30",
+    "phone": "+41793598489",
+    "id": "node/9860341170"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5339187,
+      47.3720944
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9860358506",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Erdgeschoss des neuen Primarschulhauses, an der Wand rechts zwischen Aula und Lehrerzimmer",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Morgenstern Margaritha",
+    "phone": "+41 79 339 10 11",
+    "id": "node/9860358506"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6053433,
+      47.4536889
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9860376250",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Eingangsbereich der Mehrzweckhalle, rechts an der Wand",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Morgenstern Margaritha",
+    "phone": "+41 79 339 10 11",
+    "id": "node/9860376250"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6033048,
+      47.4542992
     ]
   }
 }

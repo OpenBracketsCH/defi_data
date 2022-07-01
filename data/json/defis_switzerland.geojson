@@ -58651,9 +58651,13 @@
   "type": "Feature",
   "id": "node/7637818929",
   "properties": {
+    "access": "no",
+    "defibrillator:location": "Den Fussweg hoch bis zum 2 obersten Haus.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Praevo GmbH",
+    "phone": "+41794403284",
     "id": "node/7637818929"
   },
   "geometry": {
@@ -85846,8 +85850,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5395962,
-      47.3798672
+      9.5391979,
+      47.3799072
     ]
   }
 },
@@ -156217,8 +156221,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.540018,
-      47.3794538
+      9.5400234,
+      47.3794329
     ]
   }
 },
@@ -174927,6 +174931,366 @@
     "coordinates": [
       8.313185,
       47.2686738
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9860339575",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Empfang Augenarztpraxis, 2. OG",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41412100707",
+    "id": "node/9860339575"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3057412,
+      47.0491787
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9860341170",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Nach der zweiten Schiebetüre links um die Ecke.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-18:30",
+    "phone": "+41793598489",
+    "id": "node/9860341170"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5339187,
+      47.3720944
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9860358505",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Sockelgeschoss der Gemeindeverwaltung, rechts neben dem Eingang zum Mehrzweckraum (vis à vis der Kirche)",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Morgenstern Margaritha",
+    "phone": "+41 79 339 10 11",
+    "id": "node/9860358505"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6062942,
+      47.4524511
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9860358506",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Erdgeschoss des neuen Primarschulhauses, an der Wand rechts zwischen Aula und Lehrerzimmer",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Morgenstern Margaritha",
+    "phone": "+41 79 339 10 11",
+    "id": "node/9860358506"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6053433,
+      47.4536889
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9860376250",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Eingangsbereich der Mehrzweckhalle, rechts an der Wand",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Morgenstern Margaritha",
+    "phone": "+41 79 339 10 11",
+    "id": "node/9860376250"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6033048,
+      47.4542992
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9860404103",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Haupteingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9860404103"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9150378,
+      46.1519614
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9860404104",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Industrie-Areal",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9860404104"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9483857,
+      46.1529025
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9860404105",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Auf der nördlichen Gebäudeseite",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9860404105"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9506964,
+      46.1504638
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9860404106",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Am Strassenrand, über Elektroverteiler",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9860404106"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9516701,
+      46.1521319
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9860404107",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben Sportplatz an grünem Containerhäuschen",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9860404107"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.953789,
+      46.1520051
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9860404108",
+  "properties": {
+    "access": "yes",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9860404108"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9838606,
+      45.930138
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9860404109",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bei der Haltestelle Paese",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9860404109"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9801444,
+      46.0373742
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9860404110",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Scuola dell'infanzia",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9860404110"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9682153,
+      46.068599
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9860404111",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bei der Haltestelle Paese",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9860404111"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9573295,
+      46.0608003
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9860404112",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "casa comunal Origlio",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9860404112"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9448841,
+      46.0545976
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9860404113",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bei der Haltestelle Chiesa",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9860404113"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8143919,
+      46.182792
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9860404114",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben der Kirche an einer Steinmauer",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9860404114"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6023083,
+      46.2266961
     ]
   }
 }
