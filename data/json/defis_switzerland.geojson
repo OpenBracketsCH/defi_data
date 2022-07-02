@@ -55538,6 +55538,7 @@
     "description": "Praxis im 5 OG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Keel Barbara, Praxis",
     "id": "node/7637818746"
   },
@@ -56187,6 +56188,7 @@
     "description": "4. Stock Empfang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Strubel Gerson, Praxis",
     "id": "node/7637818780"
   },
@@ -128288,7 +128290,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "FC Ebnat-Kappel",
-    "description": "am Vereinshaus Aussenfassade ",
+    "description": "am Vereinshaus Aussenfassade",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -163592,19 +163594,20 @@
   "id": "node/9630319017",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Autohalle Andelfingen bei Garderobe",
+    "defibrillator:location": "Autohalle Andelfingen bei Garderobe.\nNext to the reception.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "24/7",
     "operator": "Autohalle Andelfingen",
+    "wheelchair": "no",
     "id": "node/9630319017"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6922379,
-      47.5933436
+      8.6920456,
+      47.5935447
     ]
   }
 },
