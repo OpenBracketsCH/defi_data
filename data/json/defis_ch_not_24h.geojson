@@ -5970,12 +5970,14 @@
     "addr:housenumber": "51",
     "addr:postcode": "4950",
     "addr:street": "Spitalstrasse",
-    "defibrillator:location": "Beim Haupteingang",
+    "defibrillator:location": "Beim Haupteingang, innen links",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "07:00-20:00",
     "operator": "SRO AG Gesundheitszentrum Huttwil",
     "phone": "+41 62 959 60 04",
+    "wheelchair": "yes",
     "id": "node/6516275937"
   },
   "geometry": {
@@ -9279,6 +9281,7 @@
     "addr:street": "Wiesenweg",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "07:00-20:00",
     "operator": "Alters und Pflegeheim Dahlia",
     "phone": "+41 32 5301516",
@@ -100667,6 +100670,28 @@
 },
 {
   "type": "Feature",
+  "id": "node/9862734774",
+  "properties": {
+    "access": "permissive",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "07:00 - 20:00",
+    "operator": "Alters-und Pflegeheim Dahlia",
+    "phone": "+41 62 955 52 28",
+    "wheelchair": "yes",
+    "id": "node/9862734774"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7188666,
+      47.1922325
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9862740422",
   "properties": {
     "access": "24/7",
@@ -100679,6 +100704,48 @@
     "coordinates": [
       6.0735219,
       46.4652116
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9862771836",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Gebäude vor dem Eingang der Turnhalle (ungenaue Langebeschreibung bitte verbessern).",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "note": "TODO Ungenaue Lage",
+    "id": "node/9862771836"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6751445,
+      47.5974475
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9862773671",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Eingang West, nach rechts 20m bei Physio",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "07:00-20:00",
+    "operator": "SRO AG",
+    "phone": "+41 62 916 31 31",
+    "wheelchair": "yes",
+    "id": "node/9862773671"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7933631,
+      47.2161531
     ]
   }
 }
