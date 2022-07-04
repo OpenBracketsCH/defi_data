@@ -45681,15 +45681,15 @@
     "access": "yes",
     "defibrillator:location": "Vor dem Eingang ins Sanitätszimmer",
     "emergency": "defibrillator",
-    "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "id": "node/7579716799"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5197243,
-      47.1223599
+      8.5198027,
+      47.1223699
     ]
   }
 },
@@ -175581,6 +175581,29 @@
     "coordinates": [
       7.4,
       46.9383223
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9865267718",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gornergart 1",
+    "description": "Eingang Edelweiss Shop u. Ticketschalter",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-So 7.00 - 20.00",
+    "operator": "Matterhorn Gotthard Bahn",
+    "phone": "+41848642442",
+    "id": "node/9865267718"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7822756,
+      45.9833016
     ]
   }
 }
