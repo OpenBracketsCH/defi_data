@@ -44103,12 +44103,14 @@
   "id": "node/9860341170",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Nach der zweiten Schiebetüre links um die Ecke.",
+    "defibrillator:location": "Nach der zweiten Schiebetüre links um die Ecke in einem Indoor Wandkasten weiss.",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 07:00-18:30",
-    "phone": "+41793598489",
+    "opening_hours": "Mo-Fr 06:30-18:30",
+    "operator": "Tanova AG / U. Altenbach",
+    "phone": "+41 44 227 70 70",
     "id": "node/9860341170"
   },
   "geometry": {
@@ -44196,6 +44198,29 @@
     "coordinates": [
       8.5067299,
       47.3915557
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9868285164",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Trainingsraum in der Ecke am Fenster",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Th 07:00-20:00; Fr 07:00-18:00; Sa 08:00-12:00",
+    "operator": "Zoll International Holding B.V., Newtonweg 18, 6662 PV Elst, The Netherlands",
+    "phone": "+31(0)481 36 64 10",
+    "id": "node/9868285164"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5233005,
+      47.1960202
     ]
   }
 }

@@ -42092,13 +42092,13 @@
   "id": "node/9867707517",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Creabeton Materiaux AG",
+    "defibrillator:location": "Verwaltung; Haupteingang; EG Treppenhaus; Wand links",
     "description": "Während der Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-12:00  13:00-16:00",
-    "operator": "Creabeton Materiaux AG / Volker Singenholz ",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-16:00",
+    "operator": "Creabeton Materiaux AG / Volker Singenholz",
     "phone": "+41798740871",
     "id": "node/9867707517"
   },
@@ -42107,6 +42107,28 @@
     "coordinates": [
       7.3075283,
       47.0833256
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9868301143",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Bei Haupteingang an Rezeption melden.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-16:00",
+    "operator": "Laubscher Präzision AG",
+    "phone": "+41 32 396 07 07",
+    "id": "node/9868301143"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2003096,
+      47.065359
     ]
   }
 }
