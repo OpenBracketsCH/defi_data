@@ -38786,23 +38786,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7752736777",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/7752736777"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4556873,
-      47.2954631
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7772684633",
   "properties": {
     "access": "yes",
@@ -100944,6 +100927,29 @@
     "coordinates": [
       7.2003096,
       47.065359
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9869601517",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gasthaus Eischen ",
+    "description": "Während Öffnungszeiten ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mittwoch bis Sonntag ",
+    "operator": "Daniel Inauen / Toni Gassmann",
+    "phone": "+41796821338",
+    "id": "node/9869601517"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3873119,
+      47.3225927
     ]
   }
 }

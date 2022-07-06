@@ -30276,6 +30276,24 @@
 },
 {
   "type": "Feature",
+  "id": "node/7752736777",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/7752736777"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4557326,
+      47.2953972
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/7765210211",
   "properties": {
     "defibrillator:location": "Kirche Dreifaltigkeit",
@@ -74884,6 +74902,29 @@
     "coordinates": [
       9.2950996,
       47.5535494
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9869595917",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Appenzell Kaustrasse Campingplatz",
+    "description": "Aussen am Grauen Wohnwagen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Toni Gassmann",
+    "phone": "+41796821338",
+    "id": "node/9869595917"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3860173,
+      47.321938
     ]
   }
 }
