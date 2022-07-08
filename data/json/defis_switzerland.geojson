@@ -5306,8 +5306,14 @@
   "id": "node/5077323995",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Neben dem Haupteingang zum Gemeindehaus",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung Rüti",
+    "phone": "+41 55 251 33 33",
     "id": "node/5077323995"
   },
   "geometry": {
@@ -175927,6 +175933,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/9873874457",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Kundenhaupteingang direkt auf der linke Wandseite",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-16:00",
+    "operator": "Creabeton- Materiaux AG / Standort Granges / Kontaktperson Volker Singenholz",
+    "phone": "+41 79 874 08 71",
+    "id": "node/9873874457"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6413962,
+      46.7155419
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9873879204",
   "properties": {
     "access": "no",
@@ -175950,6 +175979,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/9873882099",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Treppenhaus",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-17:00",
+    "operator": "Daniel Hausammann",
+    "phone": "+41 52 763 35 35",
+    "id": "node/9873882099"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9947987,
+      47.5989135
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9873885421",
   "properties": {
     "access": "no",
@@ -175968,6 +176020,165 @@
     "coordinates": [
       6.8829936,
       46.7604642
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9873919225",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Turnhalle Tuma Platta, Im Eingangsbereich der Turnhalle",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeindeverwaltung Domat/Ems",
+    "phone": "+41 816328202",
+    "id": "node/9873919225"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4440633,
+      46.8351376
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9873919226",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hallenbad Tuma Platta, im Hallenbad beim Backen",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeindeverwaltung Domat/Ems",
+    "phone": "+41 816328202",
+    "id": "node/9873919226"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4442846,
+      46.8351376
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9873923323",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "In der Apotheke.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:45-18:30; Sa 07:45-16:30",
+    "operator": "TopPharm Länggass Apotheke",
+    "phone": "+41 31 301 23 22",
+    "id": "node/9873923323"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4328451,
+      46.953189
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9873923929",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben dem Haupteingang ganz rechts an der Betonwand.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung Domat/Ems",
+    "phone": "+41 816328202",
+    "id": "node/9873923929"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4346005,
+      46.8296896
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9873929055",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Links neben Haupteingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stiftung Terra-Vecchia",
+    "phone": "+41 31 951 88 15",
+    "id": "node/9873929055"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.498747,
+      46.937633
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9873930934",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Treppenhaus, Gemeindehaus GfC Bern",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Pascal Gyger",
+    "phone": "+41 787218788",
+    "id": "node/9873930934"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4345711,
+      46.9491028
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9873931993",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rechts neben Treppe zu Haupteingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stiftung Terra-Vecchia",
+    "phone": "+41 31 951 88 15",
+    "id": "node/9873931993"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5030345,
+      46.9361114
     ]
   }
 }
