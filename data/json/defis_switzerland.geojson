@@ -117591,8 +117591,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3187611,
-      47.0417688
+      8.3187093,
+      47.0417097
     ]
   }
 },
@@ -170036,28 +170036,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9749099807",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Beim Eingang an der Hauswand",
-    "description": "24h verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "phone": "+41764925059",
-    "id": "node/9749099807"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.3185816,
-      47.0417395
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9749099883",
   "properties": {
     "access": "yes",
@@ -176488,6 +176466,22 @@
     "coordinates": [
       7.8228899,
       47.1844275
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9879477688",
+  "properties": {
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/9879477688"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3207558,
+      47.0414356
     ]
   }
 }
