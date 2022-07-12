@@ -127714,28 +127714,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9045498038",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Thermoplan Lieferanten Eingang Küche",
-    "description": "24h verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Thermoplan AG",
-    "id": "node/9045498038"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4204438,
-      47.0362648
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9045501066",
   "properties": {
     "access": "yes",
@@ -176485,6 +176463,25 @@
     "coordinates": [
       8.6306258,
       47.4053637
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9883202817",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "hendschiken",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/9883202817"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0510056,
+      47.3469129
     ]
   }
 }
