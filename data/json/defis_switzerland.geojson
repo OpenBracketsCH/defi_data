@@ -71771,15 +71771,17 @@
     "description": "Öffentlich zugänglich 24h",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Höri",
+    "wheelchair": "limited",
     "id": "node/7853303884"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5099612,
-      47.5084197
+      8.5100363,
+      47.508362
     ]
   }
 },
@@ -176635,6 +176637,31 @@
     "coordinates": [
       7.723909,
       47.4990273
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9887461682",
+  "properties": {
+    "access": "customers",
+    "defibrillator:location": "Beim Eingang",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Stadt Zürich, Schutz & Rettung",
+    "phone": "+41 44 411 28 88",
+    "wheelchair": "limited",
+    "id": "node/9887461682"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5562596,
+      47.4151722
     ]
   }
 }
