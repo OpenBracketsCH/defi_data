@@ -79070,6 +79070,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "1",
     "opening_hours": "Mo-Sa 06:30-19:00",
     "id": "node/8012759880"
   },
@@ -177132,6 +177133,25 @@
     "coordinates": [
       8.3351144,
       47.0324702
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9901648517",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "47.3083,7.9286",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/9901648517"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9286377,
+      47.3082943
     ]
   }
 }
