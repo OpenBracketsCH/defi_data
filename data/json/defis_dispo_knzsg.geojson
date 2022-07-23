@@ -6022,26 +6022,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7933861735",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Aussenbereich Eingang links",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "id": "node/7933861735"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.3852049,
-      47.3884897
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7933865232",
   "properties": {
     "access": "yes",
@@ -14743,8 +14723,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.3851942,
-      47.3885097
+      9.3849957,
+      47.3884652
     ]
   }
 },
@@ -18036,6 +18016,28 @@
     "coordinates": [
       9.3889361,
       47.4624585
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9905498463",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Tourist Information",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Marco Jenni, Procamed AG Aadorf",
+    "phone": "+41 52 368 60 52",
+    "id": "node/9905498463"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.375675,
+      47.4232925
     ]
   }
 }

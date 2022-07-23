@@ -51990,8 +51990,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4361362,
-      47.4822148
+      8.4361445,
+      47.4822036
     ]
   }
 },
@@ -101936,6 +101936,48 @@
     "coordinates": [
       9.3889361,
       47.4624585
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9905498463",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Tourist Information",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Marco Jenni, Procamed AG Aadorf",
+    "phone": "+41 52 368 60 52",
+    "id": "node/9905498463"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.375675,
+      47.4232925
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9905570117",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Ecke, Wasgenring/Blotzheimerstr.",
+    "description": "ist nicht mehr Verfügbar (Abmontiert)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/9905570117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5646346,
+      47.5613713
     ]
   }
 }

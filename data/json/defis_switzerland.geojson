@@ -77040,26 +77040,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7933861735",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Aussenbereich Eingang links",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "id": "node/7933861735"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.3852049,
-      47.3884897
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7933865232",
   "properties": {
     "access": "yes",
@@ -92504,8 +92484,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4361362,
-      47.4822148
+      8.4361445,
+      47.4822036
     ]
   }
 },
@@ -146971,8 +146951,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.3851942,
-      47.3885097
+      9.3849957,
+      47.3884652
     ]
   }
 },
@@ -177210,6 +177190,71 @@
     "coordinates": [
       9.3889361,
       47.4624585
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9905498463",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Tourist Information",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Marco Jenni, Procamed AG Aadorf",
+    "phone": "+41 52 368 60 52",
+    "id": "node/9905498463"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.375675,
+      47.4232925
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9905540172",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Links der Garage",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gottfried Morgenegg",
+    "phone": "+41 44 761 41 52",
+    "id": "node/9905540172"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4213078,
+      47.262658
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9905570117",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Ecke, Wasgenring/Blotzheimerstr.",
+    "description": "ist nicht mehr Verfügbar (Abmontiert)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/9905570117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5646346,
+      47.5613713
     ]
   }
 }
