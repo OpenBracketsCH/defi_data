@@ -7829,13 +7829,12 @@
   "type": "Feature",
   "id": "node/6565703788",
   "properties": {
-    "access": "permissive",
     "addr:city": "Grindelwald",
     "addr:postcode": "3818",
     "addr:street": "Hellbachweg",
-    "defibrillator:location": "Freibad im Büro beim Bademeister Verfügbarkeit: Tagsüber 10:00 - 19:00.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "10:00-19:00",
     "operator": "Freibad Hellbach",
     "phone": "+41 33 853 33 90",
@@ -7844,8 +7843,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0258715,
-      46.623646
+      8.0257506,
+      46.6235614
     ]
   }
 },
