@@ -326,6 +326,7 @@
   "id": "node/2510630585",
   "properties": {
     "access": "private",
+    "defibrillator:location": "Waschhaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -102035,6 +102036,27 @@
     "coordinates": [
       7.8953901,
       46.690474
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9908940446",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Eingang Verwaltungsgebäude, EG vor Sanitätszimmer an der Wand im Gang montiert.",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "\"limited\"",
+    "operator": "Zuckerfabrik Frauenfeld",
+    "id": "node/9908940446"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8752204,
+      47.555765
     ]
   }
 }
