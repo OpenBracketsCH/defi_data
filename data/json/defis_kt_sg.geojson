@@ -7359,7 +7359,7 @@
   "id": "node/8496005306",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Westeingang, klar gekennzeichnet",
+    "defibrillator:location": "Haupteingang an der Strasse",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -7372,8 +7372,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5541606,
-      47.3735021
+      9.5542437,
+      47.3736383
     ]
   }
 },
@@ -7428,12 +7428,12 @@
   "id": "node/8496005309",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Ostgebäude am Eingang, mit Symbol gekennzeichnet",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Nördlich am Gebäude / Ecke Kirlenstrasse / Kriessernstrasse",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 07:30-16:30",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Rhyboot",
     "phone": "+41 71 757 91 81",
     "id": "node/8496005309"
@@ -7441,8 +7441,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.562625,
-      47.3730121
+      9.5625955,
+      47.3733436
     ]
   }
 },
@@ -15202,6 +15202,50 @@
     "coordinates": [
       9.375675,
       47.4232925
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9909605590",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Sommer bei der Gondelbahn Wangs Berg, Furt",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Pizolbahnen AG",
+    "phone": "+41 81 300 48 30",
+    "id": "node/9909605590"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4204116,
+      47.0023653
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9909605591",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Sommer und im Winter bei der Bergstation der Gondelbahn Bad Ragaz in Pardiel",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Pizolbahnen AG",
+    "phone": "+41 81 300 48 30",
+    "id": "node/9909605591"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4647257,
+      46.9893272
     ]
   }
 }

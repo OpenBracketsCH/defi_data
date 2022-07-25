@@ -11055,30 +11055,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637818979",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Im Foyer, vis-a-vis Bankomat",
-    "description": "24h verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "name": "Raiffeisen Bank",
-    "opening_hours": "24/7",
-    "operator": "Sanitätsteam Ettiswil",
-    "phone": "+41 79 598 24 64",
-    "id": "node/7637818979"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.0171829,
-      47.1489473
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637818980",
   "properties": {
     "description": "im Produktionsgebäude",
@@ -16571,6 +16547,52 @@
     "coordinates": [
       8.3351144,
       47.0324702
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9909593178",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Pfarrsaal, links an der Wand, beim Aschenbecher.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Sanitätsteam Ettiswil",
+    "phone": "+41795982464",
+    "id": "node/9909593178"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0185329,
+      47.1494603
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9909616201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingangsbereich Haus C",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Dr. med. Ph. Trefny",
+    "phone": "+41 41 370 31 28",
+    "id": "node/9909616201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3143675,
+      47.0673029
     ]
   }
 }

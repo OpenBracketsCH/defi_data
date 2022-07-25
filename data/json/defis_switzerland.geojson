@@ -59598,30 +59598,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637818979",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Im Foyer, vis-a-vis Bankomat",
-    "description": "24h verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "name": "Raiffeisen Bank",
-    "opening_hours": "24/7",
-    "operator": "Sanitätsteam Ettiswil",
-    "phone": "+41 79 598 24 64",
-    "id": "node/7637818979"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.0171829,
-      47.1489473
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637818980",
   "properties": {
     "description": "im Produktionsgebäude",
@@ -92104,7 +92080,7 @@
   "id": "node/8496005306",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Westeingang, klar gekennzeichnet",
+    "defibrillator:location": "Haupteingang an der Strasse",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -92117,8 +92093,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5541606,
-      47.3735021
+      9.5542437,
+      47.3736383
     ]
   }
 },
@@ -92173,12 +92149,12 @@
   "id": "node/8496005309",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Ostgebäude am Eingang, mit Symbol gekennzeichnet",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Nördlich am Gebäude / Ecke Kirlenstrasse / Kriessernstrasse",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 07:30-16:30",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Rhyboot",
     "phone": "+41 71 757 91 81",
     "id": "node/8496005309"
@@ -92186,8 +92162,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.562625,
-      47.3730121
+      9.5625955,
+      47.3733436
     ]
   }
 },
@@ -177402,6 +177378,321 @@
     "coordinates": [
       8.8752204,
       47.555765
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9909523051",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Sanitätsraum",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 09:00-20:00",
+    "operator": "Schwimmbad Geren, Herr Srdan Markovic",
+    "phone": "+41 44 737 17 96",
+    "id": "node/9909523051"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4309071,
+      47.3544038
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9909523052",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "In der Arztpraxis",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-12:00, 13:00-18:00",
+    "operator": "Medvadis AG, Ärztezentrum Birmensdorf, J. Jörger",
+    "phone": "+41 44 737 37 11",
+    "id": "node/9909523052"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4383392,
+      47.3533992
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9909523053",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "2. OG Foyer klein beim behinderten WC",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeindezentrum Brüelmatt, Dorfstrasse 10, 8903 Birmensdorf, Herr Thomas Vogler",
+    "phone": "+41 44 737 37 65",
+    "id": "node/9909523053"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4392159,
+      47.3536148
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9909523054",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "In der der Reformierten Kirche im Foyer bzw. Vorraum zum Kirchturm an der Wand rechts neben Eingang Kirchenstube",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Reformierte Kirche Birmensdorf-Aesch (ZH), Kirchgasse 22, 8903 Birmensdorf",
+    "phone": "+41 79 473 95 24",
+    "id": "node/9909523054"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4411585,
+      47.3517045
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9909523055",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Primarschule Birmensdorf beim Eingang zur Turnhalle Reppisch",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Primarschule Birmensdorf, Schulhausstrasse 1, 8903 Birmensdorf",
+    "phone": "+41 43 344 10 50",
+    "id": "node/9909523055"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4381022,
+      47.3553978
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9909523056",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Brüelmatt 1 EG vor dem Turnhalleneingang rechts an der Wand",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-22:00; We 07:00-12:15, 17:00-22:00",
+    "operator": "Sekundarschule Birmensdorf-Aesch, Studenmättelistrasse 19, 8903 Birmensdorf",
+    "phone": "+41 44 739 10 70",
+    "id": "node/9909523056"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4400521,
+      47.354124
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9909523057",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Brüelmatt 2 EG in der Halle zwischen den Mädchen und Knaben WC",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-21:00",
+    "operator": "Sekundarschule Birmensdorf-Aesch, Studenmättelistrasse 19, 8903 Birmensdorf",
+    "phone": "+41 44 739 10 70",
+    "id": "node/9909523057"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4404558,
+      47.3544484
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9909523058",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Brüelmatt 3 EG links beim Lift",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-18:00; We 07:00-12:15",
+    "operator": "Sekundarschule Birmensdorf-Aesch, Studenmättelistrasse 19, 8903 Birmensdorf",
+    "phone": "+41 44 739 10 70",
+    "id": "node/9909523058"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4407938,
+      47.3547191
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9909523059",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Er befindet sich in unserem Gym, erreichbar über die Réception im 2. Stock unseres Sportzentrums an der Industrie. 6",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-22:00; Sa-Su 09:00-18:00",
+    "operator": "Sportzentrum Sanapark, Industriestrasse 6, 8903 Birmensdorf",
+    "phone": "+41 44 739 49 59",
+    "id": "node/9909523059"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4289766,
+      47.3665747
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9909593178",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Pfarrsaal, links an der Wand, beim Aschenbecher.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Sanitätsteam Ettiswil",
+    "phone": "+41795982464",
+    "id": "node/9909593178"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0185329,
+      47.1494603
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9909605590",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Sommer bei der Gondelbahn Wangs Berg, Furt",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Pizolbahnen AG",
+    "phone": "+41 81 300 48 30",
+    "id": "node/9909605590"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4204116,
+      47.0023653
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9909605591",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Sommer und im Winter bei der Bergstation der Gondelbahn Bad Ragaz in Pardiel",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Pizolbahnen AG",
+    "phone": "+41 81 300 48 30",
+    "id": "node/9909605591"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4647257,
+      46.9893272
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9909606544",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Clubhaus Tennis Sportclub Zürich",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Tennis Sportclub Zürich",
+    "id": "node/9909606544"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5382513,
+      47.394437
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9909616201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingangsbereich Haus C",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Dr. med. Ph. Trefny",
+    "phone": "+41 41 370 31 28",
+    "id": "node/9909616201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3143675,
+      47.0673029
     ]
   }
 }
