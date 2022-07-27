@@ -200,15 +200,21 @@
   "type": "Feature",
   "id": "node/5462958966",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Auf dem Platz vor dem Gemeindehaus an einer grünen Säule bei den Informationstafeln.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Vaz/Obervaz",
+    "wheelchair": "yes",
     "id": "node/5462958966"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5570954,
-      46.7264356
+      9.5571537,
+      46.7264416
     ]
   }
 },
@@ -7359,6 +7365,27 @@
     "coordinates": [
       9.9836005,
       46.6116425
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9914374422",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Im Eingangsbereich des Hotel Kurhaus neben der Rezeption. Während den Öffnungszeiten verfügbar.",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Gemeinde Vaz/Obervaz",
+    "wheelchair": "limited",
+    "id": "node/9914374422"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5583369,
+      46.7263214
     ]
   }
 }

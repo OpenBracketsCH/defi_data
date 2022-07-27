@@ -4063,22 +4063,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/5462958966",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/5462958966"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.5570954,
-      46.7264356
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/5469158722",
   "properties": {
     "emergency": "defibrillator",
@@ -102459,6 +102443,27 @@
     "coordinates": [
       9.0012429,
       47.0298415
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9914374422",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Im Eingangsbereich des Hotel Kurhaus neben der Rezeption. Während den Öffnungszeiten verfügbar.",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Gemeinde Vaz/Obervaz",
+    "wheelchair": "limited",
+    "id": "node/9914374422"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5583369,
+      46.7263214
     ]
   }
 }
