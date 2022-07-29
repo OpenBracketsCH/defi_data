@@ -402,8 +402,13 @@
   "type": "Feature",
   "id": "node/6794926988",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rothorn-Gipfel (Patrolleur-Station)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "sunrise-sunset",
+    "operator": "Lenzerheide Bergbahnen AG",
     "id": "node/6794926988"
   },
   "geometry": {
@@ -418,8 +423,15 @@
   "type": "Feature",
   "id": "node/6795952885",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "In der Station Scharmoin im weissen Kasten an der Betonwand beim Fenster im Übergangsbereich zwischen den beiden Bahnen.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "sunrise-sunset",
+    "operator": "Lenzerheide Bergbahnen AG",
+    "wheelchair": "yes",
     "id": "node/6795952885"
   },
   "geometry": {
@@ -3324,18 +3336,19 @@
   "id": "node/8841956917",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Links vom Kiosk",
+    "defibrillator:location": "Kiosk Lido am See, vor Toiletten, links neben dem Kiosk an der Wand.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Vaz/Obervaz",
+    "wheelchair": "yes",
     "id": "node/8841956917"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5488996,
-      46.7360925
+      9.5489098,
+      46.7360877
     ]
   }
 },
@@ -7541,6 +7554,24 @@
     "coordinates": [
       9.5695096,
       46.9688936
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9919862167",
+  "properties": {
+    "defibrillator:location": "Verwaltungsgebäude Canols (Patrouilleur-Station)",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "Lenzerheide Bergbahnen AG",
+    "id": "node/9919862167"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5563475,
+      46.7402488
     ]
   }
 }

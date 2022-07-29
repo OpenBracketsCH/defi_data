@@ -50224,18 +50224,19 @@
   "id": "node/8841956917",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Links vom Kiosk",
+    "defibrillator:location": "Kiosk Lido am See, vor Toiletten, links neben dem Kiosk an der Wand.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Vaz/Obervaz",
+    "wheelchair": "yes",
     "id": "node/8841956917"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5488996,
-      46.7360925
+      9.5489098,
+      46.7360877
     ]
   }
 },
@@ -75518,6 +75519,27 @@
     "coordinates": [
       9.4299603,
       46.7951346
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9919832317",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Ostello",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Öffentlich",
+    "id": "node/9919832317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0392776,
+      45.9217184
     ]
   }
 }

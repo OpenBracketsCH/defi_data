@@ -18344,8 +18344,13 @@
   "type": "Feature",
   "id": "node/6794926988",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rothorn-Gipfel (Patrolleur-Station)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "sunrise-sunset",
+    "operator": "Lenzerheide Bergbahnen AG",
     "id": "node/6794926988"
   },
   "geometry": {
@@ -18360,8 +18365,15 @@
   "type": "Feature",
   "id": "node/6795952885",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "In der Station Scharmoin im weissen Kasten an der Betonwand beim Fenster im Übergangsbereich zwischen den beiden Bahnen.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "sunrise-sunset",
+    "operator": "Lenzerheide Bergbahnen AG",
+    "wheelchair": "yes",
     "id": "node/6795952885"
   },
   "geometry": {
@@ -106046,6 +106058,62 @@
     "coordinates": [
       8.5249227,
       47.3656667
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9919762493",
+  "properties": {
+    "defibrillator:location": "Defibrillator-Symbol an Zollgebäude",
+    "emergency": "defibrillator",
+    "id": "node/9919762493"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7266363,
+      47.6950411
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9919862167",
+  "properties": {
+    "defibrillator:location": "Verwaltungsgebäude Canols (Patrouilleur-Station)",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "Lenzerheide Bergbahnen AG",
+    "id": "node/9919862167"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5563475,
+      46.7402488
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9919890017",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Alpenblickstrasse 60",
+    "description": "telefoniere uns! ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "privat",
+    "phone": "079 309 12 06",
+    "id": "node/9919890017"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8161797,
+      47.240479
     ]
   }
 }
