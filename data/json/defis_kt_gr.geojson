@@ -7256,8 +7256,9 @@
   "type": "Feature",
   "id": "node/9890606668",
   "properties": {
-    "defibrillator:location": "Aussen an der Hauswand. neben dem Eingang.\nOutside at the Wall.",
+    "defibrillator:location": "Aussen an der Hauswand. neben dem Eingang. Outside at the Wall.",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "id": "node/9890606668"
   },
@@ -7388,6 +7389,7 @@
     "access": "permissive",
     "defibrillator:location": "Im Eingangsbereich des Hotel Kurhaus neben der Rezeption. Während den Öffnungszeiten verfügbar.",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "operator": "Gemeinde Vaz/Obervaz",
@@ -7563,6 +7565,7 @@
   "properties": {
     "defibrillator:location": "Verwaltungsgebäude Canols (Patrouilleur-Station)",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "operator": "Lenzerheide Bergbahnen AG",
     "id": "node/9919862167"
