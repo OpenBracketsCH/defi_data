@@ -89938,6 +89938,7 @@
   "type": "Feature",
   "id": "node/9543688972",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Hall d'entrée",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -106430,6 +106431,25 @@
     "coordinates": [
       8.6491705,
       47.5152307
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9933730409",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Dans la halle camions",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/9933730409"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8429546,
+      46.4720025
     ]
   }
 }

@@ -152959,8 +152959,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.8450725,
-      46.4713945
+      6.8452955,
+      46.4711642
     ]
   }
 },
@@ -153091,8 +153091,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.8416574,
-      46.4791797
+      6.841682,
+      46.4792683
     ]
   }
 },
@@ -158442,6 +158442,7 @@
   "type": "Feature",
   "id": "node/9543688972",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Hall d'entrée",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -181980,6 +181981,44 @@
     "coordinates": [
       8.6491705,
       47.5152307
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9933730408",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Dans la rampe d'accès",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9933730408"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8298584,
+      46.4714003
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9933730409",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Dans la halle camions",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/9933730409"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8429546,
+      46.4720025
     ]
   }
 }
