@@ -13591,9 +13591,9 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 06:30-17:00",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Haag-Streit AG",
-    "phone": "+41 79 307 99 19",
+    "phone": "+41 31 978 01 11",
     "id": "node/6638770697"
   },
   "geometry": {
@@ -106559,6 +106559,27 @@
     "coordinates": [
       7.0646961,
       46.7662473
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9942609413",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Wilerstrasse 163, 9230 Flawil",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07.00 - 12.00, 13.30 - 17.00 Uhr",
+    "operator": "Technische Betriebe Flawil",
+    "id": "node/9942609413"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1747593,
+      47.4161591
     ]
   }
 }
