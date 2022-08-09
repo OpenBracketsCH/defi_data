@@ -101569,21 +101569,22 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Bei den Kassen",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "-1",
     "opening_hours": "Mo-Sa 07:30-20:00; PH off",
-    "operator": "Lidl Schweiz DL AG",
-    "phone": "+41 71 588 05 10",
+    "operator": "LIDL Schweiz",
+    "phone": "+41 71 627 80 74",
     "wheelchair": "limited",
     "id": "node/9889806411"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5426455,
-      47.4104549
+      8.5426627,
+      47.410403
     ]
   }
 },
@@ -103424,28 +103425,6 @@
     "coordinates": [
       8.5413028,
       47.3689445
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9917843293",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Verkaufsfläche LIDL",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "LIDL Schweiz",
-    "phone": "+41716278074",
-    "id": "node/9917843293"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5426627,
-      47.410403
     ]
   }
 },
