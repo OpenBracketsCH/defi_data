@@ -58639,8 +58639,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3120153,
-      46.9807048
+      8.3119509,
+      46.9807674
     ]
   }
 },
@@ -182773,6 +182773,52 @@
     "coordinates": [
       7.2457528,
       47.1331275
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9952554117",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kirche St. Peter, Seiteneingang St. Peterhofstatt 1 8001 Zürich",
+    "description": "währebd Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 8:00-18:00, Sa 10:00-16:00, So 11:00-17:00",
+    "operator": "Reformierte Kirche Stadt Zürich",
+    "phone": "+41442506633",
+    "id": "node/9952554117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.540894,
+      47.3711762
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9952599517",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "spritzwerk Ehmann gossauerstrasse 8 Hinwil",
+    "description": "während den öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo 07:00 - 17:00 Uhr",
+    "operator": "Privat",
+    "phone": "+41449371408",
+    "id": "node/9952599517"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8401868,
+      47.2991413
     ]
   }
 }
