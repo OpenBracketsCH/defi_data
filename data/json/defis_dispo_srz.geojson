@@ -44572,7 +44572,6 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Su 09:00-20:00",
     "operator": "Schwimmbad Geren, Herr Srdan Markovic",
     "phone": "+41 44 737 17 96",
     "id": "node/9909523051"
@@ -44595,7 +44594,6 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 07:30-12:00, 13:00-18:00",
     "operator": "Medvadis AG, Ärztezentrum Birmensdorf, J. Jörger",
     "phone": "+41 44 737 37 11",
     "id": "node/9909523052"
@@ -44657,20 +44655,20 @@
   "id": "node/9909523055",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Primarschule Birmensdorf beim Eingang zur Turnhalle Reppisch",
+    "defibrillator:location": "Turnhalle & Singsaal Reppisch",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Primarschule Birmensdorf, Schulhausstrasse 1, 8903 Birmensdorf",
+    "operator": "Turnhalle & Singsaal Reppisch",
     "phone": "+41 43 344 10 50",
     "id": "node/9909523055"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4381022,
-      47.3553978
+      8.4379404,
+      47.3557022
     ]
   }
 },
@@ -46070,6 +46068,225 @@
     "coordinates": [
       8.7950393,
       47.2031154
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9960915391",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Er befindet sich beim Haupteingang (oben) innerhalb des Gebäudes im Entrée links an der Wand",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 08:00-20:00",
+    "id": "node/9960915391"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4420685,
+      47.3551802
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9960916892",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Sekundarschule Mattenbach, im oberen Turnhalleneingang, vor dem Turnlehrerzimmer",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Stadt Winterthur, Departement Schule und Sport, Mathias Vogel",
+    "phone": "+41 79 947 82 72",
+    "id": "node/9960916892"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7410147,
+      47.4901746
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9960949180",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Dienstgebäude",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Amt für Militär und Zivilschutz",
+    "phone": "+41 79 520 58 10",
+    "id": "node/9960949180"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4089345,
+      47.3640199
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9960949181",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Forsthaus",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Amt für Militär und Zivilschutz",
+    "phone": "+41 79 520 58 10",
+    "id": "node/9960949181"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4095728,
+      47.3744835
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9960949182",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "OKA",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Amt für Militär und Zivilschutz",
+    "phone": "+41 79 520 58 10",
+    "id": "node/9960949182"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4096479,
+      47.3563926
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9960949183",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Kaserne E",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Amt für Militär und Zivilschutz",
+    "phone": "+41 79 520 58 10",
+    "id": "node/9960949183"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4328061,
+      47.3585657
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9960949184",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Kaserne A",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Amt für Militär und Zivilschutz",
+    "phone": "+41 79 520 58 10",
+    "id": "node/9960949184"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.430022,
+      47.3590999
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9960949185",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Kaserne B",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Amt für Militär und Zivilschutz",
+    "phone": "+41 79 520 58 10",
+    "id": "node/9960949185"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.430655,
+      47.358831
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9960949186",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Mehrzweckhalle",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Amt für Militär und Zivilschutz",
+    "phone": "+41 79 520 58 10",
+    "id": "node/9960949186"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4316742,
+      47.3579334
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9960949187",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Kaserne H2",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Amt für Militär und Zivilschutz",
+    "phone": "+41 79 520 58 10",
+    "id": "node/9960949187"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4305531,
+      47.3575264
     ]
   }
 }
