@@ -88420,28 +88420,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9511157117",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Feuerwehr Depot Obersteinach",
-    "description": "Über SNZ 144",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Feuerwehr Steinach",
-    "phone": "0787964090",
-    "id": "node/9511157117"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.4354931,
-      47.4911503
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9513349896",
   "properties": {
     "emergency": "defibrillator",
@@ -107063,29 +107041,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9958603519",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "1. Stockwerk, Hinter empfang offen stehend in schwarzem USM Möbel",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr: 7:30-17:00 Uhr",
-    "operator": "Firma",
-    "phone": "0412263664",
-    "id": "node/9958603519"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.3097155,
-      47.0466452
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9959969218",
   "properties": {
     "access": "yes",
@@ -107479,6 +107434,75 @@
     "coordinates": [
       9.3545082,
       46.8239057
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9966111770",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingangshalle Zentrum",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 07:00-22:30",
+    "operator": "Glockenhof Zürich",
+    "phone": "+41 44 225 93 93",
+    "id": "node/9966111770"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5363555,
+      47.3728623
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9966121987",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingangsbereich Bürogebäude, linke Seite",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-12:00, 13:00-17:00",
+    "operator": "Landor Fenaco Genossenschaft, Rolf Herzog",
+    "phone": "+41 58 433 66 49",
+    "id": "node/9966121987"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.652572,
+      47.5455843
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9966133443",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im ersten Stock auf der rechten Seite hinter Drucker.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-18:00",
+    "operator": "Daniel Buchmüller",
+    "phone": "+41 62 207 54 54",
+    "id": "node/9966133443"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9808224,
+      47.3562268
     ]
   }
 }
