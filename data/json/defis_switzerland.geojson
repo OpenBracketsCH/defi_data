@@ -52686,6 +52686,7 @@
     "description": "Aussenwand Gebäude neben dem Restaurant",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "name": "Badi Nottwil",
     "id": "node/7637818589"
   },
@@ -183559,6 +183560,61 @@
     "coordinates": [
       7.1151148,
       46.7681181
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9967598517",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Riedenholzstrasse 30, Neben Eingang",
+    "description": "jederzeit verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/9967598517"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5353643,
+      47.4277775
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9967755117",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "pipos bar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/9967755117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.010703,
+      47.6720524
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9967764533",
+  "properties": {
+    "emergency": "defibrillator",
+    "name": "AED",
+    "id": "node/9967764533"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.1435111,
+      46.201601
     ]
   }
 }
