@@ -13158,29 +13158,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8446087175",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Kreuzung Stutzstrasse - Stutzrain",
-    "description": "24h verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde Horw",
-    "phone": "+41 41 349 11 11",
-    "id": "node/8446087175"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.3351134,
-      47.0324816
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8446087176",
   "properties": {
     "access": "yes",
@@ -16541,15 +16518,18 @@
   "type": "Feature",
   "id": "node/9900508329",
   "properties": {
+    "defibrillator:location": "Kreuzung Stutzstrasse - Stutzrain",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde Horw",
     "id": "node/9900508329"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3351144,
-      47.0324702
+      8.3349607,
+      47.0324986
     ]
   }
 },
