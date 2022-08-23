@@ -103146,29 +103146,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8628017769",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "An Strassenkreuzung Wasgenring/Blotzheimerstrasse in grünem Wandkasten, Selecta-Automat (bei Kiosk)",
-    "description": "24h verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Procamed AG",
-    "phone": "+41 52 368 60 00",
-    "id": "node/8628017769"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.564588,
-      47.5614566
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8628023172",
   "properties": {
     "access": "yes",
@@ -110944,8 +110921,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.859913,
-      45.9687926
+      8.859918,
+      45.9687878
     ]
   }
 },
@@ -130116,20 +130093,22 @@
   "type": "Feature",
   "id": "node/9098927517",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Schulhaus Seefeld Schmittengasse 100",
-    "description": "während der Schulzeiten",
+    "access": "yes",
+    "defibrillator:location": "Aussenbereich unter dem Dach beim Anexbau in einem alarmgesicherten Schrank",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Schule Seefeld / Gemeinde",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Simon Huggenberger (Schulhauswart)",
+    "phone": "+41 76 499 70 04",
     "id": "node/9098927517"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.370414,
-      47.4164409
+      8.3705816,
+      47.4165761
     ]
   }
 },
@@ -177174,26 +177153,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9905570117",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Ecke, Wasgenring/Blotzheimerstr.",
-    "description": "ist nicht mehr Verfügbar (Abmontiert)",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/9905570117"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5646346,
-      47.5613713
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9905772617",
   "properties": {
     "access": "yes",
@@ -182843,7 +182802,7 @@
   "id": "node/9955602018",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Im ersten Stoch Lyner Sanitär dorfstrasse 54",
+    "defibrillator:location": "Im ersten Stock Lyner Sanitär dorfstrasse 54",
     "description": "08:00 - 12:00 13:00 - 17:00 mo - Fr",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -183656,6 +183615,52 @@
     "coordinates": [
       8.4902653,
       47.2696286
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9972297237",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Schulhauseingang / an der Hauptstrasse",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Grub AR",
+    "phone": "+41 71 891 17 50",
+    "id": "node/9972297237"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5081914,
+      47.4475222
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9972315089",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussenseite Nord, zwischen Eingang LANDI-Laden und LAVEBA-Shop",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "LANDI Oberrheintal",
+    "phone": "+41717575070",
+    "id": "node/9972315089"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5559758,
+      47.3637029
     ]
   }
 }

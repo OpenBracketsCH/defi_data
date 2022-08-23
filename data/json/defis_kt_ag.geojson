@@ -8659,20 +8659,22 @@
   "type": "Feature",
   "id": "node/9098927517",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Schulhaus Seefeld Schmittengasse 100",
-    "description": "während der Schulzeiten",
+    "access": "yes",
+    "defibrillator:location": "Aussenbereich unter dem Dach beim Anexbau in einem alarmgesicherten Schrank",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Schule Seefeld / Gemeinde",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Simon Huggenberger (Schulhauswart)",
+    "phone": "+41 76 499 70 04",
     "id": "node/9098927517"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.370414,
-      47.4164409
+      8.3705816,
+      47.4165761
     ]
   }
 },
@@ -13480,7 +13482,7 @@
   "id": "node/9955602018",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Im ersten Stoch Lyner Sanitär dorfstrasse 54",
+    "defibrillator:location": "Im ersten Stock Lyner Sanitär dorfstrasse 54",
     "description": "08:00 - 12:00 13:00 - 17:00 mo - Fr",
     "emergency": "defibrillator",
     "emergency:phone": "144",
