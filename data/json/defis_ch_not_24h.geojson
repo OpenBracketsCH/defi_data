@@ -3491,6 +3491,25 @@
 },
 {
   "type": "Feature",
+  "id": "node/5103296769",
+  "properties": {
+    "defibrillator:location": "Bei der Metalli Apotheke",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-19:00 / Sa 08:00 - 17:00",
+    "id": "node/5103296769"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5173405,
+      47.1724013
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/5113123896",
   "properties": {
     "defibrillator:location": "Links mach Eingang in Migros",
@@ -107603,6 +107622,27 @@
     "coordinates": [
       8.1980905,
       47.1271444
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9976967017",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "BEKB Schalterhalle",
+    "description": "Während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "BEKB",
+    "id": "node/9976967017"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4432455,
+      46.9470279
     ]
   }
 }
