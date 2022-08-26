@@ -19988,8 +19988,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6226181,
-      47.4136034
+      8.6225113,
+      47.4136148
     ]
   }
 },
@@ -58195,16 +58195,18 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Sa 00:00-23:00",
     "operator": "IKEA",
     "phone": "+41 58 853 21 00",
+    "wheelchair": "no",
     "id": "node/8608023217"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6238565,
-      47.4143255
+      8.6239442,
+      47.4143674
     ]
   }
 },
@@ -107707,6 +107709,100 @@
     "coordinates": [
       8.4920888,
       47.3916409
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9979757050",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Küchen Abteilung",
+    "destination": "währen Öffnungszeit verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "opening_hours": "Mo-Sa 09:00-21:00",
+    "operator": "IKEA AG",
+    "wheelchair": "yes",
+    "id": "node/9979757050"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6234407,
+      47.4138288
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9979826571",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Teppich Abteilung",
+    "destination": "währen Öffnungszeit verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo-Sa 09:00-21:00",
+    "operator": "IKEA AG",
+    "wheelchair": "yes",
+    "id": "node/9979826571"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.623488,
+      47.4138684
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9979844005",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Eingang Restaurant",
+    "destination": "währen Öffnungszeit verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "opening_hours": "Mo-Sa 09:00-21:00",
+    "operator": "IKEA AG",
+    "wheelchair": "yes",
+    "id": "node/9979844005"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6229066,
+      47.4135412
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9979878319",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im 1. Stock beim Empfang",
+    "description": "Während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo - Do 8-22 Uhr\nFr 8 - 18 Uhr\nSa 8 - 12 Uhr",
+    "phone": "0442786262",
+    "id": "node/9979878319"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4917929,
+      47.3917945
     ]
   }
 }
