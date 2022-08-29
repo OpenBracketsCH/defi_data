@@ -404,10 +404,14 @@
   "id": "node/7933423093",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Eingang Treppenhaus",
-    "description": "nur während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Beim Schulhauseingang / an der Hauptstrasse",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Grub AR",
+    "phone": "+41 71 891 17 50",
     "id": "node/7933423093"
   },
   "geometry": {
@@ -1634,29 +1638,6 @@
     "coordinates": [
       9.2745886,
       47.3866338
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9972297237",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Beim Schulhauseingang / an der Hauptstrasse",
-    "description": "24h verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde Grub AR",
-    "phone": "+41 71 891 17 50",
-    "id": "node/9972297237"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.5081914,
-      47.4475222
     ]
   }
 }
