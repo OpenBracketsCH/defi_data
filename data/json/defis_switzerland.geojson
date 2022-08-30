@@ -12317,23 +12317,23 @@
   "type": "Feature",
   "id": "node/6564797300",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "addr:city": "Gadmen",
     "addr:housenumber": "2",
     "addr:postcode": "3863",
     "addr:street": "Hopflauenen",
-    "defibrillator:location": "Im Eingangsbereich (10m - dann rechts) - Zugriff via ZLS: 033 982 29 11",
+    "defibrillator:location": "An der rechten Innenwand der Seilbahnstation in einem Aussenkasten.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "operator": "Kraftwerke Oberhasli AG (KWO)",
-    "phone": "+41 33 982 29 11",
+    "phone": "+41 79 797 81 19",
     "id": "node/6564797300"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2775664,
-      46.7151951
+      8.2775565,
+      46.7154547
     ]
   }
 },
@@ -177318,8 +177318,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4379404,
-      47.3557022
+      8.4365403,
+      47.3559439
     ]
   }
 },
@@ -183038,8 +183038,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4089345,
-      47.3640199
+      8.4148675,
+      47.3653352
     ]
   }
 },
@@ -184140,6 +184140,75 @@
     "coordinates": [
       6.6298773,
       46.5168141
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9987417105",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Eingang Gemeindehaus",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Martina Winiger",
+    "phone": "+41627455136",
+    "id": "node/9987417105"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9636995,
+      47.2674056
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9987433070",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im EG",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "BEP Baugenossenschaft des eidg. Personals",
+    "phone": "+41 44 368 66 11",
+    "id": "node/9987433070"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5293549,
+      47.3906869
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9987433071",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im EG",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "BEP Baugenossenschaft des eidg. Personals",
+    "phone": "+41 44 368 66 11",
+    "id": "node/9987433071"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5311044,
+      47.3899719
     ]
   }
 }
