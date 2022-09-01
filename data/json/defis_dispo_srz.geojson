@@ -46692,24 +46692,23 @@
 },
 {
   "type": "Feature",
-  "id": "node/9992044922",
+  "id": "node/9992168218",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Auf dem Testgelände",
-    "description": "24h verfügbar",
+    "defibrillator:location": "Windfang Zimmer Biomet",
+    "description": "nur während Öffnungszeiten ",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Tester",
-    "phone": "+41787877878",
-    "id": "node/9992044922"
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 8:30-17:00",
+    "operator": "Zimmer Biomet",
+    "id": "node/9992168218"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5677649,
-      47.4508252
+      8.5133178,
+      47.1761786
     ]
   }
 }
