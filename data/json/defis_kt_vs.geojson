@@ -2273,6 +2273,7 @@
   "type": "Feature",
   "id": "node/9862344669",
   "properties": {
+    "defibrillator:location": "Dans le hall principal, à gauche depuis l'entrée principale, contre le mur, à coté du magasin MobilZone.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -2548,6 +2549,23 @@
     "coordinates": [
       7.8590354,
       46.3085302
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9995229040",
+  "properties": {
+    "defibrillator:location": "Dans la cafétéria, sur le mur en face de l'accès aux WC.",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/9995229040"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9464089,
+      46.2608557
     ]
   }
 }
