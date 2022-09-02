@@ -81779,11 +81779,12 @@
   "id": "node/9315745165",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Untersuchungsamt: Empfang",
+    "defibrillator:location": "Untersuchungsamt: Empfang 3.OG",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "3",
     "opening_hours": "Mo-Fr 08:00-11:30, 14:00-17:00",
     "operator": "Kanton St.Gallen",
     "phone": "+41 58 229 30 17",
@@ -81792,8 +81793,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.3723475,
-      47.4235695
+      9.3731455,
+      47.423516
     ]
   }
 },
@@ -108149,6 +108150,72 @@
     "coordinates": [
       8.8947681,
       47.556661
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9995138399",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Auf dem Gelände der Primarschule vor dem Eingang zur Turnhalle Letten",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/9995138399"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.437904,
+      47.3557319
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9995145711",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "2. Stock, Aufenthaltsraum, beim Eingang Küche links auf Augenhöhe",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "operator": "Janine Flückiger",
+    "phone": "+41 41 784 30 92",
+    "id": "node/9995145711"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4362783,
+      47.1620522
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9995157749",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "In der Arztpraxis",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-12:00, 14:00-19:30",
+    "operator": "Hausarztpraxis Dinhard, Dr. Patti",
+    "phone": "+41 52 336 19 38",
+    "id": "node/9995157749"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.767577,
+      47.555385
     ]
   }
 }

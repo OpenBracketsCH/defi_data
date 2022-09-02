@@ -76212,7 +76212,6 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "phone": "+41 79 223 49 90",
     "id": "node/9989942217"
   },
   "geometry": {
@@ -76519,6 +76518,52 @@
     "coordinates": [
       8.5778895,
       47.4621191
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9995107255",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "nella casa patriziale sulla strada cantonale",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "144",
+    "phone": "144",
+    "id": "node/9995107255"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6604801,
+      46.37613
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9995133717",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "AED prive , possibilite de me joindre par tel , si present je me deplace avec l’AED a votre rencontre",
+    "description": "AED prive , possibilite de me joindre par tel , si present je me deplace avec l’AED a votre rencontre",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "privat",
+    "phone": "+41794139944",
+    "id": "node/9995133717"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.007534,
+      47.1560281
     ]
   }
 }
