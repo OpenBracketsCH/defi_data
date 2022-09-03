@@ -12272,6 +12272,7 @@
     "defibrillator:location": "Saisonbetrieb April- Oktober",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "operator": "TCS Camping Gampelen",
     "phone": "+41 32 313 23 33",
     "id": "node/6636838629"
@@ -12279,8 +12280,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.0403634,
-      47.0015851
+      7.0403859,
+      47.0015951
     ]
   }
 },
@@ -22577,8 +22578,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.8890419,
-      46.6887818
+      7.8884396,
+      46.6890331
     ]
   }
 },
@@ -108253,6 +108254,23 @@
     "coordinates": [
       6.5263062,
       46.5979756
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9997256068",
+  "properties": {
+    "defibrillator:location": "Aussenbereich Restaurant",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/9997256068"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0399905,
+      47.0014403
     ]
   }
 }
