@@ -102253,28 +102253,13 @@
 },
 {
   "type": "Feature",
-  "id": "node/9910272343",
+  "id": "node/9910272357",
   "properties": {
-    "defibrillator:location": "Aussenwand Gebäude Richtung See",
+    "access": "yes",
+    "defibrillator:location": "Neben Eingang Restaurant",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "id": "node/9910272343"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.9447404,
-      47.0252987
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9910272357",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
     "id": "node/9910272357"
   },
   "geometry": {
@@ -102291,6 +102276,7 @@
   "properties": {
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "id": "node/9912789893"
   },
   "geometry": {
