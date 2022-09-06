@@ -178429,6 +178429,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "internet_access": "wlan",
     "operator": "LIDL Schweiz",
     "phone": "+41716278074",
     "id": "node/9917843279"
@@ -185105,6 +185106,28 @@
     "coordinates": [
       6.6316451,
       46.5774849
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10004293217",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Businesspark Gwatt",
+    "description": "Während den Öffnungszeiten verfügbar. Bei der Anmeldung",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Businesspark Gwatt, All FM GmbH",
+    "phone": "+41332212570",
+    "id": "node/10004293217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6209225,
+      46.7334662
     ]
   }
 }
