@@ -47066,7 +47066,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "2",
-    "operator": "Janine Flückiger",
+    "operator": "DMB Technics AG",
     "phone": "+41 41 784 30 92",
     "id": "node/9995145711"
   },
@@ -47185,6 +47185,50 @@
     "coordinates": [
       8.4683001,
       47.4092471
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10006324811",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Pfarrerzimmer",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 09:00-17:00",
+    "operator": "Reformierte Kirche Zürich",
+    "id": "node/10006324811"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5741264,
+      47.403665
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10006324812",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingangshalle, grüner Kasten",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 09:00-17:00",
+    "operator": "Reformierte Kirche Zürich",
+    "id": "node/10006324812"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5741485,
+      47.402966
     ]
   }
 }

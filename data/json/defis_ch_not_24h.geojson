@@ -108177,7 +108177,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "2",
-    "operator": "Janine Flückiger",
+    "operator": "DMB Technics AG",
     "phone": "+41 41 784 30 92",
     "id": "node/9995145711"
   },
@@ -108357,14 +108357,14 @@
   "id": "node/10002101717",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Jägerstrasse, 9200 Gossau SG",
+    "defibrillator:location": "Beim Personaleingang an der Jägerstrasse, hinter der Türe links beim QS-Labor",
     "description": "Während der Öffnungszeiten erreichbar ",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo.-Fr. von 07:00 h - 17:00 h",
+    "opening_hours": "Mo-Fr 07:00-17:00",
     "operator": "HakaGerodur AG",
-    "phone": "071 388 94 94",
+    "phone": "+41 71 388 94 94",
     "id": "node/10002101717"
   },
   "geometry": {
@@ -108577,6 +108577,138 @@
     "coordinates": [
       8.4683001,
       47.4092471
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10006324811",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Pfarrerzimmer",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 09:00-17:00",
+    "operator": "Reformierte Kirche Zürich",
+    "id": "node/10006324811"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5741264,
+      47.403665
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10006324812",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingangshalle, grüner Kasten",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 09:00-17:00",
+    "operator": "Reformierte Kirche Zürich",
+    "id": "node/10006324812"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5741485,
+      47.402966
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10006374603",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Der Defibrillator befindet sich im 3. Stock, in der Apotheke der Dermatologie Praxis. Zugang in die Apotheke nur mit einer Praxismitarbeiterin möglich!",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:30-16:30; Ph off",
+    "operator": "Dr. med. Bärbel Greve",
+    "phone": "+41 52 728 03 52",
+    "id": "node/10006374603"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8942758,
+      47.556426
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10006391617",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "EG hinter dem Verkaufsladen beim Treppenaufgang zu den Büros.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-12:00, 13:00-17:00",
+    "operator": "Schneider AG, Pratteln / Herr Jan Schneider",
+    "phone": "+41 61 827 92 92",
+    "id": "node/10006391617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6937757,
+      47.5180978
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10006427852",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "3.Stock, Siemens Schweiz AG, Raum 513",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "opening_hours": "Mo-Fr 07:30-12:00, 13:30-17:00",
+    "operator": "Siemens Schweiz AG",
+    "phone": "+41 585 586 711",
+    "id": "node/10006427852"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5099276,
+      46.8476273
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10006434548",
+  "properties": {
+    "defibrillator:location": "Im Bad während der Sommermonate",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/10006434548"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4133072,
+      46.992248
     ]
   }
 }
