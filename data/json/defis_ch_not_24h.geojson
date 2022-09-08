@@ -93127,7 +93127,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-16:00 h",
+    "opening_hours": "Mo-Fr 08:00-16:00",
     "phone": "+41 61 277 66 66",
     "id": "node/9631526417"
   },
@@ -108761,6 +108761,28 @@
     "coordinates": [
       7.5840224,
       47.5469829
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10009454217",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Thales DIS Schweiz ",
+    "description": "während Öffnungszeiten verfügbar ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo - Fr",
+    "operator": "n/a",
+    "id": "node/10009454217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0507898,
+      47.3905448
     ]
   }
 }
