@@ -185407,6 +185407,21 @@
 },
 {
   "type": "Feature",
+  "id": "node/10009113522",
+  "properties": {
+    "emergency": "defibrillator",
+    "id": "node/10009113522"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0989557,
+      45.9317933
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10009116117",
   "properties": {
     "access": "no",
@@ -185425,6 +185440,25 @@
     "coordinates": [
       8.592793,
       47.5060488
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10009204076",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Next to reception desk",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/10009204076"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5840224,
+      47.5469829
     ]
   }
 }
