@@ -108688,21 +108688,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10009113522",
-  "properties": {
-    "emergency": "defibrillator",
-    "id": "node/10009113522"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.0989557,
-      45.9317933
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10009116117",
   "properties": {
     "access": "no",
@@ -109239,6 +109224,41 @@
     "coordinates": [
       7.2361581,
       46.8978149
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10013470934",
+  "properties": {
+    "defibrillator:location": "Lobby",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/10013470934"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.698943,
+      46.7145332
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10013470935",
+  "properties": {
+    "defibrillator:location": "Neben Lifttüre",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "1",
+    "id": "node/10013470935"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6989633,
+      46.7145566
     ]
   }
 }
