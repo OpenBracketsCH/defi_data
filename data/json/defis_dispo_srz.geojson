@@ -47746,6 +47746,48 @@
       47.5552221
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/10013669018",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindelokal",
+    "description": "Garagentor",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Trüllikon",
+    "id": "node/10013669018"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6741305,
+      47.6402778
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10013676717",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Schulhaus Trüllikon",
+    "description": "zugänglich während Schulzeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Geneinde Trüllikon",
+    "id": "node/10013676717"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.682163,
+      47.6378272
+    ]
+  }
 }
 ]
 }
