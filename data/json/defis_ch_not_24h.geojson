@@ -88614,8 +88614,9 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "operator": "Kissling AG",
-    "phone": "+41443089797",
+    "phone": "+41 44 308 97 17",
     "id": "node/9524918535"
   },
   "geometry": {
@@ -109431,6 +109432,30 @@
     "coordinates": [
       9.5104503,
       46.8541801
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10019907667",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Der Defibrillator befindet sich bei uns im EG in einem Durchgang zum Verkaufsraum. Für die Öffentlichkeit kann er im Verkaufsraum der Apotheke verlangt werden.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:30-19:00; Sa 07:30-17:00",
+    "operator": "Apotheke Wyss AG Baden",
+    "phone": "+41 56 222 48 63",
+    "id": "node/10019907667"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3084692,
+      47.4766617
     ]
   }
 }
