@@ -60,7 +60,7 @@
   "type": "Feature",
   "id": "node/2659529614",
   "properties": {
-    "defibrillator:location": "Valliant Bank",
+    "defibrillator:location": "Valiant Bank",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "id": "node/2659529614"
@@ -2806,8 +2806,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0787034,
-      47.2272022
+      8.077711,
+      47.2290091
     ]
   }
 },
@@ -15583,23 +15583,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9553916504",
-  "properties": {
-    "defibrillator:location": "Polizeiposten Triengen",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/9553916504"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.0774795,
-      47.234599
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9553925352",
   "properties": {
     "defibrillator:location": "Schulhaus Hofacker 4",
@@ -15610,8 +15593,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0810648,
-      47.2337773
+      8.081384,
+      47.2334349
     ]
   }
 },
@@ -16878,8 +16861,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Philippe Stutz, Stutz Design GmbH",
-    "phone": "+41796337003",
+    "operator": "Fam. Stutz",
     "id": "node/10026116807"
   },
   "geometry": {
@@ -16910,6 +16892,50 @@
     "coordinates": [
       8.3159458,
       47.0461167
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10026813986",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Schulhaus",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Triengen",
+    "id": "node/10026813986"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0654736,
+      47.2240066
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10026813987",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schalterhalle Physio",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Th 07:30-21:00; Fr 07:30-20:00; Sa 08:00-12:00",
+    "operator": "MTT Physiotherapie Surental",
+    "id": "node/10026813987"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0797362,
+      47.2302761
     ]
   }
 }
