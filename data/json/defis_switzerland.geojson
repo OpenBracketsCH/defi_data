@@ -59070,26 +59070,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637818950",
-  "properties": {
-    "defibrillator:location": "In der Schalterhalle",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "name": "Valiant Bank",
-    "opening_hours": "24/7",
-    "id": "node/7637818950"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.0487557,
-      47.1335383
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637818951",
   "properties": {
     "description": "Sanitätsraum EG (beim Direktverkaufsladen)",
@@ -186874,6 +186854,96 @@
     "coordinates": [
       8.9712427,
       46.0664478
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10029318941",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Haupteingang links",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-16:00",
+    "id": "node/10029318941"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2351756,
+      47.4116557
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10029330656",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Das Gerät befindet sich im Treppenhaus Ausgang Limmatseite. Diese Türe ist jedoch verschlossen; Haupteingang Kirche benutzen (Informationsdesk rechts)",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 10:00-18:00",
+    "operator": "Christoph Furrer",
+    "phone": "+41 79 523 67 89",
+    "id": "node/10029330656"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5439368,
+      47.3700031
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10029332875",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussenbereich der Buvette",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Giffers",
+    "phone": "+41 26 418 26 26",
+    "id": "node/10029332875"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2189778,
+      46.7596685
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10029332876",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vorraum (Bankomat) der Raiffeisenbank",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Giffers",
+    "phone": "+41 26 418 26 26",
+    "id": "node/10029332876"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2102181,
+      46.7617648
     ]
   }
 }
