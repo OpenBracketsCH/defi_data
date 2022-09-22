@@ -48081,6 +48081,51 @@
       47.3042309
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/10044055153",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "MeteoSchweiz",
+    "description": "nur mit Zugangskarte erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "operator": "Bundesamt für Meteorologie und Klimatologie MeteoSchweiz",
+    "phone": "+41 58 460 91 11",
+    "wheelchair": "limited",
+    "id": "node/10044055153"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5648397,
+      47.4538626
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10044077029",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Parkhaus Messe Zürich",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "wheelchair": "limited",
+    "id": "node/10044077029"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5539717,
+      47.4138747
+    ]
+  }
 }
 ]
 }
