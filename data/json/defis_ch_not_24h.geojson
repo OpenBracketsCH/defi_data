@@ -13925,8 +13925,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4004146,
-      46.9476366
+      7.4004585,
+      46.9476994
     ]
   }
 },
@@ -29673,6 +29673,7 @@
     "description": "Betriebsgeb 1.UG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Friedhof Friedental",
     "id": "node/7637818742"
   },
@@ -110351,6 +110352,23 @@
     "coordinates": [
       8.3168717,
       47.1002538
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10050845117",
+  "properties": {
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "wheelchair": "no",
+    "id": "node/10050845117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2847326,
+      47.420847
     ]
   }
 }
