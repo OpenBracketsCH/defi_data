@@ -40674,25 +40674,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7863930178",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "An der Wand im Foyer Mehrzweckhalle",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/7863930178"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.5192,
-      47.2769034
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7863996065",
   "properties": {
     "access": "yes",
@@ -110348,6 +110329,28 @@
     "coordinates": [
       9.4668323,
       47.495258
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10050612291",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Haupteingang vom Bürogebäude; links neben dem Briefkasten",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "Mo-Fr 05:30-18:00",
+    "id": "node/10050612291"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3168717,
+      47.1002538
     ]
   }
 }

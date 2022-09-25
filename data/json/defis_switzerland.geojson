@@ -72560,9 +72560,14 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "An der Wand im Foyer Mehrzweckhalle",
-    "description": "während Öffnungszeiten verfügbar",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Primarschule Lienz, Im Wegacker 17, 9464 Lienz",
+    "phone": "+41 71 766 15 53",
     "id": "node/7863930178"
   },
   "geometry": {
@@ -187766,6 +187771,75 @@
     "coordinates": [
       9.4668323,
       47.495258
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10050578314",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Nordseite Fassade Turnhalle - in Richtung Geräteraum",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeindekanzlei Löhningen",
+    "phone": "+41 52 685 24 40",
+    "id": "node/10050578314"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5516904,
+      47.704627
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10050612291",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Haupteingang vom Bürogebäude; links neben dem Briefkasten",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "Mo-Fr 05:30-18:00",
+    "id": "node/10050612291"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3168717,
+      47.1002538
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10050619506",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Haupteingang Bürogebäude",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Strasseninspektorat Mittelland Ost",
+    "phone": "+41 31 636 43 00",
+    "id": "node/10050619506"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5533326,
+      46.8892793
     ]
   }
 }
