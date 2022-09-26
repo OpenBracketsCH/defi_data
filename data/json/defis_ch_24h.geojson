@@ -2035,11 +2035,12 @@
   "id": "node/5174396825",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "An der Aussenwand",
+    "defibrillator:location": "Evangelisches Kirchgemeindehaus\nAn der Aussenwand",
     "defibrillator:location:de": "An der Außenwand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
+    "operator": "Gemeinde",
     "id": "node/5174396825"
   },
   "geometry": {
@@ -2909,6 +2910,7 @@
   "type": "Feature",
   "id": "node/6010742519",
   "properties": {
+    "defibrillator:location": "Hermans Häuser",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -2927,17 +2929,20 @@
   "type": "Feature",
   "id": "node/6010746167",
   "properties": {
+    "defibrillator:location": "Kleines Häuschen auf Campingplatz",
+    "description": "Zugang während Campingsaison",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "yes",
     "opening_hours": "24/7",
+    "operator": "Gemeinde",
     "id": "node/6010746167"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.6788021,
-      46.7863928
+      9.6739658,
+      46.7753115
     ]
   }
 },
@@ -18974,6 +18979,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
+    "operator": "Gemeinde",
     "id": "node/7257127081"
   },
   "geometry": {
@@ -30072,25 +30078,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7746283989",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Schulhaus Arosa",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "id": "node/7746283989"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.6742263,
-      46.7768866
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7746283990",
   "properties": {
     "access": "yes",
@@ -30098,6 +30085,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
+    "operator": "Gemeinde",
     "id": "node/7746283990"
   },
   "geometry": {
@@ -30113,17 +30101,18 @@
   "id": "node/7746283991",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Am Dorfladen",
+    "defibrillator:location": "Am Dorfladen\nRechte Hauswand, neben Briefkasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
+    "operator": "Gemeinde",
     "id": "node/7746283991"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.7124425,
-      46.8205592
+      9.712478,
+      46.820677
     ]
   }
 },
@@ -30136,13 +30125,14 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
+    "operator": "Gemeinde",
     "id": "node/7746283992"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.6745884,
-      46.8337559
+      9.6743679,
+      46.83341
     ]
   }
 },
@@ -30151,17 +30141,18 @@
   "id": "node/7746283993",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Beim Kehrichthäuschen",
+    "defibrillator:location": "Piazza Molinis\nBeim Kehrichthäuschen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
+    "operator": "Gemeinde",
     "id": "node/7746283993"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.6545644,
-      46.8264478
+      9.6544896,
+      46.826476
     ]
   }
 },
@@ -30174,13 +30165,14 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
+    "operator": "Gemeinde",
     "id": "node/7746283994"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.6460894,
-      46.8338449
+      9.6456833,
+      46.8339277
     ]
   }
 },
@@ -30193,13 +30185,14 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
+    "operator": "Gemeinde",
     "id": "node/7746283995"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.6379924,
-      46.8377615
+      9.6379297,
+      46.8376928
     ]
   }
 },
@@ -30231,13 +30224,14 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
+    "operator": "Gemeinde",
     "id": "node/7746283997"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5945191,
-      46.841231
+      9.5971301,
+      46.842396
     ]
   }
 },
@@ -30250,13 +30244,14 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
+    "operator": "Gemeinde",
     "id": "node/7746283998"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.611578,
-      46.8323137
+      9.6115701,
+      46.8328041
     ]
   }
 },
@@ -66845,18 +66840,19 @@
   "id": "node/9441863117",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Rechte Hauswand von Apotheke, gegenüber Intersport",
+    "defibrillator:location": "Apotheke AroSA\nRechte Hauswand, gegenüber Intersport",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Gemeinde",
     "id": "node/9441863117"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.6794628,
-      46.7821556
+      9.6794758,
+      46.7821201
     ]
   }
 },
@@ -67873,7 +67869,7 @@
   "id": "node/9523951049",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Neben dem Lift",
+    "defibrillator:location": "Parkhaus\nNeben dem Lift, Ebene Schmid Sport nd Skischule",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
