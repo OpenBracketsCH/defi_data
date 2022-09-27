@@ -599,23 +599,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8742978754",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/8742978754"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.8838527,
-      47.4333153
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8775932605",
   "properties": {
     "access": "yes",
@@ -925,19 +908,21 @@
   "id": "node/8956420117",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Gemeindeverwaltung Seite Hauptstrasse ",
+    "defibrillator:location": "Gemeindeverwaltung Seite Hauptstrasse",
     "description": "24/7",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "operator": "Gemeinde ",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Rünenberg",
+    "phone": "+41 61 983 02 60",
     "id": "node/8956420117"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.8840682,
-      47.4332154
+      7.8838483,
+      47.433337
     ]
   }
 },
