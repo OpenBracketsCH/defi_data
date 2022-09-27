@@ -7827,8 +7827,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.6574573,
-      46.7745358
+      9.6574211,
+      46.7745165
     ]
   }
 },
@@ -109255,23 +109255,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8742978754",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/8742978754"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.8838527,
-      47.4333153
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8746933062",
   "properties": {
     "defibrillator:location": "Aussen vor dem Eingang",
@@ -120364,19 +120347,21 @@
   "id": "node/8956420117",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Gemeindeverwaltung Seite Hauptstrasse ",
+    "defibrillator:location": "Gemeindeverwaltung Seite Hauptstrasse",
     "description": "24/7",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "operator": "Gemeinde ",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Rünenberg",
+    "phone": "+41 61 983 02 60",
     "id": "node/8956420117"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.8840682,
-      47.4332154
+      7.8838483,
+      47.433337
     ]
   }
 },
@@ -121628,8 +121613,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2444696,
-      46.8939626
+      8.2440602,
+      46.8941148
     ]
   }
 },
@@ -187880,6 +187865,99 @@
     "coordinates": [
       9.2847326,
       47.420847
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10055923698",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Ausbildungszentrum, von aussen eintretend Wand links zwischen den beiden Glastüren. AED in weissem Kasten",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "ZBW - Zentrum berufliche Weiterbildung",
+    "phone": "+41 71 313 40 56",
+    "id": "node/10055923698"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3028202,
+      47.4010298
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10055929102",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Haupteingang MS Protect auf der Inneseite",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-16:00",
+    "operator": "MS Protect AG / Ralf Kirstein",
+    "phone": "+41797984016",
+    "id": "node/10055929102"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1493811,
+      47.4762199
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10055933981",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Eingang goldige Türe, im 1.Stock rechts an der Wand",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "operator": "Trafo Baden Betriebs AG",
+    "phone": "+41 56 204 08 88",
+    "id": "node/10055933981"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3053824,
+      47.4786101
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10055934469",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Theke in Cafeteria, Geschoss 0",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 08:00-19:00",
+    "operator": "Gemeinde",
+    "id": "node/10055934469"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.6840694,
+      46.7816862
     ]
   }
 }
