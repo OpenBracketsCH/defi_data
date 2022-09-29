@@ -34,8 +34,10 @@
     "description": "An der Hauswand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
+    "operator": "First Responder+ Vals",
     "wheelchair": "yes",
     "id": "node/2396211922"
   },
@@ -1814,19 +1816,20 @@
   "id": "node/7746284888",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Beim Kehrichtplatz an einer Stange",
+    "defibrillator:location": "Strassenlaterne",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "First Responder+ Vals",
     "id": "node/7746284888"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.1767389,
-      46.6114682
+      9.1767226,
+      46.6113141
     ]
   }
 },
@@ -1936,19 +1939,20 @@
   "id": "node/7913379355",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Am Ortseingang an der Strassenlampe",
+    "defibrillator:location": "Am Ortseingang Leis an der Strassenlaterne",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "First Responder+ Vals",
     "id": "node/7913379355"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.1655427,
-      46.6092134
+      9.1655734,
+      46.609286
     ]
   }
 },
@@ -1963,13 +1967,14 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "First Responder+ Vals",
     "id": "node/7959750515"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.1834134,
-      46.6243344
+      9.183325,
+      46.6242109
     ]
   }
 },
@@ -1978,19 +1983,20 @@
   "id": "node/7959750516",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Eingang Schulhaus",
+    "defibrillator:location": "Links vom Eingang zum Schulhaus an der Wand",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "First Responder+ Vals",
     "id": "node/7959750516"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.178724,
-      46.6167808
+      9.1787064,
+      46.6167629
     ]
   }
 },
@@ -2003,14 +2009,15 @@
     "description": "während Betriebszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "yes",
+    "operator": "Sportbahnen Vals 3000",
     "id": "node/7959750517"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.1515441,
-      46.6060177
+      9.1514608,
+      46.6060422
     ]
   }
 },
