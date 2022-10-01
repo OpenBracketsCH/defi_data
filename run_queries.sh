@@ -20,7 +20,7 @@ echo ""
 
 # Defibrillatoren ganze Schweiz 24h
 echo -ne "Query Defibrillatoren ganze Schweiz 24h...           "
-cat $DIR/queries/defis_ch_24h.txt | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/json/defis_ch_24h.geojson
+cat $DIR/queries/defis_ch_24h.overpassql | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/json/defis_ch_24h.geojson
 echo -ne "\t\t - Done.\r"
 echo ""
 
