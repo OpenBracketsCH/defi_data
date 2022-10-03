@@ -40999,18 +40999,22 @@
   "type": "Feature",
   "id": "node/7865178337",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Beim Foyer an Wand rechts bei Glasschiebetüre",
+    "access": "permissive",
+    "defibrillator:location": "Go through main entrance, turn left, go through second glass door. It is just to your right, wall mounted. Beim Foyer an Wand rechts bei Glasschiebetüre",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "May-Oct: Mo-Su 09:00-18:30; Nov-Apr: Mo-Su 09:00-17:30",
+    "opening_hours:note": "December 25th closed",
+    "wheelchair": "yes",
     "id": "node/7865178337"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.3447974,
-      47.373459
+      9.3447421,
+      47.3732597
     ]
   }
 },
