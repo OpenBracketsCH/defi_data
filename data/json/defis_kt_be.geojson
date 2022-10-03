@@ -42891,6 +42891,7 @@
   "properties": {
     "defibrillator:location": "Aussenbereich Restaurant",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "id": "node/9997256068"
   },
@@ -42951,6 +42952,7 @@
   "properties": {
     "defibrillator:location": "Im Bad während der Sommermonate",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/10006434548"
   },
@@ -43011,6 +43013,7 @@
   "properties": {
     "defibrillator:location": "Lobby",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/10013470934"
   },
@@ -43028,6 +43031,7 @@
   "properties": {
     "defibrillator:location": "Neben Lifttüre",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
     "id": "node/10013470935"
@@ -43194,6 +43198,173 @@
     "coordinates": [
       7.654635,
       47.2360499
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10068616769",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "neben Tankstelle",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung Worb",
+    "phone": "+41 31 838 07 82",
+    "id": "node/10068616769"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5914213,
+      46.9292002
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10068616770",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "ehemaliges Feuerwehrmagazin",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung Worb",
+    "phone": "+41 31 838 07 82",
+    "id": "node/10068616770"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5824439,
+      46.9186596
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10068616771",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Feuerwehrmagazin Rüfenacht",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung Worb",
+    "phone": "+41 31 838 07 82",
+    "id": "node/10068616771"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5320022,
+      46.9304328
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10068616772",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "ehemaliges Feuerwehrmagazin",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung Worb",
+    "phone": "+41 31 838 07 82",
+    "id": "node/10068616772"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5486944,
+      46.915434
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10068616773",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "ehemaliges Schulhaus Wattenwil-Bangerten",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung Worb",
+    "phone": "+41 31 838 07 82",
+    "id": "node/10068616773"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5853495,
+      46.9439121
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10068616774",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "beim Eingang von der Hauptstrasse her",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung Worb",
+    "phone": "+41 31 838 07 82",
+    "id": "node/10068616774"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5654294,
+      46.9304327
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10068616775",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "in der Zivilschutzanlage",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Gemeindeverwaltung Worb",
+    "phone": "+41 31 838 07 82",
+    "id": "node/10068616775"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5626063,
+      46.9256832
     ]
   }
 }

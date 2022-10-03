@@ -34175,6 +34175,7 @@
   "id": "node/10007339603",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/10007339603"
   },
@@ -35040,6 +35041,7 @@
     "access": "private",
     "defibrillator:location": "Parkhaus Messe Zürich",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "opening_hours": "24/7",
@@ -35175,6 +35177,7 @@
     "access": "customers",
     "defibrillator:location": "Treppenhaus zur Garage",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "id": "node/10046825951"
@@ -35290,6 +35293,29 @@
     "coordinates": [
       8.7837635,
       47.5285044
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10068609305",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Man find in 3. Stock rechts. Es ist ein Nebengebäude der Französische Schule. Der Besitzer des Defibrillators ist das Lycée Français de Zurich, das sich in der Zukunfstrasse 1, 8600 Dübendorf, befindet.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "operator": "Anne Bauer",
+    "phone": "+41 43 355 03 22",
+    "id": "node/10068609305"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.602649,
+      47.4012177
     ]
   }
 }

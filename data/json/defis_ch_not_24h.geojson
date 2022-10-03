@@ -101614,6 +101614,7 @@
   "properties": {
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "id": "node/9904470796"
   },
   "geometry": {
@@ -108069,6 +108070,7 @@
   "properties": {
     "defibrillator:location": "Dans la cafétéria, sur le mur en face de l'accès aux WC.",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/9995229040"
   },
@@ -108087,6 +108089,7 @@
     "access": "yes",
     "defibrillator:location": "A gauche en entrant, entre la réception et la fontaine à eau",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "id": "node/9996658488"
@@ -108105,6 +108108,7 @@
   "properties": {
     "defibrillator:location": "Aussenbereich Restaurant",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "id": "node/9997256068"
   },
@@ -108379,6 +108383,7 @@
   "properties": {
     "defibrillator:location": "Dans le super-marché, contre le mur, en face des caisses de la Migros.",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/10005971972"
   },
@@ -108552,6 +108557,7 @@
   "properties": {
     "defibrillator:location": "Im Bad während der Sommermonate",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/10006434548"
   },
@@ -108568,6 +108574,7 @@
   "id": "node/10007339603",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/10007339603"
   },
@@ -108609,6 +108616,7 @@
     "access": "permissive",
     "defibrillator:location": "Next to reception desk",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "id": "node/10009204076"
@@ -109126,6 +109134,7 @@
   "properties": {
     "defibrillator:location": "Lobby",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/10013470934"
   },
@@ -109143,6 +109152,7 @@
   "properties": {
     "defibrillator:location": "Neben Lifttüre",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
     "id": "node/10013470935"
@@ -109406,6 +109416,7 @@
     "access": "yes",
     "defibrillator:location": "Dans le hall d'entrée",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "id": "node/10020525015"
@@ -109687,6 +109698,7 @@
   "id": "node/10027744718",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/10027744718"
   },
   "geometry": {
@@ -109702,6 +109714,7 @@
   "id": "node/10028245418",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/10028245418"
   },
   "geometry": {
@@ -110166,6 +110179,7 @@
     "access": "customers",
     "defibrillator:location": "Treppenhaus zur Garage",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "id": "node/10046825951"
@@ -110226,6 +110240,7 @@
   "id": "node/10048763477",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/10048763477"
   },
@@ -110288,6 +110303,7 @@
   "id": "node/10050491195",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/10050491195"
   },
   "geometry": {
@@ -110327,6 +110343,7 @@
   "id": "node/10050845117",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "wheelchair": "no",
     "id": "node/10050845117"
@@ -110517,6 +110534,270 @@
     "coordinates": [
       9.3213903,
       47.4186483
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10064327656",
+  "properties": {
+    "defibrillator:location": "Contre le mur, entre les caisses et la vitrine",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/10064327656"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9563448,
+      46.2647976
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10064327657",
+  "properties": {
+    "defibrillator:location": "Contre le mur, entre Office World et Migros.",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/10064327657"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9562696,
+      46.2653903
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10064328892",
+  "properties": {
+    "defibrillator:location": "Contre le mur, entre les deux salles de gym, côté vestiaire.",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/10064328892"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9522013,
+      46.2595896
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10066918175",
+  "properties": {
+    "defibrillator:location": "Just after the toll booth on the left",
+    "emergency": "defibrillator",
+    "id": "node/10066918175"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1934946,
+      45.8993402
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10068469904",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Dans le hall des vestiaires",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/10068469904"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1570658,
+      46.8090191
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10068566545",
+  "properties": {
+    "defibrillator:location": "Dans le hall d'entrée",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/10068566545"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1531352,
+      46.8065474
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10068609305",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Man find in 3. Stock rechts. Es ist ein Nebengebäude der Französische Schule. Der Besitzer des Defibrillators ist das Lycée Français de Zurich, das sich in der Zukunfstrasse 1, 8600 Dübendorf, befindet.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "operator": "Anne Bauer",
+    "phone": "+41 43 355 03 22",
+    "id": "node/10068609305"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.602649,
+      47.4012177
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10068611294",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der Defibrillator befindet sich im 3.Stock gegenüber der Personenlifte.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 06:30-21:30; Sa 06:30-14:00",
+    "operator": "Sandra Gloor",
+    "phone": "+41 79 549 43 55",
+    "id": "node/10068611294"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3142591,
+      47.4146397
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10068611295",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der Defibrillator befindet sich im 1.Stock an der Wand. Zugänglich über Personenlift oder Treppenhaus.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-17:30",
+    "operator": "Sandra Gloor",
+    "phone": "+41 79 549 43 55",
+    "id": "node/10068611295"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3035967,
+      47.402291
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10068611296",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der Defibrillator befindet sich beim Haupteingang EG, links an der Wand.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Th 06:30-17:00; Fr 06:30-16:00",
+    "operator": "Sandra Gloor",
+    "phone": "+41 79 549 43 55",
+    "id": "node/10068611296"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.302788,
+      47.4009972
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10068614312",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Eingangsbereich des Hotels",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 06:00-22:00",
+    "operator": "Hotel Gasthof zum Ochsen",
+    "phone": "+41 61 706 25 66",
+    "id": "node/10068614312"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6214077,
+      47.4933861
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10068616775",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "in der Zivilschutzanlage",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Gemeindeverwaltung Worb",
+    "phone": "+41 31 838 07 82",
+    "id": "node/10068616775"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5626063,
+      46.9256832
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10071606417",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Sanitätsraum Körber Pharma Packaging AG",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "07.00 bis 17.00",
+    "operator": "Körber Pharma Packaging AG ",
+    "id": "node/10071606417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4586404,
+      47.1825902
     ]
   }
 }

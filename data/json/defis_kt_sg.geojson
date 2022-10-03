@@ -15122,6 +15122,7 @@
   "properties": {
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "id": "node/9904470796"
   },
   "geometry": {
@@ -15929,6 +15930,7 @@
   "id": "node/10050845117",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "wheelchair": "no",
     "id": "node/10050845117"
@@ -16007,6 +16009,97 @@
     "coordinates": [
       9.3213903,
       47.4186483
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10068611294",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der Defibrillator befindet sich im 3.Stock gegenüber der Personenlifte.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 06:30-21:30; Sa 06:30-14:00",
+    "operator": "Sandra Gloor",
+    "phone": "+41 79 549 43 55",
+    "id": "node/10068611294"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3142591,
+      47.4146397
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10068611295",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der Defibrillator befindet sich im 1.Stock an der Wand. Zugänglich über Personenlift oder Treppenhaus.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-17:30",
+    "operator": "Sandra Gloor",
+    "phone": "+41 79 549 43 55",
+    "id": "node/10068611295"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3035967,
+      47.402291
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10068611296",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der Defibrillator befindet sich beim Haupteingang EG, links an der Wand.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Th 06:30-17:00; Fr 06:30-16:00",
+    "operator": "Sandra Gloor",
+    "phone": "+41 79 549 43 55",
+    "id": "node/10068611296"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.302788,
+      47.4009972
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10071606417",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Sanitätsraum Körber Pharma Packaging AG",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "07.00 bis 17.00",
+    "operator": "Körber Pharma Packaging AG ",
+    "id": "node/10071606417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4586404,
+      47.1825902
     ]
   }
 }
