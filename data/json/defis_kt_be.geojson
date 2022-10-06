@@ -22039,6 +22039,7 @@
     "defibrillator:location": "Gemeindesaal / Mehrzweckgebäude - Aussen am Gebäude, neben Eingang - 24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Einwohnergemeinde Krattigen",
     "phone": "+41 33 654 16 55",
@@ -24295,30 +24296,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6986767546",
-  "properties": {
-    "access": "private",
-    "addr:city": "Frutigen",
-    "addr:housenumber": "25",
-    "addr:postcode": "3714",
-    "addr:street": "Schwandistrasse",
-    "defibrillator:location": "Im Innern der Firma - nur mit Zutrittsberechtigung erreichbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "operator": "Bucher Hydraulics AG",
-    "phone": "+41 33 672 61 42",
-    "id": "node/6986767546"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6595134,
-      46.5916192
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6986767547",
   "properties": {
     "access": "permissive",
@@ -24622,16 +24599,17 @@
     "defibrillator:location": "Bei der Rampe (Tor 4) am rechten Ende des Besucherparkplatzes",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Bucher Hydraulics Frutigen",
-    "phone": "+41 33 672 61 42",
+    "operator": "Bucher Hydraulics AG Frutigen",
+    "phone": "+41 33 672 61 98",
     "id": "node/6986767559"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6595895,
-      46.5914008
+      7.6596364,
+      46.5914874
     ]
   }
 },
