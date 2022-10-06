@@ -20652,19 +20652,22 @@
   "type": "Feature",
   "id": "node/7289424966",
   "properties": {
+    "access": "customers",
     "defibrillator:location": "Durch den Haupteingang, links am am Empfang vorbei, gegenüber den Aufzügen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "operator": "Kuoni Mueller & Partner Holding AG",
+    "phone": "+41 58 317 17 17",
     "wheelchair": "yes",
     "id": "node/7289424966"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4949249,
-      47.3841304
+      8.4949391,
+      47.3840017
     ]
   }
 },
@@ -110821,6 +110824,29 @@
     "coordinates": [
       6.498091,
       46.5083405
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10079206817",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bionstrasse 7 / 1. OG / Empfang",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-12:00 13:00-17:00",
+    "operator": "Geschäftlich",
+    "phone": "0713132323",
+    "id": "node/10079206817"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3154443,
+      47.4090853
     ]
   }
 }
