@@ -533,6 +533,26 @@
 },
 {
   "type": "Feature",
+  "id": "node/3018863313",
+  "properties": {
+    "addr:city": "Morges",
+    "addr:country": "CH",
+    "addr:housenumber": "1",
+    "addr:postcode": "1110",
+    "addr:street": "Chemin Emile Küpfer",
+    "emergency": "defibrillator",
+    "id": "node/3018863313"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.494963,
+      46.5136761
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/3042949118",
   "properties": {
     "emergency": "defibrillator",
@@ -110991,6 +111011,78 @@
     "coordinates": [
       7.9467369,
       47.2854765
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10081921522",
+  "properties": {
+    "defibrillator:location": "Dans le sas d'entrée",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "Ville de Morges",
+    "id": "node/10081921522"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.5004473,
+      46.516047
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10081924842",
+  "properties": {
+    "defibrillator:location": "Dans la zone d'entrée",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "Ville de Morges",
+    "id": "node/10081924842"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.4883899,
+      46.5119414
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10081939924",
+  "properties": {
+    "defibrillator:location": "Dans le hall d'entrée de la piscine",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "Ville de Morges",
+    "id": "node/10081939924"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.4877193,
+      46.5139259
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10081940654",
+  "properties": {
+    "defibrillator:location": "Dans le hall d'entrée",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "Ville de Morges",
+    "id": "node/10081940654"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.500679,
+      46.5162974
     ]
   }
 }
