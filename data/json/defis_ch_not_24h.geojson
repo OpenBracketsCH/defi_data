@@ -43411,6 +43411,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/7930677688",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Seebad Seeliken, bei der Badaufsicht",
+    "description": "während dem Badebetrieb",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "Unbekannt",
+    "operator": "Stadtverwaltung Zug, Fachbereich Interne Sicherheit",
+    "phone": "+41 58 728 90 63",
+    "id": "node/7930677688"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5133732,
+      47.1642889
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/7933294831",
   "properties": {
     "access": "yes",
@@ -89519,7 +89542,6 @@
     "access": "yes",
     "defibrillator:location": "Dans l'entrée du musée",
     "emergency": "defibrillator",
-    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "id": "node/9542715538"
@@ -111197,6 +111219,28 @@
     "coordinates": [
       7.5733192,
       47.1709296
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10097196717",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "H03 Eingang innen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-So 06:30-22:00 Uhr",
+    "operator": "KSSG",
+    "phone": "0714947070",
+    "id": "node/10097196717"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3868481,
+      47.4304888
     ]
   }
 }
