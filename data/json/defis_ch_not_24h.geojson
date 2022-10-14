@@ -22543,6 +22543,25 @@
 },
 {
   "type": "Feature",
+  "id": "node/7579663110",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "In Polizeidienststelle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Kanton Zug",
+    "id": "node/7579663110"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4264989,
+      47.1401142
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/7580387589",
   "properties": {
     "access": "private",
@@ -42877,25 +42896,6 @@
     "coordinates": [
       8.4266397,
       47.1401947
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7930278098",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "EG- An der Hausmauer beim Skaterpark.",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/7930278098"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4333144,
-      47.1419151
     ]
   }
 },
@@ -95171,6 +95171,28 @@
     "coordinates": [
       8.5763224,
       47.4150787
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9696683817",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Alterszentrum Dreilinden",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-16:00",
+    "phone": "0417903464",
+    "id": "node/9696683817"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4318603,
+      47.140741
     ]
   }
 },
