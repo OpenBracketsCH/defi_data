@@ -111611,8 +111611,54 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.8841227,
-      46.6896263
+      7.8855282,
+      46.6894092
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10108177466",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang rechts",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo 08:00-11:30, 14:00-18:00; Tu 08:00-11:30, 14:00-17:00; Th 8:00-11:30, 14:00-17:00; Fr 08:00-16:00",
+    "operator": "Gemeinde Herisau",
+    "phone": "+41 71 354 54 54",
+    "id": "node/10108177466"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2777563,
+      47.3851233
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10108196376",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im EG, in der Montagehalle bei den Toiletten, im Sanitätsrucksack. Im Empfangsbereich steht ein Telefon, die Betriebssanität ist unter 5144 erreichbar",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-17:00",
+    "operator": "Signode Switzerland GmbH",
+    "phone": "+41447455050",
+    "id": "node/10108196376"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3950889,
+      47.4178413
     ]
   }
 }
