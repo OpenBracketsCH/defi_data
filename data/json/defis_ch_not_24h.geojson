@@ -27744,24 +27744,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637818616",
-  "properties": {
-    "description": "Rezeption",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Frutt Mountain Resort",
-    "id": "node/7637818616"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.2701323,
-      46.7740226
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637818618",
   "properties": {
     "emergency": "defibrillator",
@@ -111730,6 +111712,29 @@
     "coordinates": [
       7.6067584,
       47.135653
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10110736717",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Werkgebäude, Haupteingang ",
+    "description": "Während Öffnungszeiten verfügbar ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr: 07:00 - 11:30 und 13:30 - 17:00",
+    "operator": "Werke Wangen-Brüttisellen ",
+    "phone": "+41448352244",
+    "id": "node/10110736717"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6302903,
+      47.4246465
     ]
   }
 }
