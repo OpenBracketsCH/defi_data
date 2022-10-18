@@ -19491,6 +19491,50 @@
       47.1080632
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/10111386663",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der Defi ist an der Aussenwand links vom Feuerwehrgebäude montiert",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Politische Gemeinde Oberriet, Urs Buschor",
+    "phone": "+41 71 763 64 75",
+    "id": "node/10111386663"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5669581,
+      47.3279049
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10111410072",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Personaleingang, jedoch durch den Haupteingang erreichbar",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-12:00, 13:00-18:00",
+    "id": "node/10111410072"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4381772,
+      47.0418131
+    ]
+  }
 }
 ]
 }
