@@ -33538,11 +33538,7 @@
   "id": "node/8728792853",
   "properties": {
     "access": "yes",
-    "addr:city": "Gümligen",
-    "addr:housenumber": "201a",
-    "addr:postcode": "3073",
-    "addr:street": "Worbstrasse",
-    "defibrillator:location": "-",
+    "defibrillator:location": "Rechts vor dem Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
@@ -33553,8 +33549,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5042298,
-      46.9341665
+      7.5042502,
+      46.9341795
     ]
   }
 },
@@ -43522,6 +43518,22 @@
     "coordinates": [
       7.4369252,
       46.9962429
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10131031648",
+  "properties": {
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/10131031648"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9747679,
+      46.5750063
     ]
   }
 }
