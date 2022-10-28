@@ -22543,6 +22543,26 @@
 },
 {
   "type": "Feature",
+  "id": "node/7579656843",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "In Polizeidienststelle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Kanton Zug",
+    "id": "node/7579656843"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5772672,
+      47.1381025
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/7579663110",
   "properties": {
     "access": "yes",
@@ -43217,7 +43237,7 @@
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "operator": "Stadtverwaltung Zug, Fachbereich Interne Sicherheit",
     "phone": "+41 58 728 90 63",
     "id": "node/7930654665"
@@ -43225,8 +43245,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5035065,
-      47.1814566
+      8.5040815,
+      47.1814791
     ]
   }
 },
@@ -91973,6 +91993,28 @@
     "coordinates": [
       8.5150886,
       47.1645665
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9605130362",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulanlage Oberwil, Eingang ZSA links (bei Turnhalle)",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Stadtverwaltung Zug, Fachbereich Interne Sicherheit",
+    "phone": "+41 58 728 90 63",
+    "id": "node/9605130362"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5085209,
+      47.149137
     ]
   }
 },
