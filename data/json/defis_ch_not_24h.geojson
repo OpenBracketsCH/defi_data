@@ -12386,30 +12386,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6636838637",
-  "properties": {
-    "access": "private",
-    "addr:city": "Vinelz",
-    "addr:housenumber": "51",
-    "addr:postcode": "3234",
-    "addr:street": "Seestrandweg",
-    "defibrillator:location": "nur über Feuerwehr zu beziehen (Tel. 118 oder 079 408 68 27)",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "operator": "Feuerwehr Jolimont",
-    "phone": "+41 79 408 68 27",
-    "id": "node/6636838637"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.1004082,
-      47.0436625
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6636906407",
   "properties": {
     "access": "permissive",
@@ -112840,6 +112816,53 @@
     "coordinates": [
       8.7251821,
       47.2385489
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10139336637",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "EG Haupttreppenhaus",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "Urs Zahner",
+    "phone": "+41 79 455 81 81",
+    "id": "node/10139336637"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6027368,
+      47.3943688
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10139353688",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Links neben dem Empfang auf einem Regal.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-19:00",
+    "operator": "Detail AG",
+    "phone": "+41 43 488 38 38",
+    "id": "node/10139353688"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5592606,
+      47.3620819
     ]
   }
 }
