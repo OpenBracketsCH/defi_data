@@ -20887,13 +20887,13 @@
   "id": "node/8544496117",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Physiotherapie Uwe Eggerickx, Untere Bahnhofstrasse 3, Kollbrunn",
+    "defibrillator:location": "Hauseingang zu Praxis Uwe Eggerickx",
     "description": "im öffentl. Eingangsbereich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Privatperson",
+    "operator": "Gemeinde Zell ZH",
+    "phone": "+41 52 397 03 03",
     "id": "node/8544496117"
   },
   "geometry": {
@@ -49143,6 +49143,142 @@
     "coordinates": [
       8.5592606,
       47.3620819
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10139365338",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang zum Freibad",
+    "description": "im öffentl. Eingangsbereich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Zell ZH",
+    "phone": "+41 52 397 03 03",
+    "id": "node/10139365338"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6842431,
+      47.4318734
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10139365339",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Langenhard, Eingang/Vordach",
+    "description": "im öffentl. Eingangsbereich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Zell ZH",
+    "phone": "+41 52 397 03 03",
+    "id": "node/10139365339"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8082094,
+      47.4539923
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10139384936",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Eingang Ost oder West, 1. OG Haupteingang Firma Entec AG, Im Gang nach der 1. Säule auf der rechten Seite.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
+    "operator": "Schibli AG",
+    "phone": "+41 44 800 80 00",
+    "id": "node/10139384936"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5927436,
+      47.4487601
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10139389246",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Gebäude, Stockwerk EG, Eingangstüre öffnen, rechts an der Wand ist der Defibrillator montiert.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 06:30-17:30",
+    "operator": "Carl Meier Sohn AG, Roger Meier & Selina Wirth",
+    "phone": "+41443683333",
+    "id": "node/10139389246"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6245412,
+      47.4373552
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10139397767",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang - Rechte Seite",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Alters - und Pflegeheim Böndler / Technischer Dienst",
+    "phone": "+41 52 396 50 20",
+    "id": "node/10139397767"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8621581,
+      47.3689949
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10139401093",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hauswand altes Primarschulhaus",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Zell ZH",
+    "phone": "+41 52 397 03 03",
+    "id": "node/10139401093"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8217507,
+      47.4453269
     ]
   }
 }
