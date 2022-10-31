@@ -65486,27 +65486,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8883180325",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Sun Sea Bar",
-    "description": "immer verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Gemeinde",
-    "id": "node/8883180325"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.1069669,
-      47.0394103
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8887139938",
   "properties": {
     "access": "no",
@@ -113086,6 +113065,29 @@
     "coordinates": [
       7.4123554,
       46.9084519
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10143117073",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Treppenhaus rechts nach Eingangsbereich",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Empfang",
+    "phone": "+41 800 711 222",
+    "id": "node/10143117073"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8929872,
+      47.5463325
     ]
   }
 }
