@@ -41018,6 +41018,28 @@
 },
 {
   "type": "Feature",
+  "id": "node/8544484717",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Ausserhalb des Freibades fix montiert",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Zell",
+    "id": "node/8544484717"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.795383,
+      47.4460732
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8544496117",
   "properties": {
     "access": "yes",
@@ -70132,12 +70154,12 @@
   "type": "Feature",
   "id": "node/9634886857",
   "properties": {
-    "access": "no",
+    "access": "yes",
     "defibrillator:location": "Neben dem Eingang",
     "description": "nur mit Zugangskarte erreichbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
     "operator": "Schweizer Radio und Fernsehen",
@@ -70147,8 +70169,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5605032,
-      47.416302
+      8.5606603,
+      47.416237
     ]
   }
 },
