@@ -14346,6 +14346,7 @@
   "properties": {
     "access": "yes",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "level": "0",
     "opening_hours": "24/7",
     "wheelchair": "yes",
@@ -14356,6 +14357,29 @@
     "coordinates": [
       8.2439507,
       47.3481015
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10146530226",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Caporaso AG, im Gebäude",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
+    "operator": "Caporaso AG, Walter Caporaso",
+    "phone": "+41 56 241 14 94",
+    "id": "node/10146530226"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2420635,
+      47.5243193
     ]
   }
 }

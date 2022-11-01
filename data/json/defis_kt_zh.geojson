@@ -36147,6 +36147,7 @@
     "access": "private",
     "defibrillator:location": "Neben der Anlieferung",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "-2",
     "opening_hours": "24/7",
@@ -36159,6 +36160,74 @@
     "coordinates": [
       8.5194113,
       47.382009
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10146499961",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Treppenhaus, Erdgeschoss.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Schweiz. Verein des Gas- und Wasserfaches (SVGW)",
+    "phone": "+41 44 288 33 33",
+    "id": "node/10146499961"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5308885,
+      47.3617898
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10146530227",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Links neben den gelben Eingangstüren zur Turnhalle Maschwanden",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Maschwanden",
+    "phone": "+41 44 767 90 77",
+    "id": "node/10146530227"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4261945,
+      47.2340088
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10146560455",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Auf dem Dorfplatz, am Gemeindesaal aussen.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Schleinikon",
+    "id": "node/10146560455"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3958621,
+      47.4974462
     ]
   }
 }

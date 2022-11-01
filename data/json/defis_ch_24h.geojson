@@ -77821,6 +77821,7 @@
     "access": "yes",
     "defibrillator:location": "A la réception",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "opening_hours": "24/7",
@@ -78258,6 +78259,7 @@
     "access": "yes",
     "defibrillator:location": "Aussen an der Hauswand",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "location": "outdoor",
     "opening_hours": "24/7",
     "id": "node/10128274243"
@@ -78498,6 +78500,7 @@
     "access": "private",
     "defibrillator:location": "Neben der Anlieferung",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "-2",
     "opening_hours": "24/7",
@@ -78519,6 +78522,7 @@
   "properties": {
     "access": "yes",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "level": "0",
     "opening_hours": "24/7",
     "wheelchair": "yes",
@@ -78529,6 +78533,98 @@
     "coordinates": [
       8.2439507,
       47.3481015
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10146483188",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Links an der Frontfassade",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Tafers",
+    "phone": "+41 26 494 80 12",
+    "id": "node/10146483188"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2137891,
+      46.8169002
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10146530227",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Links neben den gelben Eingangstüren zur Turnhalle Maschwanden",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Maschwanden",
+    "phone": "+41 44 767 90 77",
+    "id": "node/10146530227"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4261945,
+      47.2340088
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10146542552",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An der Strasse",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Lostorf",
+    "phone": "+41 62 285 80 80",
+    "id": "node/10146542552"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9471278,
+      47.3819517
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10146560455",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Auf dem Dorfplatz, am Gemeindesaal aussen.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Schleinikon",
+    "id": "node/10146560455"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3958621,
+      47.4974462
     ]
   }
 }

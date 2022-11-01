@@ -7763,6 +7763,7 @@
   "properties": {
     "defibrillator:location": "Heidelberger Hütte",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "operator": "Björn Steiger Stiftung",
     "operator:wikidata": "Q879521",
@@ -7930,6 +7931,29 @@
     "coordinates": [
       9.5008581,
       46.8466651
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10146447609",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Erdgeschoss / Eingangshalle / links von der Treppe",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-19:00",
+    "operator": "Region Maloja / Geschäftsstelle",
+    "phone": "+41 81 852 30 33",
+    "id": "node/10146447609"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.8734813,
+      46.5364916
     ]
   }
 }

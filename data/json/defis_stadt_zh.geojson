@@ -7253,6 +7253,7 @@
     "access": "private",
     "defibrillator:location": "Neben der Anlieferung",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "-2",
     "opening_hours": "24/7",
@@ -7265,6 +7266,29 @@
     "coordinates": [
       8.5194113,
       47.382009
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10146499961",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Treppenhaus, Erdgeschoss.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Schweiz. Verein des Gas- und Wasserfaches (SVGW)",
+    "phone": "+41 44 288 33 33",
+    "id": "node/10146499961"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5308885,
+      47.3617898
     ]
   }
 }

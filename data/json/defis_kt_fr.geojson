@@ -1060,6 +1060,7 @@
     "access": "yes",
     "defibrillator:location": "Dans l'entrée du musée",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "id": "node/9542715538"
@@ -1908,6 +1909,7 @@
     "access": "yes",
     "defibrillator:location": "Dans le hall des vestiaires",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "id": "node/10068469904"
@@ -1926,6 +1928,7 @@
   "properties": {
     "defibrillator:location": "Dans le hall d'entrée",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "id": "node/10068566545"
@@ -2021,6 +2024,29 @@
     "coordinates": [
       7.0529464,
       46.614961
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10146483188",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Links an der Frontfassade",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Tafers",
+    "phone": "+41 26 494 80 12",
+    "id": "node/10146483188"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2137891,
+      46.8169002
     ]
   }
 }
