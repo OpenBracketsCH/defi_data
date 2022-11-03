@@ -67529,29 +67529,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8977158269",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Eingang Elisabethenstrassse 43",
-    "description": "nur für Mitarbeiter der VBZ zugänglich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "operator": "VBZ",
-    "phone": "+41 44 411 41 44,",
-    "id": "node/8977158269"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5210294,
-      47.3738641
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8977158270",
   "properties": {
     "access": "no",
@@ -73080,27 +73057,6 @@
     "coordinates": [
       9.213159,
       47.6420264
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9084201217",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Basefit 3 Stock ",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "6:30-23:00",
-    "operator": "Basefit",
-    "id": "node/9084201217"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5193911,
-      47.3754136
     ]
   }
 },
@@ -90897,28 +90853,6 @@
     "coordinates": [
       8.3040293,
       47.4228203
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9587172319",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "1 Stock Mezzanine",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Medisol - Frau Doris Graf",
-    "phone": "+41 31 528 07 30",
-    "id": "node/9587172319"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5204409,
-      47.3740568
     ]
   }
 },
@@ -113161,6 +113095,29 @@
     "coordinates": [
       7.7757472,
       47.2297362
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10154555917",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Foyer",
+    "description": "nur während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo - Fr 08:00-16:00",
+    "operator": "finnova AG bankware",
+    "phone": "+41764773706",
+    "id": "node/10154555917"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1795965,
+      47.3916823
     ]
   }
 }
