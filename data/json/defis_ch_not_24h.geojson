@@ -3788,6 +3788,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "operator": "Centre Manor",
     "id": "node/5214074021"
   },
   "geometry": {
@@ -4866,6 +4867,7 @@
   "properties": {
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "operator": "Gymnase de Burier",
     "id": "node/5981613289"
   },
   "geometry": {
@@ -4882,6 +4884,7 @@
   "properties": {
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "operator": "Gymnase de Burier",
     "id": "node/5981620685"
   },
   "geometry": {
@@ -5665,8 +5668,11 @@
   "type": "Feature",
   "id": "node/6442457038",
   "properties": {
+    "access": "yes",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Swiss Vapeur Parc",
     "id": "node/6442457038"
   },
   "geometry": {
@@ -9039,6 +9045,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "operator": "Migros",
     "id": "node/6601252181"
   },
   "geometry": {
@@ -19849,6 +19856,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "-1",
+    "operator": "Migros",
     "id": "node/7056515216"
   },
   "geometry": {
@@ -20569,6 +20577,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "operator": "Raiffeisen",
     "id": "node/7288577561"
   },
   "geometry": {
@@ -20631,6 +20640,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "operator": "Migros",
     "id": "node/7294364647"
   },
   "geometry": {
@@ -37054,6 +37064,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "operator": "Piscine de Vevey-Corseaux Plage",
     "id": "node/7684737162"
   },
   "geometry": {
@@ -40507,6 +40518,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "-1",
+    "operator": "Migros",
     "id": "node/7854066640"
   },
   "geometry": {
@@ -45296,6 +45308,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
+    "operator": "Château de Chillon",
     "id": "node/8013761524"
   },
   "geometry": {
@@ -45358,6 +45371,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "operator": "Vision Apartments",
     "id": "node/8038002539"
   },
   "geometry": {
@@ -49188,6 +49202,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "operator": "Migros",
     "id": "node/8262928342"
   },
   "geometry": {
@@ -83191,6 +83206,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
+    "operator": "Migros",
     "id": "node/9373267160"
   },
   "geometry": {
@@ -97511,6 +97527,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "operator": "Commune de Chardonne",
     "id": "node/9776678713"
   },
   "geometry": {
@@ -100136,6 +100153,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "operator": "Piscine de Vevey-Corseaux Plage",
     "id": "node/9865460546"
   },
   "geometry": {
@@ -109192,6 +109210,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "operator": "SIGE",
     "id": "node/10020525015"
   },
   "geometry": {
@@ -113097,26 +113116,6 @@
     "coordinates": [
       8.9988431,
       47.4780745
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10155478781",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Attaccato al muro di fronte al parcheggio, colore verde. / Attached to the wall facing the parking lot, green colour.",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "hours": "24/7",
-    "indoor": "no",
-    "id": "node/10155478781"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.0050387,
-      45.8468864
     ]
   }
 }

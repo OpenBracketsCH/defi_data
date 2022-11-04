@@ -2106,6 +2106,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Ambulance Riviera",
     "id": "node/5214068322"
   },
   "geometry": {
@@ -28387,6 +28388,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Riviera Carburant Lavage",
     "id": "node/7678508289"
   },
   "geometry": {
@@ -30732,6 +30734,7 @@
     "indoor": "yes",
     "level": "0",
     "opening_hours": "24/7",
+    "operator": "Police Riviera",
     "id": "node/7810372470"
   },
   "geometry": {
@@ -66687,6 +66690,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Commune de Chardonne",
     "id": "node/9437104657"
   },
   "geometry": {
@@ -78688,6 +78692,26 @@
     "coordinates": [
       8.6667842,
       47.2308053
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10155478781",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Attaccato al muro di fronte al parcheggio, colore verde. / Attached to the wall facing the parking lot, green colour.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/10155478781"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0050387,
+      45.8468864
     ]
   }
 }
