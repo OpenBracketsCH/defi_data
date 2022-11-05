@@ -1010,18 +1010,20 @@
   "type": "Feature",
   "id": "node/6698784824",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "A l'entrée du restaurant Migros",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
+    "operator": "Migros",
     "id": "node/6698784824"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.5695233,
-      46.5539384
+      6.5697082,
+      46.5541206
     ]
   }
 },
@@ -1029,11 +1031,13 @@
   "type": "Feature",
   "id": "node/6698791511",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "A l'entrée de la Migros (au service clientèle)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "operator": "Migros",
     "id": "node/6698791511"
   },
   "geometry": {
@@ -2418,6 +2422,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "operator": "Migros",
     "id": "node/8638007152"
   },
   "geometry": {
