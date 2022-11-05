@@ -137,6 +137,7 @@
     "addr:postcode": "1009",
     "addr:street": "Place Neuve",
     "defibrillator:location": "Pharmacie SunStore",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -159,6 +160,7 @@
     "addr:postcode": "1009",
     "addr:street": "Chemin du Pré de la Tour",
     "defibrillator:location": "Pharmacie de la Clergère",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -181,6 +183,7 @@
     "addr:postcode": "1009",
     "addr:street": "Place de la Gare",
     "defibrillator:location": "Pharmacie Place Neuve",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -203,6 +206,7 @@
     "addr:postcode": "1009",
     "addr:street": "Rue de la Poste",
     "defibrillator:location": "Pharmacie Amavita Pulliérane",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -292,6 +296,7 @@
     "addr:postcode": "1009",
     "addr:street": "Avenue Général Guisan",
     "defibrillator:location": "Siège du CIO Lausanne - réception",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -309,9 +314,11 @@
   "type": "Feature",
   "id": "node/4940988851",
   "properties": {
+    "access": "yes",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "operator": "Police Lavaux",
     "id": "node/4940988851"
   },
   "geometry": {
@@ -363,7 +370,9 @@
   "type": "Feature",
   "id": "node/5214073921",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Dans le hall d'entrée, à droite",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -384,6 +393,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "A côté des escalators",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -423,8 +433,11 @@
   "type": "Feature",
   "id": "node/5313721921",
   "properties": {
+    "access": "yes",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "operator": "Bibliothèque de Vully-les-Lacs",
     "id": "node/5313721921"
   },
   "geometry": {
@@ -439,9 +452,11 @@
   "type": "Feature",
   "id": "node/5469158722",
   "properties": {
+    "access": "yes",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "operator": "Police Est-Lausannois",
     "id": "node/5469158722"
   },
   "geometry": {
@@ -473,6 +488,7 @@
   "type": "Feature",
   "id": "node/5981613289",
   "properties": {
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "operator": "Gymnase de Burier",
@@ -490,6 +506,7 @@
   "type": "Feature",
   "id": "node/5981620685",
   "properties": {
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "operator": "Gymnase de Burier",
@@ -507,6 +524,7 @@
   "type": "Feature",
   "id": "node/6019672196",
   "properties": {
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -532,6 +550,7 @@
     "indoor": "yes",
     "level": "-1",
     "opening_hours": "Mo-Th 08:00-18:45; Fr 08:00-20:00; Sa 07:30-18:00",
+    "operator": "Migros",
     "id": "node/6030108805"
   },
   "geometry": {
@@ -573,6 +592,7 @@
     "indoor": "yes",
     "level": "0",
     "opening_hours": "Mo-We 10:00-19:00; Th-Fr 10:00-21:00; Sa 09:00-19:00",
+    "operator": "IKEA",
     "id": "node/6313845123"
   },
   "geometry": {
@@ -594,6 +614,7 @@
     "indoor": "yes",
     "level": "1",
     "opening_hours": "Mo-We 10:00-19:00; Th-Fr 10:00-21:00; Sa 09:00-19:00",
+    "operator": "IKEA",
     "id": "node/6313845124"
   },
   "geometry": {
@@ -628,10 +649,13 @@
   "type": "Feature",
   "id": "node/6334939083",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "A côté de l'ancien kiosque",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Police Nord Vaudois",
     "id": "node/6334939083"
   },
   "geometry": {
@@ -646,10 +670,13 @@
   "type": "Feature",
   "id": "node/6337049882",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "A côté de l'arrêt de bus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Police Nord Vaudois",
     "id": "node/6337049882"
   },
   "geometry": {
@@ -671,6 +698,7 @@
     "indoor": "yes",
     "level": "0",
     "opening_hours": "Mo-Th 08:00-18:45; Fr 08:00-20:00; Sa 08:00-18:00",
+    "operator": "Centre Commercial La Gottaz",
     "id": "node/6338517136"
   },
   "geometry": {
@@ -764,9 +792,11 @@
   "type": "Feature",
   "id": "node/6356303709",
   "properties": {
+    "access": "yes",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "operator": "Hôpital de Nyon",
     "id": "node/6356303709"
   },
   "geometry": {
@@ -781,10 +811,10 @@
   "type": "Feature",
   "id": "node/6356303710",
   "properties": {
-    "access": "private",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "operator": "SDIS Nyon-Dôle",
     "id": "node/6356303710"
   },
   "geometry": {
@@ -823,6 +853,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "operator": "Migros",
     "id": "node/6457514546"
   },
   "geometry": {
@@ -855,12 +886,13 @@
   "type": "Feature",
   "id": "node/6476423227",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "A l'entrée des vestiaires",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "0",
     "opening_hours": "24/7",
+    "operator": "Centre sportif de Colovray",
     "id": "node/6476423227"
   },
   "geometry": {
@@ -875,6 +907,7 @@
   "type": "Feature",
   "id": "node/6482847068",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "A l'entrée de la salle de gym",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -910,8 +943,8 @@
   "type": "Feature",
   "id": "node/6502128994",
   "properties": {
-    "access": "private",
     "defibrillator:location": "En bas à droite de l'escalier qui vient de la cour",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -930,6 +963,7 @@
   "type": "Feature",
   "id": "node/6516960948",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "A gauche de l'entrée",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -951,6 +985,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "A côté des toilettes",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -1012,6 +1047,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "A l'entrée du restaurant Migros",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -1033,6 +1069,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "A l'entrée de la Migros (au service clientèle)",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -1053,6 +1090,7 @@
   "id": "node/6788958396",
   "properties": {
     "defibrillator:location": "A l'entrée arrière du bâtiment",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -1073,10 +1111,12 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Derrière la loge à gauche du hall d'entrée (niveau E)",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "operator": "HEIG-VD",
     "id": "node/6810233573"
   },
   "geometry": {
@@ -1091,11 +1131,14 @@
   "type": "Feature",
   "id": "node/6984969085",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Dans l'escalier principal",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
+    "operator": "Palais de Rumine",
     "id": "node/6984969085"
   },
   "geometry": {
@@ -1112,10 +1155,12 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "A l'accueil du Do It Garden",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "operator": "Migros",
     "id": "node/7046673475"
   },
   "geometry": {
@@ -1132,6 +1177,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "A côté des ascenseurs (sortie des caisses Migros)",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -1151,11 +1197,11 @@
   "type": "Feature",
   "id": "node/7198542160",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "A côté de l'entrée",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "0",
     "opening_hours": "24/7",
     "id": "node/7198542160"
   },
@@ -1171,11 +1217,13 @@
   "type": "Feature",
   "id": "node/7232379834",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Sous l'arcade",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Commune de Coppet",
     "id": "node/7232379834"
   },
   "geometry": {
@@ -1190,11 +1238,13 @@
   "type": "Feature",
   "id": "node/7241780321",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Devant le greffe municipal",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Commune de Vich",
     "id": "node/7241780321"
   },
   "geometry": {
@@ -1229,12 +1279,13 @@
   "type": "Feature",
   "id": "node/7260673064",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "A l'arrêt du train",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "0",
     "opening_hours": "24/7",
+    "operator": "NStCM",
     "id": "node/7260673064"
   },
   "geometry": {
@@ -1249,11 +1300,13 @@
   "type": "Feature",
   "id": "node/7261070190",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "A l'entrée du collège",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Commune de Gland",
     "id": "node/7261070190"
   },
   "geometry": {
@@ -1268,10 +1321,12 @@
   "type": "Feature",
   "id": "node/7261070191",
   "properties": {
+    "access": "yes",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Commune de Gland",
     "id": "node/7261070191"
   },
   "geometry": {
@@ -1286,10 +1341,12 @@
   "type": "Feature",
   "id": "node/7261070192",
   "properties": {
+    "access": "yes",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Commune de Gland",
     "id": "node/7261070192"
   },
   "geometry": {
@@ -1304,11 +1361,13 @@
   "type": "Feature",
   "id": "node/7261070193",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "A côté de l'entrée",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Commune de Gland",
     "id": "node/7261070193"
   },
   "geometry": {
@@ -1323,11 +1382,13 @@
   "type": "Feature",
   "id": "node/7261070194",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "A côté des toilettes",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Commune de Gland",
     "id": "node/7261070194"
   },
   "geometry": {
@@ -1364,10 +1425,12 @@
   "id": "node/7291436517",
   "properties": {
     "defibrillator:location": "Dans le corridor d'entrée",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "operator": "Commune de Givrins",
     "id": "node/7291436517"
   },
   "geometry": {
@@ -1384,6 +1447,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "En face des caisses de la Migros",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -1480,6 +1544,7 @@
   "properties": {
     "access": "customers",
     "defibrillator:location": "A la caisse",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -1553,10 +1618,13 @@
   "type": "Feature",
   "id": "node/7780390174",
   "properties": {
+    "access": "customers",
     "defibrillator:location": "A l'emplacement des gardiens",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "operator": "Piscine de Colovray",
     "id": "node/7780390174"
   },
   "geometry": {
@@ -1571,10 +1639,13 @@
   "type": "Feature",
   "id": "node/7780390175",
   "properties": {
+    "access": "customers",
     "defibrillator:location": "Au pied de la tour des gardiens",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "operator": "Piscine de Colovray",
     "id": "node/7780390175"
   },
   "geometry": {
@@ -1589,12 +1660,14 @@
   "type": "Feature",
   "id": "node/7780390176",
   "properties": {
-    "access": "private",
+    "access": "customers",
     "defibrillator:location": "A l'infirmerie",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "operator": "Piscine de Colovray",
     "id": "node/7780390176"
   },
   "geometry": {
@@ -1609,12 +1682,14 @@
   "type": "Feature",
   "id": "node/7780390177",
   "properties": {
-    "access": "private",
+    "access": "customers",
     "defibrillator:location": "A l'infirmerie",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "operator": "Centre sportif de Colovray",
     "id": "node/7780390177"
   },
   "geometry": {
@@ -1649,12 +1724,12 @@
   "type": "Feature",
   "id": "node/7780390179",
   "properties": {
-    "access": "private",
     "defibrillator:location": "A l'entrée du restaurant",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
+    "operator": "UEFA",
     "id": "node/7780390179"
   },
   "geometry": {
@@ -1669,13 +1744,13 @@
   "type": "Feature",
   "id": "node/7780390180",
   "properties": {
-    "access": "private",
     "defibrillator:location": "A l'accueil",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "opening_hours": "Mo-Fr 07:45-18:00",
+    "operator": "UEFA",
     "id": "node/7780390180"
   },
   "geometry": {
@@ -1690,12 +1765,12 @@
   "type": "Feature",
   "id": "node/7780390181",
   "properties": {
-    "access": "private",
     "defibrillator:location": "A la cafétéria",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
+    "operator": "UEFA",
     "id": "node/7780390181"
   },
   "geometry": {
@@ -1730,12 +1805,12 @@
   "type": "Feature",
   "id": "node/7780390183",
   "properties": {
-    "access": "private",
     "defibrillator:location": "Dans la cage d'escaliers à gauche en entrant",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "operator": "Clinique de Bois-Bougy",
     "id": "node/7780390183"
   },
   "geometry": {
@@ -1808,13 +1883,13 @@
   "type": "Feature",
   "id": "node/7780441887",
   "properties": {
-    "access": "private",
-    "defibrillator:location": "A l'accueil d'Edwards Lifesciences",
+    "defibrillator:location": "A l'accueil",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "opening_hours": "Mo-Fr 07:30-18:00",
+    "operator": "Edwards Lifesciences",
     "id": "node/7780441887"
   },
   "geometry": {
@@ -1829,12 +1904,12 @@
   "type": "Feature",
   "id": "node/7780441888",
   "properties": {
-    "access": "private",
-    "defibrillator:location": "A l'accueil de NGL Cleaning Technology",
+    "defibrillator:location": "A l'accueil",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "operator": "NGL Cleaning Technology",
     "id": "node/7780441888"
   },
   "geometry": {
@@ -1856,6 +1931,7 @@
     "indoor": "yes",
     "level": "0",
     "opening_hours": "Mo-Fr 07:15-12:00,13:30-16:30",
+    "operator": "Commune de Nyon",
     "id": "node/7780441889"
   },
   "geometry": {
@@ -1877,6 +1953,7 @@
     "indoor": "yes",
     "level": "0",
     "opening_hours": "Mo-Sa 09:00-19:00; Fr 09:00-21:00",
+    "operator": "Signy Centre",
     "id": "node/7780441890"
   },
   "geometry": {
@@ -1891,6 +1968,7 @@
   "type": "Feature",
   "id": "node/7781172974",
   "properties": {
+    "access": "yes",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -1933,6 +2011,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "A l'entrée du dépôt IKEA",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -1953,6 +2032,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "A côté des ascenseurs",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -1972,9 +2052,12 @@
   "type": "Feature",
   "id": "node/7881560365",
   "properties": {
+    "access": "yes",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "operator": "Migros",
     "id": "node/7881560365"
   },
   "geometry": {
@@ -1995,6 +2078,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "SDIS Nord vaudois",
     "id": "node/7911771120"
   },
   "geometry": {
@@ -2050,6 +2134,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "SDIS Nord vaudois",
     "id": "node/7958614224"
   },
   "geometry": {
@@ -2318,7 +2403,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "In der Schule erstes oder zweites Stockwerk",
-    "description": "während Öffnungszeiten verfügbar",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -2519,7 +2604,7 @@
   "type": "Feature",
   "id": "node/8897401196",
   "properties": {
-    "defibrillator:location": "2 au 2e étage, \n1 au 3e étage",
+    "defibrillator:location": "2 au 2e étage,  1 au 3e étage",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -2537,8 +2622,8 @@
   "type": "Feature",
   "id": "node/8903364585",
   "properties": {
-    "defibrillator:location": "Eingangsbereich",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Dans l'entrée",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -2701,8 +2786,8 @@
   "id": "node/9141466037",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Im Gebäude, an der Wand links von der Rezeption",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Sur le mur à gauche de la réception",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -2723,8 +2808,7 @@
   "id": "node/9143873802",
   "properties": {
     "access": "no",
-    "defibrillator:location": "im Gebäude",
-    "description": "während Öffnungszeiten verfügbar",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -2789,6 +2873,7 @@
   "type": "Feature",
   "id": "node/9155678657",
   "properties": {
+    "access": "yes",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "id": "node/9155678657"
@@ -2869,7 +2954,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "It is located on a wall in the entrance. Accessible to everyone.",
-    "description": "während Öffnungszeiten verfügbar",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -2975,7 +3060,7 @@
   "id": "node/9437104657",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "AED se trouvant contre le mur extérieur du bâtiment communal",
+    "defibrillator:location": "Contre le mur extérieur du bâtiment communal",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -2997,7 +3082,7 @@
   "id": "node/9437117588",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "AED contre le mur extérieur du collège à gauche de la porte principale.",
+    "defibrillator:location": "Contre le mur extérieur du collège à gauche de la porte principale",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -3039,7 +3124,7 @@
   "id": "node/9437180016",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "AED se trouvant dans la cabine téléphonique de l'arrêt du bus Jongny-Village",
+    "defibrillator:location": "Dans la cabine téléphonique de l'arrêt du bus Jongny-Village",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -3061,7 +3146,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "A gauche de l'entrée principale de la salle polyvalente.",
-    "description": "während Öffnungszeiten verfügbar",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -3081,7 +3166,7 @@
   "id": "node/9498474638",
   "properties": {
     "defibrillator:location": "Bei Bucherer",
-    "description": "während Öffnungszeiten verfügbar",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -3106,6 +3191,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "operator": "Restaurant des Pléiades",
     "id": "node/9543688972"
   },
   "geometry": {
@@ -3122,7 +3208,7 @@
   "properties": {
     "access": "no",
     "defibrillator:location": "Innerhalb des Gebäudes, rechts vom Nebeneingang",
-    "description": "während Öffnungszeiten verfügbar",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -3144,7 +3230,7 @@
   "properties": {
     "access": "no",
     "defibrillator:location": "Dans l'open space 50, près de l'imprimante mfp",
-    "description": "während Öffnungszeiten verfügbar",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -3270,7 +3356,7 @@
   "properties": {
     "access": "no",
     "defibrillator:location": "Im Erdgeschoss, Empfangsbereich Frigo-Consulting SA",
-    "description": "während Öffnungszeiten verfügbar",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -3463,7 +3549,7 @@
   "properties": {
     "access": "no",
     "defibrillator:location": "Kundenhaupteingan; im Bürobereich",
-    "description": "während Öffnungszeiten verfügbar",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -3508,7 +3594,7 @@
   "properties": {
     "access": "no",
     "defibrillator:location": "se présenter à la réception",
-    "description": "während Öffnungszeiten verfügbar",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -3546,12 +3632,12 @@
   "id": "node/9917843256",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Verkaufsfläche LIDL",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Surface de vente",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "LIDL Schweiz",
+    "operator": "Lidl",
     "phone": "+41716278074",
     "id": "node/9917843256"
   },
@@ -3568,12 +3654,12 @@
   "id": "node/9917843262",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Verkaufsfläche LIDL",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Surface de vente",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "LIDL Schweiz",
+    "operator": "Lidl",
     "phone": "+41716278074",
     "id": "node/9917843262"
   },
@@ -3590,12 +3676,12 @@
   "id": "node/9917843269",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Verkaufsfläche LIDL",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Surface de vente",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "LIDL Schweiz",
+    "operator": "Lidl",
     "phone": "+41716278074",
     "id": "node/9917843269"
   },
@@ -3612,12 +3698,12 @@
   "id": "node/9917843272",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Verkaufsfläche LIDL",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Surface de vente",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "LIDL Schweiz",
+    "operator": "Lidl",
     "phone": "+41716278074",
     "id": "node/9917843272"
   },
@@ -3634,12 +3720,12 @@
   "id": "node/9917843278",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Verkaufsfläche LIDL",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Surface de vente",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "LIDL Schweiz",
+    "operator": "Lidl",
     "phone": "+41716278074",
     "id": "node/9917843278"
   },
@@ -3656,12 +3742,12 @@
   "id": "node/9917843289",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Verkaufsfläche LIDL",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Surface de vente",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "LIDL Schweiz",
+    "operator": "Lidl",
     "phone": "+41716278074",
     "id": "node/9917843289"
   },
@@ -3678,12 +3764,12 @@
   "id": "node/9917845028",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Verkaufsfläche LIDL",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Surface de vente",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "LIDL Schweiz",
+    "operator": "Lidl",
     "phone": "+41716278074",
     "id": "node/9917845028"
   },
@@ -3700,12 +3786,12 @@
   "id": "node/9917845039",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Verkaufsfläche LIDL",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Surface de vente",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "LIDL Schweiz",
+    "operator": "Lidl",
     "phone": "+41716278074",
     "id": "node/9917845039"
   },
@@ -3722,12 +3808,12 @@
   "id": "node/9917845048",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Verkaufsfläche LIDL",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Surface de vente",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "LIDL Schweiz",
+    "operator": "Lidl",
     "phone": "+41716278074",
     "id": "node/9917845048"
   },
@@ -3744,12 +3830,12 @@
   "id": "node/9917845051",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Verkaufsfläche LIDL",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Surface de vente",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "LIDL Schweiz",
+    "operator": "Lidl",
     "phone": "+41716278074",
     "id": "node/9917845051"
   },
@@ -3766,12 +3852,12 @@
   "id": "node/9917845076",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Verkaufsfläche LIDL",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Surface de vente",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "LIDL Schweiz",
+    "operator": "Lidl",
     "phone": "+41716278074",
     "id": "node/9917845076"
   },
@@ -3788,12 +3874,12 @@
   "id": "node/9917845093",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Verkaufsfläche LIDL",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Surface de vente",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "LIDL Schweiz",
+    "operator": "Lidl",
     "phone": "+41716278074",
     "id": "node/9917845093"
   },
@@ -3810,12 +3896,12 @@
   "id": "node/9917845094",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Verkaufsfläche LIDL",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Surface de vente",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "LIDL Schweiz",
+    "operator": "Lidl",
     "phone": "+41716278074",
     "id": "node/9917845094"
   },
@@ -3832,12 +3918,12 @@
   "id": "node/9917845101",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Verkaufsfläche LIDL",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Surface de vente",
+    "description": "Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "LIDL Schweiz",
+    "operator": "Lidl",
     "phone": "+41716278074",
     "id": "node/9917845101"
   },
