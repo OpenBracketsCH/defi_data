@@ -535,11 +535,6 @@
   "type": "Feature",
   "id": "node/3018863313",
   "properties": {
-    "addr:city": "Morges",
-    "addr:country": "CH",
-    "addr:housenumber": "1",
-    "addr:postcode": "1110",
-    "addr:street": "Chemin Emile Küpfer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "id": "node/3018863313"
@@ -2932,8 +2927,10 @@
   "type": "Feature",
   "id": "node/4857047694",
   "properties": {
+    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "operator": "Cobalt Project",
     "id": "node/4857047694"
   },
   "geometry": {
@@ -3016,10 +3013,6 @@
   "type": "Feature",
   "id": "node/4940660530",
   "properties": {
-    "addr:city": "Pully",
-    "addr:housenumber": "2",
-    "addr:postcode": "1009",
-    "addr:street": "Place Neuve",
     "defibrillator:location": "Pharmacie SunStore",
     "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
@@ -3039,10 +3032,6 @@
   "type": "Feature",
   "id": "node/4940660531",
   "properties": {
-    "addr:city": "Pully",
-    "addr:housenumber": "10",
-    "addr:postcode": "1009",
-    "addr:street": "Chemin du Pré de la Tour",
     "defibrillator:location": "Pharmacie de la Clergère",
     "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
@@ -3062,10 +3051,6 @@
   "type": "Feature",
   "id": "node/4940660532",
   "properties": {
-    "addr:city": "Pully",
-    "addr:housenumber": "1",
-    "addr:postcode": "1009",
-    "addr:street": "Place de la Gare",
     "defibrillator:location": "Pharmacie Place Neuve",
     "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
@@ -3085,10 +3070,6 @@
   "type": "Feature",
   "id": "node/4940660533",
   "properties": {
-    "addr:city": "Pully",
-    "addr:housenumber": "26",
-    "addr:postcode": "1009",
-    "addr:street": "Rue de la Poste",
     "defibrillator:location": "Pharmacie Amavita Pulliérane",
     "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
@@ -3108,9 +3089,6 @@
   "type": "Feature",
   "id": "node/4940680261",
   "properties": {
-    "addr:city": "Pully",
-    "addr:postcode": "1009",
-    "addr:street": "Avenue Général Guisan",
     "defibrillator:location": "Siège du CIO Lausanne - réception",
     "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
@@ -5532,25 +5510,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6356303709",
-  "properties": {
-    "access": "yes",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Hôpital de Nyon",
-    "id": "node/6356303709"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      6.2272619,
-      46.38344
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6356303710",
   "properties": {
     "emergency": "defibrillator",
@@ -5749,6 +5708,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "A la caisse de Micasa",
+    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -20605,27 +20565,6 @@
     "coordinates": [
       7.1561008,
       46.7932646
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7288577561",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Dans la banque",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "operator": "Raiffeisen",
-    "id": "node/7288577561"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      6.8422228,
-      46.4700996
     ]
   }
 },
@@ -37124,7 +37063,8 @@
   "type": "Feature",
   "id": "node/7705766341",
   "properties": {
-    "defibrillator:location": "Entrance to showers",
+    "access": "yes",
+    "defibrillator:location": "Entrée des douches",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -37206,6 +37146,7 @@
   "type": "Feature",
   "id": "node/7720456888",
   "properties": {
+    "access": "yes",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -38899,6 +38840,7 @@
   "id": "node/7780390179",
   "properties": {
     "defibrillator:location": "A l'entrée du restaurant",
+    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -38940,6 +38882,7 @@
   "id": "node/7780390181",
   "properties": {
     "defibrillator:location": "A la cafétéria",
+    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -38980,6 +38923,7 @@
   "id": "node/7780390183",
   "properties": {
     "defibrillator:location": "Dans la cage d'escaliers à gauche en entrant",
+    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -39020,6 +38964,7 @@
   "id": "node/7780441885",
   "properties": {
     "defibrillator:location": "A la cafétéria",
+    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -39079,6 +39024,7 @@
   "id": "node/7780441888",
   "properties": {
     "defibrillator:location": "A l'accueil",
+    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -45366,6 +45312,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Vers la porte à droite de la fontaine",
+    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -45663,24 +45610,6 @@
     "coordinates": [
       9.4135776,
       47.4416557
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8046833944",
-  "properties": {
-    "defibrillator:location": "Dans le coin de la caserne, à gauche de la porte d'entrée",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/8046833944"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      6.6289614,
-      46.8470981
     ]
   }
 },
@@ -47593,25 +47522,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8167621124",
-  "properties": {
-    "defibrillator:location": "Sur le mur, entrée salle du Conseil communal",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "source": "https://vaud.momentum.dos-group.com/dae/index",
-    "id": "node/8167621124"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      6.6347428,
-      46.5555489
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8168737572",
   "properties": {
     "emergency": "defibrillator",
@@ -49090,10 +49000,6 @@
   "type": "Feature",
   "id": "node/8204243025",
   "properties": {
-    "addr:city": "Pully",
-    "addr:housenumber": "4",
-    "addr:postcode": "1094",
-    "addr:street": "Route de la Bordinette",
     "defibrillator:location": "Administration communale",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -49260,6 +49166,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "A la sortie des caisses de la Migros",
+    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -50155,25 +50062,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8393447295",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Sur la façade des WC",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/8393447295"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      6.6330671,
-      46.6396887
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8394464414",
   "properties": {
     "addr:housenumber": "4",
@@ -50209,25 +50097,6 @@
     "coordinates": [
       8.4500057,
       47.2766284
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8397852992",
-  "properties": {
-    "defibrillator:location": "Sur le mur, à côté de l'entrée principale",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "source": "https://vaud.momentum.dos-group.com/dae/index",
-    "id": "node/8397852992"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      6.631653,
-      46.5611362
     ]
   }
 },
@@ -50901,24 +50770,6 @@
     "coordinates": [
       7.4,
       46.9680218
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8449830809",
-  "properties": {
-    "description": "À l'entrée des vestiaires du centre sportif",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/8449830809"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      6.6397216,
-      46.556949
     ]
   }
 },
@@ -51841,24 +51692,6 @@
     "coordinates": [
       8.4361445,
       47.4822036
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8515463391",
-  "properties": {
-    "defibrillator:location": "Mural, à droite de l'entrée principal du bâtiment C",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/8515463391"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      6.6344528,
-      46.5575623
     ]
   }
 },
@@ -57974,24 +57807,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8607991153",
-  "properties": {
-    "defibrillator:location": "Dans la cabine téléphonique à côté de la boîte aux lettres.",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/8607991153"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      6.6834667,
-      46.6754583
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8608015417",
   "properties": {
     "access": "no",
@@ -58587,6 +58402,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "A l'entrée du Do It Garden",
+    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -64029,24 +63845,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8844331863",
-  "properties": {
-    "defibrillator:location": "Porte arrière du bâtiment, côté parking, suivre fléchage",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/8844331863"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      6.6388086,
-      46.5235066
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8844443417",
   "properties": {
     "access": "yes",
@@ -65734,7 +65532,8 @@
   "type": "Feature",
   "id": "node/8897401196",
   "properties": {
-    "defibrillator:location": "2 au 2e étage,  1 au 3e étage",
+    "defibrillator:location": "2 au 2e étage, 1 au 3e étage",
+    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -77464,25 +77263,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9211918115",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Dans l'abri à côté du terrain",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/9211918115"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      6.8858426,
-      46.4528658
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9215556181",
   "properties": {
     "access": "no",
@@ -77776,6 +77556,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "A la pharmacie",
+    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -83265,6 +83046,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "A la caisse accueil Migros (fleurs)",
+    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -85073,10 +84855,12 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "A côté de l'ascenseur",
+    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "operator": "Migros",
     "id": "node/9402113896"
   },
   "geometry": {
@@ -89482,6 +89266,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Hall d'entrée",
+    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -97647,41 +97432,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9779081121",
-  "properties": {
-    "defibrillator:location": "A gauche de la réception du camping",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/9779081121"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      6.7173155,
-      46.8036661
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9779145431",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/9779145431"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      6.6300446,
-      46.5454101
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9779462707",
   "properties": {
     "access": "yes",
@@ -98518,25 +98268,6 @@
     "coordinates": [
       8.5233614,
       47.5686679
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9806144770",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Sur le mur des toilettes",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/9806144770"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.0265335,
-      46.2777737
     ]
   }
 },
@@ -99936,7 +99667,8 @@
   "type": "Feature",
   "id": "node/9862344668",
   "properties": {
-    "defibrillator:location": "A l'intérieur du poste de gendarmerie.",
+    "access": "yes",
+    "defibrillator:location": "A l'intérieur du poste de gendarmerie",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -100025,7 +99757,8 @@
   "type": "Feature",
   "id": "node/9862344674",
   "properties": {
-    "defibrillator:location": "A l'intérieur du centre de gendarmerie.",
+    "access": "yes",
+    "defibrillator:location": "A l'intérieur du centre de gendarmerie",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -100059,24 +99792,6 @@
     "coordinates": [
       7.7188666,
       47.1922325
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9862740422",
-  "properties": {
-    "access": "24/7",
-    "colour": "green",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/9862740422"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      6.0735219,
-      46.4652116
     ]
   }
 },
@@ -100213,6 +99928,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Au bord du bassin intérieur",
+    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -105939,6 +105655,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Dans la halle camions",
+    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -106104,10 +105821,13 @@
   "type": "Feature",
   "id": "node/9942963023",
   "properties": {
+    "access": "yes",
+    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "operator": "Pfister",
     "id": "node/9942963023"
   },
   "geometry": {
@@ -106526,6 +106246,8 @@
   "type": "Feature",
   "id": "node/9954344115",
   "properties": {
+    "access": "yes",
+    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -107646,6 +107368,7 @@
   "type": "Feature",
   "id": "node/9984560951",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Porte 5A",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -107712,6 +107435,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Devant le secrétariat",
+    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -107943,10 +107667,12 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "A gauche en entrant, entre la réception et la fontaine à eau",
+    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "operator": "Service de la sécurité civile et militaire",
     "id": "node/9996658488"
   },
   "geometry": {
@@ -108236,10 +107962,12 @@
   "type": "Feature",
   "id": "node/10005971972",
   "properties": {
-    "defibrillator:location": "Dans le super-marché, contre le mur, en face des caisses de la Migros.",
+    "defibrillator:location": "Dans le supermarché, contre le mur en face des caisses de la Migros.",
+    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "operator": "Migros",
     "id": "node/10005971972"
   },
   "geometry": {
@@ -109270,6 +108998,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Dans le hall d'entrée",
+    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -110669,6 +110398,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Dans le hall d'entrée",
+    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -110751,6 +110481,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Vers la réception du musée",
+    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -110771,6 +110502,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Dans l'espace des milices (bâtiment n° 2)",
+    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -110922,7 +110654,9 @@
   "type": "Feature",
   "id": "node/10081921522",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Dans le sas d'entrée",
+    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -110941,7 +110675,9 @@
   "type": "Feature",
   "id": "node/10081924842",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Dans la zone d'entrée",
+    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -110961,6 +110697,7 @@
   "id": "node/10081939924",
   "properties": {
     "defibrillator:location": "Dans le hall d'entrée de la piscine",
+    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -110979,7 +110716,9 @@
   "type": "Feature",
   "id": "node/10081940654",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Dans le hall d'entrée",
+    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -111956,9 +111695,12 @@
   "type": "Feature",
   "id": "node/10113974521",
   "properties": {
+    "access": "yes",
+    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "operator": "SwissTech Convention Center",
     "id": "node/10113974521"
   },
   "geometry": {
