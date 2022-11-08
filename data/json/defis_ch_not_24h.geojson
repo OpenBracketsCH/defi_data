@@ -43456,44 +43456,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7933308392",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Haupteingang Turnhalle",
-    "description": "nur während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/7933308392"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.4137838,
-      47.3270813
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7933308393",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Haupteingang AULA",
-    "description": "nur während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/7933308393"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.4129363,
-      47.3267686
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7933308395",
   "properties": {
     "access": "yes",
@@ -113054,6 +113016,49 @@
     "coordinates": [
       9.4995633,
       46.6783703
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10168504634",
+  "properties": {
+    "access": "öffentklich",
+    "defibrillator:location": "Vor dem Haupteingang Turnhalle In einem Pro Case",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "note": "144",
+    "operator": "Schulgemeinde Appenzell",
+    "id": "node/10168504634"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4124953,
+      47.326708
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10168537417",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kunimattweg 14",
+    "description": "Haupteingang neben dem Feuerlöscher ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 7 - 17 Uhr ",
+    "operator": "Jaquet Te Connectivity",
+    "phone": "0041613068822",
+    "id": "node/10168537417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6880954,
+      47.5242671
     ]
   }
 }

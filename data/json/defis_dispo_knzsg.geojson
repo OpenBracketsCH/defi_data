@@ -5500,44 +5500,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7933308392",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Haupteingang Turnhalle",
-    "description": "nur während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/7933308392"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.4137838,
-      47.3270813
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7933308393",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Haupteingang AULA",
-    "description": "nur während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/7933308393"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.4129363,
-      47.3267686
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7933308394",
   "properties": {
     "access": "yes",
@@ -19622,6 +19584,26 @@
     "coordinates": [
       8.8491547,
       47.2267723
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10168504634",
+  "properties": {
+    "access": "öffentklich",
+    "defibrillator:location": "Vor dem Haupteingang Turnhalle In einem Pro Case",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "note": "144",
+    "operator": "Schulgemeinde Appenzell",
+    "id": "node/10168504634"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4124953,
+      47.326708
     ]
   }
 }
