@@ -107492,14 +107492,16 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "SSBL Rathausen",
+    "phone": "+41 41 269 35 82",
     "id": "node/9992742720"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3112845,
-      47.0790241
+      8.3116184,
+      47.0792533
     ]
   }
 },
@@ -113517,6 +113519,121 @@
     "coordinates": [
       9.2510707,
       47.4159111
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10175273129",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Gemeindeverwaltung",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Gemeinde Niederweningen",
+    "phone": "+41 44 857 12 22",
+    "id": "node/10175273129"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3816135,
+      47.5061715
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10175273264",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Kasse Naturhistorisches Museum",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 10:00-17:00",
+    "operator": "Christian Bähler",
+    "phone": "+41313507226",
+    "id": "node/10175273264"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4488029,
+      46.9421129
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10175278117",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Koperraum montiert",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
+    "operator": "Procamed",
+    "phone": "+41 52 368 60 00",
+    "id": "node/10175278117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4677312,
+      47.2529654
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10175279528",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Der Defibrillator befindet sich im Büro der GEMÜ Vertriebs AG im 1. OG",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 07:30-12:00, 13:00-17:00",
+    "operator": "GEMÜ Vertriebs AG, Herr Marco Neeracher",
+    "phone": "+41417990555",
+    "id": "node/10175279528"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4324896,
+      47.1478154
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10175292453",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Museum für Kommunikation an der Reception",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "opening_hours": "Tu-Su 10:00-17:00",
+    "operator": "Museum für Kommunikation",
+    "phone": "+41 31 357 55 11",
+    "id": "node/10175292453"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4500528,
+      46.9417641
     ]
   }
 }
