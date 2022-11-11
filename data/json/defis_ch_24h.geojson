@@ -35581,6 +35581,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/8165737450",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "In der Wartehalle der Bergstation",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Zugerbergbahn AG",
+    "phone": "+41 41 711 53 76",
+    "id": "node/8165737450"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5329456,
+      47.1439447
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8167621124",
   "properties": {
     "access": "yes",
@@ -79427,6 +79451,51 @@
     "coordinates": [
       9.4074519,
       47.4404741
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10175189426",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Dietro la chiesetta, sulla strada che scende verso la rotonda, attaccato alla parete esterna",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/10175189426"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9338059,
+      45.9883235
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10175189734",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Zürcherstrasse 125 vor dem Eingang des Gemeindehauses.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Nicole Roman",
+    "phone": "+41434551776",
+    "id": "node/10175189734"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4622253,
+      47.4087002
     ]
   }
 }
