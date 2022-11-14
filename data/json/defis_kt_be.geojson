@@ -39005,15 +39005,16 @@
     "addr:street": "Keltenstrasse",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "operator": "Schulhaus Schwabgut",
+    "indoor": "yes",
+    "operator": "Immobilien Stadt Bern",
     "phone": "+41 31 321 27 00",
     "id": "node/9376215932"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.3968838,
-      46.9447019
+      7.3966032,
+      46.9447285
     ]
   }
 },
@@ -43875,6 +43876,23 @@
     "coordinates": [
       7.4500528,
       46.9417641
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10184244311",
+  "properties": {
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "Immobilien Stadt Bern",
+    "id": "node/10184244311"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.397018,
+      46.9440375
     ]
   }
 }
