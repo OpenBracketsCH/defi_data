@@ -49443,7 +49443,7 @@
     "level": "2",
     "opening_hours": "Mo-Fr 07:00-19:00",
     "operator": "HEKS",
-    "phone": "+41 44 360 88 22",
+    "phone": "+41 44 360 88 00",
     "id": "node/10170093456"
   },
   "geometry": {
@@ -49732,6 +49732,54 @@
     "coordinates": [
       8.6322642,
       47.5194433
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10182254517",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Eingang Bättigmatt 13",
+    "description": "von 7 Uhr bis 22 Uhr verfügbar ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "opening_hours": "24/7",
+    "operator": "Stiftung Phönix Schwyz ",
+    "phone": "+41418177110",
+    "id": "node/10182254517"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6298897,
+      47.0274631
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10182340878",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Apotheke",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-19:00; 08:00-17:00",
+    "operator": "TopPharm Limmatplatz Apotheke",
+    "phone": "+41 43 366 60 20",
+    "id": "node/10182340878"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5323151,
+      47.3839112
     ]
   }
 }
