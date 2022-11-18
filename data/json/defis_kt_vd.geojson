@@ -4558,6 +4558,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/10199981247",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Dans le café Quai 10 qui se trouve au fond du passage sous voies",
+    "description": "Pendant les heures d'ouverture",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "-1",
+    "operator": "MOB",
+    "id": "node/10199981247"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9109095,
+      46.436309
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10200013535",
   "properties": {
     "access": "yes",
@@ -4574,6 +4595,26 @@
     "coordinates": [
       6.8931818,
       46.4406279
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10200100633",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Dans le fitness",
+    "description": "Pendant les heures d'ouverture",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/10200100633"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9254886,
+      46.4235814
     ]
   }
 }
