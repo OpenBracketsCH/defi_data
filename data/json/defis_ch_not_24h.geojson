@@ -106699,27 +106699,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9964884417",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Raiffeisenbank Eingangsbereich",
-    "description": "Während Öffnungszeiten erreichbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Bank",
-    "id": "node/9964884417"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.9451568,
-      47.2883704
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9965925517",
   "properties": {
     "access": "no",
@@ -114071,6 +114050,120 @@
     "coordinates": [
       9.398127,
       47.3336694
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10198894055",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Bei der Garderobe 1. OG",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "id": "node/10198894055"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4622333,
+      47.4083113
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10198896267",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Firmen-Eingang",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:30-17:30",
+    "phone": "+41 81 826 56 75",
+    "id": "node/10198896267"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.7660491,
+      46.4397718
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10198904023",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "WAGNER AG, 2. OG (direkt beim Empfang)",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00",
+    "operator": "Cornelia Brügger",
+    "phone": "+41 34 426 13 13",
+    "id": "node/10198904023"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5690255,
+      47.0947541
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10198912688",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Eingangsbereich der Turnhalle. Aber nicht im Aussenbereich",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 16:00-21:30",
+    "operator": "Primarschule Frauenfeld",
+    "phone": "+41 79 798 04 14",
+    "id": "node/10198912688"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8927503,
+      47.5589464
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10198923192",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Erdgeschoss Eingang Leicht rechts",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Reformierte Kirchgemeinde Zürich",
+    "phone": "+41 43 311 40 66",
+    "id": "node/10198923192"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4975101,
+      47.4017086
     ]
   }
 }

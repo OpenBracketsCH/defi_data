@@ -13515,13 +13515,14 @@
   "type": "Feature",
   "id": "node/9964884417",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Raiffeisenbank Eingangsbereich",
-    "description": "Während Öffnungszeiten erreichbar",
+    "access": "yes",
+    "defibrillator:location": "Raiffeisenbank Eingangsbereich bei den 24h Bankomaten",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Bank",
+    "opening_hours": "24/7",
+    "operator": "Raiffeisenbank Zofingen",
     "id": "node/9964884417"
   },
   "geometry": {
@@ -14683,6 +14684,78 @@
     "coordinates": [
       8.3873454,
       47.3757238
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10198924365",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Reuenthal, Feuerwehrmagazin, Seite Dorfladen neben Fenster",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Full-Reuenthal",
+    "phone": "+41 56 267 63 40",
+    "id": "node/10198924365"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2024808,
+      47.6017684
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10198934626",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Full, Schwimmbad, ausserhalb Eingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Full-Reuenthal",
+    "phone": "+41 56 267 63 40",
+    "id": "node/10198934626"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2076152,
+      47.6198821
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10198934627",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Mehrzweckhalle, vor Halleneingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Full-Reuenthal",
+    "phone": "+41 56 267 63 40",
+    "id": "node/10198934627"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2040808,
+      47.6135625
     ]
   }
 }
