@@ -111612,28 +111612,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10111428488",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Feuerwehrmagazin, obere Fahrzeughalle",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Stützpunktfeuerwehr Zofingen",
-    "phone": "+41627450070",
-    "id": "node/10111428488"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.941758,
-      47.2906112
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10113301636",
   "properties": {
     "defibrillator:location": "Contre le mur du bâtiment, à l'extérieur, à l'extrème gauche de la façade principale.",
@@ -113553,23 +113531,23 @@
   "type": "Feature",
   "id": "node/10175278117",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Im Koperraum montiert",
+    "access": "yes",
+    "defibrillator:location": "Säule der Turnhalle, neben dem Swimmingpool!",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "level": "0",
     "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
-    "operator": "Procamed",
-    "phone": "+41 52 368 60 00",
+    "operator": "Gruppe Energy",
+    "phone": "+41 44 768 58 13",
     "id": "node/10175278117"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4677312,
-      47.2529654
+      8.4675561,
+      47.2532616
     ]
   }
 },
@@ -114165,6 +114143,53 @@
     "coordinates": [
       8.4975101,
       47.4017086
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10199612814",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Windfang links bei Garderobe",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 08:00-17:00",
+    "operator": "Diana Brückner",
+    "phone": "+41 61 311 47 48",
+    "id": "node/10199612814"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6254391,
+      47.5554371
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10199615968",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang/Vorplatz rechts gg. Garderobe an Wand",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 10:00-18:00",
+    "operator": "Diana Brückner",
+    "phone": "+41 61 311 47 48",
+    "id": "node/10199615968"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6227576,
+      47.5553751
     ]
   }
 }
