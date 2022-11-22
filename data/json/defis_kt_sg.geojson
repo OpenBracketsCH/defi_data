@@ -12430,16 +12430,17 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "note": "On the building wall.",
     "opening_hours": "24/7",
-    "operator": "Gemeinde Amden",
+    "operator": "Gemeinde Amden;defibrillator.ch",
     "phone": "+41 58 228 25 00",
     "id": "node/9355771301"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.145225,
-      47.1354933
+      9.1452836,
+      47.1355019
     ]
   }
 },
@@ -16458,23 +16459,6 @@
     "coordinates": [
       9.2510707,
       47.4159111
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10202028747",
-  "properties": {
-    "emergency": "defibrillator",
-    "note": "On the building wall.",
-    "operator": "defibrillator.ch",
-    "id": "node/10202028747"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.1452795,
-      47.1355021
     ]
   }
 }

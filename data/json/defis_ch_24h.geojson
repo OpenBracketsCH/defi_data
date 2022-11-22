@@ -64114,16 +64114,17 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "note": "On the building wall.",
     "opening_hours": "24/7",
-    "operator": "Gemeinde Amden",
+    "operator": "Gemeinde Amden;defibrillator.ch",
     "phone": "+41 58 228 25 00",
     "id": "node/9355771301"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.145225,
-      47.1354933
+      9.1452836,
+      47.1355019
     ]
   }
 },
@@ -80009,6 +80010,30 @@
     "coordinates": [
       9.2206824,
       47.5291208
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10208946117",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Erbo Spraytec AG",
+    "description": "Währen Arbeitszeit Verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "opening_hours": "24/7",
+    "operator": "Labor",
+    "phone": "0629588856",
+    "id": "node/10208946117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7582363,
+      47.2140452
     ]
   }
 }
