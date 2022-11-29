@@ -34382,11 +34382,13 @@
     "addr:postcode": "3270",
     "addr:street": "Bürenstrasse",
     "defibrillator:location": "Eingang Turnhalle",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "level": "0",
     "opening_hours": "24/7",
-    "operator": "Real-, Sekundarschule Aarberg",
-    "phone": "+41 78 739 84 30",
+    "operator": "Einwohnergemeinde Aarberg",
+    "phone": "+41 32 391 25 25",
     "id": "node/8734513572"
   },
   "geometry": {
@@ -44161,6 +44163,49 @@
     "coordinates": [
       7.4518593,
       46.977199
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10225954942",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Haupteingang beim Empfang",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-17:00",
+    "operator": "Peter Gassmann",
+    "phone": "+41313000207",
+    "id": "node/10225954942"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4499804,
+      46.9745884
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10225960602",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Kirchgemeindehaus Petrus, vor dem Sigristenbüro. Man sieht den Defibrillator wen man die Türe rein kommt.",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "sigrist.petrus@refbern.ch",
+    "phone": "+41 31 350 43 00",
+    "id": "node/10225960602"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4636637,
+      46.938931
     ]
   }
 }
