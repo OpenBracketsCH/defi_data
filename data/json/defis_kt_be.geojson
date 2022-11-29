@@ -44078,9 +44078,15 @@
   "id": "node/10210586290",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Kantonaler Werkhof/ Feuerwehrmagazin/Ara",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
     "location": "outdoor",
     "opening_hours": "24/7",
+    "operator": "Strasseninspektorat Mittelland-West",
+    "phone": "+41 31 636 50 82",
     "id": "node/10210586290"
   },
   "geometry": {
@@ -44132,6 +44138,29 @@
     "coordinates": [
       7.6133024,
       46.7607046
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10225951105",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vis a Vis Haupteingang, im Haus",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 07:00-20:00",
+    "operator": "Peter Gassmann",
+    "phone": "+41313000207",
+    "id": "node/10225951105"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4518593,
+      46.977199
     ]
   }
 }

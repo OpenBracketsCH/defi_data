@@ -80065,9 +80065,15 @@
   "id": "node/10210586290",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Kantonaler Werkhof/ Feuerwehrmagazin/Ara",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
     "location": "outdoor",
     "opening_hours": "24/7",
+    "operator": "Strasseninspektorat Mittelland-West",
+    "phone": "+41 31 636 50 82",
     "id": "node/10210586290"
   },
   "geometry": {
@@ -80116,6 +80122,98 @@
     "coordinates": [
       8.8347517,
       47.2300146
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10225907328",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An der Strasse direkt beim Eingang zum alten Gemeindehaus",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Hagenbuch",
+    "phone": "+41 79 363 14 53",
+    "id": "node/10225907328"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8878912,
+      47.5209501
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10225917165",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rechts neben den drei blauen Briefkasten an der Wand des Gemeindeverwaltungsgebäudes",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Ermensee",
+    "phone": "+41 41 917 23 08",
+    "id": "node/10225917165"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2462893,
+      47.2258864
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10225934160",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang Schule",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Hagenbuch",
+    "phone": "+41 79 363 14 53",
+    "id": "node/10225934160"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8638891,
+      47.5202871
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10225934161",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang Schule",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Hagenbuch",
+    "phone": "+41 79 363 14 53",
+    "id": "node/10225934161"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8857521,
+      47.5184927
     ]
   }
 }
