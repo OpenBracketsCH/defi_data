@@ -5118,23 +5118,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6140725358",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/6140725358"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.053562,
-      47.4465451
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6143276084",
   "properties": {
     "emergency": "defibrillator",
@@ -12099,30 +12082,6 @@
     "coordinates": [
       7.2359977,
       47.1128759
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/6636784168",
-  "properties": {
-    "access": "permissive",
-    "addr:city": "Ipsach",
-    "addr:housenumber": "8",
-    "addr:postcode": "2563",
-    "addr:street": "Dorfstrasse",
-    "defibrillator:location": "Eingang Mehrzweckhalle Ipsach (rechts), Die Öffnungszeiten ändern von Zeit zu Zeit, da die Mehrzweckhalle nur geöffnet ist, wenn sich jemand darin",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "operator": "Mehrzweckhalle Ipsach",
-    "phone": "+41 32 333 78 23",
-    "id": "node/6636784168"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.2346584,
-      47.115106
     ]
   }
 },
@@ -35018,24 +34977,6 @@
     "coordinates": [
       8.6715016,
       46.7681464
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7637819142",
-  "properties": {
-    "description": "Treppenhaus / Aufenthaltsraum",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Walker Stahl- und Metallbau",
-    "id": "node/7637819142"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6684665,
-      46.7803065
     ]
   }
 },
@@ -91888,6 +91829,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/9615020417",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Kirche Arisdorf",
+    "description": "Im Eingangsbereich der Kirche",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 07:00-22:00",
+    "id": "node/9615020417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7668597,
+      47.5107366
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9620579417",
   "properties": {
     "emergency": "defibrillator",
@@ -92138,8 +92100,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.930305,
-      47.3114603
+      7.9312062,
+      47.3114748
     ]
   }
 },
@@ -112966,6 +112928,7 @@
     "access": "öffentklich",
     "defibrillator:location": "Vor dem Haupteingang Turnhalle In einem Pro Case",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "note": "144",
     "operator": "Schulgemeinde Appenzell",
@@ -113392,6 +113355,7 @@
   "id": "node/10175042525",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "id": "node/10175042525"
   },
@@ -113551,6 +113515,7 @@
     "access": "no",
     "defibrillator:location": "Im Museum für Kommunikation an der Reception",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Tu-Su 10:00-17:00",
     "operator": "Museum für Kommunikation",
@@ -113701,6 +113666,7 @@
   "id": "node/10184244311",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "operator": "Immobilien Stadt Bern",
     "id": "node/10184244311"
@@ -113721,6 +113687,7 @@
     "defibrillator:location": "Devant le Sun Store",
     "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "operator": "Sun Store",
@@ -113742,6 +113709,7 @@
     "defibrillator:location": "A l'entrée de la Migros",
     "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "operator": "Migros",
@@ -114189,6 +114157,7 @@
     "defibrillator:location": "Dans le café Quai 10 qui se trouve au fond du passage sous voies",
     "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "-1",
     "operator": "MOB",
@@ -114210,6 +114179,7 @@
     "defibrillator:location": "A la sortie des caisses de la Migros",
     "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "operator": "Migros",
@@ -114231,6 +114201,7 @@
     "defibrillator:location": "Dans le fitness",
     "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "id": "node/10200100633"
@@ -114270,6 +114241,7 @@
   "properties": {
     "defibrillator:location": "Front Door outside",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "id": "node/10204252080"
   },
@@ -114313,6 +114285,7 @@
     "defibrillator:location": "A droite de l'entrée, vers les scanneurs",
     "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "operator": "Migros",
@@ -114873,6 +114846,7 @@
     "access": "yes",
     "defibrillator:location": "Im Kirchgemeindehaus Petrus, vor dem Sigristenbüro. Man sieht den Defibrillator wen man die Türe rein kommt.",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "operator": "sigrist.petrus@refbern.ch",
     "phone": "+41 31 350 43 00",
@@ -114950,6 +114924,235 @@
     "coordinates": [
       8.2179661,
       47.424144
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10231042986",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Privat Spa Limmathof, im Eingangsbereich an der Wand aufgehängt.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Limmathof Baden AG",
+    "phone": "+41 56 200 17 17",
+    "id": "node/10231042986"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3137818,
+      47.4800377
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10231042987",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Limmathof Baden Novum Spa, im Eingangsbereich, links von der Rezeption an der Wand aufgehängt",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Limmathof Baden AG",
+    "phone": "+41 56 200 17 17",
+    "id": "node/10231042987"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3139085,
+      47.4801614
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10231055787",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Foyer der Stadthalle rechts neben dem Lift",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Hallenwart der Stadthalle",
+    "phone": "+41 44 740 73 61",
+    "id": "node/10231055787"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3870879,
+      47.407026
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10231064348",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Eingangsbereich CTC Analytics",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "CTC Analytics",
+    "phone": "+41 61 765 81 62",
+    "id": "node/10231064348"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5160083,
+      47.4305559
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10231073934",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Bei der Eingangskasse",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Gemeinde Würenlos, Schwimmbad Wiemel",
+    "phone": "+41 56 424 22 63",
+    "id": "node/10231073934"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3714117,
+      47.4426362
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10231074307",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "In der Eingangshalle, gleich vor den Zutrittsschleusen rechts befindet sich das Sani-Zimmer. Der Defibrillator hängt dort an der Wand.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:30-16:30",
+    "operator": "Skyguide",
+    "phone": "+41 43 931 60 21",
+    "id": "node/10231074307"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6407549,
+      47.4065136
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10231079012",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Foyer in einem AED Wandkasten (mit Alarmsystem), direkt links vor direkter Eingangstüre zur Turnhalle Breiteacker",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Pfungen Abt. Liegenschaften",
+    "phone": "+41 52 305 07 70",
+    "id": "node/10231079012"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6471656,
+      47.5155432
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10231079252",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Haupeingangstüre innen links, von aussen sichtbar.",
+    "description": "Bei Hausbewohnern klingeln",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Walter Imboden",
+    "phone": "+41 79 818 71 15",
+    "id": "node/10231079252"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6088549,
+      47.3963622
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10231100455",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Empfang",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Th 07:30-12:00, 13:00-17:00; Fr 07:30-12:00, 13:00-16:30",
+    "operator": "GVZ Gebäudeversicherung Kanton Zürich",
+    "phone": "+41 44 308 21 11",
+    "id": "node/10231100455"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5529181,
+      47.4160817
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10231126870",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingangsbereich (gegenüber Lift) Zentrum Schlossmatt Region Burgdorf",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-20:00",
+    "operator": "Marcel Bleiker (Leiter Facility Management ZSB)",
+    "phone": "+41 34 421 91 22",
+    "id": "node/10231126870"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6275118,
+      47.0478496
     ]
   }
 }

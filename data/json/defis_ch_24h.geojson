@@ -3062,6 +3062,28 @@
 },
 {
   "type": "Feature",
+  "id": "node/6140725358",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Recycling-Station draussen neben Haupteingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einkaufszentrum Breite (Verantwortlich: Coop Vitality Apotheke)",
+    "id": "node/6140725358"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0535727,
+      47.4464489
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/6140761777",
   "properties": {
     "access": "yes",
@@ -9136,6 +9158,34 @@
     "coordinates": [
       7.2131576,
       47.0980783
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/6636784168",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Ipsach",
+    "addr:housenumber": "8",
+    "addr:postcode": "2563",
+    "addr:street": "Dorfstrasse",
+    "defibrillator:location": "Auf der linken Seite beim Haupteingang.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Mehrzweckhalle Ipsach",
+    "phone": "+41 32 333 78 23",
+    "id": "node/6636784168"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2346732,
+      47.1151224
     ]
   }
 },
@@ -69825,27 +69875,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9615020417",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Kirche Arisdorf",
-    "description": "Im Eingangsbereich der Kirche",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "id": "node/9615020417"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.7668168,
-      47.5107284
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9621262517",
   "properties": {
     "access": "yes",
@@ -79007,6 +79036,7 @@
     "access": "private",
     "defibrillator:location": "Haupteingang Kantonle Verwaltung",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "opening_hours": "24/7",
@@ -79133,6 +79163,7 @@
   "properties": {
     "access": "yes",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "level": "0",
     "opening_hours": "24/7",
     "wheelchair": "yes",
@@ -79152,6 +79183,7 @@
   "properties": {
     "access": "yes",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
@@ -79175,6 +79207,7 @@
     "defibrillator:location": "Im grünen Kasten an der Aussenwand des Gemeindehaus Richtung \"Platz für alli\" (beim Glasdach) in der nähe der Toiletten.",
     "description": "Alarmgesichert",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
@@ -79307,6 +79340,7 @@
     "access": "yes",
     "defibrillator:location": "Haupthaus Gebäude Titlis beim Eingangsbereich EG",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "24/7",
     "operator": "Klinik Im Hasel AG",
@@ -79584,6 +79618,7 @@
     "defibrillator:location": "Beim Notfalltreffpunkt hinter dem Gemeindehaus an der Aussenwand im weissen Kasten (mit AED und CPR beschriftet).",
     "description": "Geschenk der Hallauer Vereine+Gönner anlässlich 100 Jahr Jubiläum Samariterverein Hallau 2010.",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
@@ -79827,8 +79862,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2024808,
-      47.6017684
+      8.2022206,
+      47.6025497
     ]
   }
 },
@@ -79875,8 +79910,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2040808,
-      47.6135625
+      8.2045931,
+      47.6128808
     ]
   }
 },
@@ -80311,6 +80346,188 @@
     "coordinates": [
       7.3497659,
       46.7128919
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10230947017",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Kantine",
+    "description": "Klingel betätigen ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "opening_hours": "24/7",
+    "operator": "Hochdorf Swiss Nutrition",
+    "id": "node/10230947017"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1789698,
+      47.5404684
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10231044694",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Erdgeschoss vom Pflegeheim",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stiftung St. Wolfgang",
+    "phone": "+41 26 492 69 00",
+    "id": "node/10231044694"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1962461,
+      46.8492246
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10231044979",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Eingang zur ehemaligen Turnhalle",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Primarschule Wilen",
+    "phone": "+41 71 929 36 70",
+    "id": "node/10231044979"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0361865,
+      47.4528614
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10231050223",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Erdgeschoss vom Pfleheim",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stiftung St. Wolfgang",
+    "phone": "+41 31 740 41 00",
+    "id": "node/10231050223"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2262734,
+      46.8931057
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10231059066",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Erdgeschoss vom Pflegeheim",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stiftung St. Wolfgang",
+    "phone": "+41 31 744 61 00",
+    "id": "node/10231059066"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3198651,
+      46.8908058
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10231066660",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Erdgeschoss vom Pflegeheim",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stiftung St. Wolfgang",
+    "phone": "+41 26 497 80 80",
+    "id": "node/10231066660"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.250998,
+      46.8545373
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10231124856",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Das Gerät befindet sich links neben der Eingangstür der Gemeindeverwaltung.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Busswil b. M. / Achim Weinert",
+    "phone": "+41 77 477 53 06",
+    "id": "node/10231124856"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8325378,
+      47.1861981
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10231142095",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Direkt neben dem Ausseneingang zur Aula der Oberstufe. Zugang ab Pausenplatz",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Oberstufe Herzogenbuchsee, Schulleitung",
+    "phone": "+41 62 961 12 70",
+    "id": "node/10231142095"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7120094,
+      47.1886206
     ]
   }
 }

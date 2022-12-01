@@ -2725,14 +2725,14 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
+    "opening_hours": "Mo-Su 07:00-22:00",
     "id": "node/9615020417"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7668168,
-      47.5107284
+      7.7668597,
+      47.5107366
     ]
   }
 },
@@ -3589,6 +3589,7 @@
   "id": "node/10175042525",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "id": "node/10175042525"
   },
@@ -3711,6 +3712,29 @@
     "coordinates": [
       7.6227576,
       47.5553751
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10231064348",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Eingangsbereich CTC Analytics",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "CTC Analytics",
+    "phone": "+41 61 765 81 62",
+    "id": "node/10231064348"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5160083,
+      47.4305559
     ]
   }
 }

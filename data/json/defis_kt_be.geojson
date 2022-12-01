@@ -13781,14 +13781,18 @@
   "type": "Feature",
   "id": "node/6636784168",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "addr:city": "Ipsach",
     "addr:housenumber": "8",
     "addr:postcode": "2563",
     "addr:street": "Dorfstrasse",
-    "defibrillator:location": "Eingang Mehrzweckhalle Ipsach (rechts), Die Öffnungszeiten ändern von Zeit zu Zeit, da die Mehrzweckhalle nur geöffnet ist, wenn sich jemand darin",
+    "defibrillator:location": "Auf der linken Seite beim Haupteingang.",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
     "operator": "Mehrzweckhalle Ipsach",
     "phone": "+41 32 333 78 23",
     "id": "node/6636784168"
@@ -13796,8 +13800,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.2346584,
-      47.115106
+      7.2346732,
+      47.1151224
     ]
   }
 },
@@ -43867,6 +43871,7 @@
     "access": "no",
     "defibrillator:location": "Im Museum für Kommunikation an der Reception",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Tu-Su 10:00-17:00",
     "operator": "Museum für Kommunikation",
@@ -43886,6 +43891,7 @@
   "id": "node/10184244311",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "operator": "Immobilien Stadt Bern",
     "id": "node/10184244311"
@@ -43996,6 +44002,7 @@
   "properties": {
     "defibrillator:location": "Front Door outside",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "id": "node/10204252080"
   },
@@ -44196,6 +44203,7 @@
     "access": "yes",
     "defibrillator:location": "Im Kirchgemeindehaus Petrus, vor dem Sigristenbüro. Man sieht den Defibrillator wen man die Türe rein kommt.",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "operator": "sigrist.petrus@refbern.ch",
     "phone": "+41 31 350 43 00",
@@ -44230,6 +44238,75 @@
     "coordinates": [
       7.3497659,
       46.7128919
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10231124856",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Das Gerät befindet sich links neben der Eingangstür der Gemeindeverwaltung.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Busswil b. M. / Achim Weinert",
+    "phone": "+41 77 477 53 06",
+    "id": "node/10231124856"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8325378,
+      47.1861981
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10231126870",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingangsbereich (gegenüber Lift) Zentrum Schlossmatt Region Burgdorf",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-20:00",
+    "operator": "Marcel Bleiker (Leiter Facility Management ZSB)",
+    "phone": "+41 34 421 91 22",
+    "id": "node/10231126870"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6275118,
+      47.0478496
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10231142095",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Direkt neben dem Ausseneingang zur Aula der Oberstufe. Zugang ab Pausenplatz",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Oberstufe Herzogenbuchsee, Schulleitung",
+    "phone": "+41 62 961 12 70",
+    "id": "node/10231142095"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7120094,
+      47.1886206
     ]
   }
 }

@@ -230,16 +230,21 @@
   "type": "Feature",
   "id": "node/6140725358",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Recycling-Station draussen neben Haupteingang",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einkaufszentrum Breite (Verantwortlich: Coop Vitality Apotheke)",
     "id": "node/6140725358"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.053562,
-      47.4465451
+      9.0535727,
+      47.4464489
     ]
   }
 },
@@ -6691,6 +6696,52 @@
     "coordinates": [
       9.2065108,
       47.6162711
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10230947017",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Kantine",
+    "description": "Klingel betätigen ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "opening_hours": "24/7",
+    "operator": "Hochdorf Swiss Nutrition",
+    "id": "node/10230947017"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1789698,
+      47.5404684
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10231044979",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Eingang zur ehemaligen Turnhalle",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Primarschule Wilen",
+    "phone": "+41 71 929 36 70",
+    "id": "node/10231044979"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0361865,
+      47.4528614
     ]
   }
 }

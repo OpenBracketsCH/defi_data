@@ -11796,8 +11796,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.930305,
-      47.3114603
+      7.9312062,
+      47.3114748
     ]
   }
 },
@@ -14487,6 +14487,7 @@
     "access": "yes",
     "defibrillator:location": "Haupthaus Gebäude Titlis beim Eingangsbereich EG",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "24/7",
     "operator": "Klinik Im Hasel AG",
@@ -14707,8 +14708,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2024808,
-      47.6017684
+      8.2022206,
+      47.6025497
     ]
   }
 },
@@ -14755,8 +14756,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2040808,
-      47.6135625
+      8.2045931,
+      47.6128808
     ]
   }
 },
@@ -14872,6 +14873,73 @@
     "coordinates": [
       8.2179661,
       47.424144
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10231042986",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Privat Spa Limmathof, im Eingangsbereich an der Wand aufgehängt.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Limmathof Baden AG",
+    "phone": "+41 56 200 17 17",
+    "id": "node/10231042986"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3137818,
+      47.4800377
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10231042987",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Limmathof Baden Novum Spa, im Eingangsbereich, links von der Rezeption an der Wand aufgehängt",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Limmathof Baden AG",
+    "phone": "+41 56 200 17 17",
+    "id": "node/10231042987"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3139085,
+      47.4801614
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10231073934",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Bei der Eingangskasse",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Gemeinde Würenlos, Schwimmbad Wiemel",
+    "phone": "+41 56 424 22 63",
+    "id": "node/10231073934"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3714117,
+      47.4426362
     ]
   }
 }
