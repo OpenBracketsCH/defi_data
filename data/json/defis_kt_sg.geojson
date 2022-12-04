@@ -11440,13 +11440,12 @@
   "type": "Feature",
   "id": "node/9315745141",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Polizeistützpunkt: Empfang",
-    "description": "während Öffnungszeiten verfügbar",
+    "access": "yes",
+    "defibrillator:location": "Neben dem Haupteingang",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-11:30, 14:00-17:00",
+    "opening_hours": "24/7",
     "operator": "Kanton St.Gallen",
     "phone": "+41 58 229 30 17",
     "id": "node/9315745141"
@@ -11671,13 +11670,14 @@
   "type": "Feature",
   "id": "node/9315745151",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Polizeistation: Empfang",
-    "description": "während Öffnungszeiten verfügbar",
+    "access": "yes",
+    "defibrillator:location": "Haupteingang neben dem Briefkasten der Post",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-11:30, 14:00-17:00",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
     "operator": "Hochbauamt Kanton St.Gallen",
     "phone": "+41 58 229 30 17",
     "id": "node/9315745151"
@@ -16775,6 +16775,29 @@
     "coordinates": [
       9.3472421,
       47.0910953
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10238847159",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Durchgangsbereich",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Kanton St.Gallen",
+    "id": "node/10238847159"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4199288,
+      47.0475051
     ]
   }
 }

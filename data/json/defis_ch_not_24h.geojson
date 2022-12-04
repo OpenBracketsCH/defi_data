@@ -73826,25 +73826,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9121866714",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Kantonalbank",
-    "wheelchair": "yes",
-    "id": "node/9121866714"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.9031799,
-      47.3499023
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9123620819",
   "properties": {
     "access": "no",
@@ -80631,29 +80612,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9315745141",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Polizeistützpunkt: Empfang",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-11:30, 14:00-17:00",
-    "operator": "Kanton St.Gallen",
-    "phone": "+41 58 229 30 17",
-    "id": "node/9315745141"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.5793222,
-      47.4790385
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9315745142",
   "properties": {
     "access": "no",
@@ -80833,29 +80791,6 @@
     "coordinates": [
       8.9837723,
       47.223881
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9315745151",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Polizeistation: Empfang",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-11:30, 14:00-17:00",
-    "operator": "Hochbauamt Kanton St.Gallen",
-    "phone": "+41 58 229 30 17",
-    "id": "node/9315745151"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.6382704,
-      47.4527356
     ]
   }
 },
@@ -115059,8 +114994,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6407549,
-      47.4065136
+      8.6395404,
+      47.4071451
     ]
   }
 },
@@ -115235,6 +115170,52 @@
     "coordinates": [
       7.9338345,
       47.2925553
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10238816242",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Primarschule: UG Turnhalleneingang drinnen",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Primarschule Wilen",
+    "phone": "+41 71 929 36 70",
+    "id": "node/10238816242"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0363997,
+      47.4522697
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10238841534",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An Réception",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Berghotel Randolins",
+    "phone": "+41 81 830 83 83",
+    "id": "node/10238841534"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.812171,
+      46.4850125
     ]
   }
 }

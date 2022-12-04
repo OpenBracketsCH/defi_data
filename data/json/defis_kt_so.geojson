@@ -1766,18 +1766,24 @@
   "type": "Feature",
   "id": "node/9121866714",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Bankomatenraum, nach der Glastür links an der Wand",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Kantonalbank",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Aargauische Kantonalbank",
+    "phone": "+41 62 207 99 99",
     "wheelchair": "yes",
     "id": "node/9121866714"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.9031799,
-      47.3499023
+      7.9024289,
+      47.3507818
     ]
   }
 },
