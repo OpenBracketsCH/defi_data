@@ -33797,7 +33797,7 @@
     "addr:housenumber": "4",
     "addr:postcode": "3132",
     "addr:street": "Vordere Gasse",
-    "defibrillator:location": "-",
+    "defibrillator:location": "Der Defibrillator befindet sich beim Eingang zur Polizei auf der rechten Seite",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
@@ -41004,8 +41004,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.8953907,
-      46.7020605
+      7.8953974,
+      46.7020517
     ]
   }
 },
@@ -44307,6 +44307,54 @@
     "coordinates": [
       7.7120094,
       47.1886206
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10241862105",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der Defibrillator befindet sich beim Eingang zu der neuen Turnhalle zwischen Sekundarschule und Turnhalle",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Riggisberg",
+    "phone": "+41 76 329 86 64",
+    "id": "node/10241862105"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4760005,
+      46.8068039
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10241862106",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der Defibrillator befindet sich beim Haupteingang des Coop auf der rechten Seite",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Riggisberg",
+    "phone": "+41 76 329 86 64",
+    "id": "node/10241862106"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4788969,
+      46.8098704
     ]
   }
 }

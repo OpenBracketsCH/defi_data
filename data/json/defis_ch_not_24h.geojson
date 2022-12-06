@@ -112860,7 +112860,7 @@
   "type": "Feature",
   "id": "node/10168504634",
   "properties": {
-    "access": "öffentklich",
+    "access": "yes",
     "defibrillator:location": "Vor dem Haupteingang Turnhalle In einem Pro Case",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -118392,6 +118392,99 @@
     "coordinates": [
       8.4867687,
       47.2845556
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10241824661",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Le second se trouve proche de l'entrée principale. Au fond du hall d'entrée, tournez à gauche et rendez-vous jusqu'à l'ascenseur. Le défibrillateur se situe juste derrière, à côté des boîte aux lettres.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-22:00",
+    "operator": "Gil Stern",
+    "phone": "+41264296006",
+    "id": "node/10241824661"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1505711,
+      46.796869
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10241824662",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Deux défibrillateurs se situent dans le bâtiment. Le premier est situé à l'entrée nord. Dès votre entrée, monter les quelques premières marches et partez à droite. Passez la porte et le défibrillateur se trouve juste derrière, directement à gauche.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-22:00",
+    "operator": "Gil Stern",
+    "phone": "+41264296006",
+    "id": "node/10241824662"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1505828,
+      46.7968692
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10241895605",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Swico Office im 4. Stock Lagerstrasse 33, 8004 Zürich",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "4",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-16:00",
+    "operator": "Swico Anita Müller",
+    "phone": "+41 44 446 90 88",
+    "id": "node/10241895605"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5328995,
+      47.3774822
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10241950810",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Sportzentrum Sanitäszimmer",
+    "description": "während Ōffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "operator": "Stadt Illnau-Effretikon",
+    "phone": "+41523542350",
+    "id": "node/10241950810"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7012825,
+      47.4202486
     ]
   }
 }
