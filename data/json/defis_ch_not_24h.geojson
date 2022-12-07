@@ -65538,7 +65538,7 @@
   "type": "Feature",
   "id": "node/8903364585",
   "properties": {
-    "access": "yesv",
+    "access": "yes",
     "defibrillator:location": "Dans l'entrée",
     "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
@@ -118509,6 +118509,27 @@
     "coordinates": [
       9.3467839,
       47.3286236
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10244104709",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Zivilschutzanlage Meiersboden",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "id": "node/10244104709"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5478789,
+      46.8328506
     ]
   }
 }
