@@ -63705,6 +63705,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/9315745146",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Velounterstand",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Hochbauamt Kanton St.Gallen",
+    "phone": "+41 58 229 30 17",
+    "id": "node/9315745146"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0401754,
+      47.4705138
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9315745151",
   "properties": {
     "access": "yes",
@@ -63724,6 +63747,29 @@
     "coordinates": [
       9.6382704,
       47.4527356
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9315745162",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Polizeistation: Links neben Aussentreppe",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Kanton St.Gallen",
+    "phone": "+41 58 229 30 17",
+    "id": "node/9315745162"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0649943,
+      47.4145812
     ]
   }
 },
@@ -82170,30 +82216,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10241862105",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Der Defibrillator befindet sich beim Eingang zu der neuen Turnhalle zwischen Sekundarschule und Turnhalle",
-    "description": "24h verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde Riggisberg",
-    "phone": "+41 76 329 86 64",
-    "id": "node/10241862105"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4760005,
-      46.8068039
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10241862106",
   "properties": {
     "access": "yes",
@@ -82281,6 +82303,99 @@
     "coordinates": [
       8.1923348,
       47.1358161
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10248441838",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Unterdach bei der Turnhalle",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Vojkan Lapcevic",
+    "phone": "+41765767394",
+    "id": "node/10248441838"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1119629,
+      47.5664426
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10248447026",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang zur Schulleitung",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Schulhaus Isenlauf",
+    "phone": "+41 56 648 71 78",
+    "id": "node/10248447026"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3429937,
+      47.3484889
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10248450149",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Biotech Innovation Park - Reception im Administrationsgebäude",
+    "description": "Wenn jemand am Tor klingelt, kann der Defibrillator vom Reception-Team/Security zum Tor gebracht werden; Bitte über Freisprachanlage Bescheid geben, dass AED benötigt wird.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "EHSS Team Lengnau",
+    "phone": "+41 79 302 56 39",
+    "id": "node/10248450149"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3596302,
+      47.1741293
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10248457168",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussen am Clubhaus beim Hintereingang (auf Seite des Fussballfeldes)",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Politische Gemeinde Pfyn",
+    "phone": "+41796300022",
+    "id": "node/10248457168"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9679605,
+      47.5928605
     ]
   }
 }

@@ -15955,29 +15955,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6661361784",
-  "properties": {
-    "access": "permissive",
-    "addr:city": "Riggisberg",
-    "addr:housenumber": "19",
-    "addr:postcode": "3132",
-    "addr:street": "Lindengässli",
-    "defibrillator:location": "Im Foyer Eingang Aula, Zeitweise öffentlich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "operator": "Schulgebäude",
-    "id": "node/6661361784"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4761206,
-      46.8074474
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6661466160",
   "properties": {
     "access": "permissive",
@@ -80681,29 +80658,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9315745146",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Polizeistation: Empfang",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-11:30, 14:00-17:00",
-    "operator": "Hochbauamt Kanton St.Gallen",
-    "phone": "+41 58 229 30 17",
-    "id": "node/9315745146"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.0401754,
-      47.4705138
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9315745147",
   "properties": {
     "access": "no",
@@ -81021,29 +80975,6 @@
     "coordinates": [
       9.4836033,
       47.1676711
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9315745162",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Polizeistation: Empfang",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-11:30, 14:00-17:00",
-    "operator": "Kanton St.Gallen",
-    "phone": "+41 58 229 30 17",
-    "id": "node/9315745162"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.0649943,
-      47.4145812
     ]
   }
 },
@@ -118669,6 +118600,319 @@
     "coordinates": [
       7.5897959,
       47.4419942
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10248439696",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang Werk Olten via Empfang, beim Sanitätszimmer.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-16:00",
+    "operator": "SBB Werk Olten",
+    "phone": "+41 51 229 58 21",
+    "id": "node/10248439696"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9145551,
+      47.3631043
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10248446189",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Bahnhof Bremgarten, Reisezentrum AVA",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Reisezentrum AVA",
+    "phone": "+41 56 648 33 33",
+    "id": "node/10248446189"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3461929,
+      47.3514903
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10248447022",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Apotheke Sunnemärt",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Sunnemärt Bremgarten",
+    "phone": "+41 56 633 72 82",
+    "id": "node/10248447022"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3482394,
+      47.3514096
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10248447023",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Migros Supermarkt, 1. OG",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "operator": "Plaza Shopping Bremgarten",
+    "id": "node/10248447023"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3496845,
+      47.3526203
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10248447024",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Empfang",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "St. Josef-Stiftung",
+    "phone": "+41 56 648 45 45",
+    "id": "node/10248447024"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3420938,
+      47.3465925
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10248447025",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "im Foyer beim Haupteingang",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Schulhaus Isenlauf",
+    "phone": "+41 56 648 71 78",
+    "id": "node/10248447025"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3428113,
+      47.3487669
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10248447027",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Sanitätsraum",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Badanlage Isenlauf",
+    "phone": "+41 56 648 71 91",
+    "id": "node/10248447027"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3434111,
+      47.3470964
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10248450150",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "TopPharm Apotheke Dr. A. Meier",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "TopPharm Apotheke Dr. A. Meier",
+    "phone": "+41 56 633 11 69",
+    "id": "node/10248450150"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3426407,
+      47.3507619
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10248450974",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Innen in der Halle",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "Mo-Fr 07:00-21:30",
+    "operator": "Vojkan Lapcevic",
+    "phone": "+41765767394",
+    "id": "node/10248450974"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1133355,
+      47.5666932
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10248457017",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Praxis am Bahnhof Bremgarten",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Praxis am Bahnhof Bremgarten",
+    "phone": "+41 56 633 77 18",
+    "id": "node/10248457017"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3457039,
+      47.3513064
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10248458364",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Ärzte an der Reuss",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Ärzte an der Reuss",
+    "phone": "+41 56 649 99 49",
+    "id": "node/10248458364"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3461642,
+      47.3504942
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10248465044",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Kundendienstempfang VW",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-12:00, 13:00-18:00; Sa 08:00-12:00",
+    "operator": "AMAG Biel/Bienne",
+    "phone": "+41 32 366 51 51",
+    "id": "node/10248465044"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2611488,
+      47.1218001
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10248468331",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Seat/Cupra Showroom hinten links",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-12:00, 13:00-18:30; Sa 09:00-16:00",
+    "operator": "AMAG Biel/Bienne",
+    "phone": "+41 32 366 51 38",
+    "id": "node/10248468331"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2851211,
+      47.1533533
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10248473210",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Arztpraxis am Empfang verlangen",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Vanessa Haller",
+    "phone": "+41 62 771 33 33",
+    "id": "node/10248473210"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2031715,
+      47.2674434
     ]
   }
 }

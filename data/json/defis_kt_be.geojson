@@ -19879,29 +19879,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6661361784",
-  "properties": {
-    "access": "permissive",
-    "addr:city": "Riggisberg",
-    "addr:housenumber": "19",
-    "addr:postcode": "3132",
-    "addr:street": "Lindengässli",
-    "defibrillator:location": "Im Foyer Eingang Aula, Zeitweise öffentlich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "operator": "Schulgebäude",
-    "id": "node/6661361784"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4761206,
-      46.8074474
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6661448685",
   "properties": {
     "access": "yes",
@@ -44312,30 +44289,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10241862105",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Der Defibrillator befindet sich beim Eingang zu der neuen Turnhalle zwischen Sekundarschule und Turnhalle",
-    "description": "24h verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde Riggisberg",
-    "phone": "+41 76 329 86 64",
-    "id": "node/10241862105"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4760005,
-      46.8068039
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10241862106",
   "properties": {
     "access": "yes",
@@ -44355,6 +44308,76 @@
     "coordinates": [
       7.4788969,
       46.8098704
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10248450149",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Biotech Innovation Park - Reception im Administrationsgebäude",
+    "description": "Wenn jemand am Tor klingelt, kann der Defibrillator vom Reception-Team/Security zum Tor gebracht werden; Bitte über Freisprachanlage Bescheid geben, dass AED benötigt wird.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "EHSS Team Lengnau",
+    "phone": "+41 79 302 56 39",
+    "id": "node/10248450149"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3596302,
+      47.1741293
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10248465044",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Kundendienstempfang VW",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-12:00, 13:00-18:00; Sa 08:00-12:00",
+    "operator": "AMAG Biel/Bienne",
+    "phone": "+41 32 366 51 51",
+    "id": "node/10248465044"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2611488,
+      47.1218001
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10248468331",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Seat/Cupra Showroom hinten links",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-12:00, 13:00-18:30; Sa 09:00-16:00",
+    "operator": "AMAG Biel/Bienne",
+    "phone": "+41 32 366 51 38",
+    "id": "node/10248468331"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2851211,
+      47.1533533
     ]
   }
 }
