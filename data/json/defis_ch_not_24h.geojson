@@ -115201,7 +115201,7 @@
   "id": "node/10238841534",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "An Réception",
+    "defibrillator:location": "Berghotel Randolims, Réception",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -115214,8 +115214,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.812171,
-      46.4850125
+      9.8118237,
+      46.4851224
     ]
   }
 },
@@ -118626,6 +118626,49 @@
     "coordinates": [
       8.5707532,
       47.4218499
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10248397250",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Bâtiment G, rez-de-chaussée",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:30-18:00",
+    "operator": "Dominique Mooser",
+    "phone": "+41 26 429 67 13",
+    "id": "node/10248397250"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1603367,
+      46.7922768
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10248400016",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schalterbereich der Gemeindeverwaltung, Gang Parterre",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/10248400016"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5897959,
+      47.4419942
     ]
   }
 }
