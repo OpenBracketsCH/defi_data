@@ -2942,6 +2942,26 @@
 },
 {
   "type": "Feature",
+  "id": "node/6020115297",
+  "properties": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Ettingen",
+    "id": "node/6020115297"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5458935,
+      47.4836815
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/6066626858",
   "properties": {
     "access": "yes",
@@ -62013,8 +62033,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.498604,
-      47.4890125
+      7.4989965,
+      47.4889947
     ]
   }
 },
@@ -82396,6 +82416,27 @@
     "coordinates": [
       8.9679605,
       47.5928605
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10248899309",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Hintere Matten, Trakt 2, Rechts vom Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "EG",
+    "opening_hours": "24/7",
+    "id": "node/10248899309"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5505661,
+      47.4823914
     ]
   }
 }
