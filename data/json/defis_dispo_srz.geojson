@@ -1114,10 +1114,10 @@
   "type": "Feature",
   "id": "node/5831745723",
   "properties": {
+    "defibrillator:location": "Hinter den beiden Aufzügen, gegenüber vom Empfang. / Behind the two elevators, opposite the reception.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "note": "hinter den beiden Aufzügen gegenüber dem Empfang",
     "operator": "ewz",
     "id": "node/5831745723"
   },
@@ -1216,11 +1216,11 @@
   "type": "Feature",
   "id": "node/6123575176",
   "properties": {
+    "defibrillator:location": "Gegenüber vom Empfang. / Opposite the reception.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "note": "gegenüber dem Empfang",
     "operator": "Implenia Schweiz AG",
     "id": "node/6123575176"
   },
@@ -1277,10 +1277,10 @@
   "type": "Feature",
   "id": "node/6398162759",
   "properties": {
+    "defibrillator:location": "Hängt an der Wand links neben dem Eingang zur Rezeption. / Hanging on the wall to the left of the entrance of the reception.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "note": "Hängt an der Wand; linke neben dem Eingagn zur Rezeption",
     "operator": "Gästehaus Hunziker",
     "id": "node/6398162759"
   },
@@ -5298,6 +5298,7 @@
     "defibrillator:location": "nach Velounterstand rechts an Stützmauer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "24/7",
     "operator": "Kanton Zug",
     "id": "node/7568739431"

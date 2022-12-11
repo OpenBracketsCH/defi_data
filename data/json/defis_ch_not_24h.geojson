@@ -239,11 +239,11 @@
   "id": "node/2296251595",
   "properties": {
     "access": "no",
-    "description": "pas d'accès car la salle est fermée",
+    "defibrillator:location": "Dans l'unité F1. / In unit F1.",
+    "description": "Pas d'accès car la salle est fermée. / Not accessible because the room is locked.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "note": "dans l'unité F1",
     "id": "node/2296251595"
   },
   "geometry": {
@@ -330,10 +330,10 @@
   "type": "Feature",
   "id": "node/2633725638",
   "properties": {
+    "defibrillator:location": "Dans la cafétéria, près de \"Loge\". / In the cafeteria, near \"Loge\".",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "note": "In the cafeteria, near \"Loge\"",
     "operator": "UniGE",
     "id": "node/2633725638"
   },
@@ -4411,10 +4411,10 @@
   "type": "Feature",
   "id": "node/5708527284",
   "properties": {
+    "defibrillator:location": "Direkt beim Empfang. / At the reception.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "note": "direkt beim Empfang",
     "operator": "Rapp Industrieplaner AG",
     "id": "node/5708527284"
   },
@@ -4682,10 +4682,10 @@
   "type": "Feature",
   "id": "node/5831745723",
   "properties": {
+    "defibrillator:location": "Hinter den beiden Aufzügen, gegenüber vom Empfang. / Behind the two elevators, opposite the reception.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "note": "hinter den beiden Aufzügen gegenüber dem Empfang",
     "operator": "ewz",
     "id": "node/5831745723"
   },
@@ -5084,11 +5084,11 @@
   "type": "Feature",
   "id": "node/6123575176",
   "properties": {
+    "defibrillator:location": "Gegenüber vom Empfang. / Opposite the reception.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "note": "gegenüber dem Empfang",
     "operator": "Implenia Schweiz AG",
     "id": "node/6123575176"
   },
@@ -5524,10 +5524,10 @@
   "type": "Feature",
   "id": "node/6398162759",
   "properties": {
+    "defibrillator:location": "Hängt an der Wand links neben dem Eingang zur Rezeption. / Hanging on the wall to the left of the entrance of the reception.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "note": "Hängt an der Wand; linke neben dem Eingagn zur Rezeption",
     "operator": "Gästehaus Hunziker",
     "id": "node/6398162759"
   },
