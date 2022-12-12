@@ -118691,8 +118691,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3428113,
-      47.3487669
+      8.3432006,
+      47.3475823
     ]
   }
 },
@@ -119051,6 +119051,73 @@
     "coordinates": [
       9.1705316,
       47.6458525
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10255273409",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Hinterdorfstrasse 21",
+    "description": "währen den Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "opening_hours": "8-17",
+    "operator": "Firma",
+    "phone": "0628371515",
+    "id": "node/10255273409"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0896854,
+      47.4033976
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10255387609",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Kapuzinerhügel 17",
+    "description": "nicht öffentlich zugänglich, durch Klingeln bei der Mieterschaft Haus 17 oder 19 erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG, im Eingangsbereich",
+    "operator": "Wohnbaugenossenschaft des Bundespersonals Bremgarten",
+    "id": "node/10255387609"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.337174,
+      47.3472932
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10255672109",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Casino, im Foyer, nach dem Eingang links",
+    "description": "verfügbar wenn Casino geöffnet ist",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Stadt Bremgarten",
+    "id": "node/10255672109"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.34086,
+      47.3495165
     ]
   }
 }
