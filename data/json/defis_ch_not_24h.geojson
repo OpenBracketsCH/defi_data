@@ -41775,8 +41775,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.460791,
-      47.1891164
+      8.4619739,
+      47.1893989
     ]
   }
 },
@@ -55257,26 +55257,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8563935117",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Rathaus Bremgarten",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Gemeinde",
-    "id": "node/8563935117"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.3424515,
-      47.3518622
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8564112918",
   "properties": {
     "access": "no",
@@ -57020,28 +57000,6 @@
     "coordinates": [
       8.5821339,
       47.276282
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8594987917",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Hafenmeisterei Bottighofen",
-    "description": "im Abwaschraum 1.3.-30.11.",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "06:00 - 22:00",
-    "operator": "Gemeinde Bottighofen",
-    "id": "node/8594987917"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4,
-      46.9406629
     ]
   }
 },
@@ -69086,21 +69044,21 @@
   "id": "node/9014146417",
   "properties": {
     "access": "no",
-    "defibrillator:location": "steinhaldenring 8b, 8954 geroldswil",
+    "defibrillator:location": "EG auf der linken Seite",
     "description": "ground floor on the left",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "mo-fr 7:30-12:30, 14:00-18:00 ",
-    "operator": "hausarztpraxis",
+    "opening_hours": "Mo-Fr 7:30-12:30, 14:00-18:00",
+    "operator": "Hausarztpraxis",
     "phone": "0447482050",
     "id": "node/9014146417"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4,
-      46.9406629
+      8.4131025,
+      47.4196211
     ]
   }
 },
@@ -114981,7 +114939,7 @@
   "id": "node/10231100455",
   "properties": {
     "access": "no",
-    "defibrillator:location": "GVZ Gebäudeversicherung Kanton Zürich, Empfang",
+    "defibrillator:location": "GVZ Gebäudeversicherung Kanton Zürich beim Empfang",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -119070,6 +119028,29 @@
     "coordinates": [
       8.521961,
       47.576457
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10255171484",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Grundbuchamt",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-11:30, 13:30-17:00",
+    "operator": "Sascha Ahrens",
+    "phone": "+41 58 345 78 30",
+    "id": "node/10255171484"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1705316,
+      47.6458525
     ]
   }
 }
