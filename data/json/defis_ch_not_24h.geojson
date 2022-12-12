@@ -46610,6 +46610,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/8118585120",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Foyer von Bibliothek und Mehrzwecksaal. Rechts an der Wand.",
+    "description": "Zugänglich wenn Schule oder Bibliothek offen oder bei Anlass im Mehrzwecksaal.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 79 345 47 76",
+    "id": "node/8118585120"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4757396,
+      47.3391375
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8125972166",
   "properties": {
     "access": "yes",
@@ -114939,7 +114960,7 @@
   "id": "node/10231100455",
   "properties": {
     "access": "no",
-    "defibrillator:location": "GVZ Gebäudeversicherung Kanton Zürich beim Empfang",
+    "defibrillator:location": "Empfang",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
