@@ -28644,12 +28644,13 @@
   "id": "node/8832545418",
   "properties": {
     "access": "no",
-    "defibrillator:location": "John Reed Fitness",
-    "description": "während Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "fixme": "auf welcher Etage liegt der AED?/description:location überarbeiten. /source? woher stammen die Daten?",
     "indoor": "yes",
+    "note": "die bisherige Anmerkung in der discription \"während der Öffnungszeiten\" ergibt sich durch \"opening_hours\", doppelte Nennung daher entfernt.",
     "opening_hours": "Mo-Fr 06:00-23:00; Sa-Su 09:00-21:00",
+    "operator": "John Reed Fitness",
     "phone": "+41 44 500 56 40",
     "id": "node/8832545418"
   },
@@ -50723,22 +50724,24 @@
   "id": "node/10259002109",
   "properties": {
     "access": "no",
+    "check_date": "2022-12-13",
     "defibrillator:location": "Genferstrasse 6 8002 Zürich",
-    "description": "08.30 - 16.30 h",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "fixme": "der AED wurde als indoor=yes gemappt, auf dem Grundstück befindet sich jedoch, gemäss derzeitgem Datenstand osm, eine Baustelle. Ist er überhaupt erreichbar?",
     "indoor": "yes",
-    "level": "EG",
+    "level": "0",
+    "note": "die bisherige Anmerkung in der discription \"Öffnungszeiten\" ergibt sich durch \"opening_hours\", doppelte Nennung daher entfernt.",
     "opening_hours": "Mo-Fr 08.30 - 16.30 h",
     "operator": "SERV",
-    "phone": "+41585515555",
+    "phone": "+41 58 551 55 55",
     "id": "node/10259002109"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5363704,
-      47.3643871
+      8.5362866,
+      47.3644317
     ]
   }
 },
