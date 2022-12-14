@@ -81,16 +81,18 @@
   "id": "node/7559403092",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Rechts vom Haupteingang in das Gebäude",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Aesch",
     "id": "node/7559403092"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5938219,
-      47.4708806
+      7.5939909,
+      47.4709205
     ]
   }
 },
@@ -3779,6 +3781,29 @@
     "coordinates": [
       7.5505661,
       47.4823914
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10262097712",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Mehrzweckhalle Aesch",
+    "description": "immer Erreichbach",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "Erdgeschoss",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Aesch",
+    "id": "node/10262097712"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5869876,
+      47.473718
     ]
   }
 }

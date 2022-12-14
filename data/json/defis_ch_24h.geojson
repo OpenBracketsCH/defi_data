@@ -20952,16 +20952,18 @@
   "id": "node/7559403092",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Rechts vom Haupteingang in das Gebäude",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Aesch",
     "id": "node/7559403092"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5938219,
-      47.4708806
+      7.5939909,
+      47.4709205
     ]
   }
 },
@@ -82153,28 +82155,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10240188816",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Büro/Kasse",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Hallenbad;Schulen Aadorf (Sek Ost)",
-    "phone": "+41 79 662 20 80;+41 52 368 48 50",
-    "id": "node/10240188816"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.90472,
-      47.49385
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10240188817",
   "properties": {
     "access": "yes",
@@ -82507,6 +82487,53 @@
     "coordinates": [
       8.4873784,
       47.1971051
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10261946709",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Talstation Brunni-Bahnen",
+    "description": "an der Aussenwand des Toiletten-Einganges",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "EG",
+    "opening_hours": "24/7",
+    "operator": "Brunni-Bahnen Engelberg AG",
+    "phone": "+41 41 639 60 60",
+    "id": "node/10261946709"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4153986,
+      46.8187183
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10262097712",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Mehrzweckhalle Aesch",
+    "description": "immer Erreichbach",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "Erdgeschoss",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Aesch",
+    "id": "node/10262097712"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5869876,
+      47.473718
     ]
   }
 }
