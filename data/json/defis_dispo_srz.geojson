@@ -32101,7 +32101,7 @@
     "indoor": "yes",
     "level": "0",
     "operator": "VBZ",
-    "phone": "+41 44 411 41 44,",
+    "phone": "+41 44 411 41 44",
     "id": "node/8977158268"
   },
   "geometry": {
@@ -50777,7 +50777,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Feuerwehr Depot Steinhausen",
-    "description": "24h zugänglich",
+    "description": "Zoll AED 3, mit Kindertaste und CPR Feedback. Inkl. Notfallset: Schere, Rasierer, Beatmungs-Folie, Taschenmaske in Hartbox mit Filter, Gummizug, Handschuhe und Alkoholpads.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -50789,8 +50789,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4873784,
-      47.1971051
+      8.4873743,
+      47.1971092
     ]
   }
 },
@@ -50837,6 +50837,52 @@
     "coordinates": [
       8.531726,
       47.1415982
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10264448509",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Rainweg aussen bei dem Haupteingang",
+    "description": "Aussen immer erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "Erdgeschoss",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Horgen",
+    "id": "node/10264448509"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5991514,
+      47.2565036
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10264450409",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Schulhaus Berghalden, innen bei dem Haupteingang links an der Wand",
+    "description": "Zugang nur während Schulbetrieb",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "Erdgeschoss",
+    "opening_hours": "Mo- Fr 07.00- 17.00 Uhr",
+    "operator": "Gemeinde Horgen",
+    "id": "node/10264450409"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5979122,
+      47.2561723
     ]
   }
 }
