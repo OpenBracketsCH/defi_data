@@ -2870,18 +2870,20 @@
   "type": "Feature",
   "id": "node/7930563029",
   "properties": {
-    "access": "yes",
+    "access": "permit",
     "defibrillator:location": "Feuerwehr",
-    "description": "während Öffnungszeiten verfügbar",
+    "description": "Nicht öffentlich zugänglich.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Steinhausen",
     "id": "node/7930563029"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4867239,
-      47.1972308
+      8.4870681,
+      47.1971621
     ]
   }
 },
@@ -3306,6 +3308,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "name": "Hallenbad Herti, bei der Badeaufsicht",
     "operator": "Stadtverwaltung Zug, Fachbereich Interne Sicherheit",
     "phone": "+41 58 728 90 63",
     "id": "node/7930654665"
@@ -3313,8 +3316,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5040815,
-      47.1814791
+      8.5034233,
+      47.1814496
     ]
   }
 },
@@ -3600,8 +3603,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5040325,
-      47.1815092
+      8.5040279,
+      47.1814862
     ]
   }
 },
@@ -3710,8 +3713,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5169993,
-      47.1749721
+      8.5166468,
+      47.1749024
     ]
   }
 },
