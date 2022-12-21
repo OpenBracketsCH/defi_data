@@ -1857,19 +1857,15 @@
   "id": "node/7721108995",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Der Defi ist im EG der Schule zu finden",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "operator": "Gemeinde Berg",
     "id": "node/7721108995"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4103258,
-      47.4865931
+      9.4105196,
+      47.4868243
     ]
   }
 },
@@ -11288,13 +11284,13 @@
   "id": "node/9315745135",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Polizeigarage beim Haupteingang",
-    "description": "24h verfügbar",
+    "defibrillator:location": "Polizei Garage",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "Polizeigarage",
-    "opening_hours": "24/7",
+    "opening_hours": "Mo-Fr 08:00-11:30, 14:00-17:00",
     "operator": "Hochbauamt Kanton St.Gallen",
     "phone": "+41 58 229 30 17",
     "id": "node/9315745135"
@@ -11311,13 +11307,13 @@
   "type": "Feature",
   "id": "node/9315745136",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Finanzdepartement: Neben Eingang Tiefgarage",
-    "description": "24h verfügbar",
+    "access": "no",
+    "defibrillator:location": "Finanzdepartement: Empfang",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-11:30, 14:00-17:00",
     "operator": "Hochbauamt Kanton St.Gallen",
     "phone": "+41 58 229 30 17",
     "id": "node/9315745136"
@@ -11325,8 +11321,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.367754,
-      47.4195379
+      9.3678774,
+      47.4196885
     ]
   }
 },
@@ -11773,12 +11769,12 @@
   "id": "node/9315745156",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Polizeistation: Haupteingang",
-    "description": "24h verfügbar",
+    "defibrillator:location": "Polizeistation: Empfang",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
+    "opening_hours": "Mo-Fr 08:00-11:30, 14:00-17:00",
     "operator": "Kanton St.Gallen",
     "phone": "+41 58 229 30 17",
     "id": "node/9315745156"
@@ -11786,8 +11782,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.2471298,
-      47.4150286
+      9.2470252,
+      47.4150563
     ]
   }
 },
@@ -16871,360 +16867,6 @@
     "coordinates": [
       9.3576747,
       47.4212822
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10267204609",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "rechts vom Haupteingang",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "Erdgeschoss",
-    "opening_hours": "24/7",
-    "operator": "PH Heiligkreuz",
-    "phone": "0712433232",
-    "id": "node/10267204609"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.3958302,
-      47.4425125
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10267779009",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Bäckerei Niffeler, Felseggstrasse 1, 9247 Henau",
-    "description": "an Aussenfassade",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde Uzwil",
-    "phone": "+41719504095",
-    "id": "node/10267779009"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.1189021,
-      47.4524709
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10267789109",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Schulhaus Oberberg, Schulhausstrasse 12, 9247 Henau",
-    "description": "beim Veloabstellplstz",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde Uzwil",
-    "phone": "+41719504095",
-    "id": "node/10267789109"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.1139218,
-      47.4519494
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10269228309",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "St.Gallerstrasse 155 Parkplatz",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "Parterre aussen",
-    "opening_hours": "24/7",
-    "operator": "Andreas Breitenmoser (netshape AG)",
-    "phone": "+41713834545",
-    "id": "node/10269228309"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.2608792,
-      47.4170427
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10269531109",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Bäckerei Nyffeler",
-    "description": "an der Hauswand zur Kirchseite hin\n",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/10269531109"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.1188857,
-      47.4524594
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10269531110",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "am Velohaus Schulhaus Oberberg",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/10269531110"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.113874,
-      47.4519141
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10271883019",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Plegeheim St.Otmar",
-    "description": "während 7:00-19:00 Verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Pflegeheim St.Otmar",
-    "phone": "0712744711",
-    "id": "node/10271883019"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.3459966,
-      47.4174305
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10272968409",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Spar ",
-    "description": "Haupteingang rechts",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Gemeinde",
-    "phone": "0793554300",
-    "id": "node/10272968409"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.284126,
-      47.1935707
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10273931509",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Spar",
-    "description": "Haupteingang rechts",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Gemeinde",
-    "phone": "0793554300",
-    "id": "node/10273931509"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.2841822,
-      47.1935766
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10275525616",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "RAV St.Gallen Haupteingang",
-    "description": "24h verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Hochbauamt Kanton St.Gallen",
-    "phone": "+41 58 229 30 17",
-    "id": "node/10275525616"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.3660378,
-      47.4189375
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10275557609",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Parkplatz, St.Gallerstrasse 155",
-    "description": "-",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "Parterre Parkplatz",
-    "opening_hours": "24/7",
-    "operator": "netshape AG (Andreas Breitenmoser)",
-    "phone": "+41713834545",
-    "id": "node/10275557609"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.2608622,
-      47.4170545
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10276192009",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Parkplatz Innenhof, St.Gallerstr. 155 /Lerchenstr. 16",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "EG",
-    "opening_hours": "24/7",
-    "operator": "netshape AG",
-    "phone": "+41713834545",
-    "id": "node/10276192009"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.2609113,
-      47.4169796
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10276512709",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Eichbergerstrasse 110 (bei Biene Bankomat)",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": " ",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde Eichberg",
-    "id": "node/10276512709"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.5322885,
-      47.3578231
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10276518609",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Oberrieterstrasse 24 9453 Eichberg (Maxi)",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde Eichberg",
-    "id": "node/10276518609"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.5310289,
-      47.3411712
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10276525309",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Lattenwaldstrasse 2 9453 Eichberg",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde Eichberg",
-    "id": "node/10276525309"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.5175159,
-      47.3429165
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10276559909",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Eichbergerstrasse 110 9453 Eichberg",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde Eichberg",
-    "phone": "+41799493484",
-    "id": "node/10276559909"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.5323315,
-      47.357866
     ]
   }
 }

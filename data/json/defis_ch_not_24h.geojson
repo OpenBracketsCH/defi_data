@@ -12971,7 +12971,6 @@
     "defibrillator:location": "Standort: bei Haupteingang eintreten, dann links neben Küche/Office im Putzraum. An Tür von Putzraum ist ein AED-Kleber gut sichtbar aufgeklebt. Zugänglichkeit: werktags 07.00-12.00 / 13.30-17.00 Sonntag und ausserhalb dieser Zeiten ist die Hofmatt i",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
     "operator": "Kirchgemeindehaus Hofmatt",
     "phone": "+41 31 879 23 27",
     "id": "node/6637217937"
@@ -13843,7 +13842,6 @@
   "id": "node/6641800651",
   "properties": {
     "access": "permissive",
-    "addr:housenumber": "130",
     "contact:addr": "Papiermühlestrasse 130, 3063 Ittigen",
     "contact:phone": "+41 31 9251501",
     "defibrillator:location": "Hauptsitz Gebäudeversicherung Bern GVB",
@@ -32836,7 +32834,6 @@
     "description": "Baustelle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "fixme": "Ist sicherlich nicht auf freiem Feld.",
     "name": "AGN Gotthard-Basistunnel Nord",
     "id": "node/7637818986"
   },
@@ -37464,19 +37461,15 @@
   "id": "node/7721108995",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Der Defi ist im EG der Schule zu finden",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "operator": "Gemeinde Berg",
     "id": "node/7721108995"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4103258,
-      47.4865931
+      9.4105196,
+      47.4868243
     ]
   }
 },
@@ -42785,20 +42778,18 @@
   "type": "Feature",
   "id": "node/7930563029",
   "properties": {
-    "access": "permit",
+    "access": "yes",
     "defibrillator:location": "Feuerwehr",
-    "description": "Nicht öffentlich zugänglich.",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Gemeinde Steinhausen",
     "id": "node/7930563029"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4870681,
-      47.1971621
+      8.4867239,
+      47.1972308
     ]
   }
 },
@@ -43118,7 +43109,6 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "name": "Hallenbad Herti, bei der Badeaufsicht",
     "operator": "Stadtverwaltung Zug, Fachbereich Interne Sicherheit",
     "phone": "+41 58 728 90 63",
     "id": "node/7930654665"
@@ -43126,8 +43116,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5034233,
-      47.1814496
+      8.5040815,
+      47.1814791
     ]
   }
 },
@@ -43270,8 +43260,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5166468,
-      47.1749024
+      8.5169993,
+      47.1749721
     ]
   }
 },
@@ -50888,20 +50878,20 @@
   "id": "node/8457810817",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "EG Zentralgebäude, im Mensabereich",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Im Bereich der Mensa",
+    "description": "4. Stock Emergency Schulungszentrum beim Lift",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 07:00-22:00; Sa 07:00-17:00",
-    "phone": "+41 79 240 75 69",
+    "phone": "+41 62 835 35 00",
     "id": "node/8457810817"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.9416276,
-      47.2823477
+      7.9415471,
+      47.2824059
     ]
   }
 },
@@ -50993,8 +50983,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4838519,
-      47.3920476
+      8.4839073,
+      47.3921241
     ]
   }
 },
@@ -55226,6 +55216,28 @@
     "coordinates": [
       7.744466,
       47.4796648
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8564112918",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Bauarena Empfang",
+    "description": "während er Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 09:00 - 18:00; Sa 09:00 - 16:00",
+    "phone": "+41 44 908 55 77",
+    "id": "node/8564112918"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4,
+      46.9399504
     ]
   }
 },
@@ -59621,8 +59633,8 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 07:00-19:00",
-    "operator": "Allianz - Betriebssanität-",
-    "phone": "+41 58 35 88 144",
+    "operator": "Allianz - Betriebssanität- Herr Bernd Herzog",
+    "phone": "+41 58 358 80 00",
     "id": "node/8720869554"
   },
   "geometry": {
@@ -61407,13 +61419,13 @@
   "id": "node/8780684137",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "EG Tribünengebäude, im Sanitätszimmer",
+    "defibrillator:location": "Im Erdgeschoss des Tribünengebäudes innerhalb des Sanitätszimmers",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Bildungszentrum Betrieb",
-    "phone": "+41 79 240 75 69",
+    "operator": "Bildungszentrum Betrieb/ Patrik Jordi",
+    "phone": "062 745 55 13",
     "id": "node/8780684137"
   },
   "geometry": {
@@ -67058,8 +67070,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5480749,
-      47.4093807
+      8.5481599,
+      47.4097553
     ]
   }
 },
@@ -69436,6 +69448,28 @@
 },
 {
   "type": "Feature",
+  "id": "node/9028654618",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Forchstrasse 84",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo- Fr 08:00-18:00",
+    "operator": "Firma",
+    "phone": "0434883838",
+    "id": "node/9028654618"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4,
+      46.9399504
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9029234917",
   "properties": {
     "access": "no",
@@ -71714,21 +71748,20 @@
   "id": "node/9045229751",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Mehrzweckhalle Zofingen, im Eingangsbereich",
+    "defibrillator:location": "Eingangsbereich/Haupteingang",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "operator": "Bildungszentrum Zofingen",
-    "phone": "+41 79 240 75 69",
+    "phone": "+41 62 835 35 00",
     "id": "node/9045229751"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.9402534,
-      47.2826645
+      7.9402319,
+      47.2824825
     ]
   }
 },
@@ -71737,20 +71770,20 @@
   "id": "node/9045229752",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "EG Turnhalle, im Sanitätszimmer",
+    "defibrillator:location": "Turnhalle im Sanitätszimmer",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "phone": "+41 79 240 75 69",
+    "phone": "+41 62 835 35 00",
     "id": "node/9045229752"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.940948,
-      47.2835088
+      7.9407415,
+      47.2835397
     ]
   }
 },
@@ -72269,6 +72302,28 @@
     "coordinates": [
       9.2850226,
       47.4093512
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9076026127",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Plegeheim St.Otmar",
+    "description": "während 7:00-19:00 Verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Pflegeheim St.Otmar",
+    "phone": "0712744711",
+    "id": "node/9076026127"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4,
+      46.9399504
     ]
   }
 },
@@ -80279,6 +80334,53 @@
 },
 {
   "type": "Feature",
+  "id": "node/9315745135",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Polizei Garage",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "Polizeigarage",
+    "opening_hours": "Mo-Fr 08:00-11:30, 14:00-17:00",
+    "operator": "Hochbauamt Kanton St.Gallen",
+    "phone": "+41 58 229 30 17",
+    "id": "node/9315745135"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3817145,
+      47.4248779
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9315745136",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Finanzdepartement: Empfang",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-11:30, 14:00-17:00",
+    "operator": "Hochbauamt Kanton St.Gallen",
+    "phone": "+41 58 229 30 17",
+    "id": "node/9315745136"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3678774,
+      47.4196885
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9315745138",
   "properties": {
     "access": "no",
@@ -80504,6 +80606,29 @@
     "coordinates": [
       9.5641263,
       47.3188029
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9315745156",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Polizeistation: Empfang",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-11:30, 14:00-17:00",
+    "operator": "Kanton St.Gallen",
+    "phone": "+41 58 229 30 17",
+    "id": "node/9315745156"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2470252,
+      47.4150563
     ]
   }
 },
@@ -82920,11 +83045,15 @@
   "id": "node/9375906096",
   "properties": {
     "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "82",
+    "addr:postcode": "3006",
+    "addr:street": "Bolligenstrasse",
     "defibrillator:location": "Bei der Brandmeldeanlage im Gebäude, Zu Büroöffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "operator": "Scout & Sport AG",
-    "phone": "+41 31 838 38 38",
+    "phone": "41 31 838 38 38",
     "id": "node/9375906096"
   },
   "geometry": {
@@ -89570,7 +89699,7 @@
     "indoor": "yes",
     "opening_hours": "Mo-Fr: 07:00-17:00",
     "operator": "Scherler AG",
-    "phone": "+41 31 330 41 11",
+    "phone": "0313304111",
     "id": "node/9568461817"
   },
   "geometry": {
@@ -92051,15 +92180,15 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Tu-Fr 07:30-12:00,13:00-16:30",
-    "phone": "+41 31 971 71 71",
+    "opening_hours": "Di-Fr: 07:30-12:00 13:00-16:30",
+    "phone": "0319717171",
     "id": "node/9648916017"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4149641,
-      46.9240942
+      7.4150028,
+      46.9240804
     ]
   }
 },
@@ -97481,7 +97610,7 @@
     "indoor": "yes",
     "opening_hours": "Mo-Fr 07:30-18:30; Sa 09:00-16:00",
     "operator": "AMAG Bern",
-    "phone": "+41 31 337 55 11",
+    "phone": "0313375511",
     "id": "node/9803819817"
   },
   "geometry": {
@@ -101548,8 +101677,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3081166,
-      47.4769152
+      8.3080786,
+      47.4769134
     ]
   }
 },
@@ -101999,22 +102128,20 @@
   "id": "node/9917843292",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Hinter Kasse 1 an der Wand in der grünen Box. / Behind checkout 1 on the wall in the green box.",
+    "defibrillator:location": "Verkaufsfläche LIDL",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "0",
-    "opening_hours": "Mo-Sa 08:00-21:00; PH closed",
     "operator": "LIDL Schweiz",
-    "phone": "+41 71 627 80 74",
+    "phone": "+41716278074",
     "id": "node/9917843292"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5414893,
-      47.3689147
+      8.5413028,
+      47.3689445
     ]
   }
 },
@@ -114364,46 +114491,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10227906586",
-  "properties": {
-    "emergency": "defibrillator",
-    "indoor": "no",
-    "id": "node/10227906586"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5479323,
-      47.049818
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10228001118",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Verwaltungsgebäude, Eingangsbereich (Schleuse)",
-    "description": "während Bürozeiten zugänglich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "EG",
-    "opening_hours": "Mo-Fr\n\n08:30-11:30\n13:30-16:00",
-    "operator": "Amt für Militär und Bevölkerungsschutz",
-    "phone": "+41615527201",
-    "id": "node/10228001118"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.7219687,
-      47.4755847
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10230409718",
   "properties": {
     "access": "no",
@@ -114611,7 +114698,7 @@
   "id": "node/10231100455",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Bei der GVZ am Empfang",
+    "defibrillator:location": "Empfang",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -118902,8 +118989,8 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "6",
-    "opening_hours": "Mo-Fr 08:30-16:30",
+    "level": "6. OG",
+    "opening_hours": "Mo-Fr 08.30 - 16.30 h",
     "operator": "SERV",
     "phone": "+41585515555",
     "id": "node/10259007709"
@@ -118911,8 +118998,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5350386,
-      47.3643604
+      8.5352476,
+      47.3645516
     ]
   }
 },
@@ -118960,44 +119047,6 @@
     "coordinates": [
       9.3576747,
       47.4212822
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10261265627",
-  "properties": {
-    "emergency": "defibrillator",
-    "indoor": "yes",
-    "id": "node/10261265627"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.9443993,
-      46.1496448
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10261652709",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Alterssiedlung Bodmer",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "EG",
-    "operator": "Alterssiedlung Bodmer",
-    "phone": "+41812553131",
-    "id": "node/10261652709"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.5340246,
-      46.8457368
     ]
   }
 },
@@ -119134,395 +119183,6 @@
     "coordinates": [
       8.6458277,
       47.4092458
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10267808911",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Sporthalle Allenlüften",
-    "description": "Rechts neben Eingangstür, während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "EG",
-    "id": "node/10267808911"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.268659,
-      46.9473278
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10267955620",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "A l'accueil (fleurs)",
-    "description": "Pendant les heures d'ouverture",
-    "emergency": "defibrillator",
-    "indoor": "yes",
-    "level": "0",
-    "operator": "Migros",
-    "id": "node/10267955620"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      6.6328404,
-      46.514891
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10268722279",
-  "properties": {
-    "defibrillator:location": "Im Pickwick's Pub nach Eingangsschleuse rechts",
-    "emergency": "defibrillator",
-    "indoor": "yes",
-    "level": "0",
-    "operator": "Pickwick",
-    "id": "node/10268722279"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4385875,
-      46.9464478
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10269241909",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Schulungsgebäude",
-    "description": "wärend Öffnungszeiten verfügbar (\n\nNotfall)",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "EG",
-    "opening_hours": "Mo.-Fr. 07:45-16:45",
-    "operator": "Sulser Group",
-    "phone": "+41 79 956 59 08",
-    "id": "node/10269241909"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.3063006,
-      47.0883623
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10269531109",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Bäckerei Nyffeler",
-    "description": "an der Hauswand zur Kirchseite hin\n",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/10269531109"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.1188857,
-      47.4524594
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10269531110",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "am Velohaus Schulhaus Oberberg",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/10269531110"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.113874,
-      47.4519141
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10271036609",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Luchten  75 Empfang",
-    "description": "Während Arbeitszeit verfügbar ",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 7:00  - 17:00",
-    "operator": "Firma",
-    "phone": "+41718985060",
-    "id": "node/10271036609"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.5475835,
-      47.4515605
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10271431809",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Kniebrecheweg",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "Zufahrt Einstellhalle/Besucherparkplätze",
-    "operator": "MEG Kniebrecheweg",
-    "phone": "+41792915146",
-    "id": "node/10271431809"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.62918,
-      46.7860596
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10271695774",
-  "properties": {
-    "emergency": "defibrillator",
-    "indoor": "no",
-    "id": "node/10271695774"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      6.2259437,
-      46.2611238
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10271876886",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Bauarena Empfang",
-    "description": "während er Öffnungszeiten",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 09:00 - 18:00; Sa 09:00 - 16:00",
-    "phone": "+41 44 908 55 77",
-    "id": "node/10271876886"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6726718,
-      47.3805413
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10271883019",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Plegeheim St.Otmar",
-    "description": "während 7:00-19:00 Verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Pflegeheim St.Otmar",
-    "phone": "0712744711",
-    "id": "node/10271883019"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.3459966,
-      47.4174305
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10272968409",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Spar ",
-    "description": "Haupteingang rechts",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Gemeinde",
-    "phone": "0793554300",
-    "id": "node/10272968409"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.284126,
-      47.1935707
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10272995223",
-  "properties": {
-    "defibrillator:location": "Contre le mur, à droite de la porte d'accès principale, à l'extérieur du bâtiment.",
-    "emergency": "defibrillator",
-    "indoor": "no",
-    "id": "node/10272995223"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      6.9373366,
-      46.2930593
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10273087324",
-  "properties": {
-    "access": "private",
-    "defibrillator:location": "Bürogebäude VBZ Garage Hagenholz",
-    "emergency": "defibrillator",
-    "indoor": "yes",
-    "level": "0",
-    "operator": "Verkehrsbetriebe Zürich VBZ",
-    "wheelchair": "limited",
-    "id": "node/10273087324"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5579967,
-      47.414829
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10273233209",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Banca Raiffeisen Cadi",
-    "description": "Während Öffnungszeiten zugänglich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "Schalterhalle",
-    "opening_hours": "Mo-Fr: 08:30-12:00, 14:00-17:30",
-    "id": "node/10273233209"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.8531297,
-      46.7043726
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10273931509",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Spar",
-    "description": "Haupteingang rechts",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Gemeinde",
-    "phone": "0793554300",
-    "id": "node/10273931509"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.2841822,
-      47.1935766
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10274738397",
-  "properties": {
-    "emergency": "defibrillator",
-    "indoor": "yes",
-    "id": "node/10274738397"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      6.626672,
-      46.5160067
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10275491674",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Berufsschultrakt, 4. OG beim Lift",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "4",
-    "operator": "Bildungszentrum Zofingen",
-    "phone": "+41 79 240 75 69",
-    "id": "node/10275491674"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.9412189,
-      47.2821786
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10276429846",
-  "properties": {
-    "defibrillator:location": "Devant l'entrée de la Crèmerie du Gibloux",
-    "emergency": "defibrillator",
-    "operator": "Commune de Villorsonnens",
-    "id": "node/10276429846"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      6.9979,
-      46.7143313
     ]
   }
 }
