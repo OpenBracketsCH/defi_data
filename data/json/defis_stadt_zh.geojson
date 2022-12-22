@@ -2358,8 +2358,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4839073,
-      47.3921241
+      8.4838519,
+      47.3920476
     ]
   }
 },
@@ -3996,8 +3996,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5481599,
-      47.4097553
+      8.5480749,
+      47.4093807
     ]
   }
 },
@@ -6338,20 +6338,22 @@
   "id": "node/9917843292",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Verkaufsfläche LIDL",
+    "defibrillator:location": "Hinter Kasse 1 an der Wand in der grünen Box. / Behind checkout 1 on the wall in the green box.",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Sa 08:00-21:00; PH closed",
     "operator": "LIDL Schweiz",
-    "phone": "+41716278074",
+    "phone": "+41 71 627 80 74",
     "id": "node/9917843292"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5413028,
-      47.3689445
+      8.5414893,
+      47.3689147
     ]
   }
 },
@@ -7598,6 +7600,27 @@
     "coordinates": [
       8.5350386,
       47.3643604
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10273087324",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Bürogebäude VBZ Garage Hagenholz",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Verkehrsbetriebe Zürich VBZ",
+    "wheelchair": "limited",
+    "id": "node/10273087324"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5579967,
+      47.414829
     ]
   }
 }

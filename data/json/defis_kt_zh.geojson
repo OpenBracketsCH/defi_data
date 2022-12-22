@@ -11765,8 +11765,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4839073,
-      47.3921241
+      8.4838519,
+      47.3920476
     ]
   }
 },
@@ -22157,8 +22157,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5481599,
-      47.4097553
+      8.5480749,
+      47.4093807
     ]
   }
 },
@@ -31977,20 +31977,22 @@
   "id": "node/9917843292",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Verkaufsfläche LIDL",
+    "defibrillator:location": "Hinter Kasse 1 an der Wand in der grünen Box. / Behind checkout 1 on the wall in the green box.",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Sa 08:00-21:00; PH closed",
     "operator": "LIDL Schweiz",
-    "phone": "+41716278074",
+    "phone": "+41 71 627 80 74",
     "id": "node/9917843292"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5413028,
-      47.3689445
+      8.5414893,
+      47.3689147
     ]
   }
 },
@@ -37515,6 +37517,191 @@
     "coordinates": [
       8.6458277,
       47.4092458
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10268300709",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Auto",
+    "description": "Verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Privat",
+    "phone": "0799176045",
+    "id": "node/10268300709"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6563361,
+      47.5250547
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10269121009",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "im Auto",
+    "description": "telefonisch erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "Parkplatz",
+    "opening_hours": "24/7",
+    "operator": "Privatperson",
+    "phone": "0799176045",
+    "id": "node/10269121009"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6562127,
+      47.5249786
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10271876886",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Bauarena Empfang",
+    "description": "während er Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 09:00 - 18:00; Sa 09:00 - 16:00",
+    "phone": "+41 44 908 55 77",
+    "id": "node/10271876886"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6726718,
+      47.3805413
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10271913209",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Auto",
+    "description": "24/7 verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "Parkplatz",
+    "opening_hours": "24/7",
+    "operator": "Privatperson",
+    "phone": "+41799176045",
+    "id": "node/10271913209"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6569722,
+      47.5253269
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10272951009",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Ferienheim Mistlibühl",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "EG",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Richterswil ",
+    "phone": "+41 79 590 28 36",
+    "id": "node/10272951009"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6781585,
+      47.1680756
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10272990609",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Tertianum Etzelblick, Gartenstrasse 17, 8805 Richterswil",
+    "description": "Haupteingang ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "opening_hours": "24/7",
+    "operator": "Altersheim Tertianum Etzelblick",
+    "phone": "+41 43 544 01 01",
+    "id": "node/10272990609"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7084997,
+      47.205856
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10273006009",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "WohnenPlus, Schwyzerstrasse 31, 8805 Richterswil",
+    "description": "Eingang AulaPlus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "EG",
+    "opening_hours": "24/7",
+    "operator": "WohnenPlus Richterswil ",
+    "phone": "+41 44 784 94 56",
+    "id": "node/10273006009"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7108707,
+      47.2024557
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10273087324",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Bürogebäude VBZ Garage Hagenholz",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Verkehrsbetriebe Zürich VBZ",
+    "wheelchair": "limited",
+    "id": "node/10273087324"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5579967,
+      47.414829
     ]
   }
 }
