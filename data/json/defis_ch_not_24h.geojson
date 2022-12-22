@@ -118832,37 +118832,11 @@
 },
 {
   "type": "Feature",
-  "id": "node/10259002109",
-  "properties": {
-    "access": "no",
-    "check_date": "2022-12-13",
-    "defibrillator:location": "Genferstrasse 6 8002 Zürich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "fixme": "der AED wurde als indoor=yes gemappt, auf dem Grundstück befindet sich jedoch, gemäss derzeitgem Datenstand osm, eine Baustelle. Ist er überhaupt erreichbar?",
-    "indoor": "yes",
-    "level": "0",
-    "note": "die bisherige Anmerkung in der discription \"Öffnungszeiten\" ergibt sich durch \"opening_hours\", doppelte Nennung daher entfernt.",
-    "opening_hours": "Mo-Fr 08.30 - 16.30 h",
-    "operator": "SERV",
-    "phone": "+41 58 551 55 55",
-    "id": "node/10259002109"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5362866,
-      47.3644317
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10259007709",
   "properties": {
     "access": "no",
     "defibrillator:location": "Genferstrasse 6 8002 Zürich",
-    "description": "08.30 - 16.30 h",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
