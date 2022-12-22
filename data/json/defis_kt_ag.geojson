@@ -2605,20 +2605,20 @@
   "id": "node/8457810817",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Im Bereich der Mensa",
-    "description": "4. Stock Emergency Schulungszentrum beim Lift",
+    "defibrillator:location": "EG Zentralgebäude, im Mensabereich",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 07:00-22:00; Sa 07:00-17:00",
-    "phone": "+41 62 835 35 00",
+    "phone": "+41 79 240 75 69",
     "id": "node/8457810817"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.9415471,
-      47.2824059
+      7.9416276,
+      47.2823477
     ]
   }
 },
@@ -4582,13 +4582,13 @@
   "id": "node/8780684137",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Im Erdgeschoss des Tribünengebäudes innerhalb des Sanitätszimmers",
+    "defibrillator:location": "EG Tribünengebäude, im Sanitätszimmer",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Bildungszentrum Betrieb/ Patrik Jordi",
-    "phone": "062 745 55 13",
+    "operator": "Bildungszentrum Betrieb",
+    "phone": "+41 79 240 75 69",
     "id": "node/8780684137"
   },
   "geometry": {
@@ -6589,19 +6589,20 @@
   "id": "node/9045223375",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Schrank in der Küche/Pausenraum",
-    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "defibrillator:location": "beim Lift 3. OG",
+    "description": "für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "operator": "Informatik Aargau",
     "phone": "+41 62 835 10 09",
     "id": "node/9045223375"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0538455,
-      47.3926811
+      8.0496693,
+      47.3619193
     ]
   }
 },
@@ -6610,19 +6611,20 @@
   "id": "node/9045223376",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Sanitätsraum",
-    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "defibrillator:location": "Sanitätsraum 2. OG",
+    "description": "für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "operator": "Informatik Aargau",
     "phone": "+41 62 835 10 09",
     "id": "node/9045223376"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0491342,
-      47.3900625
+      8.0494909,
+      47.3619018
     ]
   }
 },
@@ -6631,19 +6633,20 @@
   "id": "node/9045223377",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Regal im Eingangsbereich",
-    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "defibrillator:location": "1. UG beim Schulungszentrum Informatik Aargau",
+    "description": "für MA 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "operator": "Informatik Aargau",
     "phone": "+41 62 835 10 09",
     "id": "node/9045223377"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.048863,
-      47.3899503
+      8.0500579,
+      47.3619923
     ]
   }
 },
@@ -8194,20 +8197,21 @@
   "id": "node/9045229751",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Eingangsbereich/Haupteingang",
+    "defibrillator:location": "Mehrzweckhalle Zofingen, im Eingangsbereich",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "phone": "+41 62 835 35 00",
+    "operator": "Bildungszentrum Zofingen",
+    "phone": "+41 79 240 75 69",
     "id": "node/9045229751"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.9402319,
-      47.2824825
+      7.9402534,
+      47.2826645
     ]
   }
 },
@@ -8216,20 +8220,20 @@
   "id": "node/9045229752",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Turnhalle im Sanitätszimmer",
+    "defibrillator:location": "EG Turnhalle, im Sanitätszimmer",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "phone": "+41 62 835 35 00",
+    "phone": "+41 79 240 75 69",
     "id": "node/9045229752"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.9407415,
-      47.2835397
+      7.940948,
+      47.2835088
     ]
   }
 },
@@ -15364,6 +15368,29 @@
     "coordinates": [
       8.346374,
       47.3511892
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10275491674",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Berufsschultrakt, 4. OG beim Lift",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "4",
+    "operator": "Bildungszentrum Zofingen",
+    "phone": "+41 79 240 75 69",
+    "id": "node/10275491674"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9412189,
+      47.2821786
     ]
   }
 }
