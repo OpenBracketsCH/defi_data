@@ -7419,7 +7419,7 @@
   "id": "node/10231100455",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Empfang",
+    "defibrillator:location": "Bei der GVZ am Empfang",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -7556,22 +7556,24 @@
   "id": "node/10259002109",
   "properties": {
     "access": "no",
+    "check_date": "2022-12-13",
     "defibrillator:location": "Genferstrasse 6 8002 Zürich",
-    "description": "08.30 - 16.30 h",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "fixme": "der AED wurde als indoor=yes gemappt, auf dem Grundstück befindet sich jedoch, gemäss derzeitgem Datenstand osm, eine Baustelle. Ist er überhaupt erreichbar?",
     "indoor": "yes",
-    "level": "EG",
+    "level": "0",
+    "note": "die bisherige Anmerkung in der discription \"Öffnungszeiten\" ergibt sich durch \"opening_hours\", doppelte Nennung daher entfernt.",
     "opening_hours": "Mo-Fr 08.30 - 16.30 h",
     "operator": "SERV",
-    "phone": "+41585515555",
+    "phone": "+41 58 551 55 55",
     "id": "node/10259002109"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5363704,
-      47.3643871
+      8.5362866,
+      47.3644317
     ]
   }
 },
@@ -7585,8 +7587,8 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "6. OG",
-    "opening_hours": "Mo-Fr 08.30 - 16.30 h",
+    "level": "6",
+    "opening_hours": "Mo-Fr 08:30-16:30",
     "operator": "SERV",
     "phone": "+41585515555",
     "id": "node/10259007709"
@@ -7594,8 +7596,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5352476,
-      47.3645516
+      8.5350386,
+      47.3643604
     ]
   }
 }

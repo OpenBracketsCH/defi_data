@@ -114698,7 +114698,7 @@
   "id": "node/10231100455",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Empfang",
+    "defibrillator:location": "Bei der GVZ am Empfang",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -117836,27 +117836,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10240188809",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "bei Kasse, wenn Büro geschlossen, dann via Hallenbad zugänglich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "Mo-Su 09:00-19:00",
-    "operator": "Schwimmbad",
-    "phone": "+41 52 368 48 52",
-    "id": "node/10240188809"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.90805,
-      47.49943
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10240188812",
   "properties": {
     "access": "yes",
@@ -117941,14 +117920,38 @@
 },
 {
   "type": "Feature",
-  "id": "node/10240188818",
+  "id": "node/10240188816",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Kassenhaus",
+    "defibrillator:location": "Im Badebereich",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "operator": "Freibad",
+    "indoor": "yes",
+    "opening_hours": "Öffnungszeiten Bäder Aadorf",
+    "operator": "Bäder Aadorf",
+    "phone": "+41 79 662 20 80;+41 52 368 48 50",
+    "id": "node/10240188816"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.90472,
+      47.49385
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10240188818",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben Tür zum Kassenhaus",
+    "description": "während Öffnungszeiten verfügbar\nIn Wintersaison (Sep-Mai) nicht Verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Bäder Aadorf",
     "phone": "+41 52 368 48 50",
     "id": "node/10240188818"
   },
@@ -118203,8 +118206,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8533158,
-      47.3947346
+      8.8532054,
+      47.39443
     ]
   }
 },
@@ -118955,22 +118958,24 @@
   "id": "node/10259002109",
   "properties": {
     "access": "no",
+    "check_date": "2022-12-13",
     "defibrillator:location": "Genferstrasse 6 8002 Zürich",
-    "description": "08.30 - 16.30 h",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "fixme": "der AED wurde als indoor=yes gemappt, auf dem Grundstück befindet sich jedoch, gemäss derzeitgem Datenstand osm, eine Baustelle. Ist er überhaupt erreichbar?",
     "indoor": "yes",
-    "level": "EG",
+    "level": "0",
+    "note": "die bisherige Anmerkung in der discription \"Öffnungszeiten\" ergibt sich durch \"opening_hours\", doppelte Nennung daher entfernt.",
     "opening_hours": "Mo-Fr 08.30 - 16.30 h",
     "operator": "SERV",
-    "phone": "+41585515555",
+    "phone": "+41 58 551 55 55",
     "id": "node/10259002109"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5363704,
-      47.3643871
+      8.5362866,
+      47.3644317
     ]
   }
 },
@@ -118984,8 +118989,8 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "6. OG",
-    "opening_hours": "Mo-Fr 08.30 - 16.30 h",
+    "level": "6",
+    "opening_hours": "Mo-Fr 08:30-16:30",
     "operator": "SERV",
     "phone": "+41585515555",
     "id": "node/10259007709"
@@ -118993,8 +118998,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5352476,
-      47.3645516
+      8.5350386,
+      47.3643604
     ]
   }
 },
@@ -119042,6 +119047,44 @@
     "coordinates": [
       9.3576747,
       47.4212822
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10261265627",
+  "properties": {
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/10261265627"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9443993,
+      46.1496448
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10261652709",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Alterssiedlung Bodmer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "operator": "Alterssiedlung Bodmer",
+    "phone": "+41812553131",
+    "id": "node/10261652709"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5340246,
+      46.8457368
     ]
   }
 },

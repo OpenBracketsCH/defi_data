@@ -10892,27 +10892,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10240188809",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "bei Kasse, wenn Büro geschlossen, dann via Hallenbad zugänglich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "Mo-Su 09:00-19:00",
-    "operator": "Schwimmbad",
-    "phone": "+41 52 368 48 52",
-    "id": "node/10240188809"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.90805,
-      47.49943
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10240188810",
   "properties": {
     "access": "yes",
@@ -11040,12 +11019,13 @@
   "id": "node/10240188816",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Büro/Kasse",
+    "defibrillator:location": "Im Badebereich",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Hallenbad;Schulen Aadorf (Sek Ost)",
+    "indoor": "yes",
+    "opening_hours": "Öffnungszeiten Bäder Aadorf",
+    "operator": "Bäder Aadorf",
     "phone": "+41 79 662 20 80;+41 52 368 48 50",
     "id": "node/10240188816"
   },
@@ -11082,11 +11062,12 @@
   "id": "node/10240188818",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Kassenhaus",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Neben Tür zum Kassenhaus",
+    "description": "während Öffnungszeiten verfügbar\nIn Wintersaison (Sep-Mai) nicht Verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "operator": "Freibad",
+    "indoor": "no",
+    "operator": "Bäder Aadorf",
     "phone": "+41 52 368 48 50",
     "id": "node/10240188818"
   },
