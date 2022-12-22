@@ -12971,6 +12971,7 @@
     "defibrillator:location": "Standort: bei Haupteingang eintreten, dann links neben Küche/Office im Putzraum. An Tür von Putzraum ist ein AED-Kleber gut sichtbar aufgeklebt. Zugänglichkeit: werktags 07.00-12.00 / 13.30-17.00 Sonntag und ausserhalb dieser Zeiten ist die Hofmatt i",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "operator": "Kirchgemeindehaus Hofmatt",
     "phone": "+41 31 879 23 27",
     "id": "node/6637217937"
@@ -67070,8 +67071,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5481599,
-      47.4097553
+      8.5480749,
+      47.4093807
     ]
   }
 },
@@ -83045,15 +83046,11 @@
   "id": "node/9375906096",
   "properties": {
     "access": "permissive",
-    "addr:city": "Bern",
-    "addr:housenumber": "82",
-    "addr:postcode": "3006",
-    "addr:street": "Bolligenstrasse",
     "defibrillator:location": "Bei der Brandmeldeanlage im Gebäude, Zu Büroöffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "operator": "Scout & Sport AG",
-    "phone": "41 31 838 38 38",
+    "phone": "+41 31 838 38 38",
     "id": "node/9375906096"
   },
   "geometry": {
@@ -89699,7 +89696,7 @@
     "indoor": "yes",
     "opening_hours": "Mo-Fr: 07:00-17:00",
     "operator": "Scherler AG",
-    "phone": "0313304111",
+    "phone": "+41 31 330 41 11",
     "id": "node/9568461817"
   },
   "geometry": {
@@ -92180,15 +92177,15 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Di-Fr: 07:30-12:00 13:00-16:30",
-    "phone": "0319717171",
+    "opening_hours": "Tu-Fr 07:30-12:00,13:00-16:30",
+    "phone": "+41 31 971 71 71",
     "id": "node/9648916017"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4150028,
-      46.9240804
+      7.4149641,
+      46.9240942
     ]
   }
 },
@@ -97610,7 +97607,7 @@
     "indoor": "yes",
     "opening_hours": "Mo-Fr 07:30-18:30; Sa 09:00-16:00",
     "operator": "AMAG Bern",
-    "phone": "0313375511",
+    "phone": "+41 31 337 55 11",
     "id": "node/9803819817"
   },
   "geometry": {
@@ -101677,8 +101674,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3080786,
-      47.4769134
+      8.3081166,
+      47.4769152
     ]
   }
 },
@@ -102128,20 +102125,22 @@
   "id": "node/9917843292",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Verkaufsfläche LIDL",
+    "defibrillator:location": "Hinter Kasse 1 an der Wand in der grünen Box. / Behind checkout 1 on the wall in the green box.",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Sa 08:00-21:00; PH closed",
     "operator": "LIDL Schweiz",
-    "phone": "+41716278074",
+    "phone": "+41 71 627 80 74",
     "id": "node/9917843292"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5413028,
-      47.3689445
+      8.5414893,
+      47.3689147
     ]
   }
 },
@@ -114698,7 +114697,7 @@
   "id": "node/10231100455",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Empfang",
+    "defibrillator:location": "Bei der GVZ am Empfang",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -118989,8 +118988,8 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "6. OG",
-    "opening_hours": "Mo-Fr 08.30 - 16.30 h",
+    "level": "6",
+    "opening_hours": "Mo-Fr 08:30-16:30",
     "operator": "SERV",
     "phone": "+41585515555",
     "id": "node/10259007709"
@@ -118998,8 +118997,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5352476,
-      47.3645516
+      8.5350386,
+      47.3643604
     ]
   }
 },
@@ -119047,6 +119046,44 @@
     "coordinates": [
       9.3576747,
       47.4212822
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10261265627",
+  "properties": {
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/10261265627"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9443993,
+      46.1496448
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10261652709",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Alterssiedlung Bodmer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "operator": "Alterssiedlung Bodmer",
+    "phone": "+41812553131",
+    "id": "node/10261652709"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5340246,
+      46.8457368
     ]
   }
 },
@@ -119183,6 +119220,130 @@
     "coordinates": [
       8.6458277,
       47.4092458
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10267808911",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Sporthalle Allenlüften",
+    "description": "Rechts neben Eingangstür, während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "id": "node/10267808911"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.268659,
+      46.9473278
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10267955620",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "A l'accueil (fleurs)",
+    "description": "Pendant les heures d'ouverture",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Migros",
+    "id": "node/10267955620"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.6328404,
+      46.514891
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10268722279",
+  "properties": {
+    "defibrillator:location": "Im Pickwick's Pub nach Eingangsschleuse rechts",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Pickwick",
+    "id": "node/10268722279"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4385875,
+      46.9464478
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10269241909",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Schulungsgebäude",
+    "description": "wärend Öffnungszeiten verfügbar (\n\nNotfall)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "opening_hours": "Mo.-Fr. 07:45-16:45",
+    "operator": "Sulser Group",
+    "phone": "+41 79 956 59 08",
+    "id": "node/10269241909"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3063006,
+      47.0883623
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10269531109",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bäckerei Nyffeler",
+    "description": "an der Hauswand zur Kirchseite hin\n",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/10269531109"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1188857,
+      47.4524594
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10269531110",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "am Velohaus Schulhaus Oberberg",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/10269531110"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.113874,
+      47.4519141
     ]
   }
 }

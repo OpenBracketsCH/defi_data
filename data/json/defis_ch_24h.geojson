@@ -9668,6 +9668,7 @@
     "defibrillator:location": "Vor Eingang Gemeindeverwaltung. Nach Gebrauch schnellst möglich bei Gemeindeverwaltung melden.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Schüpfen",
     "phone": "+41 31 879 70 80",
@@ -82765,6 +82766,145 @@
     "coordinates": [
       8.5991514,
       47.2565036
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10267204609",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "rechts vom Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "Erdgeschoss",
+    "opening_hours": "24/7",
+    "operator": "PH Heiligkreuz",
+    "phone": "0712433232",
+    "id": "node/10267204609"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3958302,
+      47.4425125
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10267779009",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bäckerei Niffeler, Felseggstrasse 1, 9247 Henau",
+    "description": "an Aussenfassade",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Uzwil",
+    "phone": "+41719504095",
+    "id": "node/10267779009"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1189021,
+      47.4524709
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10267789109",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Oberberg, Schulhausstrasse 12, 9247 Henau",
+    "description": "beim Veloabstellplstz",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Uzwil",
+    "phone": "+41719504095",
+    "id": "node/10267789109"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1139218,
+      47.4519494
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10268300709",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Auto",
+    "description": "Verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Privat",
+    "phone": "0799176045",
+    "id": "node/10268300709"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6563361,
+      47.5250547
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10269121009",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "im Auto",
+    "description": "telefonisch erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "Parkplatz",
+    "opening_hours": "24/7",
+    "operator": "Privatperson",
+    "phone": "0799176045",
+    "id": "node/10269121009"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6562127,
+      47.5249786
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10269228309",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "St.Gallerstrasse 155 Parkplatz",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "Parterre aussen",
+    "opening_hours": "24/7",
+    "operator": "Andreas Breitenmoser (netshape AG)",
+    "phone": "+41713834545",
+    "id": "node/10269228309"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2608792,
+      47.4170427
     ]
   }
 }

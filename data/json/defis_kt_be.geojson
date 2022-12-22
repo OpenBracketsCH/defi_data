@@ -15129,6 +15129,7 @@
     "defibrillator:location": "Vor Eingang Gemeindeverwaltung. Nach Gebrauch schnellst möglich bei Gemeindeverwaltung melden.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Schüpfen",
     "phone": "+41 31 879 70 80",
@@ -15229,6 +15230,7 @@
     "defibrillator:location": "Standort: bei Haupteingang eintreten, dann links neben Küche/Office im Putzraum. An Tür von Putzraum ist ein AED-Kleber gut sichtbar aufgeklebt. Zugänglichkeit: werktags 07.00-12.00 / 13.30-17.00 Sonntag und ausserhalb dieser Zeiten ist die Hofmatt i",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "operator": "Kirchgemeindehaus Hofmatt",
     "phone": "+41 31 879 23 27",
     "id": "node/6637217937"
@@ -38662,15 +38664,11 @@
   "id": "node/9375906096",
   "properties": {
     "access": "permissive",
-    "addr:city": "Bern",
-    "addr:housenumber": "82",
-    "addr:postcode": "3006",
-    "addr:street": "Bolligenstrasse",
     "defibrillator:location": "Bei der Brandmeldeanlage im Gebäude, Zu Büroöffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "operator": "Scout & Sport AG",
-    "phone": "41 31 838 38 38",
+    "phone": "+41 31 838 38 38",
     "id": "node/9375906096"
   },
   "geometry": {
@@ -40681,7 +40679,7 @@
     "indoor": "yes",
     "opening_hours": "Mo-Fr: 07:00-17:00",
     "operator": "Scherler AG",
-    "phone": "0313304111",
+    "phone": "+41 31 330 41 11",
     "id": "node/9568461817"
   },
   "geometry": {
@@ -40996,15 +40994,15 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Di-Fr: 07:30-12:00 13:00-16:30",
-    "phone": "0319717171",
+    "opening_hours": "Tu-Fr 07:30-12:00,13:00-16:30",
+    "phone": "+41 31 971 71 71",
     "id": "node/9648916017"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4150028,
-      46.9240804
+      7.4149641,
+      46.9240942
     ]
   }
 },
@@ -41625,7 +41623,7 @@
     "indoor": "yes",
     "opening_hours": "Mo-Fr 07:30-18:30; Sa 09:00-16:00",
     "operator": "AMAG Bern",
-    "phone": "0313375511",
+    "phone": "+41 31 337 55 11",
     "id": "node/9803819817"
   },
   "geometry": {
@@ -44357,6 +44355,70 @@
     "coordinates": [
       7.5051836,
       46.9100277
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10267808911",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Sporthalle Allenlüften",
+    "description": "Rechts neben Eingangstür, während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "id": "node/10267808911"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.268659,
+      46.9473278
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10268722279",
+  "properties": {
+    "defibrillator:location": "Im Pickwick's Pub nach Eingangsschleuse rechts",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Pickwick",
+    "id": "node/10268722279"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4385875,
+      46.9464478
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10269241909",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Schulungsgebäude",
+    "description": "wärend Öffnungszeiten verfügbar (\n\nNotfall)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "opening_hours": "Mo.-Fr. 07:45-16:45",
+    "operator": "Sulser Group",
+    "phone": "+41 79 956 59 08",
+    "id": "node/10269241909"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3063006,
+      47.0883623
     ]
   }
 }
