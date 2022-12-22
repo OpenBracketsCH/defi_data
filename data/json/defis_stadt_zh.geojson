@@ -2358,8 +2358,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4839073,
-      47.3921241
+      8.4838519,
+      47.3920476
     ]
   }
 },
@@ -7600,6 +7600,48 @@
     "coordinates": [
       8.5350386,
       47.3643604
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10273087324",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Bürogebäude VBZ Garage Hagenholz",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Verkehrsbetriebe Zürich VBZ",
+    "wheelchair": "limited",
+    "id": "node/10273087324"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5579967,
+      47.414829
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10276515909",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Brahmshof",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "EG",
+    "opening_hours": "24/7",
+    "id": "node/10276515909"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5068684,
+      47.3791534
     ]
   }
 }

@@ -446,6 +446,7 @@
     "description": "EG Kundentreppenhaus b. Plakatwand / 1. OG Migros-Kundendienst an Rückwand / 2. OG Kundentreppenhaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Einkaufszentrum Länderpark",
     "id": "node/7637818436"
   },
@@ -1926,6 +1927,30 @@
     "coordinates": [
       8.3576761,
       46.9674284
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10278144409",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Wylstrasse 4",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "Eingang Parterre",
+    "opening_hours": "Mo-Fr: 07.00 - 20.00",
+    "operator": "Privatperson",
+    "phone": "079 204 93 08",
+    "id": "node/10278144409"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3125949,
+      46.9873374
     ]
   }
 }

@@ -2870,18 +2870,20 @@
   "type": "Feature",
   "id": "node/7930563029",
   "properties": {
-    "access": "yes",
+    "access": "permit",
     "defibrillator:location": "Feuerwehr",
-    "description": "während Öffnungszeiten verfügbar",
+    "description": "Nicht öffentlich zugänglich.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Steinhausen",
     "id": "node/7930563029"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4867239,
-      47.1972308
+      8.4870788,
+      47.1971585
     ]
   }
 },
@@ -3009,17 +3011,19 @@
   "id": "node/7930563037",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Im Schulhaus",
-    "description": "während Schulbetrieb verfügbar",
+    "defibrillator:location": "Im Schulhausareal",
+    "description": "Zoll AED 3, mit Kindertaste und CPR Feedback. Inkl. Notfallset: Schere, Rasierer, Beatmungs-Folie, Taschenmaske in Hartbox mit Filter, Gummizug, Handschuhe und Alkoholpads.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde Steinhausen",
     "id": "node/7930563037"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4913588,
-      47.1917922
+      8.4913217,
+      47.1921846
     ]
   }
 },
