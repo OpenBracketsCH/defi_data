@@ -50386,7 +50386,7 @@
   "id": "node/10231100455",
   "properties": {
     "access": "no",
-    "defibrillator:location": "GVZ Gebäudeversicherung Kanton Zürich, Empfang",
+    "defibrillator:location": "Empfang",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -50726,24 +50726,22 @@
   "id": "node/10259002109",
   "properties": {
     "access": "no",
-    "check_date": "2022-12-13",
     "defibrillator:location": "Genferstrasse 6 8002 Zürich",
+    "description": "08.30 - 16.30 h",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "fixme": "der AED wurde als indoor=yes gemappt, auf dem Grundstück befindet sich jedoch, gemäss derzeitgem Datenstand osm, eine Baustelle. Ist er überhaupt erreichbar?",
     "indoor": "yes",
-    "level": "0",
-    "note": "die bisherige Anmerkung in der discription \"Öffnungszeiten\" ergibt sich durch \"opening_hours\", doppelte Nennung daher entfernt.",
+    "level": "EG",
     "opening_hours": "Mo-Fr 08.30 - 16.30 h",
     "operator": "SERV",
-    "phone": "+41 58 551 55 55",
+    "phone": "+41585515555",
     "id": "node/10259002109"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5362866,
-      47.3644317
+      8.5363704,
+      47.3643871
     ]
   }
 },
