@@ -32741,12 +32741,12 @@
   "type": "Feature",
   "id": "node/7637818978",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Im Foyer, vor dem Eingang bei der Küche.",
-    "description": "während Öffnungszeiten verfügbar",
+    "access": "yes",
+    "defibrillator:location": "vor der Turnhalle / vor dem Eingang links in der Ecke der Nische an der Wand",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "operator": "Gemeinde Ettiswil / Abwart Martin Weibel",
     "phone": "+41 41 984 13 59",
     "id": "node/7637818978"
@@ -32754,8 +32754,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0180614,
-      47.1508768
+      8.0182893,
+      47.1507825
     ]
   }
 },
@@ -119524,6 +119524,28 @@
     "coordinates": [
       8.3125949,
       46.9873374
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10280252710",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Haupteingang Landesmuseum",
+    "description": "während Öffnungszeiten Museum ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "operator": "Landesmuseum ",
+    "id": "node/10280252710"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5406222,
+      47.3791674
     ]
   }
 }
