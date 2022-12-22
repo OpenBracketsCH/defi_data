@@ -114638,7 +114638,6 @@
     "level": "0",
     "opening_hours": "Mo-Fr 07:30-16:30",
     "operator": "Skyguide",
-    "phone": "+41 43 931 60 21",
     "id": "node/10231074307"
   },
   "geometry": {
@@ -114699,7 +114698,7 @@
   "id": "node/10231100455",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Empfang",
+    "defibrillator:location": "GVZ Gebäudeversicherung Kanton Zürich, Empfang",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -114852,7 +114851,7 @@
   "id": "node/10238841534",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "An Réception",
+    "defibrillator:location": "Berghotel Randolins, Réception",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -114865,8 +114864,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.812171,
-      46.4850125
+      9.8118237,
+      46.4851224
     ]
   }
 },
@@ -114874,7 +114873,7 @@
   "type": "Feature",
   "id": "node/10239799413",
   "properties": {
-    "defibrillator:location": "Dans la Migros, à côté de la caisse",
+    "defibrillator:location": "À côté de la caisse",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -117837,6 +117836,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/10240188809",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "bei Kasse, wenn Büro geschlossen, dann via Hallenbad zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "Mo-Su 09:00-19:00",
+    "operator": "Schwimmbad",
+    "phone": "+41 52 368 48 52",
+    "id": "node/10240188809"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.90805,
+      47.49943
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10240188812",
   "properties": {
     "access": "yes",
@@ -117921,38 +117941,14 @@
 },
 {
   "type": "Feature",
-  "id": "node/10240188816",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Im Badebereich",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Öffnungszeiten Bäder Aadorf",
-    "operator": "Bäder Aadorf",
-    "phone": "+41 79 662 20 80;+41 52 368 48 50",
-    "id": "node/10240188816"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.90472,
-      47.49385
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10240188818",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Neben Tür zum Kassenhaus",
-    "description": "während Öffnungszeiten verfügbar\nIn Wintersaison (Sep-Mai) nicht Verfügbar",
+    "defibrillator:location": "Kassenhaus",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Bäder Aadorf",
+    "operator": "Freibad",
     "phone": "+41 52 368 48 50",
     "id": "node/10240188818"
   },
@@ -118207,8 +118203,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8532054,
-      47.39443
+      8.8533158,
+      47.3947346
     ]
   }
 },
@@ -118454,8 +118450,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3432006,
-      47.3475823
+      8.3428113,
+      47.3487669
     ]
   }
 },
