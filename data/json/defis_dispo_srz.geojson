@@ -13146,27 +13146,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7930563037",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Im Schulhausareal",
-    "description": "Zoll AED 3, mit Kindertaste und CPR Feedback. Inkl. Notfallset: Schere, Rasierer, Beatmungs-Folie, Taschenmaske in Hartbox mit Filter, Gummizug, Handschuhe und Alkoholpads.",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Gemeinde Steinhausen",
-    "id": "node/7930563037"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4913217,
-      47.1921846
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7930563038",
   "properties": {
     "access": "yes",
@@ -51162,6 +51141,30 @@
     "coordinates": [
       8.5406222,
       47.3791674
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10282251509",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus \"Feldheim 1\"",
+    "description": "Zoll AED 3, mit Kindertaste und CPR Feedback. Inkl. Notfallset: Schere, Rasierer, Beatmungs-Folie, Taschenmaske in Hartbox mit Filter, Gummizug, Handschuhe und Alkoholpads.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "Eingang Feldheim 1",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Steinhausen",
+    "phone": "+41417481155",
+    "id": "node/10282251509"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4912177,
+      47.1920798
     ]
   }
 }
