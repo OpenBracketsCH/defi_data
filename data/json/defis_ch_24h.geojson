@@ -26772,6 +26772,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/7637818978",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "vor der Turnhalle / vor dem Eingang links in der Ecke der Nische an der Wand",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Ettiswil / Abwart Martin Weibel",
+    "phone": "+41 41 984 13 59",
+    "id": "node/7637818978"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0182893,
+      47.1507825
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/7637818981",
   "properties": {
     "access": "yes",
@@ -83599,6 +83622,30 @@
     "coordinates": [
       8.0452478,
       47.1611743
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10280949909",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Wohnung Familie Manuel und Muriel Nef",
+    "description": "Immer verfügbar wenn zu Hause",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1. OG Neugrubenstr. 22",
+    "opening_hours": "24/7",
+    "operator": "Privatperson",
+    "phone": "+41794062929",
+    "id": "node/10280949909"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0550176,
+      47.4759813
     ]
   }
 }
