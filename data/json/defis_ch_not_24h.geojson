@@ -13843,6 +13843,7 @@
   "id": "node/6641800651",
   "properties": {
     "access": "permissive",
+    "addr:housenumber": "130",
     "contact:addr": "Papiermühlestrasse 130, 3063 Ittigen",
     "contact:phone": "+41 31 9251501",
     "defibrillator:location": "Hauptsitz Gebäudeversicherung Bern GVB",
@@ -32815,6 +32816,7 @@
     "description": "Baustelle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "fixme": "Ist sicherlich nicht auf freiem Feld.",
     "name": "AGN Gotthard-Basistunnel Nord",
     "id": "node/7637818986"
   },
@@ -43077,6 +43079,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "name": "Hallenbad Herti, bei der Badeaufsicht",
     "operator": "Stadtverwaltung Zug, Fachbereich Interne Sicherheit",
     "phone": "+41 58 728 90 63",
     "id": "node/7930654665"
@@ -43084,8 +43087,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5040815,
-      47.1814791
+      8.5034233,
+      47.1814496
     ]
   }
 },
@@ -43228,8 +43231,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5169993,
-      47.1749721
+      8.5166468,
+      47.1749024
     ]
   }
 },
@@ -59579,8 +59582,8 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 07:00-19:00",
-    "operator": "Allianz - Betriebssanität- Herr Bernd Herzog",
-    "phone": "+41 58 358 80 00",
+    "operator": "Allianz - Betriebssanität-",
+    "phone": "+41 58 35 88 144",
     "id": "node/8720869554"
   },
   "geometry": {
@@ -114325,6 +114328,46 @@
 },
 {
   "type": "Feature",
+  "id": "node/10227906586",
+  "properties": {
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/10227906586"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5479323,
+      47.049818
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10228001118",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Verwaltungsgebäude, Eingangsbereich (Schleuse)",
+    "description": "während Bürozeiten zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "opening_hours": "Mo-Fr\n\n08:30-11:30\n13:30-16:00",
+    "operator": "Amt für Militär und Bevölkerungsschutz",
+    "phone": "+41615527201",
+    "id": "node/10228001118"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7219687,
+      47.4755847
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10230409718",
   "properties": {
     "access": "no",
@@ -119550,6 +119593,194 @@
     "coordinates": [
       7.609058,
       47.5627654
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10284319470",
+  "properties": {
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/10284319470"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.5940116,
+      46.5278673
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10284343709",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kniebrecheweg ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "Zufahrt Einstellhalle/Besucherparkplätze",
+    "operator": "MEG Kniebrecheweg, Christina Nyffeler",
+    "phone": "+41792915146",
+    "id": "node/10284343709"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6292082,
+      46.786064
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10285002609",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Weinbergstrasse 31",
+    "description": "Privat",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "operator": "Privatperson",
+    "phone": "+41792912086",
+    "id": "node/10285002609"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8929389,
+      47.4781558
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10285274309",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "enggenhüttenstrasse 70",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/10285274309"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3897363,
+      47.3537317
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10286451809",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Oberstufenschulhaus Rietwiese Lengnau",
+    "description": "Draussen montiert, frei zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "Erdgeschoss, links beim Haupteingang",
+    "id": "node/10286451809"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3343974,
+      47.518962
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10286649609",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Krüzgass 4",
+    "description": "öfentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "Partere",
+    "id": "node/10286649609"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5133682,
+      47.0267916
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10287183209",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Schulhaus- Feuerwehr ",
+    "description": "24 h",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "Ob der Kiche",
+    "operator": "Gemeinde Fläsch",
+    "id": "node/10287183209"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5139316,
+      47.0244803
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10287207409",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindehaus Unterengstringen",
+    "description": "Stand 26.12.22 ein Zettel „noch nicht im Betrieb“",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "draussen",
+    "operator": "Gemeinde Unterengstringen",
+    "id": "node/10287207409"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4470446,
+      47.4111889
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10287427010",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Eingang EG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "operator": "Privatperson",
+    "phone": "+41792912086",
+    "id": "node/10287427010"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8927779,
+      47.4781273
     ]
   }
 }

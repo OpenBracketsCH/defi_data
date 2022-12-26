@@ -13427,6 +13427,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "name": "Hallenbad Herti, bei der Badeaufsicht",
     "operator": "Stadtverwaltung Zug, Fachbereich Interne Sicherheit",
     "phone": "+41 58 728 90 63",
     "id": "node/7930654665"
@@ -13434,8 +13435,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5040815,
-      47.1814791
+      8.5034233,
+      47.1814496
     ]
   }
 },
@@ -13721,8 +13722,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5040325,
-      47.1815092
+      8.5040279,
+      47.1814862
     ]
   }
 },
@@ -13831,8 +13832,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5169993,
-      47.1749721
+      8.5166468,
+      47.1749024
     ]
   }
 },
@@ -27273,8 +27274,8 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 07:00-19:00",
-    "operator": "Allianz - Betriebssanität- Herr Bernd Herzog",
-    "phone": "+41 58 358 80 00",
+    "operator": "Allianz - Betriebssanität-",
+    "phone": "+41 58 35 88 144",
     "id": "node/8720869554"
   },
   "geometry": {
@@ -50277,6 +50278,22 @@
 },
 {
   "type": "Feature",
+  "id": "node/10227906586",
+  "properties": {
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/10227906586"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5479323,
+      47.049818
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10231055787",
   "properties": {
     "access": "no",
@@ -51165,6 +51182,28 @@
     "coordinates": [
       8.4912177,
       47.1920798
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10287207409",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindehaus Unterengstringen",
+    "description": "Stand 26.12.22 ein Zettel „noch nicht im Betrieb“",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "draussen",
+    "operator": "Gemeinde Unterengstringen",
+    "id": "node/10287207409"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4470446,
+      47.4111889
     ]
   }
 }

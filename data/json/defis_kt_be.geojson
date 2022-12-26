@@ -16750,6 +16750,7 @@
   "id": "node/6641800651",
   "properties": {
     "access": "permissive",
+    "addr:housenumber": "130",
     "contact:addr": "Papiermühlestrasse 130, 3063 Ittigen",
     "contact:phone": "+41 31 9251501",
     "defibrillator:location": "Hauptsitz Gebäudeversicherung Bern GVB",
@@ -44449,6 +44450,28 @@
     "coordinates": [
       7.5489761,
       46.8206574
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10284343709",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kniebrecheweg ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "Zufahrt Einstellhalle/Besucherparkplätze",
+    "operator": "MEG Kniebrecheweg, Christina Nyffeler",
+    "phone": "+41792915146",
+    "id": "node/10284343709"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6292082,
+      46.786064
     ]
   }
 }

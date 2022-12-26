@@ -18103,8 +18103,8 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 07:00-19:00",
-    "operator": "Allianz - Betriebssanität- Herr Bernd Herzog",
-    "phone": "+41 58 358 80 00",
+    "operator": "Allianz - Betriebssanität-",
+    "phone": "+41 58 35 88 144",
     "id": "node/8720869554"
   },
   "geometry": {
@@ -37766,6 +37766,28 @@
     "coordinates": [
       8.5406222,
       47.3791674
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10287207409",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindehaus Unterengstringen",
+    "description": "Stand 26.12.22 ein Zettel „noch nicht im Betrieb“",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "draussen",
+    "operator": "Gemeinde Unterengstringen",
+    "id": "node/10287207409"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4470446,
+      47.4111889
     ]
   }
 }
