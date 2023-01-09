@@ -111379,11 +111379,11 @@
   "properties": {
     "access": "no",
     "defibrillator:location": "Talstation Ebenalpbahn",
-    "description": "Im Gebäude, während Öffnungszeiten ",
+    "description": "Im Gebäude, während Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "MO bis SO",
+    "opening_hours": "Mo-Su",
     "operator": "Ebenalpbahn",
     "id": "node/10123258617"
   },
@@ -120381,6 +120381,50 @@
     "coordinates": [
       8.7582516,
       47.4953954
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10317027909",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Devant le Marché Reymond",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Commune de Ballaigues",
+    "phone": "+41 21 843 99 11",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10317027909"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.413269,
+      46.7297425
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10317041909",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Grand Rue",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Commune de Ballaigues",
+    "phone": "+41 21 843 99 11",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10317041909"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.4135265,
+      46.7298601
     ]
   }
 }
