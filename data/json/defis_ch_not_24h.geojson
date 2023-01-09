@@ -99422,12 +99422,12 @@
   "id": "node/9869601517",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Gasthaus Eischen ",
-    "description": "Während Öffnungszeiten ",
+    "defibrillator:location:de": "Gasthaus Eischen",
+    "description": "Während Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mittwoch bis Sonntag ",
+    "opening_hours": "We-Su",
     "operator": "Daniel Inauen / Toni Gassmann",
     "phone": "+41796821338",
     "id": "node/9869601517"
@@ -109150,13 +109150,13 @@
   "id": "node/10048772017",
   "properties": {
     "access": "no",
-    "defibrillator:location": "KUK Electronic AG ",
-    "description": "während Öffnungszeiten ",
+    "defibrillator:location:de": "KUK Electronic AG",
+    "description": "während Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "07.00 - 17.00 ",
-    "operator": "KUK ELECTRONIC AG ",
+    "opening_hours": "07:00-17:00",
+    "operator": "KUK ELECTRONIC AG",
     "phone": "+41717873800",
     "id": "node/10048772017"
   },
@@ -118020,13 +118020,13 @@
   "id": "node/10243117109",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Gang hinter Bar EG",
-    "description": "während Öffnungszeiten verfügbar ",
+    "defibrillator:location:de": "Gang hinter Bar EG",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Erdgeschoss",
-    "opening_hours": "Mo-So 8:00-17:00",
+    "level": "0",
+    "opening_hours": "Mo-Su 08:00-17:00",
     "operator": "Hotel Bären",
     "phone": "+41717954010",
     "id": "node/10243117109"
@@ -120425,6 +120425,29 @@
     "coordinates": [
       6.4135265,
       46.7298601
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10325385309",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Unterdorfstrasse 4a, 5445 Eggenwil",
+    "description": "bei Fam. Engler - Schurz klingeln!",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Privatperson",
+    "phone": "+41793486729",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10325385309"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3383517,
+      47.369429
     ]
   }
 }
