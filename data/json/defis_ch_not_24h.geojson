@@ -19096,30 +19096,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6987868235",
-  "properties": {
-    "access": "private",
-    "addr:city": "Adelboden",
-    "addr:housenumber": "2a",
-    "addr:postcode": "3715",
-    "addr:street": "Zelgstrasse",
-    "defibrillator:location": "AED nicht öffentlich zugänglich - nur für registrierte First Responder!",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "operator": "Rettungsdienst Frutigen",
-    "phone": "+41 33 672 23 66",
-    "id": "node/6987868235"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5602144,
-      46.492464
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6987948067",
   "properties": {
     "access": "permissive",
@@ -82151,29 +82127,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9367107206",
-  "properties": {
-    "access": "permissive",
-    "addr:city": "Grindelwald",
-    "addr:country": "CH",
-    "addr:postcode": "3818",
-    "addr:street": "Alpiglen",
-    "defibrillator:location": "SOS",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "operator": "Wengernalpbahn",
-    "id": "node/9367107206"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.0019025,
-      46.600105
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9367107208",
   "properties": {
     "access": "permissive",
@@ -84230,14 +84183,14 @@
   "type": "Feature",
   "id": "node/9406921984",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Der AED befindet sich innerhalb des Gebäudes zwischen dem Bistro und Hauptausgang rechts an der Wand",
+    "access": "permissive",
+    "defibrillator:location": "AED befindet sich zwischen dem Bistro und Hauptausgang zur Skipiste/Wanderwege",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "Mo-Su 08:00-17:00",
-    "operator": "Sandro Coatti",
+    "operator": "Bergstation EigerExpress Eigergletscher",
     "phone": "+41 79 297 93 15",
     "id": "node/9406921984"
   },
@@ -86938,24 +86891,6 @@
     "coordinates": [
       8.9917666,
       47.4681521
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9500723511",
-  "properties": {
-    "defibrillator:location": "Wartezone Gondelbahn",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "id": "node/9500723511"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6503811,
-      46.4580186
     ]
   }
 },
@@ -120448,6 +120383,49 @@
     "coordinates": [
       8.3383517,
       47.369429
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10395289703",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Adelboden",
+    "addr:postcode": "3715",
+    "addr:street": "Dorfstrasse 19",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "operator": "Ersthelfer Adelboden",
+    "id": "node/10395289703"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5596516,
+      46.4925662
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10395651828",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Adelboden",
+    "addr:postcode": "3715",
+    "addr:street": "Unter dem Birg",
+    "defibrillator:location": "Talstation",
+    "emergency": "defibrillator",
+    "opening_hours": "Mo-Su 08:00-17:00",
+    "phone": "+41 33 673 32 70",
+    "id": "node/10395651828"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5664151,
+      46.4591838
     ]
   }
 }

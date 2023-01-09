@@ -25401,30 +25401,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6987868235",
-  "properties": {
-    "access": "private",
-    "addr:city": "Adelboden",
-    "addr:housenumber": "2a",
-    "addr:postcode": "3715",
-    "addr:street": "Zelgstrasse",
-    "defibrillator:location": "AED nicht öffentlich zugänglich - nur für registrierte First Responder!",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "operator": "Rettungsdienst Frutigen",
-    "phone": "+41 33 672 23 66",
-    "id": "node/6987868235"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5602144,
-      46.492464
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6987948064",
   "properties": {
     "access": "yes",
@@ -35055,7 +35031,7 @@
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Bahnhof Saanenmöser MOB",
-    "phone": "+41 41 21 989 81 90",
+    "phone": "+41 21 989 81 90",
     "id": "node/8974648729"
   },
   "geometry": {
@@ -36847,15 +36823,17 @@
   "type": "Feature",
   "id": "node/9367107206",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "addr:city": "Grindelwald",
     "addr:country": "CH",
     "addr:postcode": "3818",
     "addr:street": "Alpiglen",
-    "defibrillator:location": "SOS",
+    "defibrillator:location": "AED befindet sich im Wartesaal",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "operator": "Wengernalpbahn",
+    "opening_hours": "24/7",
+    "operator": "Wengernalpbahn AG",
+    "phone": "033 828 75 23",
     "id": "node/9367107206"
   },
   "geometry": {
@@ -36876,14 +36854,15 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
-    "operator": "Wengernalpbahn",
+    "operator": "Wengernalpbahn AG",
+    "phone": "+41 33 828 75 23",
     "id": "node/9367107207"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0111735,
-      46.60918
+      8.0112491,
+      46.6089101
     ]
   }
 },
@@ -40038,14 +40017,14 @@
   "type": "Feature",
   "id": "node/9406921984",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Der AED befindet sich innerhalb des Gebäudes zwischen dem Bistro und Hauptausgang rechts an der Wand",
+    "access": "permissive",
+    "defibrillator:location": "AED befindet sich zwischen dem Bistro und Hauptausgang zur Skipiste/Wanderwege",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "Mo-Su 08:00-17:00",
-    "operator": "Sandro Coatti",
+    "operator": "Bergstation EigerExpress Eigergletscher",
     "phone": "+41 79 297 93 15",
     "id": "node/9406921984"
   },
@@ -40368,17 +40347,24 @@
   "type": "Feature",
   "id": "node/9500723511",
   "properties": {
+    "access": "yes",
+    "addr:city": "Kandersteg",
+    "addr:postcode": "3718",
+    "addr:street": "Innere Dorfstrasse 219",
     "defibrillator:location": "Wartezone Gondelbahn",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Luftseilbahn Kandersteg - Sunnbüel (Gemmi) AG",
+    "phone": "+41 336758141",
     "id": "node/9500723511"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6503811,
-      46.4580186
+      7.6503863,
+      46.4580051
     ]
   }
 },
@@ -40454,7 +40440,7 @@
   "id": "node/9526599452",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Reception",
+    "defibrillator:location": "im Eingangsbereich",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -40927,20 +40913,24 @@
   "id": "node/9649244428",
   "properties": {
     "access": "yes",
+    "addr:city": "Grindelwald",
+    "addr:postcode": "3818",
+    "addr:street": "Dorfstrasse 75",
     "defibrillator:location": "AED befindet sich zwischen Eingang Gepäck sowie zur Schalterhalle - direkt an der Frontseite",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Jungfraubahnnen Management AG",
+    "operator": "Jungfraubahnen Management AG",
+    "phone": "+41 33 828 75 40",
     "id": "node/9649244428"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0330215,
-      46.6242386
+      8.0328292,
+      46.6241665
     ]
   }
 },
@@ -42470,6 +42460,9 @@
   "id": "node/9937518256",
   "properties": {
     "access": "yes",
+    "addr:city": "Grindelwald",
+    "addr:postcode": "3818",
+    "addr:street": "Grundstrasse 65",
     "defibrillator:location": "Strassenseitig neben Eingang",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
@@ -44479,6 +44472,144 @@
     "coordinates": [
       7.7426686,
       46.6587819
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10395289702",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Adelboden",
+    "addr:housenumber": "1",
+    "addr:postcode": "3715",
+    "addr:street": "Hohliebeweg",
+    "defibrillator:location": "Im Inneren des Gebäudes an der Wand in der Rezeption, links neben dem Fenster.",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "phone": "+41 33 673 12 26",
+    "id": "node/10395289702"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5747565,
+      46.4913072
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10395289703",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Adelboden",
+    "addr:postcode": "3715",
+    "addr:street": "Dorfstrasse 19",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "operator": "Ersthelfer Adelboden",
+    "id": "node/10395289703"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5596516,
+      46.4925662
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10395651828",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Adelboden",
+    "addr:postcode": "3715",
+    "addr:street": "Unter dem Birg",
+    "defibrillator:location": "Talstation",
+    "emergency": "defibrillator",
+    "opening_hours": "Mo-Su 08:00-17:00",
+    "phone": "+41 33 673 32 70",
+    "id": "node/10395651828"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5664151,
+      46.4591838
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10398135099",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Gstaad",
+    "addr:housenumber": "2",
+    "addr:postcode": "3780",
+    "addr:street": "Gschwendstrasse 2",
+    "defibrillator:location": "Blick von Strasse Richtung Gebäude. AED links an Fassade ersichtlich",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Gerax S.A. Immobilienbüro",
+    "id": "node/10398135099"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2861079,
+      46.4723456
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10398307105",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Zweisimmen",
+    "addr:housenumber": "18",
+    "addr:postcode": "3770",
+    "addr:street": "Bahnhofstrasse",
+    "defibrillator:location": "In Eingangshalle ersichtlich",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "MOB Goldenpass Belle Epoque Bahnhof Zweisimmen",
+    "phone": "+41 33 729 87 40",
+    "id": "node/10398307105"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3747947,
+      46.5534305
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10400467579",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Zweisimmen",
+    "addr:housenumber": "2",
+    "addr:postcode": "3770",
+    "addr:street": "Under der Burg",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Strasseninspektorat Zweisimmen Oberland West",
+    "phone": "+41 79 354 56 05",
+    "id": "node/10400467579"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3776283,
+      46.5673689
     ]
   }
 }
