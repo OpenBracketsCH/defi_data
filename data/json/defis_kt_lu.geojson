@@ -4585,8 +4585,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.1528331,
-      47.2193007
+      8.1525783,
+      47.2193827
     ]
   }
 },
@@ -4606,8 +4606,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.1506668,
-      47.221203
+      8.1507459,
+      47.2210919
     ]
   }
 },
@@ -4625,8 +4625,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.1506155,
-      47.2193324
+      8.1494648,
+      47.21997
     ]
   }
 },
@@ -4634,11 +4634,16 @@
   "type": "Feature",
   "id": "node/7637818559",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Haupteingang Vorraum",
     "description": "zu Bürozeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
     "name": "Sebastian Müller AG",
+    "opening_hours": "Mo-Fr 07:00-12:00, 13:15-16:30",
+    "operator": "Sebastian Müller AG",
     "id": "node/7637818559"
   },
   "geometry": {
@@ -4655,12 +4660,12 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "im Schalterraum",
-    "description": "24h verfügbar",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "Valiant Bank",
-    "opening_hours": "24/7",
+    "opening_hours": "Mo-Fr 08:30-18:30",
     "operator": "Valiant Bank",
     "id": "node/7637818560"
   },
@@ -4845,11 +4850,15 @@
   "type": "Feature",
   "id": "node/7637818570",
   "properties": {
-    "defibrillator:location": "Haupteingang",
+    "access": "yes",
+    "defibrillator:location": "Spedition beim Haupteingang",
     "description": "nur zu Bürozeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
     "name": "Villiger Söhne AG",
+    "opening_hours": "Mo-Fr 07:30-11:45, 13:15-17:00",
     "id": "node/7637818570"
   },
   "geometry": {
