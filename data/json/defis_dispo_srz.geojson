@@ -51459,6 +51459,54 @@
       47.2730685
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/10316563110",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Bezirksgericht Winterthur, Lindstr. 10, 8400 Winterthur",
+    "description": "Zugang nur während den Öffnungszeiten, beim Empfang melden",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr: 07:30-11:45 und 13:15-17:00",
+    "operator": "Bezirksgericht Winterthur",
+    "phone": "+41522348383",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10316563110"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7303007,
+      47.503968
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10316593209",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Glärnisch, beim rotem Pausenplatz unter Dach",
+    "description": "Öffentlich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadt Wädenswil, Immobilien",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10316593209"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.666743,
+      47.2307596
+    ]
+  }
 }
 ]
 }

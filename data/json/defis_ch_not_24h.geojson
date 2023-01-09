@@ -109688,8 +109688,8 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "07.00 bis 17.00",
-    "operator": "Körber Pharma Packaging AG ",
+    "opening_hours": "07:00-17:00",
+    "operator": "Körber Pharma Packaging AG",
     "id": "node/10071606417"
   },
   "geometry": {
@@ -120334,6 +120334,31 @@
     "coordinates": [
       8.3638174,
       47.4201661
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10316563110",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Bezirksgericht Winterthur, Lindstr. 10, 8400 Winterthur",
+    "description": "Zugang nur während den Öffnungszeiten, beim Empfang melden",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr: 07:30-11:45 und 13:15-17:00",
+    "operator": "Bezirksgericht Winterthur",
+    "phone": "+41522348383",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10316563110"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7303007,
+      47.503968
     ]
   }
 }
