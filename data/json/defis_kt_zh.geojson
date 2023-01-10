@@ -36150,28 +36150,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10155411118",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "schulhaus glärnisch",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "schulhaus glärnisch beim roten platz im grünnen kasten ",
-    "phone": "0799138486",
-    "id": "node/10155411118"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6667842,
-      47.2308053
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10159194617",
   "properties": {
     "access": "yes",
@@ -38034,6 +38012,7 @@
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Stadt Wädenswil, Immobilien",
+    "phone": "+4 175 500 01 89",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10316593209"
   },
@@ -38077,7 +38056,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1.OG",
+    "level": "1",
     "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "unex lighting AG",
     "phone": "+41444042222",
@@ -38086,32 +38065,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4962539,
-      47.3832021
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10536352510",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Flüelastrasse 12, 8048 Zürich",
-    "description": "während Öffnungszeiten verfügbar\nbefindet sich gleich links beim Eingang",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "1. OG",
-    "opening_hours": "Mo-Fr: 08:00-17:00 ",
-    "operator": "unex lighting ag",
-    "phone": "+41444042222",
-    "id": "node/10536352510"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4962539,
-      47.3832021
+      8.4962244,
+      47.3832384
     ]
   }
 }
