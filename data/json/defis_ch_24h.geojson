@@ -23116,17 +23116,18 @@
   "id": "node/7579692882",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Unterhalb Denkmal \"Schlacht bei Morgarten\"",
+    "defibrillator:location": "An der Aussenwand bei den Toiletten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "level": "0",
     "opening_hours": "24/7",
     "id": "node/7579692882"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6417744,
-      47.1065516
+      8.6418158,
+      47.1061018
     ]
   }
 },
@@ -71465,28 +71466,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9659009817",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Massnahmen Zentrum Kalchrain",
-    "description": "Pforte Kloster",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Kanton Thurgau",
-    "id": "node/9659009817"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.8893702,
-      47.6113616
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9661772617",
   "properties": {
     "access": "yes",
@@ -81621,6 +81600,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/10240188697",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Massnahmenzentrum Kalchrain Pforte",
+    "description": "24h aber nur mit Mitarbeiter des MZK erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Amt für Justizvollzug",
+    "phone": "+41 58 345 83 20",
+    "id": "node/10240188697"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8893,
+      47.61125
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10240188700",
   "properties": {
     "access": "yes",
@@ -83103,29 +83106,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10274176809",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Garage",
-    "description": "Defi ist in der offenen Garage von aussen her erreichbar\n",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "Garage",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde Wauwil",
-    "id": "node/10274176809"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.0237042,
-      47.187032
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10274952409",
   "properties": {
     "access": "yes",
@@ -84257,6 +84237,28 @@
     "coordinates": [
       7.3776283,
       46.5673689
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10536818309",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Landstrasse 6 Hollenstein GmbH",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "EG",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "id": "node/10536818309"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0161661,
+      47.4213269
     ]
   }
 }

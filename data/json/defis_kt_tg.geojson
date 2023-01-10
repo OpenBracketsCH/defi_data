@@ -4972,28 +4972,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9659009817",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Massnahmen Zentrum Kalchrain",
-    "description": "Pforte Kloster",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Kanton Thurgau",
-    "id": "node/9659009817"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.8893702,
-      47.6113616
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9668923539",
   "properties": {
     "access": "yes",
@@ -8569,13 +8547,16 @@
   "type": "Feature",
   "id": "node/10240188697",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Massnahmenzentrum Kalchrain Pforte",
     "description": "24h aber nur mit Mitarbeiter des MZK erreichbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
     "operator": "Amt für Justizvollzug",
-    "phone": "+41 58 345 34 63",
+    "phone": "+41 58 345 83 20",
     "id": "node/10240188697"
   },
   "geometry": {

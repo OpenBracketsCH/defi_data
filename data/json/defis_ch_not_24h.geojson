@@ -116113,27 +116113,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10240188697",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Massnahmenzentrum Kalchrain Pforte",
-    "description": "24h aber nur mit Mitarbeiter des MZK erreichbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "operator": "Amt für Justizvollzug",
-    "phone": "+41 58 345 34 63",
-    "id": "node/10240188697"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.8893,
-      47.61125
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10240188698",
   "properties": {
     "access": "yes",
@@ -119997,7 +119976,8 @@
   "type": "Feature",
   "id": "node/10304460021",
   "properties": {
-    "defibrillator:location:en": "At the entrance of the supermarket.",
+    "defibrillator:location": "A l'entrée du supermarché",
+    "defibrillator:location:en": "At the entrance of the supermarket",
     "emergency": "defibrillator",
     "indoor": "yes",
     "id": "node/10304460021"
