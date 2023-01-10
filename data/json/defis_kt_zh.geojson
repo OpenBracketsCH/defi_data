@@ -38069,6 +38069,52 @@
       47.3832384
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/10537120909",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Sood52, Eingangshalle",
+    "description": "nur während Bürozeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10537120909"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5222308,
+      47.3202578
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10537274009",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An der Wand hinter des Hauseingangs (im Freien)",
+    "description": "AED Schrank an der Seite öffnen, Tasche entnehmen. In der Tasche befindet sich alles Zubehör.\n\nBitte nach Verwendung Information an 079 651 55 93, danke!",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "draussen",
+    "opening_hours": "24/7",
+    "operator": "PG Medical, www.pg-medical.ch",
+    "phone": "0796515593",
+    "id": "node/10537274009"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4943199,
+      47.4958837
+    ]
+  }
 }
 ]
 }
