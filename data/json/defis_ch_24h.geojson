@@ -5454,6 +5454,31 @@
 },
 {
   "type": "Feature",
+  "id": "node/6565882242",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Zweilütschinen",
+    "addr:housenumber": "121b",
+    "addr:postcode": "3815",
+    "addr:street": "Bahnhofstrasse",
+    "defibrillator:location": "AED befindet sich in der alten Telefonzelle beim WC - Gebäude",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Jungfraubahnen Management AG",
+    "phone": "+41 33 828 72 33",
+    "id": "node/6565882242"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8997956,
+      46.6325693
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/6565882388",
   "properties": {
     "addr:city": "Hasliberg Reuti",
@@ -66943,8 +66968,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7194294,
-      46.6307907
+      7.7194082,
+      46.6308329
     ]
   }
 },
@@ -67234,7 +67259,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Sandro Coatti",
+    "operator": "Grindelwald Terminal",
     "phone": "+41 79 297 93 15",
     "id": "node/9406921983"
   },
@@ -67597,21 +67622,25 @@
   "id": "node/9455394114",
   "properties": {
     "access": "yes",
+    "addr:city": "Wilderswil",
+    "addr:housenumber": "3",
+    "addr:postcode": "3812",
+    "addr:street": "Gewerbeweg",
     "defibrillator:location": "Neben Eingang Rettungsstützpunkt, Gewerbeweg 3, Nordfassade, Seite Besucherparkplätze",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Rettungsstützpunkt Spitäler fmi AG, Gewerbeweg 3, 3812 Wilderswil, Herr Martin Hofer",
+    "operator": "Rettungsstützpunkt Spitäler fmi AG, Herr Martin Hofer",
     "phone": "+41 33 826 26 60",
     "id": "node/9455394114"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.8694403,
-      46.6695368
+      7.8694327,
+      46.6696551
     ]
   }
 },
@@ -70454,7 +70483,7 @@
   "id": "node/9625596485",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Camping Manor Farm, Sanitärgebäude 3, Eingang Nordwest, Treppe zum Obergeschoss.",
+    "defibrillator:location": "Sanitärgebäude 3, Eingang Nordwest, Treppe zum Obergeschoss.",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -70467,8 +70496,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.815139,
-      46.6809564
+      7.814985,
+      46.6810159
     ]
   }
 },
@@ -70687,8 +70716,8 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Raiffeisenbank Jungfrau, 3800 Interlaken",
-    "phone": "+41 33 828 82 88",
+    "operator": "Raiffeisenbank Jungfrau",
+    "phone": "033 822 12 27",
     "id": "node/9628028338"
   },
   "geometry": {
@@ -70704,21 +70733,25 @@
   "id": "node/9628028339",
   "properties": {
     "access": "yes",
+    "addr:city": "Ringgenberg",
+    "addr:housenumber": "14",
+    "addr:postcode": "3852",
+    "addr:street": "Strandbadweg",
     "defibrillator:location": "Neben Haupteingang",
-    "description": "24h verfügbar",
+    "description": "Schulhausabwart Jens Frutiger +41 79 682 76 53",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Gemeinde, Schulhausabwart Jens Frutiger",
+    "operator": "Burgseelihalle/Mehrzweckhalle Ringgenberg",
     "phone": "+41 79 682 76 53",
     "id": "node/9628028339"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.8895924,
-      46.6984565
+      7.8894174,
+      46.6985686
     ]
   }
 },
@@ -70771,20 +70804,25 @@
   "id": "node/9628057163",
   "properties": {
     "access": "yes",
+    "addr:city": "Goldswil b. Interlaken",
+    "addr:housenumber": "26",
+    "addr:postcode": "3805",
+    "addr:street": "Hauptstrasse",
     "defibrillator:location": "Westseite, Seite Dorfgasse",
+    "description": "Schulhausabwart Jens Frutiger",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Gemeinde, Schulhausabwart Jens Frutiger",
+    "operator": "Gemeindehaus Goldswil",
     "phone": "+41 79 682 76 53",
     "id": "node/9628057163"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.8766142,
-      46.6963212
+      7.876539,
+      46.6962764
     ]
   }
 },
@@ -73598,15 +73636,15 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Einwohnergemeinde Heiligenschwendi",
+    "operator": "Heiligenschwendi Läbeshuus",
     "phone": "+41 33 244 14 14",
     "id": "node/9784670666"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6674237,
-      46.7477523
+      7.6674658,
+      46.7478073
     ]
   }
 },
@@ -76505,13 +76543,16 @@
   "id": "node/9957257556",
   "properties": {
     "access": "yes",
+    "addr:city": "Riggisberg",
+    "addr:postcode": "3132",
+    "addr:street": "Kirchweg 2",
     "defibrillator:location": "Eingang Nord des Kirchgemeindehauses, im Windfang.",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Samariterverein Riggisberg-Thurnen, Frau Doris Kuhn, Bachmattstrasse 8, 3132 Riggisberg",
+    "operator": "Kirchgemeindehaus",
     "phone": "+41 79 329 45 82",
     "id": "node/9957257556"
   },
@@ -84331,6 +84372,216 @@
     "coordinates": [
       7.7021167,
       46.6751368
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10537777078",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Wengen",
+    "addr:postcode": "3823",
+    "addr:street": "Bahnhof",
+    "defibrillator:location": "AED befindet sich beim Gleis 1 Kopfseitig",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "WAB Bahnhof Wengen",
+    "phone": "+41 33 828 70 50",
+    "id": "node/10537777078"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.920788,
+      46.6051218
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10537807079",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Oey",
+    "addr:housenumber": "50",
+    "addr:postcode": "3753",
+    "addr:street": "Burgholz",
+    "defibrillator:location": "Frontfassade neben Postbriefkasten",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Burgholz",
+    "id": "node/10537807079"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6003927,
+      46.6655556
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10537807080",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Diemtigen",
+    "addr:housenumber": "12a",
+    "addr:postcode": "3754",
+    "addr:street": "Dorf",
+    "defibrillator:location": "im Bus-Hüsi neben Anschlagbrett",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Diemtigen, Bus-Hüsi",
+    "id": "node/10537807080"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.565454,
+      46.6495952
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10537816215",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Thun",
+    "addr:housenumber": "1",
+    "addr:postcode": "3604",
+    "addr:street": "Tellstrasse",
+    "defibrillator:location": "Haupteingang",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Primarschule Hohmad",
+    "phone": "+41 332258811",
+    "id": "node/10537816215"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6216279,
+      46.747444
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10537816216",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Einigen",
+    "addr:postcode": "3646",
+    "addr:street": "Höhenstrasse 14",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Primarschule Einigen",
+    "phone": "+41 33 533 73 74",
+    "id": "node/10537816216"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6388971,
+      46.7107416
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10537818053",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Seftigen",
+    "addr:housenumber": "2",
+    "addr:postcode": "3662",
+    "addr:street": "Sunneguetweg",
+    "defibrillator:location": "Haupteingang Pflegezentrum",
+    "description": "jederzeit zugänglich 20.00-08.00 Uhr, Eingangstüre geschlossen, Nachtglocke betätigen, Türöffnung erfolgt durch Pflegepersonal",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Pflegezentrum Chappele",
+    "id": "node/10537818053"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5376974,
+      46.788781
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10537818054",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Thierachern",
+    "addr:housenumber": "7",
+    "addr:postcode": "3634",
+    "addr:street": "Dorfstrasse",
+    "defibrillator:location": "Neben dem Bankomaten im geschützten Raum",
+    "description": "Hinweise zum Zugang zur Niederlassung : Taste für Türöffnung vorhanden",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Raiffeisenbank Gürbe",
+    "id": "node/10537818054"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5750244,
+      46.7539445
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10537818055",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Thun",
+    "addr:postcode": "3608",
+    "addr:street": "Lerchenfeldstrasse 34a",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Quartierzentrum Lerchenfeld",
+    "phone": "+41 332258811",
+    "id": "node/10537818055"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6016411,
+      46.7656603
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10537818056",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Thun",
+    "addr:housenumber": "2",
+    "addr:postcode": "3600",
+    "addr:street": "Burgstrasse",
+    "defibrillator:location": "Neben Briefkastenanlage bei Haupteingang ersichtlich",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Informatik Spital STS AG / Alterswohnen Schlossblick / Gesundheitsberufe Praktische Bildung",
+    "id": "node/10537818056"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6322753,
+      46.7593568
     ]
   }
 }

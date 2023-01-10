@@ -8241,30 +8241,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6565882242",
-  "properties": {
-    "access": "permissive",
-    "addr:city": "Zweilütschinen",
-    "addr:housenumber": "121b",
-    "addr:postcode": "3815",
-    "addr:street": "Station",
-    "defibrillator:location": "Büro Fahrdienst, zugänglich 04.30 - 23.15",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "04:30-23:15",
-    "operator": "Berner Oberland-Bahn",
-    "id": "node/6565882242"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.8997695,
-      46.6326
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6565882243",
   "properties": {
     "access": "permissive",
@@ -120542,6 +120518,28 @@
     "coordinates": [
       8.5222308,
       47.3202578
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10537675797",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Spiez",
+    "addr:housenumber": "1a",
+    "addr:postcode": "3700",
+    "addr:street": "Austrasse",
+    "defibrillator:location": "Der Defi-Standort ist auf Seite des Fussball-/ Sportplatzes platziert",
+    "emergency": "defibrillator",
+    "operator": "Mehrzweckhalle ABC-Zentrum- Spiez",
+    "id": "node/10537675797"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6470208,
+      46.6919899
     ]
   }
 }
