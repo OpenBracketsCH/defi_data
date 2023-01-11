@@ -41409,12 +41409,17 @@
   "id": "node/9774712617",
   "properties": {
     "access": "yes",
+    "addr:city": "Schwarzenburg",
+    "addr:housenumber": "1",
+    "addr:postcode": "3150",
+    "addr:street": "Bernstrasse",
     "defibrillator:location": "Gemeindehaus Schwarzenburg Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Schwarzenburg",
+    "phone": "+41 31 734 00 50",
     "id": "node/9774712617"
   },
   "geometry": {
@@ -42920,6 +42925,10 @@
   "id": "node/10043016813",
   "properties": {
     "access": "yes",
+    "addr:city": "Kirchenthurnen",
+    "addr:housenumber": "32",
+    "addr:postcode": "3128",
+    "addr:street": "Bernstrasse",
     "defibrillator:location": "Zufahrt zu Bernstrasse 32, 3128 Kirchenthurnen",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
@@ -42933,8 +42942,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5032001,
-      46.8218807
+      7.5030708,
+      46.8217671
     ]
   }
 },
@@ -44928,6 +44937,30 @@
     "coordinates": [
       7.6322753,
       46.7593568
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10540308742",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Rüschegg Heubach",
+    "addr:housenumber": "580",
+    "addr:postcode": "3154",
+    "addr:street": "Wislisau",
+    "defibrillator:location": "Vereinshaus FC Rüschegg",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "FC Rüschegg",
+    "phone": "+41 79 543 73 86",
+    "id": "node/10540308742"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4077458,
+      46.8058759
     ]
   }
 }
