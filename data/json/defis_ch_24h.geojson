@@ -21340,9 +21340,15 @@
   "id": "node/7559505179",
   "properties": {
     "access": "yes",
+    "addr:city": "Burgdorf",
+    "addr:housenumber": "55",
+    "addr:postcode": "3400",
+    "addr:street": "Heimiswilstrasse",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
+    "operator": "Garage Witschi",
+    "phone": "034 4202040",
     "id": "node/7559505179"
   },
   "geometry": {
@@ -57037,29 +57043,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9112783025",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Auf der rechten Seite der Fassade zum Bahnhofplatz.",
-    "description": "24h verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Neuenschwander AG Mulden-Service + Entsorgung / Flury + Maeder Zahnärzte Solothurn Süd",
-    "phone": "+41 32 677 10 32",
-    "id": "node/9112783025"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5264213,
-      47.1633372
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9115810031",
   "properties": {
     "access": "yes",
@@ -77357,12 +77340,13 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Lädeli Beiz / Hausecke an Strasse",
-    "description": "öffentlich\n",
+    "description": "öffentlich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Gemeinde Wynigen",
+    "operator": "Hulligers Lädeli Beiz",
+    "phone": "0344157700",
     "id": "node/10006960517"
   },
   "geometry": {
@@ -78879,6 +78863,31 @@
     "coordinates": [
       8.1897993,
       47.4820802
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10109283361",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Koppigen",
+    "addr:housenumber": "22",
+    "addr:postcode": "3425",
+    "addr:street": "Willadingenstrasse",
+    "defibrillator:location": "Hinter Büro beim Brunnen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Aebi Holz AG",
+    "phone": "+41 344131311",
+    "id": "node/10109283361"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6067584,
+      47.135653
     ]
   }
 },
@@ -84894,6 +84903,78 @@
     "coordinates": [
       7.3177803,
       46.9016484
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10540885012",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Biel-Bienne",
+    "addr:housenumber": "10",
+    "addr:postcode": "2504",
+    "addr:street": "Eckweg",
+    "defibrillator:location": "Vers entrée prinipale Beim Haupteingang",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Biennaplast SA",
+    "phone": "032 342 13 13",
+    "id": "node/10540885012"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2673329,
+      47.1489591
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10540885013",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Reisiswil",
+    "addr:housenumber": "27",
+    "addr:postcode": "4919",
+    "addr:street": "Dörfli 27",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung Reisiswil",
+    "phone": "062 927 30 30",
+    "id": "node/10540885013"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8457068,
+      47.1618819
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10540885014",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Wynigen",
+    "addr:housenumber": "26",
+    "addr:postcode": "3472",
+    "addr:street": "Dorf",
+    "defibrillator:location": "Käserei Rüedisbach",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Käserei Rüedisbach",
+    "phone": "+41 34 415 77 00",
+    "id": "node/10540885014"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6996725,
+      47.1202159
     ]
   }
 }

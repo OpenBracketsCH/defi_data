@@ -110601,22 +110601,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10109283361",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/10109283361"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6067584,
-      47.135653
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10110736717",
   "properties": {
     "access": "yes",
@@ -118370,7 +118354,7 @@
   "type": "Feature",
   "id": "node/10248468331",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Seat/Cupra Showroom hinten links",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
@@ -120666,6 +120650,29 @@
     "coordinates": [
       7.4091147,
       46.9428797
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10540885015",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Kirchberg",
+    "addr:postcode": "3422",
+    "addr:street": "Juraweg 16B",
+    "defibrillator:location": "-",
+    "description": "Zeitweise öffentlich",
+    "emergency": "defibrillator",
+    "operator": "Physio Trick 77 GmbH",
+    "phone": "+41 34 530 18 87",
+    "id": "node/10540885015"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5832256,
+      47.0912694
     ]
   }
 }
