@@ -31512,13 +31512,17 @@
   "id": "node/8540850917",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Gemeindeverwaltung Oberburg Erdgeschoss",
+    "addr:city": "Oberburg",
+    "addr:housenumber": "11",
+    "addr:postcode": "3414",
+    "addr:street": "Emmentalstrasse",
+    "defibrillator:location": "Eingangsbereich EG Verwaltungsgebäude",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "24/7",
-    "operator": "Gemeinde",
-    "phone": "+41799112474",
+    "operator": "Gemeindeverwaltung Oberburg",
+    "phone": "034 4201221",
     "id": "node/8540850917"
   },
   "geometry": {
@@ -34843,12 +34847,18 @@
   "type": "Feature",
   "id": "node/8870268945",
   "properties": {
+    "access": "yes",
+    "addr:city": "Rüfenacht",
     "addr:housenumber": "20",
+    "addr:postcode": "3075",
     "addr:street": "Maurmöslistrasse",
+    "defibrillator:location": "Linke Seite Eingang Schreinerei",
     "description": "Öffentlich zugänglicher Defibrillator",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
+    "operator": "Thomas Leiser Holzwerkstatt",
+    "phone": "0318398743",
     "id": "node/8870268945"
   },
   "geometry": {
@@ -35871,8 +35881,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5648433,
-      47.0069838
+      7.5649026,
+      47.0071821
     ]
   }
 },
@@ -40513,15 +40523,15 @@
   "type": "Feature",
   "id": "node/9538618117",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Honegger AG, Empfang (links an der Wand). Haupteingang benützen, dann im 2. Stock (nach Glas-Falttüre)",
+    "access": "permissive",
+    "defibrillator:location": "2. Stock (Empfang auf der linken Seite)",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr: 07:30 - 18:00h",
+    "opening_hours": "Mo-Fr 07:30-18:00",
     "operator": "Honegger AG",
-    "phone": "+41319505353",
+    "phone": "+41 31 950 53 53",
     "id": "node/9538618117"
   },
   "geometry": {
@@ -40719,6 +40729,10 @@
   "id": "node/9625624149",
   "properties": {
     "access": "yes",
+    "addr:city": "Neuenegg",
+    "addr:housenumber": "22",
+    "addr:postcode": "3176",
+    "addr:street": "Süristrasse",
     "defibrillator:location": "Aussenfassade (Strassenseite) des Restaurants zum Denkmal Bramberg",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
@@ -40732,8 +40746,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.2805432,
-      46.9076978
+      7.280422,
+      46.9076779
     ]
   }
 },
@@ -41000,7 +41014,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Neben Eingangstüre Saalbau Gasel",
-    "description": "24h verfügbar",
+    "description": "Bei Tankstelle an Hauptstrasse abbiegen Richtung Saalbau",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -41561,10 +41575,17 @@
   "type": "Feature",
   "id": "node/9820253837",
   "properties": {
+    "access": "yes",
+    "addr:city": "Bern",
+    "addr:housenumber": "5",
+    "addr:postcode": "3013",
+    "addr:street": "Hofweg",
     "defibrillator:location": "Neben Brocki-Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "operator": "Bärner Brocki",
+    "phone": "+41 313338222",
     "id": "node/9820253837"
   },
   "geometry": {
@@ -42549,19 +42570,24 @@
   "id": "node/9955243218",
   "properties": {
     "access": "yes",
+    "addr:city": "Grosshöchstetten",
+    "addr:housenumber": "2",
+    "addr:postcode": "3506",
+    "addr:street": "Erlessenweg",
     "defibrillator:location": "Erlessenweg 2, Garage links",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "-",
+    "phone": "031 710 21 10",
     "id": "node/9955243218"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6414713,
-      46.9022911
+      7.6414481,
+      46.9023455
     ]
   }
 },
@@ -44961,6 +44987,243 @@
     "coordinates": [
       7.4077458,
       46.8058759
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10540319289",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Langnau",
+    "addr:housenumber": "53",
+    "addr:postcode": "3550",
+    "addr:street": "Haldenstrasse",
+    "defibrillator:location": "An Garagenmauer",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Haldenstrasse",
+    "id": "node/10540319289"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7941841,
+      46.9427744
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10540319290",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Bowil",
+    "addr:housenumber": "49",
+    "addr:postcode": "3534",
+    "addr:street": "Schlossberg",
+    "defibrillator:location": "Gasthof Schlossberg Bori",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Gasthof Schlossberg Bori, Gemeinde Bowil",
+    "phone": "+41 31 711 01 46",
+    "id": "node/10540319290"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7112994,
+      46.9065888
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10540319291",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Zäziwil",
+    "addr:housenumber": "125",
+    "addr:postcode": "3532",
+    "addr:street": "Reutenenstrasse",
+    "defibrillator:location": "Feuerwehrmagazin",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Feuerwehrmagazin Reutenen",
+    "phone": "+41 79 447 23 11",
+    "id": "node/10540319291"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6754873,
+      46.8869875
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10540319638",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Muri",
+    "addr:housenumber": "8",
+    "addr:postcode": "3074",
+    "addr:street": "Höheweg",
+    "defibrillator:location": "Grüner Kasten, Bei Einfahrt zur Tiefgarage Höheweg 8,8A",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Mehrfamilienhaus / Reto Amonn",
+    "phone": "+41 79 322 69 33",
+    "id": "node/10540319638"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4979621,
+      46.9258401
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10540334276",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "2",
+    "addr:postcode": "3005",
+    "addr:street": "Thunstrasse",
+    "defibrillator:location": "3 Stock",
+    "emergency": "defibrillator",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:30-18:00",
+    "operator": "Kardiologische Praxis Kirchenfeld",
+    "phone": "+41 31 357 18 18",
+    "id": "node/10540334276"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4505266,
+      46.9431217
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10540334277",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Muri",
+    "addr:postcode": "3074",
+    "addr:street": "Dunantstrasse 67",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Tennisclub Muri-Gümligen",
+    "phone": "+41799610462",
+    "id": "node/10540334277"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4799778,
+      46.9327893
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10540388558",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "133",
+    "addr:postcode": "3008",
+    "addr:street": "Freiburgstrasse",
+    "defibrillator:location": "Im Gebäude beim Sekretariat: Eingang rechts",
+    "emergency": "defibrillator",
+    "opening_hours": "Mo-Fr 07:30-17:00",
+    "operator": "BZ Pflege",
+    "phone": "+41 31 630 14 14",
+    "id": "node/10540388558"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4091147,
+      46.9428797
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10540388559",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Bern",
+    "addr:housenumber": "10",
+    "addr:postcode": "3012",
+    "addr:street": "Parkterrasse",
+    "defibrillator:location": "Der AED ist in der Perronunterführung ganz hinten zwischen Gleisaufgang 12/13 und den Schanzenliften",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "SBB Bahnhof Bern, Perronunterführung",
+    "phone": "+41 51 220 18 20",
+    "id": "node/10540388559"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4386808,
+      46.9500259
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10540409275",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Hettiswil",
+    "addr:housenumber": "8",
+    "addr:postcode": "3325",
+    "addr:street": "Hängelenstrasse",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Privatliegenschaft",
+    "phone": "+41 344118083",
+    "id": "node/10540409275"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5700197,
+      47.037356
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10540409276",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Neuenegg",
+    "addr:housenumber": "317",
+    "addr:postcode": "3176",
+    "addr:street": "Strassacher",
+    "defibrillator:location": "Einfahrt Parkplatz / Haupteingang",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Bieri Früchte und Gemüse Engros",
+    "id": "node/10540409276"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3177803,
+      46.9016484
     ]
   }
 }
