@@ -120675,6 +120675,54 @@
       47.0912694
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/10542582609",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "DB Schenker AG ",
+    "description": "Klingen bei DB Schenker \n",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "opening_hours": "MO-FR 08:00-17:00",
+    "operator": "Privatperson",
+    "id": "node/10542582609"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5987412,
+      47.5683478
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10542597009",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Boneco AG Office building",
+    "description": "Inside the Office, at the first aid point in the kitchen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr: 07:30-12:00 13:00-16:30",
+    "operator": "Boneco AG",
+    "phone": "+4171 727 81 11",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10542597009"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.6479005,
+      47.4042386
+    ]
+  }
 }
 ]
 }
