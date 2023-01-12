@@ -38209,6 +38209,54 @@
       47.2454085
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/10542928609",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "neues Polizeigebäude POM",
+    "description": "während den Öffnungszeiten verfügbar. Box ist Alarmgesichert.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG Schalterhalle",
+    "opening_hours": "Mo - Fr: 07:00 - 17:00",
+    "operator": "Stadtpolizei Winterthur ",
+    "phone": "+41 52 267 51 52",
+    "id": "node/10542928609"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7340174,
+      47.4956342
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10542937909",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "neues Polizeigebäude POM",
+    "description": "während Öffnungszeiten verfügbar. Box steht unter Alarm!",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00 - 17:00",
+    "operator": "Stadtpolizei Winterthur",
+    "phone": "+41 52 267 51 52",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10542937909"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7345922,
+      47.495839
+    ]
+  }
 }
 ]
 }
