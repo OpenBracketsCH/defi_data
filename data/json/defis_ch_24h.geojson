@@ -55131,28 +55131,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9023069080",
-  "properties": {
-    "defibrillator:location": "Ausserdorf beim Feuerwehrlokal",
-    "description": "24h verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Frieda Kunz",
-    "phone": "+41 81 651 43 26",
-    "id": "node/9023069080"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.4513311,
-      46.6996925
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9023926519",
   "properties": {
     "access": "yes",
@@ -74243,13 +74221,13 @@
   "properties": {
     "access": "no",
     "defibrillator:location": "Fitnesscenter",
-    "description": "während Öffnungszeiten ",
+    "description": "während Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "24/7",
     "operator": "Wintifit Pfungen",
-    "phone": "0522331412",
+    "phone": "+41 52 233 14 12",
     "id": "node/9807422231"
   },
   "geometry": {
@@ -85146,6 +85124,52 @@
 },
 {
   "type": "Feature",
+  "id": "node/10548640747",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hockeyhäuschen",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Frieda Kunz",
+    "phone": "+41 81 651 43 26",
+    "id": "node/10548640747"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4513655,
+      46.7000598
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10548640748",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Garagen KHR",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Frieda Kunz",
+    "phone": "+41 81 651 43 26",
+    "id": "node/10548640748"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4555406,
+      46.7080003
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10548663209",
   "properties": {
     "access": "yes",
@@ -85155,7 +85179,8 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Stadt Wädenswil ",
+    "operator": "Stadt Wädenswil",
+    "phone": "+41 75 500 01 84",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10548663209"
   },
