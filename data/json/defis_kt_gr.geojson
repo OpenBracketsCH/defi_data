@@ -4123,28 +4123,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9023069080",
-  "properties": {
-    "defibrillator:location": "Ausserdorf beim Feuerwehrlokal",
-    "description": "24h verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Frieda Kunz",
-    "phone": "+41 81 651 43 26",
-    "id": "node/9023069080"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.4513311,
-      46.6996925
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9026408818",
   "properties": {
     "access": "yes",
@@ -8379,6 +8357,52 @@
     "coordinates": [
       9.204325,
       46.7766144
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10548640747",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hockeyhäuschen",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Frieda Kunz",
+    "phone": "+41 81 651 43 26",
+    "id": "node/10548640747"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4513655,
+      46.7000598
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10548640748",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Garagen KHR",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Frieda Kunz",
+    "phone": "+41 81 651 43 26",
+    "id": "node/10548640748"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4555406,
+      46.7080003
     ]
   }
 }

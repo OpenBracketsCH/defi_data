@@ -38322,20 +38322,20 @@
   "type": "Feature",
   "id": "node/7727118196",
   "properties": {
-    "defibrillator:location": "Bei Ergon Informatik melden",
+    "defibrillator:location": "Egon Informatik: Lieferanteneingang Minervastrasse",
     "description": "nur während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Ergon Informatik AG",
     "id": "node/7727118196"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5544108,
-      47.3673965
+      8.5543398,
+      47.3675408
     ]
   }
 },
@@ -65384,13 +65384,14 @@
   "id": "node/8906306517",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Hallenbad Kilchberg ",
-    "description": "Montag bis Freitag 8.00 Uhr bis 22.00 Uhr\nSamstag znd Sonntag 8.00 Uhr bis 18.00 Uhr",
+    "defibrillator:location": "Hallenbad Kilchberg",
+    "description": "Montag bis Freitag 8.00 Uhr bis 22.00 Uhr Samstag znd Sonntag 8.00 Uhr bis 18.00 Uhr",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-22:00; Sa-Su 08:00-18:00",
     "operator": "Gemeinde Kilchberg",
-    "phone": "0447163090",
+    "phone": "+41 44 716 30 90",
     "id": "node/8906306517"
   },
   "geometry": {
@@ -65406,13 +65407,13 @@
   "id": "node/8906311117",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Sportanalge Kilchberg ",
+    "defibrillator:location": "Sportanalge Kilchberg",
     "description": "während Bürozeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "operator": "Gemeinde Kilchberg",
-    "phone": "0447163090",
+    "phone": "+41 44 716 30 90",
     "id": "node/8906311117"
   },
   "geometry": {
@@ -68986,14 +68987,18 @@
   "id": "node/9015363317",
   "properties": {
     "access": "no",
-    "defibrillator:location": "steinhaldenring 8b, 8954 geroldswil",
-    "description": "parterre links",
+    "addr:city": "Geroldswil",
+    "addr:housenumber": "8b",
+    "addr:postcode": "8954",
+    "addr:street": "Steinhaldenring",
+    "defibrillator:location": "Steinhaldenring 8b, 8954 Geroldswil",
+    "description": "Parterre links",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "mo-fr 7:30-12:30 14:00-18:00",
+    "opening_hours": "Mo-Fr 7:30-12:30, 14:00-18:00",
     "operator": "ydoc hausarztpraxis",
-    "phone": "0447482050",
+    "phone": "+41 44 748 20 50",
     "id": "node/9015363317"
   },
   "geometry": {
@@ -69118,7 +69123,7 @@
     "indoor": "yes",
     "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Berufswahlschule Uster",
-    "phone": "0434442344",
+    "phone": "+41 43 444 23 44",
     "id": "node/9022323218"
   },
   "geometry": {
@@ -69508,9 +69513,9 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo.-Fr. 07.30-16.30 Uhr ",
+    "opening_hours": "Mo-Fr 07:30-16:30",
     "operator": "Lift AG Regensdorf",
-    "phone": "0448719106",
+    "phone": "+41 44 871 91 06",
     "id": "node/9041755617"
   },
   "geometry": {
@@ -73071,7 +73076,7 @@
     "indoor": "yes",
     "opening_hours": "Mo-Fr 07:30-22:00",
     "operator": "Schule",
-    "phone": "0041786019606",
+    "phone": "+41 78 601 96 06",
     "id": "node/9105841317"
   },
   "geometry": {
@@ -78343,7 +78348,7 @@
     "indoor": "yes",
     "opening_hours": "Mo-Fr 07:00-18:00",
     "operator": "Medbase Winterthur Brunngasse",
-    "phone": "0522603780",
+    "phone": "+41 52 260 37 80",
     "id": "node/9265150817"
   },
   "geometry": {
@@ -79635,9 +79640,9 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "7:00 - 17:00 Werktags",
+    "opening_hours": "Mo-Fr 07:00-17:00; Ph off",
     "operator": "OdA Gesundheit Zürich",
-    "phone": "0445768650",
+    "phone": "+41 44 576 86 50",
     "id": "node/9303554417"
   },
   "geometry": {
@@ -85213,7 +85218,7 @@
     "indoor": "yes",
     "opening_hours": "Mo-Fr 07:00-18:00",
     "operator": "Schlue",
-    "phone": "0522660909",
+    "phone": "+41 52 266 09 09",
     "id": "node/9452225817"
   },
   "geometry": {
@@ -85949,7 +85954,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "operator": "Tennis Club im Hau Witikon",
-    "phone": "0794822000",
+    "phone": "+41 79 482 20 00",
     "id": "node/9474380517"
   },
   "geometry": {
@@ -87264,7 +87269,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "operator": "Gemeinde Kilchberg",
-    "phone": "+41447163090",
+    "phone": "+41 44 716 30 90",
     "id": "node/9524918529"
   },
   "geometry": {
@@ -88542,7 +88547,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "operator": "Stiftung",
-    "phone": "0041432774444",
+    "phone": "+41 43 277 44 44",
     "id": "node/9544718117"
   },
   "geometry": {
@@ -90212,9 +90217,9 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo - Fr 07:00 bis 18:00",
+    "opening_hours": "Mo-Fr 07:00-18:00",
     "operator": "Distrelec Schweiz AG",
-    "phone": "0798427075",
+    "phone": "+41 79 842 70 75",
     "id": "node/9600113917"
   },
   "geometry": {
@@ -93257,7 +93262,7 @@
     "indoor": "no",
     "opening_hours": "Mo-Fr 07:00-17:15",
     "operator": "Kanton Zürich, Abteilung Wald, Staatswald",
-    "phone": "043 257 98 25",
+    "phone": "+41 43 257 98 25",
     "id": "node/9679764617"
   },
   "geometry": {
@@ -98249,9 +98254,9 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr: 07:00-18:00",
+    "opening_hours": "Mo-Fr 07:00-18:00",
     "operator": "WABAG Wassertechnik AG",
-    "phone": "0522181414",
+    "phone": "+41 52 218 14 14",
     "id": "node/9839506017"
   },
   "geometry": {
@@ -108658,9 +108663,9 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr: 07:00-16:00",
+    "opening_hours": "Mo-Fr 07:00-16:00",
     "operator": "Sersa Maschineller Gleisbau",
-    "phone": "0523547070",
+    "phone": "+41 52 354 70 70",
     "id": "node/10035659817"
   },
   "geometry": {
@@ -108887,9 +108892,9 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Montag - Sonntag 10.00 - 18.00 Uhr",
+    "opening_hours": "Mo-Su 10:00-18:00",
     "operator": "Lindt Home of Chocolate",
-    "phone": "+41447162000",
+    "phone": "+41 44 716 20 00",
     "id": "node/10044605918"
   },
   "geometry": {
@@ -109805,7 +109810,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "operator": "Gemeinde Urdorf",
-    "phone": "0447341868",
+    "phone": "+41 44 734 18 68",
     "id": "node/10081628189"
   },
   "geometry": {
@@ -120814,6 +120819,27 @@
     "coordinates": [
       9.0627551,
       47.0441229
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10548774667",
+  "properties": {
+    "defibrillator:location": "Egon Informatik: Haupteingang",
+    "description": "nur während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo--Fr 08:00-17:00",
+    "operator": "Ergon Informatik AG",
+    "id": "node/10548774667"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5544534,
+      47.367293
     ]
   }
 }

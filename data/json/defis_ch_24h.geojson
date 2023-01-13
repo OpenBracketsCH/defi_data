@@ -57596,14 +57596,15 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Beim Hauseingang, in grünem AED Kasten",
-    "description": "Komplettes AED Set inkl. Notfall-Material. Unbedingt NOTRUF 144!  \n\n\n Nach Verwendung bitte Information an 079 651 55 93, danke!",
+    "description": "Komplettes AED Set inkl. Notfall-Material. Unbedingt NOTRUF 144! Nach Verwendung bitte Information an 079 651 55 93, danke!",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "image": "https://drive.google.com/file/d/11MSNRA5w8jax0IiFzrfZ_z2EJo-K709x/view?usp=sharing",
+    "image": "https://lh3.googleusercontent.com/u/0/drive-viewer/AFDK6gMbbqUCeE_RYGhWPBlI3mMibLYxk6ZjavRvpyXweIplgBsnS1zx7N2EbCqjGe-wnd_mEToxvG0zOnJCTMZakgPtpXqzAQ=w1920-h932",
     "indoor": "yes",
     "opening_hours": "24/7",
-    "operator": "PG Medical, www.pg-medical.ch",
-    "phone": "0766110144",
+    "operator": "PG Medical",
+    "phone": "+41 76 611 01 44",
+    "website": "https://www.pg-medical.ch/",
     "id": "node/9141209418"
   },
   "geometry": {
@@ -76690,7 +76691,7 @@
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Schule Aeugst am Albis",
-    "phone": "0447611990",
+    "phone": "+41 44 761 19 90",
     "id": "node/9972055117"
   },
   "geometry": {
@@ -78612,7 +78613,7 @@
     "indoor": "yes",
     "opening_hours": "24/7",
     "operator": "Privat (Susannes Beizli)",
-    "phone": "0794193361",
+    "phone": "+41 79 419 33 61",
     "id": "node/10078435018"
   },
   "geometry": {
@@ -85140,6 +85141,29 @@
     "coordinates": [
       8.7481105,
       47.6879114
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10548663209",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulanlage Steinacher",
+    "description": "Beim gedeckten Durchgang zwischen Sporthalle 1 und Sporthalle 2 ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadt Wädenswil ",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10548663209"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6412781,
+      47.2439955
     ]
   }
 }

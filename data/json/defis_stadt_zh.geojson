@@ -696,20 +696,20 @@
   "type": "Feature",
   "id": "node/7727118196",
   "properties": {
-    "defibrillator:location": "Bei Ergon Informatik melden",
+    "defibrillator:location": "Egon Informatik: Lieferanteneingang Minervastrasse",
     "description": "nur während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Ergon Informatik AG",
     "id": "node/7727118196"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5544108,
-      47.3673965
+      8.5543398,
+      47.3675408
     ]
   }
 },
@@ -5063,9 +5063,9 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "7:00 - 17:00 Werktags",
+    "opening_hours": "Mo-Fr 07:00-17:00; Ph off",
     "operator": "OdA Gesundheit Zürich",
-    "phone": "0445768650",
+    "phone": "+41 44 576 86 50",
     "id": "node/9303554417"
   },
   "geometry": {
@@ -5357,7 +5357,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "operator": "Tennis Club im Hau Witikon",
-    "phone": "0794822000",
+    "phone": "+41 79 482 20 00",
     "id": "node/9474380517"
   },
   "geometry": {
@@ -7736,6 +7736,27 @@
     "coordinates": [
       8.5381579,
       47.3920814
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10548774667",
+  "properties": {
+    "defibrillator:location": "Egon Informatik: Haupteingang",
+    "description": "nur während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo--Fr 08:00-17:00",
+    "operator": "Ergon Informatik AG",
+    "id": "node/10548774667"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5544534,
+      47.367293
     ]
   }
 }
