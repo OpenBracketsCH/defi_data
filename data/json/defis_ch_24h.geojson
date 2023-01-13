@@ -3394,6 +3394,31 @@
 },
 {
   "type": "Feature",
+  "id": "node/6418367285",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Bannwil",
+    "addr:housenumber": "2",
+    "addr:postcode": "4913",
+    "addr:street": "Bipperstrasse",
+    "defibrillator:location": "Fassade beim ehem. Feuerwehrmagazin",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Bannwil",
+    "phone": "+41 629632250",
+    "id": "node/6418367285"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7385439,
+      47.241647
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/6418976583",
   "properties": {
     "access": "yes",
@@ -4102,6 +4127,31 @@
     "coordinates": [
       7.7496475,
       47.2140626
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/6518992273",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Bannwil",
+    "addr:housenumber": "2",
+    "addr:postcode": "4913",
+    "addr:street": "Winkelstrasse",
+    "defibrillator:location": "Fassade beim Mehrzweckgebäude Bannwil",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Bannwil",
+    "phone": "+41 629632250",
+    "id": "node/6518992273"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7332312,
+      47.2377204
     ]
   }
 },
@@ -64780,7 +64830,7 @@
   "id": "node/9355869911",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Dorfbeck Nyfeler Gebäude Links",
+    "defibrillator:location": "Aussenstandort, an Hausfassade",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -85189,6 +85239,30 @@
     "coordinates": [
       8.6412781,
       47.2439955
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10548955164",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Heimenhausen",
+    "addr:housenumber": "6",
+    "addr:postcode": "3373",
+    "addr:street": "Röthenbachstrasse",
+    "defibrillator:location": "Eingangsbereich zu Turnhalle und Schulhaus, aussen",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Schule Aare-Önz, Schulhaus Kreuzfeld, Heimenhausen",
+    "phone": "+41 62 961 85 00",
+    "id": "node/10548955164"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6926895,
+      47.2056221
     ]
   }
 }

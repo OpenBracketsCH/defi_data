@@ -2443,8 +2443,17 @@
   "type": "Feature",
   "id": "node/6418367285",
   "properties": {
+    "access": "yes",
+    "addr:city": "Bannwil",
+    "addr:housenumber": "2",
+    "addr:postcode": "4913",
+    "addr:street": "Bipperstrasse",
+    "defibrillator:location": "Fassade beim ehem. Feuerwehrmagazin",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Bannwil",
+    "phone": "+41 629632250",
     "id": "node/6418367285"
   },
   "geometry": {
@@ -3810,12 +3819,12 @@
     "addr:housenumber": "2",
     "addr:postcode": "4913",
     "addr:street": "Winkelstrasse",
-    "defibrillator:location": "Eingang Mehrzweckgebäude",
+    "defibrillator:location": "Fassade beim Mehrzweckgebäude Bannwil",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "07:30-17:00",
-    "operator": "Samariterverein Bannwil",
-    "phone": "+41 62 963 27 87",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Bannwil",
+    "phone": "+41 629632250",
     "id": "node/6518992273"
   },
   "geometry": {
@@ -36663,7 +36672,7 @@
   "id": "node/9355869911",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Dorfbeck Nyfeler Gebäude Links",
+    "defibrillator:location": "Aussenstandort, an Hausfassade",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -45434,6 +45443,54 @@
     "coordinates": [
       7.4414558,
       47.2830435
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10548915203",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Herzogenbuchsee",
+    "addr:housenumber": "8",
+    "addr:postcode": "3360",
+    "addr:street": "Industrieweg",
+    "defibrillator:location": "1 Defi Personaleingang Werk 1, 1 Defi Personaleingang Werk 4",
+    "emergency": "defibrillator",
+    "opening_hours": "Mo-Fr 07:00-17:00",
+    "operator": "Heiniger AG",
+    "phone": "+41 794049436",
+    "id": "node/10548915203"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7049033,
+      47.1950595
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10548955164",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Heimenhausen",
+    "addr:housenumber": "6",
+    "addr:postcode": "3373",
+    "addr:street": "Röthenbachstrasse",
+    "defibrillator:location": "Eingangsbereich zu Turnhalle und Schulhaus, aussen",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Schule Aare-Önz, Schulhaus Kreuzfeld, Heimenhausen",
+    "phone": "+41 62 961 85 00",
+    "id": "node/10548955164"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6926895,
+      47.2056221
     ]
   }
 }
