@@ -5065,6 +5065,7 @@
   "type": "Feature",
   "id": "node/6564797295",
   "properties": {
+    "access": "yes",
     "addr:city": "Guttannen",
     "addr:housenumber": "2",
     "addr:place": "Boden",
@@ -5072,7 +5073,7 @@
     "defibrillator:location": "Altes Schulhaus - Im Eingangsbereich - Verfügbar von November bis Mai",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "November bis Mai 24/7",
+    "opening_hours": "24/7",
     "operator": "Kraftwerke Oberhasli AG (KWO)",
     "phone": "+41 33 982 29 11",
     "id": "node/6564797295"
@@ -6096,7 +6097,7 @@
   "type": "Feature",
   "id": "node/6565869507",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "addr:city": "Wengen",
     "addr:housenumber": "1349b",
     "addr:postcode": "3823",
@@ -6104,18 +6105,18 @@
     "contact:email": "info@wengen.swiss",
     "contact:phone": "+41 33 856 85 85",
     "contact:website": "https://wengen.swiss",
-    "defibrillator:location": "Verfügbar zu Öffnungszeiten: 09:00 - 18:00 (Juli - August bis 21:00)",
+    "defibrillator:location": "Informationstafel Lauberhornrennen, Rückseite",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "Sep-Jun 09:00 - 18:00; Jul-Aug 09:00 - 21:00",
+    "opening_hours": "24/7",
     "operator": "Wengen Tourismus",
     "id": "node/6565869507"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.9217679,
-      46.60594
+      7.9216709,
+      46.6058964
     ]
   }
 },
@@ -15799,17 +15800,17 @@
   "type": "Feature",
   "id": "node/6637423594",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "addr:city": "Thörishaus",
     "addr:housenumber": "115",
     "addr:postcode": "3174",
     "addr:street": "Talstrasse",
-    "defibrillator:location": "Schulanlage Stucki, je nach Anlass",
+    "defibrillator:location": "beim Eingang zur Turnhalle/ Aula",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "Mo-Fr 07:00-21:30",
+    "opening_hours": "24/7",
     "operator": "Schulanlage Stucki",
-    "phone": "+41 78 842 51 22",
+    "phone": "+41 31 744 01 05",
     "id": "node/6637423594"
   },
   "geometry": {
@@ -24183,7 +24184,8 @@
     "access": "permissive",
     "addr:city": "Mülenen",
     "addr:postcode": "3711",
-    "defibrillator:location": "Berghaus / Verfügbar zu Öffnungszeiten - Bitte beim Personal melden",
+    "defibrillator:location": "Berghaus",
+    "description": "Verfügbar zu Öffnungszeiten - Bitte beim Personal melden",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "Mo-Su 08:00-17:00",
@@ -32921,7 +32923,7 @@
   "type": "Feature",
   "id": "node/8728645192",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "addr:city": "Sumiswald",
     "addr:housenumber": "16",
     "addr:postcode": "3454",
@@ -32930,8 +32932,8 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Tu,Fr 08:00-12:00,14:00-17:00",
-    "operator": "Polizeiwache Sumiswald",
+    "opening_hours": "24/7",
+    "operator": "DLZ Sumiswald AG",
     "phone": "+41 31 638 80 00",
     "id": "node/8728645192"
   },
