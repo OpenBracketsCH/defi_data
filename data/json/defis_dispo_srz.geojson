@@ -43653,30 +43653,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9846782829",
-  "properties": {
-    "access": "customers",
-    "defibrillator:location": "Auf der Eingangtüre ist ein Defibrillator-Zeichen. Vermutlich muss in der Apotheke nach dem Defibrillator gefragt werden.",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "opening_hours": "Mo-Fr 08:00-18:30, Sa 08:00-16:00; PH off",
-    "operator": "Volksapotheke Im Dorf",
-    "phone": "+41 52 674 01 20",
-    "wheelchair": "yes",
-    "id": "node/9846782829"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6201972,
-      47.6821217
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9852194594",
   "properties": {
     "access": "yes",
@@ -51842,6 +51818,25 @@
     "coordinates": [
       8.6876515,
       47.2193053
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10556968274",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Im Portierbereich ist ein Defi-Symbol",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/10556968274"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6180992,
+      47.679187
     ]
   }
 }
