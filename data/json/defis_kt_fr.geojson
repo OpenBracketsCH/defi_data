@@ -858,6 +858,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/9149857817",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Bernstrasse 34 3175 Flamatt",
+    "description": "während den Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Gesundheitscenter",
+    "phone": "+41 31 741 15 51",
+    "id": "node/9149857817"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.317729,
+      46.8897055
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9153664799",
   "properties": {
     "access": "yes",
@@ -1004,29 +1027,6 @@
     "coordinates": [
       7.310881,
       46.8648163
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9524918531",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Bernstrasse 34 3275 Flamatt",
-    "description": "während den Öffnungszeiten",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Gesundheitscenter",
-    "phone": "0317411551",
-    "id": "node/9524918531"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.317729,
-      46.8897055
     ]
   }
 },
