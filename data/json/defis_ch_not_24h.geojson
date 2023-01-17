@@ -120947,6 +120947,77 @@
       46.0814734
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/10562313309",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Haupthaus Nordfassade rechts neben dem Eingang",
+    "description": "24h Zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "operator": "Heilpädagogisches Institut St. Michael",
+    "phone": "+41449399944",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10562313309"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8433075,
+      47.3457765
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10562340109",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Werkstattbüro, neben Türe zur Werkstatt",
+    "description": "Zugänglich während Öffnungszeiten der Werkstatt",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:30-12:00 ",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10562340109"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7544379,
+      47.4098696
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10562351909",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Werkstattbüro bei der Türe zur Werkstatt an der Wand",
+    "description": "während Öffnungszeiten verfügbar (www.tal-garage.ch)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Do 07:30-12:00 + 13:00-17:15 + Fr 07:30-12:00 + 13:00-16:00",
+    "operator": "Tal Garage Leisinger",
+    "phone": "+41619618674",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10562351909"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7544808,
+      47.4098224
+    ]
+  }
 }
 ]
 }
