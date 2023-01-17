@@ -396,24 +396,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/2696463600",
-  "properties": {
-    "defibrillator:location": "Stationsgebäude (24)",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "id": "node/2696463600"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.3370517,
-      46.9796992
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/2720821992",
   "properties": {
     "emergency": "defibrillator",
@@ -25269,10 +25251,13 @@
   "type": "Feature",
   "id": "node/7637818431",
   "properties": {
+    "defibrillator:location": "Auf der Hafen Seite neben dem Eingang, Jugendbüro/ Hafenmeister",
     "description": "Aussenanlage",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "name": "Stationsgebäude",
+    "opening_hours": "24h / 7 Tage",
+    "operator": "Politische Gemeinde Stansstad",
     "id": "node/7637818431"
   },
   "geometry": {
@@ -87888,6 +87873,7 @@
     "defibrillator:location": "Feuerwehr Lokal Kehrsiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "operator": "Politische Gemeinde Stansstad",
     "id": "node/9534148503"
   },
