@@ -51845,7 +51845,7 @@
   "id": "node/10562313309",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Haupthaus Nordfassade rechts neben dem Eingang",
+    "defibrillator:location": "Vereinigung Heilpädagogisches Instut St. Michael",
     "description": "24h Zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -51885,6 +51885,29 @@
     "coordinates": [
       8.7688547,
       47.3701602
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10565068109",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Socar Energy",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "opening_hours": "Mo-Fr 8.00-17.00",
+    "operator": "Socar Energy",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10565068109"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5363287,
+      47.3721548
     ]
   }
 }
