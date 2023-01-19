@@ -119383,8 +119383,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4918456,
-      47.5965995
+      8.4918035,
+      47.5966339
     ]
   }
 },
@@ -121127,6 +121127,53 @@
     "coordinates": [
       6.8406854,
       46.4639545
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10567221210",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Feuerwehrlokal",
+    "description": "zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Samariterverein Gurtnellen",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10567221210"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.621183,
+      46.7287534
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10567254609",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Partnerhaus, Treppenhaus neben Lift",
+    "description": "nur während der Öffnungszeiten verfügbar---Achtung, akkustischer Alarm! Tür wieder schliessen!",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo-Sa: 7-20Uhr",
+    "operator": "Spital Zofingen AG",
+    "phone": "+41 62 746 5594",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10567254609"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9482543,
+      47.2966987
     ]
   }
 }

@@ -2715,7 +2715,7 @@
   "id": "node/8486984126",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Der Defi befindet sich im Schutzkasten der Wandhalterung der sich zwischen beiden Garagen befindet.",
+    "defibrillator:location": "Feuerwehrmagazin an Wand rechts beim rechten roten Tor des Feuerwehrmagazins (Gleich bei Treppenaufgang zu Gemeindehaus)",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -2728,8 +2728,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3575911,
-      47.5240905
+      8.3611895,
+      47.5194415
     ]
   }
 },
@@ -15825,6 +15825,31 @@
     "coordinates": [
       7.841379,
       47.5783568
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10567254609",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Partnerhaus, Treppenhaus neben Lift",
+    "description": "nur während der Öffnungszeiten verfügbar---Achtung, akkustischer Alarm! Tür wieder schliessen!",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo-Sa: 7-20Uhr",
+    "operator": "Spital Zofingen AG",
+    "phone": "+41 62 746 5594",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10567254609"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9482543,
+      47.2966987
     ]
   }
 }
