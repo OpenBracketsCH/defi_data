@@ -16902,11 +16902,12 @@
   "id": "node/10272968409",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Spar ",
-    "description": "Haupteingang rechts",
+    "defibrillator:location": "Eingang Lebensmittelgeschäft, rechts an der Wand",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde",
     "phone": "0793554300",
     "id": "node/10272968409"
@@ -17390,6 +17391,30 @@
     "coordinates": [
       9.0889428,
       47.291494
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10570792810",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der Defi befindet sich in einem Kastern an der Aussenwand unter dem Vordach. Bei der alten Post.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Politische Gemeinde Wartau",
+    "phone": "+41 81 783 20 32",
+    "id": "node/10570792810"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4768312,
+      47.0806303
     ]
   }
 }
