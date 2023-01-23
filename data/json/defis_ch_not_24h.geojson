@@ -121445,6 +121445,99 @@
       47.3917728
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/10576639041",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Staatsanwaltschaft SG, Untersuchungsamt Altstätten ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "Parterre",
+    "operator": "Kanton St. Gallen ",
+    "phone": "+41582296400",
+    "id": "node/10576639041"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5533747,
+      47.3579732
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10576673041",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Wannenhof, Aussenwand Richtung Parkplatz",
+    "description": "öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Tagesschule Wannenhof",
+    "phone": "+41 62 776 20 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10576673041"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0897835,
+      47.3243524
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10576678441",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Staatsanwaltschaft, Untersuchungsamt Altstätten ",
+    "description": "nur zu Bürozeiten ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "Parterre",
+    "operator": "Kanton St. Gallen ",
+    "phone": "+41582296400",
+    "id": "node/10576678441"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.553415,
+      47.3579546
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10576708441",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Valida Eingangsbereich Wohnhaus Cafeteria Erdgeschoss",
+    "description": "Während Öffnungszeiten verfügbar ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo - Fr 7 Uhr h bis 18 Uhr",
+    "operator": "Valida",
+    "phone": "+41 71 424 01 01",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10576708441"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3457335,
+      47.4208821
+    ]
+  }
 }
 ]
 }
