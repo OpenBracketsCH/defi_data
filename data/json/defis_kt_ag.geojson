@@ -3,6 +3,31 @@
 "features": [
 {
   "type": "Feature",
+  "id": "node/617510589",
+  "properties": {
+    "access": "yes",
+    "amenity": "fire_station",
+    "defibrillator:location": "Feuerwehrmagazin an Wand links beim linken Tor des Feuerwehrmagazins",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "name": "Feuerwehr Schneisingen",
+    "opening_hours": "24/7",
+    "operator": "Firstresponder Schneisingen",
+    "phone": "0562412766",
+    "id": "node/617510589"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3609857,
+      47.5193564
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/1733421617",
   "properties": {
     "defibrillator:location": "Zu Öffnungszeiten",
@@ -2707,29 +2732,6 @@
     "coordinates": [
       8.3643831,
       47.5191191
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8486984126",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Feuerwehrmagazin an Wand rechts beim rechten roten Tor des Feuerwehrmagazins (Gleich bei Treppenaufgang zu Gemeindehaus)",
-    "description": "24h verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Firstresponder Schneisingen",
-    "phone": "0562412766",
-    "id": "node/8486984126"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.3611895,
-      47.5194415
     ]
   }
 },
