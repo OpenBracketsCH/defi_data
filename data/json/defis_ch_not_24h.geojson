@@ -121113,31 +121113,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10567254609",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Partnerhaus, Treppenhaus neben Lift",
-    "description": "nur während der Öffnungszeiten verfügbar---Achtung, akkustischer Alarm! Tür wieder schliessen!",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "2",
-    "opening_hours": "Mo-Sa: 7-20Uhr",
-    "operator": "Spital Zofingen AG",
-    "phone": "+41 62 746 5594",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/10567254609"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.9482543,
-      47.2966987
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10567746109",
   "properties": {
     "access": "yes",
@@ -121557,6 +121532,54 @@
     "coordinates": [
       8.1693542,
       47.2722482
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10578649241",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Bürofläche",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "3",
+    "opening_hours": "Mo-Fr: 08:00 - 12:00, 13:00 - 17:00 ",
+    "operator": "Netcloud AG",
+    "phone": "+41 58 344 12 12",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10578649241"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6982699,
+      47.4963694
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10578739441",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Coop Novaseta",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG bei den Kassen ",
+    "opening_hours": "Montag bis Donnerstag:\n08.00-19.00 Uhr\nFreitag\n08.00-20.00 Uhr \nSamstag:\n08.00-18.00 Uhr\n\n\n\n",
+    "operator": "Coop",
+    "id": "node/10578739441"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4306213,
+      47.5115112
     ]
   }
 }
