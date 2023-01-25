@@ -38740,13 +38740,13 @@
   "id": "node/10578649241",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Bürofläche",
+    "defibrillator:location": "bitte Klingeln, Defi ist im Gang!",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "yes",
     "level": "3",
-    "opening_hours": "Mo-Fr: 08:00 - 12:00, 13:00 - 17:00 ",
+    "opening_hours": "Mo-Fr: 08:00 - 12:00, 13:00 - 17:00",
     "operator": "Netcloud AG",
     "phone": "+41 58 344 12 12",
     "source": "local_knowledge, defikarte.ch",
@@ -38870,6 +38870,31 @@
     "coordinates": [
       8.5338228,
       47.5276229
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10581588905",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Reformiertes Kirchgemeindehaus Rosenmatt",
+    "description": "während der Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo - Fr. 8.00 - 17.00 Uhr",
+    "operator": "Reformierte Kirchgemeinde",
+    "phone": "+41 44 783 00 50",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10581588905"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6730945,
+      47.2287926
     ]
   }
 }
