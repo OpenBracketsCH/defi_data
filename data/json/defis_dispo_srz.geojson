@@ -52331,6 +52331,72 @@
       47.2983136
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/10581172367",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Zwischengeschoss Z (ein Stockwerk tiefer als 1), gegenüber vom Fahrstuhl an der Wand hängend.",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "Z",
+    "phone": "+41 144",
+    "wheelchair": "yes",
+    "id": "node/10581172367"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4435701,
+      47.4015521
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10581234852",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Unterstand der Bushaltestelle. / At the shelter of the bus stop.",
+    "emergency": "defibrillator",
+    "level": "0",
+    "opening_hours": "24/7",
+    "phone": "+41 144",
+    "wheelchair": "yes",
+    "id": "node/10581234852"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4446066,
+      47.4012935
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10581240805",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schützenmattstrasse 14",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr: 8.00 - 17.00 Uhr",
+    "operator": "Stiftung Wisli und dhc - digital health center",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10581240805"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5338228,
+      47.5276229
+    ]
+  }
 }
 ]
 }
