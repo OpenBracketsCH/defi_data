@@ -122307,7 +122307,9 @@
   "type": "Feature",
   "id": "node/10592374393",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "À l'entrée de la Migros",
+    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -122385,6 +122387,30 @@
     "coordinates": [
       8.535243,
       47.3720615
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10596233305",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Polizeihauptposten Allschwil",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Mi, Fr 09:00-17:00",
+    "operator": "Polizei Basel-Landschaft",
+    "phone": "+41 61 553 42 67",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10596233305"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.545982,
+      47.5527369
     ]
   }
 }
