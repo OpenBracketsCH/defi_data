@@ -16033,6 +16033,74 @@
       47.281746
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/10598988805",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Hallen-und Freibad Menziken, im Sanitätsraum",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10598988805"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1911552,
+      47.2332658
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10598995505",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Hallen-und Freibad Menziken, im Sanitätsraum",
+    "description": "während Öffnungszeiten erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo. bis Fr. 9:00 bis 22:00 Uhr, Sa. und So. 9:00 bis 18:00 Uhr",
+    "operator": "Gemeinde",
+    "phone": "+41627714161",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10598995505"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1909996,
+      47.2331893
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10598995506",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Pferderennbahn Aarau, Zwischengang Tribüne",
+    "description": "Während Öffnungszeiten und Events (auch am Wochenende) verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "Mo-Fr: 08:00 - 17:00",
+    "operator": "Verein",
+    "phone": "+41 62 824 80 40",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10598995506"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0292732,
+      47.3908285
+    ]
+  }
 }
 ]
 }
