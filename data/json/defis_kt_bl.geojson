@@ -3813,14 +3813,15 @@
   "id": "node/10262097712",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Mehrzweckhalle Aesch",
-    "description": "immer Erreichbach",
+    "defibrillator:location": "Sanitätsraum der Mehrzweckhalle",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
-    "level": "Erdgeschoss",
+    "indoor": "yes",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Aesch",
+    "phone": "+41617567781",
     "id": "node/10262097712"
   },
   "geometry": {
@@ -4014,6 +4015,30 @@
     "coordinates": [
       7.545982,
       47.5527369
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10601145635",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Schulhaus/ vor dem Hallenbad",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 09:00-19:00",
+    "operator": "Gemeindeverwaltung Aesch",
+    "phone": "+41617567781",
+    "id": "node/10601145635"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.601611,
+      47.4772605
     ]
   }
 }

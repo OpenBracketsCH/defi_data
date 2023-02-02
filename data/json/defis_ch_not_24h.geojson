@@ -113990,20 +113990,20 @@
   "properties": {
     "access": "no",
     "defibrillator:location": "Im Foyer der Stadthalle rechts neben dem Lift",
-    "description": "während Öffnungszeiten verfügbar",
+    "description": "während Öffnungszeiten verfügbar, Hallenwart der Stadthalle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "operator": "Hallenwart der Stadthalle",
+    "operator": "Stadt Dietikon",
     "phone": "+41 44 740 73 61",
     "id": "node/10231055787"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3870879,
-      47.407026
+      8.3869493,
+      47.407153
     ]
   }
 },
@@ -122675,6 +122675,49 @@
     "coordinates": [
       8.5489504,
       47.3627504
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10601136845",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Dans la cour du château",
+    "description": "Pendant les heures d'ouverture",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/10601136845"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9267516,
+      46.992315
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10601145635",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Schulhaus/ vor dem Hallenbad",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 09:00-19:00",
+    "operator": "Gemeindeverwaltung Aesch",
+    "phone": "+41617567781",
+    "id": "node/10601145635"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.601611,
+      47.4772605
     ]
   }
 }
