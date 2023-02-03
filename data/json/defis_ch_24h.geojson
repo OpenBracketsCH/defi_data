@@ -85738,29 +85738,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10566993409",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Eingangsbereich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Stiftung Eichholz",
-    "phone": "+41417486130",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/10566993409"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4839237,
-      47.1828694
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10567772609",
   "properties": {
     "access": "yes",
@@ -86708,6 +86685,79 @@
     "coordinates": [
       8.3262527,
       47.4662299
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10604114005",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kanalstrasse 15",
+    "description": "neben Hallen Tor, Seite Stans",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Hochmuth Bootsbau AG",
+    "phone": "+41416191888",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10604114005"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3428798,
+      46.9703922
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10604114006",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Treppenhaus süd/west ganz unten bei Anschlagbrett",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "-1",
+    "opening_hours": "24/7",
+    "operator": "Hochmuth Port de Sugiez SA",
+    "phone": "+41266733830",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10604114006"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1147063,
+      46.9657612
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10604147405",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Ausserhalb Eingang Schüpfenried 36 a - Institut Panic Healing",
+    "description": "Bei Treppenaufgang & Lift",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Biohof Schüpfenried",
+    "phone": "+41 78 889 57 10",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10604147405"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.373742,
+      46.9885396
     ]
   }
 }
