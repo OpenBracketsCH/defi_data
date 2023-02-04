@@ -2902,29 +2902,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8720986723",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "bei der Rezeption",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Su 08:00-12:00, 16:00-19:00",
-    "operator": "Peter Käch",
-    "phone": "+41 81 842 62 85",
-    "id": "node/8720986723"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.9353085,
-      46.4613693
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8720986724",
   "properties": {
     "access": "yes",
@@ -8475,6 +8452,53 @@
     "coordinates": [
       9.5265198,
       46.8549671
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10605701512",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Haupteingang im Sanitärgebäude",
+    "description": "24 h Verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "Mo-Su 00:00-24:00",
+    "operator": "Camping Morteratsch",
+    "phone": "+41 81 842 62 85",
+    "id": "node/10605701512"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.9350724,
+      46.4615143
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10605710206",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang Sanitärgebäude",
+    "description": "24 Stunden verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Camping Morteratsch",
+    "phone": "+41 81 842 62 85",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10605710206"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.9350846,
+      46.4615152
     ]
   }
 }
