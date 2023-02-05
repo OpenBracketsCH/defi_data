@@ -5482,29 +5482,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9824206017",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Primarschule Thundorf",
-    "description": "links neben dem Haupteingang an der Wand",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Schulgemeinde",
-    "phone": "+41523763494",
-    "id": "node/9824206017"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.9614164,
-      47.545672
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9825495422",
   "properties": {
     "defibrillator:location": "Carrosserie Winiger",
@@ -7199,13 +7176,14 @@
   "id": "node/10240188629",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Haupeingang",
+    "defibrillator:location": "Haupteingang Gebäude C",
     "description": "links neben dem Haupteingang an der Wand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Primarschule",
-    "phone": "+41 52 376 34 83",
+    "operator": "Primarschule Thundorf",
+    "phone": "+41 52 376 34 84",
     "id": "node/10240188629"
   },
   "geometry": {
@@ -11523,6 +11501,28 @@
     "coordinates": [
       9.4306213,
       47.5115112
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10608328229",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussenwand der Turnhalle, unter Vordach",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Sekundarschule Halingen",
+    "phone": "+41 52 369 30 50",
+    "id": "node/10608328229"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9397519,
+      47.5302525
     ]
   }
 }
