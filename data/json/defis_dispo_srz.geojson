@@ -52717,6 +52717,54 @@
       47.2677315
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/10610860661",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Links neben Sekretariat",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "opening_hours": "Mo-Fr: 07:00-17:00",
+    "operator": "Gross Generalunternehmung AG",
+    "phone": "0448773060",
+    "id": "node/10610860661"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5884677,
+      47.4117974
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10611403905",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Feuerwehr Depot, Aussenfassade Richtung Rapperswil",
+    "description": "Nach Gebrauch bei der Feuerwehr Stäfa melden",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Feuerwehr Stäfa, Materialwart",
+    "phone": "+41 44 926 15 93",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10611403905"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7244642,
+      47.2387438
+    ]
+  }
 }
 ]
 }
