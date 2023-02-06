@@ -54493,7 +54493,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Materialwart Feuerwehr Stäfa, Vinzenco Costandini",
+    "operator": "Materialwart Feuerwehr Stäfa",
     "phone": "+41 44 926 15 93",
     "id": "node/8562583189"
   },
@@ -117014,10 +117014,11 @@
   "id": "node/10240188794",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "in der Sporthalle",
+    "defibrillator:location": "Eingangsbereich der Sporthalle (Foyer)",
     "description": "während Veranstaltungen verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "opening_hours": "07:15-20:15",
     "operator": "Sportplatz Amriswil",
     "phone": "+41 71 414 11 33",
     "id": "node/10240188794"
@@ -117025,8 +117026,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.28907,
-      47.54869
+      9.2896072,
+      47.5484494
     ]
   }
 },
@@ -123101,6 +123102,54 @@
     "coordinates": [
       9.090901,
       46.9679837
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10611433805",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Bürogebäude, Küche oberhalb Schrank Kühlschrank",
+    "description": "Während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Montag bis Freitag 08:00 - 17:00 Uhr",
+    "operator": "Gartenbau Genossenschaft Zürich",
+    "phone": "+41 79 667 94 93",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10611433805"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4967178,
+      47.4235725
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10611495605",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Eingang Büro",
+    "description": "Während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08.00-17.00",
+    "operator": "Rudolf Wirz Strassen- und Tiefbau AG",
+    "phone": "+41619219900",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10611495605"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7241397,
+      47.4762779
     ]
   }
 }

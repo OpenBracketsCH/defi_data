@@ -535,25 +535,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7592934226",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Bei Sporthalle Tellenfeld",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "id": "node/7592934226"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.2891309,
-      47.5484937
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7592934227",
   "properties": {
     "access": "yes",
@@ -10521,10 +10502,11 @@
   "id": "node/10240188794",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "in der Sporthalle",
+    "defibrillator:location": "Eingangsbereich der Sporthalle (Foyer)",
     "description": "während Veranstaltungen verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "opening_hours": "07:15-20:15",
     "operator": "Sportplatz Amriswil",
     "phone": "+41 71 414 11 33",
     "id": "node/10240188794"
@@ -10532,8 +10514,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.28907,
-      47.54869
+      9.2896072,
+      47.5484494
     ]
   }
 },

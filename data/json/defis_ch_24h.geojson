@@ -23749,25 +23749,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7592934226",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Bei Sporthalle Tellenfeld",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "id": "node/7592934226"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.2891309,
-      47.5484937
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7592934227",
   "properties": {
     "access": "yes",
@@ -86878,6 +86859,30 @@
     "coordinates": [
       8.7244642,
       47.2387438
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10611433806",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Holzerhurd 60, Werkhof, neben Aufenthaltsraum an Wand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "24/7",
+    "operator": "Gartenbau Genossenschaft Zürich",
+    "phone": "+41796679493",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10611433806"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4967929,
+      47.4233801
     ]
   }
 }

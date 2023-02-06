@@ -14475,7 +14475,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Materialwart Feuerwehr Stäfa, Vinzenco Costandini",
+    "operator": "Materialwart Feuerwehr Stäfa",
     "phone": "+41 44 926 15 93",
     "id": "node/8562583189"
   },
@@ -39144,6 +39144,54 @@
     "coordinates": [
       8.7244642,
       47.2387438
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10611433805",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Bürogebäude, Küche oberhalb Schrank Kühlschrank",
+    "description": "Während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Montag bis Freitag 08:00 - 17:00 Uhr",
+    "operator": "Gartenbau Genossenschaft Zürich",
+    "phone": "+41 79 667 94 93",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10611433805"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4967178,
+      47.4235725
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10611433806",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Holzerhurd 60, Werkhof, neben Aufenthaltsraum an Wand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "24/7",
+    "operator": "Gartenbau Genossenschaft Zürich",
+    "phone": "+41796679493",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10611433806"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4967929,
+      47.4233801
     ]
   }
 }
