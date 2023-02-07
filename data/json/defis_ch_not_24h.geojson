@@ -77367,6 +77367,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "1",
     "operator": "Axept Business Software AG",
     "phone": "+41 58 871 94 33",
     "id": "node/9245636160"
@@ -77374,8 +77375,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6932567,
-      47.5248084
+      7.6939809,
+      47.5243538
     ]
   }
 },
@@ -123393,6 +123394,29 @@
     "coordinates": [
       9.2717099,
       47.3916747
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10614000624",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Durch den Haupteingang nach ca.7m auf der rechten Seite auf Augenhöhe an der Wand befestigt.",
+    "description": "während Öffnungszeiten erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-12:00, 13:30-17:45; Sa 08:00-12:00",
+    "operator": "Garage Grenacher AG",
+    "phone": "+41 71 747 30 00",
+    "id": "node/10614000624"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.6147826,
+      47.4243459
     ]
   }
 }
