@@ -2073,7 +2073,11 @@
   "id": "node/7911771120",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "A l'extrémité du pont",
+    "addr:city": "Yvonand",
+    "addr:housenumber": "2",
+    "addr:postcode": "1462",
+    "addr:street": "Rue de la Petite-Amérique",
+    "defibrillator:location": "Extérieur",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -2671,25 +2675,6 @@
     "coordinates": [
       7.0771906,
       46.9083695
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8915901000",
-  "properties": {
-    "access": "yes",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "id": "node/8915901000"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      6.7457384,
-      46.7990291
     ]
   }
 },
@@ -5567,6 +5552,81 @@
     "coordinates": [
       6.6119688,
       46.5590064
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10618789015",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Yvonand",
+    "addr:housenumber": "8",
+    "addr:postcode": "1462",
+    "addr:street": "Rue du Temple",
+    "defibrillator:location": "Extérieur",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Administration communale",
+    "id": "node/10618789015"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.7457363,
+      46.79903
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10618789016",
+  "properties": {
+    "access": "private",
+    "addr:city": "Yvonand",
+    "addr:housenumber": "21",
+    "addr:postcode": "1462",
+    "addr:street": "Route de Rovray",
+    "defibrillator:location": "Intérieur, Rez",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "06:00-22:00",
+    "operator": "Fitness Santé",
+    "id": "node/10618789016"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.7488411,
+      46.7955344
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10618789017",
+  "properties": {
+    "access": "private",
+    "addr:city": "Yvonand",
+    "addr:housenumber": "4",
+    "addr:postcode": "1462",
+    "addr:street": "Rue des Vergers",
+    "defibrillator:location": "Dans le cabinet médical",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-We 08:00-12:00, 13:00-17:30, Th 08:00-12:00, Fr 08:00-12:00, 13:00-17:00",
+    "operator": "Dr. Carnal Christine",
+    "id": "node/10618789017"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.7442257,
+      46.7986817
     ]
   }
 }
