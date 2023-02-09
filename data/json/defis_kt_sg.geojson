@@ -17906,6 +17906,51 @@
       47.2266615
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/10629742805",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Balmstrasse 50 8645 Jona",
+    "description": "immer zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7 Mo-So",
+    "operator": "Stiftung Balm Wohnheim",
+    "phone": "+41552201050",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10629742805"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8087499,
+      47.2459038
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10629760805",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Burgeraustrasse 8 8640 Rapperswil",
+    "description": "z.B während der Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10629760805"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8219678,
+      47.2302897
+    ]
+  }
 }
 ]
 }
