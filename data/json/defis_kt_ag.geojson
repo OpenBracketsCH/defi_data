@@ -604,9 +604,12 @@
   "id": "node/7185174628",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Mc' Donalds",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "wheelchair": "yes",
     "id": "node/7185174628"
   },
@@ -2411,11 +2414,12 @@
   "id": "node/8446597217",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Gemeindehaus Gontrnschwil, vor Eingang",
-    "description": "immer verfügbar",
+    "defibrillator:location": "Gemeindehaus Gontreschwil, vor Eingang",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde",
     "id": "node/8446597217"
   },
@@ -6053,27 +6057,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9025471317",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Valiant",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Valiant",
-    "id": "node/9025471317"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.1448566,
-      47.2762331
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9029234917",
   "properties": {
     "access": "no",
@@ -7543,11 +7526,10 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Korridor beim Lift",
-    "description": "24h verfügbar",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
+    "indoor": "no",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229721"
   },
@@ -15927,9 +15909,11 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Schulhaus neben dem Eingang",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10576961441"
@@ -16031,26 +16015,6 @@
     "coordinates": [
       8.0487779,
       47.281746
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10598988805",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Hallen-und Freibad Menziken, im Sanitätsraum",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/10598988805"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.1911552,
-      47.2332658
     ]
   }
 },

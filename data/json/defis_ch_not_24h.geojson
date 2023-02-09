@@ -20057,9 +20057,12 @@
   "id": "node/7185174628",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Mc' Donalds",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "wheelchair": "yes",
     "id": "node/7185174628"
   },
@@ -23995,28 +23998,6 @@
     "coordinates": [
       7.9235492,
       47.1364542
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7637812542",
-  "properties": {
-    "defibrillator:location": "Verfügbar während Öffnungszeiten Fitnesscenter",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "1_og",
-    "name": "Fitness Connection",
-    "operator": "Connection Wolhusen",
-    "phone": "+41 41 490 40 40",
-    "id": "node/7637812542"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.066445,
-      47.0638059
     ]
   }
 },
@@ -50290,27 +50271,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8446597217",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Gemeindehaus Gontrnschwil, vor Eingang",
-    "description": "immer verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Gemeinde",
-    "id": "node/8446597217"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.1455337,
-      47.2731308
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8446642817",
   "properties": {
     "access": "no",
@@ -70850,6 +70810,27 @@
     "coordinates": [
       7.805304,
       47.5531811
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045229721",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Korridor beim Lift",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "phone": "+41 62 835 35 00",
+    "id": "node/9045229721"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1843317,
+      47.246552
     ]
   }
 },
@@ -98970,29 +98951,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9868301143",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Bei Haupteingang an Rezeption melden.",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-16:00",
-    "operator": "Laubscher Präzision AG",
-    "phone": "+41 32 396 07 07",
-    "id": "node/9868301143"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.2003096,
-      47.065359
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9869601517",
   "properties": {
     "access": "yes",
@@ -121472,27 +121430,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10576961441",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Schulhaus neben dem Eingang",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Gemeinde",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/10576961441"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.1693542,
-      47.2722482
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10578649241",
   "properties": {
     "access": "no",
@@ -122530,26 +122467,6 @@
     "coordinates": [
       8.4167821,
       47.4173954
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10598988805",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Hallen-und Freibad Menziken, im Sanitätsraum",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/10598988805"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.1911552,
-      47.2332658
     ]
   }
 },
