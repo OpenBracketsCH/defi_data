@@ -2734,10 +2734,16 @@
   "type": "Feature",
   "id": "node/7637818878",
   "properties": {
+    "access": "no",
+    "defibrillator:location": "EG, im Speditionsbüro",
     "description": "Empfang EG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
     "name": "Lifetec Hofstetter PCB AG",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41800 122 144",
     "id": "node/7637818878"
   },
   "geometry": {
@@ -4355,9 +4361,16 @@
   "type": "Feature",
   "id": "node/9534345192",
   "properties": {
-    "defibrillator:location": "Alte Zugerstrasse 13 Imgrüth AG",
+    "access": "no",
+    "defibrillator:location": "In der Umkleidekabine/ WC im EG",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Th 07:00-11:45, 13:00-17:15; Fr 07:00-11:45, 13:00-16:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41800 122 144",
     "id": "node/9534345192"
   },
   "geometry": {
@@ -5250,6 +5263,293 @@
     "coordinates": [
       8.7202733,
       47.1900782
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10641472387",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Aufenthaltsraum / Küche",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/10641472387"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7797941,
+      47.2024561
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10641472388",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Empfangsbereich",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 08:00-16:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/10641472388"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7638678,
+      47.1962148
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10641472389",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Büro",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/10641472389"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.735533,
+      47.1892135
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10641472390",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "4.OG Garderobe",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Th 08:00-12:00, 13:00-18:00; Fr 07:30-12:00, 13:30-17:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/10641472390"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7254834,
+      47.1683528
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10641472391",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "EG, Empfang bei der Frauentoilette",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/10641472391"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7957425,
+      47.2007661
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10641472392",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "1.OG, beim Lift",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Th 07:30-12:00, 13:30-17:30; Fr 07:30-12:00, 13:30-16:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/10641472392"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7613439,
+      47.2058751
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10641472393",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Privatwohnung Otto Schumacher",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/10641472393"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6412285,
+      47.0175735
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10641472394",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Büros 4. Stock",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "4",
+    "opening_hours": "Mo-Fr 07:00-12:00, 13:15-17:30",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/10641472394"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7087196,
+      47.1898975
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10641472395",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang an Wand",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-12:00, 13:15-17:30",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/10641472395"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7085882,
+      47.1899822
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10641472396",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "In der Schreinerei (im unteren Teil)",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-16:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/10641472396"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7724268,
+      46.9718386
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10641472397",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Treppenhaus 1.OG",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:15-12:00, 13:15-17:30",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/10641472397"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4467885,
+      47.1085524
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10641472398",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "EG, zwischen Büro und Werkstatt",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:15-12:00, 13:15-17:30; Sa 08:00-12:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41800 122 144",
+    "id": "node/10641472398"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8193822,
+      47.1928338
     ]
   }
 }
