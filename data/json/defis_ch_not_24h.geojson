@@ -32944,24 +32944,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637819006",
-  "properties": {
-    "description": "Talstation Kasse",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Brunni-Bahnen Talstation",
-    "id": "node/7637819006"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4151058,
-      46.8187824
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637819007",
   "properties": {
     "description": "im Clubhaus",
@@ -124275,6 +124257,26 @@
     "coordinates": [
       8.7403408,
       47.3456167
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10657914306",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kräuterhütte am Härzlisee",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10657914306"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4109408,
+      46.841642
     ]
   }
 }
