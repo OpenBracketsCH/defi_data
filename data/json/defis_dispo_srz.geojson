@@ -53307,6 +53307,54 @@
       47.1325821
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/10663382205",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Primarschulhaus Schönenberg",
+    "description": "immer zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadt Wädenswil",
+    "phone": "+41792265048",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10663382205"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6425549,
+      47.194404
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10663387505",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "In der MIGROS",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "opening_hours": "Mo - Fr: 07:30 - 19:00\nSa: 07:30 - 17:00",
+    "operator": "MIGROS Hünenberg",
+    "phone": "+41417253250",
+    "id": "node/10663387505"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4276666,
+      47.1751236
+    ]
+  }
 }
 ]
 }
