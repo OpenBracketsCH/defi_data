@@ -72446,7 +72446,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr: 07:30-17:00",
+    "opening_hours": "Mo-Fr 07:30-17:00",
     "operator": "Militärpolizei",
     "id": "node/9091767517"
   },
@@ -121661,7 +121661,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "opening_hours": "Mo-Fr 7.00 - 19.00Uhr",
+    "opening_hours": "Mo-Fr 07:00-19:00",
     "operator": "Foppa Immobilien AG",
     "phone": "+41 81 250 49 57",
     "source": "local_knowledge, defikarte.ch",
@@ -121685,7 +121685,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr  07.00 - 19.00 Uhr",
+    "opening_hours": "Mo-Fr 07:00-19:00",
     "operator": "Foppa Immobilien AG",
     "phone": "+41 81 250 49 57",
     "source": "local_knowledge, defikarte.ch",
@@ -124348,6 +124348,31 @@
     "coordinates": [
       7.3190027,
       46.8518235
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10660747606",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Apotheke Affoltern AG",
+    "description": "während der Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr: 8:00 - 18:30 Uhr und Samstag 8:00 - 16:00 Uhr",
+    "operator": "Apotheke ",
+    "phone": "+41 443712533",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10660747606"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5247362,
+      47.4122148
     ]
   }
 }
