@@ -124584,6 +124584,50 @@
       47.5214255
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/10672346905",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Home médicalisé Les Charmetted",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2.",
+    "operator": "Altersheim",
+    "id": "node/10672346905"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.905501,
+      46.9882511
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10672347705",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Oberstufenschulhaus, neben dem Haupteingang rechts",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde Malans",
+    "phone": "+41 81 300 00 20",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10672347705"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5767683,
+      46.9822396
+    ]
+  }
 }
 ]
 }
