@@ -34391,6 +34391,7 @@
     "defibrillator:location": "-",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeindeverwaltung Dotzigen",
     "phone": "+41 78 828 20 75",
@@ -45866,6 +45867,29 @@
     "coordinates": [
       7.6305306,
       46.7701228
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10678593805",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Anicura Thun",
+    "description": "ausserhalb Öffnungszeiten klingeln ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "operator": "Anicura Tierklinik Thun",
+    "phone": "+41332224477",
+    "id": "node/10678593805"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.612145,
+      46.7469628
     ]
   }
 }
