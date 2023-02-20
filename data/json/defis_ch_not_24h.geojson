@@ -124656,7 +124656,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "Erdgeschoss im Showroom",
-    "opening_hours": "Mo. - Fr. 07.00 - 18.00 UhrSa. 09.00 - 13.00 Uhr",
+    "opening_hours": "Mo. - Fr. 07.00 - 18.00 Uhr, Sa. 09.00 - 13.00 Uhr",
     "operator": "Firma",
     "phone": "0041447626080",
     "id": "node/10675979905"
@@ -124730,6 +124730,27 @@
     "coordinates": [
       8.1932366,
       47.2380919
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10680118205",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Juristische Fakultät, Eingangsbereich",
+    "description": "im Gebäude während der Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10680118205"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5973678,
+      47.545282
     ]
   }
 }
