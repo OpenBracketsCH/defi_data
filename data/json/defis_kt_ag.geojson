@@ -6581,13 +6581,14 @@
     "indoor": "yes",
     "operator": "Informatik Aargau",
     "phone": "+41 62 835 10 09",
+    "ref": "Informatik Aargau 3. OG",
     "id": "node/9045223375"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0496693,
-      47.3619193
+      8.0496049,
+      47.3619229
     ]
   }
 },
@@ -6603,13 +6604,14 @@
     "indoor": "yes",
     "operator": "Informatik Aargau",
     "phone": "+41 62 835 10 09",
+    "ref": "Informatik Aargau 2. OG",
     "id": "node/9045223376"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0494909,
-      47.3619018
+      8.0495338,
+      47.3619418
     ]
   }
 },
@@ -6617,14 +6619,18 @@
   "type": "Feature",
   "id": "node/9045223377",
   "properties": {
-    "access": "no",
+    "access": "yes",
     "defibrillator:location": "1. UG beim Schulungszentrum Informatik Aargau",
-    "description": "für MA 24h verfügbar, aber nicht gesichert",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "1. UG",
+    "name": "Informatik Aargau Schulungszentrum 1. UG",
+    "opening_hours": "Mo-Fr 07:00-19:00",
     "operator": "Informatik Aargau",
     "phone": "+41 62 835 10 09",
+    "ref": "Informatik Aargau Schulungszentrum 1. UG",
     "id": "node/9045223377"
   },
   "geometry": {
@@ -7898,13 +7904,15 @@
   "id": "node/9045229738",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Im Sanitätsraum",
+    "defibrillator:location": "Im Sanitätsraum EG",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 07:00-19:00",
+    "operator": "Kanton Aargau Immobilien",
     "phone": "+41 62 835 35 00",
+    "ref": "Im Sanitätsraum EG",
     "id": "node/9045229738"
   },
   "geometry": {
