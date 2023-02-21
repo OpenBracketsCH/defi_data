@@ -69856,10 +69856,12 @@
   "properties": {
     "access": "no",
     "defibrillator:location": "beim Lift 3. OG",
-    "description": "für MA 24h verfügbar, aber nicht gesichert",
+    "description": "für Mitarbeiter 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "3._og",
+    "opening_hours": "24h für Mitarbeiter Informatik Aargau",
     "operator": "Informatik Aargau",
     "phone": "+41 62 835 10 09",
     "ref": "Informatik Aargau 3. OG",
@@ -69879,10 +69881,12 @@
   "properties": {
     "access": "no",
     "defibrillator:location": "Sanitätsraum 2. OG",
-    "description": "für MA 24h verfügbar, aber nicht gesichert",
+    "description": "für Mitarbeiter 24h verfügbar, aber nicht gesichert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "2._og",
+    "opening_hours": "24h für Mitarbeiter Informatik Aargau",
     "operator": "Informatik Aargau",
     "phone": "+41 62 835 10 09",
     "ref": "Informatik Aargau 2. OG",
@@ -69907,7 +69911,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1. UG",
-    "name": "Informatik Aargau Schulungszentrum 1. UG",
     "opening_hours": "Mo-Fr 07:00-19:00",
     "operator": "Informatik Aargau",
     "phone": "+41 62 835 10 09",
@@ -71190,6 +71193,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "erdgeschoss",
     "opening_hours": "Mo-Fr 07:00-19:00",
     "operator": "Kanton Aargau Immobilien",
     "phone": "+41 62 835 35 00",
@@ -124802,6 +124806,29 @@
     "coordinates": [
       8.605674,
       47.4472881
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10682622805",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Sekretariat HIF",
+    "description": "In the school‘s secretariat",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "1",
+    "opening_hours": "Mo-fr 9:00-12:00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10682622805"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      10.2394402,
+      46.7925346
     ]
   }
 }
