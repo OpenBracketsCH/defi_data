@@ -69860,7 +69860,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "3._og",
+    "level": "3. Obergeschoss",
     "opening_hours": "24h für Mitarbeiter Informatik Aargau",
     "operator": "Informatik Aargau",
     "phone": "+41 62 835 10 09",
@@ -69885,7 +69885,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "2._og",
+    "level": "2. Obergeschoss",
     "opening_hours": "24h für Mitarbeiter Informatik Aargau",
     "operator": "Informatik Aargau",
     "phone": "+41 62 835 10 09",
@@ -69910,7 +69910,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1. UG",
+    "level": "1. Untergeschoss",
     "opening_hours": "Mo-Fr 07:00-19:00",
     "operator": "Informatik Aargau",
     "phone": "+41 62 835 10 09",
@@ -71193,7 +71193,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "erdgeschoss",
+    "level": "Erdgeschoss",
     "opening_hours": "Mo-Fr 07:00-19:00",
     "operator": "Kanton Aargau Immobilien",
     "phone": "+41 62 835 35 00",
@@ -124895,6 +124895,31 @@
     "coordinates": [
       8.6426843,
       47.377811
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10685673706",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Zweigärten, innen",
+    "description": "Während Schulzeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08.00 - 17.00",
+    "operator": "Primarschule Oberembrach",
+    "phone": "+41 79 652 98 23",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10685673706"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.616119,
+      47.4876979
     ]
   }
 }
