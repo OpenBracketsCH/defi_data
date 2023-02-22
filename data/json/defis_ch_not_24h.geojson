@@ -106099,13 +106099,14 @@
   "id": "node/9979935614",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "SSB - Sensler Stiftung für Behinderte, Wohnheim im Eingangsbereich",
+    "defibrillator:location": "Stiftung ssb: Wohnheim im Eingangsbereich",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "opening_hours": "Mo-Su 07:00-20:00",
+    "operator": "Stiftung ssb",
     "id": "node/9979935614"
   },
   "geometry": {
@@ -124824,6 +124825,28 @@
     "coordinates": [
       6.6214746,
       46.7881463
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10685195506",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "In Wandkasten an der Strasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "EG",
+    "operator": "Wohnbaugenossenschaft SOL",
+    "phone": "+41796414626",
+    "id": "node/10685195506"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4368723,
+      46.99624
     ]
   }
 }
