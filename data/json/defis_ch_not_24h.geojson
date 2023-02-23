@@ -51003,6 +51003,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/8486984072",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der Standort befindet sich im Bankvorraum der Raiffeisenbank",
+    "description": "Verfügbar täglich jeweils ab 05.00 morgen bis 01.00 morgen.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "MO-So 05.00 am  - 01.00 am",
+    "operator": "Firstresponder Schneisingen",
+    "phone": "0562412766",
+    "id": "node/8486984072"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3643751,
+      47.5190412
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8488409717",
   "properties": {
     "access": "no",
@@ -124967,6 +124990,49 @@
     "coordinates": [
       8.968909,
       47.4157031
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10687664008",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Kath. Kirche, Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10687664008"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2780159,
+      47.3515664
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10687741505",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Loge",
+    "description": " ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "opening_hours": "Mo - Fr 07:00 - 17:00",
+    "operator": "BAZL",
+    "id": "node/10687741505"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.477107,
+      46.9743849
     ]
   }
 }

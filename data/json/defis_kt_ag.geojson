@@ -2722,11 +2722,11 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Der Standort befindet sich im Bankvorraum der Raiffeisenbank",
-    "description": "24h verfügbar",
+    "description": "Verfügbar täglich jeweils ab 05.00 morgen bis 01.00 morgen.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
+    "opening_hours": "MO-So 05.00 am  - 01.00 am",
     "operator": "Firstresponder Schneisingen",
     "phone": "0562412766",
     "id": "node/8486984072"
@@ -2734,8 +2734,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3643831,
-      47.5191191
+      8.3643751,
+      47.5190412
     ]
   }
 },
@@ -16361,6 +16361,26 @@
     "coordinates": [
       8.1932366,
       47.2380919
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10687664008",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Kath. Kirche, Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10687664008"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2780159,
+      47.3515664
     ]
   }
 }
