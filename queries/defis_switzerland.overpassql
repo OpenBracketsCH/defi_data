@@ -1,4 +1,4 @@
-[out:json][timeout:25];
+[out:json][timeout:300];
 (
 //ganze Schweiz
 area["ISO3166-1"="CH"];

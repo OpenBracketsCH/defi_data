@@ -1,4 +1,4 @@
-[out:json][timeout:25];
+[out:json][timeout:300];
 (
 //ganz Liechtenstein 24h Defis
 area["ISO3166-1"="LI"];

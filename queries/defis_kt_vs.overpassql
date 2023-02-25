@@ -1,4 +1,4 @@
-[out:json][timeout:25];
+[out:json][timeout:300];
 (
 //Kanton Wallis
 area["ISO3166-2"="CH-VS"];

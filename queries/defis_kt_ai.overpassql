@@ -1,4 +1,4 @@
-[out:json][timeout:25];
+[out:json][timeout:300];
 (
 //Kanton Appenzell Innerhoden
 area["ISO3166-2"="CH-AI"];

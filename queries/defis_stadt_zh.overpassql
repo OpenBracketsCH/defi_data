@@ -1,4 +1,4 @@
-[out:json][timeout:25];
+[out:json][timeout:300];
 area[name="Zürich"]["wikipedia"="de:Zürich"]->.zurich;
 // gather results
 (

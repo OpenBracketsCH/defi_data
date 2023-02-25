@@ -1,4 +1,4 @@
-[out:json][timeout:25];
+[out:json][timeout:300];
 // fetch area “CH-ZH” to search in
 area["ISO3166-2"="CH-ZH"]->.searchArea;
 // gather results
