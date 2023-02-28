@@ -2451,24 +2451,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637812573",
-  "properties": {
-    "description": "Werk 1 / Kantine",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Thermoplan AG",
-    "id": "node/7637812573"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4196215,
-      47.0367034
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637812575",
   "properties": {
     "description": "bei EC Automat",
@@ -17736,6 +17718,28 @@
     "coordinates": [
       8.3033859,
       47.0417275
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10698758105",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Werk 2, Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "EG",
+    "opening_hours": "24/7",
+    "operator": "Thermoplan AG",
+    "id": "node/10698758105"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4201635,
+      47.0359648
     ]
   }
 }
