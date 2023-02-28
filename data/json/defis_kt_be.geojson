@@ -5048,9 +5048,10 @@
     "addr:housenumber": "1",
     "addr:postcode": "3864",
     "addr:street": "Kraftwerke Handeck 1",
-    "defibrillator:location": "Im Eingangsbereich EHG - 24/7",
+    "defibrillator:location": "Im Eingangsbereich EHG links in Aussenkasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "opening_hours": "24/7",
     "operator": "Kraftwerke Oberhasli AG (KWO)",
     "phone": "+41 33 982 29 11",
     "id": "node/6564797294"
@@ -5095,9 +5096,10 @@
     "addr:city": "Guttannen",
     "addr:postcode": "3864",
     "addr:street": "Hotel Hospiz Grimsel Nollen",
-    "defibrillator:location": "Sommer (Juni bis Okt.) 24/7 verfügbar in Aussenkasten\nWinter (Dez. bis März) Hotel Réception (Mi. - So.)",
+    "defibrillator:location": "24/7 von Juni bis Okt. verfügbar in Aussenkasten;Dez. bis März Hotel Réception",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "opening_hours": "24/7",
     "operator": "Kraftwerke Oberhasli AG (KWO)",
     "phone": "+41 33 982 29 11",
     "id": "node/6564797296"
@@ -5105,8 +5107,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3320627,
-      46.571452
+      8.3320681,
+      46.5714575
     ]
   }
 },
@@ -5266,7 +5268,7 @@
     "defibrillator:location": "Hotel Handeck: Hausecke Talseite in Aussenkasten\nVerfügbar Juni - Oktober!",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "Juni - Oktober 24/7",
+    "opening_hours": "24/7 (Juni bis Oktober)",
     "operator": "Kraftwerke Oberhasli AG (KWO)",
     "phone": "+41 33 982 29 11",
     "id": "node/6564797303"
@@ -46004,6 +46006,29 @@
     "coordinates": [
       7.3705069,
       46.9491257
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10699972903",
+  "properties": {
+    "addr:city": "Guttannen",
+    "addr:postcode": "3864",
+    "addr:street": "Hotel Hospiz Grimsel Nollen",
+    "defibrillator:location": "24/7 von Juni bis Okt. verfügbar im Berghaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7 (Juni bis Oktober)",
+    "operator": "Kraftwerke Oberhasli AG (KWO)",
+    "phone": "+41 33 982 29 11",
+    "id": "node/10699972903"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2775114,
+      46.5488917
     ]
   }
 }
