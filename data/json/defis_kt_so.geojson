@@ -112,6 +112,37 @@
 },
 {
   "type": "Feature",
+  "id": "node/6228897704",
+  "properties": {
+    "access": "no",
+    "addr:city": "Hägendorf",
+    "addr:housenumber": "11",
+    "addr:postcode": "4614",
+    "addr:street": "Bachstrasse",
+    "amenity": "library",
+    "contact:email": "bibliothek@haegendorf.ch",
+    "contact:phone": "+41 78 926 25 48",
+    "contact:website": "http://www.haegendorf.ch/de/vereinekultur/bibliothek/",
+    "defibrillator:location": "Gangbereich vor Küchennische",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "Gemeindebibliothek",
+    "operator": "Gemeinde Hägendorf;Einwohnergemeinde Hägendorf",
+    "phone": "+41 62 209 17 12",
+    "id": "node/6228897704"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8438272,
+      47.3326356
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/6532311690",
   "properties": {
     "access": "permissive",
@@ -3104,28 +3135,6 @@
     "coordinates": [
       7.8433558,
       47.3376471
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9651180358",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Gangbereich vor Küchennische",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Einwohnergemeinde Hägendorf",
-    "phone": "+41 62 209 17 12",
-    "id": "node/9651180358"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.8438272,
-      47.3326356
     ]
   }
 },

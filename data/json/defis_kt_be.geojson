@@ -17255,6 +17255,7 @@
   "properties": {
     "access": "permissive",
     "addr:city": "Ittigen",
+    "addr:country": "CH",
     "addr:housenumber": "7",
     "addr:postcode": "3063",
     "addr:street": "Rain",
@@ -33248,6 +33249,7 @@
   "properties": {
     "access": "yes",
     "addr:city": "Ittigen",
+    "addr:country": "CH",
     "addr:housenumber": "7",
     "addr:postcode": "3063",
     "addr:street": "Rain",
@@ -46029,6 +46031,71 @@
     "coordinates": [
       8.2775114,
       46.5488917
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10701873906",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sporthalle Schadau, rechts neben dem Eingang ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "operator": "Gymnasium Thun",
+    "id": "node/10701873906"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6274127,
+      46.7439431
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10701970408",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "HAWS AG Bachweg 3",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "Treppenhaus 1.OG",
+    "opening_hours": "MO- FR 08:00-16:00",
+    "operator": "Haws AG",
+    "phone": "0344206000",
+    "id": "node/10701970408"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.602386,
+      47.0693269
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10702275605",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Schützenhaus Schwarzenburg",
+    "description": "Eingang Schützenhaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/10702275605"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3475821,
+      46.8117301
     ]
   }
 }

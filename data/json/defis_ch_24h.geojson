@@ -47186,6 +47186,7 @@
   "properties": {
     "access": "yes",
     "addr:city": "Ittigen",
+    "addr:country": "CH",
     "addr:housenumber": "7",
     "addr:postcode": "3063",
     "addr:street": "Rain",
@@ -88152,6 +88153,168 @@
     "coordinates": [
       8.4201635,
       47.0359648
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10701209407",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindehaus Schattdorf",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Schattdorf",
+    "phone": "+41 41 874 04 74",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10701209407"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6553007,
+      46.8643871
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10701936905",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Forel Klinik",
+    "description": "Beim Eingang links",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "Gebäude \"Zentrum\" / EG",
+    "opening_hours": "24/7",
+    "operator": "Klinik",
+    "id": "node/10701936905"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.870627,
+      47.5717237
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10702067766",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An der Aussenwand des Vereinshauses",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Lindau",
+    "id": "node/10702067766"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7007025,
+      47.4398261
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10702067767",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An der Aussenwand des Basketballplatz",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Lindau",
+    "id": "node/10702067767"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6980847,
+      47.4427994
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10702067768",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An der Aussenwand des Turnhalle",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Lindau",
+    "id": "node/10702067768"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6940271,
+      47.4517524
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10702067769",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An der Aussenwand des Gemeindehauses",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Lindau",
+    "id": "node/10702067769"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6712357,
+      47.4416307
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10702067770",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An der Aussenwand des Bucksaal",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Lindau",
+    "id": "node/10702067770"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6698651,
+      47.4336223
     ]
   }
 }

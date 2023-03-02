@@ -5224,6 +5224,37 @@
 },
 {
   "type": "Feature",
+  "id": "node/6228897704",
+  "properties": {
+    "access": "no",
+    "addr:city": "Hägendorf",
+    "addr:housenumber": "11",
+    "addr:postcode": "4614",
+    "addr:street": "Bachstrasse",
+    "amenity": "library",
+    "contact:email": "bibliothek@haegendorf.ch",
+    "contact:phone": "+41 78 926 25 48",
+    "contact:website": "http://www.haegendorf.ch/de/vereinekultur/bibliothek/",
+    "defibrillator:location": "Gangbereich vor Küchennische",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "Gemeindebibliothek",
+    "operator": "Gemeinde Hägendorf;Einwohnergemeinde Hägendorf",
+    "phone": "+41 62 209 17 12",
+    "id": "node/6228897704"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8438272,
+      47.3326356
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/6251274093",
   "properties": {
     "emergency": "defibrillator",
@@ -14055,6 +14086,7 @@
   "properties": {
     "access": "permissive",
     "addr:city": "Ittigen",
+    "addr:country": "CH",
     "addr:housenumber": "7",
     "addr:postcode": "3063",
     "addr:street": "Rain",
@@ -92264,28 +92296,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9651180358",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Gangbereich vor Küchennische",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Einwohnergemeinde Hägendorf",
-    "phone": "+41 62 209 17 12",
-    "id": "node/9651180358"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.8438272,
-      47.3326356
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9651234976",
   "properties": {
     "access": "no",
@@ -125267,6 +125277,251 @@
     "coordinates": [
       8.2775114,
       46.5488917
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10701414705",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Centro Commerciale Tenero, accanto alla Farmacia Coop Vitality",
+    "description": "While store is open",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Sa: 08:00 - 18:30",
+    "operator": "Shopping Center",
+    "phone": "+41917352803",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10701414705"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8558014,
+      46.1749533
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10701873906",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sporthalle Schadau, rechts neben dem Eingang ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "operator": "Gymnasium Thun",
+    "id": "node/10701873906"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6274127,
+      46.7439431
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10701969905",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Winkel 1, beim Empfang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo & Do: 8.00 - 20.00, Di, Mi & Fr: 8.00 - 12.00 & 13.00 - 17.00",
+    "operator": "ARGODENTIS Zahnmedizin Frick, Dr. Sascha Ruggli",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10701969905"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0212319,
+      47.508407
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10701970408",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "HAWS AG Bachweg 3",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "Treppenhaus 1.OG",
+    "opening_hours": "MO- FR 08:00-16:00",
+    "operator": "Haws AG",
+    "phone": "0344206000",
+    "id": "node/10701970408"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.602386,
+      47.0693269
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10702011805",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Zwidellen 2, Labor hinter Empfang",
+    "description": "Während Arbeitszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo & Mi: 8.00 - 12.00 & 14.00 - 18.00, Di & Fr: 8.00 - 12.00, Do: 14.00 - 18.00, Sa: 9.00 - 12.00",
+    "operator": "Hausärzte GmbH Frick AG, Dr. med. Ch. Simonett",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10702011805"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0198103,
+      47.5073997
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10702024805",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Zwidellen 3, Sprechzimmer links",
+    "description": "Während Arbeitszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10702024805"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0198318,
+      47.5070446
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10702089106",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Schulstrasse 53, Hintereingang ab grossem Parkplatz, 1. Raum im Gebäude",
+    "description": "Während Arbeitszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "Mo-Fr: 7.30-12.00 & 13.30-17.00",
+    "operator": "Studer K. AG",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10702089106"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0112541,
+      47.5030185
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10702151905",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Hauptstrasse 131, Haupteingang",
+    "description": "Während Arbeitszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr: 7.30-12.00 & 13.00-17.00",
+    "operator": "Stahlton Bauteile AG, Werk 3",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10702151905"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0344766,
+      47.501848
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10702168405",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Weiherweg 2, Sanitätsraum",
+    "description": "Zugang während Arbeitszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr: 7.30-12.00 & 13.00-17.00",
+    "operator": "Stahlton Bauteile AG, Werk 1",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10702168405"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0143118,
+      47.5100521
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10702275605",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Schützenhaus Schwarzenburg",
+    "description": "Eingang Schützenhaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/10702275605"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3475821,
+      46.8117301
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10702285505",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Feuerwehrgebäude",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Feuerwehr Zumikon-Küsnachterberg",
+    "id": "node/10702285505"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6205108,
+      47.3387891
     ]
   }
 }
