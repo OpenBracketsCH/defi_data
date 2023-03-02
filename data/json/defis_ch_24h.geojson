@@ -88317,6 +88317,55 @@
       47.4336223
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/10703821707",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Wislistrasse 9",
+    "description": "24h-Wohnheim > Der AED ist im Gebäude, direkt im Eingangsbereich. Die Eingangstür ist in der Regel geschlossen, deshalb bitte klingeln oder rechtzeitig anrufen. Es sind immer Betreuer*innen vor Ort.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stiftung Wisli",
+    "phone": "+41434114561",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10703821707"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5416226,
+      47.5317992
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10703848305",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Husner, aussen zwischen Empfang und Anlieferung",
+    "description": "Immer verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Husner AG Holzbau",
+    "phone": "+41 62 865 66 11",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10703848305"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0124879,
+      47.5093093
+    ]
+  }
 }
 ]
 }
