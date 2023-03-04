@@ -69628,7 +69628,6 @@
     "defibrillator:location": "Parkhauskasse Aussenwand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Stadt Bremgarten",
     "id": "node/9569279017"
@@ -69636,8 +69635,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3442929,
-      47.3505823
+      8.3442847,
+      47.3506131
     ]
   }
 },
@@ -88580,6 +88579,53 @@
     "coordinates": [
       8.7214571,
       47.1979069
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10706850505",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bürogebäude, Haupteingang neben Eingangstüre",
+    "description": "immer zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Tiefbauamt des Kantons Bern, Strasseninspektorat Oberland Ost",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10706850505"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.218739,
+      46.708088
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10709142606",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "neben Eingang Nussbaumstrasse 18",
+    "description": "Immer verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Siedlung Baumgarten 3+",
+    "phone": "+41 79 383 81 58",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10709142606"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.467109,
+      46.9542609
     ]
   }
 }

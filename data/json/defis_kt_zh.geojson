@@ -7645,6 +7645,9 @@
     "indoor": "yes",
     "level": "0",
     "opening_hours": "Mo-Sa 07:30-20:00",
+    "operator": "Genossenschaft Migros Zürich",
+    "phone": "+41 58 563 30 30",
+    "wheelchair": "limited",
     "id": "node/8167231832"
   },
   "geometry": {
@@ -39830,6 +39833,50 @@
     "coordinates": [
       8.551322,
       47.4135565
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10705874505",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gerbi",
+    "description": "24h / 7 Tage erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10705874505"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4229732,
+      47.2340161
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10706798021",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Adus Radiologie Kloten",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "1",
+    "operator": "ADUS Radiologie AG, Dielsdorf",
+    "phone": "+41 44 854 64 64",
+    "wheelchair": "limited",
+    "id": "node/10706798021"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5852123,
+      47.4496138
     ]
   }
 }

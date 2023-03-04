@@ -3156,29 +3156,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6516402312",
-  "properties": {
-    "access": "permissive",
-    "addr:city": "Langenthal",
-    "addr:housenumber": "12",
-    "addr:postcode": "4900",
-    "addr:street": "Bleienbachstrasse",
-    "defibrillator:location": "Marti`s Dance-Factory",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "phone": "+41 62 922 30 63",
-    "id": "node/6516402312"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.7818522,
-      47.204785
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6516402313",
   "properties": {
     "access": "yes",
@@ -46118,6 +46095,78 @@
     "coordinates": [
       7.5894606,
       46.7795243
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10706850505",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bürogebäude, Haupteingang neben Eingangstüre",
+    "description": "immer zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Tiefbauamt des Kantons Bern, Strasseninspektorat Oberland Ost",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10706850505"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.218739,
+      46.708088
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10709142606",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "neben Eingang Nussbaumstrasse 18",
+    "description": "Immer verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Siedlung Baumgarten 3+",
+    "phone": "+41 79 383 81 58",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10709142606"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.467109,
+      46.9542609
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10709142807",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Arztpraxis - Ringstrasse 23",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo-Fr 08:00-17:30",
+    "operator": "Arztpraxis Lichthof AG",
+    "phone": "+41 62 552 60 60",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10709142807"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7824187,
+      47.2134467
     ]
   }
 }

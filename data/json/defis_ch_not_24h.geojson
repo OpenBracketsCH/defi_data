@@ -6106,29 +6106,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6516402312",
-  "properties": {
-    "access": "permissive",
-    "addr:city": "Langenthal",
-    "addr:housenumber": "12",
-    "addr:postcode": "4900",
-    "addr:street": "Bleienbachstrasse",
-    "defibrillator:location": "Marti`s Dance-Factory",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "phone": "+41 62 922 30 63",
-    "id": "node/6516402312"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.7818522,
-      47.204785
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6516402314",
   "properties": {
     "access": "permissive",
@@ -47137,6 +47114,9 @@
     "indoor": "yes",
     "level": "0",
     "opening_hours": "Mo-Sa 07:30-20:00",
+    "operator": "Genossenschaft Migros Zürich",
+    "phone": "+41 58 563 30 30",
+    "wheelchair": "limited",
     "id": "node/8167231832"
   },
   "geometry": {
@@ -126174,6 +126154,99 @@
     "coordinates": [
       8.551322,
       47.4135565
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10705874505",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gerbi",
+    "description": "24h / 7 Tage erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10705874505"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4229732,
+      47.2340161
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10706798021",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Adus Radiologie Kloten",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "1",
+    "operator": "ADUS Radiologie AG, Dielsdorf",
+    "phone": "+41 44 854 64 64",
+    "wheelchair": "limited",
+    "id": "node/10706798021"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5852123,
+      47.4496138
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10708591905",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Reception",
+    "description": "während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr: 8:00-21.00, Sa-So: 8:00-18.30",
+    "operator": "Tesquash AG",
+    "phone": "+41 62 751 21 10",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10708591905"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9422784,
+      47.2755313
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10709142807",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Arztpraxis - Ringstrasse 23",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo-Fr 08:00-17:30",
+    "operator": "Arztpraxis Lichthof AG",
+    "phone": "+41 62 552 60 60",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10709142807"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7824187,
+      47.2134467
     ]
   }
 }

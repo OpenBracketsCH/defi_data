@@ -11475,7 +11475,6 @@
     "defibrillator:location": "Parkhauskasse Aussenwand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Stadt Bremgarten",
     "id": "node/9569279017"
@@ -11483,8 +11482,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3442929,
-      47.3505823
+      8.3442847,
+      47.3506131
     ]
   }
 },
@@ -17221,6 +17220,30 @@
     "coordinates": [
       8.3671242,
       47.3621196
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10708591905",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Reception",
+    "description": "während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr: 8:00-21.00, Sa-So: 8:00-18.30",
+    "operator": "Tesquash AG",
+    "phone": "+41 62 751 21 10",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10708591905"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9422784,
+      47.2755313
     ]
   }
 }
