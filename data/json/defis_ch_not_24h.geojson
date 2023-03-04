@@ -124940,9 +124940,7 @@
   "type": "Feature",
   "id": "node/10687741505",
   "properties": {
-    "access": "no",
     "defibrillator:location": "Loge",
-    "description": " ",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -126290,6 +126288,22 @@
     "coordinates": [
       8.0482099,
       47.3046488
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10709430123",
+  "properties": {
+    "emergency": "defibrillator",
+    "note": "On the platform, at the back of the Ticket Vending Machine",
+    "id": "node/10709430123"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3382659,
+      47.4080307
     ]
   }
 }
