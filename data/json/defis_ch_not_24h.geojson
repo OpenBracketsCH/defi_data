@@ -98586,6 +98586,7 @@
   "type": "Feature",
   "id": "node/9862344673",
   "properties": {
+    "defibrillator:location": "contre le mur, à droite du service client",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -126310,6 +126311,23 @@
     "coordinates": [
       6.0857384,
       46.1987463
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10715861046",
+  "properties": {
+    "defibrillator:location": "A l'intérieur du sas des distributeurs à billets.",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/10715861046"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9500309,
+      46.2532814
     ]
   }
 }
