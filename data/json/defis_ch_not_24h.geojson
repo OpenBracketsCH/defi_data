@@ -89241,10 +89241,12 @@
   "id": "node/9574983617",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Maschwanden, Dorfstrasse 24; Gerbi",
+    "defibrillator:location": "Maschwanden, Dorfstrasse 24;Gerbi",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24h / 7 Tage",
+    "operator": "Gemeinde Maschwanden",
     "id": "node/9574983617"
   },
   "geometry": {
@@ -126153,28 +126155,6 @@
     "coordinates": [
       8.551322,
       47.4135565
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10705874505",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Gerbi",
-    "description": "24h / 7 Tage erreichbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Gemeinde",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/10705874505"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4229732,
-      47.2340161
     ]
   }
 },
