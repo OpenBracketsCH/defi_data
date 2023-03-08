@@ -31207,6 +31207,7 @@
     "description": "Öffentlich zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Richterswil",
     "id": "node/7819540981"
@@ -31214,8 +31215,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7058466,
-      47.2107087
+      8.7056894,
+      47.2108985
     ]
   }
 },
@@ -88807,6 +88808,28 @@
     "coordinates": [
       9.9836283,
       46.6116196
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10720524207",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Dorfstrasse 1, beim Eingang zur Turnhalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Saas-Balen",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10720524207"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9283202,
+      46.1537275
     ]
   }
 },
