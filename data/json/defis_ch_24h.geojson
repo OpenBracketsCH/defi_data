@@ -31179,22 +31179,45 @@
 },
 {
   "type": "Feature",
-  "id": "node/7819540976",
+  "id": "node/7819540974",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Beim Pfarreiheim",
+    "defibrillator:location": "\"neues Schulhaus Töss\" im Aussen-Bereich zwischen Turnhalle und Schulhaus",
     "description": "Öffentlich zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Richterswil",
+    "id": "node/7819540974"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7016643,
+      47.2075457
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7819540976",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "beim Haupteingang zum Pfarreiheim links an der Wand",
+    "description": "Öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Kath. Kirche Richterswil/Samstagern",
     "id": "node/7819540976"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7008327,
-      47.212155
+      8.7008568,
+      47.2120202
     ]
   }
 },
@@ -31203,7 +31226,7 @@
   "id": "node/7819540981",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "See-Beizli Eingang",
+    "defibrillator:location": "Eingangsbereich zum See-Beizli",
     "description": "Öffentlich zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
