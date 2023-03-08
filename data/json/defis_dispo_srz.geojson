@@ -10052,19 +10052,20 @@
   "id": "node/7819540962",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "in Kirche",
+    "defibrillator:location": "in der Kirche beim Haupteingang",
     "description": "Öffentlich zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "Mo-Su 08:00-18:00",
-    "operator": "Gemeinde Richterswil",
+    "indoor": "yes",
+    "opening_hours": "täglich 08.00 - 18.00 Uhr",
+    "operator": "Kath. Kirche Richterswil/Samstagern",
     "id": "node/7819540962"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6782288,
-      47.19454
+      8.6782346,
+      47.1945029
     ]
   }
 },
@@ -10177,38 +10178,20 @@
   "id": "node/7819540968",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Turnhalle Feld 1",
+    "defibrillator:location": "Haupteingang zum Hallenbad",
     "description": "während Schulbetrieb verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "während Schulbetrieb",
     "operator": "Gemeinde Richterswil",
     "id": "node/7819540968"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6897813,
-      47.2081516
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7819540969",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Turnhalle Feld 2",
-    "description": "während Schulbetrieb verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "operator": "Gemeinde Richterswil",
-    "id": "node/7819540969"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6912806,
-      47.2082326
+      8.6898001,
+      47.2082719
     ]
   }
 },
@@ -10217,18 +10200,20 @@
   "id": "node/7819540970",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schulhaus Feld 2",
-    "description": "während Schulbetrieb verfügbar",
+    "defibrillator:location": "Schulhaus Feld 2 / Eingang Burghalden linksseitig an Wand",
+    "description": "Öffentlich zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Richterswil",
     "id": "node/7819540970"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6911645,
-      47.2084875
+      8.6914152,
+      47.2083636
     ]
   }
 },
@@ -10302,19 +10287,20 @@
   "id": "node/7819540975",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "in der Kirche",
+    "defibrillator:location": "in der Kirche beim Haupteingang",
     "description": "Öffentlich zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "Mo-Su 07:00-18:00",
-    "operator": "Gemeinde Richterswil",
+    "indoor": "yes",
+    "opening_hours": "täglich 07.00 - 18.00 Uhr",
+    "operator": "Kath. Kirche Richterswil/Samstagern",
     "id": "node/7819540975"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7012763,
-      47.21191
+      8.7013943,
+      47.2116859
     ]
   }
 },
@@ -10391,8 +10377,9 @@
     "description": "Öffentlich zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "Mo-Fr 08:30 - 16:30",
-    "operator": "Gemeinde Richterswil",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08.30 - 12.00 / 14.00 - 16.30 Uhr",
+    "operator": "Zürcher Kantonalbank",
     "id": "node/7819540979"
   },
   "geometry": {
