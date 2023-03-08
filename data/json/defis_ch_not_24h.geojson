@@ -126460,6 +126460,52 @@
       47.4649756
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/10720525007",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Innen beim Eingang des Naturbades",
+    "description": "Nur während Badesaison (mitte Mai - mitte September) und nur während den Öffnungszeiten verfügbar!",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10720525007"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4188586,
+      47.2332767
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10720609705",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Schule Steig, Stokarbergstrasse 13, 8200 Schaffhausen",
+    "description": "Im Eingangsbereich der Turnhalle/Nur zugänglich während Schul- und Trainingszeit",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07.30 - 12.00",
+    "operator": "Stadt Schaffhausen/Stadtpolizei",
+    "phone": "+41 52 632 57 49",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10720609705"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6267972,
+      47.6975617
+    ]
+  }
 }
 ]
 }
