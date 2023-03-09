@@ -2977,12 +2977,11 @@
   "properties": {
     "access": "yes",
     "contact:website": "http://aed.ch",
-    "defibrillator:location": "Bahnhof Samstagern: Perron Gleis 2/3 am Ende der Rampe",
-    "description": "24h verfügbar",
+    "defibrillator:location": "Perron Gleis 2 / 3 am Ende der Rampe",
+    "description": "Öffentlich zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "0",
     "opening_hours": "24/7",
     "operator": "SOB",
     "phone": "+41 58 580 73 35",
@@ -4665,10 +4664,11 @@
   "id": "node/7819540963",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Aussen vor Eingang",
+    "defibrillator:location": "neben Eingangstüre links",
     "description": "Öffentlich zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Richterswil",
     "id": "node/7819540963"
@@ -4676,8 +4676,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6799893,
-      47.191111
+      8.679928,
+      47.1911071
     ]
   }
 },
@@ -4727,10 +4727,11 @@
   "id": "node/7819540966",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "beim WC",
+    "defibrillator:location": "beim Ausseneingang zum WC / Garderoben",
     "description": "Öffentlich zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Richterswil",
     "id": "node/7819540966"
@@ -4738,8 +4739,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6872102,
-      47.2080631
+      8.6873282,
+      47.2081014
     ]
   }
 },
@@ -4813,7 +4814,7 @@
   "id": "node/7819540971",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Perron",
+    "defibrillator:location": "Perron 1 hinter dem Billettautomat",
     "description": "Öffentlich zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
