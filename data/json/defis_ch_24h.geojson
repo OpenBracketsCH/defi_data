@@ -3819,32 +3819,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6516338683",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Gondiswil",
-    "addr:housenumber": "48",
-    "addr:postcode": "4955",
-    "addr:street": "Dorf",
-    "defibrillator:location": "Gemeindehaus",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Gemeindeverwaltung Gondiswil",
-    "phone": "+41 79 759 24 15",
-    "id": "node/6516338683"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.872087,
-      47.1451676
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6516338866",
   "properties": {
     "access": "yes",
@@ -26450,26 +26424,6 @@
     "coordinates": [
       8.3167021,
       47.1818026
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7637818904",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Beim Haupteingang",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Gemeindeverwaltung Hohenrain",
-    "opening_hours": "24/7",
-    "id": "node/7637818904"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.3150115,
-      47.1798289
     ]
   }
 },
@@ -88996,6 +88950,71 @@
     "coordinates": [
       8.4998586,
       47.4870812
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10725889310",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Postautohaltestelle Wührenbach",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung Horgen, Bahnhofstrasse 10, 8810 Horgen",
+    "id": "node/10725889310"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5891147,
+      47.2467506
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10725911870",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingangsbereich (aussen) MZH Dörlimatt",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Kunz Probst Anita",
+    "phone": "+41622992219",
+    "id": "node/10725911870"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.836244,
+      47.4119465
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10725915346",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An der Gebäudefassade",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Gemeindeverwaltung Hohenrain",
+    "opening_hours": "24/7",
+    "id": "node/10725915346"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3277243,
+      47.1651396
     ]
   }
 }
