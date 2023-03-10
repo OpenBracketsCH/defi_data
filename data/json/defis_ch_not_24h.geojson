@@ -67060,11 +67060,10 @@
   "id": "node/8978083217",
   "properties": {
     "access": "no",
-    "defibrillator:location": "ARA Obwalden",
+    "defibrillator:location": "ARA Obwalden\nEr stet bei dem eingang bei der Werkstat.",
     "description": "während Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "fixme": "genauer Standort in der ARA muss noch in Erfahrung gebracht werden",
     "indoor": "yes",
     "operator": "ARA Obwalden",
     "id": "node/8978083217"
@@ -67072,8 +67071,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2876045,
-      46.9411207
+      8.2875637,
+      46.9411284
     ]
   }
 },
@@ -126534,6 +126533,30 @@
     "coordinates": [
       7.4186395,
       46.9338659
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10726221605",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Restaurant Älplibahn",
+    "description": "Mitte Mai bis Mitte November (während Betrieb)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "07:00 bis 18.00 Uhr",
+    "operator": "Älplibahn Malans",
+    "phone": "+41 79 659 18 12",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10726221605"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.58857,
+      47.0125481
     ]
   }
 }
