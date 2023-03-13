@@ -40148,7 +40148,7 @@
   "id": "node/10725992705",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Neuwiesenstrasse 62, rechts neben den öffentlichen WC-Anlagen",
+    "defibrillator:location": "Friedhofsgebäude, rechts neben den öffentlichen WC-Anlagen",
     "description": "ZOLL AED 3",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -40188,6 +40188,30 @@
     "coordinates": [
       8.8488392,
       47.4185929
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10732509606",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Park Hotel Winterthur, an der Réception",
+    "description": "06.30 - 22.00 Uhr",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-So",
+    "operator": "Hotel",
+    "phone": "+41 52 265 02 65",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10732509606"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7329507,
+      47.5008876
     ]
   }
 }

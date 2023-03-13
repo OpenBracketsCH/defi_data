@@ -50375,27 +50375,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8453219017",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Grundackerweg 81 8965 Berikon",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Medical Team Mutschellen",
-    "phone": "0792410634",
-    "id": "node/8453219017"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.3681123,
-      47.3579394
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8453233096",
   "properties": {
     "access": "no",
@@ -91394,25 +91373,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9631499917",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Saner Apotheke Dornach",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/9631499917"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6105924,
-      47.4892652
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9631521517",
   "properties": {
     "access": "no",
@@ -126583,6 +126543,52 @@
     "coordinates": [
       8.8488392,
       47.4185929
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10732509606",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Park Hotel Winterthur, an der Réception",
+    "description": "06.30 - 22.00 Uhr",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-So",
+    "operator": "Hotel",
+    "phone": "+41 52 265 02 65",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10732509606"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7329507,
+      47.5008876
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10732546105",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Eingang Restaurant",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "opening_hours": "Mo-Do 06:30 - 19:00 Uhr, Fr 06:30 - 15:00",
+    "operator": "BABS",
+    "id": "node/10732546105"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3549509,
+      46.8105527
     ]
   }
 }
