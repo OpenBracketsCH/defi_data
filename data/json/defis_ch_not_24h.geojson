@@ -126968,6 +126968,54 @@
       47.3320091
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/10739319105",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Kraftwerk Augst",
+    "description": "verfügbar wenn KW besetzt",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "UG1",
+    "opening_hours": "Mo-Fr 08:00-16:00",
+    "operator": "Kraftwerk Augst AG",
+    "phone": "+41618168411",
+    "id": "node/10739319105"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7096129,
+      47.5367607
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10739341806",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Zelglihalle",
+    "description": "Erdgeschoss, eingangsbereich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 06:00-12:00+ 13:00-16:00",
+    "operator": "Primarschulgemeinde Münsterlingen",
+    "phone": "+41 71 686 51 28",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10739341806"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2495978,
+      47.6261457
+    ]
+  }
 }
 ]
 }
