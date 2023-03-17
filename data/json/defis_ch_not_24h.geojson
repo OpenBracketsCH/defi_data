@@ -104863,10 +104863,12 @@
   "id": "node/9954344115",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Dans le centre clientèle des TL",
     "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "id": "node/9954344115"
   },
   "geometry": {
@@ -127287,6 +127289,27 @@
     "coordinates": [
       9.5076971,
       46.8614872
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10741698857",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Au service client de Manor (2ème étage)",
+    "description": "Pendant les heures d'ouverture",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "2",
+    "operator": "Manor",
+    "id": "node/10741698857"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.6314243,
+      46.5221633
     ]
   }
 }
