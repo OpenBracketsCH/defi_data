@@ -86984,26 +86984,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9530483217",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Bushaltestelle Zeughaus",
-    "description": "Fahrtrichtung Schindellegi",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/9530483217"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.7702282,
-      47.1981633
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9530626434",
   "properties": {
     "emergency": "defibrillator",
@@ -127164,6 +127144,125 @@
     "coordinates": [
       8.5425542,
       47.4161044
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10741170505",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Täfernstrasse 11b",
+    "description": "während Büroanwesensheit verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3.OG",
+    "opening_hours": "Mo-Fr.8.00-17.00Uhr",
+    "operator": "Firma",
+    "id": "node/10741170505"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2943819,
+      47.4494095
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10741174905",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Täfernstrasse 11b",
+    "description": "während Büroarbeitszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3.OG",
+    "opening_hours": "Mo.-Fr. 8.00-17.00Uhr",
+    "operator": "Weber AG",
+    "id": "node/10741174905"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2945973,
+      47.4494781
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10741187405",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Baden-Dättwil Täfenstrasse 11b",
+    "description": "während Büroarbeitszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3.OG",
+    "opening_hours": "Mo-Fr 8.00-17.00Uhr",
+    "operator": "Firma",
+    "phone": "+41564842424",
+    "id": "node/10741187405"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2946817,
+      47.4494626
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10741191805",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Täfernstrasse 11b",
+    "description": "während Büroarbeitszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3.OG",
+    "opening_hours": "Mo-Fr: 8:00-17:00Uhr",
+    "operator": "Firma Weber AG",
+    "phone": "+41564842424",
+    "id": "node/10741191805"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2946081,
+      47.4494678
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10741248105",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Bächlihalle, Buregass 3, 8596 Scherzingen, EG nach Windfang",
+    "description": "Während Schulzeit zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo - Fr 7.00-15.15",
+    "operator": "Primarschule Scherzingen",
+    "phone": "+41716865110",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10741248105"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2504883,
+      47.6191241
     ]
   }
 }
