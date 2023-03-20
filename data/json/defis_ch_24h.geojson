@@ -84026,6 +84026,26 @@
 },
 {
   "type": "Feature",
+  "id": "node/10296642253",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An der Wand",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "wheelchair": "limited",
+    "id": "node/10296642253"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1160064,
+      46.9283028
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10300159909",
   "properties": {
     "access": "yes",
@@ -89546,7 +89566,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Bei Eingang Ralfs Bar",
-    "description": "Treppe runter, frei zugänglich",
+    "description": "Treppe runter, neben dem Brunnen, frei zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -89556,8 +89576,54 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.0428384,
-      47.4645905
+      9.0428747,
+      47.4646092
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10747665873",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Mehrzweckgebäude MZG, Haupteingang (aussen, rechts)",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Tafers",
+    "id": "node/10747665873"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2621116,
+      46.7962734
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10747810306",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Fiteria, Physiotherapie Tom Burri GmbH",
+    "description": "steht draussen. Immer verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Physiotherapiepraxis",
+    "phone": "+41 79 705 21 93",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10747810306"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5839674,
+      46.7893356
     ]
   }
 }

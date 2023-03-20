@@ -2343,15 +2343,19 @@
   "type": "Feature",
   "id": "node/10296642253",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "An der Wand",
     "emergency": "defibrillator",
     "indoor": "no",
+    "opening_hours": "24/7",
+    "wheelchair": "limited",
     "id": "node/10296642253"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.1160044,
-      46.9283044
+      7.1160064,
+      46.9283028
     ]
   }
 },
@@ -2618,6 +2622,28 @@
     "coordinates": [
       6.9191015,
       46.8488077
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10747665873",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Mehrzweckgebäude MZG, Haupteingang (aussen, rechts)",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Tafers",
+    "id": "node/10747665873"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2621116,
+      46.7962734
     ]
   }
 }
