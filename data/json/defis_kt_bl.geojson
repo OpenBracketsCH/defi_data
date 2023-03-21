@@ -4341,6 +4341,54 @@
       47.4157419
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/10751025805",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Geb S Aussenfassade Bachem AG",
+    "description": "immer Zugänglich, im Innenhof",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Bachem AG",
+    "phone": "004158 595 20 21",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10751025805"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7333182,
+      47.4429935
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10751025806",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Geb H Bachem AG Empfang",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 8.00-17.00",
+    "operator": "Bachem AG",
+    "phone": "0041585952021",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10751025806"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7307903,
+      47.4415145
+    ]
+  }
 }
 ]
 }
