@@ -18293,6 +18293,53 @@
       47.0889004
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/10755814105",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "St.Galler Kantonalbank AG - Kundenhalle",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "MO-FR 08:30-11:30, 13:30-17:00",
+    "operator": "St.Galler Kantonalbank AG",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10755814105"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3133419,
+      47.1215675
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10755916705",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Wohn- und Pflegezentrum Wiborada",
+    "description": "Erdgeschoss",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Bernhardzell",
+    "phone": "+41 71 434 6200",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10755916705"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3398562,
+      47.4726362
+    ]
+  }
 }
 ]
 }
