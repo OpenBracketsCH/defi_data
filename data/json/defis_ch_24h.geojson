@@ -2543,27 +2543,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/5533244623",
-  "properties": {
-    "access": "yes",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "opening_hours": "24/7",
-    "wheelchair": "limited",
-    "id": "node/5533244623"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4741666,
-      47.0534057
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/5536021478",
   "properties": {
     "access": "no",
@@ -89872,6 +89851,53 @@
     "coordinates": [
       7.5806415,
       47.551908
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10757581805",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Hotel Cristal",
+    "description": "während Öffnungszeiten erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "Gaststube",
+    "opening_hours": "24/7",
+    "operator": "Ursina Kappeler",
+    "phone": "+41556431045",
+    "id": "node/10757581805"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9906406,
+      46.9388221
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10757586605",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Rehaklinik Zurzach Care",
+    "description": "Während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Zurzach Care",
+    "phone": "+41556535111",
+    "id": "node/10757586605"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9948243,
+      46.9357327
     ]
   }
 }
