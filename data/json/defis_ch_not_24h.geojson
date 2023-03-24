@@ -127712,6 +127712,77 @@
       47.0127146
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/10758110005",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Lagerhalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "opening_hours": "Mo.- Fr. 06.00 - 17.00 Uhr",
+    "phone": "0800864000",
+    "id": "node/10758110005"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4927964,
+      47.4579119
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10758295415",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Winterthur",
+    "description": "Während Öffnungszeiten im Teiledienst verfügbar.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07.15-18.30, Sa 08.00-16.00",
+    "operator": "Firma",
+    "phone": "+41 52 244 77 77",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10758295415"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7607223,
+      47.5103021
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10758295618",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Firma Kellermann.ch ag",
+    "description": "während den Öffnungszeiten verfügbar. meldung am Empfang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "Erdgeschoss",
+    "opening_hours": "08:00-17:00",
+    "operator": "Firma Kellermann",
+    "phone": "0782142765",
+    "id": "node/10758295618"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8365514,
+      47.5674682
+    ]
+  }
 }
 ]
 }

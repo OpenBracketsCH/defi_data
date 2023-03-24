@@ -54918,6 +54918,126 @@
       47.271159
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/10758110005",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Lagerhalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "opening_hours": "Mo.- Fr. 06.00 - 17.00 Uhr",
+    "phone": "0800864000",
+    "id": "node/10758110005"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4927964,
+      47.4579119
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10758295415",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Winterthur",
+    "description": "Während Öffnungszeiten im Teiledienst verfügbar.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07.15-18.30, Sa 08.00-16.00",
+    "operator": "Firma",
+    "phone": "+41 52 244 77 77",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10758295415"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7607223,
+      47.5103021
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10758295618",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Firma Kellermann.ch ag",
+    "description": "während den Öffnungszeiten verfügbar. meldung am Empfang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "Erdgeschoss",
+    "opening_hours": "08:00-17:00",
+    "operator": "Firma Kellermann",
+    "phone": "0782142765",
+    "id": "node/10758295618"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8365514,
+      47.5674682
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10758344306",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Roleto, Chaltenbodenstrasse 4a, Schindellegi",
+    "description": "links vom Roleto Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "-1",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Feusisberg",
+    "phone": "+41554169476",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10758344306"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7256527,
+      47.1684986
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10758350705",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Feuerwehr Depot, Sägereistrasse 3, Schindellegi",
+    "description": "Fahrzeughalle dorfseitig",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Feusisberg",
+    "phone": "+41554169476",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10758350705"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7131533,
+      47.1722038
+    ]
+  }
 }
 ]
 }
