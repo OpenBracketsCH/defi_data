@@ -87052,8 +87052,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5915161,
-      46.6391005
+      8.5916199,
+      46.6390603
     ]
   }
 },
@@ -127783,6 +127783,53 @@
     "coordinates": [
       8.8365514,
       47.5674682
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10760569506",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Industriestrasse 559",
+    "description": "06:30-18:00 Mo-Fr",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "operator": "swisspor AG",
+    "phone": "0566789898",
+    "id": "node/10760569506"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3145931,
+      47.3062399
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10760620605",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Büro Anmeldung",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "Mo - Fr  07.00 - 17.00",
+    "operator": "Axpo Biomasse AG",
+    "phone": "+41 71 952 61 61",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10760620605"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1459036,
+      47.4514644
     ]
   }
 }
