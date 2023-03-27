@@ -11835,20 +11835,21 @@
   "id": "node/10751066307",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Haus GZ ",
+    "defibrillator:location": "Haus GZ",
     "description": "während den Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "Sonntag - Freitag: 08.30 - 17.00 ",
-    "source": "local_knowledge, defikarte.ch",
+    "indoor": "yes",
+    "opening_hours": "Su-Fr 08:30-17:00; Sa 12:00-17:00",
+    "operator": "Stiftung Maniso",
+    "phone": "+41 71 554 55 40",
     "id": "node/10751066307"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.2331183,
-      47.6333219
+      9.2329895,
+      47.6333544
     ]
   }
 },
@@ -12366,30 +12367,6 @@
     "coordinates": [
       9.43408,
       47.51273
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10765236005",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Haus GZ",
-    "description": "während den Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Sonntag - Freitag: 08.30 - 17.00 Samstag 12.00 -17.00 ",
-    "operator": "Stiftung Maniso",
-    "phone": "+4171554 55 40",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/10765236005"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.2329895,
-      47.6333544
     ]
   }
 }
