@@ -46912,6 +46912,49 @@
       47.4995669
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/10765321505",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Halle 14",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/10765321505"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6359956,
+      47.4070938
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10765340805",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Haupteingang",
+    "description": "während Geschäftszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Do 08:00-12:00, 13:00-16:30; Fr 08:00-12:00, 13:00-16:00",
+    "operator": "Firma",
+    "phone": "+41523553355",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10765340805"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6658043,
+      47.4308816
+    ]
+  }
 }
 ]
 }
