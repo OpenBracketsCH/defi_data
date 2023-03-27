@@ -18605,6 +18605,55 @@
       47.11701
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/10765935906",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Auto AG Group, Seiteneingang zu Werkstatt",
+    "description": "währen Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07.00-18.00",
+    "operator": "Auto AG Group, Stationsstrasse 88, 6023 Rothenburg",
+    "phone": "+41 41 289 33 11",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10765935906"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2523417,
+      47.0922003
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10765943209",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Auto AG Rothenburg, Eingang Bushalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Auto AG Group, Stationsstrasse 88, 6023 Rothenburg",
+    "phone": "+41 41 289 33 11",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10765943209"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2514513,
+      47.0913384
+    ]
+  }
 }
 ]
 }

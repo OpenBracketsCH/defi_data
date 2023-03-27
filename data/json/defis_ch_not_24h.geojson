@@ -74213,9 +74213,11 @@
     "access": "yes",
     "addr:city": "Porrentruy",
     "addr:postcode": "2900",
-    "defibrillator:location": "dans la pharmacie",
+    "defibrillator:location": "Dans la pharmacie",
+    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "operator": "Fondation RéaJura Cœur",
     "phone": "+41 79 414 74 11",
     "id": "node/9157256974"
@@ -74235,9 +74237,12 @@
     "access": "yes",
     "addr:city": "Porrentruy",
     "addr:postcode": "2900",
-    "defibrillator:location": "Vers le service clientèle",
+    "defibrillator:location": "Vers le service clientèle de la Migros",
+    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
     "operator": "Fondation RéaJura Cœur",
     "phone": "+41 79 414 74 11",
     "id": "node/9157256975"
@@ -145150,6 +145155,51 @@
     "coordinates": [
       8.6658043,
       47.4308816
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10765933798",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "A l'accueil du fitness",
+    "description": "Pendant les heures d'ouverture",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "1",
+    "id": "node/10765933798"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0772453,
+      47.4163706
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10765935906",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Auto AG Group, Seiteneingang zu Werkstatt",
+    "description": "währen Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07.00-18.00",
+    "operator": "Auto AG Group, Stationsstrasse 88, 6023 Rothenburg",
+    "phone": "+41 41 289 33 11",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10765935906"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2523417,
+      47.0922003
     ]
   }
 }
