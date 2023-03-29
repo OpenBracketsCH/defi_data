@@ -145445,6 +145445,52 @@
       47.3842621
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/10771293006",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Werkstatt",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Firma",
+    "phone": "+41 43 266 37 37",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10771293006"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6432415,
+      47.4284865
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10771317905",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Carrosserie",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "Erdgeschoss",
+    "opening_hours": "Mo. 07.00-18.00, Di.-Do. 07.00-17.00, Fr. 07.00-16.00",
+    "phone": "+41763950909",
+    "id": "node/10771317905"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6432637,
+      47.4284425
+    ]
+  }
 }
 ]
 }
