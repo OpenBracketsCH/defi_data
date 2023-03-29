@@ -37787,8 +37787,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6142044,
-      46.7299755
+      7.6140966,
+      46.7303366
     ]
   }
 },
@@ -48224,6 +48224,54 @@
     "coordinates": [
       7.3646808,
       47.1818084
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10770269605",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Einkaufsladen rechts vor der Tür",
+    "description": "immer Verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "JVA Witzwil",
+    "phone": "+41316356511",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10770269605"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0622349,
+      46.9890207
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10770305505",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Eingangsbereich Landi",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "opening_hours": "Mo-Fr 6:30-20:00\nSa 7:00-20:00\nSo 08:00-20:00",
+    "operator": "Landi",
+    "phone": "+41584343434",
+    "id": "node/10770305505"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1722728,
+      46.7283514
     ]
   }
 }
