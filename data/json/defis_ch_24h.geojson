@@ -73814,21 +73814,21 @@
   "id": "node/9789974717",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Praxis Jenaz",
-    "description": "Im Briefkasten rechts vom Eingang",
+    "defibrillator:location": "praxisjenaz",
+    "description": "Im Milchkasten rechts vom Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Praxis Jenaz",
+    "operator": "praxisjenaz",
     "phone": "+41 813323535",
     "id": "node/9789974717"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.71493,
-      46.9315743
+      9.7149064,
+      46.931649
     ]
   }
 },
@@ -90119,6 +90119,26 @@
 },
 {
   "type": "Feature",
+  "id": "node/10761311792",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Devant l'entrée",
+    "defibrillator:location:en": "Before the entrance",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/10761311792"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.573505,
+      46.5250548
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10763169305",
   "properties": {
     "access": "yes",
@@ -91834,6 +91854,118 @@
     "coordinates": [
       8.4411723,
       47.4378459
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10768439621",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Dans le hall d'entrée de la caserne des pompiers, sonner à l'interphone",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/10768439621"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.6246167,
+      46.52233
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10768506205",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Auto Birrer, Rückseite Autogarage",
+    "description": "öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "phone": "+41 41 926 92 60",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10768506205"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1080288,
+      47.1792885
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10768534305",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Dörrmattweg 9, 5070 Frick",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Alterszentrum Bruggbach",
+    "phone": "+41 62 865 22 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10768534305"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0147088,
+      47.5063669
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10769581905",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Turnhalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "Parterre",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Jenaz",
+    "phone": "0041813321510",
+    "id": "node/10769581905"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.7096784,
+      46.9337123
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10769592905",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Verzweigung Dorfstrasse/Platzgasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "ebenerdig/Strasse",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Jenaz",
+    "phone": "0041813321510",
+    "id": "node/10769592905"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.7149946,
+      46.9286861
     ]
   }
 }

@@ -50993,28 +50993,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10287207409",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Gemeindehaus Unterengstringen",
-    "description": "Stand 26.12.22 ein Zettel „noch nicht im Betrieb“",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "draussen",
-    "operator": "Gemeinde Unterengstringen",
-    "id": "node/10287207409"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4470446,
-      47.4111889
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10289494909",
   "properties": {
     "access": "no",
@@ -61987,6 +61965,30 @@
     "coordinates": [
       8.4411723,
       47.4378459
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10767809405",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Oberwilerstrasse 14, 8444 Henggart",
+    "description": "Aufenthaltsraum ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "Parterre Aufenthaltsraum",
+    "opening_hours": "Mo - Fr 06.00 - 18.00",
+    "operator": "Firma Mökah AG",
+    "phone": "+41523051111",
+    "id": "node/10767809405"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.687475,
+      47.5638775
     ]
   }
 }

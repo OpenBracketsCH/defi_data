@@ -5822,9 +5822,12 @@
   "type": "Feature",
   "id": "node/10761311792",
   "properties": {
-    "defibrillator:location": "Before the entrance.",
+    "access": "yes",
+    "defibrillator:location": "Devant l'entrée",
+    "defibrillator:location:en": "Before the entrance",
     "emergency": "defibrillator",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/10761311792"
   },
   "geometry": {
@@ -6597,6 +6600,108 @@
     "coordinates": [
       6.63648,
       46.51707
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10768424808",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "A l'accueil de la Migros",
+    "description": "Pendant les heures d'ouverture",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "-2",
+    "operator": "Migros",
+    "id": "node/10768424808"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.6277134,
+      46.5223201
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10768439621",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Dans le hall d'entrée de la caserne des pompiers, sonner à l'interphone",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/10768439621"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.6246167,
+      46.52233
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10769491841",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Dans la cage d'escalier au 5ème étage",
+    "description": "Pendant les heures d'ouverture",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "5",
+    "id": "node/10769491841"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.6343501,
+      46.5248829
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10769531663",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vers les caisses de la Migros",
+    "description": "Pendant les heures d'ouverture",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Migros",
+    "id": "node/10769531663"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.6330446,
+      46.5271969
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10769534420",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Entre Cats & Dogs et Hotelplan",
+    "description": "Pendant les heures d'ouverture",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "1",
+    "id": "node/10769534420"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.6277869,
+      46.5224054
     ]
   }
 }
