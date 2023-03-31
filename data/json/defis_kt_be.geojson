@@ -48322,6 +48322,55 @@
       47.0223829
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/10775623105",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hühnerhubelstrasse 60 -> 5. Stock ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "5",
+    "opening_hours": "Mo-FR: 08.00 Uhr bis 17.00 Uhr",
+    "operator": "Unternehmen: Arthrex Swiss AG",
+    "phone": "+41 79 533 88 96",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10775623105"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4958783,
+      46.9041534
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10775751805",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Verkaufsladen JVA Witzwil, recht neben Eingang",
+    "description": "Aussen angebracht, 24/7 verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "1",
+    "opening_hours": "24/7",
+    "operator": "Justizvollzugsanstalt Witzwil",
+    "phone": "+41 31 635 65 11",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10775751805"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0622081,
+      46.9890244
+    ]
+  }
 }
 ]
 }

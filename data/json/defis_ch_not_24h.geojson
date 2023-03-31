@@ -145579,6 +145579,76 @@
       46.6763151
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/10775567289",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben dem Enzian Cafébar",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "TMC Fashion Square AG",
+    "phone": "+41 43 211 59 20",
+    "wheelchair": "limited",
+    "id": "node/10775567289"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5583307,
+      47.4239197
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10775623105",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hühnerhubelstrasse 60 -> 5. Stock ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "5",
+    "opening_hours": "Mo-FR: 08.00 Uhr bis 17.00 Uhr",
+    "operator": "Unternehmen: Arthrex Swiss AG",
+    "phone": "+41 79 533 88 96",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10775623105"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4958783,
+      46.9041534
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10775784505",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Tellistrasse 4; Haeny-Gebäude",
+    "description": "Schulöffnungszeiten 07:00-18:00 / Mo- Fr ohne Schulferien",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo. - Fr. 07:00 - 18:00 Uhr",
+    "operator": "Alte Kantonsschule Aarau",
+    "phone": "+41 62 834 67 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10775784505"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0511307,
+      47.39474
+    ]
+  }
 }
 ]
 }
