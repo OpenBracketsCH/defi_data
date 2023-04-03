@@ -92393,6 +92393,53 @@
       46.8681428
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/10781764305",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "neben Salle Communale",
+    "description": "in Telefonzelle an Strasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "aussen",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Cheserex",
+    "id": "node/10781764305"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.1719809,
+      46.4008385
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10781765406",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "9444 Diepoldsau, Hohenemserstrasse 1",
+    "description": "in der Selbstbedienungszone beim Bankeingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "St.Galler Kantonalbank AG",
+    "phone": "+41 71 231 39 41",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10781765406"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.6563494,
+      47.3851374
+    ]
+  }
 }
 ]
 }
