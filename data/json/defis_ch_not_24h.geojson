@@ -68922,9 +68922,11 @@
   "type": "Feature",
   "id": "node/9028509003",
   "properties": {
-    "defibrillator:location": "out side",
+    "access": "yes",
+    "defibrillator:location": "out side, bei Haupteingang Gemeindehaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "operator": "energia alpina",
     "id": "node/9028509003"
   },
   "geometry": {
@@ -146619,6 +146621,30 @@
     "coordinates": [
       9.419961,
       47.048502
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10781340905",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "9450 Altstätten, Trogenerstrasse 2",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "MO-FR 09:00 - 12:00 Uhr, 14:00 - 16:30 Uhr",
+    "operator": "St.Galler Kantonalbank AG",
+    "phone": "+41 71 231 36 62",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10781340905"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5413524,
+      47.378523
     ]
   }
 }
