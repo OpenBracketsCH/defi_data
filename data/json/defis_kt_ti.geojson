@@ -144,6 +144,7 @@
   "properties": {
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "id": "node/3111033506"
   },
   "geometry": {
@@ -4990,6 +4991,22 @@
     "coordinates": [
       9.02453,
       46.19269
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10781555065",
+  "properties": {
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/10781555065"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9173241,
+      45.9820003
     ]
   }
 }
