@@ -42634,29 +42634,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8557952979",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Aussenwand beim Eingang",
-    "description": "24h verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Gemeindeverwaltung Urdorf",
-    "phone": "+41 44 736 51 11",
-    "id": "node/8557952979"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4272073,
-      47.3863876
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8558161017",
   "properties": {
     "access": "yes",
@@ -92792,6 +92769,30 @@
     "coordinates": [
       7.1641558,
       46.6191176
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10794988405",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussen am Gebäude (südwestliche Ecke)",
+    "description": "Grüne alarmgesicherte Box",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "EG",
+    "opening_hours": "24/7",
+    "operator": "FRD / Feuerwehr",
+    "phone": "+41797494660",
+    "id": "node/10794988405"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8742842,
+      47.6456319
     ]
   }
 }
