@@ -27,6 +27,32 @@
 },
 {
   "type": "Feature",
+  "id": "node/1836827140",
+  "properties": {
+    "access": "yes",
+    "crossing": "uncontrolled",
+    "crossing_ref": "zebra",
+    "defibrillator:location": "Eingang Bürogebäude Zürichsee Zeitung / Gessner Immobilien AG",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "highway": "crossing",
+    "indoor": "yes",
+    "opening_hours": "Mo-Sa 06:45-19:00",
+    "operator": "Gessner Immobilien AG",
+    "phone": "+41 44 789 86 40",
+    "id": "node/1836827140"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6691409,
+      47.2310729
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/2450774413",
   "properties": {
     "emergency": "defibrillator",
@@ -16048,29 +16074,6 @@
     "coordinates": [
       8.6750564,
       47.2289327
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8577563907",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Eingang Bürogebäude Zürichsee Zeitung / Gessner Immobilien AG",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Sa 06:45-19:00",
-    "operator": "Gessner Immobilien AG",
-    "phone": "+41 44 789 86 40",
-    "id": "node/8577563907"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6691409,
-      47.2310729
     ]
   }
 },
@@ -44381,8 +44384,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.68631,
-      47.22012
+      8.6863663,
+      47.2201264
     ]
   }
 },
