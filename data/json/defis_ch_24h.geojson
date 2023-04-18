@@ -57106,26 +57106,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9117254417",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Kindergarten neben Eingang",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "id": "node/9117254417"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.1516701,
-      46.8742742
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9119292851",
   "properties": {
     "access": "yes",
@@ -93736,6 +93716,30 @@
     "coordinates": [
       7.1742815,
       46.8933256
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10822026005",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Pfarreisaal St. Anton",
+    "description": "Vor dem Haupteingang an der Wand rechts",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "UG",
+    "opening_hours": "24/7",
+    "operator": "Kath. Kirchgemeinde Luzern",
+    "phone": "+41412299900",
+    "id": "node/10822026005"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3227394,
+      47.0399008
     ]
   }
 }
