@@ -57999,14 +57999,14 @@
   "id": "node/9152026617",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Wohn- und Bürotentrum Reinach (WBZ)",
+    "defibrillator:location": "Wohn- und Bürozentrum Reinach (WBZ)",
     "description": "aussen an der Fassade angebracht",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Wohn- und Bürotentrum Reinach (WBZ)",
-    "phone": "0617557777",
+    "operator": "Wohn- und Bürozentrum Reinach (WBZ)",
+    "phone": "+41 61 755 77 77",
     "id": "node/9152026617"
   },
   "geometry": {
@@ -93884,6 +93884,29 @@
     "coordinates": [
       8.5426855,
       47.0555892
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10827290405",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Alterszentrum, Stockenstrasse 130 A- Eingang Spitex Zimmerberg- Praxis Schlossberg",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Alterszentrum Hochweid, Sara Tomaschett Geschäftsleitung",
+    "phone": "+41 44 716 36 36",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10827290405"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5409582,
+      47.3191886
     ]
   }
 }
