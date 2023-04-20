@@ -148261,6 +148261,55 @@
       47.175668
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/10826420805",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Tennisclub, neben Eingang Clubhaus",
+    "description": "Abgeschlossenes Gittertor, Mitglieder haben Schlüssel.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "operator": "Tennisclub Obersiggenthal",
+    "phone": "+41 56 282 43 37",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10826420805"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2808751,
+      47.4866357
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10826426305",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Gebäude",
+    "description": "Während Büroöffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr: 8:00 - 17:00",
+    "operator": "Firma Nidec Schweiz AG",
+    "phone": "+41 56 201 42 42",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10826426305"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2507807,
+      47.4587806
+    ]
+  }
 }
 ]
 }
