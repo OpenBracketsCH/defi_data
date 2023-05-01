@@ -491,12 +491,12 @@
   "properties": {
     "access": "no",
     "defibrillator:location": "Polizei Posten",
-    "description": "Während Oeffungszeiten Verfügbar ",
+    "description": "Während Oeffungszeiten Verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo.-Fr.09:00-18:30\nSA.      09:00-17:00",
-    "operator": "Polizei ",
+    "opening_hours": "Mo-Fr 09:00-18:30; Sa 09:00-17:00",
+    "operator": "Polizei",
     "id": "node/8995975918"
   },
   "geometry": {
@@ -642,12 +642,12 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Stücki Center direkt bei Migros Kundendienst",
-    "description": "während Oeffungszeiten ",
+    "description": "während Oeffungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo.–Fr. 09:00–19:00  Sa.09:00 –18:00",
-    "operator": "Migros ",
+    "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-18:00",
+    "operator": "Migros",
     "id": "node/9131353518"
   },
   "geometry": {
@@ -1289,7 +1289,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "opening_hours": "Mo.-Fr. 8:00-17:30 Uhr",
+    "opening_hours": "Mo-Fr 08:00-17:30",
     "operator": "dasteam ag",
     "phone": "+41 61 278 99 99",
     "source": "local_knowledge, defikarte.ch",
@@ -1423,7 +1423,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "5",
-    "opening_hours": "Mo-Fr 08.00 - 18.00",
+    "opening_hours": "Mo-Fr 08:00-18:00",
     "operator": "MIGX GmbH",
     "phone": "+41797376491",
     "id": "node/10734407914"
@@ -2008,7 +2008,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "opening_hours": "Mo. bis Fr. 07.30-12.00, 13.00-16.30",
+    "opening_hours": "Mo-Fr 07:30-12:00,13:00-16:30",
     "operator": "Firma E.KALT AG",
     "phone": "0613063636",
     "id": "node/10766467905"

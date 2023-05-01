@@ -85,7 +85,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "\n05.00-23.55 ",
+    "opening_hours": "05:00-23:55",
     "operator": "Braunwaldbahn Standseilbahn AG",
     "phone": "+41556535030",
     "id": "node/8713917717"
@@ -392,7 +392,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "08:00 - 17:00h",
+    "opening_hours": "08:00-17:00",
     "operator": "Berghotel Bischofalp",
     "id": "node/9579985417"
   },
@@ -459,7 +459,7 @@
     "emergency:phone": "144",
     "fixme": "genauer Standort?",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr: 08.00-12.00, 14.00-18.00",
+    "opening_hours": "Mo-Fr 08:00-12:00,14:00-18:00",
     "operator": "Arztpraxis",
     "phone": "0556406363",
     "id": "node/9695774317"
@@ -695,7 +695,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 07:30-12:00  13:30-17:00",
+    "opening_hours": "Mo-Fr 07:30-12:00,13:30-17:00",
     "operator": "Militär und Zivilschutz Kanton Glarus",
     "phone": "+41 55 646 68 50",
     "source": "local_knowledge, defikarte.ch",
@@ -720,7 +720,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "opening_hours": "8-17",
+    "opening_hours": "08:00-17:00",
     "operator": "www.mettmen-alp.ch",
     "phone": "+41556442010",
     "id": "node/10611370805"
@@ -834,11 +834,10 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Sportzentrum Kerenzerberg",
-    "description": "während Öffnungszeiten verfügbar ",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7 06:30 - 22:00",
     "operator": "Sportzentrum Kerenzerberg",
     "phone": "+41 55 614 17 17",
     "source": "local_knowledge, defikarte.ch",

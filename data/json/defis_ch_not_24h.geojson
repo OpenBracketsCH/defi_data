@@ -3501,7 +3501,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "level": "0",
-    "opening_hours": "Mo-Fr 08:00-19:00 / Sa 08:00 - 17:00",
+    "opening_hours": "Mo-Fr 08:00-19:00; Sa 08:00-17:00",
     "id": "node/5103296769"
   },
   "geometry": {
@@ -7385,10 +7385,10 @@
     "addr:city": "Guttannen",
     "addr:postcode": "3864",
     "addr:street": "Grimselpassstrasse",
-    "defibrillator:location": "Hotel Handeck: Hausecke Talseite in Aussenkasten\nVerfügbar Juni - Oktober!",
+    "defibrillator:location": "Hotel Handeck: Hausecke Talseite in Aussenkasten Verfügbar Juni - Oktober!",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "24/7 (Juni bis Oktober)",
+    "opening_hours": "Jun-Oct",
     "operator": "Kraftwerke Oberhasli AG (KWO)",
     "phone": "+41 33 982 29 11",
     "id": "node/6564797303"
@@ -25191,27 +25191,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637818431",
-  "properties": {
-    "defibrillator:location": "Auf der Hafen Seite neben dem Eingang, Jugendbüro/ Hafenmeister",
-    "description": "Aussenanlage",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Stationsgebäude",
-    "opening_hours": "24h / 7 Tage",
-    "operator": "Politische Gemeinde Stansstad",
-    "id": "node/7637818431"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.3362957,
-      46.9804914
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637818432",
   "properties": {
     "description": "Anfang Mai bis Ende September",
@@ -34224,13 +34203,13 @@
   "type": "Feature",
   "id": "node/7637819094",
   "properties": {
-    "defibrillator:location": "Gesundheitszentrum Buttisholz\nArigstrasse 17, 6018 Buttisholz",
+    "defibrillator:location": "Gesundheitszentrum Buttisholz Arigstrasse 17, 6018 Buttisholz",
     "description": "Arztpraxis",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "Xundheitszentrum Buttisholz",
-    "opening_hours": "Mo-Mi + Fr 07:30-12:00, 14:00-18:00 | Do 07:30-12:00",
+    "opening_hours": "Mo-We,Fr 07:30-12:00,14:00-18:00; Th 07:30-12:00",
     "operator": "Xundheitszentrum Buttisholz",
     "phone": "+41 41 929 69 29",
     "id": "node/7637819094"
@@ -39475,7 +39454,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 08.30 - 12.00 / 14.00 - 16.30 Uhr",
+    "opening_hours": "Mo-Fr 08:30-12:00,14:00-16:30",
     "operator": "Zürcher Kantonalbank",
     "id": "node/7819540979"
   },
@@ -50167,7 +50146,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr: 08:00-12:00\nMo-Fr: 13:30-17:00\n",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:30-17:00",
     "operator": "Jumbo-Markt AG",
     "phone": "+41448056111",
     "id": "node/8446920417"
@@ -53305,7 +53284,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-So 08:00 - 21:00",
+    "opening_hours": "Mo-Su 08:00-21:00",
     "operator": "Permanence Notfallpraxis",
     "phone": "+41552201450",
     "id": "node/8558333617"
@@ -54779,7 +54758,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "\n7-22",
+    "opening_hours": "07:00-22:00",
     "operator": "Schule Merenschwand",
     "id": "node/8563845217"
   },
@@ -54801,7 +54780,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "7-22",
+    "opening_hours": "07:00-22:00",
     "id": "node/8563854917"
   },
   "geometry": {
@@ -56170,7 +56149,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr: 08-17",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "BBZ Grenchen",
     "phone": "+41326532727",
     "id": "node/8582376625"
@@ -59061,7 +59040,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "\n05.00-23.55 ",
+    "opening_hours": "05:00-23:55",
     "operator": "Braunwaldbahn Standseilbahn AG",
     "phone": "+41556535030",
     "id": "node/8713917717"
@@ -63266,7 +63245,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 9-20; Sa 9-18",
+    "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-18:00",
     "id": "node/8847807517"
   },
   "geometry": {
@@ -63701,12 +63680,12 @@
   "id": "node/8860506417",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Einkaufszentrum Sonnenhof, 8640 Rapperswil ",
+    "defibrillator:location": "Einkaufszentrum Sonnenhof, 8640 Rapperswil",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo.- Fr. 08:00 - 20:00\nSa. 08:00 - 18:00",
+    "opening_hours": "Mo-Fr 08:00-20:00; Sa 08:00-18:00",
     "id": "node/8860506417"
   },
   "geometry": {
@@ -64583,12 +64562,12 @@
   "id": "node/8887207417",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Migros Brunaupark 8045 Zürich ",
-    "description": "während Öffnungszeiten verfügbar ",
+    "defibrillator:location": "Migros Brunaupark 8045 Zürich",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo - Sa 08:00 bis 20:00",
+    "opening_hours": "Mo-Sa 08:00-20:00",
     "id": "node/8887207417"
   },
   "geometry": {
@@ -65284,7 +65263,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 8-16",
+    "opening_hours": "Mo-Fr 08:00-16:00",
     "operator": "Schule",
     "id": "node/8914690217"
   },
@@ -67034,7 +67013,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr: 08:00-12:00 13:30-17:00",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:30-17:00",
     "phone": "+41313202727",
     "id": "node/8979429617"
   },
@@ -67940,12 +67919,12 @@
   "properties": {
     "access": "no",
     "defibrillator:location": "Polizei Posten",
-    "description": "Während Oeffungszeiten Verfügbar ",
+    "description": "Während Oeffungszeiten Verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo.-Fr.09:00-18:30\nSA.      09:00-17:00",
-    "operator": "Polizei ",
+    "opening_hours": "Mo-Fr 09:00-18:30; Sa 09:00-17:00",
+    "operator": "Polizei",
     "id": "node/8995975918"
   },
   "geometry": {
@@ -68009,7 +67988,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "08.00-18.00",
+    "opening_hours": "08:00-18:00",
     "operator": "Gemeinde",
     "phone": "0625306820",
     "id": "node/8996685818"
@@ -68134,12 +68113,12 @@
   "id": "node/8998955517",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Tennis center Grien ",
-    "description": "Während Oeffungszeiten Verfügbar ",
+    "defibrillator:location": "Tennis center Grien",
+    "description": "Während Oeffungszeiten Verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo.-Fr 08:30-23:00\nSa.-So 09:00-19:00",
+    "opening_hours": "Mo-Fr 08:30-23:00; Sa-Su 09:00-19:00",
     "operator": "Tennis Center Ergolz",
     "id": "node/8998955517"
   },
@@ -68228,7 +68207,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo.–Fr. 08:00–19:00\nSa. 08:00–18:00",
+    "opening_hours": "Mo-Fr 08:00-19:00; Sa 08:00-18:00",
     "operator": "Migros",
     "id": "node/9001674917"
   },
@@ -68267,12 +68246,12 @@
   "id": "node/9004540917",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bei Kundendienst Eingang Links ",
+    "defibrillator:location": "Bei Kundendienst Eingang Links",
     "description": "während oeffungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo.–Fr. 08:00–19:00 Sa. 07:30–18:00",
+    "opening_hours": "Mo-Fr 08:00-19:00; Sa 07:30-18:00",
     "operator": "Migros",
     "id": "node/9004540917"
   },
@@ -68355,7 +68334,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Beach opening hours / Badöffnungszeiten",
     "operator": "Strandbad Moossee",
     "wheelchair": "limited",
     "id": "node/9006290768"
@@ -68968,7 +68946,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr: 08:00-12:00 13:30-17:00",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:30-17:00",
     "operator": "Büchi AG",
     "phone": "+41449055111",
     "id": "node/9034189817"
@@ -69637,7 +69615,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "3. Obergeschoss",
-    "opening_hours": "24h für Mitarbeiter Informatik Aargau",
     "operator": "Informatik Aargau",
     "phone": "+41 62 835 10 09",
     "ref": "Informatik Aargau 3. OG",
@@ -69662,7 +69639,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "2. Obergeschoss",
-    "opening_hours": "24h für Mitarbeiter Informatik Aargau",
     "operator": "Informatik Aargau",
     "phone": "+41 62 835 10 09",
     "ref": "Informatik Aargau 2. OG",
@@ -70725,7 +70701,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-12:00 / 13:30-17:00",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:30-17:00",
     "operator": "Bezirksgericht Baden",
     "phone": "+41 56 200 13 13",
     "id": "node/9045229727"
@@ -70946,7 +70922,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo 0800-1130,1400-1700; Tu 0800-1130,1400-1800; We 0800-1130; Th 0800-1130,1400-1700; Fr 0800-1500",
+    "opening_hours": "Mo 08:00-11:30,14:00-17:00; Tu 08:00-11:30,14:00-18:00; We 08:00-11:30; Th 08:00-11:30,14:00-17:00; Fr 08:00-15:00",
     "operator": "Gemeinde Oberentfelden",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229737"
@@ -71145,7 +71121,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00 - 12:00 / 13:00 - 17:00",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:00-17:00",
     "operator": "Empfang DFR",
     "phone": "+41 62 835 24 24",
     "id": "node/9045229747"
@@ -71770,13 +71746,13 @@
   "id": "node/9076913317",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Prodega Pratteln ",
+    "defibrillator:location": "Prodega Pratteln",
     "description": "Beim Bistro",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo.-Mi. 07:00-18:00\nDo.         07:00-20:00\nSa.          07:00-16:00",
-    "operator": "Prodega Pratteln ",
+    "opening_hours": "Mo-We 07:00-18:00; Th 07:00-20:00; Sa 07:00-16:00",
+    "operator": "Prodega Pratteln",
     "id": "node/9076913317"
   },
   "geometry": {
@@ -73021,12 +72997,12 @@
   "properties": {
     "access": "no",
     "defibrillator:location": "Amag Liestal Reception Eingang Rechts",
-    "description": "Während Oeffungszeiten Verfügbar! ",
+    "description": "Während Oeffungszeiten Verfügbar!",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "MO. - Fr. 08:15-12:00 13:30-18:30 Sa:09:00-16:00",
-    "operator": "Amag Liestal ",
+    "opening_hours": "Mo-Fr 08:15-12:00,13:30-18:30; Sa 09:00-16:00",
+    "operator": "Amag Liestal",
     "id": "node/9115890817"
   },
   "geometry": {
@@ -73379,12 +73355,12 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Stücki Center direkt bei Migros Kundendienst",
-    "description": "während Oeffungszeiten ",
+    "description": "während Oeffungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo.–Fr. 09:00–19:00  Sa.09:00 –18:00",
-    "operator": "Migros ",
+    "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-18:00",
+    "operator": "Migros",
     "id": "node/9131353518"
   },
   "geometry": {
@@ -75217,7 +75193,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo - Fr. 17.30 - 21.30",
+    "opening_hours": "Mo-Fr 17:30-21:30",
     "operator": "FC Dulliken",
     "phone": "+41794434462",
     "id": "node/9169730417"
@@ -76598,7 +76574,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr. 07:00-16:30",
+    "opening_hours": "Mo-Fr 07:00-16:30",
     "operator": "SWARCO SCHWEIZ AG",
     "id": "node/9217034117"
   },
@@ -77443,7 +77419,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo - Do: 07:30 - 12:00 13:00 - 17:30 \nFr: 07:30 - 12:00 13:00 - 17:00\n",
+    "opening_hours": "Mo-Th 07:30-12:00,13:00-17:30; Fr 07:30-12:00,13:00-17:00",
     "operator": "die Mobiliar Versicherung, Generalagentur Lyss",
     "phone": "+41323874545",
     "id": "node/9249220117"
@@ -78086,7 +78062,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Do 07:00-17:00; Fr 07:00-16:00",
+    "opening_hours": "Mo-Th 07:00-17:00; Fr 07:00-16:00",
     "operator": "Almeva AG /Thomas Inauen",
     "phone": "+41 71 644 90 27",
     "id": "node/9277252204"
@@ -78900,7 +78876,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "So-Do 08:00 - 00:00",
+    "opening_hours": "Su-Th 08:00-24:00",
     "operator": "McDonalds",
     "phone": "062 797 76 76",
     "id": "node/9287925217"
@@ -79077,7 +79053,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "06.00 - 20.00",
+    "opening_hours": "06:00-20:00",
     "operator": "Volks- und Sportbad Gitterli AG",
     "id": "node/9302010617"
   },
@@ -79163,7 +79139,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 8-17",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "EnDes Engineering und Design AG",
     "phone": "+41718582181",
     "id": "node/9306652820"
@@ -80570,7 +80546,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "7-20",
+    "opening_hours": "07:00-20:00",
     "operator": "Berit Klinik",
     "phone": "+41713350606",
     "id": "node/9329074717"
@@ -83694,7 +83670,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mi-Fr 06:00-22:00",
+    "opening_hours": "We-Fr 06:00-22:00",
     "operator": "Corden Pharma AG",
     "phone": "+41619065944",
     "id": "node/9410650617"
@@ -86721,7 +86697,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "MO. - Fr. 08:15-12:00 13:30-18:30 Sa :09:00-16:00",
+    "opening_hours": "Mo-Fr 08:15-12:00,13:30-18:30; Sa 09:00-16:00",
     "operator": "AMAG Liestal",
     "id": "node/9524918532"
   },
@@ -88006,11 +87982,11 @@
   "properties": {
     "access": "no",
     "defibrillator:location": "Wildischachenstrasse 32, 5200 Brugg",
-    "description": "während Öffnungszeiten, in der Produktion ",
+    "description": "während Öffnungszeiten, in der Produktion",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr. 05:00-17:00 Uhr",
+    "opening_hours": "Mo-Fr 05:00-17:00",
     "operator": "bardusch ag",
     "phone": "0594600400",
     "id": "node/9544948517"
@@ -88272,7 +88248,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 07:00 - 12:00 & 13:00 - 17:00",
+    "opening_hours": "Mo-Fr 07:00-12:00,13:00-17:00",
     "operator": "Daetwyler-Graphics AG",
     "phone": "+41 62 767 75 75",
     "id": "node/9553533017"
@@ -88680,7 +88656,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr: 06.45 bis 17.00",
+    "opening_hours": "Mo-Fr 06:45-17:00",
     "operator": "m. renold ag",
     "phone": "+41628890220",
     "id": "node/9554266317"
@@ -88703,7 +88679,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo. - Sa. 7 - 20 Uhr\nSo. 8 - 13 Uhr",
+    "opening_hours": "Mo-Sa 07:00-20:00; Su 08:00-13:00",
     "operator": "Waldegg Center",
     "id": "node/9556061017"
   },
@@ -88988,27 +88964,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9574983617",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Maschwanden, Dorfstrasse 24;Gerbi",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24h / 7 Tage",
-    "operator": "Gemeinde Maschwanden",
-    "id": "node/9574983617"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4230035,
-      47.2339863
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9574996217",
   "properties": {
     "access": "no",
@@ -89061,7 +89016,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "08:00 - 17:00h",
+    "opening_hours": "08:00-17:00",
     "operator": "Berghotel Bischofalp",
     "id": "node/9579985417"
   },
@@ -90506,12 +90461,12 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Glutz AG, 3. Stock",
-    "description": "Während Öffnungszeiten ",
+    "description": "Während Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Do: 7:30-17:00, Fr: 7:30-16:00",
-    "operator": "Glutz AG ",
+    "opening_hours": "Mo-Th 07:30-17:00, Fr 07:30-16:00",
+    "operator": "Glutz AG",
     "id": "node/9611083117"
   },
   "geometry": {
@@ -90671,7 +90626,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-12:15 13:30-16:30",
+    "opening_hours": "Mo-Fr 08:00-12:15,13:30-16:30",
     "operator": "Gemeinde",
     "id": "node/9624515017"
   },
@@ -91184,7 +91139,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 07:00-19:00 h",
+    "opening_hours": "Mo-Fr 07:00-19:00",
     "phone": "+41 61 751 34 54",
     "id": "node/9631521517"
   },
@@ -91263,11 +91218,11 @@
   "properties": {
     "access": "no",
     "defibrillator:location": "Herblinger Str. 52",
-    "description": "während der Öffnungszeiten ",
+    "description": "während der Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "opening_hours": "8.00-18.00",
+    "opening_hours": "08:00-18:00",
     "operator": "Arztpraxis",
     "phone": "0526432370",
     "id": "node/9647830617"
@@ -92000,7 +91955,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr: 08:30-12:00\nMo-Fr: 13:30-16:30",
+    "opening_hours": "Mo-Fr 08:30-12:00,13:30-16:30",
     "operator": "TKB",
     "id": "node/9654828117"
   },
@@ -92830,7 +92785,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 9:00 bis 16:00h",
+    "opening_hours": "Mo-Fr 09:00-16:00",
     "operator": "Abbott AG",
     "phone": "+41417684333",
     "id": "node/9684491181"
@@ -93282,7 +93237,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo. - Fr. von 07:00 bis 18:00",
+    "opening_hours": "Mo-Fr 07:00-18:00",
     "operator": "Schule",
     "phone": "+41 44 783 11 11",
     "id": "node/9695220317"
@@ -93326,7 +93281,7 @@
     "emergency:phone": "144",
     "fixme": "genauer Standort?",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr: 08.00-12.00, 14.00-18.00",
+    "opening_hours": "Mo-Fr 08:00-12:00,14:00-18:00",
     "operator": "Arztpraxis",
     "phone": "0556406363",
     "id": "node/9695774317"
@@ -94152,7 +94107,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "opening_hours": "7.00-22.00",
+    "opening_hours": "07:00-22:00",
     "id": "node/9723239017"
   },
   "geometry": {
@@ -94780,7 +94735,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 08.00 - 16.00",
+    "opening_hours": "Mo-Fr 08:00-16:00",
     "operator": "Firma Düring AG",
     "phone": "+41448472747",
     "id": "node/9732775417"
@@ -96016,7 +95971,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr. 06:00 - 20:00",
+    "opening_hours": "Mo-Fr 06:00-20:00",
     "phone": "0848642442",
     "id": "node/9781542517"
   },
@@ -96950,7 +96905,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "opening_hours": "Mo-Fr 0800-1200, 1300-1700 Uhr",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:00-17:00",
     "operator": "KELSAG",
     "phone": "+41 61 775 10 10",
     "id": "node/9807840549"
@@ -97596,7 +97551,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr. 07:00Uhr-17:00Uhr",
+    "opening_hours": "Mo-Fr 07:00-17:00",
     "operator": "Axians Schweiz AG",
     "id": "node/9841424217"
   },
@@ -97705,7 +97660,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo.-Fr. 07:00-23:00 Sa. 08:00-20:00 So. 07:00-13:00",
+    "opening_hours": "Mo-Fr 07:00-23:00; Sa 08:00-20:00; Su 07:00-13:00",
     "operator": "schule",
     "phone": "+41 44 823 1051",
     "id": "node/9845778317"
@@ -97872,7 +97827,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fri 7:00-18:00",
+    "opening_hours": "Mo-Fr 07:00-18:00",
     "operator": "Schule Lerbermatt",
     "id": "node/9850388017"
   },
@@ -98016,7 +97971,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo.-Fr. 07:00-17:00 Uhr",
+    "opening_hours": "Mo-Fr 07:00-17:00",
     "operator": "Axians Schweiz AG",
     "id": "node/9855670018"
   },
@@ -99164,7 +99119,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 08.00-13.00 & 16.00-20.00",
+    "opening_hours": "Mo-Fr 08:00-13:00,16:00-20:00",
     "operator": "Moveo Fitness",
     "phone": "+41562100101",
     "id": "node/9884530917"
@@ -104558,7 +104513,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Dienstag-Freitag\n09:00 - 12:00\n13:30 - 16:30\n\nMontag\ngeschlossen",
+    "opening_hours": "Tu-Fr 09:00-12:00,13:30-16:30",
     "operator": "Raiffeisenbank",
     "phone": "+41714471111",
     "id": "node/9946742418"
@@ -104854,11 +104809,11 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Beim Eingang Turnhalle EG links",
-    "description": "Nur Tagsüber Montag-Freitag\n",
+    "description": "Nur Tagsüber Montag-Freitag",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 07.30-17.30",
+    "opening_hours": "Mo-Fr 07:30-17:30",
     "operator": "Schule Gaiserwald",
     "id": "node/9960132417"
   },
@@ -104879,7 +104834,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 07.00-19.00",
+    "opening_hours": "Mo-Fr 07:00-19:00",
     "operator": "Schule Gaiserwald",
     "id": "node/9960132419"
   },
@@ -104900,7 +104855,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 07.30-18.00",
+    "opening_hours": "Mo-Fr 07:30-18:00",
     "operator": "Schule Gaiserwald",
     "id": "node/9960139017"
   },
@@ -105465,7 +105420,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-17:00, 12:00-13:00 geschlossen",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:00-17:00",
     "operator": "Habegger AG",
     "id": "node/9978425217"
   },
@@ -106287,7 +106242,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo.-Fr. 07:00-17:00 Uhr",
+    "opening_hours": "Mo-Fr 07:00-17:00",
     "operator": "Axians Schweiz AG",
     "id": "node/10004186317"
   },
@@ -106369,11 +106324,11 @@
   "properties": {
     "access": "no",
     "defibrillator:location": "Im Schörli 5, 3. OG",
-    "description": "während Öffnungszeiten verfügbar ",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr.: 08:00-17:00",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Omni Ray AG",
     "phone": "+41448022880",
     "id": "node/10005937117"
@@ -106604,11 +106559,11 @@
   "properties": {
     "access": "no",
     "defibrillator:location": "IMM Massage",
-    "description": "während Öffnungszeiten verfügbar ",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "8:00-20.:00",
+    "opening_hours": "08:00-20:00",
     "operator": "IMM Massagen",
     "phone": "+41 43 444 10 15",
     "id": "node/10009116117"
@@ -106668,11 +106623,11 @@
   "id": "node/10011203919",
   "properties": {
     "access": "no",
-    "defibrillator:location": "BKW Zentrallager Luterbach ",
+    "defibrillator:location": "BKW Zentrallager Luterbach",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr. 07:00 - 17:00",
+    "opening_hours": "Mo-Fr 07:00-17:00",
     "operator": "BKW Energie AG",
     "id": "node/10011203919"
   },
@@ -107581,11 +107536,11 @@
   "properties": {
     "access": "no",
     "defibrillator:location": "Medela AG",
-    "description": "während Öffnungszeiten verfügbar ",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 08.00-17.00",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Privatunternehmen",
     "phone": "+4141 562 51 51",
     "id": "node/10024785518"
@@ -107667,11 +107622,11 @@
   "properties": {
     "access": "no",
     "defibrillator:location": "WAS IV-Stelle, 3.Stock - RAD",
-    "description": "während der Öffnungszeiten ",
+    "description": "während der Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr: 8:00-12:00, 13:00-17.00",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:00-17:00",
     "operator": "IV",
     "phone": "+41412090455",
     "id": "node/10026347117"
@@ -108281,7 +108236,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Di bis Fr 8.00-12.00 & 13.30-18.00 Sa 9.00-16.00",
+    "opening_hours": "Tu-Fr 08:00-12:00,13:30-18:00; Sa 09:00-16:00",
     "operator": "Firma hostettler moto ag",
     "phone": "0552505800",
     "id": "node/10050384317"
@@ -108520,7 +108475,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo - So: ab 16:00 - 22:00",
+    "opening_hours": "Mo-Su 16:00-22:00",
     "operator": "Gemeinde Gaiseewald",
     "phone": "0792147440",
     "id": "node/10063079417"
@@ -108834,7 +108789,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 07:00-12:00 13:00-17:00",
+    "opening_hours": "Mo-Fr 07:00-12:00,13:00-17:00",
     "operator": "Geschäftlich",
     "phone": "0713132323",
     "id": "node/10079206817"
@@ -109177,7 +109132,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr: 08:00-12:00 & 13:30-17:00",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:30-17:00",
     "operator": "Quickline AG",
     "phone": "+41 32 559 99 99",
     "id": "node/10087147017"
@@ -109371,7 +109326,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr: 08.00 - 17.00",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "id": "node/10106119517"
   },
   "geometry": {
@@ -110203,7 +110158,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo. - Fr. 08:00 - 17:00",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "ProteQ GmbH",
     "phone": "+41525113000",
     "id": "node/10118296819"
@@ -110319,7 +110274,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 08.00-18.00",
+    "opening_hours": "Mo-Fr 08:00-18:00",
     "operator": "Privatfirma",
     "phone": "+41313324110",
     "id": "node/10118886917"
@@ -110695,7 +110650,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 07.00 - 17.00",
+    "opening_hours": "Mo-Fr 07:00-17:00",
     "operator": "Komax",
     "phone": "+41414550455",
     "id": "node/10130376417"
@@ -111328,7 +111283,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "MO-Fr 7.00 bis 17.00",
+    "opening_hours": "Mo-Fr 07:00-17:00",
     "operator": "Firma",
     "phone": "0433334646",
     "id": "node/10161574917"
@@ -111459,7 +111414,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "opening_hours": "Mo-Fr:\n08:00-12:00\n13:00-17:00\n",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:00-17:00",
     "operator": "Toggenburger AG",
     "id": "node/10169490017"
   },
@@ -111710,7 +111665,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 8:00 bis 16:30",
+    "opening_hours": "Mo-Fr 08:00-16:30",
     "operator": "Firma",
     "phone": "+41791260646",
     "id": "node/10171520317"
@@ -113411,7 +113366,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 08:30-11:30 13:30-16:00",
+    "opening_hours": "Mo-Fr 08:30-11:30,13:30-16:00",
     "operator": "Amt für Militär und Bevölkerungsschutz",
     "phone": "+41615527201",
     "id": "node/10228001118"
@@ -113747,7 +113702,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 07.00-16.00",
+    "opening_hours": "Mo-Fr 07:00-16:00",
     "operator": "Müller Martini",
     "phone": "0627454545",
     "id": "node/10236251509"
@@ -114934,7 +114889,7 @@
     "defibrillator:location": "2. OG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "Mo-Fr 08:00-12:00, 14:00-18:00, Do+Sa 08:00-12:00",
+    "opening_hours": "Mo-Fr 08:00-12:00,14:00-18:00, Th,Sa 08:00-12:00",
     "operator": "Praxis Dr. Beck",
     "phone": "+41 71 688 41 61",
     "id": "node/10240188680"
@@ -115059,7 +115014,7 @@
     "defibrillator:location": "1. OG. im Korridor, beim Eingang zum Betreuungsdienst",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "Mo 09:00-11:30, 14:00-16:00, Di+Fr 09:00-11:30, Mi 14:00-16:00, Mo 09:00-11:30, 14:00-16:00,",
+    "opening_hours": "Mo 09:00-11:30,14:00-16:00, Tu,Fr 09:00-11:30, We 14:00-16:00",
     "operator": "Haus Sallmann",
     "phone": "+41 71 677 63 70",
     "id": "node/10240188686"
@@ -116846,7 +116801,6 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Öffnungszeiten Bäder Aadorf",
     "operator": "Bäder Aadorf",
     "phone": "+41 79 662 20 80;+41 52 368 48 50",
     "id": "node/10240188816"
@@ -117617,7 +117571,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo. - Fr. 7.30 - 17.30",
+    "opening_hours": "Mo-Fr 07:30-17:30",
     "operator": "Müssig AG",
     "phone": "0714140244",
     "id": "node/10249632709"
@@ -117641,7 +117595,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Samstag 07:00–11:00 Sonntag 07:00–11:00 Montag 08:00–17:00 Dienstag 08:00–17:00 Mittwoch 08:00–17:00 Donnerstag 08:00–17:00 Freitag 08:00–17:00",
+    "opening_hours": "Mo-Fr 08:00-17:00; Sa-Su 07:00-11:00",
     "operator": "TCS",
     "phone": "058 827 15 00",
     "id": "node/10250604509"
@@ -117750,7 +117704,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "8-17",
+    "opening_hours": "08:00-17:00",
     "operator": "Firma",
     "phone": "0628371515",
     "id": "node/10255273409"
@@ -117817,7 +117771,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "2",
-    "opening_hours": "Mo - Fr 08.00-12.00 13.00-17.00",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:00-17:00",
     "operator": "Sky-Frame AG",
     "phone": "+41793058857",
     "id": "node/10255882009"
@@ -118061,7 +118015,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 08.00 bis 17.30",
+    "opening_hours": "Mo-Fr 08:00-17:30",
     "phone": "061 925 70 70",
     "id": "node/10264346609"
   },
@@ -118194,7 +118148,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo.-Fr. 07:45-16:45",
+    "opening_hours": "Mo-Fr 07:45-16:45",
     "operator": "Sulser Group",
     "phone": "+41 79 956 59 08",
     "id": "node/10269241909"
@@ -118504,7 +118458,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr: 07.00 - 20.00",
+    "opening_hours": "Mo-Fr 07:00-20:00",
     "operator": "Privatperson",
     "phone": "079 204 93 08",
     "id": "node/10278144409"
@@ -118786,7 +118740,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "opening_hours": "Mo.-Fr. 8:00-17:30 Uhr",
+    "opening_hours": "Mo-Fr 08:00-17:30",
     "operator": "dasteam ag",
     "phone": "+41 61 278 99 99",
     "source": "local_knowledge, defikarte.ch",
@@ -119131,7 +119085,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo. - Fr. 07.00 Uhr - 17.00 Uhr",
+    "opening_hours": "Mo-Fr 07:00-17:00",
     "operator": "Firma",
     "phone": "+41 58 458 75 17",
     "source": "local_knowledge, defikarte.ch",
@@ -119282,7 +119236,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 7.15-17.00",
+    "opening_hours": "Mo-Fr 07:15-17:00",
     "operator": "Schule Spreitenbach",
     "id": "node/10315286109"
   },
@@ -119923,7 +119877,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 07:30-12:00  13:30-17:00",
+    "opening_hours": "Mo-Fr 07:30-12:00,13:30-17:00",
     "operator": "Militär und Zivilschutz Kanton Glarus",
     "phone": "+41 55 646 68 50",
     "source": "local_knowledge, defikarte.ch",
@@ -120173,7 +120127,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo - Fr 8.00 - 21.00h Sa - So 8.00 - 17.00h",
+    "opening_hours": "Mo-Fr 08:00-21:00; Sa-Su 08:00-17:00",
     "phone": "+41712985225",
     "id": "node/10560159409"
   },
@@ -120307,7 +120261,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Do 07:30-12:00 + 13:00-17:15 + Fr 07:30-12:00 + 13:00-16:00",
+    "opening_hours": "Mo-Th 07:30-12:00,13:00-17:15; Fr 07:30-12:00,13:00-16:00",
     "operator": "Tal Garage Leisinger",
     "phone": "+41619618674",
     "source": "local_knowledge, defikarte.ch",
@@ -120447,7 +120401,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "3",
-    "opening_hours": "Mo-Fr 8.00-17.00",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Socar Energy",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10565068109"
@@ -120847,7 +120801,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "opening_hours": "Mo-Fr: 07.00 - 19.00",
+    "opening_hours": "Mo-Fr 07:00-19:00",
     "operator": "Allane Schweiz AG",
     "phone": "+41 44 8178151",
     "source": "local_knowledge, defikarte.ch",
@@ -121055,12 +121009,12 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Mooswiesstrasse 67, Eingang Spedition",
-    "description": "Während Öffnungszeiten verfügbar\n(beim Speditions-Büro melden)",
+    "description": "Während Öffnungszeiten verfügbar (beim Speditions-Büro melden)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 7:00 h - 16:30 h",
+    "opening_hours": "Mo-Fr 07:00-16:30",
     "operator": "HakaGerodur AG",
     "phone": "+41713889494",
     "id": "node/10580141541"
@@ -121168,7 +121122,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "opening_hours": "Mo - Fr. 8.00 - 17.00 Uhr",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Reformierte Kirchgemeinde",
     "phone": "+41 44 783 00 50",
     "source": "local_knowledge, defikarte.ch",
@@ -121728,7 +121682,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "MO-FR: 07.30-18.00",
+    "opening_hours": "Mo-Fr 07:30-18:00",
     "operator": "Privatperson",
     "phone": "+41313324110",
     "id": "node/10591151805"
@@ -121836,7 +121790,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "rez de chaussée",
-    "opening_hours": "Mo-Fr: 7:30-12:00 13:15-17:00",
+    "opening_hours": "Mo-Fr 07:30-12:00,13:15-17:00",
     "operator": "privé",
     "phone": "+41793783299",
     "id": "node/10593493505"
@@ -121977,7 +121931,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "opening_hours": "Mo-Fr: 07:30-12:00 13:00-17:00",
+    "opening_hours": "Mo-Fr 07:30-12:00,13:00-17:00",
     "operator": "Weishaupt AG",
     "phone": "+41447492929",
     "id": "node/10598939205"
@@ -122000,7 +121954,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo. bis Fr. 9:00 bis 22:00 Uhr, Sa. und So. 9:00 bis 18:00 Uhr",
+    "opening_hours": "Mo-Fr 09:00-22:00; Sa-Su 09:00-18:00",
     "operator": "Gemeinde",
     "phone": "+41627714161",
     "source": "local_knowledge, defikarte.ch",
@@ -122199,7 +122153,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "08.00 - 17.00",
+    "opening_hours": "08:00-17:00",
     "operator": "medi-lan ag",
     "phone": "+41 41 748 52 00",
     "source": "local_knowledge, defikarte.ch",
@@ -122223,7 +122177,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Do: 07:30 - 12:00 & 13:00 - 17:00 Fr: 07:30-12:00 & 13:00 - 16:30 Uhr",
+    "opening_hours": "Mo-Th 07:30-12:00,13:00-17:00; Fr 07:30-12:00,13:00-16:30",
     "phone": "+41717571414",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10603585806"
@@ -122380,7 +122334,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr: 08.00-16.30",
+    "opening_hours": "Mo-Fr 08:00-16:30",
     "id": "node/10607791207"
   },
   "geometry": {
@@ -122541,7 +122495,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "opening_hours": "8-17",
+    "opening_hours": "08:00-17:00",
     "operator": "www.mettmen-alp.ch",
     "phone": "+41556442010",
     "id": "node/10611370805"
@@ -122588,7 +122542,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 08.00-17.00",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Rudolf Wirz Strassen- und Tiefbau AG",
     "phone": "+41619219900",
     "source": "local_knowledge, defikarte.ch",
@@ -122763,7 +122717,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo. - Fr. 7.30 - 21.30, Sa. So. 9.00 - 20.30",
+    "opening_hours": "Mo-Fr 07:30-21:30; Sa-Su 09:00-20:30",
     "operator": "Verein",
     "phone": "+41 71 353 95 10",
     "source": "local_knowledge, defikarte.ch",
@@ -122786,7 +122740,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo. - Fr. 7.30 - 21.30, Sa. So. 9.00 - 20.30",
+    "opening_hours": "Mo-Fr 07:30-21:30; Sa-Su 09:00-20:30",
     "operator": "Verein",
     "phone": "+41 71 353 95 20",
     "source": "local_knowledge, defikarte.ch",
@@ -122809,7 +122763,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo. - Do. 8.00 - 16.00",
+    "opening_hours": "Mo-Th 08:00-16:00",
     "operator": "Verein",
     "phone": "+41 71 353 95 75",
     "source": "local_knowledge, defikarte.ch",
@@ -122833,7 +122787,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "opening_hours": "Mo. - Fr. 7.30 - 21.30, Sa. So. 9.00 - 20.30",
+    "opening_hours": "Mo-Fr 07:30-21:30; Sa-Su 09:00-20:30",
     "operator": "Verein",
     "phone": "+41 71 353 95 40",
     "source": "local_knowledge, defikarte.ch",
@@ -122978,7 +122932,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Sa. 07:00-19:00",
+    "opening_hours": "Mo-Sa 07:00-19:00",
     "operator": "Bauhaus AG",
     "phone": "+41584003400",
     "id": "node/10617991108"
@@ -123052,7 +123006,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo: 07.00-20.00, Di: 07.00-18.00, Mi: 07.00-20.00, Do: 07.00-18.00, Fr: 07.00-18.00",
+    "opening_hours": "Mo 07:00-20:00, Tu 07:00-18:00, We 07:00-20:00, Th-Fr 07:00-18:00",
     "operator": "Privatperson",
     "phone": "+41617637000",
     "source": "local_knowledge, defikarte.ch",
@@ -123215,7 +123169,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "2",
-    "opening_hours": "Mo-Fr: 7:30-12:00 and 13:00-17:00",
+    "opening_hours": "Mo-Fr 07:30-12:00,13:00-17:00",
     "operator": "Private Company",
     "phone": "+41 61 204 08 00",
     "source": "local_knowledge, defikarte.ch",
@@ -123825,7 +123779,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 09:00-12:00 14:00-16:30",
+    "opening_hours": "Mo-Fr 09:00-12:00,14:00-16:30",
     "operator": "ZKB/Gemeinde",
     "id": "node/10658300406"
   },
@@ -124191,7 +124145,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo. - Fr. 07.00 - 18.00 Uhr, Sa. 09.00 - 13.00 Uhr",
+    "opening_hours": "Mo-Fr 07:00-18:00; Sa 09:00-13:00",
     "operator": "Firma",
     "phone": "0041447626080",
     "id": "node/10675979905"
@@ -124301,7 +124255,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr: 07:00 - 17.00",
+    "opening_hours": "Mo-Fr 07:00-17:00",
     "operator": "Nüssli (Schweiz) AG",
     "phone": "+41 52 748 22 11",
     "source": "local_knowledge, defikarte.ch",
@@ -124412,7 +124366,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr. 07:30-18:00",
+    "opening_hours": "Mo-Fr 07:30-18:00",
     "operator": "Firma Bruker",
     "phone": "+41 44 825 91 11",
     "id": "node/10685438905"
@@ -124436,7 +124390,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 08.00 - 17.00",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Primarschule Oberembrach",
     "phone": "+41 79 652 98 23",
     "source": "local_knowledge, defikarte.ch",
@@ -124619,7 +124573,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo. - Fr. 08:00 bis 17:30 Uhr",
+    "opening_hours": "Mo-Fr 08:00-17:30",
     "operator": "VPBank (Schweiz) AG",
     "phone": "+41 44 226 24 24",
     "source": "local_knowledge, defikarte.ch",
@@ -124668,7 +124622,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "opening_hours": "Mo - Fr 7.30 - 18.00",
+    "opening_hours": "Mo-Fr 07:30-18:00",
     "operator": "Praxis Gonten",
     "phone": "0717941388",
     "id": "node/10693243505"
@@ -124824,7 +124778,7 @@
     "defibrillator:location": "24/7 von Juni bis Okt. verfügbar im Berghaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "24/7 (Juni bis Oktober)",
+    "opening_hours": "Jun-Oct",
     "operator": "Kraftwerke Oberhasli AG (KWO)",
     "phone": "+41 33 982 29 11",
     "id": "node/10699972903"
@@ -124892,7 +124846,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo & Do: 8.00 - 20.00, Di, Mi & Fr: 8.00 - 12.00 & 13.00 - 17.00",
+    "opening_hours": "Mo-Th 08:00-20:00; Tu,We,Fr 08:00-12:00,13:00-17:00",
     "operator": "ARGODENTIS Zahnmedizin Frick, Dr. Sascha Ruggli",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10701969905"
@@ -124939,7 +124893,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo & Mi: 8.00 - 12.00 & 14.00 - 18.00, Di & Fr: 8.00 - 12.00, Do: 14.00 - 18.00, Sa: 9.00 - 12.00",
+    "opening_hours": "Mo,We 08:00-12:00,14:00-18:00; Tu,Fr 08:00-12:00, Th 14:00-18:00, Sa 09:00-12:00",
     "operator": "Hausärzte GmbH Frick AG, Dr. med. Ch. Simonett",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10702011805"
@@ -124983,7 +124937,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "opening_hours": "Mo-Fr: 7.30-12.00 & 13.30-17.00",
+    "opening_hours": "Mo-Fr 07:30-12:00,13:30-17:00",
     "operator": "Studer K. AG",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10702089106"
@@ -125006,7 +124960,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr: 7.30-12.00 & 13.00-17.00",
+    "opening_hours": "Mo-Fr 07:30-12:00,13:00-17:00",
     "operator": "Stahlton Bauteile AG, Werk 3",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10702151905"
@@ -125029,7 +124983,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr: 7.30-12.00 & 13.00-17.00",
+    "opening_hours": "Mo-Fr 07:30-12:00,13:00-17:00",
     "operator": "Stahlton Bauteile AG, Werk 1",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10702168405"
@@ -125140,7 +125094,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr: 8.00-22.00, Sa: 8.00-17.00",
+    "opening_hours": "Mo-Fr 08:00-22:00, Sa 08:00-17:00",
     "operator": "PIAZZA Cafe&Bistro",
     "phone": "+41 62 871 62 90",
     "source": "local_knowledge, defikarte.ch",
@@ -125165,7 +125119,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "opening_hours": "Mo-Fr: 9.00-12.00 & 13.00-17.00, Sa: 9.00-12.00",
+    "opening_hours": "Mo-Fr 09:00-12:00,13:00-17:00; Sa 09:00-12:00",
     "operator": "Raiffeisenbank Regio Frick-Mettauertal",
     "phone": "+41 62 865 44 44",
     "source": "local_knowledge, defikarte.ch",
@@ -125189,7 +125143,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr: 9.00-13.00 & 17.00-22.00, Sa: 9.00-13.00",
+    "opening_hours": "Mo-Fr 09:00-13:00,17:00-22:00; Sa 09:00-13:00",
     "operator": "INFINITY Fitness GmbH",
     "phone": "+41 62 535 53 16",
     "source": "local_knowledge, defikarte.ch",
@@ -125213,7 +125167,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Do: 8.30-12.00 & 13.00-17.00 & Fr: 8.30-12.00 & 13.00-16.00",
+    "opening_hours": "Mo-Th 08:30-12:00,13:00-17:00; Fr 08:30-12:00,13:00-16:00",
     "operator": "FiBL - Forschungsinstitut für biologischen Landbau",
     "phone": "+41 62 865 72 72",
     "source": "local_knowledge, defikarte.ch",
@@ -125237,7 +125191,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Do: 8.30-12.00 & 13.00-17.00, Fr: 8.30-12.00 & 13.00-16.00",
+    "opening_hours": "Mo-Th 08:30-12:00,13:00-17:00; Fr 08:30-12:00,13:00-16:00",
     "operator": "FiBL - Forschungsinstitut für biologischen Landbau",
     "phone": "+41 62 865 72 72",
     "source": "local_knowledge, defikarte.ch",
@@ -125261,7 +125215,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr: 8.00-12.00 & 13.00-17.00",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:00-17:00",
     "operator": "Fachärztehaus Frick",
     "phone": "+41 62 835 64 95",
     "source": "local_knowledge, defikarte.ch",
@@ -125285,7 +125239,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr: 8.00-12.00 & 13.00-17.00",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:00-17:00",
     "operator": "Fachärztehaus Frick",
     "phone": "+41 62 835 64 95",
     "source": "local_knowledge, defikarte.ch",
@@ -125423,7 +125377,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr: 8.00-12.00 & Mo, Di, Mi, Fr: 13.30-17.00",
+    "opening_hours": "Mo-Fr 08:00-12:00, Mo-We,Fr 13:30-17:00",
     "operator": "Frau Dr. Martin, Praxis im Zentrum",
     "phone": "+41 62 871 40 61",
     "source": "local_knowledge, defikarte.ch",
@@ -125447,7 +125401,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr: 7.00-12.00 & 13.00-16.30",
+    "opening_hours": "Mo-Fr 07:00-12:00,13:00-16:30",
     "operator": "Jakob Müller AG",
     "phone": "+41 62 865 51 11",
     "source": "local_knowledge, defikarte.ch",
@@ -125471,7 +125425,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr: 8.00-21.30, Sa-So: 9.00-15.00",
+    "opening_hours": "Mo-Fr 08:00-21:30, Sa-Su 09:00-15:00",
     "operator": "life swiss health club",
     "phone": "+41 62 875 95 95",
     "source": "local_knowledge, defikarte.ch",
@@ -125495,7 +125449,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Do: 7.15-12.00 & 13.00-17.00, Fr: 7.15-12.00 & 13.00-15.45",
+    "opening_hours": "Mo-Th 07:15-12:00,13:00-17:00; Fr 07:15-12:00,13:00-15:45",
     "operator": "baubedarf",
     "phone": "+41 62 865 70 80",
     "source": "local_knowledge, defikarte.ch",
@@ -125536,7 +125490,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr: 09.00-16.00",
+    "opening_hours": "Mo-Fr 09:00-16:00",
     "operator": "Stiftung Lebenshilfe",
     "phone": "+41 62 765 76 76",
     "source": "local_knowledge, defikarte.ch",
@@ -125724,7 +125678,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "opening_hours": "Mo-Fr: 8.00 - 17.00",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "private company",
     "phone": "+4144 316 17 17",
     "source": "local_knowledge, defikarte.ch",
@@ -125771,7 +125725,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr: 8:00-21.00, Sa-So: 8:00-18.30",
+    "opening_hours": "Mo-Fr 08:00-21:00, Sa-Su 08:00-18:30",
     "operator": "Tesquash AG",
     "phone": "+41 62 751 21 10",
     "source": "local_knowledge, defikarte.ch",
@@ -125965,7 +125919,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo.-Fr.: 08:00 - 12:00 Uhr und 13:00 bis 17:00 Uhr",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:00-17:00",
     "operator": "Firma",
     "phone": "+41 43 344 61 31",
     "source": "local_knowledge, defikarte.ch",
@@ -126078,7 +126032,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 07.30 - 12.00",
+    "opening_hours": "Mo-Fr 07:30-12:00",
     "operator": "Stadt Schaffhausen/Stadtpolizei",
     "phone": "+41 52 632 57 49",
     "source": "local_knowledge, defikarte.ch",
@@ -126119,7 +126073,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo bis Fr: 07:00-12:00 13:00-17:00",
+    "opening_hours": "Mo-Fr 07:00-12:00,13:00-17:00",
     "operator": "Emil Egger AG",
     "phone": "+41 71 282 52 22",
     "source": "local_knowledge, defikarte.ch",
@@ -126187,7 +126141,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr: 08.00 - 18.00",
+    "opening_hours": "Mo-Fr 08:00-18:00",
     "operator": "Medizinisches Zentrum Chrummbächli",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10725468706"
@@ -126296,7 +126250,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-So",
+    "opening_hours": "Mo-Su",
     "operator": "Hotel",
     "phone": "+41 52 265 02 65",
     "source": "local_knowledge, defikarte.ch",
@@ -126455,7 +126409,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "5",
-    "opening_hours": "Mo-Fr 08.00 - 18.00",
+    "opening_hours": "Mo-Fr 08:00-18:00",
     "operator": "MIGX GmbH",
     "phone": "+41797376491",
     "id": "node/10734407914"
@@ -126640,7 +126594,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "opening_hours": "Mai: 07.30-19.30, Juni-August: 07.30-20.00, September 07.30-19.30",
+    "opening_hours": "May 07:30-19:30; Jun-Aug 07:30-20:00, Sep 07:30-19:30",
     "operator": "Gemeinde Villmergen",
     "phone": "+41 56 619 59 40",
     "source": "local_knowledge, defikarte.ch",
@@ -126783,7 +126737,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 06:00-12:00+ 13:00-16:00",
+    "opening_hours": "Mo-Fr 06:00-12:00,13:00-16:00",
     "operator": "Primarschulgemeinde Münsterlingen",
     "phone": "+41 71 686 51 28",
     "source": "local_knowledge, defikarte.ch",
@@ -126806,7 +126760,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo - Fr  07.00 - 17.00",
+    "opening_hours": "Mo-Fr 07:00-17:00",
     "operator": "Axpo Biomasse",
     "phone": "+41 44 945 08 65",
     "source": "local_knowledge, defikarte.ch",
@@ -126956,7 +126910,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "3",
-    "opening_hours": "Mo-Fr.8.00-17.00Uhr",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Firma",
     "id": "node/10741170505"
   },
@@ -126979,7 +126933,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "3",
-    "opening_hours": "Mo.-Fr. 8.00-17.00Uhr",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Weber AG",
     "id": "node/10741174905"
   },
@@ -127050,7 +127004,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "opening_hours": "Mo - Fr 7.00-15.15",
+    "opening_hours": "Mo-Fr 07:00-15:15",
     "operator": "Primarschule Scherzingen",
     "phone": "+41716865110",
     "source": "local_knowledge, defikarte.ch",
@@ -127386,7 +127340,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr: 06.00 - 18.00; Sa: 09.00 - 13.00",
+    "opening_hours": "Mo-Fr 06:00-18:00; Sa 09:00-13:00",
     "operator": "Inter Comestibles 87 AG",
     "phone": "+41 44 274 10 10",
     "source": "local_knowledge, defikarte.ch",
@@ -127410,7 +127364,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 8.00-17.00",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Bachem AG",
     "phone": "0041585952021",
     "source": "local_knowledge, defikarte.ch",
@@ -127435,8 +127389,8 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "07.00 -21.00",
-    "operator": "Stiftung Maniso ",
+    "opening_hours": "07:00-21:00",
+    "operator": "Stiftung Maniso",
     "phone": "+4171554 55 40",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10751066305"
@@ -127482,7 +127436,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "07.00 -21.00",
+    "opening_hours": "07:00-21:00",
     "operator": "Stiftung Maniso",
     "phone": "+4171554 55 40",
     "source": "local_knowledge, defikarte.ch",
@@ -127507,7 +127461,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 7:00-12:00 13:00-16:00",
+    "opening_hours": "Mo-Fr 07:00-12:00,13:00-16:00",
     "operator": "Gemeinde Buchs",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10752506305"
@@ -127598,7 +127552,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo.- Fr. 06.00 - 17.00 Uhr",
+    "opening_hours": "Mo-Fr 06:00-17:00",
     "phone": "0800864000",
     "id": "node/10758110005"
   },
@@ -127621,7 +127575,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 07.15-18.30, Sa 08.00-16.00",
+    "opening_hours": "Mo-Fr 07:15-18:30, Sa 08:00-16:00",
     "operator": "Firma",
     "phone": "+41 52 244 77 77",
     "source": "local_knowledge, defikarte.ch",
@@ -127692,7 +127646,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "opening_hours": "Mo - Fr  07.00 - 17.00",
+    "opening_hours": "Mo-Fr 07:00-17:00",
     "operator": "Axpo Biomasse AG",
     "phone": "+41 71 952 61 61",
     "source": "local_knowledge, defikarte.ch",
@@ -145685,7 +145639,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "-1",
-    "opening_hours": "Mo-So: 07:00 - 22:00",
+    "opening_hours": "Mo-Su 07:00-22:00",
     "operator": "Bahnhof Apotheke",
     "id": "node/10763872205"
   },
@@ -145775,7 +145729,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Do 08:00-12:00, 13:00-16:30; Fr 08:00-12:00, 13:00-16:00",
+    "opening_hours": "Mo-Th 08:00-12:00,13:00-16:30; Fr 08:00-12:00,13:00-16:00",
     "operator": "ALMAT AG",
     "phone": "+41523553355",
     "source": "local_knowledge, defikarte.ch",
@@ -145821,7 +145775,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 07.00-18.00",
+    "opening_hours": "Mo-Fr 07:00-18:00",
     "operator": "Auto AG Group, Stationsstrasse 88, 6023 Rothenburg",
     "phone": "+41 41 289 33 11",
     "source": "local_knowledge, defikarte.ch",
@@ -145868,7 +145822,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "opening_hours": "Mo. bis Fr. 07.30-12.00, 13.00-16.30",
+    "opening_hours": "Mo-Fr 07:30-12:00,13:00-16:30",
     "operator": "Firma E.KALT AG",
     "phone": "0613063636",
     "id": "node/10766467905"
@@ -145891,7 +145845,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo - Fr 06.00 - 18.00",
+    "opening_hours": "Mo-Fr 06:00-18:00",
     "operator": "Firma Mökah AG",
     "phone": "+41523051111",
     "id": "node/10767809405"
@@ -146154,7 +146108,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo. 07.00-18.00, Di.-Do. 07.00-17.00, Fr. 07.00-16.00",
+    "opening_hours": "Mo 07:00-18:00, Tu-Th 07:00-17:00; Fr 07:00-16:00",
     "phone": "+41763950909",
     "id": "node/10771317905"
   },
@@ -146195,7 +146149,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
-    "opening_hours": "Mo - Fr 06:15 bis 17:30",
+    "opening_hours": "Mo-Fr 06:15-17:30",
     "operator": "Kanton Bern",
     "phone": "+41788535808",
     "id": "node/10772826005"
@@ -146311,7 +146265,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo. - Fr. 07:00 - 18:00 Uhr",
+    "opening_hours": "Mo-Fr 07:00-18:00",
     "operator": "Alte Kantonsschule Aarau",
     "phone": "+41 62 834 67 00",
     "source": "local_knowledge, defikarte.ch",
@@ -146396,7 +146350,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr: 07.30-17.00",
+    "opening_hours": "Mo-Fr 07:30-17:00",
     "operator": "Zimmer Switzerland Manufacturing GmbH",
     "phone": "+41 58 854 80 00",
     "source": "local_knowledge, defikarte.ch",
@@ -146420,7 +146374,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Sa: 05.00-22.30",
+    "opening_hours": "Mo-Sa 05:00-22:30",
     "operator": "Zimmer Switzerland Manufacturing GmbH",
     "phone": "+41 58 854 80 00",
     "source": "local_knowledge, defikarte.ch",
@@ -146440,11 +146394,10 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Sportzentrum Kerenzerberg",
-    "description": "während Öffnungszeiten verfügbar ",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7 06:30 - 22:00",
     "operator": "Sportzentrum Kerenzerberg",
     "phone": "+41 55 614 17 17",
     "source": "local_knowledge, defikarte.ch",
@@ -147606,7 +147559,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-So: 06:00-20:00",
+    "opening_hours": "Mo-Su 06:00-20:00",
     "id": "node/10792337805"
   },
   "geometry": {
@@ -147774,7 +147727,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-FR 7:30-12:00 13:00-17:00",
+    "opening_hours": "Mo-Fr 07:30-12:00,13:00-17:00",
     "operator": "Riedo Clima AG",
     "phone": "0264922424",
     "id": "node/10798871905"
@@ -148091,7 +148044,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "MO-FR: 8:00-12:00 13:00-17:00",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:00-17:00",
     "operator": "ConSol - Berufliche Perspektiven",
     "phone": "+41 41 766 48 00",
     "source": "local_knowledge, defikarte.ch",
@@ -148136,7 +148089,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo - Freitag 07.00 - 17.00",
+    "opening_hours": "Mo-Fr 07:00-17:00",
     "operator": "Firma",
     "phone": "+41 44 770 18 30",
     "source": "local_knowledge, defikarte.ch",
@@ -148210,7 +148163,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
-    "opening_hours": "Mo-Fr 8.00-18.00",
+    "opening_hours": "Mo-Fr 08:00-18:00",
     "operator": "Kinderkrippe Zwirbelhus e. V.",
     "phone": "055 440 27 26",
     "id": "node/10826078505"
@@ -148328,7 +148281,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mai bis September 10:00 Uhr bis 19:00Uhr",
+    "opening_hours": "May-Sep 10:00-19:00",
     "operator": "Schwimmbadkommision",
     "phone": "+41 52 376 13 00",
     "id": "node/10827783905"
@@ -148375,7 +148328,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo bis Fr 08:00 - 17:00",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Vögtlin Instruments GmbH",
     "phone": "+41 61 756 63 00",
     "source": "local_knowledge, defikarte.ch",
@@ -148465,7 +148418,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr:  08:00-12:00  13:30-17:00",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:30-17:00",
     "operator": "Lista AG",
     "phone": "+41716492299",
     "source": "local_knowledge, defikarte.ch",
@@ -148634,7 +148587,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 8:00-12:00 + 13:30 - 17:00",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:30-17:00",
     "operator": "Gemeinde Zurzach",
     "phone": "+41562697111",
     "source": "local_knowledge, defikarte.ch",
@@ -148699,7 +148652,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 08.00-20.00",
+    "opening_hours": "Mo-Fr 08:00-20:00",
     "phone": "+41525336640",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10841571505"
@@ -148820,7 +148773,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 07:30-11:30 13:30 -16:30",
+    "opening_hours": "Mo-Fr 07:30-11:30,13:30-16:30",
     "operator": "Rauscher und Stoecklin AG",
     "phone": "+41619763481",
     "source": "local_knowledge, defikarte.ch",
