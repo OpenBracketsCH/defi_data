@@ -11223,12 +11223,12 @@
   "id": "node/10287125709",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Feldweg 16, 8374 Dussnang",
+    "defibrillator:location": "linke Seite beim Poolhaus",
     "description": "Vorplatz, links über Gartenplatten, Rasen zum Poolhaus, links an der Aussenwand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "EG linke Seite beim Poolhaus",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Privatperson",
     "phone": "+41797595739",
@@ -11247,12 +11247,12 @@
   "id": "node/10287128726",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Feldweg 16, 8374 Dussnang",
+    "defibrillator:location": "links am Poolhaus",
     "description": "Vorplatz, links über Gartenplatten, Rasen, beim Poolhaus links an Aussenwand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "EG links am Poolhaus",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Privatperson",
     "phone": "+41797595739",
@@ -11271,12 +11271,11 @@
   "id": "node/10287162510",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Fischingerstrasse 73, 8376 Fischingen ",
-    "description": "Vorplatz links vor Haupteingang, zurückversetzt an der Holzwand",
+    "defibrillator:location": "Vorplatz links vor Haupteingang, zurückversetzt an der Holzwand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Vorplatz EG links",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Firma",
     "phone": "+41719771567",
@@ -11317,12 +11316,12 @@
   "id": "node/10314446209",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "welcome Fitness",
-    "description": "während Öffnungszeiten ",
+    "defibrillator:location": "Treppenhaus",
+    "description": "während Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "EG Treppenhaus",
+    "level": "0",
     "operator": "welcome Fit",
     "id": "node/10314446209"
   },
@@ -11410,13 +11409,13 @@
   "id": "node/10578739441",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Coop Novaseta",
+    "defibrillator:location": "bei den Kassen",
     "description": "während Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "EG bei den Kassen ",
-    "opening_hours": "Montag bis Donnerstag:\n08.00-19.00 Uhr\nFreitag\n08.00-20.00 Uhr \nSamstag:\n08.00-18.00 Uhr\n\n\n\n",
+    "level": "0",
+    "opening_hours": "Montag bis Donnerstag: 08.00-19.00 Uhr Freitag 08.00-20.00 Uhr Samstag: 08.00-18.00 Uhr",
     "operator": "Coop",
     "id": "node/10578739441"
   },
@@ -11508,7 +11507,6 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Aussenbereich",
     "operator": "Kradolfer Gipserhandwerk",
     "phone": "+41716263080",
     "id": "node/10669505820"
@@ -11638,29 +11636,6 @@
     "coordinates": [
       8.8977879,
       47.4921964
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10701936905",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Forel Klinik",
-    "description": "Beim Eingang links",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "Gebäude \"Zentrum\" / EG",
-    "opening_hours": "24/7",
-    "operator": "Klinik",
-    "id": "node/10701936905"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.870627,
-      47.5717237
     ]
   }
 },
