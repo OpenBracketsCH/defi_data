@@ -4727,7 +4727,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo: 13:00-19:00\nDi: 07:30-16:00\nMi: 7:30-12:00\nDo: 07:30-16:00\nFr: 07:30-19:00",
+    "opening_hours": "Mo 13:00-19:00; Th 07:30-16:00; We 07:30-12:00; Th 07:30-16:00; Fr 07:30-19:00",
     "operator": "Praxis am Wihelbach GmbH",
     "phone": "+41417117120",
     "id": "node/9269574817"
@@ -5630,7 +5630,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "8.00 - 12.00 und 13.30 - 17.30",
+    "opening_hours": "08:00-12:00,13:30-17:30",
     "phone": "0417487306",
     "id": "node/9880294517"
   },
@@ -5920,10 +5920,10 @@
   "properties": {
     "access": "no",
     "defibrillator:location": "Eingangsbereich",
+    "description": "Schlüssel wird benötigt",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Schlüssel wird benötigt",
     "operator": "Stiftung Eichholz",
     "phone": "+41417486130",
     "source": "local_knowledge, defikarte.ch",
@@ -5994,7 +5994,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "3",
-    "opening_hours": "Mo-Fr: 7-21 Uhr",
+    "opening_hours": "Mo-Fr 07:00-21:00",
     "operator": "OYM AG",
     "phone": "+41 41 269 69 00",
     "id": "node/10597794606"
@@ -6042,7 +6042,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo - Fr: 07:30 - 19:00 Sa: 07:30 - 17:00",
+    "opening_hours": "Mo-Fr 07:30-19:00; Sa 07:30-17:00",
     "operator": "MIGROS Hünenberg",
     "phone": "+41417253250",
     "id": "node/10663387505"
@@ -6620,7 +6620,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Montag -Freitag 08.00h - 11.45h 13.15h - 17.00h",
+    "opening_hours": "Mo-Fr 08:00-11:45,13:15-17:00",
     "operator": "Wabool Produkte AG",
     "phone": "+41417270200",
     "id": "node/10785128806"

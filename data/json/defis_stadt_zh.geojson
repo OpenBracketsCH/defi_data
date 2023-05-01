@@ -5941,11 +5941,11 @@
   "properties": {
     "access": "no",
     "defibrillator:location": "Bildungszentrum für Erwachsene, BiZE",
-    "description": "-Sekretariat KME, E07\n-Lehrerzimmer, 115, USM-Gestell vis à vis Eingangstür\n-Administration EB Zürich, E13: Empfang\n-Turnhallentrakt: Links vor dem Eingang der Turnhalle 1 im Glasbüro",
+    "description": "-Sekretariat KME, E07 -Lehrerzimmer, 115, USM-Gestell vis à vis Eingangstür -Administration EB Zürich, E13: Empfang -Turnhallentrakt: Links vor dem Eingang der Turnhalle 1 im Glasbüro",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr: 06:00-21:00\nSa: 07:00-16:30",
+    "opening_hours": "Mo-Fr 06:00-21:00; Sa 07:00-16:30",
     "operator": "Schule",
     "phone": "+41442661414",
     "id": "node/9808228417"
@@ -6522,7 +6522,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 8:00-18:00, Sa 10:00-16:00, So 11:00-17:00",
+    "opening_hours": "Mo-Fr 08:00-18:00, Sa 10:00-16:00, Su 11:00-17:00",
     "operator": "Reformierte Kirche Stadt Zürich",
     "phone": "+41442506633",
     "id": "node/9952554117"
@@ -6906,12 +6906,12 @@
   "id": "node/10106111417",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Zürcher Kantonalbank, EG ",
+    "defibrillator:location": "Zürcher Kantonalbank, EG",
     "description": "nur während Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-12:30\nMo-Fr 14:00-16:30",
+    "opening_hours": "Mo-Fr 08:00-12:30,14:00-16:30",
     "operator": "Zürcher Kantonalbank",
     "phone": "+41443189166",
     "id": "node/10106111417"
@@ -7995,7 +7995,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Do 07.30 -  21.00 Uhr, Fr-Sa 07.30 - 23.00 Uhr, So 07.30 - 19.00 Uhr",
+    "opening_hours": "Mo-Th 07:30-21:00, Fr-Sa 07:30-23:00; Su 07:30-19:00",
     "operator": "Organisation",
     "phone": "+41443127770",
     "source": "local_knowledge, defikarte.ch",
@@ -10629,7 +10629,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 09:00 - 18:30, Samstag 09:00 - 16:00",
+    "opening_hours": "Mo-Fr 09:00-18:30; Sa 09:00-16:00",
     "operator": "Swisscom",
     "id": "node/10804134407"
   },
