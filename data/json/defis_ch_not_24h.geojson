@@ -52861,21 +52861,23 @@
   "id": "node/8557047437",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bei der Subito Service Station",
+    "defibrillator:location": "Durch den Haupteingang eintreten, links halten und gleich nach Shushi Mania links abbiegen. Der AED befindet sich in der Ecke im Self-Checkout Bereich.",
+    "defibrillator:location:en": "Enter through main entrance, keep left and turn left immediately after Shushi Mania. AED located in corner of self-checkout area.",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Sa 08:00-20:00",
+    "level": "0",
+    "opening_hours": "Mo-Sa 08:00-20:00; PH off",
     "operator": "Genossenschaft Migros Aare",
-    "phone": "058 567 20 50",
+    "phone": "+41 58 567 20 50",
     "id": "node/8557047437"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3242134,
-      47.4670642
+      8.3241488,
+      47.4672903
     ]
   }
 },
@@ -149053,6 +149055,78 @@
     "coordinates": [
       9.2516041,
       47.4176344
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10861704205",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Säntisstrasse 45, 9200 Gossau ",
+    "description": "Im Speisesaal Weiher ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "07.00 - 20.30 Uhr ",
+    "operator": "Stiftung VitaTertia Gossau ",
+    "phone": "+41 71 388 95 55",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10861704205"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2517865,
+      47.4191952
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10861859905",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Mc Donald's da McCafé",
+    "description": "Durante i tempi di apperture",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "Pianterreno",
+    "opening_hours": "Lu - Gio 10:00 - 23:00\nVe - Sa 10:00 - 01:00",
+    "operator": "Mc Donald's",
+    "id": "node/10861859905"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9538361,
+      46.0036909
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10861872105",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bürogebäude Seestrasse 17, Zollikon",
+    "description": "Während Öffnungszeiten zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "Mo-Fr. 8 bis 18 Uhr",
+    "operator": "SPGI Zurich AG",
+    "phone": "+41 44 388 58 48",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10861872105"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5677159,
+      47.3428868
     ]
   }
 }
