@@ -39319,27 +39319,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7819540967",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Sanitätszimmer",
-    "description": "Öffentlich zugänglich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "Mo-Fr 07:30-17:00",
-    "operator": "Gemeinde Richterswil",
-    "id": "node/7819540967"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6871273,
-      47.2045497
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7819540968",
   "properties": {
     "access": "yes",
@@ -39399,27 +39378,6 @@
     "coordinates": [
       8.7013943,
       47.2116859
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7819540977",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "bei Gemeindewerken",
-    "description": "Öffentlich zugänglich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "Mo-Fr 08:00-16:30",
-    "operator": "Gemeinde Richterswil",
-    "id": "node/7819540977"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.7093595,
-      47.2041059
     ]
   }
 },
@@ -149147,6 +149105,54 @@
     "coordinates": [
       7.4589395,
       46.9571349
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10864781705",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindehaus Rupperswil",
+    "description": "ausserhalb Gebäude beim Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "operator": "Gemeinde Rupperswil",
+    "phone": "+41 62 889 23 30",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10864781705"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1264818,
+      47.401697
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10864860205",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Kraftwerkzentrale Herrenstrasse 66",
+    "description": "während Bürozeiten ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "opening_hours": "Mo-Fr 07:00-16:30",
+    "operator": "SN Energie AG",
+    "phone": "0556474208",
+    "id": "node/10864860205"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0864363,
+      46.9957085
     ]
   }
 }
