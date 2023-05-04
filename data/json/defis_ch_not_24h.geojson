@@ -96481,23 +96481,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9798284198",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/9798284198"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6678151,
-      46.7304719
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9798883119",
   "properties": {
     "access": "yes",
@@ -149199,6 +149182,54 @@
     "coordinates": [
       7.9529221,
       47.3855882
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10866875728",
+  "properties": {
+    "access": "customers",
+    "defibrillator:location": "Empfang SportClinic Hirslanden Zürich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "SportClinic Zürich GmbH",
+    "phone": "+41 44 387 29 77",
+    "wheelchair": "limited",
+    "id": "node/10866875728"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5764265,
+      47.3511639
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10866933505",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "CHIROMED Praxis im Seefeld",
+    "description": "Während der Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 08:00-16:00",
+    "operator": "Praxis",
+    "phone": "+41432051111",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10866933505"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5518265,
+      47.3589291
     ]
   }
 }
