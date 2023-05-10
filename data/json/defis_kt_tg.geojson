@@ -8092,27 +8092,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10240188678",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "im Hauptgebäude beim Nebeneingang und Küche",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
-    "operator": "Schule Bernrain Internatsgebäude",
-    "phone": "+41 71 677 01 87",
-    "id": "node/10240188678"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.15784,
-      47.64067
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10240188679",
   "properties": {
     "access": "yes",
@@ -11243,30 +11222,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10287128726",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "links am Poolhaus",
-    "description": "Vorplatz, links über Gartenplatten, Rasen, beim Poolhaus links an Aussenwand",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Privatperson",
-    "phone": "+41797595739",
-    "id": "node/10287128726"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.9634348,
-      47.4386236
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10287162510",
   "properties": {
     "access": "yes",
@@ -11577,6 +11532,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
+    "opening_hours": "24/7",
     "operator": "Feuerwehr Fischingen",
     "phone": "+41799585817",
     "source": "local_knowledge, defikarte.ch",

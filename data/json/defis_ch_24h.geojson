@@ -83789,30 +83789,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10287128726",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "links am Poolhaus",
-    "description": "Vorplatz, links über Gartenplatten, Rasen, beim Poolhaus links an Aussenwand",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Privatperson",
-    "phone": "+41797595739",
-    "id": "node/10287128726"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.9634348,
-      47.4386236
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10287162510",
   "properties": {
     "access": "yes",
@@ -85313,8 +85289,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.942944,
-      47.2896415
+      7.943025,
+      47.2896213
     ]
   }
 },
@@ -87984,6 +87960,31 @@
     "coordinates": [
       9.5590206,
       46.7667514
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10686448905",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "WASU Baukeramik AG, links neben Schaufenster",
+    "description": "Aussenwandkasten, jederzeit verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Feuerwehr Fischingen",
+    "phone": "+41799585817",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10686448905"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.968909,
+      47.4157031
     ]
   }
 },
