@@ -80000,7 +80000,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr: 08:00-16:00",
+    "opening_hours": "Mo-Fr 08:00-16:00",
     "operator": "Krankenabteilung Monte Ceneri (Militär)",
     "phone": "+41584698050",
     "id": "node/9317853521"
@@ -124479,12 +124479,12 @@
   "properties": {
     "access": "no",
     "defibrillator:location": "Centro Commerciale Tenero, accanto alla Farmacia Coop Vitality",
-    "description": "While store is open",
+    "description": "available while store is open",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "opening_hours": "Mo-Sa: 08:00 - 18:30",
+    "opening_hours": "Mo-Sa 08:00-18:30",
     "operator": "Shopping Center",
     "phone": "+41917352803",
     "source": "local_knowledge, defikarte.ch",
@@ -138687,7 +138687,7 @@
     "latitude": "46.51",
     "longitude": "9.88035",
     "name": "Josias Gasser Baumeterialien AG",
-    "opening_hours": "Mo-Th 07:30–12:00, 13:00–17:00; Fr 07:30–12:00, 13:00–16:30",
+    "opening_hours": "Mo-Th 07:30-12:00,13:00-17:00; Fr 07:30-12:00,13:00-16:30",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/10763310346"
@@ -138894,7 +138894,7 @@
     "latitude": "46.23759",
     "longitude": "9.12785",
     "name": "Graubündner Kantonalbank",
-    "opening_hours": "mo-fr 08:30–11:30, 14:00–17:00",
+    "opening_hours": "Mo-Fr 08:30-11:30,14:00-17:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/10763310357"
@@ -138946,7 +138946,7 @@
     "latitude": "46.49745",
     "longitude": "9.83845",
     "name": "Graubündner Kantonalbank",
-    "opening_hours": "Mo-Fr 09:00–12:00,14:00–17:00",
+    "opening_hours": "Mo-Fr 09:00-12:00,14:00-17:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/10763310359"
@@ -149243,7 +149243,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "opening_hours": "Mo-Fr 09.00 Uhr- 19.00 Uhr Sa 08.30 Uhr- 17.00 Uhr",
+    "opening_hours": "Mo-Fr 09:00-19:00; Sa 08:30-17:00",
     "operator": "F.G. Pfister Immobilien AG",
     "phone": "+41817105680",
     "source": "local_knowledge, defikarte.ch",
@@ -149581,6 +149581,30 @@
     "coordinates": [
       6.5313104,
       46.7238052
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10883718905",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Ökopower AG, Kiesgrube Mühlibach, 8913 Ottenbach",
+    "description": "nur während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "EG",
+    "opening_hours": "Mo-Fr 07:00-17:00",
+    "operator": "Ökopower AG",
+    "phone": "+41447603177",
+    "id": "node/10883718905"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4059059,
+      47.2714683
     ]
   }
 }
