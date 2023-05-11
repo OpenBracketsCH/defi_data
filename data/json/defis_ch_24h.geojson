@@ -10427,14 +10427,14 @@
     "emergency:phone": "144",
     "opening_hours": "24/7",
     "operator": "Kirche Rüeggisberg",
-    "phone": "+41 78 722 58 48",
+    "phone": "+41 78 686 60 11",
     "id": "node/6637982902"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4387055,
-      46.8213223
+      7.438437,
+      46.8211364
     ]
   }
 },
@@ -95140,6 +95140,29 @@
     "coordinates": [
       7.9946373,
       46.3155493
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10886060705",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Baselstrasse 99, 4500 Solothurn",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Bürgergemeinde Solothurn",
+    "phone": "+41 32 626 24 64",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10886060705"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5493938,
+      47.2162962
     ]
   }
 }
