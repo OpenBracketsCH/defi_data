@@ -157,31 +157,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/1912707689",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Rüeggisberg",
-    "addr:housenumber": "8",
-    "addr:postcode": "3088",
-    "addr:street": "Dorfstrasse",
-    "defibrillator:location": "Im Eingangsbereich der Kirche",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Kirche Rüeggisberg",
-    "phone": "+41 78 686 60 11",
-    "id": "node/1912707689"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.438437,
-      46.8211364
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/2072537065",
   "properties": {
     "access": "yes",
@@ -41508,28 +41483,6 @@
     "coordinates": [
       6.9858462,
       47.0103045
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8544484717",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Ausserhalb des Freibades fix montiert",
-    "description": "24h verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde Zell",
-    "id": "node/8544484717"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.795383,
-      47.4460732
     ]
   }
 },
@@ -95236,6 +95189,31 @@
     "coordinates": [
       7.6389366,
       46.8773476
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10889308700",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Rüeggisberg",
+    "addr:housenumber": "8",
+    "addr:postcode": "3088",
+    "addr:street": "Dorfstrasse",
+    "defibrillator:location": "Im Eingangsbereich der Kirche",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Kirche Rüeggisberg",
+    "phone": "+41 78 686 60 11",
+    "id": "node/10889308700"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4384739,
+      46.8211441
     ]
   }
 }
