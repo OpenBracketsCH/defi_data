@@ -48950,6 +48950,53 @@
       46.8211441
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/10902005806",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Alterszentrum Lotzwil",
+    "description": "während den Öffnunszeiten oder beim Klingeln der Nachtglocke",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "opening_hours": "24/7",
+    "operator": "Alterszentrum Lotzwil",
+    "phone": "+41629196919",
+    "id": "node/10902005806"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7900363,
+      47.1899406
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10902388437",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Auswil",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Auswil",
+    "phone": "+41 62 965 12 86",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10902388437"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8344858,
+      47.1354431
+    ]
+  }
 }
 ]
 }

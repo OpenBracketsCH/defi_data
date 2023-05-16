@@ -1113,7 +1113,7 @@
   "id": "node/7579693163",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Iten Landmaschinen",
+    "defibrillator:location": "Mehrzweckgebäude Alosen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -1123,8 +1123,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6365528,
-      47.1417959
+      8.6353546,
+      47.1413377
     ]
   }
 },
@@ -6672,6 +6672,30 @@
     "coordinates": [
       8.5272467,
       47.182286
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10901297106",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Cafeteria / Schrank am Eingang",
+    "description": "während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 8.30-16.15",
+    "operator": "Heilpädagogisches Zentrum Hagendorn ",
+    "phone": "+41415007000",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10901297106"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4395063,
+      47.1974513
     ]
   }
 }

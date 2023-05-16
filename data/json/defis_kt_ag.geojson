@@ -10541,8 +10541,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3385351,
-      47.2743531
+      8.3383597,
+      47.2743212
     ]
   }
 },
@@ -10880,12 +10880,12 @@
   "type": "Feature",
   "id": "node/9449384817",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Regionalpolizei Muri",
-    "description": "während Öffnungszeiten verfügbar",
+    "access": "yes",
+    "defibrillator:location": "Fremo Nord EG",
+    "description": "24 h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "operator": "Regionalpolizei Muri",
     "phone": "+41566755225",
     "id": "node/9449384817"
@@ -10893,8 +10893,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.336807,
-      47.2785804
+      8.3368124,
+      47.2788157
     ]
   }
 },
@@ -20201,6 +20201,25 @@
     "coordinates": [
       8.3981673,
       47.1990603
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10901435478",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Gemeindeverwaltung",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "operator": "Gemeinde Muri",
+    "id": "node/10901435478"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3384476,
+      47.2743071
     ]
   }
 }

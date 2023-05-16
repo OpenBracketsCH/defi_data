@@ -23315,7 +23315,7 @@
   "id": "node/7579693163",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Iten Landmaschinen",
+    "defibrillator:location": "Mehrzweckgebäude Alosen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -23325,8 +23325,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6365528,
-      47.1417959
+      8.6353546,
+      47.1413377
     ]
   }
 },
@@ -60684,8 +60684,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.609609,
-      47.1939552
+      7.607689,
+      47.1951086
     ]
   }
 },
@@ -94992,48 +94992,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10880890406",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Bankomat Raiffeisenbank",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "EG",
-    "opening_hours": "24/7",
-    "id": "node/10880890406"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6137918,
-      47.1943657
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10880920705",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Bankomat Raiffeisenbank",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "EG",
-    "opening_hours": "24/7",
-    "id": "node/10880920705"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6137131,
-      47.1943697
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10880933306",
   "properties": {
     "access": "yes",
@@ -95051,8 +95009,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6136863,
-      47.1943311
+      7.6136002,
+      47.1943522
     ]
   }
 },
@@ -95257,6 +95215,99 @@
     "coordinates": [
       9.3366061,
       47.0824593
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10901648667",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vor Eingang Werkhof",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Michael Augsburger",
+    "phone": "+41619275218",
+    "id": "node/10901648667"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7388417,
+      47.4846347
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10901653171",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Garten",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Pavel Herman",
+    "phone": "+41774882286",
+    "id": "node/10901653171"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5948884,
+      47.5489477
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10902005806",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Alterszentrum Lotzwil",
+    "description": "während den Öffnunszeiten oder beim Klingeln der Nachtglocke",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "opening_hours": "24/7",
+    "operator": "Alterszentrum Lotzwil",
+    "phone": "+41629196919",
+    "id": "node/10902005806"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7900363,
+      47.1899406
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10902388437",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Auswil",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Auswil",
+    "phone": "+41 62 965 12 86",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10902388437"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8344858,
+      47.1354431
     ]
   }
 }
