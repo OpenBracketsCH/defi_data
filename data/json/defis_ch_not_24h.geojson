@@ -148150,6 +148150,7 @@
     "emergency": "defibrillator",
     "indoor": "yes",
     "level": "2",
+    "operator": "Migros",
     "id": "node/10834276005"
   },
   "geometry": {
@@ -150081,6 +150082,42 @@
     "coordinates": [
       8.3384476,
       47.2743071
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10903426103",
+  "properties": {
+    "defibrillator:location": "Depuis l'entrée principale piéton rez-de-chaussée, au fond à gauche dans le couloir ouest",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "Coop",
+    "id": "node/10903426103"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8200182,
+      46.5707363
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10903426104",
+  "properties": {
+    "defibrillator:location": "Couloir rez-de chaussée",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "Service des automobiles",
+    "id": "node/10903426104"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.6183934,
+      46.540688
     ]
   }
 }
