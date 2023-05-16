@@ -534,18 +534,21 @@
   "id": "node/9064091917",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "St. Alban Anlage 46 neben dem Eingang",
+    "defibrillator:location": "Unmittelbar vor dem Gebäudeeingang",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Rebecca Santschi",
+    "phone": "+41 79 544 95 21",
     "id": "node/9064091917"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6004246,
-      47.5521582
+      7.6006442,
+      47.5521859
     ]
   }
 },
@@ -1124,29 +1127,6 @@
     "coordinates": [
       7.6074008,
       47.5587466
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9801301296",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Unmittelbar vor dem Gebäudeeingang",
-    "description": "24h verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Rebecca Santschi",
-    "phone": "+41 79 544 95 21",
-    "id": "node/9801301296"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6006059,
-      47.5521733
     ]
   }
 },
