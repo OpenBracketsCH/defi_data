@@ -70285,7 +70285,6 @@
   "type": "Feature",
   "id": "node/9611255917",
   "properties": {
-    "access": "no",
     "defibrillator:location": "Schulhaus Trabet",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -70296,8 +70295,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.9225599,
-      47.4486309
+      8.9220703,
+      47.4486028
     ]
   }
 },
@@ -95358,6 +95357,29 @@
     "coordinates": [
       8.7152642,
       47.4953171
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10908019005",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Turnhalle,Primarschule,Haag",
+    "description": "Öffentlich zugänglich ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "EG",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "id": "node/10908019005"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4928071,
+      47.211392
     ]
   }
 }
