@@ -63353,12 +63353,12 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Bürogebäude Seestrasse 17, Zollikon",
-    "description": "Während Öffnungszeiten zugänglich",
+    "description": "Zugänglich via Klingen (08:00-17:00)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "-1",
-    "opening_hours": "Mo-Fr 08:00-18:00",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "SPGI Zurich AG",
     "phone": "+41 44 388 58 48",
     "source": "local_knowledge, defikarte.ch",
@@ -63704,6 +63704,540 @@
     "coordinates": [
       8.7152642,
       47.4953171
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10910676156",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "2. OG, Kopierraum",
+    "description": "oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "latitude": "47.38975588",
+    "longitude": "8.492274005000001",
+    "name": "WISS Schulen für Wirtschaft Informatik Immobilien",
+    "opening_hours": "Mo-Th 08:00–12:00, 12:45-18:15; Fr 08:00–12:00, 12:45-16:15; Sa 08:00-13:15",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "0800 122 144",
+    "id": "node/10910676156"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.492274,
+      47.3897559
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10910676158",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Empfang",
+    "description": "oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "latitude": "47.188618",
+    "longitude": "8.513703613000001",
+    "name": "MET Holding AG",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "0800 122 144",
+    "id": "node/10910676158"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5137036,
+      47.188618
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10910676159",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Treppenhaus Nord, 2.OG",
+    "description": "oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "latitude": "47.40019697",
+    "longitude": "8.438441012",
+    "name": "Louis Widmer AG",
+    "opening_hours": "Mo-Fr 08:00-12:00; 13:30-17:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "0800 122 144",
+    "id": "node/10910676159"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.438441,
+      47.400197
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10910676160",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Korridor vor der Cafeteria",
+    "description": "oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "latitude": "47.39122722",
+    "longitude": "8.468736458",
+    "name": "Alters- Und Pflegezentrum Herrenbergli",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "0800 122 144",
+    "id": "node/10910676160"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4687365,
+      47.3912272
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10910676161",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Schrank bei Empfang",
+    "description": "oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "latitude": "47.18688186",
+    "longitude": "8.52012831",
+    "name": "MLL Meyerlustenberger Lachenal Froriep AG",
+    "opening_hours": "Mo-Fr 08:00-12:00; 13:30-17:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "0800 122 144",
+    "id": "node/10910676161"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5201283,
+      47.1868819
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10910676164",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingangs- / Empfangsbereich",
+    "description": "oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "latitude": "47.3199548",
+    "longitude": "8.540458202",
+    "name": "Alterszentrum Hohchweid",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "0800 122 144",
+    "id": "node/10910676164"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5404582,
+      47.3199548
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10910676171",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Cafeteria 2.OG",
+    "description": "oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "latitude": "47.36899",
+    "longitude": "8.53974",
+    "name": "Banque Internationale à Luxembourg (Suisse) SA",
+    "opening_hours": "Mo-Fr 09:00-12:00, 13:30-16:30",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "0800 122 144",
+    "id": "node/10910676171"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.53974,
+      47.36899
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10910676172",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Eingangsbereich 3.OG",
+    "description": "oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "latitude": "47.40069",
+    "longitude": "8.45631",
+    "name": "Econetta AG",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "0800 122 144",
+    "id": "node/10910676172"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.45631,
+      47.40069
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10910676173",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Eingangsbereich von Turnhalle",
+    "description": "oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "latitude": "47.6058",
+    "longitude": "8.53855",
+    "name": "Gemeinde Rafz",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "0800 122 144",
+    "id": "node/10910676173"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.53855,
+      47.6058
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10910676174",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Gemeindehaus im Druckerraum",
+    "description": "oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "latitude": "47.61354",
+    "longitude": "8.53643",
+    "name": "Gemeinde Rafz",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "0800 122 144",
+    "id": "node/10910676174"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.53643,
+      47.61354
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10910676175",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Büro",
+    "description": "oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "latitude": "47.39934",
+    "longitude": "8.45835",
+    "name": "Binelli Automobile AG",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "0800 122 144",
+    "id": "node/10910676175"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.45835,
+      47.39934
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10910676176",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Empfang",
+    "description": "oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "latitude": "47.33176",
+    "longitude": "8.79985",
+    "name": "Digipack AG",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "0800 122 144",
+    "id": "node/10910676176"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.79985,
+      47.33176
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10910676177",
+  "properties": {
+    "access": "no;yes",
+    "defibrillator:location": "Empfang;Future Camp",
+    "description": "oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "latitude": "47.36889",
+    "longitude": "8.54096",
+    "name": "Accenture AG",
+    "opening_hours": "Mo-Fr 08:00–18:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "0800 122 144",
+    "id": "node/10910676177"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.54096,
+      47.36889
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10910676178",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Sanitätszimmer",
+    "description": "oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "latitude": "47.38924",
+    "longitude": "8.52494",
+    "name": "Migros-Genossenschafts-Bund",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "0800 122 144",
+    "id": "node/10910676178"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.52494,
+      47.38924
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10910676179",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Lager, bei Kopierer",
+    "description": "oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "latitude": "47.37709",
+    "longitude": "8.5113",
+    "name": "Franz AG",
+    "opening_hours": "Mo-Fr 07:00–18:00; Sa 09:00–16:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "0800 122 144",
+    "id": "node/10910676179"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5113,
+      47.37709
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10910676180",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Verkaufsbereich, rechts hinter Empfang",
+    "description": "oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "latitude": "47.37751",
+    "longitude": "8.51186",
+    "name": "Franz AG",
+    "opening_hours": "Mo-Fr 07:00–18:00; Sa 09:00–16:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "0800 122 144",
+    "id": "node/10910676180"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.51186,
+      47.37751
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10910676181",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Eingang hinter Treppe zum 1.OG",
+    "description": "oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "latitude": "47.21516197",
+    "longitude": "8.570313027",
+    "name": "Binelli Automobile AG",
+    "opening_hours": "Mo-Fr 07:00–18:30; Sa 09:00–16:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "0800 122 144",
+    "id": "node/10910676181"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.570313,
+      47.215162
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10910676182",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "2.OG Treppenhaus",
+    "description": "oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "latitude": "47.19616784",
+    "longitude": "8.520515892000001",
+    "name": "e-emergency AG",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "0800 122 144",
+    "id": "node/10910676182"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5205159,
+      47.1961678
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10910676197",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingangsbereich, rechts nach Türe",
+    "description": "Blauer Rucksack",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "latitude": "46.99339218",
+    "longitude": "8.522331871",
+    "name": "Rosenpark Alters- und Pflegeheim Gersau",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "0800 122 144",
+    "id": "node/10910676197"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5223319,
+      46.9933922
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10910676198",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Café",
+    "description": "Koffer schwarz",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "latitude": "47.19471059",
+    "longitude": "8.879541005",
+    "name": "Remo Wüst Bäckerei-Konditorei AG",
+    "opening_hours": "Mo-Fr 06:30–13:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "0800 122 144",
+    "id": "node/10910676198"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.879541,
+      47.1947106
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10910676199",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Büro/Empfang",
+    "description": "oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "latitude": "47.70166",
+    "longitude": "8.62995",
+    "name": "Ascent Health Services",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "0800 122 144",
+    "id": "node/10910676199"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.62995,
+      47.70166
     ]
   }
 }
