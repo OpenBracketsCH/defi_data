@@ -18182,6 +18182,7 @@
   "properties": {
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "id": "node/6982289585"
   },
   "geometry": {
@@ -151583,6 +151584,27 @@
     "coordinates": [
       8.4586036,
       47.1812688
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10911425413",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Dans le couloir derrière le service clients de la Migros",
+    "description": "Pendant les heures d'ouverture",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Migros",
+    "id": "node/10911425413"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0787554,
+      46.7880569
     ]
   }
 }
