@@ -2655,6 +2655,53 @@
       47.6992548
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/10925123192",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Durchgang von der Mühlenstrasse zwischen Stadtrandschule und Rheumaliga an der Wand im grünen Kasten mit rotem Druckknopf.",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "defibrillator.ch",
+    "start_date": "2023",
+    "wheelchair": "yes",
+    "id": "node/10925123192"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6298903,
+      47.704128
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10925628305",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Turnhalle ",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr: 6:15-21:45 ",
+    "operator": "Gemeinde ",
+    "phone": "+41 79 842 33 11",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10925628305"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.468914,
+      47.668263
+    ]
+  }
 }
 ]
 }

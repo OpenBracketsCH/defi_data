@@ -10895,7 +10895,6 @@
   "type": "Feature",
   "id": "node/10910676177",
   "properties": {
-    "access": "no;yes",
     "defibrillator:location": "Empfang;Future Camp",
     "description": "oranger Koffer",
     "emergency": "defibrillator",
@@ -10991,6 +10990,54 @@
     "coordinates": [
       8.51186,
       47.37751
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10926286805",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Räffelstrasse 26",
+    "description": "während Arbeitszeiten berfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "10. OG",
+    "opening_hours": "Mo-Fr 8-17",
+    "operator": "Husqvarna Schweiz AG",
+    "phone": "044 533 35 11",
+    "id": "node/10926286805"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5124579,
+      47.3615054
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10926292305",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Räffelstrasse 26",
+    "description": "während Arbeitszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "10. OG",
+    "opening_hours": "8-17 Uhr",
+    "operator": "Husqvarna Schweiz AG",
+    "phone": "044 533 35 11",
+    "id": "node/10926292305"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5127254,
+      47.3636696
     ]
   }
 }

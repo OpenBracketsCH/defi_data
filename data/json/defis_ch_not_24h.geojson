@@ -36993,10 +36993,10 @@
   "id": "node/7721108995",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Der Defi ist im EG der Schule zu finden",
+    "defibrillator:location": "Der Defi hängt draussen vis à vis Haupteingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "level": "0",
     "operator": "Gemeinde Berg",
     "id": "node/7721108995"
@@ -37004,8 +37004,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4103258,
-      47.4865931
+      9.4101237,
+      47.4866765
     ]
   }
 },
@@ -150784,7 +150784,6 @@
   "type": "Feature",
   "id": "node/10910676177",
   "properties": {
-    "access": "no;yes",
     "defibrillator:location": "Empfang;Future Camp",
     "description": "oranger Koffer",
     "emergency": "defibrillator",
@@ -151143,7 +151142,6 @@
   "type": "Feature",
   "id": "node/10910676196",
   "properties": {
-    "access": "no;yes",
     "defibrillator:location": "Rezeption EG (Beim Portier);B102 Gebäude rechts nach Türe",
     "description": "oranger Koffer",
     "emergency": "defibrillator",
@@ -151648,29 +151646,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10923582512",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Foyer neben Küche (Im Haus)",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "indoor": "yes",
-    "level": "0",
-    "opening_hours": "Mo-Fr 07:00-21:00",
-    "operator": "Markus Eggimann",
-    "phone": "+41794736680",
-    "id": "node/10923582512"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6140357,
-      47.5226029
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10923630709",
   "properties": {
     "access": "no",
@@ -151737,6 +151712,261 @@
     "coordinates": [
       8.7739925,
       47.3949928
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10924909305",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Jumbo Maximo Allmendingen rechts neben Eingang",
+    "description": "während den Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "opening_hours": "Mo-Fr: 8.30-20.00 Sa: 8.00-17.00",
+    "operator": "Jumbo",
+    "id": "node/10924909305"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5140513,
+      46.9189943
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10924928105",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Tennishüsli",
+    "description": "jederzeit Verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Tennisclub Lenzerheide",
+    "phone": "+41796350058",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10924928105"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5531756,
+      46.730636
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10925019205",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Hallenbad Geroldswil",
+    "description": "Zugang nur wären den Öffnungszeiten des Hallenbades",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Montag - Freitag 8:00 - 21:30 Uhr Samstag - Sonntag 10:00 - 18:00 Uhr",
+    "operator": "Gemeinde Geroldswil",
+    "phone": "+41447493270",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10925019205"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4094977,
+      47.4222876
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10925628305",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Turnhalle ",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr: 6:15-21:45 ",
+    "operator": "Gemeinde ",
+    "phone": "+41 79 842 33 11",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10925628305"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.468914,
+      47.668263
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10925669105",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindehaus",
+    "description": "jederzeit verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde Berg",
+    "phone": "+41715238800",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10925669105"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4038827,
+      47.4858237
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10925679707",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Zeughausstrasse 13 (Logistikcenter 5)",
+    "description": "Aussenfassade",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Galliker Transport AG",
+    "phone": "+41 62 748 82 06",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10925679707"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9812241,
+      47.2125576
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10926106005",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Reformierte Kirche",
+    "description": "Tagsüber zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG, Sakristei",
+    "operator": "Reformierte Kirche",
+    "id": "node/10926106005"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9303835,
+      47.3102659
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10926286805",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Räffelstrasse 26",
+    "description": "während Arbeitszeiten berfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "10. OG",
+    "opening_hours": "Mo-Fr 8-17",
+    "operator": "Husqvarna Schweiz AG",
+    "phone": "044 533 35 11",
+    "id": "node/10926286805"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5124579,
+      47.3615054
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10926292305",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Räffelstrasse 26",
+    "description": "während Arbeitszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "10. OG",
+    "opening_hours": "8-17 Uhr",
+    "operator": "Husqvarna Schweiz AG",
+    "phone": "044 533 35 11",
+    "id": "node/10926292305"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5127254,
+      47.3636696
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10926309505",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Spinnereistrasse 40, 8645 Jona",
+    "description": "nur zu Geschäftszeiten ohne Schlüssel zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "operator": "Dr. med. dent. Andrea Müller",
+    "phone": "+41552102626",
+    "id": "node/10926309505"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8319864,
+      47.2310357
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10926776205",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "KUSPO Haupteingang rechts",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "EG",
+    "operator": "Gemeinde",
+    "id": "node/10926776205"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6959148,
+      47.5193469
     ]
   }
 }

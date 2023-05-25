@@ -1861,10 +1861,10 @@
   "id": "node/7721108995",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Der Defi ist im EG der Schule zu finden",
+    "defibrillator:location": "Der Defi hängt draussen vis à vis Haupteingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "level": "0",
     "operator": "Gemeinde Berg",
     "id": "node/7721108995"
@@ -1872,8 +1872,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4103258,
-      47.4865931
+      9.4101237,
+      47.4866765
     ]
   }
 },
@@ -21297,6 +21297,52 @@
     "coordinates": [
       9.6070228,
       47.4006428
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10925669105",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindehaus",
+    "description": "jederzeit verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde Berg",
+    "phone": "+41715238800",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10925669105"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4038827,
+      47.4858237
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10926309505",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Spinnereistrasse 40, 8645 Jona",
+    "description": "nur zu Geschäftszeiten ohne Schlüssel zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "operator": "Dr. med. dent. Andrea Müller",
+    "phone": "+41552102626",
+    "id": "node/10926309505"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8319864,
+      47.2310357
     ]
   }
 }
