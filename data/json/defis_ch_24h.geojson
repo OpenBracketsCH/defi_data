@@ -60470,21 +60470,20 @@
   "id": "node/9157257050",
   "properties": {
     "access": "yes",
-    "addr:city": "Bonfol",
-    "addr:postcode": "2944",
     "defibrillator:location": "facade du bâtiment communal",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
     "operator": "Fondation RéaJura Cœur",
     "phone": "+41 79 414 74 11",
+    "wheelchair": "limited",
     "id": "node/9157257050"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.1511837,
-      47.4772905
+      7.1511767,
+      47.4773228
     ]
   }
 },
@@ -73257,6 +73256,29 @@
     "coordinates": [
       8.5970184,
       47.6050371
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9763547179",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Defi, Bergstation Weissenstein",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Seilbahn Weissenstein AG",
+    "phone": "+41 32 622 18 27",
+    "wheelchair": "limited",
+    "id": "node/9763547179"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5084153,
+      47.2519461
     ]
   }
 },
@@ -96034,6 +96056,30 @@
     "coordinates": [
       8.7008554,
       47.212022
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10940092905",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Wankdorfstrasse 10, unter Vordach vom Haupteingang, links vor der Drehtüre",
+    "description": "24/7 verfügbar, bei Benutzung immer +41 31 344 30 00 informieren",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Privat, CSL Behring AG Bern",
+    "phone": "+41 31 344 44 44",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10940092905"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4617821,
+      46.9614043
     ]
   }
 }
