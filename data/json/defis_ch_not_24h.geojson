@@ -39161,17 +39161,18 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Turnhalle Boden",
-    "description": "während Schulbetrieb verfügbar",
+    "description": "24/7",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "operator": "Gemeinde Richterswil",
     "id": "node/7819540972"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6979018,
-      47.2084226
+      8.6978707,
+      47.2083551
     ]
   }
 },
@@ -39194,27 +39195,6 @@
     "coordinates": [
       8.7013943,
       47.2116859
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7819540978",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "beim Empfang",
-    "description": "Öffentlich zugänglich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "Mo-Fr 08:00-17:00",
-    "operator": "Gemeinde Richterswil",
-    "id": "node/7819540978"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.7114616,
-      47.2028637
     ]
   }
 },

@@ -31241,6 +31241,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/7819540978",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Werke \nBei der Garage",
+    "description": "Öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Richterswil",
+    "id": "node/7819540978"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7114616,
+      47.2028637
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/7819540980",
   "properties": {
     "access": "yes",
@@ -95990,6 +96011,29 @@
     "coordinates": [
       8.9456627,
       47.2259373
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10939798905",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Pfarreiheim, Erlenstrasse 34",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Richterswil",
+    "phone": "+41 44 784 01 57",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10939798905"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7008554,
+      47.212022
     ]
   }
 }

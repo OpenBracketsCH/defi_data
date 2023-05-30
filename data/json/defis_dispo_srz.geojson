@@ -10263,17 +10263,18 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Turnhalle Boden",
-    "description": "während Schulbetrieb verfügbar",
+    "description": "24/7",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "operator": "Gemeinde Richterswil",
     "id": "node/7819540972"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6979018,
-      47.2084226
+      8.6978707,
+      47.2083551
     ]
   }
 },
@@ -10370,11 +10371,11 @@
   "id": "node/7819540978",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "beim Empfang",
+    "defibrillator:location": "Werke \nBei der Garage",
     "description": "Öffentlich zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "Mo-Fr 08:00-17:00",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Richterswil",
     "id": "node/7819540978"
   },
@@ -64544,6 +64545,29 @@
     "coordinates": [
       8.5127254,
       47.3636696
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10939798905",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Pfarreiheim, Erlenstrasse 34",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Richterswil",
+    "phone": "+41 44 784 01 57",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10939798905"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7008554,
+      47.212022
     ]
   }
 }
