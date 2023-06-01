@@ -152207,6 +152207,53 @@
       47.4097709
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/10943909805",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Mehrzweckhalle Rietheim",
+    "description": "Eingangsbereich Mehrzweckgebäude, Schlüsseldepot",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "operator": "Gemeinde Zurzach",
+    "phone": "+41562697111",
+    "id": "node/10943909805"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2802134,
+      47.6005663
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10943909806",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Werkstatt",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "opening_hours": "Mo.-Fr.07.15 - 17.15",
+    "operator": "Alfag Egerkingen AG",
+    "phone": "0041623890505",
+    "id": "node/10943909806"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7970299,
+      47.3166792
+    ]
+  }
 }
 ]
 }
