@@ -24636,24 +24636,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637818408",
-  "properties": {
-    "description": "Eingangsbereich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Formis Architektur & Realisation",
-    "id": "node/7637818408"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.097667,
-      47.1748791
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637818409",
   "properties": {
     "description": "Eingang Produktion",
@@ -24795,9 +24777,11 @@
   "type": "Feature",
   "id": "node/7637818417",
   "properties": {
-    "description": "Cafeteria EG",
+    "defibrillator:location": "Cafeteria EG",
+    "description": "nur während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "level": "0",
     "name": "Network 41 AG",
     "id": "node/7637818417"
   },
@@ -40974,28 +40958,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7928159872",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Eingang Mehrzweckhalle",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "operator": "Einwohnergemeinde Cham",
-    "id": "node/7928159872"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4354508,
-      47.201508
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7928159874",
   "properties": {
     "defibrillator:location": "Metzgerei in der Migros",
@@ -41386,30 +41348,6 @@
     "coordinates": [
       8.4559348,
       47.18519
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7928182493",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Im Eingang",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "name": "Turnhalle Städtli 1",
-    "operator": "Einwohnergemeinde Cham",
-    "wheelchair": "yes",
-    "id": "node/7928182493"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4641397,
-      47.1824264
     ]
   }
 },
@@ -48834,7 +48772,6 @@
   "properties": {
     "access": "no",
     "defibrillator:location": "Nordtrakt",
-    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -48849,30 +48786,6 @@
     "coordinates": [
       8.4641397,
       47.1830262
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8317714110",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "in der Turnhalle",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "name": "Schulhaus Städtli 2",
-    "operator": "Einwohnergemeinde Cham",
-    "wheelchair": "yes",
-    "id": "node/8317714110"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4631258,
-      47.1829751
     ]
   }
 },
@@ -152312,6 +152225,29 @@
     "coordinates": [
       8.3083739,
       47.4767856
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10946129905",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Goba AG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo.-Fr.: 07.30-17.00Uhr Sa. 08.30-12.00Uhr",
+    "operator": "Goba AG",
+    "phone": "+41717953030",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10946129905"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4053892,
+      47.375265
     ]
   }
 }
