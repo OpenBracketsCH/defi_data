@@ -3030,24 +3030,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637818408",
-  "properties": {
-    "description": "Eingangsbereich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Formis Architektur & Realisation",
-    "id": "node/7637818408"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.097667,
-      47.1748791
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637818409",
   "properties": {
     "description": "Eingang Produktion",
@@ -3189,9 +3171,11 @@
   "type": "Feature",
   "id": "node/7637818417",
   "properties": {
-    "description": "Cafeteria EG",
+    "defibrillator:location": "Cafeteria EG",
+    "description": "nur während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "level": "0",
     "name": "Network 41 AG",
     "id": "node/7637818417"
   },
