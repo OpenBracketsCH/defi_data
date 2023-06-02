@@ -5007,7 +5007,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
-    "operator": "Samariterverein Gadmental",
+    "operator": "Samariter Gadmental",
     "phone": "+41 79 797 81 19",
     "id": "node/6564797301"
   },
@@ -65313,8 +65313,8 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
-    "operator": "Gemeinde Innertkirchen",
-    "phone": "+41 33 972 12 20",
+    "operator": "Gemeinde Innertkirchen (vertreten von Kraftwerke Oberhasli AG)",
+    "phone": "+41 33 982 29 11",
     "id": "node/9367107209"
   },
   "geometry": {
@@ -96403,6 +96403,30 @@
     "coordinates": [
       8.4559301,
       47.1832454
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10946263405",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Alleestrasse 31, 8590 Romanshorn",
+    "description": "aussen an Bankgebäude",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Raiffeisenbank Neukirch-Romanshorn",
+    "phone": "+41714747444",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10946263405"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3773246,
+      47.5646871
     ]
   }
 }

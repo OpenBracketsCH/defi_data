@@ -12567,6 +12567,55 @@
       47.4972851
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/10946259405",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Amriswilerstrasse 2a, 9315 Neukirch (Egnach)",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr: 08:30-12:00, 13:30-16:30",
+    "operator": "Raiffeisenbank Neukirch-Romanshorn",
+    "phone": "+41 71 474 74 44",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10946259405"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.369573,
+      47.5290682
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10946263405",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Alleestrasse 31, 8590 Romanshorn",
+    "description": "aussen an Bankgebäude",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Raiffeisenbank Neukirch-Romanshorn",
+    "phone": "+41714747444",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10946263405"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3773246,
+      47.5646871
+    ]
+  }
 }
 ]
 }
