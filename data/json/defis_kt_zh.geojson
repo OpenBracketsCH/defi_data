@@ -12430,22 +12430,26 @@
   "type": "Feature",
   "id": "node/8556346264",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "1. OG Treppenhaus Hof",
+    "access": "permissive",
+    "check_date": "2023-06-03",
+    "defibrillator:location": "1. OG Treppenhaus Hof, im Kasten an der Wand",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "1",
+    "note": "Kasten war am 2023-06-03 leer, ohne Defibrillator (AED)",
     "opening_hours": "Mo-Fr 07:00-18:00",
     "operator": "MSW, Markus Hitz",
     "phone": "+41 52 267 55 42",
+    "wheelchair": "yes",
     "id": "node/8556346264"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.733817,
-      47.4950199
+      8.7345198,
+      47.4950849
     ]
   }
 },
@@ -12453,22 +12457,25 @@
   "type": "Feature",
   "id": "node/8556346265",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "EG, Eingang Werkstatt",
+    "access": "permissive",
+    "check_date": "2023-06-03",
+    "defibrillator:location": "EG, Eingang Werkstatt, beim Treppenhaus im weissen Kasten an der Wand",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 07:00-18:00",
     "operator": "MSW, Markus Hitz",
     "phone": "+41 52 267 55 42",
+    "wheelchair": "yes",
     "id": "node/8556346265"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7341014,
-      47.4950905
+      8.7336971,
+      47.4949468
     ]
   }
 },
