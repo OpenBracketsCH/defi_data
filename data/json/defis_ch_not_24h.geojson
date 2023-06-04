@@ -119337,38 +119337,15 @@
 },
 {
   "type": "Feature",
-  "id": "node/10542928609",
+  "id": "node/10542937909",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schalterhalle",
-    "description": "während den Öffnungszeiten verfügbar. Box ist Alarmgesichert.",
+    "defibrillator:location": "In der Schalterhalle des neues Polizeigebäude POM",
+    "description": "Während den Öffnungszeiten verfügbar. Box ist Alarmgesichert.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 07:00-17:00",
-    "operator": "Stadtpolizei Winterthur",
-    "phone": "+41 52 267 51 52",
-    "id": "node/10542928609"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.7340174,
-      47.4956342
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10542937909",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "neues Polizeigebäude POM",
-    "description": "während Öffnungszeiten verfügbar. Box steht unter Alarm!",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
     "opening_hours": "Mo-Fr 07:00 - 17:00",
     "operator": "Stadtpolizei Winterthur",
     "phone": "+41 52 267 51 52",
@@ -121545,6 +121522,27 @@
     "coordinates": [
       8.0292732,
       47.3908285
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10599052905",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindeverwaltung Turgi, neben Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Gemeinde",
+    "id": "node/10599052905"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2502955,
+      47.4933773
     ]
   }
 },
