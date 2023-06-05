@@ -152322,6 +152322,22 @@
 },
 {
   "type": "Feature",
+  "id": "node/10956687975",
+  "properties": {
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/10956687975"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.490798,
+      47.3844719
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10956689205",
   "properties": {
     "access": "no",
@@ -152342,6 +152358,48 @@
     "coordinates": [
       9.4694316,
       47.1652454
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10956758405",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Wohnstätte Hasenberg, Haupteingang, links an der Wand",
+    "description": "24h erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "00:00 Uhr -24:00 Uhr",
+    "phone": "+41 79 696 43 09",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10956758405"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2872131,
+      47.48019
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10956763693",
+  "properties": {
+    "access": "permit",
+    "defibrillator:location": "im Treppenhaus bei der Ausbildung",
+    "emergency": "defibrillator",
+    "operator": "VBZ",
+    "id": "node/10956763693"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5225569,
+      47.3728017
     ]
   }
 }
