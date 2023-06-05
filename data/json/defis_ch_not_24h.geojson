@@ -110629,28 +110629,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10139406858",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "AED in alter Turnhalle im Obergeschoss neben dem Feuerlöschposten",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Gemeinde Köniz, Personalbereichsleiterin, Rebecca Werlitz",
-    "phone": "+41 31 970 92 08",
-    "id": "node/10139406858"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4122712,
-      46.9081252
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10139406859",
   "properties": {
     "access": "yes",
@@ -152424,6 +152402,29 @@
     "coordinates": [
       8.4394312,
       47.1974841
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10957979805",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Schwimmbad Heiden, Haupteingang ",
+    "description": "nur Sommersaison, wenn die Badi offen ist beim Eingang erhältlich ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "operator": "Gemeinde",
+    "phone": "+41718911223",
+    "id": "node/10957979805"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5345175,
+      47.4421862
     ]
   }
 }
