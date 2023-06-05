@@ -32939,7 +32939,7 @@
   "type": "Feature",
   "id": "node/7928222751",
   "properties": {
-    "defibrillator:location": "Zugang zur Gartenwirtschaft, Gasthof Luegisland",
+    "defibrillator:location": "Haupteingang Schulhaus",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -32952,8 +32952,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6294979,
-      47.1673134
+      8.6303048,
+      47.1673038
     ]
   }
 },
@@ -96479,6 +96479,29 @@
     "coordinates": [
       6.3488317,
       46.4642607
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10956986705",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raiffeisenbank ",
+    "description": "Innen, rechts neben Bankomat",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "opening_hours": "24/7",
+    "operator": "Raiffeisenbank Samedan",
+    "id": "node/10956986705"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.8693827,
+      46.5327188
     ]
   }
 }
