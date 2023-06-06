@@ -4145,7 +4145,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Gemeinde Unterägeri",
+    "operator": "Einwohnergemeinde Unterägeri",
     "id": "node/7074439334"
   },
   "geometry": {
@@ -6054,11 +6054,12 @@
   "id": "node/7579656844",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schulhaus Schönbüel",
+    "defibrillator:location": "Schulhaus Schönenbüel",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Unterägeri",
     "id": "node/7579656844"
   },
   "geometry": {
@@ -6074,12 +6075,12 @@
   "id": "node/7579656845",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "neben Haupteingang (Kennzeichnung mangelhaft)",
+    "defibrillator:location": "Ägerihalle links bei Haupteingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Kanton Zug",
+    "operator": "Einwohnergemeinde Unterägeri",
     "id": "node/7579656845"
   },
   "geometry": {
@@ -6095,10 +6096,12 @@
   "id": "node/7579656846",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Im Clubhaus FC Aegeri",
+    "defibrillator:location": "Clubhaus FC Aegeri",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Unterägeri",
     "id": "node/7579656846"
   },
   "geometry": {
@@ -13301,17 +13304,19 @@
   "id": "node/7930578722",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bei Strandbad",
-    "description": "nur im Sommer",
+    "defibrillator:location": "Strandbad Lido",
+    "description": "24 / 7",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Einwohnergemeinde Unterägeri",
     "id": "node/7930578722"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5933202,
-      47.1325492
+      8.5930857,
+      47.1324295
     ]
   }
 },
@@ -13320,12 +13325,13 @@
   "id": "node/7930578723",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Ausgang Ökihof",
+    "defibrillator:location": "Ausfahrt Ökihof",
     "description": "In Mauer eingefasst",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Unterägeri",
     "id": "node/7930578723"
   },
   "geometry": {
@@ -53158,21 +53164,21 @@
   "id": "node/10676384505",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Minigolf Unterägeri",
+    "defibrillator:location": "Kiosk / Minigolf Unterägeri",
     "description": "Aussen an Gebäudehülle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
-    "operator": "Minigolf Unterägeri",
+    "operator": "Einwohnergemeinde Unterägeri",
     "id": "node/10676384505"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5879025,
-      47.1363808
+      8.589609,
+      47.1333536
     ]
   }
 },
@@ -64828,6 +64834,49 @@
     "coordinates": [
       8.5339338,
       47.377818
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10959596602",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Clubhaus Tennisclub",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Unterägeri",
+    "id": "node/10959596602"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5612008,
+      47.1333644
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10959652715",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang SH Acher Mitte",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Unterägeri",
+    "id": "node/10959652715"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5822088,
+      47.1389724
     ]
   }
 }
