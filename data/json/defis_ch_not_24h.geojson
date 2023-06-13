@@ -56179,28 +56179,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8598378717",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Gemeindehaus Hallau",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Gemeinde",
-    "phone": "+41526870840",
-    "id": "node/8598378717"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4598085,
-      47.6975913
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8599184511",
   "properties": {
     "access": "yes",
@@ -152764,6 +152742,53 @@
     "coordinates": [
       8.5747647,
       47.3421125
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10973838505",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Amarante, route de la Chapelle 28",
+    "description": "hall d'entrée au rez-de-chaussée inférieur",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "operator": "Administration communale",
+    "phone": "+41266648000",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10973838505"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8525612,
+      46.8474319
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10973840605",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Salle de La Prillaz, chemin des Autrichiens 15",
+    "description": "hall intérieur vers le bar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Administration communale",
+    "phone": "+41266648000",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10973840605"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8543637,
+      46.849226
     ]
   }
 }
