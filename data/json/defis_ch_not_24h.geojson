@@ -152275,30 +152275,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10956868905",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Cafeteria",
-    "description": "Während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr: 08.00-17.00",
-    "operator": "Heilpädagogisches Zentrum Hagendorn",
-    "phone": "+41 41 500 70 00",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/10956868905"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4394312,
-      47.1974841
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10957979805",
   "properties": {
     "access": "no",
@@ -152923,6 +152899,31 @@
     "coordinates": [
       8.9039576,
       46.1431617
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10976811605",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Geschäftshaus Valiant Bank",
+    "description": "AED im Gang neben dem Treppenhaus ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "07:00-19:00",
+    "operator": "Hausverwaltung, Arztpraxis",
+    "phone": "+41334377777",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10976811605"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6326442,
+      46.774866
     ]
   }
 }
