@@ -152587,13 +152587,13 @@
   "type": "Feature",
   "id": "node/10970275205",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Gemeindehaus Otelfingen ",
+    "access": "public",
+    "defibrillator:location": "Gemeindehaus Otelfingen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
-    "operator": "Politische Gemeinde Otelfingen ",
+    "operator": "Politische Gemeinde Otelfingen",
     "phone": "+4144 847 20 47",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10970275205"
@@ -152924,6 +152924,29 @@
     "coordinates": [
       7.6326442,
       46.774866
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10976936005",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Reservatstrasse 1 ,8953 Dietikon,Dispo Transport",
+    "description": "während Arbeitszeit verfügbar ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "opening_hours": "Mo-Fr 05:00-18:00",
+    "operator": "Coop Verteilzentrale",
+    "id": "node/10976936005"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3996216,
+      47.4145574
     ]
   }
 }
