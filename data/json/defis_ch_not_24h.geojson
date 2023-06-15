@@ -153143,6 +153143,53 @@
       47.378661
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/10978855607",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "OCT: S 10.001 ETH Meeting Center",
+    "description": "über Alarmzentrale 24h verfügbar, ansonsten während Betriebszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "14",
+    "operator": "ETH Zürich",
+    "phone": "+41 44 342 11 88",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10978855607"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5472828,
+      47.4130062
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10978932005",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Bürogebäude, beim Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 7:30-18:30 Sa: 8:00-12:00",
+    "operator": "Firma",
+    "phone": "+41 55 210 05 55",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10978932005"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8290542,
+      47.2294592
+    ]
+  }
 }
 ]
 }
