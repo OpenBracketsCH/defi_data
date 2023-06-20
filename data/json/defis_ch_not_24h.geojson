@@ -70078,19 +70078,20 @@
   "id": "node/9045229719",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Archiv",
+    "defibrillator:location": "Beim Eingang Roter Pavillon",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
+    "operator": "Gemeinde",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229719"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7920264,
-      47.5523407
+      7.7921216,
+      47.5524093
     ]
   }
 },
@@ -125512,6 +125513,35 @@
     "coordinates": [
       8.6972612,
       47.2056883
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10725516529",
+  "properties": {
+    "access": "yes",
+    "activation": "power_outage;electricity;phone_breakdown",
+    "addr:city": "Rheinfelden",
+    "addr:housenumber": "6",
+    "addr:postcode": "4310",
+    "addr:street": "Schützenweg",
+    "check_date": "2023-03-09",
+    "defibrillator:location": "Turnhalle Schützenweg",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "name": "Rheinfelden Turnhalle Schützenweg",
+    "operator": "Stadt Rheinfelden",
+    "source": "local knowledge",
+    "temporary": "yes",
+    "website": "notfalltreffpunkt.ch",
+    "id": "node/10725516529"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7932483,
+      47.5528155
     ]
   }
 },

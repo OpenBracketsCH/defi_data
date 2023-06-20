@@ -418,6 +418,33 @@
 },
 {
   "type": "Feature",
+  "id": "node/7049195212",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Rheinfelden",
+    "addr:housenumber": "41",
+    "addr:postcode": "4310",
+    "addr:street": "Roberstenstrasse",
+    "defibrillator:location": "Stadtpark Ost",
+    "description": "Hinter WC Anlage",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadt Rheinfelden",
+    "phone": "+41 61 835 52 45",
+    "id": "node/7049195212"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.801117,
+      47.5587232
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/7139428310",
   "properties": {
     "emergency": "defibrillator",
@@ -2587,29 +2614,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8454762721",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "ostpark rheinfelden",
-    "description": "kinderspielplatz",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Stadt Rheinfelden",
-    "phone": "+41 61 835 52 45",
-    "id": "node/8454762721"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.8011141,
-      47.558735
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8457810817",
   "properties": {
     "access": "yes",
@@ -4404,14 +4408,14 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Gemeinde",
+    "operator": "Stadt Rheinfelden",
     "id": "node/8722297914"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.8023745,
-      47.5574953
+      7.802491,
+      47.5574772
     ]
   }
 },
@@ -4598,14 +4602,14 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "?",
+    "operator": "Stadt Rheinfelden",
     "id": "node/8794177117"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7905947,
-      47.554263
+      7.7906765,
+      47.5544233
     ]
   }
 },
@@ -7472,19 +7476,20 @@
   "id": "node/9045229719",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Archiv",
+    "defibrillator:location": "Beim Eingang Roter Pavillon",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
+    "operator": "Gemeinde",
     "phone": "+41 62 835 35 00",
     "id": "node/9045229719"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7920264,
-      47.5523407
+      7.7921216,
+      47.5524093
     ]
   }
 },
@@ -8254,31 +8259,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7923255,
-      47.5535875
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9045529038",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Schulanlage Robersten",
-    "description": "24h verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Stadt Rheinfelden",
-    "phone": "+41 61 835 52 45",
-    "id": "node/9045529038"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.8026781,
-      47.5574793
+      7.792247,
+      47.5536144
     ]
   }
 },
@@ -8300,8 +8282,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.790232,
-      47.5526883
+      7.7904094,
+      47.5526464
     ]
   }
 },
@@ -8323,8 +8305,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.8064633,
-      47.5547624
+      7.8065609,
+      47.5546596
     ]
   }
 },
@@ -8353,29 +8335,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9045529042",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Rheinparking",
-    "description": "24h verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Stadt Rheinfelden",
-    "phone": "+41 61 835 52 45",
-    "id": "node/9045529042"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.7904902,
-      47.5538427
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9045529043",
   "properties": {
     "access": "yes",
@@ -8392,8 +8351,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.8055099,
-      47.5480312
+      7.8054163,
+      47.5481497
     ]
   }
 },
@@ -8415,8 +8374,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7967766,
-      47.5561023
+      7.7968195,
+      47.5560022
     ]
   }
 },
@@ -17286,6 +17245,35 @@
     "coordinates": [
       8.3680522,
       47.3578535
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10725516529",
+  "properties": {
+    "access": "yes",
+    "activation": "power_outage;electricity;phone_breakdown",
+    "addr:city": "Rheinfelden",
+    "addr:housenumber": "6",
+    "addr:postcode": "4310",
+    "addr:street": "Schützenweg",
+    "check_date": "2023-03-09",
+    "defibrillator:location": "Turnhalle Schützenweg",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "name": "Rheinfelden Turnhalle Schützenweg",
+    "operator": "Stadt Rheinfelden",
+    "source": "local knowledge",
+    "temporary": "yes",
+    "website": "notfalltreffpunkt.ch",
+    "id": "node/10725516529"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7932483,
+      47.5528155
     ]
   }
 },
