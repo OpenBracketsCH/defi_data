@@ -89021,23 +89021,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9595340431",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/9595340431"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6095608,
-      47.7613659
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9596963160",
   "properties": {
     "access": "yes",
@@ -132224,7 +132207,7 @@
   "id": "node/10763310081",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Im 8. OG;Im 9. OG",
+    "defibrillator:location": "Bei Firma Crealogix: Im 8. OG;Im 9. OG",
     "description": "oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -153545,6 +153528,29 @@
     "coordinates": [
       6.8467521,
       46.4589137
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11010991811",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aufenthaltsraum",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:00-17:00",
+    "operator": "PM Mangold Holzbau AG",
+    "phone": "+41619859100",
+    "id": "node/11010991811"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5462632,
+      47.4428372
     ]
   }
 }
