@@ -36551,6 +36551,24 @@
 },
 {
   "type": "Feature",
+  "id": "node/8259450779",
+  "properties": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "id": "node/8259450779"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3077401,
+      47.3718255
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8274917270",
   "properties": {
     "access": "yes",
@@ -49112,17 +49130,17 @@
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Stadt Schlieren, Bereich Liegenschaften",
     "phone": "+41 44 738 15 08",
+    "wheelchair": "yes",
     "id": "node/8780672285"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4442699,
-      47.3946644
+      8.4444403,
+      47.3948883
     ]
   }
 },
