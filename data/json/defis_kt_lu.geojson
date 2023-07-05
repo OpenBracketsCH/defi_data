@@ -480,8 +480,13 @@
   "type": "Feature",
   "id": "node/6983731019",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang",
+    "defibrillator:location:de": "Haupteingang",
+    "defibrillator:location:en": "main entrance",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "name": "Sidler AG",
     "opening_hours": "24/7",
     "id": "node/6983731019"
   },
@@ -3202,23 +3207,6 @@
     "coordinates": [
       8.1028538,
       47.1708285
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7637818419",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Sidler AG",
-    "id": "node/7637818419"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.1117166,
-      47.170732
     ]
   }
 },
