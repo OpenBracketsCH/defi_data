@@ -11021,6 +11021,54 @@
       46.8469063
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/11038063111",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Sammel&Sortierplatz Islen, Bürokontainer",
+    "description": "wärend Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "Parterre",
+    "opening_hours": "Mo-Fr: 07:00-18:00",
+    "operator": "Geschäft",
+    "phone": "0814133333",
+    "id": "node/11038063111"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.8111585,
+      46.7755339
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11038063726",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Zurich HelpPoint Chur",
+    "description": "während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr: 07.30 - 12.00; 13.30 - 17.00",
+    "operator": "Zürich Versicherungs-Gesellschaft AG",
+    "phone": "+41 800808080",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11038063726"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5110971,
+      46.8466357
+    ]
+  }
 }
 ]
 }

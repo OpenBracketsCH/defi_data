@@ -5216,6 +5216,119 @@
       46.0093476
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/11038060213",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Bahnhof Lavorgo",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "EG",
+    "opening_hours": "24/7",
+    "id": "node/11038060213"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8400477,
+      46.4408265
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11038063118",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Zurich Compagnia di Assicurazioni SA - Sede Regionale per il Ticino",
+    "description": "während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr: 07.30 - 12.00; 13.00 - 17.00",
+    "operator": "Zürich Versicherungs-Gesellschaft AG",
+    "phone": "+41919123636",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11038063118"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.95684,
+      46.008744
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11038063705",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bushaltestelle",
+    "description": "öffentlich für jeder Zugänglich ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "EG",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "id": "node/11038063705"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9075512,
+      45.9810282
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11038063727",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Zurich HelpPoint Lugano-Noranco",
+    "description": "während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr: 07.30 - 12.00; 13.30 - 17.00",
+    "operator": "Zürich Versicherungs-Gesellschaft AG",
+    "phone": "+41792089886",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11038063727"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9308172,
+      45.9829924
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11038063805",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bushaltestelle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "id": "node/11038063805"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9075445,
+      45.9810263
+    ]
+  }
 }
 ]
 }

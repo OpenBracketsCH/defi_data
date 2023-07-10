@@ -7043,6 +7043,77 @@
       47.1826185
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/11038060225",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Krämermatt 5",
+    "description": "aussen ander Fassade beim Hauseingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "EG",
+    "opening_hours": "24/7",
+    "operator": "Privatperson",
+    "id": "node/11038060225"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.450574,
+      47.1801635
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11038063711",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Matten",
+    "description": "rechts vom Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "Hochparterre",
+    "opening_hours": "24/7",
+    "operator": "Feuerwehr Hünenberg",
+    "phone": "+41417802521",
+    "id": "node/11038063711"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4126853,
+      47.1976674
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11038063829",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Zurich HelpPoint Zug",
+    "description": "während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr: 07.30 - 12.00; 13.30 - 17.00",
+    "operator": "Zürich Versicherungs-Gesellschaft AG",
+    "phone": "+41800808080",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11038063829"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5240012,
+      47.1826288
+    ]
+  }
 }
 ]
 }
