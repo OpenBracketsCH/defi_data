@@ -40315,44 +40315,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7865291248",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Im Curlingzentrum",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/7865291248"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.3433222,
-      47.2007791
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7865291250",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Im Kiosk der Badi",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/7865291250"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.3660915,
-      47.2075014
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7871604517",
   "properties": {
     "access": "customers",
@@ -117669,28 +117631,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10273931509",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Spar",
-    "description": "Haupteingang rechts",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Gemeinde",
-    "phone": "0793554300",
-    "id": "node/10273931509"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.2841822,
-      47.1935766
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10274738397",
   "properties": {
     "emergency": "defibrillator",
@@ -146006,8 +145946,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4661218,
-      47.4757667
+      9.4683013,
+      47.4772608
     ]
   }
 },
@@ -154342,6 +154282,53 @@
     "coordinates": [
       6.908555,
       46.4475676
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11037270306",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Mitteldorfstrasse 22, MZH/3-Fach-Turnhalle",
+    "description": "Während Schulzeit, Trainingszeiten, Veranstaltungen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Gränichen",
+    "phone": "+41 62 855 88 77",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11037270306"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.098163,
+      47.35898
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11037283405",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Lindenplatz 1, Gemeindehaus",
+    "description": "Während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Gemeinde Gränichen",
+    "phone": "+41 62 855 88 77",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11037283405"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0978519,
+      47.3595687
     ]
   }
 }

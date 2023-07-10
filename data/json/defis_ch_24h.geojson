@@ -32579,21 +32579,69 @@
 },
 {
   "type": "Feature",
+  "id": "node/7865291248",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Curlingzentrum, Eingang Nordseitig",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Wildhaus",
+    "phone": "+41793554300",
+    "id": "node/7865291248"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3433222,
+      47.2007791
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/7865291249",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Gemeindehaus an der Nordwand",
+    "defibrillator:location": "Foto Forrer beim Kiosk an der Nordwand",
     "description": "AED ist 24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Wildhaus",
+    "phone": "+41793554300",
     "id": "node/7865291249"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.3511663,
-      47.2033231
+      9.350337,
+      47.2032793
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7865291250",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Kiosk der Badi an einem Aussenkasten",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Wildhaus",
+    "id": "node/7865291250"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3660915,
+      47.2075014
     ]
   }
 },
@@ -37821,21 +37869,23 @@
   "id": "node/8422268431",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Eingangsbereich der 3-Fachturnhalle / Überdacht",
+    "defibrillator:location": "Eingangsbereich der 3-Fachturnhalle neben der Glastüre / Überdacht",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Volksschulgemeinde Tägerwilen / Schulverwaltung",
     "phone": "+41 71 666 85 85",
+    "wheelchair": "yes",
     "id": "node/8422268431"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.1306851,
-      47.6569103
+      9.1305888,
+      47.6570465
     ]
   }
 },
@@ -97442,6 +97492,31 @@
     "coordinates": [
       9.1292836,
       47.4311183
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11037287705",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Mitteldorfstrasse 16a, Primarschulhaus",
+    "description": "Rechts neben Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Gränichen",
+    "phone": "+41 62 855 88 77",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11037287705"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0963874,
+      47.359278
     ]
   }
 }

@@ -5233,10 +5233,14 @@
   "id": "node/7865291248",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Im Curlingzentrum",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Im Curlingzentrum, Eingang Nordseitig",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Wildhaus",
+    "phone": "+41793554300",
     "id": "node/7865291248"
   },
   "geometry": {
@@ -5252,18 +5256,21 @@
   "id": "node/7865291249",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Gemeindehaus an der Nordwand",
+    "defibrillator:location": "Foto Forrer beim Kiosk an der Nordwand",
     "description": "AED ist 24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Wildhaus",
+    "phone": "+41793554300",
     "id": "node/7865291249"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.3511663,
-      47.2033231
+      9.350337,
+      47.2032793
     ]
   }
 },
@@ -5272,10 +5279,13 @@
   "id": "node/7865291250",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Im Kiosk der Badi",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Im Kiosk der Badi an einem Aussenkasten",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Wildhaus",
     "id": "node/7865291250"
   },
   "geometry": {
@@ -20174,28 +20184,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10273931509",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Spar",
-    "description": "Haupteingang rechts",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Gemeinde",
-    "phone": "0793554300",
-    "id": "node/10273931509"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.2841822,
-      47.1935766
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10275525616",
   "properties": {
     "access": "yes",
@@ -23730,8 +23718,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4661218,
-      47.4757667
+      9.4683013,
+      47.4772608
     ]
   }
 },
