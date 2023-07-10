@@ -20,23 +20,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8625475384",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/8625475384"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.1323681,
-      47.427504
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8851322139",
   "properties": {
     "access": "yes",
@@ -3372,9 +3355,10 @@
     "access": "yes",
     "addr:city": "Alle",
     "addr:postcode": "2942",
-    "defibrillator:location": "à côté du bancomat",
+    "defibrillator:location": "À droite de l'entré de la banque.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Fondation RéaJura Cœur",
     "phone": "+41 79 414 74 11",
@@ -3383,8 +3367,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.1324047,
-      47.4275152
+      7.1323755,
+      47.4275222
     ]
   }
 },
