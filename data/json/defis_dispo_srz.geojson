@@ -12066,20 +12066,21 @@
   "type": "Feature",
   "id": "node/7928182492",
   "properties": {
-    "defibrillator:location": "Feuerwehr",
-    "description": "während Öffnungszeiten verfügbar",
+    "access": "yes",
+    "defibrillator:location": "An der Wand des Feuerwehrgebäudes, beim Seiteneingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "level": "0",
-    "name": "Feuerwehr Cham",
-    "wheelchair": "yes",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Cham",
+    "wheelchair": "no",
     "id": "node/7928182492"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4559348,
-      47.18519
+      8.4558819,
+      47.1850371
     ]
   }
 },
