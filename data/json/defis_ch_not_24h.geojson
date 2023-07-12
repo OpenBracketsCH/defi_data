@@ -156302,6 +156302,54 @@
       47.3758928
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/11041754705",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Richensee 1",
+    "description": "während der Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "opening_hours": "Mo. - Do. 08.00 bis 12.00 und 13.00 bis 17.15, Fr. 08.00 bis 12.00 und 13.00 bis 16.00",
+    "operator": "Gewerbe",
+    "phone": "+41414408440",
+    "id": "node/11041754705"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2527107,
+      47.2215226
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11041813705",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Aarauerstrasse 75, 5200 Brugg (Werkgelände Hunziker Kalksandstein AG)",
+    "description": "nur während Öffnungszeiten der Produktion zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 7:00-16:45 Uhr",
+    "operator": "Hunziker Kalksandstein AG",
+    "phone": "+41 56 460 54 66",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11041813705"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1974316,
+      47.4727136
+    ]
+  }
 }
 ]
 }
