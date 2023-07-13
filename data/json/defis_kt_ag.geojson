@@ -21331,6 +21331,52 @@
       47.4452651
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/11044038205",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Mehrzweckhalle",
+    "description": "Befindet sich im Gebäude",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Niederrohrdorf, Hauswartsteam",
+    "phone": "+41 56 485 61 08",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11044038205"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3037221,
+      47.4204837
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11044039205",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Werkhof, Dorfschürplatz",
+    "description": "Öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde Niederrohrdorf, Bauamt",
+    "phone": "+41 56 496 25 73",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11044039205"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3044517,
+      47.4230353
+    ]
+  }
 }
 ]
 }
