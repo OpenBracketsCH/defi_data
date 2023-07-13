@@ -1105,7 +1105,8 @@
   "type": "Feature",
   "id": "node/5831745723",
   "properties": {
-    "defibrillator:location": "Hinter den beiden Aufzügen, gegenüber vom Empfang. / Behind the two elevators, opposite the reception.",
+    "access": "yes",
+    "defibrillator:location": "Empfangsbereich neben Liftanlage",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -66882,6 +66883,26 @@
     "coordinates": [
       8.7127614,
       47.1750084
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11043368085",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "2 Stock",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "ewz",
+    "id": "node/11043368085"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5492671,
+      47.4089829
     ]
   }
 }
