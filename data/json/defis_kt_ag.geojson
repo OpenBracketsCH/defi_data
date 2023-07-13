@@ -21294,7 +21294,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 7:00-16:45 Uhr",
+    "opening_hours": "Mo-Do 7-12/13-16:45 und Fr 7-12/13-16 Uhr",
     "operator": "Hunziker Kalksandstein AG",
     "phone": "+41 56 460 54 66",
     "source": "local_knowledge, defikarte.ch",
@@ -21305,6 +21305,30 @@
     "coordinates": [
       8.1993252,
       47.4735875
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11043850005",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Eingang zum Ärtzezentrum",
+    "description": "Beim Eingang zum Ärtzezentrum / neben Briefkastenanlage",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Landi Würenlos ",
+    "phone": "0584765566",
+    "id": "node/11043850005"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3565875,
+      47.4452651
     ]
   }
 }
