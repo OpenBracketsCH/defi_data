@@ -155216,29 +155216,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11038063713",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Werkhof Gemeinde Oberuzwil",
-    "description": "an der Aussenwand bei den Toren ",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "Parterre",
-    "operator": "Gemeinde Oberuzwil",
-    "phone": "+41794102732",
-    "id": "node/11038063713"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.1293104,
-      47.431046
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11038063718",
   "properties": {
     "access": "no",
@@ -156533,6 +156510,30 @@
     "coordinates": [
       8.5586607,
       47.3710939
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11044416005",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Sonnhalde 15",
+    "description": "AED ist nicht öffentlich zugänglich. Gerne vorher anrufen oder einfach vorbeikommen.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Marcel + Barbara DUCCESCHI",
+    "phone": "+41 79 405 55 54",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11044416005"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.104592,
+      47.3635894
     ]
   }
 }

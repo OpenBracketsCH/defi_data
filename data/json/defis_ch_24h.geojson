@@ -97524,13 +97524,15 @@
   "id": "node/11035592804",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Gewerbestrasse 2",
+    "defibrillator:location": "Werkhof Gemeinde Oberuzwil",
     "description": "Zwischen den Garagentoren des Werkhofs, in der Mitte.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Oberuzwil",
+    "operator:phone": "+41 71 950 48 50",
     "id": "node/11035592804"
   },
   "geometry": {
@@ -98593,30 +98595,6 @@
     "coordinates": [
       8.7789023,
       47.2942647
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11038066306",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Werkhof, Gewerbestrasse 2, 9242 Oberuzwil",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde",
-    "phone": "+41 71 950 48 50",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/11038066306"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.1293007,
-      47.4311284
     ]
   }
 },
