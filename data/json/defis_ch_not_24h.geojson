@@ -52868,29 +52868,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8560769140",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Erdgeschoss, an der Wand rechts",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-We 08:30-12:00,13:30-16:00; Th 08:30-12:00,13:30-18:30; Fr 07:30-14:00",
-    "operator": "Gemeindeverwaltung Urdorf",
-    "phone": "+41 44 736 51 11",
-    "id": "node/8560769140"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4274531,
-      47.3865117
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8560769141",
   "properties": {
     "access": "no",
@@ -53127,11 +53104,10 @@
   "id": "node/8560811261",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bachschulhaus, Eingang Bachschulhaus, nach oben führende Treppen, rechts an der Wand oder Eingang Bibliothek, durch Notausgang, links an der Wand",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Bachschulhaus, Eingang Friedhofstrasse, Öffentlich zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "operator": "Gemeindeverwaltung Urdorf",
     "phone": "+41 44 736 51 11",
     "id": "node/8560811261"
@@ -53139,8 +53115,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4225816,
-      47.3825978
+      8.4226243,
+      47.3826473
     ]
   }
 },
@@ -156276,6 +156252,26 @@
     "coordinates": [
       8.9050359,
       47.4943965
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11051121005",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeinde Verwaltung Breitenbach ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "EG ",
+    "id": "node/11051121005"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5443308,
+      47.4081574
     ]
   }
 }
