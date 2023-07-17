@@ -156211,6 +156211,73 @@
       47.3712781
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/11050646050",
+  "properties": {
+    "access": "customers",
+    "defibrillator:location": "à l'entrée directe à gauche contre le mur",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/11050646050"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.5773655,
+      46.5376243
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11050750205",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Turnhalle ",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo. bis Fr. 07.00 - 22.00",
+    "operator": "Schule",
+    "phone": "+41 52 368 83 03",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11050750205"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9149225,
+      47.4785077
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11050753305",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Sporthalle Aadorf, Haupteingang links",
+    "description": "während Öffnungszeiten zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo. - Fr. 06.00 - 22.00",
+    "operator": "Gemeinde, Schule",
+    "phone": "+41 52 368 83 03",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11050753305"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9050359,
+      47.4943965
+    ]
+  }
 }
 ]
 }
