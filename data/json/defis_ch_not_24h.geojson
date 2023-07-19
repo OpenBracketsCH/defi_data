@@ -53104,12 +53104,11 @@
   "type": "Feature",
   "id": "node/8560811262",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Werkhof Tyslimatt, Werkgebäude, Treppe Eingang oben, links an der Wand",
-    "description": "während Öffnungszeiten verfügbar",
+    "access": "yes",
+    "defibrillator:location": "Werkhof Tyslimatt, Werkgebäude, Bei Haupttor Sammelstelle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "operator": "Gemeindeverwaltung Urdorf",
     "phone": "+41 44 736 51 11",
     "id": "node/8560811262"
@@ -53117,8 +53116,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4327149,
-      47.3729177
+      8.4327779,
+      47.3730678
     ]
   }
 },
@@ -155879,7 +155878,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Do 7-12/13-16:45 und Fr 7-12/13-16 Uhr",
+    "opening_hours": "Mo-Th 07:00-12:00,13:00-16:45; Fr 07:00-12:00,13:00-16:00",
     "operator": "Hunziker Kalksandstein AG",
     "phone": "+41 56 460 54 66",
     "source": "local_knowledge, defikarte.ch",
