@@ -49987,6 +49987,7 @@
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "fixme": "source???",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 07:00 - 17:00",
     "operator": "Helbling AG",
@@ -156346,6 +156347,28 @@
     "coordinates": [
       8.2925581,
       47.586215
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11054630806",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Badi Steinach Innenbereich",
+    "description": "während Badeseson zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "operator": "Gemeinde",
+    "id": "node/11054630806"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4431128,
+      47.505089
     ]
   }
 }
