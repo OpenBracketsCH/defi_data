@@ -11758,29 +11758,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7928159877",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Sanitätszimmer",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "name": "Dreifachsporthalle Röhrliberg",
-    "operator": "Einwohnergemeinde Cham",
-    "id": "node/7928159877"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.455798,
-      47.183152
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7928159878",
   "properties": {
     "defibrillator:location": "Beim Bademeister / Kiosk",
@@ -11857,8 +11834,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4583917,
-      47.1804995
+      8.4582962,
+      47.1806231
     ]
   }
 },
@@ -12073,6 +12050,7 @@
     "defibrillator:location": "An der Wand des Feuerwehrgebäudes, beim Seiteneingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Cham",
@@ -17603,8 +17581,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4541002,
-      47.1839103
+      8.4544569,
+      47.1842457
     ]
   }
 },
@@ -17612,22 +17590,22 @@
   "type": "Feature",
   "id": "node/8317714108",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Haupteingang rechts",
-    "description": "während Öffnungszeiten verfügbar",
+    "access": "yes",
+    "defibrillator:location": "Aussenwand beim Eingang",
+    "description": "24h/7 zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "level": "0",
-    "name": "Schulhaus Kirchbühl 2",
+    "name": "Eingang Parkhaus Rigiplatz",
     "operator": "Einwohnergemeinde Cham",
     "id": "node/8317714108"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4568682,
-      47.1803026
+      8.4566094,
+      47.1806858
     ]
   }
 },
@@ -17636,7 +17614,7 @@
   "id": "node/8317714109",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Nordtrakt",
+    "defibrillator:location": "Nordtrakt Haupteingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -17649,8 +17627,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4641397,
-      47.1830262
+      8.4638362,
+      47.1828294
     ]
   }
 },
@@ -17674,8 +17652,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4631258,
-      47.1829751
+      8.4622269,
+      47.1825745
     ]
   }
 },
@@ -64612,8 +64590,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4547627,
-      47.1836587
+      8.4540144,
+      47.1837353
     ]
   }
 },
@@ -64636,8 +64614,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4559301,
-      47.1832454
+      8.4560508,
+      47.1829118
     ]
   }
 },
@@ -66884,6 +66862,44 @@
     "coordinates": [
       8.5676193,
       47.4360852
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11059278582",
+  "properties": {
+    "access": "öffentlich_24h",
+    "defibrillator:location": "Aussenwand Eingang",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "operator": "Einwohnergemeinde Cham",
+    "id": "node/11059278582"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4592539,
+      47.1853515
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11059373952",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussenwand Eingang Chinderhuus",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "operator": "Einwohnergemeinde Cham",
+    "id": "node/11059373952"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4514092,
+      47.1784289
     ]
   }
 }
