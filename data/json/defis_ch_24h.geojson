@@ -23110,11 +23110,12 @@
   "id": "node/7579649185",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "In Polizeidienststelle",
+    "defibrillator:location": "Gemeindeverwaltung, Chamerstrasse 11, Links vom Haupteingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Kanton Zug",
+    "operator": "Gemeinde",
     "id": "node/7579649185"
   },
   "geometry": {
@@ -33045,6 +33046,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/7928195414",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Kemmatten, Huobstrasse 30, Links vom Eingang Ostseite",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "id": "node/7928195414"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4464049,
+      47.1761968
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/7928195415",
   "properties": {
     "defibrillator:location": "Eingang Primarschule, Schulhaus Eichmatt, West Seite",
@@ -33061,6 +33085,75 @@
     "coordinates": [
       8.4472584,
       47.1773938
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7928195416",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Rony, Lindenbergstrasse 25, Rechts vom Haupteingang",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "id": "node/7928195416"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4265083,
+      47.1807328
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7928195417",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Dreifachturnhalle, Zentrumstrasse 10, Rechts vom Haupteingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "id": "node/7928195417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.430317,
+      47.1734036
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7928195418",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "\"Saal Heinrich von Hünenberg\", Zentrumstrasse 1, Rechts vom Haupteingang",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "id": "node/7928195418"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4279238,
+      47.1743526
     ]
   }
 },
@@ -97029,6 +97122,31 @@
 },
 {
   "type": "Feature",
+  "id": "node/10976407605",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Eingang, von extern erreichbar",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "armasuisse Immobilien",
+    "phone": "+41 79 629 23 42",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10976407605"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9039576,
+      46.1431617
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10976995005",
   "properties": {
     "access": "yes",
@@ -99038,6 +99156,30 @@
     "coordinates": [
       8.7814413,
       47.6767106
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11064993411",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hauswand beim Werkhof",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Roman Wagner",
+    "phone": "+41 79 617 02 82",
+    "id": "node/11064993411"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.856048,
+      47.3928286
     ]
   }
 }

@@ -5982,11 +5982,12 @@
   "id": "node/7579649185",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "In Polizeidienststelle",
+    "defibrillator:location": "Gemeindeverwaltung, Chamerstrasse 11, Links vom Haupteingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Kanton Zug",
+    "operator": "Gemeinde",
     "id": "node/7579649185"
   },
   "geometry": {
@@ -12197,18 +12198,23 @@
   "type": "Feature",
   "id": "node/7928195413",
   "properties": {
-    "defibrillator:location": "Im Pikett und Atemschutzfahrzeug",
+    "access": "no",
+    "defibrillator:location": "Im Feuerwehrdepot, Zentrumstrasse 12, in den Fahrzeugen Hüno 1 & 3",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "level": "0",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
+    "operator": "Gemeinde",
+    "phone": "+41417802521",
     "id": "node/7928195413"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4310681,
-      47.1732814
+      8.4310976,
+      47.1733142
     ]
   }
 },
@@ -12216,10 +12222,15 @@
   "type": "Feature",
   "id": "node/7928195414",
   "properties": {
-    "description": "während Öffnungszeiten verfügbar",
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Kemmatten, Huobstrasse 30, Links vom Eingang Ostseite",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
     "id": "node/7928195414"
   },
   "geometry": {
@@ -12255,11 +12266,15 @@
   "type": "Feature",
   "id": "node/7928195416",
   "properties": {
-    "defibrillator:location": "Zugang Aula/Turnhalle",
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Rony, Lindenbergstrasse 25, Rechts vom Haupteingang",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
     "id": "node/7928195416"
   },
   "geometry": {
@@ -12274,11 +12289,15 @@
   "type": "Feature",
   "id": "node/7928195417",
   "properties": {
-    "defibrillator:location": "In der Turnhalle",
-    "description": "während Öffnungszeiten verfügbar",
+    "access": "yes",
+    "defibrillator:location": "Dreifachturnhalle, Zentrumstrasse 10, Rechts vom Haupteingang",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
     "id": "node/7928195417"
   },
   "geometry": {
@@ -12293,18 +12312,22 @@
   "type": "Feature",
   "id": "node/7928195418",
   "properties": {
-    "defibrillator:location": "Im Foyer im Innenbereich",
+    "access": "yes",
+    "defibrillator:location": "\"Saal Heinrich von Hünenberg\", Zentrumstrasse 1, Rechts vom Haupteingang",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
     "id": "node/7928195418"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4278601,
-      47.1742879
+      8.4279238,
+      47.1743526
     ]
   }
 },
@@ -43810,6 +43833,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Im Treppenhaus",
+    "description": "am 01.09.2023 bleibt der Defi geschlossen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -66942,6 +66966,29 @@
     "coordinates": [
       8.4227178,
       47.2593638
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11065087805",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Bürogebäude",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "AOZ - Asylorganisation Zürich",
+    "phone": "+41 44 415 60 90",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11065087805"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4909672,
+      47.3930801
     ]
   }
 }

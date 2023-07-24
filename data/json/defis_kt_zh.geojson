@@ -31386,6 +31386,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Im Treppenhaus",
+    "description": "am 01.09.2023 bleibt der Defi geschlossen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -50555,6 +50556,29 @@
     "coordinates": [
       8.4227178,
       47.2593638
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11065087805",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Bürogebäude",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "AOZ - Asylorganisation Zürich",
+    "phone": "+41 44 415 60 90",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11065087805"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4909672,
+      47.3930801
     ]
   }
 }
