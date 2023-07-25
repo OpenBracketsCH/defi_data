@@ -67168,6 +67168,7 @@
     "defibrillator:location": "Eingang Mensa",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Bildungszentrum Emme bz",
     "phone": "+41 31 635 32 05",
@@ -99225,6 +99226,102 @@
     "coordinates": [
       9.2827338,
       47.384618
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11067097908",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindehaus Kaisten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "phone": "+41 62 869 13 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11067097908"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0453557,
+      47.5399661
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11067097909",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raiffeisenbank Regio Laufenburg",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Raiffeisenbank Regio Laufenburg",
+    "phone": "+41 62 869 13 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11067097909"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0455542,
+      47.5388507
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11067128805",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sas de l'entrée principale",
+    "description": "La journée en libre service, la nuit, pressez le bouton d'appel d'urgence, un soignant de nuit ouvrira la porte",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Home de la Vallée de la Jogne",
+    "phone": "+41 26 927 54 54",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11067128805"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.156831,
+      46.6223817
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11067196806",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Lagerhaus Tourismusverein",
+    "description": "An der Fassade beim Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Tourismusverein Lungern",
+    "phone": "+41799616241",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11067196806"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.163287,
+      46.7920059
     ]
   }
 }

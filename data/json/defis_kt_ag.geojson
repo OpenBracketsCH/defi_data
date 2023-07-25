@@ -21652,6 +21652,78 @@
       47.6063945
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/11067097908",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindehaus Kaisten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "phone": "+41 62 869 13 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11067097908"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0453557,
+      47.5399661
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11067097909",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raiffeisenbank Regio Laufenburg",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Raiffeisenbank Regio Laufenburg",
+    "phone": "+41 62 869 13 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11067097909"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0455542,
+      47.5388507
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11067121006",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Schulhaus Kaisten",
+    "description": "Während Schulzeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr: 07:30-17:00",
+    "operator": "Schule Kaisten",
+    "phone": "+41 62 869 13 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11067121006"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.042593,
+      47.5405455
+    ]
+  }
 }
 ]
 }

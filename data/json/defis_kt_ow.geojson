@@ -2334,12 +2334,11 @@
   "type": "Feature",
   "id": "node/11038063806",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "im Büro",
-    "description": "während Arbeitszeit",
+    "access": "yes",
+    "defibrillator:location": "beim Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "level": "EH",
     "operator": "Fixit AG",
     "phone": "+41 79 422 66 86",
@@ -2369,6 +2368,31 @@
     "coordinates": [
       8.4116301,
       46.8410615
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11067196806",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Lagerhaus Tourismusverein",
+    "description": "An der Fassade beim Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Tourismusverein Lungern",
+    "phone": "+41799616241",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11067196806"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.163287,
+      46.7920059
     ]
   }
 }

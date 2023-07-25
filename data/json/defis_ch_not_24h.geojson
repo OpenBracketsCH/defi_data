@@ -154951,12 +154951,11 @@
   "type": "Feature",
   "id": "node/11038063806",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "im Büro",
-    "description": "während Arbeitszeit",
+    "access": "yes",
+    "defibrillator:location": "beim Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "level": "EH",
     "operator": "Fixit AG",
     "phone": "+41 79 422 66 86",
@@ -156791,6 +156790,31 @@
     "coordinates": [
       8.2213837,
       47.6063945
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11067121006",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Schulhaus Kaisten",
+    "description": "Während Schulzeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr: 07:30-17:00",
+    "operator": "Schule Kaisten",
+    "phone": "+41 62 869 13 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11067121006"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.042593,
+      47.5405455
     ]
   }
 }
