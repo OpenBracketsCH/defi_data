@@ -6522,6 +6522,7 @@
     "defibrillator:location": "neben Bankomat, öffentlich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Samariterverein",
     "phone": "+41 34 497 27 78",
@@ -99321,6 +99322,28 @@
     "coordinates": [
       8.163287,
       46.7920059
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11067392805",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "WC-Häuschen bei Begegnungszone",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "EG",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "id": "node/11067392805"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7996056,
+      47.0580374
     ]
   }
 }
