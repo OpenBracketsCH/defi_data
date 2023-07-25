@@ -99182,6 +99182,51 @@
       47.3928286
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/11066486121",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hintereingang Gemeindehaus",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Spreitenbach",
+    "id": "node/11066486121"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3675762,
+      47.4196494
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11066524105",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Tiefgarage der Häuser Toracker Park 1,3,5,7,9,11",
+    "description": "Tiefgarage der Häuser Toracker Park 1,3,5,7,9,11. Mit Haus-/Wohnungsschlüssel, bzw. Garagenschlüssel, ca. 50 Wohneinheiten haben Zugang, im Notfall Eintritt über Hausglocken eines Hauses",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "24/7",
+    "operator": "Stockwerkeigentümer Toracker Park 5, 7, 9",
+    "phone": "+41 79 396 90 04",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11066524105"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2827338,
+      47.384618
+    ]
+  }
 }
 ]
 }
