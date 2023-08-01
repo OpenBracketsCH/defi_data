@@ -30783,30 +30783,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8154591438",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Bern",
-    "addr:housenumber": "10a",
-    "addr:postcode": "3011",
-    "addr:street": "Bahnhofplatz 10a",
-    "defibrillator:location": "Treffpunkt Seite Mc Donald",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Bahnhof Bern",
-    "id": "node/8154591438"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4402738,
-      46.948843
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8154591439",
   "properties": {
     "access": "yes",
@@ -34727,7 +34703,9 @@
   "type": "Feature",
   "id": "node/8964071103",
   "properties": {
+    "access": "yes",
     "check_date": "2021-07-29",
+    "defibrillator:location": "Am mittleren Pfeiler beim Treffpunkt (unterste Etage der Bahnhofshalle)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -34738,8 +34716,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4401176,
-      46.9489069
+      7.4400753,
+      46.9489531
     ]
   }
 },
