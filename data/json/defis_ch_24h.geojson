@@ -92533,7 +92533,7 @@
   "type": "Feature",
   "id": "node/10778084305",
   "properties": {
-    "access": "no",
+    "access": "yes",
     "defibrillator:location": "Mur est de l’hôtel de ville, sous l’arche",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -99590,6 +99590,26 @@
     "coordinates": [
       8.5681123,
       47.5880844
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11096519505",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "en face de la porte de la boulangerie",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/11096519505"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.5214262,
+      46.5252917
     ]
   }
 }
