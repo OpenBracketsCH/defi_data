@@ -79087,29 +79087,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9315745154",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Polizeistation: Links vom Haupteingang",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "Mo-Fr 08:00–11:30, 13:30–17:00",
-    "operator": "Hochbauamt Kanton St.Gallen",
-    "phone": "+41 58 229 30 17",
-    "id": "node/9315745154"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.824238,
-      47.2281644
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9315745159",
   "properties": {
     "access": "no",
@@ -152808,7 +152785,7 @@
     "indoor": "yes",
     "opening_hours": "7:30-17:00",
     "operator": "Migros Neuchâtel-Fribourg",
-    "phone": "+41793755577",
+    "phone": "+41 58 57 48 144",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10980357905"
   },
@@ -152833,7 +152810,7 @@
     "level": "0",
     "opening_hours": "08:00-19:00",
     "operator": "Migros Neuchâtel-Fribourg",
-    "phone": "+41793755577",
+    "phone": "+41 58 57 38 144",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10980361105"
   },
@@ -152858,7 +152835,7 @@
     "level": "0",
     "opening_hours": "08:00-19:00",
     "operator": "Migros Neuchâtel-Fribourg",
-    "phone": "+41793755577",
+    "phone": "+41 58 57 35 861",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10980367806"
   },
@@ -152883,7 +152860,7 @@
     "level": "0",
     "opening_hours": "08:00-19:00",
     "operator": "Migros Neuchâtel-Fribourg",
-    "phone": "+41793755577",
+    "phone": "+41 58 57 33 144",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10980369505"
   },
@@ -152900,7 +152877,7 @@
   "id": "node/10980373205",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Migros Métropole ",
+    "defibrillator:location": "Migros Métropole",
     "description": "durant les heures d'ouverture du centre",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -152908,7 +152885,7 @@
     "level": "0",
     "opening_hours": "08:00-19:00",
     "operator": "Migros Neuchâtel-Fribourg",
-    "phone": "+41793755577",
+    "phone": "+41 58 57 31 144",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10980373205"
   },
@@ -152932,7 +152909,7 @@
     "indoor": "yes",
     "opening_hours": "08:00-19:00",
     "operator": "Migros Neuchâtel-Fribourg",
-    "phone": "+41793755577",
+    "phone": "+41 58 57 30 744",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10980375505"
   },
@@ -157596,6 +157573,28 @@
     "coordinates": [
       8.971019,
       47.6591046
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11110428906",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "beim Empfang",
+    "description": "nur wenn bewartet",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "operator": "SAC",
+    "id": "node/11110428906"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.8801612,
+      46.4039468
     ]
   }
 }
