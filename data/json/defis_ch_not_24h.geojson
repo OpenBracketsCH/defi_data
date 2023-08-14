@@ -82764,6 +82764,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/9406836542",
+  "properties": {
+    "access": "permit",
+    "defibrillator:location": "während Umbau neu im TopShop nur während Öffnungszeiten verfügbar",
+    "description": "nur während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "Mo-Sa 0600-2200 Uhr und So 0800 bis 2000 Uhr",
+    "operator": "LANDI THULA, Sicherheitsbeauftragter",
+    "phone": "+41 52 369 40 00",
+    "id": "node/9406836542"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9362966,
+      47.5149245
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9406921984",
   "properties": {
     "access": "permissive",
@@ -157596,6 +157619,31 @@
     "coordinates": [
       9.8801612,
       46.4039468
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11113805712",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Heilpädagogische Schule St. Gallen - Parterre rechts hinter Glaswand",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo - Fr 07:30 - 17:00",
+    "operator": "Heilpädagogische Schule",
+    "phone": "+41712283060",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11113805712"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3869853,
+      47.4250968
     ]
   }
 }
