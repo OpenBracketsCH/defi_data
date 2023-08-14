@@ -223,6 +223,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/5858912417",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sportanlage Mulets, Via Mulets 9",
+    "description": "beim Eingang UG (Sportplätze) an der Wand montiert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "entrance": "yes",
+    "indoor": "yes",
+    "layer": "0",
+    "operator": "Gemeinde Silvaplana",
+    "phone": "+41 81 838 70 80",
+    "id": "node/5858912417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.7953022,
+      46.4565727
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/5979337846",
   "properties": {
     "defibrillator:location": "in beheiztem Aussenkasten",
@@ -6750,21 +6774,20 @@
   "id": "node/9791648271",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Eingang ab Via dal Farrer zum Parkhaus Munterots und Volgladen, Der Defi befindet sich im Vorraum zum Lift, an der Glaswand montiert",
-    "description": "24h verfügbar",
+    "defibrillator:location": "Via dal Farrer 6\n\nVolg-Eingang ab Via dal Farrer zum Parkhaus Munterots, Der Defi befindet sich im Vorraum zum Lift, an der Glaswand montiert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "24/7",
-    "operator": "Gemeinde Silvaplana / Patrik Eichholzer",
+    "operator": "Gemeinde Silvaplana",
     "phone": "+41 81 838 70 80",
     "id": "node/9791648271"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.7967282,
-      46.4599771
+      9.7962081,
+      46.4601203
     ]
   }
 },
@@ -6889,11 +6912,11 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "jeweils im Sommer von Juni bis Ende Oktober beim Eingang zum Laden, an der Fassade",
-    "description": "24h verfügbar (im Sommer)",
+    "description": "24h/7 verfügbar (im Sommer)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Gemeinde Silvaplana/Eichholzer Patrik",
+    "operator": "Gemeinde Silvaplana",
     "phone": "+41 81 838 70 80",
     "id": "node/9792509196"
   },
@@ -6902,28 +6925,6 @@
     "coordinates": [
       9.7930254,
       46.4561735
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9792509197",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "jeweils im Winter beim Eingang UG (Sportplätze) an der Wand montiert",
-    "description": "24h verfügbar (im Winter)",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Gemeinde Silvaplana/Eichholzer Patrik",
-    "phone": "+41 81 838 70 80",
-    "id": "node/9792509197"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.7952543,
-      46.4566604
     ]
   }
 },
@@ -11292,7 +11293,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Via vers Mulin 41",
-    "description": "an Hausfassade",
+    "description": "an Hausfassade Gewerbehaus K+M Haustechnik AG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",

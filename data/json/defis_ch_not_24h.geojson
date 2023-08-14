@@ -4763,6 +4763,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/5858912417",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sportanlage Mulets, Via Mulets 9",
+    "description": "beim Eingang UG (Sportplätze) an der Wand montiert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "entrance": "yes",
+    "indoor": "yes",
+    "layer": "0",
+    "operator": "Gemeinde Silvaplana",
+    "phone": "+41 81 838 70 80",
+    "id": "node/5858912417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.7953022,
+      46.4565727
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/5862265757",
   "properties": {
     "access": "yes",
@@ -95600,11 +95624,11 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "jeweils im Sommer von Juni bis Ende Oktober beim Eingang zum Laden, an der Fassade",
-    "description": "24h verfügbar (im Sommer)",
+    "description": "24h/7 verfügbar (im Sommer)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Gemeinde Silvaplana/Eichholzer Patrik",
+    "operator": "Gemeinde Silvaplana",
     "phone": "+41 81 838 70 80",
     "id": "node/9792509196"
   },
@@ -95613,28 +95637,6 @@
     "coordinates": [
       9.7930254,
       46.4561735
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9792509197",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "jeweils im Winter beim Eingang UG (Sportplätze) an der Wand montiert",
-    "description": "24h verfügbar (im Winter)",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Gemeinde Silvaplana/Eichholzer Patrik",
-    "phone": "+41 81 838 70 80",
-    "id": "node/9792509197"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.7952543,
-      46.4566604
     ]
   }
 },
