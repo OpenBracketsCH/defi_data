@@ -48487,29 +48487,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8317714108",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Aussenwand beim Eingang Parkhaus",
-    "description": "24h/7 zugänglich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "name": "Eingang Parkhaus Rigiplatz",
-    "operator": "Einwohnergemeinde Cham",
-    "id": "node/8317714108"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4566282,
-      47.1806767
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8317714109",
   "properties": {
     "access": "no",
@@ -138624,12 +138601,13 @@
   "id": "node/10763310374",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Im Sani-Zimmer, EG",
+    "defibrillator:location": "Im Sanitätsraum, EG",
     "description": "oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "latitude": "46.84935",
+    "level": "0",
     "longitude": "9.51484",
     "name": "Kantonale Verwaltung Graubünden (Hochbauamt)",
     "operator": "Lifetec AG Schweiz",
@@ -138639,8 +138617,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.51484,
-      46.84935
+      9.5146308,
+      46.849317
     ]
   }
 },
