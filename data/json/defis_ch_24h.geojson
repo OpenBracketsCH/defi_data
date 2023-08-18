@@ -99909,6 +99909,23 @@
 },
 {
   "type": "Feature",
+  "id": "node/11123557139",
+  "properties": {
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "wheelchair": "yes",
+    "id": "node/11123557139"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.681827,
+      46.6118479
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/11124376606",
   "properties": {
     "access": "yes",
@@ -99929,6 +99946,55 @@
     "coordinates": [
       9.5151955,
       46.8472705
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11125005605",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schwimmbad Ost an Aussenmauer",
+    "description": "24h",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadt Solothurn",
+    "phone": "+41 32 626 92 70",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11125005605"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5280058,
+      47.1993212
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11125009705",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haus am Land / Jugendherberge Solothurn / auf der rechten Seite bei Eingangstüre ",
+    "description": "unter der Laube",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadt Solothurn",
+    "phone": "+41 32 626 92 70",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11125009705"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5371146,
+      47.2065594
     ]
   }
 }
