@@ -61969,7 +61969,7 @@
   "id": "node/9207304420",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Eingang Schulhaus",
+    "defibrillator:location": "Rechts neben dem Schulhauseingang",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -61981,8 +61981,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.0094583,
-      47.2697613
+      9.0095163,
+      47.269872
     ]
   }
 },
@@ -100114,6 +100114,30 @@
     "coordinates": [
       9.6448535,
       47.4155799
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11139756705",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Schachen ",
+    "description": "Draussen 24/7 Zugänglich ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "Eg Aussen",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Werthenstein",
+    "phone": "0798196036",
+    "id": "node/11139756705"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1432098,
+      47.036255
     ]
   }
 }
