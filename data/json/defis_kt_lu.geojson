@@ -19499,7 +19499,7 @@
   "id": "node/11139756705",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schulhaus Schachen ",
+    "defibrillator:location": "Schulhaus Schachen",
     "description": "Draussen 24/7 Zugänglich ",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -19507,7 +19507,7 @@
     "level": "Eg Aussen",
     "opening_hours": "24/7",
     "operator": "Gemeinde Werthenstein",
-    "phone": "0798196036",
+    "phone": "+41 41 490 23 23",
     "id": "node/11139756705"
   },
   "geometry": {
@@ -19515,6 +19515,23 @@
     "coordinates": [
       8.1432098,
       47.036255
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11143854725",
+  "properties": {
+    "defibrillator:location": "In the waiting room of the train station, on the wall in a green box.",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/11143854725"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.464526,
+      47.0482586
     ]
   }
 }
