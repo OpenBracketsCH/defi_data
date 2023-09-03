@@ -5871,6 +5871,7 @@
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "Mo-Su 07:00-22:00",
     "id": "node/7933782681"
   },
@@ -26151,6 +26152,29 @@
     "coordinates": [
       9.3040612,
       47.4062915
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11165187705",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Raiffeisenbank Flums",
+    "description": "Mit Bankkarte immer erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "opening_hours": "24/7",
+    "operator": "Raiffeisenbank Flums",
+    "id": "node/11165187705"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3423344,
+      47.0916627
     ]
   }
 }
