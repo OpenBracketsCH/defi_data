@@ -100852,14 +100852,13 @@
   "type": "Feature",
   "id": "node/11191216137",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Umgangweg 25, 4623 Neuendorf ",
+    "access": "permit",
+    "defibrillator:location": "Umgangweg 25, 4623 Neuendorf",
     "description": "Schopf, Innen Süd-Ost",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
     "opening_hours": "24/7",
-    "operator": "Privat",
+    "operator": "Lukas von Arx, Umgangweg 29, 4623 Neuendorf",
     "phone": "+41796086513",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/11191216137"
@@ -100867,8 +100866,30 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7956527,
-      47.3034616
+      7.7957278,
+      47.3034925
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11191237437",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bushaltestelle (Richtung Gurmels) Schulhaus",
+    "description": "Draussen frei zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Samariter Salvenach u. U.",
+    "id": "node/11191237437"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1499137,
+      46.9123577
     ]
   }
 }
