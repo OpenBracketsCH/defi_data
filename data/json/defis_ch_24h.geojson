@@ -3892,6 +3892,7 @@
     "addr:postcode": "4934",
     "addr:street": "Obergasse",
     "defibrillator:location": "Links von Eingang Linksmäderhalle, hinter Gemeindeverwaltung",
+    "description": "MOMENTAN KEINE ELEKTRODEN VORHANDEN!",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -25633,6 +25634,27 @@
     "coordinates": [
       8.2008515,
       47.1005916
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818605",
+  "properties": {
+    "defibrillator:location": "Im geschützten Aussenbereich beim Eingang bei der Basisstufe",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Schulanlage Basisstufe",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Beromünster",
+    "id": "node/7637818605"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2104943,
+      47.1757789
     ]
   }
 },
@@ -70897,7 +70919,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "24/7",
-    "operator": "Stiftung Altersbetreuung / Marcel Krähemann",
+    "operator": "Stiftung Leben im Alter Herisau",
     "phone": "+41713547575",
     "id": "node/9625734328"
   },
