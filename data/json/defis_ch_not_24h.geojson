@@ -159458,6 +159458,53 @@
       46.8203742
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/11217449238",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "TBGN Werkstatt, Risi 30, Näfels",
+    "description": "während Arbeitszeiten nur für Mitarbeiter verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "operator": "TBGN",
+    "phone": "+41586117711",
+    "id": "node/11217449238"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0565873,
+      47.0946488
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11217519037",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Schulhaus Kornmatte, Kantonsstrasse 20, 6232 Geuensee",
+    "description": "Hinweise zum Zugang zur Niederlassung : Eingang Turnhalle / Schulhaus (während Schulferien und Feiertagen geschlossen)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07.30 bis 18.00 Uhr",
+    "operator": "Gemeinde",
+    "phone": "+41419257979",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11217519037"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1109571,
+      47.1961282
+    ]
+  }
 }
 ]
 }
