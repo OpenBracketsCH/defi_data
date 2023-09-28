@@ -28267,13 +28267,9 @@
   "id": "node/7545990832",
   "properties": {
     "access": "yes",
-    "addr:city": "Bern",
-    "addr:housenumber": "10",
-    "addr:postcode": "3001",
-    "addr:street": "Rainmattstrasse",
-    "defibrillator:location": "-",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "fixme": "Please add information about exact position of defibrillator (defibrillator:location) and access hours (opening_hours).",
     "opening_hours": "24/7",
     "operator": "Schweizerisches Rotes Kreuz - Geschäftsstelle Bern",
     "phone": "+41 58 400 41 18",
@@ -29516,6 +29512,7 @@
   "properties": {
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "fixme": "Please check whether this defibrillator still exists and improve its location.",
     "indoor": "no",
     "id": "node/7934292446"
   },
