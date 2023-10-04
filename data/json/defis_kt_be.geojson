@@ -19355,7 +19355,7 @@
     "defibrillator:location": "In der grossen Halle im Pausenraum",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "Mo-Fr 06:00-17:30",
+    "opening_hours": "Mo-Fr 07:00-17:00",
     "operator": "Kern AG",
     "phone": "+41 31 790 35 35",
     "id": "node/6658344649"
@@ -38011,14 +38011,14 @@
   "id": "node/9373986257",
   "properties": {
     "access": "permissive",
-    "addr:city": "Konolfingen",
+    "addr:city": "Freimettigen",
     "addr:housenumber": "3",
     "addr:postcode": "3510",
     "addr:street": "Freimettigenstrasse",
     "defibrillator:location": "Im 1. OG neben der Stempeluhr",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "Mo-Fr 06:00-17:30",
+    "opening_hours": "Mo-Fr 07:00-17:00",
     "operator": "Kern AG",
     "phone": "+41 31 790 35 35",
     "id": "node/9373986257"
@@ -50569,6 +50569,30 @@
     "coordinates": [
       7.3035961,
       47.141278
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11238114762",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Landi Gebäude, nach dem Eingang durch die weisse Tür, auf der rechten Seite vor dem Lift",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "07:00 - 17:00",
+    "operator": "Kern AG",
+    "phone": "+41 31 790 35 35",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11238114762"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6219041,
+      46.8717639
     ]
   }
 }
