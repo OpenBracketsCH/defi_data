@@ -50522,6 +50522,55 @@
       46.9366642
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/11237779437",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hallenbad Primarschule Orpund, Eingang",
+    "description": "öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Primarschule Orpund",
+    "phone": "+41793434406",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11237779437"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3028558,
+      47.1416903
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11237782537",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Primarschulhaus, Eingang Mehrzweckhalle",
+    "description": "Während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Primarschule Orpund",
+    "phone": "+41793434406",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11237782537"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3035961,
+      47.141278
+    ]
+  }
 }
 ]
 }
