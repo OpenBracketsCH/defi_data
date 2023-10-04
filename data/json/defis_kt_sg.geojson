@@ -22261,7 +22261,7 @@
   "properties": {
     "access": "no",
     "defibrillator:location": "Im Kurslokal",
-    "description": "während Öffnungszeiten sowie Voranmeldung auf 079 554 24 13",
+    "description": "während Öffnungszeiten sowie Voranmeldung auf 144",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -22444,6 +22444,28 @@
     "coordinates": [
       9.2967217,
       47.090476
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11237882037",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Schule Krontal",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "2",
+    "phone": "+41789445698",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11237882037"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3973254,
+      47.4346918
     ]
   }
 }

@@ -20236,8 +20236,11 @@
   "type": "Feature",
   "id": "node/7518987364",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Cabina da telefon",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "operator": "Gemeinde Zernez",
     "id": "node/7518987364"
   },
@@ -160086,6 +160089,28 @@
     "coordinates": [
       7.3035961,
       47.141278
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11237882037",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Schule Krontal",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "2",
+    "phone": "+41789445698",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11237882037"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3973254,
+      47.4346918
     ]
   }
 }
