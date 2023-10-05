@@ -104103,28 +104103,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9969414417",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Stadtsaal Zofingen ",
-    "description": "während Betriebszeit verfügbar ",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Einwohnergemeinde Zofingen ",
-    "phone": "0627514934",
-    "id": "node/9969414417"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.9474366,
-      47.2908393
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9969829006",
   "properties": {
     "defibrillator:location": "Eingang ZSSw",
@@ -117734,7 +117712,6 @@
     "indoor": "yes",
     "level": "3",
     "opening_hours": "Mo-Fr 08:00-17:00",
-    "phone": "+41794377909",
     "id": "node/10308632210"
   },
   "geometry": {
@@ -160246,6 +160223,27 @@
     "coordinates": [
       8.5279199,
       47.4509566
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11241117051",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Au deuxième étage de l'administration communale, vers l'ascenseur ouest",
+    "description": "Pendant les heures d'ouverture",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "2",
+    "operator": "Ville de Lausanne",
+    "id": "node/11241117051"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.6257107,
+      46.5220424
     ]
   }
 }
