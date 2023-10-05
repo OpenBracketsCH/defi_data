@@ -43186,25 +43186,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7973871819",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "fixme": "defibrillator:location",
-    "indoor": "yes",
-    "operator": "Altersheim Diepoldsau",
-    "id": "node/7973871819"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.6668409,
-      47.3810169
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7978656699",
   "properties": {
     "emergency": "defibrillator",
@@ -77261,7 +77242,7 @@
     "indoor": "no",
     "opening_hours": "Mo-Fr 06:30-17:00",
     "operator": "Gemeinde Therwil Fabian Vögeli",
-    "phone": "+41 79 663 07 70",
+    "phone": "+41 79 663 07 72",
     "id": "node/9285731641"
   },
   "geometry": {
@@ -77284,7 +77265,7 @@
     "indoor": "no",
     "opening_hours": "Mo-Fr 06:30-20:00",
     "operator": "Gemeinde Therwil Fabian Vögeli",
-    "phone": "+41 79 663 07 70",
+    "phone": "+41 79 663 07 72",
     "id": "node/9285731643"
   },
   "geometry": {
@@ -160244,6 +160225,30 @@
     "coordinates": [
       6.6257107,
       46.5220424
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11241213471",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Turnhalle Hohfurri",
+    "description": "Während Schulzeiten Verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:20-18:00",
+    "operator": "Schule Hohfurri",
+    "phone": "+41 52 267 19 88",
+    "id": "node/11241213471"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6951904,
+      47.5077969
     ]
   }
 }
