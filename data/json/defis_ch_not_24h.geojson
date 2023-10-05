@@ -160200,6 +160200,54 @@
       47.3204323
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/11240998638",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Rathausgasse 29; Verkaufsraum/Haupteingang Apotheke",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 7.45-18.30; Sa 7.45-16.00",
+    "operator": "Toppharm Apotheke Göldlin",
+    "phone": "+41628221067",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11240998638"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0442882,
+      47.3924083
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11241007938",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Schulhaus Worbiger Katzenrütistrasse",
+    "description": "Schulturnhalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "opening_hours": "8.00 - 17.00",
+    "operator": "Gemeinde",
+    "id": "node/11241007938"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5279199,
+      47.4509566
+    ]
+  }
 }
 ]
 }
