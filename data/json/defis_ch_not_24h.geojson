@@ -20234,26 +20234,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7518987364",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Cabina da telefon",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Gemeinde Zernez",
-    "id": "node/7518987364"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      10.1109865,
-      46.768168
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7533067856",
   "properties": {
     "emergency": "defibrillator",
@@ -160149,6 +160129,75 @@
     "coordinates": [
       8.6890858,
       47.5139653
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11240722338",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Mehrzweckhalle",
+    "description": "Beim Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "MO - SO",
+    "operator": "Gemeinde",
+    "phone": "+41627893310",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11240722338"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9858804,
+      47.3198432
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11240732737",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kundenzentrum SG Stadtwerke",
+    "description": "Zu Bürozeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "SG Stadt",
+    "id": "node/11240732737"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3730961,
+      47.4229035
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11240738737",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raiffeisenbank Safenwil, Bahnhofstrasse 11",
+    "description": "Eingang Raiffeisenbank",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "MO-FR",
+    "operator": "Raiffeisenbank Region Zofingen",
+    "phone": "+4162 747 07 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11240738737"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.983461,
+      47.3204323
     ]
   }
 }
