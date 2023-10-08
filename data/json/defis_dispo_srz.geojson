@@ -3,6 +3,54 @@
 "features": [
 {
   "type": "Feature",
+  "id": "way/64387385",
+  "properties": {
+    "addr:city": "Zollikon",
+    "addr:country": "CH",
+    "addr:housenumber": "22",
+    "addr:postcode": "8702",
+    "addr:street": "Bergstrasse",
+    "amenity": "pharmacy",
+    "brand": "Fortis",
+    "building": "yes",
+    "check_date": "2023-10-08",
+    "emergency": "defibrillator",
+    "name": "Apotheke Zollikon",
+    "opening_hours": "Mo-Fr 08:00-12:30, 13:30-18:30, Sa 08:00-16:00",
+    "website": "https://www.apotheke-zollikon.ch/",
+    "wheelchair": "yes",
+    "id": "way/64387385"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          8.5775361,
+          47.340917
+        ],
+        [
+          8.5776361,
+          47.3409349
+        ],
+        [
+          8.5775846,
+          47.3410668
+        ],
+        [
+          8.5774846,
+          47.3410488
+        ],
+        [
+          8.5775361,
+          47.340917
+        ]
+      ]
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/692850699",
   "properties": {
     "access": "yes",
