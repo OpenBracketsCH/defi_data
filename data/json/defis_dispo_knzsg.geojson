@@ -901,17 +901,20 @@
   "id": "node/7559787490",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Weidmann AG",
-    "description": "beim Empfang melden",
+    "defibrillator:location": "Im Foyer beim Empfang",
+    "description": "während Öffnungs",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-17:30",
     "id": "node/7559787490"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8240144,
-      47.2270385
+      8.8239071,
+      47.2273682
     ]
   }
 },
