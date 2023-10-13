@@ -31442,6 +31442,7 @@
   "type": "Feature",
   "id": "node/7637818917",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "bei Briefkastenanlage",
     "description": "Campus",
     "emergency": "defibrillator",
@@ -31463,11 +31464,12 @@
   "type": "Feature",
   "id": "node/7637818918",
   "properties": {
-    "defibrillator:location": "Gang 1.OG",
-    "description": "Trainingszentrum Aabach OG",
+    "access": "yes",
+    "defibrillator:location": "Vor Haupteingang Gittertüre",
+    "description": "IPH Trainingszentrum Aabach",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "name": "IPH (Interkantonale Polizeischule Hitzkirch)",
     "operator": "IPH Hitzkirch",
     "id": "node/7637818918"
@@ -31475,8 +31477,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2489477,
-      47.2206148
+      8.2490121,
+      47.2203798
     ]
   }
 },
