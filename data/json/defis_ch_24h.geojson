@@ -102696,6 +102696,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/11266925470",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hurdnerwäldlistrasse 13",
+    "description": "unter Krandach",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Yachtwerft Faul AG",
+    "phone": "+41 55 410 23 50",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11266925470"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7929927,
+      47.2053506
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/11266932370",
   "properties": {
     "access": "yes",
@@ -102765,6 +102789,29 @@
     "coordinates": [
       8.3039314,
       47.0256412
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11268733569",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rathaus Eingang (Aussenbereich)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Politische Gemeinde Jenins",
+    "phone": "+41 81 300 41 50",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11268733569"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5554018,
+      47.0010803
     ]
   }
 }
