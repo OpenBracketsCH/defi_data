@@ -102528,7 +102528,7 @@
   "id": "node/11256996738",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Verwaltungsgebäude, Korporation Pfäffikon, Hurderwäldlistrasse 27a, 8808 Pfäffikon",
+    "defibrillator:location": "Verwaltungsgebäude, Korporation Pfäffikon, Hurdnerwäldlistrasse 27a, 8808 Pfäffikon",
     "description": "beim Treppenaufgang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -102763,6 +102763,31 @@
     "coordinates": [
       7.607941,
       47.553921
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11268541769",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Brädnistrasse 29, 6048 Horw",
+    "description": "Bei der Stiftung Brändi im Roten Gebäudeteil, zugänglich vom Innenhof (Gleisseite) unter der Terrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stiftung Brändi AWB Horw, Brändistrasse 31, 6048 Horw",
+    "phone": "+4141349 06 06",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11268541769"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3039314,
+      47.0256412
     ]
   }
 }
