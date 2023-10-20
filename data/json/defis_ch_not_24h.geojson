@@ -31442,7 +31442,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "bei Briefkastenanlage",
-    "description": "Campus",
+    "description": "IPH Campus\nZugang: 24/7",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -160951,6 +160951,44 @@
     "coordinates": [
       8.542388,
       47.3829071
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11276625603",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Gang vor Turnhalle",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "Interkantonale Polizeischule Hitzkirch",
+    "id": "node/11276625603"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.265729,
+      47.2229509
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11276693569",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Test im See",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/11276693569"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2259243,
+      47.1290461
     ]
   }
 }
