@@ -87051,10 +87051,12 @@
   "type": "Feature",
   "id": "node/9549424047",
   "properties": {
-    "defibrillator:location": "inside",
+    "defibrillator:location": "Treppenhaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Enerconom AG",
     "id": "node/9549424047"
   },
@@ -161625,6 +161627,30 @@
     "coordinates": [
       6.8962549,
       46.5280294
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11288573269",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Bürogebäude BSB + Partner Ingenieure und Planer AG",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr: 07:30 - 17:00",
+    "operator": "BSB + Partner Ingenieure und Planer AG",
+    "phone": "+41623883838",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11288573269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7076173,
+      47.287446
     ]
   }
 }

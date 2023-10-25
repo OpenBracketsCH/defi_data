@@ -2559,10 +2559,12 @@
   "type": "Feature",
   "id": "node/9549424047",
   "properties": {
-    "defibrillator:location": "inside",
+    "defibrillator:location": "Treppenhaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Enerconom AG",
     "id": "node/9549424047"
   },
@@ -6705,6 +6707,54 @@
     "coordinates": [
       7.7672023,
       47.2957122
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11288562069",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bergrestaurant Roggen, aussen an Flügelmauer bei Gartenwirtschaft",
+    "description": "öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Bürgergemeinde Oensingen",
+    "phone": "+41792963604",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11288562069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7173859,
+      47.3040945
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11288573269",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Bürogebäude BSB + Partner Ingenieure und Planer AG",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr: 07:30 - 17:00",
+    "operator": "BSB + Partner Ingenieure und Planer AG",
+    "phone": "+41623883838",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11288573269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7076173,
+      47.287446
     ]
   }
 }
