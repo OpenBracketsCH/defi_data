@@ -122,6 +122,7 @@
   "properties": {
     "access": "yes",
     "crossing": "uncontrolled",
+    "crossing:island": "no",
     "crossing_ref": "zebra",
     "defibrillator:location": "Eingang Bürogebäude Zürichsee Zeitung / Gessner Immobilien AG",
     "description": "während Öffnungszeiten verfügbar",
@@ -69180,6 +69181,26 @@
     "coordinates": [
       8.4932343,
       47.3898216
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11290954522",
+  "properties": {
+    "defibrillator:location": "Schiessplatz Cholmattli",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Logistikbasis der Armee",
+    "phone": "+41 58 481 57 75",
+    "id": "node/11290954522"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6960062,
+      47.1246276
     ]
   }
 }
