@@ -244,6 +244,7 @@
     "opening_hours": "Mo-Sa 06:45-19:00",
     "operator": "Gessner Immobilien AG",
     "phone": "+41 44 789 86 40",
+    "tactile_paving": "no",
     "id": "node/1836827140"
   },
   "geometry": {
@@ -161778,6 +161779,31 @@
     "coordinates": [
       8.4932343,
       47.3898216
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11291131869",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "In den Büroräumlichkeiten der International Biomedical AG",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo.-Fr. 08:00-17:00 Uhr",
+    "operator": "International Biomedical AG",
+    "phone": "+41 33 345 66 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11291131869"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5860167,
+      46.7746823
     ]
   }
 }
