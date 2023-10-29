@@ -2989,15 +2989,15 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Eveline Othenin-Girard",
+    "operator": "Eveline Othenin-Girard - Commune d'Eysin",
     "phone": "+41786223487",
     "id": "node/9327244573"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.2053955,
-      46.3806624
+      6.2053507,
+      46.3807096
     ]
   }
 },
@@ -6929,12 +6929,14 @@
   "type": "Feature",
   "id": "node/10795126048",
   "properties": {
+    "access": "customers",
     "description": "Dans le centre commercial, rez-de-chaussée, près de l'escalator",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "Défibrillateur",
     "opening_hours": "Mo-Fr 09:00-18:30; Sa 09:00-18:00",
+    "operator": "Centre commercial Arc--En-Ciel",
     "id": "node/10795126048"
   },
   "geometry": {
@@ -6989,7 +6991,7 @@
   "type": "Feature",
   "id": "node/10834276005",
   "properties": {
-    "access": "yes",
+    "access": "customers",
     "defibrillator:location": "2ème étage dans la Migros, à la sortie d'ascenseur",
     "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
@@ -7228,6 +7230,7 @@
   "type": "Feature",
   "id": "node/10903426103",
   "properties": {
+    "access": "customers",
     "defibrillator:location": "Depuis l'entrée principale piéton rez-de-chaussée, au fond à gauche dans le couloir ouest",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -7416,9 +7419,12 @@
   "type": "Feature",
   "id": "node/10937226772",
   "properties": {
-    "description": "Dans les WC",
+    "access": "yes",
+    "defibrillator:location": "Dans les WC public",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/10937226772"
   },
   "geometry": {
@@ -7433,8 +7439,12 @@
   "type": "Feature",
   "id": "node/10937302307",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Contre le mur des toilettes",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/10937302307"
   },
   "geometry": {
@@ -8051,10 +8061,13 @@
   "type": "Feature",
   "id": "node/11146274392",
   "properties": {
-    "description": "dans la pharmacie en entrant à droite",
+    "access": "customers",
+    "defibrillator:location": "dans la pharmacie en entrant à droite",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "Mo-Sa 08:00-12:15; Mo-Sa 13:30-18:30; Sa 13:30-16:00",
+    "operator": "Pharmacie Nicolas Martinet",
     "id": "node/11146274392"
   },
   "geometry": {
@@ -8168,12 +8181,15 @@
   "type": "Feature",
   "id": "node/11220648537",
   "properties": {
+    "access": "yes",
     "addr:housenumber": "46",
     "addr:street": "Route de Lausanne",
-    "description": "À l'entrée du rez inférieur côté terrain de sport",
+    "defibrillator:location": "À l'entrée du rez inférieur côté terrain de sport",
     "emergency": "defibrillator",
+    "indoor": "no",
     "name": "Défibrillateur terrain de sport",
     "opening_hours": "24/7",
+    "operator": "Commune d'Oron",
     "id": "node/11220648537"
   },
   "geometry": {
@@ -8190,9 +8206,11 @@
   "properties": {
     "addr:housenumber": "10",
     "addr:street": "Route de Lausanne",
-    "description": "À gauche dans le couvert de l'entrée principale",
+    "defibrillator:location": "À gauche dans le couvert de l'entrée principale",
     "emergency": "defibrillator",
+    "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Commune d'Oron",
     "id": "node/11220660565"
   },
   "geometry": {

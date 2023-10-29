@@ -267,6 +267,7 @@
   "type": "Feature",
   "id": "node/7352588261",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Dans la cabine téléphonique",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -3030,9 +3031,11 @@
   "type": "Feature",
   "id": "node/10776176795",
   "properties": {
-    "description": "À l'arrêt de bus - inside bus stop",
+    "access": "yes",
+    "defibrillator:location": "À l'arrêt de bus - inside bus stop",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "name": "Défibrillateur",
     "id": "node/10776176795"
   },
@@ -3118,12 +3121,13 @@
   "id": "node/10793514305",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Administration Communale (Gemeindeverwaltung)",
+    "defibrillator:location": "Contre le mur de l'Administration Communale (Gemeindeverwaltung)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
+    "operator": "Commune de Charmey",
     "id": "node/10793514305"
   },
   "geometry": {
@@ -3892,10 +3896,13 @@
   "type": "Feature",
   "id": "node/11105527003",
   "properties": {
-    "description": "À l'extérieur sur le côté du bâtiment, boîte à clé vitrée sur le côté pour ouvrir",
+    "access": "yes",
+    "defibrillator:location": "À l'extérieur sur le côté du bâtiment, boîte à clé vitrée sur le côté pour ouvrir",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Commune de Châtel-Saint-Denis",
     "id": "node/11105527003"
   },
   "geometry": {
@@ -4171,10 +4178,13 @@
   "type": "Feature",
   "id": "node/11205722725",
   "properties": {
+    "access": "yes",
     "addr:housenumber": "3",
-    "description": "À l'entrée de la salle polyvalente mur à droite",
+    "defibrillator:location": "À l'entrée de la salle polyvalente mur à droite",
     "emergency": "defibrillator",
+    "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Commune de Saint-Martin FR",
     "id": "node/11205722725"
   },
   "geometry": {
@@ -4211,8 +4221,11 @@
   "type": "Feature",
   "id": "node/11208028294",
   "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Devant l'entrée de la pharmacie",
     "emergency": "defibrillator",
     "opening_hours": "24/7",
+    "operator": "Pharmacie St-Raphaël",
     "id": "node/11208028294"
   },
   "geometry": {
@@ -4399,10 +4412,13 @@
   "type": "Feature",
   "id": "node/11274309240",
   "properties": {
+    "access": "yes",
     "addr:housenumber": "103",
     "addr:street": "Route de Montreux",
-    "description": "Sur portail nord à l'extérieur",
+    "check_date": "2023-10-13",
+    "defibrillator:location": "Sur portail nord à l'extérieur",
     "emergency": "defibrillator",
+    "indoor": "no",
     "opening_hours": "24/7",
     "id": "node/11274309240"
   },
@@ -4418,11 +4434,14 @@
   "type": "Feature",
   "id": "node/11274973847",
   "properties": {
+    "access": "yes",
     "addr:housenumber": "53",
     "addr:street": "Route Villageoise",
-    "description": "Sur le mur côté route",
+    "defibrillator:location": "Sur le mur côté route",
     "emergency": "defibrillator",
+    "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Commune de Remaufens",
     "id": "node/11274973847"
   },
   "geometry": {
@@ -4453,16 +4472,20 @@
   "type": "Feature",
   "id": "node/11288441935",
   "properties": {
-    "description": "à la sortie vers les caisses",
+    "access": "customers",
+    "defibrillator:location": "À l'entrée du magasin à gauche en entrant",
     "emergency": "defibrillator",
+    "indoor": "yes",
     "name": "Défibrillateur (Lidl)",
+    "opening_hours": "Mo-Th, Sa 07:00-20:00; Fr 07:00-21:00",
+    "operator": "Lidl",
     "id": "node/11288441935"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.8962549,
-      46.5280294
+      6.8962212,
+      46.5278646
     ]
   }
 },
@@ -4470,16 +4493,19 @@
   "type": "Feature",
   "id": "node/11298603425",
   "properties": {
-    "description": "Dans la cabine téléphonique",
+    "access": "yes",
+    "check_date": "2023-10-29",
+    "defibrillator:location": "Dans la cabine téléphonique",
     "emergency": "defibrillator",
+    "indoor": "no",
     "opening_hours": "24/7",
     "id": "node/11298603425"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.8519752,
-      46.5269744
+      6.852005,
+      46.5269763
     ]
   }
 }

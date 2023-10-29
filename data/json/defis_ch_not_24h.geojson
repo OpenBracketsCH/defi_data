@@ -144781,9 +144781,11 @@
   "type": "Feature",
   "id": "node/10776176795",
   "properties": {
-    "description": "À l'arrêt de bus - inside bus stop",
+    "access": "yes",
+    "defibrillator:location": "À l'arrêt de bus - inside bus stop",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "name": "Défibrillateur",
     "id": "node/10776176795"
   },
@@ -146127,12 +146129,14 @@
   "type": "Feature",
   "id": "node/10795126048",
   "properties": {
+    "access": "customers",
     "description": "Dans le centre commercial, rez-de-chaussée, près de l'escalator",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "Défibrillateur",
     "opening_hours": "Mo-Fr 09:00-18:30; Sa 09:00-18:00",
+    "operator": "Centre commercial Arc--En-Ciel",
     "id": "node/10795126048"
   },
   "geometry": {
@@ -147004,7 +147008,7 @@
   "type": "Feature",
   "id": "node/10834276005",
   "properties": {
-    "access": "yes",
+    "access": "customers",
     "defibrillator:location": "2ème étage dans la Migros, à la sortie d'ascenseur",
     "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
@@ -148967,6 +148971,7 @@
   "type": "Feature",
   "id": "node/10903426103",
   "properties": {
+    "access": "customers",
     "defibrillator:location": "Depuis l'entrée principale piéton rez-de-chaussée, au fond à gauche dans le couloir ouest",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -151024,39 +151029,6 @@
     "coordinates": [
       7.1012465,
       46.8067573
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10937226772",
-  "properties": {
-    "description": "Dans les WC",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/10937226772"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      6.8215316,
-      46.4683357
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10937302307",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/10937302307"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      6.8141301,
-      46.4700589
     ]
   }
 },
@@ -157851,10 +157823,13 @@
   "type": "Feature",
   "id": "node/11146274392",
   "properties": {
-    "description": "dans la pharmacie en entrant à droite",
+    "access": "customers",
+    "defibrillator:location": "dans la pharmacie en entrant à droite",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "Mo-Sa 08:00-12:15; Mo-Sa 13:30-18:30; Sa 13:30-16:00",
+    "operator": "Pharmacie Nicolas Martinet",
     "id": "node/11146274392"
   },
   "geometry": {
@@ -161579,16 +161554,20 @@
   "type": "Feature",
   "id": "node/11288441935",
   "properties": {
-    "description": "à la sortie vers les caisses",
+    "access": "customers",
+    "defibrillator:location": "À l'entrée du magasin à gauche en entrant",
     "emergency": "defibrillator",
+    "indoor": "yes",
     "name": "Défibrillateur (Lidl)",
+    "opening_hours": "Mo-Th, Sa 07:00-20:00; Fr 07:00-21:00",
+    "operator": "Lidl",
     "id": "node/11288441935"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.8962549,
-      46.5280294
+      6.8962212,
+      46.5278646
     ]
   }
 },

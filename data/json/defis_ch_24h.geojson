@@ -19788,6 +19788,7 @@
   "type": "Feature",
   "id": "node/7352588261",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Dans la cabine téléphonique",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -64553,15 +64554,15 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Eveline Othenin-Girard",
+    "operator": "Eveline Othenin-Girard - Commune d'Eysin",
     "phone": "+41786223487",
     "id": "node/9327244573"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.2053955,
-      46.3806624
+      6.2053507,
+      46.3807096
     ]
   }
 },
@@ -92915,12 +92916,13 @@
   "id": "node/10793514305",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Administration Communale (Gemeindeverwaltung)",
+    "defibrillator:location": "Contre le mur de l'Administration Communale (Gemeindeverwaltung)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
+    "operator": "Commune de Charmey",
     "id": "node/10793514305"
   },
   "geometry": {
@@ -96182,6 +96184,46 @@
     "coordinates": [
       7.806137,
       47.4601025
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10937226772",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Dans les WC public",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/10937226772"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8215316,
+      46.4683357
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10937302307",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Contre le mur des toilettes",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/10937302307"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8141301,
+      46.4700589
     ]
   }
 },
@@ -99650,10 +99692,13 @@
   "type": "Feature",
   "id": "node/11105527003",
   "properties": {
-    "description": "À l'extérieur sur le côté du bâtiment, boîte à clé vitrée sur le côté pour ouvrir",
+    "access": "yes",
+    "defibrillator:location": "À l'extérieur sur le côté du bâtiment, boîte à clé vitrée sur le côté pour ouvrir",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Commune de Châtel-Saint-Denis",
     "id": "node/11105527003"
   },
   "geometry": {
@@ -101250,10 +101295,13 @@
   "type": "Feature",
   "id": "node/11205722725",
   "properties": {
+    "access": "yes",
     "addr:housenumber": "3",
-    "description": "À l'entrée de la salle polyvalente mur à droite",
+    "defibrillator:location": "À l'entrée de la salle polyvalente mur à droite",
     "emergency": "defibrillator",
+    "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Commune de Saint-Martin FR",
     "id": "node/11205722725"
   },
   "geometry": {
@@ -101315,8 +101363,11 @@
   "type": "Feature",
   "id": "node/11208028294",
   "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Devant l'entrée de la pharmacie",
     "emergency": "defibrillator",
     "opening_hours": "24/7",
+    "operator": "Pharmacie St-Raphaël",
     "id": "node/11208028294"
   },
   "geometry": {
@@ -101678,12 +101729,15 @@
   "type": "Feature",
   "id": "node/11220648537",
   "properties": {
+    "access": "yes",
     "addr:housenumber": "46",
     "addr:street": "Route de Lausanne",
-    "description": "À l'entrée du rez inférieur côté terrain de sport",
+    "defibrillator:location": "À l'entrée du rez inférieur côté terrain de sport",
     "emergency": "defibrillator",
+    "indoor": "no",
     "name": "Défibrillateur terrain de sport",
     "opening_hours": "24/7",
+    "operator": "Commune d'Oron",
     "id": "node/11220648537"
   },
   "geometry": {
@@ -101700,9 +101754,11 @@
   "properties": {
     "addr:housenumber": "10",
     "addr:street": "Route de Lausanne",
-    "description": "À gauche dans le couvert de l'entrée principale",
+    "defibrillator:location": "À gauche dans le couvert de l'entrée principale",
     "emergency": "defibrillator",
+    "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Commune d'Oron",
     "id": "node/11220660565"
   },
   "geometry": {
@@ -102899,10 +102955,13 @@
   "type": "Feature",
   "id": "node/11274309240",
   "properties": {
+    "access": "yes",
     "addr:housenumber": "103",
     "addr:street": "Route de Montreux",
-    "description": "Sur portail nord à l'extérieur",
+    "check_date": "2023-10-13",
+    "defibrillator:location": "Sur portail nord à l'extérieur",
     "emergency": "defibrillator",
+    "indoor": "no",
     "opening_hours": "24/7",
     "id": "node/11274309240"
   },
@@ -102966,11 +103025,14 @@
   "type": "Feature",
   "id": "node/11274973847",
   "properties": {
+    "access": "yes",
     "addr:housenumber": "53",
     "addr:street": "Route Villageoise",
-    "description": "Sur le mur côté route",
+    "defibrillator:location": "Sur le mur côté route",
     "emergency": "defibrillator",
+    "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Commune de Remaufens",
     "id": "node/11274973847"
   },
   "geometry": {
@@ -103287,16 +103349,19 @@
   "type": "Feature",
   "id": "node/11298603425",
   "properties": {
-    "description": "Dans la cabine téléphonique",
+    "access": "yes",
+    "check_date": "2023-10-29",
+    "defibrillator:location": "Dans la cabine téléphonique",
     "emergency": "defibrillator",
+    "indoor": "no",
     "opening_hours": "24/7",
     "id": "node/11298603425"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.8519752,
-      46.5269744
+      6.852005,
+      46.5269763
     ]
   }
 }
