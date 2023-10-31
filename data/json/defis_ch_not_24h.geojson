@@ -82530,7 +82530,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "opening_hours": "Mo-Sa 0600-2200 Uhr und So 0800 bis 2000 Uhr",
+    "opening_hours": "Mo-Sa 06:00-22:00, Su 08:00-20:00",
     "operator": "LANDI THULA, Sicherheitsbeauftragter",
     "phone": "+41 52 369 40 00",
     "id": "node/9406836542"
@@ -147623,7 +147623,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "07.00 - 20.30 Uhr ",
+    "opening_hours": "07:00-20:30",
     "operator": "Stiftung VitaTertia Gossau ",
     "phone": "+41 71 388 95 55",
     "source": "local_knowledge, defikarte.ch",
@@ -151343,9 +151343,9 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo.-Fr.: 07.30-17.00Uhr Sa. 08.30-12.00Uhr",
+    "opening_hours": "Mo-Fr 07:30-17:00; Sa 08:30-12:00",
     "operator": "Goba AG",
-    "phone": "+41717953030",
+    "phone": "+41 71 795 30 30",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10946129905"
   },
@@ -151466,30 +151466,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10956758405",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Wohnstätte Hasenberg, Haupteingang, links an der Wand",
-    "description": "24h erreichbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "opening_hours": "00:00 Uhr -24:00 Uhr",
-    "phone": "+41 79 696 43 09",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/10956758405"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.2872131,
-      47.48019
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10956763693",
   "properties": {
     "access": "permit",
@@ -151583,7 +151559,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "level": "EG",
-    "opening_hours": "MO-Fr 8:00 - 16:00",
+    "opening_hours": "Mo-Fr 08:00-16:00",
     "operator": "Stiftung SAG",
     "id": "node/10959748305"
   },
@@ -153493,7 +153469,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "opening_hours": "Mo-Fr 6.30-22:00 Sa-So 8:00-20:00",
+    "opening_hours": "Mo-Fr 06:30-22:00; Sa-Su 08:00-20:00",
     "operator": "Fitnesspark",
     "phone": "+41 58 568 43 70",
     "source": "local_knowledge, defikarte.ch",
@@ -153708,7 +153684,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "opening_hours": "Mo-Fr: von 08.00 bis 11.30 und 13.30 bis 16.30",
+    "opening_hours": "Mo-Fr 08:00-11:30,13:30-16:30",
     "operator": "SISKA",
     "phone": "+41 52 260 05 05",
     "source": "local_knowledge, defikarte.ch",
@@ -154703,9 +154679,9 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "3. OG",
-    "opening_hours": "MO - FR 08:00 - 17:00 Uhr, SA 10:00 - 13:00 Uhr",
+    "opening_hours": "Mo-Fr 08:00-17:00, Sa 10:00-13:00; PH off",
     "operator": "biz Winterthur",
-    "phone": "0432598282",
+    "phone": "+41 43 259 82 82",
     "id": "node/11038063817"
   },
   "geometry": {
@@ -154986,9 +154962,9 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr: 07.30 - 12.00; 13.00 - 17.00",
+    "opening_hours": "Mo-Fr 07:30-12:00,13:00-17:00",
     "operator": "Zürich Versicherungs-Gesellschaft AG",
-    "phone": "+41712262626",
+    "phone": "+41 71 226 26 26",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/11038063832"
   },
@@ -155010,7 +154986,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr: 07.30 - 12.00; 13.30 - 17.00",
+    "opening_hours": "Mo-Fr 07:30-12:00,13:30-17:00",
     "operator": "Zürich Versicherungs-Gesellschaft AG",
     "phone": "+41 71 929 89 89",
     "source": "local_knowledge, defikarte.ch",
@@ -155247,7 +155223,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Di. bis Fr. 13:00Uhr bis 18:30Uhr Samstag 8:00Uhr bis 15:00Uhr.",
+    "opening_hours": "Tu-Fr 13:00-18:30; Sa 08:00-15:00",
     "operator": "Adventuresports AG",
     "phone": "+41 52 721 39 69",
     "source": "local_knowledge, defikarte.ch",
@@ -156407,7 +156383,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "EG",
-    "opening_hours": "Mo-Fr: 08:00 - 20:00, Sa 08:00 - 18:30",
+    "opening_hours": "Mo-Fr 08:00-20:00, Sa 08:00-18:30",
     "operator": "Schlosspark Einkaufszentrum",
     "id": "node/11071334205"
   },
@@ -157814,10 +157790,10 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "EG",
-    "opening_hours": "Mo: 13.30-21.00\nDi-Fr: 08.00-21.00\nSa-So: 08.00-16.00",
+    "level": "0",
+    "opening_hours": "Mo 13:30-21:00; Tu-Fr 08:00-21:00; Sa-Su 08:00-16:00",
     "operator": "Hallenbad Appenzell ",
-    "phone": "+41717889940",
+    "phone": "+41 71 788 99 40",
     "id": "node/11146151605"
   },
   "geometry": {
@@ -158739,9 +158715,9 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr: 08.30-21.00, Sa-So: 08.30-13.00",
+    "opening_hours": "Mo-Fr 08:30-21:00, Sa-Su 08:30-13:00",
     "operator": "Wenger Fitness Center",
-    "phone": "+41719110606",
+    "phone": "+41 71 911 06 06",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/11189999837"
   },
@@ -158870,9 +158846,9 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "EG",
-    "opening_hours": "Mo-Fr: 09:00-16:30",
+    "opening_hours": "Mo-Fr 09:00-16:30",
     "operator": "Raiffeisen",
-    "phone": "+41712259666",
+    "phone": "+41 71 225 96 66",
     "id": "node/11195284437"
   },
   "geometry": {
@@ -159483,7 +159459,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "Zwischenetage EG-UG",
-    "opening_hours": "Mo-Fr: 08.00-17.00 Uhr",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "id": "node/11219262537"
   },
   "geometry": {
@@ -160321,7 +160297,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "5",
-    "opening_hours": "Mo-Fr: 07:00 - 18:00 Uhr",
+    "opening_hours": "Mo-Fr 07:00-18:00",
     "operator": "Lohmann & Rauscher AG",
     "phone": "+41 71 274 25 70",
     "source": "local_knowledge, defikarte.ch",
@@ -160728,7 +160704,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "opening_hours": "Mo-Do: 09:00-16:00",
+    "opening_hours": "Mo-Th 09:00-16:00",
     "operator": "HEKS Rechtsberatungsstelle für Asylrecht Ostschweiz",
     "phone": "+41 71 222 22 79",
     "source": "local_knowledge, defikarte.ch",
@@ -160802,9 +160778,9 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "opening_hours": "Mo-Fr 8-12, 13-17",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
     "operator": "Monvia AG",
-    "phone": "+4144 832 59 90",
+    "phone": "+41 44 832 59 90",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/11271799069"
   },
@@ -161145,7 +161121,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "Foyer",
-    "opening_hours": "Mo-Fr: 10:00 - 18:30 Uhr\nSa: 10:00 - 14:00 Uhr",
+    "opening_hours": "Mo-Fr 10:00-18:30; Sa 10:00-14:00",
     "operator": "Theater St. Gallen",
     "id": "node/11281123369"
   },
