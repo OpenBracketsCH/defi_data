@@ -87233,8 +87233,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.1911086,
-      47.1366057
+      8.1911015,
+      47.1366045
     ]
   }
 },
@@ -124693,7 +124693,7 @@
     "operator": "Stadt Rheinfelden",
     "source": "local knowledge",
     "temporary": "yes",
-    "website": "notfalltreffpunkt.ch",
+    "website": "https://www.notfalltreffpunkt.ch/",
     "id": "node/10725516529"
   },
   "geometry": {
@@ -161879,6 +161879,259 @@
 },
 {
   "type": "Feature",
+  "id": "node/11304197769",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Hofackerstrasse 40A",
+    "description": "Lift rechts",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3.OG",
+    "opening_hours": "Mo-Fr: 06:00-18:00",
+    "operator": "MEV Schweiz AG",
+    "phone": "0612955058",
+    "id": "node/11304197769"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6403567,
+      47.5351525
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11304227369",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Personalresraurant",
+    "description": "Während Öffnungszeiten ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "opening_hours": "Mo-Fr 7.30-15.00",
+    "operator": "ABB",
+    "id": "node/11304227369"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2516739,
+      47.4961955
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11306149769",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hertensteinstrasse 23",
+    "description": "Swisscom Shop",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "opening_hours": "Mo - Fr: 10:00 - 18:30 Uhr",
+    "operator": "Swisscom",
+    "id": "node/11306149769"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3085248,
+      47.0542529
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11306685169",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Alters- und Pflegeheim Ergolz",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "4",
+    "operator": "Gemeinde",
+    "phone": "+41619859888",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11306685169"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8718436,
+      47.4698671
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11306730369",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gebäude 05",
+    "description": "wären den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "opening_hours": "Mo. - Fr.  06.00h - 18.00h",
+    "operator": "Thommen-Furler",
+    "phone": "0323520800",
+    "id": "node/11306730369"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4062228,
+      47.1560877
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11307512969",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Steinbruggstrasse 21",
+    "description": "Während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "opening_hours": "Mo-Fr 07:30-16:00 ",
+    "operator": "Roger Wiederkehr GmbH / www.malerwiederkehr.ch",
+    "phone": "+41 44 860 42 12",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11307512969"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4087735,
+      47.4989197
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11307517269",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rathaus, Markplatz 9 ",
+    "description": "hinten links, Eingang Empfang, hinter der Türe",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 8:00-17:00",
+    "operator": "Präsidialdepartement",
+    "phone": "+41 61 267 85 49",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11307517269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5882965,
+      47.5583016
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11307541769",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Grüntal Hausecke rechts",
+    "description": "frei zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Stadtgemeinde Diessenhofen, Bauverwaltung",
+    "phone": "+41526464220",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11307541769"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7346619,
+      47.6813098
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11307552469",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Siegelturm -Haus zur Hoffnung",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Stadtgemeinde Diessenhofen",
+    "phone": "+41526464220",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11307552469"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7518817,
+      47.6891645
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11307590269",
+  "properties": {
+    "access": "customers",
+    "check_date": "2023-11-02",
+    "defibrillator:location:fr": "Sur la gauche en rentrant par le nord, vers les vestiaires.",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/11307590269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.6381674,
+      46.7852608
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11308060469",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Wandfluh Produktions AG",
+    "description": "7:30-17:00",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "operator": "Firma ",
+    "id": "node/11308060469"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6531374,
+      46.5893941
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/11309092869",
   "properties": {
     "access": "yes",
@@ -161944,6 +162197,31 @@
     "coordinates": [
       8.4881576,
       47.1977126
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11309680469",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Kantonsschule Im Lee, vom Parkplatz ins Gebäude in der Mitte des Korridors, Glashäuschen",
+    "description": "während Öffnungszeiten verbfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "MO-FR 6:30-18:30",
+    "operator": "Kantonsschule KLW",
+    "phone": "+41 52 244 05 05",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11309680469"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7395167,
+      47.504334
     ]
   }
 }

@@ -27604,7 +27604,6 @@
     "description": "beim WC-Gebäude, Seite Rütenenbeizli",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
     "name": "Freizeitanlage Rütenen",
     "opening_hours": "24/7",
     "id": "node/7637819115"
@@ -27612,8 +27611,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5089224,
-      46.9631617
+      8.508807,
+      46.9632175
     ]
   }
 },
@@ -31963,7 +31962,6 @@
     "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Höri",
-    "phone": "+41 44 872 77 11",
     "wheelchair": "limited",
     "id": "node/7853303884"
   },
@@ -46336,8 +46334,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.9598519,
-      47.4621292
+      8.959741,
+      47.4626501
     ]
   }
 },
@@ -55614,8 +55612,8 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Gemeinde Höri",
-    "phone": "+41 44 872 77 11",
+    "operator": "Gemeinde Höri, Ruedi Ammann",
+    "phone": "+41 44 872 77 13",
     "id": "node/9017037996"
   },
   "geometry": {
@@ -78726,7 +78724,7 @@
   "id": "node/10068616771",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Feuerwehrmagazin Rüfenacht Aussenwand links",
+    "defibrillator:location": "Feuerwehrmagazin Rüfenacht",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -78740,8 +78738,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5319478,
-      46.9304
+      7.5320022,
+      46.9304328
     ]
   }
 },
@@ -103487,55 +103485,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11305008970",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Tennis Club Wohlen",
-    "description": "24 Std. zugänglich ",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "Parterre ",
-    "opening_hours": "24/7",
-    "operator": "Verein",
-    "phone": "+41566106750",
-    "id": "node/11305008970"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.2656606,
-      47.3551452
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11307013969",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Oberdorfstrasse 15, 8556 Wigoltingen",
-    "description": "Gemeindeverwaltung Wigoltingen, zwischen Haupteingang und Anschlagkasten",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Politische Gemeinde Wigoltingen",
-    "phone": "+41583468107",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/11307013969"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.0327251,
-      47.5957854
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11308993569",
   "properties": {
     "access": "yes",
@@ -103555,29 +103504,6 @@
     "coordinates": [
       8.0286938,
       47.1842038
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11309550072",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Eingang Mehrzweckgebäude \"Sunnegrund\"",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde Steinhausen",
-    "phone": "+41 41 748 11 55",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/11309550072"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4895038,
-      47.1978946
     ]
   }
 }
