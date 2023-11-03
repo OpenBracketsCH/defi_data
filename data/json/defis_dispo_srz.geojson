@@ -13170,48 +13170,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7930563038",
-  "properties": {
-    "access": "24/7",
-    "defibrillator:location": "Eingang Mehrzweckhalle",
-    "description": "Zoll AED 3, mit Kindertaste und CPR Feedback. Inkl. Notfallset: Schere, Rasierer, Beatmungs-Folie, Taschenmaske in Hartbox mit Filter, Gummizug, Handschuhe und Alkoholpads.",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Gemeindeverwaltung Steinhausen",
-    "id": "node/7930563038"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4879268,
-      47.1977424
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7930563039",
-  "properties": {
-    "access": "24/7",
-    "defibrillator:location": "Eingang Mehrzweckhalle",
-    "description": "Zoll AED 3, mit Kindertaste und CPR Feedback. Inkl. Notfallset: Schere, Rasierer, Beatmungs-Folie, Taschenmaske in Hartbox mit Filter, Gummizug, Handschuhe und Alkoholpads.",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Gemeindeverwaltung Steinhausen",
-    "id": "node/7930563039"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4895063,
-      47.197858
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7930578714",
   "properties": {
     "access": "yes",
@@ -69320,6 +69278,101 @@
     "coordinates": [
       8.4087735,
       47.4989197
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11309365969",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Praxis Dr.med. Anja Fäh, Cardiopark AG",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "Erdgeschoss",
+    "opening_hours": "Mo-Fr: 08:00 bis 18:00 Uhr",
+    "operator": "Praxis Dr.med. Anja Fäh, Cardiopark AG",
+    "phone": "+41442018020",
+    "id": "node/11309365969"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5321757,
+      47.351421
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11309530469",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Dreifachturnhalle",
+    "description": "24/7",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde Steinhausen",
+    "phone": "+41 41 748 11 55",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11309530469"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4881576,
+      47.1977126
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11309550072",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Mehrzweckgebäude \"Sunnegrund\"",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Steinhausen",
+    "phone": "+41 41 748 11 55",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11309550072"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4895038,
+      47.1978946
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11309680469",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Kantonsschule Im Lee, vom Parkplatz ins Gebäude in der Mitte des Korridors, Glashäuschen",
+    "description": "während Öffnungszeiten verbfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "MO-FR 6:30-18:30",
+    "operator": "Kantonsschule KLW",
+    "phone": "+41 52 244 05 05",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11309680469"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7395167,
+      47.504334
     ]
   }
 }

@@ -11616,7 +11616,7 @@
     "name": "SBS Training & Rettung GmbH",
     "opening_hours": "24/7",
     "operator": "Stefan Schneider",
-    "phone AED contact": "+4179 680 38 21",
+    "operator:phone": "+4179 680 38 21",
     "id": "node/7637819057"
   },
   "geometry": {
@@ -19938,6 +19938,30 @@
     "coordinates": [
       8.3085248,
       47.0542529
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11308993569",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "ISELI ENERGIE AG beim Haupteingang links",
+    "description": "Immer erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "ISELI ENERGIE AG",
+    "phone": "+41 41 984 22 33",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11308993569"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0286938,
+      47.1842038
     ]
   }
 }
