@@ -5759,6 +5759,7 @@
     "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Höri",
+    "phone": "+41 44 872 77 11",
     "wheelchair": "limited",
     "id": "node/7853303884"
   },
@@ -22569,8 +22570,8 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Gemeinde Höri, Ruedi Ammann",
-    "phone": "+41 44 872 77 13",
+    "operator": "Gemeinde Höri",
+    "phone": "+41 44 872 77 11",
     "id": "node/9017037996"
   },
   "geometry": {
@@ -52303,6 +52304,31 @@
 },
 {
   "type": "Feature",
+  "id": "node/11307512969",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Steinbruggstrasse 21",
+    "description": "Während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "opening_hours": "Mo-Fr 07:30-16:00 ",
+    "operator": "Roger Wiederkehr GmbH / www.malerwiederkehr.ch",
+    "phone": "+41 44 860 42 12",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11307512969"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4087735,
+      47.4989197
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/11309365969",
   "properties": {
     "access": "no",
@@ -52322,6 +52348,54 @@
     "coordinates": [
       8.5321757,
       47.351421
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11309680469",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Kantonsschule Im Lee, vom Parkplatz ins Gebäude in der Mitte des Korridors, Glashäuschen",
+    "description": "während Öffnungszeiten verbfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "MO-FR 6:30-18:30",
+    "operator": "Kantonsschule KLW",
+    "phone": "+41 52 244 05 05",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11309680469"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7395167,
+      47.504334
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11309971169",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Stadel",
+    "description": "Aussenbereich beim Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "DSS Stadt Winterthur",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11309971169"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.763957,
+      47.5342584
     ]
   }
 }
