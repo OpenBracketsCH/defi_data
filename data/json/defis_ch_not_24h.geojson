@@ -57272,27 +57272,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8672416418",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Fussballplatz FCDiessenhofen",
-    "description": "nur während Trainingsbetrieb/Spielen zugänglich\n",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "FC Diessenhofen",
-    "id": "node/8672416418"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.747349,
-      47.6863905
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8673304572",
   "properties": {
     "emergency": "defibrillator",
@@ -113986,11 +113965,13 @@
   "type": "Feature",
   "id": "node/10240188711",
   "properties": {
-    "access": "yes",
+    "access": "customers",
     "defibrillator:location": "1. Stock",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "level": "1",
+    "opening_hours": "Mo-Fr 17:30-12:00, 13:30-17:30; Tu  17:30-12:00, 13:30-19:00",
     "operator": "Zahnarztpraxis an der Murg",
     "phone": "+41 52 720 17 20",
     "id": "node/10240188711"

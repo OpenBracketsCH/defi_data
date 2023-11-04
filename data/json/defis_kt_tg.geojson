@@ -2526,27 +2526,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8672416418",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Fussballplatz FCDiessenhofen",
-    "description": "nur während Trainingsbetrieb/Spielen zugänglich\n",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "FC Diessenhofen",
-    "id": "node/8672416418"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.747349,
-      47.6863905
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8682543717",
   "properties": {
     "access": "no",
@@ -8693,11 +8672,13 @@
   "type": "Feature",
   "id": "node/10240188711",
   "properties": {
-    "access": "yes",
+    "access": "customers",
     "defibrillator:location": "1. Stock",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "level": "1",
+    "opening_hours": "Mo-Fr 17:30-12:00, 13:30-17:30; Tu  17:30-12:00, 13:30-19:00",
     "operator": "Zahnarztpraxis an der Murg",
     "phone": "+41 52 720 17 20",
     "id": "node/10240188711"
@@ -9686,26 +9667,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10240188760",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "beim Kiosk",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Sportplatz Prakerwiesen",
-    "id": "node/10240188760"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.74756,
-      47.68504
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10240188761",
   "properties": {
     "access": "yes",
@@ -9727,26 +9688,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10240188762",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "vor Haupteingang",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Rhy-Halle",
-    "id": "node/10240188762"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.75019,
-      47.68842
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10240188763",
   "properties": {
     "access": "yes",
@@ -9762,26 +9703,6 @@
     "coordinates": [
       8.7563539,
       47.6888743
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10240188764",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "EG im Empfangsbereich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Rathaus Diessenhofen",
-    "id": "node/10240188764"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.75203,
-      47.68978
     ]
   }
 },
