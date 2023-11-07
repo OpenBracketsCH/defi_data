@@ -9759,17 +9759,22 @@
   "type": "Feature",
   "id": "node/7637818887",
   "properties": {
-    "description": "Lehrerzimmer",
+    "access": "yes",
+    "defibrillator:location": "Eingang Bibliothek",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "name": "Schulhaus Rägeboge lll",
+    "opening_hours": "24/7",
+    "operator": "Schulhaus Rägeboge III",
     "id": "node/7637818887"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3542415,
-      47.1229924
+      8.3544748,
+      47.1229034
     ]
   }
 },
