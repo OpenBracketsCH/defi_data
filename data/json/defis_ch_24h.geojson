@@ -28709,28 +28709,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7667107721",
-  "properties": {
-    "contact:email": "defi@samariterhinwil.ch",
-    "defibrillator:location": "Schulhaus Meiliwiese",
-    "description": "Öffentlich 24h zugänglich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Schule Hinwil",
-    "id": "node/7667107721"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.8410062,
-      47.3014154
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7667107723",
   "properties": {
     "defibrillator:location": "Reformierte Kirche",
@@ -89793,6 +89771,7 @@
   "type": "Feature",
   "id": "node/10748021683",
   "properties": {
+    "contact:email": "defi@samariterhinwil.ch",
     "defibrillator:location": "Schulhaus beim Eingang",
     "description": "Öffentlich 24h zugänglich",
     "emergency": "defibrillator",
@@ -103900,6 +103879,23 @@
     "coordinates": [
       9.4997406,
       46.6786228
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11333570688",
+  "properties": {
+    "description": "Sous le couvert",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "id": "node/11333570688"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8679999,
+      46.5259632
     ]
   }
 }
