@@ -8759,10 +8759,18 @@
   "type": "Feature",
   "id": "node/7667107719",
   "properties": {
+    "access": "yes",
+    "addr:city": "Hinwil",
+    "addr:housenumber": "39",
+    "addr:postcode": "8340",
+    "addr:street": "Ringwilerstrasse",
+    "contact:phone": "+41 79 883 86 91",
     "defibrillator:location": "Schule Ringwil",
-    "description": "während Schulzeiten",
+    "description": "24/7",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Schule Hinwil",
     "id": "node/7667107719"
   },
   "geometry": {
@@ -22753,6 +22761,11 @@
   "id": "node/8561034197",
   "properties": {
     "access": "yes",
+    "addr:city": "Hinwil",
+    "addr:country": "CH",
+    "addr:housenumber": "6",
+    "addr:postcode": "8340",
+    "addr:street": "Breitestrasse",
     "contact:email": "defi@samariterhinwil.ch",
     "defibrillator:location": "Beim Eingang Schulhaus äis der Sekundarschule Breite (Braunes Gebäude)",
     "description": "24h verfügbar",
@@ -22761,6 +22774,7 @@
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Schule Hinwil",
+    "phone": "+41 79 883 86 91",
     "id": "node/8561034197"
   },
   "geometry": {

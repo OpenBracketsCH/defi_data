@@ -9493,6 +9493,33 @@
 },
 {
   "type": "Feature",
+  "id": "node/6636784171",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Täuffelen",
+    "addr:housenumber": "5",
+    "addr:postcode": "2575",
+    "addr:street": "Käsereistrasse",
+    "defibrillator:location": "Eingang Turnhalle, tagsüber",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Primarschule Täuffelen",
+    "phone": "+41 79 633 52 23",
+    "id": "node/6636784171"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2008414,
+      47.0686759
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/6636784172",
   "properties": {
     "access": "yes",
@@ -43534,6 +43561,11 @@
   "id": "node/8561034197",
   "properties": {
     "access": "yes",
+    "addr:city": "Hinwil",
+    "addr:country": "CH",
+    "addr:housenumber": "6",
+    "addr:postcode": "8340",
+    "addr:street": "Breitestrasse",
     "contact:email": "defi@samariterhinwil.ch",
     "defibrillator:location": "Beim Eingang Schulhaus äis der Sekundarschule Breite (Braunes Gebäude)",
     "description": "24h verfügbar",
@@ -43542,6 +43574,7 @@
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Schule Hinwil",
+    "phone": "+41 79 883 86 91",
     "id": "node/8561034197"
   },
   "geometry": {
