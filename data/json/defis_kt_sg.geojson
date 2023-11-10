@@ -11146,7 +11146,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-11:30, 13:30-17:00",
+    "opening_hours": "Mo-Fr 07:30-12:00, 13:15-17:15",
     "operator": "Kanton St.Gallen",
     "phone": "+41 58 229 30 17",
     "id": "node/9315745129"
@@ -14494,7 +14494,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-11:30, 14:00-16:30",
+    "opening_hours": "Mo-Fr 07:30-12:00, 13:15-17:15",
     "operator": "Hochbauamt Kanton St.Gallen",
     "phone": "+41 58 229 30 17",
     "id": "node/9763787346"
@@ -22751,6 +22751,29 @@
     "coordinates": [
       9.3467785,
       47.4177305
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11338114246",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "6.OG vor dem Sitzungszimmer beim Bildungsdepartement",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-12:00, 13:15-17:15",
+    "operator": "Hochbauamt Kanton St.Gallen",
+    "phone": "+41 58 229 30 17",
+    "id": "node/11338114246"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3683475,
+      47.4196282
     ]
   }
 }

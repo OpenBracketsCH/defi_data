@@ -416,26 +416,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8012612817",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Beim Haupteingang, bei Recewption melden",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "id": "node/8012612817"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.4139528,
-      47.3289575
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8012612818",
   "properties": {
     "access": "yes",
@@ -942,16 +922,17 @@
   "id": "node/10763310569",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Produktionshalle, EG",
-    "description": "gelber Koffer",
+    "defibrillator:location": "Abfüllhalle EG / 47.3288, 9.4138",
+    "description": "gelber LifeTec One Koffer, nur während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "latitude": "47.32883",
+    "level": "0",
     "longitude": "9.41375",
     "name": "Appenzeller Alpenbitter AG",
     "opening_hours": "Mo-Fr 08:00-11:30, 13:30-17:00",
-    "operator": "Lifetec AG Schweiz",
+    "operator": "LifeTec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/10763310569"
   },

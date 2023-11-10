@@ -6454,26 +6454,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8012612817",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Beim Haupteingang, bei Recewption melden",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "id": "node/8012612817"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.4139528,
-      47.3289575
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8012612818",
   "properties": {
     "access": "yes",
@@ -13155,7 +13135,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-11:30, 13:30-17:00",
+    "opening_hours": "Mo-Fr 07:30-12:00, 13:15-17:15",
     "operator": "Kanton St.Gallen",
     "phone": "+41 58 229 30 17",
     "id": "node/9315745129"
@@ -17151,7 +17131,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-11:30, 14:00-16:30",
+    "opening_hours": "Mo-Fr 07:30-12:00, 13:15-17:15",
     "operator": "Hochbauamt Kanton St.Gallen",
     "phone": "+41 58 229 30 17",
     "id": "node/9763787346"
@@ -23165,16 +23145,17 @@
   "id": "node/10763310569",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Produktionshalle, EG",
-    "description": "gelber Koffer",
+    "defibrillator:location": "Abfüllhalle EG / 47.3288, 9.4138",
+    "description": "gelber LifeTec One Koffer, nur während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "latitude": "47.32883",
+    "level": "0",
     "longitude": "9.41375",
     "name": "Appenzeller Alpenbitter AG",
     "opening_hours": "Mo-Fr 08:00-11:30, 13:30-17:00",
-    "operator": "Lifetec AG Schweiz",
+    "operator": "LifeTec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/10763310569"
   },
@@ -26968,6 +26949,29 @@
     "coordinates": [
       9.3467785,
       47.4177305
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11338114246",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "6.OG vor dem Sitzungszimmer beim Bildungsdepartement",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-12:00, 13:15-17:15",
+    "operator": "Hochbauamt Kanton St.Gallen",
+    "phone": "+41 58 229 30 17",
+    "id": "node/11338114246"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3683475,
+      47.4196282
     ]
   }
 }
