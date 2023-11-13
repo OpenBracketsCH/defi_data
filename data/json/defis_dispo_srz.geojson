@@ -13131,25 +13131,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7930563035",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "beim Sportclub",
-    "description": "nur bei Spielen",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/7930563035"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.489036,
-      47.1984792
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7930563036",
   "properties": {
     "access": "yes",
@@ -69317,29 +69298,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11309530469",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Eingang Dreifachturnhalle",
-    "description": "24/7",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Gemeinde Steinhausen",
-    "phone": "+41 41 748 11 55",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/11309530469"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4881576,
-      47.1977126
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11309550072",
   "properties": {
     "access": "yes",
@@ -69635,6 +69593,30 @@
     "coordinates": [
       8.469505,
       47.324801
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11346336784",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Dreifachturnhalle \"Sunnegrund\"",
+    "description": "Zoll AED 3, mit Kindertaste und CPR Feedback. Inkl. Notfallset: Schere, Rasierer, Beatmungs-Folie, Taschenmaske in Hartbox mit Filter, Gummizug, Handschuhe und Alkoholpads.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Steinhausen",
+    "phone": "+41 41 748 11 55",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11346336784"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4881306,
+      47.1977112
     ]
   }
 }
