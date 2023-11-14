@@ -5407,17 +5407,18 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Bahnhof neben Gleis 3 Lift",
+    "description": "EG, Ausgang Richtung Metalli beim Lift zum Gleis 3",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
-    "operator": "EG, Ausgang Richtung Metalli beim Lift zum Gleis 3",
+    "wheelchair": "limited",
     "id": "node/7568739434"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5155699,
-      47.1733749
+      8.5155839,
+      47.1733774
     ]
   }
 },
@@ -5509,11 +5510,15 @@
   "id": "node/7568739439",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "ZVB-Haus",
+    "defibrillator:location": "Eingang Rettungsdienst Zug, ZVB-Haus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Rettungsdienst Zug",
+    "phone": "+41 41 728 46 60",
+    "wheelchair": "limited",
     "id": "node/7568739439"
   },
   "geometry": {
