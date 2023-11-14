@@ -39222,12 +39222,13 @@
   "type": "Feature",
   "id": "node/7846629467",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Raum Bademeister",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "yes",
+    "operator": "Gemeinde Uetikon am See",
     "id": "node/7846629467"
   },
   "geometry": {
@@ -108650,10 +108651,12 @@
   "id": "node/10113974521",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "A gauche en entrant",
     "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "operator": "SwissTech Convention Center",
     "id": "node/10113974521"
   },
