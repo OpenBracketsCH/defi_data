@@ -6804,28 +6804,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8080270390",
-  "properties": {
-    "access": "private",
-    "defibrillator:location": "NW EG / BFW",
-    "description": "Alarmgesichert - Aufgebot Betriebssanität erfolgt automatisch",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Betriebssanität Mettler Toledo",
-    "phone": "+41 44 944 21 44",
-    "id": "node/8080270390"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.687741,
-      47.3680365
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8080270391",
   "properties": {
     "access": "private",
@@ -52553,6 +52531,49 @@
     "coordinates": [
       8.5517621,
       47.4138374
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11351257390",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "im Sanitätszimmer E0.09",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "DZZ Druckzentrum Zürich AG",
+    "id": "node/11351257390"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5200988,
+      47.3587581
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11351272969",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Eingang Geschäftshaus Rosengartenstrasse 4, 8635 Bubikon",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00 - 19:00",
+    "operator": "Swiss Learning Hub AG",
+    "phone": "+41 44 543 26 11",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11351272969"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8198543,
+      47.2758952
     ]
   }
 }
