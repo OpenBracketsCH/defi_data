@@ -51942,10 +51942,11 @@
   "id": "node/8557121976",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Sanitäter Raum, beim Bademeister melden",
+    "defibrillator:location": "Strandbad, Sanitäter Raum, Beim Bademeister melden",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "opening_hours": "Tu-Su 09:00-21:00",
     "operator": "Gemeinde Männedorf, Facility Management",
     "phone": "+41 44 921 67 69",
     "id": "node/8557121976"
@@ -51963,7 +51964,7 @@
   "id": "node/8557121977",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Treppenhaus, EG",
+    "defibrillator:location": "Gemeinde Männedorf, Werkgebäude, Treppenhaus EG",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -51986,7 +51987,7 @@
   "id": "node/8557121978",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Im Treppenhaus, EG",
+    "defibrillator:location": "Gemeindehaus, Treppenhaus EG",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -54537,7 +54538,7 @@
   "id": "node/8574099763",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Treppenhaus EG",
+    "defibrillator:location": "Gemeindesaal, Treppenhaus EG",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -162889,28 +162890,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11355244869",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "1. OG bei Zugang zu Produktion",
-    "description": "Während der Öffnungszeit Emp",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "1",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/11355244869"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.3638863,
-      47.1106481
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11355307569",
   "properties": {
     "access": "yes",
@@ -162931,6 +162910,29 @@
     "coordinates": [
       8.3638777,
       47.1106736
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11355658769",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "eichwiesstrasse 18B, 8645 Jona",
+    "description": "Beim Eingang linkd",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "opening_hours": "Mo-Fr. 07.00 bis 16.00",
+    "operator": "ost",
+    "id": "node/11355658769"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8367161,
+      47.2247296
     ]
   }
 }
