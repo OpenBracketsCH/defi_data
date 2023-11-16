@@ -20025,6 +20025,77 @@
       47.1688633
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/11355244869",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "1. OG bei Zugang zu Produktion",
+    "description": "Während der Öffnungszeit Emp",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "1",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11355244869"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3638863,
+      47.1106481
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11355307569",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "1. OG bei Zugang zu Produktion",
+    "description": "Während der Öffnungszeit Empfang oder Firmenintern",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo - Fr 08:00 - 17:00",
+    "operator": "Perlen Packaging AG",
+    "phone": "+41 41 455 80 82",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11355307569"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3638777,
+      47.1106736
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11355509769",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Eingang zum Hotel & Gasthaus Die Perle",
+    "description": "Draussen, beim Hauseingang an der Wand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Hotel & Gasthaus Die Perle - Perlen Packaging AG",
+    "phone": "+41 41 455 85 20",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11355509769"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3645693,
+      47.111904
+    ]
+  }
 }
 ]
 }
