@@ -163101,6 +163101,71 @@
       47.2613968
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/11358294185",
+  "properties": {
+    "defibrillator:location": "In der Cafeteria rechts",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "opening_hours": "Montag 06:00 – 21:00 Dienstag 12:00 – 21:00 Mittwoch 06:00 – 21:00 Donnerstag 08:00 – 21:00 Freitag 08:00 – 21:00 Samstag 09:00 – 18:00 Sonn-/Feiertag\t09:00 – 18:00",
+    "id": "node/11358294185"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6215186,
+      47.4226254
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11358377069",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "DHL GLOBAL FORWARDING SCHWEIZ AG",
+    "description": "OPEN DURING WORKING HOURS, not during Lunch Break from 12:00-13:30 !",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "4",
+    "opening_hours": "8:30-17:00",
+    "operator": "RECEPTION DESK",
+    "phone": "+41325290463",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11358377069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5809124,
+      47.4526288
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11358394369",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Wurmbühlstrasse 29, Balkon",
+    "description": "immer verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "UG",
+    "operator": "Forum Asig",
+    "id": "node/11358394369"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.762627,
+      47.4878886
+    ]
+  }
 }
 ]
 }
