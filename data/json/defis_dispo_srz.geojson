@@ -69833,31 +69833,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11358377069",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "DHL GLOBAL FORWARDING SCHWEIZ AG",
-    "description": "OPEN DURING WORKING HOURS, not during Lunch Break from 12:00-13:30 !",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "4",
-    "opening_hours": "8:30-17:00",
-    "operator": "RECEPTION DESK",
-    "phone": "+41325290463",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/11358377069"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5809124,
-      47.4526288
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11358394369",
   "properties": {
     "access": "yes",
@@ -69997,6 +69972,29 @@
     "coordinates": [
       8.613807,
       47.2880137
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11364165828",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "beim Buswartehäuschen",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadt Schlieren",
+    "phone": "+41 44 738 15 08",
+    "id": "node/11364165828"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4394253,
+      47.4007605
     ]
   }
 }
