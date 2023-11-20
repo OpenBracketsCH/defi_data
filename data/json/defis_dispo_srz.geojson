@@ -3003,27 +3003,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6976938403",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Reformierte Kirche",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Rettungsdienst Küssnacht",
-    "phone": "+41 79 101 93 00",
-    "id": "node/6976938403"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4435242,
-      47.0812403
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6976938404",
   "properties": {
     "access": "yes",
@@ -7508,26 +7487,6 @@
     "coordinates": [
       8.44121,
       47.0834866
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7637818881",
-  "properties": {
-    "access": "yes",
-    "description": "Aussen an Kirche",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Reformierte Kirche",
-    "opening_hours": "24/7",
-    "id": "node/7637818881"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4434595,
-      47.081245
     ]
   }
 },
@@ -33154,19 +33113,19 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Erdgeschoss im Treppenhaus zur Bibliothek",
-    "description": "während Öffnungszeiten verfügbar",
+    "description": "während Öffnungszeiten oder Anlässe im Gemeindesaal verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "operator": "Gemeindeverwaltung Steinhausen",
-    "phone": "+41 41 748 11 06",
+    "phone": "+41 41 748 11 55",
     "id": "node/9112938930"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4835079,
-      47.1962339
+      8.4834736,
+      47.1964293
     ]
   }
 },
@@ -69995,6 +69954,53 @@
     "coordinates": [
       8.4394253,
       47.4007605
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11364235570",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sportanlage Langacker",
+    "description": "an der Fassade beim Ping-Pongtisch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Herrliberg",
+    "phone": "+41 44 915 19 89",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11364235570"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6136145,
+      47.2930131
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11364235574",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Sportanlage Langacker Sanitätszimmer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Gemeinde Herrliberg",
+    "phone": "+41 44 915 19 89",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11364235574"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6140209,
+      47.293064
     ]
   }
 }

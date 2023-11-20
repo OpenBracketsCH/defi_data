@@ -71713,19 +71713,19 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Erdgeschoss im Treppenhaus zur Bibliothek",
-    "description": "während Öffnungszeiten verfügbar",
+    "description": "während Öffnungszeiten oder Anlässe im Gemeindesaal verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "operator": "Gemeindeverwaltung Steinhausen",
-    "phone": "+41 41 748 11 06",
+    "phone": "+41 41 748 11 55",
     "id": "node/9112938930"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4835079,
-      47.1962339
+      8.4834736,
+      47.1964293
     ]
   }
 },
@@ -163234,6 +163234,52 @@
     "coordinates": [
       8.613807,
       47.2880137
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11364235574",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Sportanlage Langacker Sanitätszimmer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Gemeinde Herrliberg",
+    "phone": "+41 44 915 19 89",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11364235574"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6140209,
+      47.293064
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11364273969",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Lokremise St. Gallen",
+    "description": "beim Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Stiftung Lokremise St. Gallen",
+    "phone": "+41 71 277 82 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11364273969"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3656752,
+      47.4217172
     ]
   }
 }

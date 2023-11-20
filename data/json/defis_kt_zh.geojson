@@ -52876,6 +52876,53 @@
       47.4007605
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/11364235570",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sportanlage Langacker",
+    "description": "an der Fassade beim Ping-Pongtisch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Herrliberg",
+    "phone": "+41 44 915 19 89",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11364235570"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6136145,
+      47.2930131
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11364235574",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Sportanlage Langacker Sanitätszimmer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Gemeinde Herrliberg",
+    "phone": "+41 44 915 19 89",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11364235574"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6140209,
+      47.293064
+    ]
+  }
 }
 ]
 }
