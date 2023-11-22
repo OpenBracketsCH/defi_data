@@ -3803,7 +3803,7 @@
   "type": "Feature",
   "id": "node/5214074021",
   "properties": {
-    "access": "customers",
+    "access": "yes",
     "check_date": "2023-10-31",
     "defibrillator:location": "A côté des escalators",
     "description": "Pendant les heures d'ouverture",
@@ -3811,7 +3811,10 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "opening_hours": "Mo-Th 08:30-18:30; Fr 08:30-20:00; Sa 08:00-17:00",
+    "opening_hours:url": "https://www.manor.ch/fr/store-finder/store/vev",
     "operator": "Centre Manor",
+    "operator:wikidata": "Q382686",
     "id": "node/5214074021"
   },
   "geometry": {
@@ -8896,7 +8899,7 @@
   "type": "Feature",
   "id": "node/6601252181",
   "properties": {
-    "access": "customers",
+    "access": "yes",
     "check_date": "2023-10-30",
     "defibrillator:location": "A côté des toilettes",
     "description": "Pendant les heures d'ouverture",
@@ -8904,6 +8907,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "opening_hours": "Mo-Th 08:00-18:30; Fr 08:00-20:00; Sa 07:00-17:00",
     "operator": "Migros",
     "id": "node/6601252181"
   },
@@ -39547,7 +39551,7 @@
   "type": "Feature",
   "id": "node/7854066640",
   "properties": {
-    "access": "customers",
+    "access": "yes",
     "check_date": "2023-10-30",
     "defibrillator:location": "A côté des ascenseurs",
     "description": "Pendant les heures d'ouverture",
@@ -39555,6 +39559,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "-1",
+    "opening_hours": "Mo-Th 08:00-18:30; Fr 08:00-20:00; Sa 07:00-17:00",
     "operator": "Migros",
     "id": "node/7854066640"
   },
@@ -152752,8 +152757,8 @@
   "type": "Feature",
   "id": "node/11031968926",
   "properties": {
-    "access": "customers",
-    "check_date": "2023-10-30",
+    "access": "yes",
+    "check_date": "2023-11-22",
     "defibrillator:location": "Dans l'entrée du théâtre, en face de l'entrée gauche de la salle de théâtre",
     "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
