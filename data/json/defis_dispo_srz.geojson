@@ -70138,6 +70138,53 @@
       47.5329028
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/11379798269",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Beim Empfang links an der Wand ",
+    "description": "wärend Öffnungszeiten ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2 OG",
+    "operator": "Seuzifit",
+    "id": "node/11379798269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7327223,
+      47.5368547
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11379879369",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Kantonsstrasse 1, 8807 Freienbach",
+    "description": "während Büro-Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Signer Titanium AG",
+    "phone": "+41447161260",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11379879369"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7444198,
+      47.2056738
+    ]
+  }
 }
 ]
 }
