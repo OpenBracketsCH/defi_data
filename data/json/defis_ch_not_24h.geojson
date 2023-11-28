@@ -163656,7 +163656,7 @@
   "id": "node/11381258069",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Avenue du Vignoble 2, 2000 Neuchâtel",
+    "defibrillator:location": "Avenue du Vignoble 3, 2000 Neuchâtel",
     "description": "Zoll AED 3",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -163718,6 +163718,30 @@
     "coordinates": [
       9.3560366,
       47.5575062
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11381935369",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Breitistrasse 21 8623 Wetzikon",
+    "description": "Fitnesscenter, während Öffnungszeiten verfügbar, im Haupt-Trainingsraum",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00 - 22:00",
+    "operator": "Egli SYS-Sport AG",
+    "phone": "+41 44 930 22 44",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11381935369"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8115931,
+      47.3382265
     ]
   }
 }

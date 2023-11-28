@@ -53085,6 +53085,52 @@
       47.4356756
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/11381899976",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "WC Anlage der Familiengärten Betschenrohr",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadt Schlieren",
+    "id": "node/11381899976"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.451824,
+      47.4058809
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11381935369",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Breitistrasse 21 8623 Wetzikon",
+    "description": "Fitnesscenter, während Öffnungszeiten verfügbar, im Haupt-Trainingsraum",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00 - 22:00",
+    "operator": "Egli SYS-Sport AG",
+    "phone": "+41 44 930 22 44",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11381935369"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8115931,
+      47.3382265
+    ]
+  }
 }
 ]
 }
