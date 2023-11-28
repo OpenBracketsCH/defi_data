@@ -15350,11 +15350,12 @@
   "id": "node/8142589126",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Turnhalleneingang vom Pausenplatz, Defi in Foyer der Turnhalle links neben Halleneingang.",
-    "description": "während Schulbetrieb verfügbar",
+    "defibrillator:location": "An der Aussenwand der Turnhalle bei Eingang.",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Stadt Illnau-Effretikon",
     "phone": "+41 52 354 24 24",
     "id": "node/8142589126"
@@ -15362,8 +15363,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7443072,
-      47.45544
+      8.744218,
+      47.4555263
     ]
   }
 },
@@ -15396,7 +15397,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "An der Aussenwand neben dem Eingang",
-    "description": "während Schulbetrieb verfügbar",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -15417,12 +15418,13 @@
   "type": "Feature",
   "id": "node/8142589129",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Haupteingang geradeaus an der Wand.",
-    "description": "während Öffnungszeiten verfügbar",
+    "access": "yes",
+    "defibrillator:location": "An der Aussenwand beim Eingang zum Schützenhaus",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/8142589129"
   },
   "geometry": {
@@ -15438,19 +15440,19 @@
   "id": "node/8142589130",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "UG Richtung WC’s, durch Türe „Privat“. Notausgangschild folgen. Am Ende des Ganges an der linken Wand.",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "An der Wand beim Saal. Seite Parkplatz",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 07:00-23:30; Sa 09:00-23:30; Su 10:00-22:00",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/8142589130"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7264101,
-      47.4082314
+      8.7265728,
+      47.4085323
     ]
   }
 },
@@ -15459,11 +15461,12 @@
   "id": "node/8142589131",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Haupteingang Turnhalle, gerade aus bis zur Mitte der Turnhalle an der Linken Wand.",
-    "description": "während Schulbetrieb verfügbar",
+    "defibrillator:location": "Beim Seiteneingang zu der Turnhalle an der Aussenwand",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Stadt Illnau-Effretikon",
     "phone": "+41 52 354 24 24",
     "id": "node/8142589131"
@@ -15471,8 +15474,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7188932,
-      47.4094594
+      8.7204512,
+      47.4093781
     ]
   }
 },
@@ -70186,6 +70189,28 @@
     "coordinates": [
       8.7444198,
       47.2056738
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11380833321",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An der Aussenwand",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadt Illnau Effretikon",
+    "id": "node/11380833321"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7164279,
+      47.4356756
     ]
   }
 }
