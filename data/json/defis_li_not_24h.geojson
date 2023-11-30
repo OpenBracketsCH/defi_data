@@ -343,6 +343,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/9004557417",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Einsatzfahrzeug",
+    "description": "nur über Notruf 24h erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "keine",
+    "operator": "Samariter Triesen",
+    "phone": "+41 79 241 16 84",
+    "id": "node/9004557417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5235023,
+      47.1098266
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9004557418",
   "properties": {
     "access": "yes",
@@ -419,7 +442,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00",
-    "operator": "Heinz Rüdisühli",
+    "operator": "Faustino Navarro GePo",
     "phone": "+423 236 36 42",
     "id": "node/9004557421"
   },
