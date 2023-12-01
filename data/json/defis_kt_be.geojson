@@ -11339,6 +11339,7 @@
     "defibrillator:location": "Hintereingang bei Treppe zum 1. OG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "24/7",
     "operator": "Gemeindeverwaltung Safnern",
     "phone": "+41 32 356 02 60",
@@ -51372,6 +51373,30 @@
     "coordinates": [
       7.6360238,
       46.8389853
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11387613870",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Laupenstrasse 45",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:45 - 17:30",
+    "operator": "Firma",
+    "phone": "+41582581600",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11387613870"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4303144,
+      46.947296
     ]
   }
 }
