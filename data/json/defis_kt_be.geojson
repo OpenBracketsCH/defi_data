@@ -20276,29 +20276,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6661546156",
-  "properties": {
-    "access": "permissive",
-    "addr:city": "Steffisburg",
-    "addr:housenumber": "15",
-    "addr:postcode": "3612",
-    "addr:street": "Thunstrasse",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "operator": "Fritz Studer AG",
-    "phone": "+41 33 439 12 85",
-    "id": "node/6661546156"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6320318,
-      46.7705917
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6661546158",
   "properties": {
     "access": "yes",
@@ -51421,6 +51398,56 @@
     "coordinates": [
       7.5131872,
       46.9607563
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11393575506",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Steffisburg",
+    "addr:housenumber": "15",
+    "addr:postcode": "3612",
+    "addr:street": "Thunstrasse",
+    "defibrillator:location": "Im Defikasten, öffentlich zugänglich, wenn die Tore des Geländes offen sind",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Fritz Studer AG",
+    "phone": "+41 33 439 12 85",
+    "id": "node/11393575506"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6328641,
+      46.7703494
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11393580057",
+  "properties": {
+    "access": "permit",
+    "addr:city": "Steffisburg",
+    "addr:housenumber": "15",
+    "addr:postcode": "3612",
+    "addr:street": "Thunstrasse",
+    "defibrillator:location": "Im Sanitätscontainer der Fritz Studer AG. Zugang nur mit Badge. Für Zugang die Nr. 0334391267 wählen.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Fritz Studer AG",
+    "phone": "+41 33 439 12 85",
+    "id": "node/11393580057"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6321264,
+      46.7707075
     ]
   }
 }

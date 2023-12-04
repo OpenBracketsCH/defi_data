@@ -15713,29 +15713,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6661546156",
-  "properties": {
-    "access": "permissive",
-    "addr:city": "Steffisburg",
-    "addr:housenumber": "15",
-    "addr:postcode": "3612",
-    "addr:street": "Thunstrasse",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "operator": "Fritz Studer AG",
-    "phone": "+41 33 439 12 85",
-    "id": "node/6661546156"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6320318,
-      46.7705917
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6661546159",
   "properties": {
     "access": "permissive",
@@ -164090,6 +164067,104 @@
     "coordinates": [
       7.5131872,
       46.9607563
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11393479769",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Via al Ponte 1, 6834 Morbio Inferiore",
+    "description": "während der Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 07:30 -17:00",
+    "operator": "Lactalis Suisse SA",
+    "phone": "+41 91 986 30 20",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11393479769"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0156448,
+      45.845894
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11393516269",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "ZLE",
+    "description": "während Bürozeiten via MP loge",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "operator": "Armasuisse",
+    "phone": "+41584613034",
+    "id": "node/11393516269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3018684,
+      47.0934372
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11393575506",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Steffisburg",
+    "addr:housenumber": "15",
+    "addr:postcode": "3612",
+    "addr:street": "Thunstrasse",
+    "defibrillator:location": "Im Defikasten, öffentlich zugänglich, wenn die Tore des Geländes offen sind",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Fritz Studer AG",
+    "phone": "+41 33 439 12 85",
+    "id": "node/11393575506"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6328641,
+      46.7703494
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11393580057",
+  "properties": {
+    "access": "permit",
+    "addr:city": "Steffisburg",
+    "addr:housenumber": "15",
+    "addr:postcode": "3612",
+    "addr:street": "Thunstrasse",
+    "defibrillator:location": "Im Sanitätscontainer der Fritz Studer AG. Zugang nur mit Badge. Für Zugang die Nr. 0334391267 wählen.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Fritz Studer AG",
+    "phone": "+41 33 439 12 85",
+    "id": "node/11393580057"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6321264,
+      46.7707075
     ]
   }
 }
