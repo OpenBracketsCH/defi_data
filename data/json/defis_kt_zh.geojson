@@ -48772,14 +48772,15 @@
   "type": "Feature",
   "id": "node/10970275205",
   "properties": {
-    "access": "public",
+    "access": "yes",
     "defibrillator:location": "Gemeindehaus Otelfingen",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "0",
+    "opening_hours": "24/7",
     "operator": "Politische Gemeinde Otelfingen",
-    "phone": "+4144 847 20 47",
+    "phone": "+41 44 847 20 47",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10970275205"
   },
@@ -53437,6 +53438,29 @@
     "coordinates": [
       8.8177942,
       47.2883626
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11397677870",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Turnhalle Schulhaus Geissberg",
+    "description": "nur während Öffnungszeiten zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Bubikon",
+    "phone": "+41 55 253 33 33",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11397677870"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.803702,
+      47.2570461
     ]
   }
 }
