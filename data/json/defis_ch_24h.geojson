@@ -105391,6 +105391,78 @@
       47.5028156
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/11401718569",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sportanlage Hüssenbüel Hinwil ",
+    "description": "öffentlich zugänglich ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung Hinwil ",
+    "phone": "+41 76 398 23 22",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11401718569"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8426208,
+      47.2997219
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11401725569",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Spotanlage Hüssenbüel",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Hinwil ",
+    "phone": "+41 76 398 23 22",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11401725569"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8412476,
+      47.3039127
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11401738269",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Garageneifahrt Bäretswilerstrasse 20 Ringwil ",
+    "description": "Öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Privat Fam. Feyen",
+    "phone": "+41 76 398 23 22",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11401738269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8561821,
+      47.3138062
+    ]
+  }
 }
 ]
 }
