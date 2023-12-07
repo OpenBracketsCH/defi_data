@@ -1940,14 +1940,13 @@
   "type": "Feature",
   "id": "node/9004557482",
   "properties": {
-    "access": "yes",
     "defibrillator:location": "Verwaltungseingang EG",
-    "description": "während Öffnungszeiten verfügbar",
+    "description": "Bei Eingang Gemeindeverwaltung",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-12:00, 13:30-16:30",
-    "operator": "Markus Hassler",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Martin Kaiser",
     "phone": "+423 399 20 42",
     "id": "node/9004557482"
   },
@@ -2898,6 +2897,30 @@
     "coordinates": [
       9.5136237,
       47.1343666
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11401087569",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sportzentrum Schellenberg ",
+    "description": "Bei Haupteingang Sportzentrum ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Schellenberg ",
+    "phone": "+423 399 20 40",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11401087569"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5511425,
+      47.2344678
     ]
   }
 }
