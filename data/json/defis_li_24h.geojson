@@ -96,13 +96,13 @@
   "id": "node/9004556001",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schuleingang",
-    "description": "24h verfügbar",
+    "defibrillator:location": "Turnhallen und Schuleingang",
+    "description": "24h verfügbar Eingangsbereich aussen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Karlheinz Sele",
+    "operator": "Beat Schädler",
     "phone": "+423 792 26 75",
     "id": "node/9004556001"
   },
@@ -111,6 +111,29 @@
     "coordinates": [
       9.5474035,
       47.1169584
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004556004",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Warteraum",
+    "description": "Öffentlich zugänglich und im Wandkasten verbaut unterhalb Infobildschirm und neben WC Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Wolfgang Schädler, Hausdienst",
+    "phone": "+423 792 26 69",
+    "id": "node/9004556004"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5432273,
+      47.1179677
     ]
   }
 },
