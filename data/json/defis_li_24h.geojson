@@ -415,29 +415,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9004557468",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Samariterverein im Fahrzeug",
-    "description": "24h verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Gerhard Potetz",
-    "phone": "+423 373 37 09",
-    "id": "node/9004557468"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.5240012,
-      47.2111747
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9004557469",
   "properties": {
     "access": "yes",
@@ -456,29 +433,6 @@
     "coordinates": [
       9.5244518,
       47.2114243
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9004557472",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Feuerwehr Einsatzfahrzeug",
-    "description": "24h verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Gerhard Senti",
-    "phone": "+423 373 35 02",
-    "id": "node/9004557472"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.5275068,
-      47.207372
     ]
   }
 },
@@ -842,6 +796,54 @@
     "coordinates": [
       9.5511425,
       47.2344678
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11409708469",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindeverwaltung Haupteingang ",
+    "description": "Hinter Schiebetüre neben Lift / Alarmgesichert ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Eschen ",
+    "phone": "+4233774999",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11409708469"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5235586,
+      47.2124884
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11409708470",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Forstwerkhof Eschen-Nendeln ",
+    "description": "Direkt an der Fassade beim Eingang ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Eschen ",
+    "phone": "+4233774999",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11409708470"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5483422,
+      47.1963031
     ]
   }
 }

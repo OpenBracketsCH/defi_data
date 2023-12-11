@@ -1206,6 +1206,28 @@
 },
 {
   "type": "Feature",
+  "id": "node/9004557468",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Samariterverein im Fahrzeug",
+    "description": "Nur bei Sanitätseinsätzen verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gerhard Potetz",
+    "phone": "+423 373 37 09",
+    "id": "node/9004557468"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5240012,
+      47.2111747
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9004557470",
   "properties": {
     "access": "yes",
@@ -1238,7 +1260,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00",
-    "operator": "Gerhard Potetz",
+    "operator": "Jürgen Biedermann GePo",
     "phone": "+423 377 50 22",
     "id": "node/9004557471"
   },
@@ -1247,6 +1269,28 @@
     "coordinates": [
       9.5239596,
       47.212687
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557472",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Feuerwehr Einsatzfahrzeug",
+    "description": "Nur im Einsatz verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gerhard Senti",
+    "phone": "+423 373 35 02",
+    "id": "node/9004557472"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5282095,
+      47.2072226
     ]
   }
 },
@@ -2078,6 +2122,30 @@
     "coordinates": [
       9.5136237,
       47.1343666
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11409722070",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Primarschule Nendeln ",
+    "description": "Beim Lehrerzimmer, nur zu Öffnungszeiten erreichbar ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo - Fr 7:30 - 17:00 ",
+    "operator": "Jürgen Biedermann GePo",
+    "phone": "+4233774999",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11409722070"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5463949,
+      47.1972909
     ]
   }
 }

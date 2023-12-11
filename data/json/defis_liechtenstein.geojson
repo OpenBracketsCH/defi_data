@@ -1620,13 +1620,12 @@
   "type": "Feature",
   "id": "node/9004557468",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Samariterverein im Fahrzeug",
-    "description": "24h verfügbar",
+    "description": "Nur bei Sanitätseinsätzen verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
     "operator": "Gerhard Potetz",
     "phone": "+423 373 37 09",
     "id": "node/9004557468"
@@ -1696,7 +1695,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00",
-    "operator": "Gerhard Potetz",
+    "operator": "Jürgen Biedermann GePo",
     "phone": "+423 377 50 22",
     "id": "node/9004557471"
   },
@@ -1712,13 +1711,12 @@
   "type": "Feature",
   "id": "node/9004557472",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Feuerwehr Einsatzfahrzeug",
-    "description": "24h verfügbar",
+    "description": "Nur im Einsatz verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
     "operator": "Gerhard Senti",
     "phone": "+423 373 35 02",
     "id": "node/9004557472"
@@ -1726,8 +1724,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5275068,
-      47.207372
+      9.5282095,
+      47.2072226
     ]
   }
 },
@@ -2922,6 +2920,78 @@
     "coordinates": [
       9.5511425,
       47.2344678
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11409708469",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindeverwaltung Haupteingang ",
+    "description": "Hinter Schiebetüre neben Lift / Alarmgesichert ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Eschen ",
+    "phone": "+4233774999",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11409708469"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5235586,
+      47.2124884
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11409708470",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Forstwerkhof Eschen-Nendeln ",
+    "description": "Direkt an der Fassade beim Eingang ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Eschen ",
+    "phone": "+4233774999",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11409708470"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5483422,
+      47.1963031
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11409722070",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Primarschule Nendeln ",
+    "description": "Beim Lehrerzimmer, nur zu Öffnungszeiten erreichbar ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo - Fr 7:30 - 17:00 ",
+    "operator": "Jürgen Biedermann GePo",
+    "phone": "+4233774999",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11409722070"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5463949,
+      47.1972909
     ]
   }
 }
