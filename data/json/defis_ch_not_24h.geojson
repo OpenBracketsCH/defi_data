@@ -42600,25 +42600,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7934179895",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Eingangsbereich der Turnhalle",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/7934179895"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6437243,
-      47.5713469
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7934179896",
   "properties": {
     "access": "yes",
@@ -164639,6 +164620,30 @@
     "coordinates": [
       9.0450364,
       47.4673142
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11413394769",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "STORY Thusis",
+    "description": "Beim Lift im EG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "7:00-17:00",
+    "operator": "Viamala Storys AG",
+    "phone": "+41815520007",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11413394769"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.440217,
+      46.6924596
     ]
   }
 }
