@@ -86031,24 +86031,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9534172534",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Elektritsitätswerk Stanserstrasse 8",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/9534172534"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.2776109,
-      46.9025929
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9534216601",
   "properties": {
     "defibrillator:location": "Migros Hofmatt",
@@ -164606,6 +164588,28 @@
     "coordinates": [
       8.1886776,
       47.4478261
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11411730804",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Bei den Elektrizitätswerken",
+    "description": "nur für Mitarbeiter",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Elektritsitätswerk Obwalden",
+    "phone": "+41 800 876 876",
+    "id": "node/11411730804"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2782678,
+      46.9028256
     ]
   }
 }
