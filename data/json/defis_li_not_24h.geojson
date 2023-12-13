@@ -1024,28 +1024,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9004557454",
-  "properties": {
-    "access": "permit",
-    "defibrillator:location": "Gemeindepolizei im Auto",
-    "description": "Im Polizeifahrzeug, nur GePo zugänglich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Alex Steiger, SIBE",
-    "phone": "+423 237 72 44",
-    "id": "node/9004557454"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.5096675,
-      47.1661663
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9004557456",
   "properties": {
     "access": "yes",
@@ -1087,6 +1065,29 @@
     "coordinates": [
       9.5083961,
       47.1676963
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557460",
+  "properties": {
+    "access": "customers",
+    "defibrillator:location": "Werkhof im Flur",
+    "description": "Nur bei Öffnungszeiten erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Sa 08:00-18:00",
+    "operator": "Alex Steiger, SIBE",
+    "phone": "+423 237 72 44",
+    "id": "node/9004557460"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5119125,
+      47.1712083
     ]
   }
 },
