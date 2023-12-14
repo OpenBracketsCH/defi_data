@@ -11882,31 +11882,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6636838631",
-  "properties": {
-    "access": "permissive",
-    "addr:city": "Ins",
-    "addr:housenumber": "2",
-    "addr:postcode": "3232",
-    "addr:street": "Dorfplatz",
-    "defibrillator:location": "im Gemeindehaus beim Hintereingang",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "07:00-22:00",
-    "operator": "Gemeindeverwaltung Ins",
-    "phone": "+41 32 313 96 30",
-    "id": "node/6636838631"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.1051894,
-      47.00628
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6636838632",
   "properties": {
     "access": "permissive",
@@ -164735,6 +164710,30 @@
     "coordinates": [
       8.0495721,
       47.3982802
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11417171969",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "ROBOTEC AG, Haupteingang, links",
+    "description": "während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00 - 16:00",
+    "operator": "Robotec AG",
+    "phone": "+41 56 464 40 80",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11417171969"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2159514,
+      47.4298333
     ]
   }
 }
