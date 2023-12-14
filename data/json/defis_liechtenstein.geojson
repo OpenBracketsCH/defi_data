@@ -707,7 +707,7 @@
   "id": "node/9004557427",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Haupteingang, Rechts",
+    "defibrillator:location": "Bauverwaltung Vaduz / LRK Hauptsitz",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -720,8 +720,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.513562,
-      47.1328996
+      9.5136559,
+      47.1328467
     ]
   }
 },
@@ -3175,6 +3175,30 @@
     "coordinates": [
       9.5073745,
       47.1506029
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11417495069",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Wasserwerk Vaduz ",
+    "description": "Bei der Eingangstüre ersichtlich ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo - Fr 7:00 - 17:00",
+    "operator": "Gemeinde Vaduz ",
+    "phone": "+423 793 78 16",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11417495069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.505856,
+      47.1508808
     ]
   }
 }
