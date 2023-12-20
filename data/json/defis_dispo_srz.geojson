@@ -27747,29 +27747,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8780676552",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Der Defi befindet sich im Auto",
-    "description": "24h verfügbar (über Betreiber)",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Yvonne Schmidt",
-    "phone": "+41 78 679 18 50",
-    "id": "node/8780676552"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6148906,
-      47.6655066
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8789226021",
   "properties": {
     "access": "yes",
@@ -63499,6 +63476,7 @@
   "type": "Feature",
   "id": "node/10910676177",
   "properties": {
+    "access": "no",
     "defibrillator:location": "Empfang;Future Camp",
     "description": "oranger Koffer",
     "emergency": "defibrillator",
@@ -71082,6 +71060,53 @@
     "coordinates": [
       8.474139,
       47.3392589
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11434548669",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bahnhof Steinerberg",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Schweizerische Südostbahn AG ",
+    "phone": "+41585807335",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11434548669"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.58529,
+      47.0522963
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11434561769",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindebibliothek",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Gossau",
+    "phone": "+41449365511",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11434561769"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.762911,
+      47.3013335
     ]
   }
 }
