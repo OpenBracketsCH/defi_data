@@ -40660,29 +40660,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7928159876",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "In der Badi",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "name": "Badi Hirsgarten",
-    "operator": "Einwohnergemeinde Cham",
-    "id": "node/7928159876"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4645528,
-      47.1783555
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7928159878",
   "properties": {
     "defibrillator:location": "Beim Bademeister / Kiosk",
@@ -47826,12 +47803,12 @@
   "type": "Feature",
   "id": "node/8317714106",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Gang bei Küche",
-    "description": "während Öffnungszeiten verfügbar",
+    "access": "yes",
+    "defibrillator:location": "Aussenwand Eingang Fuhrwerk",
+    "description": "24h zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "level": "0",
     "name": "Fuhrwerk",
     "operator": "Einwohnergemeinde Cham",
@@ -47840,8 +47817,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4417218,
-      47.1964303
+      8.4418322,
+      47.1964963
     ]
   }
 },
@@ -59814,20 +59791,21 @@
   "id": "node/8814162622",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Empfang VW",
-    "description": "während Öffnungszeiten verfügbar",
+    "check_date": "22.12.2023",
+    "defibrillator:location": "Aussensäule Nebeneingang",
+    "description": "24h zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Adrian Stecher",
+    "indoor": "no",
+    "operator": "Adrian Stecher, AMAG",
     "phone": "041 748 57 91",
     "id": "node/8814162622"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4739539,
-      47.1874959
+      8.4741395,
+      47.1876141
     ]
   }
 },
@@ -155311,14 +155289,15 @@
     "defibrillator:location": "Aussenwand Eingang Chinderhuus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "operator": "Einwohnergemeinde Cham",
     "id": "node/11059373952"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4514092,
-      47.1784289
+      8.4514111,
+      47.1784276
     ]
   }
 },
@@ -165481,6 +165460,27 @@
     "coordinates": [
       8.7317383,
       47.5075265
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11462032664",
+  "properties": {
+    "Kontakt": "041 723 50 50",
+    "access": "yes",
+    "check_date": "22.12.2023",
+    "defibrillator:location": "Aussenkasten beim Eingang WC-Anlagen",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "operator": "Einwohnergemeinde Cham",
+    "id": "node/11462032664"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4683032,
+      47.1804274
     ]
   }
 }
