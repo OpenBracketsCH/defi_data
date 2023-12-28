@@ -10700,6 +10700,7 @@
     "defibrillator:location": "Treppenhaus Altbau",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "Mo-Su 07:15-12:00,13:00-17:00",
     "operator": "Heim AG",
     "phone": "+41 52 369 70 90",
@@ -10740,8 +10741,10 @@
   "id": "node/10240188817",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Aussenwand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Fussballplatz Aadorf Unterwiesen",
     "phone": "+41 79 229 55 20",
