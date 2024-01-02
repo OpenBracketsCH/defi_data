@@ -3762,6 +3762,31 @@
 },
 {
   "type": "Feature",
+  "id": "node/6516227284",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Schwarzenbach / Huttwil",
+    "addr:housenumber": "15",
+    "addr:postcode": "4953",
+    "addr:street": "Neuhausstrasse",
+    "defibrillator:location": "Haupteingang. Ev bei Hauswart klingeln",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Schulhaus Schwarzenbach / hps Oberaargau",
+    "phone": "078 730 34 17",
+    "id": "node/6516227284"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.830368,
+      47.1106372
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/6516275936",
   "properties": {
     "access": "permissive",
@@ -6831,7 +6856,7 @@
     "addr:housenumber": "37",
     "addr:postcode": "3400",
     "addr:street": "Zähringerstrasse",
-    "defibrillator:location": "Hauteingang - Mitte Galerie",
+    "defibrillator:location": "Veloständer",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -7397,10 +7422,11 @@
   "properties": {
     "access": "yes",
     "addr:city": "Oberthal",
-    "addr:housenumber": "129",
+    "addr:housenumber": "56f",
     "addr:postcode": "3531",
     "addr:street": "Reutengraben",
-    "defibrillator:location": "Baugeschäft Hofer",
+    "defibrillator:location": "in Autounterstand an linker Wand",
+    "description": "in Autounterstand an linker Wand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
@@ -7410,8 +7436,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6737956,
-      46.9166755
+      7.6744115,
+      46.9167167
     ]
   }
 },
@@ -9483,14 +9509,14 @@
     "level": "0",
     "opening_hours": "24/7",
     "operator": "Mehrzweckhalle Ipsach",
-    "phone": "+41 32 333 78 23",
+    "phone": "032 333 78 00",
     "id": "node/6636784168"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.2346732,
-      47.1151224
+      7.2345386,
+      47.1151913
     ]
   }
 },
@@ -11447,29 +11473,6 @@
     "coordinates": [
       7.5645779,
       46.9271953
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/6655454661",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Zimmerwald",
-    "addr:housenumber": "30",
-    "addr:postcode": "3086",
-    "addr:street": "Brunnacker",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Unklar",
-    "id": "node/6655454661"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4733307,
-      46.8776138
     ]
   }
 },
@@ -16801,6 +16804,7 @@
     "emergency:phone": "144",
     "opening_hours": "24/7",
     "operator": "Sportgeschäft Erb Gottfried",
+    "phone": "033 533 73 74",
     "id": "node/6987098593"
   },
   "geometry": {
@@ -18269,31 +18273,6 @@
     "coordinates": [
       7.1219133,
       47.1141191
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/6998896797",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Zollbrück",
-    "addr:housenumber": "21",
-    "addr:postcode": "3436",
-    "addr:street": "Langnaustrasse",
-    "defibrillator:location": "-",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Valiant AG - Filiale Zollbrück",
-    "phone": "+41 34 496 94 11",
-    "id": "node/6998896797"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.7498261,
-      46.9721853
     ]
   }
 },
@@ -77015,22 +76994,22 @@
   "type": "Feature",
   "id": "node/9957257555",
   "properties": {
-    "access": "yes",
+    "access": "24h",
     "defibrillator:location": "Eingang Süd, Aussenwand",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Samariterverein Riggisberg-Thurnen, Frau Doris Kuhn, Bachmattstrasse 8, 3132 Riggisberg",
-    "phone": "+41 79 329 45 82",
+    "operator": "Schulhaus Riggisberg",
+    "phone": "076 329 86 64",
     "id": "node/9957257555"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4759173,
-      46.8070678
+      7.4759115,
+      46.8070505
     ]
   }
 },
@@ -85431,9 +85410,9 @@
     "addr:housenumber": "5",
     "addr:postcode": "2744",
     "addr:street": "Les Grands Clos",
-    "description": "-",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "commune de Belprahon",
     "phone": "+41 79 414 74 11",
@@ -85442,8 +85421,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4057829,
-      47.2850571
+      7.4057592,
+      47.2851357
     ]
   }
 },
@@ -87416,27 +87395,6 @@
     "coordinates": [
       7.0469574,
       47.4629006
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10614233800",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "facade batiment communal",
-    "description": "24h verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "id": "node/10614233800"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.40574,
-      47.28512
     ]
   }
 },
