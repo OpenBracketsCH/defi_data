@@ -2853,9 +2853,10 @@
     "addr:housenumber": "2",
     "addr:postcode": "4950",
     "addr:street": "Marktgasse",
-    "defibrillator:location": "Gemeindeverwaltung Huttwil",
+    "defibrillator:location": "Eingangsbereich (auf Parkplatzseite)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "opening_hours": "Mo-Sa 08:00-16:00",
     "operator": "Stadthaus/Gemeindeverwaltung Huttwil",
     "phone": "+41 62 959 88 64",
     "id": "node/6516286744"
@@ -9754,7 +9755,6 @@
     "addr:postcode": "3531",
     "addr:street": "Reutengraben",
     "defibrillator:location": "in Autounterstand an linker Wand",
-    "description": "in Autounterstand an linker Wand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
@@ -34738,6 +34738,7 @@
   "type": "Feature",
   "id": "node/8988581617",
   "properties": {
+    "access": "permissive",
     "check_date:opening_hours": "2021-09-24",
     "defibrillator:location": "Beim Kundendienst Migros Chappelemärit",
     "description": "Während Öffnungszeiten verfügbar",
@@ -42815,14 +42816,18 @@
   "type": "Feature",
   "id": "node/10108146597",
   "properties": {
-    "access": "no",
+    "access": "permissive",
+    "addr:city": "Grindelwald",
+    "addr:housenumber": "32",
+    "addr:postcode": "3818",
+    "addr:street": "Grundstrasse",
     "defibrillator:location": "Treppenhaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "opening_hours": "Mo-Fr 07:30-12:00, 13:30-18:00",
-    "operator": "Christian Kernen",
+    "operator": "STI Gruppe",
     "phone": "+41332251373",
     "id": "node/10108146597"
   },
@@ -50613,16 +50618,15 @@
   "type": "Feature",
   "id": "node/11286401769",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Eingangsbereich",
+    "access": "permissive",
+    "defibrillator:location": "Haupteingang, nach 15m rechts anschliessend nach Durchgang (nach 5m) rechts an der Wand",
     "description": "während den Arbeitszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr: 08:00-17:00",
-    "operator": "Flachglas Schweiz",
-    "phone": "+41333345050",
-    "source": "local_knowledge, defikarte.ch",
+    "opening_hours": "Mo-Fr 07:00-12:00,13:00-16:45",
+    "operator": "Flachglas Thun AG",
+    "phone": "+41 333345050",
     "id": "node/11286401769"
   },
   "geometry": {
@@ -51491,6 +51495,369 @@
     "coordinates": [
       7.5328164,
       46.4687472
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11483340035",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Zollikofen",
+    "addr:housenumber": "73",
+    "addr:postcode": "3052",
+    "addr:street": "Schulhausstrasse",
+    "defibrillator:location": "Turnhalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "Mo-Sa 08:00-17:30",
+    "operator": "Schulanlage Oberdorf (Turnhalle)",
+    "phone": "+41 31 911 69 72",
+    "id": "node/11483340035"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4518814,
+      46.9980478
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11483340045",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Zollikofen",
+    "addr:housenumber": "30",
+    "addr:postcode": "3052",
+    "addr:street": "Schulhausstrasse",
+    "defibrillator:location": "Aula",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "Mo-Fr 08:00-17:30",
+    "operator": "Schulanlage Sek (Aula)",
+    "phone": "+41 31 914 02 25",
+    "id": "node/11483340045"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4523567,
+      46.9983629
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11483340046",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Zollikofen",
+    "addr:housenumber": "54",
+    "addr:postcode": "3052",
+    "addr:street": "Wahlackerstrasse",
+    "defibrillator:location": "Aula",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "Mo-Sa 08:00-17:30",
+    "operator": "Schulanlage Oberdorf (Aula Wahlacker)",
+    "phone": "+41 31 911 69 72",
+    "id": "node/11483340046"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4533558,
+      46.9970393
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11483340051",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Zollikofen",
+    "addr:housenumber": "47",
+    "addr:postcode": "3052",
+    "addr:street": "Aarestrasse",
+    "defibrillator:location": "Turnhalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "Mo-Sa 08:00-17:30",
+    "operator": "Schulanlage Steinibach",
+    "phone": "+41 31 911 01 84",
+    "id": "node/11483340051"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4551184,
+      46.9887991
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11483340052",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Zollikofen",
+    "addr:housenumber": "25",
+    "addr:postcode": "3052",
+    "addr:street": "Wahlackerstrasse",
+    "defibrillator:location": "EG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Gemeindeverwaltung Zollikofen",
+    "phone": "031 910 91 52",
+    "id": "node/11483340052"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4523005,
+      46.9944352
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11483340053",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Utzigen",
+    "addr:postcode": "3068",
+    "addr:street": "Wuhlstrasse 110a",
+    "defibrillator:location": "Eingang zur Wäscherei, rechts neben der Schiebetür",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "Mo-Su 08:00-17:00",
+    "operator": "Wohn- und Pflegeheim Utzigen",
+    "phone": "+41 318382111",
+    "id": "node/11483340053"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.560995,
+      46.9625937
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11483340054",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Thun",
+    "addr:postcode": "3600",
+    "addr:street": "Allmendstrasse 46",
+    "defibrillator:location": "links neben dem Schwerlastregal neben der Türe zur Spenglerei",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "Mo-Fr 06:00-19:00",
+    "operator": "Boss Holzbau AG",
+    "id": "node/11483340054"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6173032,
+      46.7605116
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11483349974",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Ittigen",
+    "addr:postcode": "3063",
+    "addr:street": "Rain 13",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "Mo-Sa 08:00-18:00",
+    "operator": "Kirchliches Zentrum Ittigen",
+    "phone": "+41 31 921 72 91",
+    "id": "node/11483349974"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4795742,
+      46.9760922
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11483349975",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Ostermundigen",
+    "addr:housenumber": "31",
+    "addr:postcode": "3072",
+    "addr:street": "Obere Zollgasse",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "Mo-Sa 08:00-18:00",
+    "operator": "Katholisches Pfarreizentrum Guthirt",
+    "phone": "+41 31 930 87 00",
+    "id": "node/11483349975"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4868417,
+      46.9548902
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11483349976",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Belp",
+    "addr:housenumber": "28",
+    "addr:postcode": "3123",
+    "addr:street": "Steinbachstrasse",
+    "defibrillator:location": "Im Einkaufszentrum gegenüber des Kundendienstes im Erdgeschoss",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "Mo-Sa 08:00-19:00",
+    "operator": "Migros Supermarkt",
+    "id": "node/11483349976"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4931163,
+      46.8966559
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11483349977",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Zollikofen",
+    "addr:housenumber": "74",
+    "addr:postcode": "3052",
+    "addr:street": "Alpenstrasse",
+    "defibrillator:location": "Mehrzweckhalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "Mo-Sa 08:00-17:30",
+    "operator": "Schulanlage Geisshubel (Mehrzweckhalle)",
+    "phone": "+41 31 911 42 22",
+    "id": "node/11483349977"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4397585,
+      47.0003879
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11483377378",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Madiswil",
+    "addr:housenumber": "62",
+    "addr:postcode": "4934",
+    "addr:street": "Unterdorfstrasse",
+    "defibrillator:location": "Eingangsbereich/Empfang Werkstatt",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "Mo-Fr 07:00-17:00",
+    "operator": "WBM Madiswil",
+    "phone": "+41 62 957 99 50",
+    "id": "node/11483377378"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7959168,
+      47.170891
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11483377379",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Thierachern",
+    "addr:housenumber": "9",
+    "addr:postcode": "3634",
+    "addr:street": "Bachweg",
+    "defibrillator:location": "Im Foyer zur Mehrzweckhalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Schulanlage Kandermatte",
+    "id": "node/11483377379"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5765747,
+      46.7571086
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11483377380",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Thierachern",
+    "addr:postcode": "3634",
+    "addr:street": "Alter Eggstutz 1",
+    "defibrillator:location": "Pfruendschüür an der Wand beim Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Kirchgemeinde Thierachern",
+    "id": "node/11483377380"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.57359,
+      46.753756
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11483377381",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Oberburg",
+    "addr:housenumber": "100",
+    "addr:postcode": "3414",
+    "addr:street": "Emmentalstrasse",
+    "defibrillator:location": "An der Reception",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Garage Hofmann AG",
+    "phone": "+41 79 301 54 10",
+    "id": "node/11483377381"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6291764,
+      47.0356085
     ]
   }
 }
