@@ -3764,7 +3764,7 @@
   "type": "Feature",
   "id": "node/6516227284",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "addr:city": "Schwarzenbach / Huttwil",
     "addr:housenumber": "15",
     "addr:postcode": "4953",
@@ -3774,7 +3774,7 @@
     "emergency:phone": "144",
     "opening_hours": "24/7",
     "operator": "Schulhaus Schwarzenbach / hps Oberaargau",
-    "phone": "078 730 34 17",
+    "phone": "+41 78 730 34 17",
     "id": "node/6516227284"
   },
   "geometry": {
@@ -12613,11 +12613,18 @@
   "type": "Feature",
   "id": "node/6681581424",
   "properties": {
-    "defibrillator:location": "Neben Eingangstüre Turnhalle in Kasten",
+    "access": "yes",
+    "addr:city": "Bettenhausen",
+    "addr:housenumber": "28",
+    "addr:postcode": "3366",
+    "addr:street": "Dorfstrasse",
+    "defibrillator:location": "Beim Eingang zur Mehrzweckhalle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Bettenhausen",
+    "phone": "+41 62 961 11 55",
     "id": "node/6681581424"
   },
   "geometry": {
@@ -45565,21 +45572,24 @@
   "id": "node/8621170738",
   "properties": {
     "access": "yes",
+    "addr:city": "Bützberg",
+    "addr:housenumber": "25",
+    "addr:postcode": "4922",
+    "addr:street": "Sonnhaldestrasse",
     "defibrillator:location": "Beim alten Eingang zur Aula.",
-    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Schule Bützberg",
-    "phone": "+41629585031",
+    "phone": "062 958 60 30",
     "id": "node/8621170738"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7469926,
-      47.210742
+      7.7468893,
+      47.2108049
     ]
   }
 },
@@ -62469,6 +62479,10 @@
   "id": "node/9218989600",
   "properties": {
     "access": "yes",
+    "addr:city": "Herzogenbuchsee",
+    "addr:housenumber": "2a",
+    "addr:postcode": "3360",
+    "addr:street": "Bernstrasse",
     "defibrillator:location": "Der Defibrillator befindet sich an der Aussenseite des Gebäudes (Seite zur Gemeindeverwaltung).",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
@@ -68716,12 +68730,17 @@
   "id": "node/9510633327",
   "properties": {
     "access": "yes",
+    "addr:city": "Grindelwald",
+    "addr:housenumber": "15",
+    "addr:postcode": "3818",
+    "addr:street": "Nirggenstrasse",
     "defibrillator:location": "Feuerwehr Grindelwald",
     "description": "neben dem Haupteingang an der Hauswand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Feuerwehrmagazin",
     "id": "node/9510633327"
   },
   "geometry": {
@@ -79659,11 +79678,17 @@
   "id": "node/10128274243",
   "properties": {
     "access": "yes",
+    "addr:city": "Zollikofen",
+    "addr:housenumber": "12",
+    "addr:postcode": "3052",
+    "addr:street": "Waldeckstrasse",
     "defibrillator:location": "Aussen an der Hauswand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "location": "outdoor",
+    "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Wohnbaugenossenschaft SOL",
+    "phone": "+41796414626",
     "id": "node/10128274243"
   },
   "geometry": {
@@ -80229,7 +80254,11 @@
   "id": "node/10168543618",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Heilpädagogische Schule Gstaad",
+    "addr:city": "Gstaad",
+    "addr:housenumber": "15",
+    "addr:postcode": "3780",
+    "addr:street": "Gsteigstrasse",
+    "defibrillator:location": "Haupteingang rechte Seite",
     "description": "Defi befindet sich beim Haupteingang der HPS",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -81405,7 +81434,11 @@
   "id": "node/10231124856",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Das Gerät befindet sich links neben der Eingangstür der Gemeindeverwaltung.",
+    "addr:city": "Busswil bei Melchnau",
+    "addr:housenumber": "13c",
+    "addr:postcode": "4917",
+    "addr:street": "Dörfli",
+    "defibrillator:location": "Gemeindeverwaltung / Altes Schulhaus, Eingang",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -83526,7 +83559,11 @@
   "id": "node/10274952409",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Langenwilweg 12",
+    "addr:city": "Schwarzenburg",
+    "addr:housenumber": "10",
+    "addr:postcode": "3150",
+    "addr:street": "Langenwilweg",
+    "defibrillator:location": "Eingang Werkhof",
     "description": "links neben Türe",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -84519,8 +84556,12 @@
   "id": "node/10316863510",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Rechts vom Altersheim beim Lieferanten Parkplatz ",
-    "description": "Ist jederzeit zugänglich ",
+    "addr:city": "Krattigen",
+    "addr:housenumber": "30",
+    "addr:postcode": "3704",
+    "addr:street": "Leissigenstrasse",
+    "defibrillator:location": "Rechts vom Altersheim beim Lieferanten Parkplatz",
+    "description": "Ist jederzeit zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -84533,8 +84574,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7426686,
-      46.6587819
+      7.7425707,
+      46.6589016
     ]
   }
 },
@@ -87029,6 +87070,10 @@
   "id": "node/10610549105",
   "properties": {
     "access": "yes",
+    "addr:city": "Schwarzenburg",
+    "addr:housenumber": "16",
+    "addr:postcode": "3150",
+    "addr:street": "Ringgenmatt",
     "defibrillator:location": "Aussenwand",
     "description": "Parkplatz / Aussenwand",
     "emergency": "defibrillator",
@@ -87036,7 +87081,7 @@
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "ISP Electro Solutions AG",
-    "phone": "0317310220",
+    "phone": "+41 31 731 02 20",
     "id": "node/10610549105"
   },
   "geometry": {
@@ -87821,13 +87866,18 @@
   "id": "node/10653240806",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Haupteingang Gemeindeverwaltung",
+    "addr:city": "Wichtrach",
+    "addr:housenumber": "20",
+    "addr:postcode": "3114",
+    "addr:street": "Stadelfeldstrasse",
+    "defibrillator:location": "Aussenkasten beim Eingang",
     "description": "Bei Roten Briefkästen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "gemeinde",
+    "operator": "Gemeindeverwaltung Wichtrach",
+    "phone": "031 780 19 19",
     "id": "node/10653240806"
   },
   "geometry": {
@@ -87928,6 +87978,34 @@
     "coordinates": [
       8.2733113,
       46.9411506
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10660733405",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Albligen",
+    "addr:housenumber": "2",
+    "addr:postcode": "3183",
+    "addr:street": "Götschmannsriedstrasse",
+    "defibrillator:location": "Kirche Albligen, im Eingang auf der linken Seite",
+    "description": "Die Kirche ist immer offen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Schwarzenburg",
+    "phone": "+41 31 734 00 50",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10660733405"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3190027,
+      46.8518235
     ]
   }
 },
@@ -88239,7 +88317,11 @@
   "id": "node/10689193594",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Der Defibrillator wurde im Containerraum vom Rainackerweg 44 montiert.",
+    "addr:city": "Boll",
+    "addr:housenumber": "44",
+    "addr:postcode": "3067",
+    "addr:street": "Rainackerweg",
+    "defibrillator:location": "Containerraum",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -88551,6 +88633,32 @@
     "coordinates": [
       8.6698651,
       47.4336223
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10702275605",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Schwarzenburg",
+    "addr:housenumber": "13a",
+    "addr:postcode": "3150",
+    "addr:street": "Dorfmattenstrasse",
+    "defibrillator:location": "Schützenhaus Schwarzenburg",
+    "description": "Eingang Schützenhaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "phone": "+41 31 731 07 64",
+    "id": "node/10702275605"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3475821,
+      46.8117301
     ]
   }
 },
@@ -89820,13 +89928,16 @@
   "id": "node/10747810306",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Fiteria, Physiotherapie Tom Burri GmbH",
-    "description": "steht draussen. Immer verfügbar",
+    "addr:city": "Uttigen",
+    "addr:housenumber": "11",
+    "addr:postcode": "3628",
+    "addr:street": "Eichenweg",
+    "defibrillator:location": "Aussen am Haus zum Eingang Fiteria",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Physiotherapiepraxis",
+    "operator": "FITERIA/ Physiothearpie",
     "phone": "+41 79 705 21 93",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10747810306"
@@ -92314,30 +92425,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10770269605",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Beim Einkaufsladen rechts vor der Tür",
-    "description": "immer Verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "JVA Witzwil",
-    "phone": "+41316356511",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/10770269605"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.0622349,
-      46.9890207
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10771392905",
   "properties": {
     "access": "yes",
@@ -92366,8 +92453,12 @@
   "id": "node/10773297407",
   "properties": {
     "access": "yes",
+    "addr:city": "Brüttelen",
+    "addr:housenumber": "7",
+    "addr:postcode": "3237",
+    "addr:street": "Lindengasse",
     "defibrillator:location": "Schulhaus Brüttelen (Rückseite)",
-    "description": "offen zugänglich ",
+    "description": "offen zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -92488,8 +92579,10 @@
   "id": "node/10775751805",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Verkaufsladen JVA Witzwil, recht neben Eingang",
-    "description": "Aussen angebracht, 24/7 verfügbar",
+    "addr:city": "Gampelen",
+    "addr:postcode": "3236",
+    "addr:street": "Lindenhof",
+    "defibrillator:location": "recht neben Eingang, Verkaufsladen JVA Witzwil",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -94297,7 +94390,11 @@
   "id": "node/10837053805",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Einwohnergemeinde Münchenbuchsee Südseite",
+    "addr:city": "Münchenbuchsee",
+    "addr:housenumber": "8",
+    "addr:postcode": "3053",
+    "addr:street": "Bernstrasse",
+    "defibrillator:location": "Südseite",
     "description": "frei zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -94321,7 +94418,10 @@
   "id": "node/10837058105",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Saal- und Freizeitanlage, Radiostrasse 23",
+    "addr:city": "Münchenbuchsee",
+    "addr:postcode": "3053",
+    "addr:street": "Radiostrasse 23",
+    "defibrillator:location": "Saal- und Freizeitanlage",
     "description": "frei zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -94345,22 +94445,26 @@
   "id": "node/10837065405",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schulhaus Allmend, Waldstrasse 6, 3052 Zollikofen",
+    "addr:city": "Münchenbuchsee",
+    "addr:housenumber": "6",
+    "addr:postcode": "3053",
+    "addr:street": "Waldstrasse",
+    "defibrillator:location": "Schulhaus Allmend",
     "description": "frei zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Einwohnergemeinde Münchenbuchsee",
-    "phone": "+41318688115",
+    "phone": "+41788031712",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10837065405"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4599079,
-      47.0035608
+      7.459928,
+      47.0036353
     ]
   }
 },
@@ -94421,14 +94525,18 @@
   "id": "node/10837088805",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Gotthelfschulhaus Diemerswil; Dorfstrasse 26, 3053 Diemerswil (Gemeinde Münchenbuchsee)",
+    "addr:city": "Diemerswil",
+    "addr:housenumber": "26",
+    "addr:postcode": "3053",
+    "addr:street": "Dorfstrasse",
+    "defibrillator:location": "Gotthelfschulhaus Diemerswil",
     "description": "frei zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Einwohnergemeinde Münchenbuchsee",
-    "phone": "+41318688115",
+    "phone": "+41788031712",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10837088805"
   },
@@ -94445,14 +94553,18 @@
   "id": "node/10837113805",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schulhaus Riedli; Riedliweg 30 (Hallenbad), 3053 Münchenbuchsee",
+    "addr:city": "Münchenbuchsee",
+    "addr:housenumber": "28",
+    "addr:postcode": "3053",
+    "addr:street": "Riedliweg",
+    "defibrillator:location": "Hallenbad",
     "description": "frei zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Einwohnergemeinde Münchenbuchsee",
-    "phone": "+41318688115",
+    "phone": "+41788031712",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10837113805"
   },
@@ -94469,14 +94581,18 @@
   "id": "node/10837124105",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schulhaus Waldeck; Laubbergweg 41, 3053 Münchenbuchsee",
+    "addr:city": "Münchenbuchsee",
+    "addr:housenumber": "43",
+    "addr:postcode": "3053",
+    "addr:street": "Laubbergweg",
+    "defibrillator:location": "Schulhaus Waldeck",
     "description": "frei zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Einwohnergemeinde Münchenbuchsee",
-    "phone": "+41318688115",
+    "phone": "+41788031712",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10837124105"
   },
@@ -94493,14 +94609,18 @@
   "id": "node/10837129205",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schulhaus Paul-Klee; Oberdorfstrasse 18, 3053 Münchenbuchsee",
+    "addr:city": "Münchenbuchsee",
+    "addr:housenumber": "18",
+    "addr:postcode": "3053",
+    "addr:street": "Oberdorfstrasse",
+    "defibrillator:location": "Schulhaus Paul-Klee",
     "description": "frei zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Einwohnergemeinde Münchenbuchsee",
-    "phone": "+41318688115",
+    "phone": "+41788031712",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10837129205"
   },
@@ -95114,13 +95234,17 @@
   "id": "node/10868470105",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bemo Handels AG, Kirchplatz 8",
+    "addr:city": "Lützelflüh-Goldbach",
+    "addr:housenumber": "8",
+    "addr:postcode": "3432",
+    "addr:street": "Kirchplatz",
+    "defibrillator:location": "Bemo Handels AG",
     "description": "immer Verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Gemeinde",
+    "operator": "Bemo Handels AG",
     "phone": "+41 794507350",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10868470105"
@@ -95128,8 +95252,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6864788,
-      47.0076231
+      7.6865928,
+      47.0077063
     ]
   }
 },
@@ -98525,6 +98649,34 @@
 },
 {
   "type": "Feature",
+  "id": "node/11038063816",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Kandergrund",
+    "addr:housenumber": "41",
+    "addr:postcode": "3716",
+    "addr:street": "Reckental",
+    "defibrillator:location": "Nordseite neben Eingangstür, Altes Schulhaus Kandergrund",
+    "description": "dauernd zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Kandergrund",
+    "phone": "+41 33 672 13 10",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11038063816"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6614726,
+      46.5563003
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/11038063821",
   "properties": {
     "access": "yes",
@@ -101431,13 +101583,17 @@
   "id": "node/11209515339",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Primarschule Dürrenast ",
-    "description": "An der Wand montiert beim Eingang Schulgebäude ",
+    "addr:city": "Thun",
+    "addr:housenumber": "37",
+    "addr:postcode": "3604",
+    "addr:street": "Schulstrasse",
+    "defibrillator:location": "An der Wand montiert beim Eingang Schulgebäude",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Parterre aussen",
+    "level": "0",
     "opening_hours": "24/7",
+    "operator": "Primarschule Dürrenast",
     "id": "node/11209515339"
   },
   "geometry": {
@@ -106874,6 +107030,302 @@
     "coordinates": [
       7.5383472,
       46.9324914
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11483561081",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Wichtrach",
+    "addr:postcode": "3114",
+    "addr:street": "Austrasse 26",
+    "defibrillator:location": "Neben Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fuhrer Gartenbau AG",
+    "phone": "+41 31 781 26 66",
+    "id": "node/11483561081"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5661173,
+      46.8294648
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11483561086",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Bern",
+    "addr:housenumber": "17",
+    "addr:postcode": "3006",
+    "addr:street": "Höheweg",
+    "defibrillator:location": "Links neben der Eingangstüre",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "institut bau + energie ag",
+    "phone": "+41 31 357 53 17",
+    "id": "node/11483561086"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4177865,
+      46.973785
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11483561087",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Münchenbuchsee",
+    "addr:housenumber": "6",
+    "addr:postcode": "3053",
+    "addr:street": "Quellenweg",
+    "defibrillator:location": "Turnhalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Turnhalle",
+    "phone": "+41788031712",
+    "id": "node/11483561087"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4454726,
+      47.0183358
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11483561088",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Teuffenthal",
+    "addr:housenumber": "17c",
+    "addr:postcode": "3623",
+    "addr:street": "Halten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Feuerwehrmagazin Teuffenthal",
+    "id": "node/11483561088"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7176221,
+      46.7744755
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11483561089",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Frutigen",
+    "addr:housenumber": "218",
+    "addr:postcode": "3714",
+    "addr:street": "Adelbodenstrasse",
+    "defibrillator:location": "Aussenfassade Strassenseitig",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Restaurant Rohrbach",
+    "phone": "+41 33 672 52 00",
+    "id": "node/11483561089"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6025577,
+      46.5499784
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11483561090",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Kandersteg",
+    "addr:housenumber": "39",
+    "addr:postcode": "3718",
+    "addr:street": "Aeussere Dorfstrasse",
+    "defibrillator:location": "Aussenfassade vor Arztpraxis",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Arztpraxis Kandersteg",
+    "phone": "+41 33 675 14 24",
+    "id": "node/11483561090"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6738897,
+      46.4969389
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11483583915",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Thun",
+    "addr:housenumber": "14",
+    "addr:postcode": "3600",
+    "addr:street": "Seestrasse",
+    "defibrillator:location": "Eingang Nord",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Geschäftshaus",
+    "id": "node/11483583915"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6331046,
+      46.7516384
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11483583916",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Moutier",
+    "addr:housenumber": "98",
+    "addr:postcode": "2740",
+    "addr:street": "Rue Industrielle",
+    "defibrillator:location": "Rez-de-chaussée en face de l'entrée",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Forum de l'Arc SA",
+    "phone": "+41324931739",
+    "id": "node/11483583916"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3621769,
+      47.2709171
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11483583917",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Saicourt",
+    "addr:housenumber": "37",
+    "addr:postcode": "2732",
+    "addr:street": "Route de la Scierie",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Miramont Horse Trekking Hostel",
+    "phone": "+41 795042402",
+    "id": "node/11483583917"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2026531,
+      47.2434341
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11483621719",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Thierachern",
+    "addr:housenumber": "40",
+    "addr:postcode": "3634",
+    "addr:street": "Brüggstrasse",
+    "defibrillator:location": "In Nische an Süd-Fassade. Von Brüggstrasse her gut sichtbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Kavarep Kaffemaschinen",
+    "id": "node/11483621719"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5880705,
+      46.7642485
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11483621720",
+  "properties": {
+    "access": "yes",
+    "addr:city": "St-Imier",
+    "addr:housenumber": "16",
+    "addr:postcode": "2610",
+    "addr:street": "Route de Tramelan",
+    "defibrillator:location": "en façade nord",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Société des Forces Electriques de La Goule SA",
+    "phone": "+41 32 942 41 11",
+    "id": "node/11483621720"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0058338,
+      47.1556996
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11483621785",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Bern",
+    "addr:housenumber": "131",
+    "addr:postcode": "3012",
+    "addr:street": "Engehaldenstrasse",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Mopi Transportdienste",
+    "phone": "0800144365",
+    "id": "node/11483621785"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4417252,
+      46.9617757
     ]
   }
 }
