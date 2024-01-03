@@ -42595,8 +42595,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5914213,
-      46.9292002
+      7.5914589,
+      46.9291214
     ]
   }
 },
@@ -42605,8 +42605,11 @@
   "id": "node/10068616770",
   "properties": {
     "access": "yes",
+    "addr:city": "Richigen",
+    "addr:housenumber": "221",
+    "addr:postcode": "3078",
+    "addr:street": "Hübeliweg",
     "defibrillator:location": "ehemaliges Feuerwehrmagazin",
-    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -42619,8 +42622,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5824439,
-      46.9186596
+      7.5824473,
+      46.9187013
     ]
   }
 },
@@ -42629,8 +42632,11 @@
   "id": "node/10068616771",
   "properties": {
     "access": "yes",
+    "addr:city": "Rüfenacht",
+    "addr:housenumber": "31",
+    "addr:postcode": "3075",
+    "addr:street": "Alte Bernstrasse",
     "defibrillator:location": "Feuerwehrmagazin Rüfenacht Aussenwand links",
-    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -42653,22 +42659,24 @@
   "id": "node/10068616772",
   "properties": {
     "access": "yes",
+    "addr:city": "Vielbringen b. Worb",
+    "addr:postcode": "3075",
+    "addr:street": "Beitenwilstrasse 47",
     "defibrillator:location": "ehemaliges Feuerwehrmagazin",
-    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeindeverwaltung Worb",
-    "phone": "+41 31 838 07 82",
+    "phone": "+41 31 838 07 80",
     "id": "node/10068616772"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5486944,
-      46.915434
+      7.5487065,
+      46.9154542
     ]
   }
 },
@@ -42678,7 +42686,6 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "ehemaliges Schulhaus Wattenwil-Bangerten",
-    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -42843,14 +42850,18 @@
   "type": "Feature",
   "id": "node/10108146598",
   "properties": {
-    "access": "no",
+    "access": "permissive",
+    "addr:city": "Interlaken",
+    "addr:housenumber": "18",
+    "addr:postcode": "3800",
+    "addr:street": "Im Moos",
     "defibrillator:location": "Treppenhaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "opening_hours": "Mo-Fr 07:00-12:00, 13:00-17:00",
-    "operator": "Christian Kernen",
+    "operator": "STI Gruppe",
     "phone": "+41332251373",
     "id": "node/10108146598"
   },
@@ -43937,6 +43948,10 @@
   "id": "node/10275321810",
   "properties": {
     "access": "yes",
+    "addr:city": "Enggistein",
+    "addr:housenumber": "529",
+    "addr:postcode": "3077",
+    "addr:street": "Biglenstrasse",
     "defibrillator:location": "ehemaliges Feuerwehrmagazin Enggistein",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -43949,8 +43964,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5972176,
-      46.9318909
+      7.5971935,
+      46.9320063
     ]
   }
 },
@@ -45470,7 +45485,11 @@
   "id": "node/10681672605",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Aussenbereich am Liftturm auf Spielstrasse",
+    "addr:city": "Schliern",
+    "addr:housenumber": "95",
+    "addr:postcode": "3098",
+    "addr:street": "Talbodenstrasse",
+    "defibrillator:location": "In Mitte auf Spielstrasse an Aussenliftschacht",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -45482,8 +45501,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4102378,
-      46.9104521
+      7.4102103,
+      46.9104132
     ]
   }
 },
@@ -45766,13 +45785,17 @@
   "id": "node/10723950905",
   "properties": {
     "access": "yes",
+    "addr:city": "Schlosswil",
+    "addr:housenumber": "450a",
+    "addr:postcode": "3082",
+    "addr:street": "Lochiweg",
     "defibrillator:location": "Gemeinschaftsraum Ried/Schlosswil",
     "description": "Defibrillator ZOLL AED Plus CPR",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Gemeindeverwaltung Worb, Polizeiabteilung, Bärenplatz 1, Postfach, 3076 Worb",
+    "operator": "Gemeindeverwaltung Worb, Polizeiabteilung",
     "phone": "+41 31 838 07 80",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10723950905"
@@ -48335,14 +48358,18 @@
   "id": "node/10837078005",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Kindergarten Ursprung; Ursprungstrasse 85, 3053 Münchenbuchsee",
+    "addr:city": "Münchenbuchsee",
+    "addr:housenumber": "85",
+    "addr:postcode": "3053",
+    "addr:street": "Ursprungstrasse",
+    "defibrillator:location": "Kindergarten Ursprung",
     "description": "frei zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Einwohnergemeinde Münchenbuchsee",
-    "phone": "+41318688115",
+    "phone": "+41788031712",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10837078005"
   },
@@ -48520,13 +48547,16 @@
   "id": "node/10868504705",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Coiffure Wüthrich, Dorfstrasse 46",
-    "description": "immer Verfügbar",
+    "addr:city": "Lützelflüh-Goldbach",
+    "addr:housenumber": "46",
+    "addr:postcode": "3432",
+    "addr:street": "Dorfstrasse",
+    "defibrillator:location": "Coiffure Wüthrich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Gemeinde",
+    "operator": "Coiffeur Wüthrich",
     "phone": "+41 794507350",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10868504705"
@@ -48534,8 +48564,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.681831,
-      47.0033599
+      7.681951,
+      47.0033521
     ]
   }
 },
@@ -48776,6 +48806,10 @@
   "id": "node/10902388437",
   "properties": {
     "access": "yes",
+    "addr:city": "Auswil",
+    "addr:housenumber": "35",
+    "addr:postcode": "4944",
+    "addr:street": "Dorf",
     "defibrillator:location": "Schulhaus Auswil",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -49018,13 +49052,17 @@
   "id": "node/10940092905",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Wankdorfstrasse 10, unter Vordach vom Haupteingang, links vor der Drehtüre",
-    "description": "24/7 verfügbar, bei Benutzung immer +41 31 344 30 00 informieren",
+    "addr:city": "Bern",
+    "addr:housenumber": "10",
+    "addr:postcode": "3014",
+    "addr:street": "Wankdorfstrasse",
+    "defibrillator:location": "unter Vordach vom Haupteingang, links vor der Drehtüre",
+    "description": "bei Benutzung immer +41 31 344 30 00 informieren",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Privat, CSL Behring AG Bern",
+    "operator": "CSL Behring AG Bern",
     "phone": "+41 31 344 44 44",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10940092905"
@@ -51858,6 +51896,55 @@
     "coordinates": [
       7.6291764,
       47.0356085
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11483459011",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Rüfenacht",
+    "addr:postcode": "3075",
+    "addr:street": "Asterweg 1a",
+    "defibrillator:location": "Einstellhalle Rüfenacht",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung Worb - Polizeiabteilung",
+    "phone": "+41 318380780",
+    "id": "node/11483459011"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5383472,
+      46.9324914
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11483459012",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Tramelan",
+    "addr:housenumber": "13",
+    "addr:postcode": "2720",
+    "addr:street": "Ch. des Lovières",
+    "defibrillator:location": "CIP réception Centre de séminaires et bureaux de l'administration cantonale bernoise",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "07:00-22:00",
+    "operator": "Centre interrégional de perfectionnement (CIP) / COFRA",
+    "phone": "+41 32 486 06 06",
+    "id": "node/11483459012"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1019935,
+      47.2192435
     ]
   }
 }

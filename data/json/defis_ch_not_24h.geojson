@@ -107757,14 +107757,18 @@
   "type": "Feature",
   "id": "node/10108146598",
   "properties": {
-    "access": "no",
+    "access": "permissive",
+    "addr:city": "Interlaken",
+    "addr:housenumber": "18",
+    "addr:postcode": "3800",
+    "addr:street": "Im Moos",
     "defibrillator:location": "Treppenhaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "opening_hours": "Mo-Fr 07:00-12:00, 13:00-17:00",
-    "operator": "Christian Kernen",
+    "operator": "STI Gruppe",
     "phone": "+41332251373",
     "id": "node/10108146598"
   },
@@ -165983,6 +165987,31 @@
     "coordinates": [
       7.6291764,
       47.0356085
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11483459012",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Tramelan",
+    "addr:housenumber": "13",
+    "addr:postcode": "2720",
+    "addr:street": "Ch. des Lovières",
+    "defibrillator:location": "CIP réception Centre de séminaires et bureaux de l'administration cantonale bernoise",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "07:00-22:00",
+    "operator": "Centre interrégional de perfectionnement (CIP) / COFRA",
+    "phone": "+41 32 486 06 06",
+    "id": "node/11483459012"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1019935,
+      47.2192435
     ]
   }
 }
