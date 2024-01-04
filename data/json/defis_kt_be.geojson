@@ -34275,7 +34275,8 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
-    "operator": "Association katecholamine",
+    "operator": "Commune de Corcelle",
+    "phone": "+41 32 499 90 70",
     "wheelchair": "limited",
     "id": "node/8851322533"
   },
@@ -43034,13 +43035,16 @@
   "id": "node/10138478517",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Oeyetliweg 30, 3792 Saanen",
-    "description": "direkt am Gebäude neben dem Pumptruck",
+    "addr:city": "Saanen BE",
+    "addr:housenumber": "30",
+    "addr:postcode": "3792",
+    "addr:street": "Oeyetliweg",
+    "defibrillator:location": "An Holzfassade in grün-gelben Wandkasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Öffentlich",
+    "operator": "Skatepark Saanen",
     "id": "node/10138478517"
   },
   "geometry": {
@@ -43730,21 +43734,24 @@
   "id": "node/10231142095",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Direkt neben dem Ausseneingang zur Aula der Oberstufe. Zugang ab Pausenplatz",
-    "description": "24h verfügbar",
+    "addr:city": "Herzogenbuchsee",
+    "addr:housenumber": "6",
+    "addr:postcode": "3360",
+    "addr:street": "Senta Simon-Strasse",
+    "defibrillator:location": "Ausseneingang zur Aula. Zugang ab Pausenplatz",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "24/7",
-    "operator": "Oberstufe Herzogenbuchsee, Schulleitung",
+    "operator": "Oberstufe Herzogenbuchsee",
     "phone": "+41 62 961 12 70",
     "id": "node/10231142095"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7120094,
-      47.1886206
+      7.7118967,
+      47.1887363
     ]
   }
 },
@@ -43753,8 +43760,11 @@
   "id": "node/10241862106",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Der Defibrillator befindet sich beim Haupteingang des Coop auf der rechten Seite",
-    "description": "24h verfügbar",
+    "addr:city": "Riggisberg",
+    "addr:housenumber": "4",
+    "addr:postcode": "3132",
+    "addr:street": "Sonnenweg",
+    "defibrillator:location": "Haupteingang auf der rechten Seite",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -43936,6 +43946,9 @@
   "id": "node/10271431809",
   "properties": {
     "access": "yes",
+    "addr:city": "Steffisburg",
+    "addr:postcode": "3613",
+    "addr:street": "Kniebrecheweg",
     "defibrillator:location": "Zufahrt Einstellhalle/Besucherparkplätze",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -43947,8 +43960,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.62918,
-      46.7860596
+      7.6292269,
+      46.7860504
     ]
   }
 },
@@ -44058,41 +44071,24 @@
   "id": "node/10282276309",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Gemeindeverwaltung Kirchdorf BE, aussen, links vom Haupteingang",
+    "addr:city": "Kirchdorf",
+    "addr:housenumber": "2",
+    "addr:postcode": "3116",
+    "addr:street": "Kirchgasse",
+    "defibrillator:location": "links vom Haupteingang Gemeindeverwaltung Kirchdorf",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeindeverwaltung Kirchdorf BE",
-    "phone": "031 780 00 10",
+    "phone": "+41 31 780 00 10",
     "id": "node/10282276309"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5489761,
-      46.8206574
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10284343709",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Zufahrt Einstellhalle/Besucherparkplätze",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "MEG Kniebrecheweg, Christina Nyffeler",
-    "phone": "+41792915146",
-    "id": "node/10284343709"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6292082,
-      46.786064
+      7.5490324,
+      46.8206969
     ]
   }
 },
@@ -49947,11 +49943,16 @@
   "type": "Feature",
   "id": "node/11108156205",
   "properties": {
-    "access": "no",
+    "access": "yes",
+    "addr:city": "Thierachern",
+    "addr:housenumber": "28",
+    "addr:postcode": "3634",
+    "addr:street": "Blumensteinstrasse",
     "defibrillator:location": "Agrola Tankstelle Thierachern",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "operator": "LANDI Niesen Genossenschaft",
     "id": "node/11108156205"
   },
   "geometry": {
@@ -52331,6 +52332,104 @@
     "coordinates": [
       7.4417252,
       46.9617757
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11486611738",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Nods",
+    "addr:housenumber": "11",
+    "addr:postcode": "2518",
+    "addr:street": "Route de Lignières",
+    "defibrillator:location": "Sous le couvert à l'extérieur côté route",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Ecole primaire de Nods",
+    "phone": "+41 32 751 24 29",
+    "id": "node/11486611738"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0790496,
+      47.111789
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11486611739",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Goldiwil",
+    "addr:housenumber": "6",
+    "addr:postcode": "3624",
+    "addr:street": "Wilerweg",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Primarschulhaus Goldiwil",
+    "id": "node/11486611739"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6677669,
+      46.7630611
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11486611740",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Gelterfingen",
+    "addr:housenumber": "13",
+    "addr:postcode": "3126",
+    "addr:street": "Dorfstrasse",
+    "defibrillator:location": "Feuerwehrmagazin neben Postbriefkasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Feuerwehrmagazin Gelterfingen",
+    "phone": "+41 31 780 00 10",
+    "id": "node/11486611740"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5151968,
+      46.8403917
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11486611741",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Noflen",
+    "addr:housenumber": "15a",
+    "addr:postcode": "3613",
+    "addr:street": "Vorderer Eggen",
+    "defibrillator:location": "Parkplatz Mehrzweckraum, bei Velounterstand , neben Postbriefkasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Mehrzweckraum Noflen",
+    "phone": "+41 31 780 00 10",
+    "id": "node/11486611741"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5466237,
+      46.8058221
     ]
   }
 }

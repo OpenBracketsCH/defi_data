@@ -116342,6 +116342,9 @@
   "id": "node/10271431809",
   "properties": {
     "access": "yes",
+    "addr:city": "Steffisburg",
+    "addr:postcode": "3613",
+    "addr:street": "Kniebrecheweg",
     "defibrillator:location": "Zufahrt Einstellhalle/Besucherparkplätze",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -116353,8 +116356,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.62918,
-      46.7860596
+      7.6292269,
+      46.7860504
     ]
   }
 },
@@ -116686,27 +116689,6 @@
     "coordinates": [
       6.5940116,
       46.5278673
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10284343709",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Zufahrt Einstellhalle/Besucherparkplätze",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "MEG Kniebrecheweg, Christina Nyffeler",
-    "phone": "+41792915146",
-    "id": "node/10284343709"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6292082,
-      46.786064
     ]
   }
 },
@@ -156404,11 +156386,16 @@
   "type": "Feature",
   "id": "node/11108156205",
   "properties": {
-    "access": "no",
+    "access": "yes",
+    "addr:city": "Thierachern",
+    "addr:housenumber": "28",
+    "addr:postcode": "3634",
+    "addr:street": "Blumensteinstrasse",
     "defibrillator:location": "Agrola Tankstelle Thierachern",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "operator": "LANDI Niesen Genossenschaft",
     "id": "node/11108156205"
   },
   "geometry": {
