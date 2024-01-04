@@ -77019,7 +77019,7 @@
   "type": "Feature",
   "id": "node/9957257555",
   "properties": {
-    "access": "24h",
+    "access": "yes",
     "defibrillator:location": "Eingang Süd, Aussenwand",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
@@ -77027,7 +77027,7 @@
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Schulhaus Riggisberg",
-    "phone": "076 329 86 64",
+    "phone": "+41 76 329 86 64",
     "id": "node/9957257555"
   },
   "geometry": {
@@ -79777,14 +79777,18 @@
   "id": "node/10136054618",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Gemeindehaus beim Haupteingang",
-    "description": "Aussenstation ",
+    "addr:city": "Roggwil",
+    "addr:housenumber": "8",
+    "addr:postcode": "4914",
+    "addr:street": "Bahnhofstrasse",
+    "defibrillator:location": "Eingang Gemeindehaus",
+    "description": "Aussenstation",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde",
-    "phone": "0629184010",
+    "phone": "+41 629184010",
     "id": "node/10136054618"
   },
   "geometry": {
@@ -82920,6 +82924,30 @@
     "coordinates": [
       8.89182,
       47.56415
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10240608410",
+  "properties": {
+    "access": "yes",
+    "check_date": "2024.01.01",
+    "defibrillator:location": "Reppischtalstrasse 5",
+    "description": "Bushaltestelle / Busgarage",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Aeugst am Albis",
+    "phone": "+41 44 763 50 60",
+    "id": "node/10240608410"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.487018,
+      47.2845986
     ]
   }
 },
@@ -107558,6 +107586,129 @@
     "coordinates": [
       9.4852855,
       47.1207828
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11487106189",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Hünibach",
+    "addr:housenumber": "24",
+    "addr:postcode": "3626",
+    "addr:street": "Riedstrasse",
+    "defibrillator:location": "Rechts neben Haupteingang, im grünen Kasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Betagtenheim Schönegg",
+    "id": "node/11487106189"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6441877,
+      46.7502727
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11487106190",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Gstaad",
+    "addr:housenumber": "10",
+    "addr:postcode": "3780",
+    "addr:street": "Güterstrasse",
+    "defibrillator:location": "Links an Holzfassade bei Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Landi Simmental-Saanenland-Gstaad",
+    "id": "node/11487106190"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2831314,
+      46.4759749
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11487106191",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Feutersoey",
+    "addr:housenumber": "2",
+    "addr:postcode": "3784",
+    "addr:street": "Hinderi Waligstrasse",
+    "defibrillator:location": "An Fassade ersichtlich",
+    "description": "Während Wintermonaten NICHT verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Huus am Arnensee",
+    "id": "node/11487106191"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2212035,
+      46.3938468
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11487106192",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Sornetan",
+    "addr:housenumber": "10a",
+    "addr:postcode": "2716",
+    "addr:street": "Plaine fin",
+    "defibrillator:location": "Bâtiment administratif façade nord",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Commune de Petit Val Sornetan",
+    "phone": "+41 32 484 94 70",
+    "id": "node/11487106192"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2153869,
+      47.2741275
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11487131995",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Burgdorf",
+    "addr:housenumber": "3",
+    "addr:postcode": "3400",
+    "addr:street": "Wynigenstrasse",
+    "defibrillator:location": "bei Lebensrettungstafel",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Reitschule Burgdorf GmbH",
+    "phone": "+41 796125039",
+    "id": "node/11487131995"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6322601,
+      47.0589038
     ]
   }
 }

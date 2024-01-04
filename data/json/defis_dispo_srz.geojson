@@ -1511,37 +1511,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6584600705",
-  "properties": {
-    "access": "yes",
-    "check_date": "2024.01.01",
-    "defibrillator:location": "Reppischtalstrasse 5",
-    "description": "Bushaltestelle / Busgarage",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "highway": "bus_stop",
-    "name": "Aeugstertal Kloster",
-    "network": "ZVV",
-    "network:wikidata": "Q201977",
-    "operator": "Gemeinde Aeugst am Albis",
-    "phone": "+41447635060",
-    "public_transport": "platform",
-    "ref": "Reppischtalstrasse 5",
-    "shelter": "yes",
-    "uic_name": "Aeugstertal, Kloster",
-    "uic_ref": "8503697",
-    "id": "node/6584600705"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4867741,
-      47.2845556
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6660406329",
   "properties": {
     "access": "yes",
@@ -49812,6 +49781,30 @@
     "coordinates": [
       8.51648,
       47.33348
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10240608410",
+  "properties": {
+    "access": "yes",
+    "check_date": "2024.01.01",
+    "defibrillator:location": "Reppischtalstrasse 5",
+    "description": "Bushaltestelle / Busgarage",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Aeugst am Albis",
+    "phone": "+41 44 763 50 60",
+    "id": "node/10240608410"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.487018,
+      47.2845986
     ]
   }
 },
