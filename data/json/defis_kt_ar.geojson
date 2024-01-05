@@ -1993,6 +1993,78 @@
       47.4264396
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/11491164769",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus / Sportplatz Buchen, bei Aussengeräteraum des Sportplatzes",
+    "description": "24/7 verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Speicher",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11491164769"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4473661,
+      47.4108315
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11491166869",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Zentral, im Windfang des Haupteingangs",
+    "description": "24/7 verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Speicher",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11491166869"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4453308,
+      47.4094914
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11491173369",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Reformierte Kirche, Haupteingang innen rechts",
+    "description": "während offener Kirche verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "07:00-19:00",
+    "operator": "Gemeinde Speicher",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11491173369"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4427884,
+      47.4129983
+    ]
+  }
 }
 ]
 }
