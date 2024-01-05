@@ -1644,10 +1644,14 @@
   "type": "Feature",
   "id": "node/5180289612",
   "properties": {
-    "defibrillator:location": "Spielfeldseite innerhalb am Zaun",
+    "access": "yes",
+    "defibrillator:location": "Bei Kunstrasen am Zaun montiert, neben dem Elektrokasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Sportanlage Weissenstein",
+    "phone": "+41 31 321 54 74",
     "id": "node/5180289612"
   },
   "geometry": {
@@ -15234,7 +15238,7 @@
   "type": "Feature",
   "id": "node/6637275855",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "addr:city": "Zollikofen",
     "addr:housenumber": "160",
     "addr:postcode": "3052",
@@ -15242,8 +15246,9 @@
     "defibrillator:location": "Polizeiwache 1. Stock Verfügbar Mo - Fr, 8-12, 14-18 Uhr. Sa 8-12, 14-1630 Uhr",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "operator": "Kantonspolizei Bern",
-    "phone": "+41 31 368 77 01",
+    "opening_hours": "24/7",
+    "operator": "Polizeiwache Zollikofen",
+    "phone": "+41 31 638 80 00",
     "id": "node/6637275855"
   },
   "geometry": {
@@ -39127,7 +39132,7 @@
   "type": "Feature",
   "id": "node/9392889962",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "addr:city": "Vinelz",
     "addr:housenumber": "20",
     "addr:postcode": "3234",
@@ -39776,13 +39781,17 @@
   "type": "Feature",
   "id": "node/9465693722",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Beim Bademeister im Rettungsrucksack am Schwimmbecken.",
+    "access": "yes",
+    "addr:city": "Bern",
+    "addr:postcode": "3074",
+    "addr:street": "Kriegliweg",
+    "defibrillator:location": "Eingang Kasse",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "operator": "Gemeinde Muri bei Bern, Aarebad Muri bei Bern, Betriebsleiter Rasch Andreas",
-    "phone": "+41794250061",
+    "opening_hours": "24/7",
+    "operator": "Aarebad Muri",
+    "phone": "+41 31 950 54 18",
     "website": "https://www.hirslanden.ch/de/klinik-hirslanden/centers/checkupzentrum-hirslanden.html",
     "id": "node/9465693722"
   },
@@ -43957,6 +43966,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "MEG Kniebrecheweg",
     "phone": "+41792915146",
     "id": "node/10271431809"
@@ -49956,6 +49966,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "LANDI Niesen Genossenschaft",
     "id": "node/11108156205"
   },
