@@ -9763,13 +9763,12 @@
   "type": "Feature",
   "id": "node/6633502921",
   "properties": {
-    "access": "no",
+    "access": "yes",
     "addr:city": "Kandersteg",
     "addr:housenumber": "251",
     "addr:postcode": "3718",
     "addr:street": "Innere Dorfstrasse",
     "defibrillator:location": "Nach der Barriere erstes Haus Rechts Im Windfang",
-    "description": "zur Zeit geschlossen und nicht erreichbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "operator": "Schweizerische Armee",
@@ -9778,8 +9777,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6607332,
-      46.4747616
+      7.6614467,
+      46.4754284
     ]
   }
 },
@@ -15023,30 +15022,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6655019842",
-  "properties": {
-    "access": "permissive",
-    "addr:city": "Belp",
-    "addr:housenumber": "55",
-    "addr:postcode": "3123",
-    "addr:street": "Dorfstrasse",
-    "defibrillator:location": "Kantonspolizei Bern",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "operator": "Kantonspolizei Bern",
-    "phone": "+41 13 368 74 01",
-    "id": "node/6655019842"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5015321,
-      46.8903595
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6655019843",
   "properties": {
     "access": "permissive",
@@ -20235,26 +20210,6 @@
     "coordinates": [
       7.5068783,
       46.9309961
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7538717847",
-  "properties": {
-    "access": "permissive",
-    "defibrillator:location": "rechts vor Gebäudeeingang",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "operator": "Gemeindeverwaltung",
-    "phone": "+41 31 950 54 54",
-    "id": "node/7538717847"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.485655,
-      46.9313305
     ]
   }
 },
@@ -64727,26 +64682,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8971620558",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Rechts neben dem Eingang zur Verkaufsstelle",
-    "description": "AED an Aussenwand Haltestelle Bahnhof Wilderswil",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "AED an Aussenwand Haltestelle Bahnhof Wilderswil",
-    "id": "node/8971620558"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.8691233,
-      46.6654991
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8977133617",
   "properties": {
     "access": "yes",
@@ -95295,11 +95230,16 @@
   "id": "node/9820253837",
   "properties": {
     "access": "yes",
+    "addr:city": "Bern",
+    "addr:housenumber": "5",
+    "addr:postcode": "3013",
+    "addr:street": "Hofweg",
     "defibrillator:location": "Aussen an Hausmauer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "operator": "Bärner Brocki",
+    "phone": "+41 313338222",
     "id": "node/9820253837"
   },
   "geometry": {

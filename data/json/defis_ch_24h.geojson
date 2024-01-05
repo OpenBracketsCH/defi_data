@@ -11303,6 +11303,31 @@
 },
 {
   "type": "Feature",
+  "id": "node/6655019842",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Belp",
+    "addr:housenumber": "55",
+    "addr:postcode": "3123",
+    "addr:street": "Dorfstrasse",
+    "defibrillator:location": "Kantonspolizei Bern",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Polizeiwache Belp",
+    "phone": "+41 31 638 80 00",
+    "id": "node/6655019842"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5015321,
+      46.8903595
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/6655019844",
   "properties": {
     "access": "yes",
@@ -20152,6 +20177,31 @@
     "coordinates": [
       7.8457074,
       47.1618819
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7538717847",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Muri bei Bern",
+    "addr:housenumber": "74",
+    "addr:postcode": "3074",
+    "addr:street": "Thunstrasse",
+    "defibrillator:location": "Vor Haupteingang Gemeindehaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung",
+    "phone": "+41 31 950 54 54",
+    "id": "node/7538717847"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.485655,
+      46.9313305
     ]
   }
 },
@@ -29858,7 +29908,7 @@
     "addr:city": "Orpund",
     "addr:postcode": "2552",
     "addr:street": "Hauptstrasse 205",
-    "defibrillator:location": "Der Defi befindet sich unmittelbar beim Haupteingang des Seniorenzentrums Vivale Lindenhof. Wenn der Haupteingang geschlossen ist, bitte Klingeln für Zugang zum Defi.",
+    "defibrillator:location": "Haupteingang. Wenn geschlossen ist, bitte Klingeln",
     "description": "Der Standort ist mit einem AED Schild im Aussenbereich markiert.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -47878,7 +47928,7 @@
     "addr:city": "Lyss",
     "addr:postcode": "3250",
     "addr:street": "Mönchweg",
-    "defibrillator:location": "Bei Fussweg Einstellhalleneintritt, dieser liegt an Ecke Mönchweg 4E und 10.",
+    "defibrillator:location": "Bei Fussweg Einstellhalleneintritt, Ecke Mönchweg 4E und 10.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
@@ -50092,6 +50142,7 @@
   "type": "Feature",
   "id": "node/8809163445",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Vor Eingang an der Wand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -52221,7 +52272,7 @@
     "emergency:phone": "144",
     "opening_hours": "24/7",
     "operator": "Thomas Leiser Holzwerkstatt",
-    "phone": "0318398743",
+    "phone": "+41 318398743",
     "id": "node/8870268945"
   },
   "geometry": {
@@ -54559,6 +54610,7 @@
     "indoor": "yes",
     "level": "-1",
     "opening_hours": "24/7",
+    "operator": "Bahnhof Bern (Treffpunkt)",
     "id": "node/8964071103"
   },
   "geometry": {
@@ -54609,6 +54661,29 @@
     "coordinates": [
       8.8939171,
       46.1504794
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8971620558",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rechts neben dem Eingang zur Verkaufsstelle",
+    "description": "AED an Aussenwand Haltestelle Bahnhof Wilderswil",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Bahnhof",
+    "phone": "033 828 73 51",
+    "id": "node/8971620558"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8691233,
+      46.6654991
     ]
   }
 },
@@ -56452,7 +56527,7 @@
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Neuenschwander AG",
-    "phone": "+41 32 677 10 32",
+    "phone": "032 422 08 10",
     "id": "node/9052689420"
   },
   "geometry": {
@@ -91947,32 +92022,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10763310497",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Tiefgaragenabfahrt Höheweg 8, 8A",
-    "description": "In grünem Kasten",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "latitude": "46.92589",
-    "longitude": "7.498",
-    "name": "Höheweg 8, 3074 Muri bei Bern",
-    "opening_hours": "24/7",
-    "operator": "Lifetec AG Schweiz",
-    "phone": "+41 800 122 144",
-    "id": "node/10763310497"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.498,
-      46.92589
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10763310524",
   "properties": {
     "access": "yes",
@@ -107902,6 +107951,55 @@
     "coordinates": [
       9.4453308,
       47.4094914
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11492544928",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Péry",
+    "addr:housenumber": "10",
+    "addr:postcode": "2603",
+    "addr:street": "Rue du Collège",
+    "defibrillator:location": "En extérieur sous le couvert du Centre communal (salle des fêtes)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Commune de Péry - La Heutte",
+    "phone": "+41 32 485 01 51",
+    "id": "node/11492544928"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2510114,
+      47.1931218
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11492544929",
+  "properties": {
+    "access": "-",
+    "addr:city": "Belp",
+    "addr:postcode": "3123",
+    "addr:street": "Dorfstrasse 55",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Polizeiwache Belp",
+    "phone": "+41 31 638 80 00",
+    "id": "node/11492544929"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5015579,
+      46.8904295
     ]
   }
 }
