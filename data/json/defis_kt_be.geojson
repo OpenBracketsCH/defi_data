@@ -21602,7 +21602,7 @@
     "addr:housenumber": "28",
     "addr:postcode": "3655",
     "addr:street": "Raftstrasse",
-    "defibrillator:location": "24h verfügbar, aussen am Feuerwehrmagazin Sigriswil",
+    "defibrillator:location": "Aussenwand Feuerwehrmagazin Sigriswil",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
@@ -21749,7 +21749,7 @@
     "addr:housenumber": "101",
     "addr:postcode": "3657",
     "addr:street": "Schwandenstrasse",
-    "defibrillator:location": "24h- Verfügbar - Aussen am Feuerwehrmagazin",
+    "defibrillator:location": "Aussenwand Feuerwehrmagazin",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
@@ -52617,6 +52617,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/11499818068",
+  "properties": {
+    "access": "-",
+    "addr:city": "Sigriswil",
+    "addr:postcode": "3655",
+    "addr:street": "Raftstrasse 28",
+    "defibrillator:location": "24h verfügbar, aussen am Feuerwehrmagazin Sigriswil",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Feuerwehr Sigriswil",
+    "phone": "033 251 28 20",
+    "id": "node/11499818068"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7088695,
+      46.7174111
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/11499819121",
   "properties": {
     "access": "-",
@@ -52636,6 +52660,30 @@
     "coordinates": [
       7.6888324,
       46.6834404
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11499832969",
+  "properties": {
+    "access": "-",
+    "addr:city": "Sigriswil",
+    "addr:postcode": "3655",
+    "addr:street": "Raftstrasse 28",
+    "defibrillator:location": "24h verfügbar - Aussen am Feuerwehrmagazin",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Feuerwehr Sigriswil",
+    "phone": "033 251 28 20",
+    "id": "node/11499832969"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7087844,
+      46.7173617
     ]
   }
 }
