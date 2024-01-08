@@ -9975,7 +9975,7 @@
   "type": "Feature",
   "id": "node/6635063458",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "addr:city": "Moutier",
     "addr:housenumber": "111",
     "addr:postcode": "2740",
@@ -9983,7 +9983,7 @@
     "defibrillator:location": "A la réception du bâtiment administratif",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "07:30-17:30",
+    "opening_hours": "24/7",
     "operator": "Tornos SA",
     "phone": "+41 32 494 44 44",
     "id": "node/6635063458"
@@ -19737,7 +19737,7 @@
     "addr:housenumber": "5",
     "addr:postcode": "3110",
     "addr:street": "Dorfplatz",
-    "defibrillator:location": "Die AED befinden sich bei allen Standorten jeweils in der 24-H Zone in der Nähe der Bancomaten und diese sind rund um die Uhr zugänglich.",
+    "defibrillator:location": "beim Bancomaten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
@@ -19748,8 +19748,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5630834,
-      46.874179
+      7.562791,
+      46.8743193
     ]
   }
 },
@@ -25956,14 +25956,15 @@
   "type": "Feature",
   "id": "node/6997169222",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "addr:city": "Spiez",
     "addr:housenumber": "1",
     "addr:postcode": "3700",
     "addr:street": "Stockhornstrasse",
-    "defibrillator:location": "Hauptsaal, Wand linke Seite, nähe Bühne, hinter Pfeiler, Zeitweise öffentlich",
+    "defibrillator:location": "Treppenhaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "opening_hours": "24/7",
     "operator": "Gemeindezentrum Lötschberg Spiez",
     "phone": "+41 79 730 91 77",
     "id": "node/6997169222"
@@ -25980,7 +25981,7 @@
   "type": "Feature",
   "id": "node/6997169223",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "addr:city": "Spiez",
     "addr:housenumber": "89",
     "addr:postcode": "3700",
@@ -25988,6 +25989,7 @@
     "defibrillator:location": "Vor Eingang Turnhalle, bei Ausgang zum Rasenplatz neben Lehrergarderobe, Zeitweise öffentlich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "opening_hours": "24/7",
     "operator": "Schulhaus Hofachern",
     "phone": "+41 79 730 91 77",
     "id": "node/6997169223"
@@ -31034,29 +31036,6 @@
     "coordinates": [
       7.7905944,
       47.1906926
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8449233017",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Mooswiesstrasse 30 9200 Gossau",
-    "description": "bei Rettung St. Gallen 1 OG",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-17:00",
-    "operator": "Rettung St. Gallen",
-    "phone": "+41 71 412 74 30",
-    "id": "node/8449233017"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4,
-      46.9680218
     ]
   }
 },
@@ -49863,10 +49842,16 @@
   "id": "node/11086298077",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "An Wand in der Ecke links neben der Eingangstür zur Sporthalle",
+    "addr:city": "Mühlethurnen",
+    "addr:housenumber": "13",
+    "addr:postcode": "3127",
+    "addr:street": "Schulhausweg",
+    "defibrillator:location": "Eingang Sporthalle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Schule Mühlethurnen",
     "id": "node/11086298077"
   },
   "geometry": {
@@ -52627,6 +52612,30 @@
     "coordinates": [
       7.4,
       47
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11499819121",
+  "properties": {
+    "access": "-",
+    "addr:city": "Spiez",
+    "addr:postcode": "3700",
+    "addr:street": "Oberlandstrasse 89",
+    "defibrillator:location": "Vor Eingang Turnhalle, bei Ausgang zum Rasenplatz neben Lehrergarderobe",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Schulhaus Hofachern",
+    "phone": "079 730 91 77",
+    "id": "node/11499819121"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6888324,
+      46.6834404
     ]
   }
 }

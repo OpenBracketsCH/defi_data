@@ -9927,31 +9927,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6635063458",
-  "properties": {
-    "access": "permissive",
-    "addr:city": "Moutier",
-    "addr:housenumber": "111",
-    "addr:postcode": "2740",
-    "addr:street": "Rue Industrielle",
-    "defibrillator:location": "A la réception du bâtiment administratif",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "07:30-17:30",
-    "operator": "Tornos SA",
-    "phone": "+41 32 494 44 44",
-    "id": "node/6635063458"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.3630229,
-      47.2716436
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6635063459",
   "properties": {
     "access": "permissive",
@@ -18843,54 +18818,6 @@
     "coordinates": [
       7.4484939,
       47.021182
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/6997169222",
-  "properties": {
-    "access": "permissive",
-    "addr:city": "Spiez",
-    "addr:housenumber": "1",
-    "addr:postcode": "3700",
-    "addr:street": "Stockhornstrasse",
-    "defibrillator:location": "Hauptsaal, Wand linke Seite, nähe Bühne, hinter Pfeiler, Zeitweise öffentlich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "operator": "Gemeindezentrum Lötschberg Spiez",
-    "phone": "+41 79 730 91 77",
-    "id": "node/6997169222"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6753241,
-      46.690318
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/6997169223",
-  "properties": {
-    "access": "permissive",
-    "addr:city": "Spiez",
-    "addr:housenumber": "89",
-    "addr:postcode": "3700",
-    "addr:street": "Oberlandstrasse",
-    "defibrillator:location": "Vor Eingang Turnhalle, bei Ausgang zum Rasenplatz neben Lehrergarderobe, Zeitweise öffentlich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "operator": "Schulhaus Hofachern",
-    "phone": "+41 79 730 91 77",
-    "id": "node/6997169223"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6887658,
-      46.6833782
     ]
   }
 },
@@ -47416,7 +47343,9 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Rettung St.Gallen",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Rettung St. Gallen",
+    "phone": "+41 71 412 74 30",
     "id": "node/8300132204"
   },
   "geometry": {
@@ -48680,29 +48609,6 @@
     "coordinates": [
       8.8201687,
       47.2358738
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8449233017",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Mooswiesstrasse 30 9200 Gossau",
-    "description": "bei Rettung St. Gallen 1 OG",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-17:00",
-    "operator": "Rettung St. Gallen",
-    "phone": "+41 71 412 74 30",
-    "id": "node/8449233017"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4,
-      46.9680218
     ]
   }
 },
@@ -155567,25 +155473,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11086298077",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "An Wand in der Ecke links neben der Eingangstür zur Sporthalle",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/11086298077"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5110104,
-      46.8115907
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11086767405",
   "properties": {
     "access": "no",
@@ -165706,6 +165593,30 @@
     "coordinates": [
       8.5362042,
       47.5037409
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11499816469",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingangshalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "07:00-19:00",
+    "operator": "Wohn- und Pflegezentrum ",
+    "phone": "+41618557800",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11499816469"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8525263,
+      47.5522556
     ]
   }
 }

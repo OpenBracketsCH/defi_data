@@ -7638,6 +7638,31 @@
 },
 {
   "type": "Feature",
+  "id": "node/6635063458",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Moutier",
+    "addr:housenumber": "111",
+    "addr:postcode": "2740",
+    "addr:street": "Rue Industrielle",
+    "defibrillator:location": "A la réception du bâtiment administratif",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Tornos SA",
+    "phone": "+41 32 494 44 44",
+    "id": "node/6635063458"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3630229,
+      47.2716436
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/6635090662",
   "properties": {
     "access": "yes",
@@ -12048,7 +12073,7 @@
     "addr:housenumber": "5",
     "addr:postcode": "3110",
     "addr:street": "Dorfplatz",
-    "defibrillator:location": "Die AED befinden sich bei allen Standorten jeweils in der 24-H Zone in der Nähe der Bancomaten und diese sind rund um die Uhr zugänglich.",
+    "defibrillator:location": "beim Bancomaten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
@@ -12059,8 +12084,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5630834,
-      46.874179
+      7.562791,
+      46.8743193
     ]
   }
 },
@@ -18176,6 +18201,56 @@
     "coordinates": [
       7.5722215,
       47.1582419
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/6997169222",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Spiez",
+    "addr:housenumber": "1",
+    "addr:postcode": "3700",
+    "addr:street": "Stockhornstrasse",
+    "defibrillator:location": "Treppenhaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Gemeindezentrum Lötschberg Spiez",
+    "phone": "+41 79 730 91 77",
+    "id": "node/6997169222"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6753241,
+      46.690318
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/6997169223",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Spiez",
+    "addr:housenumber": "89",
+    "addr:postcode": "3700",
+    "addr:street": "Oberlandstrasse",
+    "defibrillator:location": "Vor Eingang Turnhalle, bei Ausgang zum Rasenplatz neben Lehrergarderobe, Zeitweise öffentlich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Schulhaus Hofachern",
+    "phone": "+41 79 730 91 77",
+    "id": "node/6997169223"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6887658,
+      46.6833782
     ]
   }
 },
@@ -99937,6 +100012,31 @@
 },
 {
   "type": "Feature",
+  "id": "node/11086298077",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Mühlethurnen",
+    "addr:housenumber": "13",
+    "addr:postcode": "3127",
+    "addr:street": "Schulhausweg",
+    "defibrillator:location": "Eingang Sporthalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Schule Mühlethurnen",
+    "id": "node/11086298077"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5110104,
+      46.8115907
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/11086806405",
   "properties": {
     "access": "yes",
@@ -108020,6 +108120,30 @@
     "coordinates": [
       7.4,
       47
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11499819121",
+  "properties": {
+    "access": "-",
+    "addr:city": "Spiez",
+    "addr:postcode": "3700",
+    "addr:street": "Oberlandstrasse 89",
+    "defibrillator:location": "Vor Eingang Turnhalle, bei Ausgang zum Rasenplatz neben Lehrergarderobe",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Schulhaus Hofachern",
+    "phone": "079 730 91 77",
+    "id": "node/11499819121"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6888324,
+      46.6834404
     ]
   }
 }
