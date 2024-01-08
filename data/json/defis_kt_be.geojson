@@ -2702,7 +2702,7 @@
   "type": "Feature",
   "id": "node/6516275936",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "addr:city": "Huttwil",
     "addr:housenumber": "12",
     "addr:postcode": "4950",
@@ -3899,14 +3899,14 @@
   "type": "Feature",
   "id": "node/6532246152",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "addr:city": "Wiedlisbach",
     "addr:housenumber": "1",
     "addr:postcode": "4537",
     "addr:street": "Juradorfstrasse",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "07:00 - 20:00",
+    "opening_hours": "24/7",
     "operator": "Alters-und Pflegeheim dahlia",
     "phone": "+41 32 636 56 56",
     "id": "node/6532246152"
@@ -3914,8 +3914,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6359078,
-      47.2548863
+      7.6348993,
+      47.2546606
     ]
   }
 },
@@ -5110,6 +5110,7 @@
   "type": "Feature",
   "id": "node/6564797298",
   "properties": {
+    "access": "yes",
     "addr:city": "Hasliberg - Goldern",
     "addr:housenumber": "331c",
     "addr:place": "Urseni",
@@ -5135,6 +5136,7 @@
   "type": "Feature",
   "id": "node/6564797299",
   "properties": {
+    "access": "yes",
     "addr:city": "Hasliberg - Hohfluh",
     "addr:housenumber": "86j",
     "addr:place": "Weidli",
@@ -5256,6 +5258,7 @@
   "type": "Feature",
   "id": "node/6564797304",
   "properties": {
+    "access": "yes",
     "addr:city": "Innertkirchen",
     "addr:housenumber": "19",
     "addr:postcode": "3862",
@@ -7365,12 +7368,12 @@
   "type": "Feature",
   "id": "node/6566220013",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "addr:city": "Goldswil",
     "addr:housenumber": "3",
     "addr:postcode": "3805",
     "addr:street": "Walmweg",
-    "defibrillator:location": "200 Meter von Hauptstrasse entfernt - 24h zugänglich",
+    "defibrillator:location": "200 Meter von Hauptstrasse entfernt",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
@@ -7381,8 +7384,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.8774256,
-      46.6977576
+      7.8775624,
+      46.6977521
     ]
   }
 },
@@ -8117,7 +8120,7 @@
     "addr:housenumber": "651b",
     "addr:postcode": "3537",
     "addr:street": "Untere Schmiede",
-    "defibrillator:location": "in Firma Zaugg AG, auf Laderampe, durch Treppe erreichbar",
+    "defibrillator:location": "Laderampe, durch Treppe erreichbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
@@ -19393,7 +19396,7 @@
     "addr:housenumber": "22",
     "addr:postcode": "3510",
     "addr:street": "Dorfstrasse",
-    "defibrillator:location": "Neben dem Haupteingang rechts an der Wand, Türe ist immer offen",
+    "defibrillator:location": "Haupteingang rechts an der Wand, Türe ist immer offen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
@@ -20239,21 +20242,22 @@
   "type": "Feature",
   "id": "node/6661546155",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "addr:city": "Steffisburg",
     "addr:housenumber": "32",
     "addr:postcode": "3612",
     "addr:street": "Zulgstrasse",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "operator": "Schule Musterplatz, Turnhalle",
+    "opening_hours": "24/7",
+    "operator": "Sportanlage Musterplatz",
     "id": "node/6661546155"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6302595,
-      46.7771027
+      7.6300597,
+      46.777144
     ]
   }
 },
@@ -21093,16 +21097,18 @@
   "type": "Feature",
   "id": "node/6681669085",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "addr:city": "Steffisburg",
-    "addr:housenumber": "52",
+    "addr:housenumber": "50",
     "addr:postcode": "3612",
     "addr:street": "Gumweg",
     "defibrillator:location": "Freibad Steffisburg",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "operator": "Freibad Steffisburg",
+    "opening_hours": "24/7",
+    "operator": "Badi Steffisburg",
+    "phone": "+41 33 437 64 79",
     "id": "node/6681669085"
   },
   "geometry": {
@@ -22575,7 +22581,7 @@
   "type": "Feature",
   "id": "node/6689134305",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "addr:city": "Thun",
     "addr:housenumber": "10",
     "addr:postcode": "3604",
@@ -22584,14 +22590,16 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Stadt Thun",
+    "phone": "+41 333368191",
     "id": "node/6689134305"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6303845,
-      46.7397119
+      7.6304395,
+      46.7398424
     ]
   }
 },
@@ -22649,7 +22657,7 @@
   "type": "Feature",
   "id": "node/6689134308",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "addr:city": "Thun",
     "addr:housenumber": "2",
     "addr:postcode": "3604",
@@ -37406,8 +37414,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6140966,
-      46.7303366
+      7.6140651,
+      46.7303251
     ]
   }
 },
@@ -38964,13 +38972,19 @@
   "id": "node/9378383913",
   "properties": {
     "access": "yes",
+    "addr:city": "Herrenschwanden",
+    "addr:housenumber": "9",
+    "addr:postcode": "3037",
+    "addr:street": "Halegasse 9",
     "check_date": "2021-12-29",
     "covered": "yes",
     "defibrillator:location": "links vor Eingang des Schulhauses",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "location": "outdoor",
+    "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Primarschule Herrenschwanden",
+    "phone": "+41 31 302 04 53",
     "id": "node/9378383913"
   },
   "geometry": {
@@ -52663,6 +52677,54 @@
     "coordinates": [
       7.7087844,
       46.7173617
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11500361883",
+  "properties": {
+    "access": "-",
+    "addr:city": "Thun",
+    "addr:postcode": "3604",
+    "addr:street": "Strandbadweg 10",
+    "defibrillator:location": "rechts ausserhalb des Ausgangs",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Strandbad Thun",
+    "phone": "0333368191",
+    "id": "node/11500361883"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6305031,
+      46.7398845
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11500361884",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Bern",
+    "addr:postcode": "3006",
+    "addr:street": "Wölflistrasse 1",
+    "defibrillator:location": "Links neben Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Stämpfli AG",
+    "phone": "+41 31 300 69 21",
+    "id": "node/11500361884"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4773148,
+      46.965329
     ]
   }
 }
