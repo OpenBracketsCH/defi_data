@@ -122981,14 +122981,14 @@
   "type": "Feature",
   "id": "node/10704247605",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Sekretariat Aargauverkehr AG",
-    "description": "Während Öffnungszeiten Sekretariat",
+    "access": "yes",
+    "defibrillator:location": "Reisezentrum Aargau Verkehr AG (AVA)",
+    "description": "Während den Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1",
-    "opening_hours": "Mo-Fr 07:45-11:45,13:15-16:00",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-19:00 / Sa 08:00-18:00 / So 08:00-12:00 12:40-16:00",
     "operator": "Aargauverkehr AG",
     "phone": "+41 62 832 83 00",
     "source": "local_knowledge, defikarte.ch",
@@ -165981,6 +165981,30 @@
     "coordinates": [
       8.5478825,
       47.5163066
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11521868672",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bälliz Apotheke + Drogerie AG (Treppenhaus)",
+    "description": "während Öffnungszeiten verfügbar (Mo-Sa 08:00-18:30)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Bälliz Apotheke + Drogerie AG",
+    "phone": "+ 41 33 225 14 25",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11521868672"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6273012,
+      46.7583602
     ]
   }
 }
