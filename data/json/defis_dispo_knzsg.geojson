@@ -148,6 +148,35 @@
 },
 {
   "type": "Feature",
+  "id": "node/5036047322",
+  "properties": {
+    "access": "yes",
+    "addr:housenumber": "315",
+    "addr:postcode": "9035",
+    "addr:street": "Dorf",
+    "amenity": "school",
+    "defibrillator:location": "Beim Schulhauseingang / an der Hauptstrasse",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "name": "Schule Grub AR",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Grub AR",
+    "phone": "+41 71 891 17 50",
+    "website": "https://schule.grub.ch/",
+    "id": "node/5036047322"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5087004,
+      47.4475817
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/5111112085",
   "properties": {
     "access": "yes",
@@ -5623,29 +5652,6 @@
     "coordinates": [
       9.3436468,
       47.3266759
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7933423093",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Beim Schulhauseingang / an der Hauptstrasse",
-    "description": "24h verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde Grub AR",
-    "phone": "+41 71 891 17 50",
-    "id": "node/7933423093"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.5087434,
-      47.4475829
     ]
   }
 },
@@ -27779,6 +27785,70 @@
     "coordinates": [
       9.0777004,
       47.0332942
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11522031673",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Schulhauseingang / an der Hauptstrasse",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/11522031673"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5088416,
+      47.4476437
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11522065969",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Buchholzstrasse 65, 8750 Glarus",
+    "description": "während der Öffnungszeiten, immer unterschiedlich aufgrund Besetzungen.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Gemeinde Glarus - Sportanlage",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11522065969"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0625191,
+      47.0502565
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11522070269",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Glärnischstrasse 11, 8750 Glarus",
+    "description": "während der Öffnungszeiten, immer unterschiedlich aufgrund Besetzungen.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Gemeinde Glarus - Sportanlage",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11522070269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0662098,
+      47.0362447
     ]
   }
 }

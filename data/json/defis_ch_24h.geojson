@@ -2005,6 +2005,35 @@
 },
 {
   "type": "Feature",
+  "id": "node/5036047322",
+  "properties": {
+    "access": "yes",
+    "addr:housenumber": "315",
+    "addr:postcode": "9035",
+    "addr:street": "Dorf",
+    "amenity": "school",
+    "defibrillator:location": "Beim Schulhauseingang / an der Hauptstrasse",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "name": "Schule Grub AR",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Grub AR",
+    "phone": "+41 71 891 17 50",
+    "website": "https://schule.grub.ch/",
+    "id": "node/5036047322"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5087004,
+      47.4475817
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/5077323995",
   "properties": {
     "access": "yes",
@@ -34237,29 +34266,6 @@
     "coordinates": [
       9.3436468,
       47.3266759
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7933423093",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Beim Schulhauseingang / an der Hauptstrasse",
-    "description": "24h verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde Grub AR",
-    "phone": "+41 71 891 17 50",
-    "id": "node/7933423093"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.5087434,
-      47.4475829
     ]
   }
 },
@@ -108640,6 +108646,25 @@
     "coordinates": [
       7.5530094,
       46.8709558
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11522054775",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Sitzungszimmer der Gemeinde im alten Schulhaus.",
+    "emergency": "defibrillator",
+    "emergency_telephone_code": "144",
+    "opening_hours": "24/7",
+    "id": "node/11522054775"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4295767,
+      46.6290712
     ]
   }
 }
