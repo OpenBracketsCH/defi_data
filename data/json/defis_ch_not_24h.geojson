@@ -74928,28 +74928,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9233470290",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "im Auto",
-    "description": "beim Arzt fragen",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Dr. Fredy-Michel Roten",
-    "phone": "+41 79 280 45 66",
-    "id": "node/9233470290"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.0189453,
-      46.3264508
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9235196717",
   "properties": {
     "access": "no",
@@ -165887,6 +165865,56 @@
     "coordinates": [
       8.4476548,
       47.3961995
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11521143369",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Restaurant Bussalp",
+    "description": "Während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo-Fr 09:00-17:00",
+    "operator": "STI Service AG",
+    "phone": "+41332251313",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11521143369"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9911482,
+      46.6493588
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11521153169",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "STI Ticket-Shop",
+    "description": "Während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "07:00-18:00",
+    "operator": "STI Bus AG",
+    "phone": "+41332251313",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11521153169"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.630536,
+      46.7547623
     ]
   }
 }
