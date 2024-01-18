@@ -23506,6 +23506,53 @@
       47.338959
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/11528017169",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kunsteisbahn links vor Haupteingang Nordseite",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Reinach AG",
+    "phone": "+41 79 680 10 86",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11528017169"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1714678,
+      47.2579163
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11528045969",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Gemeindehaus, Hauptstrasse 66 Einwohnerkontrolle",
+    "description": "während der Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-17:00 ",
+    "operator": "Gemeinde Reinach AG",
+    "phone": "+41 79 680 10 86",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11528045969"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1829262,
+      47.2504557
+    ]
+  }
 }
 ]
 }
