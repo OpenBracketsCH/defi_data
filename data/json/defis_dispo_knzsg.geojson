@@ -27824,8 +27824,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.0625191,
-      47.0502565
+      9.0625137,
+      47.0503314
     ]
   }
 },
@@ -27849,6 +27849,51 @@
     "coordinates": [
       9.0662098,
       47.0362447
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11527634469",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Buchholzstrasse 59, 8750 Glarus",
+    "description": "während der Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Gemeinde Glarus - Sportanlage",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11527634469"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0623045,
+      47.049679
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11527641369",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Buchholzstrasse 63, 8750 Glarus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Feuerwehr",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11527641369"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0631521,
+      47.0500664
     ]
   }
 }

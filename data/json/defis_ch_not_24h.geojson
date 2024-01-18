@@ -166089,8 +166089,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.0625191,
-      47.0502565
+      9.0625137,
+      47.0503314
     ]
   }
 },
@@ -166244,6 +166244,98 @@
     "coordinates": [
       9.1499376,
       47.5483924
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11527607369",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "ControlTech Engineering AG, Benzburweg 5",
+    "description": "Während den Bürozeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "opening_hours": "Mo-Fr 08:00-16:00",
+    "operator": "Firma ControlTech Engineering",
+    "phone": "+41619279900",
+    "id": "node/11527607369"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7436254,
+      47.4766846
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11527634469",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Buchholzstrasse 59, 8750 Glarus",
+    "description": "während der Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Gemeinde Glarus - Sportanlage",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11527634469"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0623045,
+      47.049679
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11527641369",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Buchholzstrasse 63, 8750 Glarus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Feuerwehr",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11527641369"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0631521,
+      47.0500664
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11527657869",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "bxa sportanlage",
+    "description": "im Gang Richtung Halle / während der öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "bxa bassersdorf",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11527657869"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6106849,
+      47.4439296
     ]
   }
 }
