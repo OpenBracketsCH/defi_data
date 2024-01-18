@@ -23553,6 +23553,53 @@
       47.2504557
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/11528118169",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Werkhof ",
+    "description": "während Öffnungszeiten zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-17:00 ",
+    "operator": "Gemeinde Reinach AG",
+    "phone": "+41 79 680 10 86",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11528118169"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1872177,
+      47.2618154
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11528145769",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Saalbau Entré im hinteren Teil an der Wand",
+    "description": "während den Veranstaltungen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Reinach AG",
+    "phone": "+41 79 680 10 86",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11528145769"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1827223,
+      47.2545702
+    ]
+  }
 }
 ]
 }
