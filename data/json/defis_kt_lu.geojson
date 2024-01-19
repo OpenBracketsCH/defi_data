@@ -10717,24 +10717,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637818963",
-  "properties": {
-    "description": "zwischen Hauptgebäude und Fabrikation #offene Sprachverbindung#",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Lifetec Beutler Nova",
-    "id": "node/7637818963"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.9836515,
-      47.1437239
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637818964",
   "properties": {
     "access": "yes",
@@ -17798,32 +17780,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10763310312",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Durchgang Pausenraum / Lagerhalle",
-    "description": "gelber Koffer",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "latitude": "47.14383",
-    "longitude": "7.98444",
-    "name": "Beutler Nova AG",
-    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
-    "operator": "Lifetec AG Schweiz",
-    "phone": "+41 800 122 144",
-    "id": "node/10763310312"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.98444,
-      47.14383
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10763310313",
   "properties": {
     "access": "no",
@@ -20249,6 +20205,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Beutler Nova AG",
     "phone": "+41419727575",
     "source": "local_knowledge, defikarte.ch",
@@ -20257,8 +20214,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.9840297,
-      47.1439817
+      7.9840211,
+      47.1440064
     ]
   }
 }
