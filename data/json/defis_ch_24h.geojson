@@ -28494,6 +28494,7 @@
     "description": "Beim Sportplatz an der Wand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "id": "node/7656550617"
   },
@@ -108967,6 +108968,29 @@
     "coordinates": [
       7.9337139,
       47.284259
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11542573769",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Samnaun Tourismus vor Eingang Chasa Riva im Aussenbereich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Samnaun",
+    "phone": "+41 81 861 83 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11542573769"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      10.3623068,
+      46.9453587
     ]
   }
 }

@@ -3678,6 +3678,7 @@
     "description": "Beim Sportplatz an der Wand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "id": "node/7656550617"
   },
@@ -14560,6 +14561,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "operator": "Primarschule",
     "id": "node/8562637924"
   },
   "geometry": {
@@ -54769,6 +54771,41 @@
     "coordinates": [
       8.4593461,
       47.2444593
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11542478897",
+  "properties": {
+    "access": "unknown",
+    "emergency": "defibrillator",
+    "id": "node/11542478897"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7656155,
+      47.3366718
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11542498423",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben Eingang Restaurant Schwert",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "operator": "Restaurant Schwert",
+    "id": "node/11542498423"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9148427,
+      47.2755315
     ]
   }
 }
