@@ -15367,7 +15367,7 @@
   "type": "Feature",
   "id": "node/6661448686",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "addr:city": "Münsingen",
     "addr:housenumber": "4",
     "addr:postcode": "3110",
@@ -166850,6 +166850,29 @@
     "coordinates": [
       8.9148427,
       47.2755315
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11543385569",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Alpenquell Erlebnisbad",
+    "description": "Während Öffnungszeiten Erlebnisbad beim Bademeister",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Samnaun",
+    "phone": "+41 81 861 83 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11543385569"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      10.4019874,
+      46.9596652
     ]
   }
 }
