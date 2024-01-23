@@ -12678,16 +12678,18 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 08:00-16:30",
     "operator": "Gartenhof-Verwaltung",
     "phone": "+41795078859",
+    "wheelchair": "limited",
     "id": "node/9276753117"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.339948,
-      47.4115743
+      9.3399324,
+      47.4114955
     ]
   }
 },
@@ -27940,6 +27942,31 @@
     "coordinates": [
       9.0683234,
       47.0465721
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11542417875",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Fürstenlandstrasse 122 Personaleingang Treppenhaus",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo-Fr 08:00-16:30",
+    "operator": "Gartenhof-Verwaltung",
+    "phone": "+41795078859",
+    "wheelchair": "limited",
+    "id": "node/11542417875"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3399433,
+      47.4115033
     ]
   }
 }

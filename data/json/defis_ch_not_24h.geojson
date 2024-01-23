@@ -15343,31 +15343,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6658344649",
-  "properties": {
-    "access": "permissive",
-    "addr:city": "Freimettigen",
-    "addr:housenumber": "3",
-    "addr:postcode": "3510",
-    "addr:street": "Freimettigenstrasse",
-    "defibrillator:location": "In der grossen Halle im Pausenraum",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "Mo-Fr 07:00-17:00",
-    "operator": "Kern AG",
-    "phone": "+41 31 790 35 35",
-    "id": "node/6658344649"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6215195,
-      46.8721353
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6660406329",
   "properties": {
     "access": "yes",
@@ -19024,18 +18999,23 @@
   "type": "Feature",
   "id": "node/7080077070",
   "properties": {
+    "access": "customers",
     "defibrillator:location": "Im Pfister beim Haupteingang nach der Drehtüre links. Vis à vis der Kasse.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 10:00-20:00; Sa 09:00-18:00; Su off; PH off",
+    "operator": "Möbel Pfister",
+    "phone": "+41 44 823 95 22",
     "wheelchair": "yes",
     "id": "node/7080077070"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6012732,
-      47.4016773
+      8.6012922,
+      47.4017078
     ]
   }
 },
@@ -75945,16 +75925,18 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 08:00-16:30",
     "operator": "Gartenhof-Verwaltung",
     "phone": "+41795078859",
+    "wheelchair": "limited",
     "id": "node/9276753117"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.339948,
-      47.4115743
+      9.3399324,
+      47.4114955
     ]
   }
 },
@@ -80071,31 +80053,6 @@
     "coordinates": [
       7.4213589,
       46.930166
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9373986257",
-  "properties": {
-    "access": "permissive",
-    "addr:city": "Freimettigen",
-    "addr:housenumber": "3",
-    "addr:postcode": "3510",
-    "addr:street": "Freimettigenstrasse",
-    "defibrillator:location": "Im 1. OG neben der Stempeluhr",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "Mo-Fr 07:00-17:00",
-    "operator": "Kern AG",
-    "phone": "+41 31 790 35 35",
-    "id": "node/9373986257"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6214386,
-      46.8718759
     ]
   }
 },
@@ -158665,30 +158622,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11238114762",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Landi Gebäude, nach dem Eingang durch die weisse Tür, auf der rechten Seite vor dem Lift",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 07:00-17:00",
-    "operator": "Kern AG",
-    "phone": "+41 31 790 35 35",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/11238114762"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6219041,
-      46.8717639
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11240722338",
   "properties": {
     "access": "yes",
@@ -166814,6 +166747,31 @@
     "coordinates": [
       6.9058192,
       46.9836706
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11542417875",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Fürstenlandstrasse 122 Personaleingang Treppenhaus",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo-Fr 08:00-16:30",
+    "operator": "Gartenhof-Verwaltung",
+    "phone": "+41795078859",
+    "wheelchair": "limited",
+    "id": "node/11542417875"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3399433,
+      47.4115033
     ]
   }
 }
