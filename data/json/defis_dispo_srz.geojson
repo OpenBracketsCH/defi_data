@@ -69310,23 +69310,24 @@
   "type": "Feature",
   "id": "node/11333006869",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "mittlerer Pavillon Schule Leutschenbach",
+    "access": "yes",
+    "defibrillator:location": "Mittlerer Pavillon Schule Leutschenbach",
     "description": "erster Türe links, im Büro des Horts",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "EG",
-    "opening_hours": "Mo.-Fr. 11:00-18:00",
+    "level": "0",
+    "opening_hours": "Mo-Fr 11:00-18:00",
     "operator": "Schule Leutschenbach",
-    "phone": "+41793637897",
+    "phone": "+41 44 413 08 10",
+    "wheelchair": "limited",
     "id": "node/11333006869"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5615162,
-      47.4139753
+      8.5614767,
+      47.414011
     ]
   }
 },
@@ -69334,22 +69335,24 @@
   "type": "Feature",
   "id": "node/11333012469",
   "properties": {
-    "defibrillator:location": "Mehr als Wohnen- Kindergarten",
+    "access": "yes",
+    "defibrillator:location": "Kindergarten Leutschenbach 2",
     "description": "an der Wand beim Eingang rechts",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "EG",
-    "opening_hours": "Mo.-Fr. 08:00-14:40",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-14:40",
     "operator": "Schule Leutschenbach",
-    "phone": "+41793637897",
+    "phone": "+41 44 413 08 10",
+    "wheelchair": "limited",
     "id": "node/11333012469"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5606801,
-      47.413706
+      8.5607425,
+      47.4136325
     ]
   }
 },
