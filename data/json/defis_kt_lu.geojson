@@ -3360,32 +3360,17 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637818452",
-  "properties": {
-    "description": "Bergblick: 1. OG Treppe",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Lups Bergblick",
-    "id": "node/7637818452"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.8400181,
-      47.226383
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637818453",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Haus A, Erdgeschoss, Empfang A158",
     "description": "A 158 Eingang Information/Empfang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "level": "0",
     "name": "Lups Haus A",
     "opening_hours": "24/7",
+    "phone": "+41 58 856 55 54",
     "id": "node/7637818453"
   },
   "geometry": {
@@ -3401,11 +3386,16 @@
   "id": "node/7637818454",
   "properties": {
     "access": "yes",
-    "description": "1.OG C260 Stationszimmer",
+    "defibrillator:location": "Haus C, 1. Obergeschoss West, Station D&S, Stationszimmer C260",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
     "name": "Lups Haus C",
     "opening_hours": "24/7",
+    "operator": "Luzerner Psychiatrie AG (lups)",
+    "phone": "+41 58 856 62 60",
     "id": "node/7637818454"
   },
   "geometry": {
@@ -3420,10 +3410,17 @@
   "type": "Feature",
   "id": "node/7637818458",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haus T, 1. Untergeschoss, Korridor vor Ein- gang Hallenbad T002",
     "description": "Hallenbad 1.UG Kasten an Wand montiert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
     "name": "Lups Haus T (Hallenbad)",
+    "opening_hours": "Mo-Su 08:00-18:00",
+    "operator": "Luzerner Psychiatrie AG (lups)",
+    "phone": "+41 58 856 55 54",
     "id": "node/7637818458"
   },
   "geometry": {
@@ -3436,30 +3433,18 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637818459",
-  "properties": {
-    "description": "ehem. Kloster 2.OG In Feuerlöschkasten integriert",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Lups Konvent Ost (eh Kloster)",
-    "id": "node/7637818459"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.8404198,
-      47.2318918
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637818460",
   "properties": {
-    "description": "Ehemaliges Kloster EG In Feuerlöschkasten integriert",
+    "access": "yes",
+    "defibrillator:location": "Konvent West, Erdgeschoss, Eingang/Trep- penhaus, in Feuerlöschkasten integriert",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "name": "Lups Konvent West (eh Kloster)",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 08:00-18:00",
+    "operator": "Luzerner Psychiatrie AG (lups)",
+    "phone": "+41 58 856 55 55",
     "id": "node/7637818460"
   },
   "geometry": {
@@ -14357,14 +14342,15 @@
   "id": "node/9363625131",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "1. OG Stationsbüro Station Abhängigkeitserkrankungen 1",
+    "defibrillator:location": "Haus B, 1. Obergeschoss West, Station Abh 1, Rapportzimmer B228",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "1",
     "opening_hours": "24/7",
     "operator": "Luzerner Psychiatrie",
-    "phone": "+41 58 856 50 46",
+    "phone": "+41 58 856 43 07",
     "id": "node/9363625131"
   },
   "geometry": {
@@ -20216,6 +20202,78 @@
     "coordinates": [
       7.9840211,
       47.1440064
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11559391575",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Konvent Ost, 2. Obergeschoss, Korridor, in Feuerlöschkasten integriert",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo-Su 08:00-18:00",
+    "operator": "Luzerner Psychiatrie AG (lups)",
+    "phone": "+41 58 856 55 55",
+    "id": "node/11559391575"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8404081,
+      47.2318871
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11559391576",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haus S Ost, 1. OG, Treppenhaus",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "24/7",
+    "operator": "Luzerner Psychiatrie AG (lups) | Wohnheim Sonnegarte",
+    "phone": "+41 58 856 55 99",
+    "id": "node/11559391576"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8457779,
+      47.2297579
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11559391577",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haus S West, 1. OG, Treppenhaus",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "24/7",
+    "operator": "Luzerner Psychiatrie AG (lups) | Wohnheim Sonnegarte",
+    "phone": "+41 58 856 56 90",
+    "id": "node/11559391577"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8448713,
+      47.22994
     ]
   }
 }

@@ -24772,30 +24772,19 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637818452",
-  "properties": {
-    "description": "Bergblick: 1. OG Treppe",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Lups Bergblick",
-    "id": "node/7637818452"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.8400181,
-      47.226383
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637818458",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haus T, 1. Untergeschoss, Korridor vor Ein- gang Hallenbad T002",
     "description": "Hallenbad 1.UG Kasten an Wand montiert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
     "name": "Lups Haus T (Hallenbad)",
+    "opening_hours": "Mo-Su 08:00-18:00",
+    "operator": "Luzerner Psychiatrie AG (lups)",
+    "phone": "+41 58 856 55 54",
     "id": "node/7637818458"
   },
   "geometry": {
@@ -24808,30 +24797,18 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637818459",
-  "properties": {
-    "description": "ehem. Kloster 2.OG In Feuerlöschkasten integriert",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Lups Konvent Ost (eh Kloster)",
-    "id": "node/7637818459"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.8404198,
-      47.2318918
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637818460",
   "properties": {
-    "description": "Ehemaliges Kloster EG In Feuerlöschkasten integriert",
+    "access": "yes",
+    "defibrillator:location": "Konvent West, Erdgeschoss, Eingang/Trep- penhaus, in Feuerlöschkasten integriert",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "name": "Lups Konvent West (eh Kloster)",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 08:00-18:00",
+    "operator": "Luzerner Psychiatrie AG (lups)",
+    "phone": "+41 58 856 55 55",
     "id": "node/7637818460"
   },
   "geometry": {
@@ -42488,8 +42465,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8365417,
-      46.6985962
+      8.8364725,
+      46.6986029
     ]
   }
 },
@@ -167073,6 +167050,30 @@
     "coordinates": [
       7.249254,
       47.1324508
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11559391575",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Konvent Ost, 2. Obergeschoss, Korridor, in Feuerlöschkasten integriert",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo-Su 08:00-18:00",
+    "operator": "Luzerner Psychiatrie AG (lups)",
+    "phone": "+41 58 856 55 55",
+    "id": "node/11559391575"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8404081,
+      47.2318871
     ]
   }
 }
