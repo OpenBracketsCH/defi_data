@@ -24,6 +24,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/5371136952"
   },
   "geometry": {
@@ -404,25 +405,6 @@
     "coordinates": [
       8.6225154,
       46.8996791
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7637818972",
-  "properties": {
-    "description": "Kleiner Wartesaal",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "name": "Bushaltestelle",
-    "id": "node/7637818972"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6250294,
-      46.902379
     ]
   }
 },
@@ -2066,26 +2048,6 @@
     "coordinates": [
       8.6702728,
       46.8642698
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10792337805",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "bei Eingangstüre",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Su 06:00-20:00",
-    "id": "node/10792337805"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6315394,
-      46.8761278
     ]
   }
 },
