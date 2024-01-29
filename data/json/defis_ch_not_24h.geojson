@@ -100945,11 +100945,12 @@
   "id": "node/9917845095",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Verkaufsfläche LIDL",
-    "description": "während Öffnungszeiten verfügbar",
+    "check_date": "2024-01-29",
+    "defibrillator:location": "Am Wand der Ausgangskorridor, rechts von der ersten Kasse.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Th 07:30-18:30; Fr 07:30-20:00; Sa 07:30-17:00",
     "operator": "LIDL Schweiz",
     "phone": "+41716278074",
@@ -100958,8 +100959,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.623773,
-      46.8950397
+      8.62407,
+      46.8950623
     ]
   }
 },
@@ -167133,6 +167134,55 @@
     "coordinates": [
       8.6911887,
       47.4270384
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11563839269",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Arztpraxis We4You Care AG Klosterplatz",
+    "description": "In der Arztpraxis zu den angegebenen Öffnungszeiten erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "We - Fr 07:00 - 19:00",
+    "operator": "We4You Care AG",
+    "phone": "+41 58 670 11 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11563839269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7499344,
+      47.1262134
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11563863469",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Arztpraxis We4You Care AG Klosterplatz",
+    "description": "In der Arztpraxis zu den angegebenen Öffnungszeiten erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "MO-SU 07:00-19:00",
+    "operator": "We4You Care AG",
+    "phone": "+41 58 670 11 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11563863469"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7498486,
+      47.1262426
     ]
   }
 }
