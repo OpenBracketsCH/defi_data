@@ -69279,6 +69279,7 @@
   "type": "Feature",
   "id": "node/9045483604",
   "properties": {
+    "defibrillator:location": "Au milieu du couloir entre les batiments",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -167200,6 +167201,30 @@
     "coordinates": [
       10.4065372,
       46.6003416
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11564655869",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bahnhofpaltz Nr 4",
+    "description": "Öffentlich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "operator": "Gemeinde Hinwil ",
+    "phone": "+41 76 398 23 22 ",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11564655869"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8405609,
+      47.3057751
     ]
   }
 }
