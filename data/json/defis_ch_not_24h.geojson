@@ -24804,23 +24804,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637818461",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Schulhaus",
-    "id": "node/7637818461"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.8377356,
-      47.2283878
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637818464",
   "properties": {
     "defibrillator:location": "Haupteingang rechts",
@@ -167183,6 +167166,24 @@
     "coordinates": [
       8.7498486,
       47.1262426
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11564040561",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussenwand Eisbahngebäude",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/11564040561"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3625396,
+      46.86231
     ]
   }
 }
