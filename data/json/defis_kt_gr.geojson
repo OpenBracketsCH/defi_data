@@ -379,9 +379,13 @@
   "type": "Feature",
   "id": "node/6651312612",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Denner",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/6651312612"
   },
   "geometry": {
@@ -662,9 +666,14 @@
   "type": "Feature",
   "id": "node/7645864233",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bei der Gemeindeverwaltung/Dorfladen",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Domleschg",
     "id": "node/7645864233"
   },
   "geometry": {
