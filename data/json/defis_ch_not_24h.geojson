@@ -167269,14 +167269,14 @@
   "id": "node/11572347369",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Herrengarderobe EG",
+    "defibrillator:location": "Haupteingang, Herrengarderobe EG",
     "description": "Während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "EG",
     "opening_hours": "Mo-Fr 07:30-17:00",
-    "operator": "Firma",
+    "operator": "BiCA AG, Buzibachstrasse 45, 6023 Rothenburg",
     "phone": "+41412890505",
     "id": "node/11572347369"
   },
@@ -167285,6 +167285,22 @@
     "coordinates": [
       8.2547092,
       47.0899787
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11572515969",
+  "properties": {
+    "defibrillator:location": "im Fußgängertunnel",
+    "emergency": "defibrillator",
+    "id": "node/11572515969"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7351768,
+      47.4847013
     ]
   }
 }
