@@ -22403,23 +22403,22 @@
   "id": "node/11293413869",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Altersheim Bifang",
-    "description": "wand links bei Cafeteria",
+    "defibrillator:location": "Wand links bei Cafeteria",
+    "description": "bei Wand Cafeteria",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo - So 7.00-18.00",
+    "opening_hours": "07:00-19:00",
     "operator": "Bifang",
-    "phone": "+4156 618 73 50",
-    "source": "local_knowledge, defikarte.ch",
+    "phone": "+41 56 618 73 50",
     "id": "node/11293413869"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2796459,
-      47.3460194
+      8.2794984,
+      47.3459449
     ]
   }
 },
@@ -22442,29 +22441,6 @@
     "coordinates": [
       8.0472837,
       47.3915737
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11299416769",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "altersheim Bifang",
-    "description": "bei Wand Cafeteria",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "EG",
-    "opening_hours": "Mo-So 7-19",
-    "operator": "Bifang",
-    "id": "node/11299416769"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.2799549,
-      47.3452858
     ]
   }
 },
