@@ -13555,7 +13555,7 @@
     "addr:housenumber": "1",
     "addr:postcode": "2572",
     "addr:street": "Grünweg",
-    "defibrillator:location": "aussen vor dem Haupteingang rechts",
+    "defibrillator:location": "aussen vor dem Haupteingang rechts, in Wand eingelassen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
@@ -13566,8 +13566,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.2131576,
-      47.0980783
+      7.2132994,
+      47.0981912
     ]
   }
 },
@@ -13719,8 +13719,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.2008414,
-      47.0686759
+      7.200781,
+      47.068764
     ]
   }
 },
@@ -31441,7 +31441,7 @@
   "id": "node/8577560502",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "in rotem Gehäuse",
+    "defibrillator:location": "in rotem Gehäuse, an Tür links vom Haupteingang montiert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -31451,8 +31451,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.1859182,
-      47.0565346
+      7.1858714,
+      47.0565908
     ]
   }
 },
@@ -41325,8 +41325,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.2003096,
-      47.065359
+      7.2002273,
+      47.0654516
     ]
   }
 },
@@ -43157,8 +43157,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.2117734,
-      47.0837786
+      7.21226,
+      47.0839012
     ]
   }
 },
@@ -49691,49 +49691,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11083880706",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Reception Gebäude",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "EG",
-    "opening_hours": "24/7",
-    "operator": "Burgergemeinde-Sutz",
-    "id": "node/11083880706"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.220299,
-      47.1088666
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11085003205",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Badewiese Sutz, Geräteschuppen neben Bel-Lago",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde",
-    "id": "node/11085003205"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.2181155,
-      47.1071853
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11085017305",
   "properties": {
     "access": "yes",
@@ -50331,7 +50288,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Badeplatz Sutz",
-    "description": "An Aussenwand von WC montiert / 24 Stunden verfügbar",
+    "description": "An Aussenwand von WC neben Bel Lago montiert/ 24 Stunden verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
