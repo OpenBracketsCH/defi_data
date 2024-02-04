@@ -1766,19 +1766,21 @@
   "id": "node/9628051837",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Neben dem Eingang zum Dorfladen im Zwischengang zwischen Gemeindekanzlei und Dorfladen.",
+    "defibrillator:location": "Neben dem Eingang zum Dorfladen im Zwischengang zwischen Gemeindekanzlei und Dorfladen im grünen Kasten.",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Stetten",
+    "wheelchair": "yes",
     "id": "node/9628051837"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6583209,
-      47.7385189
+      8.6583361,
+      47.7384132
     ]
   }
 },
@@ -2638,7 +2640,7 @@
   "id": "node/10973830105",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Aussenfassade an der Bushaltestelle, rechts vom Eingang zwischen Fahrplan und Hydrant im weissen Kasten.",
+    "defibrillator:location": "Aussenfassade am Schulhaus, rechts vom Eingang im grünen Kasten.",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -2647,7 +2649,7 @@
     "operator": "Gemeinde Hallau",
     "phone": "+41 52 687 08 50",
     "source": "local_knowledge, defikarte.ch",
-    "wheelchair": "yes",
+    "wheelchair": "no",
     "id": "node/10973830105"
   },
   "geometry": {
