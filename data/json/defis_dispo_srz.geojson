@@ -1066,16 +1066,21 @@
   "type": "Feature",
   "id": "node/5738599622",
   "properties": {
+    "access": "yes",
+    "contact:phone": "+41 44 723 21 11",
+    "defibrillator:location": "Eingangsbereich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "note": "während der Öffnungszeiten verfügbar",
+    "operator": "Gemeindeverwaltung Thalwil",
     "id": "node/5738599622"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.56534,
-      47.29237
+      8.5653767,
+      47.2923429
     ]
   }
 },
@@ -35455,26 +35460,6 @@
     "coordinates": [
       8.4393487,
       47.5249861
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9288935118",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Gemeindeverwaltung",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Gemeinde Thalwil",
-    "id": "node/9288935118"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5651704,
-      47.2922494
     ]
   }
 },
@@ -72583,7 +72568,8 @@
   "id": "node/11612866569",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Jenny-Schloss, Mühlebachstrasse 51a",
+    "contact:phone": "+41 44 723 21 11",
+    "defibrillator:location": "Jenny-Schloss, Eingangsbereich",
     "description": "während der Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -72606,7 +72592,8 @@
   "id": "node/11612869169",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Haus Sonnegg (Sozialamt), Alte Landstrasse 108",
+    "contact:phone": "+41 44 723 21 11",
+    "defibrillator:location": "Haus Sonnegg (Sozialamt), Eingangsbereich",
     "description": "während der Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -72619,31 +72606,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.565318,
-      47.291907
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11612870969",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Tuchhof (Jugend und Familie), Mühlebachstrasse 53",
-    "description": "während der Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "1",
-    "operator": "Gemeinde Thalwil",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/11612870969"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5659188,
-      47.2916996
+      8.5652958,
+      47.2919434
     ]
   }
 },
@@ -72652,11 +72616,12 @@
   "id": "node/11612870970",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Bauamt, Dorfstrasse 10",
+    "contact:phone": "+41 44 723 21 11",
+    "defibrillator:location": "Bauamt, Eingangsbereich",
     "description": "während der Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "yes",
     "level": "0",
     "operator": "Gemeinde Thalwil",
     "source": "local_knowledge, defikarte.ch",
@@ -72665,8 +72630,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5679197,
-      47.2896984
+      8.5679264,
+      47.2897202
     ]
   }
 },
@@ -72721,7 +72686,8 @@
   "id": "node/11612883669",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Werkhof, Gewerbestrasse 17",
+    "contact:phone": "+41 44 723 21 11",
+    "defibrillator:location": "Werkhof, Eingangsbereich, 1. Stock",
     "description": "während der Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
