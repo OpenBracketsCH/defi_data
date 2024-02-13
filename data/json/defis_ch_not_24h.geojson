@@ -168132,6 +168132,76 @@
       47.7070337
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/11618500570",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Radiologie Posthof Neuhausen, Zentralstrasse 59, 8212 Neuhausen",
+    "description": "Im Radiologie Institut",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-16:00",
+    "operator": "Spitäler Schaffhausen",
+    "phone": "+41 52 634 22 99",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11618500570"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6203623,
+      47.6823066
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11618519669",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Bleicheplatz 6, MRI City, 8200 Schaffhausen ",
+    "description": "während Öffnungszeiten erreichbar im MRI Institut",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-16:15",
+    "operator": "MRS AG / Spitäler Schaffhausen",
+    "phone": "+41 52 634 46 01",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11618519669"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.631928,
+      47.698834
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11618571703",
+  "properties": {
+    "access": "permit",
+    "defibrillator:location": "Auvoba AG\nEingang EG Werkstatt\nMO-FR 07:30-12:00 13:15-17:15",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Auvoba AG",
+    "ref": "Lifetec Defibrillator",
+    "id": "node/11618571703"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6104152,
+      47.4858533
+    ]
+  }
 }
 ]
 }
