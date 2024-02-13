@@ -19798,22 +19798,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7294974050",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/7294974050"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.1542797,
-      46.7787996
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7297761031",
   "properties": {
     "emergency": "defibrillator",
@@ -168161,12 +168145,13 @@
   "type": "Feature",
   "id": "node/11618571703",
   "properties": {
-    "access": "permit",
+    "access": "employees",
     "defibrillator:location": "Auvoba AG\nEingang EG Werkstatt\nMO-FR 07:30-12:00 13:15-17:15",
+    "description": "Oranger Koffer",
     "emergency": "defibrillator",
     "indoor": "yes",
     "level": "0",
-    "operator": "Auvoba AG",
+    "operator": "Lifetec AG Schweiz",
     "ref": "Lifetec Defibrillator",
     "id": "node/11618571703"
   },
@@ -168219,6 +168204,26 @@
     "coordinates": [
       8.5486812,
       47.3618678
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11618927569",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bahnhof Lütschental, neben Ticketautomat",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde",
+    "id": "node/11618927569"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9494996,
+      46.6372829
     ]
   }
 }
