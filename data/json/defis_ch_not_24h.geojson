@@ -137656,31 +137656,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10763310424",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Passage vers les vestiaires",
-    "description": "gelber Koffer",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "latitude": "46.78258",
-    "longitude": "7.14556",
-    "name": "Commune de Marly FR",
-    "operator": "Lifetec AG Schweiz",
-    "phone": "+41 800 122 144",
-    "id": "node/10763310424"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.14556,
-      46.78258
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10763310425",
   "properties": {
     "access": "yes",
@@ -168224,6 +168199,26 @@
     "coordinates": [
       9.4324872,
       47.5129403
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11618720612",
+  "properties": {
+    "access": "customers",
+    "defibrillator:location": "Mercedes Autogarage EG im Büro\nMO-FR 08:00-18:30\nSA 09:00-17:00",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Mercedes-Benz Automobil AG",
+    "id": "node/11618720612"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5486812,
+      47.3618678
     ]
   }
 }
