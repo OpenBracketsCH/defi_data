@@ -14899,18 +14899,17 @@
   "type": "Feature",
   "id": "node/6654824966",
   "properties": {
-    "access": "no",
+    "access": "yes",
     "addr:city": "Toffen",
     "addr:housenumber": "1",
     "addr:postcode": "3125",
     "addr:street": "Bahnhofstrasse",
-    "defibrillator:location": "Regiofeuerwehr TOGEKA",
-    "description": "nur bei Alarmierung Feuerwehr",
+    "defibrillator:location": "Eingang Gemeindeverwaltung",
+    "description": "24/7",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Regiofeuerwehr TOGEKA",
-    "phone": "+41 79 770 12 05",
+    "indoor": "no",
+    "operator": "Gemeinde Toffen",
     "id": "node/6654824966"
   },
   "geometry": {
@@ -167993,12 +167992,16 @@
   "type": "Feature",
   "id": "node/11613413272",
   "properties": {
-    "access": "unknown",
+    "access": "yes",
     "colour": "orange",
-    "defibrillator:location": "Gemeindehaus Eingangsbereich EG Koffer Orange",
+    "defibrillator:location": "Eingangsbereich EG (Temporär)",
+    "description": "Koffer Orange",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Commune de Valeyres-sous-Rances",
+    "name": "Gemeindehaus",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
     "id": "node/11613413272"
   },
   "geometry": {
@@ -168146,13 +168149,15 @@
   "id": "node/11618571703",
   "properties": {
     "access": "employees",
-    "defibrillator:location": "Auvoba AG\nEingang EG Werkstatt\nMO-FR 07:30-12:00 13:15-17:15",
+    "defibrillator:location": "Eingang EG Werkstatt\nMO-FR 07:30-12:00 13:15-17:15",
     "description": "Oranger Koffer",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
-    "level": "0",
+    "name": "Auvoba AG",
+    "opening_hours": "MO-FR 07:30-12:00 13:15-17:15",
     "operator": "Lifetec AG Schweiz",
-    "ref": "Lifetec Defibrillator",
+    "phone": "+41 800 122 144",
     "id": "node/11618571703"
   },
   "geometry": {
