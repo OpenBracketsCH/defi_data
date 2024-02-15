@@ -5576,25 +5576,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6398162759",
-  "properties": {
-    "defibrillator:location": "Hängt an der Wand links neben dem Eingang zur Rezeption. / Hanging on the wall to the left of the entrance of the reception.",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Gästehaus Hunziker",
-    "id": "node/6398162759"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5599652,
-      47.4142233
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6402924824",
   "properties": {
     "defibrillator:location": "Kassenbereich Migros",
@@ -27391,6 +27372,7 @@
     "description": "Rezeption Haupteingang / Foyer 1 Stock Murmattweg 8",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "AAL",
     "id": "node/7637818679"
   },
