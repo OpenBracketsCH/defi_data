@@ -72839,29 +72839,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9679733017",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Klinik Gut, Via Arona 34, 7500 St.Moritz",
-    "description": "jederzeit verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Klinik Gut, St.Moritz",
-    "phone": "+41818363434",
-    "id": "node/9679733017"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.8382663,
-      46.496582
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9680059117",
   "properties": {
     "access": "yes",
@@ -110003,6 +109980,54 @@
     "coordinates": [
       7.6951182,
       47.1843608
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11630531417",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Seebad Lattenberg\nBeim Eingang/Ausgang Strassenseite",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "emergency_telephone_code": "144",
+    "indoor": "no",
+    "name": "Gemeinde Stäfa ZH",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/11630531417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.713048,
+      47.2413676
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11630565267",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Links des Haupteingangs vom Fussball Clubhaus",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "name": "Gemeinde Stäfa ZH",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG  Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/11630565267"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7368772,
+      47.2467939
     ]
   }
 }
