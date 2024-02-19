@@ -3,6 +3,31 @@
 "features": [
 {
   "type": "Feature",
+  "id": "node/256171559",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An Fassade Schulhaus Nord, Richtung grosser Pausenplatz",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "emergency_telephone_code": "144",
+    "indoor": "wall",
+    "level": "0",
+    "name": "Gemeinde Stäfa ZH",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/256171559"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.730395,
+      47.2398129
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/442135045",
   "properties": {
     "access": "yes",
@@ -110216,6 +110241,31 @@
     "coordinates": [
       8.731689,
       47.2414002
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11640589331",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Eingang Etzelstrasse 35",
+    "description": "Grüner Katen",
+    "emergency": "defibrillator",
+    "emergency_telephone_code": "144",
+    "indoor": "no",
+    "level": "0",
+    "name": "Gemeinde Stäfa ZH",
+    "opening_hours": "24/7",
+    "operator": "Lifetec  AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/11640589331"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7219349,
+      47.2448656
     ]
   }
 }
