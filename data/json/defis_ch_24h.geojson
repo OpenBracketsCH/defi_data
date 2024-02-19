@@ -114,6 +114,31 @@
 },
 {
   "type": "Feature",
+  "id": "node/1069465215",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An Fassade beim Eingang",
+    "description": "Grüner Katen",
+    "emergency": "defibrillator",
+    "emergency_telephone_code": "144",
+    "indoor": "no",
+    "level": "0",
+    "name": "Gemeinde Stäfa ZH",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/1069465215"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7543413,
+      47.2380916
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/1372175088",
   "properties": {
     "access": "yes",
@@ -106079,11 +106104,15 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Bahnhof Hauptgebäude",
+    "description": "Grüner Kasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "EG",
+    "name": "Gemeinde Stäfa ZH",
     "opening_hours": "24/7",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
     "id": "node/11401873769"
   },
   "geometry": {
@@ -109994,6 +110023,7 @@
     "emergency": "defibrillator",
     "emergency_telephone_code": "144",
     "indoor": "no",
+    "level": "0",
     "name": "Gemeinde Stäfa ZH",
     "opening_hours": "24/7",
     "operator": "Lifetec AG Schweiz",
@@ -110014,10 +110044,11 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Links des Haupteingangs vom Fussball Clubhaus",
-    "description": "Grüner Kasten",
+    "description": "EG. Grüner Kasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "name": "Gemeinde Stäfa ZH",
     "opening_hours": "24/7",
     "operator": "Lifetec AG  Schweiz",
@@ -110135,6 +110166,56 @@
     "coordinates": [
       9.568849,
       47.4651194
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11640491713",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Eingang Schwimmbad, Strassenseite",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "name": "Gemeinde Stäfa ZH",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/11640491713"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7612196,
+      47.2342825
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11640530073",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Eingang unter der Metalltreppe",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "emergency_telephone_code": "144",
+    "indoor": "yes",
+    "level": "0",
+    "name": "Gemeinde Stäfa ZH",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/11640530073"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.731689,
+      47.2414002
     ]
   }
 }
