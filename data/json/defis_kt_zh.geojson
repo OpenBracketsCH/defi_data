@@ -41832,31 +41832,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10763309935",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Gebäude im Hinterhof / EG",
-    "description": "gelber Koffer",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "latitude": "47.41242",
-    "longitude": "8.55",
-    "name": "Minira AG",
-    "operator": "Lifetec AG Schweiz",
-    "phone": "+41 800 122 144",
-    "id": "node/10763309935"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.55,
-      47.41242
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10763309936",
   "properties": {
     "access": "no",
@@ -41877,31 +41852,6 @@
     "coordinates": [
       8.55211,
       47.41115
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10763309937",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "2.OG",
-    "description": "gelber Koffer",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "latitude": "47.41246",
-    "longitude": "8.54961",
-    "name": "Cb - Stiftung/Minira",
-    "operator": "Lifetec AG Schweiz",
-    "phone": "+41 800 122 144",
-    "id": "node/10763309937"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.54961,
-      47.41246
     ]
   }
 },
@@ -56097,6 +56047,31 @@
     "coordinates": [
       8.5447294,
       47.3674833
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11648860969",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Gesundhaus Falken Apotheke AG",
+    "description": "Während Öffnungszeiten der Apotheke verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Sa 8:00-20:00",
+    "operator": "Gesundhaus Falken Apotheke AG",
+    "phone": "+41 44 308 80 10",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11648860969"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5483772,
+      47.4196162
     ]
   }
 }
