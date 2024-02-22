@@ -7276,32 +7276,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10910676169",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "5.OG direkt nach Eingang",
-    "description": "oranger Koffer",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "latitude": "46.52035009",
-    "longitude": "6.637860412",
-    "name": "Accenture AG",
-    "opening_hours": "Mo-Fr 08:00-18:00",
-    "operator": "Lifetec AG Schweiz",
-    "phone": "0800 122 144",
-    "id": "node/10910676169"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      6.6378604,
-      46.5203501
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10910676183",
   "properties": {
     "access": "yes",
@@ -8892,6 +8866,31 @@
     "coordinates": [
       6.5061969,
       46.520367
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11652215369",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Place du Village - Entrée église",
+    "description": "Défibrillateur Zoll AED Plus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "CardioRea",
+    "phone": "+41 21 809 52 39",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11652215369"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.3732719,
+      46.5535484
     ]
   }
 }

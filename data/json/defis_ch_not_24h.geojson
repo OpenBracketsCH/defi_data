@@ -147946,58 +147946,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10910676169",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "5.OG direkt nach Eingang",
-    "description": "oranger Koffer",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "latitude": "46.52035009",
-    "longitude": "6.637860412",
-    "name": "Accenture AG",
-    "opening_hours": "Mo-Fr 08:00-18:00",
-    "operator": "Lifetec AG Schweiz",
-    "phone": "0800 122 144",
-    "id": "node/10910676169"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      6.6378604,
-      46.5203501
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10910676170",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "3.OG direkt nach Eingang",
-    "description": "oranger Koffer",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "latitude": "46.23019752",
-    "longitude": "6.111536622",
-    "name": "Accenture AG",
-    "opening_hours": "Mo-Fr 08:00-18:00",
-    "operator": "Lifetec AG Schweiz",
-    "phone": "0800 122 144",
-    "id": "node/10910676170"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      6.1115366,
-      46.2301975
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10910676171",
   "properties": {
     "access": "no",
@@ -148144,32 +148092,6 @@
     "coordinates": [
       8.79985,
       47.33176
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10910676177",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Empfang;Future Camp",
-    "description": "oranger Koffer",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "latitude": "47.36889",
-    "longitude": "8.54096",
-    "name": "Accenture AG",
-    "opening_hours": "Mo-Fr 08:00-18:00",
-    "operator": "Lifetec AG Schweiz",
-    "phone": "0800 122 144",
-    "id": "node/10910676177"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.54096,
-      47.36889
     ]
   }
 },
@@ -169012,6 +168934,50 @@
     "coordinates": [
       6.5061969,
       46.520367
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11652152169",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "KWC Bürogebäude",
+    "description": "während Bürozeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "operator": "KWC",
+    "id": "node/11652152169"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1128334,
+      47.3135071
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11652152170",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "KWC Haupteingang",
+    "description": "währen Bürozeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "operator": "KWC",
+    "id": "node/11652152170"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1125614,
+      47.314136
     ]
   }
 }
