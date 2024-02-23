@@ -29377,27 +29377,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7919717379",
-  "properties": {
-    "access": "permissive",
-    "colour": "green",
-    "defibrillator:location": "Inside Flying Tiger. Enter store and turn right. It is pale green and wall mounted.",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-We,Fr 09:00-19:00; Th 09:00-21:00; Sa 09:00-17:00",
-    "id": "node/7919717379"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.2465125,
-      47.1384514
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7934292446",
   "properties": {
     "access": "yes",
@@ -41818,7 +41797,7 @@
     "defibrillator:location": "Verkaufsfläche LIDL",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
-    "emergency:phone": "144",
+    "fixme": "Please state location more precisely",
     "indoor": "yes",
     "operator": "LIDL Schweiz",
     "phone": "+41716278074",
@@ -41827,8 +41806,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.2463679,
-      47.1385228
+      7.2460248,
+      47.138407
     ]
   }
 },

@@ -40010,27 +40010,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7919717379",
-  "properties": {
-    "access": "permissive",
-    "colour": "green",
-    "defibrillator:location": "Inside Flying Tiger. Enter store and turn right. It is pale green and wall mounted.",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-We,Fr 09:00-19:00; Th 09:00-21:00; Sa 09:00-17:00",
-    "id": "node/7919717379"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.2465125,
-      47.1384514
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7925417085",
   "properties": {
     "emergency": "defibrillator",
@@ -99096,7 +99075,7 @@
     "defibrillator:location": "Verkaufsfläche LIDL",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
-    "emergency:phone": "144",
+    "fixme": "Please state location more precisely",
     "indoor": "yes",
     "operator": "LIDL Schweiz",
     "phone": "+41716278074",
@@ -99105,8 +99084,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.2463679,
-      47.1385228
+      7.2460248,
+      47.138407
     ]
   }
 },
@@ -169115,6 +169094,25 @@
     "coordinates": [
       9.8742993,
       46.52837
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11658202159",
+  "properties": {
+    "access": "permit",
+    "defibrillator:location": "im Betriebsgebäude bei der Schiessanlage.\nZugänglich nur durch Personal und nur während Öffnungszeiten.\nVor allem für Events und Einsätze in und um Biathlon Arena gedacht.",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "Biathlon Lenzerheide c/o Verein Arena Nordic-Events",
+    "id": "node/11658202159"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5558816,
+      46.6927568
     ]
   }
 }
