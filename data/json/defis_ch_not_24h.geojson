@@ -95844,29 +95844,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9865267718",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Gornergart 1",
-    "description": "Eingang Edelweiss Shop u. Ticketschalter",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Su 07:00-20:00",
-    "operator": "Matterhorn Gotthard Bahn",
-    "phone": "+41848642442",
-    "id": "node/9865267718"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.7822756,
-      45.9833016
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9865460546",
   "properties": {
     "access": "customers",
@@ -169135,6 +169112,25 @@
     "coordinates": [
       8.6665703,
       47.7552226
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11664485505",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "neben der Parkhauskasse, immer zugänglich",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "operator": "sanität24.ch",
+    "id": "node/11664485505"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4581078,
+      47.1850629
     ]
   }
 }
