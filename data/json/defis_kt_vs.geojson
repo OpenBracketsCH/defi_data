@@ -1237,27 +1237,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8953631043",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "In main hall / In Haupthalle",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "wheelchair": "yes",
-    "id": "node/8953631043"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.7749482,
-      46.0680234
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8955041731",
   "properties": {
     "defibrillator:location": "Inside building / Innen",
@@ -2122,15 +2101,15 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 06:00-20:00",
-    "phone": "0848642442",
+    "opening_hours": "24/7",
+    "phone": "+41848642442",
     "id": "node/9781542517"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.985754,
-      46.3193534
+      7.9859558,
+      46.3192406
     ]
   }
 },
@@ -2161,13 +2140,13 @@
   "id": "node/9781547418",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bahnhofplatz 8",
-    "description": "Haupteingang von Bus Terminal her",
+    "defibrillator:location": "Haupteingang von Bus Terminal her",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "24/7",
-    "phone": "0848642442",
+    "phone": "+41848642442",
     "id": "node/9781547418"
   },
   "geometry": {
@@ -3157,38 +3136,14 @@
     "level": "0",
     "opening_hours": "24/7",
     "operator": "Matterhorn Gotthard Bahn",
-    "phone": "+41 27 927 71 98",
+    "phone": "+41 848642442",
     "id": "node/10811355573"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7488462,
-      46.009634
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10811355574",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Beim Haupteingang auf der rechten Seite von den Schaltern",
-    "description": "24h verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Matterhorn Gotthard Bahn",
-    "phone": "+41 27 927 71 98",
-    "id": "node/10811355574"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.7750641,
-      46.067328
+      7.7540061,
+      46.0048307
     ]
   }
 },
