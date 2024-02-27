@@ -169350,6 +169350,52 @@
       47.2843966
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/11669972569",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Clubhaus Tennisclub Heiden",
+    "description": "während den Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "Erdgeschoss",
+    "opening_hours": "07:00 - 22:00",
+    "operator": "Verein",
+    "id": "node/11669972569"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5357521,
+      47.4408897
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11669984569",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Ottos",
+    "description": "nur währen den Öffnunzeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo - Sa 9:00 -18:00",
+    "operator": "Ottos",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11669984569"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7506694,
+      47.1428871
+    ]
+  }
 }
 ]
 }
