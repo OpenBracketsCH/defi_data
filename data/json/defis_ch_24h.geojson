@@ -56015,29 +56015,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9001477232",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "In der Kundenzone der Valiant Bank Geschäftsstelle in Reiden (vis-a-vis) Bahnhof ist der Defibrillator für alle zugänglich.",
-    "description": "24h verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Valiant Bank AG / Andreas Bärtschi",
-    "phone": "+41 62 749 20 06",
-    "id": "node/9001477232"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.9691823,
-      47.2418824
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9001490184",
   "properties": {
     "access": "yes",
@@ -110544,6 +110521,29 @@
     "coordinates": [
       8.523343,
       47.1948117
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11676616169",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Trafogebäude Eglisporweg 10",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Grosshöchstetten",
+    "phone": "+41317102110",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11676616169"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6378101,
+      46.9094895
     ]
   }
 }
