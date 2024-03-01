@@ -108741,14 +108741,14 @@
   "id": "node/10169749677",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "In Eingangshalle des Gebäude A",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Berufsschule Lenzburg, Neuhofstrasse 36, 5600 Lenzburg\nGebäude A, EG, Eingangshalle, Wandschrank",
+    "description": "während Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "opening_hours": "Mo-Fr 07:00-18:00; Sa 07:00-13:00",
-    "operator": "Berufsschule Lenzburg, Marco Schüepp",
+    "operator": "Berufsschule Lenzburg, Marco Schüepp +41 62 885 39 80",
     "phone": "+41 62 885 39 80",
     "id": "node/10169749677"
   },
@@ -108765,13 +108765,14 @@
   "id": "node/10169749678",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "erufschule Lenzburg, Gebäude R, über Eingang Aula/Timeout le Restaurant, im 1.UG Foyer der Aula",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Berufschule Lenzburg, Neuhofstrasse 38, 5600 Lenzburg,  Gebäude R, UG\nüber Eingang Aula/Timeout le Restaurant, die Treppe nach unten, im 1.UG Foyer der Aula, Wandkasten",
+    "description": "während Öffnungszeiten verfügbar.\nIm Normalfall von Montag - Freitag 07:00-16:00 (während Schulferien evtl. geschlossen) oder während Veranstaltungen.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "-1",
-    "operator": "Berufsschule Lenzburg, Marco Schüepp",
+    "opening_hours": "Mo-Fr 07:00-16:00 oder während Veranstaltungen. Sommerferien geschlossen",
+    "operator": "Berufsschule Lenzburg, Marco Schüepp, +41 62 885 39 80",
     "phone": "+41 62 885 39 80",
     "id": "node/10169749678"
   },
@@ -169482,6 +169483,79 @@
     "coordinates": [
       8.0521565,
       47.3359358
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11681718369",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Berufsschule Lenzburg, Neuhofstrasse 32, 5600 Lenzburg, Gebäude D, EG, Eingangshalle, Wandkasten",
+    "description": "Während Gebäude-Öffnungszeiten verfügbar, Schulferien beschränkter Zugang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-20:00",
+    "operator": "Berufsschule Lenzburg, Marco Schüepp, Tel. +41 62 885 39 80",
+    "phone": "+41 62 885 39 80",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11681718369"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1906851,
+      47.389166
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11681762069",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Berufsschule Lenzburg, Neuhofstrasse 35, 5600 Lenzburg, Gebäude C, EG, Eingangshalle, Wandkasten",
+    "description": "Während Öffnungszeiten, Schulferien spez. Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "Berufsschule Lenzburg, Marco Schüepp, Tel. +41 62 885 39 80",
+    "phone": "+41 62 885 39 80",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11681762069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1906841,
+      47.3897952
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11681772869",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Berufsschule Lenzburg, Neuhofstrasse 25, 5600 Lenzburg, Gebäude S (Sporthalle), EG, Eingangshalle, Wandkasten",
+    "description": "Während Öffnungszeiten Schule oder Nutzung durch Sportvereine/Anlässe. Während Schulferien spezielle Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 06:30-22:00",
+    "operator": "Berufsschule Lenzburg, Marco Schüepp, Tel. +41 62 885 39 80",
+    "phone": "+41 62 885 39 80",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11681772869"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1891059,
+      47.3895492
     ]
   }
 }
