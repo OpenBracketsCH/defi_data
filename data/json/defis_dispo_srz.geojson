@@ -55647,13 +55647,12 @@
   "id": "node/10763309925",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bei der Verbindungstür Verkauf/Werkstatt",
-    "description": "in weissem Wandkasten",
+    "defibrillator:location": "Werkstatt neben Büro\n0029LTM",
+    "description": "Oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "latitude": "47.37546",
-    "longitude": "8.51938",
+    "level": "1",
     "name": "Binelli Automobile AG",
     "opening_hours": "Mo-Fr 07:00-18:00; Sa 09:00-16:00",
     "operator": "Lifetec AG Schweiz",
@@ -73755,6 +73754,31 @@
     "coordinates": [
       8.4340482,
       47.1604592
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11690428169",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "1.UG Kundenparking, neben Eingang Treppenhaus\n0030LTM",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "name": "Binelli Automobile AG",
+    "opening_hours": "Mo-Fr 07:00-18:00; Sa 09:00-16:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/11690428169"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5017038,
+      47.3818683
     ]
   }
 }
