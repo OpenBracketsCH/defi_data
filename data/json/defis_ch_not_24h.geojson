@@ -125909,8 +125909,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.51938,
-      47.37546
+      8.5017297,
+      47.3818928
     ]
   }
 },
@@ -169637,6 +169637,75 @@
     "coordinates": [
       8.837927,
       47.2243882
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11690103269",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Arztpraxis im Parterre",
+    "description": "während Praxisöffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:30-17:00",
+    "operator": "Praxis Gruppe Niederbipp",
+    "phone": "+41 32 633 65 50",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11690103269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.692275,
+      47.2705266
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11690157769",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "turnhalle",
+    "description": "innenaufstellung",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "og1 / bzw eg ab sportplatz",
+    "operator": "gemeinde zurzach",
+    "id": "node/11690157769"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2935916,
+      47.5845551
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11690166569",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "turnhalle ",
+    "description": "während öffnungszeiten verfügbar / position in der turnhalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "eg",
+    "operator": "gemeinde",
+    "id": "node/11690166569"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4156565,
+      47.5691192
     ]
   }
 }

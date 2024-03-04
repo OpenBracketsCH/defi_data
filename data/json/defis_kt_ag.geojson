@@ -24248,6 +24248,74 @@
       47.3672777
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/11690090969",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Poststrasse 201",
+    "description": "Entsorgungsstelle Hasel",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "phone": "+41564188725",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11690090969"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3570766,
+      47.4277135
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11690157769",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "turnhalle",
+    "description": "innenaufstellung",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "og1 / bzw eg ab sportplatz",
+    "operator": "gemeinde zurzach",
+    "id": "node/11690157769"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2935916,
+      47.5845551
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11690166569",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "turnhalle ",
+    "description": "während öffnungszeiten verfügbar / position in der turnhalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "eg",
+    "operator": "gemeinde",
+    "id": "node/11690166569"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4156565,
+      47.5691192
+    ]
+  }
 }
 ]
 }
