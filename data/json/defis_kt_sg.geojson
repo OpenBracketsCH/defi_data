@@ -22490,7 +22490,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "EG",
+    "level": "0",
     "operator": "hepro production ag",
     "phone": "071 747 27 77",
     "id": "node/11259879638"
@@ -23896,6 +23896,31 @@
     "coordinates": [
       9.3028557,
       47.1192198
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11693345869",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Anmeldung",
+    "description": "während Bürozeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr  08:00-17:00",
+    "operator": "Firma",
+    "phone": "+41 (0)81 553 50 21",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11693345869"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5068109,
+      47.0146149
     ]
   }
 }
