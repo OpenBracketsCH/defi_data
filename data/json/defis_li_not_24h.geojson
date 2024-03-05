@@ -206,29 +206,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9004556012",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Einsatzfahrzeug",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00",
-    "operator": "Esther Kaufmann",
-    "phone": "+423 384 31 20",
-    "id": "node/9004556012"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.5127118,
-      47.0790215
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9004556013",
   "properties": {
     "defibrillator:location": "Pfarrkirche Eingang links an Wand",
@@ -246,6 +223,27 @@
     "coordinates": [
       9.5302078,
       47.1064055
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004556014",
+  "properties": {
+    "defibrillator:location": "LAK Haus, Sekretariat",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 09:00-18:00",
+    "operator": "Sekretariat",
+    "phone": "+423 399 15 00",
+    "id": "node/9004556014"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5253959,
+      47.1044959
     ]
   }
 },
@@ -682,29 +680,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9004557441",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Samariterauto",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00",
-    "operator": "Peter Saler",
-    "phone": "+423 230 08 08",
-    "id": "node/9004557441"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.5111534,
-      47.1472453
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9004557442",
   "properties": {
     "access": "yes",
@@ -721,29 +696,6 @@
     "coordinates": [
       9.5113304,
       47.147041
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9004557443",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "im TLF",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00",
-    "operator": "Jürgen Beck, Materialwart",
-    "phone": "+423 789 78 57",
-    "id": "node/9004557443"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.5110756,
-      47.146979
     ]
   }
 },
@@ -978,6 +930,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/9004557458",
+  "properties": {
+    "defibrillator:location": "LAK Haus in Cafeteria",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 09:00-18:00",
+    "operator": "Sekretariat",
+    "phone": "+423 236 47 47",
+    "id": "node/9004557458"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5080823,
+      47.1690001
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9004557459",
   "properties": {
     "access": "unknown",
@@ -1115,23 +1088,23 @@
 },
 {
   "type": "Feature",
-  "id": "node/9004557468",
+  "id": "node/9004557469",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Samariterverein im Fahrzeug",
-    "description": "Nur bei Sanitätseinsätzen verfügbar",
+    "access": "yes",
+    "defibrillator:location": "LAK Haus am Empfang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Gerhard Potetz",
-    "phone": "+423 373 37 09",
-    "id": "node/9004557468"
+    "opening_hours": "Mo-Su 09:00-18:00",
+    "operator": "Sekretariat",
+    "phone": "+423 377 46 00",
+    "id": "node/9004557469"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5240012,
-      47.2111747
+      9.5244518,
+      47.2114243
     ]
   }
 },
@@ -1200,6 +1173,27 @@
     "coordinates": [
       9.5282095,
       47.2072226
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557473",
+  "properties": {
+    "defibrillator:location": "Pförnerhaus Anmeldung Sicherheit",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 09:00-17:00",
+    "operator": "Sicherheitsbeauftragte Frau Sandra Konzet",
+    "phone": "+423 377 23 11",
+    "id": "node/9004557473"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5293897,
+      47.2080317
     ]
   }
 },
@@ -1405,28 +1399,6 @@
     "coordinates": [
       9.5252296,
       47.2394468
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9004557486",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Feuerwehrfahrzeug TLF",
-    "description": "nur über Notruf 24h erreichbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Jochen Matt, Gemeindepolizei",
-    "phone": "+423 377 49 28",
-    "id": "node/9004557486"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.5229819,
-      47.2435995
     ]
   }
 },
@@ -1984,30 +1956,6 @@
     "coordinates": [
       9.518718,
       47.1784395
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11372865969",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Feuerwehr TLF",
-    "description": "nur durch Alarmierung erreichbar ",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "Fahrzeug",
-    "opening_hours": "Mo-Fr 09:00-18:00",
-    "operator": "Feuerwehr Schaan",
-    "phone": "+4232377240",
-    "id": "node/11372865969"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.5196759,
-      47.1787677
     ]
   }
 },
