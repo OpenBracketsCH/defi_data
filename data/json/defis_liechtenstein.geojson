@@ -3223,6 +3223,51 @@
       47.1080699
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/11698448369",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Pförtnerhaus, Schloss-Sicherheit",
+    "description": "Beim Pförtner um Hilfe rufen. ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Schloss Vaduz",
+    "id": "node/11698448369"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5246114,
+      47.13898
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11698462269",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Realschule, Turnhalle",
+    "description": "Bei der Mensa, Eingangshalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "opening_hours": "Mo-Fr 7:00-18:00 ",
+    "operator": "Landesverwaltung",
+    "id": "node/11698462269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5257519,
+      47.1053826
+    ]
+  }
 }
 ]
 }
