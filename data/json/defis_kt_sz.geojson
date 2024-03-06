@@ -663,21 +663,23 @@
   "id": "node/6976909962",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Perron Gleis 2",
+    "defibrillator:location": "Vor dem Bahnhof, nähe Gleis 2",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Schweizerische Südostbahn",
     "phone": "+41 58 580 70 70",
+    "wheelchair": "limited",
     "id": "node/6976909962"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7226978,
-      47.1568595
+      8.7227292,
+      47.1567328
     ]
   }
 },
@@ -7044,23 +7046,6 @@
     "coordinates": [
       8.5534659,
       47.051596
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11586583469",
-  "properties": {
-    "defibrillator:location": "Vor dem Bahnhof, nähe Gleis 2",
-    "emergency": "defibrillator",
-    "indoor": "no",
-    "id": "node/11586583469"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.7227093,
-      47.1567061
     ]
   }
 },

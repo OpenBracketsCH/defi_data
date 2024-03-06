@@ -87326,12 +87326,15 @@
   "type": "Feature",
   "id": "node/9604725915",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Vermögenszentrum: Kundenempfang 2. OG",
+    "access": "customers",
+    "defibrillator:location": "Vermögenszentrum: Kundenempfang 1. OG",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "wheelchair": "limited",
     "id": "node/9604725915"
   },
   "geometry": {
@@ -167022,23 +167025,6 @@
     "coordinates": [
       6.1345249,
       46.1944007
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11586583469",
-  "properties": {
-    "defibrillator:location": "Vor dem Bahnhof, nähe Gleis 2",
-    "emergency": "defibrillator",
-    "indoor": "no",
-    "id": "node/11586583469"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.7227093,
-      47.1567061
     ]
   }
 },
