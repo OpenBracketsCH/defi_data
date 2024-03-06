@@ -48708,23 +48708,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8480125218",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/8480125218"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5525268,
-      47.409306
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8481817682",
   "properties": {
     "access": "yes",
@@ -169824,6 +169807,52 @@
     "coordinates": [
       7.431972,
       46.9517307
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11697120986",
+  "properties": {
+    "access": "customers",
+    "defibrillator:location": "Kassen Theater 11",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Theater 11 Zürich",
+    "phone": "+41 44 265 56 56",
+    "wheelchair": "limited",
+    "id": "node/11697120986"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5496224,
+      47.4106875
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11697243769",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "SBB Feuerwehr Intervention ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "opening_hours": "MO-MO 06:30- 17:30",
+    "operator": "SBB Feuerwehr Intervention ",
+    "phone": "+41792230934",
+    "id": "node/11697243769"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3631261,
+      47.4174757
     ]
   }
 }

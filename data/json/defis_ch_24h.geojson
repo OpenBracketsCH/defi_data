@@ -41557,6 +41557,28 @@
 },
 {
   "type": "Feature",
+  "id": "node/8480125218",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An der Wand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "wheelchair": "limited",
+    "id": "node/8480125218"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5525268,
+      47.409306
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8481826932",
   "properties": {
     "access": "yes",
@@ -110752,6 +110774,29 @@
     "coordinates": [
       9.5941444,
       46.9707541
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11697235069",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "SBB Feuerwehr Intervention ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3 OG",
+    "opening_hours": "24/7",
+    "operator": "SBB Feuerwehr Intervention ",
+    "phone": "+41792230934",
+    "id": "node/11697235069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3640079,
+      47.4182679
     ]
   }
 }
