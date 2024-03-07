@@ -76986,7 +76986,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Reiffeisenbank Müstair",
-    "description": "Neben Bankomat an der Wand",
+    "description": "Neben Bankomat an der Wand, unter dem Vordach.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -76996,8 +76996,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      10.4461329,
-      46.6262161
+      10.4460931,
+      46.6261859
     ]
   }
 },
@@ -169880,6 +169880,29 @@
     "coordinates": [
       8.5602438,
       47.4307076
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11700583869",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang Kirche, links",
+    "description": "Öffentlich zugänglich, immer verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Kath. Kirche Herrliberg, Rennweg 35, 8704 Herrliberg",
+    "phone": "+41 44 915 25 25",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11700583869"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6169344,
+      47.2854119
     ]
   }
 }
