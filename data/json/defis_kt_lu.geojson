@@ -502,8 +502,12 @@
   "type": "Feature",
   "id": "node/6983731020",
   "properties": {
+    "access": "öffentlich,_24/7",
+    "defibrillator:location": "neben Bancomat der LUKB",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde Oberkirch",
     "id": "node/6983731020"
   },
   "geometry": {
@@ -4848,10 +4852,14 @@
   "type": "Feature",
   "id": "node/7637818580",
   "properties": {
+    "access": "zugang_nur_während_den_betriebszeiten_der_schule_(mo_-_di_und_do_-fr_08.00_-_12.00_uhr,_13.00_-_18.00_uhr_und_mittwoch_08.00_-_12.00_uhr",
+    "defibrillator:location": "Im Schulhaus, beim Eingang zu den Sporthallen (links)",
     "description": "Turnhalle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Schulhaus Zentrum",
+    "operator": "Gemeinde Oberkirch",
     "id": "node/7637818580"
   },
   "geometry": {
