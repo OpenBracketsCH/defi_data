@@ -30582,7 +30582,7 @@
   "type": "Feature",
   "id": "node/7637818878",
   "properties": {
-    "access": "private",
+    "access": "yes",
     "defibrillator:location": "EG, im Speditionsbüro\n0455LTM",
     "description": "Gelber Koffer Empfang EG",
     "emergency": "defibrillator",
@@ -30590,6 +30590,7 @@
     "indoor": "yes",
     "level": "EG",
     "name": "Lifetec Hofstetter PCB AG",
+    "opening_hours": "Mo-Fr 00:00-00:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41800 122 144",
     "id": "node/7637818878"
@@ -169855,6 +169856,30 @@
     "coordinates": [
       8.0445349,
       47.3465652
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11699986770",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Polizeistation Glattbrugg",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2. OG",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Kantonspolizei Zürich",
+    "phone": "+41586486250",
+    "id": "node/11699986770"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5602438,
+      47.4307076
     ]
   }
 }

@@ -92577,12 +92577,13 @@
   "id": "node/10763310605",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "24h - Bereich Geldautomaten",
+    "defibrillator:location": "24h - Bereich Geldautomaten\n0294LM",
     "description": "oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "latitude": "47.36006",
+    "level": "EG",
     "longitude": "8.09728",
     "name": "Raiffeisenbank Aarau-Lenzburg Genossenschaft",
     "opening_hours": "24/7",
@@ -110893,6 +110894,30 @@
     "coordinates": [
       10.393795,
       46.9593314
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11699986869",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindehaus Auenstein, neben Eingang links",
+    "description": "Öffentlich zugänglicher Defibrillator beim Eingang des Gemeindehauses",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Auenstein",
+    "phone": "+41628970302",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11699986869"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1365508,
+      47.4161244
     ]
   }
 }
