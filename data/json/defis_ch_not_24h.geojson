@@ -169958,6 +169958,96 @@
       47.3890599
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/11703501173",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "A côté de l'ascenseur au rez",
+    "description": "Pendant la période scolaire",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "MO-FR 6:00-18:30",
+    "operator": "Ville de Morges - Collège Jacques Dubochet",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11703501173"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.4964283,
+      46.51181
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11703522071",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "SAS entrée à droite",
+    "description": "Accessible uniquement en présence de la Boxe ou des Trois P'tits Tours",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11703522071"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.4942718,
+      46.5060689
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11703526771",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sous le restaurant à l'infirmerie",
+    "description": "Selon horaires de la piscine, de mi-mai à mi-septembre",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Piscine du Parc des Sports",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11703526771"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.4923513,
+      46.5042338
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11703541052",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "EG Rechts neben Toilette\n1386LTM",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "name": "Ingenieurbureau A. Aegerter & Dr. O. Bosshardt AG",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/11703541052"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8481515,
+      47.5535606
+    ]
+  }
 }
 ]
 }
