@@ -15642,12 +15642,12 @@
   "type": "Feature",
   "id": "node/10554318109",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Eingang Turnhalle Schulhaus Badweiher ",
-    "description": "Während Öffnungszeiten verfügbar ",
+    "access": "yes",
+    "defibrillator:location": "Velounterstand, Eingang Schulhaus Badweiher",
+    "description": "24/7 Verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "operator": "Gemeinde Muri",
     "phone": "+41566755210",
     "source": "local_knowledge, defikarte.ch",
@@ -15656,8 +15656,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3365041,
-      47.2703264
+      8.3368887,
+      47.2704244
     ]
   }
 },
@@ -23418,12 +23418,13 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Eingangshalle",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "07:00-19:00",
-    "operator": "Wohn- und Pflegezentrum ",
+    "opening_hours": "24/7",
+    "operator": "Wohn- und Pflegezentrum",
     "phone": "+41618557800",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/11499816469"
@@ -23431,8 +23432,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.8525263,
-      47.5522556
+      7.8526655,
+      47.552423
     ]
   }
 },
