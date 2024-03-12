@@ -17795,7 +17795,7 @@
   "type": "Feature",
   "id": "node/6983731020",
   "properties": {
-    "access": "public;yes",
+    "access": "yes",
     "defibrillator:location": "neben Bancomat der LUKB",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -170321,6 +170321,31 @@
     "coordinates": [
       8.6813565,
       47.4190043
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11723311466",
+  "properties": {
+    "access": "permit",
+    "defibrillator:location": "EG, neben Werkstatt Büro in blauer Schrank\n\n0849LTM",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "name": "Emil Frey Altendorf",
+    "opening_hours": "Mo-Fr 08:00- 11:30 13:00-16:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/11723311466"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8497464,
+      47.1848141
     ]
   }
 }
