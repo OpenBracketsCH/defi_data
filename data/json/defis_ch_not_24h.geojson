@@ -26186,13 +26186,14 @@
   "type": "Feature",
   "id": "node/7637818580",
   "properties": {
-    "access": "Zugang nur während den Betriebszeiten der Schule (Mo, Di, Do, Fr 08.00 - 12.00 Uhr / 13.00 - 18.00 Uhr und Mi 08.00 - 12.00 Uhr",
+    "access": "customers",
     "defibrillator:location": "Im Schulhaus, beim Eingang zu den Sporthallen (links)",
     "description": "Turnhalle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "Schulhaus Zentrum",
+    "opening_hours": "Mo,Tu,Th,Fr 08:00-12:00, 13:00-18:00; We 08:00-12:00",
     "operator": "Gemeinde Oberkirch",
     "id": "node/7637818580"
   },
@@ -167684,14 +167685,14 @@
   "type": "Feature",
   "id": "node/11618571703",
   "properties": {
-    "access": "employees",
-    "defibrillator:location": "Eingang EG Werkstatt\nMO-FR 07:30-12:00 13:15-17:15",
+    "access": "private",
+    "defibrillator:location": "Eingang EG Werkstatt MO-FR 07:30-12:00 13:15-17:15",
     "description": "Oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "Auvoba AG",
-    "opening_hours": "MO-FR 07:30-12:00 13:15-17:15",
+    "opening_hours": "Mo-Fr 07:30-12:00, 13:15-17:15",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/11618571703"
@@ -170346,6 +170347,31 @@
     "coordinates": [
       8.8497464,
       47.1848141
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11724086169",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Bahnhofstrasse 8, 5080 Laufenburg",
+    "description": "während der Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "07:30-17:30",
+    "operator": "ERNE IT",
+    "phone": "+41 62 869 43 70",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11724086169"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0605316,
+      47.5597387
     ]
   }
 }

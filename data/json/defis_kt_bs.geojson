@@ -2414,6 +2414,79 @@
       47.5392095
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/11723225743",
+  "properties": {
+    "access": "permit",
+    "defibrillator:location": "Betriebsgebäude",
+    "description": "Blauer Foppa Rucksack\n\n\n1388 LTB",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "name": "ProRheno AG",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/11723225743"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6002196,
+      47.5818013
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11723369994",
+  "properties": {
+    "access": "permit",
+    "defibrillator:location": "Betriebsgebäude",
+    "description": "Blauer Foppa Rucksack\n\n1387 LTB",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "name": "ProRheno AG",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/11723369994"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6004643,
+      47.5817492
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11724214069",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Windfang Haupteingang Chrischonarain 135a",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Diakonissen Mutterhaus St. Chrischona",
+    "phone": "+41616066540",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11724214069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6794541,
+      47.571213
+    ]
+  }
 }
 ]
 }
