@@ -52573,28 +52573,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8868236817",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "pflegeheim werdenberg",
-    "description": "pflegepersonal mit ärzten",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "pflegeheim werdenberg",
-    "id": "node/8868236817"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.4533438,
-      47.1718748
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8870217496",
   "properties": {
     "access": "yes",
@@ -111184,6 +111162,55 @@
     "coordinates": [
       7.6475828,
       47.5272444
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11729985569",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Hotel Bergwelt Grindelwald",
+    "description": "während Hotel Öffnung verfügbar (24h Réception)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Swiss Design Collection AG",
+    "phone": "+41338548585",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11729985569"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0396426,
+      46.624246
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11730063969",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Tennisclub Herrliberg",
+    "description": "Beim Materialschopf",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "---",
+    "opening_hours": "24/7",
+    "operator": "TC Herrliberg",
+    "phone": "+41794202372",
+    "id": "node/11730063969"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6172028,
+      47.2914914
     ]
   }
 }
