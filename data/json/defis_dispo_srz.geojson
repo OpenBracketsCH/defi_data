@@ -9221,11 +9221,14 @@
   "type": "Feature",
   "id": "node/7717389327",
   "properties": {
-    "defibrillator:location": "in der Gemeindeverwaltung",
-    "description": "während Öffnungszeiten Gemeindeverwaltung verfügbar",
+    "access": "yes",
+    "defibrillator:location": "Vor dem Gemeindehaus",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Aesch",
     "id": "node/7717389327"
   },
   "geometry": {
