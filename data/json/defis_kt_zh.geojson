@@ -28008,15 +28008,16 @@
   "type": "Feature",
   "id": "node/9604725915",
   "properties": {
-    "access": "customers",
-    "defibrillator:location": "Vermögenszentrum: Kundenempfang 1. OG",
-    "description": "während Öffnungszeiten verfügbar",
+    "access": "private",
+    "defibrillator:location": "VZ Corporate Services AG \nEG Marketing / Innenhof Ausgang Bei Treppe zum Keller\n\n1266LTM",
+    "description": "Oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1",
+    "level": "EG",
     "opening_hours": "Mo-Fr 08:00-18:00",
-    "wheelchair": "limited",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
     "id": "node/9604725915"
   },
   "geometry": {
@@ -56725,6 +56726,222 @@
     "coordinates": [
       8.5407704,
       47.5193527
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11734149743",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "VZ Corporate Services AG\n1.OG Eingang links\n1270LTM",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1.OG",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "operator": "lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/11734149743"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5375811,
+      47.36679
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11734167168",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "VZ Corporate Services AG\nEG Post Eingang unter Treppe\n1267LTM",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/11734167168"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5372748,
+      47.3664613
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11734169453",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "VZ Corporate Services AG\n4.OG Eingang Links\n1268LTM",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "4. OG",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/11734169453"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5376296,
+      47.366837
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11734192662",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "VZ Corporate Services AG\n2. OG Eingang links\n1269LTM",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2. OG",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/11734192662"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5375471,
+      47.3668481
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11734218765",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "VZ Corporate Services AG\nGotthardstrasse 6\n3. OG Eingang Geradeaus",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3.OG",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/11734218765"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5370994,
+      47.3663199
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11734234983",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "VZ Corporate Services AG\nGotthardstrasse 6\n4.OG Eingang rechts\n1275LTM",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "4.OG",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/11734234983"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5371504,
+      47.3663199
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11734239597",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "VZ Corporate Services AG\n3.OG Nach Eingang rechts\n1271LTM",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3.OG",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/11734239597"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5366801,
+      47.3664666
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11734251171",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "VZ Corporate Services AG\n3.OG Eingang links",
+    "description": "Orager Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3.OG",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/11734251171"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5376578,
+      47.3668036
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11734257217",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "VZ Corporate Services AG\nGotthardstrasse 6\n1.OG Eingang rechts\n1273LTM",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1.OG",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/11734257217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5371852,
+      47.3664343
     ]
   }
 }
