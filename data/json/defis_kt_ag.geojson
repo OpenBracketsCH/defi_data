@@ -1408,9 +1408,11 @@
   "id": "node/7578919274",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Rechts vom Hintereingang",
+    "defibrillator:location": "Gemeindehaus, Winkelgasse 1, Schafisheim",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Schafisheim",
     "wheelchair": "yes",
@@ -24534,6 +24536,30 @@
     "coordinates": [
       8.1725043,
       47.2570784
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11733909169",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "arwo Stiftung",
+    "description": "Wärebd den Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "opening_hours": "07:30 - 17:00",
+    "operator": "Stiftung",
+    "phone": "+41564374848",
+    "id": "node/11733909169"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3311085,
+      47.4663713
     ]
   }
 }

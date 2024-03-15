@@ -108558,12 +108558,14 @@
   "id": "node/10167638017",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Feuerwehr Magazin, im Ersteinsatz-Fahrzeug",
-    "description": "Zugang nach Alarmierung Tel. 118",
+    "defibrillator:location": "Feuerwehr Magazin, im Ersteinsatz-Fahrzeug\nFeuerwehr Gemeinde Thusis\n1256LTS",
+    "description": "Zugang nach Alarmierung Tel. 118\nGrüner Kasten /  Koffer Orange",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Feuerwehr Gemeinde Thusis",
+    "name": "Gemeinde Thusis",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
     "id": "node/10167638017"
   },
   "geometry": {
@@ -170903,6 +170905,103 @@
     "coordinates": [
       8.5857997,
       47.358513
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11733894909",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Im Eingangsbereich (Vorraum) Turnhalle\n\n1252LTM",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "Gemeinde Thusis",
+    "opening_hours": "Während Schulzeit",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/11733894909"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.436819,
+      46.6951604
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11733909169",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "arwo Stiftung",
+    "description": "Wärebd den Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "opening_hours": "07:30 - 17:00",
+    "operator": "Stiftung",
+    "phone": "+41564374848",
+    "id": "node/11733909169"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3311085,
+      47.4663713
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11733915483",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Im Eingangsbereich, Turnhalle Dorf\n\n1253TM",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "Gemeinde Thusis",
+    "opening_hours": "Während der Schulzeit",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/11733915483"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.43741,
+      46.695741
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11733939695",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Erdgeschoss im Schulhaus ( von Sicht Parkplatz her linkes Gebäude)\n\n1254LTM",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "name": "Gemeinde Thusis",
+    "opening_hours": "Während der Schulzeit",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/11733939695"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4430981,
+      46.7002841
     ]
   }
 }
