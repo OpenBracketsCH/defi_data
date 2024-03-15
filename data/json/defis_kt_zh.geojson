@@ -32392,21 +32392,20 @@
   "id": "node/9945320180",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Büro Bademeister / Eingang Schwimmhalle",
+    "defibrillator:location": "Im Büro Schwimmhalle",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Su 08:00-19:00",
-    "operator": "Gemeinde Horgen",
+    "operator": "Gemeinde Oberrieden",
     "phone": "+41 79 193 58 08",
     "id": "node/9945320180"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.578155,
-      47.2742356
+      8.5766047,
+      47.2741501
     ]
   }
 },
@@ -56631,6 +56630,31 @@
     "coordinates": [
       8.5368919,
       47.3805208
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11733545769",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Grindelstrasse 40",
+    "description": "erreichbar während der Betriebszeiten, wenn durch den Haupteingang reinkommt nach links an der Wand (Betriebssanität 6112)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "06:00-19:00",
+    "operator": "Dyconex AG",
+    "phone": "+41 43 266 11 47",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11733545769"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6158454,
+      47.4439497
     ]
   }
 }
