@@ -107574,12 +107574,15 @@
   "id": "node/10120837517",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Conny Land seitlich Soft Ice Bude",
-    "description": "während Öffnungszeiten Park",
+    "defibrillator:location": "Conny Land seitlich Soft Ice Bude\n\n1251LTB",
+    "description": "Foppa Blauer Rucksack",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Conny Land",
+    "indoor": "yes",
+    "name": "Conny Land AG",
+    "opening_hours": "Während öffnugszeiten",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
     "id": "node/10120837517"
   },
   "geometry": {
@@ -170757,6 +170760,149 @@
     "coordinates": [
       9.4687579,
       47.4830034
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11733674141",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Durchgang zur Halle\n\n1250LTM",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "InterCheese AG",
+    "opening_hours": "Mo-Fr 06:15-11:30 13:15-17:30",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/11733674141"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2042109,
+      47.1990141
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11733701453",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Spedition\n\n1247LTM",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "Christinger AG",
+    "opening_hours": "Mo-Th 07:30-12:00 13:00-17:00 Fr 07:30-12:00 13:00-16:30",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/11733701453"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1812193,
+      47.4685093
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11733733569",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "St.Galler Kantonalbank AG",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "09:00-12:00, 14:00-17:30",
+    "operator": "St.Galler Kantonalbank AG",
+    "phone": "+41 71 231 39 41",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11733733569"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.6365225,
+      47.431063
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11733746509",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Werkhalle\n\n1248LTB",
+    "description": "FOPPA Blauer Rucksack",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "Kaltband AG",
+    "opening_hours": "Mo-Fr 07:30-11:45 13:15-17:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/11733746509"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1726232,
+      47.2571672
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11733758824",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Sanitätszimmer\n\n1249LTB",
+    "description": "Foppa Blauer Rucksack",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "Kaltband AG",
+    "opening_hours": "Mo-Fr 07:30-11:45 13:15-17:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/11733758824"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1725043,
+      47.2570784
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11733811269",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Vivo Training",
+    "description": "während den Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2. Stock",
+    "opening_hours": "07:30-19:00",
+    "operator": "Vivo Training",
+    "id": "node/11733811269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5857997,
+      47.358513
     ]
   }
 }
