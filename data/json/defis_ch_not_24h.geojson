@@ -4751,14 +4751,15 @@
   "id": "node/5858912417",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Sportanlage Mulets, Via Mulets 9",
-    "description": "beim Eingang UG (Sportplätze) an der Wand montiert",
+    "defibrillator:location": "Sportanlage Mulets, Via Mulets 9\nbeim Eingang UG (Sportplätze) an der Wand montiert\n1263LTM",
+    "description": "Oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "entrance": "yes",
     "indoor": "yes",
     "layer": "0",
-    "operator": "Gemeinde Silvaplana",
+    "name": "Gemeinde Silvaplana",
+    "operator": "lifetec AG Schweiz",
     "phone": "+41 81 838 70 80",
     "id": "node/5858912417"
   },
@@ -171002,6 +171003,31 @@
     "coordinates": [
       9.4430981,
       46.7002841
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11734024374",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Arztpraxis Dr. B. Senn und B. Atmeh, Bahnhofstrasse 3",
+    "description": "Während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 08:00 - 17:00",
+    "operator": "Arztpraxis ",
+    "phone": "+41448609999",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11734024374"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5407704,
+      47.5193527
     ]
   }
 }

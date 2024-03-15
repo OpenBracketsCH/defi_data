@@ -55492,12 +55492,12 @@
   "id": "node/11618720612",
   "properties": {
     "access": "customers",
-    "defibrillator:location": "EG Linke Seite bei Verkaufsladen",
-    "description": "oranger Koffer",
+    "defibrillator:location": "Mercedes Benz AG \nEG Linke Seite bei Verkaufsladen",
+    "description": "Oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "0",
+    "level": "eg",
     "name": "Mercedes-Benz Automobil AG",
     "opening_hours": "Mo-Fr 08:00-18:30 SA 09:00-17:00",
     "operator": "Lifetec AG Schweiz",
@@ -56700,6 +56700,31 @@
     "coordinates": [
       8.5857997,
       47.358513
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11734024374",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Arztpraxis Dr. B. Senn und B. Atmeh, Bahnhofstrasse 3",
+    "description": "Während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 08:00 - 17:00",
+    "operator": "Arztpraxis ",
+    "phone": "+41448609999",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11734024374"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5407704,
+      47.5193527
     ]
   }
 }
