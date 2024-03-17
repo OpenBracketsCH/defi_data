@@ -29126,6 +29126,64 @@
 },
 {
   "type": "Feature",
+  "id": "node/7667107718",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Hinwil",
+    "addr:housenumber": "1",
+    "addr:postcode": "8340",
+    "addr:street": "Badstrasse",
+    "contact:email": "defi@samariterhinwil.ch",
+    "defibrillator:location": "Schule Girenbad",
+    "description": "Öffentlich 24h zugänglich24/7",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "EG",
+    "opening_hours": "24/7",
+    "operator": "Schule Hinwil",
+    "phone": "+41 79 883 86 91",
+    "id": "node/7667107718"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8722307,
+      47.3096936
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7667107719",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Hinwil",
+    "addr:housenumber": "39",
+    "addr:postcode": "8340",
+    "addr:street": "Ringwilerstrasse",
+    "contact:email": "defi@samariterhinwil.ch",
+    "contact:phone": "+41 79 883 86 91",
+    "defibrillator:location": "Schule Ringwil",
+    "description": "Öffentlich 24h zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Schule Hinwil",
+    "id": "node/7667107719"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.855051,
+      47.3145587
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/7667107720",
   "properties": {
     "access": "yes",
@@ -90536,13 +90594,16 @@
   "type": "Feature",
   "id": "node/10748021683",
   "properties": {
+    "access": "yes",
     "contact:email": "defi@samariterhinwil.ch",
-    "defibrillator:location": "Schulhaus beim Eingang",
+    "defibrillator:location": "Schulhaus beim Eingang TURNHALLE",
     "description": "Öffentlich 24h zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
+    "phone": "+41 76 398 23 22",
     "id": "node/10748021683"
   },
   "geometry": {

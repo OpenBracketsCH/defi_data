@@ -3877,10 +3877,12 @@
     "addr:street": "Badstrasse",
     "contact:email": "defi@samariterhinwil.ch",
     "defibrillator:location": "Schule Girenbad",
-    "description": "24/7",
+    "description": "Öffentlich 24h zugänglich24/7",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "EG",
+    "opening_hours": "24/7",
     "operator": "Schule Hinwil",
     "phone": "+41 79 883 86 91",
     "id": "node/7667107718"
@@ -3902,21 +3904,23 @@
     "addr:housenumber": "39",
     "addr:postcode": "8340",
     "addr:street": "Ringwilerstrasse",
+    "contact:email": "defi@samariterhinwil.ch",
     "contact:phone": "+41 79 883 86 91",
     "defibrillator:location": "Schule Ringwil",
-    "description": "24/7",
+    "description": "Öffentlich 24h zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
     "operator": "Schule Hinwil",
-    "phone": "+41798838691",
     "id": "node/7667107719"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8549979,
-      47.3144981
+      8.855051,
+      47.3145587
     ]
   }
 },
@@ -39983,13 +39987,16 @@
   "type": "Feature",
   "id": "node/10748021683",
   "properties": {
+    "access": "yes",
     "contact:email": "defi@samariterhinwil.ch",
-    "defibrillator:location": "Schulhaus beim Eingang",
+    "defibrillator:location": "Schulhaus beim Eingang TURNHALLE",
     "description": "Öffentlich 24h zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
+    "phone": "+41 76 398 23 22",
     "id": "node/10748021683"
   },
   "geometry": {
@@ -54875,30 +54882,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11564655869",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Bahnhofpaltz Nr 4",
-    "description": "Öffentlich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "operator": "Gemeinde Hinwil ",
-    "phone": "+41 76 398 23 22 ",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/11564655869"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.8405609,
-      47.3057751
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11573102971",
   "properties": {
     "access": "no",
@@ -57025,6 +57008,29 @@
     "coordinates": [
       8.5381413,
       47.3659412
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11739621670",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Gasthof Hirschen im Saal",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Hinwil",
+    "phone": "+41 76 398 23 22",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11739621670"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8435901,
+      47.3025468
     ]
   }
 }
