@@ -9124,8 +9124,8 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
-    "operator": "Café Füürio",
-    "phone": "+41 79 285 81 48",
+    "operator": "Gemeinde Hindelbank",
+    "phone": "+41 34 420 20 60",
     "id": "node/6636632387"
   },
   "geometry": {
@@ -9133,6 +9133,33 @@
     "coordinates": [
       7.5404185,
       47.0441199
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/6636632388",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Hindelbank",
+    "addr:housenumber": "7",
+    "addr:postcode": "3324",
+    "addr:street": "Münchringenstrasse",
+    "defibrillator:location": "Beim Feuerwehrmagazin",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Hindelbank",
+    "phone": "+41 34 420 20 60",
+    "id": "node/6636632388"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5377716,
+      47.0459964
     ]
   }
 },
@@ -9251,8 +9278,8 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
-    "operator": "Oberstufenzentrum Turnhalle Hindelbank",
-    "phone": "+41 34 411 27 63",
+    "operator": "Gemeinde Hindelbank",
+    "phone": "+41 34 420 20 60",
     "id": "node/6636632398"
   },
   "geometry": {
@@ -111284,8 +111311,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6475828,
-      47.5272444
+      7.647615,
+      47.5277371
     ]
   }
 },
@@ -111539,6 +111566,29 @@
     "coordinates": [
       7.702287,
       47.516103
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11740475069",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulverwaltung ",
+    "description": "Beim Eingang ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Urdorf",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11740475069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4240782,
+      47.387066
     ]
   }
 }

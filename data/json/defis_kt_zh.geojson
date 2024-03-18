@@ -56343,7 +56343,7 @@
   "id": "node/11703379269",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Kindergarten Neumatt ",
+    "defibrillator:location": "Kindergarten Neumatt",
     "description": "7/24h",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -56355,8 +56355,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4212941,
-      47.3890599
+      8.4212965,
+      47.3891154
     ]
   }
 },
@@ -57031,6 +57031,29 @@
     "coordinates": [
       8.8435901,
       47.3025468
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11740475069",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulverwaltung ",
+    "description": "Beim Eingang ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Urdorf",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11740475069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4240782,
+      47.387066
     ]
   }
 }
