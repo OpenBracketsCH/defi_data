@@ -73852,50 +73852,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9207309542",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Aussenwand Hafenmeistergebäude",
-    "description": "Ganzjährig",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Stadt Romanshorn",
-    "phone": "+41 58 346 83 83",
-    "id": "node/9207309542"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.3841307,
-      47.5683908
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9207309543",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Aussenwand Verwaltungsgebäude Seebad",
-    "description": "Ganzjährig bei Badebetrieb",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Stadt Romanshorn",
-    "phone": "+41 58 346 83 83",
-    "id": "node/9207309543"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.3762195,
-      47.5727149
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9207309545",
   "properties": {
     "access": "no",
@@ -171012,7 +170968,7 @@
   "id": "node/11734218765",
   "properties": {
     "access": "private",
-    "defibrillator:location": "VZ Corporate Services AG\nGotthardstrasse 6\n3. OG Eingang Geradeaus",
+    "defibrillator:location": "VZ Corporate Services AG\nGotthardstrasse 6\n3. OG Eingang Geradeaus\n1274LTM",
     "description": "Oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -171398,6 +171354,174 @@
     "coordinates": [
       7.7241611,
       47.5359969
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11740595799",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "VZ Corporate Services\nGotthardstrasse 6 8002 ZH\n6.OG Zwischenraum (Glastüre, Schulungsraum)\n1277LTM",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "6.OG",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/11740595799"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5371223,
+      47.3664305
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11740623614",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "VZ Corporate Services\nClaridenstrasse 19 8002 ZH\n6.OG Eingang rechts\n1278 LTM",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "6.OG",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/11740623614"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5376664,
+      47.366754
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11740633987",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "VZ Corporate Services\nBethovenstrasse 20 8002 ZH\n1.OG Kaffeteria Eingang Links\n1279LTM",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1.OG",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/11740633987"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5367395,
+      47.3664318
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11740637060",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "VZ Corporate Services\nClaridenstrasse 19 8002 ZH\nIm EG unter Treppe neben Feuerwehrschlauch\n1281LTM",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/11740637060"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5375422,
+      47.3667008
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11740653246",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aregger Elektro AG\nGrisigenstrasse 12 6048 Horw\nNach Eingang links neben Treppe\n1284LTM",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "opening_hours": "Mo-Fr 07:00-17:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/11740653246"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3025102,
+      47.0155765
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11740654337",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "VZ Corporate Services\nGotthardstrasse 6 8002 ZH\n2.OG bei Empfangsthecke\n1283LTM",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2 OG",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/11740654337"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5370835,
+      47.3664131
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11740679545",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Nauta SA, Internationale Transporte, Rhein- und Seeschifffahrt\nGrüssenhöliweg 3 4133 Pratteln\n2.OG bei Eingang\n1287LTM",
+    "description": "Gelber Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2.OG",
+    "opening_hours": "Mo-Fr 08:00-12:00 13:30-17:30",
+    "operator": "Lifeteec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/11740679545"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6925316,
+      47.5269028
     ]
   }
 }
