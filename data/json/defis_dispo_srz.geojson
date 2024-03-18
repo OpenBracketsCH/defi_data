@@ -59951,7 +59951,7 @@
   "id": "node/10763310095",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Grossraumbüro",
+    "defibrillator:location": "Cadillac Europe GmbH\nBoulevard Lilienthal 6\nGrossraumbüro\n1292LTM",
     "description": "gelber Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -59959,6 +59959,7 @@
     "latitude": "47.42488",
     "longitude": "8.56231",
     "name": "Cadillac Europe GmbH",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/10763310095"
@@ -74725,6 +74726,30 @@
     "coordinates": [
       8.5370835,
       47.3664131
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11741276271",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "CSS Versicherung AG\nSeidenstrasse 4 8853 Lachen\nHinter Theke Empfang / Durchgang zu Büros\n1291 LTM",
+    "description": "Schwarzer Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "opening_hours": "Mo,Tu,Th 08:30–12:00, 13:30–17:00, We 08:30–12:00, Fr 13:30–16:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/11741276271"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.85414,
+      47.1918423
     ]
   }
 }

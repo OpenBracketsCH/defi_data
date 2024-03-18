@@ -82379,12 +82379,14 @@
   "id": "node/9465672761",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Im Schulhaus beim Eingang. Zugänglich für jedermann. Jedoch nur während Schulbetrieb und an Abenden, wenn Vereine vor Ort sind.",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Gemeinde Lantsch/Lenz GR Schulhaus.\nIm Schulhaus beim Eingang. Zugänglich für jedermann. Jedoch nur während Schulbetrieb und an Abenden, wenn Vereine vor Ort sind. Schulhaus, Aussenfassade\n1289LTS",
+    "description": "Grüner Kasten /  Koffer Orange",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Gemeinde Lantsch/Lenz, Werke",
+    "level": "EG",
+    "opening_hours": "Während Schulbetrieb und an Abenden, wenn Vereine vor Ort sind",
+    "operator": "Lifetec AG Schweiz",
     "phone": "+41 81 659 01 04",
     "id": "node/9465672761"
   },
@@ -129904,7 +129906,7 @@
   "id": "node/10763310095",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Grossraumbüro",
+    "defibrillator:location": "Cadillac Europe GmbH\nBoulevard Lilienthal 6\nGrossraumbüro\n1292LTM",
     "description": "gelber Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -129912,6 +129914,7 @@
     "latitude": "47.42488",
     "longitude": "8.56231",
     "name": "Cadillac Europe GmbH",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/10763310095"
@@ -166395,27 +166398,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11565371369",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Ara Laupen",
-    "description": "Direkt im Zaun, immer zugänglich ",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "gemeinde",
-    "id": "node/11565371369"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.2403057,
-      46.9176909
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11569307369",
   "properties": {
     "access": "no",
@@ -171522,6 +171504,30 @@
     "coordinates": [
       7.6925316,
       47.5269028
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11741276271",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "CSS Versicherung AG\nSeidenstrasse 4 8853 Lachen\nHinter Theke Empfang / Durchgang zu Büros\n1291 LTM",
+    "description": "Schwarzer Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "opening_hours": "Mo,Tu,Th 08:30–12:00, 13:30–17:00, We 08:30–12:00, Fr 13:30–16:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/11741276271"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.85414,
+      47.1918423
     ]
   }
 }
