@@ -20429,15 +20429,23 @@
   "id": "node/8514493947",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "aussen, neben Eingagnstüre",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Regensberg",
+    "phone": "+41 44 853 12 00",
+    "source": "local_knowledge, defikarte.ch",
+    "wheelchair": "no",
     "id": "node/8514493947"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4361445,
-      47.4822036
+      8.4361407,
+      47.4822024
     ]
   }
 },
@@ -66971,31 +66979,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11165708505",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Gemeindeverwaltung, Unterburg 32, 8158 Regensberg",
-    "description": "aussen, neben Eingagnstüre, Verfügbarkeit immer",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde",
-    "phone": "+41 44 853 12 00",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/11165708505"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4361643,
-      47.4822094
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11165833428",
   "properties": {
     "access": "yes",
@@ -74863,6 +74846,29 @@
     "coordinates": [
       8.4324445,
       47.3983509
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11745179394",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Schulpflege Horgen\nEinsiedlerstrasse 26\nBeim Lehrerzimmer / Abstellraum\n1314LTM",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "opening_hours": "Während Schulbetrieb",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/11745179394"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5835728,
+      47.267189
     ]
   }
 }

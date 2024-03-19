@@ -34971,13 +34971,14 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "wheelchair": "limited",
     "id": "node/7997198486"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2814149,
-      47.0327843
+      8.2814327,
+      47.0327923
     ]
   }
 },
@@ -42218,6 +42219,31 @@
     "coordinates": [
       8.4570237,
       47.1959097
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8514493947",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "aussen, neben Eingagnstüre",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Regensberg",
+    "phone": "+41 44 853 12 00",
+    "source": "local_knowledge, defikarte.ch",
+    "wheelchair": "no",
+    "id": "node/8514493947"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4361407,
+      47.4822024
     ]
   }
 },
@@ -88580,6 +88606,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/10654297606",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An der Wand der Pauluskirche",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Katholische Kirchgemeinde Luzern",
+    "phone": "+41 79 733 38 48",
+    "wheelchair": "limited",
+    "id": "node/10654297606"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3032802,
+      47.0417607
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10655107905",
   "properties": {
     "access": "yes",
@@ -101320,31 +101370,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11165708505",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Gemeindeverwaltung, Unterburg 32, 8158 Regensberg",
-    "description": "aussen, neben Eingagnstüre, Verfügbarkeit immer",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde",
-    "phone": "+41 44 853 12 00",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/11165708505"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4361643,
-      47.4822094
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11169592337",
   "properties": {
     "access": "yes",
@@ -106262,14 +106287,15 @@
   "id": "node/11402911372",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Raiffeisenbank Glarnerland ",
-    "description": "Lifetec One Notfallkoffer\n\nhttps://www.glarus24.ch/artikel/raiffeisenbank-glarnerland-installiert-erste-hilfe-koffer-2439517\n",
+    "defibrillator:location": "Raiffeisenbank Glarnerland\nIm Dorf 4\nEingangsbereich bei Bancomat\n1313LTM",
+    "description": "Oranger Koffer\nLifetec One Notfallkoffer\n\nhttps://www.glarus24.ch/artikel/raiffeisenbank-glarnerland-installiert-erste-hilfe-koffer-2439517",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "EG",
     "opening_hours": "24/7",
-    "operator": "Raiffeisenbank Glarnerland ",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
     "id": "node/11402911372"
   },
   "geometry": {

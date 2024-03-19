@@ -49074,23 +49074,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8514493947",
-  "properties": {
-    "access": "yes",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/8514493947"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4361445,
-      47.4822036
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8520333804",
   "properties": {
     "defibrillator:location": "Im Eingangsbereich Zugorama",
@@ -120453,29 +120436,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10654297606",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Moosmattstrasse 4",
-    "description": "Immer zugänglich!",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "operator": "Katholische Kirchgemeinde Luzern",
-    "phone": "+41797333848",
-    "id": "node/10654297606"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.3033859,
-      47.0417275
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10657140305",
   "properties": {
     "access": "no",
@@ -172033,6 +171993,98 @@
     "coordinates": [
       7.4992204,
       47.212554
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11745119959",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Swissprinters AG\nBrühlstrasse 5\nHauptgebäude Haupteingang\n1308LTM",
+    "description": "Gelber Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00–17:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/11745119959"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9427141,
+      47.2871909
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11745141206",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Swissprinters AG\nBrühlstrasse 5\nPorte Swissprinters\n\n1310LTB",
+    "description": "FOPPA blauer Rucksack",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00–17:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/11745141206"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9427524,
+      47.2870658
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11745143639",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Swissprinters AG\nBrühlstrasse 5\n1309LTM\nPostgebäude Treppenhaus Nord, Direkt neben Haupteingang",
+    "description": "Gelber Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00–17:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/11745143639"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9426037,
+      47.2872651
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11745179394",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Schulpflege Horgen\nEinsiedlerstrasse 26\nBeim Lehrerzimmer / Abstellraum\n1314LTM",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "opening_hours": "Während Schulbetrieb",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/11745179394"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5835728,
+      47.267189
     ]
   }
 }
