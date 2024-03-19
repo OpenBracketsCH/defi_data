@@ -83829,6 +83829,7 @@
     "defibrillator:location": "sur la facade du bloc sanitaires",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "survey:date": "2022-02-15",
     "id": "node/9509027159"
   },
@@ -171937,6 +171938,53 @@
     "coordinates": [
       7.4894679,
       47.210721
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11743470269",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingangsbereich links, oranger Koffer",
+    "description": "während Büroöffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "operator": "Stadtwerke Gossau",
+    "phone": "+41797729162",
+    "id": "node/11743470269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2418505,
+      47.4228373
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11743535169",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Hegenheimermattweg 167a",
+    "description": "Vor Postbüro",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "opening_hours": "Mo - Fr 07:00 - 17:00",
+    "operator": "ISS Facility Services AG",
+    "phone": "+41792587472",
+    "id": "node/11743535169"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5515616,
+      47.5605774
     ]
   }
 }
