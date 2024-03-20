@@ -49770,18 +49770,19 @@
   "id": "node/8550783974",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Beim Portier melden",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Halle E",
+    "description": "Mo-Fr 08:00-17:00",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "operator": "Griesser AG",
     "id": "node/8550783974"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.9049421,
-      47.4856785
+      8.9052962,
+      47.4853504
     ]
   }
 },
@@ -117139,7 +117140,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 07:00-17:00",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Griesser AG",
     "id": "node/10563420109"
   },
@@ -162507,11 +162508,12 @@
   "id": "node/11403674670",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schlierenberg 22",
+    "defibrillator:location": "Baugenossenschaft Halde Zürich\nSchlierenberg 22\nAn Fassade vor Hauseingängen\n1344LTS",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "operator": "?",
+    "operator": "Lifetec Ag Schweiz",
+    "phone": "+41 800 122 144",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/11403674670"
   },
@@ -169765,12 +169767,13 @@
   "id": "node/11703870771",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Neben Einfahrt Tiefgarage",
-    "description": "immer verfügbar",
+    "defibrillator:location": "Baugenossenschaft Halde Zürich\nNeben Einfahrt Tiefgarage\n1339LTS",
+    "description": "Grüner Kasten /  Koffer Orange",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "operator": "Baugenossenschaft Halde Zürich",
+    "opening_hours": "immer verfügbar",
+    "operator": "Lifetec AG Schweiz",
     "phone": "+41444342040",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/11703870771"
@@ -172369,6 +172372,29 @@
     "coordinates": [
       7.7313226,
       47.540397
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11748154070",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Halle A (Ausbildungszentrum)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Griesser AG",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11748154070"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9053738,
+      47.4866575
     ]
   }
 }

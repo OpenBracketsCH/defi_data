@@ -1949,18 +1949,19 @@
   "id": "node/8550783974",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Beim Portier melden",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Halle E",
+    "description": "Mo-Fr 08:00-17:00",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "operator": "Griesser AG",
     "id": "node/8550783974"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.9049421,
-      47.4856785
+      8.9052962,
+      47.4853504
     ]
   }
 },
@@ -11167,7 +11168,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 07:00-17:00",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Griesser AG",
     "id": "node/10563420109"
   },
@@ -14160,6 +14161,29 @@
     "coordinates": [
       9.0735229,
       47.5920989
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11748154070",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Halle A (Ausbildungszentrum)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Griesser AG",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11748154070"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9053738,
+      47.4866575
     ]
   }
 }
