@@ -92728,32 +92728,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10763310608",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Bein Beinstrecker neben Fenster",
-    "description": "oranger Koffer",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "latitude": "47.34639",
-    "longitude": "8.24928",
-    "name": "yesy's House of Power GmbH",
-    "opening_hours": "24/7",
-    "operator": "Lifetec AG Schweiz",
-    "phone": "+41 800 122 144",
-    "id": "node/10763310608"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.24928,
-      47.34639
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10763310634",
   "properties": {
     "access": "yes",
@@ -111891,6 +111865,53 @@
     "coordinates": [
       8.5903753,
       47.3081754
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11750021069",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Zugerbergstrasse 3c",
+    "description": "AED Immer Verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Schulen St. Michael Zug AG",
+    "phone": "+41417271210",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11750021069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5185242,
+      47.1617075
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11750063069",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Restaurant Rose Obere Mühle Villmergen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Obere Mühle Villmergen",
+    "phone": "+41 56 616 78 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11750063069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2438338,
+      47.3386228
     ]
   }
 }

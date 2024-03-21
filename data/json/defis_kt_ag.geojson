@@ -18426,15 +18426,15 @@
   "id": "node/10763310608",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bein Beinstrecker neben Fenster",
+    "defibrillator:location": "Jay’s House of Power GmbH\nBeim Beinstrecker neben Fenster\nAlte Bahnhofstrasse 27\n0328LTM",
     "description": "oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "latitude": "47.34639",
     "longitude": "8.24928",
-    "name": "yesy's House of Power GmbH",
-    "opening_hours": "24/7",
+    "name": "Jay’s House of Power GmbH",
+    "opening_hours": "MO, DI, DO, FR 09:00 – 13:00 / 16.00 – 20.00 MI 16:00 – 20:00 SA, SO 10:00 – 13:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/10763310608"
@@ -24678,6 +24678,29 @@
     "coordinates": [
       7.7313226,
       47.540397
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11750063069",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Restaurant Rose Obere Mühle Villmergen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Obere Mühle Villmergen",
+    "phone": "+41 56 616 78 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11750063069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2438338,
+      47.3386228
     ]
   }
 }

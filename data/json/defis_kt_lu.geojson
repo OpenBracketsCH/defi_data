@@ -17194,29 +17194,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10314886747",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Gewerbering 20, beim Empfang",
-    "description": "während Büroöffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "name": "Aregger AG",
-    "operator": "Aregger AG",
-    "phone": "+41 41 929 50 50",
-    "id": "node/10314886747"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.0752176,
-      47.1120221
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10570530609",
   "properties": {
     "access": "no",
@@ -17906,7 +17883,7 @@
   "id": "node/10763310320",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Im UG, Treppenhaus bei Empfang",
+    "defibrillator:location": "Aregger AG Bauunternehmung\nIm UG, Treppenhaus bei Empfang\nGewerbering 20\n0362LTM",
     "description": "oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -18263,7 +18240,7 @@
   "id": "node/10763310334",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Eingang Werkhof / Werkstatt",
+    "defibrillator:location": "Aregger AG Bauunternehmung\nEingang Werkhof / Werkstatt\n0757LTM",
     "description": "oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -20544,6 +20521,48 @@
     "coordinates": [
       8.3429142,
       47.1200954
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11750045658",
+  "properties": {
+    "defibrillator:location": "Bucher + Partner Treuhand GmbH\nInseliquai 8,",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/11750045658"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3134951,
+      47.0493036
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11750045659",
+  "properties": {
+    "defibrillator:location": "Bucher + Partner Treuhand GmbH\nInseliquai 10",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/11750045659"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3136613,
+      47.049113
     ]
   }
 }
