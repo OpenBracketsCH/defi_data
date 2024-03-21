@@ -111062,6 +111062,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/11703379269",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kindergarten Neumatt",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Urdorf",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11703379269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4212965,
+      47.3891154
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/11703594069",
   "properties": {
     "access": "yes",
@@ -111846,6 +111869,28 @@
     "coordinates": [
       8.1844105,
       46.7278448
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11749803569",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Feuerwehrlokal Herbriggen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde St. Niklaus",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11749803569"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7931529,
+      46.1371141
     ]
   }
 }
