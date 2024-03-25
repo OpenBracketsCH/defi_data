@@ -87406,15 +87406,17 @@
   "type": "Feature",
   "id": "node/9604790439",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Aussentreppe grosses Schild VZ VermögensZentrum In der Küche",
+    "access": "private",
+    "defibrillator:location": "VZ VermögensZentrum \nIn der Küche\n1396 LTM",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-17:00",
-    "operator": "VZ VermögensZentrum Meilen",
-    "phone": "+41 43 430 00 00",
+    "level": "1.og",
+    "name": "VZ VermögensZentrum Meilen",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 0800 122 144",
     "id": "node/9604790439"
   },
   "geometry": {
@@ -172773,6 +172775,98 @@
     "coordinates": [
       9.1628659,
       47.27722
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11760343269",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gefrierhaus, Wintersberg beim Abzweiger Ämelsberg",
+    "description": "Im Unterstand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde",
+    "phone": "+41719926435",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11760343269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1664225,
+      47.2645057
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11760350569",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Trafostation, Dicken, grosser Parkplatz",
+    "description": "An Fassade",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde",
+    "phone": "+41719926435",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11760350569"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1144305,
+      47.2507798
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11760355569",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hofladen, Schorüti",
+    "description": "An Fassade",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde",
+    "phone": "+41719926435",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11760355569"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1368806,
+      47.2448696
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11760364369",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindehaus, Haupteingang",
+    "description": "An Fassade",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde",
+    "phone": "+41719926435",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11760364369"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1266024,
+      47.2603301
     ]
   }
 }
