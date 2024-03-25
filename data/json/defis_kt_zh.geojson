@@ -28002,6 +28002,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "2",
+    "name": "Vermögenszentrum",
     "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
@@ -28111,7 +28112,7 @@
   "properties": {
     "access": "private",
     "defibrillator:location": "VZ VermögensZentrum \nIn der Küche\n1396 LTM",
-    "description": "während Öffnungszeiten verfügbar",
+    "description": "Oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -57549,6 +57550,28 @@
     "coordinates": [
       8.7086436,
       47.3574041
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11760942869",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Ohrbühlstrasse 65, beim Haupteingang",
+    "description": "während den Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "operator": "Vivale",
+    "id": "node/11760942869"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7688071,
+      47.5024812
     ]
   }
 }
