@@ -4797,18 +4797,20 @@
   "id": "node/7819540961",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Turnhalle",
-    "description": "während Schulbetrieb verfügbar",
+    "defibrillator:location": "links neben Eingang zur Turnhalle",
+    "description": "Öffentlich zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Richterswil",
     "id": "node/7819540961"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6774519,
-      47.1925942
+      8.6774078,
+      47.1926918
     ]
   }
 },
@@ -4946,19 +4948,19 @@
   "id": "node/7819540968",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Haupteingang zum Hallenbad",
-    "description": "während Schulbetrieb verfügbar",
+    "defibrillator:location": "links neben Haupteingang Schulhaus Feld 1",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Richterswil",
     "id": "node/7819540968"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6898001,
-      47.2082719
+      8.6901974,
+      47.2082692
     ]
   }
 },
@@ -39473,22 +39475,21 @@
   "type": "Feature",
   "id": "node/10725468706",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Medizinisches Zentrum Chrummbächli",
-    "description": "im Erdgeschoss",
+    "access": "yes",
+    "defibrillator:location": "links neben Haupteingang",
+    "description": "Öffentlich zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-18:00",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Medizinisches Zentrum Chrummbächli",
-    "source": "local_knowledge, defikarte.ch",
     "id": "node/10725468706"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6972612,
-      47.2056883
+      8.6973658,
+      47.2057958
     ]
   }
 },
@@ -57572,6 +57573,27 @@
     "coordinates": [
       8.7688071,
       47.5024812
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11761009203",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "links neben Haupteingang",
+    "description": "Öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Richterswil",
+    "id": "node/11761009203"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6999876,
+      47.2089603
     ]
   }
 }
