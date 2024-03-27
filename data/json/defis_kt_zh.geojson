@@ -15,6 +15,7 @@
     "building": "yes",
     "check_date": "2023-10-08",
     "emergency": "defibrillator",
+    "healthcare": "pharmacy",
     "name": "Apotheke Zollikon",
     "opening_hours": "Mo-Fr 08:00-12:30, 13:30-18:30, Sa 08:00-16:00",
     "website": "https://www.apotheke-zollikon.ch/",
@@ -26,24 +27,48 @@
     "coordinates": [
       [
         [
-          8.5775361,
-          47.340917
+          8.5775385,
+          47.3409189
         ],
         [
-          8.5776361,
-          47.3409349
+          8.5775454,
+          47.3409204
         ],
         [
-          8.5775846,
-          47.3410668
+          8.5775557,
+          47.3408967
         ],
         [
-          8.5774846,
-          47.3410488
+          8.5776432,
+          47.3409137
         ],
         [
-          8.5775361,
-          47.340917
+          8.5776308,
+          47.3409386
+        ],
+        [
+          8.5776773,
+          47.3409485
+        ],
+        [
+          8.5776514,
+          47.3410053
+        ],
+        [
+          8.5776814,
+          47.3410511
+        ],
+        [
+          8.5776033,
+          47.3410769
+        ],
+        [
+          8.5774832,
+          47.3410533
+        ],
+        [
+          8.5775385,
+          47.3409189
         ]
       ]
     ]
@@ -57677,6 +57702,29 @@
     "coordinates": [
       8.5853295,
       47.4496813
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11765997369",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Kirche Herrliber",
+    "description": "Während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Evang.-ref. Kirchgemeinde Herrliberg",
+    "phone": "+41 44 915 15 57",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11765997369"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6104113,
+      47.2844076
     ]
   }
 }
