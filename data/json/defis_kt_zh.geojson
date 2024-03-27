@@ -5999,10 +5999,11 @@
   "id": "node/7853369115",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bei Gemeindeverwaltung",
+    "defibrillator:location": "Bei Gemeindeverwaltung\nTreppenhaus - für alle im Gebäude zugänglich",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "id": "node/7853369115"
   },
   "geometry": {
@@ -57617,6 +57618,65 @@
     "coordinates": [
       8.706092,
       47.2065401
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11765520809",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Treppenhaus 1.OG Zwischengeschoss - für alle Mieter zugänglich",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "1",
+    "operator": "Gossweiler Ingenieure AG",
+    "id": "node/11765520809"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6892189,
+      47.4311174
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11765539647",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "EG bei Eingang rechts hinter Empfangstheke - beschränkt zugänglich",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "opening_hours": "08.00 - 12.00 und 13.15 - 17.00 Uhr",
+    "operator": "Gossweiler Ingenieure AG",
+    "id": "node/11765539647"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7973369,
+      47.3223186
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11765570957",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "im Gebäude EG - EG Korridor nach Cafeteria links an der Wand - beschränkt zugänglich",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "Gossweiler Ingenieure AG",
+    "id": "node/11765570957"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5853295,
+      47.4496813
     ]
   }
 }
