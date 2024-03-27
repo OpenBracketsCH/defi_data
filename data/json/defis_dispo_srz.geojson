@@ -50701,28 +50701,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10537120909",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Sood52, Eingangshalle",
-    "description": "nur während Bürozeiten",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/10537120909"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5222308,
-      47.3202578
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10537274009",
   "properties": {
     "access": "yes",
@@ -59818,7 +59796,7 @@
   "id": "node/10763310091",
   "properties": {
     "access": "no",
-    "defibrillator:location": "2.OG, Eingang",
+    "defibrillator:location": "Docu Media Schweiz GmbH\n2.OG, Eingang\n0737LTM",
     "description": "oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -75445,6 +75423,52 @@
     "coordinates": [
       8.6104113,
       47.2844076
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11766129969",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Kirche Herrliberg",
+    "description": "Während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "09:00-17:00",
+    "operator": "Evang.-ref. Kirchgemeinde Herrliberg",
+    "phone": "+41 44 915 15 57",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11766129969"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6104596,
+      47.2843748
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11766132261",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Einganshalle Sood 52",
+    "description": "Während Öffnungszeiten.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11766132261"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5222378,
+      47.3201924
     ]
   }
 }
