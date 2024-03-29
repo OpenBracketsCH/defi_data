@@ -16324,9 +16324,11 @@
   "id": "node/6976938420",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Spitex Regio Arth-Goldau",
+    "check_date": "2024-03-10",
+    "defibrillator:location": "Spitex Regio Arth-Goldau - Rechte Seite des Gebäudes, montiert an der Wand unter dem Balkon",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Spitex Regio Arth-Goldau",
     "phone": "+41 41 859 14 00",
@@ -16335,8 +16337,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5489521,
-      47.0453926
+      8.5489517,
+      47.0453865
     ]
   }
 },
@@ -16452,19 +16454,23 @@
   "id": "node/6976938426",
   "properties": {
     "access": "yes",
+    "check_date": "2024-03-10",
     "defibrillator:location": "Schwyzer Kantonalbank",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Schwyzer Kantonalbank",
+    "outdoor": "yes",
     "phone": "+41 58 800 20 20",
     "id": "node/6976938426"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5478855,
-      47.0498199
+      8.5479193,
+      47.0498173
     ]
   }
 },
@@ -112531,6 +112537,50 @@
     "coordinates": [
       8.7040135,
       47.746147
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11770815569",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Mehrzweckhalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "EG",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "id": "node/11770815569"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7659392,
+      47.4478029
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11770815570",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussenfassade Wohnhaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "EG",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "id": "node/11770815570"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7630022,
+      47.4509067
     ]
   }
 }
