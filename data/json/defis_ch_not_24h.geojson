@@ -12255,9 +12255,13 @@
     "defibrillator:location": "am Empfang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "name": "Dachser Spedition AG",
     "opening_hours": "Mo-Fr 06:00-20:00",
-    "operator": "Dachser Spedition AG",
-    "phone": "+41 32 389 01 00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "ref": "0355LTI",
     "id": "node/6637199792"
   },
   "geometry": {
@@ -131488,12 +131492,12 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "latitude": "47.59532",
-    "longitude": "8.96773",
+    "level": "EG",
     "name": "Cornu AG",
     "opening_hours": "Mo-Fr 08:30-17:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
+    "ref": "0205 LTI",
     "id": "node/10763310185"
   },
   "geometry": {
@@ -137475,12 +137479,12 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "latitude": "46.948",
-    "longitude": "7.44598",
+    "level": "2.og",
     "name": "OLZ AG",
     "opening_hours": "Mo-Fr 08:00-18:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
+    "ref": "0074LTM",
     "id": "node/10763310454"
   },
   "geometry": {
@@ -137828,17 +137832,19 @@
   "type": "Feature",
   "id": "node/10763310468",
   "properties": {
-    "access": "no",
+    "access": "yes",
+    "addr:housenumber": "22",
+    "addr:street": "Untermattweg",
     "defibrillator:location": "Empfang, 1.OG",
     "description": "oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "latitude": "46.94759",
-    "longitude": "7.40041",
+    "level": "1.og",
     "name": "Gilgen Door Systems AG",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
+    "ref": "0423ltm",
     "id": "node/10763310468"
   },
   "geometry": {
@@ -173063,6 +173069,58 @@
     "coordinates": [
       8.7970015,
       47.3141179
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11786646654",
+  "properties": {
+    "access": "yes",
+    "addr:housenumber": "3",
+    "addr:street": "Eichholzweg",
+    "defibrillator:location": "Im Büro 1.OG\n1400LTM Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1.og",
+    "opening_hours": "Mo-Fr 07:00 - 17:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "ref": "1400LTM",
+    "id": "node/11786646654"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5047635,
+      46.9033944
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11786699699",
+  "properties": {
+    "access": "unknown",
+    "defibrillator:location": "Oberstufe Wasseramt OST Subingen  \nIm Eingangsbereich der Turnhalle",
+    "description": "Weisser Kasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "eg",
+    "name": "Oberstufe Wasseramt OST Subingen",
+    "opening_hours": "während Schulbetrieb",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "ref": "1110LTI",
+    "id": "node/11786699699"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6170178,
+      47.189261
     ]
   }
 }
