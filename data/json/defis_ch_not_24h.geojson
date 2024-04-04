@@ -59890,14 +59890,19 @@
   "id": "node/8841099017",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Dachser Spedition Niederlassung Regensdorf, Althardstr. 355, 8105 Regensdorf, Fahrertreppenhaus EG",
-    "description": "während Betriebszeiten zugänglich",
+    "addr:housenumber": "335",
+    "addr:street": "Althardstrasse",
+    "defibrillator:location": "Dachser Spedition Niederlassung Regensdorf\n8105 Regensdorf",
+    "description": "Fahrertreppenhaus EG\nWeisser Kasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "1.OG",
+    "name": "Dachser Spedition AG",
     "opening_hours": "Mo-Fr 05:00-22:00",
-    "operator": "Dachser Spedition AG",
-    "phone": "+41448721190",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "ref": "0325LTI",
     "id": "node/8841099017"
   },
   "geometry": {
@@ -128486,17 +128491,18 @@
   "id": "node/10763310052",
   "properties": {
     "access": "yes",
+    "addr:housenumber": "15c",
+    "addr:street": "Theaterstrasse",
     "defibrillator:location": "EG, Eingangsbereich (SM E0.90)",
     "description": "oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "latitude": "47.50307",
-    "longitude": "8.72656",
     "name": "Zürcher Hochschule für Angewandte Wissenschaften",
     "opening_hours": "Mo-Fr 07:00-19:00, Sa 07:00-14:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
+    "ref": "0562LTM",
     "id": "node/10763310052"
   },
   "geometry": {
@@ -173095,6 +173101,32 @@
     "coordinates": [
       7.5047635,
       46.9033944
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11786698163",
+  "properties": {
+    "access": "yes",
+    "addr:housenumber": "15c",
+    "addr:street": "Theaterstrasse",
+    "defibrillator:location": "SM U1.03\n1. UG, Sanitätszimmer",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "1.UG",
+    "name": "Zürcher Hochschule für Angewandte Wissenschaften",
+    "opening_hours": "Mo-Fr 07:00-19:00, Sa 07:00-14:00",
+    "operator": "Lifetec AG Schweiz",
+    "ref": "0563LTM",
+    "id": "node/11786698163"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7266186,
+      47.5030532
     ]
   }
 },
