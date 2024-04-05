@@ -53162,23 +53162,26 @@
   "id": "node/10718737605",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Seefeldstrasse 275",
-    "description": "Während den Büroöffnungszeiten",
+    "addr:housenumber": "275",
+    "addr:street": "Seefeldstrasse",
+    "defibrillator:location": "EG",
+    "description": "Oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "0",
+    "level": "eg",
+    "name": "Swiss Finance & Property Group AG",
     "opening_hours": "Mo-Fr 08:00-12:00,13:00-17:00",
-    "operator": "Firma",
-    "phone": "+41 43 344 61 31",
-    "source": "local_knowledge, defikarte.ch",
+    "operator": "Litefetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "ref": "1117LTM",
     "id": "node/10718737605"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5636067,
-      47.3485352
+      8.5635573,
+      47.3486544
     ]
   }
 },
