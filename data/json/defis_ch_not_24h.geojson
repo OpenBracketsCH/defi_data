@@ -38130,27 +38130,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7819540960",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Restaurant",
-    "description": "während Sommermonaten",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "Mo-Su 09:00-21:00",
-    "operator": "Gemeinde Richterswil",
-    "id": "node/7819540960"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6782847,
-      47.1848878
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7819540975",
   "properties": {
     "access": "yes",
@@ -173347,6 +173326,27 @@
     "coordinates": [
       7.7351797,
       47.4835725
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11804337870",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Bergstation Crap Masegn Ostseite des Gebäudes im SOS",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Pisten und Rettungsdienst der Weissen Arena Bergbahnen AG",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11804337870"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1803646,
+      46.8423685
     ]
   }
 }
