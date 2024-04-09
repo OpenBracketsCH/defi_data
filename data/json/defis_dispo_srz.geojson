@@ -321,29 +321,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/2840471203",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Links draussen an der Wand vorm Eingang Gemeindehaus Wald",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "name": "Gemeindehaus Wald ZH",
-    "opening_hours": "24/7",
-    "wheelchair": "yes",
-    "id": "node/2840471203"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.9148335,
-      47.2757265
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/2978025989",
   "properties": {
     "addr:city": "Andelfingen",
@@ -71715,8 +71692,12 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Neben Eingang Restaurant Schwert",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
     "operator": "Restaurant Schwert",
     "id": "node/11542498423"
   },
@@ -75968,8 +75949,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6672916,
-      47.2303808
+      8.6667566,
+      47.2306906
     ]
   }
 },
