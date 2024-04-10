@@ -172675,31 +172675,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11766370171",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Frauenfelderstrasse 3, 9542 Münchwilen",
-    "description": "Stored in the office",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "opening_hours": "Mo - Fr 7:00-19:00",
-    "operator": "FedEx Express Swiss Post GmbH",
-    "phone": "+41712785838",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/11766370171"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.9950132,
-      47.4790842
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11767342326",
   "properties": {
     "access": "yes",
@@ -173381,6 +173356,55 @@
     "coordinates": [
       9.4205261,
       46.7614471
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11807232869",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Empfang rechts",
+    "description": "während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "08:00-17:00",
+    "operator": "Seewadel Zentrum für Gesundheit und Alter",
+    "phone": "+41433227474",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11807232869"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4463615,
+      47.2780062
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11807234769",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Treppenhaus Restaurant beim Lift ",
+    "description": "während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "08:00-17:00",
+    "operator": "Seewadel Zentrum für Gesundheit und Alter",
+    "phone": "+41433227474",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11807234769"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4463828,
+      47.2779989
     ]
   }
 }
