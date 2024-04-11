@@ -198,8 +198,20 @@
   "type": "Feature",
   "id": "node/5348742422",
   "properties": {
+    "access": "private",
+    "addr:housenumber": "15",
+    "addr:street": "Haselstrasse",
+    "defibrillator:location": "Stempeluhr, Personaleingang\n0572LTM",
+    "description": "Oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "name": "Regionalwerke AG Baden",
+    "opening_hours": "Mo-Do 08:00-11:45 13:30-16:30 Fr 08:00-11:45 13:30-16:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41800 122 144",
+    "ref": "0572LTM",
     "id": "node/5348742422"
   },
   "geometry": {
@@ -18711,16 +18723,18 @@
   "id": "node/10763310619",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Haupteingang EG",
+    "defibrillator:location": "Haupteingang EG\n0571LTM",
     "description": "oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "latitude": "47.48403",
+    "level": "EG",
     "longitude": "8.29327",
     "name": "Regionalwerke AG Baden",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
+    "ref": "0571LTM",
     "id": "node/10763310619"
   },
   "geometry": {
