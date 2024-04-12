@@ -173624,6 +173624,104 @@
       46.6900017
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/11811213171",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Centris AG",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1. Stock, 3. Stock",
+    "operator": "Centris AG, Betriebssanität",
+    "phone": "+41793493471",
+    "id": "node/11811213171"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5254284,
+      47.2014978
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11811218029",
+  "properties": {
+    "access": "yes",
+    "addr:housenumber": "9",
+    "addr:street": "Place de la Gare",
+    "defibrillator:location": "4.OG Schrank Links vom Empfang",
+    "des": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "4.OG",
+    "name": "VZ Corporate Services AG",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "ref": "1402LTM",
+    "id": "node/11811218029"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.2371637,
+      46.3840444
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11811219137",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Erdgeschoss, Friedbergstrasse 68",
+    "description": "nur während der Bürozeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 8:00-17:00",
+    "operator": "Letec IT Solutions AG",
+    "phone": "+41526324422",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11811219137"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6277813,
+      47.6970324
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11811221512",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Rheinweg 6, rechts neben Eingang",
+    "description": "nur während der Bürozeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 8:00-17:00",
+    "operator": "Letec IT Solutions AG",
+    "phone": "+41526324422",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11811221512"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6227602,
+      47.6919305
+    ]
+  }
 }
 ]
 }
