@@ -107,6 +107,7 @@
     "defibrillator:location": "Bushaltestelle/Mehrzweckhalle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "24/7",
     "id": "node/692850699"
   },
@@ -76400,6 +76401,22 @@
     "coordinates": [
       8.5436028,
       47.3776185
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11816475034",
+  "properties": {
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/11816475034"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4355235,
+      47.1400107
     ]
   }
 }
