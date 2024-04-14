@@ -58168,6 +58168,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Wald",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/11804248869"
@@ -58572,6 +58573,29 @@
     "coordinates": [
       8.5436028,
       47.3776185
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11817019379",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rechts beim Feuerwehrmuseum",
+    "description": "Jederzeit verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Wald",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11817019379"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9292186,
+      47.2651826
     ]
   }
 }
