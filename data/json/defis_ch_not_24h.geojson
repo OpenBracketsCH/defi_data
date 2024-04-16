@@ -15031,6 +15031,7 @@
     "defibrillator:location": "Gerät ist im Werkstattbüro",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "Mo-Fr 07:00-17:30",
     "operator": "ABAG Nutzfahrzeuge AG",
     "phone": "+41 31 818 14 14",
@@ -174005,6 +174006,51 @@
     "coordinates": [
       8.5707703,
       47.4399388
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11821941289",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Via Resgias 18, Ostseite des Gebäudes",
+    "description": "am Gebäude",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde Trun",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11821941289"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9891314,
+      46.7404927
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11821942980",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus, Via dil Vitg 5",
+    "description": "am Gebäude",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde Trun",
+    "phone": "+41 78 756 39 44 ",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11821942980"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0132248,
+      46.7526702
     ]
   }
 },
