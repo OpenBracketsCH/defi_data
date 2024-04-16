@@ -7304,7 +7304,6 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Gemeindeverwaltung",
-    "description": "An der Fassade beim Eingang der Gemeindeverwaltung befestigt - jederzeit zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -7316,7 +7315,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4901665,
+      8.4900711,
       47.3271931
     ]
   }
@@ -76509,6 +76508,55 @@
     "coordinates": [
       8.5707703,
       47.4399388
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11822218871",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "SFB Bildungszentrum, Bernstrasse 392, 8953 Dietikon",
+    "description": "Haupteingang benützen, vor Treppenhaus links Eingang nehmen (Zimmer E01/E02).",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Höhere Fachschule",
+    "phone": "+41447444558",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11822218871"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3955445,
+      47.38278
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11822306926",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neugutstrasse 12, 8304 Wallisellen - Wohn- und Geschäftshaus",
+    "description": "im 3. Stock, während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "operator": "Swiss Avant",
+    "phone": "+41 44 878 70 50",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11822306926"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.594833,
+      47.4123672
     ]
   }
 }
