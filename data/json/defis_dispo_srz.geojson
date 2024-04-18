@@ -49574,30 +49574,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10231100455",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Bei der GVZ am Empfang",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "opening_hours": "Mo-Th 07:30-12:00, 13:00-17:00; Fr 07:30-12:00, 13:00-16:30",
-    "operator": "GVZ Gebäudeversicherung Kanton Zürich",
-    "phone": "+41 44 308 21 11",
-    "id": "node/10231100455"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5529181,
-      47.4160817
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10236239542",
   "properties": {
     "access": "yes",
@@ -76606,6 +76582,77 @@
     "coordinates": [
       8.7208325,
       47.2705921
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11827855170",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "GVZ Gebäudeversicherung Kanton Zürich, gut sichtbar an der Aussenfassade angebracht",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "GVZ Gebäudeversicherung Kanton Zürich",
+    "phone": "+41 44 308 21 11",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11827855170"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5528135,
+      47.4160808
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11827855171",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "GVZ Gebäudeversicherung Kanton Zürich, gut sichtbar auf einer Standsäule angebracht",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "GVZ Gebäudeversicherung Kanton Zürich",
+    "phone": "+41 44 308 21 11",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11827855171"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5537523,
+      47.415696
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11828203270",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Birchlen, vor dem Eingang zum gelben Trakt",
+    "description": "unter der Passage, gegebüber der gelben Tür",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "EG",
+    "opening_hours": "24/7",
+    "operator": "Schulhaus Birchlen",
+    "id": "node/11828203270"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6127405,
+      47.3980928
     ]
   }
 }
