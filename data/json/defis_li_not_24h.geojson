@@ -1316,11 +1316,10 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Gemeindesaal im Foyer",
-    "description": "während Öffnungszeiten verfügbar",
+    "description": "Nur bei Veranstaltungen verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00",
     "operator": "Gemeinde Ruggell",
     "phone": "+423 377 49 20",
     "id": "node/9004557484"
@@ -2181,6 +2180,51 @@
     "coordinates": [
       9.5181295,
       47.1544878
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11827202448",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Musikhaus EG",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-22:00",
+    "operator": "Gemeinde Ruggell",
+    "phone": "+423 377 49 20",
+    "id": "node/11827202448"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5249385,
+      47.2396125
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11827202449",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Turnhalle",
+    "description": "Während externen Betrieb verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Ruggell",
+    "phone": "+423 377 49 20",
+    "id": "node/11827202449"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5252214,
+      47.2393475
     ]
   }
 }
