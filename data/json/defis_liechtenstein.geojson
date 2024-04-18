@@ -1683,20 +1683,20 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Aussenwandschrank bei Tennishaus",
-    "description": "24h verfügbar",
+    "description": "Erdgeschoss Aussen unter der Terrasse",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Magnus Büchel, Gemeindepolizei",
-    "phone": "+423 377 49 28",
+    "operator": "Gemeinde Ruggell",
+    "phone": "+423 377 49 20",
     "id": "node/9004557487"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5245671,
-      47.2453047
+      9.5245173,
+      47.2452964
     ]
   }
 },
@@ -1705,11 +1705,10 @@
   "id": "node/9004557488",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Aussenwandschrank bei Sportareal Widau",
-    "description": "24h verfügbar",
+    "defibrillator:location": "Aussenwandschrank bei Freizeitpark Widau",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Ruggell",
     "phone": "+423 377 49 20",
@@ -1718,8 +1717,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5280057,
-      47.2472803
+      9.5279824,
+      47.2470901
     ]
   }
 },
@@ -3028,20 +3027,21 @@
   "id": "node/11598729469",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Primarschule bei Bibliotheke ",
+    "defibrillator:location": "Nellengasse Garage Hauswartung",
     "description": "Bei Garagentore an Aussenwand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Ruggell",
+    "telecom": "+423 377 49 20",
     "id": "node/11598729469"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5260292,
-      47.238904
+      9.5259957,
+      47.2390233
     ]
   }
 },
@@ -3279,6 +3279,7 @@
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Ruggell",
+    "phone": "+423 377 49 20",
     "id": "node/11754925369"
   },
   "geometry": {
@@ -3354,6 +3355,29 @@
     "coordinates": [
       9.5181295,
       47.1544878
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11826866284",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Oberweilerstrasse Verzweigung Geisszipfelstrasse",
+    "description": "Privatgrundstück Hausfassade gut ersichtlich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Ruggell",
+    "telecom": "+423 377 49 20",
+    "id": "node/11826866284"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.524427,
+      47.2353045
     ]
   }
 }
