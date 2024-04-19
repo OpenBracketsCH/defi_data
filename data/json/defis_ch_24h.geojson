@@ -3356,6 +3356,7 @@
   "id": "node/6159959288",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Posizionato sotto la tettoia dell'entata dell'ufficio tecnico",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -49851,6 +49852,29 @@
     "coordinates": [
       8.1800584,
       46.8316314
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8752763721",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "im Haus Looschä im Eingangsbereich",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Sandra Schallberger",
+    "phone": "+41 79 961 62 41",
+    "id": "node/8752763721"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2481265,
+      46.8915775
     ]
   }
 },
