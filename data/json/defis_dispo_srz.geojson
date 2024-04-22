@@ -76808,18 +76808,19 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "EG",
     "name": "Bau Power Group AG",
     "opening_hours": "Mo-Fr 07:30-17:00",
     "operator": "Lifetec AG Schweiz",
-    "phone": "+41 0800 122 144",
+    "phone": "+41 800 122 144",
     "ref": "1407LTM",
     "id": "node/11836801386"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6031643,
-      47.4491733
+      8.6031448,
+      47.4491972
     ]
   }
 },
@@ -76843,6 +76844,34 @@
     "coordinates": [
       8.7305313,
       47.5363699
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11837321181",
+  "properties": {
+    "access": "no",
+    "addr:housenumber": "11",
+    "addr:street": "Oberneuhofstrasse",
+    "defibrillator:location": "1.OG, an Wand neben Kaffeemaschine\n1404 LTM",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1.OG",
+    "name": "KLAFS AG",
+    "opening_hours": "Mo-Fr 0800-1200 1300-1700",
+    "operator": "Llifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "ref": "1404 LTM",
+    "id": "node/11837321181"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.516622,
+      47.1874501
     ]
   }
 }
