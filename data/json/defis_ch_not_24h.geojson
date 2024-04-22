@@ -174471,6 +174471,152 @@
       47.1874501
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/11837545269",
+  "properties": {
+    "defibrillator:location": "Feuerwehrgebäude",
+    "description": "während Bürozeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Feuerwehr Dielsdorf",
+    "phone": "+41448533805",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11837545269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4599823,
+      47.4777282
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11837545270",
+  "properties": {
+    "defibrillator:location": "Gemeindehaus Dielsdorf, Eingangshalle links an der Wand",
+    "description": "während Öffungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeindeverwaltung Dielsdorf",
+    "phone": "+41448533805",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11837545270"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4523004,
+      47.4832716
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11837548485",
+  "properties": {
+    "access": "no",
+    "addr:housenumber": "12",
+    "addr:street": "Speerstrasse",
+    "defibrillator:location": "EG Vorraum Kommandoraum",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "name": "Technische Betriebe Wil",
+    "opening_hours": "Mo-Fr: 07:30 - 17:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "ref": "1405LTM",
+    "id": "node/11837548485"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0459464,
+      47.4612657
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11837556869",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bootshaus Wassersportclub: Ausseneingang Restaurant",
+    "description": "immer verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "phone": "+41793725058 ",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11837556869"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8411162,
+      47.58068
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11837572263",
+  "properties": {
+    "access": "yes",
+    "addr:housenumber": "14",
+    "addr:street": "Grenzstrasse",
+    "defibrillator:location": "Montage Schaltervorraum, EG\n1406 LTM",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "name": "Geiger Edelmetalle AG",
+    "opening_hours": "Mo - Fr 09:00 - 18:00 Uhr",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "ref": "1406 LTM",
+    "id": "node/11837572263"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.6353551,
+      47.4532481
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11837611069",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Bürogebäude Empfang",
+    "description": "während den Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Thommen AG",
+    "phone": "+41448714545",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11837611069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4563767,
+      47.4467993
+    ]
+  }
 }
 ]
 }
