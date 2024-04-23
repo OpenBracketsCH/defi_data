@@ -31321,24 +31321,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637818940",
-  "properties": {
-    "description": "Beim Eingang",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Gemeindehaus",
-    "id": "node/7637818940"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.0487937,
-      46.9794119
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637818943",
   "properties": {
     "defibrillator:location": "Bei der Elektroladestation vor dem BÃ¼rogebÃ¤ude",
@@ -174234,7 +174216,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "08:00-17:00",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
     "operator": "EFP AG",
     "phone": "+41 44 843 41 41",
     "source": "local_knowledge, defikarte.ch",
@@ -174541,28 +174523,6 @@
     "coordinates": [
       9.0459464,
       47.4612657
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11837556869",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Bootshaus Wassersportclub: Ausseneingang Restaurant",
-    "description": "immer verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "phone": "+41793725058 ",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/11837556869"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.8411162,
-      47.58068
     ]
   }
 },

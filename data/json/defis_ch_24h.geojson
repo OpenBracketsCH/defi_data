@@ -27224,6 +27224,28 @@
 },
 {
   "type": "Feature",
+  "id": "node/7637818940",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Eingang",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "name": "Gemeindehaus",
+    "opening_hours": "24/7",
+    "id": "node/7637818940"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0512826,
+      46.9798556
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/7637818941",
   "properties": {
     "access": "yes",
@@ -113466,8 +113488,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.2431647,
-      47.4924816
+      9.2431205,
+      47.4923505
     ]
   }
 },
@@ -113820,6 +113842,30 @@
     "coordinates": [
       8.7305313,
       47.5363699
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11837556869",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bootshaus Wassersportclub: Ausseneingang Restaurant",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Wasserfahrverein Ryburg-Möhlin",
+    "phone": "+41793725058",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11837556869"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8411162,
+      47.58068
     ]
   }
 }
