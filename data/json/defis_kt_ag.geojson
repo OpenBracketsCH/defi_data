@@ -25121,6 +25121,84 @@
       47.3510532
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/11844002045",
+  "properties": {
+    "access": "private",
+    "addr:housenumber": "4",
+    "addr:street": "Brown Boveri Platz",
+    "defibrillator:location": "Briefkastenraum EG\n1360LTM",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "name": "Swiss Prime Site Solutions AG / Akara Property",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "ref": "1360LTM",
+    "id": "node/11844002045"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3063864,
+      47.4794642
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11844052769",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sonnmatt Neuenhof, neben Tür Damentoilette",
+    "description": "nur während der Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 07:00-20:00",
+    "operator": "Stiftung Sonnmatt Neuenhof",
+    "phone": "+41 56 406 38 80",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11844052769"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3324379,
+      47.4503254
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11844242720",
+  "properties": {
+    "access": "yes",
+    "addr:housenumber": "64",
+    "addr:street": "Bernstrasse West",
+    "defibrillator:location": "EG Foyer\n1361 LTM",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "Dobi-Inter AG",
+    "opening_hours": "Mo - Fr 09:00–18:00 Sa 09:00–17:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "ref": "1361LTM",
+    "id": "node/11844242720"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0783337,
+      47.3689874
+    ]
+  }
 }
 ]
 }
