@@ -77084,6 +77084,53 @@
       47.3762453
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/11843357169",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Haupteingang Security Loge ",
+    "description": "An Tor Eingang via Tor Gegensprechanlage AED bei Security verlangen. Security wird AED am Eingangstor aushändigen. ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Vantage DC",
+    "phone": "+41762811263",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11843357169"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7612319,
+      47.5005904
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11843399769",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "vor Lift, im Gebäude",
+    "description": "nur während Museumsöffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1.Stock",
+    "operator": "Landesmuseum",
+    "id": "node/11843399769"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5409847,
+      47.3792767
+    ]
+  }
 }
 ]
 }
