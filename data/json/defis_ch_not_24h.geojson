@@ -125135,15 +125135,17 @@
   "properties": {
     "access": "no",
     "defibrillator:location": "4. OG, Grossraumbüro / Küche",
-    "description": "oranger Koffer",
+    "description": "oranger Koffer\n0955LTM",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "latitude": "47.38884",
+    "level": "4.OG",
     "longitude": "8.51982",
     "name": "MLL Meyerlustenberger Lachenal Froriep AG",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
+    "ref": "0955LTM",
     "id": "node/10763309918"
   },
   "geometry": {
@@ -174757,6 +174759,143 @@
     "coordinates": [
       8.5409847,
       47.3792767
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11843468900",
+  "properties": {
+    "access": "yes",
+    "addr:housenumber": "14",
+    "addr:street": "Übernollaweg",
+    "defibrillator:location": "Beim Werkhof, An Fassade auf der Rückseite (bei Entsorgungsstelle)\n1401 LTS",
+    "description": "Grüner Kasten / Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "name": "Gemeinde Thusis",
+    "opening_hours": "24 / 7",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "ref": "1401 LTS",
+    "id": "node/11843468900"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4370731,
+      46.6916944
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11843478600",
+  "properties": {
+    "access": "private",
+    "addr:housenumber": "2",
+    "addr:street": "Schiffbaustrasse",
+    "defibrillator:location": "2.OG Von Lift Raus, Rechts im Büro Eingang Mitte\n1351LTM",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2.og",
+    "name": "BDO",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "ref": "1351LTM",
+    "id": "node/11843478600"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5198101,
+      47.3891074
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11843521949",
+  "properties": {
+    "access": "private",
+    "addr:housenumber": "2",
+    "addr:street": "Schiffbaustrasse",
+    "defibrillator:location": "1. OG von Lift Raus, Rechts im Büro Eingang Mitte\n1350 LTM",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1.OG",
+    "name": "BDO",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "ref": "1350LTM",
+    "id": "node/11843521949"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5197836,
+      47.3891158
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11843530414",
+  "properties": {
+    "access": "private",
+    "addr:housenumber": "2",
+    "addr:street": "Schiffbaustrasse",
+    "defibrillator:location": "3. OG Von Lift raus, Rechts im Büro Eingang Mitte\n1352LTM",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3.og",
+    "name": "BDO",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "ref": "1352LTM",
+    "id": "node/11843530414"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5198844,
+      47.3890846
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11843545120",
+  "properties": {
+    "access": "permit",
+    "addr:housenumber": "2",
+    "addr:street": "Schiffbaustrasse",
+    "defibrillator:location": "5. OG Von Lift raus, Links Eingang im Schrank bei Empfang\n1353 LTM",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "5",
+    "name": "BDO",
+    "opening_hours": "MO-FR 08:00–12:00, 13:30–17:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "ref": "1353LTM",
+    "id": "node/11843545120"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5199092,
+      47.3890738
     ]
   }
 }
