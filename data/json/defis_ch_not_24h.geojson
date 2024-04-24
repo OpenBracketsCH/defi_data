@@ -18627,6 +18627,7 @@
     "defibrillator:location": "Beim Empfang (Eingang zur Verwaltung Seite Schulhaus)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "Mo 08:00-11:45,13:45-18:00, Tu 13:45-17:00, We-Th 08:00-11:45,13:45-17:00, Fr 08:00-15:00",
     "operator": "Verwaltung",
     "phone": "+41 31 930 14 14",
@@ -132277,8 +132278,8 @@
     "latitude": "47.41656",
     "longitude": "9.63775",
     "name": "Leica Geosystems AG",
-    "operator": "Lifetec AG Schweiz",
-    "phone": "+41 800 122 144",
+    "operator": "Leica Geosystems AG",
+    "ref": "Ehemals 0173 LTI von Liefetec AG Schweiz",
     "id": "node/10763310218"
   },
   "geometry": {
@@ -175195,6 +175196,58 @@
     "coordinates": [
       6.0914867,
       46.1897345
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11844338318",
+  "properties": {
+    "access": "yes",
+    "addr:housenumber": "11a",
+    "addr:street": "Industriestrasse",
+    "defibrillator:location": "Werkstatt bei Feuerwehrschlauch/Durchgang zu Treppenhaus\n1362LTM",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "WB Bürgin AG",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "ref": "1362LTM",
+    "id": "node/11844338318"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7595053,
+      47.2816609
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11844338754",
+  "properties": {
+    "access": "private",
+    "addr:housenumber": "5",
+    "addr:street": "Täfernstrasse",
+    "defibrillator:location": "4.OG Im Eingangsbereich vom Büro\n1364LTM",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "aXenta AG",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "ref": "1364LTM",
+    "id": "node/11844338754"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2925738,
+      47.449468
     ]
   }
 }
