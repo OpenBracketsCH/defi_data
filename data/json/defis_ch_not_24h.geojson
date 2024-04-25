@@ -55518,27 +55518,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8644261479",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Im Büro der Baugenossenschaft Zurlinden hat es am Empfang einen Defibrillator.",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-12:00",
-    "id": "node/8644261479"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4854581,
-      47.3755757
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8644276787",
   "properties": {
     "access": "yes",
@@ -175226,6 +175205,27 @@
     "coordinates": [
       8.3059859,
       47.3338131
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11846412369",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kantonsschule Schwyz, Osteingang",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11846412369"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6541152,
+      47.0242369
     ]
   }
 }
