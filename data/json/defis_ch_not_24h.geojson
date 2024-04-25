@@ -52511,29 +52511,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8568554317",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Privat in Wohnung und Fahrzeug Tiefgarage",
-    "description": "zwei Defibrillatoren vergügbar ZOLL AED 3 und ZOLL AED Plus",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Su 17:00-07:00",
-    "operator": "Privat und Mitarbeiter Procamed. First Responder mit FR Rucksack im Fahrzeug",
-    "phone": "0765856752",
-    "id": "node/8568554317"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6951281,
-      47.5017435
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8568821818",
   "properties": {
     "access": "yes",
@@ -106276,27 +106253,6 @@
     "coordinates": [
       8.2319435,
       47.4112401
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10108110953",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Kirchliches Zentrum Lee, Foyer",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "phone": "+41564418740",
-    "id": "node/10108110953"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.1937214,
-      47.515646
     ]
   }
 },
@@ -175247,6 +175203,29 @@
     "coordinates": [
       8.2925738,
       47.449468
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11846398671",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Arztpraxis im EG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "08:00-12:00 ",
+    "operator": "Arztpraxis Waltenschwil",
+    "phone": "+41 56 622 55 44",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11846398671"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3059859,
+      47.3338131
     ]
   }
 }

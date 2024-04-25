@@ -14738,29 +14738,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8568554317",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Privat in Wohnung und Fahrzeug Tiefgarage",
-    "description": "zwei Defibrillatoren vergügbar ZOLL AED 3 und ZOLL AED Plus",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Su 17:00-07:00",
-    "operator": "Privat und Mitarbeiter Procamed. First Responder mit FR Rucksack im Fahrzeug",
-    "phone": "0765856752",
-    "id": "node/8568554317"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6951281,
-      47.5017435
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8568821818",
   "properties": {
     "access": "yes",
@@ -59347,6 +59324,30 @@
     "coordinates": [
       8.7595053,
       47.2816609
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11846336170",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussenbereich an der Wand Carport neben Auto, gelber Aussenkasten",
+    "description": "ZOLL AED 3 BLS mit Notfallset.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Marco Jenni",
+    "phone": "0765856752",
+    "id": "node/11846336170"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6711328,
+      47.4333605
     ]
   }
 }
