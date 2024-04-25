@@ -5314,12 +5314,12 @@
   "properties": {
     "access": "no",
     "defibrillator:location": "Klosterladen St.Johann",
-    "description": "Defi ist im Klosterladen, bei Empfang verlangen",
+    "description": "Grüner Aussenkasten, 24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 8:00-17:00",
-    "operator": "Kloster St.Johann",
+    "opening_hours": "24/7",
+    "operator": "Samariter Val Müstair",
     "id": "node/9309828217"
   },
   "geometry": {
@@ -12056,8 +12056,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      10.3735453,
-      46.608
+      10.3728995,
+      46.6083633
     ]
   }
 },
@@ -12144,30 +12144,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      10.4081642,
-      46.6000644
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11463419469",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Chasa cumünala Fuldera",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Samariter Val Müstair",
-    "phone": "+41792869135",
-    "id": "node/11463419469"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      10.3734097,
-      46.6080102
+      10.4066048,
+      46.6003027
     ]
   }
 },
@@ -12488,22 +12466,6 @@
     "coordinates": [
       9.4403996,
       46.7914826
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11564439863",
-  "properties": {
-    "emergency": "defibrillator",
-    "indoor": "no",
-    "id": "node/11564439863"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      10.4065372,
-      46.6003416
     ]
   }
 },
@@ -12917,23 +12879,6 @@
     "coordinates": [
       10.393795,
       46.9593314
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11716344035",
-  "properties": {
-    "emergency": "defibrillator",
-    "indoor": "no",
-    "operator": "An der Wand unterm Vordach, im grünen Kasten.",
-    "id": "node/11716344035"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      10.372914,
-      46.6083209
     ]
   }
 },

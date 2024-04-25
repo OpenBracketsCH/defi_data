@@ -64710,6 +64710,28 @@
 },
 {
   "type": "Feature",
+  "id": "node/9309828217",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Klosterladen St.Johann",
+    "description": "Grüner Aussenkasten, 24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Samariter Val Müstair",
+    "id": "node/9309828217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      10.4488636,
+      46.6295132
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9310198571",
   "properties": {
     "access": "customers",
@@ -107380,8 +107402,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      10.3735453,
-      46.608
+      10.3728995,
+      46.6083633
     ]
   }
 },
@@ -107468,30 +107490,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      10.4081642,
-      46.6000644
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11463419469",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Chasa cumünala Fuldera",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Samariter Val Müstair",
-    "phone": "+41792869135",
-    "id": "node/11463419469"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      10.3734097,
-      46.6080102
+      10.4066048,
+      46.6003027
     ]
   }
 },
@@ -113983,6 +113983,29 @@
     "coordinates": [
       8.6711328,
       47.4333605
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11847153471",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Werkhof bei Garage",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Bäretswil",
+    "phone": "+41449391737",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11847153471"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8583064,
+      47.3335549
     ]
   }
 }
