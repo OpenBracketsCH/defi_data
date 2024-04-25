@@ -20761,6 +20761,48 @@
       47.0671403
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/11847589573",
+  "properties": {
+    "defibrillator:location": "Zürichstrasse 16, 6000 Luzern 6",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11847589573"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3099449,
+      47.0580668
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11847631669",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Zürichstrasse 16, 6000 Luzern 6",
+    "description": "während Büroöffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "PKG Pensionskasse",
+    "phone": "+41 41 418 50 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11847631669"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3099931,
+      47.0580924
+    ]
+  }
 }
 ]
 }
