@@ -117,8 +117,8 @@
   "id": "node/9004556001",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Turnhallen und Schuleingang",
-    "description": "24h verfügbar Eingangsbereich aussen",
+    "defibrillator:location": "Schulhaus Obergufer, Turnhalle und Schuleingang",
+    "description": "24h verfügbar Eingangsbereich Turnhalle aussen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -185,21 +185,21 @@
   "id": "node/9004556005",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Sanitätsraum",
+    "defibrillator:location": "Sanitätsraum Tribüne Hauptplatz",
     "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "24/7",
-    "operator": "Ottokar Schädler",
-    "phone": "+423 792 26 70",
+    "operator": "Fidel Beck Platzwart",
+    "phone": "+423 792 26 68",
     "id": "node/9004556005"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5395929,
-      47.1146421
+      9.5405088,
+      47.1147438
     ]
   }
 },
@@ -1040,29 +1040,6 @@
     "coordinates": [
       9.5274881,
       47.1674173
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9004557450",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Eingang zum Gemeindezentrum",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-22:00",
-    "operator": "Alex Steiger, SIBE",
-    "phone": "+423 237 72 44",
-    "id": "node/9004557450"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.5157158,
-      47.1665019
     ]
   }
 },
@@ -2034,8 +2011,8 @@
   "id": "node/10282470612",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Haupteingang",
-    "description": "während Öffnungszeiten Schulhaus verfügbar",
+    "defibrillator:location": "HPZ Schule Haupteingang",
+    "description": "während Öffnungszeiten der Schule verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -3476,14 +3453,14 @@
   "id": "node/11849557271",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Sütigerwis Spielplatz",
-    "description": "WC Häuschen",
+    "defibrillator:location": "Wangerberg / Sütigerwis Spielplatz",
+    "description": "An WC Häuschen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Triesenberg GePo",
-    "phone": "+4237922661",
+    "phone": "+423 792 26 61",
     "id": "node/11849557271"
   },
   "geometry": {
@@ -3499,15 +3476,15 @@
   "id": "node/11849635098",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Guferwald Holzschopf Forstbetrieb ",
-    "description": "Gut sichtbar an der Strasse beim Holzschopf",
+    "defibrillator:location": "Guferwald Holzschopf Forstbetrieb",
+    "description": "Gut sichtbar an der Hauptstrasse beim Holzschopf",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Direkt an Strasse / Eingang ",
+    "level": "Direkt an Strasse / Eingang",
     "opening_hours": "24/7",
     "operator": "Gemeinde Triesenberg",
-    "phone": "+4237922661",
+    "phone": "+423 792 26 61",
     "id": "node/11849635098"
   },
   "geometry": {
@@ -3523,15 +3500,15 @@
   "id": "node/11849773998",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Öffentliches WC / Entsorgung",
-    "description": "In der Nische ",
+    "defibrillator:location": "Masescha, Öffentliches WC / Entsorgung",
+    "description": "In der Nische",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "EG",
     "opening_hours": "24/7",
     "operator": "Gemeinde Triesenberg",
-    "phone": "+4237922661",
+    "phone": "+423 792 26 61",
     "id": "node/11849773998"
   },
   "geometry": {
@@ -3547,7 +3524,7 @@
   "id": "node/11850190269",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Rizlina Öffentliches WC ",
+    "defibrillator:location": "Rizlina Öffentliches WC",
     "description": "Aussenwand Nord",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -3555,14 +3532,38 @@
     "level": "EG",
     "opening_hours": "24/7",
     "operator": "Gemeinde Triesenberg",
-    "phone": "+4237922661",
+    "phone": "+423 792 26 61",
     "id": "node/11850190269"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.553294,
-      47.119979
+      9.5533503,
+      47.1199626
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11850537284",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rotenboden, Saminaüberbauung",
+    "description": "An der Nordfassade direkt an der Strasse ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "EG",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Triesenberg ",
+    "phone": "+4237922661",
+    "id": "node/11850537284"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5389982,
+      47.1273843
     ]
   }
 }
