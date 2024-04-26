@@ -77331,6 +77331,59 @@
       47.2042989
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/11850337649",
+  "properties": {
+    "access": "yes",
+    "addr:housenumber": "78",
+    "addr:street": "Zürichstrasse",
+    "defibrillator:location": "Ersatzteillager EG\n1408LTM",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "name": "Mercedes-Benz Automobil AG, Zweigniederlassung Adliswil",
+    "opening_hours": "Mo-Fr 07:00-18:30 Sa 09:00-17:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "ref": "1408LTM",
+    "id": "node/11850337649"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5303391,
+      47.3239157
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11850411880",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "SIHLPARK Fitnesscenter im Center",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "2",
+    "opening_hours": "Mo-Sa  06:00-22:00, Su  08:00-20:30",
+    "operator": "SIHLPARK FITNESS & WELLNESS",
+    "phone": "+41 44 787 51 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11850411880"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7275633,
+      47.1676948
+    ]
+  }
 }
 ]
 }
