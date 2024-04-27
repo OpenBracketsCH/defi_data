@@ -48,29 +48,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9004556000",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Flur Erdgeschoss",
-    "description": "24h verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Thomas Eberle",
-    "phone": "+423 263 22 86",
-    "id": "node/9004556000"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.5960319,
-      47.1099416
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9004556001",
   "properties": {
     "access": "yes",
@@ -595,14 +572,14 @@
   "type": "Feature",
   "id": "node/11296224569",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Schluchertreff Malbun",
+    "access": "yes",
+    "defibrillator:location": "Schluchertreff Malbun, Öffentlicher Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "Parterre",
     "opening_hours": "24/7",
-    "operator": "Triesenberg",
+    "operator": "Gemeinde Triesenberg",
     "id": "node/11296224569"
   },
   "geometry": {

@@ -93,14 +93,14 @@
   "type": "Feature",
   "id": "node/9004556000",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Flur Erdgeschoss",
-    "description": "24h verfügbar",
+    "access": "no",
+    "defibrillator:location": "Jungendhaus Malbun, Flur Erdgeschoss",
+    "description": "Nur Verfügbar wenn Tagesbetrieb",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Thomas Eberle",
+    "opening_hours": "Mo-Fr 09:00-17:00",
+    "operator": "Betreiber Jugendhaus Landesverwaltung",
     "phone": "+423 263 22 86",
     "id": "node/9004556000"
   },
@@ -2257,8 +2257,8 @@
   "id": "node/10763310417",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Mitarbeiter Treppenhaus, hinter Tür EG.",
-    "description": "oranger Koffer",
+    "defibrillator:location": "Hotel Gorfion, Mitarbeiter Treppenhaus, hinter Tür EG.",
+    "description": "Oranger Koffer",
     "emergency": "defibrillator",
     "indoor": "yes",
     "latitude": "47.10129",
@@ -2394,14 +2394,14 @@
   "type": "Feature",
   "id": "node/11296224569",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Schluchertreff Malbun",
+    "access": "yes",
+    "defibrillator:location": "Schluchertreff Malbun, Öffentlicher Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "Parterre",
     "opening_hours": "24/7",
-    "operator": "Triesenberg",
+    "operator": "Gemeinde Triesenberg",
     "id": "node/11296224569"
   },
   "geometry": {

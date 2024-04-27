@@ -46,6 +46,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/9004556000",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Jungendhaus Malbun, Flur Erdgeschoss",
+    "description": "Nur Verfügbar wenn Tagesbetrieb",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 09:00-17:00",
+    "operator": "Betreiber Jugendhaus Landesverwaltung",
+    "phone": "+423 263 22 86",
+    "id": "node/9004556000"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5960319,
+      47.1099416
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9004556006",
   "properties": {
     "access": "yes",
@@ -1667,8 +1690,8 @@
   "id": "node/10763310417",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Mitarbeiter Treppenhaus, hinter Tür EG.",
-    "description": "oranger Koffer",
+    "defibrillator:location": "Hotel Gorfion, Mitarbeiter Treppenhaus, hinter Tür EG.",
+    "description": "Oranger Koffer",
     "emergency": "defibrillator",
     "indoor": "yes",
     "latitude": "47.10129",
