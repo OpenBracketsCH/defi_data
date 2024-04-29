@@ -2234,6 +2234,28 @@
 },
 {
   "type": "Feature",
+  "id": "node/5198792009",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Unter dem Dach des Hafengebäudes bei den Garderoben/Toiletten direkt an der Innenwand im grünen Kasten beim Sichtkasten.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "defibrillator.ch",
+    "wheelchair": "yes",
+    "id": "node/5198792009"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2689439,
+      47.6229351
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/5214068322",
   "properties": {
     "access": "yes",
@@ -114147,6 +114169,29 @@
     "coordinates": [
       7.9267967,
       47.3122683
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11865656969",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haus der Zürcher Parlamente",
+    "description": "Während der Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "opening_hours": "24/7",
+    "operator": "Parlamentsdienste Kanton Zürich",
+    "id": "node/11865656969"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5154567,
+      47.3800713
     ]
   }
 }
