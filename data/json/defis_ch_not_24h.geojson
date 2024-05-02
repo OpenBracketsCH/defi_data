@@ -175512,6 +175512,31 @@
 },
 {
   "type": "Feature",
+  "id": "node/11868211283",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hammer Auto Center AG",
+    "description": "Bei Empfang Volvo im Gebäude",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Th 07:15-12:00, 13:00-18:00; Fr 07:15-12:00, 13:00-18_00; Sa 09:00-16:00",
+    "operator": "Firma",
+    "phone": "+41 41 288 88 88",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11868211283"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2832193,
+      47.0819695
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/11868375913",
   "properties": {
     "access": "private",
@@ -175692,6 +175717,33 @@
     "coordinates": [
       8.5366492,
       47.3665401
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11873658778",
+  "properties": {
+    "access": "private",
+    "addr:housenumber": "78",
+    "addr:street": "Baarerstrasse",
+    "defibrillator:location": "EG, im Büro nach Treppe rechts an der Wand, nähe Regal\n1365LTM",
+    "description": "Koffer Schwarz",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "name": "Ammann+Partner AG",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "ref": "1365LTM",
+    "id": "node/11873658778"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5179747,
+      47.1768019
     ]
   }
 }
