@@ -25667,6 +25667,33 @@
 },
 {
   "type": "Feature",
+  "id": "node/7637818490",
+  "properties": {
+    "access": "yes",
+    "check_date": "2024-05-01",
+    "defibrillator:location": "Gemeindehaus Schattdorf",
+    "description": "li. neben Haupteingang öffentlich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "name": "Gemeindehaus Dorfplatz",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Schattdorf",
+    "phone": "+41 41 874 04 74",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/7637818490"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6551973,
+      46.8644843
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/7637818495",
   "properties": {
     "access": "yes",
@@ -89364,30 +89391,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10701209407",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Gemeindehaus Schattdorf",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde Schattdorf",
-    "phone": "+41 41 874 04 74",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/10701209407"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6553007,
-      46.8643871
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10702067766",
   "properties": {
     "access": "yes",
@@ -97204,11 +97207,13 @@
   "id": "node/10946047905",
   "properties": {
     "access": "yes",
+    "check_date": "2024-05-01",
     "defibrillator:location": "Eingang Turnhalle Grundmatte",
     "description": "Aussen am Eingang, immer verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde",
     "phone": "+41 41 874 04 76",
@@ -97218,8 +97223,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6557674,
-      46.8695292
+      8.6557321,
+      46.8695362
     ]
   }
 },
@@ -113407,6 +113412,7 @@
   "id": "node/11813297697",
   "properties": {
     "access": "yes",
+    "check_date": "2024-05-01",
     "defibrillator:location": "Fussballplatz Grüner Wald, Eingang",
     "description": "öffentlich zugänglich",
     "emergency": "defibrillator",
@@ -113421,8 +113427,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6515832,
-      46.8702993
+      8.6514947,
+      46.8701789
     ]
   }
 },
