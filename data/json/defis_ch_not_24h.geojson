@@ -3625,22 +3625,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/5155567241",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/5155567241"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5020466,
-      46.5985851
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/5155762989",
   "properties": {
     "emergency": "defibrillator",
@@ -143963,12 +143947,13 @@
   "id": "node/10811355576",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schalterraum",
+    "defibrillator:location": "Kassenschalter MGB",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
+    "opening_hours": "06:00-22:00",
     "operator": "Matterhorn Gotthard Bahn",
     "phone": "+41 27 927 71 98",
     "id": "node/10811355576"
