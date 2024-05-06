@@ -29350,6 +29350,51 @@
       47.2632295
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/11884811769",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Parkplatz",
+    "description": "immer zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "Bei Parkuhr",
+    "opening_hours": "24/7",
+    "operator": "Ortsgemeinde",
+    "id": "node/11884811769"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5072813,
+      47.3108922
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11884813269",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Mehrzweckhalle Bergli - Foyer",
+    "description": "während Schul- und Vereinszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "operator": "Primarschule",
+    "id": "node/11884813269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5902296,
+      47.3359994
+    ]
+  }
 }
 ]
 }
