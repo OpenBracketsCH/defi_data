@@ -176415,6 +176415,125 @@
       47.3568597
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/11886782369",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Turnhalle Oekingen - Eingang",
+    "description": "Immer Verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde Oekingen",
+    "phone": "+41 32 675 74 87",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11886782369"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6040091,
+      47.179256
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11886782370",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Allega GmbH, beim Eingang Büro Prduktion",
+    "description": "während der Arbeitswoche",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "Erdgeschoss",
+    "opening_hours": "Mo-Fr 06:00 - 23:00",
+    "operator": "Allega GmbH",
+    "phone": "+41 62 748 25 25",
+    "id": "node/11886782370"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9803768,
+      47.2132454
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11886810769",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Seeblerstrasse",
+    "description": "während Arbeitszeit",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "Erdgeschoss",
+    "opening_hours": "Mo-Fr 07:00-16:00",
+    "operator": "Allega GmbH",
+    "phone": "+41 44 852 41 11",
+    "id": "node/11886810769"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5020775,
+      47.4858912
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11886873769",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "zeka Wohnhaus Aargau",
+    "description": "Neben Lift, Pflegepersonal ist 24/7 telefonisch erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1.",
+    "operator": "zeka Wohnhaus Aargau",
+    "phone": "+41 56 484 86 86",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11886873769"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2841527,
+      47.4531258
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11886890069",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "zeka atelier",
+    "description": "Neben dem Lift, Pflegepersonal ist 24/7 telefonisch erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1.",
+    "operator": "zeka Wohnhaus Aargau",
+    "phone": "+41 56 484 86 86",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11886890069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2832193,
+      47.4534414
+    ]
+  }
 }
 ]
 }
