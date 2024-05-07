@@ -4881,24 +4881,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7559369526",
-  "properties": {
-    "access": "yes",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "id": "node/7559369526"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5410024,
-      47.2888242
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7559383146",
   "properties": {
     "access": "yes",
@@ -6942,8 +6924,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8157011,
-      47.3324439
+      8.8146166,
+      47.3325588
     ]
   }
 },
@@ -77918,6 +77900,31 @@
     "coordinates": [
       8.9264721,
       47.3246942
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11886365869",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Aparthotel Guggach",
+    "description": "Während Öffnungszeiten im Treppenhaus im 1. OG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 8:00-18:00",
+    "operator": "Aparthotel Guggach",
+    "phone": "+41  44 363 32 10",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11886365869"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5325682,
+      47.3990391
     ]
   }
 }
