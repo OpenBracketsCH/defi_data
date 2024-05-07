@@ -7679,6 +7679,52 @@
       47.352801
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/11886003069",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Mehrzweckhalle, neben Eingang rechts",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Kappel",
+    "phone": "+41 79 333 96 20",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11886003069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8512442,
+      47.3267559
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11886012769",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Gemeindehaus, Dorfstrasse 27, im Foyer",
+    "description": "während der Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Einwohnergemeinde Kappel",
+    "phone": "+41 79 333 96 20",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11886012769"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8487605,
+      47.3268613
+    ]
+  }
 }
 ]
 }

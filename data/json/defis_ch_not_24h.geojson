@@ -174157,50 +174157,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11837545269",
-  "properties": {
-    "defibrillator:location": "Feuerwehrgebäude",
-    "description": "während Bürozeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Feuerwehr Dielsdorf",
-    "phone": "+41448533805",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/11837545269"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4599823,
-      47.4777282
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11837545270",
-  "properties": {
-    "defibrillator:location": "Gemeindehaus Dielsdorf, Eingangshalle links an der Wand",
-    "description": "während Öffungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Gemeindeverwaltung Dielsdorf",
-    "phone": "+41448533805",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/11837545270"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4523004,
-      47.4832716
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11837548485",
   "properties": {
     "access": "no",
@@ -176248,6 +176204,51 @@
     "coordinates": [
       6.591879,
       46.5285668
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11886012769",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Gemeindehaus, Dorfstrasse 27, im Foyer",
+    "description": "während der Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Einwohnergemeinde Kappel",
+    "phone": "+41 79 333 96 20",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11886012769"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8487605,
+      47.3268613
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11886057669",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Golfpark Moossee / Restaurant",
+    "description": "während der Öffnungszeiten verfügbar ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "Erdgeschoss",
+    "phone": "+41585684000",
+    "id": "node/11886057669"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4634246,
+      47.0277435
     ]
   }
 }
