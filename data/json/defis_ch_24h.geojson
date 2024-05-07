@@ -114777,6 +114777,73 @@
       47.3267559
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/11886100169",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Jupiterstrasse 11",
+    "description": "Eingang Betriebszentrale",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "Parterre",
+    "opening_hours": "24/7",
+    "operator": "Überbauungsgenossenschaft Murifeld",
+    "phone": "+41319410762",
+    "id": "node/11886100169"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4817459,
+      46.9390094
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11886100170",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussenwand gut sichtbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11886100170"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1839824,
+      46.3640068
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11886136369",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "karl‘s kühne gassenschau gelände",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "unter Tribüne",
+    "opening_hours": "24/7",
+    "operator": "karl‘s kühne gassenschau gmbh",
+    "id": "node/11886136369"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3864541,
+      47.4128077
+    ]
+  }
 }
 ]
 }
