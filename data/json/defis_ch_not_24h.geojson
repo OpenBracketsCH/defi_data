@@ -176739,7 +176739,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 07:00-18:00",
+    "opening_hours": "Mo-Fr 07:00-18:00; Sa 09:00-13:00",
     "operator": "Auto Marti AG",
     "phone": "+41 31 9851010",
     "source": "local_knowledge, defikarte.ch",
@@ -176783,7 +176783,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "opening_hours": "Mo-Fr 08:00-21:30",
+    "opening_hours": "Mo-Fr 06:30-21:30; Tu 08:00-21:30; Th 08:00-21:30; Sa-Su 09:00-17:00",
     "operator": "Activfitness WIN4 Winterthur",
     "phone": "+41 (52) 550 15 05",
     "source": "local_knowledge, defikarte.ch",
@@ -176858,6 +176858,27 @@
     "coordinates": [
       8.8123193,
       46.1760183
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11896492169",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "schulhaus haldenstein t",
+    "description": "beim eingang der turnhalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "ebenerdig",
+    "id": "node/11896492169"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5250897,
+      46.8772951
     ]
   }
 }

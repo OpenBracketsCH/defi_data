@@ -77329,27 +77329,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11862362670",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Tauchplatz Terlinden ",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde Küsnacht, SUSV",
-    "id": "node/11862362670"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5730979,
-      47.3292301
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11862556573",
   "properties": {
     "access": "permissive",
@@ -78061,7 +78040,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "opening_hours": "Mo-Fr 08:00-21:30",
+    "opening_hours": "Mo-Fr 06:30-21:30; Tu 08:00-21:30; Th 08:00-21:30; Sa-Su 09:00-17:00",
     "operator": "Activfitness WIN4 Winterthur",
     "phone": "+41 (52) 550 15 05",
     "source": "local_knowledge, defikarte.ch",
@@ -78228,6 +78207,29 @@
     "coordinates": [
       8.9292335,
       47.2652205
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11896529569",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Regionalwache Oerlikon",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "opening_hours": "24/7",
+    "operator": "Stadtpolizei Zürich",
+    "phone": "+41444118310",
+    "id": "node/11896529569"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5465159,
+      47.4073673
     ]
   }
 }
