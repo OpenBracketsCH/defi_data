@@ -149484,7 +149484,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 08:00-17:00",
-    "operator": "AOZ - Asylorganisation Zürich",
+    "operator": "AOZ, Asylorganisation Zürich",
     "phone": "+41 44 415 68 00",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10977188005"
@@ -151286,7 +151286,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "AOZ - Asylorganisation Zürich",
+    "operator": "AOZ, Asylorganisation Zürich",
     "phone": "+41 44 281 05 16",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/11038063606"
@@ -177039,6 +177039,74 @@
     "coordinates": [
       8.1062649,
       47.1774364
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11900904105",
+  "properties": {
+    "access": "private",
+    "addr:housenumber": "1",
+    "addr:street": "Trasadingerstrasse",
+    "defibrillator:location": "1. OG Treppe Kommando Zentralle \n1415LTM",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1.OG",
+    "opening_hours": "Mo-Fr  07.00 - 17.00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "ref": "1415 LTM",
+    "id": "node/11900904105"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5882334,
+      47.6906183
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11900930569",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "klein döttingen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/11900930569"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2933777,
+      47.4487893
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11901038970",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sportanlage vor dem Eingang Garderobengebäude",
+    "description": "Offen zugänglich ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde Kilchberg ",
+    "phone": "+41447163090",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11901038970"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5378213,
+      47.3185532
     ]
   }
 }
