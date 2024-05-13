@@ -4370,7 +4370,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-11:30,14:00-16:00",
+    "opening_hours": "\"during swimming courses\"",
     "operator": "Ville de Morges",
     "id": "node/10081939924"
   },
@@ -9342,6 +9342,26 @@
     "coordinates": [
       6.8464285,
       46.4594066
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11900415506",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Dans le sas d'entrée de la fondation des Eglantines",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/11900415506"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8525991,
+      46.4592136
     ]
   }
 }
