@@ -25583,6 +25583,77 @@
       47.4487893
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/11901449169",
+  "properties": {
+    "defibrillator:location": "Turnhalle, Schulhaus Schachen",
+    "description": "Während Schulzeiten, Trainingszeiten Vereine und Abendunterhaltungen Turnhalle verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30 - 22:00",
+    "operator": "Gemeinde",
+    "phone": "+41 62 839 00 50",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11901449169"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0813456,
+      47.4124072
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11901452069",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Biobadi Biberstein",
+    "description": "während Öffnungszeiten und Saison Biobadi (April bis September)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "09:00 - 20:00",
+    "operator": "Gemeinde",
+    "phone": "+41 62 839 00 50",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11901452069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0820966,
+      47.411928
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11901455569",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Gemeindehaus",
+    "description": "während Öffnungszeiten und Nicht-Saison Biobadi (Oktober bis März)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo 08:00 - 12:00, 14:00 - 18:30, Tu - Th 08:00 - 12:00, 14:00 - 16:30; Fr 07:00 - 14:00",
+    "operator": "Gemeinde",
+    "phone": "+41 62 839 00 50",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11901455569"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0775797,
+      47.4139028
+    ]
+  }
 }
 ]
 }
