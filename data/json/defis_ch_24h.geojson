@@ -54258,7 +54258,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Im Treppenhaus Richtung Tiefgarage",
-    "description": "24h verfügbar",
+    "description": "während den Öffnungszeiten der Gemeindeverwaltung",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -115303,6 +115303,27 @@
     "coordinates": [
       8.5730803,
       47.3291738
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11903847169",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "links neben dem Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Ortsgemeinde  Wartau",
+    "id": "node/11903847169"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4822741,
+      47.0805465
     ]
   }
 }
