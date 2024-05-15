@@ -55565,6 +55565,26 @@
 },
 {
   "type": "Feature",
+  "id": "node/8984777842",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussen am Gebäude der Talstation der Marzilibahn",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "location": "outdoor",
+    "opening_hours": "24/7",
+    "id": "node/8984777842"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4430187,
+      46.9451787
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8984806187",
   "properties": {
     "access": "yes",
@@ -115438,6 +115458,30 @@
     "coordinates": [
       8.1538698,
       47.3275908
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11907929069",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhausplatz Mühlau / Notfalltreffpunkt",
+    "description": "Immer verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "phone": "+41565001350",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11907929069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3877987,
+      47.2304937
     ]
   }
 }

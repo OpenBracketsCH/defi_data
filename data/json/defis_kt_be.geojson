@@ -192,19 +192,12 @@
   "properties": {
     "access": "permissive",
     "addr:city": "Bern",
-    "addr:country": "CH",
-    "addr:floor": "0",
-    "addr:housename": "Globus",
-    "addr:housenumber": "17",
-    "addr:postcode": "3011",
-    "addr:street": "Spitalgasse",
-    "contact:emergency": "144",
     "defibrillator:location": "Beim Verkaufspersonal melden. - AED im Erdgeschoss im Sanitätszimmer. Zugang via Spitalgasse oder Schauplatzgasse. Bitte Öffnungszeiten beachten.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "floor": "0",
     "indoor": "yes",
     "opening_hours": "Mo-We 09:00-19:00; Th 09:00-21:00; Fr 09:00-19:00; Sa 08:00-17:00; Su off",
-    "source": "survey",
     "id": "node/3523273973"
   },
   "geometry": {
@@ -34572,22 +34565,19 @@
   "type": "Feature",
   "id": "node/8984777842",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Im Kommandoraum der Marzilibahn; in der Bergstation",
-    "description": "während Öffnungszeiten verfügbar",
+    "access": "yes",
+    "defibrillator:location": "Aussen am Gebäude der Talstation der Marzilibahn",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Su 06:00-21:00",
-    "operator": "Martin Neumeyer",
-    "phone": "+41 79 455 78 68",
+    "location": "outdoor",
+    "opening_hours": "24/7",
     "id": "node/8984777842"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4430542,
-      46.9452172
+      7.4430187,
+      46.9451787
     ]
   }
 },
