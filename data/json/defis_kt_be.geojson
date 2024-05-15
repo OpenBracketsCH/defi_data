@@ -8217,13 +8217,14 @@
   "type": "Feature",
   "id": "node/6629722078",
   "properties": {
-    "access": "private",
+    "access": "yes",
     "addr:city": "Schangnau",
     "addr:postcode": "6197",
-    "addr:street": "Feuerwehrmagazin",
-    "defibrillator:location": "nicht öffentlich, mit Schloss gesichert",
+    "defibrillator:location": "Auf dem öffentlichen WC im neuen Schulhaus Bumbach",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
     "operator": "SV Schangnau",
     "phone": "+41 34 493 39 50",
     "id": "node/6629722078"
@@ -8231,32 +8232,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.8945339,
-      46.8136921
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/6629722079",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Schangnau",
-    "addr:housenumber": "290",
-    "addr:postcode": "6197",
-    "addr:street": "Gemeindehaus",
-    "defibrillator:location": "Gemeindehaus",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "07:00-20:00",
-    "operator": "Gemeindehaus",
-    "id": "node/6629722079"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.860177,
-      46.8276401
+      7.8935654,
+      46.8141149
     ]
   }
 },
