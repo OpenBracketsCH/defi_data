@@ -177628,6 +177628,79 @@
       47.0388597
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/11905915869",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Weiherallee 11a, 8610 Uster, 2. Stock, Flur zu Büro Buchmann Partner AG",
+    "description": "während Bürozeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo-Fr 8:00 - 16:00",
+    "operator": "Buchmann Partner AG und Webcraft AG",
+    "phone": "+41445000388",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11905915869"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7061501,
+      47.346209
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11906093269",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Holcim Langhagstrasse 40, 4127 Birsfelden",
+    "description": "während den Öffnungszeiten ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3. Stockwerk Bürogebäude",
+    "opening_hours": "Mo-Fr 07:00-17:00",
+    "operator": "Holcim",
+    "phone": "+41588500042",
+    "id": "node/11906093269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.637143,
+      47.5516721
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11906228869",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Holcim Bürogebäude Standort markiert",
+    "description": "während den Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3.",
+    "opening_hours": "Mo-Fr 07:00-17:00",
+    "operator": "Holcim",
+    "phone": "+41585800042",
+    "id": "node/11906228869"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6371643,
+      47.5516117
+    ]
+  }
 }
 ]
 }
