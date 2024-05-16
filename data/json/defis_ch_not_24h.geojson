@@ -177231,6 +177231,7 @@
     "access": "yes",
     "defibrillator:location": "RB und LS Station Kräbel",
     "emergency": "defibrillator",
+    "indoor": "no",
     "operator": "Rigi Bahnen AG",
     "id": "node/11904179329"
   },
@@ -177896,6 +177897,27 @@
     "coordinates": [
       8.6266577,
       47.0142336
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11909377969",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Schulhaus Ruggenacher 2, im Lehrerzimmer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "operator": "Schulhaus Ruggenacher",
+    "id": "node/11909377969"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4645078,
+      47.4345775
     ]
   }
 }
