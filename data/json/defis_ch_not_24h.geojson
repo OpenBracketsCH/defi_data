@@ -55159,8 +55159,8 @@
   "type": "Feature",
   "id": "node/8636115317",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "kilchmatt",
+    "access": "yes",
+    "defibrillator:location": "EWS Unterstation Hetschgen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -55169,8 +55169,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6202173,
-      47.0014403
+      8.6202023,
+      47.001212
     ]
   }
 },
@@ -170990,13 +170990,14 @@
     "emergency:phone": "144",
     "indoor": "no",
     "level": "EG",
+    "operator": "Gemeinde Reichenburg",
     "id": "node/11742736469"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.979452,
-      47.167703
+      8.9794381,
+      47.1676481
     ]
   }
 },
@@ -176843,8 +176844,11 @@
   "type": "Feature",
   "id": "node/11896962911",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Restaurant Pluspunkt",
     "emergency": "defibrillator",
     "indoor": "no",
+    "operator": "Gemeinde Ingenbohl Brunnen",
     "id": "node/11896962911"
   },
   "geometry": {
@@ -177820,6 +177824,78 @@
     "coordinates": [
       8.6325139,
       47.0274054
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11909242783",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hagedorn AG Tankstelle",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "operator": "Hagedorn AG",
+    "id": "node/11909242783"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.794899,
+      47.2024736
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11909277717",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "BSZ Stiftung",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "operator": "BSZ Stiftung",
+    "id": "node/11909277717"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9261143,
+      47.1772944
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11909340602",
+  "properties": {
+    "defibrillator:location": "Schwyzer Kantonalbank",
+    "emergency": "defibrillator",
+    "operator": "Schwyzer Kantonalbank",
+    "id": "node/11909340602"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.81998,
+      47.1931766
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11909341993",
+  "properties": {
+    "defibrillator:location": "AGRO Energiezentrale",
+    "emergency": "defibrillator",
+    "ref": "Gemeinde Schwyz",
+    "id": "node/11909341993"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6266577,
+      47.0142336
     ]
   }
 }
