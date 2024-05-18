@@ -3003,27 +3003,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11614879869",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Nendeln, Kirche öffentliche Toilette",
-    "description": "24/7 Neben der Kirche bei den öffentlichen Toiletten",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Gemeinde Eschen-Nendeln",
-    "id": "node/11614879869"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.5447907,
-      47.1994971
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11649491371",
   "properties": {
     "access": "yes",
@@ -3590,6 +3569,30 @@
     "coordinates": [
       9.5769323,
       47.1126858
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11916053469",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kirche Nendeln, öffentliche Toilette ",
+    "description": "Öffentliche Toilette",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "EG",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Eschen-Nendeln",
+    "phone": "+4237949020",
+    "id": "node/11916053469"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5447861,
+      47.1995431
     ]
   }
 }
