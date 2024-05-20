@@ -77659,27 +77659,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9942443321",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "liestal",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "liestal",
-    "id": "node/9942443321"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.3053818,
-      47.4760857
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9942761934",
   "properties": {
     "access": "yes",
@@ -115955,6 +115934,29 @@
     "coordinates": [
       8.5564413,
       47.4231732
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11919187169",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Tennisclub Baden",
+    "description": "an Wand neben Türe zum Clubhaus, öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "TC Baden",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11919187169"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2983148,
+      47.4723365
     ]
   }
 }
