@@ -72543,25 +72543,24 @@
 },
 {
   "type": "Feature",
-  "id": "node/9181030071",
+  "id": "node/9181030072",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Im Fitnessstudio, Erdgeschoss, Im hinteren Teil des Studios, direkt vor den WCs",
+    "defibrillator:location": "Im Fitnessstudio, Erdgeschoss, bei der Eingangstüre links",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "0",
-    "opening_hours": "Mo-Fr 18:00-20:00",
+    "opening_hours": "Mo-Th 08:00-18:00; Fr-Sa 08:30-11:00",
     "operator": "ONE MORE GmbH, Aaron Müller",
     "phone": "+41 43 499 80 10",
-    "id": "node/9181030071"
+    "id": "node/9181030072"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3774449,
-      47.5084024
+      8.397922,
+      47.5030423
     ]
   }
 },
@@ -122547,72 +122546,6 @@
     "coordinates": [
       8.2457221,
       47.3549172
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10737085605",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Haupteingang der Turnhalle Hof",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Gemeinde Villmergen",
-    "phone": "+41 56 619 59 40",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/10737085605"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.2479376,
-      47.3521479
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10737089705",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Unter dem Vordach zwischen Schulhaus und Turnhalle",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Gemeinde Villmergen",
-    "phone": "+41 56 619 59 40",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/10737089705"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.2459152,
-      47.3520934
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10737089706",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Beim Haupteingang",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Gemeinde Villmergen",
-    "phone": "+41 56 619 59 40",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/10737089706"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.2455343,
-      47.3496001
     ]
   }
 },
