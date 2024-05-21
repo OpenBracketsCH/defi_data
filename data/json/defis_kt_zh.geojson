@@ -21010,51 +21010,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8906306517",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Hallenbad Kilchberg",
-    "description": "Montag bis Freitag 8.00 Uhr bis 22.00 Uhr Samstag znd Sonntag 8.00 Uhr bis 18.00 Uhr",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-22:00; Sa-Su 08:00-18:00",
-    "operator": "Gemeinde Kilchberg",
-    "phone": "+41 44 716 30 90",
-    "id": "node/8906306517"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5383707,
-      47.3183685
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8906311117",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Sportanalge Kilchberg",
-    "description": "während Bürozeiten",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Gemeinde Kilchberg",
-    "phone": "+41 44 716 30 90",
-    "id": "node/8906311117"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5372599,
-      47.318474
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8911187817",
   "properties": {
     "access": "yes",
@@ -27062,28 +27017,6 @@
     "coordinates": [
       8.5576513,
       47.4223098
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9524918529",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "im Gebäude Garderoben",
-    "description": "verschiedene Öffngszeiten",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Gemeinde Kilchberg",
-    "phone": "+41 44 716 30 90",
-    "id": "node/9524918529"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.537372,
-      47.3185777
     ]
   }
 },
@@ -60192,7 +60125,8 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "operator": "Gemeinde Kilchberg ",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Kilchberg",
     "phone": "+41447163090",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/11901038970"

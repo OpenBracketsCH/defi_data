@@ -62480,29 +62480,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9181055382",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Beim Eingang Medizinisches Center Bonaduz",
-    "description": "24h verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Samariterverein Bonaduz/Rhäzüns",
-    "phone": "+41 79 823 67 77",
-    "id": "node/9181055382"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.3938918,
-      46.8113504
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9181061819",
   "properties": {
     "access": "no",
@@ -105780,8 +105757,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4399378,
-      47.3225532
+      8.4395032,
+      47.3228409
     ]
   }
 },
@@ -114190,29 +114167,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11861689370",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Medizinisches Zentrum Bongert",
-    "description": "Immer Verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "Parterre Draussen",
-    "opening_hours": "24/7",
-    "operator": "Hinter Restaurant Bongert",
-    "id": "node/11861689370"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.3947888,
-      46.810725
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11865514869",
   "properties": {
     "access": "yes",
@@ -115308,6 +115262,30 @@
     "coordinates": [
       8.4165734,
       47.5001447
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11901038970",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sportanlage vor dem Eingang Garderobengebäude",
+    "description": "Offen zugänglich ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Kilchberg",
+    "phone": "+41447163090",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11901038970"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5378213,
+      47.3185532
     ]
   }
 },
