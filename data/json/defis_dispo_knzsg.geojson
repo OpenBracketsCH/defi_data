@@ -21425,30 +21425,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10755916705",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Wohn- und Pflegezentrum Wiborada",
-    "description": "Erdgeschoss",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Bernhardzell",
-    "phone": "+41 71 434 6200",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/10755916705"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.3398562,
-      47.4726362
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10757284405",
   "properties": {
     "access": "no",
@@ -29483,6 +29459,30 @@
     "coordinates": [
       9.2687987,
       47.3899453
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11922048671",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Wohn- und Pflegezentrum Wiborada",
+    "description": "Erdgeschoss beim Empfang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Wohn- und Pflegezentrum Wiborada",
+    "phone": "+41714346200",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11922048671"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3367161,
+      47.4728807
     ]
   }
 }
