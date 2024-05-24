@@ -32436,9 +32436,9 @@
   "type": "Feature",
   "id": "node/9960949180",
   "properties": {
-    "access": "no",
+    "access": "yes",
     "defibrillator:location": "Waffenplatz ZH-Reppischtal, Dienstgebäude",
-    "description": "Nicht öffentlich zugänglich",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -32458,12 +32458,13 @@
   "type": "Feature",
   "id": "node/9960949181",
   "properties": {
-    "access": "no",
+    "access": "yes",
     "defibrillator:location": "Waffenplatz ZH-Reppischtal, Forsthaus",
-    "description": "Nicht öffentlich Zugänglich",
+    "description": "Öffentlich zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "opening_hours": "24/7",
     "operator": "Amt für Militär und Zivilschutz",
     "phone": "+41 58 484 44 22",
     "id": "node/9960949181"
