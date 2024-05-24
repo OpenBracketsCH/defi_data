@@ -43841,14 +43841,16 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:30-16:30",
     "operator": "Stadt Uster, Stadthaus West",
     "id": "node/8099628241"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7154306,
-      47.3537349
+      8.7154861,
+      47.3537471
     ]
   }
 },
@@ -53307,14 +53309,15 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "operator": "Stadt Uster",
     "id": "node/8574210695"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7154721,
-      47.3488651
+      8.7154226,
+      47.3490063
     ]
   }
 },
@@ -57610,14 +57613,15 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "operator": "Kath. Kirche Uster",
     "id": "node/8742684118"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7233584,
-      47.349524
+      8.7230887,
+      47.3495862
     ]
   }
 },
@@ -69851,6 +69855,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Su 08:00-18:00",
     "operator": "Kath. Kirchgemeinde Uster",
     "phone": "+41 44 944 85 48",
@@ -69859,8 +69864,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7236662,
-      47.3494284
+      8.7235552,
+      47.3494025
     ]
   }
 },
@@ -73135,14 +73140,15 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "operator": "Gemeinde",
     "id": "node/9206228717"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7213558,
-      47.3483419
+      8.7217953,
+      47.3483225
     ]
   }
 },
@@ -92932,19 +92938,20 @@
   "id": "node/9790823317",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Kirchgemeindehaus, Zentralstr. 40",
+    "defibrillator:location": "Kirchgemeindehaus, Zentralstr. 40, Haupteingang gleich rechts an der Wand",
     "description": "während Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "operator": "Evangelisch-Reformierte Kirche Uster",
     "id": "node/9790823317"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7158613,
-      47.3458678
+      8.7158334,
+      47.345827
     ]
   }
 },
@@ -103330,6 +103337,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 07:00-20:00",
     "operator": "Sanität24 AG",
     "phone": "+41 56 611 99 88",
@@ -103338,8 +103346,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7133853,
-      47.3495901
+      8.7132317,
+      47.3495866
     ]
   }
 },
@@ -172158,7 +172166,7 @@
   "id": "node/11770725069",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Brunnenstrasse 1",
+    "defibrillator:location": "Brunnenstrasse 1, In dir Halle links an der Wand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -172256,8 +172264,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.714626,
-      47.3490796
+      8.7151044,
+      47.3490393
     ]
   }
 },
@@ -177856,6 +177864,30 @@
     "coordinates": [
       8.0160668,
       47.5101138
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11930145969",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Obere Allmeind 2a",
+    "description": "Während den Offnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "operator": "somedia",
+    "phone": "+41 055 645 28 28",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11930145969"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0750772,
+      47.0337183
     ]
   }
 }
