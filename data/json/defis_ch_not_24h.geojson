@@ -35038,10 +35038,12 @@
   "type": "Feature",
   "id": "node/7656536185",
   "properties": {
-    "defibrillator:location": "In der Apotheke",
+    "defibrillator:location": "Apotheke Dropa",
     "description": "Während Öffnungszeiten beim Personal melden",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:30-18:30; Sa 09:00-16:00",
     "id": "node/7656536185"
   },
   "geometry": {
@@ -35056,10 +35058,12 @@
   "type": "Feature",
   "id": "node/7656536186",
   "properties": {
-    "defibrillator:location": "Bank",
+    "defibrillator:location": "Steueramt",
     "description": "Beim Schalter links die Treppe hinunter. ",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo,Tu,Th 08:00-11:30, 13:30-16:30; We 08:00-11:30, 13:30-18:30; Fr 08:00-14:00; PH off",
     "id": "node/7656536186"
   },
   "geometry": {
@@ -43837,7 +43841,8 @@
   "type": "Feature",
   "id": "node/8099628241",
   "properties": {
-    "defibrillator:location": "Im Stadthaus West, Zugang Oberlandstrasse während Öffnungszeiten",
+    "defibrillator:location": "Stadthaus West",
+    "description": "Zugang Oberlandstrasse während Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -43858,11 +43863,11 @@
   "type": "Feature",
   "id": "node/8099632605",
   "properties": {
-    "defibrillator:location": "Im Feuerwehrdepot Während Arbeitszeit 07:30 - 17:00 Uhr",
+    "defibrillator:location": "Feuerwehrdepot",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 07:00-17:00",
+    "opening_hours": "Mo-Fr 07:30-17:00",
     "operator": "Feuerwehr Uster",
     "id": "node/8099632605"
   },
@@ -53179,8 +53184,8 @@
   "id": "node/8574210688",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Bademeisterraum",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Dorfbadi",
+    "description": "während Öffnungszeiten verfügbar\nBademeisterraum",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -53263,11 +53268,12 @@
   "id": "node/8574210693",
   "properties": {
     "access": "no",
-    "defibrillator:location": "beim Haupteingang, links Treppe halb runter.",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Stadthaus beim Haupteingang",
+    "description": "während Öffnungszeiten verfügbar\nBeim Haupteingang, links Treppe halb runter.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "opening_hours": "Mo,Tu,Th 08:00-11:30, 13:30-16:30; We 08:00-11:30, 13:30-18:30; Fr 08:00-14:00; PH off",
     "operator": "Stadt Uster",
     "id": "node/8574210693"
   },
@@ -53284,6 +53290,7 @@
   "id": "node/8574210694",
   "properties": {
     "access": "no",
+    "defibrillator:location": "MusikContainer",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -53304,7 +53311,7 @@
   "id": "node/8574210695",
   "properties": {
     "access": "no",
-    "defibrillator:location": "im Stadthoofsaal",
+    "defibrillator:location": "Stadthoofsaal",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -53389,8 +53396,8 @@
   "id": "node/8574210700",
   "properties": {
     "access": "no",
-    "defibrillator:location": "im Aufenthaltsraum Werkgebäude",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Werkgebäude",
+    "description": "während Öffnungszeiten verfügbar\nim Aufenthaltsraum Werkgebäude",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -69850,8 +69857,8 @@
   "id": "node/9107168038",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bei Eingang rechts",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Kath. Kirchgemeinde",
+    "description": "während Öffnungszeiten verfügbar\nBei Eingang rechts",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -92938,8 +92945,8 @@
   "id": "node/9790823317",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Kirchgemeindehaus, Zentralstr. 40, Haupteingang gleich rechts an der Wand",
-    "description": "während Öffnungszeiten",
+    "defibrillator:location": "Kirchgemeindehaus, Zentralstr. 40",
+    "description": "während Öffnungszeiten\nHaupteingang gleich rechts an der Wand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -103332,7 +103339,7 @@
   "id": "node/10011403731",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Turnhalleneingang",
+    "defibrillator:location": "Schulhaus Pünt, Turnhalleneingang",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -129234,8 +129241,8 @@
   "id": "node/10763310102",
   "properties": {
     "access": "no",
-    "defibrillator:location": "1. OG, Reception",
-    "description": "oranger Koffer",
+    "defibrillator:location": "Allianz Empfang",
+    "description": "1. OG, Reception\noranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -169121,7 +169128,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 7:45- 11:45, 13:30-16:30",
+    "opening_hours": "Mo-Fr 8:00-11:45, 13:30-16:30; PH off",
     "operator": "Bezirksgericht Uster",
     "phone": "+41 43 366 33 00",
     "source": "local_knowledge, defikarte.ch",
@@ -172166,7 +172173,8 @@
   "id": "node/11770725069",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Brunnenstrasse 1, In dir Halle links an der Wand",
+    "defibrillator:location": "BIZ, Brunnenstrasse 1",
+    "description": "In der Halle links an der Wand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
