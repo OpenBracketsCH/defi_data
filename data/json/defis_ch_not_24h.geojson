@@ -177898,6 +177898,53 @@
       47.0337183
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/11930405269",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Medienhaus Somedia Chur",
+    "description": "Eingangshalle Gegenüber Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:30-17:00 ",
+    "operator": "Somedia Services AG",
+    "phone": "+41 81 255 55 61",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11930405269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5019969,
+      46.8480509
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11930405270",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Druckereigebäude",
+    "description": "Während Öffnungszeiten verfügbar. Mo.-Fr. 08.00-12.00 / 13.00-17.00",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Communicaziun.ch AG",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11930405270"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2066073,
+      46.7743259
+    ]
+  }
 }
 ]
 }
