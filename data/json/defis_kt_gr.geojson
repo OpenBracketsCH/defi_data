@@ -2623,7 +2623,7 @@
   "id": "node/8541080318",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Feuerwehrlokal Andeer",
+    "defibrillator:location": "In der Nische des Hauseingangs im grünen Aussenkasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -2634,8 +2634,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4234453,
-      46.6027184
+      9.4265122,
+      46.6037505
     ]
   }
 },
@@ -3995,8 +3995,8 @@
   "type": "Feature",
   "id": "node/8993197817",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Bei Rampe von Volg",
+    "access": "yes",
+    "defibrillator:location": "Bei der Rampe links neben dem Laden Volg",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -4006,8 +4006,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4266189,
-      46.6017738
+      9.4266618,
+      46.6018733
     ]
   }
 },
@@ -12212,17 +12212,19 @@
   "id": "node/11522054775",
   "properties": {
     "access": "yes",
+    "check_date": "2024-05-25",
     "defibrillator:location": "Im Sitzungszimmer der Gemeinde im alten Schulhaus.",
     "emergency": "defibrillator",
     "emergency_telephone_code": "144",
+    "indoor": "yes",
     "opening_hours": "24/7",
     "id": "node/11522054775"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4295767,
-      46.6290712
+      9.4296169,
+      46.6291136
     ]
   }
 },
@@ -13635,6 +13637,49 @@
 },
 {
   "type": "Feature",
+  "id": "node/11932699861",
+  "properties": {
+    "access": "yes",
+    "check_date": "2024-05-25",
+    "defibrillator:location": "In einer Nische, im grünen Aussenkasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "First Responder Schams",
+    "id": "node/11932699861"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4261725,
+      46.6162222
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11932701415",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kassengebäude Zugang Besichtigung der Kirche St. Martin",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-So 10.00-17.00 Uhr",
+    "operator": "First Responder Schams",
+    "id": "node/11932701415"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4420796,
+      46.6345033
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/11932709815",
   "properties": {
     "access": "yes",
@@ -13652,6 +13697,27 @@
     "coordinates": [
       9.4248368,
       46.634022
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11932755097",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Kehrichthäuschen, im grünen Aussenkasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "First Responder Schams",
+    "id": "node/11932755097"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4381097,
+      46.6125723
     ]
   }
 }
