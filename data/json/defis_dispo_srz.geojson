@@ -48846,12 +48846,16 @@
   "id": "node/10185369836",
   "properties": {
     "access": "no",
+    "addr:housenumber": "Niedelbadstrasse 58",
+    "addr:postcode": "8803 Rüschlikon",
     "defibrillator:location": "Eingangsbereich Erdgeschoss (hinter Eingangstüre)",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "operator": "Politische Gemeinde",
+    "ref": "Ortsmuseum Rüschlikon",
     "id": "node/10185369836"
   },
   "geometry": {
@@ -48867,14 +48871,14 @@
   "id": "node/10185369837",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Durchgang ( rechts neben WC )",
+    "defibrillator:location": "Seebad Durchgang ( rechts neben WC Herren )",
     "description": "während Öffnungszeiten täglich verfügbar von 09:00 bis 20:00",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
     "operator": "Gemeinde Rüschlikon",
-    "phone": "+41 44 724 72 61",
+    "phone": "+41 44 724 72 50",
     "ref": "Seestrasse 23",
     "id": "node/10185369837"
   },
@@ -48897,8 +48901,8 @@
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
-    "operator": "Gemeinde Rüschlikon",
-    "phone": "+41 44 724 72 61",
+    "operator": "Politische Gemeinde Rüschlikon",
+    "phone": "+41 44 724 72 50",
     "ref": "Sportplatzhaus Feldimoostrasse 10",
     "id": "node/10185369838"
   },
@@ -48976,29 +48980,6 @@
     "coordinates": [
       8.5564184,
       47.3082055
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10185369842",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Eingangsbereich Erdgeschoss (vor zweiter Glasschiebeüre links)",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "operator": "Gemeinde Rüschlikon",
-    "phone": "+41 44 724 72 61",
-    "id": "node/10185369842"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5554887,
-      47.3081652
     ]
   }
 },
