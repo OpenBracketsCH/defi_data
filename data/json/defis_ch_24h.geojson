@@ -15057,7 +15057,7 @@
   "id": "node/6976909956",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Eingang Schwyzer Kantonalbank",
+    "defibrillator:location": "Schwyzer Kantonalbank, 24h-Zone",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -15081,7 +15081,7 @@
   "id": "node/6976909957",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schwyzer Kantonalbank Vorraum, Karte nötig",
+    "defibrillator:location": "Schwyzer Kantonalbank, 24h-Zone",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -15103,9 +15103,10 @@
   "id": "node/6976909958",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schwyzer Kantonalbank",
+    "defibrillator:location": "Schwyzer Kantonalbank, 24h-Zone",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "24/7",
     "operator": "Schwyzer Kantonalbank",
     "phone": "+41 58 800 20 20",
@@ -15308,9 +15309,10 @@
   "id": "node/6976909967",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schwyzer Kantonalbank",
+    "defibrillator:location": "Schwyzer Kantonalbank, Aussenbereich vor 24h-Zone",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Schwyzer Kantonalbank",
     "phone": "+41 58 800 20 20",
@@ -15319,8 +15321,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7194401,
-      47.1954254
+      8.7194866,
+      47.1954934
     ]
   }
 },
@@ -16724,9 +16726,10 @@
   "id": "node/6976938435",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schwyzer Kantonalbank",
+    "defibrillator:location": "Schwyzer Kantonalbank, 24h-Zone",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "24/7",
     "operator": "Schwyzer Kantonalbank",
     "phone": "+41 58 800 20 20",
@@ -16735,8 +16738,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4398241,
-      47.0819653
+      8.43977,
+      47.0820127
     ]
   }
 },
@@ -27039,26 +27042,6 @@
     "coordinates": [
       8.4445962,
       47.0870823
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7637818883",
-  "properties": {
-    "access": "yes",
-    "description": "im Vorraum (Bankomat)",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Schwyzer Kantonalbank",
-    "opening_hours": "24/7",
-    "id": "node/7637818883"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.439995,
-      47.081896
     ]
   }
 },
@@ -74444,8 +74427,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8015264,
-      47.0571856
+      8.8015805,
+      47.0571972
     ]
   }
 },
@@ -115455,6 +115438,7 @@
     "access": "yes",
     "defibrillator:location": "Dorfstrasse 28, 8834 Schindellegi\nin der 24h-Zone",
     "emergency": "defibrillator",
+    "indoor": "yes",
     "opening_hours": "24/7",
     "operator": "SZKB",
     "phone": "058 800 20 20",
@@ -115463,8 +115447,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7103794,
-      47.1761474
+      8.7103287,
+      47.1759854
     ]
   }
 },
