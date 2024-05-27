@@ -68796,14 +68796,14 @@
   "id": "node/9078511741",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Beim Eingang von Samariter Zürich 2 im 2. Stock",
+    "defibrillator:location": "Beim Eingang des Bildungszentrums Erste Hilfe im 2. Stock",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 07:00-17:15, Sa-Su 08:00-17:00",
-    "operator": "Samariter Zürich 2",
-    "phone": "+4143 244 61 23",
+    "operator": "Bildungszentrum Erste Hilfe",
+    "phone": "+41 43 817 69 49",
     "id": "node/9078511741"
   },
   "geometry": {
@@ -163936,28 +163936,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11522007669",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Poststrasse 2a, 8755 Ennenda",
-    "description": "Öffnungszeiten: ",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "1",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/11522007669"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.0776736,
-      47.0332613
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11522016969",
   "properties": {
     "access": "no",
@@ -177989,6 +177967,32 @@
     "coordinates": [
       8.5355113,
       47.5264507
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11936708369",
+  "properties": {
+    "access": "yes",
+    "addr:housenumber": "1",
+    "addr:street": "Route de l'Etraz",
+    "defibrillator:location": "Aussenfassande zwischen den 2 Eingängen.\n1419LTS",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "name": "Commune de Luins VD",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41800 122 144",
+    "ref": "1419LTS",
+    "id": "node/11936708369"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.2725595,
+      46.4425818
     ]
   }
 }
