@@ -85048,9 +85048,12 @@
   "type": "Feature",
   "id": "node/9553730800",
   "properties": {
-    "defibrillator:location": "Gemeindehaus (24)",
+    "access": "yes",
+    "defibrillator:location": "Im öffentlich zugänglichen Eingangsbereich des Stadthauses neben den Briefkästen.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Stadt Sempach",
     "id": "node/9553730800"
   },
   "geometry": {
@@ -178114,6 +178117,26 @@
     "coordinates": [
       7.3054548,
       47.0728952
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11939228969",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Maurerschule Winterthur, vor der Turnhalle (Eingange)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11939228969"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7367487,
+      47.4917396
     ]
   }
 }
