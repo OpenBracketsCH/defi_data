@@ -29365,6 +29365,7 @@
     "defibrillator:location": "Am Unterstand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "wheelchair": "limited",
     "id": "node/7988491845"
   },
@@ -54482,6 +54483,28 @@
     "coordinates": [
       7.3054548,
       47.0728952
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11939429471",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Empfang",
+    "description": "waehrend Oeffnungszeiten verfuegbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "Parterre",
+    "phone": "+41584699211",
+    "id": "node/11939429471"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3633719,
+      46.8808513
     ]
   }
 }
