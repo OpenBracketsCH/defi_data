@@ -2972,28 +2972,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9803332019",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Garage Wirz",
-    "description": "Direkt bei Waschanlage",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Garage Wirz ",
-    "id": "node/9803332019"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.7944597,
-      47.4685882
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9807840549",
   "properties": {
     "access": "yes",
@@ -7314,6 +7292,30 @@
     "coordinates": [
       7.7415462,
       47.4801371
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11941698069",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gymnasium Münchenstein",
+    "description": "während der Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2. OG, Bereich Trepoenhaus Aussenwand Sekretariat",
+    "opening_hours": "Mo-Fr 7:00 - 18:00",
+    "operator": "Kanton Baselland, Gymnasium Münchenstein",
+    "phone": "+41615521520",
+    "id": "node/11941698069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6169762,
+      47.5270441
     ]
   }
 }
