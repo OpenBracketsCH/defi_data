@@ -178229,13 +178229,17 @@
   "type": "Feature",
   "id": "node/11941587422",
   "properties": {
+    "access": "no",
     "addr:housenumber": "5",
     "addr:street": "Bernstrasse",
+    "defibrillator:location": "Treppenhaus 2.OG\n1424LTM",
     "description": "Oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "2",
     "name": "Inova Solutions AG",
+    "opening_hours": "Mo-Fr 08:00 - 17:00 Uhr",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41800 122 144",
     "ref": "1424 LTM",
@@ -178319,6 +178323,49 @@
     "coordinates": [
       7.8036404,
       47.4622261
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11942035769",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": " Hörnli Strasse 12",
+    "description": "Während Oe",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "Haupteingang",
+    "id": "node/11942035769"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9676884,
+      47.4603796
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11942090569",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sas d'entrée des salles de Gym Tatirone",
+    "description": "AED est à l'intérieur du Sas d'entrée",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Commune de Bussigny",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11942090569"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.5501958,
+      46.552711
     ]
   }
 }
