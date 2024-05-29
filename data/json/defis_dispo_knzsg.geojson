@@ -358,6 +358,25 @@
 },
 {
   "type": "Feature",
+  "id": "node/6504687072",
+  "properties": {
+    "access": "unknown",
+    "defibrillator:location": "Im Feuerwehrdepot: neben dem Haupteingang",
+    "description": "zu Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "operator": "Feuerwehr RTL",
+    "id": "node/6504687072"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.576819,
+      47.4783272
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/6513267002",
   "properties": {
     "access": "yes",
@@ -8796,12 +8815,12 @@
   "id": "node/8557253432",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "AED im Eingangsbereich der VGS medicals AG.",
+    "defibrillator:location": "AED im Eingangsbereich der VGS Schweiz AG.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "24/7",
-    "operator": "VGS medicals Schweiz",
+    "operator": "VGS Schweiz AG",
     "id": "node/8557253432"
   },
   "geometry": {
