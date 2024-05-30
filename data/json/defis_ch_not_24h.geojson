@@ -112341,27 +112341,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10240188756",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Seiteneingang",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "operator": "Schmid AG, energy solutions",
-    "phone": "+41 71 973 73 73",
-    "id": "node/10240188756"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.96668,
-      47.45983
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10240188759",
   "properties": {
     "access": "yes",
@@ -178391,6 +178370,30 @@
     "coordinates": [
       8.8077843,
       47.3315808
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11944422269",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "ANDRITZ Soutec AG / Bürogebäude",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "opening_hours": "Mo-Fr 8:00-17:00",
+    "operator": "Firma",
+    "phone": "+41523040744",
+    "id": "node/11944422269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6567923,
+      47.5242265
     ]
   }
 }
