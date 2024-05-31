@@ -70842,29 +70842,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11510500871",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Securitas AG Einsatzzentrale",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Securitas AG",
-    "phone": "+41 58 910 58 58",
-    "id": "node/11510500871"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5187499,
-      47.3730025
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11510563569",
   "properties": {
     "access": "no",
@@ -79319,6 +79296,30 @@
     "coordinates": [
       8.6567923,
       47.5242265
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11947734173",
+  "properties": {
+    "defibrillator:location": "TECTON AG Pfäffikon, Büro",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "TECTON AG Pfäffikon",
+    "phone": "+41 44 952 31 11",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11947734173"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7705177,
+      47.3699677
     ]
   }
 }
