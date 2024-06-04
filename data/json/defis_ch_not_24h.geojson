@@ -47129,7 +47129,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "operator": "SOB",
-    "phone": "+41 58 580 73 35",
+    "phone": "+41 58 580 70 70",
     "id": "node/8382790996"
   },
   "geometry": {
@@ -178746,6 +178746,30 @@
     "coordinates": [
       7.4,
       47
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11955556069",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Verkehrssicherheitszentrum Thurgau AG, im Eingang",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Verkehrssicherheitszentrum Thurgau AG",
+    "phone": "+41 71 626 27 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11955556069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0898561,
+      47.567485
     ]
   }
 }

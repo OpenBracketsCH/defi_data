@@ -1314,7 +1314,7 @@
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "SOB",
-    "phone": "+41 58 580 73 35",
+    "phone": "+41 58 580 70 70",
     "wheelchair": "limited",
     "wheelchair:description": "You need an Eurokey to use the stair lift.",
     "id": "node/8382752968"
@@ -1339,7 +1339,7 @@
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "SOB",
-    "phone": "+41 58 580 73 35",
+    "phone": "+41 58 580 70 70",
     "id": "node/8382799472"
   },
   "geometry": {
@@ -1362,7 +1362,7 @@
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "SOB",
-    "phone": "+41 58 580 73 35",
+    "phone": "+41 58 580 70 70",
     "id": "node/8382799843"
   },
   "geometry": {
@@ -14314,6 +14314,30 @@
     "coordinates": [
       8.9676884,
       47.4603796
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11955556069",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Verkehrssicherheitszentrum Thurgau AG, im Eingang",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Verkehrssicherheitszentrum Thurgau AG",
+    "phone": "+41 71 626 27 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11955556069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0898561,
+      47.567485
     ]
   }
 }
