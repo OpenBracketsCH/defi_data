@@ -13817,6 +13817,51 @@
       46.75036
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/11956117369",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Arztpraxis Capitani",
+    "description": "Arztpraxis",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "operator": "Arztpraxis Capitani",
+    "id": "node/11956117369"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5588913,
+      46.7271459
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11956120671",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Quaderstrasse 7, EG bei Briefkasten",
+    "description": "Während Bürozeiten zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Foppa Immobilien",
+    "phone": "+41 81 250 49 57",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11956120671"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.53219,
+      46.8523884
+    ]
+  }
 }
 ]
 }
