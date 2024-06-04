@@ -44779,18 +44779,20 @@
   "type": "Feature",
   "id": "node/9954854107",
   "properties": {
-    "check_date": "2022-12-14",
+    "defibrillator:location": "Bridge, im Bereich Körperpflege",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "fixme": "genau Lagebeschreibung und Zugangsinformationen fehlen noch.",
     "indoor": "yes",
+    "level": "1",
+    "operator": "Genossenschaft Migros Zürich",
+    "phone": "+58 563 27 27",
     "id": "node/9954854107"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5342064,
-      47.3786487
+      8.5340048,
+      47.3787312
     ]
   }
 },
@@ -65659,7 +65661,12 @@
     "defibrillator:location": "Im Bad neben Eingang / In pool area next to entrance",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "Mo-Su 11:00-18:30,19:30-24:00; Sa 11:00-18:00,19:30-24:00",
+    "operator": "Männerbad Schanzengraben",
+    "phone": "tel:+41442119594",
+    "wheelchair": "limited",
     "id": "node/11049817780"
   },
   "geometry": {
@@ -79488,6 +79495,31 @@
     "coordinates": [
       8.5354248,
       47.4133514
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11955220369",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Allemendstrasse 50",
+    "description": "Sanitätszimmer, Mitterles Treppenhaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": " Mo-FR 08:00-17:00 ",
+    "operator": "Firma",
+    "phone": "+41 43 355 66 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11955220369"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7371255,
+      47.3953278
     ]
   }
 }
