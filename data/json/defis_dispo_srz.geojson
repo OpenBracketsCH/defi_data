@@ -10557,15 +10557,18 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Richterswil",
+    "phone": "+44 787 11 11",
+    "wheelchair": "limited",
     "id": "node/7819540982"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7078422,
-      47.2079702
+      8.7078515,
+      47.2079665
     ]
   }
 },
@@ -79520,6 +79523,28 @@
     "coordinates": [
       8.7371255,
       47.3953278
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11955327317",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vor dem Saal",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "2",
+    "operator": "Kath. Pfarramt Liebfrauen",
+    "phone": "+41 78 865 00 03",
+    "wheelchair": "limited",
+    "id": "node/11955327317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.544498,
+      47.379815
     ]
   }
 }
