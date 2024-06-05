@@ -76375,25 +76375,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9311085773",
-  "properties": {
-    "defibrillator:location": "in der Eingangshalle",
-    "description": "während den Öffnungszeiten des Gebäudes allgemein zugänglich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "id": "node/9311085773"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.7291006,
-      47.4871151
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9312156340",
   "properties": {
     "access": "yes",
@@ -108524,11 +108505,11 @@
     "addr:housenumber": "58",
     "addr:postcode": "8803",
     "addr:street": "Nidelbadstrasse",
-    "defibrillator:location": "Eingangsbereich Erdgeschoss (hinter Eingangstüre)",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Rechts neben der Bürotür",
+    "description": "immer verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "level": "0",
     "operator": "Politische Gemeinde",
     "ref": "Ortsmuseum Rüschlikon",
@@ -108537,8 +108518,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5532454,
-      47.3073883
+      8.55312,
+      47.3074668
     ]
   }
 },
