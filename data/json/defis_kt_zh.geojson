@@ -26121,6 +26121,38 @@
 },
 {
   "type": "Feature",
+  "id": "node/9417237679",
+  "properties": {
+    "access": "yes",
+    "activation": "blackout;phone_breakdown;evacuation",
+    "contact:city": "Rüschlikon",
+    "contact:country": "CH",
+    "contact:housenumber": "29",
+    "contact:postcode": "8803",
+    "contact:street": "Pilgerweg",
+    "defibrillator:location": "Eingangsbereich Erdgeschoss (vor zweiter Glasschiebeüre links)",
+    "description": "immer verfügbar\n24/7",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "name": "Gemeindehaus Pilgerweg 29",
+    "operator": "Gemeinde Rüschlikon Abt.Liegenschaften",
+    "phone": "+41 44 724 72 50",
+    "source": "https://www.zh.ch/de/sicherheit-justiz/bevoelkerungsschutz/notfalltreffpunkte.html",
+    "temporary": "yes",
+    "id": "node/9417237679"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5555152,
+      47.3082205
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9417889397",
   "properties": {
     "access": "customers",
@@ -35912,7 +35944,7 @@
     "addr:postcode": "8803",
     "addr:street": "Nidelbadstrasse",
     "defibrillator:location": "Rechts neben der Bürotür",
-    "description": "immer verfügbar",
+    "description": "immer verfügbar\n24/7",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -35959,7 +35991,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Links beim Eingangsbereich",
-    "description": "Immer verfügbar",
+    "description": "immer verfügbar \n24/7",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -37959,15 +37991,15 @@
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
-    "operator": "Gemeinde Rüschlikon",
-    "phone": "+41 44 724 72 61",
+    "operator": "Gemeinde Rüschlikon Abt.Liegenschaften",
+    "phone": "+41 44 724 72 50",
     "id": "node/10580939744"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.547093,
-      47.2983136
+      8.5471565,
+      47.2982807
     ]
   }
 },
