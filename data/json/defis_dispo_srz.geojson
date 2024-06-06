@@ -9419,25 +9419,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7721023589",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Im Fahrzeug Barro 8",
-    "description": "bei Feuerwehr melden Tel 118",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/7721023589"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5289861,
-      47.1955222
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7721023590",
   "properties": {
     "access": "yes",
@@ -79724,6 +79705,29 @@
     "coordinates": [
       8.7753403,
       47.5047906
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11961443869",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "in der Einstellhalle",
+    "description": "jeder aus den Häuser Lindenhofstrasse 5 bis 19 hat Zugang mit dem Garagenschlüssel, also irgendwo läuten.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "nach dem Tor rechts",
+    "opening_hours": "24/7",
+    "operator": "Eigentümergemeinschaft lindenhofstrasse 5-19",
+    "id": "node/11961443869"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7838988,
+      47.3125624
     ]
   }
 }
