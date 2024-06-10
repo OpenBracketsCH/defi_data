@@ -140824,32 +140824,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10763310632",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "EG, im Treppenhaus",
-    "description": "oranger Koffer",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "latitude": "47.45634",
-    "longitude": "8.33786",
-    "name": "Bedag Informatik AG",
-    "opening_hours": "Mo-Th 08:30-12:00,13:30-17:00; Fr 08:30-12:00,13:30-16:00",
-    "operator": "Lifetec AG Schweiz",
-    "phone": "+41 800 122 144",
-    "id": "node/10763310632"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.33786,
-      47.45634
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10763310633",
   "properties": {
     "access": "yes",
@@ -179051,6 +179025,32 @@
     "coordinates": [
       7.5455031,
       47.2113473
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11968803304",
+  "properties": {
+    "access": "private",
+    "addr:housenumber": "12",
+    "addr:street": "Engehaldenstrasse",
+    "defibrillator:location": "2. UG Spedition / Warenannahme\n0729LTM",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-2",
+    "name": "Bedag Informatik AG",
+    "operator": "Lifetec Ag Schweiz",
+    "phone": "+41800 122 144",
+    "ref": "0729LTM",
+    "id": "node/11968803304"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.439748,
+      46.9546162
     ]
   }
 }
