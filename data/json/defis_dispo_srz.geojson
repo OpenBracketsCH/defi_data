@@ -79978,6 +79978,54 @@
       47.2733038
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/11975628269",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schwimmbad Reckholdern, Reckholdernstr. 15",
+    "description": "Schwimmbad Eingang (b. Personalparkplatz)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Pfungen ",
+    "phone": "+41 52 305 07 70",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11975628269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6423671,
+      47.5098963
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11975628270",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Dorfstrasse 5",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "opening_hours": "Mo, Tu,Th 7:30-17:00, We, Fr 7:30-12:00",
+    "operator": "Praxis",
+    "phone": "+41449105521",
+    "id": "node/11975628270"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5820499,
+      47.3181956
+    ]
+  }
 }
 ]
 }
