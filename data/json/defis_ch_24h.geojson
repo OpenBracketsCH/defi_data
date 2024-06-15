@@ -28541,27 +28541,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7644000282",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "am Fronwagplatz",
-    "description": "Öffentlich zugänglich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "id": "node/7644000282"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6334528,
-      47.6970811
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7644303970",
   "properties": {
     "access": "yes",
@@ -33609,13 +33588,12 @@
   "id": "node/7900550879",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Platz",
+    "defibrillator:location": "am Fronwagplatz, an der Lampe",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Stadt Schaffhausen",
-    "phone": "+41 144",
     "url": "defibrillator.ch",
     "wheelchair": "yes",
     "id": "node/7900550879"
@@ -33623,8 +33601,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6335989,
-      47.6971085
+      8.633557,
+      47.6971001
     ]
   }
 },
@@ -102962,6 +102940,30 @@
     "coordinates": [
       8.696183,
       47.1316369
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11236867771",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Reka-Feriendorf Bergün",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Schweizer Reisekasse (Reka)",
+    "phone": "+41 81 407 12 57",
+    "wheelchair": "limited",
+    "id": "node/11236867771"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.7425063,
+      46.6301289
     ]
   }
 },

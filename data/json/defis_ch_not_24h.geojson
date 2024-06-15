@@ -156623,21 +156623,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11236867771",
-  "properties": {
-    "emergency": "defibrillator",
-    "id": "node/11236867771"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.7425063,
-      46.6301289
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11237782537",
   "properties": {
     "access": "no",
@@ -179411,6 +179396,29 @@
     "coordinates": [
       7.4084812,
       47.1925267
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11983039502",
+  "properties": {
+    "access": "customers",
+    "defibrillator:location": "Strassenverkehrs- und Schifffahrtsamt",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:30-17:00",
+    "operator": "Kanton Schaffhausen",
+    "phone": "+41 52 632 68 88",
+    "wheelchair": "limited",
+    "id": "node/11983039502"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6344655,
+      47.6939651
     ]
   }
 }

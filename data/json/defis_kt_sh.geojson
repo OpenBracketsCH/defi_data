@@ -128,27 +128,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7644000282",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "am Fronwagplatz",
-    "description": "Öffentlich zugänglich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "id": "node/7644000282"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6334528,
-      47.6970811
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7644000283",
   "properties": {
     "access": "yes",
@@ -867,13 +846,12 @@
   "id": "node/7900550879",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Platz",
+    "defibrillator:location": "am Fronwagplatz, an der Lampe",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Stadt Schaffhausen",
-    "phone": "+41 144",
     "url": "defibrillator.ch",
     "wheelchair": "yes",
     "id": "node/7900550879"
@@ -881,8 +859,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6335989,
-      47.6971085
+      8.633557,
+      47.6971001
     ]
   }
 },
@@ -3092,6 +3070,29 @@
     "coordinates": [
       8.849575,
       47.6547852
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11983039502",
+  "properties": {
+    "access": "customers",
+    "defibrillator:location": "Strassenverkehrs- und Schifffahrtsamt",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:30-17:00",
+    "operator": "Kanton Schaffhausen",
+    "phone": "+41 52 632 68 88",
+    "wheelchair": "limited",
+    "id": "node/11983039502"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6344655,
+      47.6939651
     ]
   }
 }
