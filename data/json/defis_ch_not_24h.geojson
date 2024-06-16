@@ -151787,30 +151787,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11038063835",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Treuhand- und Revisionsgesellschaft Mattig-Suter und Partner, beim Eingang",
-    "description": "24h verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "Mo-Fr 07:30-17:00",
-    "operator": "Treuhand- und Revisionsgesellschaft Mattig-Suter und Partner",
-    "phone": "+41 41 819 54 00",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/11038063835"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.647238,
-      47.0221123
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11038063838",
   "properties": {
     "access": "yes",
@@ -176744,26 +176720,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11904324607",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Heilpädagogisches Zentrum\nGotthardstrassse 116, 6438 Ibach",
-    "emergency": "defibrillator",
-    "indoor": "no",
-    "operator": "Heilpädagogisches Zentrum",
-    "phone": "041 599 23 91",
-    "id": "node/11904324607"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6441068,
-      47.0158018
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11904360769",
   "properties": {
     "access": "yes",
@@ -179489,6 +179445,28 @@
     "coordinates": [
       8.3883594,
       46.9588304
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11985922069",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Beim Haupteingang, hinten rechts neben der Schiebetür.",
+    "description": "Während den Öffnungszeiten Verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "operator": "Swiss International Air Lines",
+    "id": "node/11985922069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5776979,
+      47.451584
     ]
   }
 }

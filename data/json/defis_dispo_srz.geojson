@@ -65040,30 +65040,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11038063710",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Treuhand- und Revisionsgesellschaft Mattig-Suter und Partner, beim Eingang",
-    "description": "Der Defibrillator befindet sich rechts der Briefkastenanlage",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Firma",
-    "phone": "+41 41 819 54 00",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/11038063710"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6472273,
-      47.0221415
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11038063711",
   "properties": {
     "access": "yes",
@@ -65426,11 +65402,11 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Treuhand- und Revisionsgesellschaft Mattig-Suter und Partner, beim Eingang",
-    "description": "24h verfügbar",
+    "description": "Der Defibrillator befindet sich rechts der Briefkastenanlage",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "opening_hours": "Mo-Fr 07:30-17:00",
+    "opening_hours": "24/7",
     "operator": "Treuhand- und Revisionsgesellschaft Mattig-Suter und Partner",
     "phone": "+41 41 819 54 00",
     "source": "local_knowledge, defikarte.ch",
@@ -78290,6 +78266,7 @@
     "defibrillator:location": "Heilpädagogisches Zentrum\nGotthardstrassse 116, 6438 Ibach",
     "emergency": "defibrillator",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Heilpädagogisches Zentrum",
     "phone": "041 599 23 91",
     "id": "node/11904324607"
@@ -80236,6 +80213,28 @@
     "coordinates": [
       8.6550763,
       47.3875835
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11985922069",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Beim Haupteingang, hinten rechts neben der Schiebetür.",
+    "description": "Während den Öffnungszeiten Verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG",
+    "operator": "Swiss International Air Lines",
+    "id": "node/11985922069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5776979,
+      47.451584
     ]
   }
 }
