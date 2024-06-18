@@ -98527,6 +98527,48 @@
 },
 {
   "type": "Feature",
+  "id": "node/11031968924",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "A côté de la porte d'entrée",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Ville de Vevey",
+    "id": "node/11031968924"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8384189,
+      46.4610707
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11031968925",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sous le couvert vers la petite porte",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Ville de Vevey",
+    "id": "node/11031968925"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8401429,
+      46.460201
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/11035592804",
   "properties": {
     "access": "yes",
@@ -116687,46 +116729,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11958676149",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Sous le couvert vers la petite porte",
-    "emergency": "defibrillator",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Ville de Vevey",
-    "id": "node/11958676149"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      6.8401359,
-      46.4601926
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11958695609",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "A côté de la porte d'entrée",
-    "emergency": "defibrillator",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Ville de Vevey",
-    "id": "node/11958695609"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      6.8384094,
-      46.4610463
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11960751269",
   "properties": {
     "access": "yes",
@@ -117375,6 +117377,29 @@
     "coordinates": [
       8.8809174,
       46.1631544
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11989958570",
+  "properties": {
+    "defibrillator:location": "Rega Basis, beim Haupteingang, rechts von der Türe",
+    "description": "24/7",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Schweizerische Rettungsflugwacht, Rega",
+    "phone": "+41 333 333 333",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11989958570"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2900562,
+      47.4054731
     ]
   }
 }
