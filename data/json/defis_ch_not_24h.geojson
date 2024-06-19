@@ -122268,28 +122268,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10737081605",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Sportanlage Badmatten, neues Garderobengebäude, Richtung Strasse",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Gemeinde Villmergen",
-    "phone": "+41 56 619 59 40",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/10737081605"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.2457221,
-      47.3549172
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10737125405",
   "properties": {
     "access": "no",
@@ -171216,6 +171194,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/11750063069",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Restaurant Rose Obere Mühle Villmergen",
+    "description": "während Öffnungszeiten des Restaurants",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 08:00-21:00",
+    "operator": "Obere Mühle Villmergen",
+    "phone": "+41 56 616 78 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11750063069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2431257,
+      47.3431855
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/11750337069",
   "properties": {
     "access": "yes",
@@ -179621,6 +179623,29 @@
     "coordinates": [
       8.7978172,
       47.324716
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11991401369",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Ebnet, Ebnetstrasse 11, Turnhalleneingang",
+    "description": "durchgehend verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde Embrach",
+    "phone": "+41445544884",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11991401369"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5868508,
+      47.5168601
     ]
   }
 }
