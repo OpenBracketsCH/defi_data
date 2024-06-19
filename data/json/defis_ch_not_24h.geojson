@@ -179648,6 +179648,50 @@
       47.5168601
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/11991731069",
+  "properties": {
+    "defibrillator:location": "Haute école de gestion Arc",
+    "description": "Accroché au mur, proche de l'entrée, devant l'accueil.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11991731069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9420363,
+      46.9987652
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11991750669",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rapid Technic AG",
+    "description": "Während der Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "Erdgeschoss (Eingang)",
+    "opening_hours": "Mo-Fr 7:00 -18:00",
+    "operator": "Rapid Technic AG",
+    "phone": "+41 44 743 11 11",
+    "id": "node/11991750669"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3575045,
+      47.4310798
+    ]
+  }
 }
 ]
 }
