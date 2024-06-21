@@ -84263,9 +84263,11 @@
   "type": "Feature",
   "id": "node/9534300989",
   "properties": {
+    "access": "no",
     "defibrillator:location": "Feuerwehrlokal",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "id": "node/9534300989"
   },
   "geometry": {
@@ -179933,6 +179935,31 @@
     "coordinates": [
       8.5302595,
       47.4501861
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11998292669",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Empfang, INTEGRA Biosciences AG",
+    "description": "im Sanitäts-Zimmer, direkt beim Empfang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "INTEGRA Biosciences AG",
+    "phone": "+41 81 286 95 30 ",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11998292669"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5543933,
+      46.9578346
     ]
   }
 }
