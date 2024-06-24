@@ -45315,28 +45315,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8173672420",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "HCI: E30 Halle, Infokasten",
-    "description": "über Alarmzentrale 24h verfügbar, ansonsten während Betriebszeiten",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "ETH Zürich",
-    "phone": "+41 44 342 11 88",
-    "id": "node/8173672420"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5074198,
-      47.4077494
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8173672421",
   "properties": {
     "access": "no",
@@ -180124,6 +180102,26 @@
     "coordinates": [
       7.7241719,
       47.5024133
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12006684569",
+  "properties": {
+    "access": "customers",
+    "defibrillator:location": "Möri Metallbau AG, Büro 1. OG",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "Möri Metallbau AG ",
+    "phone": "062 723 99 11",
+    "id": "node/12006684569"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0243881,
+      47.3314955
     ]
   }
 }

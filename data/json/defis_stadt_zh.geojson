@@ -1309,14 +1309,17 @@
   "type": "Feature",
   "id": "node/8173672420",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "HCI: E30 Halle, Infokasten",
-    "description": "über Alarmzentrale 24h verfügbar, ansonsten während Betriebszeiten",
+    "access": "yes",
+    "defibrillator:location": "HCI: E30 Halle, Infokasten, links vom Mensa-Eingang",
+    "description": "über Alarmzentrale (siehe Telefonnummer) 24h verfügbar, ansonsten während Betriebszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
     "operator": "ETH Zürich",
     "phone": "+41 44 342 11 88",
+    "wheelchair": "yes",
     "id": "node/8173672420"
   },
   "geometry": {
