@@ -177160,6 +177160,7 @@
   "type": "Feature",
   "id": "node/11920528594",
   "properties": {
+    "defibrillator:location": "In faccia al lift e la cassa per il posteggio sotterraneo",
     "emergency": "defibrillator",
     "indoor": "no",
     "operator": "Fondazione Ticino Cuore",
@@ -177168,8 +177169,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.9861977,
-      45.8702689
+      8.9862804,
+      45.8702425
     ]
   }
 },
@@ -179984,6 +179985,29 @@
     "coordinates": [
       8.5345531,
       47.3782142
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12005933870",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "MAN Energy Solutions Schweiz Ag EG empfang gerade aus.",
+    "description": "Nur während den öffnungszeite",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "EG empfang Gerade aus",
+    "opening_hours": "Mo-Fr 7:45-11:30, 13:00-15:45",
+    "operator": "MAN Energy Solutions Schweiz Ag",
+    "id": "node/12005933870"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5215031,
+      47.3906622
     ]
   }
 }
