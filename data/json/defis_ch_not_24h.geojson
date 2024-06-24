@@ -180033,6 +180033,53 @@
       47.3706998
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/12006310569",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Laufbahnzentrum am Empfang",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "phone": "+41 44 412 78 78",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12006310569"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5345048,
+      47.3815306
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12006312670",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "1. Stock, Stipendien Laufbahnzentrum",
+    "description": "Während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "operator": "Stadt Zürich ",
+    "phone": "+41 44 412 78 79",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12006312670"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.529003,
+      47.3721602
+    ]
+  }
 }
 ]
 }
