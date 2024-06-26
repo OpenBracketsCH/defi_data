@@ -180039,28 +180039,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12006465669",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Vorraum WC Gemeinschaftsraum ",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Genossenschaft Neubühl",
-    "phone": "+41 44 482 15 21",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/12006465669"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5355937,
-      47.3316317
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12006576969",
   "properties": {
     "access": "yes",
@@ -180205,7 +180183,7 @@
     "level": "-1",
     "opening_hours": "Mo-Fr 07:00-17:30",
     "operator": "ZürichHolz AG",
-    "phone": "+41 449339300",
+    "phone": "+41 44 933 93 00",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/12011888369"
   },
@@ -180258,6 +180236,33 @@
     "coordinates": [
       8.2538439,
       46.9903355
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12012260624",
+  "properties": {
+    "access": "yes",
+    "addr:housenumber": "7",
+    "addr:street": "Laufenstrasse",
+    "defibrillator:location": "2UG. in Werkstatt 1441LTM",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "CG Automobile Zwingen AG",
+    "opening_hours": "Mo-Fr 07:30 -17:00 Sa 09:00 - 15:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41800 122 144",
+    "ref": "1441LTM",
+    "id": "node/12012260624"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5210019,
+      47.4354281
     ]
   }
 }

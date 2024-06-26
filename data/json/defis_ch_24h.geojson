@@ -117788,6 +117788,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/12006465669",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vorraum WC Gemeinschaftsraum",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Genossenschaft Neubühl",
+    "phone": "+41 44 482 15 21",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12006465669"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5355937,
+      47.3316317
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12008994869",
   "properties": {
     "access": "yes",
@@ -117849,6 +117873,28 @@
     "coordinates": [
       8.7773305,
       47.4666324
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12012311669",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gasthaus Mayor S-charl",
+    "description": "in grünem Kasten bei der E-Bike Ladestation",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12012311669"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      10.3339237,
+      46.7155364
     ]
   }
 }
