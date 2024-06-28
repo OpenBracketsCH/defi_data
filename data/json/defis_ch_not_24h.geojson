@@ -48858,26 +48858,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8540800018",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Gemeindehaus Schlatt TG, neben Haupteingang",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Gemeinde Schlatt",
-    "id": "node/8540800018"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.7027272,
-      47.6613695
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8540855917",
   "properties": {
     "access": "customers",
@@ -180471,6 +180451,139 @@
     "coordinates": [
       6.9396147,
       46.8200509
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12016589481",
+  "properties": {
+    "access": "private",
+    "addr:housenumber": "21",
+    "addr:street": "Molkenstrasse",
+    "defibrillator:location": "5.OG Empfang\n1438LTM",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "Nest Sammelstiftung",
+    "opening_hours": "Mo-Fr 09:00-12:00 13:30-17:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "ref": "1438LTM",
+    "id": "node/12016589481"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5265655,
+      47.3768736
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12016595272",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Nyon",
+    "description": "Garage Emil Frey",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "1",
+    "opening_hours": "mo - fr 08:00-17:00",
+    "operator": "Garage",
+    "phone": "+41223651653",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12016595272"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.2179023,
+      46.3846371
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12016598801",
+  "properties": {
+    "access": "private",
+    "addr:housenumber": "5",
+    "addr:street": "Poststrasse",
+    "defibrillator:location": "EG, beim Empfang.\n1435LM",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "Stäubli International AG",
+    "opening_hours": "Mo-Fr 08:30-12:00 13:30-17:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "ref": "1435LTM",
+    "id": "node/12016598801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7803265,
+      47.2022099
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12016641066",
+  "properties": {
+    "access": "no",
+    "addr:housenumber": "14",
+    "addr:street": "Leimgrubenweg",
+    "defibrillator:location": "Werkstatt\n1440LTM",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "Centra-Garage AG",
+    "opening_hours": "Mo-Fr 07.00-12.00 13.00-17.00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "ref": "1440LTM",
+    "id": "node/12016641066"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.606454,
+      47.5370121
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12016655293",
+  "properties": {
+    "access": "no",
+    "addr:housenumber": "33",
+    "addr:street": "Lyon-Strasse",
+    "defibrillator:location": "Beim Empfang\n1439LTM",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "CG Carrosserie AG",
+    "opening_hours": "Mo-Fr 07.00-12.00 13.00-17.00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "ref": "1439LTM",
+    "id": "node/12016655293"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6066057,
+      47.5338863
     ]
   }
 }
