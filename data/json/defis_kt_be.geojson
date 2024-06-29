@@ -40921,23 +40921,21 @@
   "id": "node/9820253837",
   "properties": {
     "access": "yes",
-    "addr:city": "Bern",
-    "addr:housenumber": "5",
-    "addr:postcode": "3013",
-    "addr:street": "Hofweg",
     "defibrillator:location": "Aussen an Hausmauer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Bärner Brocki",
-    "phone": "+41 313338222",
+    "phone": "+41 31 333 82 22",
+    "wheelchair": "limited",
     "id": "node/9820253837"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4466701,
-      46.9572393
+      7.4466702,
+      46.9572375
     ]
   }
 },
@@ -53666,6 +53664,28 @@
     "coordinates": [
       7.5047635,
       46.9033944
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11809689692",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bei der Unterführung, bei den Liften",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "24/7",
+    "wheelchair": "limited",
+    "id": "node/11809689692"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4381622,
+      46.9495143
     ]
   }
 },
