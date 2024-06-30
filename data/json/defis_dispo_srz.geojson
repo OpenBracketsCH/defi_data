@@ -69154,23 +69154,23 @@
   "type": "Feature",
   "id": "node/11363932369",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Schulhaus Tagesschule Wetzwil",
+    "access": "yes",
+    "defibrillator:location": "Vor dem Eingang",
     "description": "während den Schulzeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "8:00-17:00",
+    "opening_hours": "24/7",
     "operator": "Schule Herrliberg",
-    "phone": "+41582118510",
+    "phone": "+41 58 211 85 10",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/11363932369"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6260968,
-      47.2971244
+      8.6261897,
+      47.29712
     ]
   }
 },
@@ -69209,9 +69209,9 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "08:00 - 17:00 ",
+    "opening_hours": "08:00 - 17:00",
     "operator": "Gemeinsame Sekundarchule Herrliberg/Erlenbach",
-    "phone": "+41582118000",
+    "phone": "+41 58 211 80 00",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/11363941469"
   },
@@ -81081,6 +81081,86 @@
     "coordinates": [
       8.6212925,
       47.2753879
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12022305530",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vor dem Eingang",
+    "emergency": "defibrillator",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Schule Herrliberg",
+    "id": "node/12022305530"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6130938,
+      47.288025
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12022305531",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vor dem Eingang",
+    "emergency": "defibrillator",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Schule Herrliberg",
+    "id": "node/12022305531"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6125174,
+      47.2886763
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12022305532",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vor dem Eingang",
+    "emergency": "defibrillator",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Schule Herrliberg",
+    "id": "node/12022305532"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6144327,
+      47.2873581
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12022305533",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vor dem Eingang",
+    "emergency": "defibrillator",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Schule Herrliberg",
+    "id": "node/12022305533"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6137225,
+      47.2876243
     ]
   }
 }
