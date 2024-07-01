@@ -457,8 +457,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3635889,
-      47.5571813
+      8.3636011,
+      47.5571803
     ]
   }
 },
@@ -122983,28 +122983,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10753011905",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Empfang bei der iFAS ERP AG",
-    "description": "während der Öffnungszeiten",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "3",
-    "operator": "iFAS ERP AG",
-    "id": "node/10753011905"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6803286,
-      47.381583
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10755814105",
   "properties": {
     "access": "yes",
@@ -180654,6 +180632,51 @@
     "coordinates": [
       7.7509403,
       47.4011015
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12025507910",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Empfang bei der iFAS ERP AG",
+    "description": "während der Öffnungszeiten",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "3",
+    "operator": "iFAS ERP AG",
+    "id": "node/12025507910"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7411366,
+      47.391044
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12025521869",
+  "properties": {
+    "defibrillator:location": "Europa-Strasse 30",
+    "description": "während der Büro Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Olmero AG",
+    "phone": "+41 44 200 44 44",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12025521869"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.561461,
+      47.4347862
     ]
   }
 }
