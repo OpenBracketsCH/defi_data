@@ -54771,6 +54771,52 @@
       46.9534144
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/12026813769",
+  "properties": {
+    "defibrillator:location": "Schulhaus Rebacker Münsingen",
+    "description": "während Schulzeiten, oft nur mit Lehrerschlüssel zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "Schule- Gemeinde",
+    "phone": "+41317204055",
+    "id": "node/12026813769"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5636519,
+      46.8782494
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12026818569",
+  "properties": {
+    "defibrillator:location": "Schulzentrum Rebacker",
+    "description": "während Schul- und Trainingszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "Mo-Fr 07:00-22:00",
+    "operator": "Gemeinde- Schule",
+    "phone": "+41317204055",
+    "id": "node/12026818569"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5638012,
+      46.8780229
+    ]
+  }
 }
 ]
 }
