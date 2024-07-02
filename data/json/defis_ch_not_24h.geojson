@@ -180680,6 +180680,56 @@
       46.8780229
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/12027792669",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Strassenverkehrsamt, Haupteingang, Schalterhalle",
+    "description": "während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 07:30-16:30",
+    "operator": "Amt",
+    "phone": "+41316358080",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12027792669"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4693084,
+      46.965274
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12027792670",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Nebentreppenhaus, Hintereingang",
+    "description": "während den Öffnunszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 07:30-16:00",
+    "operator": "Strassenverkehrsamt",
+    "phone": "+41316358080",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12027792670"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4696302,
+      46.9655083
+    ]
+  }
 }
 ]
 }
