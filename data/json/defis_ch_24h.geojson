@@ -5947,6 +5947,7 @@
     "defibrillator:location": "AED befindet sich in der alten Telefonzelle beim WC - Gebäude",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Jungfraubahnen Management AG",
     "phone": "+41 33 828 72 33",
@@ -118209,6 +118210,34 @@
     "coordinates": [
       8.6170627,
       46.9993616
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12030726184",
+  "properties": {
+    "access": "yes",
+    "addr:housenumber": "44",
+    "addr:street": "Netstalerstrasse",
+    "defibrillator:location": "Eingang Links EG\n1449LTS",
+    "description": "Grüner Kasten Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "name": "Fensterfabrik Albisrieden AG",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41800122144",
+    "ref": "1449LTS",
+    "id": "node/12030726184"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0731708,
+      47.085464
     ]
   }
 }
