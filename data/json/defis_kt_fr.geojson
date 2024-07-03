@@ -4065,9 +4065,9 @@
   "id": "node/11205722725",
   "properties": {
     "access": "yes",
-    "addr:housenumber": "3",
     "defibrillator:location": "À l'entrée de la salle polyvalente mur à droite",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Commune de Saint-Martin FR",
@@ -4110,6 +4110,7 @@
     "access": "permissive",
     "defibrillator:location": "Devant l'entrée de la pharmacie",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "opening_hours": "24/7",
     "operator": "Pharmacie St-Raphaël",
     "id": "node/11208028294"
@@ -4304,6 +4305,7 @@
     "check_date": "2023-10-13",
     "defibrillator:location": "Sur portail nord à l'extérieur",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "id": "node/11274309240"
@@ -4325,6 +4327,7 @@
     "addr:street": "Route Villageoise",
     "defibrillator:location": "Sur le mur côté route",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Commune de Remaufens",
@@ -4344,6 +4347,7 @@
   "properties": {
     "description": "au rez supérieur dans le couloir près de la passerelle",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/11283249307"
   },
   "geometry": {
@@ -4361,6 +4365,7 @@
     "access": "customers",
     "defibrillator:location": "À l'entrée du magasin à gauche en entrant",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "name": "Défibrillateur (Lidl)",
     "opening_hours": "Mo-Th, Sa 07:00-20:00; Fr 07:00-21:00",
@@ -4383,6 +4388,7 @@
     "check_date": "2023-10-29",
     "defibrillator:location": "Dans la cabine téléphonique",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "id": "node/11298603425"
@@ -4403,6 +4409,7 @@
     "check_date": "2023-10-31",
     "defibrillator:location": "À l'extérieur vers l'entrée des urgences/permanence",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Hôpital Riaz",
@@ -4422,6 +4429,7 @@
   "properties": {
     "description": "Sous le couvert",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "opening_hours": "24/7",
     "id": "node/11333570688"
   },
@@ -4441,6 +4449,7 @@
     "addr:street": "Grand-Rue",
     "description": "Sur le mur extérieur",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "opening_hours": "24/7",
     "id": "node/11335627415"
   },
@@ -4458,6 +4467,7 @@
   "properties": {
     "description": "sur le mur, bouton alerte 144 intégré",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "opening_hours": "24/7",
     "id": "node/11335647245"
   },
@@ -4475,6 +4485,7 @@
   "properties": {
     "defibrillator:location": "About 10 m left from the main entrance.",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/11399777680"
   },
@@ -4492,6 +4503,7 @@
   "properties": {
     "description": "1er étage en face de l'escalier au Centre d'Imagerie de la Gruyère",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "name": "Centre d'Imagerie de la Gruyère",
     "id": "node/11491654088"
   },
@@ -4670,6 +4682,7 @@
   "id": "node/11873482901",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/11873482901"
   },
   "geometry": {
@@ -4833,6 +4846,7 @@
   "properties": {
     "defibrillator:location": "Left of the flower shop.",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/11916401180"
   },
@@ -4935,6 +4949,7 @@
   "properties": {
     "access": "yes",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/12025125610"
   },

@@ -3,79 +3,6 @@
 "features": [
 {
   "type": "Feature",
-  "id": "way/64387385",
-  "properties": {
-    "addr:city": "Zollikon",
-    "addr:country": "CH",
-    "addr:housenumber": "22",
-    "addr:postcode": "8702",
-    "addr:street": "Bergstrasse",
-    "amenity": "pharmacy",
-    "brand": "Fortis",
-    "building": "yes",
-    "check_date": "2023-10-08",
-    "emergency": "defibrillator",
-    "healthcare": "pharmacy",
-    "name": "Apotheke Zollikon",
-    "opening_hours": "Mo-Fr 08:00-12:30, 13:30-18:30, Sa 08:00-16:00",
-    "website": "https://www.apotheke-zollikon.ch/",
-    "wheelchair": "yes",
-    "id": "way/64387385"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          8.5775385,
-          47.3409189
-        ],
-        [
-          8.5775454,
-          47.3409204
-        ],
-        [
-          8.5775557,
-          47.3408967
-        ],
-        [
-          8.5776432,
-          47.3409137
-        ],
-        [
-          8.5776308,
-          47.3409386
-        ],
-        [
-          8.5776773,
-          47.3409485
-        ],
-        [
-          8.5776514,
-          47.3410053
-        ],
-        [
-          8.5776814,
-          47.3410511
-        ],
-        [
-          8.5776033,
-          47.3410769
-        ],
-        [
-          8.5774832,
-          47.3410533
-        ],
-        [
-          8.5775385,
-          47.3409189
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/357181864",
   "properties": {
     "emergency": "defibrillator",
@@ -5767,10 +5694,11 @@
   "type": "Feature",
   "id": "node/6504687072",
   "properties": {
-    "access": "unknown",
+    "access": "private",
     "defibrillator:location": "Im Feuerwehrdepot: neben dem Haupteingang",
     "description": "zu Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "operator": "Feuerwehr RTL",
     "id": "node/6504687072"
   },
@@ -41847,6 +41775,7 @@
   "properties": {
     "access": "no",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/7962630332"
   },
@@ -97852,6 +97781,7 @@
     "defibrillator:location": "Nach den Kassen links an der Wand / Après les caisses, à gauche sur le mur",
     "description": "Während Öffnungszeiten verfügbar / Disponible pendant les heures d'ouverture",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-We,Fr 09:00-19:00; Th 09:00-20:00; Sa 08:30-17:00; Su,PH closed",
     "operator": "Lidl",
@@ -154638,6 +154568,7 @@
   "id": "node/11162913653",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/11162913653"
   },
   "geometry": {
@@ -154654,6 +154585,7 @@
   "properties": {
     "access": "yes",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "id": "node/11165833428"
   },
@@ -154697,6 +154629,7 @@
     "access": "yes",
     "defibrillator:location": "on wall outside building",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "outdoor": "yes",
     "id": "node/11166859723"
   },
@@ -154831,6 +154764,7 @@
     "access": "yes",
     "defibrillator:location": "Aussenwand Entsorgungshaeuschen",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/11173721447"
   },
   "geometry": {
@@ -155086,6 +155020,7 @@
   "properties": {
     "defibrillator:location": "10 meters in, to the left. In the entrance lobby.",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "survey:date": "2023-09-14",
@@ -155262,6 +155197,7 @@
     "defibrillator:location": "A l'entrée de GiFi, à côté des caisses",
     "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "id": "node/11195989623"
@@ -155282,6 +155218,7 @@
     "defibrillator:location": "A l'entrée de Decathlon, à gauche vers l'atelier vélo",
     "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "id": "node/11196010676"
@@ -155669,6 +155606,7 @@
     "defibrillator:location": "Dans le poste de police",
     "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "id": "node/11215712786"
@@ -156084,6 +156022,7 @@
   "id": "node/11232627681",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/11232627681"
   },
   "geometry": {
@@ -156125,6 +156064,7 @@
     "access": "private",
     "defibrillator:location": "Eingang Patrimonium",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "5",
     "operator": "Patrimonium Asset Management AG",
@@ -156169,6 +156109,7 @@
   "properties": {
     "access": "yes",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "id": "node/11235314812"
   },
@@ -156355,6 +156296,7 @@
   "properties": {
     "defibrillator:location": "In der Halle, nur mit Schlüssel erreichbar",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/11238031406"
   },
@@ -156491,6 +156433,7 @@
     "defibrillator:location": "Au deuxième étage de l'administration communale, vers l'ascenseur ouest",
     "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "2",
     "operator": "Ville de Lausanne",
@@ -156836,6 +156779,7 @@
   "id": "node/11259494530",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/11259494530"
   },
@@ -156852,6 +156796,7 @@
   "id": "node/11259494531",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/11259494531"
   },
   "geometry": {
@@ -157107,6 +157052,7 @@
   "id": "node/11274597369",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/11274597369"
   },
   "geometry": {
@@ -157148,6 +157094,7 @@
     "access": "private",
     "defibrillator:location": "Gang vor Turnhalle",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "operator": "Interkantonale Polizeischule Hitzkirch",
     "id": "node/11276625603"
@@ -157400,8 +157347,8 @@
   "id": "node/11281390446",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Medtronic",
     "survey:date": "2023-10-22",
     "id": "node/11281390446"
   },
@@ -157420,6 +157367,7 @@
     "access": "yes",
     "defibrillator:location": "In the temporary shop",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "id": "node/11283000237"
@@ -157438,6 +157386,7 @@
   "properties": {
     "description": "au rez supérieur dans le couloir près de la passerelle",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/11283249307"
   },
   "geometry": {
@@ -157455,6 +157404,7 @@
     "access": "yes",
     "defibrillator:location": "In the zoo shop of the self-service restaurant",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
     "id": "node/11283380536"
@@ -157758,6 +157708,7 @@
     "access": "customers",
     "defibrillator:location": "À l'entrée du magasin à gauche en entrant",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "name": "Défibrillateur (Lidl)",
     "opening_hours": "Mo-Th, Sa 07:00-20:00; Fr 07:00-21:00",
@@ -157802,6 +157753,7 @@
   "properties": {
     "check_date": "2023-10-26",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/11290249569"
   },
@@ -157819,6 +157771,7 @@
   "properties": {
     "check_date": "2023-10-26",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/11290249769"
   },
   "geometry": {
@@ -157885,6 +157838,7 @@
     "check_date": "2023-10-26",
     "defibrillator:location": "Sur le mur, à côté de l'entrée de la salle communale",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "id": "node/11290470669"
   },
@@ -158045,6 +157999,7 @@
   "id": "node/11293826978",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/11293826978"
   },
   "geometry": {
@@ -158060,6 +158015,7 @@
   "id": "node/11295292025",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/11295292025"
   },
   "geometry": {
@@ -158077,6 +158033,7 @@
     "access": "yes",
     "defibrillator:location": "Aussen, neben Eingang",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "level": "0",
     "wheelchair": "yes",
     "id": "node/11297367679"
@@ -158097,6 +158054,7 @@
     "check_date": "2023-10-30",
     "defibrillator:location": "Demander à la réception de MedBase",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "3",
     "opening_hours": "Mo-Fr 08:00-18:00",
@@ -158378,6 +158336,7 @@
     "check_date": "2023-11-02",
     "defibrillator:location": "Sur la gauche en rentrant par le nord, vers les vestiaires.",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "id": "node/11307590269"
@@ -158552,6 +158511,7 @@
     "access": "customers",
     "defibrillator:location": "Bei den Kassen",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "opening_hours": "Mo 14:00-21:00; Tu,We 10:00-21:00; Th 09:00-21:00; Fr 06:00-07:00, 10:00-21:00; Sa 10:00-19:00; Su 09:00-19:00",
@@ -159068,6 +159028,7 @@
     "defibrillator:location": "A droite en entrant dans la Migros",
     "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "operator": "Migros",
@@ -159276,6 +159237,7 @@
     "defibrillator:location": "En face du McDonald's",
     "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/11351072281"
   },
@@ -159294,6 +159256,7 @@
     "access": "no",
     "defibrillator:location": "im Sanitätszimmer E0.09",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "operator": "DZZ Druckzentrum Zürich AG",
     "id": "node/11351257390"
@@ -159550,6 +159513,7 @@
     "defibrillator:location": "In der Cafeteria rechts",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "opening_hours": "Mo,We 06:00-21:00; Tu 12:00-21:00; Th,Fr 08:00-21:00; Sa,Su,PH 09:00-18:00",
     "id": "node/11358294185"
   },
@@ -160043,6 +160007,7 @@
     "defibrillator:location": "A gauche en entrant",
     "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "id": "node/11377643543"
@@ -160176,6 +160141,7 @@
   "properties": {
     "access": "yes",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "id": "node/11380248619"
   },
@@ -160616,6 +160582,7 @@
     "defibrillator:location": "Vers le vestiaire de Totem",
     "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "id": "node/11389708914"
@@ -160896,6 +160863,7 @@
   "properties": {
     "defibrillator:location": "About 10 m left from the main entrance.",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/11399777680"
   },
@@ -161091,6 +161059,7 @@
     "defibrillator:location": "A la réception des services industriels",
     "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "id": "node/11407363016"
@@ -161110,6 +161079,7 @@
     "access": "yes",
     "defibrillator:location": "Haupteingang innen links an Wand",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Su 07:00-18:30; Sa 09:00-17:00; PH closed",
     "operator": "Kirchgemeinde Burgdorf",
@@ -161131,6 +161101,7 @@
     "defibrillator:location": "A l'entrée de l'Office de la population",
     "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "id": "node/11407453120"
@@ -161823,6 +161794,7 @@
     "check_date": "2023-12-21",
     "defibrillator:location:en": "At the entrance to Building \"Bob\"",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "id": "node/11438700369"
@@ -161843,6 +161815,7 @@
     "check_date": "2023-12-21",
     "defibrillator:location:en": "Inside Personaleingang Süd, Halle Zora",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "id": "node/11438701069"
@@ -161863,6 +161836,7 @@
     "check_date": "2023-12-21",
     "defibrillator:location:en": "Bei Haupteingang Halle West, neben Lift",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "id": "node/11438704269"
@@ -161883,6 +161857,7 @@
     "check_date": "2023-12-21",
     "defibrillator:location:en": "Haupteingang Gebäude Leilab 2",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "id": "node/11438704270"
@@ -161903,6 +161878,7 @@
     "check_date": "2023-12-21",
     "defibrillator:location:en": "Treppenhaus Geb. Leilab, 2. Stock",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "2",
     "id": "node/11438706369"
@@ -161923,6 +161899,7 @@
     "check_date": "2023-12-21",
     "defibrillator:location:en": "Gebäude Emotion, Kaffeküche 5. Stock",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "5",
     "id": "node/11438706370"
@@ -161943,6 +161920,7 @@
     "check_date": "2023-12-21",
     "defibrillator:location:en": "In der Montagehalle Rolf",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "id": "node/11438707069"
@@ -161963,6 +161941,7 @@
     "check_date": "2023-12-21",
     "defibrillator:location:en": "Gebäude Emotion, Kaffeküche EG",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "id": "node/11438716869"
@@ -161983,6 +161962,7 @@
     "check_date": "2023-12-21",
     "defibrillator:location:en": "Durchgang Gebäude Roald in Halle René/Kuk",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "id": "node/11438721269"
@@ -162003,6 +161983,7 @@
     "check_date": "2023-12-21",
     "defibrillator:location:en": "Gebäude Gusti 2, Haupteingang EG",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "id": "node/11438724170"
@@ -162023,6 +162004,7 @@
     "check_date": "2023-12-21",
     "defibrillator:location:en": "Gebäude Gusti 1, Treppenhaus bei Lift",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "4",
     "id": "node/11438730869"
@@ -162085,6 +162067,7 @@
   "properties": {
     "defibrillator:location": "Eismeisterwerkstatt/Zamboni",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/11445902445"
   },
@@ -162172,6 +162155,7 @@
     "access": "yes",
     "defibrillator:location": "An Assenwand",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "id": "node/11459368072"
   },
@@ -162216,6 +162200,7 @@
     "check_date": "22.12.2023",
     "defibrillator:location": "Aussenkasten beim Eingang WC-Anlagen",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "operator": "Einwohnergemeinde Cham",
     "phone": "041 723 50 50",
@@ -162343,6 +162328,7 @@
   "id": "node/11476056969",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/11476056969"
   },
   "geometry": {
@@ -162795,6 +162781,7 @@
   "properties": {
     "description": "1er étage en face de l'escalier au Centre d'Imagerie de la Gruyère",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "name": "Centre d'Imagerie de la Gruyère",
     "id": "node/11491654088"
   },
@@ -162812,6 +162799,7 @@
   "properties": {
     "access": "no",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/11493831893"
   },
   "geometry": {
@@ -163188,6 +163176,7 @@
   "id": "node/11513755733",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "id": "node/11513755733"
   },
@@ -163328,6 +163317,7 @@
   "properties": {
     "defibrillator:location": "Contre un mur/on a wall",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "id": "node/11521352765"
   },
@@ -163416,6 +163406,7 @@
     "access": "yes",
     "defibrillator:location": "Beim Schulhauseingang / an der Hauptstrasse",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "id": "node/11522031673"
   },
@@ -163503,6 +163494,7 @@
   "properties": {
     "access": "no",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/11522403416"
   },
@@ -163520,6 +163512,7 @@
   "properties": {
     "defibrillator:location": "Next to entrance of cable car office",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "id": "node/11523012509"
   },
@@ -164210,6 +164203,7 @@
   "id": "node/11536664783",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/11536664783"
   },
   "geometry": {
@@ -164702,6 +164696,7 @@
     "access": "yes",
     "defibrillator:location": "Aussenwand Eisbahngebäude",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "id": "node/11564040561"
   },
@@ -164815,6 +164810,7 @@
   "properties": {
     "defibrillator:location": "im Fußgängertunnel",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/11572515969"
   },
   "geometry": {
@@ -165012,6 +165008,7 @@
   "properties": {
     "defibrillator:location": "A l'entrée à droite, puis vers les fleurs",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/11579569805"
   },
@@ -165052,6 +165049,7 @@
   "properties": {
     "access": "yes",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "wheelchair": "limited",
     "id": "node/11584207712"
   },
@@ -165230,6 +165228,7 @@
   "id": "node/11595315869",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/11595315869"
   },
   "geometry": {
@@ -165717,6 +165716,7 @@
     "access": "yes",
     "defibrillator:location": "Outside wall",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "level": "0",
     "wheelchair": "yes",
     "id": "node/11616127052"
@@ -165734,6 +165734,7 @@
   "id": "node/11616236646",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/11616236646"
   },
@@ -166236,6 +166237,7 @@
     "access": "customers",
     "defibrillator:location": "An der Kasse",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "wheelchair": "yes",
@@ -166257,6 +166259,7 @@
     "defibrillator:location": "in Produktionsgebäude",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "operator": "HERZOG Küchen AG",
     "id": "node/11638977869"
@@ -166549,6 +166552,7 @@
     "access": "yes",
     "defibrillator:location": "Im Eingang Bellevueplatz 5, rechts in die Wand eingebaut, grün umrahmt.",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/11648626745"
   },
@@ -166931,8 +166935,9 @@
   "id": "node/11658202159",
   "properties": {
     "access": "permit",
-    "defibrillator:location": "im Betriebsgebäude bei der Schiessanlage.\nZugänglich nur durch Personal und nur während Öffnungszeiten.\nVor allem für Events und Einsätze in und um Biathlon Arena gedacht.",
+    "defibrillator:location": "im Betriebsgebäude bei der Schiessanlage. Zugänglich nur durch Personal und nur während Öffnungszeiten. Vor allem für Events und Einsätze in und um Biathlon Arena gedacht.",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "operator": "Biathlon Lenzerheide c/o Verein Arena Nordic-Events",
     "id": "node/11658202159"
@@ -166974,6 +166979,7 @@
     "access": "yes",
     "defibrillator:location": "neben der Parkhauskasse, immer zugänglich",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "operator": "sanität24.ch",
     "id": "node/11664485505"
@@ -167208,6 +167214,7 @@
     "defibrillator:location": "Sur un des murs au bord du bassin",
     "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "opening_hours": "Mo,Tu,Th,Fr 18:15-21:00; We 16:00-21:00; Sa 14:00-18:00; PH off",
@@ -167341,6 +167348,7 @@
   "id": "node/11672354045",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/11672354045"
   },
   "geometry": {
@@ -167568,6 +167576,7 @@
   "id": "node/11684223328",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/11684223328"
   },
   "geometry": {
@@ -167584,6 +167593,7 @@
   "properties": {
     "defibrillator:location": "Aussen, neben Eingang",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/11685933883"
   },
   "geometry": {
@@ -168706,6 +168716,7 @@
   "properties": {
     "defibrillator:location": "On the wall between Kaffi and Dosenbach",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/11733436547"
   },
@@ -169559,6 +169570,7 @@
     "defibrillator:location": "An der Kasse des Schwimmbades",
     "description": "nur während den Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "operator": "Gemeinde Pratteln",
     "id": "node/11740388406"
@@ -170079,6 +170091,7 @@
     "access": "customers",
     "defibrillator:location:pl": "Arztpraxis Stenba",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "operator": "Arztpraxis Stenna",
     "phone": "081 911 12 07",
@@ -170097,6 +170110,7 @@
   "id": "node/11742050860",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/11742050860"
   },
@@ -171208,6 +171222,7 @@
   "properties": {
     "access": "yes",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/11764241151"
   },
   "geometry": {
@@ -171247,6 +171262,7 @@
     "access": "no",
     "defibrillator:location": "Treppenhaus 1.OG Zwischengeschoss - für alle Mieter zugänglich",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
     "operator": "Gossweiler Ingenieure AG",
@@ -171267,8 +171283,9 @@
     "access": "private",
     "defibrillator:location": "EG bei Eingang rechts hinter Empfangstheke - beschränkt zugänglich",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "08.00 - 12.00 und 13.15 - 17.00 Uhr",
+    "opening_hours": "08:00-12:00, 13:15-17:00",
     "operator": "Gossweiler Ingenieure AG",
     "id": "node/11765539647"
   },
@@ -171287,6 +171304,7 @@
     "access": "no",
     "defibrillator:location": "im Gebäude EG - EG Korridor nach Cafeteria links an der Wand - beschränkt zugänglich",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "operator": "Gossweiler Ingenieure AG",
     "id": "node/11765570957"
@@ -171423,6 +171441,7 @@
     "access": "yes",
     "defibrillator:location": "Nach dem Eingang rechts gehen, dann in der Eingangshalle links in grünem Metallkasten an der Wand.",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/11767342326"
   },
@@ -171559,6 +171578,7 @@
     "defibrillator:location": "A côté de la sortie de la boutique souvenirs",
     "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "id": "node/11771098310"
@@ -171577,6 +171597,7 @@
   "properties": {
     "defibrillator:location": "vor Toilette",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/11773777608"
   },
@@ -171619,6 +171640,7 @@
     "access": "customers",
     "defibrillator:location": "Bahnhof Apotheke Oerlikon, neben den Kassen",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "-1",
     "opening_hours": "Mo-Su 07:00-22:00",
@@ -171664,6 +171686,7 @@
   "id": "node/11778772782",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/11778772782"
   },
   "geometry": {
@@ -171781,11 +171804,12 @@
     "access": "yes",
     "addr:housenumber": "15c",
     "addr:street": "Theaterstrasse",
-    "defibrillator:location": "SM U1.03\n1. UG, Sanitätszimmer",
+    "defibrillator:location": "SM U1.03 1. UG, Sanitätszimmer",
     "description": "Oranger Koffer",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1.UG",
+    "level": "-1",
     "name": "Zürcher Hochschule für Angewandte Wissenschaften",
     "opening_hours": "Mo-Fr 07:00-19:00, Sa 07:00-14:00",
     "operator": "Lifetec AG Schweiz",
@@ -171834,6 +171858,7 @@
     "defibrillator:location": "A la réception de Liip",
     "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "3",
     "operator": "Liip",
@@ -171903,6 +171928,7 @@
     "access": "yes",
     "defibrillator:location": "GZ Hinzenbach, hinter dem Buffet",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "opening_hours": "Tu-Fr 14:00-18:00; Th 10:00-18:00; Sa 12:00-17:00",
@@ -172296,6 +172322,7 @@
     "defibrillator:location": "A la sortie des caisses de la Migros",
     "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "operator": "Migros",
     "id": "node/11809959175"
@@ -172530,6 +172557,7 @@
   "id": "node/11816475034",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "id": "node/11816475034"
   },
@@ -172593,6 +172621,7 @@
   "id": "node/11818235590",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/11818235590"
   },
   "geometry": {
@@ -172655,6 +172684,7 @@
     "access": "customers",
     "defibrillator:location": "En face des caisses de la Migros",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "operator": "Migros",
     "id": "node/11819977071"
@@ -173065,6 +173095,7 @@
     "access": "private",
     "defibrillator:location": "Bei der ersten Treppe im Eingangsbereich EGW",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/11832435285"
   },
@@ -173083,6 +173114,7 @@
     "access": "customers",
     "defibrillator:location": "Eingangsbereich Migros",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Th 08:00-19:00,Fr 08:00-21:00,Sa 08:00-17:00; PH off",
     "id": "node/11832448192"
@@ -173100,6 +173132,7 @@
   "id": "node/11833580496",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/11833580496"
   },
   "geometry": {
@@ -173115,6 +173148,7 @@
   "id": "node/11833580497",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/11833580497"
   },
   "geometry": {
@@ -173130,6 +173164,7 @@
   "id": "node/11833580499",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/11833580499"
   },
   "geometry": {
@@ -174231,6 +174266,7 @@
   "properties": {
     "defibrillator:location": "Behind checkout",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/11859491228"
   },
@@ -174248,6 +174284,7 @@
   "properties": {
     "defibrillator:location": "Between checkout 1 and 2",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/11859491234"
   },
@@ -174615,6 +174652,7 @@
   "id": "node/11873482901",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/11873482901"
   },
   "geometry": {
@@ -174829,6 +174867,7 @@
   "properties": {
     "defibrillator:location": "A l'extérieur, àcôté de la porte d'entrée de l'école",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "id": "node/11879431353"
   },
@@ -175279,6 +175318,7 @@
     "access": "private",
     "defibrillator:location": "Accueil de la D.G.N.S.I.",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "2",
     "id": "node/11885841573"
@@ -176001,6 +176041,7 @@
     "access": "yes",
     "defibrillator:location": "Restaurant Pluspunkt",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "operator": "Gemeinde Ingenbohl Brunnen",
     "phone": "041 825 05 62",
@@ -176040,6 +176081,7 @@
     "covered": "yes",
     "defibrillator:location": "In einer alten Telefonkabine.",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/11898412627"
   },
   "geometry": {
@@ -176363,6 +176405,7 @@
   "properties": {
     "defibrillator:location": "Spital Schwyz Eingang Haus M und Parkhaus",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "operator": "Spital Schwyz",
     "phone": "041 818 41 11",
     "id": "node/11904307782"
@@ -176620,6 +176663,7 @@
     "access": "yes",
     "defibrillator:location": "Golfplatz Axenstein",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "operator": "Golf Club Axenstein",
     "phone": "041 825 41 00",
@@ -176640,6 +176684,7 @@
     "access": "yes",
     "defibrillator:location": "Schwyzer Kantonalbank, 24h-Zone",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "operator": "Schwyzer Kantonalbank",
     "phone": "058 800 20 20",
@@ -176659,6 +176704,7 @@
   "properties": {
     "defibrillator:location": "AGRO Energiezentrale",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "operator": "Gemeinde Schwyz",
     "phone": "041 819 07 25",
     "id": "node/11909341993"
@@ -176772,6 +176818,7 @@
   "properties": {
     "defibrillator:location": "Left of the flower shop.",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/11916401180"
   },
@@ -176918,6 +176965,7 @@
   "properties": {
     "defibrillator:location": "In faccia al lift e la cassa per il posteggio sotterraneo",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "operator": "Fondazione Ticino Cuore",
     "id": "node/11920528594"
@@ -176984,6 +177032,7 @@
   "id": "node/11922663692",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "operator": "Fondazione Cuore Ticino",
     "id": "node/11922663692"
@@ -177332,6 +177381,7 @@
   "id": "node/11932949817",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/11932949817"
   },
   "geometry": {
@@ -177348,6 +177398,7 @@
   "properties": {
     "defibrillator:location": "Im Gebäude beim Rangeur",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/11934423761"
   },
@@ -177367,6 +177418,7 @@
     "defibrillator:location": "Dans les escaliers qui descendent aux vestiaires",
     "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "id": "node/11934839474"
@@ -177411,6 +177463,7 @@
     "defibrillator:location": "Beim Haus Quinn am Empfang",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "opening_hours": "08:00-12:00, 13:00-17:00",
@@ -177664,6 +177717,7 @@
   "properties": {
     "defibrillator:location": "A l'extérieur, sous l'avant toit, à côté de la porte d'entrée",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "id": "node/11940245482"
   },
@@ -178262,6 +178316,7 @@
     "access": "yes",
     "defibrillator:location": "Vor dem Saal",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "2",
     "operator": "Kath. Pfarramt Liebfrauen",
@@ -178526,6 +178581,7 @@
     "access": "yes",
     "defibrillator:location": "Dans l'entrée de la salle du Conseil communal",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "operator": "Ville de Vevey",
@@ -178996,6 +179052,7 @@
     "defibrillator:location": "A l'entrée de la salle Del Castillo",
     "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "operator": "Ville de Vevey",
@@ -179868,8 +179925,9 @@
     "access": "customers",
     "defibrillator:location": "Möri Metallbau AG, Büro 1. OG",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Möri Metallbau AG ",
+    "operator": "Möri Metallbau AG",
     "phone": "062 723 99 11",
     "id": "node/12006684569"
   },
@@ -180264,6 +180322,7 @@
     "access": "yes",
     "defibrillator:location": "Derrière les caisses",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "operator": "Migros",
     "id": "node/12015051733"
@@ -180436,6 +180495,7 @@
     "access": "yes",
     "defibrillator:location": "Neben der Parkuhr",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "id": "node/12020135716"
   },
@@ -180453,6 +180513,7 @@
   "properties": {
     "access": "yes",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
     "id": "node/12020214259"
@@ -180471,6 +180532,7 @@
   "properties": {
     "defibrillator:location": "Neben der Garageneinfahrt",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "id": "node/12022927375"
   },
@@ -180508,6 +180570,7 @@
   "properties": {
     "access": "yes",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/12025125610"
   },
@@ -180575,6 +180638,7 @@
     "defibrillator:location": "Empfang bei der iFAS ERP AG",
     "description": "während der Öffnungszeiten",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "3",
     "operator": "iFAS ERP AG",
@@ -180855,6 +180919,7 @@
     "access": "private",
     "defibrillator:location": "In der Garage",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "operator": "Clemens Feigenwinter",
     "id": "node/12029621330"

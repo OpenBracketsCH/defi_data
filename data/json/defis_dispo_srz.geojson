@@ -3,79 +3,6 @@
 "features": [
 {
   "type": "Feature",
-  "id": "way/64387385",
-  "properties": {
-    "addr:city": "Zollikon",
-    "addr:country": "CH",
-    "addr:housenumber": "22",
-    "addr:postcode": "8702",
-    "addr:street": "Bergstrasse",
-    "amenity": "pharmacy",
-    "brand": "Fortis",
-    "building": "yes",
-    "check_date": "2023-10-08",
-    "emergency": "defibrillator",
-    "healthcare": "pharmacy",
-    "name": "Apotheke Zollikon",
-    "opening_hours": "Mo-Fr 08:00-12:30, 13:30-18:30, Sa 08:00-16:00",
-    "website": "https://www.apotheke-zollikon.ch/",
-    "wheelchair": "yes",
-    "id": "way/64387385"
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-      [
-        [
-          8.5775385,
-          47.3409189
-        ],
-        [
-          8.5775454,
-          47.3409204
-        ],
-        [
-          8.5775557,
-          47.3408967
-        ],
-        [
-          8.5776432,
-          47.3409137
-        ],
-        [
-          8.5776308,
-          47.3409386
-        ],
-        [
-          8.5776773,
-          47.3409485
-        ],
-        [
-          8.5776514,
-          47.3410053
-        ],
-        [
-          8.5776814,
-          47.3410511
-        ],
-        [
-          8.5776033,
-          47.3410769
-        ],
-        [
-          8.5774832,
-          47.3410533
-        ],
-        [
-          8.5775385,
-          47.3409189
-        ]
-      ]
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/256171559",
   "properties": {
     "access": "yes",
@@ -1301,8 +1228,9 @@
   "id": "node/6055789439",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schulhaus Seerüti\nEngibergweg 3, 6423 Seewen",
+    "defibrillator:location": "Schulhaus Seerüti Engibergweg 3, 6423 Seewen",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Schwyz",
@@ -2950,8 +2878,8 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "SIBE Stefan Schlegel",
-    "phone": "+41 41 819 16 33",
+    "operator": "Steuerverwaltung",
+    "phone": "+41 41 819 23 45",
     "id": "node/6976938397"
   },
   "geometry": {
@@ -14046,6 +13974,7 @@
   "properties": {
     "access": "no",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/7962630332"
   },
@@ -66477,6 +66406,7 @@
   "properties": {
     "access": "yes",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "id": "node/11165833428"
   },
@@ -66682,6 +66612,7 @@
   "properties": {
     "defibrillator:location": "10 meters in, to the left. In the entrance lobby.",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "survey:date": "2023-09-14",
@@ -66859,6 +66790,7 @@
     "access": "yes",
     "defibrillator:location": "AED Wiese beim Landungssteg Kursschiff",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Einwohnergemeinde Cham",
@@ -68092,8 +68024,8 @@
   "id": "node/11281390446",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Medtronic",
     "survey:date": "2023-10-22",
     "id": "node/11281390446"
   },
@@ -68133,6 +68065,7 @@
   "properties": {
     "defibrillator:location": "Theresianum Eingang Turnhalle",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "opening_hours": "24/7",
     "operator": "Theresianum Ingenbohl",
     "phone": "+41 41 825 26 00",
@@ -68220,6 +68153,7 @@
   "properties": {
     "defibrillator:location": "Schiessplatz Cholmattli",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Logistikbasis der Armee",
@@ -68289,6 +68223,7 @@
   "id": "node/11293826978",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/11293826978"
   },
   "geometry": {
@@ -68820,6 +68755,7 @@
     "access": "no",
     "defibrillator:location": "im Sanitätszimmer E0.09",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "operator": "DZZ Druckzentrum Zürich AG",
     "id": "node/11351257390"
@@ -69026,6 +68962,7 @@
     "defibrillator:location": "In der Cafeteria rechts",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "opening_hours": "Mo,We 06:00-21:00; Tu 12:00-21:00; Th,Fr 08:00-21:00; Sa,Su,PH 09:00-18:00",
     "id": "node/11358294185"
   },
@@ -70408,6 +70345,7 @@
     "check_date": "22.12.2023",
     "defibrillator:location": "Aussenkasten beim Eingang WC-Anlagen",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "operator": "Einwohnergemeinde Cham",
     "phone": "041 723 50 50",
@@ -70428,6 +70366,7 @@
     "access": "private",
     "defibrillator:location": "Halle 550",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "opening_hours": "24/7",
@@ -70450,6 +70389,7 @@
   "properties": {
     "access": "no",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/11493831893"
   },
   "geometry": {
@@ -70657,6 +70597,7 @@
   "id": "node/11513755733",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "id": "node/11513755733"
   },
@@ -70767,6 +70708,7 @@
   "properties": {
     "access": "no",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/11522403416"
   },
@@ -71734,6 +71676,7 @@
   "id": "node/11595315869",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/11595315869"
   },
   "geometry": {
@@ -72054,6 +71997,7 @@
   "id": "node/11616236646",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/11616236646"
   },
@@ -72601,6 +72545,7 @@
     "access": "yes",
     "defibrillator:location": "Im Eingang Bellevueplatz 5, rechts in die Wand eingebaut, grün umrahmt.",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/11648626745"
   },
@@ -72716,6 +72661,7 @@
     "access": "yes",
     "defibrillator:location": "neben der Parkhauskasse, immer zugänglich",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "operator": "sanität24.ch",
     "id": "node/11664485505"
@@ -74691,6 +74637,7 @@
     "defibrillator:location": "links neben Haupteingang",
     "description": "Öffentlich zugänglich",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Richterswil",
@@ -74712,6 +74659,7 @@
     "defibrillator:location": "links neben Hauseingang",
     "description": "Öffentlich zugänglich",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Richterswil",
@@ -74732,6 +74680,7 @@
     "access": "no",
     "defibrillator:location": "Treppenhaus 1.OG Zwischengeschoss - für alle Mieter zugänglich",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
     "operator": "Gossweiler Ingenieure AG",
@@ -74752,8 +74701,9 @@
     "access": "private",
     "defibrillator:location": "EG bei Eingang rechts hinter Empfangstheke - beschränkt zugänglich",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "08.00 - 12.00 und 13.15 - 17.00 Uhr",
+    "opening_hours": "08:00-12:00, 13:15-17:00",
     "operator": "Gossweiler Ingenieure AG",
     "id": "node/11765539647"
   },
@@ -74772,6 +74722,7 @@
     "access": "no",
     "defibrillator:location": "im Gebäude EG - EG Korridor nach Cafeteria links an der Wand - beschränkt zugänglich",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "operator": "Gossweiler Ingenieure AG",
     "id": "node/11765570957"
@@ -74860,6 +74811,7 @@
     "access": "yes",
     "defibrillator:location": "Nach dem Eingang rechts gehen, dann in der Eingangshalle links in grünem Metallkasten an der Wand.",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/11767342326"
   },
@@ -74995,6 +74947,7 @@
     "access": "customers",
     "defibrillator:location": "Bahnhof Apotheke Oerlikon, neben den Kassen",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "-1",
     "opening_hours": "Mo-Su 07:00-22:00",
@@ -75018,6 +74971,7 @@
     "access": "private",
     "defibrillator:location": "Neben dem Eingang",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "opening_hours": "24/7",
@@ -75211,11 +75165,12 @@
     "access": "yes",
     "addr:housenumber": "15c",
     "addr:street": "Theaterstrasse",
-    "defibrillator:location": "SM U1.03\n1. UG, Sanitätszimmer",
+    "defibrillator:location": "SM U1.03 1. UG, Sanitätszimmer",
     "description": "Oranger Koffer",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1.UG",
+    "level": "-1",
     "name": "Zürcher Hochschule für Angewandte Wissenschaften",
     "opening_hours": "Mo-Fr 07:00-19:00, Sa 07:00-14:00",
     "operator": "Lifetec AG Schweiz",
@@ -75261,6 +75216,7 @@
     "access": "yes",
     "defibrillator:location": "GZ Hinzenbach, hinter dem Buffet",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "opening_hours": "Tu-Fr 14:00-18:00; Th 10:00-18:00; Sa 12:00-17:00",
@@ -75888,6 +75844,7 @@
   "id": "node/11816475034",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "id": "node/11816475034"
   },
@@ -77856,6 +77813,7 @@
     "access": "yes",
     "defibrillator:location": "Restaurant Pluspunkt",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "operator": "Gemeinde Ingenbohl Brunnen",
     "phone": "041 825 05 62",
@@ -77973,6 +77931,7 @@
     "access": "yes",
     "defibrillator:location": "RB und LS Station Kräbel",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Rigi Bahnen AG",
@@ -77992,8 +77951,9 @@
   "id": "node/11904220035",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Dorfstrasse 28, 8834 Schindellegi\nin der 24h-Zone",
+    "defibrillator:location": "Dorfstrasse 28, 8834 Schindellegi in der 24h-Zone",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "24/7",
     "operator": "SZKB",
@@ -78013,8 +77973,9 @@
   "id": "node/11904229831",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Plätzli 6, 6432 Rickenbach\naltes Schulhaus",
+    "defibrillator:location": "Plätzli 6, 6432 Rickenbach altes Schulhaus",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Schwyz",
@@ -78055,8 +78016,9 @@
   "id": "node/11904257212",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Alterswohnungen Biberzelten\nBiberzeltenstrasse 1, 8853 Lachen",
+    "defibrillator:location": "Alterswohnungen Biberzelten Biberzeltenstrasse 1, 8853 Lachen",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "opening_hours": "24/7",
     "operator": "resQshock",
     "phone": "055 460 22 44",
@@ -78075,8 +78037,9 @@
   "id": "node/11904269295",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Clubhaus Peterswinkel Ost Fassade\nPeterswinkel, 8853 Lachen",
+    "defibrillator:location": "Clubhaus Peterswinkel Ost Fassade Peterswinkel, 8853 Lachen",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "resQshock",
@@ -78096,8 +78059,9 @@
   "id": "node/11904291612",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "BSZ Stiftung\nFrauholzstrasse 9a, 6422 Steinen",
+    "defibrillator:location": "BSZ Stiftung Frauholzstrasse 9a, 6422 Steinen",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "BSZ Stiftung",
@@ -78118,6 +78082,7 @@
   "properties": {
     "defibrillator:location": "Spital Schwyz Eingang Haus M und Parkhaus",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "operator": "Spital Schwyz",
     "phone": "041 818 41 11",
     "id": "node/11904307782"
@@ -78137,6 +78102,7 @@
     "access": "yes",
     "defibrillator:location": "Strandbad Hopfräben",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Ingenbohl",
@@ -78156,8 +78122,9 @@
   "id": "node/11904324607",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Heilpädagogisches Zentrum\nGotthardstrassse 116, 6438 Ibach",
+    "defibrillator:location": "Heilpädagogisches Zentrum Gotthardstrassse 116, 6438 Ibach",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Heilpädagogisches Zentrum",
@@ -78177,8 +78144,9 @@
   "id": "node/11904333434",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "KKvR Stiftung Husmatt\nHusmattrain 4, 6422 Steinen",
+    "defibrillator:location": "KKvR Stiftung Husmatt Husmattrain 4, 6422 Steinen",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "phone": "079 261 69 30",
@@ -78197,8 +78165,9 @@
   "id": "node/11904337739",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Amt für Militär, Feuer und Zivilschutz\nSchlagstrasse 87, 6430 Schwyz",
+    "defibrillator:location": "Amt für Militär, Feuer und Zivilschutz Schlagstrasse 87, 6430 Schwyz",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Amt für Militär, Feuer und Zivilschutz",
@@ -78218,8 +78187,9 @@
   "id": "node/11904346565",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Trafostation\nSeestrasse 2, 8858 Innerthal",
+    "defibrillator:location": "Trafostation Seestrasse 2, 8858 Innerthal",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Innerthal",
@@ -78239,8 +78209,9 @@
   "id": "node/11904364251",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Swisscom Gebäude\nBahnhofstrasse 96, 6423 Seewen",
+    "defibrillator:location": "Swisscom Gebäude Bahnhofstrasse 96, 6423 Seewen",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Schwyz",
@@ -78311,6 +78282,7 @@
     "access": "yes",
     "defibrillator:location": "Fussballplatz Gerbihof",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Schwyz",
@@ -78332,6 +78304,7 @@
     "access": "yes",
     "defibrillator:location": "Golfplatz Axenstein",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "operator": "Golf Club Axenstein",
     "phone": "041 825 41 00",
@@ -78352,6 +78325,7 @@
     "access": "yes",
     "defibrillator:location": "BSZ Stiftung",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "BSZ Stiftung",
@@ -78373,6 +78347,7 @@
     "access": "yes",
     "defibrillator:location": "Hagedorn AG Tankstelle",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Hagedorn AG",
@@ -78394,6 +78369,7 @@
     "access": "yes",
     "defibrillator:location": "BSZ Stiftung",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "BSZ Stiftung",
@@ -78415,6 +78391,7 @@
     "access": "yes",
     "defibrillator:location": "Schwyzer Kantonalbank, 24h-Zone",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "operator": "Schwyzer Kantonalbank",
     "phone": "058 800 20 20",
@@ -78434,6 +78411,7 @@
   "properties": {
     "defibrillator:location": "AGRO Energiezentrale",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "operator": "Gemeinde Schwyz",
     "phone": "041 819 07 25",
     "id": "node/11909341993"
@@ -78634,6 +78612,7 @@
     "access": "yes",
     "defibrillator:location": "Aussen an Gebäudeecke im grünen Metallkasten. / Outside on the corner of the building in the green metal box.",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "wheelchair": "yes",
@@ -78805,6 +78784,7 @@
   "properties": {
     "defibrillator:location": "Im Gebäude beim Rangeur",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "id": "node/11934423761"
   },
@@ -78824,6 +78804,7 @@
     "defibrillator:location": "Beim Haus Quinn am Empfang",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "opening_hours": "08:00-12:00, 13:00-17:00",
@@ -79358,6 +79339,7 @@
     "access": "yes",
     "defibrillator:location": "Vor dem Saal",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "2",
     "operator": "Kath. Pfarramt Liebfrauen",
@@ -80958,6 +80940,7 @@
     "access": "yes",
     "defibrillator:location": "Neben der Parkuhr",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "id": "node/12020135716"
   },
@@ -80976,6 +80959,7 @@
     "access": "yes",
     "defibrillator:location": "Vor dem Eingang",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "level": "0",
     "opening_hours": "24/7",
     "operator": "Schule Herrliberg",
@@ -80996,6 +80980,7 @@
     "access": "yes",
     "defibrillator:location": "Vor dem Eingang",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "level": "0",
     "opening_hours": "24/7",
     "operator": "Schule Herrliberg",
@@ -81016,6 +81001,7 @@
     "access": "yes",
     "defibrillator:location": "Vor dem Eingang",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "level": "0",
     "opening_hours": "24/7",
     "operator": "Schule Herrliberg",
@@ -81036,6 +81022,7 @@
     "access": "yes",
     "defibrillator:location": "Vor dem Eingang",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "level": "0",
     "opening_hours": "24/7",
     "operator": "Schule Herrliberg",
@@ -81055,6 +81042,7 @@
   "properties": {
     "defibrillator:location": "Neben der Garageneinfahrt",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "id": "node/12022927375"
   },
@@ -81097,6 +81085,7 @@
     "defibrillator:location": "Empfang bei der iFAS ERP AG",
     "description": "während der Öffnungszeiten",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "3",
     "operator": "iFAS ERP AG",
@@ -81262,6 +81251,7 @@
     "access": "private",
     "defibrillator:location": "In der Garage",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "operator": "Clemens Feigenwinter",
     "id": "node/12029621330"
