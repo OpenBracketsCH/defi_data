@@ -42095,8 +42095,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.507888,
-      47.4200735
+      8.5079506,
+      47.4202073
     ]
   }
 },
@@ -81302,6 +81302,49 @@
     "coordinates": [
       8.6170627,
       46.9993616
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12031435670",
+  "properties": {
+    "defibrillator:location": "xeit AG",
+    "description": "während Bürozeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "Erdgeschoss",
+    "id": "node/12031435670"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5246736,
+      47.3890652
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12031453469",
+  "properties": {
+    "defibrillator:location": "Reformierte Kirche Horgen",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 08:00-17:00",
+    "operator": "Ref. Kirchgemeinde Horgen",
+    "phone": "+41 44 727 47 55",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12031453469"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5969412,
+      47.2593216
     ]
   }
 }
