@@ -180322,25 +180322,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12020135716",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Neben der Parkuhr",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/12020135716"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6212925,
-      47.2753879
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12020214259",
   "properties": {
     "access": "yes",
@@ -180967,6 +180948,23 @@
     "coordinates": [
       7.9805964,
       47.3229379
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12035994672",
+  "properties": {
+    "defibrillator:location": "Sous le couvert, devant la porte d'entrée",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/12035994672"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.6052173,
+      46.5353224
     ]
   }
 }
