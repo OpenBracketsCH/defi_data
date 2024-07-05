@@ -163885,29 +163885,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11528315869",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Schulhaus Breiti, Foyer",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "operator": "Gemeinde",
-    "phone": "+41449296011",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/11528315869"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.7233537,
-      47.2721827
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11528466069",
   "properties": {
     "access": "no",
@@ -180943,6 +180920,28 @@
     "coordinates": [
       8.5804832,
       47.3153701
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12035292569",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Empfang Netzwerk Grenchen SDOL",
+    "description": "während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Verein",
+    "id": "node/12035292569"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3967679,
+      47.1956731
     ]
   }
 }
