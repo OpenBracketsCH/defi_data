@@ -47899,28 +47899,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8457388291",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Trakt 1, 1. OG beim Lehrerzimmer",
-    "description": "Schulöffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Gewerblich-industrielles Bildungszentrum Zug",
-    "phone": "041 728 30 30",
-    "id": "node/8457388291"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5192703,
-      47.1787466
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8457452918",
   "properties": {
     "access": "no",
@@ -180941,6 +180919,30 @@
     "coordinates": [
       8.2986742,
       47.0382263
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12035211669",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Büro (zurzeit)",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "07:00-17:00",
+    "operator": "Privat / Firma",
+    "phone": "+41 79 666 15 90",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12035211669"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5804832,
+      47.3153701
     ]
   }
 }
