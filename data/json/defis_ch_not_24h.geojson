@@ -110251,28 +110251,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10240188641",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "EG Hintereingang",
-    "description": "wenn Gebäude offen",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "Mo,We 08:00-12:00,14:00-17:00, Tu 08:00-12:00, Th 08:00-12:00,14:00-18:00, Fr 08:00-12:00,14:00-16:00",
-    "operator": "Stadthaus,Stadtverwaltung",
-    "phone": "+41 58 346 83 03",
-    "id": "node/10240188641"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.37368,
-      47.56584
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10240188642",
   "properties": {
     "access": "yes",
@@ -110331,27 +110309,6 @@
     "coordinates": [
       9.37354,
       47.55937
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10240188646",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "bei sozialen Diensten (EG)",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "Mo-Fr 08:00-09:00",
-    "operator": "Konsumhof (Soziale Dienste), Stadtverwaltung",
-    "phone": "+41 58 346 83 03",
-    "id": "node/10240188646"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.37737,
-      47.56659
     ]
   }
 },
@@ -181171,6 +181128,31 @@
     "coordinates": [
       9.3717134,
       47.5571142
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12041597270",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Stadtverwaltung, Abteilung Bau, Umwelt und Verkehr",
+    "description": "während der Öffnungszeiten zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Mi 08:00-17:00, Do 08:00-18:00, Fr 08:00-16:00",
+    "operator": "Stadtverwaltung Romanshorn",
+    "phone": "+41583468317",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12041597270"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3757743,
+      47.5658236
     ]
   }
 }

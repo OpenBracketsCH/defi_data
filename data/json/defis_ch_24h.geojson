@@ -82734,6 +82734,28 @@
 },
 {
   "type": "Feature",
+  "id": "node/10240188641",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "EG Hintereingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadthaus,Stadtverwaltung",
+    "phone": "+41 58 346 83 03",
+    "id": "node/10240188641"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.37368,
+      47.56584
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10240188645",
   "properties": {
     "access": "yes",
@@ -82751,6 +82773,28 @@
     "coordinates": [
       9.37642,
       47.57118
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10240188646",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Durchgang Alleestrasse-Sternenstrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Konsumhof, Stadtverwaltung",
+    "phone": "+41 58 346 83 03",
+    "id": "node/10240188646"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.37737,
+      47.56659
     ]
   }
 },
@@ -118787,6 +118831,56 @@
     "coordinates": [
       8.0283783,
       47.3302744
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12041597170",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Badi Holzenstein",
+    "description": "während 24 Stunden zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Romanshorn",
+    "phone": "+41583468317",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12041597170"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3657267,
+      47.5770287
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12041597271",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Jugendherberge",
+    "description": "während 24 Stunden zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Romanshorn",
+    "phone": "+41583468317",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12041597271"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3740737,
+      47.56738
     ]
   }
 }
