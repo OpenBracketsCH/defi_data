@@ -70982,12 +70982,12 @@
   "id": "node/11528315869",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Mehrzweckgebäude Breiit",
+    "defibrillator:location": "Mehrzweckgebäude Breiti",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
-    "opening_hours": "24/7",
+    "opening_hours": "24/7 inkl. Kinderpads",
     "operator": "Gemeinde",
     "phone": "+41449296011",
     "source": "local_knowledge, defikarte.ch",
@@ -81424,6 +81424,51 @@
     "coordinates": [
       8.6549925,
       47.6880913
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12041858569",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Technische Fachschule STFW, Im Eingang",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Firma",
+    "id": "node/12041858569"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6933431,
+      47.5004121
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12041910069",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Blattenacher",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "phone": "+41449296011",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12041910069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.721664,
+      47.2714548
     ]
   }
 }

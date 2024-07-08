@@ -163800,6 +163800,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/11528315869",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Mehrzweckgebäude Breiti",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7 inkl. Kinderpads",
+    "operator": "Gemeinde",
+    "phone": "+41449296011",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11528315869"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7233537,
+      47.2721827
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/11528466069",
   "properties": {
     "access": "no",
@@ -181153,6 +181177,28 @@
     "coordinates": [
       9.3757743,
       47.5658236
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12041858569",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Technische Fachschule STFW, Im Eingang",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Firma",
+    "id": "node/12041858569"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6933431,
+      47.5004121
     ]
   }
 }
