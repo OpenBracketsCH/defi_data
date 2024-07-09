@@ -3828,29 +3828,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8627917413",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Rechts am Selecta-Automaten",
-    "description": "24h verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Procamed AG",
-    "phone": "0523686000",
-    "id": "node/8627917413"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.3101383,
-      47.4001995
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8628247017",
   "properties": {
     "access": "yes",
@@ -26118,6 +26095,21 @@
     "coordinates": [
       8.1656581,
       47.3934941
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12043694021",
+  "properties": {
+    "emergency": "defibrillator",
+    "id": "node/12043694021"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3100901,
+      47.4003084
     ]
   }
 }
