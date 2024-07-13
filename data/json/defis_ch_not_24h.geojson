@@ -612,6 +612,7 @@
   "type": "Feature",
   "id": "node/3111033506",
   "properties": {
+    "defibrillator:location": "Accessible, on street.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -181395,6 +181396,29 @@
     "coordinates": [
       9.5059365,
       47.0115827
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12051592969",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Sekundarschule Haupteingang C",
+    "description": "Während der Schulzeit offen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Sekundarschule Rickenbach",
+    "phone": "+410795623775",
+    "id": "node/12051592969"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7992124,
+      47.5538364
     ]
   }
 }
