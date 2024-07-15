@@ -30041,13 +30041,13 @@
   "type": "Feature",
   "id": "node/12053042270",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "im Auto",
+    "access": "private",
+    "defibrillator:location": "in der Regel im Auto",
     "description": "nicht öffentlich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Privatperson",
+    "operator:type": "private",
     "phone": "+41 71 766 25 87",
     "id": "node/12053042270"
   },
@@ -30056,27 +30056,6 @@
     "coordinates": [
       9.5423686,
       47.286515
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12053046970",
-  "properties": {
-    "access": "private",
-    "defibrillator:location": "in der Regel im Auto",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Privatperson",
-    "phone": "+41 71 766 25 87",
-    "id": "node/12053046970"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.5423472,
-      47.2865131
     ]
   }
 }
