@@ -4269,8 +4269,12 @@
   "type": "Feature",
   "id": "node/5699100721",
   "properties": {
+    "access": "yes",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24h zugänglich",
+    "operator": "Gemeinde Wildberg",
     "id": "node/5699100721"
   },
   "geometry": {
@@ -100336,7 +100340,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "gemeinde wildberg",
-    "description": "wärend öffnungszeiten verfügbar",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
