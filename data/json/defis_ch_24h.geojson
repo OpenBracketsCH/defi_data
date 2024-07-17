@@ -44780,8 +44780,8 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Raiffeisenbank Regio Frick-Mettauertal / Alessandro Quaresima",
-    "phone": "079 391 57 59",
+    "operator": "Raiffeisenbank Regio Frick-Mettauertal / Ernst Ryf",
+    "phone": "062 865 44 68",
     "id": "node/8562610127"
   },
   "geometry": {
@@ -119113,6 +119113,72 @@
     "coordinates": [
       8.797982,
       47.4979023
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12058671769",
+  "properties": {
+    "defibrillator:location": "Devant le bâtiment",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Commune de Belmont-Broye",
+    "phone": "+41 26 6723333",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12058671769"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0470268,
+      46.8382294
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12058673969",
+  "properties": {
+    "defibrillator:location": "Salle multi-usage de Léchelles, Route de Fribourg 17, 1773 Léchelles à l'extérieur",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Commune de Belmont-Broye",
+    "phone": "+ 41 26 672 33 33",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12058673969"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0174849,
+      46.8301153
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12058681069",
+  "properties": {
+    "defibrillator:location": "Salle polyvalente, Route de Domdidier 16, 1563 Dompierre à l'extérieur du bâtiment",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Commune de Belmont-Broye",
+    "phone": "+41 26 672 33 33",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12058681069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9929051,
+      46.8533973
     ]
   }
 }
