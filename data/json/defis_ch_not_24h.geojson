@@ -8642,8 +8642,10 @@
   "type": "Feature",
   "id": "node/6576230066",
   "properties": {
+    "defibrillator:location": "Sur le mur des toilettes",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "id": "node/6576230066"
   },
   "geometry": {
@@ -181549,9 +181551,12 @@
   "type": "Feature",
   "id": "node/12060209290",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Sur le mur après les caisses automatiques, à l'intérieur de la Migros.",
+    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "indoor": "yes",
+    "operator": "Migros",
     "id": "node/12060209290"
   },
   "geometry": {
