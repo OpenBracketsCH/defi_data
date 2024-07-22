@@ -38748,13 +38748,37 @@
     "description": "während Schulbetrieb verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Waldkirch",
     "id": "node/7864944266"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.2828733,
-      47.4661392
+      9.2829529,
+      47.4662552
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7864944268",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim oberen Eingang, rechts in der Nische zum Aufzug",
+    "description": "AED ist nur verfügbar, wenn das Schulhaus geöffnet ist.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-19:00",
+    "operator": "Gemeinde Waldkirch",
+    "id": "node/7864944268"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2828789,
+      47.4671077
     ]
   }
 },
@@ -38763,16 +38787,18 @@
   "id": "node/7864993737",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Beim Haupteingang eintreten und dann links abbiegen",
+    "defibrillator:location": "Beim Haupteingang eintreten und dann links hinter den Garderoben abbiegen",
+    "description": "Nur während Schul- oder Trainingsbetrieb zugänglich.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "operator": "Gemeinde Waldkirch",
     "id": "node/7864993737"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.3352421,
-      47.4723655
+      9.334762,
+      47.472535
     ]
   }
 },
@@ -181680,6 +181706,65 @@
     "coordinates": [
       9.8386626,
       46.8084709
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12067518727",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Foyer links neben der Eingangstüre",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "opening_hours": "Nur während dem Schulbetrieb zugänglich.",
+    "operator": "Gemeinde Waldkich",
+    "id": "node/12067518727"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2822947,
+      47.4658587
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12067536098",
+  "properties": {
+    "access": "permit",
+    "defibrillator:location": "Garderobe/Sanität im Erdgeschoss",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "Gemeinde Waldkirch",
+    "id": "node/12067536098"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2850683,
+      47.4734565
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12067542225",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der AED befindet sich im Eingangsbereich",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Gemeinde Waldkirch",
+    "id": "node/12067542225"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2881224,
+      47.469592
     ]
   }
 }
