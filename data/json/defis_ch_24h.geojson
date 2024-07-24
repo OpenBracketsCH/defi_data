@@ -35193,27 +35193,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8012536542",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Beim Eingang zum Hauptgebäude",
-    "description": "24h verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "id": "node/8012536542"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.0809056,
-      47.3449623
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8012536544",
   "properties": {
     "access": "yes",
@@ -74846,6 +74825,30 @@
     "coordinates": [
       6.6300446,
       46.5454101
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9779504487",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussen am Eingang auf der linken Seite. Er ist hell grün.",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "image": "https://fwbuga.ch/wp-content/uploads/2019/10/DSC_1928-1024x576.jpg",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Feuerwehr Bütschwil-Ganterschwil",
+    "source": "https://fwbuga.ch/aed/",
+    "id": "node/9779504487"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0813682,
+      47.3451416
     ]
   }
 },
