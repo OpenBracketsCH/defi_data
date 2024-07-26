@@ -64576,29 +64576,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8995428410",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Fadenstrasse 22, Bau 742, beim Haupteingang reingehen (Defi Schild sichtbar), gerade aus vor Treppe",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 07:00-19:00",
-    "operator": "Hochschule Luzern, Hausdienst Viscosi, Pascal Brodard oder Norbert Waldvogel",
-    "phone": "+41 41 248 63 44",
-    "id": "node/8995428410"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.2783663,
-      47.0700397
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8995801821",
   "properties": {
     "access": "yes",
@@ -181689,6 +181666,31 @@
     "coordinates": [
       7.7440826,
       47.4755745
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12075764552",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Bitte klingeln, Defi drinnen, neben der Eingangstüre!",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:00-17:00",
+    "operator": "Netcloud AG",
+    "phone": "+41 58 344 12 12",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12075764552"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7079177,
+      47.5267952
     ]
   }
 }
