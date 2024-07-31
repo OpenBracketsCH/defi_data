@@ -154124,29 +154124,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11158614705",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Fensternische",
-    "description": "immer verfügbar ",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "Parterre",
-    "operator": "Privat",
-    "phone": "+41764391755",
-    "id": "node/11158614705"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6674429,
-      47.3436444
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11158634206",
   "properties": {
     "access": "yes",
@@ -181991,6 +181968,38 @@
     "coordinates": [
       7.5110398,
       46.2824861
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12085721153",
+  "properties": {
+    "description": "À l'intérieur de l'entrée principale à gauche",
+    "emergency": "defibrillator",
+    "id": "node/12085721153"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0486939,
+      46.6147578
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12085722283",
+  "properties": {
+    "description": "Dans l'entrée de la grande salle du Motty",
+    "emergency": "defibrillator",
+    "id": "node/12085722283"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.5613157,
+      46.5260817
     ]
   }
 }
