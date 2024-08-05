@@ -6022,10 +6022,20 @@
   "id": "node/9508364654",
   "properties": {
     "access": "yes",
+    "addr:housenumber": "8",
+    "addr:street": "Via Fedacla",
+    "defibrillator:location": "An Frontseite von Platzwart-Häuschen\n1446LTS",
+    "description": "Grüner Kasten / Via Fedacla",
     "emergency": "defibrillator",
+    "emergency:amenity": "144",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "postal_code": "7514",
+    "ref": "1446LTS",
     "id": "node/9508364654"
   },
   "geometry": {
@@ -14287,6 +14297,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
+    "opening_hours": "24/7",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "postal_code": "7514",
@@ -14314,6 +14325,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
+    "opening_hours": "24/7",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "postal_code": "7514",
@@ -14325,6 +14337,59 @@
     "coordinates": [
       9.7648191,
       46.4136482
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12093245333",
+  "properties": {
+    "access": "yes",
+    "addr:housenumber": "31",
+    "addr:street": "Via Pas-chs",
+    "defibrillator:location": "Neben Kassenautomat von Parkplatz.\nFurtschellas Talstation\n1447LTS",
+    "description": "Grüner Kasten / Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "postal_code": "7514",
+    "ref": "1447LTS",
+    "id": "node/12093245333"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.7727508,
+      46.4326212
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12093258806",
+  "properties": {
+    "access": "yes",
+    "addr:street": "Via Riva d'Lej",
+    "defibrillator:location": "An Fassade von Clubhaus (Parkplatzseitig).\nBeach Club Sils\n1448 LTS",
+    "description": "Grüner Kasten / Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "postal_code": "7514",
+    "ref": "1448 LTS",
+    "id": "node/12093258806"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.7755353,
+      46.4410874
     ]
   }
 }

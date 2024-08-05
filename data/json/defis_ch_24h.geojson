@@ -69574,6 +69574,35 @@
 },
 {
   "type": "Feature",
+  "id": "node/9508364654",
+  "properties": {
+    "access": "yes",
+    "addr:housenumber": "8",
+    "addr:street": "Via Fedacla",
+    "defibrillator:location": "An Frontseite von Platzwart-Häuschen\n1446LTS",
+    "description": "Grüner Kasten / Via Fedacla",
+    "emergency": "defibrillator",
+    "emergency:amenity": "144",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "postal_code": "7514",
+    "ref": "1446LTS",
+    "id": "node/9508364654"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.7643906,
+      46.4301399
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9510633327",
   "properties": {
     "access": "yes",
@@ -119758,6 +119787,83 @@
     "coordinates": [
       7.3163849,
       47.0751528
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12093119853",
+  "properties": {
+    "access": "yes",
+    "addr:housenumber": "1",
+    "addr:street": "Posta Veglia",
+    "defibrillator:location": "An WC-Häuschen bei Kirche San Lurench",
+    "description": "Grüner Kasten / Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "postal_code": "7514",
+    "ref": "1444LTS",
+    "id": "node/12093119853"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.7547502,
+      46.4346668
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12093128971",
+  "properties": {
+    "access": "yes",
+    "addr:housenumber": "2",
+    "addr:street": "Crasta",
+    "defibrillator:location": "An Hausfassade Strassenseitig\n1445LTS",
+    "description": "Grüner Kasten / Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "postal_code": "7514",
+    "ref": "1445LTS",
+    "id": "node/12093128971"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.7648191,
+      46.4136482
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12093428201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Karton-und Papiersammelstelle Walenstadtberg",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Feuerwehr Walenstadt",
+    "id": "node/12093428201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2908981,
+      47.1373708
     ]
   }
 }
