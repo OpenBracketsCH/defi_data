@@ -14231,12 +14231,12 @@
     "defibrillator:location": "Beim Haupteingang im Eingangsbereich\n1442 LTM",
     "description": "Koffer orange",
     "emergency": "defibrillator",
-    "emergency:phone": "+41 800 122 144",
-    "indoor": "no",
+    "emergency:phone": "144",
+    "indoor": "yes",
     "level": "0",
     "opening_hours": "bei Schulöffnungszeiten",
     "operator": "Lifetec AG Schweiz",
-    "phone": "144",
+    "phone": "+41 800 122 144",
     "ref": "1442 LTM",
     "id": "node/12093047223"
   },
@@ -14245,6 +14245,86 @@
     "coordinates": [
       9.7617384,
       46.4319083
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12093072266",
+  "properties": {
+    "access": "yes",
+    "addr:housenumber": "93",
+    "addr:street": "Via da Marias",
+    "defibrillator:location": "1.OG Im Gemeindehaus, im Treppenhaus vor dem Gemeindebüroschalter\n1443 LTM",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "ref": "144LTM",
+    "id": "node/12093072266"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.7632414,
+      46.4288573
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12093119853",
+  "properties": {
+    "access": "yes",
+    "addr:housenumber": "1",
+    "addr:street": "Posta Veglia",
+    "defibrillator:location": "An WC-Häuschen bei Kirche San Lurench",
+    "description": "Grüner Kasten / Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "postal_code": "7514",
+    "ref": "1444LTS",
+    "id": "node/12093119853"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.7547502,
+      46.4346668
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12093128971",
+  "properties": {
+    "access": "yes",
+    "addr:housenumber": "2",
+    "addr:street": "Crasta",
+    "defibrillator:location": "An Hausfassade Strassenseitig\n1445LTS",
+    "description": "Grüner Kasten / Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "postal_code": "7514",
+    "ref": "1445LTS",
+    "id": "node/12093128971"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.7648191,
+      46.4136482
     ]
   }
 }
