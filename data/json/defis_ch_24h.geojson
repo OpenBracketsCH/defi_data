@@ -3156,6 +3156,28 @@
 },
 {
   "type": "Feature",
+  "id": "node/5964461841",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Dans la gare",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "24/7",
+    "wheelchair": "no",
+    "id": "node/5964461841"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9786405,
+      46.431839
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/5979337846",
   "properties": {
     "access": "yes",
@@ -114766,14 +114788,13 @@
     "opening_hours": "24/7",
     "operator": "Gemeinde Boniswil",
     "phone": "+41 62 767 61 20",
-    "source": "local_knowledge, defikarte.ch",
     "id": "node/11883064369"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.198424,
-      47.3047639
+      8.1983799,
+      47.3048264
     ]
   }
 },
@@ -114782,22 +114803,24 @@
   "id": "node/11883197569",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Feuerwehrgebäude",
+    "defibrillator:location": "Eingang Feuerwehrgebäude",
     "description": "24/7",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeindeverwaltung Dielsdorf",
-    "phone": "+41448533805",
+    "phone": "+41 44 853 38 05",
     "source": "local_knowledge, defikarte.ch",
+    "wheelchair": "limited",
     "id": "node/11883197569"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4599662,
-      47.4777427
+      8.4599357,
+      47.4777525
     ]
   }
 },
@@ -120094,6 +120117,30 @@
     "coordinates": [
       7.0937033,
       45.9335311
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12096911422",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An der Wand des Seehotel Beinwil am See",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Seehotel Beinwil am See",
+    "phone": "+41 62 765 80 30",
+    "wheelchair": "limited",
+    "id": "node/12096911422"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2107956,
+      47.2690324
     ]
   }
 }

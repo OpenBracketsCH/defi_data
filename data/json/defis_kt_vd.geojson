@@ -446,13 +446,16 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "24/7",
+    "wheelchair": "no",
     "id": "node/5964461841"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.9786992,
-      46.4318459
+      6.9786405,
+      46.431839
     ]
   }
 },
@@ -4561,14 +4564,17 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "-1",
-    "operator": "MOB",
+    "opening_hours": "Mo-Fr 07:00-18:00; Sa,Su 07:30-18:00",
+    "operator": "Compagnie du chemin de fer Montreux Oberland bernois SA",
+    "phone": "+41 21 989 81 90",
+    "wheelchair": "limited",
     "id": "node/10199981247"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.9109095,
-      46.436309
+      6.9109325,
+      46.4363597
     ]
   }
 },
