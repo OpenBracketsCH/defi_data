@@ -12545,6 +12545,7 @@
     "defibrillator:location": "beim Haupteingang neben dem Empfang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "Mo-Fr 06:00-20:00",
     "operator": "Eidgenössisches Hochschulinstitut für Berufsbildung EHB",
     "id": "node/6637275869"
@@ -182239,6 +182240,22 @@
     "coordinates": [
       6.8006892,
       46.6680206
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12096666653",
+  "properties": {
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/12096666653"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.0076177,
+      46.1447574
     ]
   }
 }
