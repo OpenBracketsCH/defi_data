@@ -182247,6 +182247,7 @@
   "type": "Feature",
   "id": "node/12096666653",
   "properties": {
+    "defibrillator:location": "A gauche de la porte d'entrée du bâtiment",
     "emergency": "defibrillator",
     "indoor": "no",
     "id": "node/12096666653"
@@ -182256,6 +182257,30 @@
     "coordinates": [
       6.0076177,
       46.1447574
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12096740317",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bei Rolltreppe",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Th 08:15-18:30; Fr 08:15-20:00; Sa 08:00-17:00",
+    "operator": "Genossenschaft Migros Wallis",
+    "phone": "+41 27 720 68 80",
+    "wheelchair": "limited",
+    "id": "node/12096740317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0717502,
+      46.1015474
     ]
   }
 }
