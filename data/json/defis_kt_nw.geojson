@@ -312,24 +312,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637818429",
-  "properties": {
-    "description": "Ende September bis Anfang Mai; Im Sommer beim Strandbad.",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Gemeindehaus",
-    "id": "node/7637818429"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.3368723,
-      46.9792174
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637818430",
   "properties": {
     "description": "Foyer / Eingangsbereich Turnhalle",
@@ -371,10 +353,11 @@
   "type": "Feature",
   "id": "node/7637818432",
   "properties": {
-    "description": "Anfang Mai bis Ende September;\nIm Winter im Gemeindehaus.",
+    "defibrillator:location": "Während der Saison im Badmeisterbüro. \nAusserhalb der Saison im Areal im Aussenkasten beim Altbau.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "name": "Strandbad Stansstad",
+    "operator": "Politische Gemeinde Stansstad",
     "id": "node/7637818432"
   },
   "geometry": {
