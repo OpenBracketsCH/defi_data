@@ -182237,6 +182237,76 @@
       47.1451237
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/12106191464",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Vorraum Dachterrasse bei den Liften",
+    "description": "Immer Verfügbar für interne Personen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "8",
+    "operator": "SBB",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12106191464"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4644536,
+      46.9687957
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12106194401",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Haupteingang im Sanitätszimmer",
+    "description": "Während Bürozeiten erreichbar.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-17:00",
+    "operator": "SBB",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12106194401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4635309,
+      46.967811
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12106201227",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Bei Empfang im Sanitätszimmer",
+    "description": "Für Interne Personen 24/7, für Benutzung externe bei Empfang melden",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-17:00",
+    "operator": "SBB",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12106201227"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4643785,
+      46.9689458
+    ]
+  }
 }
 ]
 }
