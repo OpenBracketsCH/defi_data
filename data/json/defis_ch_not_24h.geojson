@@ -151065,28 +151065,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11038066305",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Bergstation Rigi- Burggeist Seilbahn",
-    "description": "24 Std. zugänglich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Burggeist AG/ Berggasthaus Rigi Burggeist",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/11038066305"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5248542,
-      47.0252426
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11038066505",
   "properties": {
     "access": "no",
@@ -163598,11 +163576,11 @@
   "properties": {
     "access": "no",
     "defibrillator:location": "Baudienstzentrum SBB",
-    "description": "Mo-Fr 7.00-16.30",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "EG",
+    "opening_hours": "Mo-Fr 07:00-16:30",
     "operator": "SBB",
     "id": "node/11534960669"
   },
@@ -182280,6 +182258,28 @@
     "coordinates": [
       8.6372486,
       46.9698502
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12105761401",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Sporthalle BBZ-Biel, nach Eingang rechts",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "BBZ Biel",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12105761401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2562981,
+      47.1451237
     ]
   }
 }

@@ -15746,7 +15746,8 @@
   "id": "node/6976938388",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Rigi Bahnstation Eingangsbereich",
+    "defibrillator:location": "Rigi Klösterli Bahnstation Eingangsbereich",
+    "description": "Eingangsbereich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -46430,8 +46431,8 @@
   "id": "node/8617211933",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "an der Fassade",
-    "description": "24h verfügbar",
+    "defibrillator:location": "RIWAG Türen AG",
+    "description": "an der Fassade",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -52102,7 +52103,8 @@
   "id": "node/8841003820",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Feuerwehrlokal Oberarth, links von Tor 1",
+    "defibrillator:location": "Feuerwehrlokal Oberarth",
+    "description": "links von Tor 1",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -59527,8 +59529,8 @@
   "id": "node/9152057430",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Eingang Halle 1-3 (Nordseite)",
-    "description": "24h verfügbar",
+    "defibrillator:location": "Turnhalle Allmig",
+    "description": "Eingang Halle 1-3 Nordseite",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -99762,6 +99764,28 @@
     "coordinates": [
       8.2023561,
       47.3292538
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11038066305",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bergstation Rigi- Burggeist Seilbahn",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Burggeist AG/ Berggasthaus Rigi Burggeist",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11038066305"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5248542,
+      47.0252426
     ]
   }
 },
