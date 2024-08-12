@@ -46810,26 +46810,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8361472285",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Rechts vom Eingang Shop, Links um die Ecke bei Tanksäule",
-    "description": "24h verfügbar bei Distillerie",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/8361472285"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5913132,
-      47.0309017
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8382783718",
   "properties": {
     "access": "yes",
@@ -54246,26 +54226,6 @@
     "coordinates": [
       8.6239442,
       47.4143674
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8610901717",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Feuerwhrlokal Steinen",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Gemeinde Steinen",
-    "id": "node/8610901717"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6070065,
-      47.0486667
     ]
   }
 },
@@ -107860,6 +107820,29 @@
     "coordinates": [
       9.3812229,
       47.5643888
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10182254517",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Eingang Bättigmatt 13",
+    "description": "Von 7:00 Uhr bis 22:00 Uhr verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Stiftung Phönix Schwyz",
+    "phone": "+41418177110",
+    "id": "node/10182254517"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6298897,
+      47.0274631
     ]
   }
 },

@@ -38315,19 +38315,39 @@
   "id": "node/8361472284",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "An der Garage (Tor)",
-    "description": "24h verfügbar",
+    "defibrillator:location": "Bergstrasse 8",
+    "description": "an der Garage (Tor)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
     "opening_hours": "24/7",
     "id": "node/8361472284"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5898813,
-      47.0243252
+      8.5898752,
+      47.0243962
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8361472285",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Distillerie Z´Graggen",
+    "description": "Rechts vom Shop-Eingang, links um die Ecke bei Tanksäule",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8361472285"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5913029,
+      47.0309217
     ]
   }
 },
@@ -46336,6 +46356,27 @@
     "coordinates": [
       8.8273534,
       47.1864478
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8610901717",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Feuerwehrlokal Steinen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Steinen",
+    "id": "node/8610901717"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6066983,
+      47.0489322
     ]
   }
 },
@@ -65557,28 +65598,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9327269903",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Im Amt für Militär, Zivilschutz und Feuerwehr",
-    "description": "24h verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "AMFZ",
-    "id": "node/9327269903"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6432415,
-      47.032658
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9327286058",
   "properties": {
     "access": "no",
@@ -81567,30 +81586,6 @@
     "coordinates": [
       7.554409,
       47.4968804
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10182254517",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Eingang Bättigmatt 13",
-    "description": "von 7 Uhr bis 22 Uhr verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Stiftung Phönix Schwyz",
-    "phone": "+41418177110",
-    "id": "node/10182254517"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6298897,
-      47.0274631
     ]
   }
 },
