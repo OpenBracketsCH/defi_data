@@ -48245,7 +48245,8 @@
   "id": "node/8713427318",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Victorinox",
+    "defibrillator:location": "Victorinox, Seilerstrasse 1",
+    "description": "Beim Hauseingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -48255,8 +48256,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6497737,
-      47.0175941
+      8.6496561,
+      47.0176442
     ]
   }
 },
@@ -79747,27 +79748,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10067296017",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Haupteingang MythenForum",
-    "description": "\n",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "id": "node/10067296017"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6551029,
-      47.0211329
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10068599417",
   "properties": {
     "access": "yes",
@@ -102516,14 +102496,13 @@
   "id": "node/11207822537",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Mythen Forum ",
+    "defibrillator:location": "Mythen Forum",
     "description": "Eingang der Säle / Aussenterrasse Restaurant > an Hauswand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
-    "operator": "Meldung: Beim Standort in Karte \"Haus Bethlehem\" ist kein Defibrillator vorhanden!!!",
     "phone": "+41 41 819 67 38",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/11207822537"
@@ -112891,13 +112870,13 @@
   "id": "node/11768399169",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Nähe Bushaltestelle Mangelegg",
-    "description": "öffentlich zugänglich",
+    "defibrillator:location": "Mangelegg",
+    "description": "Nähe Bushaltestelle Mangelegg, gegenüber Haus Mangelegg 121",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "unbekannt",
+    "operator": "Gemeinde Schwyz",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/11768399169"
   },
