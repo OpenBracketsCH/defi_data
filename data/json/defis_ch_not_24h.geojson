@@ -60579,7 +60579,7 @@
   "properties": {
     "access": "no",
     "defibrillator:location": "Eingangsbereich Gemeindehaus",
-    "description": "während Öffnungszeiten verfügbar",
+    "description": "während Öffnungszeiten verfügbar:Montag08.30 – 11.30 / 14.00 – 18.00Dienstag bis Donnerstag08.30 – 11.30 / 14.00 – 16.30Freitag07.30 – 13.00   durchgehendVor Feiertagen gelten die Öffnungszeiten 07.30 – 13.00   durchgehend.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -175799,25 +175799,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11904307782",
-  "properties": {
-    "defibrillator:location": "Spital Schwyz Eingang Haus M und Parkhaus",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "operator": "Spital Schwyz",
-    "phone": "041 818 41 11",
-    "id": "node/11904307782"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6599412,
-      47.0157763
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11904360769",
   "properties": {
     "access": "yes",
@@ -176082,8 +176063,8 @@
     "defibrillator:location": "AGRO Energiezentrale",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "operator": "Gemeinde Schwyz",
-    "phone": "041 819 07 25",
+    "opening_hours": "Mo-Fr 07:30-12:00/13:00-17:00",
+    "operator": "AGRO",
     "id": "node/11909341993"
   },
   "geometry": {
@@ -182281,6 +182262,24 @@
     "coordinates": [
       7.1026698,
       46.3984024
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12105743459",
+  "properties": {
+    "defibrillator:location": "Restaurant Fronalpstock",
+    "description": "Zugänglich während Öffnungszeiten Restaurant",
+    "emergency": "defibrillator",
+    "operator": "Stoosbahnen",
+    "id": "node/12105743459"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6372486,
+      46.9698502
     ]
   }
 }

@@ -1707,7 +1707,8 @@
   "id": "node/6976938410",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bergstation Restaurant Gipfelstubli, im Eingangsbereich links",
+    "defibrillator:location": "Bergstation Restaurant Gipfelstubli",
+    "description": "Im Eingangsbereich links",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
@@ -3788,7 +3789,8 @@
   "id": "node/8920604017",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "kassenhäuschen sportplatz",
+    "defibrillator:location": "Sportanlage Wintersried",
+    "description": "Kassenhäuschen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -3798,8 +3800,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6331308,
-      47.0156784
+      8.6332242,
+      47.0155347
     ]
   }
 },
@@ -4306,7 +4308,7 @@
   "properties": {
     "access": "no",
     "defibrillator:location": "Seminar & Wellness Hotel",
-    "description": "bei Reception\n",
+    "description": "bei Reception, immer zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -6426,7 +6428,8 @@
   "id": "node/11204764537",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Beim Eingang zur Tiefgarage bei Velostand",
+    "defibrillator:location": "Alterszentrum Acherhof",
+    "description": "Beim Velounterstand, Treppenabgang zur Tiefgarage",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -7324,7 +7327,8 @@
   "id": "node/11904229831",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Plätzli 6, 6432 Rickenbach altes Schulhaus",
+    "defibrillator:location": "Aufiberg",
+    "description": "Plätzli 6, 6432 Rickenbach",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -7410,9 +7414,12 @@
   "type": "Feature",
   "id": "node/11904307782",
   "properties": {
-    "defibrillator:location": "Spital Schwyz Eingang Haus M und Parkhaus",
+    "access": "yes",
+    "defibrillator:location": "Spital Schwyz",
+    "description": "Eingang Parkhaus, Haus M",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "opening_hours": "24/7",
     "operator": "Spital Schwyz",
     "phone": "041 818 41 11",
     "id": "node/11904307782"
@@ -7694,8 +7701,8 @@
     "defibrillator:location": "AGRO Energiezentrale",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "operator": "Gemeinde Schwyz",
-    "phone": "041 819 07 25",
+    "opening_hours": "Mo-Fr 07:30-12:00/13:00-17:00",
+    "operator": "AGRO",
     "id": "node/11909341993"
   },
   "geometry": {
@@ -7887,6 +7894,24 @@
     "coordinates": [
       8.4477015,
       47.0767277
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12105743459",
+  "properties": {
+    "defibrillator:location": "Restaurant Fronalpstock",
+    "description": "Zugänglich während Öffnungszeiten Restaurant",
+    "emergency": "defibrillator",
+    "operator": "Stoosbahnen",
+    "id": "node/12105743459"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6372486,
+      46.9698502
     ]
   }
 }

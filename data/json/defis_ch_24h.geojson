@@ -16216,7 +16216,8 @@
   "id": "node/6976938410",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bergstation Restaurant Gipfelstubli, im Eingangsbereich links",
+    "defibrillator:location": "Bergstation Restaurant Gipfelstubli",
+    "description": "Im Eingangsbereich links",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
@@ -54748,7 +54749,8 @@
   "id": "node/8920604017",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "kassenhäuschen sportplatz",
+    "defibrillator:location": "Sportanlage Wintersried",
+    "description": "Kassenhäuschen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -54758,8 +54760,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6331308,
-      47.0156784
+      8.6332242,
+      47.0155347
     ]
   }
 },
@@ -72310,7 +72312,7 @@
   "properties": {
     "access": "no",
     "defibrillator:location": "Seminar & Wellness Hotel",
-    "description": "bei Reception\n",
+    "description": "bei Reception, immer zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -102433,7 +102435,8 @@
   "id": "node/11204764537",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Beim Eingang zur Tiefgarage bei Velostand",
+    "defibrillator:location": "Alterszentrum Acherhof",
+    "description": "Beim Velounterstand, Treppenabgang zur Tiefgarage",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -115653,7 +115656,8 @@
   "id": "node/11904229831",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Plätzli 6, 6432 Rickenbach altes Schulhaus",
+    "defibrillator:location": "Aufiberg",
+    "description": "Plätzli 6, 6432 Rickenbach",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -115732,6 +115736,28 @@
     "coordinates": [
       8.6069222,
       47.0467402
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11904307782",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Spital Schwyz",
+    "description": "Eingang Parkhaus, Haus M",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Spital Schwyz",
+    "phone": "041 818 41 11",
+    "id": "node/11904307782"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6599412,
+      47.0157763
     ]
   }
 },
