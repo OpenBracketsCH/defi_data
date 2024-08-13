@@ -34497,15 +34497,19 @@
     "defibrillator:location": "Aussen am Gebäude der Talstation der Marzilibahn",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
     "location": "outdoor",
     "opening_hours": "24/7",
+    "operator": "Drahtseilbahn Marzili-Stadt Bern AG",
+    "wheelchair": "no",
     "id": "node/8984777842"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4430187,
-      46.9451787
+      7.4430558,
+      46.9451918
     ]
   }
 },
@@ -55351,6 +55355,29 @@
     "coordinates": [
       7.4643785,
       46.9689458
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12107731475",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Bei der Kasse, Bern DMB",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 06:15-21:00",
+    "operator": "Drahtseilbahn Marzili-Stadt Bern AG",
+    "wheelchair": "no",
+    "id": "node/12107731475"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4421994,
+      46.9459444
     ]
   }
 }
