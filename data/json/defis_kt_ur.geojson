@@ -46,16 +46,21 @@
   "type": "Feature",
   "id": "node/5387108677",
   "properties": {
+    "access": "yes",
+    "check_date": "2024-08-14",
+    "defibrillator:location": "Rechts von Eingangstür",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "name": "Mehrzweckgebäude Winkel",
+    "opening_hours": "24/7",
     "id": "node/5387108677"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6454336,
-      46.882381
+      8.6454334,
+      46.8824002
     ]
   }
 },
@@ -1032,26 +1037,6 @@
     "coordinates": [
       8.6512932,
       46.8743854
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7637819153",
-  "properties": {
-    "access": "yes",
-    "description": "Aussenfassade",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Mehrzweckgebäude Winkel",
-    "opening_hours": "24/7",
-    "id": "node/7637819153"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6454887,
-      46.8823282
     ]
   }
 },
