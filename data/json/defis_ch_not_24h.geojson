@@ -152589,6 +152589,7 @@
   "id": "node/11104988051",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Aussen beim Eingang zur Seilbahn",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -180734,6 +180735,7 @@
     "access": "yes",
     "defibrillator:location": "An Gebäudewand montiert",
     "emergency": "defibrillator",
+    "indoor": "yes",
     "operator": "Samariterverein Bürchen",
     "id": "node/12046613791"
   },
@@ -182491,6 +182493,34 @@
     "coordinates": [
       7.5743679,
       47.5558013
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12114303596",
+  "properties": {
+    "access": "yes",
+    "addr:housenumber": "15",
+    "addr:street": "Hardstrasse",
+    "defibrillator:location": "Werkstatt neben Büro\n1458LTM",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "name": "Niki Hasler AG",
+    "opening_hours": "Mo-FR 07:30-1200 130:0-17:15",
+    "operator": "Lifetec AG",
+    "phone": "+41800122144",
+    "ref": "1458LTM",
+    "id": "node/12114303596"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6025599,
+      47.5519735
     ]
   }
 }
