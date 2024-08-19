@@ -9689,19 +9689,18 @@
   "type": "Feature",
   "id": "node/7798090757",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Im Schulhaus",
-    "description": "während Schulbetrieb verfügbar",
+    "access": "yes",
+    "defibrillator:location": "Vor dem Haupteingang zur Dreifachturnhalle Farlifang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "operator": "Gemeinde Zumikon",
     "id": "node/7798090757"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6231496,
-      47.3334307
+      8.6233341,
+      47.3333231
     ]
   }
 },
@@ -9709,19 +9708,23 @@
   "type": "Feature",
   "id": "node/7798090758",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Im Schulhaus",
-    "description": "während Schulbetrieb verfügbar",
+    "access": "yes",
+    "defibrillator:location": "An Fassade im Durchgang zum Schulhausplatz",
+    "description": "Grüner Kasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "wall",
+    "level": "0",
+    "name": "Gemeinde Zumikon",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Zumikon",
     "id": "node/7798090758"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.623194,
-      47.3341528
+      8.622907,
+      47.3344855
     ]
   }
 },
@@ -71086,35 +71089,11 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "We - Fr 07:00 - 19:00",
-    "operator": "We4You Care AG",
-    "phone": "+41 58 670 11 00",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/11563839269"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.7499344,
-      47.1262134
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11563863469",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Arztpraxis We4You Care AG Klosterplatz",
-    "description": "In der Arztpraxis zu den angegebenen Öffnungszeiten erreichbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
     "opening_hours": "MO-SU 07:00-19:00",
     "operator": "We4You Care AG",
     "phone": "+41 58 670 11 00",
     "source": "local_knowledge, defikarte.ch",
-    "id": "node/11563863469"
+    "id": "node/11563839269"
   },
   "geometry": {
     "type": "Point",

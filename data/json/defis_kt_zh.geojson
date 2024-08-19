@@ -4498,19 +4498,18 @@
   "type": "Feature",
   "id": "node/7798090757",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Im Schulhaus",
-    "description": "während Schulbetrieb verfügbar",
+    "access": "yes",
+    "defibrillator:location": "Vor dem Haupteingang zur Dreifachturnhalle Farlifang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "operator": "Gemeinde Zumikon",
     "id": "node/7798090757"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6231496,
-      47.3334307
+      8.6233341,
+      47.3333231
     ]
   }
 },
@@ -4518,19 +4517,23 @@
   "type": "Feature",
   "id": "node/7798090758",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Im Schulhaus",
-    "description": "während Schulbetrieb verfügbar",
+    "access": "yes",
+    "defibrillator:location": "An Fassade im Durchgang zum Schulhausplatz",
+    "description": "Grüner Kasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "wall",
+    "level": "0",
+    "name": "Gemeinde Zumikon",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Zumikon",
     "id": "node/7798090758"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.623194,
-      47.3341528
+      8.622907,
+      47.3344855
     ]
   }
 },
