@@ -43525,26 +43525,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8099632605",
-  "properties": {
-    "defibrillator:location": "Feuerwehrdepot",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 07:00-17:00",
-    "operator": "Feuerwehr Uster",
-    "id": "node/8099632605"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.7152241,
-      47.3535241
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8101505520",
   "properties": {
     "access": "no",
@@ -52872,27 +52852,6 @@
     "coordinates": [
       8.6931896,
       47.3505469
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8574210700",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Werkgebäude",
-    "description": "während Öffnungszeiten verfügbar\nim Aufenthaltsraum Werkgebäude",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Stadt Uster",
-    "id": "node/8574210700"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.7149142,
-      47.3534637
     ]
   }
 },
@@ -182536,6 +182495,31 @@
     "coordinates": [
       8.6374265,
       47.0105549
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12120629901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Pflegeheim Leben und Wohnen (Vitafutura AG) links neben Empfang",
+    "description": "während Öffnungszeiten verfügbar, Zufahrt vor den Haupteingang, mit Auto NICHT möglich.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 07:00 - 20:00",
+    "operator": "Vitafutura AG ",
+    "phone": "+41 43 399 36 71",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12120629901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.68922,
+      47.3904872
     ]
   }
 }
