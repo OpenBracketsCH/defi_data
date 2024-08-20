@@ -40574,8 +40574,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5784663,
-      47.1378161
+      8.5783911,
+      47.1377972
     ]
   }
 },
@@ -56189,12 +56189,14 @@
   "properties": {
     "access": "permissive",
     "addr:city": "Tavannes",
-    "addr:housenumber": "9",
+    "addr:housenumber": "1",
     "addr:postcode": "2710",
     "addr:street": "Grand-Rue",
-    "defibrillator:location": "-",
+    "defibrillator:location": "An der Loge",
+    "description": "nur während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "opening_hours": "Mi 14:00-17:00",
     "operator": "Polizeiwache Tavannes",
     "phone": "+41 31 638 80 00",
     "id": "node/8728490398"
@@ -56202,8 +56204,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.1999289,
-      47.2202313
+      7.1987958,
+      47.2202253
     ]
   }
 },
@@ -56645,30 +56647,6 @@
     "coordinates": [
       7.2363472,
       46.906008
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8728595875",
-  "properties": {
-    "access": "permissive",
-    "addr:city": "Lengnau",
-    "addr:housenumber": "11",
-    "addr:postcode": "2543",
-    "addr:street": "Solothurnstrasse",
-    "defibrillator:location": "-",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "operator": "Polizeiwache Lengnau",
-    "phone": "+41 31 638 80 00",
-    "id": "node/8728595875"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.3667205,
-      47.1831239
     ]
   }
 },

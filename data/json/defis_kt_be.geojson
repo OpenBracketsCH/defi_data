@@ -15180,10 +15180,10 @@
   "properties": {
     "access": "yes",
     "addr:city": "Zollikofen",
-    "addr:housenumber": "160",
+    "addr:housenumber": "4",
     "addr:postcode": "3052",
-    "addr:street": "Bernstrasse",
-    "defibrillator:location": "Polizeiwache 1. Stock Verfügbar Mo - Fr, 8-12, 14-18 Uhr. Sa 8-12, 14-1630 Uhr",
+    "addr:street": "Eichenweg",
+    "defibrillator:location": "Beim Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
@@ -15194,8 +15194,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.460114,
-      46.9975498
+      7.4635893,
+      46.9966139
     ]
   }
 },
@@ -31790,12 +31790,14 @@
   "properties": {
     "access": "permissive",
     "addr:city": "Tavannes",
-    "addr:housenumber": "9",
+    "addr:housenumber": "1",
     "addr:postcode": "2710",
     "addr:street": "Grand-Rue",
-    "defibrillator:location": "-",
+    "defibrillator:location": "An der Loge",
+    "description": "nur während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "opening_hours": "Mi 14:00-17:00",
     "operator": "Polizeiwache Tavannes",
     "phone": "+41 31 638 80 00",
     "id": "node/8728490398"
@@ -31803,8 +31805,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.1999289,
-      47.2202313
+      7.1987958,
+      47.2202253
     ]
   }
 },
@@ -32280,14 +32282,17 @@
   "type": "Feature",
   "id": "node/8728595875",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "addr:city": "Lengnau",
     "addr:housenumber": "11",
     "addr:postcode": "2543",
     "addr:street": "Solothurnstrasse",
-    "defibrillator:location": "-",
+    "defibrillator:location": "Beim Eingang der Polizeiwache",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Polizeiwache Lengnau",
     "phone": "+41 31 638 80 00",
     "id": "node/8728595875"
@@ -32295,8 +32300,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.3667205,
-      47.1831239
+      7.3669424,
+      47.1828948
     ]
   }
 },

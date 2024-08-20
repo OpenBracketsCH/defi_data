@@ -10531,10 +10531,10 @@
   "properties": {
     "access": "yes",
     "addr:city": "Zollikofen",
-    "addr:housenumber": "160",
+    "addr:housenumber": "4",
     "addr:postcode": "3052",
-    "addr:street": "Bernstrasse",
-    "defibrillator:location": "Polizeiwache 1. Stock Verfügbar Mo - Fr, 8-12, 14-18 Uhr. Sa 8-12, 14-1630 Uhr",
+    "addr:street": "Eichenweg",
+    "defibrillator:location": "Beim Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
@@ -10545,8 +10545,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.460114,
-      46.9975498
+      7.4635893,
+      46.9966139
     ]
   }
 },
@@ -48573,6 +48573,33 @@
     "coordinates": [
       7.7045641,
       47.1885193
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728595875",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Lengnau",
+    "addr:housenumber": "11",
+    "addr:postcode": "2543",
+    "addr:street": "Solothurnstrasse",
+    "defibrillator:location": "Beim Eingang der Polizeiwache",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Polizeiwache Lengnau",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728595875"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3669424,
+      47.1828948
     ]
   }
 },
@@ -120634,6 +120661,29 @@
     "coordinates": [
       7.3792603,
       46.5549284
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12121562901",
+  "properties": {
+    "defibrillator:location": "Garage Burkhardt AG, Haupteingang im Windfang links",
+    "description": "Immer verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Garage Burkhardt AG, Oberkirch",
+    "phone": "+41 41 925 27 27",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12121562901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1175768,
+      47.1511216
     ]
   }
 }
