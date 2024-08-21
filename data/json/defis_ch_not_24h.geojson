@@ -182500,6 +182500,23 @@
 },
 {
   "type": "Feature",
+  "id": "node/12125393166",
+  "properties": {
+    "defibrillator:location": "À l'entrée",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/12125393166"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.5725989,
+      46.5300658
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12125411601",
   "properties": {
     "access": "no",
@@ -182517,6 +182534,80 @@
     "coordinates": [
       9.0358056,
       47.4811863
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12125414429",
+  "properties": {
+    "emergency": "defibrillator",
+    "fixme": "position",
+    "id": "node/12125414429"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.5668357,
+      46.5453731
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12125417518",
+  "properties": {
+    "defibrillator:location": "À l'entrée.",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/12125417518"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.5764739,
+      46.5367078
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12125418508",
+  "properties": {
+    "defibrillator:location": "In front of Migros Restaurant.",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/12125418508"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.5805582,
+      46.5385599
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12125465501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kantonsschule Hohe Promenade, neben Eingang",
+    "description": "während Öffnungszeiten verfügbar, Schulferien beachten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "Kantonsschule Hohe Promenade",
+    "phone": "+41442246464",
+    "id": "node/12125465501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5484357,
+      47.3689151
     ]
   }
 }
