@@ -450,15 +450,21 @@
   "type": "Feature",
   "id": "node/6743908485",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Damen WC neben Lindenstübli",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "wheelchair": "no",
     "id": "node/6743908485"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2195144,
-      47.0050042
+      8.2195504,
+      47.0050039
     ]
   }
 },
@@ -11634,24 +11640,6 @@
     "coordinates": [
       8.29189,
       47.0765786
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7637819064",
-  "properties": {
-    "description": "Damen WC neben Lindenstübli",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Lindenstübli Eigental 24h",
-    "id": "node/7637819064"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.2194132,
-      47.0049681
     ]
   }
 },
