@@ -45316,6 +45316,90 @@
 },
 {
   "type": "Feature",
+  "id": "node/8573760300",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Turnhalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Küsnacht",
+    "id": "node/8573760300"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6353245,
+      47.3205088
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8573760301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Seite Sportplatz Schulhaus Itschnach",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Küsnacht",
+    "id": "node/8573760301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6029836,
+      47.3259207
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8573760302",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vordach Haupteingang Schulhaus Erb",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Küsnacht",
+    "id": "node/8573760302"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5871608,
+      47.3254816
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8573760303",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Unterflureingang Fahrradkeller und Turnhalleneingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Küsnacht",
+    "id": "node/8573760303"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5779773,
+      47.3268034
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8573815630",
   "properties": {
     "access": "yes",
@@ -119354,6 +119438,31 @@
 },
 {
   "type": "Feature",
+  "id": "node/12054569269",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhausplatz Schule Heslibach",
+    "description": "24 h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Küsnacht",
+    "phone": "+41 44 913 11 11",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12054569269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5866144,
+      47.3120782
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12056948569",
   "properties": {
     "access": "yes",
@@ -120781,6 +120890,30 @@
     "coordinates": [
       9.1269779,
       47.5616065
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12124282102",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hotel Holiday Inn & Suites ",
+    "description": "Zoll AED Plus AM 3248",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Tristar Suisse AG",
+    "phone": "+ 41 79 926 27 98",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12124282102"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.55449,
+      47.562041
     ]
   }
 }
