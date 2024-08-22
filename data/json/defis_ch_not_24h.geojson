@@ -37247,25 +37247,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7798090762",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Bei Gemeindepolizei im Auto",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/7798090762"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6242994,
-      47.3324499
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7800758434",
   "properties": {
     "access": "no",
@@ -119839,26 +119820,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10702285505",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Im Feuerwehrgebäude",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Feuerwehr Zumikon-Küsnachterberg",
-    "id": "node/10702285505"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6205108,
-      47.3387891
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10703768405",
   "properties": {
     "access": "no",
@@ -182672,6 +182633,56 @@
     "coordinates": [
       8.3525729,
       47.3531035
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12126402901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "jetzt Fröschenmoos, Dorfstrasse 9, 3713 Reichenbach im Kandertal  ",
+    "description": "Während den Öffnungszeiten verfügbar. Im Windfang beim Haupteingang. ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su  06:30-19:00",
+    "operator": "jetzt Frutigland AG ",
+    "phone": "+41 774859079",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12126402901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6937771,
+      46.6283831
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12126435502",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Pflegeheim, jetzt Andristmatte, Adelbodenstrasse 25, 3714 Frutigen",
+    "description": "Während den Öffnungszeiten verfügbar. Unmittelbar nach dem Haupteingang rechts.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 06:30-19:00",
+    "operator": "jetzt Frutigland AG ",
+    "phone": "+41 774859079",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12126435502"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6429546,
+      46.5846893
     ]
   }
 }

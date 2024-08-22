@@ -31794,6 +31794,31 @@
 },
 {
   "type": "Feature",
+  "id": "node/7798090762",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An der Fassade der Scheune gegen die Strasse",
+    "description": "Nach Gebrauch bei der Feuerwehr melden: +41 44 918 01 32",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "name": "Gemeinde Zumikon",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Zumikon",
+    "phone": "+41 44 918 01 32",
+    "id": "node/7798090762"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6242246,
+      47.3271083
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/7798131761",
   "properties": {
     "access": "yes",
@@ -89950,6 +89975,31 @@
 },
 {
   "type": "Feature",
+  "id": "node/10702285505",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An Fassade vor dem Feuerwehrgebäude",
+    "description": "Nach Gebrauch bei der Feuerwehr melden: +41 44 918 03 32",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "name": "Gemeinde Zumikon",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Zumikon",
+    "phone": "+41 44 918 01 32",
+    "id": "node/10702285505"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.620575,
+      47.3386826
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10703821707",
   "properties": {
     "access": "no",
@@ -120982,6 +121032,74 @@
     "coordinates": [
       8.3569072,
       47.3561871
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12126355801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Feuerwehrlokal Zufikon",
+    "description": "Öffentlich Zugängig",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Zufikon",
+    "phone": "+41566482942",
+    "id": "node/12126355801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.356616,
+      47.3501228
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12126435501",
+  "properties": {
+    "defibrillator:location": "Hauptgebäude (Haus C)",
+    "description": "bei Anforderung telefonisch melden, da im Gebäude verschlossen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Reha Lutzenberg",
+    "phone": "+41718863087",
+    "id": "node/12126435501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5859644,
+      47.4592781
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12126511901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kassenhäuschen Sportanlage Heslibach",
+    "description": "beim Kassenhäuschen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Küsnacht",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12126511901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5870572,
+      47.3140741
     ]
   }
 }
