@@ -24193,23 +24193,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637818435",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Chraftwärch Fitness",
-    "id": "node/7637818435"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.3553106,
-      46.9685378
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637818436",
   "properties": {
     "description": "EG Kundentreppenhaus b. Plakatwand / 1. OG Migros-Kundendienst an Rückwand / 2. OG Kundentreppenhaus",
@@ -182426,9 +182409,12 @@
   "type": "Feature",
   "id": "node/12125382999",
   "properties": {
-    "defibrillator:location": "Avant les caisses.",
+    "access": "yes",
+    "defibrillator:location": "Avant les caisses",
+    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "indoor": "yes",
+    "operator": "Migros",
     "id": "node/12125382999"
   },
   "geometry": {
@@ -182443,9 +182429,12 @@
   "type": "Feature",
   "id": "node/12125393166",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "À l'entrée",
+    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "indoor": "yes",
+    "operator": "Migros",
     "id": "node/12125393166"
   },
   "geometry": {
@@ -182498,9 +182487,12 @@
   "type": "Feature",
   "id": "node/12125417518",
   "properties": {
-    "defibrillator:location": "À l'entrée.",
+    "access": "yes",
+    "defibrillator:location": "À l'entrée",
+    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "indoor": "yes",
+    "operator": "Migros",
     "id": "node/12125417518"
   },
   "geometry": {
@@ -182515,9 +182507,12 @@
   "type": "Feature",
   "id": "node/12125418508",
   "properties": {
-    "defibrillator:location": "In front of Migros Restaurant.",
+    "access": "yes",
+    "defibrillator:location": "En face du restaurant Migros",
+    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "indoor": "yes",
+    "operator": "Migros",
     "id": "node/12125418508"
   },
   "geometry": {
@@ -182709,6 +182704,57 @@
     "coordinates": [
       7.5320935,
       46.7785361
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12130770002",
+  "properties": {
+    "defibrillator:location": "Hotel Bad Eptingen",
+    "description": "während Öffnungzeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Hotel Bad Eptingen",
+    "phone": "+41 62 285 20 10",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12130770002"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8210372,
+      47.3854243
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12130957852",
+  "properties": {
+    "access": "yes",
+    "addr:housenumber": "6",
+    "addr:street": "Bahnhofstrasse",
+    "defibrillator:location": "1.UG rechts neben Campussaal\n1461LTM",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "name": "Campussaal Betriebs AG c/o Einwohnergemeinde Windisch",
+    "opening_hours": "Mo-Sa 07:00 - 19:00",
+    "operator": "Lifetec AG",
+    "phone": "+41 800 122 144",
+    "ref": "1461LTM",
+    "id": "node/12130957852"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2109866,
+      47.4816685
     ]
   }
 }
