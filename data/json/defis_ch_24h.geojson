@@ -11668,31 +11668,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6655019842",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Belp",
-    "addr:housenumber": "55",
-    "addr:postcode": "3123",
-    "addr:street": "Dorfstrasse",
-    "defibrillator:location": "Kantonspolizei Bern",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Polizeiwache Belp",
-    "phone": "+41 31 638 80 00",
-    "id": "node/6655019842"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5015321,
-      46.8903595
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6655019844",
   "properties": {
     "access": "yes",
@@ -48711,6 +48686,31 @@
 },
 {
   "type": "Feature",
+  "id": "node/8728595874",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Laupen",
+    "addr:housenumber": "2",
+    "addr:postcode": "3177",
+    "addr:street": "Bahnweg",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Polizeiwache Laupen",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728595874"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.236248,
+      46.905932
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8728595875",
   "properties": {
     "access": "yes",
@@ -48733,6 +48733,31 @@
     "coordinates": [
       7.3667768,
       47.1828889
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728595877",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Münchenbuchsee",
+    "addr:housenumber": "21",
+    "addr:postcode": "3053",
+    "addr:street": "Bernstrasse",
+    "defibrillator:location": "Beim Coop-Eingang links die Treppe hinauf.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Polizeiwache Münchenbuchsee",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728595877"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4525069,
+      47.0197508
     ]
   }
 },
@@ -72862,6 +72887,27 @@
     "coordinates": [
       8.9357344,
       47.520089
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9649244217",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Polizeiwache Köniz",
+    "description": "Rechts beim Haupteingang (aussen)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9649244217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4131003,
+      46.9258718
     ]
   }
 },
@@ -108939,6 +108985,7 @@
     "defibrillator:location": "-",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Polizeiwache Belp",
     "phone": "+41 31 638 80 00",
@@ -108947,8 +108994,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5015579,
-      46.8904295
+      7.5015482,
+      46.8903894
     ]
   }
 },

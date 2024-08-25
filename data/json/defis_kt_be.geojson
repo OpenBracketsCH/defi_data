@@ -12192,6 +12192,7 @@
     "defibrillator:location": "Hochschule Hauptgebäude Geschoss 0 / Hallenbad Regieraum, Zeitweise öffentlich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "operator": "BASPO / OFSPO Macolin / Maggligen",
     "phone": "+41 58 467 62 92",
     "id": "node/6635553948"
@@ -12216,6 +12217,7 @@
     "defibrillator:location": "Hochschule Hauptgebäude Geschoss 3 / Foyer, Zeitweise öffentlich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "operator": "BASPO / OFSPO Macolin / Maggligen",
     "phone": "+41 58 467 62 92",
     "id": "node/6635553949"
@@ -18539,31 +18541,6 @@
     "coordinates": [
       7.4965328,
       46.861512
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/6655019842",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Belp",
-    "addr:housenumber": "55",
-    "addr:postcode": "3123",
-    "addr:street": "Dorfstrasse",
-    "defibrillator:location": "Kantonspolizei Bern",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Polizeiwache Belp",
-    "phone": "+41 31 638 80 00",
-    "id": "node/6655019842"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5015321,
-      46.8903595
     ]
   }
 },
@@ -32271,6 +32248,7 @@
     "defibrillator:location": "-",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "opening_hours": "24/7",
     "operator": "Polizeiwache Laupen",
     "phone": "+41 31 638 80 00",
     "id": "node/8728595874"
@@ -32278,8 +32256,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.2363472,
-      46.906008
+      7.236248,
+      46.905932
     ]
   }
 },
@@ -32344,9 +32322,10 @@
     "addr:housenumber": "21",
     "addr:postcode": "3053",
     "addr:street": "Bernstrasse",
-    "defibrillator:location": "-",
+    "defibrillator:location": "Beim Coop-Eingang links die Treppe hinauf.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "opening_hours": "24/7",
     "operator": "Polizeiwache Münchenbuchsee",
     "phone": "+41 31 638 80 00",
     "id": "node/8728595877"
@@ -40288,13 +40267,14 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/9649244217"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4132706,
-      46.9258049
+      7.4131003,
+      46.9258718
     ]
   }
 },
@@ -40537,26 +40517,6 @@
     "coordinates": [
       7.634931,
       46.9099434
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9709484017",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Polizeiposten Bümpliz neben Eingang",
-    "description": "immer zugänglich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "id": "node/9709484017"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.3904994,
-      46.9402269
     ]
   }
 },
@@ -52143,6 +52103,7 @@
     "defibrillator:location": "-",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Polizeiwache Belp",
     "phone": "+41 31 638 80 00",
@@ -52151,8 +52112,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5015579,
-      46.8904295
+      7.5015482,
+      46.8903894
     ]
   }
 },

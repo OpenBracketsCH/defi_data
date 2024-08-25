@@ -10717,6 +10717,7 @@
     "defibrillator:location": "Hochschule Hauptgebäude Geschoss 0 / Hallenbad Regieraum, Zeitweise öffentlich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "operator": "BASPO / OFSPO Macolin / Maggligen",
     "phone": "+41 58 467 62 92",
     "id": "node/6635553948"
@@ -10741,6 +10742,7 @@
     "defibrillator:location": "Hochschule Hauptgebäude Geschoss 3 / Foyer, Zeitweise öffentlich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "operator": "BASPO / OFSPO Macolin / Maggligen",
     "phone": "+41 58 467 62 92",
     "id": "node/6635553949"
@@ -56475,30 +56477,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8728595874",
-  "properties": {
-    "access": "permissive",
-    "addr:city": "Laupen",
-    "addr:housenumber": "2",
-    "addr:postcode": "3177",
-    "addr:street": "Bahnweg",
-    "defibrillator:location": "-",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "operator": "Polizeiwache Laupen",
-    "phone": "+41 31 638 80 00",
-    "id": "node/8728595874"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.2363472,
-      46.906008
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8728595876",
   "properties": {
     "access": "permissive",
@@ -56519,30 +56497,6 @@
     "coordinates": [
       7.3727754,
       47.2805841
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8728595877",
-  "properties": {
-    "access": "permissive",
-    "addr:city": "Münchenbuchsee",
-    "addr:housenumber": "21",
-    "addr:postcode": "3053",
-    "addr:street": "Bernstrasse",
-    "defibrillator:location": "-",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "operator": "Polizeiwache Münchenbuchsee",
-    "phone": "+41 31 638 80 00",
-    "id": "node/8728595877"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4525069,
-      47.0197508
     ]
   }
 },
@@ -87366,26 +87320,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9649244217",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Polizeiwache Köniz",
-    "description": "Rechts beim Haupteingang (aussen)",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/9649244217"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4132706,
-      46.9258049
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9649257868",
   "properties": {
     "access": "no",
@@ -89365,26 +89299,6 @@
     "coordinates": [
       8.0365238,
       47.4994402
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9709484017",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Polizeiposten Bümpliz neben Eingang",
-    "description": "immer zugänglich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "id": "node/9709484017"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.3904994,
-      46.9402269
     ]
   }
 },
