@@ -10536,9 +10536,10 @@
     "addr:housenumber": "4",
     "addr:postcode": "3052",
     "addr:street": "Eichenweg",
-    "defibrillator:location": "Beim Eingang",
+    "defibrillator:location": "Links vor dem Gebäudeeingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Polizeiwache Zollikofen",
     "phone": "+41 31 638 80 00",
@@ -10547,8 +10548,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4635893,
-      46.9966139
+      7.4635307,
+      46.9965518
     ]
   }
 },
@@ -121193,6 +121194,49 @@
     "coordinates": [
       9.4778783,
       47.1521605
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12140802102",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sportplatzstrasse 55 (Sportplatz Rolli)",
+    "description": "Öffentlich zugänglich in einer Box an der Wand.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "Ebenerdig an der Wand montiert",
+    "opening_hours": "24/7",
+    "id": "node/12140802102"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.734062,
+      47.5286617
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12140834501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sportanlage Rolli Sportplatzstrasse 55",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "FC Seuzach",
+    "id": "node/12140834501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7340735,
+      47.5286721
     ]
   }
 }
