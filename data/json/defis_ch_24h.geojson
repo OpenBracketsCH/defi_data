@@ -64317,6 +64317,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/9263283183",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Beim Haupteingang an der Wand",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Präzisionsmechanik Neff AG",
+    "phone": "+41 78 899 15 09",
+    "id": "node/9263283183"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8274087,
+      47.5681727
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9263312174",
   "properties": {
     "access": "yes",
@@ -121199,35 +121222,15 @@
 },
 {
   "type": "Feature",
-  "id": "node/12140802102",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Sportplatzstrasse 55 (Sportplatz Rolli)",
-    "description": "Öffentlich zugänglich in einer Box an der Wand.",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "Ebenerdig an der Wand montiert",
-    "opening_hours": "24/7",
-    "id": "node/12140802102"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.734062,
-      47.5286617
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12140834501",
   "properties": {
     "access": "yes",
     "defibrillator:location": "Sportanlage Rolli Sportplatzstrasse 55",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "FC Seuzach",
     "id": "node/12140834501"

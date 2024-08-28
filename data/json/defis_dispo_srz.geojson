@@ -34178,29 +34178,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9261389617",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Beim gelben Tor wo steht: kein Eingang",
-    "description": "Wärend Öffnungszeiten, oder telefonisch",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 07:00-18:00",
-    "operator": "Präzisionsmechanik Neff AG",
-    "phone": "+41 78 899 15 09",
-    "id": "node/9261389617"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.8274996,
-      47.5682618
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9263267818",
   "properties": {
     "access": "no",
@@ -34296,11 +34273,11 @@
   "properties": {
     "access": "no",
     "defibrillator:location": "Beim Haupteingang an der Wand",
-    "description": "Wärend Öffnungszeiten, oder telefonisch",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 07:00-18:00",
+    "opening_hours": "24/7",
     "operator": "Präzisionsmechanik Neff AG",
     "phone": "+41 78 899 15 09",
     "id": "node/9263283183"
@@ -69643,14 +69620,14 @@
   "id": "node/11502716272",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Mehrzweckhalle Ebnet ",
+    "defibrillator:location": "Mehrzweckhalle Ebnet",
     "description": "während öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "EG",
-    "opening_hours": "Mo-Fr 7:00-17:00, We 7:00-12:00",
-    "operator": "Gemeinde Nürensdorf ",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:15-16:10",
+    "operator": "Gemeinde Nürensdorf",
     "phone": "+41797268309",
     "id": "node/11502716272"
   },
@@ -69667,14 +69644,14 @@
   "id": "node/11502716369",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Bäckerei BBB",
-    "description": "während öffnungszeiten verfügbar ",
+    "defibrillator:location": "Bäckerei Bosshart BBB",
+    "description": "während öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "EG",
-    "opening_hours": "Mo-Sa 7:00-19:00 ",
-    "operator": "Gemeinde Nürensdorf ",
+    "level": "0",
+    "opening_hours": "Mo-Fr 06:30-18:30; Sa 06:30-16:00",
+    "operator": "Gemeinde Nürensdorf",
     "phone": "+41797268309",
     "id": "node/11502716369"
   },
@@ -69691,14 +69668,14 @@
   "id": "node/11502735769",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Schulhaus Sunnerai ",
-    "description": "während öffnungszeiten erreichbar ",
+    "defibrillator:location": "Schulhaus Sunnerai",
+    "description": "während öffnungszeiten erreichbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "EG ",
-    "opening_hours": "Mo-Fr 7:00-17:00, We 7:00-12:00",
-    "operator": "Gemeinde Nürensdorf ",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-16:00",
+    "operator": "Gemeinde Nürensdorf",
     "phone": "+41797268309",
     "id": "node/11502735769"
   },
@@ -81918,28 +81895,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12140802102",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Sportplatzstrasse 55 (Sportplatz Rolli)",
-    "description": "Öffentlich zugänglich in einer Box an der Wand.",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "Ebenerdig an der Wand montiert",
-    "opening_hours": "24/7",
-    "id": "node/12140802102"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.734062,
-      47.5286617
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12140827301",
   "properties": {
     "defibrillator:location": "TC Rolli - altes Clubhaus",
@@ -81964,9 +81919,11 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Sportanlage Rolli Sportplatzstrasse 55",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "FC Seuzach",
     "id": "node/12140834501"
