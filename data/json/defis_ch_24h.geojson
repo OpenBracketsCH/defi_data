@@ -40043,7 +40043,7 @@
   "type": "Feature",
   "id": "node/8425698087",
   "properties": {
-    "access": "no",
+    "access": "private",
     "defibrillator:location": "Raumnummer 100",
     "description": "nur mit Zugangskarte erreichbar",
     "emergency": "defibrillator",
@@ -121246,6 +121246,30 @@
     "coordinates": [
       7.7664328,
       47.2520433
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12144315601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sennhüttestrasse 2, 8602 Wangen",
+    "description": "von Aussen zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Wangen-Brüttisellen",
+    "phone": "+41 44 805 91 11",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12144315601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6458701,
+      47.4109914
     ]
   }
 }
