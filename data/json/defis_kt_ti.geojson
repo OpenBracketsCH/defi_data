@@ -1331,8 +1331,10 @@
   "type": "Feature",
   "id": "node/5074133017",
   "properties": {
+    "defibrillator:location": "An der Außenwand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "id": "node/5074133017"
   },
   "geometry": {
@@ -6079,6 +6081,25 @@
     "coordinates": [
       9.0079461,
       46.173292
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12144708911",
+  "properties": {
+    "check_date": "2024-08-29",
+    "emergency": "defibrillator",
+    "level": "0",
+    "location": "House Nr 16, facing petrol station",
+    "opening_hours": "24/7",
+    "id": "node/12144708911"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7370139,
+      46.4908084
     ]
   }
 }
