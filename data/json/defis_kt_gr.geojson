@@ -9399,29 +9399,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10763310366",
-  "properties": {
-    "access": "no",
-    "description": "blauer Rucksack",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "name": "Graubündner Kantonalbank",
-    "opening_hours": "Mo-Fr 09:00-12:00,14:00-17:00",
-    "operator": "Lifetec AG Schweiz",
-    "phone": "+41 800 122 144",
-    "id": "node/10763310366"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.83803,
-      46.8077
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10763310367",
   "properties": {
     "access": "no",
@@ -14323,6 +14300,33 @@
     "coordinates": [
       9.5599318,
       46.91714
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12145792675",
+  "properties": {
+    "access": "no",
+    "addr:housenumber": "56",
+    "addr:street": "Promenade",
+    "defibrillator:location": "1.OG\n0680LTB",
+    "description": "blauer Rucksack",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "Graubündner Kantonalbank",
+    "opening_hours": "Mo-Fr 09:00-12:00,14:00-17:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "ref": "0680LTB",
+    "id": "node/12145792675"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.821783,
+      46.7962122
     ]
   }
 }
