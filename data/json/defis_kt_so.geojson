@@ -8065,6 +8065,53 @@
       47.1856512
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/12149339201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Unterfeld",
+    "description": "Eingang rechts an Metallfassade",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Zuchwil",
+    "phone": "+41326865254",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12149339201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5608262,
+      47.2130575
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12149351101",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Sporthalle Sportzentrum Zuchwil",
+    "description": "Während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "00:00 -00:00",
+    "operator": "Sportzentrum Zuchwil",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12149351101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5604049,
+      47.2155963
+    ]
+  }
 }
 ]
 }

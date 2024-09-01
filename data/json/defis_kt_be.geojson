@@ -5764,30 +5764,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6565703789",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Grindelwald",
-    "addr:housenumber": "77",
-    "addr:postcode": "3818",
-    "addr:street": "Dorfstrasse",
-    "defibrillator:location": "Station Gepäckraum",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Berner Oberland-Bahn",
-    "id": "node/6565703789"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.0334798,
-      46.6243497
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6565703793",
   "properties": {
     "access": "permissive",
@@ -55536,6 +55512,50 @@
     "coordinates": [
       7.7664328,
       47.2520433
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12149316991",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussenwand Parkhaus",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "wheelchair": "yes",
+    "id": "node/12149316991"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0200678,
+      46.6241253
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12149316993",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Grindelwald",
+    "addr:housenumber": "77",
+    "addr:postcode": "3818",
+    "addr:street": "Dorfstrasse",
+    "defibrillator:location": "Station Gepäckraum",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Berner Oberland-Bahn",
+    "id": "node/12149316993"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0334639,
+      46.624407
     ]
   }
 }
