@@ -92071,7 +92071,6 @@
   "type": "Feature",
   "id": "node/10763276804",
   "properties": {
-    "access": "no",
     "defibrillator:location": "Bei Büro, Treppe in der grossen Halle.",
     "description": "oranger Koffer",
     "emergency": "defibrillator",
@@ -92599,7 +92598,6 @@
   "type": "Feature",
   "id": "node/10763310293",
   "properties": {
-    "access": "no",
     "defibrillator:location": "Im Fitnessbereich an Betonsäule",
     "description": "gelber Koffer",
     "emergency": "defibrillator",
@@ -93174,7 +93172,6 @@
   "type": "Feature",
   "id": "node/10763310571",
   "properties": {
-    "access": "no",
     "defibrillator:location": "nach Eingang links",
     "description": "oranger Koffer",
     "emergency": "defibrillator",
@@ -121468,6 +121465,30 @@
     "coordinates": [
       6.9202469,
       46.395958
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12151069201",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Chemin de la Sargnia 12",
+    "description": "ganzjährig, toute l'année",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Privatperson",
+    "phone": "+41763890862",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12151069201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0607496,
+      46.1487796
     ]
   }
 }
