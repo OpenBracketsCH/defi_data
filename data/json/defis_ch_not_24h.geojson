@@ -65116,8 +65116,8 @@
   "id": "node/9034189817",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Büch AG Uster",
-    "description": "während Öffnungszeit über Betriebssanität verfügbar.",
+    "defibrillator:location": "Büchi AG",
+    "description": "während Öffnungszeiten über Betriebssanität verfügbar.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -181597,6 +181597,26 @@
     "coordinates": [
       8.853499,
       47.2624247
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12151252901",
+  "properties": {
+    "defibrillator:location": "Perform Personal Training Studio im Gebäude",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Geschäft",
+    "phone": "+41786178876",
+    "id": "node/12151252901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9492475,
+      47.3802528
     ]
   }
 }
