@@ -41853,6 +41853,7 @@
     "access": "yes",
     "defibrillator:location": "Aussen beim Haupteingang",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "id": "node/8481830237"
@@ -119168,6 +119169,7 @@
     "access": "yes",
     "description": "An Aussenwand des Bahnhofsgebäude, auf der Westseite",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "opening_hours": "24/7",
     "id": "node/12051936382"
   },
@@ -119505,6 +119507,7 @@
     "access": "yes",
     "defibrillator:location": "Zwischen der Eingängen zur Umkleide, an der Wand im grünen Kasten. / Between the entrances of the changing rooms, on the 2all in the green box.",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "id": "node/12063817109"
@@ -119582,6 +119585,7 @@
   "properties": {
     "check_date": "2024-07-24",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "level": "0",
     "location": "Rechts bei Eingangstür des Wohnhaus Nr 61 (Restaurant Bergfreund)",
     "opening_hours": "24/7",
@@ -119602,6 +119606,7 @@
     "access": "yes",
     "defibrillator:location": "A côté de l'entrée de la voirie",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "level": "-1",
     "opening_hours": "24/7",
@@ -119671,6 +119676,7 @@
     "access": "yes",
     "defibrillator:location": "A côté de l'ascenseur du parking qui est sur le toit",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "level": "2",
     "opening_hours": "24/7",
@@ -120078,6 +120084,7 @@
   "properties": {
     "access": "yes",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "level": "0",
     "opening_hours": "24/7",
     "id": "node/12094913433"
@@ -120486,6 +120493,7 @@
   "id": "node/12118429614",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "id": "node/12118429614"
@@ -120503,6 +120511,7 @@
   "id": "node/12118448248",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "id": "node/12118448248"
@@ -121119,6 +121128,7 @@
     "access": "yes",
     "defibrillator:location": "Manchmal öffentlich aber immer via 7x24 Empfang",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "24/7",
     "operator": "Swisscom (Schweiz) AG",
@@ -121163,6 +121173,7 @@
   "properties": {
     "check_date": "2024-08-29",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "level": "0",
     "location": "House Nr 16, facing petrol station",
     "opening_hours": "24/7",
@@ -121227,6 +121238,7 @@
     "access": "yes",
     "defibrillator:location": "Aussenwand Parkhaus",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "opening_hours": "24/7",
     "wheelchair": "yes",
     "id": "node/12149316991"
@@ -121319,6 +121331,7 @@
     "access": "yes",
     "defibrillator:location": "Sur le bâtiment du garde-port",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "id": "node/12149382525"
@@ -121457,6 +121470,7 @@
     "check_date": "2024-09-02",
     "defibrillator:location": "Vor dem Eingang des Warteraums, Perron 3",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "level": "0",
     "opening_hours": "24/7",
     "id": "node/12153826621"
@@ -121490,6 +121504,30 @@
     "coordinates": [
       7.2955978,
       47.1410517
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12155150901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Carport Unterbändlistrasse 5",
+    "description": "Carport am linken Holzregal",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "EG",
+    "opening_hours": "24/7",
+    "operator": "privat",
+    "phone": "+41762281978",
+    "id": "node/12155150901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2195372,
+      47.4176265
     ]
   }
 }

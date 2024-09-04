@@ -25759,6 +25759,7 @@
   "id": "node/12043694021",
   "properties": {
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "id": "node/12043694021"
   },
   "geometry": {
@@ -26282,6 +26283,30 @@
     "coordinates": [
       7.9882944,
       47.3234288
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12155150901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Carport Unterbändlistrasse 5",
+    "description": "Carport am linken Holzregal",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "EG",
+    "opening_hours": "24/7",
+    "operator": "privat",
+    "phone": "+41762281978",
+    "id": "node/12155150901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2195372,
+      47.4176265
     ]
   }
 }
