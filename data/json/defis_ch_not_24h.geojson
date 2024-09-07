@@ -563,6 +563,7 @@
   "type": "Feature",
   "id": "node/3097773751",
   "properties": {
+    "check_date": "2024-09-07",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -180242,6 +180243,26 @@
     "coordinates": [
       7.7974267,
       46.0214804
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12162035649",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vers le couloir central, dans une annexe",
+    "description": "Pendant les heures d'ouverture",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/12162035649"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8453877,
+      46.4615371
     ]
   }
 }
