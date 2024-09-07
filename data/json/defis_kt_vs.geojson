@@ -3472,9 +3472,11 @@
   "id": "node/11104988050",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Eingang Primarschulhaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "operator": "Gemeinde Gampel-Bratsch",
     "id": "node/11104988050"
   },
@@ -3515,6 +3517,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0.5",
     "operator": "Gemeinde Gampel-Bratsch",
     "id": "node/11104988052"
   },
@@ -3607,17 +3610,19 @@
   "id": "node/11104988057",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Parkplatz Nordseite, Eingang Schule",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "operator": "Gemeinde Gampel-Bratsch",
     "id": "node/11104988057"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7080571,
-      46.3208794
+      7.7079357,
+      46.3209463
     ]
   }
 },
