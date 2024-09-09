@@ -30660,24 +30660,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637818921",
-  "properties": {
-    "description": "in Praxis",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Rimensberger Urs, Praxis",
-    "id": "node/7637818921"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.2240798,
-      47.1522634
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637818922",
   "properties": {
     "defibrillator:location": "Neben den BriefkÃ¤sten",
@@ -180327,6 +180309,29 @@
     "coordinates": [
       8.2286847,
       47.1512967
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12165421601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Forchwaldstrasse 55 - bei der Werkstatt / Hausfassadenfront",
+    "description": "immer verfügbar / ganzjährig ohne Einschränkung zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Einwohnergemeinde Walchwil",
+    "phone": "+41417598010",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12165421601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.518889,
+      47.1029879
     ]
   }
 }

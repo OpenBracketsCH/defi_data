@@ -10232,24 +10232,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637818921",
-  "properties": {
-    "description": "in Praxis",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Rimensberger Urs, Praxis",
-    "id": "node/7637818921"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.2240798,
-      47.1522634
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637818922",
   "properties": {
     "defibrillator:location": "Neben den BriefkÃ¤sten",
@@ -21222,6 +21204,28 @@
     "coordinates": [
       8.2286847,
       47.1511727
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12165370001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bei Praxiseingang, Waldmatt 28, 6024 Hildisrieden",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Erlosenpraxis, 6024 Hildisrieden",
+    "phone": "+41414604344",
+    "id": "node/12165370001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2287323,
+      47.1512055
     ]
   }
 }
