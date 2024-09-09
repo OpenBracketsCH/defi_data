@@ -3840,27 +3840,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6454393824",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Neben den Schliessfächer",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "level": "0",
-    "opening_hours": "24/7",
-    "wheelchair": "limited",
-    "id": "node/6454393824"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.8208889,
-      46.7915442
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6459359556",
   "properties": {
     "access": "yes",
@@ -24868,7 +24847,11 @@
     "description": "Beim Gemeindehaus, immer zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Wila",
+    "phone": "+41 52 397 27 27",
     "id": "node/7636246238"
   },
   "geometry": {
