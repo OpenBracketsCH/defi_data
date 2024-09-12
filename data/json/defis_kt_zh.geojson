@@ -62878,6 +62878,55 @@
       47.4381845
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/12172095301",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Betriebsleitzentrale GE VII, Werkhofstrasse 1, 8902 Urdorf",
+    "description": "während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Kanton Zürich, Baudirektion, Tiefbauamt, GE VII",
+    "phone": "+41 43 258 78 50",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12172095301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4216857,
+      47.3716389
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12172113501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Gebäudeeingang oberhalb Treppe",
+    "description": "Visavis Stempeluhr",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "07:00 - 19:30",
+    "operator": "Thommen-Furler AG",
+    "phone": "+41 44 735 81 81",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12172113501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4194645,
+      47.3936842
+    ]
+  }
 }
 ]
 }
