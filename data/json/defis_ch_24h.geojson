@@ -92605,6 +92605,8 @@
   "id": "node/10763310401",
   "properties": {
     "access": "yes",
+    "addr:housenumber": "27",
+    "addr:street": "Plazza Aviatica",
     "defibrillator:location": "Restaurant Piste 21, Beim Neubau Campingempfang",
     "description": "in grünem Wandkasten",
     "emergency": "defibrillator",
@@ -92614,6 +92616,8 @@
     "opening_hours": "24/7",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
+    "postal_code": "7503",
+    "ref": "0957LTS",
     "id": "node/10763310401"
   },
   "geometry": {
@@ -120261,7 +120265,9 @@
   "id": "node/12112044497",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Vorrübergehend im Büro",
+    "addr:housenumber": "6b",
+    "addr:street": "Plazza Aviatica",
+    "defibrillator:location": "Ehemals Ticketautomat bei den Parkplätzen",
     "description": "Oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -120270,14 +120276,15 @@
     "opening_hours": "24/7",
     "operator": "Lifetec AG",
     "phone": "+41 800 122 144",
+    "postal_code": "7503",
     "ref": "1454LTS",
     "id": "node/12112044497"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.8788219,
-      46.5300185
+      9.878084,
+      46.5299552
     ]
   }
 },
