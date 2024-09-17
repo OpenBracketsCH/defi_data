@@ -6476,29 +6476,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8014066611",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Defi-Kasten oberhalb Briefkästen an Steinmauer, links neben Garagentor",
-    "description": "Alarm ertönt sobald Defikasten geöffnet ist, dadurch Alarmierung der angrenzenden Bewohner, Passanten in der Nähe. Schiller Defi, Klappe öffnen und den Anweisungen des Gerätes folgen",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Hausartzpraxis Aeugst, Dr. H. Fischer",
-    "phone": "+41 44 761 11 11",
-    "id": "node/8014066611"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4859663,
-      47.2689864
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8014074340",
   "properties": {
     "access": "yes",
@@ -62925,6 +62902,28 @@
     "coordinates": [
       8.6708644,
       47.2284081
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12181757956",
+  "properties": {
+    "access": "customers",
+    "defibrillator:location": "Defi-Kasten oberhalb Briefkästen an Steinmauer, links neben Garagentor",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Hausartzpraxis Aeugst, Dr. H. Fischer",
+    "phone": "+41 44 761 11 11",
+    "id": "node/12181757956"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4855376,
+      47.2690488
     ]
   }
 }
