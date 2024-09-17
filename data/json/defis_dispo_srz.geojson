@@ -47494,21 +47494,21 @@
   "type": "Feature",
   "id": "node/10139384936",
   "properties": {
-    "defibrillator:location": "Eingang Ost oder West, 1. OG Haupteingang Firma Entec AG, Im Gang nach der 1. Säule auf der rechten Seite.",
+    "defibrillator:location": "Im Treppenhaus 4.OG  an der Wand neben dem Lift",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
+    "opening_hours": "Mo-Fr 07:00-12:00, 13:00-17:00",
     "operator": "Schibli AG",
-    "phone": "+41 44 800 80 00",
+    "phone": "+41 44 800 12 12",
     "id": "node/10139384936"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5927436,
-      47.4487601
+      8.5915366,
+      47.4487275
     ]
   }
 },
@@ -47856,7 +47856,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 07:00-12:00,13:00-17:00",
-    "operator": "Rico Bardole Schibli Support aG",
+    "operator": "Schibli AG",
     "phone": "+41 44 252 52 52",
     "id": "node/10170127238"
   },
@@ -81760,6 +81760,54 @@
     "coordinates": [
       8.4855376,
       47.2690488
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12182398601",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "in der Praxis",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Th, Fr 08:00 -12:00, 13:30 -18:00",
+    "operator": "Praxis",
+    "phone": "+41 44 886 80 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12182398601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5406899,
+      47.6082716
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12182401801",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "in der Praxis",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Th 08:00-12:00, 13:30-18:00 ",
+    "operator": "Praxis",
+    "phone": "+41 44 886 80 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12182401801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5407221,
+      47.6082571
     ]
   }
 }
