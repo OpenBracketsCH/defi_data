@@ -180842,28 +180842,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12181757956",
-  "properties": {
-    "access": "customers",
-    "defibrillator:location": "Defi-Kasten oberhalb Briefkästen an Steinmauer, links neben Garagentor",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Hausartzpraxis Aeugst, Dr. H. Fischer",
-    "phone": "+41 44 761 11 11",
-    "id": "node/12181757956"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4855376,
-      47.2690488
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12182179601",
   "properties": {
     "access": "permissive",
@@ -180931,6 +180909,31 @@
     "coordinates": [
       8.5407221,
       47.6082571
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12183677901",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "EG, Eingangshalle vor Sanitätszimmer",
+    "description": "während Bürozeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "07:00-12:00,13:00-16:00",
+    "operator": "Ernst Selmoni AG",
+    "phone": "+41 61 287 44 20",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12183677901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6157999,
+      47.5117841
     ]
   }
 }
