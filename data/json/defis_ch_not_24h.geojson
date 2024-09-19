@@ -180943,6 +180943,7 @@
   "id": "node/12185790310",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Under the roof right in front of the entrance.",
     "emergency": "defibrillator",
     "level": "0",
     "wheelchair": "yes",
@@ -180953,6 +180954,34 @@
     "coordinates": [
       8.8586038,
       46.2223012
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12185985536",
+  "properties": {
+    "access": "yes",
+    "addr:housenumber": "44",
+    "addr:street": "Frutigenstrasse",
+    "defibrillator:location": "Eingang Buffet\n1475LTM",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mi-Fr 11:30-14.00 / 17.30-22.00 Sa 11.30-22.00 So 09.00-22.00",
+    "operator": "Lifetec AG",
+    "phone": "+41800122144",
+    "postal_code": "3600",
+    "ref": "1475LTM",
+    "id": "node/12185985536"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6251858,
+      46.7485076
     ]
   }
 }

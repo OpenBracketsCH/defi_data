@@ -13922,12 +13922,12 @@
     "addr:housenumber": "39",
     "addr:postcode": "3700",
     "addr:street": "Schachenstrasse",
-    "defibrillator:location": "24h verfügbar, an der Reception melden",
+    "defibrillator:location": "24h verfügbar, an der Reception melden\n1474LTM",
     "description": "Oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "emergency_telephone_code": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Lifetec AG",
     "phone": "+41 800122144",
@@ -121836,6 +121836,30 @@
     "coordinates": [
       9.5511264,
       46.9130844
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12186024501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "VT Verkehrs- und Industrietechnik, bei Anlieferungstor",
+    "description": "rund um die Uhr zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "VT Verkehrs- und Industrietechnik",
+    "phone": "+41 56 416 34 34",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12186024501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3270681,
+      47.4553348
     ]
   }
 }
