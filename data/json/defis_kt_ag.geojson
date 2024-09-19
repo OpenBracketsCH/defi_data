@@ -1651,17 +1651,18 @@
   "type": "Feature",
   "id": "node/7962692586",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Damian Apotheke Ehrendingen\nan der Hauswand neben dem Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "fixme": "Standort gem. Zeitungsbericht. Genauer Standort vor Ort unklar.",
-    "indoor": "yes",
+    "operator": "Gemeinde Ehrendingen",
     "id": "node/7962692586"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3412165,
-      47.4940864
+      8.3409402,
+      47.4941553
     ]
   }
 },
@@ -26370,6 +26371,29 @@
     "coordinates": [
       8.3270681,
       47.4553348
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12186482401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Toppharm Damian Apotheke Ehrendingen",
+    "description": "öffentlich zugänglich, an der Aussenwand neben dem Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "TopPharm Damian Apotheke Ehrendingen",
+    "phone": "+41562034011",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12186482401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3409244,
+      47.4941754
     ]
   }
 }
