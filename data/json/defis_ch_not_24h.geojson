@@ -12384,6 +12384,7 @@
     "defibrillator:location": "Arztpraxis Frieswil, Praxis ist übers Wochenende geschlossen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "operator": "Arztpraxis Frieswil",
     "phone": "+41 31 825 60 30",
     "id": "node/6637275860"
@@ -180934,6 +180935,24 @@
     "coordinates": [
       7.6157999,
       47.5117841
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12185790310",
+  "properties": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "level": "0",
+    "wheelchair": "yes",
+    "id": "node/12185790310"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8586038,
+      46.2223012
     ]
   }
 }
