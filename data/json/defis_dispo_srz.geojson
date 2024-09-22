@@ -3076,6 +3076,7 @@
     "description": "Im Eingangsbereich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "24/7",
     "operator": "Rigi Bahnen AG",
     "id": "node/6976938406"
@@ -81833,6 +81834,25 @@
     "coordinates": [
       8.7508114,
       47.4959387
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12192496301",
+  "properties": {
+    "defibrillator:location": "Sticherei erster stock ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "id": "node/12192496301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8654344,
+      47.3593685
     ]
   }
 }
