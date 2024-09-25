@@ -2218,28 +2218,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/5180289612",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Bei Kunstrasen am Zaun montiert, neben dem Elektrokasten",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Sportanlage Weissenstein",
-    "phone": "+41 31 321 54 74",
-    "id": "node/5180289612"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4197568,
-      46.9373053
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/5194641075",
   "properties": {
     "access": "private",
@@ -122242,6 +122220,30 @@
     "coordinates": [
       7.5803832,
       47.0699931
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12198429201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Haupteingang",
+    "description": "24/7 erreichbar, beim Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "SeniorenZentrum Uzwil",
+    "phone": "+41 71 955 61 61",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12198429201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1446514,
+      47.4415921
     ]
   }
 }
