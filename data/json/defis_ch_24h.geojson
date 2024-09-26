@@ -43749,6 +43749,53 @@
 },
 {
   "type": "Feature",
+  "id": "node/8557121977",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeinde Männedorf, Werkgebäude, Treppenhaus EG",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Männedorf, Facility Management",
+    "phone": "+41 44 921 67 69",
+    "id": "node/8557121977"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.697558,
+      47.250115
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8557121978",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindehaus, Treppenhaus EG",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Männedorf, Facility Management",
+    "phone": "+41 44 921 67 69",
+    "id": "node/8557121978"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6912425,
+      47.2536729
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8557132947",
   "properties": {
     "access": "yes",
@@ -122091,28 +122138,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12193396501",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "spielplatz brüschhalde",
-    "description": "ausserhalb Gebäude",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "eg",
-    "opening_hours": "24/7",
-    "id": "node/12193396501"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.7047893,
-      47.2530777
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12193983701",
   "properties": {
     "access": "yes",
@@ -122269,6 +122294,71 @@
     "coordinates": [
       8.7047929,
       47.2530774
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12201005401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Allmend 5, 4460 Gelterkinden, eira healthcare & living, nach der ersten Schiebetür im Eingang links an der Wand",
+    "description": "jederzeit Zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "eira healthcare ag",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12201005401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8511155,
+      47.464627
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12201379001",
+  "properties": {
+    "defibrillator:location": "SOB Haltestelle Frohberg",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/12201379001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6875049,
+      47.1984347
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12201483301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Elektro Feuz 6197 Schangnau",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Samariterverein Schangnau",
+    "phone": "+41434933610",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12201483301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7453613,
+      46.7360959
     ]
   }
 }

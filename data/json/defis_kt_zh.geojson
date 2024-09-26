@@ -13216,12 +13216,14 @@
   "type": "Feature",
   "id": "node/8557121977",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Gemeinde Männedorf, Werkgebäude, Treppenhaus EG",
-    "description": "während Öffnungszeiten verfügbar",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 07:30-11:30, 13:15-16:30",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Männedorf, Facility Management",
     "phone": "+41 44 921 67 69",
     "id": "node/8557121977"
@@ -13229,8 +13231,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6976894,
-      47.2500606
+      8.697558,
+      47.250115
     ]
   }
 },
@@ -13238,12 +13240,13 @@
   "type": "Feature",
   "id": "node/8557121978",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Gemeindehaus, Treppenhaus EG",
-    "description": "während Öffnungszeiten verfügbar",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo 08:00-11:30,13:30-18:30; Tu 07:00-11:30; We,Th 08:00-11:30,13:30-16:30; Fr 08:00-13:30",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Männedorf, Facility Management",
     "phone": "+41 44 921 67 69",
     "id": "node/8557121978"
@@ -13251,8 +13254,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6914247,
-      47.2536144
+      8.6912425,
+      47.2536729
     ]
   }
 },
@@ -63021,28 +63024,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12193396501",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "spielplatz brüschhalde",
-    "description": "ausserhalb Gebäude",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "eg",
-    "opening_hours": "24/7",
-    "id": "node/12193396501"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.7047893,
-      47.2530777
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12193983701",
   "properties": {
     "access": "yes",
@@ -63153,6 +63134,25 @@
     "coordinates": [
       8.7047929,
       47.2530774
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12201379001",
+  "properties": {
+    "defibrillator:location": "SOB Haltestelle Frohberg",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/12201379001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6875049,
+      47.1984347
     ]
   }
 }
