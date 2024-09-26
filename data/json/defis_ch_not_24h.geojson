@@ -44221,6 +44221,7 @@
     "defibrillator:location": "-",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "Mo-Fr 08:30-16:30",
     "operator": "Tageszentrum Soteria",
     "phone": "+41 31 381 30 86",
@@ -181142,6 +181143,30 @@
     "coordinates": [
       7.8511155,
       47.464627
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12201028201",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Sandblatte 7a, im Haupteingang rechts",
+    "description": "Haupttüre offen während Bürozeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 06:30-17:00",
+    "operator": "Autix AG, Sandblatte 7a, 6026 Rain",
+    "phone": "+41415102600",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12201028201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2437909,
+      47.1244323
     ]
   }
 }
