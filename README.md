@@ -193,7 +193,7 @@ Um ein neues Query hinzuzufügen, müssen folgende Schritte befolgt werden:
 2. Query als neue Datei in [`queries` Verzeichnis](https://github.com/Schutz-Rettung-Zurich/json-archive/tree/main/queries) ablegen
 3. Neues Query in [`run_queries.sh`](https://github.com/Schutz-Rettung-Zurich/json-archive/blob/main/run_queries.sh) aufrufen
 
-### Konertierung der Daten
+### Konvertierung der Daten
 
 Um die Daten in CSV zu konvertieren wurde ein neuer Workflow eingerichtet.
 
