@@ -6877,6 +6877,7 @@
     "defibrillator:location": "öffentlich, Durchgang, Veloparkplatz",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Samariterverein",
     "phone": "+41 34 497 27 78",
@@ -122450,6 +122451,24 @@
     "coordinates": [
       7.8687537,
       46.832009
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12209001749",
+  "properties": {
+    "access": "permissive",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/12209001749"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.14193,
+      47.3637426
     ]
   }
 }
