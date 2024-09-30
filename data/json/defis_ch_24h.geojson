@@ -64972,11 +64972,9 @@
   "type": "Feature",
   "id": "node/9309828217",
   "properties": {
-    "defibrillator:location": "Klosterladen St.Johann",
-    "description": "Grüner Aussenkasten, 24h verfügbar",
+    "defibrillator:location": "Grüner Aussenkasten an der Wand hinter dem Tor zur Kirche",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
     "opening_hours": "24/7",
     "operator": "Samariter Val Müstair",
     "id": "node/9309828217"
@@ -64984,8 +64982,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      10.4488636,
-      46.6295132
+      10.4490928,
+      46.6295627
     ]
   }
 },
@@ -100613,12 +100611,13 @@
   "type": "Feature",
   "id": "node/11081491934",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Neben den Mülleimern, zwischen Gleis 1 und dem Restaurant gegenüber. Runder Plastikkasten an weisser Wand hängend.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "level": "0",
     "opening_hours": "24/7",
-    "wheelchair": "yes",
+    "wheelchair": "limited",
     "id": "node/11081491934"
   },
   "geometry": {
@@ -122469,6 +122468,31 @@
     "coordinates": [
       9.14193,
       47.3637426
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12211116501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "nebe Seiteneingang Zivilschutzmagazin, Untere Brühlstrase",
+    "description": "Aussenmontage",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadt Zofingen",
+    "phone": "+41627450070",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12211116501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9376399,
+      47.2896252
     ]
   }
 }
