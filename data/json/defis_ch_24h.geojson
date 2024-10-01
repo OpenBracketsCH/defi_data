@@ -112005,6 +112005,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/11739179869",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hodel Bäckerei Hofstatt",
+    "description": "An der linken Seitenwand des gebäudes. Gekennzeichnet mit einem Schild",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Luthern",
+    "phone": "+41419780181",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11739179869"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9147375,
+      47.0856698
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/11739766169",
   "properties": {
     "access": "yes",
@@ -121967,6 +121991,7 @@
     "access": "yes",
     "defibrillator:location": "Dans le SAS des bancomats",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "opening_hours": "24/7",
@@ -122459,6 +122484,7 @@
   "properties": {
     "access": "permissive",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "id": "node/12209001749"
