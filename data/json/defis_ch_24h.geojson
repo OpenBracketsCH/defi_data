@@ -55213,6 +55213,7 @@
     "defibrillator:location": "On wall outside building / An Aussenwand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
     "wheelchair": "yes",
@@ -55221,8 +55222,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7842015,
-      46.1012169
+      7.7840664,
+      46.1010486
     ]
   }
 },
@@ -122519,6 +122520,30 @@
     "coordinates": [
       7.9376399,
       47.2896252
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12213555701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Obergerlafingen ",
+    "description": "beim Seiteneingang der MZH 24 std. ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Obergerlafingen ",
+    "phone": "+41798104564",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12213555701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5843859,
+      47.1632285
     ]
   }
 }
