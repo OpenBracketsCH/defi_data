@@ -168463,7 +168463,9 @@
   "type": "Feature",
   "id": "node/11837321181",
   "properties": {
+    "addr:city": "Baar",
     "addr:housenumber": "11",
+    "addr:postcode": "6340",
     "addr:street": "Oberneuhofstrasse",
     "defibrillator:location": "1.OG, an Wand neben Kaffeemaschine 1404 LTM",
     "description": "Oranger Koffer",
@@ -170093,9 +170095,11 @@
   "id": "node/11882992826",
   "properties": {
     "access": "private",
+    "addr:city": "Baar",
     "addr:housenumber": "30",
+    "addr:postcode": "6340",
     "addr:street": "Zugerstrasse",
-    "defibrillator:location": "Werkstatt bei Brandmeldeanlage\n1366ltm",
+    "defibrillator:location": "Werkstatt bei Brandmeldeanlage 1366ltm",
     "description": "Oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -180392,26 +180396,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12168850001",
-  "properties": {
-    "defibrillator:location": "Schulhaus Frümsen Gang",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Gemeinde",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/12168850001"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.4730127,
-      47.2442682
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12169855101",
   "properties": {
     "access": "permissive",
@@ -181380,6 +181364,48 @@
     "coordinates": [
       8.57719,
       47.4139738
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12215854301",
+  "properties": {
+    "defibrillator:location": "innerhalb Praxis OPS",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/12215854301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5125123,
+      47.3940148
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12215860801",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Empfang",
+    "description": "während Öffnungszeiten am Empfang verlangen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo 6:30-16:00, Th6:30-16:00, We 6:30-15:00, Th 6:30-16:00, Fr 6:30-16:00",
+    "operator": "Klinik für mikroinvasive Fortpflanzung GYN ART AG",
+    "phone": "+41 44 446 60 60",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12215860801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5124302,
+      47.3937483
     ]
   }
 }

@@ -14672,6 +14672,48 @@
       47.3879507
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/12215854301",
+  "properties": {
+    "defibrillator:location": "innerhalb Praxis OPS",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/12215854301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5125123,
+      47.3940148
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12215860801",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Empfang",
+    "description": "während Öffnungszeiten am Empfang verlangen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo 6:30-16:00, Th6:30-16:00, We 6:30-15:00, Th 6:30-16:00, Fr 6:30-16:00",
+    "operator": "Klinik für mikroinvasive Fortpflanzung GYN ART AG",
+    "phone": "+41 44 446 60 60",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12215860801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5124302,
+      47.3937483
+    ]
+  }
 }
 ]
 }

@@ -96681,7 +96681,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "EG(Eingang zum Mehrzweckgebäude",
+    "level": "eg_(eingang_zum_mehrzweckgebäude)",
     "opening_hours": "24/7",
     "operator": "Gemeinde",
     "id": "node/10908041906"
@@ -122566,6 +122566,27 @@
     "coordinates": [
       7.5843859,
       47.1632285
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12215930275",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An Fassade des Gebäudes",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Pol. Gemeinde Sennwald",
+    "start_date": "2024-10-11",
+    "id": "node/12215930275"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4722429,
+      47.2495151
     ]
   }
 }

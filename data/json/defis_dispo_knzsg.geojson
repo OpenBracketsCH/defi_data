@@ -24043,7 +24043,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "EG(Eingang zum Mehrzweckgebäude",
+    "level": "eg_(eingang_zum_mehrzweckgebäude)",
     "opening_hours": "24/7",
     "operator": "Gemeinde",
     "id": "node/10908041906"
@@ -30060,26 +30060,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12168850001",
-  "properties": {
-    "defibrillator:location": "Schulhaus Frümsen Gang",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Gemeinde",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/12168850001"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.4730127,
-      47.2442682
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12198429201",
   "properties": {
     "access": "yes",
@@ -30166,6 +30146,27 @@
     "coordinates": [
       9.3458354,
       47.4132639
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12215930275",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An Fassade des Gebäudes",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Pol. Gemeinde Sennwald",
+    "start_date": "2024-10-11",
+    "id": "node/12215930275"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4722429,
+      47.2495151
     ]
   }
 }
