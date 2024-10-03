@@ -35928,13 +35928,14 @@
     "defibrillator:location": "links vom Eingang zur Landi, beim Eingang ins Geschäftshaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "id": "node/7721332842"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.1557795,
-      47.4503127
+      9.1558789,
+      47.450167
     ]
   }
 },
@@ -181408,6 +181409,28 @@
     "coordinates": [
       8.5124302,
       47.3937483
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12217546201",
+  "properties": {
+    "defibrillator:location": "Swissmem Academy",
+    "description": "Haupteingang bei der Treppe rechts an der Wand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "Eingang Erdgeschoss",
+    "opening_hours": "Mo-Fr 07:30-17:00",
+    "operator": "Swissmem",
+    "id": "node/12217546201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7129013,
+      47.4963835
     ]
   }
 }
