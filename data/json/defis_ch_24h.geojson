@@ -63962,28 +63962,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9246796317",
-  "properties": {
-    "defibrillator:location": "Waldegg 32: Einfamilienhaus",
-    "description": "Wenn jemand Zuhause kann der Defi abgeholt werden",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Privatperson",
-    "phone": "+41788460730",
-    "id": "node/9246796317"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.0200758,
-      47.1866605
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9247411323",
   "properties": {
     "access": "yes",
@@ -122635,6 +122613,30 @@
     "coordinates": [
       9.6091104,
       47.4348769
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12218118557",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Am Stationsgebäude der RhB",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Verein Gletschergarten Cavaglia / Giardino dei Ghiacciai di Cavaglia",
+    "phone": "+41 79 585 99 99",
+    "id": "node/12218118557"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      10.0439986,
+      46.3642126
     ]
   }
 }

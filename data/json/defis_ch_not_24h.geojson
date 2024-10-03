@@ -23352,24 +23352,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637812575",
-  "properties": {
-    "description": "bei EC Automat",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Valiant Bank",
-    "id": "node/7637812575"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.019819,
-      47.1850231
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637812576",
   "properties": {
     "emergency": "defibrillator",
@@ -72955,6 +72937,28 @@
     "coordinates": [
       8.7487438,
       47.3051601
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9246796317",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Waldegg 32: Einfamilienhaus",
+    "description": "Wenn jemand Zuhause kann der Defi abgeholt werden",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Privatperson",
+    "phone": "+41788460730",
+    "id": "node/9246796317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0200758,
+      47.1866605
     ]
   }
 },
