@@ -63583,6 +63583,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/12222177203",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Geräteraum Turnhalle",
+    "description": "Während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Schulgemeinde Volketswil",
+    "phone": "+41449102222",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12222177203"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6799985,
+      47.3869824
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12222181501",
   "properties": {
     "access": "permissive",
@@ -63626,6 +63650,54 @@
     "coordinates": [
       8.6712384,
       47.3842802
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12222184301",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Im Eingangsbereich Turnhalle",
+    "description": "Während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Schulgemeinde Volketswil",
+    "phone": "+41449102222",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12222184301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6719894,
+      47.3846906
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12222187401",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Im Eingangsbereich rechts bei Schulleitungszimmer",
+    "description": "Während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Schulgemeinde Volketswil",
+    "phone": "+41449102222",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12222187401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6807603,
+      47.3869643
     ]
   }
 }
