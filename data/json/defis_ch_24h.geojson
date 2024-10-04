@@ -54397,6 +54397,28 @@
 },
 {
   "type": "Feature",
+  "id": "node/8911826160",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vers l'entrée de l'administration communale",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Commune de Faoug",
+    "id": "node/8911826160"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0771906,
+      46.9083695
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8912788783",
   "properties": {
     "access": "yes",
@@ -93518,6 +93540,7 @@
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Commune",
+    "ref": "Commune d'Avenches",
     "id": "node/10778084305"
   },
   "geometry": {
