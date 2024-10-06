@@ -15519,6 +15519,7 @@
     "defibrillator:location": "Freibad Flussbad Schwäbis, Zeitweise öffentlich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "operator": "Freibad Flussbad Schwäbis",
     "id": "node/6681661582"
   },
@@ -181915,6 +181916,31 @@
     "coordinates": [
       7.748693,
       46.0223994
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12229561701",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Fussballplatz ZehnderMatte",
+    "description": "Nur während den Spielbetrieb verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo- Fr 17:30-22:00",
+    "operator": "FC Gränichen",
+    "phone": "+41792393926",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12229561701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1119066,
+      47.3516936
     ]
   }
 }
