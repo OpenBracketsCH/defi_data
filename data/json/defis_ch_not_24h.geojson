@@ -119344,7 +119344,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "eg",
+    "level": "0",
     "name": "Swiss Finance & Property Group AG",
     "opening_hours": "Mo-Fr 08:00-12:00,13:00-17:00",
     "operator": "Litefetec AG Schweiz",
@@ -122062,12 +122062,12 @@
   "id": "node/10763309925",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Werkstatt neben Büro\n0029LTM",
+    "defibrillator:location": "Werkstatt neben Büro 0029LTM",
     "description": "Oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "eg",
+    "level": "0",
     "name": "Binelli Automobile AG",
     "opening_hours": "Mo-Fr 07:00-18:00; Sa 09:00-16:00",
     "operator": "Lifetec AG Schweiz",
@@ -138806,12 +138806,14 @@
   "type": "Feature",
   "id": "node/10790840306",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Flughafen Grenchen Flughafenstrasse 117",
-    "description": "Restaurant (Nachteingang Terrasse)",
+    "access": "yes",
+    "check_date": "2024-10-09",
+    "defibrillator:location": "Flughafen Grenchen Flughafenstrasse 117\nSignalisiert",
+    "description": "Restaurant (Nachteingang Terrasse)\nSignalisiert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "operator": "Stadt Grenchen, Polizeiinspektorat",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10790840306"
   },
@@ -147686,12 +147688,11 @@
   "type": "Feature",
   "id": "node/11051121005",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Gemeinde Verwaltung Breitenbach ",
+    "defibrillator:location": "Gemeinde Verwaltung Breitenbach",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "EG ",
+    "level": "0",
     "id": "node/11051121005"
   },
   "geometry": {
@@ -148052,7 +148053,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Eg",
+    "level": "0",
     "opening_hours": "Mo-Fr 05:00-22:00",
     "operator": "Emmi Schweiz AG Landquart",
     "phone": "0813006464",
@@ -149261,7 +149262,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Eg",
+    "level": "0",
     "opening_hours": "Mo-Fr 07:00-16:30",
     "operator": "ERZ Werkhof",
     "id": "node/11118397005"
@@ -155725,7 +155726,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "eg",
+    "level": "0",
     "operator": "Rztpraxis",
     "id": "node/11382005869"
   },
@@ -161223,14 +161224,14 @@
   "id": "node/11618720612",
   "properties": {
     "access": "customers",
-    "defibrillator:location": "Mercedes Benz AG \nEG Linke Seite bei Verkaufsladen",
+    "defibrillator:location": "Mercedes Benz AG EG Linke Seite bei Verkaufsladen",
     "description": "Oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "eg",
+    "level": "0",
     "name": "Mercedes-Benz Automobil AG",
-    "opening_hours": "Mo-Fr 08:00-18:30 SA 09:00-17:00",
+    "opening_hours": "Mo-Fr 08:00-18:30; Sa 09:00-17:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/11618720612"
@@ -162226,14 +162227,14 @@
   "id": "node/11655768051",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Werkstatt bei Kaffeemaschine\n1385LTM",
+    "defibrillator:location": "Werkstatt bei Kaffeemaschine 1385LTM",
     "description": "Orange Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "eg",
+    "level": "0",
     "name": "Mercedes-Benz Automobil AG Stäfa",
-    "opening_hours": "Mo-Fr 07:00-18:30 Sa 09:00-17:00",
+    "opening_hours": "Mo-Fr 07:00-18:30; Sa 09:00-17:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/11655768051"
@@ -163011,13 +163012,11 @@
   "type": "Feature",
   "id": "node/11690166569",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "turnhalle ",
-    "description": "während öffnungszeiten verfügbar / position in der turnhalle",
+    "defibrillator:location": "Turnhalle",
+    "description": "Während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "eg",
     "operator": "gemeinde",
     "id": "node/11690166569"
   },
@@ -164327,8 +164326,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.436819,
-      46.6951604
+      9.4368186,
+      46.6951794
     ]
   }
 },
@@ -165331,12 +165330,12 @@
   "id": "node/11741445587",
   "properties": {
     "access": "private",
-    "defibrillator:location": "Schellenberg Druck AG (Hess Druck AG)\nSchützlerweg 3\nTreppenhaus West, EG\n1305LTM",
+    "defibrillator:location": "Schellenberg Druck AG (Hess Druck AG) Schützlerweg 3 Treppenhaus West, EG 1305LTM",
     "description": "Oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "eg",
+    "level": "0",
     "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
@@ -182141,6 +182140,26 @@
     "coordinates": [
       6.4896262,
       46.504711
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12237729532",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "A l'entrée de la cafétéria",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "1",
+    "operator": "Ville d'Yverdon-les-Bains",
+    "id": "node/12237729532"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.640568,
+      46.7783249
     ]
   }
 }
