@@ -1877,8 +1877,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Rhätische Bahn AG",
-    "phone": "+41 81 288 65 65",
+    "operator": "Gemeinde Zuoz",
     "wheelchair": "yes",
     "id": "node/7851621653"
   },
@@ -8511,23 +8510,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10674372171",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/10674372171"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.9611801,
-      46.6000086
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10682622805",
   "properties": {
     "defibrillator:location": "Sekretariat HIF",
@@ -10602,6 +10584,129 @@
     "coordinates": [
       9.534325,
       46.8543584
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11037266730",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Campingplatz",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "latitude": "46.4562773",
+    "longitude": "9.793091164",
+    "name": "Gemeinde Silvaplana",
+    "operator": "Lifetec AG",
+    "phone": "0800 122 144",
+    "id": "node/11037266730"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.7930912,
+      46.4562773
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11037266742",
+  "properties": {
+    "defibrillator:location": "Im SPA-Bereich;Bei Reception",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "latitude": "46.49877989",
+    "longitude": "9.846037688",
+    "name": "Grace St. Moritz GmbH",
+    "operator": "Lifetec AG",
+    "phone": "0800 122 144",
+    "id": "node/11037266742"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.8460377,
+      46.4987799
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11037266758",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Haus C, bei Toiletten",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "latitude": "46.79842",
+    "longitude": "9.82631",
+    "name": "Davos Congress",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "0800 122 144",
+    "id": "node/11037266758"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.82631,
+      46.79842
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11037266759",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "HAUS A, Backoffice",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "latitude": "46.79879",
+    "longitude": "9.82678",
+    "name": "Davos Congress",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "0800 122 144",
+    "id": "node/11037266759"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.82678,
+      46.79879
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11037266762",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Eingang Spa Bereich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "latitude": "46.82661",
+    "longitude": "9.28653",
+    "name": "Waldhaus Flims",
+    "operator": "Lifetec AG",
+    "phone": "0800 122 144",
+    "id": "node/11037266762"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.28653,
+      46.82661
     ]
   }
 },

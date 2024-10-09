@@ -2032,6 +2032,56 @@
 },
 {
   "type": "Feature",
+  "id": "node/11037266744",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "VISCHER Bar/Cafeteria (5.OG)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "latitude": "47.55332326",
+    "longitude": "7.592333121",
+    "name": "VISCHER AG",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "operator": "Lifetec AG",
+    "phone": "0800 122 144",
+    "id": "node/11037266744"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5923331,
+      47.5533233
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11037266752",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingangsbereich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "latitude": "47.55207",
+    "longitude": "7.59221",
+    "name": "Funk Insurance Brokers AG",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
+    "operator": "Lifetec AG",
+    "phone": "0800 122 144",
+    "id": "node/11037266752"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.59221,
+      47.55207
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/11038060226",
   "properties": {
     "defibrillator:location": "Lonza Rezeption",
@@ -2587,6 +2637,28 @@
     "coordinates": [
       7.5750616,
       47.562634
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12239556491",
+  "properties": {
+    "defibrillator:location": "Praxis Eingang EG rechts",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Th 07:30-19:30; Fr 07:30-15:00",
+    "operator": "Physiotherapie Schmeitzky GmbH",
+    "phone": "+41 61 691 18 11",
+    "id": "node/12239556491"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5884441,
+      47.5656053
     ]
   }
 }
