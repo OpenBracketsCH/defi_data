@@ -5083,6 +5083,7 @@
     "indoor": "yes",
     "name": "Gemeindebibliothek",
     "operator": "Gemeinde Hägendorf;Einwohnergemeinde Hägendorf",
+    "operator:type": "public",
     "phone": "+41 62 209 17 12",
     "id": "node/6228897704"
   },
@@ -138742,91 +138743,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10790762407",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Parktheater Restaurant Ost Lindenstrasse 41 Grenchen",
-    "description": "Bei Restaurant Eingang Links",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/10790762407"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.3904729,
-      47.191269
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10790812005",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Restaurant Untergrenchenberg Bergstrasse Grenchen",
-    "description": "Südseite an Wand Rechts neben Garagentor",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/10790812005"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.380892,
-      47.2214333
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10790816205",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Feuerwehrgebäude Staad Staadstrasse 219 Staad",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/10790816205"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4079466,
-      47.1638699
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10790840306",
-  "properties": {
-    "access": "yes",
-    "check_date": "2024-10-09",
-    "defibrillator:location": "Flughafen Grenchen Flughafenstrasse 117\nSignalisiert",
-    "description": "Restaurant (Nachteingang Terrasse)\nSignalisiert",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Stadt Grenchen, Polizeiinspektorat",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/10790840306"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4112922,
-      47.1817327
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10792338939",
   "properties": {
     "emergency": "defibrillator",
@@ -176153,7 +176069,8 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "operator": "Verein",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Stadt Grenchen, Sozialdienst",
     "id": "node/12035292569"
   },
   "geometry": {
@@ -182160,6 +182077,116 @@
     "coordinates": [
       6.640568,
       46.7783249
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12237797001",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Restaurant Croix de Coeur",
+    "description": "während den Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/12237797001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.23287,
+      46.1217172
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12237883001",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Loomis Schweiz AG, Steinackerstrasse 49, 8302 Kloten",
+    "description": "Gebäude ist nicht zugänglich. Beim Eingang gleich rechts Telefon nutzen und nach Defi fragen. Kann unter Umständen etwas dauern.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 00:00-23:59",
+    "operator": "Loomis Schweiz AG",
+    "phone": "+41 848 803 804",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12237883001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.602708,
+      47.4483483
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12238254801",
+  "properties": {
+    "defibrillator:location": "Neumattstrasse, Schwimmbad Grenchen",
+    "description": "während Öffnungszeiten Schwimmbad verfügbar Mitte Mai bis Mitte September 09:00 bis 21:00",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Stadt Grenchen, Freibad",
+    "phone": "+4132 655 66 98",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12238254801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4071348,
+      47.1846049
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12238395901",
+  "properties": {
+    "defibrillator:location": "Hotel Schweizerhof Zürich, Réception",
+    "description": "bei der Réception, täglich 6.30 Uhr bis 23.00 Uhr über den Haupteingang, danach mittels Nachtglocke",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo - Su 6:30-23:00",
+    "operator": "Hotel Schweizerhof Zürich",
+    "id": "node/12238395901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5393364,
+      47.3770005
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12238437301",
+  "properties": {
+    "defibrillator:location": "Geschäftshaus Karlihofstrasse 7 Malans",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "???",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12238437301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.563845,
+      46.9703042
     ]
   }
 }

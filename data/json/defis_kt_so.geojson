@@ -129,6 +129,7 @@
     "indoor": "yes",
     "name": "Gemeindebibliothek",
     "operator": "Gemeinde Hägendorf;Einwohnergemeinde Hägendorf",
+    "operator:type": "public",
     "phone": "+41 62 209 17 12",
     "id": "node/6228897704"
   },
@@ -4104,19 +4105,20 @@
   "id": "node/10586640605",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Unter dem Dach im roten Kasten",
+    "check_date": "2024-10-09",
+    "defibrillator:location": "Marktplatz, unter dem Stadt-Dach\nSignalisiert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Gemeinde Grenchen",
+    "operator": "Stadt Grenchen, Polizeiinspektorat",
     "id": "node/10586640605"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.3968195,
-      47.1929828
+      7.3970126,
+      47.1929846
     ]
   }
 },
@@ -5132,19 +5134,21 @@
   "id": "node/10790762407",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Parktheater Restaurant Ost Lindenstrasse 41 Grenchen",
-    "description": "Bei Restaurant Eingang Links",
+    "defibrillator:location": "Parktheater Restaurant Ost Lindenstrasse 41 Grenchen\nSignalisiert",
+    "description": "Bei Restaurant Eingang Links\nSignalisiert für Firstresponder",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "source": "local_knowledge, defikarte.ch",
+    "opening_hours": "24/7",
+    "operator": "Stadt Grenchen, Polizeiinsektorat",
+    "source": "local_knowledge, defikarte.ch;local knowledge",
     "id": "node/10790762407"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.3904729,
-      47.191269
+      7.390548,
+      47.1912125
     ]
   }
 },
@@ -5153,12 +5157,14 @@
   "id": "node/10790812005",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Restaurant Untergrenchenberg Bergstrasse Grenchen",
-    "description": "Südseite an Wand Rechts neben Garagentor",
+    "defibrillator:location": "Restaurant Untergrenchenberg Bergstrasse Grenchen\nSignalisiert",
+    "description": "Südseite an Wand Rechts neben Garagentor\nSignalisiert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "source": "local_knowledge, defikarte.ch",
+    "opening_hours": "24/7",
+    "operator": "Stadt Grenchen, Polizeiinspektorat",
+    "source": "local_knowledge, defikarte.ch;survey",
     "id": "node/10790812005"
   },
   "geometry": {
@@ -5174,10 +5180,12 @@
   "id": "node/10790816205",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Feuerwehrgebäude Staad Staadstrasse 219 Staad",
+    "defibrillator:location": "Feuerwehrgebäude Staad Staadstrasse 219 Staad\nSiganlisiert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stradt Grenchen, Polizeiinspektorat",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10790816205"
   },
@@ -5200,6 +5208,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Stadt Grenchen, Polizeiinspektorat",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10790840306"
@@ -5207,8 +5216,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4112922,
-      47.1817327
+      7.4107477,
+      47.1813973
     ]
   }
 },
@@ -7873,7 +7882,8 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "operator": "Verein",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Stadt Grenchen, Sozialdienst",
     "id": "node/12035292569"
   },
   "geometry": {
@@ -8158,6 +8168,73 @@
     "coordinates": [
       7.3968015,
       47.1881403
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12237958201",
+  "properties": {
+    "defibrillator:location": "Bahnhof Süd",
+    "description": "vor dem Haupteingang Bahnhof, vis a vis Kunstmuseum",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "SBB",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12237958201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3983479,
+      47.1889068
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12238163101",
+  "properties": {
+    "defibrillator:location": "Brühlstrassen, Station Brühl, Fussballplatz",
+    "description": "Zugänglich für Firstresponder, signalisiert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadt Grenchen, Polizeiinspektorat",
+    "phone": "+4132 655 66 98",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12238163101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4032563,
+      47.1852356
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12238254801",
+  "properties": {
+    "defibrillator:location": "Neumattstrasse, Schwimmbad Grenchen",
+    "description": "während Öffnungszeiten Schwimmbad verfügbar Mitte Mai bis Mitte September 09:00 bis 21:00",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Stadt Grenchen, Freibad",
+    "phone": "+4132 655 66 98",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12238254801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4071348,
+      47.1846049
     ]
   }
 }

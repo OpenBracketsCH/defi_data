@@ -1232,6 +1232,7 @@
     "description": "Öffentlich zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "24/7",
     "id": "node/7720904262"
   },
@@ -14372,6 +14373,27 @@
     "coordinates": [
       9.5077282,
       46.8550995
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12238437301",
+  "properties": {
+    "defibrillator:location": "Geschäftshaus Karlihofstrasse 7 Malans",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "???",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12238437301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.563845,
+      46.9703042
     ]
   }
 }
