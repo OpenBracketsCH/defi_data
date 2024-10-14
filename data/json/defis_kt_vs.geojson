@@ -1467,7 +1467,6 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Reception TCS Camping Sion",
-    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -1844,7 +1843,6 @@
   "id": "node/9498474642",
   "properties": {
     "defibrillator:location": "Bei Bucherer",
-    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -1865,7 +1863,6 @@
   "id": "node/9498474643",
   "properties": {
     "defibrillator:location": "Bei Bucherer",
-    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -4760,6 +4757,27 @@
     "coordinates": [
       7.23287,
       46.1217172
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12250098784",
+  "properties": {
+    "access": "yes",
+    "brand": "Aivia",
+    "defibrillator:location": "At a column of the roof, facing towards sqare Bahnhofsplatz",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/12250098784"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7477727,
+      46.0237332
     ]
   }
 }
