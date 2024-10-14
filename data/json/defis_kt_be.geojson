@@ -17526,7 +17526,7 @@
   "type": "Feature",
   "id": "node/6646804896",
   "properties": {
-    "access": "permissive",
+    "access": "private",
     "contact:addr": "Monbijoustrasse 61, 3007 Bern",
     "contact:phone": "+41 31 3770101",
     "defibrillator:location": "Schweizerischer Gewerkschaftsbund SGB",
@@ -55857,6 +55857,54 @@
     "coordinates": [
       7.4368943,
       46.9557284
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12250387401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Mehrzweckgebäude Pfadern",
+    "description": "24/7 erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Rüschegg",
+    "phone": "+41 31 738 70 70",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12250387401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4023014,
+      46.7798696
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12250395601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindeverwaltung Rüschegg",
+    "description": "24/7 erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Rüschegg",
+    "phone": "+41 31 738 70 70",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12250395601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3844433,
+      46.7759388
     ]
   }
 }

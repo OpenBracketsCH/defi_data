@@ -13969,7 +13969,7 @@
   "type": "Feature",
   "id": "node/6646804896",
   "properties": {
-    "access": "permissive",
+    "access": "private",
     "contact:addr": "Monbijoustrasse 61, 3007 Bern",
     "contact:phone": "+41 31 3770101",
     "defibrillator:location": "Schweizerischer Gewerkschaftsbund SGB",
@@ -182638,6 +182638,26 @@
     "coordinates": [
       8.6691367,
       47.2310661
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12250293806",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Dans la station de métro",
+    "description": "Pendant les heures d'ouverture",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "-1",
+    "id": "node/12250293806"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.6324707,
+      46.5229053
     ]
   }
 }
