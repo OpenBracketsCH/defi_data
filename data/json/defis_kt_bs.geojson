@@ -2603,12 +2603,11 @@
   "id": "node/12222320001",
   "properties": {
     "defibrillator:location": "Pflegehotel St.Johann",
-    "description": "während Öffnungszeiten verfügbar ",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Erdgeschoss ",
-    "opening_hours": "7:00-17:00",
+    "level": "0",
+    "opening_hours": "07:00-17:00",
     "phone": "+41613261616",
     "id": "node/12222320001"
   },
@@ -2688,6 +2687,29 @@
     "coordinates": [
       7.6495198,
       47.584884
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12252791102",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Byfangweg 1a",
+    "description": "Mo-Fr 08:00-17:00 verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "operator": "Firma",
+    "phone": "+41612069876",
+    "id": "node/12252791102"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5834558,
+      47.5528197
     ]
   }
 }

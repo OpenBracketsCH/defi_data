@@ -527,9 +527,14 @@
   "type": "Feature",
   "id": "node/7959510897",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Eingang der Sporthalle links im Gang an der Wand in ca 1.8 m Höhe im grünen Kasten.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 09:00-22:00; Sa-Su 09:00-18:00; PH open",
+    "wheelchair": "no",
     "id": "node/7959510897"
   },
   "geometry": {
@@ -1905,7 +1910,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Erdgeschoss",
+    "level": "0",
     "opening_hours": "07:00 - 22:00",
     "operator": "Verein",
     "id": "node/11669972569"

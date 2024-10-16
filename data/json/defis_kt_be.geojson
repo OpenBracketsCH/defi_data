@@ -2567,7 +2567,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.3545839,
+      7.3545841,
       46.8845416
     ]
   }
@@ -34673,7 +34673,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr: 07:30 - 17:00",
+    "opening_hours": "Mo-Fr 07:30-17:00",
     "operator": "Implenia Schweiz AG",
     "phone": "+41 58 474 76 76",
     "id": "node/9022645617"
@@ -44709,9 +44709,9 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "2",
-    "opening_hours": "Mo-Fr: 8:00 - 12:00, 13:00-17:00",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:00-17:00",
     "operator": "Netcloud AG",
-    "phone": "+41583441212",
+    "phone": "+41 58 344 12 12",
     "id": "node/10586644805"
   },
   "geometry": {
@@ -45127,22 +45127,21 @@
   "type": "Feature",
   "id": "node/10701970408",
   "properties": {
-    "access": "yes",
     "defibrillator:location": "Treppenhaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "opening_hours": "MO- FR 08:00-16:00",
+    "opening_hours": "Mo-Fr 08:00-16:00",
     "operator": "Haws AG",
-    "phone": "0344206000",
+    "phone": "+41 34 420 60 00",
     "id": "node/10701970408"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.602386,
-      47.0693269
+      7.6022587,
+      47.0692921
     ]
   }
 },
@@ -45944,7 +45943,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "2.og",
+    "level": "2",
     "name": "OLZ AG",
     "opening_hours": "Mo-Fr 08:00-18:00",
     "operator": "Lifetec AG Schweiz",
@@ -46271,7 +46270,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1.og",
+    "level": "1",
     "name": "Gilgen Door Systems AG",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
@@ -48955,14 +48954,13 @@
   "id": "node/11038063819",
   "properties": {
     "defibrillator:location": "Feldstrasse 42 3073 Gümligen",
-    "description": "während Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "2. og",
-    "opening_hours": "Mo - Do 07.30 -12.00 13.00- 17.00 Fr 07.30 - 12.00 13.00-16.00",
+    "level": "2",
+    "opening_hours": "Mo-Th 07:30-12:00,13:00-17:00; Fr 07:30-12:00,13:00-16:00",
     "operator": "Walo Bertschinger AG",
-    "phone": "0319412121",
+    "phone": "+41 31 941 21 21",
     "id": "node/11038063819"
   },
   "geometry": {
@@ -49448,10 +49446,9 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr. 07.30-17.30",
+    "opening_hours": "Mo-Fr 07:30-17:30",
     "operator": "Privat",
-    "phone": "+4162 919 72 72",
-    "source": "local_knowledge, defikarte.ch",
+    "phone": "+41 62 919 72 72",
     "id": "node/11174761237"
   },
   "geometry": {
@@ -49470,10 +49467,9 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr. 07.30-17.30",
+    "opening_hours": "Mo-Fr 07:30-17:30",
     "operator": "Privat",
-    "phone": "+41629197272",
-    "source": "local_knowledge, defikarte.ch",
+    "phone": "+41 62 919 72 72",
     "id": "node/11174802037"
   },
   "geometry": {
@@ -49555,12 +49551,11 @@
   "type": "Feature",
   "id": "node/11191153437",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Kornhaus, Treppenhaus",
+    "defibrillator:location": "Kornhaus, Treppenhaus 2. OG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "2. OG",
+    "level": "2",
     "id": "node/11191153437"
   },
   "geometry": {
@@ -49813,14 +49808,13 @@
   "id": "node/11217268437",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "jägerweg 1, 3326 heimerg",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "erdgeschoss",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Bewetec AG",
-    "phone": "0582351461",
+    "phone": "+41 58 235 14 61",
     "id": "node/11217268437"
   },
   "geometry": {
@@ -50295,12 +50289,12 @@
   "id": "node/11330732169",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Kirchengemeindehaus im Eingang ",
-    "description": "gleich nach der ersten Türe re",
+    "defibrillator:location": "Kirchengemeindehaus im Eingang",
+    "description": "gleich nach der ersten Türe rechts",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Erdgeschoss ",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "reaplus",
     "id": "node/11330732169"
@@ -50843,7 +50837,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Erdgeschoss",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Westside",
     "id": "node/11405670869"
@@ -52188,7 +52182,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Erdgeschoss",
+    "level": "0",
     "opening_hours": "Mo-Fr 08:30-13:30, 16:30-21:00",
     "operator": "Fitness Center",
     "phone": "+41323310040",
@@ -53113,7 +53107,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "2 OG",
+    "level": "2",
     "opening_hours": "Mo-Fr 07:00 - 19:00",
     "operator": "Labor MCL",
     "phone": "+41313287878",
@@ -53224,12 +53218,12 @@
     "access": "yes",
     "addr:housenumber": "3",
     "addr:street": "Eichholzweg",
-    "defibrillator:location": "Im Büro 1.OG\n1400LTM Oranger Koffer",
+    "defibrillator:location": "Im Büro 1.OG 1400LTM Oranger Koffer",
     "description": "Oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1.og",
+    "level": "1",
     "opening_hours": "Mo-Fr 07:00 - 17:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
@@ -53511,12 +53505,12 @@
   "type": "Feature",
   "id": "node/11884831169",
   "properties": {
-    "defibrillator:location": "Moosweg 10, 3645 Gwatt",
+    "defibrillator:location": "1.OG im Treppenhaus Eingang Kunz AG",
     "description": "während Öffnungzeiten immer, sonst ev. auch jemand da, aber nicht garantiert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1.OG im Treppenhaus Eingang Kunz AG",
+    "level": "1",
     "opening_hours": "Mo-Fr \"07.00-18.00\"",
     "operator": "Kunz AG Thun",
     "phone": "+41333345400",
@@ -53557,11 +53551,11 @@
   "properties": {
     "access": "no",
     "defibrillator:location": "Freizeitzentrum Bärtschihus",
-    "description": "neben Eingang\n",
+    "description": "neben Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Erdgeschoss",
+    "level": "0",
     "operator": "Genossenschaft",
     "id": "node/11884839882"
   },
@@ -53647,11 +53641,11 @@
   "properties": {
     "access": "no",
     "defibrillator:location": "Golfpark Moossee / Restaurant",
-    "description": "während der Öffnungszeiten verfügbar ",
+    "description": "während der Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Erdgeschoss",
+    "level": "0",
     "phone": "+41585684000",
     "id": "node/11886057669"
   },
@@ -53880,12 +53874,12 @@
     "access": "yes",
     "addr:housenumber": "27",
     "addr:street": "Waldeggstrasse",
-    "defibrillator:location": "1.OG Treppenhaus neben Feuerlöscher\n1416LTM",
+    "defibrillator:location": "1.OG Treppenhaus neben Feuerlöscher 1416LTM",
     "description": "Oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1. OG",
+    "level": "1",
     "name": "Druckerei Streit AG",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
@@ -54313,7 +54307,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "2. OG",
+    "level": "2",
     "operator": "Self Fitness",
     "id": "node/11989559369"
   },
@@ -54473,7 +54467,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Erdgeschoss aussen",
+    "level": "0",
     "operator": "Samariterverein Schangnau",
     "phone": "+41344934015",
     "id": "node/12029721670"
@@ -55020,12 +55014,11 @@
   "id": "node/12121696302",
   "properties": {
     "defibrillator:location": "Röthlisberger Innenausbau",
-    "description": "wärend öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1.OG",
-    "opening_hours": "Mo-Fr 6:30-17:00 ",
+    "level": "1",
+    "opening_hours": "Mo-Fr 06:30-17:00",
     "operator": "Röthlisberger Innenausbau",
     "phone": "+41319502130",
     "id": "node/12121696302"
@@ -55929,6 +55922,30 @@
     "coordinates": [
       7.4090338,
       46.9743962
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12252716101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang zum Schwimmbad Eywald",
+    "description": "24/7 erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Rüschegg",
+    "phone": "+41 31 738 70 70",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12252716101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4183249,
+      46.7626047
     ]
   }
 }

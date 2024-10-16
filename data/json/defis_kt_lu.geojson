@@ -3318,24 +3318,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637818451",
-  "properties": {
-    "description": "Werkstatt",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Lifetec Klostermetzgerei",
-    "id": "node/7637818451"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.8388675,
-      47.233196
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637818453",
   "properties": {
     "access": "yes",
@@ -4344,6 +4326,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "name": "Rigi Kaltbad",
+    "note": "Tel. 041 811 15 55",
     "opening_hours": "24/7",
     "id": "node/7637818554"
   },
@@ -19169,7 +19152,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Erdgeschoss ",
+    "level": "0",
     "id": "node/11215165039"
   },
   "geometry": {
@@ -19190,7 +19173,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Erdgeschoss",
+    "level": "0",
     "operator": "Privat",
     "id": "node/11215179037"
   },
@@ -20268,7 +20251,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1.OG",
+    "level": "1",
     "operator": "Jordi Röntgentechnik AG",
     "phone": "+41614179393",
     "id": "node/11768844869"
@@ -20519,7 +20502,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Erdgeschoss",
+    "level": "0",
     "opening_hours": "Mo - Fr 07:00 - 18:00",
     "id": "node/11884945469"
   },
@@ -20540,7 +20523,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Erdgeschoss",
+    "level": "0",
     "opening_hours": "Mo-Fr 06:00 - 23:00",
     "operator": "Allega GmbH",
     "phone": "+41 62 748 25 25",
@@ -20625,12 +20608,12 @@
   "id": "node/11907042969",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Ettiswilerstrasse 15,6130 Willisau",
+    "defibrillator:location": "1.OG, über Audi Ausstellung",
     "description": "Während Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1.OG über Audi Ausstellung",
+    "level": "1",
     "operator": "Adent Zahnarztzentrum",
     "phone": "+41419727050",
     "id": "node/11907042969"

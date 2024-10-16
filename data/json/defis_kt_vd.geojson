@@ -970,30 +970,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6601252181",
-  "properties": {
-    "access": "yes",
-    "check_date": "2023-10-30",
-    "defibrillator:location": "A côté des toilettes",
-    "description": "Pendant les heures d'ouverture",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "opening_hours": "Mo-Th 08:00-18:30; Fr 08:00-20:00; Sa 07:00-17:00",
-    "operator": "Migros",
-    "id": "node/6601252181"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      6.8417273,
-      46.4648784
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6603095386",
   "properties": {
     "access": "yes",
@@ -10369,6 +10345,90 @@
     "coordinates": [
       6.6324707,
       46.5229053
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12252622132",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sur un poteau à l'extérieur",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/12252622132"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1555042,
+      46.348778
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12252675135",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Dans le parc des sports",
+    "description": "Pendant les heures d'ouverture",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/12252675135"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1570478,
+      46.3473474
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12252882332",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Dans le sas d'entrée de l'administration communale",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/12252882332"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1580464,
+      46.348714
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12254550401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hager SA",
+    "description": "Pendant les heures d'ouvertures",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "07:15-16:30",
+    "operator": "Entreprise",
+    "phone": "+41216443700",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12254550401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.6269767,
+      46.5432478
     ]
   }
 }

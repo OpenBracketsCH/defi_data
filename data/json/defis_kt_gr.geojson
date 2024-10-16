@@ -10450,7 +10450,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "2. OG",
+    "level": "2",
     "opening_hours": "Mo-Fr 08:00-21:30",
     "operator": "movemi AG",
     "phone": "+41815150810",
@@ -11036,7 +11036,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "2. OG",
+    "level": "2",
     "operator": "Corvatsch AG",
     "phone": "+41818387373",
     "id": "node/11135443605"
@@ -14411,6 +14411,28 @@
     "coordinates": [
       9.115009,
       46.3011416
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12252760401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bahnhof",
+    "description": "\n",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "Perron",
+    "opening_hours": "24/7",
+    "id": "node/12252760401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      10.0312744,
+      46.3744237
     ]
   }
 }

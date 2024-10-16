@@ -5919,9 +5919,14 @@
   "type": "Feature",
   "id": "node/7959510897",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Eingang der Sporthalle links im Gang an der Wand in ca 1.8 m Höhe im grünen Kasten.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 09:00-22:00; Sa-Su 09:00-18:00; PH open",
+    "wheelchair": "no",
     "id": "node/7959510897"
   },
   "geometry": {
@@ -23477,7 +23482,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Erdgeschoss",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Winterhalter Rüthi",
     "phone": "+41717678083",
@@ -25117,7 +25122,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1.OG",
+    "level": "1",
     "opening_hours": "24/7",
     "id": "node/11162814205"
   },
@@ -25866,14 +25871,12 @@
   "type": "Feature",
   "id": "node/11311445469",
   "properties": {
-    "access": "no",
     "defibrillator:location": "Lattich",
     "description": "Toilette auf Gebäude-Rückseite",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Erdgeschoss, Toilette",
-    "operator": "Privat (?)",
+    "level": "0",
     "id": "node/11311445469"
   },
   "geometry": {
@@ -25962,8 +25965,8 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Erdgeschoss",
-    "opening_hours": "Mo-So: 8:00-17:00",
+    "level": "0",
+    "opening_hours": "08:00-17:00",
     "operator": "Kulturmuseum",
     "phone": "0712420642",
     "id": "node/11348698869"
@@ -27371,7 +27374,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Erdgeschoss",
+    "level": "0",
     "opening_hours": "07:00 - 22:00",
     "operator": "Verein",
     "id": "node/11669972569"
@@ -27621,16 +27624,17 @@
   "id": "node/11733636247",
   "properties": {
     "access": "private",
-    "defibrillator:location": "2. OG Bürobereich vor Aula\n\n1244 LTM",
+    "defibrillator:location": "2. OG Bürobereich vor Aula",
     "description": "Oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "2.OG",
+    "level": "2",
     "name": "Hardinge Kellenberger AG",
-    "opening_hours": "Mo-Fr 07:30-12:00 13:00-17:00",
+    "opening_hours": "Mo-Fr 07:30-12:00,13:00-17:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
+    "ref": "1244LTM",
     "id": "node/11733636247"
   },
   "geometry": {
@@ -28094,7 +28098,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1. OG",
+    "level": "1",
     "operator": "Privatperson",
     "phone": "+41 78 7189747",
     "id": "node/11816758741"
@@ -28449,12 +28453,12 @@
     "access": "private",
     "addr:housenumber": "199",
     "addr:street": "Staatsstrasse",
-    "defibrillator:location": "1.OG Office Eingang beim Drucker\n1410LTM",
+    "defibrillator:location": "1.OG Office Eingang beim Drucker 1410LTM",
     "description": "Oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1 OG",
+    "level": "1",
     "name": "Bau Power Group AG",
     "operator": "lifetec AG Schweiz",
     "phone": "+41 800 122 144",
@@ -28794,7 +28798,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1. OG",
+    "level": "1",
     "operator": "Unilabs St. Gallen",
     "phone": "+41588646464",
     "id": "node/11936919569"
@@ -28817,7 +28821,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Erdgeschoss ",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Restaurant Berghof",
     "id": "node/11939815969"

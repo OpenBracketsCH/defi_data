@@ -5496,7 +5496,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Erdgeschoss",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Würth AG",
     "phone": "+41617059762",
@@ -5774,7 +5774,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Erdgeschoss",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "haus-leo.ch",
     "id": "node/11221858737"
@@ -6489,15 +6489,16 @@
   "id": "node/11740679545",
   "properties": {
     "access": "private",
-    "defibrillator:location": "Nauta SA, Internationale Transporte, Rhein- und Seeschifffahrt\nGrüssenhöliweg 3 4133 Pratteln\n2.OG bei Eingang\n1287LTM",
+    "defibrillator:location": "Im 2. OG bei Eingang",
     "description": "Gelber Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "2.OG",
-    "opening_hours": "Mo-Fr 08:00-12:00 13:30-17:30",
+    "level": "2",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:30-17:30",
     "operator": "Lifeteec AG Schweiz",
     "phone": "+41 800 122 144",
+    "ref": "1287LTM",
     "id": "node/11740679545"
   },
   "geometry": {
@@ -7016,12 +7017,11 @@
   "id": "node/11941698069",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Gymnasium Münchenstein",
-    "description": "während der Öffnungszeiten verfügbar",
+    "defibrillator:location": "2. OG, Bereich Treppenhaus Aussenwand Sekretariat",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "2. OG, Bereich Trepoenhaus Aussenwand Sekretariat",
+    "level": "2",
     "opening_hours": "Mo-Fr 7:00 - 18:00",
     "operator": "Kanton Baselland, Gymnasium Münchenstein",
     "phone": "+41615521520",
@@ -7696,6 +7696,30 @@
     "coordinates": [
       7.5444454,
       47.5489782
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12253198602",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Augenpraxis",
+    "description": "währen den regulären Praxisöffnungszeiten ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "operator": "Augenarztpraxis",
+    "phone": "+41 61 976 17 17",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12253198602"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8094286,
+      47.4645544
     ]
   }
 }
