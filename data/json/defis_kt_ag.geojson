@@ -20102,7 +20102,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "operator": "Gemeinde Gränichen",
-    "phone": "+41 62 855 88 77",
+    "phone": "+41 79 479 25 28",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/11037270306"
   },
@@ -20126,7 +20126,7 @@
     "indoor": "yes",
     "level": "0",
     "operator": "Gemeinde Gränichen",
-    "phone": "+41 62 855 88 77",
+    "phone": "+41 79 303 24 63",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/11037283405"
   },
@@ -20151,7 +20151,7 @@
     "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Gränichen",
-    "phone": "+41 62 855 88 77",
+    "phone": "+41 79 475 08 40",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/11037287705"
   },
@@ -22286,14 +22286,14 @@
   "type": "Feature",
   "id": "node/11420240869",
   "properties": {
-    "access": "no",
+    "access": "permissive",
     "defibrillator:location": "Holtenstrasse 1",
-    "description": "Wenn benötigt, bitte auf 0798954408 Anrufen oder bei Fam. Widmer klingeln",
+    "description": "Wenn benötigt, bitte bei Fam. Widmer klingeln oder +41 79 895 44 08 anrufen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1  OG",
-    "operator": "Privat",
+    "level": "1",
+    "operator:type": "private",
     "phone": "+41798954408",
     "id": "node/11420240869"
   },
@@ -24998,8 +24998,8 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1.OG",
-    "opening_hours": "8:00-12:00, 13:30-18:00",
+    "level": "1",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:30-18:00",
     "operator": "Ärztegemeinschaft Suhr",
     "phone": "+41628552030",
     "id": "node/11917610872"

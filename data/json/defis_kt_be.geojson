@@ -49531,12 +49531,11 @@
   "type": "Feature",
   "id": "node/11191152237",
   "properties": {
-    "access": "no",
     "defibrillator:location": "Vor dem Eingang der Kornhausbibliothek",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
-    "level": "3. OG",
+    "indoor": "yes",
+    "level": "3",
     "id": "node/11191152237"
   },
   "geometry": {
@@ -49594,16 +49593,14 @@
   "type": "Feature",
   "id": "node/11193128237",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Polizeistützpunkt, Schermenweg 9, Wand links vom Schalter",
-    "description": "während den Öffnungszeiten für die Öffentlichkeit verfügbar",
+    "defibrillator:location": "Wand links vom Schalter",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "4. OG",
+    "level": "4",
     "opening_hours": "Mo-Fr: 07:30-16:00",
-    "operator": "Kantondpolizei Bern",
-    "phone": "0316386464",
+    "operator": "Kantonspolizei Bern",
+    "phone": "+41 31 638 64 64",
     "id": "node/11193128237"
   },
   "geometry": {
@@ -52965,13 +52962,13 @@
   "id": "node/11748275743",
   "properties": {
     "access": "private",
-    "defibrillator:location": "Technologiepark-Immobilien AG\nMorgenstrasse 129\n3.OG, bei Liftanlage\n1346LTM",
+    "defibrillator:location": "Technologiepark-Immobilien AG Morgenstrasse 129 3.OG, bei Liftanlage 1346LTM",
     "description": "Oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "3.OG",
-    "opening_hours": "Mo-Th 08:00-12:00 13:15-16.30 Fr 08.00 - 12.00 & 13.15 - 16.00 Uhr",
+    "level": "3",
+    "opening_hours": "Mo-Th 08:00-12:00,13:15-16:30; Fr 08:00-12:00,13:15-16:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/11748275743"

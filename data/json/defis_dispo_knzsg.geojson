@@ -23659,15 +23659,15 @@
   "type": "Feature",
   "id": "node/10907364505",
   "properties": {
-    "access": "no",
+    "access": "permissive",
     "defibrillator:location": "Tägerenaustrasse 10",
     "description": "wenn Zuhause verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "3 OG",
-    "operator": "Pohl Thorsten",
-    "phone": "+41792545906",
+    "level": "3",
+    "operator:type": "private",
+    "phone": "+41 79 254 59 06",
     "id": "node/10907364505"
   },
   "geometry": {
@@ -25278,11 +25278,10 @@
   "id": "node/11207127037",
   "properties": {
     "defibrillator:location": "Büro Schweizer Zoll Buchs",
-    "description": "Während den Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1. OG",
+    "level": "1",
     "opening_hours": "Mo-Fr 07:30-12:00,13:00-17:00",
     "operator": "BAZG",
     "id": "node/11207127037"
@@ -25785,10 +25784,10 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1 OG.",
+    "level": "1",
     "opening_hours": "Th-Su 10:00-17:00",
     "operator": "Verein Schloss Werdenberg",
-    "phone": "0817400540",
+    "phone": "+41 81 740 05 40",
     "id": "node/11290452269"
   },
   "geometry": {
@@ -26355,7 +26354,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1.OG",
+    "level": "1",
     "id": "node/11408188869"
   },
   "geometry": {
@@ -27534,7 +27533,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "3 OG",
+    "level": "3",
     "opening_hours": "24/7",
     "operator": "SBB Feuerwehr Intervention",
     "phone": "+41792230934",
@@ -28432,8 +28431,8 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1. OG",
-    "opening_hours": "07:15 - 12:00 , 13:15 - 22:00",
+    "level": "1",
+    "opening_hours": "Mo-Fr 07:15-12:00,13:15-22:00",
     "operator": "Oberstufe Mittelrheintal",
     "phone": "+41717267676",
     "id": "node/11861891870"
