@@ -99277,9 +99277,9 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Draussen",
+    "level": "0",
     "opening_hours": "24/7",
-    "operator": "? Lac de Tanay",
+    "operator": "Lac de Tanay?",
     "id": "node/11063043005"
   },
   "geometry": {
@@ -100711,28 +100711,6 @@
     "coordinates": [
       8.8427925,
       47.4187052
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11162322006",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Schule Allmend (Spezialtrakt Haus C)",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "EG drausen neben Eingang",
-    "opening_hours": "24/7",
-    "operator": "Schulgemeinde Meilen",
-    "id": "node/11162322006"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6476856,
-      47.2719834
     ]
   }
 },
@@ -102954,7 +102932,6 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Schulanlage Allmend, Haus C, Spezialtrakt, Eingang aussen",
-    "description": "Jederzeit verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -102968,8 +102945,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6476663,
-      47.2720315
+      8.6476639,
+      47.27204
     ]
   }
 },
@@ -103844,6 +103821,29 @@
     "coordinates": [
       8.0286938,
       47.1842038
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11309092869",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Primarschule Lohn-Ammannsegg, Eingang Altes Schulhaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Burgergemeinde Lohn-Ammannsegg",
+    "phone": "032 677 53 00",
+    "id": "node/11309092869"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5283519,
+      47.1706992
     ]
   }
 },
@@ -109320,11 +109320,11 @@
   "id": "node/11594535269",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Werkhof Bauamt Gemeinde St. Moritz",
+    "defibrillator:location": "Aussenfassade Werkhof Bauamt Gemeinde St. Moritz",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "EG Aussenfassade ",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde St. Moritz",
     "phone": "+41818333017",
@@ -112681,12 +112681,12 @@
   "id": "node/11811584527",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schulhaus Högler",
+    "defibrillator:location": "EG - Eingang Schulhaus Högler",
     "description": "Direkt bei dem Eingang vom Gebäude Trackt B",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "EG - Eingang",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Schulhaus Högler",
     "id": "node/11811584527"
@@ -113247,11 +113247,11 @@
   "id": "node/11841326490",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Sporthalle Breite",
+    "defibrillator:location": "Sporthalle Breite;Draussen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Draussen",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Embrach",
     "id": "node/11841326490"
@@ -113829,12 +113829,10 @@
   "id": "node/11884811769",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Parkplatz",
-    "description": "immer zugänglich",
+    "defibrillator:location": "Parkplatz. Bei Parkuhr.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Bei Parkuhr",
     "opening_hours": "24/7",
     "operator": "Ortsgemeinde",
     "id": "node/11884811769"
@@ -115528,12 +115526,11 @@
   "id": "node/11931060569",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schulzentrum Türggenau",
-    "description": "24h erreichbar",
+    "defibrillator:location": "EG aussen bei Eingang Wohnung Abwart Schulzentrum Türggenau",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "EG aussen bei Eingang Wohnung Abwart",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Schulgemeinde Sennwald",
     "id": "node/11931060569"
@@ -115541,8 +115538,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4947745,
-      47.2353154
+      9.4945003,
+      47.2353604
     ]
   }
 },
@@ -116120,12 +116117,12 @@
   "id": "node/11958474469",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Casa s.Martin ",
-    "description": "Haupteingang offen 7.00 Uhr-21.00  Uhr  sonst tel. 081 929 32 12",
+    "defibrillator:location": "Haupteingang neben Lift Casa s.Martin",
+    "description": "Haupteingang offen 7.00-21.00 Uhr, sonst Tel. 081 929 32 12",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "EG Haupteingang neben Lift",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Casa s.Martin 7166 Trun",
     "phone": "+41819293212",
@@ -116235,11 +116232,11 @@
   "id": "node/11962408269",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Feuerwehrdepot / Werhof",
+    "defibrillator:location": "Feuerwehrdepot / Werhof. Draussen am Gebäude. Einfahrt.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Draussen am Gebäude. Einfahrt",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Feuerwehr Kilchberg-Rüschlikon",
     "phone": "+41447163162",
@@ -116248,8 +116245,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5461607,
-      47.3193996
+      8.546093,
+      47.3194075
     ]
   }
 },
@@ -117762,12 +117759,11 @@
   "id": "node/12037602669",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Eberle Transport Haupteingang EG rechts",
-    "description": "24 / 7  für Jedermann ereichbar",
+    "defibrillator:location": "EG rechts Haupteingang Bürogebäude;",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "EG  Haupteingang Bürogebäude",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Eberle Transport",
     "phone": "+41817506666",
@@ -119962,21 +119958,20 @@
   "id": "node/12140106801",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "La Nave ",
-    "description": "Neben Haupteingang",
+    "defibrillator:location": "Neben Haupteingang, aussen von La Nave",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "EG aussen",
+    "level": "0",
     "opening_hours": "24/7",
-    "operator": "La Nave: Schule die bewegt",
+    "operator": "La Nave",
     "id": "node/12140106801"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4778783,
-      47.1521605
+      9.4779476,
+      47.152304
     ]
   }
 },
@@ -122182,7 +122177,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "EG",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "FC Fortuna",
     "id": "node/12255826302"
@@ -122190,8 +122185,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.3583483,
-      47.4181491
+      9.3583606,
+      47.41814
     ]
   }
 },

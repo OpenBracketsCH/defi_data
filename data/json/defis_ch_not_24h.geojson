@@ -49721,26 +49721,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8557229633",
-  "properties": {
-    "defibrillator:location": "Im Sanitätsfahrzeug",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Th 07:00-11:30,13:30-17:00; Fr 07:00-11:30,13:30-15:00",
-    "operator": "Feuerwehr Kilchberg-Rüschlikon",
-    "id": "node/8557229633"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5453979,
-      47.3193841
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8557282090",
   "properties": {
     "defibrillator:location": "Haupteingang Bernstrasse 90 benutzen (1. OG) Links Richtung Empfang gehen. Der Defi befindet sich hinter dem Tresen links an der Wand. Er ist nur von der Hinterseite der Theke sichtbar.",
@@ -139951,12 +139931,11 @@
   "id": "node/10881215306",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Autoschmid AG Reifenhotel",
-    "description": "Während Öffnungszeiten",
+    "defibrillator:location": "EG /Neben Eingang Autoschmid AG Reifenhotel",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "EG /Neben Eingang ",
+    "level": "0",
     "opening_hours": "Mo-Fr 07:30-18:00",
     "operator": "Autoschmid AG",
     "phone": "+41627375360",
@@ -139965,8 +139944,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0523484,
-      47.3625165
+      8.0523363,
+      47.3625411
     ]
   }
 },
@@ -140372,12 +140351,11 @@
   "id": "node/10896638505",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Frossmatte 4",
-    "description": "während Büroöffnungszwiten",
+    "defibrillator:location": "Eingang Frossmatte 4",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "EG Eingang",
+    "level": "0",
     "operator": "Privat",
     "phone": "0412594300",
     "id": "node/10896638505"
@@ -140677,12 +140655,11 @@
   "id": "node/10907258405",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schwimmbad Moos",
-    "description": "Bei Öffnungszeiten verfügbar",
+    "defibrillator:location": "EG Bei der Bademeister Tür, Schwimmbad Moos",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "EG Bei der Bademeister Tür",
+    "level": "0",
     "operator": "Gemeinde",
     "phone": "+41797035679",
     "id": "node/10907258405"
@@ -142995,13 +142972,13 @@
   "id": "node/10965028805",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Feuerwehrdepot Kirchstrasse",
-    "description": "Von Mo - Fr / 07:00 -12:00 / 13:30 - 17:00 Uhr",
+    "defibrillator:location": "Fahrzeughalle Feuerwehrdepot Kirchstrasse",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "EG Fahrzeughalle",
-    "operator": "Feuerwehr Rorschach-Rorschacherberg ",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-12:00,13:30-17:00",
+    "operator": "Feuerwehr Rorschach-Rorschacherberg",
     "phone": "+41718466050",
     "id": "node/10965028805"
   },
@@ -153922,29 +153899,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11309092869",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Primarschule Lohn-Ammannsegg, Eingang Altes Schulhaus",
-    "description": "24/7",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "Beim Eingang",
-    "operator": "Burgergemeinde Lohn-Ammannsegg",
-    "phone": "032 677 53 00",
-    "id": "node/11309092869"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5283003,
-      47.1708479
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11309365969",
   "properties": {
     "defibrillator:location": "Praxis Dr.med. Anja Fäh, Cardiopark AG",
@@ -154925,13 +154879,12 @@
   "type": "Feature",
   "id": "node/11357825969",
   "properties": {
-    "defibrillator:location": "Überbauung TownVillage",
-    "description": "Während Öffnungszeiten",
+    "defibrillator:location": "EG gleich beim Empfang/Kafi Theodor Überbauung TownVillage",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "EG gleich beim Empfang/Kafi Theodor",
-    "opening_hours": "Mo-Fr: 08:00-17:30",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-17:30",
     "operator": "Quellenhof-Stiftung, Sicherheitsbeauftragte/-r",
     "phone": "+41522451313",
     "id": "node/11357825969"
@@ -154949,12 +154902,12 @@
   "id": "node/11357843969",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Kongresszentrum Parkarena",
+    "defibrillator:location": "EG Raum neben Saaleingang links Kongresszentrum Parkarena",
     "description": "Während Veranstaltungen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "EG Raum neben Saaleingang links",
+    "level": "0",
     "operator": "GvC Winterthur",
     "phone": "+41522451414",
     "id": "node/11357843969"
@@ -156756,12 +156709,12 @@
   "id": "node/11412039369",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Sunstar Hotel",
+    "defibrillator:location": "EG - Reception Sunstar Hotel",
     "description": "während Hotelöffnungszeit",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "EG - Reception",
+    "level": "0",
     "operator": "Sunstar Hotel",
     "phone": "+41813858888",
     "id": "node/11412039369"
@@ -166118,7 +166071,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "EG - rez-de-chaussée",
+    "level": "0",
     "opening_hours": "07:00-19:00",
     "operator": "Eigentümer - propriétaire",
     "id": "node/11749927069"
@@ -167805,12 +167758,11 @@
   "type": "Feature",
   "id": "node/11818204687",
   "properties": {
-    "defibrillator:location": "Gallusschulhaus (Meitleflade)",
-    "description": "Während öffnungszeiten verfügbar (ausgenommen Schulferien)",
+    "defibrillator:location": "EG Nebeneingang,schwarze Türe (Richtung Turnhalle);Gallusschulhaus (Meitleflade)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "EG Nebeneingang, schwarze Türe (Richtung Turnhalle)",
+    "level": "0",
     "opening_hours": "Mo-Fr 06:30-18:00",
     "operator": "Katholische Administration St. Gallen",
     "phone": "+41712273406",
@@ -169501,18 +169453,18 @@
   "id": "node/11860317070",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Gemeindehaus Seeseite",
+    "defibrillator:location": "EG aussen vor dem Eingang Gemeindehaus Seeseite",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "EG aussen vor dem Eingang",
+    "level": "0",
     "id": "node/11860317070"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.1076096,
-      46.9248985
+      7.1076494,
+      46.9249094
     ]
   }
 },
@@ -170371,13 +170323,13 @@
   "type": "Feature",
   "id": "node/11884852169",
   "properties": {
-    "defibrillator:location": "Tennisclub Worb",
+    "defibrillator:location": "Clubhaus Tennisclub Worb",
     "description": "offen wenn Tennisplatz besetzt",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Clubhaus EG",
-    "opening_hours": "Mo-Su 09:00 - 21:00",
+    "level": "0",
+    "opening_hours": "Mo-Su 09:00-21:00",
     "operator": "Tennisclub Worb",
     "id": "node/11884852169"
   },
@@ -171523,12 +171475,11 @@
   "id": "node/11904360769",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Holcim Betonwek Büro Weidenstrasse 62, 4147 Aesch",
-    "description": "während den Öffnungszeiten",
+    "defibrillator:location": "Bürokontainer;Holcim Betonwek Büro, Weidenstrasse 62, 4147 Aesch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Bürokontainer",
+    "level": "0",
     "opening_hours": "Mo-Fr 07:00-17:00",
     "operator": "Holcim",
     "phone": "+41588500048",
@@ -173330,13 +173281,13 @@
   "id": "node/11955063269",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Zoll Embrach, Embraport 3b, 8424 Embrach",
+    "defibrillator:location": "EG (Eingangsbereich Schalter - links an der Wand);Zoll Embrach, Embraport 3b, 8424 Embrach",
     "description": "Während Betriebszeiten offen (Mittags geschlossen)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "EG (Eingangsbereich Schalter - links an der Wand)",
-    "opening_hours": "07:00-11:30, 13:00-16:00",
+    "level": "0",
+    "opening_hours": "07:00-11:30,13:00-16:00",
     "id": "node/11955063269"
   },
   "geometry": {
@@ -182460,13 +182411,12 @@
   "type": "Feature",
   "id": "node/12251251001",
   "properties": {
-    "access": "permissive",
     "defibrillator:location": "Schulhaus Gartenstrasse",
     "description": "während den Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "EG",
+    "level": "0",
     "operator": "Gemeinde",
     "id": "node/12251251001"
   },

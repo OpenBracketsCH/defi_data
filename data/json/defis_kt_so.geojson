@@ -5537,12 +5537,11 @@
   "id": "node/10907258405",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schwimmbad Moos",
-    "description": "Bei Öffnungszeiten verfügbar",
+    "defibrillator:location": "EG Bei der Bademeister Tür, Schwimmbad Moos",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "EG Bei der Bademeister Tür",
+    "level": "0",
     "operator": "Gemeinde",
     "phone": "+41797035679",
     "id": "node/10907258405"
@@ -6590,11 +6589,11 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Primarschule Lohn-Ammannsegg, Eingang Altes Schulhaus",
-    "description": "24/7",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Beim Eingang",
+    "level": "0",
+    "opening_hours": "24/7",
     "operator": "Burgergemeinde Lohn-Ammannsegg",
     "phone": "032 677 53 00",
     "id": "node/11309092869"
@@ -6602,8 +6601,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5283003,
-      47.1708479
+      7.5283519,
+      47.1706992
     ]
   }
 },

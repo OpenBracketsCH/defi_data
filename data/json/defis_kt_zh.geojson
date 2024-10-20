@@ -13246,26 +13246,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8557229633",
-  "properties": {
-    "defibrillator:location": "Im Sanitätsfahrzeug",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Th 07:00-11:30,13:30-17:00; Fr 07:00-11:30,13:30-15:00",
-    "operator": "Feuerwehr Kilchberg-Rüschlikon",
-    "id": "node/8557229633"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5453979,
-      47.3193841
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8557268873",
   "properties": {
     "access": "yes",
@@ -48687,28 +48667,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11162322006",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Schule Allmend (Spezialtrakt Haus C)",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "EG drausen neben Eingang",
-    "opening_hours": "24/7",
-    "operator": "Schulgemeinde Meilen",
-    "id": "node/11162322006"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6476856,
-      47.2719834
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11169526141",
   "properties": {
     "emergency": "defibrillator",
@@ -49647,7 +49605,6 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Schulanlage Allmend, Haus C, Spezialtrakt, Eingang aussen",
-    "description": "Jederzeit verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -49661,8 +49618,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6476663,
-      47.2720315
+      8.6476639,
+      47.27204
     ]
   }
 },
@@ -50570,13 +50527,12 @@
   "type": "Feature",
   "id": "node/11357825969",
   "properties": {
-    "defibrillator:location": "Überbauung TownVillage",
-    "description": "Während Öffnungszeiten",
+    "defibrillator:location": "EG gleich beim Empfang/Kafi Theodor Überbauung TownVillage",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "EG gleich beim Empfang/Kafi Theodor",
-    "opening_hours": "Mo-Fr: 08:00-17:30",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-17:30",
     "operator": "Quellenhof-Stiftung, Sicherheitsbeauftragte/-r",
     "phone": "+41522451313",
     "id": "node/11357825969"
@@ -50594,12 +50550,12 @@
   "id": "node/11357843969",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Kongresszentrum Parkarena",
+    "defibrillator:location": "EG Raum neben Saaleingang links Kongresszentrum Parkarena",
     "description": "Während Veranstaltungen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "EG Raum neben Saaleingang links",
+    "level": "0",
     "operator": "GvC Winterthur",
     "phone": "+41522451414",
     "id": "node/11357843969"
@@ -56496,12 +56452,12 @@
   "id": "node/11811584527",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schulhaus Högler",
+    "defibrillator:location": "EG - Eingang Schulhaus Högler",
     "description": "Direkt bei dem Eingang vom Gebäude Trackt B",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "EG - Eingang",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Schulhaus Högler",
     "id": "node/11811584527"
@@ -57102,11 +57058,11 @@
   "id": "node/11841326490",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Sporthalle Breite",
+    "defibrillator:location": "Sporthalle Breite;Draussen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Draussen",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Embrach",
     "id": "node/11841326490"
@@ -59063,13 +59019,13 @@
   "id": "node/11955063269",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Zoll Embrach, Embraport 3b, 8424 Embrach",
+    "defibrillator:location": "EG (Eingangsbereich Schalter - links an der Wand);Zoll Embrach, Embraport 3b, 8424 Embrach",
     "description": "Während Betriebszeiten offen (Mittags geschlossen)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "EG (Eingangsbereich Schalter - links an der Wand)",
-    "opening_hours": "07:00-11:30, 13:00-16:00",
+    "level": "0",
+    "opening_hours": "07:00-11:30,13:00-16:00",
     "id": "node/11955063269"
   },
   "geometry": {
@@ -59298,11 +59254,11 @@
   "id": "node/11962408269",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Feuerwehrdepot / Werhof",
+    "defibrillator:location": "Feuerwehrdepot / Werhof. Draussen am Gebäude. Einfahrt.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Draussen am Gebäude. Einfahrt",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Feuerwehr Kilchberg-Rüschlikon",
     "phone": "+41447163162",
@@ -59311,8 +59267,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5461607,
-      47.3193996
+      8.546093,
+      47.3194075
     ]
   }
 },
