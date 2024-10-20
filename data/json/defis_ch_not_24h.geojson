@@ -102907,26 +102907,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10106136122",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Restaurant Föhrenwäldli beim Haupteingang",
-    "description": "immer verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/10106136122"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4166379,
-      47.4100154
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10106851517",
   "properties": {
     "access": "no",
@@ -150422,12 +150402,11 @@
   "type": "Feature",
   "id": "node/11169526141",
   "properties": {
-    "defibrillator:location": "Im innern des Gebäudes",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1. Stock",
-    "opening_hours": "Mo - Fr 08.00 - 17.00",
+    "level": "1",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Belvédère Asset Management",
     "phone": "+41432447777",
     "id": "node/11169526141"
@@ -157242,7 +157221,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1. Stock",
+    "level": "1",
     "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Firma BSI",
     "id": "node/11429254169"
@@ -173521,12 +173500,11 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Lidl Pfungen, 1. Stock vor Rolltreppe",
-    "description": "während Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1. ",
-    "opening_hours": "Mo - Sa 07:30 - 20:00; Su off",
+    "level": "1",
+    "opening_hours": "Mo-Sa 07:30-20:00; Su off",
     "operator": "Lidl Schweiz",
     "id": "node/11955853369"
   },
@@ -174701,7 +174679,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1 UG",
+    "level": "-1",
     "opening_hours": "Mo-Fr 07:00-17:00",
     "operator": "Kanton Baselland",
     "phone": "+41798966158",

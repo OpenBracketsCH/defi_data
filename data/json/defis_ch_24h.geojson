@@ -79337,6 +79337,26 @@
 },
 {
   "type": "Feature",
+  "id": "node/10106136122",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Restaurant Föhrenwäldli beim Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/10106136122"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4166379,
+      47.4100154
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10108102125",
   "properties": {
     "access": "yes",
@@ -102352,7 +102372,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1 stock",
+    "level": "1",
     "opening_hours": "24/7",
     "operator": "Blindenheim Mühlehalde",
     "id": "node/11238699637"

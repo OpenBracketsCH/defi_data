@@ -19109,7 +19109,8 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-We, Fr 08:00-12:00, 14:00-18:00, Th 08:00-12:00",
+    "level": "1",
+    "opening_hours": "Mo-We,Fr 08:00-12:00,14:00-18:00; Th 08:00-12:00",
     "operator": "Praxis",
     "phone": "+41 55 246 18 55",
     "id": "node/8841209217"
@@ -33810,10 +33811,10 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Restaurant Föhrenwäldli beim Haupteingang",
-    "description": "immer verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/10106136122"
   },
   "geometry": {
@@ -45204,13 +45205,12 @@
   "type": "Feature",
   "id": "node/10814304005",
   "properties": {
-    "defibrillator:location": "Rosenthalstr.7b physio.works GmbH",
-    "description": "während Öffnungszeiten verfügbar Fensterbank Nordseite (Sicht auf Pflegezentrum) im Trainingsraum",
+    "defibrillator:location": "Rosenthalstr. 7b, physio.works GmbH",
+    "description": "Fensterbank Nordseite (Sicht auf Pflegezentrum) im Trainingsraum",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "fixme": "Multiple levels specified. Is there multiple AEDs that should be mapped independently?",
     "indoor": "yes",
-    "level": "1. Stock Eingang 7a, EG Eingang 7b",
+    "level": "1",
     "opening_hours": "Mo-Fr 07:00-20:00; Sa 08:00-16:00",
     "operator": "physio.works GmbH",
     "phone": "+41552463839",
@@ -48735,12 +48735,11 @@
   "type": "Feature",
   "id": "node/11169526141",
   "properties": {
-    "defibrillator:location": "Im innern des Gebäudes",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1. Stock",
-    "opening_hours": "Mo - Fr 08.00 - 17.00",
+    "level": "1",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Belvédère Asset Management",
     "phone": "+41432447777",
     "id": "node/11169526141"
@@ -49376,7 +49375,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1 stock",
+    "level": "1",
     "opening_hours": "24/7",
     "operator": "Blindenheim Mühlehalde",
     "id": "node/11238699637"
@@ -59209,12 +59208,11 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Lidl Pfungen, 1. Stock vor Rolltreppe",
-    "description": "während Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1. ",
-    "opening_hours": "Mo - Sa 07:30 - 20:00; Su off",
+    "level": "1",
+    "opening_hours": "Mo-Sa 07:30-20:00; Su off",
     "operator": "Lidl Schweiz",
     "id": "node/11955853369"
   },
