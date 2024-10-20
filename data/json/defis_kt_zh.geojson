@@ -42596,30 +42596,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10763310039",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "EG, Eingang Mensa (TB 215)",
-    "description": "oranger Koffer",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "name": "Zürcher Hochschule für Angewandte Wissenschaften",
-    "opening_hours": "Mo-Fr 07:00-19:00, Sa 07:00-14:00",
-    "operator": "Lifetec AG Schweiz",
-    "phone": "+41 800 122 144",
-    "id": "node/10763310039"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.72965,
-      47.4968
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10763310040",
   "properties": {
     "access": "yes",
@@ -48938,11 +48914,11 @@
   "id": "node/11203495938",
   "properties": {
     "access": "no",
-    "defibrillator:location": "In den Sxheanden 2",
+    "defibrillator:location": "Im Anbau EG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Anbau EG",
+    "level": "0",
     "operator": "Pfadi Säuliamt",
     "id": "node/11203495938"
   },
@@ -51188,13 +51164,12 @@
   "type": "Feature",
   "id": "node/11396720069",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Lobby ASVZ, Gang zum Kraft/Cardio",
+    "defibrillator:location": "Lobby ASVZ, Gang zum Kraft/Cardio.",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "ASVZ Kraft Cardio",
+    "level": "0",
     "operator": "ASVZ",
     "id": "node/11396720069"
   },
@@ -53011,21 +52986,21 @@
   "id": "node/11584300070",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Weid-Kafi am Gebäude Hinterseite",
+    "defibrillator:location": "Weid-Kafi am Gebäude Hinterseite. Aussenwand.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Aussenwand",
+    "level": "0",
     "opening_hours": "24/7",
-    "operator": "stiftung zzr weid",
+    "operator": "Stiftung zur Weid",
     "phone": "+41447685080",
     "id": "node/11584300070"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4846568,
-      47.2315937
+      8.4846323,
+      47.2315715
     ]
   }
 },
@@ -54602,7 +54577,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "2. Stock",
+    "level": "2",
     "opening_hours": "07:30-19:00",
     "operator": "Vivo Training",
     "id": "node/11733811269"
@@ -56167,7 +56142,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1. UG",
+    "level": "-1",
     "operator": "Stadt Zürich",
     "id": "node/11801328473"
   },
@@ -56677,13 +56652,12 @@
   "type": "Feature",
   "id": "node/11821548969",
   "properties": {
-    "access": "yes",
     "defibrillator:location": "Nobel Biocare / Envista",
-    "description": "Vom Haupteingang, Treppen nehmen, 1 Stock. Bei Reception Fragen : Defi befindet sich im Break Room.",
+    "description": "Vom Haupteingang, Treppen nehmen, 1 Stock. Bei Reception Fragen: Defi befindet sich im Break Room.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "5. OG (Haupteingang zum Gebaude ist 4.OG)",
+    "level": "1",
     "operator": "Nobel Biocare",
     "phone": "+41432114200",
     "id": "node/11821548969"
@@ -57228,7 +57202,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1.Stock",
+    "level": "1",
     "operator": "Landesmuseum",
     "id": "node/11843399769"
   },
@@ -60189,14 +60163,13 @@
   "id": "node/12006205370",
   "properties": {
     "defibrillator:location": "Renault Suisse SA, Bergermoosstr. 4, 8902 Urdorf",
-    "description": "während Öffnungszeiten verfügbar ",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "2 und Schulungsraum EG",
-    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
+    "level": "2",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:00-17:00",
     "operator": "Renault Suisse SA",
-    "phone": "+41447770211",
     "id": "node/12006205370"
   },
   "geometry": {
@@ -60398,13 +60371,12 @@
   "type": "Feature",
   "id": "node/12013131569",
   "properties": {
-    "access": "no",
     "defibrillator:location": "Versorgungsgang Xtra",
     "description": "während Konzerten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "2OG",
+    "level": "2",
     "operator": "Xtra",
     "id": "node/12013131569"
   },
@@ -63770,6 +63742,28 @@
     "coordinates": [
       8.6995521,
       47.4487848
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12272024706",
+  "properties": {
+    "defibrillator:location": "Renault Suisse SA, Bergermoosstr. 4, 8902 Urdorf",
+    "description": "Im Schulungsraum; während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:00-17:00",
+    "operator": "Renault Suisse SA",
+    "id": "node/12272024706"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4224781,
+      47.3706826
     ]
   }
 }

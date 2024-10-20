@@ -22157,6 +22157,8 @@
     "defibrillator:location": "Eingang Physiotherapie (Treppe UG)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
     "opening_hours": "24/7",
     "id": "node/7559692342"
   },
@@ -99313,11 +99315,11 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Camping Läui (Dschungel)",
-    "description": "Ecke Restaurand/WC",
+    "description": "Ecke Restaurant/WC",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Aussen",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Diessenhofen",
     "phone": "0526464242",
@@ -103896,11 +103898,11 @@
   "id": "node/11310282869",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Alte Schmitte Lohn-Ammannsegg, linke Seite von Alte Bernstr.",
+    "defibrillator:location": "Alte Schmitte Lohn-Ammannsegg, linke Seite von Alte Bernstr. AED ist draussen.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "AED ist draussen",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Wohnheim Alte Schmitte",
     "phone": "032 677 51 00",
@@ -106701,11 +106703,11 @@
   "id": "node/11459282869",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Wartehaus Postauto",
+    "defibrillator:location": "Wartehaus Postauto, aussen am Gebäude",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Aussen am Gebäude",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Domleschg",
     "phone": "+41 81 650 13 13",
@@ -109151,21 +109153,21 @@
   "id": "node/11584300070",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Weid-Kafi am Gebäude Hinterseite",
+    "defibrillator:location": "Weid-Kafi am Gebäude Hinterseite. Aussenwand.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Aussenwand",
+    "level": "0",
     "opening_hours": "24/7",
-    "operator": "stiftung zzr weid",
+    "operator": "Stiftung zur Weid",
     "phone": "+41447685080",
     "id": "node/11584300070"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4846568,
-      47.2315937
+      8.4846323,
+      47.2315715
     ]
   }
 },
@@ -113970,8 +113972,8 @@
     "description": "unten Treppeneingang zu Einstellhalle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
-    "level": "1. UG",
+    "indoor": "yes",
+    "level": "-1",
     "opening_hours": "24/7",
     "operator": "Siedlung",
     "id": "node/11884842470"
@@ -114229,6 +114231,29 @@
     "coordinates": [
       7.4583463,
       46.9773786
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11889542669",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aeschmad 220. Aussen bei Treppe",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "EWL Genossenschaft",
+    "phone": "+41338562525",
+    "id": "node/11889542669"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9148124,
+      46.5841713
     ]
   }
 },
@@ -116144,11 +116169,11 @@
   "id": "node/11961274269",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schulhaus Burglauenen",
+    "defibrillator:location": "Schulhaus Burglauenen;aussen an Westfassade",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Aussen an Westfassade",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Grindelwald",
     "id": "node/11961274269"
@@ -116166,11 +116191,11 @@
   "id": "node/11961283369",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schulhaus Mühlebach",
+    "defibrillator:location": "Schulhaus Mühlebach;Aussen an Südfassade",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Aussen an Südfassade",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Grindelwald",
     "id": "node/11961283369"

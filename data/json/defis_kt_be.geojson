@@ -48219,12 +48219,12 @@
   "id": "node/10910803805",
   "properties": {
     "access": "no",
-    "defibrillator:location": "2.OG beim Empfang",
+    "defibrillator:location": "2.OG beim Empfang Previs Vorsorge",
     "description": "oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "name": "Previs Vorsorge",
+    "level": "2",
     "operator": "Lifetec AG Schweiz",
     "phone": "0800 122 144",
     "id": "node/10910803805"
@@ -49850,13 +49850,12 @@
   "type": "Feature",
   "id": "node/11230631437",
   "properties": {
-    "access": "yes",
     "defibrillator:location": "Ärztezentrum Beaumont/Medics Labor",
     "description": "während den Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1.UG und 1.OG",
+    "level": "-1",
     "opening_hours": "Mo-Fr 07:00-20:00",
     "operator": "Privat",
     "id": "node/11230631437"
@@ -53576,8 +53575,8 @@
     "description": "unten Treppeneingang zu Einstellhalle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
-    "level": "1. UG",
+    "indoor": "yes",
+    "level": "-1",
     "opening_hours": "24/7",
     "operator": "Siedlung",
     "id": "node/11884842470"
@@ -53750,12 +53749,12 @@
   "id": "node/11889542669",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Aeschmad 220",
-    "description": "Immer verfügbar",
+    "defibrillator:location": "Aeschmad 220. Aussen bei Treppe",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Aussen bei Treppe",
+    "level": "0",
+    "opening_hours": "24/7",
     "operator": "EWL Genossenschaft",
     "phone": "+41338562525",
     "id": "node/11889542669"
@@ -54161,11 +54160,11 @@
   "id": "node/11961274269",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schulhaus Burglauenen",
+    "defibrillator:location": "Schulhaus Burglauenen;aussen an Westfassade",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Aussen an Westfassade",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Grindelwald",
     "id": "node/11961274269"
@@ -54183,11 +54182,11 @@
   "id": "node/11961283369",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schulhaus Mühlebach",
+    "defibrillator:location": "Schulhaus Mühlebach;Aussen an Südfassade",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Aussen an Südfassade",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Grindelwald",
     "id": "node/11961283369"
@@ -55835,14 +55834,13 @@
   "id": "node/12240686701",
   "properties": {
     "defibrillator:location": "Brückfeldstrasse 16, 3012 Bern",
-    "description": "während Büroöffnungszeit verfügbar",
+    "description": "Empfang; während Büroöffnungszeit verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "4 Empfang",
+    "level": "4",
     "opening_hours": "Mo-Fr 8:00-17:00",
     "operator": "Enerconom",
-    "phone": "+41313803333",
     "id": "node/12240686701"
   },
   "geometry": {
@@ -56033,6 +56031,28 @@
     "coordinates": [
       7.5524663,
       46.8810865
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12271982950",
+  "properties": {
+    "defibrillator:location": "Ärztezentrum Beaumont/Medics Labor",
+    "description": "während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 07:00-20:00",
+    "operator": "Privat",
+    "id": "node/12271982950"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4298827,
+      46.9366562
     ]
   }
 }

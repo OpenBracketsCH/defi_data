@@ -58157,7 +58157,8 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-We, Fr 08:00-12:00, 14:00-18:00, Th 08:00-12:00",
+    "level": "1",
+    "opening_hours": "Mo-We,Fr 08:00-12:00,14:00-18:00; Th 08:00-12:00",
     "operator": "Praxis",
     "phone": "+41 55 246 18 55",
     "id": "node/8841209217"
@@ -123654,30 +123655,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10763310039",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "EG, Eingang Mensa (TB 215)",
-    "description": "oranger Koffer",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "name": "Zürcher Hochschule für Angewandte Wissenschaften",
-    "opening_hours": "Mo-Fr 07:00-19:00, Sa 07:00-14:00",
-    "operator": "Lifetec AG Schweiz",
-    "phone": "+41 800 122 144",
-    "id": "node/10763310039"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.72965,
-      47.4968
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10763310040",
   "properties": {
     "access": "yes",
@@ -138190,13 +138167,12 @@
   "type": "Feature",
   "id": "node/10814304005",
   "properties": {
-    "defibrillator:location": "Rosenthalstr.7b physio.works GmbH",
-    "description": "während Öffnungszeiten verfügbar Fensterbank Nordseite (Sicht auf Pflegezentrum) im Trainingsraum",
+    "defibrillator:location": "Rosenthalstr. 7b, physio.works GmbH",
+    "description": "Fensterbank Nordseite (Sicht auf Pflegezentrum) im Trainingsraum",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "fixme": "Multiple levels specified. Is there multiple AEDs that should be mapped independently?",
     "indoor": "yes",
-    "level": "1. Stock Eingang 7a, EG Eingang 7b",
+    "level": "1",
     "opening_hours": "Mo-Fr 07:00-20:00; Sa 08:00-16:00",
     "operator": "physio.works GmbH",
     "phone": "+41552463839",
@@ -141650,12 +141626,12 @@
   "id": "node/10910803805",
   "properties": {
     "access": "no",
-    "defibrillator:location": "2.OG beim Empfang",
+    "defibrillator:location": "2.OG beim Empfang Previs Vorsorge",
     "description": "oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "name": "Previs Vorsorge",
+    "level": "2",
     "operator": "Lifetec AG Schweiz",
     "phone": "0800 122 144",
     "id": "node/10910803805"
@@ -150972,11 +150948,11 @@
   "id": "node/11203495938",
   "properties": {
     "access": "no",
-    "defibrillator:location": "In den Sxheanden 2",
+    "defibrillator:location": "Im Anbau EG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Anbau EG",
+    "level": "0",
     "operator": "Pfadi Säuliamt",
     "id": "node/11203495938"
   },
@@ -151645,13 +151621,12 @@
   "type": "Feature",
   "id": "node/11230631437",
   "properties": {
-    "access": "yes",
     "defibrillator:location": "Ärztezentrum Beaumont/Medics Labor",
     "description": "während den Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1.UG und 1.OG",
+    "level": "-1",
     "opening_hours": "Mo-Fr 07:00-20:00",
     "operator": "Privat",
     "id": "node/11230631437"
@@ -154411,8 +154386,8 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1.UG",
-    "opening_hours": "Mo-Fr 08:00 - 17:00",
+    "level": "-1",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Uninorm Technic AG",
     "phone": "0566660111",
     "id": "node/11336131269"
@@ -156327,13 +156302,12 @@
   "type": "Feature",
   "id": "node/11396720069",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Lobby ASVZ, Gang zum Kraft/Cardio",
+    "defibrillator:location": "Lobby ASVZ, Gang zum Kraft/Cardio.",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "ASVZ Kraft Cardio",
+    "level": "0",
     "operator": "ASVZ",
     "id": "node/11396720069"
   },
@@ -157059,9 +157033,9 @@
     "description": "immer verfügbar ",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
-    "level": "1. UG",
-    "operator": "Therapie am Spausel ",
+    "indoor": "yes",
+    "level": "-1",
+    "operator": "Therapie am Spausel",
     "id": "node/11420659869"
   },
   "geometry": {
@@ -164295,7 +164269,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "2. Stock",
+    "level": "2",
     "opening_hours": "07:30-19:00",
     "operator": "Vivo Training",
     "id": "node/11733811269"
@@ -165192,14 +165166,13 @@
   "type": "Feature",
   "id": "node/11741352434",
   "properties": {
-    "access": "private",
     "defibrillator:location": "Technopoli SA Sur les Perrières 361 2944 Bonfol 1.UG bei Stempeluhr/Tableau 2 (alimentation electric)  1298LTM",
     "description": "Oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1.UG",
-    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
+    "level": "-1",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:00-17:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/11741352434"
@@ -167235,7 +167208,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1. UG",
+    "level": "-1",
     "operator": "Stadt Zürich",
     "id": "node/11801328473"
   },
@@ -167608,13 +167581,12 @@
   "type": "Feature",
   "id": "node/11811213171",
   "properties": {
-    "access": "no",
     "defibrillator:location": "Centris AG",
     "description": "während Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1. Stock, 3. Stock",
+    "level": "1",
     "operator": "Centris AG, Betriebssanität",
     "phone": "+41793493471",
     "id": "node/11811213171"
@@ -167958,13 +167930,12 @@
   "type": "Feature",
   "id": "node/11821548969",
   "properties": {
-    "access": "yes",
     "defibrillator:location": "Nobel Biocare / Envista",
-    "description": "Vom Haupteingang, Treppen nehmen, 1 Stock. Bei Reception Fragen : Defi befindet sich im Break Room.",
+    "description": "Vom Haupteingang, Treppen nehmen, 1 Stock. Bei Reception Fragen: Defi befindet sich im Break Room.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "5. OG (Haupteingang zum Gebaude ist 4.OG)",
+    "level": "1",
     "operator": "Nobel Biocare",
     "phone": "+41432114200",
     "id": "node/11821548969"
@@ -168754,7 +168725,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1.Stock",
+    "level": "1",
     "operator": "Landesmuseum",
     "id": "node/11843399769"
   },
@@ -170146,8 +170117,8 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1.UG",
-    "opening_hours": "Mo-Fr 07:00–18:30 Sa 08:00–16:00",
+    "level": "-1",
+    "opening_hours": "Mo-Fr 07:00-18:30; Sa 08:00-16:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "ref": "1367LTM",
@@ -170198,9 +170169,8 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1.UG",
-    "name": "Emil Frey SA, succursale Garage et Carrosserie",
-    "opening_hours": "Mo-Do 07:15–12:00, 13:30–18:30 Fr 07:15–12:00, 13:30–18:00 Sa 08:00–12:00",
+    "level": "-1",
+    "opening_hours": "Mo-Th 07:15-12:00,13:30-18:30; Fr 07:15-12:00,13:30-18:00; Sa 08:00-12:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "ref": "1376LTM",
@@ -170939,29 +170909,6 @@
     "coordinates": [
       8.2802613,
       47.062184
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11889542669",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Aeschmad 220",
-    "description": "Immer verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "Aussen bei Treppe",
-    "operator": "EWL Genossenschaft",
-    "phone": "+41338562525",
-    "id": "node/11889542669"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.9148124,
-      46.5841713
     ]
   }
 },
@@ -174110,14 +174057,12 @@
   "type": "Feature",
   "id": "node/11980727369",
   "properties": {
-    "access": "permissive",
-    "defibrillator:location": "Alte Bernstrasse 1",
-    "description": "Nur während Bürozeiten verfügbar ",
+    "defibrillator:location": "Aufenthaltsraum EG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Aufenthaltsraum EG",
-    "opening_hours": "Mo - Fr  07:00 - 17:00",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-17:00",
     "operator": "Gebr. Jetzer Hoch- und Tiefbau",
     "phone": "+4162351 2488",
     "id": "node/11980727369"
@@ -174337,13 +174282,11 @@
   "type": "Feature",
   "id": "node/11987154173",
   "properties": {
-    "access": "permissive",
-    "defibrillator:location": "Via Giand‘Alva 5, 7500 St. Moritz",
-    "description": "während Öffnungszeiten verfügbar ",
+    "description": "Im Magazin; während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1.UG, Magazin",
+    "level": "-1",
     "opening_hours": "Mo-Fr 07:30-17:30",
     "operator": "A. Gini AG",
     "phone": "+41 81 837 55 66",
@@ -174354,30 +174297,6 @@
     "coordinates": [
       9.842411,
       46.488834
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11987154270",
-  "properties": {
-    "access": "permissive",
-    "defibrillator:location": "Via Giand‘Alva 5, 7500 St. Moritz",
-    "description": "während den Öffnungszeiten ",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "1.UG, Magazin",
-    "opening_hours": "Mo-Fr 07:30-17:00",
-    "operator": "A. Gini AG",
-    "phone": "+41 81 837 55 66",
-    "id": "node/11987154270"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.8424035,
-      46.4888274
     ]
   }
 },
@@ -174908,14 +174827,13 @@
   "id": "node/12006205370",
   "properties": {
     "defibrillator:location": "Renault Suisse SA, Bergermoosstr. 4, 8902 Urdorf",
-    "description": "während Öffnungszeiten verfügbar ",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "2 und Schulungsraum EG",
-    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
+    "level": "2",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:00-17:00",
     "operator": "Renault Suisse SA",
-    "phone": "+41447770211",
     "id": "node/12006205370"
   },
   "geometry": {
@@ -175258,13 +175176,12 @@
   "type": "Feature",
   "id": "node/12013131569",
   "properties": {
-    "access": "no",
     "defibrillator:location": "Versorgungsgang Xtra",
     "description": "während Konzerten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "2OG",
+    "level": "2",
     "operator": "Xtra",
     "id": "node/12013131569"
   },
@@ -182264,14 +182181,13 @@
   "id": "node/12240686701",
   "properties": {
     "defibrillator:location": "Brückfeldstrasse 16, 3012 Bern",
-    "description": "während Büroöffnungszeit verfügbar",
+    "description": "Empfang; während Büroöffnungszeit verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "4 Empfang",
+    "level": "4",
     "opening_hours": "Mo-Fr 8:00-17:00",
     "operator": "Enerconom",
-    "phone": "+41313803333",
     "id": "node/12240686701"
   },
   "geometry": {
@@ -182879,6 +182795,72 @@
     "coordinates": [
       7.5524663,
       46.8810865
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12271980602",
+  "properties": {
+    "defibrillator:location": "Centris AG",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "operator": "Centris AG, Betriebssanität",
+    "phone": "+41793493471",
+    "id": "node/12271980602"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.525458,
+      47.2014699
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12271982950",
+  "properties": {
+    "defibrillator:location": "Ärztezentrum Beaumont/Medics Labor",
+    "description": "während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 07:00-20:00",
+    "operator": "Privat",
+    "id": "node/12271982950"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4298827,
+      46.9366562
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12272024706",
+  "properties": {
+    "defibrillator:location": "Renault Suisse SA, Bergermoosstr. 4, 8902 Urdorf",
+    "description": "Im Schulungsraum; während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:00-17:00",
+    "operator": "Renault Suisse SA",
+    "id": "node/12272024706"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4224781,
+      47.3706826
     ]
   }
 }

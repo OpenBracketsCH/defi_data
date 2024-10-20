@@ -6612,11 +6612,11 @@
   "id": "node/11310282869",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Alte Schmitte Lohn-Ammannsegg, linke Seite von Alte Bernstr.",
+    "defibrillator:location": "Alte Schmitte Lohn-Ammannsegg, linke Seite von Alte Bernstr. AED ist draussen.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "AED ist draussen",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Wohnheim Alte Schmitte",
     "phone": "032 677 51 00",
@@ -7455,13 +7455,12 @@
   "type": "Feature",
   "id": "node/11811213171",
   "properties": {
-    "access": "no",
     "defibrillator:location": "Centris AG",
     "description": "während Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1. Stock, 3. Stock",
+    "level": "1",
     "operator": "Centris AG, Betriebssanität",
     "phone": "+41793493471",
     "id": "node/11811213171"
@@ -7798,14 +7797,12 @@
   "type": "Feature",
   "id": "node/11980727369",
   "properties": {
-    "access": "permissive",
-    "defibrillator:location": "Alte Bernstrasse 1",
-    "description": "Nur während Bürozeiten verfügbar ",
+    "defibrillator:location": "Aufenthaltsraum EG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Aufenthaltsraum EG",
-    "opening_hours": "Mo - Fr  07:00 - 17:00",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-17:00",
     "operator": "Gebr. Jetzer Hoch- und Tiefbau",
     "phone": "+4162351 2488",
     "id": "node/11980727369"
@@ -8345,6 +8342,28 @@
     "coordinates": [
       7.3842287,
       47.1988145
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12271980602",
+  "properties": {
+    "defibrillator:location": "Centris AG",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "operator": "Centris AG, Betriebssanität",
+    "phone": "+41793493471",
+    "id": "node/12271980602"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.525458,
+      47.2014699
     ]
   }
 }

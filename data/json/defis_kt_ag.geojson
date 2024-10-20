@@ -843,6 +843,8 @@
     "defibrillator:location": "Eingang Physiotherapie (Treppe UG)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
     "opening_hours": "24/7",
     "id": "node/7559692342"
   },
@@ -21866,8 +21868,8 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1.UG",
-    "opening_hours": "Mo-Fr 08:00 - 17:00",
+    "level": "-1",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Uninorm Technic AG",
     "phone": "0566660111",
     "id": "node/11336131269"
@@ -22361,9 +22363,9 @@
     "description": "immer verfügbar ",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
-    "level": "1. UG",
-    "operator": "Therapie am Spausel ",
+    "indoor": "yes",
+    "level": "-1",
+    "operator": "Therapie am Spausel",
     "id": "node/11420659869"
   },
   "geometry": {
@@ -24650,8 +24652,8 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1.UG",
-    "opening_hours": "Mo-Fr 07:00–18:30 Sa 08:00–16:00",
+    "level": "-1",
+    "opening_hours": "Mo-Fr 07:00-18:30; Sa 08:00-16:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "ref": "1367LTM",
