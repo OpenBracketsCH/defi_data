@@ -18561,47 +18561,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8833493017",
-  "properties": {
-    "defibrillator:location": "ringstr 2",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "privat",
-    "phone": "+41796654687",
-    "id": "node/8833493017"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6549985,
-      47.387416
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8833494717",
-  "properties": {
-    "defibrillator:location": "gebaude",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "firma",
-    "id": "node/8833494717"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6549985,
-      47.387416
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8834964693",
   "properties": {
     "access": "yes",
@@ -59728,7 +59687,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "EG und 4 OG",
+    "level": "4",
     "opening_hours": "Mo-Fr 7:00 - 17:00",
     "operator": "Firma",
     "phone": "+41796654687",
@@ -63787,6 +63746,29 @@
     "coordinates": [
       8.6934954,
       47.5154363
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12273812311",
+  "properties": {
+    "defibrillator:location": "proceq",
+    "description": "ein ist bei lz",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 7:00 - 17:00",
+    "operator": "Firma",
+    "phone": "+41796654687",
+    "id": "node/12273812311"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6551329,
+      47.3875857
     ]
   }
 }

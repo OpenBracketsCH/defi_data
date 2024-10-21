@@ -59693,25 +59693,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8866661617",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Trin Gemeindehaus",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/8866661617"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.3631332,
-      46.8325597
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8867381720",
   "properties": {
     "access": "no",
@@ -143052,29 +143033,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0030343,
-      47.5061648
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10970592705",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "opening_hours": "Mo-Fr 06:30-18:30",
-    "operator": "Spitex Regio Frick",
-    "phone": "+41 62 871 57 77",
-    "id": "node/10970592705"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.0112242,
-      47.5048209
+      8.0112147,
+      47.5048116
     ]
   }
 },
@@ -149654,7 +149614,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Su-Fr 22:00-22:00",
+    "opening_hours": "Mo-Fr 07:30–12:00, 13:00–17:00",
     "operator": "SCHELLING AG",
     "id": "node/11135516305"
   },
@@ -174116,7 +174076,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "EG und 4 OG",
+    "level": "4",
     "opening_hours": "Mo-Fr 7:00 - 17:00",
     "operator": "Firma",
     "phone": "+41796654687",
@@ -182882,6 +182842,29 @@
     "coordinates": [
       8.5156773,
       47.1857749
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12273812311",
+  "properties": {
+    "defibrillator:location": "proceq",
+    "description": "ein ist bei lz",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 7:00 - 17:00",
+    "operator": "Firma",
+    "phone": "+41796654687",
+    "id": "node/12273812311"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6551329,
+      47.3875857
     ]
   }
 }
