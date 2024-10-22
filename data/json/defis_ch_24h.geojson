@@ -82946,7 +82946,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "EH",
+    "level": "0",
     "opening_hours": "24/7",
     "id": "node/10245311709"
   },
@@ -101434,11 +101434,11 @@
   "id": "node/11207220837",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Gemeindeverwaltung Wünnewil, Eingang",
+    "defibrillator:location": "Eingang Gemeindeverwaltung Wünnewil",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Eingang",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Wünnewil",
     "id": "node/11207220837"
@@ -101542,6 +101542,28 @@
     "coordinates": [
       7.2181262,
       47.1071633
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11209802737",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Turnhalle Schulhaus Brunnmatt",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadt Kriens",
+    "id": "node/11209802737"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2892171,
+      47.0335017
     ]
   }
 },
@@ -104547,13 +104569,10 @@
   "type": "Feature",
   "id": "node/11358992270",
   "properties": {
-    "access": "yes",
     "defibrillator:location": "Neben Eingang Supermarkt, bei der Altglas-Deponie",
-    "description": "24/7 erreichbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
-    "level": "EG, Offen zugänglich",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Pratteln, Gemeindepolizei",
     "phone": "+41618252245",
@@ -105882,12 +105901,11 @@
   "id": "node/11409722069",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schuhlhaus Looren Mehrzweckhalle, aussen an Wand",
-    "description": "ist an der Aussenwand angebracht, neben Schuhwaschstation",
+    "defibrillator:location": "Fussballwiese, Schulhaus Looren Mehrzweckhalle, an Aussenwand angebracht, neben Schuhwaschstation.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Ebene Fussballwiese, EG",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Maur",
     "phone": "+41449822055",
@@ -106191,7 +106209,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Ebenerdig",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde",
     "phone": "+41562658020",
@@ -109224,13 +109242,11 @@
   "type": "Feature",
   "id": "node/11592021469",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Turnhalle/Mehrzweckhalle Bünzen",
-    "description": "immer verfügbar, da draussen",
+    "defibrillator:location": "links vom Eingang Turnhalle/Mehrzweckhalle Bünzen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "EG, links vom Eingang",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde",
     "phone": "+41 56 666 13 02",
@@ -110153,7 +110169,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "EG/UG",
+    "level": "0",
     "opening_hours": "24/7",
     "id": "node/11679580969"
   },
@@ -110400,12 +110416,11 @@
   "id": "node/11697826069",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Am Haus",
-    "description": "Immer Erreichbar",
+    "defibrillator:location": "Am Haus, Eingang Sulai",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Eingang Sulai",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Jenal Ludwig",
     "phone": "+41797233232",
@@ -110424,12 +110439,11 @@
   "id": "node/11697884269",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Chasa Sulai",
-    "description": "Immer Verfügbar",
+    "defibrillator:location": "Haupeingang Chasa Sulai",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Haupeingang",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Privatperson",
     "phone": "+41797233232",
@@ -115948,12 +115962,13 @@
   "type": "Feature",
   "id": "node/11954725169",
   "properties": {
+    "access": "private",
     "defibrillator:location": "Breitenweg 7 (Keller Treppenhaus)",
     "description": "2 Defis, Verfugbar falls jmd Zuhaus ist.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "EH",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Privatperson",
     "phone": "+41793323360",

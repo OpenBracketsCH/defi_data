@@ -142129,13 +142129,12 @@
   "type": "Feature",
   "id": "node/10926106005",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Reformierte Kirche",
+    "defibrillator:location": "Sakristei",
     "description": "Tagsüber zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "EG, Sakristei",
+    "level": "0",
     "operator": "Reformierte Kirche",
     "id": "node/10926106005"
   },
@@ -146697,12 +146696,11 @@
   "type": "Feature",
   "id": "node/11038063731",
   "properties": {
-    "defibrillator:location": "in der Praxis",
-    "description": "während den Oeffnungszeiten verfügbar",
+    "defibrillator:location": "EG rechts in der Praxis",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "EG rechts",
+    "level": "0",
     "opening_hours": "Mo-Fr 08.00 bis 19.00, Sa 07.00 bis 13.00",
     "operator": "Praxis",
     "phone": "+41 44 860 19 89",
@@ -146748,7 +146746,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "EH",
+    "level": "0",
     "operator": "Fixit AG",
     "phone": "+41 79 422 66 86",
     "id": "node/11038063806"
@@ -148687,12 +148685,12 @@
   "type": "Feature",
   "id": "node/11090470105",
   "properties": {
-    "defibrillator:location": "Firma Sika Schweiz AG",
+    "defibrillator:location": "EG und 1.OH Firma Sika Schweiz AG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "EG und 1.OH",
-    "opening_hours": "Mo-Fr von 07:00-17:00",
+    "level": "0;1",
+    "opening_hours": "Mo-Fr 07:00-17:00",
     "operator": "Sika Schweiz AG",
     "phone": "0584365767",
     "id": "node/11090470105"
@@ -150137,13 +150135,12 @@
   "id": "node/11158634206",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Zaunschulhaus Glarus",
-    "description": "Während Öffnungszeiten",
+    "defibrillator:location": "Eingang Links Zaunschulhaus Glarus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Eingang Links",
-    "opening_hours": "Mo - Fr 06:30 - 17:30",
+    "level": "0",
+    "opening_hours": "Mo-Fr 06:30-17:30",
     "operator": "KBS Glarus",
     "phone": "+41798306270",
     "id": "node/11158634206"
@@ -151030,28 +151027,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11209802737",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "schulhaus brunnmatt",
-    "description": "365",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "Eingang Turnhalle",
-    "operator": "stadt Kriens ",
-    "id": "node/11209802737"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.289273,
-      47.0335065
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11210666237",
   "properties": {
     "access": "yes",
@@ -151077,13 +151052,12 @@
   "type": "Feature",
   "id": "node/11210799037",
   "properties": {
-    "defibrillator:location": "Allmendstrasse 4",
-    "description": "Eingang, direkt nach der Tür rechte Seite",
+    "defibrillator:location": "Eingang, direkt nach der Tür rechte Seite, Allmendstrasse 4",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "EG, beim Eingang",
-    "opening_hours": "MO-FR 07:00 -17:00",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-17:00",
     "operator": "Integra, die Stiftung im Freiamt",
     "phone": "0566195111",
     "id": "node/11210799037"
@@ -166189,11 +166163,11 @@
   "id": "node/11755247369",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Schulhaus, Trakt 3",
+    "defibrillator:location": "links nach dem Eingang, Schulhaus, Trakt 3",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "EG, links nach dem Eingang",
+    "level": "0",
     "id": "node/11755247369"
   },
   "geometry": {
@@ -170597,12 +170571,12 @@
   "id": "node/11886582769",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Swissplex GmbH Eingang",
+    "defibrillator:location": "Eingang Swissplex GmbH",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Ebenerdig",
-    "opening_hours": "Mo-Fr 07:00 - 18:00",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-18:00",
     "operator": "Firma Swissplex GmbH",
     "phone": "+41449800101",
     "id": "node/11886582769"
@@ -170801,13 +170775,12 @@
   "type": "Feature",
   "id": "node/11889288069",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Schulhaus Staffeln",
-    "description": "nur während der Schulzeit geöffnet",
+    "defibrillator:location": "Eingang Schulhaus Staffeln Gebäude D links",
+    "description": "Nur während der Schulzeit zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Eingang Gebäude D links",
+    "level": "0",
     "id": "node/11889288069"
   },
   "geometry": {
@@ -171524,12 +171497,12 @@
   "id": "node/11906228869",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Holcim Bürogebäude Standort markiert",
+    "defibrillator:location": "Holcim Bürogebäude",
     "description": "während den Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "3.",
+    "level": "3",
     "opening_hours": "Mo-Fr 07:00-17:00",
     "operator": "Holcim",
     "phone": "+41585800042",
@@ -174070,14 +174043,12 @@
   "type": "Feature",
   "id": "node/11984879569",
   "properties": {
-    "defibrillator:location": "proceq",
-    "description": "ein ist bei lz",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "4",
-    "opening_hours": "Mo-Fr 7:00 - 17:00",
-    "operator": "Firma",
+    "opening_hours": "Mo-Fr 07:00-17:00",
+    "operator": "Firma Proceq",
     "phone": "+41796654687",
     "id": "node/11984879569"
   },
@@ -182847,14 +182818,12 @@
   "type": "Feature",
   "id": "node/12273812311",
   "properties": {
-    "defibrillator:location": "proceq",
-    "description": "ein ist bei lz",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 7:00 - 17:00",
-    "operator": "Firma",
+    "opening_hours": "Mo-Fr 07:00-17:00",
+    "operator": "Firma Proceq",
     "phone": "+41796654687",
     "id": "node/12273812311"
   },
