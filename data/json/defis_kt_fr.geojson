@@ -477,9 +477,7 @@
   "type": "Feature",
   "id": "node/8585585217",
   "properties": {
-    "access": "yes",
     "defibrillator:location": "Ambulanz und Rettungsdienst Sense AG, Altschlossstrasse 19, 3184 Wünnewil",
-    "description": "Aussenbereich  ",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -1173,8 +1171,7 @@
   "id": "node/9718155017",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Ofenhaus ",
-    "description": "24h zugänglich ",
+    "defibrillator:location": "Ofenhaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -1728,12 +1725,11 @@
   "type": "Feature",
   "id": "node/10013028518",
   "properties": {
-    "access": "yes",
     "defibrillator:location": "Jost-Egge Eingansbereich",
-    "description": "24/7 verfügbar ",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde",
     "id": "node/10013028518"
   },
@@ -4750,8 +4746,7 @@
   "id": "node/11884829375",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Treppenhaus, 2. Obergeschoss ",
-    "description": "Immer verfügbar ",
+    "defibrillator:location": "Treppenhaus, 2. Obergeschoss",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -4759,7 +4754,6 @@
     "opening_hours": "24/7",
     "operator": "Architekturbüro Sternhaus AG",
     "phone": "+41 26 492 90 00",
-    "source": "local_knowledge, defikarte.ch",
     "id": "node/11884829375"
   },
   "geometry": {

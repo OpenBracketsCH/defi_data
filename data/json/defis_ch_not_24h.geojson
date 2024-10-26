@@ -100711,27 +100711,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10013028518",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Jost-Egge Eingansbereich",
-    "description": "24/7 verfügbar ",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Gemeinde",
-    "id": "node/10013028518"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.236205,
-      46.8978696
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10013470934",
   "properties": {
     "defibrillator:location": "Lobby",
@@ -173884,17 +173863,14 @@
   "type": "Feature",
   "id": "node/11980386269",
   "properties": {
-    "access": "yes",
     "defibrillator:location": "Wirz AG Bauunternehmung",
-    "description": "während den Öffnungszeiten ",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "3",
-    "opening_hours": "07:00 - 17:00",
+    "opening_hours": "Mo-Fr 07:00-17:00",
     "operator": "Wirz Unternehmung",
     "phone": "+41 31 990 77 77",
-    "source": "local_knowledge, defikarte.ch",
     "id": "node/11980386269"
   },
   "geometry": {
@@ -175626,14 +175602,11 @@
   "id": "node/12027968169",
   "properties": {
     "defibrillator:location": "PHBern Institut für Weiterbildung und Dienstlestungen",
-    "description": "während den Öffnungszeiten ",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo - Fr  07:30 - 17:30 ",
-    "operator": "Institution",
+    "opening_hours": "Mo-Fr 07:30-17:30",
     "phone": "+41313092877",
-    "source": "local_knowledge, defikarte.ch",
     "id": "node/12027968169"
   },
   "geometry": {

@@ -41189,7 +41189,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Schulhaus Eingang Seite Strasse",
-    "description": "unter Vordach immer verfügbar ",
+    "description": "unter Vordach",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -49332,14 +49332,12 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Betribsgebäude KONSAG, links neben Waschanlage",
-    "description": "Immer Verfügbar ",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Firma KONSAG",
     "phone": "+41 79 390 15 57",
-    "source": "local_knowledge, defikarte.ch",
     "id": "node/11127322405"
   },
   "geometry": {
@@ -54249,17 +54247,14 @@
   "type": "Feature",
   "id": "node/11980386269",
   "properties": {
-    "access": "yes",
     "defibrillator:location": "Wirz AG Bauunternehmung",
-    "description": "während den Öffnungszeiten ",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "3",
-    "opening_hours": "07:00 - 17:00",
+    "opening_hours": "Mo-Fr 07:00-17:00",
     "operator": "Wirz Unternehmung",
     "phone": "+41 31 990 77 77",
-    "source": "local_knowledge, defikarte.ch",
     "id": "node/11980386269"
   },
   "geometry": {
@@ -54435,14 +54430,11 @@
   "id": "node/12027968169",
   "properties": {
     "defibrillator:location": "PHBern Institut für Weiterbildung und Dienstlestungen",
-    "description": "während den Öffnungszeiten ",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo - Fr  07:30 - 17:30 ",
-    "operator": "Institution",
+    "opening_hours": "Mo-Fr 07:30-17:30",
     "phone": "+41313092877",
-    "source": "local_knowledge, defikarte.ch",
     "id": "node/12027968169"
   },
   "geometry": {

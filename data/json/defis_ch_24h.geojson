@@ -45478,9 +45478,7 @@
   "type": "Feature",
   "id": "node/8585585217",
   "properties": {
-    "access": "yes",
     "defibrillator:location": "Ambulanz und Rettungsdienst Sense AG, Altschlossstrasse 19, 3184 Wünnewil",
-    "description": "Aussenbereich  ",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -73201,8 +73199,7 @@
   "id": "node/9718155017",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Ofenhaus ",
-    "description": "24h zugänglich ",
+    "defibrillator:location": "Ofenhaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -76614,7 +76611,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Schulhaus Eingang Seite Strasse",
-    "description": "unter Vordach immer verfügbar ",
+    "description": "unter Vordach",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -78098,6 +78095,26 @@
     "coordinates": [
       8.5028902,
       47.5568456
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10013028518",
+  "properties": {
+    "defibrillator:location": "Jost-Egge Eingansbereich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "id": "node/10013028518"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.236205,
+      46.8978696
     ]
   }
 },
@@ -100213,14 +100230,12 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Betribsgebäude KONSAG, links neben Waschanlage",
-    "description": "Immer Verfügbar ",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Firma KONSAG",
     "phone": "+41 79 390 15 57",
-    "source": "local_knowledge, defikarte.ch",
     "id": "node/11127322405"
   },
   "geometry": {
@@ -113844,8 +113859,7 @@
   "id": "node/11884829375",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Treppenhaus, 2. Obergeschoss ",
-    "description": "Immer verfügbar ",
+    "defibrillator:location": "Treppenhaus, 2. Obergeschoss",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -113853,7 +113867,6 @@
     "opening_hours": "24/7",
     "operator": "Architekturbüro Sternhaus AG",
     "phone": "+41 26 492 90 00",
-    "source": "local_knowledge, defikarte.ch",
     "id": "node/11884829375"
   },
   "geometry": {
