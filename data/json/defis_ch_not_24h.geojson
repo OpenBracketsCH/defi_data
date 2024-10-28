@@ -50611,7 +50611,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "operator": "Gemeinde Niederhasli, Marion Engeler",
+    "operator": "Feuerwehr Niederhasli",
     "phone": "+41 43 411 22 00",
     "id": "node/8562538645"
   },
@@ -183659,6 +183659,29 @@
     "coordinates": [
       9.5598757,
       46.9539607
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12294069101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Primarschulhaus Häuslenen",
+    "description": "Aussenstandort beim Schopf Hintereingang Schulhaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "24/7",
+    "phone": "+41796622080",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12294069101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9033917,
+      47.5251833
     ]
   }
 }
