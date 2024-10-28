@@ -646,6 +646,7 @@
   "properties": {
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "id": "node/3500592661"
   },
   "geometry": {
@@ -183634,6 +183635,30 @@
     "coordinates": [
       7.6233165,
       46.88488
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12293983601",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Anmeldung",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "2",
+    "opening_hours": "06:00-18:00",
+    "operator": "Crüzer AG",
+    "phone": "+41813000404",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12293983601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5598757,
+      46.9539607
     ]
   }
 }
