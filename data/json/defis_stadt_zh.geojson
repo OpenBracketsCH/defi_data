@@ -1332,12 +1332,12 @@
   "type": "Feature",
   "id": "node/8173672421",
   "properties": {
-    "access": "no",
     "defibrillator:location": "HIL: D10 Halle",
     "description": "über Alarmzentrale 24h verfügbar, ansonsten während Betriebszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "operator": "ETH Zürich",
     "phone": "+41 44 342 11 88",
     "id": "node/8173672421"
@@ -10965,7 +10965,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Etage D",
+    "level": "d",
     "operator": "Stiftung Alterssiedlung Hadlaub",
     "id": "node/11037884706"
   },

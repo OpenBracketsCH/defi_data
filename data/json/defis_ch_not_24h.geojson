@@ -44667,12 +44667,12 @@
   "type": "Feature",
   "id": "node/8173672421",
   "properties": {
-    "access": "no",
     "defibrillator:location": "HIL: D10 Halle",
     "description": "über Alarmzentrale 24h verfügbar, ansonsten während Betriebszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "operator": "ETH Zürich",
     "phone": "+41 44 342 11 88",
     "id": "node/8173672421"
@@ -141837,12 +141837,12 @@
   "id": "node/10919519105",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Badi Seuzach",
+    "defibrillator:location": "Badi Seuzach;beim Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Beim Eingang",
-    "opening_hours": "10:00 - 19:00",
+    "level": "0",
+    "opening_hours": "Mo-Su 10:00-19:00",
     "operator": "Badi Seuzach",
     "phone": "0523204180",
     "id": "node/10919519105"
@@ -145578,7 +145578,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Etage D",
+    "level": "d",
     "operator": "Stiftung Alterssiedlung Hadlaub",
     "id": "node/11037884706"
   },
@@ -149484,7 +149484,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Niveau 0",
+    "level": "0",
     "operator": "Sportausbildungszentrum Mülimatt",
     "id": "node/11128559306"
   },
@@ -150221,12 +150221,11 @@
   "type": "Feature",
   "id": "node/11166992305",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Schulackerstrasse 4",
+    "defibrillator:location": "Schulackerstrasse 4, im Eingangsbereich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Eingangsbereich",
+    "level": "0",
     "operator": "Gemeinde Münchenstein",
     "phone": "0614161100",
     "id": "node/11166992305"
@@ -150311,12 +150310,12 @@
   "id": "node/11170196837",
   "properties": {
     "defibrillator:location": "Passage 8",
-    "description": "unten am Trammglais",
+    "description": "unten am Trammgleis",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "- 1",
-    "opening_hours": "Mo-Fr: 07:30 - 18:00",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:30-18:00",
     "operator": "Firma Privat",
     "phone": "0614015050",
     "id": "node/11170196837"
@@ -150417,14 +150416,13 @@
   "id": "node/11180998840",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Heliport Zermatt ",
-    "description": "08:00 bis 18:00 Uhr ",
+    "defibrillator:location": "Heliport Zermatt;Hangar bei der Treppe",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Hangar bei der Treppe ",
-    "opening_hours": "Montag bis Sonntag ",
-    "operator": "Air Zermatt ",
+    "level": "0",
+    "opening_hours": "Mo-Su 08:00-18:00",
+    "operator": "Air Zermatt",
     "phone": "0279707000",
     "id": "node/11180998840"
   },
@@ -152787,11 +152785,11 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Garderobe Theaterfoyer, bei Beginn der Treppe",
-    "description": "bei Garderobe Nr. 901-1100\nÖffnungszeiten & jeweils 1h vor Vorstellungsbeginn",
+    "description": "bei Garderobe Nr. 901-1100. Öffnungszeiten: jeweils 1h vor Vorstellungsbeginn",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Foyer",
+    "level": "0",
     "opening_hours": "Mo-Fr 10:00-18:30; Sa 10:00-14:00",
     "operator": "Theater St. Gallen",
     "id": "node/11281123369"
@@ -155829,11 +155827,11 @@
   "id": "node/11385426169",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Polizeiposten kloten",
+    "defibrillator:location": "Polizeiposten Kloten;Parkplatz",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Parkplatz",
+    "level": "0",
     "operator": "Gemeinde/Kanton",
     "id": "node/11385426169"
   },
@@ -156899,12 +156897,12 @@
   "id": "node/11423243670",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Freibad",
+    "defibrillator:location": "Freibad, Erdgeschoss",
     "description": "Während Mai bis September",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Erdgeschos",
+    "level": "0",
     "operator": "Gemeinde",
     "phone": "+41562658020",
     "id": "node/11423243670"
@@ -160352,12 +160350,11 @@
   "type": "Feature",
   "id": "node/11591303369",
   "properties": {
-    "access": "no",
     "defibrillator:location": "Restaurante La Diala Rechts neben Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Erdgeschos",
+    "level": "0",
     "operator": "Sportbahnen Bergün",
     "id": "node/11591303369"
   },
@@ -171487,14 +171484,13 @@
   "type": "Feature",
   "id": "node/11906452269",
   "properties": {
-    "access": "yes",
     "defibrillator:location": "Holcim Betondisposition",
     "description": "während den Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "EH",
-    "opening_hours": "Mo-Fr 07:0-17:00",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-17:00",
     "operator": "Holcim",
     "phone": "+41588506131",
     "id": "node/11906452269"
@@ -172811,13 +172807,12 @@
   "type": "Feature",
   "id": "node/11942035769",
   "properties": {
-    "access": "no",
-    "defibrillator:location": " Hörnli Strasse 12",
-    "description": "Während Oe",
+    "defibrillator:location": "Hörnli Strasse 12, Haupteingang",
+    "description": "Während Oeffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Haupteingang",
+    "level": "0",
     "id": "node/11942035769"
   },
   "geometry": {
@@ -174775,12 +174770,12 @@
   "id": "node/12008944669",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Camping Islas 1",
-    "description": "April bis Ende Oktober",
+    "defibrillator:location": "Camping Islas 1;neben Rezeption",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Neben Rezeption",
+    "level": "0",
+    "opening_hours": "Apr-Oct",
     "operator": "Camping Islas AG",
     "phone": "+41796843143",
     "id": "node/12008944669"
@@ -182957,13 +182952,12 @@
   "type": "Feature",
   "id": "node/12281184001",
   "properties": {
-    "access": "permissive",
     "defibrillator:location": "Alter Gemeindesaal",
     "description": "Eingangsbereich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "EG",
+    "level": "0",
     "operator": "Stadt Lenzburg",
     "phone": "+41797764093",
     "id": "node/12281184001"
@@ -183361,14 +183355,13 @@
   "type": "Feature",
   "id": "node/12285153901",
   "properties": {
-    "access": "permissive",
     "defibrillator:location": "Wohnheim Sonnenhalde",
     "description": "Haupteingang links ",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "EG",
-    "opening_hours": "08:00 - 17:00",
+    "level": "0",
+    "opening_hours": "Mo-Su 08:00-17:00",
     "operator": "GHG Sonnenhalde Tandem",
     "phone": "+41712439090",
     "id": "node/12285153901"

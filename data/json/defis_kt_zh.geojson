@@ -8087,12 +8087,12 @@
   "type": "Feature",
   "id": "node/8173672421",
   "properties": {
-    "access": "no",
     "defibrillator:location": "HIL: D10 Halle",
     "description": "über Alarmzentrale 24h verfügbar, ansonsten während Betriebszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "operator": "ETH Zürich",
     "phone": "+41 44 342 11 88",
     "id": "node/8173672421"
@@ -46035,12 +46035,12 @@
   "id": "node/10919519105",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Badi Seuzach",
+    "defibrillator:location": "Badi Seuzach;beim Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Beim Eingang",
-    "opening_hours": "10:00 - 19:00",
+    "level": "0",
+    "opening_hours": "Mo-Su 10:00-19:00",
     "operator": "Badi Seuzach",
     "phone": "0523204180",
     "id": "node/10919519105"
@@ -47405,7 +47405,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Etage D",
+    "level": "d",
     "operator": "Stiftung Alterssiedlung Hadlaub",
     "id": "node/11037884706"
   },
@@ -48452,7 +48452,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Garage",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Überbauung Neuwiesenstrasse",
     "id": "node/11105579105"
@@ -48649,11 +48649,11 @@
   "id": "node/11170078937",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schulhaus Laubegg",
+    "defibrillator:location": "Schulhaus Laubegg;Hartplatz",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Hartplatz",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Schule",
     "phone": "+41522672383",
@@ -51014,11 +51014,11 @@
   "id": "node/11385426169",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Polizeiposten kloten",
+    "defibrillator:location": "Polizeiposten Kloten;Parkplatz",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Parkplatz",
+    "level": "0",
     "operator": "Gemeinde/Kanton",
     "id": "node/11385426169"
   },
@@ -54464,11 +54464,11 @@
   "id": "node/11733806569",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Entsorgungsplatz Gemeinde Embrach",
+    "defibrillator:location": "Entsorgungsplatz Gemeinde Embrach;Im Freien",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Im Freien",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde",
     "id": "node/11733806569"
