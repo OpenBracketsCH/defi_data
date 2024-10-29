@@ -98623,12 +98623,12 @@
   "id": "node/11038063823",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Parking sous-terrain, entrée sud",
+    "defibrillator:location": "Parking sous-terrain, entrée sud, rez-de-chaussée",
     "description": "dehors",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Rez-dd-chaussée",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Commune",
     "id": "node/11038063823"
@@ -100580,11 +100580,11 @@
   "id": "node/11151753405",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Swiss Holiday Park - Hotel Hauptgebäude",
+    "defibrillator:location": "Swiss Holiday Park - Hotel Hauptgebäude;Untergeschoss, Zugang Bowlingbahn",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Untergeschoss, Zugang Bowlingbahn",
+    "level": "-1",
     "opening_hours": "24/7",
     "operator": "Swiss Holiday Park",
     "id": "node/11151753405"
@@ -103291,12 +103291,12 @@
   "id": "node/11280484769",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "wallisellenstrasse 5A",
+    "defibrillator:location": "Wallisellenstrasse 5A",
     "description": "aussen an der tür",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
-    "level": "UG",
+    "indoor": "yes",
+    "level": "-1",
     "opening_hours": "24/7",
     "id": "node/11280484769"
   },
@@ -104561,6 +104561,29 @@
     "coordinates": [
       8.9018928,
       47.3315179
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11358394369",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Wurmbühlstrasse 29, Balkon",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "fixme": "Balkon oder UG?",
+    "indoor": "no",
+    "level": "-1",
+    "opening_hours": "24/7",
+    "operator": "Forum Asig",
+    "id": "node/11358394369"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.762627,
+      47.4878886
     ]
   }
 },
@@ -109847,12 +109870,12 @@
   "id": "node/11648692970",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Maison de la santé du Haut-Lac",
+    "defibrillator:location": "Maison de la santé du Haut-Lac, rez-de-chaussée",
     "description": "À droite devant l’entrée, dans l’angle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Rez-de-chaussée",
+    "level": "0",
     "opening_hours": "24/7",
     "phone": "+41244820090",
     "id": "node/11648692970"
@@ -110142,12 +110165,12 @@
   "id": "node/11677532769",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bâtiment communal de Jouxtens-Mézery",
+    "defibrillator:location": "Bâtiment communal de Jouxtens-Mézery, rez-de-chaussée",
     "description": "À droite de la porte d’entrée en verre",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Rez-de-chaussée ",
+    "level": "0",
     "opening_hours": "24/7",
     "id": "node/11677532769"
   },
@@ -110634,7 +110657,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Rez",
+    "level": "0",
     "opening_hours": "24/7",
     "id": "node/11708878269"
   },
@@ -118603,11 +118626,11 @@
   "id": "node/12078099770",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schulhaus Mettlen  neben Hausabwartstür an Fassade",
+    "defibrillator:location": "Schulhaus Mettlen neben Hausabwartstür an Fassade",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "UG",
+    "level": "-1",
     "opening_hours": "24/7",
     "operator": "Volksschulgemeinde Eschlikon",
     "phone": "+41719738500",
@@ -119170,14 +119193,13 @@
   "type": "Feature",
   "id": "node/12105319001",
   "properties": {
-    "access": "private",
     "defibrillator:location": "braunes Haus, an der Pergolawand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Treppe hoch links",
+    "level": "1",
     "opening_hours": "24/7",
-    "operator": "Privatpersonen ",
+    "operator": "Privatpersonen",
     "phone": "+41763491965",
     "id": "node/12105319001"
   },
@@ -119828,12 +119850,12 @@
   "type": "Feature",
   "id": "node/12137294801",
   "properties": {
-    "defibrillator:location": "Enzenbühlstrasse 49",
+    "defibrillator:location": "Enzenbühlstrasse 49;UG links",
     "description": "Türcode 2700",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "UG links",
+    "level": "-1",
     "opening_hours": "24/7",
     "operator": "Klinik Hirslanden",
     "phone": "+41443873579",
@@ -121260,12 +121282,11 @@
   "id": "node/12194974101",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Eingang Tiefgarage Hausmatte",
-    "description": "24/7",
+    "defibrillator:location": "Eingang Tiefgarage Hausmatte;Untergeschoss Treppe hinunter",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
-    "level": "Untergeschoss Treppe hinunter",
+    "indoor": "yes",
+    "level": "-1",
     "opening_hours": "24/7",
     "id": "node/12194974101"
   },

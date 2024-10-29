@@ -118246,12 +118246,12 @@
   "id": "node/10712367505",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Hopital de Loëx",
+    "defibrillator:location": "Hopital de Loëx, rez-de-chaussé",
     "description": "pendant les heures d’ouverture ",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Rez-de-chaussé",
+    "level": "0",
     "operator": "HUG Hopital de Loëx",
     "id": "node/10712367505"
   },
@@ -119572,7 +119572,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Rez de chaussée",
+    "level": "0",
     "opening_hours": "Mo-Fr: 07:30-20:00",
     "operator": "Ecole",
     "phone": "+41215571400",
@@ -145647,7 +145647,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "UG",
+    "level": "-1",
     "opening_hours": "Mo-Fr 08:00-16:00",
     "operator": "Baugenossenschaft Frohes Wohnen",
     "phone": "+41 43 336 35 35",
@@ -145881,7 +145881,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "UG",
+    "level": "-1",
     "operator": "Schule Konolfingen",
     "id": "node/11038060229"
   },
@@ -146924,13 +146924,12 @@
   "type": "Feature",
   "id": "node/11038063824",
   "properties": {
-    "access": "no",
     "defibrillator:location": "Bobst Mex SA, Réception",
     "description": "Heures ouvrables",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Rez-de-chaussée",
+    "level": "0",
     "operator": "Bobst Mex SA",
     "phone": "+41216212111",
     "id": "node/11038063824"
@@ -150557,12 +150556,12 @@
   "id": "node/11188278138",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Rte du Botset 3",
+    "defibrillator:location": "Rte du Botset 3, rez-de-chaussée",
     "description": "Sous le passage de l’ancienne poste",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Rez-de-chaussée",
+    "level": "0",
     "operator": "Commune",
     "id": "node/11188278138"
   },
@@ -151163,12 +151162,12 @@
   "id": "node/11217406837",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Rte des Buissons 41",
+    "defibrillator:location": "Rte des Buissons 41, rez-de-chaussée",
     "description": "À l’entrée de l’administration communale ",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Rez-de-chaussée",
+    "level": "0",
     "operator": "Commune",
     "id": "node/11217406837"
   },
@@ -154895,28 +154894,6 @@
     "coordinates": [
       8.6215186,
       47.4226254
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11358394369",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Wurmbühlstrasse 29, Balkon",
-    "description": "immer verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "UG",
-    "operator": "Forum Asig",
-    "id": "node/11358394369"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.762627,
-      47.4878886
     ]
   }
 },
@@ -160503,7 +160480,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "UG",
+    "level": "-1",
     "opening_hours": "Mo-Fr 07:00 - 17:00",
     "operator": "INRA Group Academy",
     "phone": "+41762151415",
@@ -162595,8 +162572,8 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "UG",
-    "opening_hours": "Mo- Fr 8:00-17:00",
+    "level": "-1",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Gemeinde Muhen",
     "phone": "+41627371616",
     "id": "node/11681569869"
@@ -166078,13 +166055,12 @@
   "type": "Feature",
   "id": "node/11751559069",
   "properties": {
-    "access": "no",
     "defibrillator:location": "Süssenberg 12, 8453 Alten",
     "description": "Während Anwesenheit verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "UG",
+    "level": "-1",
     "operator": "Privatperson",
     "phone": "+41793085882",
     "id": "node/11751559069"
