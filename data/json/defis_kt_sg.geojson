@@ -9960,11 +9960,10 @@
   "id": "node/9075739717",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Siemens 5.OG",
-    "description": "Nur während Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "5",
     "opening_hours": "Mo-Fr 07:30-16:00",
     "operator": "Siemens",
     "phone": "+41585578578",
@@ -11433,6 +11432,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Kanton St.Gallen",
     "phone": "+41 58 229 30 17",
@@ -20257,12 +20257,11 @@
   "id": "node/10908041906",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Mehrzweckgebäude",
-    "description": "Öffentlich zugänglich",
+    "defibrillator:location": "Eingang Mehrzweckgebäude",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "eg_(eingang_zum_mehrzweckgebäude)",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde",
     "id": "node/10908041906"
@@ -24232,27 +24231,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11888504569",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Polizei, Amtshaus, Gossau SG",
-    "description": "draussen bei der Eingangstüre",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "draussen",
-    "id": "node/11888504569"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.2474462,
-      47.4154661
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11903847169",
   "properties": {
     "access": "yes",
@@ -24489,11 +24467,10 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Carport",
-    "description": "immer zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "eG",
+    "level": "0",
     "opening_hours": "24/7",
     "id": "node/11953134169"
   },

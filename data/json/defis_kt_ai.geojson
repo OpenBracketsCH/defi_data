@@ -602,29 +602,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9869595917",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Appenzell Kaustrasse Campingplatz",
-    "description": "Aussen am Grauen Wohnwagen",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Toni Gassmann",
-    "phone": "+41796821338",
-    "id": "node/9869595917"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.3860173,
-      47.321938
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9869601517",
   "properties": {
     "access": "yes",
@@ -1006,7 +983,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "links vom Wald",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Privat",
     "phone": "0796821338",
@@ -1025,11 +1002,11 @@
   "id": "node/11749608069",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Aussen am grauen Wohnwagen ",
-    "description": "24 Std. zugänglich",
+    "defibrillator:location": "Aussen am grauen Wohnwagen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Privatperson",
     "phone": "+41 79  682 13 38",
     "source": "local_knowledge, defikarte.ch",
@@ -1038,8 +1015,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.3859881,
-      47.3219378
+      9.3859974,
+      47.3219362
     ]
   }
 },

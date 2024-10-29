@@ -9912,7 +9912,7 @@
     "type": "Point",
     "coordinates": [
       7.3776761,
-      47.1390552
+      47.1390698
     ]
   }
 },
@@ -24716,7 +24716,7 @@
   "properties": {
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "name": "Britschgi Franz, Praxis",
+    "operator": "Britschgi Franz, Praxis",
     "id": "node/7637818507"
   },
   "geometry": {
@@ -24860,7 +24860,7 @@
   "properties": {
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "name": "Pfister Markus HNO Praxis",
+    "operator": "Pfister Markus HNO Praxis",
     "id": "node/7637818516"
   },
   "geometry": {
@@ -55779,7 +55779,7 @@
     "type": "Point",
     "coordinates": [
       7.3716113,
-      47.1400764
+      47.140091
     ]
   }
 },
@@ -67065,11 +67065,10 @@
   "id": "node/9075739717",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Siemens 5.OG",
-    "description": "Nur während Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "5",
     "opening_hours": "Mo-Fr 07:30-16:00",
     "operator": "Siemens",
     "phone": "+41585578578",
@@ -139681,11 +139680,11 @@
   "id": "node/10880476605",
   "properties": {
     "defibrillator:location": "BBZBL",
-    "description": "während der Schulzeit",
+    "description": "Im Parterre und auf allen Stockwerken?",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "alle Stockwerke",
+    "level": "0",
     "opening_hours": "Mo-Fr 07:00-18:00",
     "operator": "Schule",
     "id": "node/10880476605"
@@ -139798,13 +139797,12 @@
   "type": "Feature",
   "id": "node/10880897205",
   "properties": {
-    "defibrillator:location": "Axpo Biomasse Ag",
-    "description": "während Öffnungszeiten",
+    "defibrillator:location": "Axpo Biomasse Ag;Waagraum",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Waagraum",
-    "opening_hours": "Mo-Fr 08:00 - 16:30",
+    "level": "0",
+    "opening_hours": "Mo-Su 07:00-18:00",
     "operator": "Axpo Biomasse AG",
     "phone": "0629233769",
     "id": "node/10880897205"
@@ -151279,12 +151277,11 @@
   "id": "node/11219262537",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Berufsfachschule Winterthur",
-    "description": "Während Schulzeiten zugänglich",
+    "defibrillator:location": "Berufsfachschule Winterthur;Zwischenetage EG-UG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Zwischenetage EG-UG",
+    "level": "0",
     "opening_hours": "Mo-Fr 08:00-17:00",
     "id": "node/11219262537"
   },
@@ -152718,12 +152715,11 @@
   "id": "node/11278845869",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Marien Kirchr",
-    "description": "öffentlich Zugänglich an Hausmauer",
+    "defibrillator:location": "Kirchenplatz;öffentlich Zugänglich an Hausmauer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "auf Kirchenplatz",
+    "level": "0",
     "id": "node/11278845869"
   },
   "geometry": {
@@ -153115,12 +153111,11 @@
   "id": "node/11287818969",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Gemeindeverwaltung Scheuren",
-    "description": "jederzeit erreichbar",
+    "defibrillator:location": "Gemeindeverwaltung Scheuren;im Freien",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "im Freien",
+    "level": "0",
     "operator": "Gemeinde Scheuren",
     "id": "node/11287818969"
   },
@@ -161631,11 +161626,11 @@
   "id": "node/11643305769",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "studerstrasse 55, 3004 Bern",
+    "defibrillator:location": "Studerstrasse 55, 3004 Bern",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "eg",
+    "level": "0",
     "id": "node/11643305769"
   },
   "geometry": {
@@ -165885,29 +165880,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11749608069",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Aussen am grauen Wohnwagen ",
-    "description": "24 Std. zugänglich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Privatperson",
-    "phone": "+41 79  682 13 38",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/11749608069"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.3859881,
-      47.3219378
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11749904870",
   "properties": {
     "defibrillator:location": "Hauptgebäude, Stampfenbachstrasse 110",
@@ -169259,13 +169231,11 @@
   "type": "Feature",
   "id": "node/11854017669",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Schickenstrasse 7 & 9",
-    "description": "in Wohnhaus ",
+    "defibrillator:location": "Im UG-Durchgang der beiden Häuser, beim Luftschutzkeller",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "im UG-Durchgang der beiden Häuser, beim Luftschutzkeller",
+    "level": "-1",
     "operator": "StWe Schickenstrasse 7 & 9",
     "phone": "+41797079037",
     "id": "node/11854017669"
@@ -170641,27 +170611,6 @@
     "coordinates": [
       8.2832193,
       47.4534414
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11888504569",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Polizei, Amtshaus, Gossau SG",
-    "description": "draussen bei der Eingangstüre",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "draussen",
-    "id": "node/11888504569"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.2474462,
-      47.4154661
     ]
   }
 },

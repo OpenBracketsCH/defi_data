@@ -11502,11 +11502,10 @@
   "id": "node/9075739717",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Siemens 5.OG",
-    "description": "Nur während Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "5",
     "opening_hours": "Mo-Fr 07:30-16:00",
     "operator": "Siemens",
     "phone": "+41585578578",
@@ -13191,6 +13190,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Kanton St.Gallen",
     "phone": "+41 58 229 30 17",
@@ -16739,29 +16739,6 @@
     "coordinates": [
       9.4558645,
       47.2971548
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9869595917",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Appenzell Kaustrasse Campingplatz",
-    "description": "Aussen am Grauen Wohnwagen",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Toni Gassmann",
-    "phone": "+41796821338",
-    "id": "node/9869595917"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.3860173,
-      47.321938
     ]
   }
 },
@@ -23707,12 +23684,11 @@
   "id": "node/10908041906",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Mehrzweckgebäude",
-    "description": "Öffentlich zugänglich",
+    "defibrillator:location": "Eingang Mehrzweckgebäude",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "eg_(eingang_zum_mehrzweckgebäude)",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde",
     "id": "node/10908041906"
@@ -24703,12 +24679,11 @@
   "id": "node/11038115005",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Imbodenhaus, Imbodendtrasde 1",
-    "description": "öffentlich zugänglich",
+    "defibrillator:location": "Imbodenhaus, Imbodendtrasde 1;Velounterstand beim Haupteingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Velounterstand beim Haupteingang",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Imbodenhaus",
     "phone": "0041712825011",
@@ -25510,7 +25485,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "links vom Wald",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Privat",
     "phone": "0796821338",
@@ -27722,11 +27697,11 @@
   "id": "node/11749608069",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Aussen am grauen Wohnwagen ",
-    "description": "24 Std. zugänglich",
+    "defibrillator:location": "Aussen am grauen Wohnwagen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Privatperson",
     "phone": "+41 79  682 13 38",
     "source": "local_knowledge, defikarte.ch",
@@ -27735,8 +27710,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.3859881,
-      47.3219378
+      9.3859974,
+      47.3219362
     ]
   }
 },
@@ -28615,27 +28590,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11888504569",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Polizei, Amtshaus, Gossau SG",
-    "description": "draussen bei der Eingangstüre",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "draussen",
-    "id": "node/11888504569"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.2474462,
-      47.4154661
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11903847169",
   "properties": {
     "access": "yes",
@@ -28940,11 +28894,10 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Carport",
-    "description": "immer zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "eG",
+    "level": "0",
     "opening_hours": "24/7",
     "id": "node/11953134169"
   },

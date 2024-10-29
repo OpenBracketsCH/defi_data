@@ -48918,12 +48918,11 @@
   "id": "node/11219262537",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Berufsfachschule Winterthur",
-    "description": "Während Schulzeiten zugänglich",
+    "defibrillator:location": "Berufsfachschule Winterthur;Zwischenetage EG-UG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Zwischenetage EG-UG",
+    "level": "0",
     "opening_hours": "Mo-Fr 08:00-17:00",
     "id": "node/11219262537"
   },
@@ -51542,7 +51541,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Vor Turnhalle Eingang",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Winterthur",
     "phone": "+41796123723",
@@ -51551,8 +51550,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7644599,
-      47.4829263
+      8.7646652,
+      47.4833158
     ]
   }
 },
@@ -57364,13 +57363,11 @@
   "type": "Feature",
   "id": "node/11854017669",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Schickenstrasse 7 & 9",
-    "description": "in Wohnhaus ",
+    "defibrillator:location": "Im UG-Durchgang der beiden Häuser, beim Luftschutzkeller",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "im UG-Durchgang der beiden Häuser, beim Luftschutzkeller",
+    "level": "-1",
     "operator": "StWe Schickenstrasse 7 & 9",
     "phone": "+41797079037",
     "id": "node/11854017669"

@@ -8994,7 +8994,7 @@
     "type": "Point",
     "coordinates": [
       7.3717494,
-      47.13968
+      47.1396946
     ]
   }
 },
@@ -64714,6 +64714,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Kanton St.Gallen",
     "phone": "+41 58 229 30 17",
@@ -75977,29 +75978,6 @@
     "coordinates": [
       9.2950996,
       47.5535494
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9869595917",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Appenzell Kaustrasse Campingplatz",
-    "description": "Aussen am Grauen Wohnwagen",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Toni Gassmann",
-    "phone": "+41796821338",
-    "id": "node/9869595917"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.3860173,
-      47.321938
     ]
   }
 },
@@ -95600,12 +95578,11 @@
   "id": "node/10908041906",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Mehrzweckgebäude",
-    "description": "Öffentlich zugänglich",
+    "defibrillator:location": "Eingang Mehrzweckgebäude",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "eg_(eingang_zum_mehrzweckgebäude)",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde",
     "id": "node/10908041906"
@@ -98219,11 +98196,11 @@
   "id": "node/11038063607",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Altes Schulhaus Biezwil",
+    "defibrillator:location": "Altes Schulhaus Biezwil;Vorraum",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Vorraum",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde",
     "id": "node/11038063607"
@@ -98740,12 +98717,11 @@
   "id": "node/11038115005",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Imbodenhaus, Imbodendtrasde 1",
-    "description": "öffentlich zugänglich",
+    "defibrillator:location": "Imbodenhaus, Imbodendtrasde 1;Velounterstand beim Haupteingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Velounterstand beim Haupteingang",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Imbodenhaus",
     "phone": "0041712825011",
@@ -101571,11 +101547,11 @@
   "id": "node/11209807037",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "schulhaus Kuonimatt",
+    "defibrillator:location": "Schulhaus Kuonimatt;bei Turnhalle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "bei Turnhalle",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Stadt Kriens",
     "id": "node/11209807037"
@@ -102399,7 +102375,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "links vom Wald",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Privat",
     "phone": "0796821338",
@@ -104266,11 +104242,10 @@
   "id": "node/11336611369",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Klinik Linde Hirslanden",
+    "defibrillator:location": "Klinik Linde Hirslanden;jede Abteilung",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "jede Abteilung",
     "opening_hours": "24/7",
     "operator": "Spital",
     "phone": "0323664111",
@@ -106044,7 +106019,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Vor Turnhalle Eingang",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Winterthur",
     "phone": "+41796123723",
@@ -106053,8 +106028,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7644599,
-      47.4829263
+      8.7646652,
+      47.4833158
     ]
   }
 },
@@ -106898,11 +106873,11 @@
   "type": "Feature",
   "id": "node/11474731369",
   "properties": {
-    "defibrillator:location": "haupteingang zu coop",
+    "defibrillator:location": "Haupteingang zu Coop",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "eg",
+    "level": "0",
     "opening_hours": "24/7",
     "id": "node/11474731369"
   },
@@ -110840,12 +110815,11 @@
   "id": "node/11728283069",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Hotel Baseltor",
-    "description": "öffentlich zugängig",
+    "defibrillator:location": "Hotel Baseltor;an der Coop Betonsäule",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "an der coop Betonsäule",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Samariter Muttenz",
     "phone": "+41789089126",
@@ -111186,12 +111160,12 @@
   "id": "node/11741306696",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Gemeinde Davos\nStrandbad\n1294LTS",
+    "defibrillator:location": "Gemeinde Davos, Strandbad, 1294LTS",
     "description": "Grüner Kasten /  Koffer Gelb",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "eg",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
@@ -111361,6 +111335,29 @@
     "coordinates": [
       8.1844105,
       46.7278448
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11749608069",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussen am grauen Wohnwagen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Privatperson",
+    "phone": "+41 79  682 13 38",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11749608069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3859974,
+      47.3219362
     ]
   }
 },
@@ -115915,11 +115912,10 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Carport",
-    "description": "immer zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "eG",
+    "level": "0",
     "opening_hours": "24/7",
     "id": "node/11953134169"
   },
@@ -117790,11 +117786,11 @@
   "id": "node/12040241669",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bademeisterhäuschen",
+    "defibrillator:location": "Bademeisterhäuschen;aussen bei Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "aussen bei Eingang",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "CLM",
     "id": "node/12040241669"

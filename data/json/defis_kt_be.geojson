@@ -11175,7 +11175,7 @@
     "type": "Point",
     "coordinates": [
       7.3776761,
-      47.1390552
+      47.1390698
     ]
   }
 },
@@ -11400,7 +11400,7 @@
     "type": "Point",
     "coordinates": [
       7.3717494,
-      47.13968
+      47.1396946
     ]
   }
 },
@@ -32000,7 +32000,7 @@
     "type": "Point",
     "coordinates": [
       7.3716113,
-      47.1400764
+      47.140091
     ]
   }
 },
@@ -48005,13 +48005,12 @@
   "type": "Feature",
   "id": "node/10880897205",
   "properties": {
-    "defibrillator:location": "Axpo Biomasse Ag",
-    "description": "während Öffnungszeiten",
+    "defibrillator:location": "Axpo Biomasse Ag;Waagraum",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Waagraum",
-    "opening_hours": "Mo-Fr 08:00 - 16:30",
+    "level": "0",
+    "opening_hours": "Mo-Su 07:00-18:00",
     "operator": "Axpo Biomasse AG",
     "phone": "0629233769",
     "id": "node/10880897205"
@@ -50106,12 +50105,11 @@
   "id": "node/11287818969",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Gemeindeverwaltung Scheuren",
-    "description": "jederzeit erreichbar",
+    "defibrillator:location": "Gemeindeverwaltung Scheuren;im Freien",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "im Freien",
+    "level": "0",
     "operator": "Gemeinde Scheuren",
     "id": "node/11287818969"
   },
@@ -50334,11 +50332,10 @@
   "id": "node/11336611369",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Klinik Linde Hirslanden",
+    "defibrillator:location": "Klinik Linde Hirslanden;jede Abteilung",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "jede Abteilung",
     "opening_hours": "24/7",
     "operator": "Spital",
     "phone": "0323664111",
@@ -52405,11 +52402,11 @@
   "id": "node/11643305769",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "studerstrasse 55, 3004 Bern",
+    "defibrillator:location": "Studerstrasse 55, 3004 Bern",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "eg",
+    "level": "0",
     "id": "node/11643305769"
   },
   "geometry": {
