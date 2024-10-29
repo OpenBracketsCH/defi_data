@@ -26415,11 +26415,13 @@
   "type": "Feature",
   "id": "node/12281822301",
   "properties": {
-    "defibrillator:location": "Doppelturnhalle Schulhaus Lenzhard",
+    "addr:street": "General Herzog-Strasse 19, 5600 Lenzburg",
+    "defibrillator:location": "Doppelturnhalle Schulhaus Lenzhard (Gebäude F)",
     "description": "während der Schulzeit verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "corridor",
+    "operator": "Oberstufenzentrum Lenzhard",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/12281822301"
   },
