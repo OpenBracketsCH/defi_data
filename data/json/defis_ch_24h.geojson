@@ -95037,11 +95037,11 @@
   "id": "node/10867067705",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Esterno al Ascensore del autosilo",
+    "defibrillator:location": "Esterno al Ascensore del autosilo, pianterreno",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "Pianterreno",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Communitá",
     "id": "node/10867067705"
@@ -115322,14 +115322,14 @@
   "id": "node/11923512069",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Ambulanz Alpinmedic Chur",
+    "defibrillator:location": "Ambulanz Alpinmedic Chur;Planaterrastrasse 16",
     "description": "Der AED ist über den Eingang an der Planaterrastrasse 16 im 1 UG rechts, oder via Hof um das Gebäude bei der Alpinmedic Ambulanz Garage neben der Pixelmolkerei zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Planaterrastrasse 16 ",
+    "level": "-1",
     "opening_hours": "24/7",
-    "operator": "Alpinmedic.ch ",
+    "operator": "Alpinmedic.ch",
     "phone": "+410800365144",
     "id": "node/11923512069"
   },
@@ -122627,6 +122627,102 @@
     "coordinates": [
       7.7207494,
       47.0983649
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12297605801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Wohnhaus, links vor der Eingangstüre",
+    "description": "öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Privatperson",
+    "phone": "+41 (0)79 684 38 70",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12297605801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6219529,
+      46.88346
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12297617201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haus Aussenwand auf Höhe der Briefkästen",
+    "description": "öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Privatperson",
+    "phone": "+41 (0)79 684 38 70",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12297617201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6139492,
+      46.8814617
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12297620901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gebäude 7 (Wöschhüsli) ",
+    "description": "öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "EIMAAG AG",
+    "phone": "+41 (0)79 899 41 22",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12297620901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5569147,
+      46.8888165
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12297628501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Wohnhaus",
+    "description": "öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Privatperson",
+    "phone": "+41 (0)79 684 38 70",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12297628501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6269686,
+      46.8679851
     ]
   }
 }
