@@ -83075,11 +83075,11 @@
   "id": "node/10250582209",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "casa comunale vecchia",
+    "defibrillator:location": "casa comunale vecchia;piano terreno fuori",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "piano terreno fuori",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "commune (Maggia)",
     "phone": "+41917565030",
@@ -95600,12 +95600,10 @@
   "id": "node/10909471805",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Mayens-de-Sion Est",
-    "description": "au départ du grand Bisse de Vex\n",
+    "defibrillator:location": "Mayens-de-Sion Est;au départ du grand Bisse de Vex;sur mur extérieur",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "sur mur extérieur ",
     "opening_hours": "24/7",
     "operator": "commune de Vex",
     "id": "node/10909471805"
@@ -97810,7 +97808,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "rez-de-chaussée",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "BLA / LBA",
     "phone": "+41 58 466 26 88",
@@ -99122,7 +99120,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "rez-de-chaussé",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Bergbahnen Moléson",
     "id": "node/11054656005"
@@ -113400,7 +113398,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "rez-de-chaussé",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "commune de Laconnex",
     "id": "node/11850920092"
@@ -113702,7 +113700,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "rdc",
+    "level": "0",
     "opening_hours": "24/7",
     "id": "node/11879410369"
   },
@@ -114493,12 +114491,11 @@
   "id": "node/11898881669",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Hubert Etter et Fils SA",
-    "description": "toujours disponible ",
+    "defibrillator:location": "Hubert Etter et Fils SA;à côté porte entrée",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "à côté porte entrée",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Vuadens, Hubert Etter et Fils SA",
     "id": "node/11898881669"
@@ -114506,8 +114503,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.0299657,
-      46.6160851
+      7.0298115,
+      46.6159221
     ]
   }
 },
@@ -116190,14 +116187,14 @@
   "type": "Feature",
   "id": "node/11961443869",
   "properties": {
-    "defibrillator:location": "in der Einstellhalle",
-    "description": "jeder aus den Häuser Lindenhofstrasse 5 bis 19 hat Zugang mit dem Garagenschlüssel, also irgendwo läuten.",
+    "defibrillator:location": "nach dem Tor rechts in der Einstellhalle",
+    "description": "Jeder aus den Häuser Lindenhofstrasse 5 bis 19 hat Zugang mit dem Garagenschlüssel, also irgendwo läuten.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "nach dem Tor rechts",
+    "level": "0",
     "opening_hours": "24/7",
-    "operator": "Eigentümergemeinschaft lindenhofstrasse 5-19",
+    "operator": "Eigentümergemeinschaft Lindenhofstrasse 5-19",
     "id": "node/11961443869"
   },
   "geometry": {
