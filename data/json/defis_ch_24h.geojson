@@ -24596,6 +24596,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/7623455069",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An der Gebäudeecke, Seite Bahngleise",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Rhätische Bahn AG",
+    "phone": "+41812886443",
+    "id": "node/7623455069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      10.0541881,
+      46.3263273
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/7623836819",
   "properties": {
     "access": "yes",
@@ -122085,13 +122108,14 @@
   "id": "node/12252760401",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bahnhof, Perron",
-    "description": "\n",
+    "defibrillator:location": "Stationsgebäude, Seite Bahngleis, zwischen Buffet und Wartsaal",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
+    "operator": "Rhätische Bahn AG",
+    "phone": "+41812886443",
     "id": "node/12252760401"
   },
   "geometry": {
@@ -122407,6 +122431,31 @@
     "coordinates": [
       8.183689,
       46.8315208
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12284940301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Unterfeldstrasse 2, 9425 Thal",
+    "description": "Steht das ganze Jahr zur Verfügung ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "4",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Thal",
+    "phone": "+41718861030",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12284940301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5658692,
+      47.4658392
     ]
   }
 },

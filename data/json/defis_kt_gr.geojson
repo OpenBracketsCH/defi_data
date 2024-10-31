@@ -636,6 +636,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/7623455069",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An der Gebäudeecke, Seite Bahngleise",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Rhätische Bahn AG",
+    "phone": "+41812886443",
+    "id": "node/7623455069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      10.0541881,
+      46.3263273
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/7645864233",
   "properties": {
     "access": "yes",
@@ -14370,13 +14393,14 @@
   "id": "node/12252760401",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bahnhof, Perron",
-    "description": "\n",
+    "defibrillator:location": "Stationsgebäude, Seite Bahngleis, zwischen Buffet und Wartsaal",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
+    "operator": "Rhätische Bahn AG",
+    "phone": "+41812886443",
     "id": "node/12252760401"
   },
   "geometry": {

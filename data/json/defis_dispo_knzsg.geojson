@@ -29989,12 +29989,13 @@
   "id": "node/12284940301",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Unterfeldstrasse 2, 9425 Thal ",
+    "defibrillator:location": "Unterfeldstrasse 2, 9425 Thal",
     "description": "Steht das ganze Jahr zur Verfügung ",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "4",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Thal",
     "phone": "+41718861030",
     "source": "local_knowledge, defikarte.ch",
@@ -30003,8 +30004,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5659161,
-      47.4657222
+      9.5658692,
+      47.4658392
     ]
   }
 },
@@ -30220,54 +30221,6 @@
     "coordinates": [
       9.5436805,
       47.478185
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12284979502",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Turnhalle Feld, Unterfeldstrasse 2, 9425 Thal ",
-    "description": "Steht das ganze Jahr zur Verfügung ",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "operator": "Gemeinde Thal",
-    "phone": "+41718861030",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/12284979502"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.5659268,
-      47.4657004
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12284990502",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Turnhalle Feld, Unterfeldstrasse 2, 9425 Thal ",
-    "description": "Steht das ganze Jahr zur Verfügung ",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "operator": "Gemeinde Thal",
-    "phone": "+41718861030",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/12284990502"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.5658946,
-      47.465802
     ]
   }
 },
