@@ -1667,6 +1667,52 @@
       47.0539041
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/12304553801",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Route de la Piscine - 2525 Le Landeron ",
+    "description": "Ouvert durant la saison d'été uniquement",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "09:00-19:00",
+    "operator": "Formamed",
+    "phone": "+41 32 841 28 29",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12304553801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0725989,
+      47.0563601
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12304558301",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Centre Médicale d'entre-deux-Lacs - 2525 Le Landeron",
+    "description": "Disponible pendant les heures d'ouverture",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "phone": "+4132 752 30 30",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12304558301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.066918,
+      47.0558594
+    ]
+  }
 }
 ]
 }
