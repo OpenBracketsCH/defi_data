@@ -43459,7 +43459,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "24/7",
-    "operator": "Kinderspital Zürich",
     "phone": "+41 44 266 71 11",
     "id": "node/8557055962"
   },
@@ -122920,6 +122919,56 @@
     "coordinates": [
       8.865146,
       47.5017682
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12303983102",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Ehemaliges Gemeindehaus",
+    "description": "Beim Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Basadingen-Schlattingen",
+    "phone": "+41583460160",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12303983102"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7449723,
+      47.6690072
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12304000301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Turnhalle Rodenberg Schlattingen",
+    "description": "Beim Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Basadingen-Schlattingen",
+    "phone": "+41583460160",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12304000301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7697238,
+      47.6666807
     ]
   }
 }

@@ -183667,6 +183667,52 @@
       47.4959514
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/12304000302",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Bertschi Bäckerei, Talacherstrasse 20, 8302 Kloten",
+    "description": "Mo- Fr 24/7, Sa/So 22:00 bis 18:00 Uhr",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Privat, Bertschi Bäckerei",
+    "phone": "+41 44 809 25 25",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12304000302"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5803974,
+      47.4614935
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12304009004",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Heilsarmee Broki bei der Kasse",
+    "description": "Nur während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Sa 09:00-18:30",
+    "operator": "Verein",
+    "id": "node/12304009004"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7864514,
+      47.3238844
+    ]
+  }
 }
 ]
 }
