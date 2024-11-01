@@ -139165,12 +139165,10 @@
   "type": "Feature",
   "id": "node/10861859905",
   "properties": {
-    "defibrillator:location": "Mc Donald's da McCafé",
-    "description": "Durante i tempi di apperture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Pianterreno",
+    "level": "0",
     "opening_hours": "Mo-Th 10:00-23:00; Fr-Sa 10:00-25:00",
     "operator": "Mc Donald's",
     "id": "node/10861859905"
@@ -145574,7 +145572,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "d",
+    "level:ref": "d",
     "operator": "Stiftung Alterssiedlung Hadlaub",
     "id": "node/11037884706"
   },
