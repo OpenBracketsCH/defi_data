@@ -183713,6 +183713,48 @@
       47.3238844
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/12304358801",
+  "properties": {
+    "defibrillator:location": "BFH",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Schule",
+    "id": "node/12304358801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4673102,
+      46.992349
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12304415101",
+  "properties": {
+    "defibrillator:location": "Centre scolaire des Deux Thielles ",
+    "description": "Disponible pendant les heures d'ouverture et fermé pendant les vacances scolaires",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "08:00-15:30",
+    "operator": "DefiMEd",
+    "phone": "+41327257663",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12304415101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0627284,
+      47.0539041
+    ]
+  }
 }
 ]
 }
