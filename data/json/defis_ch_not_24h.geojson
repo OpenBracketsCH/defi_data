@@ -183779,6 +183779,51 @@
       47.0563601
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/12304558301",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Centre Médicale d'entre-deux-Lacs - 2525 Le Landeron",
+    "description": "Disponible pendant les heures d'ouverture",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "phone": "+4132 752 30 30",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12304558301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.066918,
+      47.0558594
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12304582401",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Altefco AG, Wareneingang",
+    "description": "Mo-Fr 7.30 bis 17.00 Uhr zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "ALTEFCO AG",
+    "phone": "+41792270806",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12304582401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9421757,
+      47.455147
+    ]
+  }
 }
 ]
 }
