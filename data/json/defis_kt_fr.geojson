@@ -3,6 +3,25 @@
 "features": [
 {
   "type": "Feature",
+  "id": "node/2246047716",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Am Gebäude der Firma Jörg & Co. Metallbau AG",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/2246047716"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2297071,
+      46.8547972
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/4738423504",
   "properties": {
     "bicycle": "no",
@@ -798,8 +817,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.2500254,
-      46.8543988
+      7.2500884,
+      46.8544076
     ]
   }
 },
@@ -1562,18 +1581,18 @@
   "id": "node/9979935611",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bahnhof SBB/BLS, Südseite",
+    "defibrillator:location": "Bahnhof SBB/BLS, Südseite, an der Gebäudeaussenseite beim Fahrradunterstand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "opening_hours": "24/7",
     "id": "node/9979935611"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.252893,
-      46.8631933
+      7.2522475,
+      46.8627777
     ]
   }
 },
@@ -1602,7 +1621,7 @@
   "id": "node/9979935613",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Sporthalle Gwatt",
+    "defibrillator:location": "Sporthalle Gwatt. Nur bei Anlässen zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -5120,6 +5139,62 @@
     "coordinates": [
       6.995362,
       46.7185596
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12309284722",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Firma Vonlanthen Holzbau AG in Ried, an der Hausecke.",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/12309284722"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2262965,
+      46.8409768
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12309309359",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bei den Toiletten des Begegnungszentrums. Nur bei Anlässen zugänglich.",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/12309309359"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2488781,
+      46.8565998
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12309332856",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Schulhaus Orange. Nur bei Anlässen / während der Schule zugänglich.",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/12309332856"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2509244,
+      46.8555404
     ]
   }
 }

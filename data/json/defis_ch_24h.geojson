@@ -320,6 +320,25 @@
 },
 {
   "type": "Feature",
+  "id": "node/2246047716",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Am Gebäude der Firma Jörg & Co. Metallbau AG",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/2246047716"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2297071,
+      46.8547972
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/2396211922",
   "properties": {
     "access": "yes",
@@ -57612,8 +57631,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.2500254,
-      46.8543988
+      7.2500884,
+      46.8544076
     ]
   }
 },
@@ -77296,18 +77315,18 @@
   "id": "node/9979935611",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bahnhof SBB/BLS, Südseite",
+    "defibrillator:location": "Bahnhof SBB/BLS, Südseite, an der Gebäudeaussenseite beim Fahrradunterstand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "opening_hours": "24/7",
     "id": "node/9979935611"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.252893,
-      46.8631933
+      7.2522475,
+      46.8627777
     ]
   }
 },
@@ -123084,6 +123103,45 @@
     "coordinates": [
       8.0452508,
       47.3698188
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12309284722",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Firma Vonlanthen Holzbau AG in Ried, an der Hausecke.",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/12309284722"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2262965,
+      46.8409768
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12309339601",
+  "properties": {
+    "defibrillator:location": "Fitness Pure Gym",
+    "description": "Disponible pendant les heures d’ouverture",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "id": "node/12309339601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.829788,
+      47.1029844
     ]
   }
 }

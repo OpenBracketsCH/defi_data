@@ -99267,7 +99267,7 @@
   "id": "node/9979935613",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Sporthalle Gwatt",
+    "defibrillator:location": "Sporthalle Gwatt. Nur bei Anlässen zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -183877,6 +183877,43 @@
     "coordinates": [
       8.5641189,
       47.4272116
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12309309359",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bei den Toiletten des Begegnungszentrums. Nur bei Anlässen zugänglich.",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/12309309359"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2488781,
+      46.8565998
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12309332856",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Schulhaus Orange. Nur bei Anlässen / während der Schule zugänglich.",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/12309332856"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2509244,
+      46.8555404
     ]
   }
 }
