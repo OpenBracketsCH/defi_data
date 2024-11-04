@@ -48718,11 +48718,13 @@
   "id": "node/8552327943",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Im Alterszentrum",
+    "defibrillator:location": "Im Alterszentrum, Garderobe Cafeteria",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "operator": "Alterszentrum Aaheim",
+    "phone": "+41 52 368 82 27",
     "id": "node/8552327943"
   },
   "geometry": {
@@ -142492,26 +142494,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10944787205",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "baden Casino ",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "Park ",
-    "id": "node/10944787205"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.3083739,
-      47.4767856
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10946129905",
   "properties": {
     "defibrillator:location": "Goba AG",
@@ -164573,28 +164555,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11739261269",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Mühlebachweg",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "24",
-    "operator": "Samariter Oberes Kiesental ",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/11739261269"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6377994,
-      46.9001546
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11739621670",
   "properties": {
     "defibrillator:location": "Gasthof Hirschen im Saal",
@@ -183976,6 +183936,30 @@
     "coordinates": [
       7.4153292,
       46.9298551
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12311867101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "sia Empfang (BAU208)",
+    "description": "Nur wärend der der Öfnungszeit erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "sia Abrasives AG",
+    "phone": "+41 52 724 41 11",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12311867101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8940012,
+      47.5640174
     ]
   }
 }
