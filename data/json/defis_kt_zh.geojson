@@ -23415,6 +23415,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Procamed AG",
     "phone": "+41 52 368 60 00",
@@ -23424,8 +23425,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5447216,
-      47.3717607
+      8.5447309,
+      47.3717597
     ]
   }
 },
@@ -64217,6 +64218,28 @@
     "coordinates": [
       8.7488483,
       47.2378841
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12318415833",
+  "properties": {
+    "access": "customers",
+    "defibrillator:location": "Neben Infotheke, Zentralbibliothek Zürich",
+    "emergency": "defibrillator",
+    "level": "1",
+    "opening_hours": "Mo-Fr 08:00-20:00; Sa,Su 09:00-17:00",
+    "operator": "Zentralbibliothek Zürich",
+    "phone": "+41 44 268 31 00",
+    "wheelchair": "limited",
+    "id": "node/12318415833"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5451955,
+      47.374113
     ]
   }
 }
