@@ -175892,13 +175892,13 @@
   "id": "node/12041858569",
   "properties": {
     "access": "permissive",
-    "defibrillator:location": "Technische Fachschule STFW, Im Eingang",
+    "defibrillator:location": "Technische Fachschule STFW, beim Empfang Gebäude A",
     "description": "während Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "operator": "Firma",
+    "operator": "Technische Fachschule STFW",
     "id": "node/12041858569"
   },
   "geometry": {
@@ -184021,6 +184021,28 @@
     "coordinates": [
       7.2441627,
       47.1329634
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12319290313",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Technische Fachschule STFW, beim Empfang Gebäude L/M",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Technische Fachschule STFW",
+    "id": "node/12319290313"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6956224,
+      47.4985587
     ]
   }
 }
