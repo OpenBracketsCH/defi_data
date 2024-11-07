@@ -4977,6 +4977,7 @@
     "defibrillator:location": "Gondelbahn Eingang, Aussenwand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "id": "node/6176739377"
   },
   "geometry": {
@@ -45703,6 +45704,7 @@
     "defibrillator:location": "Aussenwand zwischen Eingängen Bahn und Tourismusbüro",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "id": "node/8286805250"
   },
   "geometry": {
@@ -51851,6 +51853,26 @@
     "coordinates": [
       8.7253922,
       47.3447878
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8574210690",
+  "properties": {
+    "defibrillator:location": "öffentliches WC",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Stadt Uster",
+    "id": "node/8574210690"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7255961,
+      47.3598921
     ]
   }
 },
@@ -184061,6 +184083,25 @@
     "coordinates": [
       8.5420754,
       47.3835923
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12320074501",
+  "properties": {
+    "check_date": "2024-11-07",
+    "defibrillator:location:en": "Wall near computer.",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "1",
+    "id": "node/12320074501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4907349,
+      47.4384335
     ]
   }
 }
