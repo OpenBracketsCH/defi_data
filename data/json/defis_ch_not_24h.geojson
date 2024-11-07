@@ -140392,14 +140392,11 @@
   "type": "Feature",
   "id": "node/10905996205",
   "properties": {
-    "access": "yes",
     "defibrillator:location": "Casa Comunale",
-    "description": "24/24",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "-",
-    "operator": "First Responder Brusio ",
+    "operator": "First Responder Brusio",
     "phone": "+41765627033",
     "id": "node/10905996205"
   },
@@ -164380,28 +164377,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11739256269",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Dorfstrasse ",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "41",
-    "operator": "Gemeinde Mirchel",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/11739256269"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6466131,
-      46.894484
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11739621670",
   "properties": {
     "defibrillator:location": "Gasthof Hirschen im Saal",
@@ -183659,7 +183634,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "Erdgeschoss",
+    "level": "0",
     "operator": "Kunsteisbahn Zug AG",
     "phone": "+41417253150",
     "id": "node/12306615001"

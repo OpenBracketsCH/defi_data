@@ -9395,23 +9395,17 @@
   "id": "node/6636649996",
   "properties": {
     "access": "yes",
-    "addr:city": "Mirchel",
-    "addr:housenumber": "41",
-    "addr:postcode": "3532",
-    "addr:street": "Dorfstrasse",
-    "defibrillator:location": "Josshaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Josshaus",
     "id": "node/6636649996"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6467294,
-      46.89455
+      7.6467102,
+      46.8945399
     ]
   }
 },
@@ -105127,9 +105121,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "667452",
     "opening_hours": "24/7",
-    "operator": "667452",
     "id": "node/11368334970"
   },
   "geometry": {
@@ -110994,13 +110986,10 @@
   "type": "Feature",
   "id": "node/11730063969",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Tennisclub Herrliberg",
     "description": "Beim Materialschopf",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "---",
     "opening_hours": "24/7",
     "operator": "TC Herrliberg",
     "phone": "+41794202372",
@@ -117964,9 +117953,8 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "--",
     "opening_hours": "24/7",
-    "operator": "Privatperson",
+    "operator:type": "private",
     "phone": "+41798762852",
     "id": "node/12041373569"
   },

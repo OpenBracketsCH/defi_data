@@ -1865,30 +1865,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11769835969",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Forstwerkhof",
-    "description": "Beim Eingang innen an der Wand",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "opening_hours": "Mo-Fr 7:00-17:00",
-    "operator": "Gemeinde Triesen",
-    "phone": "+423 792 36 42",
-    "id": "node/11769835969"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.5363264,
-      47.0960511
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11809529069",
   "properties": {
     "access": "no",
@@ -2130,6 +2106,30 @@
     "coordinates": [
       9.5215658,
       47.1221319
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12320165601",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Liecht. Business Center",
+    "description": "Beim Eingang innen an der Wand ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 7:30-18:00",
+    "operator": "Privat",
+    "phone": "+4232652500",
+    "id": "node/12320165601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.523798,
+      47.1142047
     ]
   }
 }
