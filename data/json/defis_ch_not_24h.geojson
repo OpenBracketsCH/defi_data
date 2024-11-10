@@ -177606,50 +177606,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12108058301",
-  "properties": {
-    "access": "permissive",
-    "defibrillator:location": "Bei Oskar Betschart Transport AG auf der Gebäudeseite neben dem Fedex Kundeneingang",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/12108058301"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4039933,
-      47.1645098
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12108182101",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Bei Oskar Betschart Transport AG auf der Gebäudeseite",
-    "description": "Gelände kann mit dem Fahrzeug von Montag bis Freitag jeweils von 08:00 bis 17:00 befahren werden. Zu Fuss ist das Gelände immer betretbar.",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "opening_hours": "Mo-Fr 08:00-17:00",
-    "operator": "Oskar Betschart Transport AG",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/12108182101"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4037888,
-      47.1644835
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12108335906",
   "properties": {
     "access": "private",
@@ -184273,6 +184229,53 @@
     "coordinates": [
       6.1533101,
       46.2544406
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12328842706",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Medlake Training",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 06:30-21:00, Sa-Su 08:00-18:00",
+    "operator": "Medlake Training AG",
+    "phone": "+41449912202",
+    "id": "node/12328842706"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5744049,
+      47.3272401
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12328862901",
+  "properties": {
+    "defibrillator:location": "Alters- und Pflegeheim Sägematt",
+    "description": "im Eingangsbereich öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "07:00 - 18:00",
+    "operator": "Stiftung Sägematt",
+    "phone": "+41 032 654 14 14",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12328862901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3670901,
+      47.1801172
     ]
   }
 }

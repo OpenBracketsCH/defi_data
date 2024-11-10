@@ -2581,6 +2581,7 @@
     "addr:housenumber": "50",
     "addr:postcode": "3127",
     "addr:street": "Bahnhofstrasse",
+    "check_date": "2024-11-10",
     "defibrillator:location": "Hinter Wand Eingang Gemeindeverwaltung",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -56638,6 +56639,29 @@
     "coordinates": [
       7.135089,
       47.0838361
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12328862901",
+  "properties": {
+    "defibrillator:location": "Alters- und Pflegeheim Sägematt",
+    "description": "im Eingangsbereich öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "07:00 - 18:00",
+    "operator": "Stiftung Sägematt",
+    "phone": "+41 032 654 14 14",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12328862901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3670901,
+      47.1801172
     ]
   }
 }
