@@ -184278,6 +184278,55 @@
       47.1801172
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/12330519801",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Bergos AG, Empfang",
+    "description": "While open",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "4",
+    "opening_hours": "08:00 - 18:00",
+    "operator": "Association",
+    "phone": "+4144 284 20 20",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12330519801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5478514,
+      47.3627518
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12330545201",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "bei Museumskasse",
+    "description": "während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Tu-Su  10: 00-17:00",
+    "operator": "Amt für Kultur",
+    "phone": "+41812541160",
+    "id": "node/12330545201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5326813,
+      46.8513612
+    ]
+  }
 }
 ]
 }
