@@ -57732,6 +57732,26 @@
 },
 {
   "type": "Feature",
+  "id": "node/9091340917",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Ausserhalb des Volg-Gebäudes, rechts neben dem Volg- Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9091340917"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6491018,
+      47.6260431
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9095078517",
   "properties": {
     "access": "yes",
@@ -123621,6 +123641,50 @@
     "coordinates": [
       9.5331715,
       46.8513552
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12334672401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Cafe/Bar Riva",
+    "description": "Frei zugänglich, hinter dem Haus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/12334672401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4640963,
+      46.9437763
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12334677601",
+  "properties": {
+    "defibrillator:location": "Klinik Barmelweid",
+    "description": "24 Stunden",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Klinik Barmelweid",
+    "phone": "+41628572111",
+    "id": "node/12334677601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9718106,
+      47.4212358
     ]
   }
 }
