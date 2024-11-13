@@ -47179,15 +47179,17 @@
   "type": "Feature",
   "id": "node/10175173858",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Im Untergeschoss, links vom Herren WC an der Wand befestigt",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "-1",
+    "level": "0",
+    "opening_hours": "24/7",
     "operator": "Manuel Widmer",
     "phone": "+41 44 782 01 01",
+    "wheelchair": "limited",
     "id": "node/10175173858"
   },
   "geometry": {
