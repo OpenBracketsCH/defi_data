@@ -184343,6 +184343,53 @@
       46.9478342
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/12339677301",
+  "properties": {
+    "defibrillator:location": "Merck (Schweiz) AG, Chamerstrasse 174, 6300 Zug",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Th 08:00-16:00, Fr 08:00-12:00",
+    "phone": "+41 41 729 22 22",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12339677301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.485136,
+      47.1813855
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12339680001",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Prodega Markt, Lochackerweg 5. 3302 Moosseedorf",
+    "description": "Während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo-Fr\n07:00-18:00",
+    "operator": "Prodega Markt",
+    "phone": "+41318584888",
+    "id": "node/12339680001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4691943,
+      47.0126248
+    ]
+  }
 }
 ]
 }
