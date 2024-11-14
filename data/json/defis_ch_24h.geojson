@@ -27313,8 +27313,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3092575,
-      46.9840992
+      8.3093246,
+      46.984112
     ]
   }
 },
@@ -27323,18 +27323,20 @@
   "id": "node/7637818933",
   "properties": {
     "access": "yes",
-    "description": "Linke Seite Haupteingang / 2. Gerät bei der Physio",
+    "defibrillator:location": "Standort;Haupteingang links, rechte Seite bei Lifttüren, an der Wand/ 2. Gerät bei der Physio",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Seniorenzentrum Zwyden",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Hergiswil",
     "id": "node/7637818933"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3096978,
-      46.9877481
+      8.3096079,
+      46.9876971
     ]
   }
 },
@@ -123833,6 +123835,53 @@
     "coordinates": [
       8.3580852,
       46.5348273
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12339162701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Huplant AG, Holzikerstrasse 11, 5042 Hirschthal",
+    "description": "24h verfügbar, gegenüber Einfahrt Haupteingang, neben Briefkästen, linke Seite des Gebäudes",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Huplant Pflanzenkulturen AG",
+    "phone": "+41 62 739 11 11",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12339162701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0437946,
+      47.3183086
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12339185901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "beim Kreisel Autobahnausfahrt A2 Hergiswil, Gasthaus Schlüssel, Parkplatz an der Wand ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Hergiswil",
+    "phone": "+41 41 632 65 83",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12339185901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3112967,
+      46.9976413
     ]
   }
 }

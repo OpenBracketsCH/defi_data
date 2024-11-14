@@ -24,8 +24,12 @@
   "type": "Feature",
   "id": "node/3608449220",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Standort;Eingang COOP/ RAV, rechts neben der Treppe an der Wand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde Hergiswil",
     "wheelchair": "yes",
     "id": "node/3608449220"
   },
@@ -700,37 +704,22 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637818924",
-  "properties": {
-    "description": "Eingang zum RAV, neben dem Eingang des Coops",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Arbeitslosenkasse / RAV",
-    "id": "node/7637818924"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.3103487,
-      46.9816801
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637818925",
   "properties": {
-    "description": "Eingang",
+    "access": "yes",
+    "defibrillator:location": "Standort;Ecke Aussenfassade Nord, beim Veloständer.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "name": "Badi Hergiswil",
+    "operator": "Gemeinde Hergiswil",
     "id": "node/7637818925"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3138348,
-      46.9955699
+      8.3136079,
+      46.9955476
     ]
   }
 },
@@ -738,10 +727,14 @@
   "type": "Feature",
   "id": "node/7637818926",
   "properties": {
-    "description": "beim Hafenmeister",
+    "access": "yes",
+    "check_date": "2024-09-13",
+    "defibrillator:location": "An der Gebäudefassade Bootshafen Haus beim Eingang neben Anschlagskasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "name": "Bootshafen Hafenmeister-Haus",
+    "operator": "Gemeinde Hergiswil",
     "id": "node/7637818926"
   },
   "geometry": {
@@ -756,17 +749,20 @@
   "type": "Feature",
   "id": "node/7637818927",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim öffentlichen Anschlagkasten (in der Mitte) der Gemeinde Hergiswil",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "name": "Gemeindehaus",
+    "name": "Gemeindehaus Hergiswil",
+    "operator": "Gemeinde Hergiswil",
     "id": "node/7637818927"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.31471,
-      46.98905
+      8.3146667,
+      46.9890656
     ]
   }
 },
@@ -774,18 +770,20 @@
   "type": "Feature",
   "id": "node/7637818928",
   "properties": {
-    "description": "Eingang Loppersaal / Grossmatt",
+    "access": "yes",
+    "defibrillator:location": "Standort;Links neben der Aussenfassade, Eingang Loppersaal.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "name": "Loppersaal",
+    "operator": "Gemeinde Hergiswil",
     "id": "node/7637818928"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3107022,
-      46.9902483
+      8.3106077,
+      46.9902076
     ]
   }
 },
@@ -829,8 +827,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3092575,
-      46.9840992
+      8.3093246,
+      46.984112
     ]
   }
 },
@@ -838,17 +836,22 @@
   "type": "Feature",
   "id": "node/7637818931",
   "properties": {
-    "description": "Haupteingang Parterre",
+    "access": "yes",
+    "defibrillator:location": "Standort;Mittlerer Haupteingang des Gebäudes, an der Frontwand rechts. Der Haupteingang ist bis 22 Uhr, täglich geöffnet.",
+    "description": "Der Haupteingang ist bis 22 Uhr täglich geöffnet.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
     "name": "Rutishauser Auto- und Bootssattlerei",
+    "opening_hours": "Mo-Su 08:00-22:00",
     "id": "node/7637818931"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3084012,
-      46.9815158
+      8.308479,
+      46.9814774
     ]
   }
 },
@@ -875,18 +878,20 @@
   "id": "node/7637818933",
   "properties": {
     "access": "yes",
-    "description": "Linke Seite Haupteingang / 2. Gerät bei der Physio",
+    "defibrillator:location": "Standort;Haupteingang links, rechte Seite bei Lifttüren, an der Wand/ 2. Gerät bei der Physio",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Seniorenzentrum Zwyden",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Hergiswil",
     "id": "node/7637818933"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3096978,
-      46.9877481
+      8.3096079,
+      46.9876971
     ]
   }
 },
@@ -894,17 +899,20 @@
   "type": "Feature",
   "id": "node/7637818934",
   "properties": {
-    "description": "südlicher Zugang Sportplatz, Niveau Sportplatz",
+    "access": "yes",
+    "defibrillator:location": "Auf der rechten Seite der Glastüre \"Einstellhalle Dorf\", südlicher Zugang Sportplatz, Niveau Sportplatz",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "name": "Sportplatz Dorf",
+    "operator": "Gemeinde Hergiswil",
     "id": "node/7637818934"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3104934,
-      46.9852238
+      8.3105103,
+      46.985244
     ]
   }
 },
@@ -912,17 +920,20 @@
   "type": "Feature",
   "id": "node/7637818935",
   "properties": {
-    "description": "Pausenplatz, Eingang Ost",
+    "access": "yes",
+    "defibrillator:location": "Standort;Pausenplatz, Eingang Ost bei Treppe",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "name": "Sportplatz Matt",
+    "operator": "Gemeinde Hergiswil",
     "id": "node/7637818935"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.31139,
-      46.99321
+      8.3114617,
+      46.9932981
     ]
   }
 },
@@ -2319,6 +2330,29 @@
     "coordinates": [
       8.3822089,
       46.9652228
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12339185901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "beim Kreisel Autobahnausfahrt A2 Hergiswil, Gasthaus Schlüssel, Parkplatz an der Wand ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Hergiswil",
+    "phone": "+41 41 632 65 83",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12339185901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3112967,
+      46.9976413
     ]
   }
 }
