@@ -16826,6 +16826,7 @@
     "defibrillator:location": "Schalterraum Bahnstation Rigi Bahnen AG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "note": "Tel. 041 811 15 55",
     "opening_hours": "24/7",
     "operator": "Rigi Bahnen AG",
@@ -123926,6 +123927,28 @@
     "coordinates": [
       8.2962334,
       46.9903014
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12339549401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Feuerwehrlokal Kompanie Oberland, Tor 1",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Feuerwehr",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12339549401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2894663,
+      46.7407718
     ]
   }
 }
