@@ -123867,7 +123867,7 @@
   "id": "node/12339185901",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "beim Kreisel Autobahnausfahrt A2 Hergiswil, Gasthaus Schlüssel, Parkplatz an der Wand ",
+    "defibrillator:location": "beim Kreisel Autobahnausfahrt A2 Hergiswil, vor Unterführung Richtung Hirsernstrasse",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -123880,17 +123880,16 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3112967,
-      46.9976413
+      8.3111797,
+      46.9978617
     ]
   }
 },
 {
   "type": "Feature",
-  "id": "node/12339196701",
+  "id": "node/12339316801",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Schwandigaden am Gebäude an der Hauswand bei Treppe",
+    "defibrillator:location": "Schwandi, Schwandigaden bei Treppenaufstieg an der Aussenfassade Wand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -123898,13 +123897,35 @@
     "operator": "Gemeinde Hergiswil",
     "phone": "+41 41 632 65 83",
     "source": "local_knowledge, defikarte.ch",
-    "id": "node/12339196701"
+    "id": "node/12339316801"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2878435,
-      46.9874618
+      8.2878871,
+      46.9874953
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12339338201",
+  "properties": {
+    "defibrillator:location": "Aeschi, an der Nord Hausfassade",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Hergiswil",
+    "phone": "+41 41 632 65 83",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12339338201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2962334,
+      46.9903014
     ]
   }
 }
