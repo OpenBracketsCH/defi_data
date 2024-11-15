@@ -184437,6 +184437,54 @@
       46.9910991
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/12343285401",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Mitte von Werkhoareal ",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "Mo-Fr 06:00-17:00",
+    "operator": "Kopp Ag",
+    "phone": "+41323732373",
+    "id": "node/12343285401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2994808,
+      47.1064951
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12343313501",
+  "properties": {
+    "defibrillator:location": "Röntgenraum",
+    "description": "Während den Oeffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-TH 08:00-12:00, 13:30-17:00, Fr 08:00-12:00",
+    "operator": "Dr. Michel Schneider",
+    "phone": "+410435040300",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12343313501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5641485,
+      47.3488514
+    ]
+  }
 }
 ]
 }
