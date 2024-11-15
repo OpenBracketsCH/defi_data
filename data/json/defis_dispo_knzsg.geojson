@@ -20552,10 +20552,13 @@
   "type": "Feature",
   "id": "node/10697408762",
   "properties": {
-    "defibrillator:location": "Erdgeschoss",
+    "access": "yes",
+    "defibrillator:location": "Haus 1 Erdgeschoss",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-17:00",
+    "operator": "OST - Ostschweizer Fachhochschule",
     "id": "node/10697408762"
   },
   "geometry": {
@@ -30361,6 +30364,48 @@
     "coordinates": [
       9.1886687,
       47.4189266
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12343837258",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haus 2 Erdgeschoss",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-17:00",
+    "operator": "OST - Ostschweizer Fachhochschule",
+    "id": "node/12343837258"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4729554,
+      47.1727638
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12343849902",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haus 3 Erdgeschoss",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-17:00",
+    "operator": "OST - Ostschweizer Fachhochschule",
+    "id": "node/12343849902"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4729046,
+      47.1732358
     ]
   }
 }
