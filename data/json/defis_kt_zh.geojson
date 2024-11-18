@@ -18196,10 +18196,12 @@
   "type": "Feature",
   "id": "node/8811163706",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "neben Eingang Gemeindesaal",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Buchs ZH",
     "phone": "+41 44 847 75 00",
@@ -18221,7 +18223,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:30-11:30, 13:30-18:30",
+    "opening_hours": "Mo 08:30-11:30, 13:30-18:30; Tu-Th 08:30-11:30, 13:30-16:30; Fr 07:00-13:00",
     "operator": "Gemeinde Buchs ZH",
     "phone": "+41 44 847 75 00",
     "id": "node/8811163707"
