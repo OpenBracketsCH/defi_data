@@ -184769,6 +184769,55 @@
       47.467843
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/12351292501",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Tödistrasse 46/48",
+    "description": "Go to 3rd floor. Please call so we can give you access to the AED. (Limited access due to building access restrictions. )",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "3",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "CDR-Life AG",
+    "phone": "+41445154691",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12351292501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5839969,
+      47.2602609
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12351319401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bei der Firma Hostettler-Spezialzucker AG",
+    "description": "Verfügbar im Büro der Produktionsleitung",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-17:00",
+    "operator": "Hostettler-Spezialzucker AG",
+    "phone": "+41 44 439 10 10",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12351319401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1934673,
+      47.3918672
+    ]
+  }
 }
 ]
 }
