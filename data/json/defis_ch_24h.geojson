@@ -124166,6 +124166,54 @@
       46.4521131
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/12355091801",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Basler Personenschifffahrt AG",
+    "description": "während Betriebszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "24/7",
+    "operator": "Firma",
+    "phone": "+41616399500",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12355091801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5893265,
+      47.5879022
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12355188901",
+  "properties": {
+    "defibrillator:location": "Glattalstrasse 520. Beim linken Big Kaiser Gebäude, links hinter dem Haus die Treppe hoch. Klingeln ",
+    "description": "Privathaushalt, Ankündigung per 0793867082 oder klingeln bei Rogantiini",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "24/7",
+    "operator": "Privatperson (First Responder) ",
+    "phone": "+41793867082",
+    "id": "node/12355188901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5345468,
+      47.4378883
+    ]
+  }
 }
 ]
 }
