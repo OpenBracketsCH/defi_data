@@ -12127,27 +12127,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9784667499",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Matterhaus EG, beim Eingang zu Toiletten (bei Pfarrkirche St. Goar)",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Kath. Pfarramt, Muri AG",
-    "id": "node/9784667499"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.3377513,
-      47.2726905
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9784670958",
   "properties": {
     "access": "yes",
@@ -26181,10 +26160,14 @@
   "type": "Feature",
   "id": "node/12202408755",
   "properties": {
-    "defibrillator:location": "Im Vorraum zu den Toiletten",
+    "access": "yes",
+    "defibrillator:location": "\"Matterhaus\", Friedhofweg 2, Eingang öffentliche Toilette.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Kath. Kirchgemdeinde Muri",
     "id": "node/12202408755"
   },
   "geometry": {
