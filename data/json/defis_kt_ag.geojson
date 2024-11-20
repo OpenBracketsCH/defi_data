@@ -23421,7 +23421,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 06:30-22:00",
+    "opening_hours": "Mo-Fr 06:15-21:30 oder während Anlässen",
     "operator": "Berufsschule Lenzburg, Marco Schüepp, Tel. +41 62 885 39 80",
     "phone": "+41 62 885 39 80",
     "source": "local_knowledge, defikarte.ch",
@@ -26670,6 +26670,30 @@
     "coordinates": [
       8.0842638,
       47.373797
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12358395701",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Zentrallager 2.Boden, Wareneingang neben Kaffeeautomat",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-17:00",
+    "operator": "Möbel Pfister AG",
+    "phone": "+41 62 855 40 09",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12358395701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0847895,
+      47.3763826
     ]
   }
 }
