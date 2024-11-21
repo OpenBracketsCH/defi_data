@@ -122647,11 +122647,9 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "25",
     "opening_hours": "24/7",
     "operator": "Commune de Crans - Sinner Laurent, responsable bâtiments",
     "phone": "+41 79 250 88 59",
-    "source": "local_knowledge, defikarte.ch",
     "id": "node/12293351801"
   },
   "geometry": {
@@ -122672,11 +122670,9 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "25",
     "opening_hours": "24/7",
     "operator": "Commune de Crans",
     "phone": "+41 79 250 88 59",
-    "source": "local_knowledge, defikarte.ch",
     "id": "node/12293390701"
   },
   "geometry": {
@@ -123683,15 +123679,12 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Gemeindehaus Volken, Seiteneingang",
-    "description": "dauernd verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "00",
     "opening_hours": "24/7",
     "operator": "Gemeinde Volken",
     "phone": "+41 52 318 19 04",
-    "source": "local_knowledge, defikarte.ch",
     "id": "node/12336733501"
   },
   "geometry": {
@@ -124281,6 +124274,71 @@
     "coordinates": [
       7.7694789,
       46.6895613
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12361593201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Feuerwehr Schuppen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/12361593201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4353567,
+      47.1372185
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12361659001",
+  "properties": {
+    "defibrillator:location": "Eingang Kundenhalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Raiffeisenbank Sarganserland, 8887 Mels",
+    "phone": "+41 81 725 38 38",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12361659001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.418577,
+      47.0458922
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12361677901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hölzilstrasse 1",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Metrohm AG",
+    "phone": "+41 79 649 52 99",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12361677901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2708784,
+      47.3882173
     ]
   }
 }
