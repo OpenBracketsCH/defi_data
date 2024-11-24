@@ -31902,6 +31902,7 @@
   "id": "node/7798131763",
   "properties": {
     "access": "yes",
+    "check_date": "2024-10-27",
     "defibrillator:location": "Am Haus",
     "description": "gemäss Lageplan",
     "emergency": "defibrillator",
@@ -31923,6 +31924,7 @@
   "id": "node/7798131764",
   "properties": {
     "access": "yes",
+    "check_date": "2024-10-27",
     "defibrillator:location": "Am Haus",
     "description": "gemäss Lageplan",
     "emergency": "defibrillator",
@@ -124485,6 +124487,52 @@
     "coordinates": [
       8.954822,
       46.036961
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12369765501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kirchgemeindehaus Oberwinterthur",
+    "description": "links vom Haupteingang unter Vordach",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Reformierte Kirche Oberwinterthur",
+    "phone": "+41 52 242 24 56",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12369765501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7554929,
+      47.5069453
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12369798801",
+  "properties": {
+    "defibrillator:location": "Estavannens Village d'En bas",
+    "description": "mur exterieur école primaire",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "54",
+    "opening_hours": "24/7",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12369798801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1029562,
+      46.5628808
     ]
   }
 }
