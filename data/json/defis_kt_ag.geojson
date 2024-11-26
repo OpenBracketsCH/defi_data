@@ -437,17 +437,19 @@
   "properties": {
     "access": "yes",
     "addr:city": "Rheinfelden",
+    "addr:country": "Roberstenstrasse",
     "addr:housenumber": "41",
     "addr:postcode": "4310",
     "addr:street": "Roberstenstrasse",
-    "defibrillator:location": "Stadtpark Ost",
+    "defibrillator:location": "Stadtpark Ost bei der WC Anlage auf der Westseite",
     "description": "Hinter WC Anlage",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Stadt Rheinfelden",
-    "phone": "+41 61 835 52 45",
+    "phone": "+41 61 835 51 11",
+    "postal_code": "4310 Rheinfelden",
     "id": "node/7049195212"
   },
   "geometry": {
@@ -4438,20 +4440,23 @@
   "id": "node/8771003117",
   "properties": {
     "access": "yes",
+    "addr:housenumber": "Riburgerstrasse 6",
     "defibrillator:location": "Werkhof Rheinfelden",
     "description": "am Eingangstor - rechts davon",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "gemeinde",
+    "operator": "Stadt Rheinfelden",
+    "phone": "+41 61 835 51 11",
+    "postal_code": "4310 Rheinfelden",
     "id": "node/8771003117"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.8056754,
-      47.5536762
+      7.8055555,
+      47.5536556
     ]
   }
 },
@@ -4504,14 +4509,16 @@
   "id": "node/8794177117",
   "properties": {
     "access": "yes",
+    "addr:housenumber": "Fröschweid 13",
     "defibrillator:location": "Parkhaus Rhein Parking",
-    "description": "Einfahrt Rhein",
+    "description": "Einfahrt Rheinparking",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Stadt Rheinfelden",
     "phone": "+41 61 835 51 11",
+    "postal_code": "4310 Rheinfelden",
     "ref": "Parkhaus",
     "id": "node/8794177117"
   },
@@ -5689,13 +5696,19 @@
   "type": "Feature",
   "id": "node/8995144917",
   "properties": {
-    "defibrillator:location": "Migros Supermarkt",
+    "access": "yes",
+    "addr:housenumber": "Lindenstrasse 3",
+    "addr:street": "Lindenstrasse 3",
+    "defibrillator:location": "Migros im 1. OG Musikschule",
     "description": "während den Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-We 08:00-19:00; Th,Fr 08:00-20:00; Sa 07:30-18:00",
-    "operator": "Migros",
+    "level": "1",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Stadt Rheinfelden",
+    "phone": "+41 61 835 51 11",
+    "postal_code": "4310 Rheinfelden",
     "id": "node/8995144917"
   },
   "geometry": {
@@ -8090,13 +8103,15 @@
   "id": "node/9045529037",
   "properties": {
     "access": "yes",
+    "addr:housenumber": "Hauptwachplatz 6",
     "defibrillator:location": "Mädchenschulhaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Stadt Rheinfelden",
-    "phone": "+41 61 835 52 45",
+    "phone": "+41 61 835 51 11",
+    "postal_code": "4310 Rheinfelden",
     "id": "node/9045529037"
   },
   "geometry": {
@@ -8112,6 +8127,8 @@
   "id": "node/9045529039",
   "properties": {
     "access": "yes",
+    "addr:housenumber": "Kaiserstrasse 18",
+    "addr:street": "Kaiserstrasse 18",
     "defibrillator:location": "Primarschulhaus Schützenmatt",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -8119,6 +8136,8 @@
     "opening_hours": "24/7",
     "operator": "Stadt Rheinfelden",
     "phone": "+41 61 835 51 11",
+    "post_office": "4310 Rheinfelden",
+    "postal_code": "4310 Rheinfelden",
     "id": "node/9045529039"
   },
   "geometry": {
@@ -8134,20 +8153,22 @@
   "id": "node/9045529040",
   "properties": {
     "access": "yes",
+    "addr:housenumber": "Riburgerstrasse 8",
     "defibrillator:location": "Waldfriedhof",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Stadt Rheinfelden",
-    "phone": "+41 61 835 52 45",
+    "phone": "+41 61 835 51 11",
+    "postal_code": "4310 Rheinfelden",
     "id": "node/9045529040"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.8065609,
-      47.5546596
+      7.8065591,
+      47.5546584
     ]
   }
 },
@@ -8178,20 +8199,22 @@
   "id": "node/9045529043",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "FC Rheinfelden Clubhaus",
+    "addr:housenumber": "Engerfeldstrasse",
+    "defibrillator:location": "FC Rheinfelden Clubhaus 1 Haupteingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Stadt Rheinfelden",
-    "phone": "+41 61 835 52 45",
+    "phone": "+41 61 835 51 11",
+    "postal_code": "4310 Rheinfelden",
     "id": "node/9045529043"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
       7.8054163,
-      47.5481497
+      47.5481461
     ]
   }
 },
@@ -8200,20 +8223,22 @@
   "id": "node/9045529044",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "WC Stadtpark West",
+    "addr:housenumber": "Herrmann Keller Strasse / Rheinweg",
+    "defibrillator:location": "WC Stadtpark West bei der WC Anlage",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Stadt Rheinfelden",
-    "phone": "+41 61 835 52 45",
+    "phone": "+41 61 835 51 11",
+    "postal_code": "4310 Rheinfelden",
     "id": "node/9045529044"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7968195,
-      47.5560022
+      7.7967275,
+      47.5560822
     ]
   }
 },
@@ -12430,10 +12455,15 @@
   "type": "Feature",
   "id": "node/9846873079",
   "properties": {
+    "access": "customers",
+    "addr:housenumber": "Habich-Dietschy-Strasse 14",
     "defibrillator:location": "in der Garderobe",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "operator": "Stadt Rheinfelden",
+    "phone": "+41 61 835 51 11",
+    "postal_code": "4310 Rheinfelden",
     "id": "node/9846873079"
   },
   "geometry": {
@@ -16741,10 +16771,8 @@
   "id": "node/10725516529",
   "properties": {
     "access": "yes",
-    "activation": "power_outage;electricity;phone_breakdown",
     "addr:city": "Rheinfelden",
-    "addr:housenumber": "6",
-    "addr:postcode": "4310",
+    "addr:housenumber": "Schützenweg 6",
     "addr:street": "Schützenweg",
     "check_date": "2023-03-09",
     "defibrillator:location": "Turnhalle Schützenweg",
@@ -16752,10 +16780,10 @@
     "emergency:phone": "144",
     "indoor": "no",
     "name": "Rheinfelden Turnhalle Schützenweg",
+    "opening_hours": "24/7",
     "operator": "Stadt Rheinfelden",
-    "source": "local knowledge",
-    "temporary": "yes",
-    "website": "https://www.notfalltreffpunkt.ch/",
+    "phone": "+41 61 835 51 11",
+    "postal_code": "4310 Rheinfelden",
     "id": "node/10725516529"
   },
   "geometry": {
@@ -18977,15 +19005,16 @@
   "id": "node/10844035205",
   "properties": {
     "access": "yes",
+    "addr:housenumber": "Engerfeldstrasse 18",
+    "addr:postcode": "4310 Rheinfelden",
     "defibrillator:location": "Schulhaus Engerfeld",
     "description": "Neben Eingangstüre",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Liegenschaftsverwaltung Rheinfelden",
-    "phone": "+41618368635",
-    "source": "local_knowledge, defikarte.ch",
+    "operator": "Stadt Rheinfelden",
+    "phone": "+41 61 835 51 11",
     "id": "node/10844035205"
   },
   "geometry": {
@@ -19001,6 +19030,8 @@
   "id": "node/10844041105",
   "properties": {
     "access": "yes",
+    "addr:housenumber": "Engerfeldstrasse 18",
+    "addr:postcode": "4310 Rheinfelden",
     "defibrillator:location": "Vor Sporthalle",
     "description": "während Öffnungszeiten / Schulzeiten",
     "emergency": "defibrillator",
@@ -19008,16 +19039,15 @@
     "indoor": "yes",
     "level": "-1",
     "opening_hours": "07:30-22:00",
-    "operator": "Liegenschaftsverwaltung Rheinfelden",
-    "phone": "+41618368635",
-    "source": "local_knowledge, defikarte.ch",
+    "operator": "Stadt Rheinfelden",
+    "phone": "+41 61 835 51 11",
     "id": "node/10844041105"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.8025219,
-      47.5478348
+      7.8025184,
+      47.547836
     ]
   }
 },
@@ -26795,14 +26825,16 @@
   "id": "node/12375668701",
   "properties": {
     "access": "permissive",
+    "addr:housenumber": "Marktgasse 16",
     "defibrillator:location": "Rathaus Innenhof unter der Treppe im Hauswartsraum",
     "description": "Während den Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Gemeinde Rheinfelden",
-    "phone": "+41 61 835 52 60",
-    "source": "local_knowledge, defikarte.ch",
+    "phone": "+41 61 835 51 11",
+    "postal_code": "4310 Rheinfelden",
     "id": "node/12375668701"
   },
   "geometry": {
@@ -26810,6 +26842,52 @@
     "coordinates": [
       7.7932227,
       47.5554669
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12375682150",
+  "properties": {
+    "access": "yes",
+    "addr:housenumber": "Waldhofstrasse 34",
+    "defibrillator:location": "Schulhaus Augarten beim Haupteingang",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadt Rheinfelden",
+    "phone": "+41 61 835 51 11",
+    "postal_code": "4310 Rheinfelden",
+    "id": "node/12375682150"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7674307,
+      47.5478521
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12375738325",
+  "properties": {
+    "access": "yes",
+    "addr:housenumber": "Carl-Güntert-Strasse 2",
+    "defibrillator:location": "Robersten Schulhaus, Carl Güntert Strasse beim Nebeneingang EG unter der Treppe",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadt Rheinfelden",
+    "phone": "+41 61 835 51 11",
+    "postal_code": "4310 Rheinfelden",
+    "id": "node/12375738325"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8024059,
+      47.5572923
     ]
   }
 }
