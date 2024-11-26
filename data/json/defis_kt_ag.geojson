@@ -4511,6 +4511,7 @@
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Stadt Rheinfelden",
+    "phone": "+41 61 835 51 11",
     "ref": "Parkhaus",
     "id": "node/8794177117"
   },
@@ -7340,12 +7341,12 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Beim Eingang Roter Pavillon",
-    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Stadt Rheinfelden",
-    "phone": "+41 62 835 35 00",
+    "phone": "061 835 51 11",
     "ref": "Schulhaus Schützenmatt",
     "id": "node/9045229719"
   },
@@ -8117,7 +8118,7 @@
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Stadt Rheinfelden",
-    "phone": "+41 61 835 52 45",
+    "phone": "+41 61 835 51 11",
     "id": "node/9045529039"
   },
   "geometry": {
@@ -26786,6 +26787,29 @@
     "coordinates": [
       7.9298373,
       47.2785534
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12375668701",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Rathaus Innenhof unter der Treppe im Hauswartsraum",
+    "description": "Während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Rheinfelden",
+    "phone": "+41 61 835 52 60",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12375668701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7932227,
+      47.5554669
     ]
   }
 }
