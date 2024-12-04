@@ -432,22 +432,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6743900985",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/6743900985"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.2195547,
-      47.0067437
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6743908485",
   "properties": {
     "access": "yes",
@@ -457,6 +441,7 @@
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
+    "operator": "Pro Eigenthal Schwarzenberg",
     "wheelchair": "no",
     "id": "node/6743908485"
   },
@@ -3605,10 +3590,15 @@
   "type": "Feature",
   "id": "node/7637818480",
   "properties": {
-    "defibrillator:location": "Eingang Mehrzweckhalle, weisse Mauer",
+    "access": "yes",
+    "defibrillator:location": "Eingang Mehrzweckhalle, an der weissen Mauer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
     "name": "Gemeinde Schwarzenberg",
+    "opening_hours": "24/7",
+    "operator": "Pro Eigenthal Schwarzenberg",
     "id": "node/7637818480"
   },
   "geometry": {
