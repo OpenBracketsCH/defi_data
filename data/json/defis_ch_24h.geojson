@@ -123974,7 +123974,7 @@
   "type": "Feature",
   "id": "node/12339338201",
   "properties": {
-    "defibrillator:location": "Aeschi, an der Nord Hausfassade",
+    "defibrillator:location": "Aeschi, an Fassade Stall bei Verteilkasten nordseitig",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -125686,6 +125686,29 @@
     "coordinates": [
       7.1095224,
       46.8219967
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12411880795",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Standort;Beim Empfang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "name": "Seniorenzentrum Zwyden",
+    "opening_hours": "24/7",
+    "operator": "Privat",
+    "id": "node/12411880795"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3092524,
+      46.9880331
     ]
   }
 }
