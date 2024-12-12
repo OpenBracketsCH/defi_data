@@ -16682,31 +16682,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6641800661",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Bern",
-    "addr:housenumber": "30",
-    "addr:postcode": "3014",
-    "addr:street": "Dufourstrasse",
-    "defibrillator:location": "Bei Eingangstür",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Schweizerische Herzstiftung",
-    "phone": "+41 31 388 80 80",
-    "id": "node/6641800661"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.453851,
-      46.9414074
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6641800663",
   "properties": {
     "access": "permissive",
@@ -37928,7 +37903,10 @@
   "id": "node/9376215931",
   "properties": {
     "access": "permissive",
-    "addr:full": "Fellerstrasse 22, 3027 Bern",
+    "addr:city": "Bern",
+    "addr:housenumber": "22",
+    "addr:postcode": "3027",
+    "addr:street": "Fellerstrasse",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "operator": "Schulhaus Tscharnergut",
@@ -39165,10 +39143,9 @@
   "id": "node/9406921984",
   "properties": {
     "access": "permissive",
-    "defibrillator:location": "AED befindet sich zwischen dem Bistro und Hauptausgang zur Skipiste/Wanderwege",
+    "defibrillator:location": "Zwischen Bistro und Hauptausgang zur Skipiste/Wanderwege",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
     "opening_hours": "Mo-Su 08:00-17:00",
     "operator": "Bergstation EigerExpress Eigergletscher",
     "phone": "+41 33 828 71 11",
@@ -39177,8 +39154,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.9755745,
-      46.5754415
+      7.9748038,
+      46.575028
     ]
   }
 },
@@ -42442,23 +42419,6 @@
     "coordinates": [
       7.4369102,
       46.9962343
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10131031648",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "id": "node/10131031648"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.9747679,
-      46.5750063
     ]
   }
 },
@@ -57442,6 +57402,30 @@
     "coordinates": [
       7.6526901,
       46.5893187
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12416844412",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:postcode": "3015",
+    "addr:street": "Jupiterstrasse 15",
+    "defibrillator:location": "Beim Kundendienst melden",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "Mo-Fr 08:00-19:00, Sa 08:00-17:00",
+    "operator": "Migros Aare",
+    "phone": "+41 58 567 65 00",
+    "id": "node/12416844412"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.481123,
+      46.9393101
     ]
   }
 }
