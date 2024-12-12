@@ -49415,8 +49415,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7808577,
-      47.2046643
+      7.780873,
+      47.2046712
     ]
   }
 },
@@ -55536,7 +55536,7 @@
   "type": "Feature",
   "id": "node/12204944701",
   "properties": {
-    "defibrillator:location": "Gasthof Löwen  6197 Schangnau",
+    "defibrillator:location": "Gasthof Löwen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -55549,8 +55549,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.860851,
-      46.8277235
+      7.8608808,
+      46.8277269
     ]
   }
 },
@@ -57426,6 +57426,52 @@
     "coordinates": [
       7.481123,
       46.9393101
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12417213195",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Langenthal",
+    "addr:housenumber": "12",
+    "addr:postcode": "4900",
+    "addr:street": "Bleienbachstrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Marti`s Dance - Factory",
+    "phone": "+41 62 922 30 63",
+    "id": "node/12417213195"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7817867,
+      47.2047851
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12417213196",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:postcode": "3007",
+    "addr:street": "Schwarztorstrasse 18",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Schweizerische Herzstiftung",
+    "phone": "+41 31 388 80 80",
+    "id": "node/12417213196"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4351514,
+      46.9435537
     ]
   }
 }
