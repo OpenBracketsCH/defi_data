@@ -5221,7 +5221,7 @@
     "defibrillator:location": "Hotel Handeck: Hausecke Talseite in Aussenkasten Verfügbar Juni - Oktober!",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "Jun-Oct",
+    "opening_hours": "Jun-Oct 07:00-23:00",
     "operator": "Kraftwerke Oberhasli AG (KWO)",
     "phone": "+41 33 982 29 11",
     "id": "node/6564797303"
@@ -57275,6 +57275,173 @@
     "coordinates": [
       7.4531454,
       46.9421953
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12416688614",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bienne",
+    "addr:housenumber": "60",
+    "addr:postcode": "2504",
+    "addr:street": "Länggasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00",
+    "operator": "BIEN-AIR DENTAL SA",
+    "phone": "+41 32 805 77 27",
+    "id": "node/12416688614"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2751093,
+      47.1513677
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12416688615",
+  "properties": {
+    "access": "private",
+    "addr:city": "Schangnau",
+    "addr:postcode": "6197",
+    "addr:street": "Feuerwehrmagazin",
+    "defibrillator:location": "nicht öffentlich, mit Schloss gesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "SV Schangnau",
+    "phone": "+41 34 493 39 50",
+    "id": "node/12416688615"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8947794,
+      46.81371
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12416688616",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Zimmerwald",
+    "addr:housenumber": "5",
+    "addr:postcode": "3086",
+    "addr:street": "Kirchstrasse",
+    "defibrillator:location": "Im Gebäude, Haupteingang benutzen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "Mo-Fr 08:00-12:00, 14:00-17:00",
+    "operator": "Ersparniskasse (Rüeggisberg) Zimmerwald",
+    "phone": "+41 31 808 17 77",
+    "id": "node/12416688616"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4712422,
+      46.8810697
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12416688617",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Rüeggisberg",
+    "addr:housenumber": "19",
+    "addr:postcode": "3088",
+    "addr:street": "Dorfstrasse",
+    "defibrillator:location": "Im Gebäude, Haupteingang benutzen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "Mo-Fr 08:00-12:00, 14:00-17:00",
+    "operator": "Ersparniskasse Rüeggisberg",
+    "phone": "+41 31 808 17 77",
+    "id": "node/12416688617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4423815,
+      46.8217781
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12416753176",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:postcode": "3011",
+    "addr:street": "Aarbergergasse 30",
+    "defibrillator:location": "nur während den Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Kitag Kino City",
+    "phone": "+41 44 225 25 50",
+    "id": "node/12416753176"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4428605,
+      46.9497931
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12416753177",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Merligen",
+    "addr:housenumber": "294",
+    "addr:postcode": "3658",
+    "addr:street": "Seestrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Seebad",
+    "id": "node/12416753177"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7373446,
+      46.6970521
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12416753178",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Frutigen",
+    "addr:housenumber": "11",
+    "addr:postcode": "3714",
+    "addr:street": "Parallelstrasse",
+    "defibrillator:location": "Eingangsbereich Parallelstrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "Mo-Sa 07:00-17:00",
+    "operator": "BLS Netz AG",
+    "phone": "+41 583273223",
+    "id": "node/12416753178"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6526901,
+      46.5893187
     ]
   }
 }
