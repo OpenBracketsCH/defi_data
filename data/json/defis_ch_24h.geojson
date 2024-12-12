@@ -58297,7 +58297,7 @@
   "type": "Feature",
   "id": "node/9112746806",
   "properties": {
-    "access": "disabled",
+    "access": "yes",
     "defibrillator:location": "Östlich auf der Seite der Bannstrasse beim Velounterstand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -125779,6 +125779,34 @@
     "coordinates": [
       8.7920773,
       47.4998112
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12415043571",
+  "properties": {
+    "access": "yes",
+    "addr:housenumber": "96",
+    "addr:street": "Rotfluhstrasse",
+    "defibrillator:location": "Unter ehemals Telefonkabine",
+    "description": "Grüner Kasten Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "+41800122144",
+    "postal_code": "8702",
+    "ref": "1508LTS",
+    "id": "node/12415043571"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5753675,
+      47.3377719
     ]
   }
 }

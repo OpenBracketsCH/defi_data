@@ -31874,7 +31874,7 @@
   "type": "Feature",
   "id": "node/9112746806",
   "properties": {
-    "access": "disabled",
+    "access": "yes",
     "defibrillator:location": "Östlich auf der Seite der Bannstrasse beim Velounterstand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -84451,6 +84451,84 @@
     "coordinates": [
       8.7920773,
       47.4998112
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12415043571",
+  "properties": {
+    "access": "yes",
+    "addr:housenumber": "96",
+    "addr:street": "Rotfluhstrasse",
+    "defibrillator:location": "Unter ehemals Telefonkabine",
+    "description": "Grüner Kasten Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "+41800122144",
+    "postal_code": "8702",
+    "ref": "1508LTS",
+    "id": "node/12415043571"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5753675,
+      47.3377719
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12415075901",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "The Circle 62 LUNGE ZÜRICH, in Beratungsstelle",
+    "description": "Während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "7",
+    "opening_hours": "08:00-12:00, 13:00-17:00",
+    "operator": "Verein",
+    "phone": "+41 44 268 20 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12415075901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5667932,
+      47.4490158
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12415092501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Hertistrasse 31, LUNGE ZÜRICH, Sauerstoff- und Logistikzentrum Wallisellen",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo-Fr 8:00-12:00, 13:00-17:00",
+    "operator": "Verein",
+    "phone": "+41 44 268 20 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12415092501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5764813,
+      47.416491
     ]
   }
 }
