@@ -102133,19 +102133,24 @@
   "id": "node/11222004937",
   "properties": {
     "access": "yes",
+    "addr:city": "Tüscherz-Alfermée",
+    "addr:housenumber": "1",
+    "addr:postcode": "2512",
+    "addr:street": "Dorfstrasse",
     "defibrillator:location": "Tüscherz Bahnhof, links von den Toiletten am roten Gebäude (bergseitig)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Twann-Tüscherz",
+    "phone": "+41 32 315 03 30",
     "id": "node/11222004937"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.195884,
-      47.1143025
+      7.1957774,
+      47.1142363
     ]
   }
 },
@@ -105033,6 +105038,10 @@
   "id": "node/11366276570",
   "properties": {
     "access": "yes",
+    "addr:city": "Orpund",
+    "addr:housenumber": "12a",
+    "addr:postcode": "2552",
+    "addr:street": "Gottstattstrasse",
     "defibrillator:location": "Velohäuschen beim Gemeindehaus Orpund",
     "description": "immer zugänglich",
     "emergency": "defibrillator",
@@ -105057,7 +105066,7 @@
   "id": "node/11366280870",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Werkhof Oprund, Byfangstrasse 17 (Hausnummer auf Karte ist falsch)",
+    "defibrillator:location": "Werkhof Orpund, Byfangstrasse 17 (Hausnummer auf Karte ist falsch)",
     "description": "immer zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -110898,7 +110907,7 @@
   "id": "node/11716691969",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Halle am Riderbach, links vom Haupteingang, rechts vom Eingang zur Küche",
+    "defibrillator:location": "links vom Haupteingang, rechts vom Eingang zur Küche",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -112351,6 +112360,30 @@
     "coordinates": [
       9.2967027,
       46.5482987
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11780737169",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Posthaltestelle Willigen Dorf, Post-Hüttli",
+    "description": "Öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Schattenhalb",
+    "phone": "+41 33 971 16 26",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11780737169"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1921798,
+      46.7179969
     ]
   }
 },
@@ -113903,6 +113936,10 @@
   "id": "node/11876845970",
   "properties": {
     "access": "yes",
+    "addr:city": "Worblaufen",
+    "addr:housenumber": "129b",
+    "addr:postcode": "3048",
+    "addr:street": "Altikofenstrasse",
     "defibrillator:location": "MZR",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -126030,6 +126067,177 @@
 },
 {
   "type": "Feature",
+  "id": "node/12419793780",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Tramelan",
+    "addr:postcode": "2720",
+    "addr:street": "Le Jeanbrenin",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Le Jeanbrenin",
+    "phone": "+41 32 959 18 90",
+    "id": "node/12419793780"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1281928,
+      47.209732
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12419793781",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Tramelan",
+    "addr:housenumber": "4",
+    "addr:postcode": "2720",
+    "addr:street": "Chemin des Lovières",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Ceff Commerce",
+    "phone": "+41 76 512 45 68",
+    "id": "node/12419793781"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1058779,
+      47.2217229
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12419793782",
+  "properties": {
+    "access": "yes",
+    "addr:city": "St-Imier",
+    "addr:housenumber": "33",
+    "addr:postcode": "2610",
+    "addr:street": "Rue Baptiste Savoye",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Ceff direction",
+    "phone": "+41 76 512 45 68",
+    "id": "node/12419793782"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9926999,
+      47.1504923
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12419793783",
+  "properties": {
+    "access": "yes",
+    "addr:city": "St-Imier",
+    "addr:housenumber": "26",
+    "addr:postcode": "2610",
+    "addr:street": "Rue Baptiste Savoye",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Ceff Industrie",
+    "phone": "+41 765124568",
+    "id": "node/12419793783"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9925457,
+      47.1502296
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12419793784",
+  "properties": {
+    "access": "yes",
+    "addr:city": "St-Imier",
+    "addr:housenumber": "37",
+    "addr:postcode": "2610",
+    "addr:street": "Rue Pierre Jolissaint",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Ceff Industrie",
+    "phone": "+41 765124568",
+    "id": "node/12419793784"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9947404,
+      47.152241
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12419815442",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Péry",
+    "addr:postcode": "2603",
+    "addr:street": "Zone industrielle Rondchâtel",
+    "defibrillator:location": "Accroché au mur devant l'infirmerie à l'intérieur du bâtiment. Si la barrière de l'usine est fermée, sonner",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Vigier Ciment SA",
+    "phone": "+41796104183",
+    "id": "node/12419815442"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2495161,
+      47.1854398
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12419815443",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Steffisburg",
+    "addr:housenumber": "12",
+    "addr:postcode": "3612",
+    "addr:street": "Kirchbühlweg",
+    "defibrillator:location": "Eingang zur Turnhalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Turnhalle Kirchbühl",
+    "id": "node/12419815443"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6316078,
+      46.7832693
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12419862402",
   "properties": {
     "access": "yes",
@@ -126097,6 +126305,197 @@
     "coordinates": [
       6.9950013,
       47.1498338
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12419938845",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Valbirse",
+    "addr:housenumber": "28",
+    "addr:postcode": "2735",
+    "addr:street": "Rue du Lion d'Or",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Sylvac SA",
+    "phone": "+41 32 491 61 66",
+    "id": "node/12419938845"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2643573,
+      47.2380082
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12419938846",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Thun",
+    "addr:housenumber": "64",
+    "addr:postcode": "3604",
+    "addr:street": "Talackerstrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Primarschule Neufeld",
+    "id": "node/12419938846"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6129286,
+      46.7440413
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12419938847",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Courtelary",
+    "addr:housenumber": "65",
+    "addr:postcode": "2608",
+    "addr:street": "Grand-Rue",
+    "defibrillator:location": "devant l'entrée de la halle de gymnastique",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Collège Ecoles primaire et secondaire",
+    "phone": "+41 32 944 16 01",
+    "id": "node/12419938847"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0764127,
+      47.1801173
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12419938848",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Biel/Bienne",
+    "addr:postcode": "2503",
+    "addr:street": "Aegertenstrasse 34",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation Centre ASI - Foyer",
+    "phone": "+41 32 344 70 70",
+    "id": "node/12419938848"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2584219,
+      47.1238487
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12419938849",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Linden",
+    "addr:postcode": "3673",
+    "addr:street": "Schlegwegbad",
+    "defibrillator:location": "bei Eingangsloge",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Kaserne Jassbach",
+    "id": "node/12419938849"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6984161,
+      46.838356
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12419988574",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Tüscherz-Alfermée",
+    "addr:postcode": "2512",
+    "addr:street": "Oberdorf Alfermée",
+    "defibrillator:location": "Bushäuschen Alfermée",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Twann Tüscherz, Bushäuschen Alfermée",
+    "phone": "+41 32 315 03 30",
+    "id": "node/12419988574"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2034579,
+      47.1191074
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12419988576",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Burgdorf",
+    "addr:postcode": "3400",
+    "addr:street": "Kirchbergstrasse 19-25",
+    "defibrillator:location": "Im inneren des Areals",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Schwob Areal",
+    "phone": "+41 34 428 11 43",
+    "id": "node/12419988576"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6207566,
+      47.0616811
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12419988577",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Malleray",
+    "addr:housenumber": "74",
+    "addr:postcode": "2735",
+    "addr:street": "Grand Rue",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Affolter SA",
+    "phone": "032 491 61 66",
+    "id": "node/12419988577"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2667418,
+      47.2389305
     ]
   }
 }
