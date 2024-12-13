@@ -100441,8 +100441,11 @@
   "id": "node/11129491305",
   "properties": {
     "access": "yes",
+    "addr:city": "Fornet-Dessous",
+    "addr:housenumber": "46",
+    "addr:postcode": "2717",
+    "addr:street": "Fromagerie",
     "defibrillator:location": "Beside the entry door Fromagerie Amstutz",
-    "description": "Always accessible ",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -111518,11 +111521,17 @@
   "id": "node/11748487748",
   "properties": {
     "access": "yes",
+    "addr:city": "St-Imier",
+    "addr:housenumber": "12",
+    "addr:postcode": "2610",
+    "addr:street": "Rue Agassiz",
     "defibrillator:location": "outside, public access",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "level": "0",
     "opening_hours": "24/7",
+    "operator": "Ceff Santé Social",
+    "phone": "+41 765124568",
     "wheelchair": "yes",
     "id": "node/11748487748"
   },
@@ -119719,8 +119728,12 @@
   "id": "node/12120340701",
   "properties": {
     "access": "yes",
+    "addr:city": "Zweisimmen",
+    "addr:housenumber": "5",
+    "addr:postcode": "3770",
+    "addr:street": "Lischerengasse",
     "defibrillator:location": "Swisshelicopter / Rega",
-    "description": "An der Wand beim Auto-Unterstand",
+    "description": "Wand beim Auto-Unterstand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -119945,6 +119958,30 @@
     "coordinates": [
       8.5870572,
       47.3140741
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12127620501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Mehrzweckgebäude Eingangsbereich",
+    "description": "Eingangsbereich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Gurzelen",
+    "phone": "+41 33 346 81 81",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12127620501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5320935,
+      46.7785361
     ]
   }
 },
@@ -125988,6 +126025,78 @@
     "coordinates": [
       7.5184736,
       47.215315
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12419862402",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Wattenwil",
+    "addr:housenumber": "5a",
+    "addr:postcode": "3665",
+    "addr:street": "Grundbachstrasse",
+    "defibrillator:location": "Zwischen Kirche und Kirchgemeindehaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Kirchgemeinde Wattenwil-Forst",
+    "id": "node/12419862402"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5049241,
+      46.7704966
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12419862404",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Bellelay",
+    "addr:housenumber": "1",
+    "addr:postcode": "2713",
+    "addr:street": "Route des Genevez",
+    "defibrillator:location": "Entre les 2 bâtiments",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Commune de Saicoourt",
+    "phone": "+41 324812403",
+    "id": "node/12419862404"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.164934,
+      47.261997
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12419935352",
+  "properties": {
+    "access": "yes",
+    "addr:city": "St-Imier",
+    "addr:housenumber": "44",
+    "addr:postcode": "2610",
+    "addr:street": "Rue de la Clef",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Ceff Santé Social",
+    "id": "node/12419935352"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9950013,
+      47.1498338
     ]
   }
 }
