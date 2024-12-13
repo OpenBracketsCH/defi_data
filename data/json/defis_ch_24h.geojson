@@ -125893,6 +125893,103 @@
       47.4865513
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/12419464453",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Thun",
+    "addr:housenumber": "6",
+    "addr:postcode": "3600",
+    "addr:street": "Bahnhofstrasse",
+    "defibrillator:location": "beim Eingang, neben Briefkasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Geschäftshaus, Bahnhofstrasse 6",
+    "id": "node/12419464453"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6297031,
+      46.756083
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12419464462",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Steffisburg",
+    "addr:housenumber": "38",
+    "addr:postcode": "3612",
+    "addr:street": "Thunstrasse",
+    "defibrillator:location": "beim Haupteingang Altersheim",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Alterswohnen Glockenthal",
+    "id": "node/12419464462"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.630095,
+      46.7674346
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12419464463",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Leuzigen",
+    "addr:housenumber": "45",
+    "addr:postcode": "3297",
+    "addr:street": "Bürenstrasse",
+    "defibrillator:location": "neben der Eingangstüre",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Naturheilpraxis vita-libra",
+    "phone": "+41 792954787",
+    "id": "node/12419464463"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4484603,
+      47.1744219
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12419510401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An VK Regio Energie, Jurastrasse 11",
+    "description": "Zugang 24h",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadt Solothurn",
+    "phone": "+41 32 626 92 70",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12419510401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5184736,
+      47.215315
+    ]
+  }
 }
 ]
 }
