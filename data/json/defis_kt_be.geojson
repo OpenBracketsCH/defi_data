@@ -24144,7 +24144,7 @@
     "emergency:phone": "144",
     "opening_hours": "24/7",
     "operator": "Sportgeschäft Erb Gottfried",
-    "phone": "033 533 73 74",
+    "phone": "+41 33 533 73 74",
     "id": "node/6987098593"
   },
   "geometry": {
@@ -24919,32 +24919,6 @@
     "coordinates": [
       7.4022995,
       46.50666
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/6987948067",
-  "properties": {
-    "access": "permissive",
-    "addr:city": "Lenk im Simmental",
-    "addr:housenumber": "20",
-    "addr:postcode": "3775",
-    "addr:street": "Badstrasse",
-    "defibrillator:location": "BackOffice / Eingang Küche, Betriebszeiten des Hotels",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "\"Betriebszeiten des Hotels\"",
-    "operator": "Hotel Lenkerhof Resort",
-    "phone": "+41 33 736 36 36",
-    "id": "node/6987948067"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4366162,
-      46.4543024
     ]
   }
 },
@@ -58263,6 +58237,31 @@
     "coordinates": [
       7.6750412,
       46.9167208
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12422585736",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Kandersteg",
+    "addr:housenumber": "7",
+    "addr:postcode": "3718",
+    "addr:street": "Wagetiweg",
+    "defibrillator:location": "In der Rezeption des Hauptgebäudes des Pfadizentrums rechts am Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Internationales Pfadizentrum",
+    "phone": "+41 79 824 97 62",
+    "id": "node/12422585736"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6640582,
+      46.4831281
     ]
   }
 }
