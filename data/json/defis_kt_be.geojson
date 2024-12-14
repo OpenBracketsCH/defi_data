@@ -5724,9 +5724,11 @@
   "type": "Feature",
   "id": "node/6565703788",
   "properties": {
+    "access": "permissive",
     "addr:city": "Grindelwald",
     "addr:postcode": "3818",
     "addr:street": "Hellbachweg",
+    "defibrillator:location": "Büro Bademeister",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -6638,7 +6640,7 @@
   "type": "Feature",
   "id": "node/6565920762",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "addr:city": "Unterseen",
     "addr:housenumber": "39",
     "addr:postcode": "3800",
@@ -21315,7 +21317,7 @@
     "addr:housenumber": "112",
     "addr:postcode": "3656",
     "addr:street": "Aeschlenstrasse",
-    "defibrillator:location": "24h verfügbar, aussen am Feuerwehrmagazin Aeschlen",
+    "defibrillator:location": "aussen am Feuerwehrmagazin Aeschlen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
@@ -26601,24 +26603,24 @@
   "type": "Feature",
   "id": "node/7001070916",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "addr:city": "Emmenmatt",
-    "addr:housenumber": "24",
+    "addr:housenumber": "26",
     "addr:postcode": "3543",
     "addr:street": "Schüpbachstrasse",
-    "defibrillator:location": "Eingangsbereich Maurermagazin ( Bürocontainer )",
+    "defibrillator:location": "Haupteingang links",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "Mo-Fr 07:00-12:00,13:00-17:00",
-    "operator": "Firma GLB Magazin Maurerei",
-    "phone": "+41 34 408 17 15",
+    "opening_hours": "24/7",
+    "operator": "GLB",
+    "phone": "+41 34 496 20 20",
     "id": "node/7001070916"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7488154,
-      46.947847
+      7.7486411,
+      46.9477298
     ]
   }
 },
@@ -34256,7 +34258,7 @@
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Bahnhof",
-    "phone": "033 828 73 51",
+    "phone": "+41 33 828 73 51",
     "id": "node/8971620558"
   },
   "geometry": {
@@ -51853,30 +51855,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11499818068",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Sigriswil",
-    "addr:postcode": "3655",
-    "addr:street": "Raftstrasse 28",
-    "defibrillator:location": "24h verfügbar, aussen am Feuerwehrmagazin Sigriswil",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Feuerwehr Sigriswil",
-    "phone": "033 251 28 20",
-    "id": "node/11499818068"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.7088695,
-      46.7174111
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11499819121",
   "properties": {
     "access": "yes",
@@ -51907,19 +51885,19 @@
     "addr:city": "Sigriswil",
     "addr:postcode": "3655",
     "addr:street": "Raftstrasse 28",
-    "defibrillator:location": "24h verfügbar - Aussen am Feuerwehrmagazin",
+    "defibrillator:location": "Aussen am Feuerwehrmagazin",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
     "operator": "Feuerwehr Sigriswil",
-    "phone": "033 251 28 20",
+    "phone": "+41 33 251 28 20",
     "id": "node/11499832969"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7087844,
-      46.7173617
+      7.708484,
+      46.7174776
     ]
   }
 },
@@ -58211,6 +58189,80 @@
     "coordinates": [
       7.7477533,
       46.9751796
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12422554126",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Grindelwald",
+    "addr:housenumber": "67",
+    "addr:postcode": "3818",
+    "addr:street": "Grundstrasse",
+    "defibrillator:location": "Hauswand strassenseitig",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Werkhof Grindelwald",
+    "phone": "+41 33 854 14 14",
+    "id": "node/12422554126"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0267777,
+      46.6206375
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12422554166",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Biglen",
+    "addr:postcode": "3507",
+    "addr:street": "Bahnhofstrasse",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Drogerie Fehr",
+    "phone": "+41 76 512 54 89",
+    "id": "node/12422554166"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6284399,
+      46.9252747
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12422554167",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Oberthal",
+    "addr:housenumber": "56a",
+    "addr:postcode": "3531",
+    "addr:street": "Reutegraben",
+    "defibrillator:location": "-",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Alte Schreinerei",
+    "id": "node/12422554167"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6750412,
+      46.9167208
     ]
   }
 }
