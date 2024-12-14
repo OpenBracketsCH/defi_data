@@ -34928,11 +34928,17 @@
   "id": "node/7934292446",
   "properties": {
     "access": "yes",
+    "addr:city": "Bern",
+    "addr:housenumber": "10",
+    "addr:postcode": "3001",
+    "addr:street": "Rainmattstrasse",
     "defibrillator:location": "Draussen links vor dem Tor",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Schweizerisches Rotes Kreuz - Geschäftsstelle Bern",
+    "phone": "+41 58 400 41 18",
     "id": "node/7934292446"
   },
   "geometry": {
@@ -83528,8 +83534,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6292269,
-      46.7860504
+      7.6292792,
+      46.7858631
     ]
   }
 },
@@ -107250,31 +107256,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11483561087",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Münchenbuchsee",
-    "addr:housenumber": "6",
-    "addr:postcode": "3053",
-    "addr:street": "Quellenweg",
-    "defibrillator:location": "Turnhalle",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Turnhalle",
-    "phone": "+41788031712",
-    "id": "node/11483561087"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4454726,
-      47.0183358
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11483561088",
   "properties": {
     "access": "yes",
@@ -126798,82 +126779,11 @@
 },
 {
   "type": "Feature",
-  "id": "node/12422955435",
-  "properties": {
-    "access": "-",
-    "addr:city": "Krauchthal",
-    "addr:postcode": "3326",
-    "addr:street": "Wannetalweg 2",
-    "defibrillator:location": "-",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Zivilschutzanlage Hub",
-    "phone": "0344118080",
-    "id": "node/12422955435"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5403878,
-      46.9997644
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12422955436",
-  "properties": {
-    "access": "-",
-    "addr:city": "La Neuveville",
-    "addr:postcode": "2520",
-    "addr:street": "Place de la Liberté",
-    "defibrillator:location": "devant le bâtiment de la Mairie, côté nord",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Municipalité de La Neuveville",
-    "phone": "0327521003",
-    "id": "node/12422955436"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.0931994,
-      47.0627
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12422955437",
-  "properties": {
-    "access": "-",
-    "addr:city": "Vielbringen b. Worb",
-    "addr:postcode": "3075",
-    "addr:street": "Beitenwilstrasse 47",
-    "defibrillator:location": "-",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "ehem. Feuerwehrmagazin Vielbringen, Gemeindeverwaltung Worb - Polizeiabteilung",
-    "phone": "031 838 07 80",
-    "id": "node/12422955437"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5496092,
-      46.9156166
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12422955438",
   "properties": {
-    "access": "-",
+    "access": "yes",
     "addr:city": "Herrenschwanden",
+    "addr:housenumber": "9",
     "addr:postcode": "3037",
     "addr:street": "Halegasse 9",
     "defibrillator:location": "vor Haupteingang Schulhaus Herrenschwanden",
@@ -126881,395 +126791,14 @@
     "emergency:phone": "144",
     "opening_hours": "24/7",
     "operator": "Primarschule Herrenschwanden",
-    "phone": "031 302 04 53",
+    "phone": "+41 31 302 04 53",
     "id": "node/12422955438"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4195492,
-      46.975215
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12422955439",
-  "properties": {
-    "access": "-",
-    "addr:city": "Orvin",
-    "addr:postcode": "2534",
-    "addr:street": "La Charrière 6",
-    "defibrillator:location": "A l'extérieur, devant l'entrée de l'administration municipale",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Administration municipale",
-    "phone": "0323580180",
-    "id": "node/12422955439"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.2138991,
-      47.1617034
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12422955440",
-  "properties": {
-    "access": "-",
-    "addr:city": "Lyss",
-    "addr:postcode": "3250",
-    "addr:street": "Kirchgasse 4",
-    "defibrillator:location": "Hauptgebäude Evangelisch reformierte Kirche, Eingang zu Kirche von Seite Herrengasse aus.",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Kirchengemeinde Lyss",
-    "phone": "032 387 03 07",
-    "id": "node/12422955440"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.3082159,
-      47.0703934
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12422955441",
-  "properties": {
-    "access": "-",
-    "addr:city": "Hettiswil",
-    "addr:postcode": "3325",
-    "addr:street": "Chabisgasse 16",
-    "defibrillator:location": "Schulhaus Hettiswil",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Schulhaus Hettiswil",
-    "phone": "0344118080",
-    "id": "node/12422955441"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5577543,
-      47.0285146
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12422955442",
-  "properties": {
-    "access": "-",
-    "addr:city": "Worb",
-    "addr:postcode": "3076",
-    "addr:street": "Wydenstrasse 36",
-    "defibrillator:location": "Beim Haupteingang",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Schulanlage Wyden II",
-    "phone": "079 568 23 15",
-    "id": "node/12422955442"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5692429,
-      46.9260079
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12422955443",
-  "properties": {
-    "access": "-",
-    "addr:city": "Münchenbuchsee",
-    "addr:postcode": "3053",
-    "addr:street": "Oberdorfstrasse 18",
-    "defibrillator:location": "-",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Schulhaus Paul-Klee",
-    "phone": "+41788031712",
-    "id": "node/12422955443"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4467462,
-      47.0208531
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12422955444",
-  "properties": {
-    "access": "-",
-    "addr:city": "Boll",
-    "addr:postcode": "3067",
-    "addr:street": "Rainackerweg 44",
-    "defibrillator:location": "-",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "MEG Siedlung Oberfeld",
-    "phone": "031 351 30 31",
-    "id": "node/12422955444"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5444773,
-      46.9574106
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12422955445",
-  "properties": {
-    "access": "-",
-    "addr:city": "Rüfenacht",
-    "addr:postcode": "3075",
-    "addr:street": "Maurmöslistrasse 20",
-    "defibrillator:location": "Linke Seite Eingang Schreinerei",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Thomas Leiser Holzwerkstatt",
-    "phone": "0318398743",
-    "id": "node/12422955445"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5455737,
-      46.9247947
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12422955446",
-  "properties": {
-    "access": "-",
-    "addr:city": "Aarberg",
-    "addr:postcode": "3270",
-    "addr:street": "Bürenstrasse 12",
-    "defibrillator:location": "Eingang Turnhalle",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Real-, Sekundarschule Aarberg",
-    "phone": "078 739 84 30",
-    "id": "node/12422955446"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.2769851,
-      47.0482839
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12422955447",
-  "properties": {
-    "access": "-",
-    "addr:city": "Dieterswil",
-    "addr:postcode": "3256",
-    "addr:street": "Buechweg 13",
-    "defibrillator:location": "Grüner Kasten vor Ausstellungsraum",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Schneider Innenausbau AG",
-    "phone": "031 879 50 40",
-    "id": "node/12422955447"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.426011,
-      47.0569314
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12422955448",
-  "properties": {
-    "access": "-",
-    "addr:city": "Bern",
-    "addr:postcode": "3011",
-    "addr:street": "Bahnhofplatz 10",
-    "defibrillator:location": "Treffpunkt Seite Mc Donald",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Bahnhof Bern (Treffpunkt)",
-    "id": "node/12422955448"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4402738,
-      46.948843
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12422955449",
-  "properties": {
-    "access": "-",
-    "addr:city": "Bern",
-    "addr:postcode": "3006",
-    "addr:street": "Höheweg 17",
-    "defibrillator:location": "Links neben der Eingangstüre",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "institut bau + energie ag",
-    "phone": "031 357 53 17",
-    "id": "node/12422955449"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4178353,
-      46.9737605
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12422955450",
-  "properties": {
-    "access": "-",
-    "addr:city": "Saint-Imier",
-    "addr:postcode": "2610",
-    "addr:street": "Place du 16 Mars 4",
-    "defibrillator:location": "-",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Polizeiwache Saint-Imier",
-    "phone": "+41 31 638 80 00",
-    "id": "node/12422955450"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.0005105,
-      47.1532766
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12422955451",
-  "properties": {
-    "access": "-",
-    "addr:city": "Bern",
-    "addr:postcode": "3006",
-    "addr:street": "Grosser Muristalden 4",
-    "defibrillator:location": "Der Defibrillator befindet sich bei der Treppe, welche runter in die Grube des alten Bärengrabens führt",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Bärenpark",
-    "id": "node/12422955451"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4594515,
-      46.9481216
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12422955452",
-  "properties": {
-    "access": "-",
-    "addr:city": "Radelfingen",
-    "addr:postcode": "3271",
-    "addr:street": "Dammstrasse 4",
-    "defibrillator:location": "-",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Sportclub Radelfingen",
-    "id": "node/12422955452"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.2554677,
-      47.0196513
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12422955453",
-  "properties": {
-    "access": "-",
-    "addr:city": "Kirchlindach",
-    "addr:postcode": "3038",
-    "addr:street": "Lindachstrasse 14a",
-    "defibrillator:location": "Im Eingangsbereich / Garderobe vor den Toiletten befindet sich der AED",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Pfrundhaus, Kirchgemeinde Kirchlindach",
-    "phone": "031 829 29 51",
-    "id": "node/12422955453"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4138208,
-      46.9993747
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12422955454",
-  "properties": {
-    "access": "-",
-    "addr:city": "La Neuveville",
-    "addr:postcode": "2520",
-    "addr:street": "Chemin de la Plage 10",
-    "defibrillator:location": "Contre la station de pompage sur la façade sud, côté est. En face du mur du Restaurant de la Plage",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Municipalité de La Neuveville",
-    "phone": "0327521003",
-    "id": "node/12422955454"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.0881684,
-      47.060193
+      7.4195412,
+      46.9752269
     ]
   }
 },
@@ -127277,16 +126806,16 @@
   "type": "Feature",
   "id": "node/12422955455",
   "properties": {
-    "access": "-",
+    "access": "yes",
     "addr:city": "Schüpfen",
     "addr:postcode": "3054",
     "addr:street": "Gemeindeverwaltung Schüpfen",
-    "defibrillator:location": "Vor Eingang Gemeindeverwaltung. Nach Gebrauch schnellst möglich bei Gemeindeverwaltung melden.",
+    "defibrillator:location": "Vor Eingang Gemeindeverwaltung",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
     "operator": "Gemeinde Schüpfen",
-    "phone": "031 879 70 80",
+    "phone": "+41 31 879 70 80",
     "id": "node/12422955455"
   },
   "geometry": {
@@ -127294,53 +126823,6 @@
     "coordinates": [
       7.376648,
       47.037695
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12422955456",
-  "properties": {
-    "access": "-",
-    "addr:city": "Sonceboz",
-    "addr:postcode": "2605",
-    "addr:street": "Re Pierre-Pertuis 20",
-    "defibrillator:location": "Devant le hangar des pompiers",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Commune de Sonceboz",
-    "id": "node/12422955456"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.1834899,
-      47.1978819
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12422955457",
-  "properties": {
-    "access": "-",
-    "addr:city": "Bern",
-    "addr:postcode": "3001",
-    "addr:street": "Rainmattstrasse 10",
-    "defibrillator:location": "-",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Schweizerisches Rotes Kreuz - Geschäftsstelle Bern",
-    "phone": "058 400 41 18",
-    "id": "node/12422955457"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4391878,
-      46.9446997
     ]
   }
 },
@@ -127365,172 +126847,6 @@
     "coordinates": [
       7.4773012,
       46.9650101
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12422955459",
-  "properties": {
-    "access": "-",
-    "addr:city": "Münsingen",
-    "addr:postcode": "3110",
-    "addr:street": "Bernstrasse 106",
-    "defibrillator:location": "Bernstrasse 106",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Bau- und Verkehrsdirektion des Kantons Bern, Tiefbauamt, Strasseninspektorat Mittelland Ost",
-    "phone": "+41 31 636 96 80",
-    "id": "node/12422955459"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5530357,
-      46.8895131
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12422955460",
-  "properties": {
-    "access": "-",
-    "addr:city": "Moosseedorf",
-    "addr:postcode": "3302",
-    "addr:street": "Sandstrasse 5",
-    "defibrillator:location": "links beim Haupteingang",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Passepartout-ch AG",
-    "phone": "076 398 38 58",
-    "id": "node/12422955460"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4831043,
-      47.0160132
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12422955461",
-  "properties": {
-    "access": "-",
-    "addr:city": "Bern",
-    "addr:postcode": "3013",
-    "addr:street": "Laubeggstrasse 1",
-    "defibrillator:location": "Im Rosengarten beim WC im Gartenhaus draussen neben dem Lavabo (nicht das obere WC aus Metall beim Restaurant.)",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Rosengarten Lesepavillon",
-    "id": "node/12422955461"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4595189,
-      46.9528441
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12422955462",
-  "properties": {
-    "access": "-",
-    "addr:city": "Krauchthal",
-    "addr:postcode": "3326",
-    "addr:street": "Dieterswaldstrasse 209",
-    "defibrillator:location": "-",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Zivilschutzanlage Dieterswald",
-    "phone": "0344118080",
-    "id": "node/12422955462"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5884496,
-      47.009645
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12422955463",
-  "properties": {
-    "access": "-",
-    "addr:city": "Münchenbuchsee",
-    "addr:postcode": "3053",
-    "addr:street": "Quellenweg 6",
-    "defibrillator:location": "-",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Turnhalle",
-    "phone": "+41788031712",
-    "id": "node/12422955463"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4451507,
-      47.0184089
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12422955464",
-  "properties": {
-    "access": "-",
-    "addr:city": "Erlach",
-    "addr:postcode": "3235",
-    "addr:street": "Rebenweg 2",
-    "defibrillator:location": "Eingang",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Zivilschutzanlage Erlach",
-    "id": "node/12422955464"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.0763561,
-      47.0258235
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12422955465",
-  "properties": {
-    "access": "-",
-    "addr:city": "Walperswil",
-    "addr:postcode": "3272",
-    "addr:street": "Gimmizstrassen 2",
-    "defibrillator:location": "neben Eingang Glastür",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Beerenland AG",
-    "phone": "078 619 03 43",
-    "id": "node/12422955465"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.2384654,
-      47.0525612
     ]
   }
 },
@@ -127793,30 +127109,6 @@
     "coordinates": [
       7.4393975,
       46.821581
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12422955477",
-  "properties": {
-    "access": "-",
-    "addr:city": "Trimstein",
-    "addr:postcode": "3083",
-    "addr:street": "Dorfstrasse 36",
-    "defibrillator:location": "Haupteingang Mehrzweckgebäude",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Schulhaus Trimstein",
-    "phone": "031 721 04 33",
-    "id": "node/12422955477"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5773987,
-      46.9037839
     ]
   }
 },
@@ -128369,6 +127661,79 @@
     "coordinates": [
       7.4283873,
       47.088203
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12423019989",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Bern",
+    "addr:housenumber": "17",
+    "addr:postcode": "3006",
+    "addr:street": "Höheweg",
+    "defibrillator:location": "Links neben der Eingangstüre",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "institut bau + energie ag",
+    "phone": "+41 31 357 53 17",
+    "id": "node/12423019989"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4621053,
+      46.945665
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12423019990",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Münsingen",
+    "addr:housenumber": "8",
+    "addr:postcode": "3110",
+    "addr:street": "Schlossstrasse",
+    "defibrillator:location": "beim Haupteingang Restaurant",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Restaurant Schlossgut",
+    "phone": "+41 31 721 04 33",
+    "id": "node/12423019990"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5608022,
+      46.8762508
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12423049407",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Thun",
+    "addr:postcode": "3604",
+    "addr:street": "Weststrasse 12a",
+    "defibrillator:location": "Gang bei Toilettenanlagen Zugang über Fussweg Allmendingen Allee benützen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Kunstrasenspielfeder Thun Süd",
+    "id": "node/12423049407"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6061516,
+      46.7458409
     ]
   }
 }
