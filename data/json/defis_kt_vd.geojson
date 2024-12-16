@@ -10528,9 +10528,10 @@
   "id": "node/12384327097",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Dans le hall central, côté voie 1, à côté de la boulangerie ",
     "emergency": "defibrillator",
     "indoor": "yes",
-    "opening_hours": "04h30 - 01h00",
+    "opening_hours": "04:30-01:00",
     "operator": "CFF SA",
     "id": "node/12384327097"
   },
@@ -10627,6 +10628,26 @@
     "coordinates": [
       6.6123356,
       46.5594044
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12423511401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Dans la boutique des SIL",
+    "description": "Pendant les heures d'ouverture",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/12423511401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.6311393,
+      46.5201624
     ]
   }
 }
