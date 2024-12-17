@@ -17281,29 +17281,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6646804886",
-  "properties": {
-    "access": "yes",
-    "contact:addr": "Seilerstrasse 7, 3011 Bern",
-    "contact:phone": "+41 31 3853131",
-    "defibrillator:location": "Klingel bei Eingang, 24h verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Securitas",
-    "id": "node/6646804886"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.43547,
-      46.9464501
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6646804887",
   "properties": {
     "access": "permissive",
@@ -59226,6 +59203,31 @@
     "coordinates": [
       7.6061516,
       46.7458409
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12424636179",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Bern",
+    "addr:housenumber": "30",
+    "addr:postcode": "3014",
+    "addr:street": "Dufourstrasse",
+    "defibrillator:location": "Bei Eingangstür",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Schweizerische Herzstiftung",
+    "phone": "+41 31 388 80 80",
+    "id": "node/12424636179"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4538169,
+      46.941403
     ]
   }
 }
