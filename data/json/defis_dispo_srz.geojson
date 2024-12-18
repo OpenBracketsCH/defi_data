@@ -3829,18 +3829,21 @@
   "type": "Feature",
   "id": "node/6979662526",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Beim Haupteingang links. Vor dem Büro des Hausmeisters",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 06:30-20:45",
     "wheelchair": "yes",
     "id": "node/6979662526"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5310801,
-      47.3785389
+      8.5311135,
+      47.3785064
     ]
   }
 },
@@ -29090,6 +29093,7 @@
   "type": "Feature",
   "id": "node/8874117371",
   "properties": {
+    "access": "customers",
     "defibrillator:location": "Im EG an der Säule vor dem Kiosk",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -29104,8 +29108,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4633167,
-      47.408603
+      8.4633311,
+      47.4085723
     ]
   }
 },
@@ -84825,6 +84829,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "opening_hours": "24/7",
     "operator": "Katholisches Pfarramt",
     "phone": "+41 43 411 30 30",
     "wheelchair": "limited",
@@ -84883,6 +84888,29 @@
     "coordinates": [
       8.5895445,
       47.263301
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12430258676",
+  "properties": {
+    "access": "customers",
+    "defibrillator:location": "Neben dem Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "114",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 05:00-23:00",
+    "operator": "TuricumFit GmbH",
+    "wheelchair": "limited",
+    "id": "node/12430258676"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5560537,
+      47.4148237
     ]
   }
 }

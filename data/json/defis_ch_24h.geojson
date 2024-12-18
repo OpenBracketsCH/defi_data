@@ -127145,6 +127145,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/12430017309",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Nebengebäude Dreifaltigkeitskirche",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Katholisches Pfarramt",
+    "phone": "+41 43 411 30 30",
+    "wheelchair": "limited",
+    "id": "node/12430017309"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5354646,
+      47.5215605
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12430184613",
   "properties": {
     "access": "yes",
@@ -127164,6 +127188,50 @@
     "coordinates": [
       8.5895445,
       47.263301
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12430229037",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben dem Wartsaal",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "wheelchair": "limited",
+    "id": "node/12430229037"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3096087,
+      47.0499873
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12430308006",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Durchgang Basel SNCF",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "wheelchair": "yes",
+    "id": "node/12430308006"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5885548,
+      47.54795
     ]
   }
 }
