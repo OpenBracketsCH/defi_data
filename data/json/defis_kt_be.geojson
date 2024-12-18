@@ -41072,20 +41072,24 @@
   "type": "Feature",
   "id": "node/9907162823",
   "properties": {
-    "access": "no",
+    "access": "yes",
     "defibrillator:location": "Kasse Marzilibad",
     "description": "Während Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Sportamt Stadt Bern",
+    "level": "0",
+    "opening_hours": "Mo-Su 09:00-19:00",
+    "operator": "Sportamt der Stadt Bern",
+    "phone": "+41 31 321 64 30",
+    "wheelchair": "limited",
     "id": "node/9907162823"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4437987,
-      46.9422961
+      7.4437808,
+      46.9422934
     ]
   }
 },
@@ -41789,19 +41793,21 @@
   "id": "node/10008481818",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "St. Marienkirche, Wylerstrasse, 3014 Bern",
+    "defibrillator:location": "St. Marienkirche",
     "description": "auf der Kirchenrückseite",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Pfarrei St. Marien Bern",
+    "phone": "+41 31 330 89 89",
     "id": "node/10008481818"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4498764,
-      46.9595877
+      7.4498083,
+      46.9595565
     ]
   }
 },
