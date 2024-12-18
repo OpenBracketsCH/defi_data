@@ -85060,6 +85060,77 @@
       47.3322844
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/12431068001",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "M20 Areal, Wasterkingerweg 2, 8193 Eglisau",
+    "description": "Im Treppenhaus, Zugang unter grossem Vordach",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo - Fr 07:00-17:00",
+    "operator": "Marbet Immobilien (Verwaltung M20 Areal)",
+    "phone": "+41 41 249 21 21",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12431068001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5092115,
+      47.5807886
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12431074202",
+  "properties": {
+    "defibrillator:location": "Einfahrt Sonnenhof vis a vis Briefkästen",
+    "description": "24/7",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12431074202"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6363643,
+      47.3585003
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12431078501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Einfahrt zu Sonnenhof vis a vis Briefkästen",
+    "description": "24/7",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Privat",
+    "phone": "+41 78 696 90 54",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12431078501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.636359,
+      47.358504
+    ]
+  }
 }
 ]
 }
