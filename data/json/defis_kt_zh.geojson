@@ -25076,20 +25076,22 @@
   "id": "node/9398461810",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Beim Hintereingang des Gemeinschafts-Lokal der Genossenschaft Baufreunde. Wenn man vom Wendeplatz auf das Gemeinschafts-Lokal sieht, befindet sich der AED links neben der Eingangstüre.",
+    "defibrillator:location": "Beim Hintereingang des Gemeinschafts-Lokal",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Genossenschaft Baufreunde, Herr Beno Schönenberger",
     "phone": "+41 79 902 71 02",
+    "wheelchair": "limited",
     "id": "node/9398461810"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5624871,
-      47.4093864
+      8.5625634,
+      47.409412
     ]
   }
 },
@@ -65752,6 +65754,54 @@
     "coordinates": [
       8.5354646,
       47.5215605
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12430114751",
+  "properties": {
+    "access": "customers",
+    "defibrillator:location": "Migros Schlieren - Rietbach",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Sa 08:00-20:00",
+    "operator": "Genossenschaft Migros Zürich",
+    "phone": "+4158 563 55 00",
+    "wheelchair": "limited",
+    "id": "node/12430114751"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4352797,
+      47.4008183
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12430184613",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "See-Spital Neubau NEO",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "See-Spital",
+    "phone": "+41 44 728 11 11",
+    "wheelchair": "limited",
+    "id": "node/12430184613"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5895445,
+      47.263301
     ]
   }
 }
