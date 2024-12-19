@@ -85131,6 +85131,94 @@
       47.358504
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/12432963120",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kläranlagen-Gebäude beim Fussweg / Seeuferweg",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Richterswil",
+    "id": "node/12432963120"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7017221,
+      47.2140051
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12432974602",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Intertek (Schweiz) AG",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "Mo-Fr 9:00-16:00",
+    "operator": "Intertek (Schweiz) AG",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12432974602"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4556532,
+      47.3988721
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12432982729",
+  "properties": {
+    "access": "unknown",
+    "defibrillator:location": "Im Treppenhaus neben Eingangstüre",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-17:00",
+    "operator": "Kern Studer AG",
+    "id": "node/12432982729"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6818901,
+      47.1907498
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12433019501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vor dem Gästelift im EG",
+    "description": "Immer zugänglich zur Tageszeit. In der Nacht für extern, Klingeln beim Haupteingang.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Hotel Holiday Inn",
+    "phone": "+41 44 316 11 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12433019501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5534251,
+      47.410534
+    ]
+  }
 }
 ]
 }
