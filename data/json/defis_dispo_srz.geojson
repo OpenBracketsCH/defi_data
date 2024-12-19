@@ -73042,27 +73042,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11809641370",
-  "properties": {
-    "defibrillator:location": "Schulhaus Ruggenacher 3, Trakt C, Eingang Turnhalle",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "operator": "Gemeinde",
-    "id": "node/11809641370"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4642724,
-      47.4357547
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11809670469",
   "properties": {
     "defibrillator:location": "BZ Sonnhalde, EG, Gemeinschaftsraum",
@@ -82207,7 +82186,7 @@
   "id": "node/12278031901",
   "properties": {
     "access": "permissive",
-    "defibrillator:location": "Schulhaus Ruggenacher 3, Eingang Turnhalle",
+    "defibrillator:location": "Schulhaus Ruggenacher 3, Eingang Turnhalle Trakt C",
     "description": "während Schulbetrieb verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -82215,7 +82194,6 @@
     "opening_hours": "Mo-Fr 08:30 - 22:00",
     "operator": "Primarschule Regensdorf",
     "phone": "+41 43 343 85 00",
-    "source": "local_knowledge, defikarte.ch",
     "id": "node/12278031901"
   },
   "geometry": {
