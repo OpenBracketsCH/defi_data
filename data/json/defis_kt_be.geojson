@@ -2298,25 +2298,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/5982733551",
-  "properties": {
-    "defibrillator:location": "Links beim Eingang",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Stockhornbahn",
-    "id": "node/5982733551"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5452486,
-      46.6601287
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6066626858",
   "properties": {
     "access": "yes",
@@ -24273,30 +24254,6 @@
     "coordinates": [
       7.3769895,
       46.55721
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/6987098601",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Erlenbach",
-    "addr:housenumber": "23d",
-    "addr:postcode": "3762",
-    "addr:street": "Stockhorn",
-    "defibrillator:location": "Eingang Panorama Aussichtsplattform auf der rechten Seite",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Stockhorn",
-    "id": "node/6987098601"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5377785,
-      46.6934937
     ]
   }
 },
@@ -53633,7 +53590,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "07:50-18:00",
+    "opening_hours": "Mo-Su 07:50-18:00",
     "operator": "Stockhornbahn AG",
     "phone": "+41 33 681 24 18",
     "source": "local_knowledge, defikarte.ch",
@@ -53658,7 +53615,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "opening_hours": "07:50-18:00",
+    "opening_hours": "Mo-Su 07:50-18:00",
     "operator": "Stockhornbahn AG",
     "phone": "+41336509431",
     "source": "local_knowledge, defikarte.ch",
@@ -53678,12 +53635,12 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Bergstation Stockhornbahn",
-    "description": "nur während Öffnungszeiten",
+    "description": "Im Vorraum der Bahn, zwischen Perron und Restaurant, Ostseite",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "opening_hours": "07:50-18:00",
+    "opening_hours": "24/7",
     "operator": "Stockhornbahn AG",
     "phone": "+41336509431",
     "source": "local_knowledge, defikarte.ch",

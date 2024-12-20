@@ -17478,30 +17478,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6987098601",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Erlenbach",
-    "addr:housenumber": "23d",
-    "addr:postcode": "3762",
-    "addr:street": "Stockhorn",
-    "defibrillator:location": "Eingang Panorama Aussichtsplattform auf der rechten Seite",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Stockhorn",
-    "id": "node/6987098601"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5377785,
-      46.6934937
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6987098602",
   "properties": {
     "access": "yes",
@@ -114816,6 +114792,31 @@
 },
 {
   "type": "Feature",
+  "id": "node/11899208869",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bergstation Stockhornbahn",
+    "description": "Im Vorraum der Bahn, zwischen Perron und Restaurant, Ostseite",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "24/7",
+    "operator": "Stockhornbahn AG",
+    "phone": "+41336509431",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11899208869"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5378983,
+      46.6934843
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/11900415506",
   "properties": {
     "access": "yes",
@@ -125398,8 +125399,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6655424,
-      47.1752747
+      8.6659488,
+      47.1751079
     ]
   }
 },
@@ -127255,6 +127256,31 @@
     "coordinates": [
       8.6857798,
       47.605141
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12430823601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang Balmer Bücherdienst AG",
+    "description": "Immer Zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Balmer Bücherdienst AG",
+    "phone": "+41 55 418 89 89",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12430823601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7455839,
+      47.1394024
     ]
   }
 },
