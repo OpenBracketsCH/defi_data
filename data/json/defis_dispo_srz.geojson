@@ -85340,6 +85340,48 @@
       47.367623
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/12436086201",
+  "properties": {
+    "defibrillator:location": "Rest. Gubel Öff. WC Anlage",
+    "description": "Dauernd verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12436086201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5740191,
+      47.162386
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12436486801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Pfadiheim Wulp",
+    "description": "24/7 zugänglich, alarmgesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Verein",
+    "id": "node/12436486801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6088478,
+      47.3157014
+    ]
+  }
 }
 ]
 }
