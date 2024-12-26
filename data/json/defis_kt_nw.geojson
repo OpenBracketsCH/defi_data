@@ -1356,8 +1356,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4814844,
-      46.9356443
+      8.4731473,
+      46.9404321
     ]
   }
 },
@@ -1479,38 +1479,6 @@
     "coordinates": [
       8.4815689,
       46.935716
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7637939086",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/7637939086"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4731492,
-      46.9404293
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7638001685",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/7638001685"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4815578,
-      46.9357094
     ]
   }
 },
@@ -2495,6 +2463,28 @@
     "coordinates": [
       8.3092524,
       46.9880331
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12453548294",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An der Wand links neben dem Eingang",
+    "description": "Neben dem Eingang der Toilettenanlage Boden",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "name": "Toilettenanlage Boden",
+    "opening_hours": "24/7",
+    "id": "node/12453548294"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4799347,
+      46.9639447
     ]
   }
 }
