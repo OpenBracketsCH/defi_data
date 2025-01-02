@@ -5754,8 +5754,12 @@
   "type": "Feature",
   "id": "node/9500428756",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Ein/Ausgang Flem X",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "WAG",
     "id": "node/9500428756"
   },
   "geometry": {
@@ -7895,7 +7899,7 @@
   "id": "node/10302335309",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Vorab im SOS",
+    "defibrillator:location": "Vorab Eingang Restaurant Ostseite",
     "description": "Während Betrieb Bergbahnen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -7941,7 +7945,7 @@
   "id": "node/10302346509",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Burghaus Nagens bei der Bar",
+    "defibrillator:location": "Berghaus Nagens bei der Bar im EG",
     "description": "Während Betrieb Berghaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -14669,6 +14673,27 @@
     "coordinates": [
       9.6535546,
       46.8403357
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12469037601",
+  "properties": {
+    "defibrillator:location": "Stationsgebäude Mutta Rodunda",
+    "description": "Während Bahnbetriebszeiten in der Wintersaison",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "WAG",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12469037601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.220528,
+      46.8692138
     ]
   }
 }
