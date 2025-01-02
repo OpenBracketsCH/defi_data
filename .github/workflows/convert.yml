@@ -18,7 +18,7 @@ jobs:
     - name: Set up Python 3.9
       uses: actions/setup-python@main
       with:
-        python-version: 3.9
+        python-version: 3.13
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
@@ -28,7 +28,7 @@ jobs:
       run: |
         ./run_converter.sh
     
-    - uses: stefanzweifel/git-auto-commit-action@v4
+    - uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: Convert json -> xml
         commit_user_name: chnuessli
