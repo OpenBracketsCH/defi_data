@@ -93796,13 +93796,14 @@
     "opening_hours": "24/7",
     "operator": "Matterhorn Gotthard Bahn",
     "phone": "+41 27 927 71 98",
+    "wheelchair": "limited",
     "id": "node/10811355577"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5941236,
-      46.6375171
+      8.5941643,
+      46.6374619
     ]
   }
 },
@@ -127736,6 +127737,54 @@
     "coordinates": [
       7.1661239,
       46.7692373
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12471407701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Brünigstrasse 10a, bei Garagentor der Tiefgarageneinfahrt",
+    "description": "Öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Miteigentümergemeinschaft 'Im Grund'",
+    "phone": "+41 76 412 72 51",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12471407701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4824319,
+      47.446009
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12471436507",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Haupteingang, rechte Seite im Seitengang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "6",
+    "opening_hours": "24/7",
+    "operator": "Schweizer Radio und Fernsehen (SRF), Regionalredaktion Zentralschweiz",
+    "phone": "+41 58 134 66 20",
+    "wheelchair": "limited",
+    "id": "node/12471436507"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3133474,
+      47.0494339
     ]
   }
 }

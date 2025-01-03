@@ -7223,17 +7223,19 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "name": "Universität Luzern",
     "opening_hours": "Mo-Fr 07:00-21:30",
     "operator": "Universität Luzern, Facility Management, Kontakt: Patrik Meier, Leiter Facility Management",
-    "phone": "+41412295152",
+    "phone": "+41 41 229 51 52",
+    "wheelchair": "limited",
     "id": "node/7637818722"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3127822,
-      47.0496327
+      8.3122864,
+      47.0495453
     ]
   }
 },
@@ -7431,17 +7433,24 @@
   "type": "Feature",
   "id": "node/7637818734",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben dem Haupteingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "name": "Bourbaki Panorama",
+    "opening_hours": "Mo-Th 09:00-23:00; Fr 09:00-24:00; Sa 00:00-00:30,09:00-24:00; Su 00:00-00:30,09:00-22:00",
+    "operator": "Neugass Kino AG",
+    "phone": "+41 41 419 99 98",
+    "wheelchair": "limited",
     "id": "node/7637818734"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.311059,
-      47.0569682
+      8.3111484,
+      47.0569764
     ]
   }
 },
@@ -20125,13 +20134,14 @@
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "ref": "1394LTM",
+    "wheelchair": "limited",
     "id": "node/11750045658"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3134951,
-      47.0493036
+      8.3134117,
+      47.0493924
     ]
   }
 },
@@ -20151,13 +20161,14 @@
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "ref": "1395LTM",
+    "wheelchair": "limited",
     "id": "node/11750045659"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3136613,
-      47.049113
+      8.313617,
+      47.049153
     ]
   }
 },
@@ -21622,6 +21633,30 @@
     "coordinates": [
       8.18352,
       47.0438313
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12471436507",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Haupteingang, rechte Seite im Seitengang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "6",
+    "opening_hours": "24/7",
+    "operator": "Schweizer Radio und Fernsehen (SRF), Regionalredaktion Zentralschweiz",
+    "phone": "+41 58 134 66 20",
+    "wheelchair": "limited",
+    "id": "node/12471436507"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3133474,
+      47.0494339
     ]
   }
 }

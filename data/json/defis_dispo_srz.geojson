@@ -85384,6 +85384,52 @@
       47.3022502
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/12471407701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Brünigstrasse 10a, bei Garagentor der Tiefgarageneinfahrt",
+    "description": "Öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Miteigentümergemeinschaft 'Im Grund'",
+    "phone": "+41 76 412 72 51",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12471407701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4824319,
+      47.446009
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12471444020",
+  "properties": {
+    "access": "customers",
+    "defibrillator:location": "Swisscom Shop",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 09:00-18:30; Sa 09:00-17:00",
+    "operator": "Swisscom (Schweiz)",
+    "wheelchair": "limited",
+    "id": "node/12471444020"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5453536,
+      47.4108245
+    ]
+  }
 }
 ]
 }
