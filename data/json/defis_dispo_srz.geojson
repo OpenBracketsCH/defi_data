@@ -1181,9 +1181,13 @@
   "type": "Feature",
   "id": "node/5929901485",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rigihalle Küssnacht, Beim Eingang rechts",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
+    "operator": "Rettungsdienst Küssnacht",
+    "phone": "+41 79 101 93 00",
     "id": "node/5929901485"
   },
   "geometry": {
@@ -3624,27 +3628,6 @@
     "coordinates": [
       8.43977,
       47.0820127
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/6976938436",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Rigihalle Küssnacht",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Rettungsdienst Küssnacht",
-    "phone": "+41 79 101 93 00",
-    "id": "node/6976938436"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4441923,
-      47.0873695
     ]
   }
 },
@@ -7389,26 +7372,6 @@
     "coordinates": [
       8.44121,
       47.0834866
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7637818882",
-  "properties": {
-    "access": "yes",
-    "description": "Richtung Eishalle, Aussenwand",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Rigihalle Eishalle",
-    "opening_hours": "24/7",
-    "id": "node/7637818882"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4445962,
-      47.0870823
     ]
   }
 },

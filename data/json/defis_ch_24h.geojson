@@ -3151,9 +3151,13 @@
   "type": "Feature",
   "id": "node/5929901485",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rigihalle Küssnacht, Beim Eingang rechts",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
+    "operator": "Rettungsdienst Küssnacht",
+    "phone": "+41 79 101 93 00",
     "id": "node/5929901485"
   },
   "geometry": {
@@ -16759,27 +16763,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6976938436",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Rigihalle Küssnacht",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Rettungsdienst Küssnacht",
-    "phone": "+41 79 101 93 00",
-    "id": "node/6976938436"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4441923,
-      47.0873695
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6976938437",
   "properties": {
     "access": "yes",
@@ -27096,26 +27079,6 @@
     "coordinates": [
       8.4393577,
       47.080912
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7637818882",
-  "properties": {
-    "access": "yes",
-    "description": "Richtung Eishalle, Aussenwand",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Rigihalle Eishalle",
-    "opening_hours": "24/7",
-    "id": "node/7637818882"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4445962,
-      47.0870823
     ]
   }
 },
@@ -127807,6 +127770,30 @@
     "coordinates": [
       9.5531095,
       46.7196666
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12475309201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bahnweg 8 Werkhof Bättwil",
+    "description": "Der Defi ist an der Hausfassade vom Werkhof Bättwil jederzeit zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Bättwil",
+    "phone": "+41 794544590",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12475309201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5105125,
+      47.4890029
     ]
   }
 }
