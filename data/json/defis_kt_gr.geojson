@@ -2356,13 +2356,13 @@
   "type": "Feature",
   "id": "node/8465295317",
   "properties": {
-    "access": "no",
+    "access": "yes",
     "defibrillator:location": "Eingangsbereich Badi",
-    "description": "AED nur im Sommer verfügbar wenn Badi geöffnet hat",
+    "description": "24h/7 Tage verfügbar (nur Sommer)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Badi Pany",
+    "operator": "Gemeinde Luzein",
     "id": "node/8465295317"
   },
   "geometry": {
@@ -2379,7 +2379,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Öffentliche Toilette",
-    "description": "24h verfügbar",
+    "description": "24h/7 Tage verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -3432,11 +3432,12 @@
   "type": "Feature",
   "id": "node/8935584914",
   "properties": {
-    "defibrillator:location": "Eingang Restaurant",
-    "description": "während Öffnungszeiten verfügbar",
+    "access": "yes",
+    "defibrillator:location": "Wand Bovastrasse 43",
+    "description": "24h/ 7 Tage verfügbar (während Winter)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "operator": "Gemeinde Luzein",
     "phone": "+41 81 300 32 20",
     "id": "node/8935584914"
@@ -3455,7 +3456,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Öffentliche Toilette",
-    "description": "24h verfügbar",
+    "description": "24h/7 Tage verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -3476,8 +3477,8 @@
   "id": "node/8935584916",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Alter Schulhaus, beim Eingang",
-    "description": "24h verfügbar",
+    "defibrillator:location": "Alter Schulhaus Buchen, beim Eingang",
+    "description": "24h/7 Tage verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -3498,8 +3499,8 @@
   "id": "node/8935589217",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "altes Schulhaus Putz",
-    "description": "24h verfügbar",
+    "defibrillator:location": "altes Schulhaus Putz/öffentliche Toilette",
+    "description": "24h/7 Tage verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -3520,11 +3521,11 @@
   "id": "node/8935589218",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Kehrrichthaus",
+    "defibrillator:location": "Kehrrichthaus bei Kirche Luzein",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "opening_hours": "24/7",
+    "opening_hours": "24h/7 Tage verfügbar",
     "operator": "Gemeinde Luzein",
     "phone": "+41 81 300 32 20",
     "id": "node/8935589218"
@@ -3541,8 +3542,9 @@
   "type": "Feature",
   "id": "node/8935589219",
   "properties": {
-    "defibrillator:location": "Schulhaus Pany",
-    "description": "während Öffnungszeiten verfügbar",
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Pany/Eingangsbereich",
+    "description": "24h/7 Tage Verfügbarkeit",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
