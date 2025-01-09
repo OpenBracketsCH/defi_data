@@ -114758,30 +114758,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11900929769",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Reformierte Kirche",
-    "description": "jederzeit verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde Schöfflisdorf",
-    "phone": "+41 44 875 12 40",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/11900929769"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4165734,
-      47.5001447
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11901038970",
   "properties": {
     "access": "yes",
@@ -127891,6 +127867,30 @@
     "coordinates": [
       8.9355142,
       47.2595914
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12486111801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindehaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Schöfflisdorf",
+    "phone": "+41 44 875 12 40",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12486111801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4164339,
+      47.5000577
     ]
   }
 }
