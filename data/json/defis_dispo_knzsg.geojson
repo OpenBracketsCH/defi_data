@@ -31008,6 +31008,54 @@
       47.4198545
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/12493047802",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im offenen Vorraum des WC-Gebäudes am Parkplatz",
+    "description": "Öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Kanton AI",
+    "phone": "+41717887333",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12493047802"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4087976,
+      47.333046
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12493055301",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Im neuen Migros-Markt",
+    "description": "Standort innen, direkt links nach dem Haupteingang beim Blumenstand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "8:00 - 19:00",
+    "operator": "Migros",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12493055301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4057828,
+      47.3338203
+    ]
+  }
 }
 ]
 }
