@@ -11241,6 +11241,7 @@
     "defibrillator:location": "24 Stunden zugänglich - Kontakt mit Einsatzzentrale der Feuerwehr",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "24/7",
     "operator": "Berufsfeuerwehr der Stadt Bern",
     "phone": "+41 31 634 88 31",
@@ -128366,6 +128367,54 @@
     "coordinates": [
       6.8767343,
       46.4995351
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12500904801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Restaurant La Nars",
+    "description": "Immer Verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Surses",
+    "phone": "+41816591171",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12500904801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.598532,
+      46.5920461
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12500915201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An der Wand des Carports zwischen Zürcherstrasse 51 und 53.",
+    "description": "ZOLL AED 3",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Micronel AG",
+    "phone": "+41523551616",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12500915201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6684865,
+      47.4300107
     ]
   }
 }
