@@ -48308,27 +48308,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11203495938",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Im Anbau EG",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "operator": "Pfadi Säuliamt",
-    "id": "node/11203495938"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4394077,
-      47.2783683
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11205117137",
   "properties": {
     "defibrillator:location": "Schulhaus Haupteingang links",
@@ -66527,6 +66506,53 @@
     "coordinates": [
       8.5309267,
       47.2425898
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12505219301",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "NonStop Gym Oerlikon Elias-Canetti-Strasse 2",
+    "description": "Für Members ist der Club 24/7 offen. EMPFANGSZEITEN: Mo-FR 12-14 und 17-20",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-FR 12:00-14:00 , 17:00-20:00",
+    "operator": "Unternehmen Gym SA ist registriert im Registre du Commerce von Genf. Die Postadresse lautet Rue Abraham-Gevray 6, 1201 Genf.",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12505219301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5415429,
+      47.4126322
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12505227001",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "In Eingangshalle neben Warteraum",
+    "description": "während der Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo - Fr 6:30 - 19:00",
+    "operator": "Hirslanden, Klinik Im Park, Operationszentrum Bellaria",
+    "phone": "+41 44 209 25 25",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12505227001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5300899,
+      47.3517699
     ]
   }
 }
