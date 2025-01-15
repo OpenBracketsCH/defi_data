@@ -128441,6 +128441,52 @@
       47.4127985
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/12503929601",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Überdachter Hauseingang, rechts neben Briefkästen",
+    "description": "frei zugänglich, da im Aussenbereich montiert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Privatperson (Stockwerkeigentümergemeinschaft)",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12503929601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8432163,
+      47.2351052
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12503932601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schlossbergstrasse 15, 8820 Wädenswil",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadt Wädenswil",
+    "phone": "+4144 789 72 70",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12503932601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6755675,
+      47.2253645
+    ]
+  }
 }
 ]
 }
