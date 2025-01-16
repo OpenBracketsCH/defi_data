@@ -8197,22 +8197,24 @@
   "type": "Feature",
   "id": "node/12506584501",
   "properties": {
-    "access": "permissive",
+    "access": "permit",
     "defibrillator:location": "Wasser- und Elektrizitätswerk Steinhausen (WESt)",
     "description": "Während Öffnungszeiten zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
+    "note": "AED Schiller Fred Easy\ninkl. Beatmungsmaske, Pads für Kinder und Erwachsene sowie weiteres Zubehör.",
+    "operator": "Gemeindeverwaltung Steinhausen",
     "phone": "+41 41 748 11 55",
-    "source": "local_knowledge, defikarte.ch",
+    "source": "local_knowledge, defikarte.ch;local knowledge;Eigentümer",
     "id": "node/12506584501"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4800409,
-      47.1925408
+      8.4800388,
+      47.1925437
     ]
   }
 }
