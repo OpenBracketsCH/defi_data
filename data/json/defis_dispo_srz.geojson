@@ -8673,17 +8673,19 @@
   "type": "Feature",
   "id": "node/7667107727",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "im Hiwi Märt",
-    "description": "während Arbeitszeiten",
+    "description": "während Öffnungszeiten im 1. OG zugänglich.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "operator": "Hiwi-Märt AG",
     "id": "node/7667107727"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8377084,
-      47.2992426
+      8.8375759,
+      47.2992792
     ]
   }
 },
@@ -85831,6 +85833,30 @@
     "coordinates": [
       8.7656361,
       47.4961036
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12509094801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Speerstrasse 105,  8820 Wädenswil",
+    "description": "Neben dem Eingang oben, auf der rechten Seite",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadt Wädenswil",
+    "phone": "+4144 789 72 70",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12509094801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6590183,
+      47.2303772
     ]
   }
 }
