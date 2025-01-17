@@ -19792,6 +19792,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/7139428310",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raiffeisenbank Möhlin, im Vorraum der Schalterhalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Samariterverein Möhlin",
+    "phone": "+41794742048",
+    "id": "node/7139428310"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8425406,
+      47.5603515
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/7176803090",
   "properties": {
     "access": "yes",
@@ -128689,6 +128712,30 @@
     "coordinates": [
       9.2843315,
       47.140372
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12509573501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Adval Tech (Grenchen) AG",
+    "description": "An Aussenfassade Gebäude 40",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Adval Tec (Grenchen) AG",
+    "phone": "+4132 653 63 39",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12509573501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4040288,
+      47.1877402
     ]
   }
 }
