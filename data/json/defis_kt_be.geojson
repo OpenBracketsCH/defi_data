@@ -42541,15 +42541,15 @@
   "type": "Feature",
   "id": "node/10173354617",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "DC Bank Deposito-Cassa der Stadt Bern",
-    "description": "Schalterhalle Bank",
+    "access": "private",
+    "defibrillator:location": "Sanitätszimmer",
+    "description": "Für Kundschaft und Belegschaft",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 09:00-17:00",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Burgergemeinde Bern, DC Bank Deposito-Cassa der Stadt Bern",
-    "phone": "+41796671346",
+    "phone": "+41 800 122 144",
     "id": "node/10173354617"
   },
   "geometry": {
@@ -46893,8 +46893,9 @@
   "type": "Feature",
   "id": "node/10763310504",
   "properties": {
+    "access": "yes",
     "access:conditional": "yes @ opening_hours",
-    "defibrillator:location": "Schalterzone;Sanitätszimmer",
+    "defibrillator:location": "Schalterzone",
     "description": "schwarzer Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -46908,8 +46909,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.44253,
-      46.94737
+      7.4425253,
+      46.9473434
     ]
   }
 },
