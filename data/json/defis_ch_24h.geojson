@@ -26085,13 +26085,14 @@
     "emergency:phone": "144",
     "name": "Gemeindehaus",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Rickenbach",
     "id": "node/7637818556"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.1525783,
-      47.2193827
+      8.1526212,
+      47.2193955
     ]
   }
 },
@@ -26167,13 +26168,14 @@
     "emergency:phone": "144",
     "name": "Schulhaus MZH",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Rickenbach",
     "id": "node/7637818569"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.1792389,
-      47.249861
+      8.1791316,
+      47.2502446
     ]
   }
 },
@@ -128764,6 +128766,28 @@
     "coordinates": [
       8.6835176,
       47.4289619
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12522340202",
+  "properties": {
+    "defibrillator:location": "Velounterstand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Rickenbach",
+    "phone": "+41 79 692 65 38",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12522340202"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1498915,
+      47.219579
     ]
   }
 }

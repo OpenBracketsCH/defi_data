@@ -4359,13 +4359,14 @@
     "emergency:phone": "144",
     "name": "Gemeindehaus",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Rickenbach",
     "id": "node/7637818556"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.1525783,
-      47.2193827
+      8.1526212,
+      47.2193955
     ]
   }
 },
@@ -4387,25 +4388,6 @@
     "coordinates": [
       8.1507459,
       47.2210919
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7637818558",
-  "properties": {
-    "defibrillator:location": "unterer Halleneingang, Sanitätszimmer",
-    "description": "nur zu Schulzeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Schulanlage Mehrzweckhalle",
-    "id": "node/7637818558"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.1494648,
-      47.21997
     ]
   }
 },
@@ -4614,13 +4596,14 @@
     "emergency:phone": "144",
     "name": "Schulhaus MZH",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Rickenbach",
     "id": "node/7637818569"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.1792389,
-      47.249861
+      8.1791316,
+      47.2502446
     ]
   }
 },
@@ -21730,6 +21713,28 @@
     "coordinates": [
       8.3733495,
       47.1056353
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12522340202",
+  "properties": {
+    "defibrillator:location": "Velounterstand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Rickenbach",
+    "phone": "+41 79 692 65 38",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12522340202"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1498915,
+      47.219579
     ]
   }
 }
