@@ -86425,6 +86425,51 @@
       47.4038397
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/12538752301",
+  "properties": {
+    "defibrillator:location": "Trainingshalle, Haupteingang, im Gang rechts an Wand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Kunsteisbahn Zug AG",
+    "phone": "+41417253150",
+    "id": "node/12538752301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5085106,
+      47.1767404
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12538793601",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Industriestrasse 24 Samen Mauser AG Eingang",
+    "description": "Während dem laufenden Betrieb verfübar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Samen Mauser AAG",
+    "phone": "+41522342533",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12538793601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7548053,
+      47.4962486
+    ]
+  }
 }
 ]
 }
