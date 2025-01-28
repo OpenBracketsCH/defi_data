@@ -14880,6 +14880,50 @@
       46.8237312
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/12539156001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "TUI Reisebüro, beim Eingang",
+    "description": "24/7 verfügbar, vor Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Kanton GR",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12539156001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5330054,
+      46.8524911
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12539173701",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Rosenweg 4, Amt für Informatik GR",
+    "description": "während Bürozeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Kanton GR",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12539173701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5335954,
+      46.8546996
+    ]
+  }
 }
 ]
 }
