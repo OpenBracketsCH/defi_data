@@ -86493,6 +86493,55 @@
       47.5783785
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/12541847901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schiessanlage Wishalde Baar",
+    "description": "Der Defibrilator befindet sich bei der Eingangsrampe zur Schützenstube Wishalde und ist 24/7 zugänglich.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Baar",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12541847901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5419452,
+      47.1966348
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12541850663",
+  "properties": {
+    "access": "yes",
+    "addr:housenumber": "12",
+    "addr:street": "Zürcherstrasse",
+    "defibrillator:location": "MU 02 2. OG Lift Vorplatz",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "name": "ZHAW",
+    "operator": "Lifetec",
+    "phone": "+41800122144",
+    "ref": "1533LTM",
+    "id": "node/12541850663"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7183948,
+      47.4988957
+    ]
+  }
 }
 ]
 }
