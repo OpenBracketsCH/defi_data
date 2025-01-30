@@ -70790,8 +70790,6 @@
   "id": "node/9602912117",
   "properties": {
     "access": "yes",
-    "addr:housenumber": "2d",
-    "addr:street": "Im Mösli",
     "defibrillator:location": "Schulhaus Mösli, Turnhalle Eingang, Trakt D",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -129156,8 +129154,6 @@
   "id": "node/12543365559",
   "properties": {
     "access": "yes",
-    "addr:housenumber": "26",
-    "addr:street": "Zielackerstrasse",
     "defibrillator:location": "Winter World Wallisellen, beim Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -129171,6 +129167,30 @@
     "coordinates": [
       8.6082054,
       47.4141752
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12544049601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindeverwaltung Eich",
+    "description": "Öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "phone": "+41 41 462 53 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12544049601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1684959,
+      47.1507495
     ]
   }
 }
