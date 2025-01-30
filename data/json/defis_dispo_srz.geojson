@@ -11020,8 +11020,9 @@
   "id": "node/7853369112",
   "properties": {
     "access": "yes",
+    "addr:housenumber": "13",
+    "addr:street": "Industriestrasse",
     "defibrillator:location": "Haupteingang Werk und Feuerwehrgebäude",
-    "description": "24/7 verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
@@ -37350,13 +37351,14 @@
   "type": "Feature",
   "id": "node/9602912117",
   "properties": {
-    "access": "no",
+    "access": "yes",
+    "addr:housenumber": "2d",
+    "addr:street": "Im Mösli",
     "defibrillator:location": "Schulhaus Mösli, Turnhalle Eingang, Trakt D",
-    "description": "während Öffnungszeiten Turnhalle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Schulhaus Möslu",
+    "opening_hours": "24/7",
+    "operator": "Schulhaus Mösli",
     "phone": "+41448776524",
     "id": "node/9602912117"
   },
@@ -86602,6 +86604,29 @@
     "coordinates": [
       8.7125672,
       47.5281856
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12543365559",
+  "properties": {
+    "access": "yes",
+    "addr:housenumber": "26",
+    "addr:street": "Zielackerstrasse",
+    "defibrillator:location": "Winter World Wallisellen, beim Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Sportanlagen AG Wallisellen",
+    "phone": "+41448304340",
+    "id": "node/12543365559"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6082054,
+      47.4141752
     ]
   }
 }
