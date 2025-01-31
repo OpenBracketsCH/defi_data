@@ -67244,6 +67244,50 @@
       47.4137648
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/12547318763",
+  "properties": {
+    "access": "permit",
+    "defibrillator:location": "Im Gebäude zwischen den Liften",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Oase Lindenhof",
+    "id": "node/12547318763"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8118859,
+      47.3315346
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12547321501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Chrinnenstrasse 16",
+    "description": "Im Eingang rechts",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Ferienhof Wald, Hans und Regula Kindlimann",
+    "phone": "+41552464370",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12547321501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9473236,
+      47.2805464
+    ]
+  }
 }
 ]
 }
