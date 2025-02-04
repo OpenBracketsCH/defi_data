@@ -8085,53 +8085,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6635090673",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Tavannes",
-    "addr:housenumber": "55",
-    "addr:postcode": "2710",
-    "addr:street": "Rue H.-F. Sandoz",
-    "defibrillator:location": "Foyer Villa Clair Ruisseau. dès 21h30, service de veille, porte fermée",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Fondation la Pimpinière",
-    "phone": "+41 32 481 25 66",
-    "id": "node/6635090673"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.2027738,
-      47.2217842
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/6635090674",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Tavannes",
-    "addr:postcode": "2710",
-    "addr:street": "Rue du Foyer",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Municipalité de Tavannes",
-    "id": "node/6635090674"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.1997894,
-      47.22342
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6635090675",
   "properties": {
     "access": "yes",
@@ -129282,6 +129235,29 @@
     "coordinates": [
       7.7177346,
       47.5012862
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12556059401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bäzweg 17, 6490 Andermatt, Neben Eingang Werkstatt",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Elektrizitätswerk Ursern",
+    "phone": "+41418887777",
+    "id": "node/12556059401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.591303,
+      46.6346204
     ]
   }
 }
