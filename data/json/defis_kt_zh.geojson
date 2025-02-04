@@ -31788,17 +31788,18 @@
   "id": "node/9990319818",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Eingang Fitness Plus / SIEMENS / Integra",
+    "defibrillator:location": "Eingang / SIEMENS / Integra Immobilien AG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "operator": "Integra Immobilien AG",
     "id": "node/9990319818"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5901615,
-      47.4122655
+      8.5892292,
+      47.4124506
     ]
   }
 },
@@ -67348,6 +67349,26 @@
     "coordinates": [
       8.7034709,
       47.2095619
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12555932368",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Schulhaus Integra Square, EG Treppenhaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Schule Wallisellen",
+    "id": "node/12555932368"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.589784,
+      47.4119383
     ]
   }
 }
