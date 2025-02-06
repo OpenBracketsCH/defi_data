@@ -4690,116 +4690,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9285774602",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Sporttrakt B",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 07:00-18:00",
-    "operator": "Kantonsschule Zürich Nord",
-    "phone": "+41 78 709 29 02",
-    "id": "node/9285774602"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5344484,
-      47.4077912
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9285774603",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Backsteingebäude",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 07:00-18:00",
-    "operator": "Kantonsschule Zürich Nord",
-    "phone": "+41 78 709 29 02",
-    "id": "node/9285774603"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5363394,
-      47.4078148
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9285774604",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Trakt B",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 07:00-18:00",
-    "operator": "Kantonsschule Zürich Nord",
-    "phone": "+41 78 709 29 02",
-    "id": "node/9285774604"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5349527,
-      47.4082087
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9285774605",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Aula",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 07:00-18:00",
-    "operator": "Kantonsschule Zürich Nord",
-    "phone": "+41 78 709 29 02",
-    "id": "node/9285774605"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5356849,
-      47.4076877
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9285774606",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Mensa",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 07:00-18:00",
-    "operator": "Kantonsschule Zürich Nord",
-    "phone": "+41 78 709 29 02",
-    "id": "node/9285774606"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5360122,
-      47.4082268
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9303554417",
   "properties": {
     "defibrillator:location": "Bildungszentrum OdA Gesundheit Zürich",
@@ -15651,6 +15541,104 @@
     "coordinates": [
       8.4922421,
       47.3900416
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12563155401",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Kantonsschule Zürich Nord Y34-G",
+    "description": "während den Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "Kantonsschule Zürich Nord",
+    "phone": "+41443172363",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12563155401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5497397,
+      47.3979425
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12563155402",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Kantonsschule Zürich Nord",
+    "description": "während den Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "Kantonsschule Zürich Nord",
+    "phone": "+41443172363",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12563155402"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5463709,
+      47.3986833
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12563162701",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Kantonsschule Zürich Nord Y12-E",
+    "description": "während den Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "Kantonsschule Zürich Nord",
+    "phone": "+41443172363",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12563162701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5490584,
+      47.3979171
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12563164801",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Kantonsschule Zürich Nord",
+    "description": "während den Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo-Fr 07:30-17:00",
+    "operator": "Kantonsschule Zürich Nord",
+    "phone": "+41443172363",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12563164801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5450512,
+      47.4083775
     ]
   }
 }
