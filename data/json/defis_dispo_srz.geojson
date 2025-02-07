@@ -11088,18 +11088,20 @@
   "id": "node/7853369115",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bei Gemeindeverwaltung\nTreppenhaus - für alle im Gebäude zugänglich",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Beim Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Humania Care AG",
+    "phone": "0445456040",
     "id": "node/7853369115"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.579987,
-      47.4111802
+      8.580392,
+      47.4112882
     ]
   }
 },
