@@ -25200,19 +25200,21 @@
   "type": "Feature",
   "id": "node/12023191269",
   "properties": {
-    "defibrillator:location": "Eingang Oberwasser",
-    "description": "Während Arbeitszeiten verfügbar",
+    "access": "yes",
+    "defibrillator:location": "Neben dem Eingang unten",
+    "description": "24/7 Verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
-    "phone": "+41564442812",
+    "indoor": "no",
+    "operator": "KWWB Villnachern",
+    "phone": "+41564442811",
     "id": "node/12023191269"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.1699202,
-      47.4688586
+      8.1697368,
+      47.4690981
     ]
   }
 },
@@ -27543,6 +27545,54 @@
     "coordinates": [
       8.1629652,
       47.4515043
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12574207501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Im gebäude",
+    "description": "während den Arbeitszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-15:00",
+    "operator": "Kraftwerk Rüchlig",
+    "phone": "+41628895010",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12574207501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0507791,
+      47.3994712
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12574207502",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussen an der Wand vom Kraftwerk",
+    "description": "Öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Kraftwerk Windisch",
+    "phone": "+41564442811",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12574207502"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2307285,
+      47.4811616
     ]
   }
 }
