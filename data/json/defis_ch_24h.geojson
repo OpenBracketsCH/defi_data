@@ -70654,7 +70654,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
-    "operator": "Schulhaus Mösli",
+    "operator": "Stadt Wallisellen, Schule",
     "phone": "+41448776524",
     "id": "node/9602912117"
   },
@@ -129041,7 +129041,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
-    "operator": "Sportanlagen AG Wallisellen",
+    "operator": "Stadt Wallisellen, Sportanlagen AG",
     "phone": "+41448304340",
     "id": "node/12543365559"
   },
@@ -129133,7 +129133,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
-    "operator": "Schulhaus Alpen",
+    "operator": "Schule Wallisellen",
     "phone": "+41448776549",
     "id": "node/12554070230"
   },
@@ -129558,6 +129558,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "24/7",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/12581984101"
@@ -129567,6 +129568,76 @@
     "coordinates": [
       8.4292131,
       47.1469755
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12582664743",
+  "properties": {
+    "access": "yes",
+    "addr:housenumber": "58",
+    "addr:street": "Alte Winterthurerstrasse",
+    "defibrillator:location": "Bein Eingang in die Mehrzweckhalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Stadt Wallisellen, Sportanlagen AG",
+    "phone": "+41448304340",
+    "id": "node/12582664743"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5939529,
+      47.4175104
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12582837501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Eingangsbreich links",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Burger Treuhand AG",
+    "phone": "+41447298040",
+    "id": "node/12582837501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6105964,
+      47.2160252
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12582897201",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Burger Treuhand, Eingangsbereich links",
+    "description": "im Eingangsbereich nach der 1sten Türe links an der Wand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Burger Treuhand AG",
+    "phone": "+41447298040",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12582897201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6106001,
+      47.2159938
     ]
   }
 }

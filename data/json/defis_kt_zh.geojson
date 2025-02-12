@@ -5952,10 +5952,13 @@
   "id": "node/7853369119",
   "properties": {
     "access": "yes",
+    "addr:housenumber": "62",
+    "addr:street": "Alte Winterthurerstrasse",
     "defibrillator:location": "Im Hallenbad",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "operator": "Sportanlagen AG Wallisellen",
     "id": "node/7853369119"
   },
   "geometry": {
@@ -26631,7 +26634,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
-    "operator": "Schulhaus Mösli",
+    "operator": "Stadt Wallisellen, Schule",
     "phone": "+41448776524",
     "id": "node/9602912117"
   },
@@ -44619,11 +44622,13 @@
   "type": "Feature",
   "id": "node/10834463905",
   "properties": {
+    "access": "no",
     "defibrillator:location": "ARZTPRAXIS",
     "description": "Während öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "note": "Aktuell 2025 nicht verfügbar da Arztpraxis nach Brand temporär in Humlikon (Gemeindevarwaltung?) ist. Nach Wiedereröffnung Access anpassen.",
     "opening_hours": "Mo-Fr 08:00-12:00,14:00-18:00",
     "operator": "Privatperson",
     "phone": "+41 52 317 31 71",
@@ -64387,17 +64392,17 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "07:30 - 22:00 ",
-    "operator": "Schulhaus Bürgli, Stadt Wallisellen ",
-    "phone": "+4179 877 64 46 ",
+    "opening_hours": "07:30 - 22:00",
+    "operator": "Stadt Wallisellen, Schule",
+    "phone": "+4179 877 64 46",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/12375892801"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6005783,
-      47.4150644
+      8.6006267,
+      47.4152252
     ]
   }
 },
@@ -67077,7 +67082,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
-    "operator": "Sportanlagen AG Wallisellen",
+    "operator": "Stadt Wallisellen, Sportanlagen AG",
     "phone": "+41448304340",
     "id": "node/12543365559"
   },
@@ -67184,7 +67189,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
-    "operator": "Schulhaus Alpen",
+    "operator": "Schule Wallisellen",
     "phone": "+41448776549",
     "id": "node/12554070230"
   },
@@ -67229,7 +67234,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Schule Wallisellen",
+    "operator": "Stadt Wallisellen, Schule",
     "id": "node/12555932368"
   },
   "geometry": {
@@ -67493,6 +67498,101 @@
     "coordinates": [
       8.444569,
       47.4015294
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12582228102",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Haldenstrasse 5a, Waschsalon",
+    "description": "während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo-Su 08:00-20:00",
+    "operator": "Winkelhalden AG",
+    "phone": "+41 78 264 54 11",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12582228102"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5779619,
+      47.2777441
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12582664743",
+  "properties": {
+    "access": "yes",
+    "addr:housenumber": "58",
+    "addr:street": "Alte Winterthurerstrasse",
+    "defibrillator:location": "Bein Eingang in die Mehrzweckhalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Stadt Wallisellen, Sportanlagen AG",
+    "phone": "+41448304340",
+    "id": "node/12582664743"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5939529,
+      47.4175104
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12582837501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Eingangsbreich links",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Burger Treuhand AG",
+    "phone": "+41447298040",
+    "id": "node/12582837501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6105964,
+      47.2160252
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12582897201",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Burger Treuhand, Eingangsbereich links",
+    "description": "im Eingangsbereich nach der 1sten Türe links an der Wand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Burger Treuhand AG",
+    "phone": "+41447298040",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12582897201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6106001,
+      47.2159938
     ]
   }
 }
