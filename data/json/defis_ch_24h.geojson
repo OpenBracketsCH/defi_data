@@ -23833,6 +23833,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Oberägeri",
     "id": "node/7579685231"
   },
   "geometry": {
@@ -23848,10 +23849,11 @@
   "id": "node/7579685232",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Dreifachturnhalle bei Schulhaus",
+    "defibrillator:location": "Dreifachhalle/Musikschule Hofmatt",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Oberägeri",
     "id": "node/7579685232"
   },
   "geometry": {
@@ -23867,10 +23869,11 @@
   "id": "node/7579685233",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bei Raiffeisenbank",
+    "defibrillator:location": "im Gesundheitspunkt",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Oberägeri",
     "id": "node/7579685233"
   },
   "geometry": {
@@ -23886,11 +23889,11 @@
   "id": "node/7579685234",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Mehrzweckhalle Maienmatt",
+    "defibrillator:location": "Mehrzweckanlage Maienmatt",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Oberägeri",
     "id": "node/7579685234"
   },
   "geometry": {
@@ -23906,11 +23909,11 @@
   "id": "node/7579692882",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "An der Aussenwand bei den Toiletten",
+    "defibrillator:location": "An der Aussenwand bei den Toiletten der Morgartenhütte",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "level": "0",
     "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Oberägeri",
     "id": "node/7579692882"
   },
   "geometry": {
@@ -23929,8 +23932,8 @@
     "defibrillator:location": "Schulhaus Morgarten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Oberägeri",
     "id": "node/7579692883"
   },
   "geometry": {
@@ -23949,8 +23952,8 @@
     "defibrillator:location": "Mehrzweckgebäude Alosen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Oberägeri",
     "id": "node/7579693163"
   },
   "geometry": {
@@ -35858,11 +35861,12 @@
   "id": "node/8119104497",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Aussen am Gebäude",
+    "defibrillator:location": "Aussen an Studenhütte",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Oberägeri",
     "id": "node/8119104497"
   },
   "geometry": {
@@ -40991,9 +40995,8 @@
     "defibrillator:location": "Neben Lieferanteneingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Restaurant Raten",
+    "operator": "Einwohnergemeinde Oberägeri",
     "id": "node/8446285417"
   },
   "geometry": {
@@ -129638,6 +129641,31 @@
     "coordinates": [
       8.6106001,
       47.2159938
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12584667501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aufenthaltsraum Kantonspolizei/Strassenverkehrsamt",
+    "description": "Ausserhalb der Öffnungszeiten bei der Kantonspolizei läuten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Kantonspolizei Graubünden",
+    "phone": "+41 81 257 71 11",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12584667501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5152277,
+      46.8473182
     ]
   }
 }
