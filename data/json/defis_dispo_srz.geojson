@@ -10954,13 +10954,14 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "operator": "Stadt Wallisellen",
     "id": "node/7853369107"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5932827,
-      47.4166335
+      8.5929203,
+      47.416765
     ]
   }
 },
@@ -86579,7 +86580,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
-    "operator": "Schule Wallisellen",
+    "operator": "Stadt Wallisellen, Schule",
     "phone": "+41448776549",
     "id": "node/12554070230"
   },
@@ -87029,6 +87030,29 @@
     "coordinates": [
       8.6106001,
       47.2159938
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12584513801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Ritschberg, Altbau, Eingang Pausenplatz",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Sekundarschule Elgg",
+    "phone": "+41 52 208 06 43",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12584513801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8669538,
+      47.4922688
     ]
   }
 }
