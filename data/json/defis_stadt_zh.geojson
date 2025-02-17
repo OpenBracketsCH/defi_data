@@ -14006,31 +14006,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12042946769",
-  "properties": {
-    "access": "permissive",
-    "defibrillator:location": "Eingangsraum: Schiebetüre (interne Postablage / zwischen Glastüre zu Speisesaal und Küchentüre)",
-    "description": "Falls Nacht/geschlossen: Nachtglocke nutzen und Anrufen",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Stiftung Mühlehalde",
-    "phone": "+41444211111",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/12042946769"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5734129,
-      47.3603645
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12057435770",
   "properties": {
     "access": "permissive",
@@ -15639,6 +15614,28 @@
     "coordinates": [
       8.5450512,
       47.4083775
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12596992139",
+  "properties": {
+    "access": "falls_nacht/geschlossen:_nachtglocke_nutzen_und_anrufen",
+    "defibrillator:location": "Eingangsraum: Schiebetüre mit grünem Defibrillator-Schild (interne Postablage / zwischen Glastüre zu Speisesaal und Küchentüre)",
+    "description": "+41 (0)44 421 11 11",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Stiftung Mühlehalde",
+    "website": "https://muehlehalde.ch",
+    "id": "node/12596992139"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5734097,
+      47.3601949
     ]
   }
 }
