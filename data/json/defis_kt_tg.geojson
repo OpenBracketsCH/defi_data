@@ -14939,12 +14939,19 @@
   "type": "Feature",
   "id": "node/12590200502",
   "properties": {
+    "access": "yes",
+    "addr:street:en": "Am Landungssteg",
     "defibrillator:location": "Pier",
     "description": "24h zugänglich",
+    "description:en": "Grüner Kasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
+    "operator": "lifetec AG",
+    "phone": "+41800122144",
+    "ref": "1524lts",
     "id": "node/12590200502"
   },
   "geometry": {
@@ -14952,6 +14959,32 @@
     "coordinates": [
       9.3452031,
       47.5861009
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12595459607",
+  "properties": {
+    "access": "yes",
+    "addr:housenumber": "2",
+    "addr:street": "Zentrumsplatz",
+    "defibrillator:location": "Gemeindehaus",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "operator": "Lifetec AG",
+    "phone": "+41800122144",
+    "ref": "15223LTS",
+    "id": "node/12595459607"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3403823,
+      47.5840183
     ]
   }
 }
