@@ -6091,34 +6091,21 @@
 },
 {
   "type": "Feature",
-  "id": "node/8012559172",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Beim Eingang im Treppenhaus",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "id": "node/8012559172"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.045935,
-      47.4611181
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8012559173",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Eingang Werkhof",
+    "addr:housenumber": "12",
+    "addr:street": "Speerstrasse",
+    "defibrillator:location": "Vorraum Kommandoraum",
     "description": "während Öffnungszeiten verfügbar",
+    "description:en": "Koffer Orange",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "operator": "Lifetec AG",
+    "phone": "+41800122144",
+    "ref": "1234LTM",
     "id": "node/8012559173"
   },
   "geometry": {
@@ -28162,7 +28149,7 @@
   "properties": {
     "addr:housenumber": "12",
     "addr:street": "Speerstrasse",
-    "defibrillator:location": "EG Vorraum Kommandoraum",
+    "defibrillator:location": "Eingang Treppenhaus",
     "description": "Oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
