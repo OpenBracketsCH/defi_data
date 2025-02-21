@@ -124907,6 +124907,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/12395987001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindesaal, Haupteingang rechts",
+    "description": "immer verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Hombrechtikon",
+    "phone": "+41 55 254 92 34",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12395987001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.771512,
+      47.2523468
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12396486902",
   "properties": {
     "defibrillator:location": "Clubhaus SC Fulenbach",
@@ -130140,6 +130164,75 @@
     "coordinates": [
       9.3640258,
       47.4204584
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12606908201",
+  "properties": {
+    "defibrillator:location": "Vor dem Feuerwehrmagazin Li beim Eingang oben",
+    "description": "Immer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Flims (Dario Gauch)",
+    "phone": "+41764226376",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12606908201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2940687,
+      46.8359085
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12606910901",
+  "properties": {
+    "defibrillator:location": "Alte Post Waldhaus Bei Busthaltestelle",
+    "description": "Immer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Flims (Dario Gauch)",
+    "phone": "+41764226376",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12606910901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.288806,
+      46.8258676
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12606969601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "am Privatgebäude, bei Hofkiosk",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Oberägeri",
+    "phone": "+41 41 723 80 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12606969601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6051702,
+      47.1416319
     ]
   }
 }

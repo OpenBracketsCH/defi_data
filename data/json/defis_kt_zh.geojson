@@ -64543,6 +64543,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Hombrechtikon",
     "phone": "+41 55 254 92 34",
     "source": "local_knowledge, defikarte.ch",
@@ -64551,8 +64552,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7717448,
-      47.25232
+      8.771512,
+      47.2523468
     ]
   }
 },
@@ -67811,6 +67812,75 @@
     "coordinates": [
       8.5975903,
       47.4212188
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12607026601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindehaus, Feldbachstrasse 12, rechts vom Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeindeverwaltung Hombrechtikon",
+    "phone": "+41 55 254 92 92",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12607026601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7665802,
+      47.2505467
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12607166301",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Relysian | Personal Training Zurich",
+    "description": "Während Öffnung Zeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-20:00",
+    "phone": "+41 76 214 00 62",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12607166301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5332656,
+      47.3669412
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12607696101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sekundarschule Embrach",
+    "description": "Während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-17:00",
+    "operator": "Sekundarschule Embrach",
+    "phone": "+4179 845 29 82",
+    "id": "node/12607696101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.597703,
+      47.5059166
     ]
   }
 }
