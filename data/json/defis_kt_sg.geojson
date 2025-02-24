@@ -26369,6 +26369,55 @@
       47.4204584
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/12614950501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "GZO - Gebäudetechnik Zentrum Ostschweiz beim Hautpeingang",
+    "description": "immer Verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "GZO - Gebäudetechnik Zentrum Ostschweiz",
+    "phone": "+4171 274 80 20",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12614950501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.347461,
+      47.4124725
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12614952301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "GZO - Gebäudetechnik Zentrum Ostschweiz, Im 3. OG beim Lift",
+    "description": "während den Öffnungszeiten Verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "opening_hours": "Mo-Fr 6:00-20:00",
+    "operator": "GZO - Gebäudetechnik Zentrum Ostschweiz",
+    "phone": "+4171 274 80 20",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12614952301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3474417,
+      47.4125016
+    ]
+  }
 }
 ]
 }
