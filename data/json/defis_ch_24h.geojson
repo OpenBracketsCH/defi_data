@@ -82788,27 +82788,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10240188804",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Hafengebäude, Durchgang",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Hafen",
-    "phone": "+41 71 694 50 50",
-    "id": "node/10240188804"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.22493,
-      47.63354
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10240188805",
   "properties": {
     "access": "yes",
@@ -130307,6 +130286,30 @@
     "coordinates": [
       9.5442231,
       47.3798327
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12615579101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bunker 3326",
+    "description": "24h Aussananlage",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Ermatingen",
+    "phone": "+41716633023",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12615579101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1097367,
+      47.6611744
     ]
   }
 }
