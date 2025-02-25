@@ -5777,21 +5777,22 @@
   "id": "node/6565703798",
   "properties": {
     "access": "permissive",
-    "addr:city": "Grindelwald",
-    "addr:place": "First",
-    "addr:postcode": "3818",
-    "defibrillator:location": "Mitte Station. Winter SOS",
+    "defibrillator:location": "Station First Bergstation, Mitte Station",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "Zeitweise öffentlich",
-    "operator": "Firstbahn",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 08:00-17:00",
+    "operator": "Firstbahn AG",
+    "phone": "+41 33 828 71 11",
+    "wheelchair": "no",
     "id": "node/6565703798"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0536376,
-      46.6597589
+      8.0537689,
+      46.6598793
     ]
   }
 },
@@ -5800,21 +5801,22 @@
   "id": "node/6565703799",
   "properties": {
     "access": "permissive",
-    "addr:city": "Grindelwald",
-    "addr:place": "Station Schreckfeld",
-    "addr:postcode": "3818",
-    "defibrillator:location": "Station, vor Kommandoraum",
+    "defibrillator:location": "Station Schreckfeld, vor Kommandoraum",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "\"Zeitweise öffentlich\"",
-    "operator": "Firstbahn",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 08:00-17:00",
+    "operator": "Firstbahn AG",
+    "phone": "+41 33 828 71 11",
+    "wheelchair": "no",
     "id": "node/6565703799"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0652515,
-      46.6584749
+      8.0653017,
+      46.658508
     ]
   }
 },
@@ -54767,16 +54769,14 @@
   "id": "node/12149316993",
   "properties": {
     "access": "yes",
-    "addr:city": "Grindelwald",
-    "addr:housenumber": "77",
-    "addr:postcode": "3818",
-    "addr:street": "Dorfstrasse",
-    "defibrillator:location": "Station Gepäckraum",
+    "defibrillator:location": "Bahnhof Grindelwald neben dem Gepäckraum",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Berner Oberland-Bahn",
+    "phone": "+41 33 828 71 11",
+    "wheelchair": "limited",
     "id": "node/12149316993"
   },
   "geometry": {
