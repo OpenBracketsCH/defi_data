@@ -31483,6 +31483,54 @@
       47.3798327
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/12620168801",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Bürogebäude Walo Bertschinger AG",
+    "description": "während der Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "07:00 - 17:00",
+    "operator": "Walo Bertschinger AG Ostschweiz",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12620168801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4645661,
+      47.4839459
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12620171401",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Werkstatt Walo Bertschinger AG, neben Eingang Büro",
+    "description": "während der Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "07:00 - 17:00",
+    "operator": "Walo Bertschinger AG Ostschweiz",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12620171401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4663793,
+      47.4842468
+    ]
+  }
 }
 ]
 }
