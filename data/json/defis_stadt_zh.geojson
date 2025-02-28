@@ -2589,9 +2589,9 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "0",
+    "level": "ug",
     "opening_hours": "Mo-Fr 07:00-18:00",
-    "operator": "Horst Ritzel Alterszentren Stadt Zürich",
+    "operator": "Alessandro Ghisletta, Städtische Gesundheitsdienste",
     "phone": "+41 44 412 47 48",
     "wheelchair": "limited",
     "id": "node/8562820772"
@@ -2599,8 +2599,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5425447,
-      47.4161176
+      8.5423098,
+      47.4160733
     ]
   }
 },
@@ -7692,7 +7692,7 @@
     "indoor": "yes",
     "level": "5",
     "opening_hours": "Mo-Fr 07:00-18:00",
-    "operator": "Horst Ritzel Alterszentren Stadt Zürich",
+    "operator": "Alessandro Ghisletta, Städtische Gesundheitsdienste",
     "phone": "+41 44 412 47 48",
     "wheelchair": "limited",
     "id": "node/10741161483"
@@ -7700,8 +7700,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5425916,
-      47.4160568
+      8.5426942,
+      47.4160784
     ]
   }
 },
@@ -7716,7 +7716,7 @@
     "indoor": "yes",
     "level": "4",
     "opening_hours": "Mo-Fr 07:00-18:00",
-    "operator": "Horst Ritzel Alterszentren Stadt Zürich",
+    "operator": "Alessandro Ghisletta, Städtische Gesundheitsdienste",
     "phone": "+41 44 412 47 48",
     "wheelchair": "limited",
     "id": "node/10741161484"
@@ -7724,8 +7724,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5425839,
-      47.4160694
+      8.5426016,
+      47.4160862
     ]
   }
 },
@@ -7740,7 +7740,7 @@
     "indoor": "yes",
     "level": "3",
     "opening_hours": "Mo-Fr 07:00-18:00",
-    "operator": "Horst Ritzel Alterszentren Stadt Zürich",
+    "operator": "Alessandro Ghisletta, Städtische Gesundheitsdienste",
     "phone": "+41 44 412 47 48",
     "wheelchair": "limited",
     "id": "node/10741161485"
@@ -7748,32 +7748,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5425718,
-      47.4160806
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10741161486",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Im Treppenhaus",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "2",
-    "opening_hours": "Mo-Fr 07:00-18:00",
-    "operator": "Horst Ritzel Alterszentren Stadt Zürich",
-    "phone": "+41 44 412 47 48",
-    "wheelchair": "limited",
-    "id": "node/10741161486"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5425608,
-      47.4160925
+      8.5425258,
+      47.4160854
     ]
   }
 },
@@ -7788,7 +7764,7 @@
     "indoor": "yes",
     "level": "1",
     "opening_hours": "Mo-Fr 07:00-18:00",
-    "operator": "Horst Ritzel Alterszentren Stadt Zürich",
+    "operator": "Alessandro Ghisletta, Städtische Gesundheitsdienste",
     "phone": "+41 44 412 47 48",
     "wheelchair": "limited",
     "id": "node/10741161487"
@@ -7796,8 +7772,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5425542,
-      47.4161044
+      8.5424256,
+      47.4160798
     ]
   }
 },
@@ -15638,6 +15614,54 @@
     "coordinates": [
       8.5332656,
       47.3669412
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12625044096",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Treppenhaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "Alessandro Ghisletta, Städtische Gesundheitsdienste",
+    "phone": "+41 44 412 47 48",
+    "wheelchair": "limited",
+    "id": "node/12625044096"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.542477,
+      47.4160676
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12625044097",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Treppenhaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "eg",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "Alessandro Ghisletta, Städtische Gesundheitsdienste",
+    "phone": "+41 44 412 47 48",
+    "wheelchair": "limited",
+    "id": "node/12625044097"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.542375,
+      47.4160767
     ]
   }
 }
