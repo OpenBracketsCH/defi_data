@@ -23972,18 +23972,21 @@
   "id": "node/7579716798",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Beim Zugangstor",
+    "defibrillator:location": "Seebad Walchwil, Artherstrasse 14",
+    "description": "Beim Zugangstor zum Seebad",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Walchwil, Dorfstrasse 23, 6318 Walchwil",
+    "phone": "+41417598010",
     "id": "node/7579716798"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5199327,
-      47.0933016
+      8.5199548,
+      47.0932792
     ]
   }
 },
@@ -23992,11 +23995,14 @@
   "id": "node/7579716799",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Vor dem Eingang ins Sanitätszimmer",
+    "defibrillator:location": "Sportplatz Lienisberg, Lienisberg 5",
+    "description": "Öffentliche Toiletten / Ostseite",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Walchwil, Dorfstrasse 23, 6318 Walchwil",
+    "phone": "+41417598010",
     "id": "node/7579716799"
   },
   "geometry": {
@@ -24012,10 +24018,13 @@
   "id": "node/7579716800",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Vor dem Ticketautomaten",
+    "defibrillator:location": "Bahnhof Walchwil, Bahnhofstrasse 3",
+    "description": "Bei den Toiletten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Walchwil, Dorfstrasse 23, 6318 Walchwil",
+    "phone": "+41417598010",
     "id": "node/7579716800"
   },
   "geometry": {
@@ -24031,10 +24040,14 @@
   "id": "node/7579716801",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Vor dem Eingang",
+    "defibrillator:location": "Gemeindesaal, Schulhausstrasse 44",
+    "description": "Beim Haupteingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Walchwil, Dorfstrasse 23, 6318 Walchwil",
+    "phone": "+41417598010",
     "id": "node/7579716801"
   },
   "geometry": {
@@ -24050,10 +24063,14 @@
   "id": "node/7579716802",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Vor dem Eingang zum Gesundheitszentrum",
+    "defibrillator:location": "Gesundheitszentrum Walchwil, Dorfstrasse 4",
+    "description": "Beim Haupteingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Walchwil, Dorfstrasse 23, 6318 Walchwil",
+    "phone": "+41417598010",
     "id": "node/7579716802"
   },
   "geometry": {
@@ -75106,7 +75123,7 @@
   "id": "node/9836095818",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "An der Aussenfasse Bushaltestelle / Transformatorengebäude",
+    "defibrillator:location": "Bushaltestelle Oberdorf, Oberdorfstrasse",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -75128,7 +75145,8 @@
   "id": "node/9836095819",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Der Defi ist gut sichtbar ausgeschildert bei der S-Bahn-Wartehalle / direkt neben dem Fahrticketautomaten",
+    "defibrillator:location": "S-Bahnstation Hörndli, Oberdorfstrasse",
+    "description": "Im Warteunterstand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -86443,8 +86461,8 @@
   "id": "node/10583972905",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Freizeitanlage Usseregg Walchwil - Aussenbereich des Bewirtschaftungsgebäudes",
-    "description": "Für die Öffentlichkeit - rundum verfügbar",
+    "defibrillator:location": "Freizeitanlage Usseregg, Forchwaldstrasse",
+    "description": "Aussenbereich des Toilettengebäudes",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -120565,6 +120583,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/12165421601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Müller Holzbau, Forchwaldstrasse 55",
+    "description": "Hausfassade / Eingang zur Werkstatt",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Walchwil, Dorfstrasse 23, 6318 Walchwil",
+    "phone": "+41417598010",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12165421601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.518889,
+      47.1029879
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12165774902",
   "properties": {
     "defibrillator:location": "Route de l'Aiglon 5",
@@ -121603,6 +121645,30 @@
     "coordinates": [
       10.0439986,
       46.3642126
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12218273201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hinterbergstrasse 38",
+    "description": "Gegenüber Restaurant Aesch / Aussenkasten in der Rabatte",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Walchwil",
+    "phone": "+41417598010",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12218273201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.521834,
+      47.0959401
     ]
   }
 },
@@ -127094,8 +127160,8 @@
   "id": "node/12433567401",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Haupteingang rechte Seite",
-    "description": "Der Defibrilator befindet sich bei der Briefkastenanlage",
+    "defibrillator:location": "Zentrum Elisabeth, Hinterbergstrasse 41",
+    "description": "Der Defibrillator befindet sich bei der Briefkastenanlage",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
