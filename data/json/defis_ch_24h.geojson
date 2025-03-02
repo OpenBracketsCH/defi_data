@@ -32342,11 +32342,12 @@
   "type": "Feature",
   "id": "node/7820028708",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "3. OG Verwaltung",
-    "description": "Bei Feuerwehr melden",
+    "access": "customers",
+    "defibrillator:location": "Berufsfeuerwehr Zürich",
+    "description": "Bei Feuerwehr klingeln",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "24/7",
     "operator": "Schutz & Rettung Zürich",
     "id": "node/7820028708"
@@ -130625,6 +130626,27 @@
     "coordinates": [
       8.5501206,
       47.3061025
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12630350414",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Untere Turnhalle aussen, Mitte",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Schulanlage Primarschule Schollenholz",
+    "wheelchair": "limited",
+    "id": "node/12630350414"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8839464,
+      47.550516
     ]
   }
 }
