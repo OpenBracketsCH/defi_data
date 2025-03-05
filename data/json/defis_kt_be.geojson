@@ -7398,30 +7398,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6566220021",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Bönigen",
-    "addr:housenumber": "58",
-    "addr:postcode": "3806",
-    "addr:street": "Hauptstrasse",
-    "defibrillator:location": "24h, aussen an der Wand, neben Schaufenster",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Bäckerei Konditorei Feuz",
-    "id": "node/6566220021"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.8944845,
-      46.686069
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6566220022",
   "properties": {
     "access": "permissive",
@@ -58487,6 +58463,26 @@
     "coordinates": [
       7.6460727,
       47.0140697
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12638561001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindehaus, Fassade Eingangstür / neben Anschlagebrett",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12638561001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2193855,
+      46.909812
     ]
   }
 }
