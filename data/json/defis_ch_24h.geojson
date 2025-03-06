@@ -68485,28 +68485,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9463108217",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Schwimmbad Stammheim",
-    "description": "links neben dem Eingang",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde Stammheim",
-    "id": "node/9463108217"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.782163,
-      47.6373513
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9465639435",
   "properties": {
     "access": "yes",
@@ -115916,30 +115894,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11954725169",
-  "properties": {
-    "access": "private",
-    "defibrillator:location": "Breitenweg 7 (Keller Treppenhaus)",
-    "description": "2 Defis, Verfugbar falls jmd Zuhaus ist.",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Privatperson",
-    "phone": "+41793323360",
-    "id": "node/11954725169"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6016126,
-      47.6371926
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11955091652",
   "properties": {
     "access": "private",
@@ -125112,7 +125066,7 @@
   "id": "node/12404806301",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schulhaus Kaltenbach, Schulhaus 1, 8259 Kaltenbach",
+    "defibrillator:location": "Schulhaus Kaltenbach, Schulhaus 1, 8259 Kaltenbach\nUnter Überdachung zwischen Schulhaus und Turnhalle, neben Tür Lehrerzimmer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -130635,6 +130589,30 @@
     "coordinates": [
       9.6787336,
       46.7867051
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12640937901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Burenmatt 15",
+    "description": "Am Gebäude Nr. 15",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Ziefen",
+    "phone": "+41 61 935 95 95",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12640937901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7001929,
+      47.4304461
     ]
   }
 }
