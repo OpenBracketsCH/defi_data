@@ -2886,6 +2886,7 @@
     "defibrillator:location": "Heim St. Antonius",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Heim St. Antonius",
     "phone": "+41 55 415 50 83",
@@ -87909,6 +87910,23 @@
     "coordinates": [
       8.7033981,
       47.4883794
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12642510602",
+  "properties": {
+    "defibrillator:location": "Linke Wand, Wartehäuschen offen",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/12642510602"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8007741,
+      47.2141369
     ]
   }
 }
