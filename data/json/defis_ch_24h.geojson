@@ -130595,29 +130595,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12640522301",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Haus Furkablik Tomelistr.6",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Privatperson",
-    "phone": "+41765262731",
-    "id": "node/12640522301"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.6787336,
-      46.7867051
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12640937901",
   "properties": {
     "access": "yes",
@@ -130637,6 +130614,29 @@
     "coordinates": [
       7.7001929,
       47.4304461
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12643358702",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Stockberg 1, rechts beim Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Schübelbach",
+    "phone": "+41554505622",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12643358702"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9021605,
+      47.174421
     ]
   }
 }
