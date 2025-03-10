@@ -61963,6 +61963,7 @@
   "type": "Feature",
   "id": "node/12201379001",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "SOB Haltestelle Frohberg",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -68286,6 +68287,30 @@
     "coordinates": [
       8.7829953,
       47.3647684
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12649864201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "SOB Haltestelle",
+    "description": "Öffentlich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Schweizerische Südostbahn",
+    "phone": "+41 58 580 70 70",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12649864201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6875033,
+      47.1983553
     ]
   }
 }

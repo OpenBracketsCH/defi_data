@@ -118259,7 +118259,7 @@
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
-    "operator": "SOB",
+    "operator": "Schweizerische Südostbahn",
     "id": "node/12063751969"
   },
   "geometry": {
@@ -121223,6 +121223,7 @@
   "type": "Feature",
   "id": "node/12201379001",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "SOB Haltestelle Frohberg",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -121355,10 +121356,12 @@
   "id": "node/12209001749",
   "properties": {
     "access": "permissive",
+    "defibrillator:location": "Westseitig am Gebäude",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Schweizerische Südostbahn",
     "id": "node/12209001749"
   },
   "geometry": {
@@ -130620,6 +130623,26 @@
 },
 {
   "type": "Feature",
+  "id": "node/12642510602",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "SOB Haltestelle, Wartehäuschen offen",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Schweizerische Südostbahn",
+    "id": "node/12642510602"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8007741,
+      47.2141369
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12643358702",
   "properties": {
     "access": "yes",
@@ -130721,6 +130744,30 @@
     "coordinates": [
       9.6791697,
       46.7856244
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12649864201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "SOB Haltestelle",
+    "description": "Öffentlich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Schweizerische Südostbahn",
+    "phone": "+41 58 580 70 70",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12649864201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6875033,
+      47.1983553
     ]
   }
 }
