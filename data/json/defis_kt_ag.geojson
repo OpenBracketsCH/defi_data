@@ -27781,6 +27781,78 @@
       47.2922461
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/12652027903",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Turnhalle Breite Eingang Nord",
+    "description": "Öffentlich Zugänglich 24/7",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Muhen",
+    "phone": "+41627371616",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12652027903"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0533111,
+      47.33546
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12652032301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang Gemeindeverwaltung",
+    "description": "Öffentlich Zugänglich 24/7",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Muhen",
+    "phone": "+41627371646",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12652032301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0535471,
+      47.3361543
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12652036607",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Schulhaus EGG 1.OG",
+    "description": "während Schulbetrieb",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "operator": "Gemeinde Muhen",
+    "phone": "+41627371616",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12652036607"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0537778,
+      47.3358344
+    ]
+  }
 }
 ]
 }
