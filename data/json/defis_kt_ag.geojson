@@ -27853,6 +27853,52 @@
       47.3358344
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/12652470001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Gemeindehaus Mönthal, Hauptstrasse 166",
+    "description": "immer zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Mönthal",
+    "phone": "+41793995032",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12652470001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1424731,
+      47.518331
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12652487002",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang Schulhaus Mönthal, Schulhausstrasse 103",
+    "description": "immer zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde Mönthal",
+    "phone": "+41562841473",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12652487002"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1405848,
+      47.5197113
+    ]
+  }
 }
 ]
 }
