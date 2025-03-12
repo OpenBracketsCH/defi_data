@@ -273,20 +273,21 @@
   "id": "node/9004556011",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Haupteingang",
+    "defibrillator:location": "Fussballplatz Hauptgebäude",
+    "description": "Nebeneingang Hauptgebäude FC, direkt neben der Strasse",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00",
-    "operator": "S. Yousufi",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Balzers",
     "phone": "+41 79 639 33 13",
     "id": "node/9004556011"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4953606,
-      47.0733297
+      9.4954404,
+      47.0732475
     ]
   }
 },
@@ -3980,6 +3981,30 @@
     "coordinates": [
       9.5245702,
       47.1019264
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12655522201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Wohnen im Alter, Elgagass 34",
+    "description": "Eingang Südseite",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Balzers",
+    "phone": "+41796973326",
+    "id": "node/12655522201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4989736,
+      47.0648791
     ]
   }
 }
