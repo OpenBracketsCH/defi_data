@@ -5780,11 +5780,12 @@
   "type": "Feature",
   "id": "node/12655615701",
   "properties": {
-    "access": "yes",
+    "access": "customers",
     "check_date": "2025-03-12",
-    "defibrillator:location:fr": "Bâtiment Edilitaire",
+    "defibrillator:location:fr": "Restaurant Communal",
     "emergency": "defibrillator",
-    "indoor": "no",
+    "indoor": "yes",
+    "level": "0",
     "id": "node/12655615701"
   },
   "geometry": {
@@ -5792,6 +5793,44 @@
     "coordinates": [
       7.085452,
       46.7573874
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12655615702",
+  "properties": {
+    "access": "yes",
+    "check_date": "2025-03-12",
+    "defibrillator:location:fr": "Bâtiment Edilitaire",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/12655615702"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0793377,
+      46.7539502
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12655681301",
+  "properties": {
+    "access": "yes",
+    "check_date": "2025-03-12",
+    "defibrillator:location:fr": "Halle de Gym",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/12655681301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0934485,
+      46.7635675
     ]
   }
 }
