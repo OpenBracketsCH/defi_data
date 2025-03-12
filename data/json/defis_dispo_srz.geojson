@@ -29518,25 +29518,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8912995017",
-  "properties": {
-    "defibrillator:location": "Zentrum Wallisellen",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 5:00-23:30",
-    "id": "node/8912995017"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.592869,
-      47.4136603
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8913469331",
   "properties": {
     "defibrillator:location": "1. Stock linker Flügel - Grünes Symbol gut sichtbar",
@@ -87508,12 +87489,13 @@
   "properties": {
     "access": "yes",
     "contact:email": "administration@feuerwehr-wallisellen.ch",
-    "contact:phone": "044 830 22 79",
     "defibrillator:location": "Zwicky-Strasse 5 , hinter Glasscheibe, Verbindungsgang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Stadt Wallisellen, Zwicky",
+    "phone": "+41 44 830 22 79",
     "id": "node/12615775318"
   },
   "geometry": {
@@ -87597,12 +87579,14 @@
   "properties": {
     "access": "yes",
     "contact:email": "administration@feuerwehr-wallisellen.ch",
-    "contact:phone": "044 830 22 79",
     "defibrillator:location": "Hammerweg 3, beim Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Stadt Wallisellen, Integra",
+    "phone": "044 830 22 79",
     "id": "node/12618369520"
   },
   "geometry": {
@@ -88161,7 +88145,7 @@
     "level": "0",
     "opening_hours": "24/7",
     "operator": "Stadt Wallisellen",
-    "phone": "+41448302388",
+    "phone": "044 830 22 79",
     "id": "node/12655697373"
   },
   "geometry": {
@@ -88177,7 +88161,7 @@
   "id": "node/12655825522",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "beim Eingang rechts, Seite Neugutstrasse",
+    "defibrillator:location": "Zentrum Wallisellen, beim Eingang rechts, Seite Neugutstrasse",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
