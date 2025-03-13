@@ -2376,6 +2376,55 @@
       46.6346204
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/12660373401",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Fitness Gisler Schattdorf",
+    "description": "Während Öffnungszeiten erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "opening_hours": "mo-fr 08:30-21:00",
+    "operator": "Fitnessstudio",
+    "phone": "+41793940038",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12660373401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6456906,
+      46.8532892
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12660378401",
+  "properties": {
+    "defibrillator:location": "Fitness Gisler Schattdorf",
+    "description": "Während Öffnungszeiten erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "opening_hours": "sa-su 09:00-15:30",
+    "operator": "Fitnessstudio",
+    "phone": "+41793940038",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12660378401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6456064,
+      46.853251
+    ]
+  }
 }
 ]
 }
