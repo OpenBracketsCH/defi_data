@@ -109362,29 +109362,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11626263469",
-  "properties": {
-    "defibrillator:location": "Zahnmedizin Zürich Nord",
-    "description": "während Öffnungszeiten",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Geschäft",
-    "phone": "+41443251505",
-    "id": "node/11626263469"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5729943,
-      47.4053473
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11630034769",
   "properties": {
     "access": "yes",
@@ -130899,6 +130876,29 @@
     "coordinates": [
       7.5620935,
       47.1496107
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12658005901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Ancien Collège, rue du Moulin 1, 1438 Mathod",
+    "description": "Façade du bâtiment",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Commune de Mathod",
+    "phone": "+41 79 403 97 40",
+    "id": "node/12658005901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.5641049,
+      46.7663635
     ]
   }
 }
