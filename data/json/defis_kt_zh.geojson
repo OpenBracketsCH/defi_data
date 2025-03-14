@@ -68494,8 +68494,9 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "opening_hours": "Mo-Su 08:00-16.30",
     "operator": "Gemeinde",
-    "phone": "+4144 806 34 24",
+    "phone": "+4144 806 34 34",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/12662459601"
   },
@@ -68519,7 +68520,7 @@
     "indoor": "yes",
     "level": "0",
     "operator": "Gemeinde",
-    "phone": "+4144 806 34 24",
+    "phone": "+4144 806 34 34",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/12662465001"
   },
@@ -68528,6 +68529,121 @@
     "coordinates": [
       8.625396,
       47.3619815
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12662571001",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Ergeschoss beim Haupteingang",
+    "description": "Während des Schulbetriebs verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde",
+    "phone": "+4144 806 34 34",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12662571001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6287033,
+      47.3671888
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12662597201",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Ergeschoss beim Haupteingang Haus 1",
+    "description": "Während des Schulbetriebs verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde",
+    "phone": "+4144 806 34 34",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12662597201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6359932,
+      47.3603863
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12662601101",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Kindergarten links",
+    "description": "Während des Schulbetriebs verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde",
+    "phone": "+4144 806 34 34",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12662601101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6372702,
+      47.3609061
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12662605502",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Kleinschulhaus EG Haupteingang",
+    "description": "Während des Schulbetriebs verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde",
+    "phone": "+4144 806 34 34",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12662605502"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6353765,
+      47.3623158
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12662605603",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Ergeschoss beim Haupteingang rechts",
+    "description": "Während des Schulbetriebs verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde",
+    "phone": "+4144 806 34 34",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12662605603"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.643691,
+      47.370037
     ]
   }
 }
