@@ -1304,21 +1304,24 @@
   "type": "Feature",
   "id": "node/8890548218",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Hotel Bonistock",
+    "access": "customers",
+    "defibrillator:location": "Berghotel Bonistock",
     "description": "im Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Hotel Bonistock",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Berghotel Bonistock",
     "phone": "+41 79 961 62 41",
+    "wheelchair": "limited",
     "id": "node/8890548218"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2906397,
-      46.7774477
+      8.2906338,
+      46.7776168
     ]
   }
 },
