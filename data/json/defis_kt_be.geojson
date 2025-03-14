@@ -40504,20 +40504,23 @@
   "type": "Feature",
   "id": "node/9873923323",
   "properties": {
-    "defibrillator:location": "In der Apotheke.",
+    "access": "customers",
+    "defibrillator:location": "In der Länggass Apotheke",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 07:45-18:30; Sa 07:45-16:30",
     "operator": "TopPharm Länggass Apotheke",
     "phone": "+41 31 301 23 22",
+    "wheelchair": "limited",
     "id": "node/9873923323"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4328451,
-      46.953189
+      7.4328059,
+      46.9531657
     ]
   }
 },
