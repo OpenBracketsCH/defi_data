@@ -40670,48 +40670,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9813938119",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "1. OG im Büro",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-17:00",
-    "operator": "mühlebach partner ag",
-    "id": "node/9813938119"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.755703,
-      47.4961387
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9813938720",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "1.OG im Büro",
-    "description": "während den Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-17:00",
-    "id": "node/9813938720"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.7556908,
-      47.4959689
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9814649917",
   "properties": {
     "defibrillator:location": "2. Stock, rechts neben Einganglift",
@@ -88415,7 +88373,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo, We, Fr 06:15-07:15",
+    "opening_hours": "Mo 06:15-07:15, 12:15-13:00, 17:15-21:00; We 06:15-07:15, 12:15-13:00, 17:15-21:00; Fr 06:15-07:15, 12:15-13:00, 17:15-21:00; Mo-Fr 17:15-21:00; Sa-Su 09:45-12:00",
     "operator": "GmbH",
     "phone": "+4176 411 60 37",
     "source": "local_knowledge, defikarte.ch",
@@ -88513,6 +88471,27 @@
     "coordinates": [
       8.5171294,
       47.3878868
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12672942509",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "1. OG im Büro",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "mühlebach partner ag",
+    "id": "node/12672942509"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7146603,
+      47.5051041
     ]
   }
 }
