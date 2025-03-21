@@ -76997,28 +76997,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9957270299",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Zwischen Tennisplatz und Fussballplatz",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Baumann Federn AG",
-    "phone": "+41552868111",
-    "id": "node/9957270299"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.8879981,
-      47.2439142
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9960949181",
   "properties": {
     "access": "yes",
@@ -131181,6 +131159,29 @@
     "coordinates": [
       9.5179313,
       47.2469744
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12687093101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rechts neben Eingang Trafostation",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Fehraltorf",
+    "phone": "+41433557813",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12687093101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.75846,
+      47.3943077
     ]
   }
 }
