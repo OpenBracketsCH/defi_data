@@ -129634,6 +129634,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/12590314101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Landsgemeindestrasse 48, Werkhof ebs, 6438 Ibach",
+    "description": "neben Tanksäule",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "ebs Energie AG",
+    "phone": "+41 41 811 15 55",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12590314101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6466997,
+      47.0061576
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12590500201",
   "properties": {
     "access": "yes",
@@ -130926,29 +130950,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12670376001",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Landsgemeindestrasse 4, Ibach (In Halleneinfahrt)",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "ebs Energie AG",
-    "phone": "+41 41 811 15 55",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/12670376001"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6465183,
-      47.005998
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12670382801",
   "properties": {
     "access": "yes",
@@ -131298,6 +131299,29 @@
     "coordinates": [
       6.6740165,
       46.7013532
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12696231701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Alterszentrum Rubiswil, Gotthardstrasse 124 (links im Eingangsbereich)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Alterszentrum Rubiswil, Ibach",
+    "phone": "+41 41 811 15 55",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12696231701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6439125,
+      47.0171023
     ]
   }
 }
