@@ -2354,8 +2354,9 @@
     "defibrillator:location": "Sur la façade des WC",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
+    "wheelchair": "limited",
     "id": "node/8393447295"
   },
   "geometry": {
@@ -11477,6 +11478,27 @@
     "coordinates": [
       6.3091242,
       46.5127477
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12696209901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Pailly, village",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "level": "0",
+    "opening_hours": "24/7",
+    "wheelchair": "limited",
+    "id": "node/12696209901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.6740165,
+      46.7013532
     ]
   }
 }
