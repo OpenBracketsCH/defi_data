@@ -26720,6 +26720,75 @@
       47.2469744
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/12698434002",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Wohnbereich Sonnenhalde, Eingang neben der Kapelle",
+    "description": "Für Personal immer verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "GHG Sonnenhalde Tandem",
+    "phone": "+ 41 71 243 90 90",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12698434002"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3830752,
+      47.4390787
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12698440301",
+  "properties": {
+    "defibrillator:location": "GBS HE Empfang",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo- We 08:00- 21:00",
+    "operator": "GBS",
+    "phone": "+41582282690",
+    "id": "node/12698440301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3686034,
+      47.4123163
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12698445301",
+  "properties": {
+    "defibrillator:location": "Sporthalle Demut",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "Mo- We 7:00- 21:00",
+    "operator": "GBS",
+    "phone": "+41582282690",
+    "id": "node/12698445301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3695001,
+      47.4128649
+    ]
+  }
 }
 ]
 }
