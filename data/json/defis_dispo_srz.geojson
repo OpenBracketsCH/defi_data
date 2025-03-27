@@ -17249,11 +17249,11 @@
   "id": "node/8382790996",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Werkstatt Service Center Gebäude A",
-    "description": "nicht öffentlich zugänglich",
+    "defibrillator:location": "Eingang Gebäude B",
+    "description": "öffentlich zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "operator": "SOB",
     "phone": "+41 58 580 70 70",
     "id": "node/8382790996"
@@ -17261,8 +17261,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.684519,
-      47.1917165
+      8.6837841,
+      47.192082
     ]
   }
 },
@@ -46043,12 +46043,14 @@
   "type": "Feature",
   "id": "node/10118306684",
   "properties": {
-    "defibrillator:location": "Passerelle Bürogebäude - Fabrikationsgebäude",
+    "access": "private",
+    "defibrillator:location": "EG. Personaleingang Produktionsgebäude / 1. OG bei der Passerelle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-17:00",
-    "operator": "Betriebs-Sanität dormakaba Wetzikon",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-12:00, 13:00-17:00",
+    "operator": "Betriebssanität dormakaba Wetzikon",
     "phone": "+41 44 931 61 11",
     "id": "node/10118306684"
   },
@@ -83992,30 +83994,6 @@
     "coordinates": [
       8.5182452,
       47.388112
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12416010007",
-  "properties": {
-    "access": "permissive",
-    "defibrillator:location": "Amtsstrasse 3, Beratungsstelle LUNGE ZÜRICH",
-    "description": "Defibrillator ist nur bei anwesendem Personal verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "1",
-    "operator": "Verein",
-    "phone": "+41 44 268 20 00",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/12416010007"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.7154788,
-      47.3511448
     ]
   }
 },
