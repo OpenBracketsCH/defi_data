@@ -10401,8 +10401,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.2543721,
-      47.4095583
+      9.2541916,
+      47.4094924
     ]
   }
 },
@@ -10422,8 +10422,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.2543882,
-      47.4095066
+      9.2546943,
+      47.409515
     ]
   }
 },
@@ -10464,8 +10464,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.2497158,
-      47.4197741
+      9.249854,
+      47.4196682
     ]
   }
 },
@@ -10485,8 +10485,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.2528312,
-      47.4139064
+      9.2531409,
+      47.4139878
     ]
   }
 },
@@ -10495,7 +10495,7 @@
   "id": "node/8840906898",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Im Sanitätszimmer",
+    "defibrillator:location": "Im Sanitätscontainer beim Eingang",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -10506,8 +10506,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.2551285,
-      47.4108498
+      9.2551904,
+      47.4110091
     ]
   }
 },
@@ -10527,8 +10527,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.2508772,
-      47.4198268
+      9.2499137,
+      47.4199423
     ]
   }
 },
@@ -10569,8 +10569,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.2532215,
-      47.4201607
+      9.2523835,
+      47.4198688
     ]
   }
 },
@@ -10590,8 +10590,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.2716858,
-      47.4135852
+      9.271506,
+      47.4136437
     ]
   }
 },
@@ -10621,19 +10621,19 @@
   "id": "node/8840906904",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Gang EG in Turnhalle",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Eingang Turnhalle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Stadt Gossau",
     "id": "node/8840906904"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.2422432,
-      47.4112836
+      9.2420608,
+      47.4113865
     ]
   }
 },
@@ -12124,7 +12124,7 @@
   "id": "node/9233094307",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Markthalle Gossau",
+    "defibrillator:location": "Markthalle Gossau Westseite",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -14295,7 +14295,7 @@
   "id": "node/9432116219",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Mehrzweckgebäude Arnegg",
+    "defibrillator:location": "Mehrzweckgebäude Arnegg Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -14306,8 +14306,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.2562279,
-      47.4431258
+      9.2562218,
+      47.4431155
     ]
   }
 },
@@ -24088,8 +24088,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.2655018,
-      47.4198619
+      9.2654808,
+      47.4197671
     ]
   }
 },
@@ -31246,8 +31246,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.2539237,
-      47.4434471
+      9.2538793,
+      47.4434834
     ]
   }
 },
@@ -31764,7 +31764,7 @@
   "id": "node/12685014101",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Turnhalle Haldenbüel",
+    "defibrillator:location": "Turnhalle Haldenbüel beim Eingang",
     "description": "Aussendefibrillator vor Turnhalle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -31900,20 +31900,201 @@
 },
 {
   "type": "Feature",
-  "id": "node/12704814125",
+  "id": "node/12704979630",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bahnhofstrasse 25, Personaleingang Nordseite",
+    "defibrillator:location": "Eingang Hallenbad",
     "emergency": "defibrillator",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Stadt Gossau",
-    "id": "node/12704814125"
+    "id": "node/12704979630"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.2525011,
-      47.4143434
+      9.2495097,
+      47.4195564
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12704979631",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Personaleingang Nordseite",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadt Gossau",
+    "id": "node/12704979631"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2525044,
+      47.4143464
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12704979632",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Schulhaus, Witenwisstrasse",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadt Gossau",
+    "id": "node/12704979632"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2719368,
+      47.4138063
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12704979633",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Turnhalle",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadt Gossau",
+    "id": "node/12704979633"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2639047,
+      47.4178661
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12704979634",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Turnhalle",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadt Gossau",
+    "id": "node/12704979634"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2524839,
+      47.4198631
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12704979635",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Musikschule",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadt Gossau",
+    "id": "node/12704979635"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2528447,
+      47.4153514
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12704979636",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Tribüne Buechenwald Medieneingang Westseite",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "opening_hours": "während den Öffnungszeiten zugänglich",
+    "operator": "Stadt Gossau",
+    "id": "node/12704979636"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2551491,
+      47.4095262
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12704979637",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang 1. Kindergarten",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadt Gossau",
+    "id": "node/12704979637"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2632495,
+      47.4198053
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12704979638",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadt Gossau",
+    "id": "node/12704979638"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2425632,
+      47.4196846
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12704979639",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadt Gossau",
+    "id": "node/12704979639"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2416003,
+      47.4221236
     ]
   }
 }
