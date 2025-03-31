@@ -78226,6 +78226,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "-1",
     "opening_hours": "24/7",
     "operator": "Privat",
     "id": "node/10037746319"
@@ -131736,6 +131737,30 @@
     "coordinates": [
       8.7167823,
       47.5109616
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12716567301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Halle des Fêtes d’Alle",
+    "description": "En exterieur, côté route de Porrentruy.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "RéaJura",
+    "phone": "+41794147411",
+    "id": "node/12716567301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1208849,
+      47.4244646
     ]
   }
 }
