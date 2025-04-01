@@ -9134,6 +9134,78 @@
       47.1945717
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/12718094603",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Hallenbad Kantonsschule Olten",
+    "description": "nur während der Hallenbadöffnungszeiten der Stadt Olten zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Kantonsschule Olten",
+    "phone": "+41 62 311 84 84",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12718094603"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9115939,
+      47.353667
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12718095006",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Kantonsschule Olten",
+    "description": "nur während der Öffnungszeiten der Schule und für Vereine (07:00 - 22:00 Uhr) zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "07:00 - 22:00",
+    "operator": "Kantonsschule Olten",
+    "phone": "+41 62 311 84 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12718095006"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9120821,
+      47.3547318
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12718123401",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Kantonsschule Olten",
+    "description": "nur während der Öffnungszeiten der Schule (07:00 - 18:00 Uhr) zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "07:00 - 18:00",
+    "operator": "Kantonsschule Olten",
+    "phone": "+41 62 311 84 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12718123401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9121035,
+      47.3546591
+    ]
+  }
 }
 ]
 }

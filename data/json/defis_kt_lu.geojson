@@ -1994,9 +1994,15 @@
   "type": "Feature",
   "id": "node/7637812543",
   "properties": {
+    "access": "restricted",
+    "defibrillator:location": "Beim Kundendienst (weiterer AED bei Haupteingang)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "name": "MM Dorfmärit",
+    "indoor": "yes",
+    "name": "MIGROS Kundendienst Dorfmärit",
+    "opening_hours": "Mo-Do 8-19 /Fr 8-21 / Sa 8-17 / So X",
+    "operator": "MIGROS Wolhusen",
+    "phone": "+41 41 492 50 40",
     "id": "node/7637812543"
   },
   "geometry": {
@@ -2011,10 +2017,17 @@
   "type": "Feature",
   "id": "node/7637812544",
   "properties": {
+    "access": "unknown",
+    "defibrillator:location": "bei Kasse innerhalb Tor",
     "description": "Kasse",
+    "email": "connection@csw-gruppe.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "name": "Schwimmbad",
+    "opening_hours": "Saison: Öffnungszeiten Schwimmbad | Off-season: 24/7",
+    "operator": "Connection Wolhusen",
+    "phone": "+41 41 490 40 40",
     "id": "node/7637812544"
   },
   "geometry": {
@@ -18901,7 +18914,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Gemeinde",
+    "operator": "Gemeinde Wolhusen",
     "phone": "+41 41 492 66 66",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/11176919537"
@@ -20685,7 +20698,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "operator": "Gemeinde",
+    "operator": "Gemeinde Wolhusen",
     "phone": "+41 41 490 32 91",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/12011764370"
