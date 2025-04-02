@@ -3162,6 +3162,51 @@
       47.7000182
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/12722072301",
+  "properties": {
+    "defibrillator:location": "im Majorenacker 11",
+    "description": "während den Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-17:30",
+    "operator": "GVS Agrar AG",
+    "phone": "+41 52 631 19 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12722072301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6605203,
+      47.717731
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12722079302",
+  "properties": {
+    "defibrillator:location": "Gennersbrunnerstrasse 61",
+    "description": "immer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Landw. Genossenschaftsverband Schaffhausen (GVS)",
+    "phone": "+41 52 631 17 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12722079302"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6633152,
+      47.7176733
+    ]
+  }
 }
 ]
 }
