@@ -5318,32 +5318,14 @@
 },
 {
   "type": "Feature",
-  "id": "node/7933294831",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Im Berggasthaus",
-    "description": "nur während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/7933294831"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.4121128,
-      47.2832103
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7933294832",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "an der Bergstation",
-    "description": "nur während Öffnungszeiten verfügbar",
+    "defibrillator:location": "ausserhalb der Bergstation, Standort ist beschildert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Ebenalpbahn",
     "id": "node/7933294832"
   },
   "geometry": {
@@ -18437,11 +18419,12 @@
   "type": "Feature",
   "id": "node/10123258617",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Talstation Ebenalpbahn",
-    "description": "Im Gebäude, während Öffnungszeiten",
+    "description": "Links des Haupteinganges zur Talstation",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "opening_hours": "Mo-Su",
     "operator": "Ebenalpbahn",
     "id": "node/10123258617"
@@ -23784,7 +23767,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Berggasthaus Äscher",
-    "description": "Mitte Mai  bis mitte November",
+    "description": "Mitte Mai bis Mitte November",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
