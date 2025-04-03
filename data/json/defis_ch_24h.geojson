@@ -34557,7 +34557,8 @@
   "id": "node/7933294832",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "ausserhalb der Bergstation, Standort ist beschildert",
+    "defibrillator:location": "Bergstation Ebenalpbahn",
+    "description": "auf der Südostseite der Bergstation, Standort ist beschildert",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -79467,7 +79468,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Talstation Ebenalpbahn",
-    "description": "Links des Haupteinganges zur Talstation",
+    "description": "Rechts des Haupteinganges zur Talstation",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -131955,6 +131956,51 @@
     "coordinates": [
       8.9777643,
       45.8591011
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12725437673",
+  "properties": {
+    "access": "permit",
+    "defibrillator:location": "Appeso al muro di fianco dell'edificio della rimessa AMSA, bisogna oltrepassare il cancello.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Fondazione Cuore Ticino",
+    "id": "node/12725437673"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0181491,
+      45.8410623
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12725571503",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schützenhaus Tellenberg 6253 Uffikon",
+    "description": "immer verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Verein",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12725571503"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0277443,
+      47.2184605
     ]
   }
 }
