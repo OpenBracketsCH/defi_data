@@ -5837,9 +5837,12 @@
   "type": "Feature",
   "id": "node/11922663692",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Appeso al muro di fianco alla porta della palestra",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Fondazione Cuore Ticino",
     "id": "node/11922663692"
   },
@@ -6337,6 +6340,27 @@
     "coordinates": [
       8.9483336,
       45.9993494
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12724854600",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Appeso al muro di fianco alla porta della palestra",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Fondazione Cuore Ticino",
+    "id": "node/12724854600"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9777643,
+      45.8591011
     ]
   }
 }
