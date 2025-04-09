@@ -89289,6 +89289,49 @@
       47.1902411
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/12741161301",
+  "properties": {
+    "defibrillator:location": "Zürcher Kantonalbank, Filiale Stäfa",
+    "description": "Während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 09:00-12:30, 14:00-16:30",
+    "operator": "Zürcher Kantonalbank",
+    "id": "node/12741161301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.720305,
+      47.2404245
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12741203401",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "ground floor, behind UBS entry door",
+    "description": "Need UBS employee access or reaching out via the interphone to security team",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "UBS",
+    "id": "node/12741203401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5382773,
+      47.3709189
+    ]
+  }
 }
 ]
 }
