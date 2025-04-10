@@ -7259,7 +7259,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Su 09:10-21:10",
+    "opening_hours": "Betriebszeit April bis November, tagsüber",
     "operator": "Harderbahn AG",
     "phone": "+41 33 828 71 11",
     "wheelchair": "yes",
@@ -58940,6 +58940,25 @@
     "coordinates": [
       7.6194256,
       46.8780163
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12744734195",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Im Durchgang zur WC-Anlage",
+    "emergency": "defibrillator",
+    "opening_hours": "7/24",
+    "operator": "Jungferaubahnen",
+    "id": "node/12744734195"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.873228,
+      46.6742491
     ]
   }
 }
