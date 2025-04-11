@@ -6398,12 +6398,12 @@
     "addr:housenumber": "121b",
     "addr:postcode": "3815",
     "addr:street": "Bahnhofstrasse",
-    "defibrillator:location": "AED befindet sich in der alten Telefonzelle beim WC - Gebäude",
+    "defibrillator:location": "Am Bahnhof, Gleis 1, Sektor C, in alter Telefonkabine.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Jungfraubahnen Management AG",
+    "operator": "Berner Oberland Bahnen.",
     "phone": "+41 33 828 72 33",
     "id": "node/6565882242"
   },
@@ -7091,12 +7091,12 @@
   "type": "Feature",
   "id": "node/6566220007",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "addr:city": "Wilderswil",
     "addr:housenumber": "2",
     "addr:postcode": "3812",
     "addr:street": "Alte Staatsstrasse",
-    "defibrillator:location": "Bahnhof Invalidentoilette. Wegen Beschädigungen des AED zurzeit nur zu Öffnungszeiten einsatzbereit",
+    "defibrillator:location": "Rechts an Wand neben Eingang zum Schalter.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "operator": "Berner Oberland-Bahn",
@@ -7138,10 +7138,10 @@
     "addr:city": "Burglauenen",
     "addr:postcode": "3812",
     "addr:street": "Bahnstation",
-    "defibrillator:location": "im Wartsaal links, rechts neben Schalter, 24h offen",
+    "defibrillator:location": "Im Wartsaal links, rechts neben Schalter",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "24/7",
+    "opening_hours": "In den Sommermonaten zu Betriebszeiten zugänglich.",
     "operator": "Schinyge Platte-Bahn",
     "phone": "+41 33 828 73 79",
     "id": "node/6566220009"
@@ -7158,11 +7158,11 @@
   "type": "Feature",
   "id": "node/6566220010",
   "properties": {
-    "access": "permissive",
+    "access": "öffentlich,_in_den_sommermonaten_während_den_betriebszeiten_zugänglich.",
     "addr:city": "Schinyge-Platte",
     "addr:postcode": "3812",
     "addr:street": "Bahnstation",
-    "defibrillator:location": "Bahnstation im Wartsaal rechts, Zeitweise öffentlich",
+    "defibrillator:location": "Am Bahnhofgebäude, Gleis 1",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "operator": "Schinyge Platte-Bahn",
@@ -7172,8 +7172,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.9111495,
-      46.65233
+      7.9112005,
+      46.6522969
     ]
   }
 },
@@ -58951,7 +58951,7 @@
     "defibrillator:location": "Im Durchgang zur WC-Anlage",
     "emergency": "defibrillator",
     "opening_hours": "7/24",
-    "operator": "Jungferaubahnen",
+    "operator": "Berner Oberland Bahnen",
     "id": "node/12744734195"
   },
   "geometry": {
