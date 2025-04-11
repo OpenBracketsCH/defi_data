@@ -6369,15 +6369,14 @@
   "type": "Feature",
   "id": "node/6565882241",
   "properties": {
-    "access": "permissive",
+    "access": "no",
     "addr:city": "Zweilütschinen",
     "addr:housenumber": "121k",
     "addr:postcode": "3815",
     "addr:street": "Station",
-    "defibrillator:location": "Eingang Bahndepot rechts, 24h zugänglich",
+    "defibrillator:location": "Eingang Bahndepot, links an der Wand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "24/7",
     "operator": "Berner Oberland-Bahn",
     "id": "node/6565882241"
   },
@@ -6419,12 +6418,12 @@
   "type": "Feature",
   "id": "node/6565882243",
   "properties": {
-    "access": "permissive",
+    "access": "no",
     "addr:city": "Lütschental",
     "addr:housenumber": "235a",
     "addr:postcode": "3816",
     "addr:street": "Zentrale",
-    "defibrillator:location": "Kraftwerk, neben Haupteingang innen",
+    "defibrillator:location": "Kraftwerk, in der Fahrzeughalle neben Haupteingang innen, links an der Wand.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "operator": "Jungfraubahn",
@@ -27683,7 +27682,7 @@
   "type": "Feature",
   "id": "node/7546024206",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "addr:city": "Grindelwald",
     "addr:housenumber": "54",
     "addr:postcode": "3818",
@@ -27700,8 +27699,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0188518,
-      46.625059
+      8.0187177,
+      46.6247495
     ]
   }
 },
@@ -51635,8 +51634,7 @@
     "defibrillator:location": "Bahnhof Lütschental, neben Ticketautomat",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Gemeinde",
+    "operator": "Berner Oberland Bahnen",
     "id": "node/11618927569"
   },
   "geometry": {
@@ -54518,10 +54516,11 @@
   "id": "node/12149316991",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Aussenwand Parkhaus",
+    "defibrillator:location": "Aussenwand Parkhaus, Square Platz",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
+    "operator": "Grindelwald Terminal",
     "wheelchair": "yes",
     "id": "node/12149316991"
   },
