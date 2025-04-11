@@ -5735,13 +5735,13 @@
   "type": "Feature",
   "id": "node/6565703796",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "addr:city": "Grindelwald",
     "addr:postcode": "3818",
     "defibrillator:location": "Station, vor Kommandoraum",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "Zeitweise öffentlich",
+    "opening_hours": "Während Betriebszeiten zugänglich.",
     "operator": "Firstbahn",
     "id": "node/6565703796"
   },
@@ -5765,7 +5765,7 @@
     "defibrillator:location": "Station, vor Kommandoraum",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "\"Zeitweise öffentlich\"",
+    "opening_hours": "Während Betriebszeiten öffentlich zugänglich.",
     "operator": "Firstbahn",
     "phone": "+41 33 828 77 11",
     "id": "node/6565703797"
@@ -5782,8 +5782,8 @@
   "type": "Feature",
   "id": "node/6565703798",
   "properties": {
-    "access": "permissive",
-    "defibrillator:location": "Station First Bergstation, Mitte Station",
+    "access": "yes",
+    "defibrillator:location": "Station First Bergstation, an Betonpfeiler.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -5806,7 +5806,7 @@
   "type": "Feature",
   "id": "node/6565703799",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "defibrillator:location": "Station Schreckfeld, vor Kommandoraum",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -54537,7 +54537,7 @@
   "id": "node/12149316993",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bahnhof Grindelwald neben dem Gepäckraum",
+    "defibrillator:location": "Bahnhof Grindelwald links vom Schaltereingang.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "level": "0",
