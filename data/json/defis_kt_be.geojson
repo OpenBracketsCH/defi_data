@@ -5689,9 +5689,10 @@
   "type": "Feature",
   "id": "node/6565703793",
   "properties": {
-    "access": "permissive",
+    "access": "während_betriebszeit_zugänglich.",
     "addr:city": "Eismeer",
     "addr:street": "Station",
+    "defibrillator:location": "Station Eismeer an der Wand beim Gleis.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "Zeitweise öffentlich",
@@ -5701,8 +5702,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0103169,
-      46.5723847
+      8.0102083,
+      46.5722962
     ]
   }
 },
@@ -35420,12 +35421,11 @@
     "addr:city": "Grindelwald",
     "addr:place": "Kleine Scheidegg",
     "addr:postcode": "3818",
-    "defibrillator:location": "Bei SOS-Station, Gleis 12",
+    "defibrillator:location": "Bei SOS-Station an Hauswand, Gleis 12",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
     "opening_hours": "24/7",
-    "operator": "Bahnhof Kleine Scheidegg",
+    "operator": "Wengener Alpbahn.",
     "phone": "+41 33 828 76 23",
     "id": "node/9367107203"
   },
@@ -35441,9 +35441,9 @@
   "type": "Feature",
   "id": "node/9367107204",
   "properties": {
-    "access": "permissive",
+    "access": "zu_betriebszeiten_zugänglich.",
     "addr:street": "Station Eigergletscher",
-    "defibrillator:location": "Station Eigergletscher",
+    "defibrillator:location": "Im Bahnhof Gleis 1",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "operator": "Jungfraubahn",
@@ -35452,8 +35452,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.9746295,
-      46.57466
+      7.9746831,
+      46.5747338
     ]
   }
 },
@@ -35461,7 +35461,7 @@
   "type": "Feature",
   "id": "node/9367107205",
   "properties": {
-    "access": "permissive",
+    "access": "während_den_betriebszeiten_zugänglich.",
     "defibrillator:location": "Station Eigerwand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -35471,8 +35471,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0040795,
-      46.58129
+      8.003539,
+      46.5811398
     ]
   }
 },
@@ -35485,7 +35485,7 @@
     "addr:country": "CH",
     "addr:postcode": "3818",
     "addr:street": "Alpiglen",
-    "defibrillator:location": "AED befindet sich im Wartesaal",
+    "defibrillator:location": "AED am Bahnhofgebäude zum Gleis.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
@@ -38605,8 +38605,8 @@
   "type": "Feature",
   "id": "node/9406921984",
   "properties": {
-    "access": "permissive",
-    "defibrillator:location": "Zwischen Bistro und Hauptausgang zur Skipiste/Wanderwege",
+    "access": "während_betriebszeiten_zugänglich.",
+    "defibrillator:location": "Zwischen Bistro und Hauptausgang zur Skipiste/Wanderwege. An der Wand neben dem Sanitätszimmer.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "Mo-Su 08:00-17:00",
