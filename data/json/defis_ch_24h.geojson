@@ -5576,6 +5576,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/6565664983",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Grindelwald-Grund",
+    "addr:housenumber": "59a",
+    "addr:postcode": "3818",
+    "addr:street": "Grundstrasse",
+    "defibrillator:location": "Vor dem Eingang zum Depot, an der Grundstrasse.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Wengernalpbahn",
+    "id": "node/6565664983"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0229799,
+      46.6229582
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/6565664984",
   "properties": {
     "access": "yes",
@@ -61265,19 +61289,22 @@
     "access": "yes",
     "addr:city": "Bure",
     "addr:postcode": "2915",
-    "defibrillator:location": "Vers l'entrée",
+    "check_date": "2025-04-10",
+    "defibrillator:location": "À gauche de l'entrée.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Fondation RéaJura Cœur",
     "phone": "+41 79 414 74 11",
+    "source": "survey",
     "id": "node/9157257041"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.0093347,
-      47.4416998
+      7.0093167,
+      47.441676
     ]
   }
 },
@@ -61288,7 +61315,8 @@
     "access": "yes",
     "addr:city": "Bure",
     "addr:postcode": "2915",
-    "defibrillator:location": "Vers l'entrée",
+    "check_date": "2025-04-10",
+    "defibrillator:location": "Sur la façade, à gauche de l'entrée.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
@@ -61299,8 +61327,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.0061362,
-      47.4412673
+      7.0060976,
+      47.4411473
     ]
   }
 },
@@ -65880,28 +65908,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9367107207",
-  "properties": {
-    "access": "yes",
-    "addr:place": "Brandegg",
-    "defibrillator:location": "Herren WC, 24h zugänglich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Wengernalpbahn AG",
-    "phone": "+41 33 828 75 23",
-    "id": "node/9367107207"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.0112491,
-      46.6089101
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9367107209",
   "properties": {
     "access": "yes",
@@ -69329,28 +69335,6 @@
     "coordinates": [
       7.2849897,
       46.4656297
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9529311041",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "ED befindet sich Perron seitig beim Gleis 1 direkt neben Eingang zur Verkaufsstelle",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Jungfraubahnen Management AG Interlaken",
-    "phone": "+41 33 828 71 11",
-    "id": "node/9529311041"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.023495,
-      46.6224936
     ]
   }
 },

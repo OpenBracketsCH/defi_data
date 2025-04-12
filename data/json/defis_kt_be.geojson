@@ -5564,23 +5564,23 @@
   "type": "Feature",
   "id": "node/6565664983",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "addr:city": "Grindelwald-Grund",
     "addr:housenumber": "59a",
     "addr:postcode": "3818",
     "addr:street": "Grundstrasse",
-    "defibrillator:location": "Werkstätte Bahn",
+    "defibrillator:location": "Vor dem Eingang zum Depot, an der Grundstrasse.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "Zeitweise öffentlich",
+    "opening_hours": "24/7",
     "operator": "Wengernalpbahn",
     "id": "node/6565664983"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0227895,
-      46.62324
+      8.0229799,
+      46.6229582
     ]
   }
 },
@@ -35510,7 +35510,7 @@
     "defibrillator:location": "Herren WC, 24h zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "24/7",
+    "opening_hours": "Während den Betriebszeiten zugänglich.",
     "operator": "Wengernalpbahn AG",
     "phone": "+41 33 828 75 23",
     "id": "node/9367107207"
@@ -39003,12 +39003,12 @@
   "id": "node/9529311041",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "ED befindet sich Perron seitig beim Gleis 1 direkt neben Eingang zur Verkaufsstelle",
+    "defibrillator:location": "AED befindet sich Perron seitig beim Gleis 1.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Jungfraubahnen Management AG Interlaken",
+    "opening_hours": "zu Betriebszeiten",
+    "operator": "Wengernalp Bahnen",
     "phone": "+41 33 828 71 11",
     "id": "node/9529311041"
   },
