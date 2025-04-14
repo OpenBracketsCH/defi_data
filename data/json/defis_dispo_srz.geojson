@@ -12405,16 +12405,18 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
     "phone": "+41 58 728 99 09",
+    "wheelchair": "limited",
     "id": "node/7930220203"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6525311,
-      47.1549092
+      8.6525224,
+      47.1549272
     ]
   }
 },
@@ -40594,19 +40596,22 @@
   "id": "node/9809316759",
   "properties": {
     "access": "customers",
-    "defibrillator:location": "Inside mall, next to elevators on ground floor / Im EG, links nebem Liftreihe",
+    "defibrillator:location": "Migros-Supermarkt - Zürich - Affoltern, im EG, links nebem Liftreihe",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "wheelchair": "yes",
+    "opening_hours": "Mo-Sa 08:00-20:00; PH off",
+    "operator": "Genossenschaft Migros Zürich",
+    "phone": "+41 44 377 90 19",
+    "wheelchair": "limited",
     "id": "node/9809316759"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5079506,
-      47.4202073
+      8.507939,
+      47.4202478
     ]
   }
 },
@@ -43616,7 +43621,11 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "24/7",
+    "operator": "Coop Supermarkt Unterägeri Chilematt",
+    "phone": "+41 41 754 68 10",
+    "wheelchair": "limited",
     "id": "node/9979945025"
   },
   "geometry": {
@@ -89573,6 +89582,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/12753888293",
+  "properties": {
+    "access": "customers",
+    "defibrillator:location": "Quartiertreff Zehntenhaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Quartiertreff Zehntenhaus",
+    "phone": "+41 44 371 71 31",
+    "wheelchair": "limited",
+    "id": "node/12753888293"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.506801,
+      47.4197817
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12753903401",
   "properties": {
     "access": "permissive",
@@ -89593,6 +89625,28 @@
     "coordinates": [
       8.5231429,
       47.3749375
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12753957861",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulgesundheitsdienste",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Schulgesundheitsdienste",
+    "phone": "+41 44 413 88 98",
+    "wheelchair": "no",
+    "id": "node/12753957861"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5213073,
+      47.3792634
     ]
   }
 }
