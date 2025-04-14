@@ -31269,13 +31269,18 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Baugenossenschaft Schönau",
+    "phone": "+41 44 301 23 34",
+    "wheelchair": "limited",
     "id": "node/9967598517"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5353643,
-      47.4277775
+      8.535355,
+      47.4278271
     ]
   }
 },
@@ -69559,6 +69564,31 @@
     "coordinates": [
       8.5332078,
       47.5272438
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12753903401",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Wengistrasse 7, 8004 Zürich",
+    "description": "Während den Bürozeiten zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "opening_hours": "Mo - Fr 08:00 - 17:00",
+    "operator": "Firma Vertec AG",
+    "phone": "+41 43 444 60 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12753903401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5231429,
+      47.3749375
     ]
   }
 }
