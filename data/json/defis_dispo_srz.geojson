@@ -46534,7 +46534,7 @@
   "id": "node/10147811025",
   "properties": {
     "access": "private",
-    "defibrillator:location": "Haupteingang Kantonle Verwaltung",
+    "defibrillator:location": "Haupteingang Kantonale Verwaltung",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -69122,28 +69122,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11620111569",
-  "properties": {
-    "defibrillator:location": "Schutzengasse 15",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Hotel St.Gotthard",
-    "phone": "+41442277700",
-    "id": "node/11620111569"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5401875,
-      47.3758396
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11622483469",
   "properties": {
     "defibrillator:location": "Althardstrasse 70",
@@ -89670,6 +89648,30 @@
     "coordinates": [
       8.5809526,
       47.4183167
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12756792501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Im Schrank bei Rezeption",
+    "description": "währen den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "opening_hours": "7:00-20:00",
+    "phone": "+41 43 210 34 43",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12756792501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.538571,
+      47.3921323
     ]
   }
 }
