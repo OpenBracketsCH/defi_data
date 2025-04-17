@@ -20423,6 +20423,8 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "24/7",
+    "operator": "Siedlungsgenossenschaft Sunnige Hof",
+    "phone": "+41443172020",
     "wheelchair": "yes",
     "id": "node/7380050795"
   },
@@ -32541,6 +32543,8 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
+    "operator": "Siedlungsgenossenschaft Sunnige Hof",
+    "phone": "+41443172020",
     "id": "node/7836853913"
   },
   "geometry": {
@@ -32602,6 +32606,8 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Siedlungsgenossenschaft Sunnige Hof",
+    "phone": "+41443172020",
     "wheelchair": "yes",
     "id": "node/7836915810"
   },
@@ -35867,27 +35873,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8083446424",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "hängt an der Hauswand",
-    "description": "24h öffentlich zugänglich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "id": "node/8083446424"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4893805,
-      47.3770975
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8083465542",
   "properties": {
     "access": "yes",
@@ -39048,6 +39033,8 @@
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
+    "operator": "Siedlungsgenossenschaft Sunnige Hof",
+    "phone": "+41443172020",
     "wheelchair": "no",
     "id": "node/8424840417"
   },
@@ -43654,6 +43641,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/8556997038",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Seebadi Egg Rällikon am Greifensee",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Egg ZH",
+    "phone": "+41 79 418 09 64",
+    "id": "node/8556997038"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6970842,
+      47.3209096
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8557017645",
   "properties": {
     "access": "yes",
@@ -45293,6 +45303,8 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Siedlungsgenossenschaft Sunnige Hof",
+    "phone": "+41443172020",
     "id": "node/8573989124"
   },
   "geometry": {
@@ -45313,6 +45325,8 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Siedlungsgenossenschaft Sunnige Hof",
+    "phone": "+41443172020",
     "id": "node/8574001445"
   },
   "geometry": {
@@ -46755,7 +46769,8 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Sunnige Hof",
+    "operator": "Siedlungsgenossenschaft Sunnige Hof",
+    "phone": "+41443172020",
     "id": "node/8636063917"
   },
   "geometry": {
@@ -78694,6 +78709,8 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Siedlungsgenossenschaft Sunnige Hof",
+    "phone": "+41443172020",
     "id": "node/10060550417"
   },
   "geometry": {
@@ -78709,11 +78726,13 @@
   "id": "node/10060550418",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Ehemaliges Busshäuschen beim Glassammelplatz",
+    "defibrillator:location": "Ehemaliges Bushäuschen beim Glassammelplatz",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Siedlungsgenossenschaft Sunnige Hof",
+    "phone": "+41443172020",
     "id": "node/10060550418"
   },
   "geometry": {
@@ -114563,6 +114582,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/11904248069",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Hauseingang",
+    "description": "Draussen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Siedlungsgenossenschaft Sunnige Hof",
+    "phone": "+41443172020",
+    "id": "node/11904248069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5872231,
+      47.3987524
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/11904257212",
   "properties": {
     "access": "yes",
@@ -123762,6 +123805,29 @@
     "coordinates": [
       7.5091631,
       47.0521919
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12344772149",
+  "properties": {
+    "access": "yes",
+    "check_date": "2024-11-15",
+    "defibrillator:location": "Auf der linken Seite des Garagentors neben den Briefkästen. Vis à vis vom Hauseingang Nr. 15.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Siedlungsgenossenschaft Sunnige Hof",
+    "phone": "+41443172020",
+    "id": "node/12344772149"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4895291,
+      47.3769689
     ]
   }
 },
