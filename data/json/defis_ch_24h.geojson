@@ -118559,7 +118559,7 @@
   "id": "node/12083155469",
   "properties": {
     "defibrillator:location": "Lazariterkirche Klosterstrasse 4, Dübendorf",
-    "description": "An Hauswand von Klosterstube oberhalb Sitzbank",
+    "description": "An Hauswand von Klosterstube oberhalb Sitzbank, links vom Eingang der Kirche",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -118571,8 +118571,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6479622,
-      47.3923829
+      8.6479588,
+      47.3923723
     ]
   }
 },
@@ -132662,6 +132662,54 @@
     "coordinates": [
       8.6113403,
       47.1336048
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12770065701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Accueil du golf, sur la droite du bâtiment",
+    "description": "en extérieur",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Migros Golf AG",
+    "phone": "+41585683200",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12770065701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.3477245,
+      46.4846434
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12770067601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Entre Départ du trou no6 et bassin (contre la cabane en bois)",
+    "description": "en extérieur",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Migros Golf AG",
+    "phone": "+41585683200",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12770067601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.3416466,
+      46.4824846
     ]
   }
 }
