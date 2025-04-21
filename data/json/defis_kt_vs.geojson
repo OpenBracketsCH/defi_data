@@ -482,11 +482,11 @@
   "type": "Feature",
   "id": "node/6565869515",
   "properties": {
-    "access": "permissive",
+    "access": "öffentlich,_während_betriebszeiten.",
     "addr:city": "Jungfraujoch",
     "addr:place": "Station",
     "addr:postcode": "3801",
-    "defibrillator:location": "Zeitweise öffentlich",
+    "defibrillator:location": "Eis Gateway, links neben Drehtür, an der Wand.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "operator": "Jungfraubahn",
@@ -495,8 +495,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.9822628,
-      46.5473371
+      7.9816272,
+      46.5475418
     ]
   }
 },
@@ -5162,7 +5162,7 @@
   "type": "Feature",
   "id": "node/12749901953",
   "properties": {
-    "access": "während_betriebszeiten_zugänglich.",
+    "access": "öffentlich,_während_betriebszeiten.",
     "defibrillator:location": "Im Durchgang zwischen Bhf und Cafébar, an Stützträger.",
     "emergency": "defibrillator",
     "operator": "Jungfraubahnen",
@@ -5171,8 +5171,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.9849512,
-      46.5475101
+      7.9822931,
+      46.54725
     ]
   }
 },
@@ -5191,6 +5191,25 @@
     "coordinates": [
       7.9854983,
       46.5475931
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12771833201",
+  "properties": {
+    "access": "permit",
+    "defibrillator:location": "Ostgrat, im Eingangsbereich.",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "Jungfraubahnen",
+    "id": "node/12771833201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9802581,
+      46.5473152
     ]
   }
 }
