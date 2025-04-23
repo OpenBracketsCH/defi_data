@@ -69719,7 +69719,7 @@
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Hombrechtikon",
-    "phone": "+41 55 254 92 34",
+    "phone": "+41 55 254 92 92",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/11665347169"
   },
@@ -83337,7 +83337,7 @@
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Hombrechtikon",
-    "phone": "+41 55 254 92 34",
+    "phone": "+41 55 254 92 92",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/12395987001"
   },
@@ -87234,9 +87234,12 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Gemeindehaus, Feldbachstrasse 12, rechts vom Eingang",
+    "description": "immer verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
     "operator": "Gemeindeverwaltung Hombrechtikon",
     "phone": "+41 55 254 92 92",
     "source": "local_knowledge, defikarte.ch",
@@ -89813,6 +89816,31 @@
     "coordinates": [
       8.692342,
       47.2559101
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12778619701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bahnhof Feldbach, links vom Gebäude, Nähe 30 Min. Parkplätze/Bushaltestelle (Eingang Perron)",
+    "description": "immer verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Hombrechtikon",
+    "phone": "+41552549292",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12778619701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7831665,
+      47.2390732
     ]
   }
 }
