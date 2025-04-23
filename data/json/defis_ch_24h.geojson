@@ -110471,8 +110471,7 @@
     "defibrillator:location": "Dans la boîte à livres",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "fixme": "Il a surement du être déplacé, le batiment n'existant plus, peut-être au niveau des 2 petits chapitaux restant",
-    "indoor": "no",
+    "indoor": "yes",
     "level": "0",
     "opening_hours": "24/7",
     "id": "node/11708878269"
@@ -110480,8 +110479,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.9873511,
-      46.2421252
+      6.9872466,
+      46.2420077
     ]
   }
 },
@@ -132773,6 +132772,31 @@
     "coordinates": [
       6.4853563,
       46.5038492
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12777762601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussenfassade an der Strasse",
+    "description": "Jederzeit zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Private",
+    "phone": "+41797124472",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12777762601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7505004,
+      46.9923505
     ]
   }
 }
