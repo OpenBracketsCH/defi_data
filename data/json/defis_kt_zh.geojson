@@ -20013,28 +20013,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8882039632",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Neben den Briefkästen",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "opening_hours": "24/7",
-    "wheelchair": "yes",
-    "id": "node/8882039632"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5818376,
-      47.4509666
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8882971239",
   "properties": {
     "access": "yes",
@@ -31730,20 +31708,21 @@
   "id": "node/9995101344",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Stadthauspassage vis-a-vis Migros",
+    "defibrillator:location": "Stadthauspassage vis-a-vis Migros, neben den Briefkästen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Stadt Kloten",
     "phone": "+41 44 815 11 11",
+    "wheelchair": "limited",
     "id": "node/9995101344"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.58178,
-      47.4509421
+      8.5818461,
+      47.4509696
     ]
   }
 },
