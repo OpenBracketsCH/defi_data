@@ -11251,9 +11251,13 @@
   "type": "Feature",
   "id": "node/12622918534",
   "properties": {
+    "access": "yes",
+    "check_date": "2025-04-27",
+    "defibrillator:location:en": "Montez les escaliers, devant la fontaine, a côté de la porte de la mairie \nUp the steps, in front of the fountain, next to the door",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "phone": "021 863 22 00",
     "id": "node/12622918534"
   },
   "geometry": {
@@ -11891,6 +11895,25 @@
     "coordinates": [
       6.6425004,
       46.6429671
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12791315701",
+  "properties": {
+    "access": "yes",
+    "check_date": "2025-04-27",
+    "defibrillator:location:en": "Sur le mur devant le parking perpendiculaire à la route principale.\nOn the wall in front of the parking perpendicular to the main road.",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/12791315701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.4072976,
+      46.6443636
     ]
   }
 }
