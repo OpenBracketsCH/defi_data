@@ -1281,11 +1281,12 @@
   "type": "Feature",
   "id": "node/8844029846",
   "properties": {
-    "defibrillator:location": "Haupteingang Allenspach Medical AG, innerhalb Eingang. Zugang nur durch Klingeln während Arbeitszeiten möglich.",
+    "access": "yes",
+    "defibrillator:location": "Neben Haupteingang Allenspach Medical AG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Allenspach Medical AG",
     "phone": "+41 62 386 60 06",
     "id": "node/8844029846"
