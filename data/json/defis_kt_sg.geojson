@@ -7170,28 +7170,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8496005307",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Haupteingang westlich, rechts an der Wand",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Rhyboot",
-    "phone": "+41 71 757 19 32",
-    "id": "node/8496005307"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.5919697,
-      47.4073424
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8496005308",
   "properties": {
     "access": "yes",
@@ -27183,6 +27161,28 @@
     "coordinates": [
       9.3370401,
       47.5176989
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12799639849",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "«blauer» Haupteingang links an der Wand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Rhyboot",
+    "phone": "+41 71 757 19 80",
+    "id": "node/12799639849"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.6422343,
+      47.3996445
     ]
   }
 }
