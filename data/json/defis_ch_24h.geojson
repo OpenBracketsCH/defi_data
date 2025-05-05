@@ -126786,6 +126786,72 @@
 },
 {
   "type": "Feature",
+  "id": "node/12430369903",
+  "properties": {
+    "access": "24/7",
+    "defibrillator:location": "Spritzenhaus Wappenswilerstrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Bäretswil",
+    "phone": "044 939 17 37",
+    "id": "node/12430369903"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8681949,
+      47.32433
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12430377901",
+  "properties": {
+    "access": "24/7",
+    "defibrillator:location": "Pumpwerk Rüeggenthalstrasse 18",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Bäretswil",
+    "phone": "044 939 17 37",
+    "id": "node/12430377901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8689672,
+      47.3491088
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12430395503",
+  "properties": {
+    "access": "24/7",
+    "defibrillator:location": "Reservoir Tödiweg 5",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Bäretswil",
+    "phone": "044 939 17 37",
+    "id": "node/12430395503"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8467575,
+      47.3407113
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12430619818",
   "properties": {
     "access": "yes",
@@ -133004,6 +133070,31 @@
     "coordinates": [
       8.7837625,
       47.3621995
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12811748403",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Stiftung Hofmatt Uetlligen, beim Eingang",
+    "description": "während den Öffnungszeiten (täglich von 06.45 - 19.00 Uhr) sofort zugänglich. Während den restlichen Zeiten muss Türe vom Personal geöffnet werden (Klingel betätigen).",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "24/7",
+    "operator": "Stiftung Hofmatt Uettligen",
+    "phone": "+41318282222",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12811748403"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3894107,
+      46.9871178
     ]
   }
 }
