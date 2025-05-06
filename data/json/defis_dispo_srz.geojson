@@ -90046,6 +90046,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 07:00-17:00",
     "operator": "Literargymnasium Rämibühl",
     "phone": "+41 44 265 62 22",
@@ -90126,6 +90127,31 @@
     "coordinates": [
       8.4386533,
       47.0776297
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12814261801",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Aula Kantonsschule Rämibühl, im Foyer gegenüber Haupteingang, rechts von der Garderobe",
+    "description": "während Veranstaltungen verfügbar, keine durchgängigen Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Literargymnasium Rämibühl",
+    "phone": "+41 44 265 62 82",
+    "ref": "8900-0800-01",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12814261801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5526308,
+      47.3709254
     ]
   }
 }
