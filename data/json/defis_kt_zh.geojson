@@ -70102,6 +70102,55 @@
       47.3200028
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/12816999001",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Fahrweidstrasse 80",
+    "description": "während Bürozeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo - Fr 08:00-17:00",
+    "operator": "Bürohaus",
+    "phone": "+41848888500",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12816999001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4143472,
+      47.4162759
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12817032903",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Fahrweidstrasse 80",
+    "description": "während Büroöffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 8:00-17:00",
+    "operator": "Büro",
+    "phone": "+41848888500",
+    "id": "node/12817032903"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4143357,
+      47.4164327
+    ]
+  }
 }
 ]
 }
