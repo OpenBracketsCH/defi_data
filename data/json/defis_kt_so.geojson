@@ -3774,29 +3774,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10146542552",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "An der Strasse",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde Lostorf",
-    "phone": "+41 62 285 80 80",
-    "id": "node/10146542552"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.9471278,
-      47.3819517
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10171520317",
   "properties": {
     "defibrillator:location": "Aignep AG, Industriestrasse 22a, 2545 Selzach",
@@ -9269,6 +9246,31 @@
 },
 {
   "type": "Feature",
+  "id": "node/12817152669",
+  "properties": {
+    "addr:city": "Lostorf",
+    "addr:housenumber": "3",
+    "addr:postcode": "4654",
+    "addr:street": "Schulstrasse",
+    "defibrillator:location": "In der Aula von Schulhaus 1912 (Eingang dann Treppe runter)",
+    "description": "Weisser Kasten",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "Lifetec AG",
+    "phone": "+41800122144",
+    "ref": "0015LTC",
+    "id": "node/12817152669"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9454747,
+      47.3854122
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12817154539",
   "properties": {
     "addr:city": "Lostorf",
@@ -9340,6 +9342,34 @@
     "coordinates": [
       7.9454492,
       47.3854085
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12817187696",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Lostorf",
+    "addr:housenumber": "5",
+    "addr:postcode": "4654",
+    "addr:street": "Hauptstrasse",
+    "defibrillator:location": "An Strasse vor Gemeindehaus",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "+41800122144",
+    "ref": "1023LTS",
+    "id": "node/12817187696"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9471669,
+      47.381934
     ]
   }
 }

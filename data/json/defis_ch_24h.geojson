@@ -65038,14 +65038,16 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
+    "wheelchair": "limited",
     "id": "node/9327261917"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4318343,
-      47.1470452
+      8.4318142,
+      47.1470016
     ]
   }
 },
@@ -79867,29 +79869,6 @@
     "coordinates": [
       8.4261945,
       47.2340088
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10146542552",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "An der Strasse",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde Lostorf",
-    "phone": "+41 62 285 80 80",
-    "id": "node/10146542552"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.9471278,
-      47.3819517
     ]
   }
 },
@@ -133256,6 +133235,34 @@
     "coordinates": [
       8.5822533,
       47.3200028
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12817187696",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Lostorf",
+    "addr:housenumber": "5",
+    "addr:postcode": "4654",
+    "addr:street": "Hauptstrasse",
+    "defibrillator:location": "An Strasse vor Gemeindehaus",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "+41800122144",
+    "ref": "1023LTS",
+    "id": "node/12817187696"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9471669,
+      47.381934
     ]
   }
 }
