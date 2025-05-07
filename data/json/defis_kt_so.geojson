@@ -5662,7 +5662,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Bushaltestelle an Hauptstrasse",
-    "description": "Koffer grün",
+    "description": "Grüner Kasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -5670,6 +5670,7 @@
     "opening_hours": "24/7",
     "operator": "Lifetec AG Schweiz",
     "phone": "0800 122 144",
+    "ref": "1134LTS",
     "id": "node/10910676195"
   },
   "geometry": {
@@ -8635,10 +8636,20 @@
   "type": "Feature",
   "id": "node/12382929302",
   "properties": {
+    "access": "yes",
+    "addr:city": "Rohr",
+    "addr:housenumber": "9",
+    "addr:postcode": "4655",
+    "addr:street": "Schaffmattstrasse",
     "defibrillator:location": "Bushäuschen Schafmattstrasse",
+    "description": "Grüner Kasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
+    "operator": "Lifetec AG",
+    "phone": "+41800122144",
+    "ref": "1504LTS",
     "id": "node/12382929302"
   },
   "geometry": {
@@ -9007,6 +9018,7 @@
     "level": "1",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
+    "ref": "0010LTC",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/12556516001"
   },
@@ -9228,6 +9240,106 @@
     "coordinates": [
       7.6944906,
       47.3028977
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12817118598",
+  "properties": {
+    "addr:city": "Lostorf",
+    "addr:housenumber": "4",
+    "addr:postcode": "4654",
+    "addr:street": "Sandgrubenstrasse",
+    "defibrillator:location": "Eingangsbereich, Turnhalle (Dreirosenhalle)",
+    "description": "Weisser Kasten",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "Lifetec AG",
+    "ref": "0011LTC",
+    "id": "node/12817118598"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9442516,
+      47.3848357
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12817154539",
+  "properties": {
+    "addr:city": "Lostorf",
+    "addr:housenumber": "3",
+    "addr:postcode": "4654",
+    "addr:street": "Schulstrasse",
+    "defibrillator:location": "Im Durchgang vor Klassenzimmer (Kindergarten Dreirosen)",
+    "description": "Weisser Kasten",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "Lifetec AG",
+    "phone": "+41800122144",
+    "ref": "0012LTC",
+    "id": "node/12817154539"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9453956,
+      47.3853804
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12817159799",
+  "properties": {
+    "addr:city": "Lostorf",
+    "addr:housenumber": "3",
+    "addr:postcode": "4654",
+    "addr:street": "Schulstrasse",
+    "defibrillator:location": "1.OG Schulhausgebäude 1995",
+    "description": "Weisser Kasten",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "1",
+    "operator": "Lifetec AG",
+    "phone": "+41800122144",
+    "ref": "0013LTC",
+    "id": "node/12817159799"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9454251,
+      47.3853904
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12817159800",
+  "properties": {
+    "addr:city": "Lostorf",
+    "addr:housenumber": "3",
+    "addr:postcode": "4654",
+    "addr:street": "Schulstrasse",
+    "defibrillator:location": "Eingangsbereich Schulhaus 1912",
+    "description": "Weisser Kasten",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "Lifetec AG",
+    "phone": "+41800122144",
+    "ref": "0014LTC",
+    "id": "node/12817159800"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9454492,
+      47.3854085
     ]
   }
 }

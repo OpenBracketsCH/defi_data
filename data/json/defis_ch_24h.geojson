@@ -45381,26 +45381,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8574115091",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Haupteingang an der Wand",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "id": "node/8574115091"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.9909583,
-      46.3257954
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8574115092",
   "properties": {
     "access": "yes",
@@ -51437,13 +51417,19 @@
   "id": "node/8840727618",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Steueramt Weiningen (ehemaliges Postgebäude)",
-    "description": "in alter Telefonkabine links vom Eingang",
+    "addr:city": "Weiningen",
+    "addr:housenumber": "4",
+    "addr:postcode": "8104",
+    "addr:street": "Regensdorferstrasse",
+    "defibrillator:location": "In alter Telefonkabine links vom Eingang",
+    "description": "Grüner Kasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
-    "operator": "Gemeinde",
+    "operator": "Lifetec AG",
+    "ref": "0018LTC",
     "id": "node/8840727618"
   },
   "geometry": {
@@ -79195,11 +79181,20 @@
   "id": "node/10106136122",
   "properties": {
     "access": "yes",
+    "addr:city": "Fahrweid",
+    "addr:housenumber": "194",
+    "addr:postcode": "8951",
+    "addr:street": "Brunaustrasse",
     "defibrillator:location": "Restaurant Föhrenwäldli beim Haupteingang",
+    "description": "Hellgrüner Kasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "pho": "+41800122144",
+    "ref": "0017LTC",
     "id": "node/10106136122"
   },
   "geometry": {
@@ -95559,7 +95554,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Bushaltestelle an Hauptstrasse",
-    "description": "Koffer grün",
+    "description": "Grüner Kasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -95567,6 +95562,7 @@
     "opening_hours": "24/7",
     "operator": "Lifetec AG Schweiz",
     "phone": "0800 122 144",
+    "ref": "1134LTS",
     "id": "node/10910676195"
   },
   "geometry": {

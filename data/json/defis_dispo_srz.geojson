@@ -27381,13 +27381,19 @@
   "id": "node/8840727618",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Steueramt Weiningen (ehemaliges Postgebäude)",
-    "description": "in alter Telefonkabine links vom Eingang",
+    "addr:city": "Weiningen",
+    "addr:housenumber": "4",
+    "addr:postcode": "8104",
+    "addr:street": "Regensdorferstrasse",
+    "defibrillator:location": "In alter Telefonkabine links vom Eingang",
+    "description": "Grüner Kasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
-    "operator": "Gemeinde",
+    "operator": "Lifetec AG",
+    "ref": "0018LTC",
     "id": "node/8840727618"
   },
   "geometry": {
@@ -45581,11 +45587,20 @@
   "id": "node/10106136122",
   "properties": {
     "access": "yes",
+    "addr:city": "Fahrweid",
+    "addr:housenumber": "194",
+    "addr:postcode": "8951",
+    "addr:street": "Brunaustrasse",
     "defibrillator:location": "Restaurant Föhrenwäldli beim Haupteingang",
+    "description": "Hellgrüner Kasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "pho": "+41800122144",
+    "ref": "0017LTC",
     "id": "node/10106136122"
   },
   "geometry": {
@@ -90185,6 +90200,31 @@
     "coordinates": [
       8.4143357,
       47.4164327
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12817129501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Fahrweidstrasse 80",
+    "description": "während den Büroöffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Büro",
+    "phone": "+41848888500",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12817129501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4143697,
+      47.4162629
     ]
   }
 }
