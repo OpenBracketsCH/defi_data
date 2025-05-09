@@ -21267,31 +21267,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7553378456",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Langnau",
-    "addr:housenumber": "27",
-    "addr:postcode": "3550",
-    "addr:street": "Güterstrasse",
-    "defibrillator:location": "Hauptstrasse Seite",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Werkhof",
-    "phone": "+41 34 409 31 11",
-    "id": "node/7553378456"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.7888933,
-      46.9364811
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7553378457",
   "properties": {
     "access": "yes",
@@ -41973,28 +41948,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8489986064",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Nordfassade des Gemeindehauses",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde Oberuzwil, Bauverwaltung",
-    "phone": "+41 71 950 48 55",
-    "id": "node/8489986064"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.1235434,
-      47.4295286
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8490181918",
   "properties": {
     "access": "yes",
@@ -43658,6 +43611,56 @@
     "coordinates": [
       8.6970842,
       47.3209096
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8556997039",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Garderobe",
+    "description": "Aussenkasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Egg H.J. Schiess",
+    "phone": "+41 79 418 09 64",
+    "wheelchair": "yes",
+    "id": "node/8556997039"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6939889,
+      47.2911739
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8556997040",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussenkasten Sporthaus",
+    "description": "In einem Aussenkasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Egg H.J. Schiess",
+    "phone": "+41 79 418 09 64",
+    "wheelchair": "yes",
+    "id": "node/8556997040"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6949787,
+      47.2993581
     ]
   }
 },
@@ -69794,6 +69797,27 @@
     "coordinates": [
       8.5860453,
       46.9751778
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9553479159",
+  "properties": {
+    "defibrillator:location": "Rechts neben dem Eingang des Hauptgebäudes der Kayser Werke AG",
+    "description": "An der Aussenwand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Holzbau Kayser",
+    "phone": "+41 41 618 31 88",
+    "id": "node/9553479159"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3836816,
+      46.947529
     ]
   }
 },
