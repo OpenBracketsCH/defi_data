@@ -22815,6 +22815,7 @@
   "properties": {
     "access": "permissive",
     "addr:city": "Wimmis",
+    "addr:country": "CH",
     "addr:housenumber": "4",
     "addr:postcode": "3752",
     "addr:street": "Alte Staatsstrasse",
@@ -22914,6 +22915,7 @@
   "properties": {
     "access": "permissive",
     "addr:city": "Wimmis",
+    "addr:country": "CH",
     "addr:housenumber": "232e",
     "addr:postcode": "3752",
     "addr:street": "Steinigrad",
@@ -26587,6 +26589,7 @@
   "properties": {
     "access": "yes",
     "addr:city": "Wimmis",
+    "addr:country": "CH",
     "addr:housenumber": "7",
     "addr:postcode": "3752",
     "addr:street": "Bahnhofstrasse",
@@ -26638,6 +26641,7 @@
   "properties": {
     "access": "yes",
     "addr:city": "Wimmis",
+    "addr:country": "CH",
     "addr:housenumber": "13",
     "addr:postcode": "3752",
     "addr:street": "Schulhausstrasse",
@@ -26652,8 +26656,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6417735,
-      46.6802152
+      7.6418307,
+      46.6801252
     ]
   }
 },
@@ -59464,6 +59468,34 @@
     "coordinates": [
       7.3894107,
       46.9871178
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12822724017",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Koppingen",
+    "addr:housenumber": "14",
+    "addr:postcode": "3425",
+    "addr:street": "Bern-zürich-strasse",
+    "defibrillator:location": "Gebäude 14A, vor Parkplatz um die Ecke.",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "operator": "Lifetec AG",
+    "phone": "+41800122144",
+    "ref": "1547LTS",
+    "id": "node/12822724017"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6106904,
+      47.1273523
     ]
   }
 }
