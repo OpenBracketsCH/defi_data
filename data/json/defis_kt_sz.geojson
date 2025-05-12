@@ -5820,16 +5820,17 @@
     "defibrillator:location": "Marstall Kloster Einsiedeln",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "opening_hours": "24/7",
+    "indoor": "yes",
+    "level": "erdgeschoss",
+    "opening_hours": "Mo-Su 10:00-20:00",
+    "operator": "Marstall Kloster Einsiedeln",
     "id": "node/10961430605"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7547165,
-      47.1256963
+      8.7552308,
+      47.1256825
     ]
   }
 },
@@ -8138,6 +8139,30 @@
     "coordinates": [
       8.7781996,
       47.2002251
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12830267901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Klosterkirchen Eingang",
+    "description": "Während der Kirchöffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "06:00-21:30",
+    "operator": "Kloster Einsiedeln",
+    "phone": "+41 55 418 66 44",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12830267901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7515384,
+      47.1267463
     ]
   }
 }
