@@ -10947,7 +10947,9 @@
   "type": "Feature",
   "id": "node/12542337837",
   "properties": {
-    "defibrillator:location": "Entre caisses et fleurs.",
+    "access": "yes",
+    "defibrillator:location": "Entre les caisses et les fleurs",
+    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -10966,9 +10968,11 @@
   "type": "Feature",
   "id": "node/12542340002",
   "properties": {
+    "access": "yes",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/12542340002"
   },
   "geometry": {
@@ -11047,10 +11051,12 @@
   "type": "Feature",
   "id": "node/12574597007",
   "properties": {
-    "defibrillator:location": "left at the entrance",
+    "access": "yes",
+    "defibrillator:location": "A gauche de l'entrée",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/12574597007"
   },
   "geometry": {
@@ -11065,11 +11071,13 @@
   "type": "Feature",
   "id": "node/12574607580",
   "properties": {
-    "defibrillator:location": "In front of SISL lifeguard station.",
+    "access": "yes",
+    "defibrillator:location": "Devant la bâtiment du sauvetage",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "layer": "-1",
+    "opening_hours": "24/7",
     "id": "node/12574607580"
   },
   "geometry": {
@@ -11084,17 +11092,19 @@
   "type": "Feature",
   "id": "node/12574629515",
   "properties": {
-    "defibrillator:location": "In front of the entrance",
+    "access": "yes",
+    "defibrillator:location": "En face de l'entrée",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/12574629515"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.7828543,
-      46.5014495
+      6.7828328,
+      46.5014606
     ]
   }
 },
@@ -11122,6 +11132,7 @@
   "type": "Feature",
   "id": "node/12595093941",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "A la réception",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -11159,6 +11170,8 @@
   "type": "Feature",
   "id": "node/12595096007",
   "properties": {
+    "access": "customers",
+    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "fixme": "exakt position",
@@ -11384,7 +11397,8 @@
   "type": "Feature",
   "id": "node/12675490599",
   "properties": {
-    "defibrillator:location": "At the sun store",
+    "access": "yes",
+    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -11403,6 +11417,7 @@
   "type": "Feature",
   "id": "node/12675519141",
   "properties": {
+    "access": "yes",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "fixme": "exact position",
@@ -11421,6 +11436,8 @@
   "type": "Feature",
   "id": "node/12675540591",
   "properties": {
+    "access": "customers",
+    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "fixme": "position",
@@ -11456,6 +11473,8 @@
   "type": "Feature",
   "id": "node/12675578378",
   "properties": {
+    "access": "yes",
+    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "fixme": "position",
@@ -11474,7 +11493,8 @@
   "type": "Feature",
   "id": "node/12675606424",
   "properties": {
-    "defibrillator:location": "At the entry of Migros, \"behind\" the last pole, coming from the main entrance.",
+    "access": "yes",
+    "defibrillator:location": "A l'entrée de Migros, derrière le dernier poteau",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -11556,7 +11576,8 @@
   "type": "Feature",
   "id": "node/12740964643",
   "properties": {
-    "defibrillator:location": "A l'entrée.",
+    "access": "yes",
+    "defibrillator:location": "A l'entrée",
     "emergency": "defibrillator",
     "indoor": "yes",
     "id": "node/12740964643"
@@ -11573,6 +11594,7 @@
   "type": "Feature",
   "id": "node/12740972450",
   "properties": {
+    "access": "yes",
     "emergency": "defibrillator",
     "fixme": "exact location",
     "id": "node/12740972450"
@@ -11589,6 +11611,8 @@
   "type": "Feature",
   "id": "node/12740983316",
   "properties": {
+    "access": "yes",
+    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "indoor": "yes",
     "id": "node/12740983316"
@@ -11622,7 +11646,8 @@
   "type": "Feature",
   "id": "node/12741027231",
   "properties": {
-    "defibrillator:location": "Between the cash desk an the cable car.",
+    "access": "yes",
+    "defibrillator:location": "Entre les caisses et le téléphérique",
     "emergency": "defibrillator",
     "indoor": "yes",
     "id": "node/12741027231"
@@ -11708,6 +11733,7 @@
   "type": "Feature",
   "id": "node/12743699012",
   "properties": {
+    "access": "yes",
     "emergency": "defibrillator",
     "indoor": "yes",
     "id": "node/12743699012"
@@ -11724,8 +11750,10 @@
   "type": "Feature",
   "id": "node/12743700425",
   "properties": {
+    "access": "yes",
     "emergency": "defibrillator",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/12743700425"
   },
   "geometry": {
