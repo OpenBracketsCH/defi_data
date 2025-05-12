@@ -10889,6 +10889,7 @@
   "type": "Feature",
   "id": "node/12542297419",
   "properties": {
+    "access": "customers",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -10907,6 +10908,7 @@
   "type": "Feature",
   "id": "node/12542313546",
   "properties": {
+    "access": "yes",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -10924,7 +10926,9 @@
   "type": "Feature",
   "id": "node/12542331440",
   "properties": {
-    "defibrillator:location": "Au caisses",
+    "access": "yes",
+    "defibrillator:location": "Aux caisses",
+    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -11136,6 +11140,7 @@
   "type": "Feature",
   "id": "node/12595096005",
   "properties": {
+    "access": "yes",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "fixme": "exakt position",
@@ -11191,6 +11196,7 @@
   "type": "Feature",
   "id": "node/12600516494",
   "properties": {
+    "access": "yes",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "fixme": "exakt position unclear",
@@ -11599,6 +11605,7 @@
   "type": "Feature",
   "id": "node/12741006053",
   "properties": {
+    "access": "yes",
     "emergency": "defibrillator",
     "indoor": "yes",
     "id": "node/12741006053"
@@ -11633,16 +11640,17 @@
   "id": "node/12741297884",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Migro, en face des caisses",
+    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "indoor": "yes",
+    "operator": "Migros",
     "id": "node/12741297884"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.0160691,
-      46.2506644
+      7.0159028,
+      46.2503609
     ]
   }
 },
@@ -11650,6 +11658,7 @@
   "type": "Feature",
   "id": "node/12743662753",
   "properties": {
+    "access": "yes",
     "emergency": "defibrillator",
     "indoor": "yes",
     "id": "node/12743662753"
