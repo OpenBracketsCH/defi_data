@@ -22084,6 +22084,7 @@
   "properties": {
     "access": "yes",
     "addr:city": "Hondrich",
+    "addr:country": "CH",
     "addr:housenumber": "65a",
     "addr:postcode": "3702",
     "addr:street": "Hondrichstrasse",
@@ -22097,8 +22098,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6853767,
-      46.6747831
+      7.6854072,
+      46.674776
     ]
   }
 },
@@ -30870,28 +30871,6 @@
     "coordinates": [
       7.4396394,
       46.9490723
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8563223317",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "ALK",
-    "description": "Aussen am Gebäude",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Albula-Landwasser Kraftwerke AG",
-    "phone": "+41798661166",
-    "id": "node/8563223317"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4,
-      46.9456102
     ]
   }
 },
@@ -59498,6 +59477,27 @@
     "coordinates": [
       7.4481394,
       46.9552042
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12833596701",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Berufsschule Gibb IET Gebäude",
+    "description": "Haupteingang Rechts",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/12833596701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4441175,
+      46.9558677
     ]
   }
 }
