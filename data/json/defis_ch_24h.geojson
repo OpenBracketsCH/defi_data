@@ -70684,10 +70684,9 @@
   "id": "node/9605130355",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schützenhaus Choller, Aussenfassade Richtung Parkplatz",
+    "defibrillator:location": "Schützenhaus Choller, external wall facing the parking",
     "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
     "phone": "+41 58 728 99 09",
@@ -133514,6 +133513,29 @@
     "coordinates": [
       7.6832044,
       47.5142453
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12833258302",
+  "properties": {
+    "defibrillator:location": "Fussballplatz Bühlwäldli",
+    "description": "Beim FC Haus an der Wand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "FC Nottwil",
+    "phone": "+41 079 277 21 92",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12833258302"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.123939,
+      47.1359942
     ]
   }
 }
