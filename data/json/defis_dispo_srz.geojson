@@ -36189,24 +36189,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9530681359",
-  "properties": {
-    "defibrillator:location": "Wall mounted inside lobby",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "id": "node/9530681359"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5365306,
-      47.3729532
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9531793117",
   "properties": {
     "access": "yes",
@@ -90407,6 +90389,29 @@
     "coordinates": [
       8.4427428,
       47.3994673
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12833526654",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Seebad Katzensee, Im Infopoint",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Seebad Katzensee",
+    "phone": "+41 44 371 08 90",
+    "wheelchair": "limited",
+    "id": "node/12833526654"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4934854,
+      47.4309386
     ]
   }
 }

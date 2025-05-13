@@ -7244,16 +7244,18 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "KSSG",
     "phone": "+41 71 494 11 11",
+    "wheelchair": "limited",
     "id": "node/8507567718"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.3876132,
-      47.4306618
+      9.3873518,
+      47.4306177
     ]
   }
 },
@@ -27256,6 +27258,31 @@
     "coordinates": [
       9.4128531,
       47.4330516
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12833518981",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "KSSG, Eingang Haus 01",
+    "description": "Alarmgesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "KSSG",
+    "phone": "+41 71 494 11 11",
+    "wheelchair": "limited",
+    "id": "node/12833518981"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.387648,
+      47.4300539
     ]
   }
 }

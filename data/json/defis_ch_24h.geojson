@@ -28212,6 +28212,32 @@
 },
 {
   "type": "Feature",
+  "id": "node/7637819108",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bankschalter, Luzerner Kantonalbank",
+    "description": "Vorraum Bankomat",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "name": "Luzerner Kantonalbank",
+    "opening_hours": "24/7",
+    "operator": "Luzerner Kantonalbank AG",
+    "phone": "+41 844 822 811",
+    "wheelchair": "limited",
+    "id": "node/7637819108"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1919112,
+      47.2063163
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/7637819111",
   "properties": {
     "access": "yes",
@@ -42210,16 +42236,18 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "KSSG",
     "phone": "+41 71 494 11 11",
+    "wheelchair": "limited",
     "id": "node/8507567718"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.3876132,
-      47.4306618
+      9.3873518,
+      47.4306177
     ]
   }
 },
@@ -133536,6 +133564,55 @@
     "coordinates": [
       8.123939,
       47.1359942
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12833518401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Wyttenbachstrasse 22a",
+    "description": "Eingang Hotel",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Privatperson",
+    "phone": "+41313324135",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12833518401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4481394,
+      46.9552042
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12833518981",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "KSSG, Eingang Haus 01",
+    "description": "Alarmgesichert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "KSSG",
+    "phone": "+41 71 494 11 11",
+    "wheelchair": "limited",
+    "id": "node/12833518981"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.387648,
+      47.4300539
     ]
   }
 }
