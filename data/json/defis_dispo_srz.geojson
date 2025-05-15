@@ -12898,6 +12898,28 @@
 },
 {
   "type": "Feature",
+  "id": "node/7930563036",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Einwohnerkontrolle: Bei den Briefkästen unten rechts integriert",
+    "description": "Zoll AED 3, mit Kindertaste und CPR Feedback. Inkl. Notfallset: Schere, Rasierer, Beatmungs-Folie, Taschenmaske in Hartbox mit Filter, Gummizug, Handschuhe und Alkoholpads.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Steinhausen",
+    "id": "node/7930563036"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4842622,
+      47.196204
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/7930578714",
   "properties": {
     "access": "yes",
@@ -90471,6 +90493,31 @@
     "coordinates": [
       8.5499328,
       47.4076115
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12840165501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Gewerbeschulstrasse 10, Erdgeschoss Wand vor dem Sekretariat",
+    "description": "während Öffnungszeiten verfügbar, nicht am Wochenende",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "Kanton Zürich",
+    "phone": "+41 44 931 31 31",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12840165501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7953382,
+      47.325792
     ]
   }
 }
