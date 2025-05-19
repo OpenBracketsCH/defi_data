@@ -2865,12 +2865,15 @@
   "type": "Feature",
   "id": "node/12818579302",
   "properties": {
-    "defibrillator:location": "Baumeler Leitungsbau AG, Hinterflueweg 8, 6064 Kerns",
-    "description": "Während",
+    "access": "yes",
+    "defibrillator:location": "Baumeler Leitungsbau AG",
+    "description": "Während Betriebszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "yes",
     "level": "0",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "phone": "+41 41 660 41 77",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/12818579302"
   },
