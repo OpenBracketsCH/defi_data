@@ -113534,7 +113534,7 @@
   "id": "node/11884816370",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schiltwald 249, 5046 Walde",
+    "defibrillator:location": "Schiltwald 249, 5046 Walde AG",
     "description": "An Fassade bei Tor",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -133685,6 +133685,29 @@
     "coordinates": [
       9.4472605,
       47.5022049
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12848377201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Birseckstrasse 59, 4059 Basel hinter dem Haus an Aussenfassade",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Wohngenossenschaft 1943 Jakobsberg",
+    "phone": "+41 79 352 64 87",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12848377201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6029521,
+      47.5315276
     ]
   }
 }
