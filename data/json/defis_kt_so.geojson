@@ -9431,6 +9431,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/12852672702",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Schulhaus Dürrbach, Haupteingang geradeaus an Treppe",
+    "description": "Nur während Schulbetrieb zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo - Fr 08:00 - 15:00",
+    "operator": "Kanton",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12852672702"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5252002,
+      47.2178921
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12852674401",
   "properties": {
     "access": "permissive",
@@ -9450,6 +9473,29 @@
     "coordinates": [
       7.5237626,
       47.2132645
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12852694301",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Schulhaus Königshof, durch Haupteingang, links an Wand",
+    "description": "Nur während Schulbetrieb zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo - Fr 08:00 - 15:00",
+    "operator": "Kanton",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12852694301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5285959,
+      47.2165148
     ]
   }
 }
