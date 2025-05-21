@@ -133935,6 +133935,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/12852453101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Das Gerät befindet sich beim Gemeindezentrum, Linke Seite vor dem Haupteingang zum Gemeindezentrum",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Tamins",
+    "phone": "+41 81 641 11 18",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12852453101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4047636,
+      46.8295978
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12852542301",
   "properties": {
     "access": "yes",
@@ -134024,6 +134047,30 @@
     "coordinates": [
       8.2613701,
       47.3253742
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12853364701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Florhofstrasse 6, 8820 Wädenswil",
+    "description": "Neben dem Eingang auf der linken Seite",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadtbibliothek Wädenswil",
+    "phone": "+4144 789 75 50",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12853364701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6705464,
+      47.227707
     ]
   }
 }
