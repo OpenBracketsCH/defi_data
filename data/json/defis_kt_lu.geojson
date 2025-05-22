@@ -21966,6 +21966,55 @@
       47.0155422
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/12855306801",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Sanitätszimmer beim Haupteingang",
+    "description": "Direkt über Empfang erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 8:00-12:00 \"und\", 13:15-17:00",
+    "operator": "SCHURTER AG",
+    "phone": "+41786837629",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12855306801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3165216,
+      47.0456728
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12855312501",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Im Treppenhaus, Seeseite",
+    "description": "Nicht öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 8:00 -17:00",
+    "operator": "SCHURTER AG",
+    "phone": "+41786837629",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12855312501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3158243,
+      47.0451355
+    ]
+  }
 }
 ]
 }
