@@ -5583,30 +5583,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6565664983",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Grindelwald-Grund",
-    "addr:housenumber": "59a",
-    "addr:postcode": "3818",
-    "addr:street": "Grundstrasse",
-    "defibrillator:location": "Vor dem Eingang zum Depot, an der Grundstrasse.",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Wengernalpbahn",
-    "id": "node/6565664983"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.0229799,
-      46.6229582
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6565664984",
   "properties": {
     "access": "yes",
@@ -27833,13 +27809,13 @@
     "addr:housenumber": "54",
     "addr:postcode": "3818",
     "addr:street": "Grundstrasse",
-    "defibrillator:location": "Der AED befindet sich in der neuen Talstation der Männlichenbahn (Grindelwald Terminal), gleich links neben den Billettschaltern.",
+    "defibrillator:location": "Befindet sich links neben Verkaufsstelle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "09:00-17:00",
-    "operator": "Männlichenbahn Talstation",
-    "phone": "+41 338287555",
+    "opening_hours": "Während Betriebszeiten",
+    "operator": "GGI",
+    "phone": "+41 338287936",
     "id": "node/7546024206"
   },
   "geometry": {
@@ -38717,7 +38693,7 @@
     "emergency:phone": "144",
     "opening_hours": "Mo-Su 08:00-17:00",
     "operator": "Bergstation EigerExpress Eigergletscher",
-    "phone": "+41 33 828 71 11",
+    "phone": "+41 33 828 7936",
     "id": "node/9406921984"
   },
   "geometry": {
@@ -39115,7 +39091,7 @@
     "indoor": "no",
     "opening_hours": "zu Betriebszeiten",
     "operator": "Wengernalp Bahnen",
-    "phone": "+41 33 828 71 11",
+    "phone": "+41 33 828 79 36",
     "id": "node/9529311041"
   },
   "geometry": {
@@ -41064,8 +41040,8 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Jungfraubahnen Management AG",
-    "phone": "+41 33 828 75 21",
+    "operator": "Jungfraubahn",
+    "phone": "+41 33 828 7936",
     "id": "node/9937518256"
   },
   "geometry": {
@@ -53520,13 +53496,18 @@
   "id": "node/11961283369",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schulhaus Mühlebach;Aussen an Südfassade",
+    "addr:city": "Grindelwald",
+    "addr:housenumber": "65",
+    "addr:postcode": "3818",
+    "addr:street": "Obere Gletscherstrasse",
+    "defibrillator:location": "Schulhaus Mühlebach;Aussen an Südfassade;Schulhaus Mühlebach, Südseite",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Grindelwald",
+    "phone": "+41 33 854 14 14",
     "id": "node/11961283369"
   },
   "geometry": {
@@ -54622,12 +54603,13 @@
   "type": "Feature",
   "id": "node/12149316991",
   "properties": {
+    "Telefon Defi": "033 826 79 36",
     "access": "yes",
     "defibrillator:location": "Aussenwand Parkhaus, Square Platz, Busbahnhof",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
-    "operator": "Grindelwald Terminal",
+    "operator": "GGI",
     "wheelchair": "yes",
     "id": "node/12149316991"
   },
@@ -57605,32 +57587,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12422554126",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Grindelwald",
-    "addr:housenumber": "67",
-    "addr:postcode": "3818",
-    "addr:street": "Grundstrasse",
-    "defibrillator:location": "Hauswand strassenseitig",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Werkhof Grindelwald",
-    "phone": "+41 33 854 14 14",
-    "id": "node/12422554126"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.0267777,
-      46.6206375
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12422554166",
   "properties": {
     "access": "yes",
@@ -59225,25 +59181,6 @@
     "coordinates": [
       7.6207187,
       47.0561216
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12771833201",
-  "properties": {
-    "access": "permit",
-    "defibrillator:location": "Ostgrat, im Eingangsbereich.",
-    "emergency": "defibrillator",
-    "indoor": "yes",
-    "operator": "Jungfraubahnen",
-    "id": "node/12771833201"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.9714116,
-      46.5453132
     ]
   }
 },

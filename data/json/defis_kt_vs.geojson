@@ -482,13 +482,15 @@
   "type": "Feature",
   "id": "node/6565869515",
   "properties": {
-    "access": "öffentlich,_während_betriebszeiten.",
+    "access": "yes",
     "addr:city": "Jungfraujoch",
     "addr:place": "Station",
     "addr:postcode": "3801",
     "defibrillator:location": "Eis Gateway, links neben Drehtür, an der Wand.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Während Betriebszeiten",
     "operator": "Jungfraubahn",
     "id": "node/6565869515"
   },
@@ -5141,9 +5143,10 @@
   "type": "Feature",
   "id": "node/12749901953",
   "properties": {
-    "access": "öffentlich,_während_betriebszeiten.",
+    "access": "yes",
     "defibrillator:location": "Im Durchgang zwischen Bhf und Cafébar, an Stützträger.",
     "emergency": "defibrillator",
+    "opening_hours": "Während Betriebszeiten",
     "operator": "Jungfraubahnen",
     "id": "node/12749901953"
   },
