@@ -2660,26 +2660,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8883006328",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Seite Parkplatz",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "id": "node/8883006328"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6999615,
-      46.1765942
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8883006329",
   "properties": {
     "access": "yes",
@@ -6482,6 +6462,23 @@
     "coordinates": [
       8.952574,
       46.00606
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12864765016",
+  "properties": {
+    "defibrillator:location": "In front of the building.",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/12864765016"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.699555,
+      46.1764624
     ]
   }
 }
