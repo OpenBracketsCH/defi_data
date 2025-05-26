@@ -57017,29 +57017,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10763310117",
-  "properties": {
-    "defibrillator:location": "3.OG Aufenthaltsraum",
-    "description": "gelber Koffer",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "name": "Proretail AG",
-    "opening_hours": "Mo-Fr 08:00-17:30",
-    "operator": "Lifetec AG Schweiz",
-    "phone": "+41 800 122 144",
-    "id": "node/10763310117"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4548,
-      47.40107
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10763310118",
   "properties": {
     "access": "no",
@@ -81953,11 +81930,12 @@
   "id": "node/12318739101",
   "properties": {
     "access": "private",
-    "defibrillator:location": "First Responder Ausrüstung",
-    "description": "AED Schiller Fred Easy & First Responder Ausrüstung",
+    "defibrillator:location": "Privater AED im Fzg, Firstresponder hier wohnhaft",
+    "description": "Zoll AED 3, mit Kindertaste und CPR Feedback. Inkl. Notfallset: Schere, Rasierer, Beatmungs-Folie, Taschenmaske in Hartbox mit Filter, Gummizug, Handschuhe und Alkoholpads.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "yes",
+    "opening_hours": "24/7",
     "operator": "Claudio Granja (First Responder)",
     "phone": "+41 76 513 14 15",
     "source": "local_knowledge, defikarte.ch",
