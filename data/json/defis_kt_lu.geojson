@@ -21976,6 +21976,53 @@
       47.0451355
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/12864525801",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Hotel Hermitage Luzern an der Rezeption",
+    "description": "7Tage/24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Hotel Hermitage AG",
+    "phone": "+41413758181",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12864525801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3500975,
+      47.0426753
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12864533201",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Bellevue nach Haupteingang auf der rechten Seite",
+    "description": "7Tage/24h verfügbar -> Türe muss durch jemanden vom Hotel Hermitage AG geöffnet werden",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Hotel Hermitage AG",
+    "phone": "+41413758169",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12864533201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3499902,
+      47.0435417
+    ]
+  }
 }
 ]
 }
