@@ -91329,6 +91329,52 @@
       47.4118043
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/12889023201",
+  "properties": {
+    "defibrillator:location": "Muotathal, Sahli (Luftseilbahn Sahli-Glattalp)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "ebs Energie AG",
+    "phone": "+41 41 811 15 55",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12889023201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8464891,
+      46.9136355
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12889037002",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Muotathal, Bergstation Glattalp (Luftseilbahn Sahli-Glattalp)",
+    "description": "nur während Luftseilbahnbetrieb zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "ebs Energie AG",
+    "phone": "+41 41 811 15 55",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12889037002"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8775702,
+      46.9154997
+    ]
+  }
 }
 ]
 }
