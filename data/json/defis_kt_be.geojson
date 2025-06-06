@@ -2071,8 +2071,10 @@
   "type": "Feature",
   "id": "node/5694895989",
   "properties": {
+    "defibrillator:location": "Unter dem Dach, aber von außen zugänglich am Ausgang von der Seilbahn-Bergstation",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "id": "node/5694895989"
   },
   "geometry": {
@@ -59745,6 +59747,23 @@
     "coordinates": [
       7.2105986,
       47.0934713
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12892451868",
+  "properties": {
+    "defibrillator:location": "Vom Parkplatz kommend rechts an der Außenwand des Gebäudes auf dem Weg zu den Toiletten",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/12892451868"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6667815,
+      46.5338066
     ]
   }
 }
