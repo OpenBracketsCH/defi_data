@@ -5578,27 +5578,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7846601535",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Scheune Hunziker",
-    "description": "AED ist 24h verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "id": "node/7846601535"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5432978,
-      47.5655122
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7846629462",
   "properties": {
     "access": "yes",
@@ -26816,12 +26795,12 @@
   "type": "Feature",
   "id": "node/9630319017",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Autohalle Andelfingen bei Garderobe.\nNext to the reception.",
+    "access": "private",
+    "defibrillator:location": "Autohalle Andelfingen bei Garderobe.Next to the reception.",
+    "description": "ist nur öffentlich zugänglich wenn das Restaurant offen ist, sonst sind die Türen geschlossen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
     "operator": "Autohalle Andelfingen",
     "wheelchair": "no",
     "id": "node/9630319017"
@@ -48967,8 +48946,13 @@
   "type": "Feature",
   "id": "node/11293826978",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hängt von aussen zugänglich an einer Scheune",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
     "id": "node/11293826978"
   },
   "geometry": {
