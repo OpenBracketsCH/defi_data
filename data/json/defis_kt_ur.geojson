@@ -313,10 +313,16 @@
   "type": "Feature",
   "id": "node/7637818492",
   "properties": {
+    "access": "private",
     "defibrillator:location": "Erdgeschoss, beim Feuerloeschposten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 07:30-17:00",
+    "operator": "Sisag AG",
+    "phone": "+41 41 875 07 11",
+    "wheelchair": "yes",
     "id": "node/7637818492"
   },
   "geometry": {
@@ -2480,6 +2486,30 @@
     "coordinates": [
       8.6130452,
       46.8752281
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12909280046",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Treppenhaus, neben Eingang Restaurant",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "8",
+    "opening_hours": "Mo-Fr 08:30-17:00, Fr-Sa 17:30-23:00",
+    "operator": "54 Hochgenuss",
+    "phone": "+41 41 875 64 54",
+    "wheelchair": "yes",
+    "id": "node/12909280046"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6449024,
+      46.856683
     ]
   }
 }
