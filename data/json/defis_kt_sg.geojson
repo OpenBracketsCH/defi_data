@@ -25423,22 +25423,25 @@
   "type": "Feature",
   "id": "node/12330640001",
   "properties": {
+    "access": "customers",
     "defibrillator:location": "Schulhaus Mattenweg 30, 9230 Flawil",
     "description": "während Öffnungszeiten während Unterrichtsbetrieb verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 07:00-18:00",
-    "operator": "Schule",
-    "phone": "+41582287260",
+    "operator": "Berufs- und Weiterbildungszentrum Uzwil-Flawil",
+    "phone": "+41 58 228 72 60",
     "source": "local_knowledge, defikarte.ch",
+    "wheelchair": "limited",
     "id": "node/12330640001"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.1886687,
-      47.4189266
+      9.188636,
+      47.4189971
     ]
   }
 },
