@@ -4021,8 +4021,8 @@
   "id": "node/6992457791",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Links beim Schwimmbädli im Gang",
-    "description": "24h verfügbar, Scheibe für Schlüssel einschlagen. Im Winter nicht an Ort.",
+    "defibrillator:location": "Links beim Schwimmbädli im Gang im Zugang zur ZSO-Anlage",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -91467,6 +91467,30 @@
     "coordinates": [
       8.7314829,
       47.2417843
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12912557636",
+  "properties": {
+    "access": "customers",
+    "defibrillator:location": "Raiffeisenbank Zürich Flughafen",
+    "description": "Mit EC-Karte",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Raiffeisenbank Zürich Flughafen",
+    "phone": "+41 44 866 71 00",
+    "wheelchair": "limited",
+    "id": "node/12912557636"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5799259,
+      47.4533404
     ]
   }
 }

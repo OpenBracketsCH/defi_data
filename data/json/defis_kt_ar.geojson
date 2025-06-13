@@ -337,7 +337,11 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Su 07:00-22:00",
+    "operator": "LSS",
+    "phone": "+41 71 365 66 66",
+    "wheelchair": "limited",
     "id": "node/7933782681"
   },
   "geometry": {
@@ -2338,6 +2342,31 @@
     "coordinates": [
       9.4557631,
       47.4035742
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12912533090",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Swisscom Broadcast",
+    "description": "Präsentationsraum",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-3",
+    "opening_hours": "24/7",
+    "operator": "Swisscom Broadcast",
+    "phone": "+41 800 817 620",
+    "wheelchair": "limited",
+    "id": "node/12912533090"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3423229,
+      47.249516
     ]
   }
 }

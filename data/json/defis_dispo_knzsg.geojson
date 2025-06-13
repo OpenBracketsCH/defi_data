@@ -51,17 +51,24 @@
   "type": "Feature",
   "id": "node/1847264321",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bergstation Schwebebahn Säntis",
     "description": "Standort bei Shop im EG der Talstation",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "24/7",
+    "operator": "LSS",
+    "phone": "+41 71 365 66 66",
+    "wheelchair": "limited",
     "id": "node/1847264321"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.3423837,
-      47.2493161
+      9.3423719,
+      47.2493548
     ]
   }
 },
@@ -5668,7 +5675,11 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Su 07:00-22:00",
+    "operator": "LSS",
+    "phone": "+41 71 365 66 66",
+    "wheelchair": "limited",
     "id": "node/7933782681"
   },
   "geometry": {
@@ -32861,6 +32872,53 @@
     "coordinates": [
       8.8474219,
       47.2304031
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12912533090",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Swisscom Broadcast",
+    "description": "Präsentationsraum",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-3",
+    "opening_hours": "24/7",
+    "operator": "Swisscom Broadcast",
+    "phone": "+41 800 817 620",
+    "wheelchair": "limited",
+    "id": "node/12912533090"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3423229,
+      47.249516
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12912541002",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Galerieweg 8, im Gebäudeinnern (ca. 10 M nach Türe auf rechter Seite des Ganges)",
+    "description": "während Öffnungszeiten verfügbar (Mo-Do 8:00-17:00, Fr 08:00-16:00, Abweichungen möglich)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "phone": "+41 71 552 32 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12912541002"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.6435767,
+      47.4115867
     ]
   }
 }

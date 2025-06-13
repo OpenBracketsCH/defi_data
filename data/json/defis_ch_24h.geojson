@@ -234,6 +234,31 @@
 },
 {
   "type": "Feature",
+  "id": "node/1847264321",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bergstation Schwebebahn Säntis",
+    "description": "Standort bei Shop im EG der Talstation",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "24/7",
+    "operator": "LSS",
+    "phone": "+41 71 365 66 66",
+    "wheelchair": "limited",
+    "id": "node/1847264321"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3423719,
+      47.2493548
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/1871892415",
   "properties": {
     "access": "yes",
@@ -18048,8 +18073,8 @@
   "id": "node/6992457791",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Links beim Schwimmbädli im Gang",
-    "description": "24h verfügbar, Scheibe für Schlüssel einschlagen. Im Winter nicht an Ort.",
+    "defibrillator:location": "Links beim Schwimmbädli im Gang im Zugang zur ZSO-Anlage",
+    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -135096,6 +135121,78 @@
     "coordinates": [
       8.3566315,
       47.3671781
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12912533090",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Swisscom Broadcast",
+    "description": "Präsentationsraum",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-3",
+    "opening_hours": "24/7",
+    "operator": "Swisscom Broadcast",
+    "phone": "+41 800 817 620",
+    "wheelchair": "limited",
+    "id": "node/12912533090"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3423229,
+      47.249516
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12912540272",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "An der Wand der Busstation",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "First Responder Zentralschweiz",
+    "wheelchair": "no",
+    "id": "node/12912540272"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2063164,
+      46.8848997
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12912557636",
+  "properties": {
+    "access": "customers",
+    "defibrillator:location": "Raiffeisenbank Zürich Flughafen",
+    "description": "Mit EC-Karte",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Raiffeisenbank Zürich Flughafen",
+    "phone": "+41 44 866 71 00",
+    "wheelchair": "limited",
+    "id": "node/12912557636"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5799259,
+      47.4533404
     ]
   }
 }
