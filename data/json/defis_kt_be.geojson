@@ -5688,7 +5688,7 @@
   "type": "Feature",
   "id": "node/6565703793",
   "properties": {
-    "access": "während_betriebszeit_zugänglich.",
+    "access:conditional": "yes @ opening_hours",
     "addr:city": "Eismeer",
     "addr:street": "Station",
     "defibrillator:location": "Station Eismeer an der Wand beim Gleis.",
@@ -35548,7 +35548,7 @@
   "type": "Feature",
   "id": "node/9367107205",
   "properties": {
-    "access": "während_den_betriebszeiten_zugänglich.",
+    "access:conditional": "yes @ opening_hours",
     "defibrillator:location": "Station Eigerwand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
