@@ -71304,9 +71304,12 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Bei der Infotafel vor dem Migros Zumikon",
+    "description": "Nach Gebrauch bei der Feuerwehr melden: +41 44 918 01 32",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
+    "name": "Gemeinde Zumikon",
     "opening_hours": "24/7",
     "operator": "Gemeinde Zumikon",
     "phone": "+41 44 918 01 32",
@@ -71316,8 +71319,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6185974,
-      47.3365361
+      8.6186296,
+      47.3365597
     ]
   }
 },
@@ -71327,9 +71330,12 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Rechts neben Garageeinfahrt an Pfosten, Chapfstrasse 37, 8126 Zumikon",
+    "description": "Nach Gebrauch bei der Feuerwehr melden: +41 44 918 01 32",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
+    "name": "Gemeinde Zumikon",
     "opening_hours": "24/7",
     "operator": "Gemeinde Zumikon",
     "phone": "+41 44 918 01 32",
@@ -71350,9 +71356,12 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "An Hausfassade Küsnachterstrasse 35a, 8126 Zumikon",
+    "description": "Nach Gebrauch bei der Feuerwehr melden: +41 44 918 01 32",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
+    "name": "Gemeinde Zumikon",
     "opening_hours": "24/7",
     "operator": "Gemeinde Zumikon",
     "phone": "+41 44 918 01 32",
@@ -71373,9 +71382,12 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Beim Lift der Forchbahn-Haltestelle Maiacher",
+    "description": "Nach Gebrauch bei der Feuerwehr melden: +41 44 918 01 32",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
+    "name": "Gemeinde Zumikon",
     "opening_hours": "24/7",
     "operator": "Gemeinde Zumikon",
     "phone": "+41 44 918 01 32",
@@ -71387,6 +71399,55 @@
     "coordinates": [
       8.6306137,
       47.3282248
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12927764801",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Treppenhaus 1 - Süd",
+    "description": "während den Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-12:00, 13:00-17:00",
+    "operator": "EMIL EGGER AG",
+    "phone": "+41 44 204 59 59",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12927764801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6073107,
+      47.4470024
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12927772401",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Halle 2, Grindelstrasse 5, 8303 Bassersdorf",
+    "description": "Korridor bei Toiletten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "4",
+    "opening_hours": "Mo-Fr 07:00-12:00, 13:00-17:00",
+    "operator": "EMIL EGGER AG",
+    "phone": "+41 44 204 59 59",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12927772401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6081153,
+      47.4472346
     ]
   }
 }
