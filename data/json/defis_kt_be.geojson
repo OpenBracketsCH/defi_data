@@ -5743,6 +5743,7 @@
     "emergency:phone": "144",
     "opening_hours": "Während Betriebszeiten zugänglich.",
     "operator": "Firstbahn",
+    "telefon": "+41 33 828 79 36",
     "id": "node/6565703796"
   },
   "geometry": {
@@ -5767,7 +5768,7 @@
     "emergency:phone": "144",
     "opening_hours": "Während Betriebszeiten öffentlich zugänglich.",
     "operator": "Firstbahn",
-    "phone": "+41 33 828 77 11",
+    "phone": "+41 33 828 79 36",
     "id": "node/6565703797"
   },
   "geometry": {
@@ -5790,7 +5791,7 @@
     "level": "0",
     "opening_hours": "Mo-Su 08:00-17:00",
     "operator": "Firstbahn AG",
-    "phone": "+41 33 828 71 11",
+    "phone": "+41 33 828 79 36",
     "wheelchair": "no",
     "id": "node/6565703798"
   },
@@ -5814,7 +5815,7 @@
     "level": "0",
     "opening_hours": "Mo-Su 08:00-17:00",
     "operator": "Firstbahn AG",
-    "phone": "+41 33 828 71 11",
+    "phone": "+41 33 828 79 36",
     "wheelchair": "no",
     "id": "node/6565703799"
   },
@@ -6367,29 +6368,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6565882241",
-  "properties": {
-    "access": "no",
-    "addr:city": "Zweilütschinen",
-    "addr:housenumber": "121k",
-    "addr:postcode": "3815",
-    "addr:street": "Station",
-    "defibrillator:location": "Eingang Bahndepot, links an der Wand",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "operator": "Berner Oberland-Bahn",
-    "id": "node/6565882241"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.9003095,
-      46.63301
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6565882242",
   "properties": {
     "access": "yes",
@@ -6403,7 +6381,7 @@
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Berner Oberland Bahnen.",
-    "phone": "+41 33 828 72 33",
+    "phone": "+41 33 828 79 36",
     "id": "node/6565882242"
   },
   "geometry": {
@@ -6411,30 +6389,6 @@
     "coordinates": [
       7.8997956,
       46.6325693
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/6565882243",
-  "properties": {
-    "access": "no",
-    "addr:city": "Lütschental",
-    "addr:housenumber": "235a",
-    "addr:postcode": "3816",
-    "addr:street": "Zentrale",
-    "defibrillator:location": "Kraftwerk, in der Fahrzeughalle neben Haupteingang innen, links an der Wand.",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "operator": "Jungfraubahn",
-    "phone": "+41 33 828 77 77",
-    "id": "node/6565882243"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.9542695,
-      46.6374
     ]
   }
 },
@@ -27821,7 +27775,7 @@
     "indoor": "yes",
     "opening_hours": "Während Betriebszeiten",
     "operator": "GGI",
-    "phone": "+41 338287936",
+    "phone": "+41 33 828 79 36",
     "id": "node/7546024206"
   },
   "geometry": {
@@ -51705,13 +51659,14 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "operator": "Berner Oberland Bahnen",
+    "telefonnummer": "033 828 79 36",
     "id": "node/11618927569"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.9494996,
-      46.6372829
+      7.9496163,
+      46.6373182
     ]
   }
 },
@@ -54596,7 +54551,7 @@
     "emergency:phone": "144",
     "opening_hours": "24/7",
     "operator": "GGI",
-    "phone": "033 826 79 36",
+    "phone": "+41 33 828 79 36",
     "wheelchair": "yes",
     "id": "node/12149316991"
   },
@@ -54619,7 +54574,7 @@
     "level": "0",
     "opening_hours": "24/7",
     "operator": "Berner Oberland-Bahn",
-    "phone": "+41 33 828 71 11",
+    "phone": "+41 33 828 79 36",
     "wheelchair": "limited",
     "id": "node/12149316993"
   },
