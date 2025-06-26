@@ -91839,6 +91839,76 @@
       47.2376038
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/12953283101",
+  "properties": {
+    "defibrillator:location": "Lidl, Pflanzschulstrasse 7, 8004 Zürich",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "Mo-Sa 07:00-21:00",
+    "id": "node/12953283101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5194086,
+      47.3753832
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12953586001",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Feuerwehr-Depot, Treppenhaus/Vorraum",
+    "description": "zur Präsentzeit vom Feuerwehr Materialwart, bei Übungsbetrieb (FW oder Samariter) 18:30-21:30, wenn FW-Theorieraum besetzt oder vermietet ist Wochentags 18:00-22:00 + Wochenende  08:00-18:00 möglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "\"Mo+Mi 09:00-18:00\";\"Di+Do 07:00-17:00\";\"Fr 07:00-13:00\"",
+    "operator": "Gemeinde Dietlikon, Liegenschaft",
+    "phone": "+41 79 370 82 90",
+    "id": "node/12953586001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.620607,
+      47.4241523
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12953695003",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "WALDIS Tresore AG, Zugang über Haupteingang (klingeln), danach im Gang rechts.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
+    "operator": "Firma",
+    "phone": "+4143 211 12 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12953695003"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5360819,
+      47.4530677
+    ]
+  }
 }
 ]
 }
