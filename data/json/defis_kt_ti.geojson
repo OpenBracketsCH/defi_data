@@ -1393,22 +1393,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/5262148372",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/5262148372"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.9174297,
-      45.9819654
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/5562466236",
   "properties": {
     "emergency": "defibrillator",
@@ -4876,9 +4860,14 @@
   "type": "Feature",
   "id": "node/10781555065",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "all'interno della cabina",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "wheelchair": "yes",
     "id": "node/10781555065"
   },
   "geometry": {
