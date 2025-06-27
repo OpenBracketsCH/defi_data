@@ -12283,29 +12283,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7928222748",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Praxis Dr. Klein",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "operator": "HAUSARZTPRAXIS FRANK KLEIN",
-    "phone": "041 757 10 80",
-    "id": "node/7928222748"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5888463,
-      47.1785232
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7928222749",
   "properties": {
     "access": "yes",
@@ -84451,6 +84428,7 @@
   "type": "Feature",
   "id": "node/12436086201",
   "properties": {
+    "defibrillator:location": "Beim Parkplatz Restaurant Gubel",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
