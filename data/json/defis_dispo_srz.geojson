@@ -327,10 +327,14 @@
   "type": "Feature",
   "id": "node/4444552485",
   "properties": {
+    "addr:housenumber": "6",
+    "addr:street": "Dorfstrasse",
+    "defibrillator:location": "Im Treppenhaus der Gemeindeverwaltung Beggingen unter der Treppe im EG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Beggingen",
     "wheelchair": "yes",
     "id": "node/4444552485"
   },
@@ -4771,7 +4775,7 @@
     "access": "yes",
     "addr:housenumber": "1",
     "addr:street": "Hofwiesen",
-    "defibrillator:location": "An Aussenfassade in alarmgesichertem Gehäuse",
+    "defibrillator:location": "An Aussenfassade des Feuerwehrdepot in alarmgesichertem Gehäuse",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
