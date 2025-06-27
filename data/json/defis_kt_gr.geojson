@@ -15302,7 +15302,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Bergstation Diavolezza",
-    "description": "An Betriebszeiten sowie Betriebstagen frei Zugänglich",
+    "description": "An Betriebszeiten sowie an Betriebstagen frei Zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -15315,8 +15315,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.9654365,
-      46.4123205
+      9.9654622,
+      46.412207
     ]
   }
 },
@@ -15593,6 +15593,29 @@
     "coordinates": [
       10.4324521,
       46.8624244
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12956041901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rechts vom Haupteingang in der Unterführung an der Wand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Diavolezza Lagalb AG",
+    "phone": "+41 81 839 39 39",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12956041901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.9835682,
+      46.4412293
     ]
   }
 }
