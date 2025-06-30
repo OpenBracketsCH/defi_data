@@ -33058,6 +33058,79 @@
       47.1143007
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/12963815001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussengeräteraum Sportzentrum Kerenzerberg",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "Mo - Su 07:00 - 20:00",
+    "operator": "Sportzentrum Kerenzerberg",
+    "phone": "+41 55 614 17 17",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12963815001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1221875,
+      47.1225926
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12963824902",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Kraft-Fitnessraum",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "Mo-Su 07:00-21:00",
+    "operator": "Sportzentrum Kerenzerberg",
+    "phone": "+41 55 614 17 17",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12963824902"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1259533,
+      47.1225707
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12963825601",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Hallenbad Sportzentrum Kerenzerberg",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "We 18:00-21:00",
+    "operator": "Sportzentrum Kerenzerberg",
+    "phone": "+41 55 614 17 17",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12963825601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1269994,
+      47.1223298
+    ]
+  }
 }
 ]
 }
