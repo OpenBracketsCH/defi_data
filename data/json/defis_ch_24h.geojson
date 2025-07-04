@@ -133964,12 +133964,19 @@
   "id": "node/12850581001",
   "properties": {
     "access": "yes",
+    "addr:city": "Grabs",
+    "addr:postcode": "9472",
+    "addr:street": "Marktstrasse",
     "defibrillator:location": "bei marktplatz an fassade",
+    "description": "Grüner Kasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
-    "operator": "Gemeinde Grabs",
+    "operator": "Lifetec AG",
+    "phone": "+41800122144",
+    "ref": "1553 LTS",
     "id": "node/12850581001"
   },
   "geometry": {
@@ -133985,12 +133992,20 @@
   "id": "node/12850584901",
   "properties": {
     "access": "yes",
+    "addr:city": "Grabs",
+    "addr:housenumber": "7",
+    "addr:postcode": "9472",
+    "addr:street": "Schulhaustrasse",
     "defibrillator:location": "Schulhaus Kirchbünt neben Haupteingang",
+    "description": "Grüner Kasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
-    "operator": "Gemeinde Grabs",
+    "operator": "Lifetec AG",
+    "phone": "+41800122144",
+    "ref": "1556LTS",
     "id": "node/12850584901"
   },
   "geometry": {
@@ -134070,37 +134085,23 @@
 },
 {
   "type": "Feature",
-  "id": "node/12852370001",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "bei Städtli eingang an der mauer",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde Grabs",
-    "id": "node/12852370001"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.4634014,
-      47.1683791
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12852370401",
   "properties": {
     "access": "yes",
+    "addr:city": "Grabs",
+    "addr:housenumber": "7",
+    "addr:postcode": "9472",
+    "addr:street": "Unterdorfstrasse",
     "defibrillator:location": "Schulhaus Unterdorf neben dem Velokeller an der Wand",
+    "description": "Grüner Kasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
-    "level": "-1",
+    "indoor": "yes",
+    "level": "0",
     "opening_hours": "24/7",
-    "operator": "Gemeinde Grabs",
+    "operator": "Lifetec AG",
+    "phone": "+41800122144",
+    "ref": "1554LTS",
     "id": "node/12852370401"
   },
   "geometry": {
