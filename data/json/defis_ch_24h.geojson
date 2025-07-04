@@ -22108,9 +22108,17 @@
   "id": "node/7559489762",
   "properties": {
     "access": "yes",
+    "addr:city": "Grabs",
+    "addr:street": "Voralpsee",
+    "defibrillator:location": "bei Kiosk",
+    "description": "Grüner Kasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "level": "0",
     "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "+41800122144",
+    "ref": "0019LTC",
     "id": "node/7559489762"
   },
   "geometry": {
@@ -136176,6 +136184,93 @@
     "coordinates": [
       6.6435252,
       46.5750579
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12976351948",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Grabs",
+    "addr:housenumber": "4",
+    "addr:postcode": "9472",
+    "addr:street": "Lindenweg",
+    "defibrillator:location": "Eingang Links",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "+41800122144",
+    "ref": "1559LTS",
+    "id": "node/12976351948"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4449917,
+      47.1824608
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12976463535",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Grabs",
+    "addr:housenumber": "7",
+    "addr:postcode": "9472",
+    "addr:street": "Sporgasse",
+    "defibrillator:location": "Rathaus rechts vom Eingang",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "+41800122144",
+    "ref": "1551LTS",
+    "id": "node/12976463535"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4445598,
+      47.1812137
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12976463994",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Grabs",
+    "addr:housenumber": "72",
+    "addr:postcode": "9472",
+    "addr:street": "Staatsstrasse",
+    "defibrillator:location": "Eingang",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "+41800122144",
+    "ref": "1555LTS",
+    "id": "node/12976463994"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4435473,
+      47.1861418
     ]
   }
 }
