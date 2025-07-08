@@ -5350,8 +5350,10 @@
     "emergency": "defibrillator",
     "indoor": "yes",
     "level": "0",
+    "opening_hours": "07:00-23:00",
     "panoramax": "6675d09a-2439-42f4-b55e-bcb688e988bc",
     "survey:date": "2025-07-06",
+    "wheelchair": "limited",
     "id": "node/12982891775"
   },
   "geometry": {
@@ -5397,6 +5399,51 @@
     "coordinates": [
       6.8338652,
       46.3439847
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12987742691",
+  "properties": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "panoramax": "0d31d025-9797-4681-9f34-c10009440d8a",
+    "survey:date": "2025-07-08",
+    "wheelchair": "yes",
+    "id": "node/12987742691"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4688901,
+      46.3045689
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12987751710",
+  "properties": {
+    "access": "customers",
+    "defibrillator:location": "Au réception du spa/entrée du piscine",
+    "defibrillator:location:en": "At the reception of the spa/entrance to the the pool",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "09:00-20:00",
+    "panoramax": "a48bf55d-a031-40d4-8285-d885e220c670",
+    "survey:date": "2025-07-08",
+    "wheelchair": "limited",
+    "id": "node/12987751710"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4813174,
+      46.3137494
     ]
   }
 }
