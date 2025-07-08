@@ -5354,8 +5354,8 @@
   "id": "node/7836853916",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Im Gemeindehaus",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Aussen Haupteingang zu Gemeindehaus",
+    "description": "24 Std. / 7 Tage",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "id": "node/7836853916"
@@ -5363,8 +5363,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7213382,
-      47.3093281
+      8.7214212,
+      47.3093373
     ]
   }
 },
@@ -71804,6 +71804,28 @@
     "coordinates": [
       8.750075,
       47.3831804
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12987616001",
+  "properties": {
+    "defibrillator:location": "Gemeindehaus Aussenwand Haupteingang",
+    "description": "24 / 7 verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeindeverwaltung Mönchaltorf",
+    "phone": "+41449494010",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12987616001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7214062,
+      47.3093075
     ]
   }
 }
