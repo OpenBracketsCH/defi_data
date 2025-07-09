@@ -902,10 +902,11 @@
   "type": "Feature",
   "id": "node/7637819017",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Haupteingang neben dem Briefkasten der Post",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "name:en": "Municipality of Engelberg",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Einwohnergemeinde Engelberg",
     "wheelchair": "yes",
@@ -923,17 +924,20 @@
   "type": "Feature",
   "id": "node/7637819018",
   "properties": {
-    "defibrillator:location": "Mehrzweckanlage beim Feuerwehrlokal, Abgang Sportplatz, bei Parkuhr",
+    "access": "yes",
+    "defibrillator:location": "Mehrzweckanlage Feuerwehr, Abgang Sportplatz, bei Parkuhr",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "name": "Einwohnergemeinde Engelberg",
+    "operator": "Einwohnergmeinde Engelberg",
     "id": "node/7637819018"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4119465,
-      46.817009
+      8.411887,
+      46.8167829
     ]
   }
 },
