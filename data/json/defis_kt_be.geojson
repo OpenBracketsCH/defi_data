@@ -43607,30 +43607,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10540409275",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Hettiswil",
-    "addr:housenumber": "8",
-    "addr:postcode": "3325",
-    "addr:street": "Hängelenstrasse",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Privatliegenschaft",
-    "phone": "+41 344118083",
-    "id": "node/10540409275"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5700197,
-      47.037356
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10540409276",
   "properties": {
     "access": "yes",
@@ -60052,6 +60028,25 @@
     "coordinates": [
       8.1630886,
       46.7325847
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12989070122",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Beach Center Bern (Provisorium",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/12989070122"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4737062,
+      46.9573142
     ]
   }
 }

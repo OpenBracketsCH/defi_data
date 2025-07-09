@@ -84865,30 +84865,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10540409275",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Hettiswil",
-    "addr:housenumber": "8",
-    "addr:postcode": "3325",
-    "addr:street": "Hängelenstrasse",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Privatliegenschaft",
-    "phone": "+41 344118083",
-    "id": "node/10540409275"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5700197,
-      47.037356
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10540409276",
   "properties": {
     "access": "yes",
@@ -136422,27 +136398,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12987186101",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Rüttenenstrasse 8, Haupteingang",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "phone": "+41566483838",
-    "id": "node/12987186101"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.3340527,
-      47.3466398
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12987200001",
   "properties": {
     "access": "yes",
@@ -136507,6 +136462,29 @@
     "coordinates": [
       8.750075,
       47.3831804
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12987616001",
+  "properties": {
+    "defibrillator:location": "Gemeindehaus Aussenwand Haupteingang",
+    "description": "24 / 7 verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung Mönchaltorf",
+    "phone": "+41449494010",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12987616001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7214062,
+      47.3093075
     ]
   }
 },
