@@ -71340,6 +71340,7 @@
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Stadt Liestal",
+    "phone": "+41 (0)61 927 52 18",
     "id": "node/9630986117"
   },
   "geometry": {
@@ -95084,7 +95085,7 @@
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Stadt Liestal",
-    "phone": "+41619275218",
+    "phone": "+41 (0)61 927 52 18",
     "id": "node/10901648667"
   },
   "geometry": {
@@ -115443,8 +115444,8 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Stadt Liestal / Michael Augsburger",
-    "phone": "+41 61 927 52 18",
+    "operator": "Stadt Liestal",
+    "phone": "+41 (0) 61 927 52 18",
     "id": "node/11936730975"
   },
   "geometry": {
@@ -136192,6 +136193,35 @@
 },
 {
   "type": "Feature",
+  "id": "node/12976263596",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Werdenberg",
+    "addr:housenumber": "43",
+    "addr:postcode": "9470",
+    "addr:street": "Städtli",
+    "defibrillator:location": "Gasthof Rössli bei Mauer",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "+4180022144",
+    "ref": "1552LTS",
+    "id": "node/12976263596"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4635322,
+      47.1684145
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12976351948",
   "properties": {
     "access": "yes",
@@ -136221,6 +136251,35 @@
 },
 {
   "type": "Feature",
+  "id": "node/12976429493",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Grabs",
+    "addr:housenumber": "8",
+    "addr:postcode": "9472",
+    "addr:street": "Marhaldenstrasse",
+    "defibrillator:location": "Bei Turnhalle",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "+41800122144",
+    "ref": "1557LTS",
+    "id": "node/12976429493"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4512535,
+      47.1718967
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12976463535",
   "properties": {
     "access": "yes",
@@ -136245,6 +136304,35 @@
     "coordinates": [
       9.4445598,
       47.1812137
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12976463536",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Grabserberg",
+    "addr:postcode": "9472",
+    "addr:street": "Boden",
+    "defibrillator:location": "Eingang Rechst",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "name": "Schulhaus Berg",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "+41800122144",
+    "ref": "1558LTS",
+    "id": "node/12976463536"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4233138,
+      47.1796511
     ]
   }
 },
@@ -136552,6 +136640,29 @@
     "coordinates": [
       7.4672063,
       46.308498
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12989832801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vor Eingang Schulhaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadt Liestal",
+    "phone": "+41 (0)61 927 52 18",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12989832801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7379048,
+      47.4844353
     ]
   }
 }

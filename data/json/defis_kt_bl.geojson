@@ -168,15 +168,15 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Stadt Liestal / Michael Augsburger",
-    "phone": "+41 61 927 52 18",
+    "operator": "Stadt Liestal",
+    "phone": "+41 (0)61 927 52 18",
     "id": "node/8341301240"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7279095,
-      47.484128
+      7.7279459,
+      47.4839217
     ]
   }
 },
@@ -190,15 +190,15 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Stadt Liestal / Michael Augsburger",
-    "phone": "+41 61 927 52 18",
+    "operator": "Stadt Liestal",
+    "phone": "+41 (0)61 927 52 18",
     "id": "node/8341301241"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7401471,
-      47.4773656
+      7.7403992,
+      47.4772369
     ]
   }
 },
@@ -2580,6 +2580,7 @@
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Stadt Liestal",
+    "phone": "+41 (0)61 927 52 18",
     "id": "node/9630986117"
   },
   "geometry": {
@@ -5212,7 +5213,7 @@
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Stadt Liestal",
-    "phone": "+41619275218",
+    "phone": "+41 (0)61 927 52 18",
     "id": "node/10901648667"
   },
   "geometry": {
@@ -6883,8 +6884,8 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Stadt Liestal / Michael Augsburger",
-    "phone": "+41 61 927 52 18",
+    "operator": "Stadt Liestal",
+    "phone": "+41 (0) 61 927 52 18",
     "id": "node/11936730975"
   },
   "geometry": {
@@ -8547,6 +8548,52 @@
     "coordinates": [
       7.7328827,
       47.4878926
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12989830403",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Eingang der Turnhalle",
+    "description": "während der Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Stadt Liestal",
+    "phone": "+41 (0)61 927 52 18",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12989830403"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7278519,
+      47.4954729
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12989832801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vor Eingang Schulhaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadt Liestal",
+    "phone": "+41 (0)61 927 52 18",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12989832801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7379048,
+      47.4844353
     ]
   }
 }
