@@ -35,6 +35,7 @@
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
+    "panoramax": "25dadc45-42f2-452a-b181-ae08c8e5cc58",
     "wheelchair": "yes",
     "id": "node/442135045"
   },
@@ -492,6 +493,7 @@
     "indoor": "yes",
     "opening_hours": "Während Betriebszeiten",
     "operator": "Jungfraubahn",
+    "phone": "033 828 79 36",
     "id": "node/6565869515"
   },
   "geometry": {
@@ -5138,7 +5140,9 @@
     "des": "während Betriebszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "opening_hours": "zu Betreibszeiten",
     "operator": "Jungfraubahnen",
+    "phone": "033 828 79 36",
     "id": "node/12749901953"
   },
   "geometry": {
@@ -5151,20 +5155,23 @@
 },
 {
   "type": "Feature",
-  "id": "node/12749925868",
+  "id": "node/12749901954",
   "properties": {
+    "access": "yes",
     "access:conditional": "yes @ opening_hours",
-    "defibrillator:location": "Im Rundgangstollen, beim Brandschutztor, Verzweigung Aletschstollen.",
+    "defibrillator:location": "Im oberen Stock zwischen Lifthalle Sphinx und Terasse.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "operator": "Junfraubahnen",
-    "id": "node/12749925868"
+    "opening_hours": "Während Betreibszeiten.",
+    "operator": "Jungfraubahnen",
+    "phone": "033 828 79 36",
+    "id": "node/12749901954"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.9854983,
-      46.5475931
+      7.9851957,
+      46.5474776
     ]
   }
 },

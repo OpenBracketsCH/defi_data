@@ -5688,14 +5688,16 @@
   "type": "Feature",
   "id": "node/6565703793",
   "properties": {
+    "access": "yes",
     "access:conditional": "yes @ opening_hours",
     "addr:city": "Eismeer",
     "addr:street": "Station",
     "defibrillator:location": "Station Eismeer an der Wand beim Gleis.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "Zeitweise öffentlich",
+    "opening_hours": "zu Betriebszeiten.",
     "operator": "Jungfraubahn",
+    "phone": "033 828 79 36",
     "id": "node/6565703793"
   },
   "geometry": {
@@ -6050,28 +6052,6 @@
     "coordinates": [
       7.9210507,
       46.6050406
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/6565869511",
-  "properties": {
-    "access": "permissive",
-    "addr:city": "Kleine Scheidegg",
-    "addr:street": "Station",
-    "defibrillator:location": "Bahnhof, Gepäckraum zeitweise öffentlich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "operator": "Wengernalpbahn",
-    "phone": "+41 33 828 76 23",
-    "id": "node/6565869511"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.9601341,
-      46.5848064
     ]
   }
 },
@@ -35444,7 +35424,7 @@
     "emergency:phone": "144",
     "opening_hours": "24/7",
     "operator": "Wengener Alpbahn.",
-    "phone": "+41 33 828 76 23",
+    "phone": "+41 33 828 79 36",
     "id": "node/9367107203"
   },
   "geometry": {
@@ -35479,11 +35459,14 @@
   "type": "Feature",
   "id": "node/9367107205",
   "properties": {
+    "access": "yes",
     "access:conditional": "yes @ opening_hours",
     "defibrillator:location": "Station Eigerwand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "opening_hours": "Zu Betreibszeiten.",
     "operator": "Jungfraubahn",
+    "phone": "033 828 79 36",
     "id": "node/9367107205"
   },
   "geometry": {
@@ -35508,7 +35491,7 @@
     "emergency:phone": "144",
     "opening_hours": "24/7",
     "operator": "Wengernalpbahn AG",
-    "phone": "033 828 75 23",
+    "phone": "033 828 79 36",
     "id": "node/9367107206"
   },
   "geometry": {
@@ -35525,12 +35508,12 @@
   "properties": {
     "access": "yes",
     "addr:place": "Brandegg",
-    "defibrillator:location": "Herren WC, 24h zugänglich",
+    "defibrillator:location": "Herren WC",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "Während den Betriebszeiten zugänglich.",
     "operator": "Wengernalpbahn AG",
-    "phone": "+41 33 828 75 23",
+    "phone": "+41 33 828 79 36",
     "id": "node/9367107207"
   },
   "geometry": {
@@ -38627,7 +38610,7 @@
     "defibrillator:location": "Zwischen Bistro und Hauptausgang zur Skipiste/Wanderwege. An der Wand neben dem Sanitätszimmer.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "Mo-Su 08:00-17:00",
+    "opening_hours": "Zu Betriebszeiten.",
     "operator": "Bergstation EigerExpress Eigergletscher",
     "phone": "+41 33 828 7936",
     "id": "node/9406921984"
@@ -38635,8 +38618,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.9748038,
-      46.575028
+      7.974694,
+      46.5750112
     ]
   }
 },
@@ -58895,20 +58878,23 @@
 },
 {
   "type": "Feature",
-  "id": "node/12749901954",
+  "id": "node/12749925868",
   "properties": {
+    "access": "yes",
     "access:conditional": "yes @ opening_hours",
-    "defibrillator:location": "Im oberen Stock zwischen Lifthalle Sphinx und Terasse.",
+    "defibrillator:location": "Im Rundgangstollen, beim Brandschutztor, Verzweigung Aletschstollen.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "operator": "Jungfraubahnen",
-    "id": "node/12749901954"
+    "opening_hours": "Während Betreibszeiten",
+    "operator": "Junfraubahnen",
+    "phone": "033 828 79 36",
+    "id": "node/12749925868"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.9854152,
-      46.5476494
+      7.9849619,
+      46.547571
     ]
   }
 },
