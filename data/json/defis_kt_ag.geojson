@@ -129,22 +129,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/4460208251",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/4460208251"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.2918887,
-      47.4427792
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/4553822516",
   "properties": {
     "emergency": "defibrillator",
@@ -8513,26 +8497,6 @@
     "coordinates": [
       8.2893404,
       47.438733
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9107119149",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Alterszentrum Buechberg Empfangshalle",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "id": "node/9107119149"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.2919566,
-      47.4426915
     ]
   }
 },
@@ -28707,6 +28671,29 @@
     "coordinates": [
       7.8517002,
       47.5740504
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12995487601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gewerbehaus Q37",
+    "description": "Draussen neben Briefkasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Genossenschaft Gewerbehaus Q37",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12995487601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7861194,
+      47.549703
     ]
   }
 }
