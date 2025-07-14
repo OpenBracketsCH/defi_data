@@ -21521,31 +21521,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7553536236",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Mühleberg",
-    "addr:housenumber": "28",
-    "addr:postcode": "3203",
-    "addr:street": "Murtenstrasse",
-    "defibrillator:location": "Im Vorraum der Bank",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Valiant Bank Dorfzentrum",
-    "phone": "+41 31 751 10 01",
-    "id": "node/7553536236"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.2587472,
-      46.952572
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7553536237",
   "properties": {
     "access": "yes",
@@ -136720,6 +136695,31 @@
     "coordinates": [
       9.1516395,
       47.564605
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12998845801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindeverwaltung Mühleberg, Kirchweg 4, 3203 Mühleberg",
+    "description": "An der Aussenfassade beim Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Mühleberg",
+    "phone": "+41 31 754 14 14",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12998845801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2607183,
+      46.9527669
     ]
   }
 }

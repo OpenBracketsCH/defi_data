@@ -6318,18 +6318,21 @@
   "type": "Feature",
   "id": "node/7637818679",
   "properties": {
-    "description": "Rezeption Haupteingang / Foyer 1 Stock Murmattweg 8",
+    "access": "permissive",
+    "defibrillator:location": "Armee-Ausbildungszentrum Luzern, Meilibau",
+    "description": "Haupteingang an der Rezeption, Murmattweg 6",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "AAL",
+    "operator": "Dienststelle Militär, Zivilschutz und Justizvollzug",
     "id": "node/7637818679"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3001543,
-      47.0352992
+      8.3002218,
+      47.0351117
     ]
   }
 },
@@ -22411,6 +22414,31 @@
     "coordinates": [
       8.266831,
       47.0486482
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12998848402",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gebäude IG Arbeit - Eingang EG",
+    "description": "während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-FR 8:00 -17:00",
+    "operator": "IG Arbeit",
+    "phone": "+41413696868",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12998848402"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3135712,
+      47.0426168
     ]
   }
 }

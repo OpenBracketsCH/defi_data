@@ -15409,23 +15409,22 @@
   "type": "Feature",
   "id": "node/6637423597",
   "properties": {
-    "access": "permissive",
     "addr:city": "Gümmenen",
-    "addr:housenumber": "30",
+    "addr:housenumber": "32",
     "addr:postcode": "3205",
     "addr:street": "Buchstrasse",
-    "defibrillator:location": "Während den Öffnungszeiten der Schule",
+    "defibrillator:location": "Tagesschule Mühleberg, Buchstrasse 32, 3205 Gümmenen (an der Aussenfassade 24/7 zugänglich)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "operator": "Oberstufenzentrum Allenlüften",
-    "phone": "+41 79 794 29 45",
+    "operator": "Gemeinde Mühleberg",
+    "phone": "+41 32 754 14 14",
     "id": "node/6637423597"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.2694633,
-      46.9473853
+      7.2704104,
+      46.9473216
     ]
   }
 },
@@ -28143,31 +28142,6 @@
     "coordinates": [
       7.7652416,
       47.1500732
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7553536236",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Mühleberg",
-    "addr:housenumber": "28",
-    "addr:postcode": "3203",
-    "addr:street": "Murtenstrasse",
-    "defibrillator:location": "Im Vorraum der Bank",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Valiant Bank Dorfzentrum",
-    "phone": "+41 31 751 10 01",
-    "id": "node/7553536236"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.2587472,
-      46.952572
     ]
   }
 },
@@ -60029,6 +60003,31 @@
     "coordinates": [
       7.4737062,
       46.9573142
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12998845801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindeverwaltung Mühleberg, Kirchweg 4, 3203 Mühleberg",
+    "description": "An der Aussenfassade beim Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Mühleberg",
+    "phone": "+41 31 754 14 14",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12998845801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2607183,
+      46.9527669
     ]
   }
 }
