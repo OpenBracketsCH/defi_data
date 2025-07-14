@@ -22139,41 +22139,24 @@
 },
 {
   "type": "Feature",
-  "id": "node/12969323701",
-  "properties": {
-    "defibrillator:location": "AAL Restaurant/Mensa",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/12969323701"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.2984275,
-      47.034767
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12970005704",
   "properties": {
     "access": "permissive",
-    "defibrillator:location": "AAL Murmatt Restaurant",
-    "description": "Beim Eingang links, nach den ersten automatischen Türen\n(during military courses the doors open automatically until at least after 18:00)",
+    "defibrillator:location": "Armee-Ausbildungszentrum Luzern - Enzmannbau",
+    "description": "Im ersten Obergeschoss (Niveau 2), im Foyer links neben dem Lift.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "0",
-    "opening_hours": "Mo-Fr 07:15-16:30",
+    "level": "2",
+    "opening_hours": "Mo-Fr 07:15-17.45",
+    "operator": "Dienststelle Militär, Zivilschutz und Justitzvollzug",
     "id": "node/12970005704"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2984318,
-      47.0347364
+      8.2984764,
+      47.0348111
     ]
   }
 },
