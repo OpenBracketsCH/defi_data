@@ -6028,30 +6028,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6565869510",
-  "properties": {
-    "access": "permissive",
-    "addr:city": "Wengen",
-    "addr:housenumber": "1348a",
-    "addr:postcode": "3823",
-    "addr:street": "Wengiboden",
-    "defibrillator:location": "Bahnhof je 1 Gerät Hinter Büro Reisezentrum und Zugang zur Gepäckausgabe",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "operator": "Wengernalpbahn",
-    "phone": "+41 33 828 70 50",
-    "id": "node/6565869510"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.9210507,
-      46.6050406
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6565869513",
   "properties": {
     "access": "permissive",
@@ -35367,11 +35343,12 @@
   "properties": {
     "access": "yes",
     "addr:place": "Station Wengernalp",
-    "defibrillator:location": "Wartsaal",
+    "defibrillator:location": "Am Bahnhofgebäude auf Gleis 1",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
     "operator": "Wengernalpbahn",
+    "phone": "033 828 79 36",
     "id": "node/9367107202"
   },
   "geometry": {
@@ -38993,28 +38970,6 @@
     "coordinates": [
       8.023495,
       46.6224936
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9529320126",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "direkt bei der Hauswand beim Perron 1",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Jungfraubahnen Management AG Interlaken",
-    "phone": "+41 33 828 71 11",
-    "id": "node/9529320126"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.9211272,
-      46.6049978
     ]
   }
 },
@@ -43129,20 +43084,20 @@
     "addr:city": "Wengen",
     "addr:postcode": "3823",
     "addr:street": "Bahnhof",
-    "defibrillator:location": "AED befindet sich beim Gleis 1 Kopfseitig",
+    "defibrillator:location": "AED befindet sich am Bahnhofgebäude beim Gleis 1.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "WAB Bahnhof Wengen",
-    "phone": "+41 33 828 70 50",
+    "operator": "Wengeneralpbahn Bahnhof Wengen",
+    "phone": "+41 33 828 79 36",
     "id": "node/10537777078"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.920788,
-      46.6051218
+      7.9207276,
+      46.6050891
     ]
   }
 },
@@ -58426,11 +58381,13 @@
   "type": "Feature",
   "id": "node/12669788501",
   "properties": {
-    "defibrillator:location": "Station",
+    "defibrillator:location": "Am Bahnhofgebäude auf Gleis 1",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Wengeneralpbahn",
+    "phone": "033 828 79 36",
     "id": "node/12669788501"
   },
   "geometry": {
