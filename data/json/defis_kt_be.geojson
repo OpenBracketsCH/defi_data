@@ -6403,7 +6403,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
-    "operator": "Lindner Grand Hotel Beau Rivage",
+    "operator": "Grand Beau-Rivage",
     "phone": "+41 33 826 70 07",
     "id": "node/6565920758"
   },
@@ -60036,6 +60036,29 @@
     "coordinates": [
       7.4160019,
       46.9225528
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13017539701",
+  "properties": {
+    "defibrillator:location": "Energie Thun AG, Aarewerke",
+    "description": "Während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "Mo-Fr 07:00-16:00",
+    "operator": "Energie Thun AG",
+    "phone": "+41 33 225 22 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/13017539701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.621275,
+      46.7613526
     ]
   }
 }
