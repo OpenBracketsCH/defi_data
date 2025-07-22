@@ -16074,29 +16074,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6976938403",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Reformierte Kirche",
-    "description": "Aussen an Kirche",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Reformierte Kirche",
-    "opening_hours": "24/7",
-    "operator": "Rettungsdienst Küssnacht",
-    "phone": "+41 79 101 93 00",
-    "id": "node/6976938403"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4435172,
-      47.0812345
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6976938404",
   "properties": {
     "access": "yes",
@@ -16371,27 +16348,6 @@
     "coordinates": [
       8.7488363,
       47.1882653
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/6976938417",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Dorfladen, Poststelle",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Rettungsdienst Küssnacht",
-    "phone": "+41 79 101 93 00",
-    "id": "node/6976938417"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4081881,
-      47.0658349
     ]
   }
 },
@@ -26995,26 +26951,6 @@
     "coordinates": [
       8.4393577,
       47.080912
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7637818884",
-  "properties": {
-    "access": "yes",
-    "description": "li. nach dem Eingang",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Strandbad Seeburg",
-    "opening_hours": "24/7",
-    "id": "node/7637818884"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4345971,
-      47.0734689
     ]
   }
 },
@@ -137006,6 +136942,29 @@
     "coordinates": [
       9.3954617,
       47.4607899
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13017367502",
+  "properties": {
+    "defibrillator:location": "Schulhaus Merlischachen",
+    "description": "Aussenwand auf Seite Luzernerstrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Rettungsdienst, Bezirk Küssnacht",
+    "phone": "+41 79 101 93 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/13017367502"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4085321,
+      47.0656458
     ]
   }
 }

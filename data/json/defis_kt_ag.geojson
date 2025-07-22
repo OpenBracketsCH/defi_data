@@ -28703,6 +28703,55 @@
       47.549703
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/13017428901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "PFIFFNER Bürogebäude",
+    "description": "während den Büroööfnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo - Fr 07:00 - 17:00",
+    "operator": "PFIFFNER MEsswandler AG",
+    "phone": "+41627392828",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/13017428901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0513206,
+      47.3201379
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13017437601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "beim Haupteingang",
+    "description": "während den Büroöffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "Mo - Fr 07:00 - 17:00",
+    "operator": "PFIFFNER Messwandler AG",
+    "phone": "+41627392828",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/13017437601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.048864,
+      47.3200345
+    ]
+  }
 }
 ]
 }
