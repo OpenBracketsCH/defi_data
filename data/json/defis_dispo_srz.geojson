@@ -30562,27 +30562,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8979969617",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "beim Eingang Restaurant Alpenhof",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Restaurant Alpenhof",
-    "id": "node/8979969617"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4475368,
-      47.0762392
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8988104917",
   "properties": {
     "access": "yes",
@@ -78792,9 +78771,12 @@
   "type": "Feature",
   "id": "node/12101247770",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Eingang rechts",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/12101247770"
   },
   "geometry": {
