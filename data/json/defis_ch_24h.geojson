@@ -135714,6 +135714,7 @@
   "id": "node/12952291701",
   "properties": {
     "access": "yes",
+    "check_date": "2025-07-24",
     "defibrillator:location": "altes WC Häuschen",
     "description": "an der Aussenwand seeseitig",
     "emergency": "defibrillator",
@@ -137017,6 +137018,30 @@
     "coordinates": [
       9.8139563,
       46.7844292
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13020995501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "D4 Business Village neben Empfang Platz 4",
+    "description": "öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "D4 Business Village",
+    "phone": "+41 41 455 20 20",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/13020995501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3746773,
+      47.1036196
     ]
   }
 }
