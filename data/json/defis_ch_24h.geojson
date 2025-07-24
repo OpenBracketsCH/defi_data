@@ -75980,27 +75980,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9894608117",
-  "properties": {
-    "defibrillator:location": "Parkhaus Post",
-    "description": "Oberhalb der Post Basel 2, Treppe hoch rechte Seite an der Loge melden",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Post CH AG",
-    "id": "node/9894608117"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5933461,
-      47.5463504
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9895068617",
   "properties": {
     "access": "yes",
@@ -137042,6 +137021,24 @@
     "coordinates": [
       8.3746773,
       47.1036196
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13021242986",
+  "properties": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/13021242986"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3584164,
+      46.2289769
     ]
   }
 }
