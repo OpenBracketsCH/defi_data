@@ -15367,7 +15367,7 @@
     "addr:housenumber": "14a",
     "addr:postcode": "3205",
     "addr:street": "Dorfstrasse",
-    "defibrillator:location": "AED ist auf Tanklöschfahrzeug TLF",
+    "defibrillator:location": "Defibrillator befindet sich an der Aussenfassade des Magazins.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
@@ -15387,6 +15387,7 @@
   "type": "Feature",
   "id": "node/6637423597",
   "properties": {
+    "access": "yes",
     "addr:city": "Gümmenen",
     "addr:housenumber": "32",
     "addr:postcode": "3205",
@@ -15394,6 +15395,7 @@
     "defibrillator:location": "Tagesschule Mühleberg, Buchstrasse 32, 3205 Gümmenen (an der Aussenfassade 24/7 zugänglich)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Mühleberg",
     "phone": "+41 32 754 14 14",
     "id": "node/6637423597"
@@ -27079,9 +27081,10 @@
     "addr:housenumber": "26",
     "addr:postcode": "3203",
     "addr:street": "Steinrieselstrasse",
-    "defibrillator:location": "rechts neben Einstellhallentor",
+    "defibrillator:location": "Der Defibrillator ist beim Eingang der Einstellhalle (Steinrieselstrasse 38, 3203 Mühleberg)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "BKW Siedlung Steinriesel",
     "phone": "+41 31 751 17 02",
@@ -27090,8 +27093,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.2583226,
-      46.9565373
+      7.2593757,
+      46.9563793
     ]
   }
 },
