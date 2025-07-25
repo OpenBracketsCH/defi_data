@@ -28821,8 +28821,8 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-18:00",
-    "operator": "Kath. Kirchgemeinde Uster/Pfarrei Greifensee, Kontaktperson: Monika Streuli (Hauswartin)",
+    "opening_hours": "Mo-Sa 08:00-18:00, So 08:00-17:00",
+    "operator": "Kath. Kirchgemeinde Uster/Pfarrei Greifensee, Kontaktperson: Antonella Morgante (Hauswartin)",
     "phone": "+41 75 422 94 33",
     "id": "node/9807826842"
   },
@@ -72042,6 +72042,29 @@
     "coordinates": [
       8.5312729,
       47.3403913
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13023028499",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Föhrlibuckstrasse 10 beim Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadt Wallisellen, Föhrlibuckstrasse",
+    "phone": "+41 44 830 22 79",
+    "id": "node/13023028499"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6025214,
+      47.4089647
     ]
   }
 }
