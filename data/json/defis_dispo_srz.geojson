@@ -63050,8 +63050,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7725147,
-      47.5041875
+      8.7725226,
+      47.5041676
     ]
   }
 },
@@ -71912,13 +71912,13 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Beim Bankomat Raiffeisenbank Neuheim Poststrasse 4, 6345 Neuheim",
-    "description": "24 Stunden ",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
+    "opening_hours": "05:00-24:00; PH 05:00-24:00",
     "operator": "Raiffeisenbank Menzingen-Neuheim",
-    "phone": "+41 79 603 93 59  ",
+    "phone": "+41 79 603 93 59",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/11802150369"
   },
@@ -92641,6 +92641,36 @@
     "coordinates": [
       8.5241178,
       47.1859091
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13033531286",
+  "properties": {
+    "access": "yes",
+    "addr:country": "Winterthur",
+    "addr:postcode": "8409",
+    "addr:street": "Hintermühlenstrasse",
+    "addr:streetnumber": "4",
+    "defibrillator:location": "Eingang Center Links unter Treppe",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "name": "Neuhegi Center",
+    "opening_hours": "Mo-Fr 08:00-20:00 Sa 08:00-19:00",
+    "operator": "Lifetec AG",
+    "phone": "+41800122144",
+    "ref": "1582LTM",
+    "id": "node/13033531286"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7724924,
+      47.5042591
     ]
   }
 }
