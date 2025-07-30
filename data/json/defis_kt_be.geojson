@@ -6034,12 +6034,13 @@
     "addr:city": "Lauterbrunnen",
     "addr:postcode": "3822",
     "addr:street": "Grütschalp",
+    "defibrillator:location": "Im Durchgang von der Gondel zum Zug am Kassengebäude.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "24/7",
-    "operator": "Jungfraubahn AG",
-    "phone": "+41 33 828 72 33",
+    "operator": "Bahn Lauterbrunnen Mürren",
+    "phone": "+41 33 828 79 36",
     "id": "node/6565869516"
   },
   "geometry": {
@@ -30155,18 +30156,20 @@
     "addr:city": "Mürren",
     "addr:postcode": "3825",
     "addr:street": "Ägerten",
+    "defibrillator:location": "Im Treppenaufgang vom Perron zum Ausgang hoch.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "24/7",
-    "operator": "Jungfraubahn AG",
-    "phone": "+41 33 828 72 33",
+    "operator": "Bergbahn Laauterbrunnen Mürren.",
+    "phone": "+41 33 828 79 36",
     "id": "node/8154591444"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.8969961,
-      46.5639111
+      7.8971128,
+      46.5639143
     ]
   }
 },
@@ -54030,12 +54033,13 @@
   "id": "node/12114502001",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bahnhof Winteregg Gleis 2 ",
+    "defibrillator:location": "Bahnhof Winteregg Gleis 2, an der Wand vor dem Lift.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Bergbahn Lauterbrunnen Mürren ",
+    "operator": "Bergbahn Lauterbrunnen Mürren",
+    "phone": "033 828 79 36",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/12114502001"
   },
