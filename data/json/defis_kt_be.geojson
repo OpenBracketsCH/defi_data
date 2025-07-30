@@ -6028,30 +6028,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6565869513",
-  "properties": {
-    "access": "permissive",
-    "addr:city": "Lauterbrunnen",
-    "addr:housenumber": "469c",
-    "addr:postcode": "3822",
-    "addr:street": "Station",
-    "defibrillator:location": "In der Werkstätte der Bahn - Zugang über Perron während Betriebszeiten",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "05:30 - 22:00",
-    "operator": "Wengernalpbahn",
-    "id": "node/6565869513"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.908026,
-      46.5988612
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6565869516",
   "properties": {
     "access": "yes",
@@ -35355,6 +35331,7 @@
     "defibrillator:location": "Am Bahnhofgebäude auf Gleis 1",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Wengernalpbahn",
     "phone": "033 828 79 36",
@@ -39418,20 +39395,20 @@
   "id": "node/9649244449",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Direkt beim Schalter Eingang, Gleis 1 Perronseitig - nähe Ticketautomat",
+    "defibrillator:location": "Gleis 1 perronseitig - zwischen Schliessfächer und Ticketautomat",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Jungfraubahnnen Management AG",
-    "phone": "+41 33 828 70 38",
+    "phone": "+41 33 828 79 36",
     "id": "node/9649244449"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.9077691,
-      46.5984137
+      7.9077938,
+      46.5984416
     ]
   }
 },
