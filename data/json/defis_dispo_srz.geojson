@@ -19627,13 +19627,14 @@
   "type": "Feature",
   "id": "node/8502429617",
   "properties": {
-    "defibrillator:location": "Feuerwehrdepot",
-    "description": "während Besetzung Zugang möglich",
+    "access": "yes",
+    "defibrillator:location": "vor dem Feuerwehrdepot",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 07:30-17:00",
-    "operator": "Feuerwehr",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Bevölkerungsschutz Dübendorf - Wangen-Brüttisellen",
     "phone": "+41448018300",
     "id": "node/8502429617"
   },
@@ -34988,6 +34989,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Schulgemeinde Hittnau HW 043 288 67 88",
     "id": "node/9426217917"
   },
