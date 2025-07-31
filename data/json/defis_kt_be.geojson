@@ -60148,6 +60148,93 @@
       46.9255792
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/13039186002",
+  "properties": {
+    "defibrillator:location": "TopPharm SchlossApotheke",
+    "description": "Während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "Mo-Fr 08:00 - 12:00, 13:30 - 18:30",
+    "operator": "TopPharm SchlossApotheke",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/13039186002"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2396952,
+      46.9027569
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13039191901",
+  "properties": {
+    "defibrillator:location": "Regio Badi Sense",
+    "description": "Während Öffnungszeiten in der Badesaison verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "Mo-Fr 09:00 - 19:00",
+    "operator": "Regio Badi Sense",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/13039191901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2323298,
+      46.9032774
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13039197101",
+  "properties": {
+    "defibrillator:location": "Empfangshalle Valiant Bank",
+    "description": "Auf der rechten Seite der Empfangshalle an der Wand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Valiant Bank",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/13039197101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2380859,
+      46.9039408
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13039199101",
+  "properties": {
+    "defibrillator:location": "Kleine und Grosse Turnhalle",
+    "description": "Nur zu Schulzeiten erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Laupen",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/13039199101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.241385,
+      46.9077047
+    ]
+  }
 }
 ]
 }
