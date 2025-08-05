@@ -1133,6 +1133,7 @@
     "description": "Ankenwaage, Parterre, vor Lift bei Stempeluhr",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "id": "node/7637819160"
   },
   "geometry": {
@@ -1206,9 +1207,11 @@
   "type": "Feature",
   "id": "node/7637819164",
   "properties": {
+    "defibrillator:location": "Eingangshalle, links, ca. 10 m",
     "description": "Schalter u. Kasse",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Theater Tellspielhaus",
     "id": "node/7637819164"
   },
