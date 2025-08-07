@@ -14060,27 +14060,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8062414469",
-  "properties": {
-    "access": "permissive",
-    "defibrillator:location": "Komplizierte Zugänglichkeit. In Küche des Betreibungsamts, Zugang nur in Absprache und begleitet möglich.",
-    "description": "Zugänglich während Öffnungszeiten des Betreibungsamtes.",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "Mo-Th 08:00-11:30,14:00-16:30; Fr 07:00-13:00",
-    "phone": "+41 44 701 95 45",
-    "id": "node/8062414469"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4664764,
-      47.3150834
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8070967074",
   "properties": {
     "access": "yes",
@@ -92811,6 +92790,27 @@
     "coordinates": [
       8.6860715,
       47.4066868
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13056078900",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Komplizierte Zugänglichkeit. In Küche des Betreibungsamts, Zugang nur in Absprache und begleitet möglich.",
+    "description": "Zugänglich während Öffnungszeiten des Betreibungsamtes.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "Mo-Th 08:00-11:30,14:00-16:30; Fr 07:00-13:00",
+    "phone": "+41 44 701 95 45",
+    "id": "node/13056078900"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4680878,
+      47.3228911
     ]
   }
 }
