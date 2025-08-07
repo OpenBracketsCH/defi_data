@@ -2621,9 +2621,8 @@
   "type": "Feature",
   "id": "node/8775887217",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Strassenverkehrsamt Amriswil",
-    "description": "während der Öffnungszeiten verfügbar / Eingang, gerade aus im grossen Schrank, kniehöhe ",
+    "defibrillator:location": "Eingang Strassenverkehrsamt Amriswil, Geradeaus im grossen Schrank, auf Kniehöhe",
+    "description": "während der Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -5406,6 +5405,26 @@
     "coordinates": [
       8.9947987,
       47.5989135
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9895343817",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Waschhaus Wilen",
+    "description": "Öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/9895343817"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7965687,
+      47.6025528
     ]
   }
 },
