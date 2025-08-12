@@ -22829,18 +22829,21 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Schulhaus Altenrhein, Eingang",
+    "description": "Steht das ganze Jahr zur Verfügung",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
-    "operator": "Gemeinde",
+    "operator": "Gemeinde Thal",
+    "phone": "+41718861030",
+    "source": "local_knowledge, defikarte.ch",
     "id": "node/11632504769"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5553638,
-      47.4904217
+      9.5557719,
+      47.4904999
     ]
   }
 },
@@ -25114,30 +25117,6 @@
     "coordinates": [
       9.5380157,
       47.4789319
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12284944704",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Dorfstrasse 27, 9423 Altenrhein ",
-    "description": "Steht das ganze Jahr zur Verfügung ",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "operator": "Gemeinde Thal",
-    "phone": "+41718861030",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/12284944704"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.5557719,
-      47.4904999
     ]
   }
 },
