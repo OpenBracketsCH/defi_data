@@ -57092,6 +57092,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/9028509003",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "beim Haupteingang Gemeindehaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Energia Alpina",
+    "id": "node/9028509003"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7735918,
+      46.6792982
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9033435017",
   "properties": {
     "access": "yes",
@@ -140597,6 +140618,30 @@
     "coordinates": [
       7.2328126,
       46.1449761
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13070244401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raiffeisenbank Wald - Schönengrund",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Raiffeisenbank Wald - Schönengrund",
+    "phone": "+41719827781",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/13070244401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2259246,
+      47.3289157
     ]
   }
 }
