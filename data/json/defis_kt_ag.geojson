@@ -28962,6 +28962,54 @@
       47.4842342
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/13077942601",
+  "properties": {
+    "defibrillator:location": "Velopa AG Büro 3EG",
+    "description": "Während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Velopa AG",
+    "phone": "+41 56 417 94 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/13077942601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3702273,
+      47.429016
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13077944301",
+  "properties": {
+    "defibrillator:location": "Velopa AG Werkstatt EG",
+    "description": "Während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-16:00",
+    "operator": "Velopa AG",
+    "phone": "+41 56 417 94 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/13077944301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3704024,
+      47.4289696
+    ]
+  }
 }
 ]
 }
