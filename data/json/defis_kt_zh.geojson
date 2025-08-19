@@ -66681,8 +66681,7 @@
   "id": "node/12554103003",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Eingang Rosengartensaal ref. Kirchgemeindehaus Richterswil",
-    "description": "Neben dem Eingang links",
+    "defibrillator:location": "Reformiertes Kirchgemeindehaus Rosengarten\nEingang zum Saal / Neben dem Eingang links an Aussenwand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -66695,8 +66694,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7034709,
-      47.2095619
+      8.7033338,
+      47.2095926
     ]
   }
 },
@@ -72230,6 +72229,27 @@
     "coordinates": [
       8.7574714,
       47.3073174
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13081246897",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Reformierte Kirche\nHaupteingang / im Innenraum links",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 08:00-17:00",
+    "operator": "Ref. Kirche Richterswil",
+    "id": "node/13081246897"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7010459,
+      47.2081481
     ]
   }
 }
