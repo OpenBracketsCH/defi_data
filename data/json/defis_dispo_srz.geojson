@@ -92671,7 +92671,7 @@
   "id": "node/13056078900",
   "properties": {
     "access": "permissive",
-    "defibrillator:location": "Komplizierte Zugänglichkeit. Im Gemeindeammann- und Betreibungsamt. Zugang nur in Absprache und begleitet möglich.",
+    "defibrillator:location": "Komplizierte Zugänglichkeit. 1. Stock, im Gemeindeammann- und Betreibungsamt. Zugang nur in Absprache und begleitet möglich.",
     "description": "Zugänglich während Öffnungszeiten des Betreibungsamtes.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -92682,8 +92682,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4681762,
-      47.3229111
+      8.4683045,
+      47.3228614
     ]
   }
 },
@@ -92824,6 +92824,27 @@
     "coordinates": [
       8.7537322,
       47.3899826
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13085041101",
+  "properties": {
+    "defibrillator:location": "Schützenhaus Volketswil",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Schützenverein Volketswil",
+    "id": "node/13085041101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6738132,
+      47.3959258
     ]
   }
 }
