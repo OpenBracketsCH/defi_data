@@ -51223,56 +51223,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8840727618",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Weiningen",
-    "addr:housenumber": "4",
-    "addr:postcode": "8104",
-    "addr:street": "Regensdorferstrasse",
-    "defibrillator:location": "In alter Telefonkabine links vom Eingang",
-    "description": "Grüner Kasten",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Lifetec AG",
-    "ref": "0018LTC",
-    "id": "node/8840727618"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4349589,
-      47.4201244
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8840798117",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Steueramt Weiningen (ehemalige Post)",
-    "description": "links vom Eingang in alter Telefonkabine",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde",
-    "id": "node/8840798117"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.43498,
-      47.4201352
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8840851118",
   "properties": {
     "access": "yes",
@@ -137822,6 +137772,34 @@
     "coordinates": [
       7.0157381,
       46.7855104
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13084053709",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Weiningen",
+    "addr:housenumber": "10",
+    "addr:postcode": "8104",
+    "addr:street": "Schlüechtistrasse",
+    "defibrillator:location": "Schulhaus Schlüechti Eingang",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "level": "0",
+    "name": "Schulhaus Schlüechti",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "ref": "0018LTC Outdoor",
+    "id": "node/13084053709"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4337328,
+      47.4179354
     ]
   }
 }
