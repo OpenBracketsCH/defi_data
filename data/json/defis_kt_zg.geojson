@@ -4346,8 +4346,18 @@
   "type": "Feature",
   "id": "node/9007872019",
   "properties": {
+    "access": "yes",
+    "addr:city": "Zug",
+    "defibrillator:location": "Schulhaus BPS Eingang",
+    "description": "Grüner Kasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "level": "0",
+    "name": "Institut Montana",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1595LTS",
     "id": "node/9007872019"
   },
   "geometry": {
@@ -5578,13 +5588,17 @@
   "id": "node/10262985509",
   "properties": {
     "access": "yes",
+    "addr:city": "Zug",
     "defibrillator:location": "Unter der Passerelle grüne Box",
     "description": "Grüne Box aussen am Haus gut ersichtlich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "operator": "Institut Montana Zugerberg AG",
-    "phone": "041 729 11 67",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1597LTS",
     "id": "node/10262985509"
   },
   "geometry": {
@@ -5600,14 +5614,16 @@
   "id": "node/10262989309",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schulhaus Felsenegg",
-    "description": "im Eingangsbereich ein gelber Koffer",
+    "addr:city": "Zug",
+    "defibrillator:location": "Schulhaus Felsenegg Rechter Eingangsbereich ein Grüner Kasten",
+    "description": "Grüner Kasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "operator": "Institut Montana Zugerberg AG",
+    "operator": "Lifetec AG",
     "phone": "041 729 11 67",
+    "ref": "1594LTS",
     "id": "node/10262989309"
   },
   "geometry": {
@@ -8891,6 +8907,32 @@
     "coordinates": [
       8.5241178,
       47.1859091
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13086811535",
+  "properties": {
+    "access": "yes",
+    "addr:city": "ZUG",
+    "defibrillator:location": "Links vom Chalet Suisse",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "level": "0",
+    "name": "Institut Montana",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1596LTS",
+    "id": "node/13086811535"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5333184,
+      47.1437438
     ]
   }
 }

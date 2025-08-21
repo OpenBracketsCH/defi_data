@@ -55825,6 +55825,32 @@
 },
 {
   "type": "Feature",
+  "id": "node/9007872019",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Zug",
+    "defibrillator:location": "Schulhaus BPS Eingang",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "level": "0",
+    "name": "Institut Montana",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1595LTS",
+    "id": "node/9007872019"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5351923,
+      47.144806
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9008238117",
   "properties": {
     "access": "yes",
@@ -82770,6 +82796,32 @@
     "coordinates": [
       7.5869876,
       47.473718
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10262985509",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Zug",
+    "defibrillator:location": "Unter der Passerelle grüne Box",
+    "description": "Grüne Box aussen am Haus gut ersichtlich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1597LTS",
+    "id": "node/10262985509"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5339791,
+      47.1442906
     ]
   }
 },
@@ -137939,6 +137991,55 @@
     "coordinates": [
       8.3361447,
       47.0109682
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13086811535",
+  "properties": {
+    "access": "yes",
+    "addr:city": "ZUG",
+    "defibrillator:location": "Links vom Chalet Suisse",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "level": "0",
+    "name": "Institut Montana",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1596LTS",
+    "id": "node/13086811535"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5333184,
+      47.1437438
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13086818501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "mines de sel bex",
+    "description": "outside main building",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "mines de sel bex",
+    "id": "node/13086818501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0263531,
+      46.2778207
     ]
   }
 }
