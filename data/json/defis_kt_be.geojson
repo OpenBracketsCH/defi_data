@@ -6952,30 +6952,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6566220007",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Wilderswil",
-    "addr:housenumber": "2",
-    "addr:postcode": "3812",
-    "addr:street": "Alte Staatsstrasse",
-    "defibrillator:location": "Rechts an Wand neben Eingang zum Schalter.",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "operator": "Berner Oberland-Bahn",
-    "phone": "+41 33 828 79 36",
-    "id": "node/6566220007"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.8698394,
-      46.66626
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6566220009",
   "properties": {
     "access": "permissive",
@@ -35349,12 +35325,15 @@
   "type": "Feature",
   "id": "node/9367107204",
   "properties": {
+    "access": "yes",
     "access:conditional": "yes @ opening_hours",
     "addr:street": "Station Eigergletscher",
     "defibrillator:location": "Im Bahnhof Gleis 1",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "opening_hours": "Während den Betriebszeiten.",
     "operator": "Jungfraubahn",
+    "phone": "0338287936",
     "id": "node/9367107204"
   },
   "geometry": {
@@ -35418,10 +35397,10 @@
   "properties": {
     "access": "yes",
     "addr:place": "Brandegg",
-    "defibrillator:location": "Herren WC",
+    "defibrillator:location": "Im Unterstand vor den WC Anlagen.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "Während den Betriebszeiten zugänglich.",
+    "opening_hours": "24/7",
     "operator": "Wengernalpbahn AG",
     "phone": "+41 33 828 79 36",
     "id": "node/9367107207"
