@@ -22658,6 +22658,68 @@
       47.0109682
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/13098365802",
+  "properties": {
+    "defibrillator:location": "Bärgmättli 1, 6215 Beromünster",
+    "description": "(bedingt zugänglich am Empfang)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/13098365802"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1937569,
+      47.2079369
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13098387301",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Aargauerstrasse 16",
+    "description": "während den Ladenöffnungszeiten zugänglich (Mo-Do 7-19h, Fr 7-20h, Sa 7-17h)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/13098387301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1916487,
+      47.2096679
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13098417501",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Feuerwehrmagazin Linden, 6222 Gunzwil",
+    "description": "nicht öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/13098417501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1819874,
+      47.2082649
+    ]
+  }
 }
 ]
 }
