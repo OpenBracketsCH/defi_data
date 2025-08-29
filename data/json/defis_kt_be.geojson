@@ -53773,7 +53773,7 @@
   "id": "node/12093573901",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Talstation Gondelbahn Kandersteg Oeschinensee AG im Eingang ",
+    "defibrillator:location": "Talstation Kandersteg-Oeschinensee, im Eingang",
     "description": "immer Verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -53797,22 +53797,24 @@
   "id": "node/12093575401",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bergstation Gondelbahn Kandersteg Oeschinensee AG Beim Ausgang ",
+    "defibrillator:location": "Bergstation Kandersteg-Oeschinensee, beim Ausgang",
     "description": "immer Verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "yes",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gondelbahn Kandersteg Oeschinensee AG",
-    "phone": "+41336751118",
+    "phone": "+41 33 675 11 18",
     "source": "local_knowledge, defikarte.ch",
+    "wheelchair": "limited",
     "id": "node/12093575401"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6971459,
-      46.5020775
+      7.6970312,
+      46.5020747
     ]
   }
 },

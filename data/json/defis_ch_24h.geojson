@@ -106500,19 +106500,20 @@
   "type": "Feature",
   "id": "node/11474731369",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Haupteingang zu Coop",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
+    "wheelchair": "limited",
     "id": "node/11474731369"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6070331,
-      47.5673321
+      7.6070418,
+      47.5673647
     ]
   }
 },
@@ -118635,7 +118636,7 @@
   "id": "node/12093573901",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Talstation Gondelbahn Kandersteg Oeschinensee AG im Eingang ",
+    "defibrillator:location": "Talstation Kandersteg-Oeschinensee, im Eingang",
     "description": "immer Verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -118659,22 +118660,24 @@
   "id": "node/12093575401",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bergstation Gondelbahn Kandersteg Oeschinensee AG Beim Ausgang ",
+    "defibrillator:location": "Bergstation Kandersteg-Oeschinensee, beim Ausgang",
     "description": "immer Verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "yes",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gondelbahn Kandersteg Oeschinensee AG",
-    "phone": "+41336751118",
+    "phone": "+41 33 675 11 18",
     "source": "local_knowledge, defikarte.ch",
+    "wheelchair": "limited",
     "id": "node/12093575401"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6971459,
-      46.5020775
+      7.6970312,
+      46.5020747
     ]
   }
 },
@@ -134238,20 +134241,22 @@
   "id": "node/12859283801",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Dynamo Metall",
+    "defibrillator:location": "Dynamo Metallwerkstatt",
     "description": "draussen am Gittergebäude neben dem Dynamo",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Jugendkulturhaus Dynamo",
+    "wheelchair": "no",
     "id": "node/12859283801"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5397222,
-      47.3829132
+      8.5397235,
+      47.3829182
     ]
   }
 },
@@ -138289,6 +138294,97 @@
     "coordinates": [
       9.4068129,
       46.7009156
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13105670362",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Notruf- und Einsatzleitzentrale (NEZ)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "24/7",
+    "operator": "Kantonspolizei St.Gallen",
+    "phone": "117",
+    "wheelchair": "limited",
+    "id": "node/13105670362"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3360393,
+      47.4126104
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13105673615",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Fabrikstrasse, in der Garage",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "24/7",
+    "wheelchair": "no",
+    "id": "node/13105673615"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5634123,
+      47.4342927
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13105684327",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben den Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "wheelchair": "yes",
+    "id": "node/13105684327"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5880928,
+      47.5479708
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13105700861",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Defi, Hotel Schwarzhorn, beim Eingang",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Tscherrig Beni und Carmen",
+    "phone": "+41 27 932 14 14",
+    "wheelchair": "yes",
+    "id": "node/13105700861"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7064263,
+      46.2116575
     ]
   }
 }

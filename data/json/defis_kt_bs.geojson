@@ -2184,19 +2184,20 @@
   "type": "Feature",
   "id": "node/11474731369",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Haupteingang zu Coop",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
+    "wheelchair": "limited",
     "id": "node/11474731369"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6070331,
-      47.5673321
+      7.6070418,
+      47.5673647
     ]
   }
 },
@@ -3305,6 +3306,28 @@
     "coordinates": [
       7.5954157,
       47.5544381
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13105684327",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben den Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "wheelchair": "yes",
+    "id": "node/13105684327"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5880928,
+      47.5479708
     ]
   }
 }

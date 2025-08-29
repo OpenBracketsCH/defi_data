@@ -90407,20 +90407,22 @@
   "id": "node/12859283801",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Dynamo Metall",
+    "defibrillator:location": "Dynamo Metallwerkstatt",
     "description": "draussen am Gittergebäude neben dem Dynamo",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Jugendkulturhaus Dynamo",
+    "wheelchair": "no",
     "id": "node/12859283801"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5397222,
-      47.3829132
+      8.5397235,
+      47.3829182
     ]
   }
 },
@@ -93132,6 +93134,28 @@
     "coordinates": [
       8.8518959,
       47.1954462
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13105673615",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Fabrikstrasse, in der Garage",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "24/7",
+    "wheelchair": "no",
+    "id": "node/13105673615"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5634123,
+      47.4342927
     ]
   }
 }
