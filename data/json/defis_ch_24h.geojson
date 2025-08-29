@@ -9508,30 +9508,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6636650003",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Grosshöchstetten",
-    "addr:housenumber": "24",
-    "addr:postcode": "3506",
-    "addr:street": "Mühlebachweg",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Cacis Mühle",
-    "phone": "+41 79 447 23 11",
-    "id": "node/6636650003"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.637799,
-      46.9001367
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6636650004",
   "properties": {
     "access": "yes",
@@ -125007,28 +124983,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12404736002",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Schulhaus Abtwil, zwischen Schulhaus und Turnhalle",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/12404736002"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.3534074,
-      47.1753034
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12404806301",
   "properties": {
     "access": "yes",
@@ -138385,6 +138339,63 @@
     "coordinates": [
       7.7064263,
       46.2116575
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13105812090",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Wangs",
+    "addr:housenumber": "10",
+    "addr:postcode": "7323",
+    "addr:street": "Dorfstrasse",
+    "defibrillator:location": "Aussen Fassade Rechts",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "level": "0",
+    "name": "Sternesaal",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "ref": "0021LTC outdoor",
+    "id": "node/13105812090"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4315997,
+      47.0335645
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13105812454",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Wangs",
+    "addr:housenumber": "34",
+    "addr:postcode": "7323",
+    "addr:street": "Dorfstrasse",
+    "defibrillator:location": "Eingang rechts",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "level": "0",
+    "name": "Rathaus",
+    "opening_hours": "24/7",
+    "operator": "Lifetec ag",
+    "phone": "0800122144",
+    "ref": "0020LTC Outdoor",
+    "id": "node/13105812454"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.431101,
+      47.0316385
     ]
   }
 }
