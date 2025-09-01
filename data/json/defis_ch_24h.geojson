@@ -26020,26 +26020,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637818583",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Lehrlingswohnhaus Gbe 10",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "CAMPUS SURSEE",
-    "opening_hours": "24/7",
-    "id": "node/7637818583"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.08836,
-      47.16313
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637818590",
   "properties": {
     "access": "yes",
@@ -90808,8 +90788,8 @@
   "id": "node/10763310319",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Gebäude 10, An Fassade beim Personal-/Warenlifteingang",
-    "description": "gelber Koffer",
+    "defibrillator:location": "Gebäude 10, An Fassade beim Personalparkplatz Lifteingang\nZufahrt zwischen Gebäude 5 und 6",
+    "description": "Grüner Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -90822,8 +90802,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.08837,
-      47.16315
+      8.088332,
+      47.1631984
     ]
   }
 },
@@ -138586,6 +138566,30 @@
     "coordinates": [
       9.195326,
       47.3058006
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13112377901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sommerauweg 15",
+    "description": "Hinter dem Gebäude, Strassenackerweg seitig, bei der Wertstoffsammelstelle !",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Diepflingen",
+    "phone": "+41 61 975 96 96",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/13112377901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8391624,
+      47.4472952
     ]
   }
 }

@@ -4644,18 +4644,21 @@
   "type": "Feature",
   "id": "node/7637818578",
   "properties": {
-    "description": "Haupteingang rechts",
+    "access": "yes",
+    "defibrillator:location": "Gebäude 17 Haupteingang",
+    "description": "Haupteingang alte Rezeption Eventhalle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "name": "Lifetec Campus Sursee",
+    "name": "Campus Sursee",
+    "operator": "Lifetetec One",
     "id": "node/7637818578"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0890012,
-      47.1619305
+      8.0893719,
+      47.1618805
     ]
   }
 },
@@ -4720,39 +4723,22 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637818583",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Lehrlingswohnhaus Gbe 10",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "CAMPUS SURSEE",
-    "opening_hours": "24/7",
-    "id": "node/7637818583"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.08836,
-      47.16313
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637818584",
   "properties": {
-    "defibrillator:location": "Sportarena Haupteingang / RÃ©ception",
+    "access": "yes",
+    "defibrillator:location": "Sportarena Haupteingang / Rezeption",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "name": "CAMPUS SURSEE",
+    "indoor": "yes",
+    "name": "CAMPUS SURSEE Sportarena",
+    "operator": "Lifetec One",
     "id": "node/7637818584"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0909145,
-      47.1635963
+      8.0911362,
+      47.1637042
     ]
   }
 },
@@ -17334,8 +17320,8 @@
   "id": "node/10763310319",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Gebäude 10, An Fassade beim Personal-/Warenlifteingang",
-    "description": "gelber Koffer",
+    "defibrillator:location": "Gebäude 10, An Fassade beim Personalparkplatz Lifteingang\nZufahrt zwischen Gebäude 5 und 6",
+    "description": "Grüner Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -17348,8 +17334,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.08837,
-      47.16315
+      8.088332,
+      47.1631984
     ]
   }
 },
