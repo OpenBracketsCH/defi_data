@@ -23561,25 +23561,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7579637111",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Eingang Trakt A",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "id": "node/7579637111"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5183552,
-      47.1990259
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7579637112",
   "properties": {
     "access": "yes",
@@ -138682,6 +138663,30 @@
     "coordinates": [
       8.465808,
       47.4343544
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13114626701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Feuerwehrdepot bei Eingang",
+    "description": "jederzeit zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Baar",
+    "phone": "+41417690111",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/13114626701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5290854,
+      47.195515
     ]
   }
 }
