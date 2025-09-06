@@ -50523,13 +50523,13 @@
   "type": "Feature",
   "id": "node/11438133269",
   "properties": {
-    "defibrillator:location": "Wirtschaftsschule KV Winterthur, Haupteingang innen auf der rechten Seite",
-    "description": "während Öffnungszeiten verfügbar, in den Ferien spezielle Öffnungszeiten",
+    "access": "yes",
+    "defibrillator:location": "Haupteingang rechts neben der Türe",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "level": "0",
-    "opening_hours": "Mo-Fr 06:30 - 21:30, Sa 07:00 - 18:00",
+    "opening_hours": "24/7",
     "operator": "Kaufmännischer Verband Winterthur",
     "phone": "+41 52 269 18 07",
     "source": "local_knowledge, defikarte.ch",
@@ -50538,8 +50538,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7348068,
-      47.4971075
+      8.7350889,
+      47.4972124
     ]
   }
 },
