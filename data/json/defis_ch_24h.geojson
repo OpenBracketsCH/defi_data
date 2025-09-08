@@ -25175,6 +25175,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/7637818388",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Turnhalle / rechte Hausecke",
+    "description": "immer verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "level": "0",
+    "name": "Schulhaus Bühlmatt",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Udligenswil",
+    "id": "node/7637818388"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.403341,
+      47.0915711
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/7637818389",
   "properties": {
     "access": "yes",
@@ -25985,9 +26008,12 @@
   "id": "node/7637818590",
   "properties": {
     "access": "yes",
+    "check_date": "2025-09-08",
+    "defibrillator:location": "An der Hausecke außen an der Wand.",
     "description": "braune Aussenseite rechts",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Elektro Nottwil AG",
     "opening_hours": "24/7",
     "id": "node/7637818590"
