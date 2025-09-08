@@ -53129,17 +53129,20 @@
   "id": "node/8894783062",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "A fianco della fermata",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
+    "wheelchair": "yes",
     "id": "node/8894783062"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.9357408,
-      46.5294285
+      8.9356978,
+      46.5293239
     ]
   }
 },
@@ -53186,17 +53189,20 @@
   "id": "node/8894783065",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "sul muro verso la strada cantonale",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
+    "wheelchair": "yes",
     "id": "node/8894783065"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.9386446,
-      46.4549915
+      8.9386229,
+      46.4549489
     ]
   }
 },
@@ -138908,6 +138914,28 @@
     "coordinates": [
       7.2193516,
       46.9098825
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13127452602",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Feuerwehrmagazin, an der Mauer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/13127452602"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6501893,
+      47.1871716
     ]
   }
 }
