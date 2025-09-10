@@ -34731,20 +34731,19 @@
   "id": "node/9399627917",
   "properties": {
     "defibrillator:location": "Bildungszentrum",
-    "description": "währen Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "24/7",
-    "operator": "Bildungsbetrib",
-    "phone": "0448019028",
+    "operator": "Schweizerischer Fachverband Betriebsunterhalt",
+    "phone": "+41 44 801 90 28",
     "id": "node/9399627917"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6689055,
-      47.7182938
+      8.6246398,
+      47.4165688
     ]
   }
 },
@@ -87114,21 +87113,19 @@
   "properties": {
     "access": "private",
     "defibrillator:location": "Messerli AG",
-    "description": "währen der Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "2",
-    "operator": "Messerli AG Firma",
+    "operator": "Messerli AG",
     "phone": "+41 439 31 43 43",
-    "source": "local_knowledge, defikarte.ch",
     "id": "node/12640379701"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.792603,
-      47.3320461
+      8.801759,
+      47.3323088
     ]
   }
 },
@@ -93382,6 +93379,29 @@
     "coordinates": [
       8.5399926,
       47.3766515
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13132412901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Turnhalle Threepoint Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Primarschule Dübendorf",
+    "phone": "+4144 801 69 24",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/13132412901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6004066,
+      47.3969548
     ]
   }
 }
