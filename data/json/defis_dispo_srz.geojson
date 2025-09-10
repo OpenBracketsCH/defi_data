@@ -2741,7 +2741,7 @@
   "id": "node/6976938392",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Gemeindeverwaltung beim Eingang",
+    "defibrillator:location": "Gemeindeverwaltung im Zwischengang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -2753,8 +2753,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8301939,
-      47.1917017
+      8.8301169,
+      47.1917053
     ]
   }
 },
@@ -13767,7 +13767,7 @@
   "id": "node/7977202585",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Beim Eingang Feuerwehr",
+    "defibrillator:location": "Beim Eingang Turnhalle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -40782,8 +40782,8 @@
   "id": "node/9855954517",
   "properties": {
     "access": "no",
-    "defibrillator:location": "Schulhaus Burggasse ",
-    "description": "Eingang rechts, während Schulbetrieb ",
+    "defibrillator:location": "Schulhaus Burggasse",
+    "description": "Eingang rechts vor Treppe, während Schulbetrieb",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -40793,8 +40793,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8321472,
-      47.1912884
+      8.8323382,
+      47.1915564
     ]
   }
 },
@@ -93390,6 +93390,31 @@
     "coordinates": [
       8.6004066,
       47.3969548
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13132798901",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Schulhaus Bullinger, Haupteingang linke Seite",
+    "description": "während Öffnungszeiten verfügbar, Schulferien geschlossen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00 - 16:30",
+    "operator": "Stadt Zürich Fachschule Viventa",
+    "phone": "+41444135000",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/13132798901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5106653,
+      47.3815451
     ]
   }
 }
