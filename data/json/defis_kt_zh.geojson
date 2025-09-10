@@ -14399,14 +14399,12 @@
   "type": "Feature",
   "id": "node/8571598717",
   "properties": {
-    "access": "yes",
     "defibrillator:location": "Jumbo, nach Eingang links an der Wand",
-    "description": "währen Öffnungszeit verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-We 08:30-20:00; Th-Fr 08:40-21:00; Sa 08:00-20:00",
+    "opening_hours": "Mo-Fr 08:30-20:00, Sa 08:00-20:00; PH off",
     "operator": "Jumbo-Markt AG",
     "phone": "+848 11 33 11",
     "wheelchair": "yes",
@@ -50775,14 +50773,11 @@
   "id": "node/11505926769",
   "properties": {
     "defibrillator:location": "Eingangsbereich Gynpraxis",
-    "description": "währen der Öffnungszeiten der Praxis zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo, Tu, Th, Fr 08:00-16:00; We 08:00-12:00",
-    "operator": "Firma",
-    "source": "local_knowledge, defikarte.ch",
+    "opening_hours": "Mo,Tu,Th,Fr 08:00-16:00; We 08:00-12:00",
     "id": "node/11505926769"
   },
   "geometry": {
@@ -57226,12 +57221,10 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Treppenhaus Erdgeschoss geradeaus an Wand in Halterung",
-    "description": "nur währen Öffnundszeit",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "opening_hours": "Mo-Fr 08:00 - 18:00 ",
-    "source": "local_knowledge, defikarte.ch",
+    "opening_hours": "Mo-Fr 08:00-18:00",
     "id": "node/11937332269"
   },
   "geometry": {
