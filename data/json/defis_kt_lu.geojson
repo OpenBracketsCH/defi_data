@@ -10799,17 +10799,20 @@
   "type": "Feature",
   "id": "node/7637819030",
   "properties": {
+    "access": "während_schulbetrieb",
+    "defibrillator:location": "In Turnhalle",
     "description": "Eingang Halle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "name": "Gersag-Halle",
+    "indoor": "yes",
+    "name": "Dreifach Turnhalle Gersag",
     "id": "node/7637819030"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2809467,
-      47.0790251
+      8.2804371,
+      47.0786009
     ]
   }
 },
@@ -10917,24 +10920,6 @@
     "coordinates": [
       8.2850001,
       47.0680298
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7637819037",
-  "properties": {
-    "access": "yes",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/7637819037"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.2781091,
-      47.0780799
     ]
   }
 },
@@ -22877,6 +22862,68 @@
     "coordinates": [
       8.339712,
       47.0838434
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13132873101",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Kongresszentrum Gersag Foyer",
+    "description": "Während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/13132873101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2785791,
+      47.077721
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13132887201",
+  "properties": {
+    "defibrillator:location": "Shuldienste",
+    "description": "Während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/13132887201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2796359,
+      47.0714956
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13132889601",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Shuldienste Emmen",
+    "description": "Während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/13132889601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2796037,
+      47.0714993
     ]
   }
 }
