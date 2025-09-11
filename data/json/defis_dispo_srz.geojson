@@ -49790,7 +49790,7 @@
   "type": "Feature",
   "id": "node/10685407405",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Bruker Gebäude F01-07",
     "description": "Im Eingangsbereich direkt links an der Wand. Zugang mit Mitarbeiter Badge.",
     "emergency": "defibrillator",
@@ -49798,7 +49798,7 @@
     "indoor": "yes",
     "level": "0",
     "opening_hours": "Mo-Fr 07:30-18:00",
-    "operator": "Firma Bruker",
+    "operator": "Bruker Switzerland AG",
     "phone": "+41448259111",
     "id": "node/10685407405"
   },
@@ -49814,6 +49814,7 @@
   "type": "Feature",
   "id": "node/10685438905",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Bruker Haupteingang/Rezeption (Gebäude F1-03).",
     "description": "Zugänglich mit Mitarbeiter Badge. Rezeption vorbei laufen, durch den Schiebetüren (Badge). Defi befindet sich links, gegenüber den Aufzug.",
     "emergency": "defibrillator",
@@ -49821,15 +49822,15 @@
     "indoor": "yes",
     "level": "0",
     "opening_hours": "Mo-Fr 07:30-18:00",
-    "operator": "Firma Bruker",
+    "operator": "Bruker Switzerland AG",
     "phone": "+41 44 825 91 11",
     "id": "node/10685438905"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6426843,
-      47.377811
+      8.6427615,
+      47.3777574
     ]
   }
 },
@@ -79921,26 +79922,6 @@
     "coordinates": [
       8.7047929,
       47.2530774
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12201379001",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "SOB Haltestelle Frohberg",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "id": "node/12201379001"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6875049,
-      47.1984347
     ]
   }
 },
