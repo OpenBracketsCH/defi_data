@@ -8222,17 +8222,20 @@
     "defibrillator:location": "EIngangsbereich Internatsgebäude vor Speisesaal",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
+    "level": "0",
+    "name": "Gartenbauschule Oeschberg",
     "opening_hours": "24/7",
-    "operator": "Gartenbauschule",
-    "phone": "+41 79 667 15 31",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1548LTS",
     "id": "node/6629819527"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6121703,
-      47.1272482
+      7.6132749,
+      47.1273063
     ]
   }
 },
@@ -59113,12 +59116,13 @@
     "addr:housenumber": "14",
     "addr:postcode": "3425",
     "addr:street": "Bern-zürich-strasse",
-    "defibrillator:location": "Gebäude 14A, vor Parkplatz um die Ecke.",
+    "defibrillator:location": "Gebäude 14A, vor Toiletten",
     "description": "Grüner Kasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
+    "name": "Gartenbauschule Oeschberg",
     "operator": "Lifetec AG",
     "phone": "+41800122144",
     "ref": "1547LTS",
@@ -59127,8 +59131,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6106904,
-      47.1273523
+      7.6109367,
+      47.1270321
     ]
   }
 },
@@ -60674,6 +60678,27 @@
     "coordinates": [
       7.4714005,
       46.9254946
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13137783001",
+  "properties": {
+    "defibrillator:location": "Grand-Rue 20 Renan – Mur, angle sud",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/13137783001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9272991,
+      47.1264586
     ]
   }
 }
