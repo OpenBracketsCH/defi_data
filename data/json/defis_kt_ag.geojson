@@ -13529,18 +13529,27 @@
   "type": "Feature",
   "id": "node/10108110955",
   "properties": {
-    "description": "während Öffnungszeiten verfügbar",
+    "access": "yes",
+    "addr:city": "Riniken",
+    "addr:housenumber": "6",
+    "addr:postcode": "5223",
+    "addr:street": "Leeweg",
+    "defibrillator:location": "Ausseneingang rechts",
+    "description": "Grüner Kasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
     "phone": "+41564418740",
+    "ref": "Defibrillator Smartcase",
     "id": "node/10108110955"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.1899495,
-      47.4928623
+      8.1899075,
+      47.492885
     ]
   }
 },
