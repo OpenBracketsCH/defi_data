@@ -6973,6 +6973,7 @@
     "addr:postcode": "3425",
     "addr:street": "Bern-Zürich-Strasse",
     "defibrillator:location": "EIngangsbereich Internatsgebäude vor Speisesaal",
+    "description": "Grüner Kasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -6987,8 +6988,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6132749,
-      47.1273063
+      7.6132657,
+      47.1273201
     ]
   }
 },
@@ -133375,6 +133376,36 @@
     "coordinates": [
       8.6193055,
       47.2827045
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12822724017",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Koppingen",
+    "addr:housenumber": "14",
+    "addr:postcode": "3425",
+    "addr:street": "Bern-zürich-strasse",
+    "defibrillator:location": "Gebäude 14A, vor Toiletten",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "name": "Gartenbauschule Oeschberg",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "+41800122144",
+    "ref": "1547LTS",
+    "id": "node/12822724017"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6109367,
+      47.1270321
     ]
   }
 },
