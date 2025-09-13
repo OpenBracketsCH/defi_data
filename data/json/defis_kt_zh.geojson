@@ -4354,18 +4354,19 @@
   "type": "Feature",
   "id": "node/7773292420",
   "properties": {
-    "defibrillator:location": "beim Garderobengebäude",
-    "description": "24h zugänglich",
+    "access": "private",
+    "defibrillator:location": "in der Schiedsrichterkabine",
+    "description": "Zugang haben nur Trainer und Funktionäre des FC Rüti",
     "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
+    "indoor": "yes",
+    "operator": "FC Rüti",
     "id": "node/7773292420"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8418368,
-      47.2507899
+      8.8415077,
+      47.2523562
     ]
   }
 },
