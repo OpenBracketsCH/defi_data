@@ -10799,7 +10799,7 @@
   "type": "Feature",
   "id": "node/7637819030",
   "properties": {
-    "access": "während_schulbetrieb",
+    "access:conditional": "yes @ opening_hours",
     "defibrillator:location": "In Turnhalle",
     "description": "Eingang Halle",
     "emergency": "defibrillator",
@@ -22752,7 +22752,7 @@
   "type": "Feature",
   "id": "node/13116461901",
   "properties": {
-    "access": "24/7",
+    "access": "yes",
     "defibrillator:location": "DGZ Sonnenhof",
     "description": "am Empfang melden",
     "emergency": "defibrillator",
