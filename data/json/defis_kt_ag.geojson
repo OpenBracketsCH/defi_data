@@ -29248,6 +29248,55 @@
       47.4735782
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/13144399201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindehaus Birrhard, links vom Eingang",
+    "description": "immer zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Birrhard",
+    "phone": "+41 56 225 17 36",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/13144399201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2455826,
+      47.4341548
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13144401201",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Schulhaus Birrhard, im UG",
+    "description": "zugänglich während der Schulzeiten, abends bei Nutzung von Vereinen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "Mo-Fr 08:00 - 17:00",
+    "operator": "Gemeinde Birrhard",
+    "phone": "+41 56 225 17 36",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/13144401201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2461834,
+      47.435218
+    ]
+  }
 }
 ]
 }
