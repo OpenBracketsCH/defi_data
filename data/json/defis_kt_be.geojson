@@ -30685,26 +30685,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8577560502",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "in rotem Gehäuse, an Tür links vom Haupteingang montiert",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "id": "node/8577560502"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.1858802,
-      47.0565882
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8592588148",
   "properties": {
     "access": "yes",
@@ -52067,29 +52047,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11760237770",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Restaurant Fähribeizli",
-    "description": "Im Aussenbetrich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "operator": "AG",
-    "phone": "+41319510552",
-    "id": "node/11760237770"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4713273,
-      46.9255208
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11763100669",
   "properties": {
     "defibrillator:location": "Schwarztorstrasse 59, im Erdgeschoss",
@@ -60671,7 +60628,8 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Restaurant",
+    "opening_hours": "Mai-Sep 09:00-22:00; Oct-Dec 09:30-17:30",
+    "operator": "Restaurant Fähribeizli",
     "phone": "+41 31 951 05 52",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/13135941301"
