@@ -8359,13 +8359,19 @@
   "id": "node/10763310342",
   "properties": {
     "access": "no",
+    "addr:city": "Davos",
+    "addr:housenumber": "4A",
+    "addr:postcode": "7270",
+    "addr:street": "Hertistrasse",
     "defibrillator:location": "Langlaufzentrum, Im Treppenhaus EG",
     "description": "blauer Rucksack",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Gemeinde Davos Sportanlagen",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
+    "ref": "0789LTB",
     "id": "node/10763310342"
   },
   "geometry": {
@@ -8690,6 +8696,7 @@
     "opening_hours": "Mo-Fr 08:00-12:00,13:30-17:30",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
+    "ref": "0778LTB",
     "id": "node/10763310356"
   },
   "geometry": {
@@ -9235,6 +9242,7 @@
     "name": "Gemeinde Davos Sportanlagen",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
+    "ref": "0776LTM",
     "id": "node/10763310384"
   },
   "geometry": {
@@ -10234,12 +10242,15 @@
   "id": "node/11037266758",
   "properties": {
     "access": "no",
+    "addr:city": "Davos",
+    "addr:housenumber": "90",
+    "addr:postcode": "7270",
+    "addr:street": "Promenade",
     "defibrillator:location": "Haus C, bei Toiletten",
+    "description": "Koffer Gelb",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "latitude": "46.79842",
-    "longitude": "9.82631",
     "name": "Davos Congress",
     "operator": "Lifetec AG",
     "phone": "0800 122 144",
@@ -10259,23 +10270,27 @@
   "id": "node/11037266759",
   "properties": {
     "access": "no",
+    "addr:city": "Davos-Platz",
+    "addr:housenumber": "49a",
+    "addr:postcode": "7270",
+    "addr:street": "Talstrasse",
     "defibrillator:location": "HAUS A, Backoffice",
+    "description": "Koffer Gelb",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "latitude": "46.79879",
-    "longitude": "9.82678",
+    "level": "0",
     "name": "Davos Congress",
-    "opening_hours": "24/7",
     "operator": "Lifetec AG",
     "phone": "0800 122 144",
+    "ref": "1193LTM",
     "id": "node/11037266759"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.82678,
-      46.79879
+      9.8316512,
+      46.8004851
     ]
   }
 },
