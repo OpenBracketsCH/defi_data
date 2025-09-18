@@ -25846,14 +25846,14 @@
   "id": "node/7637818553",
   "properties": {
     "access": "yes",
-    "check_date": "2025-07-20",
+    "check_date": "2025-09-16",
+    "contact:phone": "+41 811 15 55",
     "defibrillator:location": "Bergbahnen Rigi Kulm",
     "description": "Warteraum Seite Bergkapelle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "Rigi Kulm",
-    "note": "Tel. 041 811 15 55",
     "opening_hours": "24/7",
     "id": "node/7637818553"
   },
@@ -25870,21 +25870,21 @@
   "id": "node/7637818554",
   "properties": {
     "access": "yes",
+    "contact:phone": "+41 811 15 55",
     "defibrillator:location": "Außenwand des Gebäudes. Nicht die Bahnsteigseite.",
     "description": "Standort: Station Rigi Kaltbad. (Schlüssel Im Hotel Alpina)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "name": "Rigi Kaltbad",
-    "note": "Tel. 041 811 15 55",
     "opening_hours": "24/7",
     "id": "node/7637818554"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4665269,
-      47.0439064
+      8.4663449,
+      47.0439228
     ]
   }
 },
@@ -70255,6 +70255,7 @@
     "description": "Draussen beim Eingang, Seite Hauptstrasse",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "fixme": "Sind hier wirklich drei verschiedene Defis auf engstem Raum vorhanden oder handelt es sich um Doubletten?",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Röschenz",
@@ -72027,6 +72028,7 @@
     "defibrillator:location": "Gebäudeeingang Aussenbereich EG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "fixme": "Sind hier wirklich drei verschiedene Defis auf engstem Raum vorhanden oder handelt es sich um Doubletten?",
     "indoor": "yes",
     "opening_hours": "24/7",
     "operator": "Gemeindeverwaltung Röschenz",
@@ -91201,6 +91203,7 @@
     "description": "in grünem Kasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "fixme": "Sind hier wirklich drei verschiedene Defis auf engstem Raum vorhanden oder handelt es sich um Doubletten?",
     "indoor": "no",
     "name": "Gemeinde Röschenz BL",
     "opening_hours": "24/7",
@@ -132832,8 +132835,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.6425004,
-      46.6429671
+      6.6424933,
+      46.6429713
     ]
   }
 },
