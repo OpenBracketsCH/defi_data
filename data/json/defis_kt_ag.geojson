@@ -12590,7 +12590,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "operator": "LIDL Schweiz",
-    "phone": "+41716278074",
+    "phone": "+41 71 627 80 74",
     "id": "node/9917843265"
   },
   "geometry": {
@@ -29318,6 +29318,29 @@
     "coordinates": [
       8.1392413,
       47.5836768
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13162012301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bürgerheim beim Eingang innen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Bürgerheim Menziken",
+    "phone": "+41 62 771 19 18",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/13162012301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1861831,
+      47.2318939
     ]
   }
 }
