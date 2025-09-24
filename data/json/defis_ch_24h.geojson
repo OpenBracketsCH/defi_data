@@ -30188,6 +30188,64 @@
 },
 {
   "type": "Feature",
+  "id": "node/7721332842",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Links vom Eingang zur Landi, beim Eingang ins Geschäftshaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/7721332842"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1558789,
+      47.450167
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7721332843",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "beim Eingang zur Turnhalle, welche sich links vom Schulhaus befindet",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "id": "node/7721332843"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1648628,
+      47.4528413
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7721332844",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rechts in der Pausenhalle, neben dem Eingang zum Schulhaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "id": "node/7721332844"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1627827,
+      47.4532527
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/7721332845",
   "properties": {
     "access": "yes",
@@ -30220,8 +30278,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.1997516,
-      47.4370577
+      9.1977665,
+      47.4369698
     ]
   }
 },
@@ -30262,6 +30320,25 @@
     "coordinates": [
       9.3675828,
       47.3687451
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7721381194",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Links vom Eingang ins Schulhaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "id": "node/7721381194"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1362415,
+      47.4598111
     ]
   }
 },
@@ -102771,7 +102848,7 @@
     "level": "0",
     "opening_hours": "24/7",
     "operator": "Politische Gemeinde Gachnang",
-    "phone": "+41583462828",
+    "phone": "+41 58 346 28 28",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/11285778269"
   },
@@ -139628,6 +139705,100 @@
     "coordinates": [
       7.6177955,
       47.1918997
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13167011001",
+  "properties": {
+    "defibrillator:location": "Schulhaus Dorfmatt A Bei Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Baar",
+    "phone": "+41417690111",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/13167011001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5262328,
+      47.1934891
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13167015001",
+  "properties": {
+    "defibrillator:location": "Schulhaus Sternmatt 2",
+    "description": "Bei Eingang Schulhaus rechts an der Wand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Baar",
+    "phone": "+41417690111",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/13167015001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5262811,
+      47.1909629
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13167016701",
+  "properties": {
+    "defibrillator:location": "Schulhaus Inwil",
+    "description": "Bei Eingang zu Turnhalle neben Treppe",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Baar",
+    "phone": "+41417690111",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/13167016701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5348052,
+      47.1824647
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13167018801",
+  "properties": {
+    "defibrillator:location": "Schulhaus Allenwinden Bei Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Baar",
+    "phone": "+41417690111",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/13167018801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5565847,
+      47.1646801
     ]
   }
 }
