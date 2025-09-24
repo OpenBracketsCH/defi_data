@@ -22285,7 +22285,7 @@
   "type": "Feature",
   "id": "node/10781817005",
   "properties": {
-    "defibrillator:location": "8733 Eschenbach, Rickenstrasse 1",
+    "defibrillator:location": "8733 Eschenbach, Dorfstrasse 12",
     "description": "während Banköffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -22299,8 +22299,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.9220411,
-      47.2409473
+      8.9217808,
+      47.2397688
     ]
   }
 },
@@ -34227,6 +34227,29 @@
     "coordinates": [
       9.1254516,
       47.3702315
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13167200601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bushaltestelle Schutt, Atzmännig",
+    "description": "24/7",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Atzmännig Sportbahnen",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/13167200601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9959681,
+      47.2844913
     ]
   }
 }

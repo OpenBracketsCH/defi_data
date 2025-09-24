@@ -139652,7 +139652,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Sportplatzstrasse 17",
-    "description": "24h verfügbar - Aussen beim Eingang zum Clubhaus,wischen den Toilettenanlagen",
+    "description": "24h verfügbar - Aussen beim Eingang zum Clubhaus, zwischen den Toilettenanlagen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -139760,6 +139760,29 @@
     "coordinates": [
       8.5565847,
       47.1646801
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13167200601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bushaltestelle Schutt, Atzmännig",
+    "description": "24/7",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Atzmännig Sportbahnen",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/13167200601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9959681,
+      47.2844913
     ]
   }
 }
