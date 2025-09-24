@@ -34473,12 +34473,12 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Leichtathletikanlage Allmend, Fassade bei Haupteingang",
-    "email": "sicherheit@stadtzug.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "24/7",
     "operator": "Stadtverwaltung Zug,  Abteilung Sicherheit und Verkehr",
+    "operator:email": "sicherheit@stadtzug.ch",
     "id": "node/7930677689"
   },
   "geometry": {
@@ -70452,7 +70452,8 @@
     "indoor": "yes",
     "opening_hours": "24/7",
     "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
-    "phone": "+41 58 728 99 09",
+    "operator:email": "sicherheit@stadtzug.ch",
+    "website": "https://www.stadtzug.ch/",
     "id": "node/9605130357"
   },
   "geometry": {
@@ -114836,10 +114837,12 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Vereinshaus Gartenverein",
+    "email": "arealchef@gartenverein-herti.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Gartenverein Herti",
     "id": "node/11917431969"
   },
   "geometry": {
