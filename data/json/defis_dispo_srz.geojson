@@ -61663,6 +61663,7 @@
     "access": "yes",
     "addr:housenumber": "16",
     "addr:street": "Matten",
+    "defibrillator:location": "An Strasse bei Fussgängerstreifen",
     "description": "Grüner Kasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -93821,6 +93822,28 @@
     "coordinates": [
       8.5565847,
       47.1646801
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13169120401",
+  "properties": {
+    "defibrillator:location": "Planted Foods AG / planted.bistro",
+    "description": "Öffnungszeiten Bistro beachten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "6",
+    "opening_hours": "Mo-Fr 08:00-16:30",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/13169120401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7036807,
+      47.4494729
     ]
   }
 }

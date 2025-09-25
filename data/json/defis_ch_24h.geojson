@@ -30336,6 +30336,7 @@
     "emergency": "defibrillator",
     "indoor": "no",
     "level": "0",
+    "name": "EW",
     "opening_hours": "24/7",
     "operator": "Lifetec AG",
     "phone": "0800122144",
@@ -97750,6 +97751,7 @@
     "access": "yes",
     "addr:housenumber": "16",
     "addr:street": "Matten",
+    "defibrillator:location": "An Strasse bei Fussgängerstreifen",
     "description": "Grüner Kasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -138355,6 +138357,35 @@
 },
 {
   "type": "Feature",
+  "id": "node/13105809951",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Vilters-Wangs",
+    "addr:housenumber": "4",
+    "addr:postcode": "7323",
+    "addr:street": "Schulhausstrasse",
+    "defibrillator:location": "Primarschulhaus Brüel Beim Sportplatz",
+    "description": "Grüner kasten",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "level": "-1",
+    "name": "Primarschulhaus Brüel",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "0022LTC Outdoor",
+    "id": "node/13105809951"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4355848,
+      47.0326351
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13105812090",
   "properties": {
     "access": "yes",
@@ -138407,6 +138438,35 @@
     "coordinates": [
       9.431101,
       47.0316385
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13105893479",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Vilters",
+    "addr:housenumber": "20",
+    "addr:postcode": "7324",
+    "addr:street": "Schulhausstrasse",
+    "defibrillator:location": "Primarschulhaus Bovel Vilters neben Mehrzweckhalle",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "level": "-1",
+    "name": "Primarschulhaus Bovel",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "0023LTC Outdoor",
+    "id": "node/13105893479"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4467908,
+      47.0259339
     ]
   }
 },
