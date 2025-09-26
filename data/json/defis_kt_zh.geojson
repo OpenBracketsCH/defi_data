@@ -40432,7 +40432,11 @@
   "type": "Feature",
   "id": "node/10763309994",
   "properties": {
-    "defibrillator:location": "Büro im 1. Stock",
+    "addr:city": "Zürich",
+    "addr:housenumber": "11",
+    "addr:postcode": "8048",
+    "addr:street": "Juchstrasse",
+    "defibrillator:location": "Empfang – Lift-rechts an der Wand / seitlich",
     "description": "gelber Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -40441,13 +40445,14 @@
     "opening_hours": "Mo-Fr 07:00-12:00, 13:00-16:30",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
+    "ref": "0332LTM",
     "id": "node/10763309994"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.47426,
-      47.3942
+      8.4827999,
+      47.394911
     ]
   }
 },
@@ -42045,15 +42050,21 @@
   "id": "node/10763310065",
   "properties": {
     "access": "yes",
+    "addr:city": "zürich",
+    "addr:housenumber": "9",
+    "addr:postcode": "8048",
+    "addr:street": "Juchstrasse",
     "defibrillator:location": "EG, EM-Shop neben Lift",
     "description": "oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "name": "Elektro Material AG",
     "opening_hours": "Mo-Fr 07:00-12:00, 13:00-17:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
+    "ref": "0603LTM",
     "id": "node/10763310065"
   },
   "geometry": {
@@ -42068,15 +42079,21 @@
   "type": "Feature",
   "id": "node/10763310066",
   "properties": {
+    "addr:city": "Zürich",
+    "addr:housenumber": "9",
+    "addr:postcode": "8048",
+    "addr:street": "Juchstrasse",
     "defibrillator:location": "Etage 0, Treppenhaus 7, Bei Stempeluhr",
     "description": "oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "name": "Elektro Material AG",
     "opening_hours": "Mo-Fr 07:00-12:00, 13:00-17:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
+    "ref": "0604LTM",
     "id": "node/10763310066"
   },
   "geometry": {
@@ -42091,15 +42108,21 @@
   "type": "Feature",
   "id": "node/10763310067",
   "properties": {
+    "addr:city": "Zürich",
+    "addr:housenumber": "9",
+    "addr:postcode": "8048",
+    "addr:street": "Juchstrasse",
     "defibrillator:location": "2.OG, Treppenhaus 7, WC-Anlagen",
     "description": "oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "5",
     "name": "Elektro Material AG",
     "opening_hours": "Mo-Fr 07:00-12:00, 13:00-17:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
+    "ref": "0605LTM",
     "id": "node/10763310067"
   },
   "geometry": {
@@ -42114,15 +42137,21 @@
   "type": "Feature",
   "id": "node/10763310068",
   "properties": {
+    "addr:city": "Zürich",
+    "addr:housenumber": "9",
+    "addr:postcode": "8048",
+    "addr:street": "Juchstrasse",
     "defibrillator:location": "3.OG, vor Eingang Empfang",
     "description": "oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "3",
     "name": "Elektro Material AG",
     "opening_hours": "Mo-Fr 07:00-12:00, 13:00-17:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
+    "ref": "0606LTM",
     "id": "node/10763310068"
   },
   "geometry": {
