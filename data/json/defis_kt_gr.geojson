@@ -7607,28 +7607,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10261652709",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Alterssiedlung Bodmer",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "operator": "Alterssiedlung Bodmer",
-    "phone": "+41812553131",
-    "id": "node/10261652709"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.5340246,
-      46.8457368
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10273233209",
   "properties": {
     "access": "yes",
@@ -9375,13 +9353,17 @@
   "id": "node/10763310391",
   "properties": {
     "access": "yes",
+    "addr:city": "Chur",
+    "addr:housenumber": "32",
+    "addr:postcode": "7000",
+    "addr:street": "Bodmerstrasse",
     "defibrillator:location": "Gegenüber WC's, Links.",
     "description": "oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "Alterssiedlung Bodmer",
-    "opening_hours": "Mo-Su 08:00-17:00",
+    "opening_hours": "Mo-Su 07:00-18:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/10763310391"
@@ -9389,8 +9371,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.53396,
-      46.84611
+      9.534038,
+      46.8457197
     ]
   }
 },
