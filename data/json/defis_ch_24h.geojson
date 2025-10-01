@@ -22385,26 +22385,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7559787514",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "im Sanitätszimmer",
-    "description": "während Spielen verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "id": "node/7559787514"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.825334,
-      47.2229236
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7559787515",
   "properties": {
     "access": "yes",
@@ -140107,6 +140087,26 @@
     "coordinates": [
       6.9568254,
       46.7203559
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13186478923",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hanging on the wall on the outside of the building",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/13186478923"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0599925,
+      47.0150446
     ]
   }
 }
