@@ -13126,27 +13126,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11978295569",
-  "properties": {
-    "access": "permissive",
-    "defibrillator:location": "Apparthotel Panorama, Cresta 98, 7134 Obersaxen",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/11978295569"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.0719604,
-      46.723859
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11987154173",
   "properties": {
     "description": "Im Magazin; während Öffnungszeiten verfügbar",
@@ -16004,6 +15983,39 @@
     "coordinates": [
       9.5292234,
       46.8546739
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13188449747",
+  "properties": {
+    "defibrillator:location": "An der Hauswand neben den Einstellhallen",
+    "emergency": "defibrillator",
+    "operator": "Gemeinde Obersaxen Mundaun",
+    "id": "node/13188449747"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0653749,
+      46.7424147
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13188459687",
+  "properties": {
+    "emergency": "defibrillator",
+    "operator": "Apparthotel Panorama",
+    "id": "node/13188459687"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1192957,
+      46.7539423
     ]
   }
 }
