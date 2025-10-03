@@ -2842,7 +2842,7 @@
     "name": "Einkaufscenter Surseepark",
     "opening_hours": "24/7",
     "operator": "Einkaufscenter Surseepark",
-    "phone": "+41 41 455 74 72",
+    "phone": "+41 41 926 30 00",
     "wheelchair": "limited",
     "id": "node/7637818402"
   },
@@ -20362,22 +20362,23 @@
   "id": "node/11923493869",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Surseepark 1: Kundendienst Do it + Garden Migros",
-    "description": "während der Öffnungszeiten verfügbar",
+    "defibrillator:location": "Surseepark 1: Starbucks",
+    "description": "während der Öffnungszeiten verfügbar Mo-Mi & Fr 7.30-19.00, Do 7.30 - 21.00, Sa 7.30-17.00",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 08:00-19:00",
-    "operator": "Surseepark",
-    "source": "local_knowledge, defikarte.ch",
+    "opening_hours": "Mo-Fr \"07:30-19:00\"",
+    "operator": "Einkaufscenter Surseepark",
+    "phone": "+41419263000",
+    "source": "aed-source",
     "id": "node/11923493869"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.1006521,
-      47.1725721
+      8.1007904,
+      47.1721434
     ]
   }
 },
@@ -21994,23 +21995,23 @@
   "id": "node/12882922201",
   "properties": {
     "access": "permissive",
-    "defibrillator:location": "Bahnhofstrasse 22",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Bahnhofstrasse 24",
+    "description": "während Öffnungszeiten verfügbar, Mo-Mi, Fr 8.00 - 19.00, Do 8.00 - 21.00, Sa 8.00 - 17.00 Uhr",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "3",
-    "opening_hours": "Mo - Fr 8:00 - 12:00  ; 13:30 - 17:00",
-    "operator": "Praxis",
-    "phone": "+41 41 922 02 20",
+    "level": "0",
+    "opening_hours": "Mo-Fr \"8.00-19.00\"",
+    "operator": "Apotheke Surseepark",
+    "phone": "+41 41 921 78 21",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/12882922201"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.1038493,
-      47.1727326
+      8.1035623,
+      47.1727855
     ]
   }
 },
