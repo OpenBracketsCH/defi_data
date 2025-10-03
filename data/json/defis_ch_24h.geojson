@@ -5072,18 +5072,20 @@
     "addr:housenumber": "71",
     "addr:postcode": "3552",
     "addr:street": "Bäraustrasse",
+    "defibrillator:location": "Bei der grossen Treppe",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "HeimStätte Bärau",
+    "operator": "Stiftung Lebensart",
     "phone": "+41 34 408 21 00",
     "id": "node/6563215250"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.8115293,
-      46.930459
+      7.8111245,
+      46.9302489
     ]
   }
 },
@@ -49126,19 +49128,20 @@
     "addr:housenumber": "58",
     "addr:postcode": "3552",
     "addr:street": "Bäraustrasse",
-    "defibrillator:location": "Beim Eingang Markthalle",
+    "defibrillator:location": "Neben dem Eingang Markthalle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Markthalle Bärau",
-    "phone": "+41 34 408 24 07",
+    "operator": "Stiftung Lebensart",
+    "phone": "+41 34 408 21 00",
     "id": "node/8734513567"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.8104937,
-      46.9311114
+      7.8104961,
+      46.9312992
     ]
   }
 },
@@ -140132,6 +140135,36 @@
     "coordinates": [
       8.6088833,
       47.317835
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13190298485",
+  "properties": {
+    "access": "yes",
+    "addr:city": "La Chaux de Fonds",
+    "addr:housenumber": "22",
+    "addr:postcode": "2300",
+    "addr:street": "Rue de Moulins",
+    "defibrillator:location": "Eingang rechts an Metallsäule",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "name": "Fondation Foyer-Handicap",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1605LTM",
+    "id": "node/13190298485"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8318552,
+      47.1081946
     ]
   }
 }
