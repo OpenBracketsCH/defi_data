@@ -59981,9 +59981,10 @@
     "description": "Während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "yes",
     "opening_hours": "Mo-Fr 08:00 - 12:00, 13:30 - 18:30",
     "operator": "TopPharm SchlossApotheke",
+    "phone": "+41317473030",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/13039186002"
   },
@@ -60939,6 +60940,25 @@
     "coordinates": [
       7.0599925,
       47.0150446
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13200470401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bahnweg 2, im Polycenter, Eingangshalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/13200470401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2371242,
+      46.9058457
     ]
   }
 }
