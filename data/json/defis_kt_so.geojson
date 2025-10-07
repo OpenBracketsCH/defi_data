@@ -1608,13 +1608,14 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/9072547217"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7527271,
-      47.281972
+      7.7527267,
+      47.2819721
     ]
   }
 },
@@ -9867,6 +9868,52 @@
     "coordinates": [
       7.5889867,
       47.2440115
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13200228001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Weidenstrasse 50 / Porte",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "HIAG Immobilen",
+    "phone": "+4161 606 55 40",
+    "id": "node/13200228001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6080262,
+      47.4797227
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13200254101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Weidenstrasse 50 Dornach / Bau 427",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "HIAG Immobilen",
+    "phone": "+41616065540",
+    "id": "node/13200254101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6072634,
+      47.4778211
     ]
   }
 }

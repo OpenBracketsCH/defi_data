@@ -56824,6 +56824,26 @@
 },
 {
   "type": "Feature",
+  "id": "node/9072547217",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "SPAR Supermarkt",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9072547217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7527267,
+      47.2819721
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9074140817",
   "properties": {
     "access": "yes",
@@ -85644,6 +85664,25 @@
     "coordinates": [
       9.68221,
       46.6752026
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10574567641",
+  "properties": {
+    "defibrillator:location": "Aussen an der Hauswand. Gut sichtbar.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/10574567641"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5654448,
+      47.5546162
     ]
   }
 },
@@ -140249,6 +140288,52 @@
     "coordinates": [
       9.3677006,
       47.4206438
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13200228001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Weidenstrasse 50 / Porte",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "HIAG Immobilen",
+    "phone": "+4161 606 55 40",
+    "id": "node/13200228001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6080262,
+      47.4797227
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13200254101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Weidenstrasse 50 Dornach / Bau 427",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "HIAG Immobilen",
+    "phone": "+41616065540",
+    "id": "node/13200254101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6072634,
+      47.4778211
     ]
   }
 }
