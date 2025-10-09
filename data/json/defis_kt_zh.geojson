@@ -55493,7 +55493,7 @@
   "id": "node/11833035670",
   "properties": {
     "defibrillator:location": "Zürcherstrasse 28, Mettmenstetten",
-    "description": "in der Durchfahrt an der Wand",
+    "description": "in der Durchfahrt zur Waschstrasse an der Wand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -55506,8 +55506,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4615898,
-      47.24681
+      8.4614522,
+      47.246726
     ]
   }
 },
@@ -73365,6 +73365,30 @@
     "coordinates": [
       8.4636054,
       47.2463089
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13204671601",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Lindenmoosstrasse 9",
+    "description": "während Oeffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:30-17:15",
+    "operator": "Peter Schmid Baudienstleistungen AG Lindenmoosstrasse 9 CH-8910 Affoltern a. A.",
+    "phone": "+41 43 333 44 77",
+    "id": "node/13204671601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.444689,
+      47.2698424
     ]
   }
 }
