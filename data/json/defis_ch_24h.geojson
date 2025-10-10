@@ -36638,8 +36638,10 @@
     "addr:housenumber": "14",
     "addr:postcode": "3780",
     "addr:street": "Gsteigstrasse",
+    "defibrillator:location": "at left, south side of building, below police sign",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Polizeiwache Gstaad",
     "id": "node/8154591429"
@@ -36647,8 +36649,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.2852106,
-      46.4690642
+      7.2851749,
+      46.4688451
     ]
   }
 },
@@ -75517,25 +75519,6 @@
     "coordinates": [
       6.0735219,
       46.4652116
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9864070317",
-  "properties": {
-    "defibrillator:location": "Melchiostrasse15 Bern 3027",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "id": "node/9864070317"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4,
-      46.9383223
     ]
   }
 },
