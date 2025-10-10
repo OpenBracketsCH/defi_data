@@ -139877,6 +139877,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/13169541301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Universität St. Gallen, Hauptgebäude",
+    "description": "Im Sanitätszimmer (Raum A 01-024)  / Gebäude während Sommerferien geschlossen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Universität St. Gallen / www.unisg.ch/de/notfall",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/13169541301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3749803,
+      47.4316763
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13172792501",
   "properties": {
     "access": "permissive",
@@ -140369,6 +140393,98 @@
     "coordinates": [
       8.7192034,
       47.3496224
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13206584201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Universität St. Gallen, Bibliotheksgebäude",
+    "description": "Im Sanitätszimmer (Raum A 09-015)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Universität St. Gallen / www.unisg.ch/de/notfall",
+    "id": "node/13206584201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.374733,
+      47.4327689
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13206602201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Universität St. Gallen, SQUARE",
+    "description": "Im Sanitätszimmer (Raum A 11-U1202) / Gebäude während Sommerferien geschlossen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "24/7",
+    "operator": "Universität St. Gallen / www.unisg.ch/de/notfall",
+    "id": "node/13206602201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3746536,
+      47.4334052
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13206613301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Universität St. Gallen, Müller-Friedbergstrasse 6/8",
+    "description": "Im Sanitätszimmer (Raum B 52-5008)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "5",
+    "opening_hours": "24/7",
+    "operator": "Universität St. Gallen / www.unisg.ch/de/notfall",
+    "id": "node/13206613301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3752378,
+      47.4282968
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13206619201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Universität St. Gallen, St. Jakob-Strasse 21",
+    "description": "Im Sanitätszimmer (Raum B 62-192)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "24/7",
+    "operator": "Universität St. Gallen / www.unisg.ch/de/notfall",
+    "id": "node/13206619201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3782818,
+      47.4292841
     ]
   }
 }
