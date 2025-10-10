@@ -39059,10 +39059,6 @@
   "id": "node/9625624149",
   "properties": {
     "access": "yes",
-    "addr:city": "Neuenegg",
-    "addr:housenumber": "22",
-    "addr:postcode": "3176",
-    "addr:street": "Süristrasse",
     "defibrillator:location": "Aussenfassade (Strassenseite) des Restaurants zum Denkmal Bramberg",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -39075,8 +39071,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.2804596,
-      46.9076793
+      7.2804506,
+      46.907773
     ]
   }
 },
@@ -60946,6 +60942,23 @@
     "coordinates": [
       7.6561361,
       47.0078141
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13206788789",
+  "properties": {
+    "defibrillator:location": "Durchgang zu Garderoben in der Turnhallenmitte",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/13206788789"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3908805,
+      46.9386283
     ]
   }
 }
