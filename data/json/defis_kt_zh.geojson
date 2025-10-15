@@ -32960,12 +32960,14 @@
   "type": "Feature",
   "id": "node/10106111417",
   "properties": {
+    "access": "private",
     "defibrillator:location": "Zürcher Kantonalbank, EG",
     "description": "nur während Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-12:30,14:00-16:30",
+    "level": "0",
+    "opening_hours": "Mo-Fr 09:00-12:30,14:00-16:30",
     "operator": "Zürcher Kantonalbank",
     "phone": "+41443189166",
     "id": "node/10106111417"
@@ -32973,8 +32975,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5465457,
-      47.408008
+      8.5465452,
+      47.4080081
     ]
   }
 },
@@ -73386,6 +73388,30 @@
     "coordinates": [
       8.6273681,
       47.4224729
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13234859401",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "ZKB Kundenhalle",
+    "description": "Während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 09:00-16:30",
+    "operator": "Zürcher Kantonalbank",
+    "phone": "+41448711348",
+    "id": "node/13234859401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4666445,
+      47.4322958
     ]
   }
 }
