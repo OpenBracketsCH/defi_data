@@ -28608,14 +28608,17 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Bauma",
+    "phone": "+41 79 409 41 54",
     "id": "node/7650168993"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8591271,
-      47.3834797
+      8.8591272,
+      47.3834798
     ]
   }
 },
@@ -140616,6 +140619,28 @@
     "coordinates": [
       7.7068886,
       46.8155876
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13234986401",
+  "properties": {
+    "defibrillator:location": "5. Stock vor den Aufzügen",
+    "description": "Jederzeit",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "5",
+    "opening_hours": "24/7",
+    "operator": "Gebäude",
+    "id": "node/13234986401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5681041,
+      47.4535364
     ]
   }
 }

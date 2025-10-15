@@ -3434,14 +3434,17 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Bauma",
+    "phone": "+41 79 409 41 54",
     "id": "node/7650168993"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8591271,
-      47.3834797
+      8.8591272,
+      47.3834798
     ]
   }
 },
@@ -73431,6 +73434,52 @@
     "coordinates": [
       8.4666445,
       47.4322958
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13234986401",
+  "properties": {
+    "defibrillator:location": "5. Stock vor den Aufzügen",
+    "description": "Jederzeit",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "5",
+    "opening_hours": "24/7",
+    "operator": "Gebäude",
+    "id": "node/13234986401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5681041,
+      47.4535364
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13235032002",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Condecta, im Gang neben dem Drucker",
+    "description": "Während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:30-12:00, 13:00-17:00",
+    "operator": "Unternehmung",
+    "phone": "+41522345151",
+    "id": "node/13235032002"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7705053,
+      47.5012529
     ]
   }
 }
