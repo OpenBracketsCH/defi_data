@@ -8519,15 +8519,18 @@
   "type": "Feature",
   "id": "node/6633263837",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "addr:city": "Burgdorf",
     "addr:housenumber": "211",
     "addr:postcode": "3400",
     "addr:street": "Kirchbergstrasse",
     "defibrillator:location": "Naturex AG",
+    "description": "Unbedingt anrufen!",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "24/7",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Sa 00:00-24:00",
     "operator": "Naturex AG",
     "phone": "+41 34 428 54 00",
     "id": "node/6633263837"
@@ -8535,8 +8538,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6035287,
-      47.0669212
+      7.6021045,
+      47.0675852
     ]
   }
 },
@@ -34563,7 +34566,8 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 07:00-16:30",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-16:00",
     "operator": "Naturex AG",
     "phone": "+41 34 428 54 71",
     "id": "node/9153662522"
