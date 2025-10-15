@@ -14025,6 +14025,8 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:00-17:00",
     "operator": "Betriebssanität Mettler Toledo",
     "phone": "+41 44 944 21 44",
     "id": "node/8080270384"
@@ -14043,10 +14045,12 @@
   "properties": {
     "access": "private",
     "defibrillator:location": "GC EG",
-    "description": "Alarmgesichert - Aufgebot Betriebssanität erfolgt automatisch",
+    "description": "Zugang während Öffnungszeiten über Haupteingang (Im Langacher 44) Alarmgesichert - Aufgebot Betriebssanität erfolgt automatisch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:00-17:00",
     "operator": "Betriebssanität Mettler Toledo",
     "phone": "+41 44 944 21 44",
     "id": "node/8080270385"
@@ -14065,10 +14069,12 @@
   "properties": {
     "access": "private",
     "defibrillator:location": "GB EG",
-    "description": "Alarmgesichert - Aufgebot Betriebssanität erfolgt automatisch",
+    "description": "Zugang während Öffnungszeiten über Haupteingang (Im Langacher 44) Alarmgesichert - Aufgebot Betriebssanität erfolgt automatisch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:00-17:00",
     "operator": "Betriebssanität Mettler Toledo",
     "phone": "+41 44 944 21 44",
     "id": "node/8080270386"
@@ -14091,6 +14097,8 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:00-17:00",
     "operator": "Betriebssanität Mettler Toledo",
     "phone": "+41 44 944 21 44",
     "id": "node/8080270387"
@@ -14113,6 +14121,8 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:00-17:00",
     "operator": "Betriebssanität Mettler Toledo",
     "phone": "+41 44 944 21 44",
     "id": "node/8080270388"
@@ -14135,6 +14145,8 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:00-17:00",
     "operator": "Betriebssanität Mettler Toledo",
     "phone": "+41 44 944 21 44",
     "id": "node/8080270389"
@@ -14142,7 +14154,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.685187,
+      8.6851871,
       47.3667295
     ]
   }
@@ -23103,11 +23115,12 @@
   "type": "Feature",
   "id": "node/8574210687",
   "properties": {
-    "defibrillator:location": "Sanitätsraum",
+    "defibrillator:location": "Eingang Garderoben im Aussenbereich",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "operator": "Stadt Uster",
     "id": "node/8574210687"
   },
@@ -23306,18 +23319,20 @@
   "type": "Feature",
   "id": "node/8574210698",
   "properties": {
+    "access": "private",
     "defibrillator:location": "Bootshaus (San-Rucksäcke)",
-    "description": "während Öffnungszeiten verfügbar",
+    "description": "Ca. Ostern bis Mitte Oktober 11-ca. 1730",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Stadt Uster",
+    "level": "2",
+    "operator": "Seerettungdsienst Greifensee",
     "id": "node/8574210698"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6913737,
+      8.6913738,
       47.3409442
     ]
   }
@@ -34474,7 +34489,7 @@
   "type": "Feature",
   "id": "node/9394069017",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Steinel Solutions AG",
     "description": "Zugang ist zu diesen Zeiten möglich und der Defi darf von jedem genutzt werden.",
     "emergency": "defibrillator",
@@ -34489,8 +34504,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7408102,
-      47.1234383
+      8.7408096,
+      47.1234385
     ]
   }
 },
@@ -89499,11 +89514,15 @@
   "type": "Feature",
   "id": "node/12818872801",
   "properties": {
-    "defibrillator:location": "PHYSIO Impact GmbH",
+    "access": "permissive",
+    "defibrillator:location": "Im Gebäude",
     "description": "während Öffnungszeiten verfügbar.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "yes",
+    "opening_hours": "Mo-Th 07:00-19:30; Fr 07:00-16:30",
+    "operator": "PHYSIO Impact GmbH",
+    "phone": "+41 44 203 32 55",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/12818872801"
   },
