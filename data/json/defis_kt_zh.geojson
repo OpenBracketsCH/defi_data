@@ -12279,7 +12279,7 @@
   "id": "node/8556519066",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bei Bankomat",
+    "defibrillator:location": "Wisliger Märt Hausecke",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -12291,7 +12291,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7647317,
+      8.7647318,
       47.4300141
     ]
   }
@@ -73480,6 +73480,30 @@
     "coordinates": [
       8.7705053,
       47.5012529
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13236002601",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Sauber, Reception",
+    "description": "Available only working days",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "operator": "Sauber Motorsport",
+    "phone": "+41 44 937 90 00",
+    "id": "node/13236002601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8320066,
+      47.3051282
     ]
   }
 }
