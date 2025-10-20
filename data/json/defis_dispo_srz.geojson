@@ -39086,13 +39086,14 @@
   "type": "Feature",
   "id": "node/9737204851",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "In der Werkstatt an der linken Wand",
     "description": "während Betriebszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Th 07:30-12:00, 13:00-17:15; Fr 07:30-12:00, 13:00-15:30",
+    "level": "0",
+    "opening_hours": "Mo-Th ,Fr  07:00 - 16:30, 07:00-12:00",
     "operator": "Rosenbauer Schweiz AG",
     "phone": "+41 43 411 12 12",
     "id": "node/9737204851"
@@ -39100,8 +39101,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5075189,
-      47.4747564
+      8.5073715,
+      47.4742615
     ]
   }
 },
