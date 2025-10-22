@@ -30911,7 +30911,10 @@
     "description": "Öffentlich zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "phone": "+41794554973",
     "id": "node/7727112233"
   },
   "geometry": {
@@ -33292,6 +33295,27 @@
     "coordinates": [
       9.5474893,
       47.3185395
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7863996065",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sportanlage Riet, Südostseite, neben zweiten Eingang",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/7863996065"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4413704,
+      47.0435307
     ]
   }
 },
@@ -65114,7 +65138,7 @@
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Teufen",
-    "phone": "+41 71 333 55 03",
+    "phone": "+41713350054",
     "id": "node/9355814377"
   },
   "geometry": {
@@ -65136,7 +65160,7 @@
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Teufen",
-    "phone": "+41 71 333 55 03",
+    "phone": "+41713350054",
     "id": "node/9355814378"
   },
   "geometry": {
@@ -65158,7 +65182,7 @@
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Teufen",
-    "phone": "+41 71 333 55 03",
+    "phone": "+41713350054",
     "id": "node/9355814379"
   },
   "geometry": {
