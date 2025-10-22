@@ -979,17 +979,22 @@
   "id": "node/7559787499",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "in Schule",
-    "description": "während Schulbetrieb verfügbar",
+    "defibrillator:location": "beim Haupteingang Schulhaus Wagen",
+    "description": "beim Haupteingang Schulhaus Wagen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadt Rapperswil-Jona, Feuerwehr",
+    "phone": "+41552257073",
     "id": "node/7559787499"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8877732,
-      47.2320209
+      8.8876783,
+      47.2320445
     ]
   }
 },
@@ -15817,9 +15822,9 @@
   "type": "Feature",
   "id": "node/10214535519",
   "properties": {
-    "access": "no",
+    "access": "permissive",
     "defibrillator:location": "FC Wagen, Rickenstrasse 71, 8646 Wagen",
-    "description": "Bei Sportler Ein- und Ausgang",
+    "description": "Untergeschoss bei Garderoben",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -15828,8 +15833,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8872314,
-      47.2323038
+      8.8877515,
+      47.2321884
     ]
   }
 },
@@ -15925,19 +15930,23 @@
   "type": "Feature",
   "id": "node/10214581817",
   "properties": {
-    "access": "no",
+    "access": "yes",
     "defibrillator:location": "Hallenbad Schulhaus Lenggis, Paradiesweg 7, 8645 Jona",
     "description": "Beim Eingang Turnhalle/Hallenbad",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadt Rapperswil-Jona, Feuerwehr",
+    "phone": "+41552257073",
     "id": "node/10214581817"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8170775,
-      47.2414734
+      8.8170078,
+      47.2414479
     ]
   }
 },
