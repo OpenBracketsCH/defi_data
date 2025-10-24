@@ -11733,16 +11733,23 @@
   "type": "Feature",
   "id": "node/7637819088",
   "properties": {
-    "description": "zufahrt via Stationsstrasse AED bei Betriebssanität",
+    "access": "permissive",
+    "defibrillator:location": "Baselstrasse 65, bei der Security-Loge (JT International AG)",
+    "description": "Zufahrt via Stationsstrasse AED bei der Security-Loge",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
     "name": "JT (Japan Tabaco)",
+    "opening_hours": "24/7",
+    "operator": "JT International AG",
+    "phone": "+41627480182",
     "id": "node/7637819088"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.9804225,
+      7.9804226,
       47.2192421
     ]
   }

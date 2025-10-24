@@ -1827,18 +1827,23 @@
   "type": "Feature",
   "id": "node/7721045223",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Im Gebäude \"Zooschule\" neben Löwengehege.",
+    "access": "permissive",
+    "defibrillator:location": "Zoorestaurant",
     "description": "nur während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 9:00-17:00",
+    "operator": "Walter Zoo",
+    "phone": "+41 71 387 50 50",
     "id": "node/7721045223"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.2853677,
-      47.4208685
+      9.2846806,
+      47.4186218
     ]
   }
 },
@@ -17834,18 +17839,22 @@
   "type": "Feature",
   "id": "node/10050845117",
   "properties": {
-    "defibrillator:location": "Zur Tür rein Gleich rechts",
+    "defibrillator:location": "Zooschule - Tür rein Gleich rechts",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 9:00-17:00",
+    "operator": "Walter Zoo",
+    "phone": "+41 71 387 50 50",
     "wheelchair": "no",
     "id": "node/10050845117"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.2847326,
-      47.420847
+      9.2847327,
+      47.4208471
     ]
   }
 },
