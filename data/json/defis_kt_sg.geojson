@@ -4444,19 +4444,19 @@
   "type": "Feature",
   "id": "node/7865017612",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Beim Haupteingang (grosse Glastür) rechts",
-    "description": "AED ist 24h verfügbar",
+    "description": "AED ist während Hallenbenützung verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "24/7",
+    "indoor": "yes",
     "id": "node/7865017612"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.2008029,
-      47.2286219
+      9.200803,
+      47.2286223
     ]
   }
 },
