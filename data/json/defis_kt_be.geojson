@@ -61151,18 +61151,47 @@
   "type": "Feature",
   "id": "node/13261185201",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Institut für Metrologie METAS Lindenweg 50 3084 Wabern",
+    "description": "während den Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "opening_hours": "Mo-Fr 07:30-16:30",
+    "operator": "Institut für Metrologie METAS",
+    "phone": "+41583870111",
     "id": "node/13261185201"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4637211,
-      46.9237592
+      7.4637896,
+      46.9238572
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13261211001",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Lagerhausstrasse 18",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo - Sa 07:00 - 18:00",
+    "operator": "Schwab-Guillod AG",
+    "phone": "+41 32 312 92 24",
+    "id": "node/13261211001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.149876,
+      46.9921722
     ]
   }
 }
