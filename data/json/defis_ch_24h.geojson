@@ -614,6 +614,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/3097773751",
+  "properties": {
+    "check_date": "2024-09-07",
+    "defibrillator:location": "Freibad Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Badegenossenschaft Bichelsee",
+    "id": "node/3097773751"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8988507,
+      47.4559007
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/3166746986",
   "properties": {
     "defibrillator:location": "Velounterstand gegenüber Auholzsaal Sulgen",
@@ -141092,6 +141113,29 @@
     "coordinates": [
       8.2450557,
       46.8682938
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13264974001",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Bahnhofgebäude Kleine Scheidegg",
+    "description": "Ja. In einem Rucksack",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Jungfraubahn AG",
+    "id": "node/13264974001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9604457,
+      46.5849093
     ]
   }
 }
