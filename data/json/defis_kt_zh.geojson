@@ -62379,13 +62379,16 @@
   "type": "Feature",
   "id": "node/12301602202",
   "properties": {
-    "defibrillator:location": "Gebäude 3",
-    "description": "Nein",
+    "access": "permissive",
+    "defibrillator:location": "Gebäude 4 Treppenhaus 1. OG",
+    "description": "Treppenhaus 1. OG Gegenüber Lift",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "0",
-    "operator": "Firma",
+    "level": "1",
+    "opening_hours": "Mo-Fr 07:00-17:00",
+    "operator": "Schlatter Industries AG",
+    "phone": "+41 44 732 71 11",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/12301602202"
   },
@@ -70558,21 +70561,22 @@
   "type": "Feature",
   "id": "node/12886577101",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Brandstrasse 24, Zeitschaltuhr neben Pausenraum",
     "description": "Schlattermitatbeiter zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 06:00-18:00",
+    "opening_hours": "Mo-Fr 07:00-17:00",
     "operator": "Schlatter Industries",
-    "phone": "+41447327280",
+    "phone": "+41 44 732 71 11",
     "id": "node/12886577101"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4442272,
+      8.4442271,
       47.4018246
     ]
   }
