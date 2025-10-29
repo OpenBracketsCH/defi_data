@@ -15636,8 +15636,8 @@
     "access": "yes",
     "addr:city": "Rüschegg Heubach",
     "addr:housenumber": "891",
+    "addr:place": "Pfadern",
     "addr:postcode": "3154",
-    "addr:street": "Pfadern",
     "defibrillator:location": "operator=Alterszentrum Rüschegg",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -27121,8 +27121,8 @@
     "access": "permissive",
     "addr:city": "Langnau",
     "addr:housenumber": "5",
+    "addr:place": "Bärenplatz",
     "addr:postcode": "3550",
-    "addr:street": "Bärenplatz",
     "defibrillator:location": "Haupteingang Kirche, Eingangsbereich links, Zeitweise öffentlich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -30168,6 +30168,7 @@
     "addr:city": "Wattenwil",
     "addr:postcode": "3665",
     "addr:street": "Postgasse 4",
+    "check_date": "2025-10-29",
     "defibrillator:location": "Neben dem Bankomaten im geschützen Raum",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -61216,6 +61217,29 @@
     "coordinates": [
       7.9604457,
       46.5849093
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13266760501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Überquerung Welle 7",
+    "description": "Der Defibrillator ist an der Säule montiert.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "SBB",
+    "id": "node/13266760501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4365932,
+      46.9484061
     ]
   }
 }
