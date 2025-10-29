@@ -1882,17 +1882,23 @@
   "type": "Feature",
   "id": "node/7637812539",
   "properties": {
-    "description": "in der Praxis",
+    "access": "permissive",
+    "defibrillator:location": "medici ärztezentrum, St. Urbanstrasse 8, 6144 Zell",
+    "description": "In der Praxis",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
     "name": "Medici Ärztezentrum, Praxis",
+    "operator": "medici ärztezentrum",
+    "phone": "+41419897070",
     "id": "node/7637812539"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.9223815,
-      47.1385279
+      7.9223814,
+      47.1385278
     ]
   }
 },
