@@ -73696,9 +73696,9 @@
   "type": "Feature",
   "id": "node/13266925101",
   "properties": {
-    "access": "permissive",
+    "access": "private",
     "defibrillator:location": "Gate Gourmet Hauptgebäude",
-    "description": "Nach Aufzug rechte Seite nur intern erreichbar mit Zutrittsberechtigung",
+    "description": "Nach Aufzug rechte Seite , nur mit Zutrittsberechtigungausweis erreichbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -73706,6 +73706,7 @@
     "opening_hours": "24/7",
     "operator": "Gate Gourmet",
     "phone": "+41445337251",
+    "source": "aed-source",
     "id": "node/13266925101"
   },
   "geometry": {
@@ -73713,6 +73714,102 @@
     "coordinates": [
       8.5652437,
       47.4479191
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13266928401",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Gate Gourmet Hauptgebäude",
+    "description": "Beim Haupteingang nach der Drehtüre rechte Seite, nur mit Zutrittsberechtigungausweis  erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "24/7",
+    "operator": "Gate Gourmet",
+    "phone": "+41445337251",
+    "id": "node/13266928401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5652436,
+      47.4479189
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13266930603",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Gate Gourmet Hauptgebäude",
+    "description": "beim Warenlift  rechts neben Pot Wash Abteilung ,,nur intern  oder mit Zutrittsberechtigung erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "4",
+    "opening_hours": "24/7",
+    "operator": "Gate Gourmet",
+    "phone": "+41445337251",
+    "id": "node/13266930603"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5682408,
+      47.4469906
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13266968527",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Gate Gourmet Hauptgebäude",
+    "description": "Neben Warenlift  rechte Seite nur mit Zutrittsberechtigungsausweis erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "4",
+    "opening_hours": "24/7",
+    "operator": "Gate Gourmet",
+    "phone": "+41445337251",
+    "id": "node/13266968527"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5652545,
+      47.4478843
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13267008001",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Gate Gourmet Hauptgebäude",
+    "description": "neben Warenlift rechte Seite Eingang Pot Wash nur mit Zutrittsberechtigungsausweis",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "4",
+    "opening_hours": "24/7",
+    "operator": "Gate Gourmet",
+    "phone": "+41445337251",
+    "id": "node/13267008001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5649602,
+      47.4477418
     ]
   }
 }
