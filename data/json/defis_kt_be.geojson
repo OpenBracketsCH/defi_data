@@ -1296,9 +1296,11 @@
   "type": "Feature",
   "id": "node/4753150758",
   "properties": {
+    "addr:floor": "3",
     "contact:addr": "Fabrikstrasse 8, 3012 Bern",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "id": "node/4753150758"
   },
   "geometry": {
@@ -55900,6 +55902,7 @@
   "type": "Feature",
   "id": "node/12382197369",
   "properties": {
+    "addr:floor": "0",
     "defibrillator:location": "Nach Eingang rechts an Wand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
