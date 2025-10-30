@@ -71643,13 +71643,13 @@
     "addr:postcode": "8038",
     "addr:street": "Kalchbühlstrasse",
     "defibrillator:location": "Eingang links bei Reception",
-    "description": "Koffer Orange",
+    "description": "Koffer Gelb",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "name": "Hilti Schweiz",
-    "opening_hours": "MO-FR 08.00-12.00 13.00-17.00",
+    "opening_hours": "MO-FR 08.00-12.00 13.00-16.00",
     "operator": "Lifetec AG",
     "phone": "+41800122144",
     "ref": "1586LTM",
@@ -73810,6 +73810,29 @@
     "coordinates": [
       8.5649602,
       47.4477418
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13270183304",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo - Fr 08:00 - 16:00",
+    "operator": "Unternehmen",
+    "phone": "+41 44 763 68 50",
+    "id": "node/13270183304"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4452782,
+      47.2998528
     ]
   }
 }
