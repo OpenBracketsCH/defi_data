@@ -940,13 +940,14 @@
   "id": "node/11412699570",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schulhaus Ebenholz Im Parkhaus ",
-    "description": "ca. 30 Meter in die Einfahrt fahren rechts an der Wand ",
+    "defibrillator:location": "Schulhaus Ebenholz Im Parkhaus",
+    "description": "ca. 30 Meter in die Einfahrt fahren rechts an der Wand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "-1",
     "opening_hours": "24/7",
-    "operator": "Gemeinde Vaduz Florin Kofler ",
+    "operator": "Gemeinde Vaduz",
     "phone": "+423 793 78 29",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/11412699570"
@@ -954,8 +955,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5145464,
-      47.148473
+      9.514423,
+      47.1484976
     ]
   }
 },
@@ -1103,21 +1104,22 @@
   "id": "node/11414830171",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Baustelle neues Feuerwehr Depot",
-    "description": "An Container aussen zugänglich ",
+    "defibrillator:location": "Feuerwehr und Samariter Depot, Schaanerstr. 43",
+    "description": "Am Eingang zum Depot",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Vaduz",
-    "phone": "+423 793 78 02",
+    "phone": "+423 222 01 35",
     "id": "node/11414830171"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5073745,
-      47.1506029
+      9.5070739,
+      47.1501554
     ]
   }
 },
@@ -1821,7 +1823,8 @@
   "type": "Feature",
   "id": "node/12278966603",
   "properties": {
-    "defibrillator:location": "Architektur Hasler Landstr. 35",
+    "access": "yes",
+    "defibrillator:location": "Landstrasse 35, Architektur Hasler",
     "description": "Rechts beim Haupteingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -1829,13 +1832,13 @@
     "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Vaduz",
-    "phone": "+4237937802",
+    "phone": "+423 222 01 35",
     "id": "node/12278966603"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5154055,
+      9.5154054,
       47.1447383
     ]
   }
