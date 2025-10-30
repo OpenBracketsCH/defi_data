@@ -488,12 +488,12 @@
     "addr:place": "Station",
     "addr:postcode": "3801",
     "defibrillator:location": "Eis Gateway, links neben Drehtür, an der Wand.",
+    "description": "Nur während Betriebszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Während Betriebszeiten",
     "operator": "Jungfraubahn",
-    "phone": "033 828 79 36",
+    "phone": "+41 33 828 79 36",
     "id": "node/6565869515"
   },
   "geometry": {
@@ -2546,7 +2546,7 @@
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Sanitätsverein",
-    "phone": "0793694734",
+    "phone": "+41 79 369 47 34",
     "id": "node/10159393817"
   },
   "geometry": {
@@ -2861,13 +2861,13 @@
   "id": "node/10750914106",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "vor der Toilette ",
+    "defibrillator:location": "vor der Toilette",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "panoramax": "75a472f1-5da5-4476-9538-f0030ebdd7f3",
-    "phone": "0763826785",
+    "phone": "+41 76 382 67 85",
     "survey:date": "2025-07-07",
     "wheelchair": "yes",
     "id": "node/10750914106"
@@ -3724,7 +3724,7 @@
     "level": "0",
     "opening_hours": "Mo-Su 08:00-18:00",
     "operator": "Air Zermatt",
-    "phone": "0279707000",
+    "phone": "+41 27 970 70 00",
     "id": "node/11180998840"
   },
   "geometry": {
@@ -5149,12 +5149,11 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Im Durchgang zwischen Bhf und Cafébar, an Stützträger.",
-    "des": "während Betriebszeiten",
+    "description": "Nur während Betreibszeiten.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "zu Betreibszeiten",
     "operator": "Jungfraubahnen",
-    "phone": "033 828 79 36",
+    "phone": "+41 33 828 79 36",
     "id": "node/12749901953"
   },
   "geometry": {
@@ -5172,11 +5171,11 @@
     "access": "yes",
     "access:conditional": "yes @ opening_hours",
     "defibrillator:location": "Im oberen Stock zwischen Lifthalle Sphinx und Terasse.",
+    "description": "Nur während Betreibszeiten.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "Während Betreibszeiten.",
     "operator": "Jungfraubahnen",
-    "phone": "033 828 79 36",
+    "phone": "+41 33 828 79 36",
     "id": "node/12749901954"
   },
   "geometry": {
