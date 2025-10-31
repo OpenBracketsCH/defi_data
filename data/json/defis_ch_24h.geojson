@@ -46362,6 +46362,50 @@
 },
 {
   "type": "Feature",
+  "id": "node/8628247017",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Werderhaus vis a vis der Alten Kirche",
+    "description": "24 Stunden zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "id": "node/8628247017"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.321178,
+      47.3031087
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8628247022",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Mehrzweckhalle Boswil linker Eingang",
+    "description": "Gedeckt beim Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "id": "node/8628247022"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3116508,
+      47.3019474
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8629192717",
   "properties": {
     "access": "yes",
@@ -123908,29 +123952,6 @@
     "coordinates": [
       7.5893265,
       47.5879022
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12355188901",
-  "properties": {
-    "defibrillator:location": "Glattalstrasse 520. Beim linken Big Kaiser Gebäude, links hinter dem Haus die Treppe hoch. Klingeln ",
-    "description": "Privathaushalt, Ankündigung per 0793867082 oder klingeln bei Rogantiini",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "1",
-    "opening_hours": "24/7",
-    "operator": "Privatperson (First Responder) ",
-    "phone": "+41793867082",
-    "id": "node/12355188901"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5345468,
-      47.4378883
     ]
   }
 },
