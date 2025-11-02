@@ -36401,6 +36401,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Gartenbau Genossenschaft Zürich",
     "phone": "+41 79 667 94 93",
@@ -73830,6 +73831,54 @@
     "coordinates": [
       8.5531866,
       47.3545924
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13275149801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Logistikgebäude / Areal Kameraüberwacht",
+    "description": "während Öffnungszeiten verfügbar / Zugang über Rampe",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo - Fr 08:00 - 17:00",
+    "operator": "Gartenbau Genossenschaft",
+    "phone": "+41796679493",
+    "id": "node/13275149801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4938609,
+      47.4598192
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13275157801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bei Tankstelle an Wand / Areal Kameraüberwacht",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "Mo - Fr 06:00 - 18:00",
+    "operator": "Gartenbau Genossenschaft",
+    "phone": "+41796679493",
+    "id": "node/13275157801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4941774,
+      47.4599425
     ]
   }
 }
