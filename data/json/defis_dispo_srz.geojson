@@ -37047,6 +37047,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-17:00",
     "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
     "phone": "+41 58 728 99 09",
     "id": "node/9605130359"
@@ -37054,8 +37055,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5230036,
-      47.1845889
+      8.5230035,
+      47.1845884
     ]
   }
 },
@@ -94976,6 +94977,29 @@
     "coordinates": [
       8.5978983,
       47.6952705
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13277840901",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Göblizentrum, Industriestrasse 55",
+    "description": "während der Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-17:00",
+    "operator": "Eigentümerverband",
+    "id": "node/13277840901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.521658,
+      47.183856
     ]
   }
 }
