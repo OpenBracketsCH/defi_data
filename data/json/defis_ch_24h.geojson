@@ -34687,11 +34687,15 @@
   "id": "node/7933385453",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Im Innenraum Foyer des Oberstufenzentrum",
+    "defibrillator:location": "Vor dem Haupteingang rechts",
     "description": "Öffentlich zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "phone": "+41 71 791 80 83",
     "id": "node/7933385453"
   },
   "geometry": {
@@ -98913,6 +98917,30 @@
     "coordinates": [
       8.0455542,
       47.5388507
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11067121006",
+  "properties": {
+    "defibrillator:location": "Schulhaus Kaisten",
+    "description": "Aussenwand Schulgebäude",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Schule Kaisten",
+    "phone": "+41 62 869 13 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11067121006"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0427889,
+      47.540508
     ]
   }
 },
