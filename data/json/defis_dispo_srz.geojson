@@ -11793,18 +11793,28 @@
   "type": "Feature",
   "id": "node/7928195409",
   "properties": {
-    "defibrillator:location": "Wohnen im Alter",
-    "description": "während Öffnungszeiten verfügbar",
+    "access": "yes",
+    "addr:city": "Hünnenberg",
+    "addr:housenumber": "1",
+    "addr:postcode": "6331",
+    "addr:street": "Lindenpark",
+    "defibrillator:location": "Beim Eingang links",
+    "description": "Weisser Kasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "level": "0",
+    "opening_hours": "MO-SO 7.00-18.00",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1615LTC",
     "id": "node/7928195409"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4261033,
-      47.1775442
+      8.4260472,
+      47.1775906
     ]
   }
 },
@@ -59058,29 +59068,6 @@
     "coordinates": [
       8.53855,
       47.6058
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10910676174",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Gemeindehaus im Druckerraum",
-    "description": "oranger Koffer",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "name": "Gemeinde Rafz",
-    "operator": "Lifetec AG Schweiz",
-    "phone": "+41 800 122 144",
-    "id": "node/10910676174"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.53643,
-      47.61354
     ]
   }
 },
