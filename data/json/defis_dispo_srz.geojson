@@ -94994,15 +94994,15 @@
   "type": "Feature",
   "id": "node/13280126901",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Tramstrasse 208",
-    "description": "DEFI auf Baustelle jeder Zeit zugänglich.",
+    "description": "DEFI auf Baustelle im Baubüro Bauleitung",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Bollhalder Walser Architektur",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo - Fr 8:00 - 17:00",
+    "operator": "Bollhalder Walser Architektur, Leon Dushi",
     "phone": "+41 44 537 84 16",
     "id": "node/13280126901"
   },
@@ -95010,7 +95010,27 @@
     "type": "Point",
     "coordinates": [
       8.5646608,
-      47.4084246
+      47.4084247
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13282786020",
+  "properties": {
+    "access": "customers",
+    "addr:floor": "3",
+    "defibrillator:location": "3. Stock neben Eingang zum Atelier Uto",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "start_date": "2025",
+    "id": "node/13282786020"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4959048,
+      47.3830089
     ]
   }
 }
