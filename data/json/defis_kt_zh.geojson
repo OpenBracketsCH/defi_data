@@ -26739,19 +26739,22 @@
   "type": "Feature",
   "id": "node/9631144217",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "SwissRe Next",
-    "description": "Reception",
+    "access": "permissive",
+    "defibrillator:location": "Swiss Re Next, Reception (Mythenquai 50)",
+    "description": "Reception (im EG)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-17:30",
+    "operator": "Swiss Re",
+    "phone": "+41432852121",
     "id": "node/9631144217"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5352689,
-      47.3599096
+      8.5352692,
+      47.3599103
     ]
   }
 },
@@ -52064,7 +52067,8 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 7:30-16:30",
+    "opening_hours": "Mo-Fr 7:00-19:00",
+    "operator": "Swiss Re",
     "phone": "+41 43 285 65 23",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/11629971769"

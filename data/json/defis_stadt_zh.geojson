@@ -5251,19 +5251,22 @@
   "type": "Feature",
   "id": "node/9631144217",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "SwissRe Next",
-    "description": "Reception",
+    "access": "permissive",
+    "defibrillator:location": "Swiss Re Next, Reception (Mythenquai 50)",
+    "description": "Reception (im EG)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-17:30",
+    "operator": "Swiss Re",
+    "phone": "+41432852121",
     "id": "node/9631144217"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5352689,
-      47.3599096
+      8.5352692,
+      47.3599103
     ]
   }
 },
