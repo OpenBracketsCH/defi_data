@@ -14791,10 +14791,11 @@
   "id": "node/8142589127",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "In Schalterhalle (EG) an Pfosten",
+    "defibrillator:location": "links vom Haupteingang Stadtverwaltung",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
+    "level": "0",
     "opening_hours": "Mo 08:00-11:45,13:30-19:00; Tu-Th 08:00-11:45,13:30-16:30; Fr 07:00-14:00",
     "operator": "Stadt Illnau-Effretikon",
     "phone": "+41 52 354 24 24",
@@ -95106,6 +95107,65 @@
     "coordinates": [
       8.508466,
       47.105638
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13287346401",
+  "properties": {
+    "defibrillator:location": "Zivilschutzkeller vor dem Eingang",
+    "description": "Zivilschutzkeller",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "id": "node/13287346401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8074188,
+      47.4677213
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13287346402",
+  "properties": {
+    "defibrillator:location": "Wasserversorgung",
+    "description": "an der Hauswand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "id": "node/13287346402"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8218473,
+      47.4791532
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13287354501",
+  "properties": {
+    "defibrillator:location": "Luftschutzkeller Treppe hintunter",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "id": "node/13287354501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.84695,
+      47.4634519
     ]
   }
 }
