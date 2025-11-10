@@ -1466,7 +1466,8 @@
   "type": "Feature",
   "id": "node/6532019400",
   "properties": {
-    "defibrillator:location": "Haupteingang links",
+    "access": "yes",
+    "defibrillator:location": "Ochsenmatt Turnhallen / Haupteingang links",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -1478,8 +1479,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5929428,
-      47.179513
+      8.5929434,
+      47.1795132
     ]
   }
 },
@@ -12187,7 +12188,7 @@
   "type": "Feature",
   "id": "node/7928222750",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Büro Ökihof",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
@@ -12210,9 +12211,11 @@
   "type": "Feature",
   "id": "node/7928222751",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Haupteingang Schulhaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Menzingen",
@@ -12222,7 +12225,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6303048,
+      8.6303046,
       47.1673038
     ]
   }
@@ -26857,7 +26860,7 @@
   "id": "node/8831381726",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Haupteingang links",
+    "defibrillator:location": "Sportplatz Chrüzegg / Haupteingang links",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -26869,7 +26872,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5999911,
+      8.5999909,
       47.1729414
     ]
   }
@@ -26879,7 +26882,7 @@
   "id": "node/8831381727",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Haupteingang links",
+    "defibrillator:location": "Schützenmatt / Haupteingang links",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -26901,7 +26904,7 @@
   "id": "node/8831381728",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Im Bankomatenraum",
+    "defibrillator:location": "Raiffeisenbank / im Bankomatenraum",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -26913,8 +26916,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5908067,
-      47.1780066
+      8.590807,
+      47.1780063
     ]
   }
 },
@@ -93558,30 +93561,6 @@
     "coordinates": [
       8.5262328,
       47.1934891
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/13167015001",
-  "properties": {
-    "defibrillator:location": "Schulhaus Sternmatt 2",
-    "description": "Bei Eingang Schulhaus rechts an der Wand",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Einwohnergemeinde Baar",
-    "phone": "+41417690111",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/13167015001"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5262811,
-      47.1909629
     ]
   }
 },
