@@ -5644,9 +5644,11 @@
   "id": "node/7637818640",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Gebäude SteinerEnergie, Industriestrasse 1",
     "description": "Eingang Montage an Briefkasteneinheit.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "name": "Steiner Energie",
     "opening_hours": "24/7",
     "id": "node/7637818640"
@@ -5654,8 +5656,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.1813287,
-      47.0399615
+      8.1813289,
+      47.0399619
     ]
   }
 },
@@ -15479,6 +15481,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Vor Eingangstüre Rechts Seite Industriestrasse",
+    "description": "Ersichtlich von Industriestrasse",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -20576,16 +20579,18 @@
   "id": "node/12086024156",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Ausenwand Kiosk / WC Anlage",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/12086024156"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.1635895,
-      47.0367834
+      8.1635901,
+      47.0367831
     ]
   }
 },
