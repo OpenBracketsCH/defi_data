@@ -10251,13 +10251,14 @@
   "type": "Feature",
   "id": "node/9216298517",
   "properties": {
-    "access": "no",
+    "access": "private",
     "defibrillator:location": "Dienstgebäude Eingang A, links vom Bretzelkönig",
     "description": "zugänglich nur für SBB Mitarbeiter",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "SBB",
+    "level": "0",
+    "operator": "SBB Facility Management",
     "id": "node/9216298517"
   },
   "geometry": {
@@ -10272,20 +10273,22 @@
   "type": "Feature",
   "id": "node/9216302617",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Dienstgebäude Eingang B im Treppenhaus 1. OG",
     "description": "während den Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "1",
     "opening_hours": "Mo-Fr 08:00-17:00",
-    "operator": "SBB",
+    "operator": "SBB Facility Management",
     "id": "node/9216302617"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
       9.368257,
-      47.4220085
+      47.4220086
     ]
   }
 },
