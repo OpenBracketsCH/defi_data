@@ -846,12 +846,14 @@
   "type": "Feature",
   "id": "node/7559742684",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "in BWZ Schule",
-    "description": "während Schulbetrieb verfügbar",
+    "access": "permissive",
+    "defibrillator:location": "Alterswohnungen Porthof",
+    "description": "nicht zugänglich, eingeschlossen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "24/7",
+    "indoor": "yes",
+    "operator": "Stadt Rapperswil-Jona, Feuerwehr",
+    "phone": "+41 79 699 63 18",
     "id": "node/7559742684"
   },
   "geometry": {
