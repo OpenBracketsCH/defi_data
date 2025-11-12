@@ -22725,7 +22725,7 @@
   "id": "node/9207241170",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Haupteingang rechts bim Postbüro",
+    "defibrillator:location": "Haupteingang im Haus links ums Eck",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -22738,7 +22738,7 @@
     "type": "Point",
     "coordinates": [
       8.7125471,
-      47.2913217
+      47.2913212
     ]
   }
 },
@@ -74125,6 +74125,28 @@
     "coordinates": [
       8.5519056,
       47.3720786
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13299269502",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Schulhaus West neben Eingang Rote Kiste",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "TBZ",
+    "id": "node/13299269502"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.535338,
+      47.383813
     ]
   }
 }
