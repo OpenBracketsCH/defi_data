@@ -5062,20 +5062,20 @@
   "type": "Feature",
   "id": "node/9309829717",
   "properties": {
-    "defibrillator:location": "Zollhaus Müstair",
-    "description": "Im Zollhaus Defi verlangen",
+    "defibrillator:location": "Zollamt Müstair",
+    "description": "Während Anwesenheit des Zolls verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "08:00-17:00",
-    "operator": "Zoll Müstair",
+    "level": "0",
+    "operator": "Bundesamt für Zoll und Grenzsicherheit",
     "id": "node/9309829717"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      10.4584832,
-      46.6352629
+      10.4584855,
+      46.6352642
     ]
   }
 },
@@ -6592,20 +6592,19 @@
   "id": "node/9867479739",
   "properties": {
     "defibrillator:location": "Grenzübergang La Drossa",
-    "description": "während den Öffnungszeiten oder während Anwesenheit des Zolls verfügbar",
+    "description": "Während Anwesenheit des Zolls verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 09:00-17:00",
+    "level": "0",
     "operator": "Bundesamt für Zoll und Grenzsicherheit",
-    "phone": "+41584671515",
     "id": "node/9867479739"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      10.1896861,
-      46.653817
+      10.1896906,
+      46.6538255
     ]
   }
 },
