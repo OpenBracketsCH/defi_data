@@ -17120,12 +17120,13 @@
   "type": "Feature",
   "id": "node/9917845073",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Verkaufsfläche LIDL",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "operator": "LIDL Schweiz",
     "phone": "+41716278074",
     "id": "node/9917845073"
@@ -17133,8 +17134,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8199428,
-      47.2280186
+      8.8202247,
+      47.2283186
     ]
   }
 },
@@ -32299,7 +32300,9 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "operator": "Prisma Kirche, prisma.ch",
+    "phone": "+41 55 220 26 26",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/12817085203"
   },
@@ -35078,6 +35081,28 @@
     "coordinates": [
       8.895398,
       47.2198731
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13299827401",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "ENTRA Eventfläche (nur für Personal zugänglich)",
+    "description": "während Eventbetrieb verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "ENTRA AG",
+    "phone": "+41 55 222 70 20",
+    "id": "node/13299827401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8202701,
+      47.2279708
     ]
   }
 }
