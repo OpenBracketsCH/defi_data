@@ -23899,6 +23899,7 @@
     "defibrillator:location": "Schulhaus Morgarten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "24/7",
     "operator": "Einwohnergemeinde Oberägeri",
     "id": "node/7579692883"
@@ -140117,6 +140118,26 @@
     "coordinates": [
       7.0599925,
       47.0150446
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13188459687",
+  "properties": {
+    "defibrillator:location": "Cresta 98, 7134 Obersaxen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Apparthotel Panorama",
+    "id": "node/13188459687"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1192957,
+      46.7539423
     ]
   }
 },
