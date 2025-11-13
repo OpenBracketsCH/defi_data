@@ -2518,6 +2518,37 @@
 },
 {
   "type": "Feature",
+  "id": "node/5348742422",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Baden",
+    "addr:country": "CH",
+    "addr:housenumber": "15",
+    "addr:postcode": "5400",
+    "addr:street": "Haselstrasse",
+    "defibrillator:location": "Stempeluhr, Personaleingang 0572LTM",
+    "description": "Grüner Aussen-Kasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "name": "Regionalwerke AG Baden",
+    "opening_hours": "24/7",
+    "operator": "Regionalwerke AG Baden",
+    "phone": "+41562002222",
+    "ref": "0572LTM",
+    "id": "node/5348742422"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3065117,
+      47.4780191
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/5358307594",
   "properties": {
     "emergency": "defibrillator",
@@ -91591,6 +91622,32 @@
     "coordinates": [
       8.0533,
       47.33665
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10763310619",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang",
+    "description": "Grüner Aussen-Kassten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "name": "Regionalwerke AG Baden",
+    "opening_hours": "24/7",
+    "operator": "Regionalwerke AG Baden",
+    "phone": "+41562002222",
+    "ref": "0571LTM",
+    "id": "node/10763310619"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2931061,
+      47.4842166
     ]
   }
 },
