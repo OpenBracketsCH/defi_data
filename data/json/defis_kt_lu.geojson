@@ -16326,10 +16326,13 @@
   "type": "Feature",
   "id": "node/10168459417",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Gartenbau Muff",
+    "description": "Aussenbereich jederzeit zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "phone": "+41627712070",
     "id": "node/10168459417"
@@ -16337,8 +16340,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2110926,
-      47.2315289
+      8.2110062,
+      47.2315884
     ]
   }
 },
@@ -23275,6 +23278,30 @@
     "coordinates": [
       8.193496,
       47.1259706
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13310945901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Muff Gartenbau AG",
+    "description": "24/7",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Muff Immobilien AG",
+    "phone": "+41 62 771 20 70",
+    "id": "node/13310945901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2110175,
+      47.2315991
     ]
   }
 }

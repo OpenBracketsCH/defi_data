@@ -79938,10 +79938,13 @@
   "type": "Feature",
   "id": "node/10168459417",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Gartenbau Muff",
+    "description": "Aussenbereich jederzeit zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "phone": "+41627712070",
     "id": "node/10168459417"
@@ -79949,8 +79952,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2110926,
-      47.2315289
+      8.2110062,
+      47.2315884
     ]
   }
 },
@@ -141792,6 +141795,54 @@
     "coordinates": [
       6.778987,
       46.4763168
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13310945901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Muff Gartenbau AG",
+    "description": "24/7",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Muff Immobilien AG",
+    "phone": "+41 62 771 20 70",
+    "id": "node/13310945901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2110175,
+      47.2315991
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13310971301",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Im Haupteingang rechts nach der ersten Schiebetür",
+    "description": "verfügbar auf Verlangen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Provivatis wohnen im Seewinkel",
+    "phone": "+41 33 334 72 74",
+    "id": "node/13310971301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6265801,
+      46.7226771
     ]
   }
 }
