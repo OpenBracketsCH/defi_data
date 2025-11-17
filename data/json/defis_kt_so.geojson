@@ -4205,6 +4205,10 @@
   "id": "node/10763310256",
   "properties": {
     "access": "yes",
+    "addr:city": "Zuchwil",
+    "addr:housenumber": "8",
+    "addr:postcode": "4528",
+    "addr:street": "Allmendweg",
     "defibrillator:location": "An Stand-Säule im Aussenbereich, (Bei Einfahrt ins Areal geradeaus)",
     "description": "Grüner Kasten",
     "emergency": "defibrillator",
@@ -4214,6 +4218,7 @@
     "opening_hours": "24/7",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
+    "ref": "0978LTS",
     "id": "node/10763310256"
   },
   "geometry": {
@@ -4229,15 +4234,20 @@
   "id": "node/10763310257",
   "properties": {
     "access": "yes",
+    "addr:city": "Zuchwil",
+    "addr:postcode": "4528",
+    "addr:street": "Härtereistrasse",
     "defibrillator:location": "An Stand-Säule im Aussenbereich, (hinterer Bereich beim Evak-Platz)",
     "description": "Grüner Kasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "name": "Wincasa AG Bern",
     "opening_hours": "24/7",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
+    "ref": "0977LTS",
     "id": "node/10763310257"
   },
   "geometry": {
@@ -10002,6 +10012,28 @@
     "coordinates": [
       7.8721307,
       47.3777809
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13310904201",
+  "properties": {
+    "defibrillator:location": "Tagesschule Dornach / Geb. 50",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "operator": "HIAG Immobilen",
+    "phone": "+41 61 606 55 40",
+    "id": "node/13310904201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6078414,
+      47.478467
     ]
   }
 }
