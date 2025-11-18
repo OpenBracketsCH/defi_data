@@ -63207,18 +63207,19 @@
     "defibrillator:location": "öffentliche WC Anlage",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
-    "operator": "Kanton Zürich Strickhof",
+    "operator": "Einwohnergemeinde Walchwil, Dorfstrasse 23, 6318 Walchwil",
+    "phone": "+41 41 759 80 10",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/11210666237"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5361731,
-      47.1130869
+      8.5361892,
+      47.1127966
     ]
   }
 },
@@ -95411,6 +95412,29 @@
     "coordinates": [
       8.5261449,
       47.1942828
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13313136901",
+  "properties": {
+    "defibrillator:location": "Sihlporte 3",
+    "description": "abailable during business hours",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 08:00 - 18:00",
+    "operator": "Firma",
+    "phone": "+41446688000",
+    "id": "node/13313136901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5341928,
+      47.3723109
     ]
   }
 }
