@@ -7791,17 +7791,21 @@
   "id": "node/7644008605",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Dreifachturnhalle Breite",
+    "defibrillator:location": "Dreifachturnhalle Breite, beim Halleneingang zwischen Halle 2 und 3  im Untergeschoss (links). Roter Kasten an der Wand. Zugang nur bei offener Halle möglich.",
     "description": "nur zugänglich wenn Gebäude geöffnet sind",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "Mo-Su 07:00-22:00",
+    "wheelchair": "no",
     "id": "node/7644008605"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6234093,
-      47.7038306
+      8.6233442,
+      47.7039604
     ]
   }
 },
