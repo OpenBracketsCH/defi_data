@@ -691,11 +691,12 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Sozial Zentrum REX: 1. OG im Treppenhaus",
-    "description": "immer zugänglich an Werktagen von 08.00 bis 18.00 Uhr",
+    "description": "immer zugänglich an Werktagen von 08.30 bis 17.00 Uhr",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-18:00",
+    "level": "1",
+    "opening_hours": "Mo-Fr 08:30-17:00",
     "operator": "Stadt Luzern",
     "id": "node/7611640470"
   },
@@ -23310,6 +23311,26 @@
     "coordinates": [
       8.1924686,
       47.1277242
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13327634801",
+  "properties": {
+    "defibrillator:location": "Gemeindeverwaltung / Volg",
+    "description": "Aussen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "1",
+    "id": "node/13327634801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.111379,
+      47.2240808
     ]
   }
 }
