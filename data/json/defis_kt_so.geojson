@@ -1774,20 +1774,21 @@
   "type": "Feature",
   "id": "node/9129678917",
   "properties": {
-    "access": "no",
+    "access": "private",
     "defibrillator:location": "Produktion UG",
-    "description": "Mo bis Fr, ca. 07:00-17:00",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Firma",
+    "level": "-1",
+    "opening_hours": "Mo - Fr 07:00-17:00",
+    "operator": "CDR Glas AG",
     "phone": "+41 79 335 50 20",
     "id": "node/9129678917"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.39132,
+      7.3913201,
       47.1128067
     ]
   }
