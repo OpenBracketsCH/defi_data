@@ -897,6 +897,26 @@
 },
 {
   "type": "Feature",
+  "id": "node/3607164743",
+  "properties": {
+    "defibrillator:location": "Pfarreiheim",
+    "description": "Hinter Briefkasten Pfarreiheim",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/3607164743"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8866923,
+      47.1714745
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/3653196823",
   "properties": {
     "addr:city": "Au",
@@ -86814,30 +86834,6 @@
     "coordinates": [
       8.7244642,
       47.2387438
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10611433806",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Im Holzerhurd 60, Werkhof, neben Aufenthaltsraum an Wand",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "-1",
-    "opening_hours": "24/7",
-    "operator": "Gartenbau Genossenschaft Zürich",
-    "phone": "+41796679493",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/10611433806"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4967929,
-      47.4233801
     ]
   }
 },
