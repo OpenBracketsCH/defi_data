@@ -46985,11 +46985,10 @@
   "type": "Feature",
   "id": "node/10240188669",
   "properties": {
-    "access": "yes",
     "defibrillator:location": "im Sekretariat",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "24/7",
+    "indoor": "yes",
     "operator": "Primarschulhaus",
     "id": "node/10240188669"
   },
@@ -67743,19 +67742,19 @@
   "id": "node/11579506069",
   "properties": {
     "defibrillator:location": "Activ Fitness",
-    "description": "Während Öffnungszeiten",
+    "description": "Während Öffnungszeiten Active Fitness",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "yes",
     "level": "0",
-    "opening_hours": "24/7",
+    "opening_hours": "Mo-Fr 06:30-22:00; Sa-Su 09:00-18:00",
     "id": "node/11579506069"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4873562,
-      47.3914489
+      8.4875429,
+      47.3914201
     ]
   }
 },
@@ -69094,26 +69093,6 @@
     "coordinates": [
       8.4823679,
       47.4091449
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11680086569",
-  "properties": {
-    "defibrillator:location": "Eingang Tiefgarage links",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/11680086569"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4824967,
-      47.4092851
     ]
   }
 },
