@@ -7338,27 +7338,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10611433805",
-  "properties": {
-    "access": "private",
-    "defibrillator:location": "Ist nicht mehr in Betrieb!!",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/10611433805"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4967178,
-      47.4235725
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10611433806",
   "properties": {
     "access": "private",
@@ -11728,6 +11707,7 @@
   "type": "Feature",
   "id": "node/11579506069",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Activ Fitness",
     "description": "Während Öffnungszeiten Active Fitness",
     "emergency": "defibrillator",
@@ -17500,6 +17480,7 @@
   "type": "Feature",
   "id": "node/13329753301",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Thurgauerstrass 40, 8050 Zürich, beim Eingang rechts",
     "emergency": "defibrillator",
     "emergency:phone": "144",
