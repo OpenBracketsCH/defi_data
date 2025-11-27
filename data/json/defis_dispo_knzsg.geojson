@@ -3621,19 +3621,17 @@
   "type": "Feature",
   "id": "node/7786338208",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "beim Volg",
-    "description": "Öffentlich zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "id": "node/7786338208"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4742764,
-      47.0977573
+      9.4742266,
+      47.0977231
     ]
   }
 },
@@ -28652,28 +28650,6 @@
     "coordinates": [
       9.0345663,
       47.4649226
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11947852669",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Volg Dorfladen, Oberschan",
-    "description": "Defi hängt an der Aussenfassade.",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "opening_hours": "24/7",
-    "id": "node/11947852669"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.4742266,
-      47.0977231
     ]
   }
 },
