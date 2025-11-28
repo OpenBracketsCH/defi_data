@@ -44012,13 +44012,11 @@
   "type": "Feature",
   "id": "node/10834463905",
   "properties": {
-    "access": "no",
     "defibrillator:location": "ARZTPRAXIS",
     "description": "Während öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "note": "Aktuell 2025 nicht verfügbar da Arztpraxis nach Brand temporär in Humlikon (Gemeindevarwaltung?) ist. Nach Wiedereröffnung Access anpassen.",
     "opening_hours": "Mo-Fr 08:00-12:00,14:00-18:00",
     "operator": "Privatperson",
     "phone": "+41 52 317 31 71",
@@ -74545,18 +74543,20 @@
   "type": "Feature",
   "id": "node/13339059302",
   "properties": {
-    "defibrillator:location": "Im EG, im Gang nähe Toiletten",
+    "access": "permissive",
+    "defibrillator:location": "Institution Barbara Keller",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "phone": "+41 44 982 15 42",
     "id": "node/13339059302"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6259066,
-      47.3558019
+      8.6259064,
+      47.3558021
     ]
   }
 }
