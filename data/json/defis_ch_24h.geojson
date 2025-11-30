@@ -3018,6 +3018,47 @@
 },
 {
   "type": "Feature",
+  "id": "node/5661079523",
+  "properties": {
+    "defibrillator:location": "Altes Schulhaus Hermatswil",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Pfäffikon",
+    "id": "node/5661079523"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8277923,
+      47.3949785
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/5699100721",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "In Bushaltestelle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Wildberg",
+    "id": "node/5699100721"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8089819,
+      47.4193381
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/5719351201",
   "properties": {
     "defibrillator:location": "SR Technics, Building T22",
@@ -29488,6 +29529,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Hinwil",
     "id": "node/7667107724"
   },
   "geometry": {
@@ -41353,6 +41395,26 @@
 },
 {
   "type": "Feature",
+  "id": "node/8450413517",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeinde Rafz neben Gebäude",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8450413517"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5363756,
+      47.6136593
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8450667117",
   "properties": {
     "access": "yes",
@@ -42844,6 +42906,27 @@
     "coordinates": [
       7.6293994,
       46.9291185
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8541299123",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Trüllikon Gemeindehaus. Rechts neben dem Eingang um die Hausecke. Es hat ein Schild",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Trüllikon",
+    "id": "node/8541299123"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6939192,
+      47.6380066
     ]
   }
 },
@@ -57542,17 +57625,19 @@
   "id": "node/9091340917",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Ausserhalb des Volg-Gebäudes, rechts neben dem Volg- Eingang",
+    "defibrillator:location": "Volg Marthalen",
+    "description": "Ausserhalb des Volg-Gebäudes, rechts neben dem Volg- Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Volg Marthalen",
     "id": "node/9091340917"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6490986,
+      8.6490988,
       47.62604
     ]
   }
@@ -63774,14 +63859,15 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Pfäffikon",
     "phone": "+41 76 472 27 09",
     "id": "node/9284402017"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8075814,
-      47.3442763
+      8.8075805,
+      47.3442771
     ]
   }
 },
@@ -76397,6 +76483,27 @@
     "coordinates": [
       8.3143675,
       47.0673029
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9910218217",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Links vom Tierarzt-Eingang",
+    "description": "ist 24/7 erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9910218217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7874089,
+      47.33033
     ]
   }
 },
@@ -104849,6 +104956,28 @@
 },
 {
   "type": "Feature",
+  "id": "node/11373241669",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "altes Schulhaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Feuerwehrzweckverband Thur-Seebach",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11373241669"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8359314,
+      47.5974566
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/11380833321",
   "properties": {
     "access": "yes",
@@ -106007,6 +106136,27 @@
     "coordinates": [
       8.2859465,
       47.5346473
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11425523069",
+  "properties": {
+    "defibrillator:location": "Gerätelokal Schalchen",
+    "description": "immer zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/11425523069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8255727,
+      47.4070705
     ]
   }
 },
@@ -126906,6 +127056,28 @@
 },
 {
   "type": "Feature",
+  "id": "node/12430892201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hittnauerstrasse 21",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Bäretswil",
+    "phone": "+41 44 939 17 37",
+    "id": "node/12430892201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8269675,
+      47.3440863
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12431078501",
   "properties": {
     "access": "yes",
@@ -129242,6 +129414,30 @@
     "coordinates": [
       9.0717447,
       47.3840524
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12556479601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hausfassade Metzgerei Aeschlimann, Ludetswil 6, 8322 Russikon / Ludetswil",
+    "description": "Immer Zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Russikon",
+    "phone": "+41 43 355 61 41",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12556479601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8008857,
+      47.4187451
     ]
   }
 },
@@ -141596,6 +141792,28 @@
 },
 {
   "type": "Feature",
+  "id": "node/13283244101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Casino-Théâtre, dans l’angle nord-ouest",
+    "description": "disponible 24h/24h",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/13283244101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.7471115,
+      47.056023
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13287125501",
   "properties": {
     "access": "yes",
@@ -141718,13 +141936,14 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Pfäffikon",
     "id": "node/13300016801"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7897518,
-      47.3775513
+      8.7897491,
+      47.3775531
     ]
   }
 },

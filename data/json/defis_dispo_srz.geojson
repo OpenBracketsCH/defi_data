@@ -937,15 +937,19 @@
   "type": "Feature",
   "id": "node/5661079523",
   "properties": {
+    "defibrillator:location": "Altes Schulhaus Hermatswil",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Pfäffikon",
     "id": "node/5661079523"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8277927,
-      47.3949787
+      8.8277923,
+      47.3949785
     ]
   }
 },
@@ -958,15 +962,15 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "opening_hours": "24h zugänglich",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Wildberg",
     "id": "node/5699100721"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8089817,
-      47.4193383
+      8.8089819,
+      47.4193381
     ]
   }
 },
@@ -8575,6 +8579,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Hinwil",
     "id": "node/7667107724"
   },
   "geometry": {
@@ -19136,13 +19141,14 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/8450413517"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5363754,
-      47.6136592
+      8.5363756,
+      47.6136593
     ]
   }
 },
@@ -19809,14 +19815,15 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Trüllikon",
     "id": "node/8541299123"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6939173,
-      47.6380056
+      8.6939192,
+      47.6380066
     ]
   }
 },
@@ -31196,17 +31203,19 @@
   "id": "node/9091340917",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Ausserhalb des Volg-Gebäudes, rechts neben dem Volg- Eingang",
+    "defibrillator:location": "Volg Marthalen",
+    "description": "Ausserhalb des Volg-Gebäudes, rechts neben dem Volg- Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Volg Marthalen",
     "id": "node/9091340917"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6490986,
+      8.6490988,
       47.62604
     ]
   }
@@ -33206,14 +33215,15 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Pfäffikon",
     "phone": "+41 76 472 27 09",
     "id": "node/9284402017"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8075814,
-      47.3442763
+      8.8075805,
+      47.3442771
     ]
   }
 },
@@ -41410,13 +41420,14 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/9910218217"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7874095,
-      47.3303304
+      8.7874089,
+      47.33033
     ]
   }
 },
@@ -66355,20 +66366,20 @@
   "type": "Feature",
   "id": "node/11425523069",
   "properties": {
-    "access": "no",
     "defibrillator:location": "Gerätelokal Schalchen",
     "description": "immer zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
+    "opening_hours": "24/7",
     "id": "node/11425523069"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8255738,
-      47.4070681
+      8.8255727,
+      47.4070705
     ]
   }
 },
@@ -83427,6 +83438,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Bäretswil",
     "phone": "+41 44 939 17 37",
     "id": "node/12430892201"
@@ -83435,7 +83447,7 @@
     "type": "Point",
     "coordinates": [
       8.8269675,
-      47.3440862
+      47.3440863
     ]
   }
 },
@@ -85508,6 +85520,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Russikon",
     "phone": "+41 43 355 61 41",
     "source": "local_knowledge, defikarte.ch",
@@ -95217,13 +95230,14 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Pfäffikon",
     "id": "node/13300016801"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7897518,
-      47.3775513
+      8.7897491,
+      47.3775531
     ]
   }
 },
