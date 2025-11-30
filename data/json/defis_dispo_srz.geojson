@@ -505,14 +505,16 @@
     "defibrillator:location": "Links aussen am Eingang des Museums, im grünen Metall Ästen an der Wand.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Pfäffikon",
     "id": "node/5028745126"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7814453,
-      47.3641983
+      8.781445,
+      47.3641984
     ]
   }
 },
@@ -574,10 +576,12 @@
   "type": "Feature",
   "id": "node/5030710122",
   "properties": {
+    "defibrillator:location": "Gemeindehaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Pfäffikon",
     "id": "node/5030710122"
   },
   "geometry": {
@@ -811,12 +815,14 @@
     "addr:housenumber": "7",
     "addr:postcode": "8330",
     "addr:street": "Bahnhofstrasse",
-    "defibrillator:location": "Fassade zur Bahnhofstrasse, neben Informationstafel",
+    "defibrillator:location": "Geschäftshaus Molki",
+    "description": "Fassade zur Bahnhofstrasse, neben Informationstafel",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "foot": "yes",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Pfäffikon",
     "id": "node/5343239855"
   },
   "geometry": {
@@ -832,19 +838,21 @@
   "id": "node/5390805722",
   "properties": {
     "bicycle": "yes",
+    "defibrillator:location": "Schulhaus Obermatt",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "foot": "yes",
     "indoor": "no",
     "motor_vehicle": "no",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Pfäffikon",
     "id": "node/5390805722"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7771628,
-      47.3681142
+      8.7771629,
+      47.3681143
     ]
   }
 },
@@ -853,18 +861,19 @@
   "id": "node/5397732423",
   "properties": {
     "check_date": "2025-11-29",
-    "defibrillator:location": "Unter Vordach",
+    "defibrillator:location": "Schulhaus Mettlen Unter Vordach",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Pfäffikon / Schulhaus Mettlen",
     "id": "node/5397732423"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
       8.7909494,
-      47.3642996
+      47.3642997
     ]
   }
 },
@@ -6785,15 +6794,17 @@
     "description": "Das Gerät ist ganzjährig und rund um die Uhr öffentlich zugänglich.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "name": "Strandbad Auslikon",
     "opening_hours": "24/7",
+    "operator": "Strandbad Auslikon resp. Gemeinde Wetzikon",
     "id": "node/7593504907"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7913073,
-      47.3431379
+      8.7913075,
+      47.3431376
     ]
   }
 },
@@ -27841,13 +27852,14 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Pfäffikon",
     "id": "node/8842863018"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.779193,
-      47.3722803
+      8.7791933,
+      47.3722801
     ]
   }
 },
@@ -95763,6 +95775,27 @@
     "coordinates": [
       8.6259064,
       47.3558021
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13342558209",
+  "properties": {
+    "defibrillator:location": "Wertstoffsammelstelle Schanz",
+    "description": "An der Aussenwand neben der Einfahrt",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Pfäffikon",
+    "id": "node/13342558209"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.768537,
+      47.3651573
     ]
   }
 }
