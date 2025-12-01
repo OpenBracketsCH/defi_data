@@ -2496,12 +2496,14 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung Oetwil",
+    "phone": "+41 44 749 33 66",
     "id": "node/7572776737"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3943405,
+      8.3943406,
       47.4283292
     ]
   }
@@ -74628,6 +74630,25 @@
     "coordinates": [
       8.6073697,
       47.3464676
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13344258001",
+  "properties": {
+    "defibrillator:location": "Mettmenriet",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "id": "node/13344258001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.544116,
+      47.512179
     ]
   }
 }

@@ -5064,21 +5064,22 @@
   "type": "Feature",
   "id": "node/10572532539",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "A la réception d'Holdigaz",
+    "access": "permissive",
+    "defibrillator:location": "A la réception, vers l'entrée du personnel",
     "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "operator": "Holdigaz",
+    "opening_hours": "Mo-Fr 07:30-12:00, 13:30-17:30",
+    "operator": "Holdinova SA",
     "id": "node/10572532539"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.8397064,
-      46.4646785
+      6.8397061,
+      46.4646787
     ]
   }
 },
@@ -7433,20 +7434,21 @@
   "type": "Feature",
   "id": "node/11031960874",
   "properties": {
-    "access": "private",
+    "access": "permissive",
     "defibrillator:location": "Dans l'atelier",
     "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Holdigaz",
+    "opening_hours": "Mo-Fr 07:30-12:00, 13:30-17:00",
+    "operator": "Holdinova SA",
     "id": "node/11031960874"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.8401013,
-      46.4648384
+      6.8401014,
+      46.4648383
     ]
   }
 },
