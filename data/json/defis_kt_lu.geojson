@@ -4216,17 +4216,20 @@
   "type": "Feature",
   "id": "node/7637818550",
   "properties": {
+    "defibrillator:location": "Romoos Schulhaus Dorf",
     "description": "Haupteingang MZ-Gebäude/Gemeindesaal",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "name": "Schulhaus",
+    "opening_hours": "24/7",
     "id": "node/7637818550"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0272485,
-      47.0115031
+      8.0272481,
+      47.0115022
     ]
   }
 },
@@ -11646,14 +11649,16 @@
     "description": "vor altem Schulhaus, neben dem Anschlagkasten der Gemeinde",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "name": "Schulhaus/Gemeindeverwaltung Doppleschwand",
+    "opening_hours": "24/7",
     "id": "node/7637819083"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0549869,
-      47.0188249
+      8.0549848,
+      47.0188245
     ]
   }
 },
@@ -20476,6 +20481,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Wolhusen",
     "phone": "+41 41 490 32 91",
     "source": "local_knowledge, defikarte.ch",
