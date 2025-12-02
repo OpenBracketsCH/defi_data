@@ -15356,14 +15356,14 @@
   "id": "node/10079206817",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bionstrasse 7 / 1. OG / Empfang",
+    "defibrillator:location": "Bionstrasse 7 / 1. OG / Der Defi befindet sich direkt neben dem Personenlift an der Wand",
     "description": "Der Defibrillator ist nur während den Öffnungszeiten zugänglich.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "opening_hours": "Mo-Fr 07:00-12:00,13:00-17:00",
-    "operator": "Geschäftlich",
+    "opening_hours": "Mo-Fr 07:00-12:00, 13:00-17:00",
+    "operator": "KOCH Group AG, Bionstrasse 7, 9015 St. Gallen",
     "phone": "+41 71 313 23 23",
     "id": "node/10079206817"
   },
@@ -29654,6 +29654,30 @@
     "coordinates": [
       8.8114569,
       47.238914
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13347822901",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Eingang Rampe - der Defi befindet sich an der Wand auf der rechten Seite",
+    "description": "Nur während den Öffnungszeiten zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-12:00, 13:00-17:15",
+    "operator": "KOCH Group AG, Bionstrasse 7, 9015 St. Gallen",
+    "phone": "+41 71 313 23 23",
+    "id": "node/13347822901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3147956,
+      47.4084486
     ]
   }
 }
