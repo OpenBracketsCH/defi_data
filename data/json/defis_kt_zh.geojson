@@ -32392,14 +32392,15 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Trüllikon",
     "id": "node/10013669018"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6741305,
-      47.6402778
+      8.6741298,
+      47.6402784
     ]
   }
 },
@@ -74772,6 +74773,30 @@
     "coordinates": [
       8.531149,
       47.3815867
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13351959801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Ida-Sträuli-Strasse 65, im Durchgang zum Innenhof",
+    "description": "Immer zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Hausverein Giesserei",
+    "phone": "+41 79 377 42 80",
+    "id": "node/13351959801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7662578,
+      47.5039039
     ]
   }
 }

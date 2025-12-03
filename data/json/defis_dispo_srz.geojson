@@ -12912,14 +12912,15 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Einwohnergemeinde Unterägeri",
     "id": "node/7930578722"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5930857,
-      47.1324295
+      8.5930842,
+      47.1324288
     ]
   }
 },
@@ -44360,14 +44361,15 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Trüllikon",
     "id": "node/10013669018"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6741305,
-      47.6402778
+      8.6741298,
+      47.6402784
     ]
   }
 },
@@ -68661,6 +68663,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
+    "opening_hours": "24/7",
     "operator": "Bezirk",
     "phone": "+41 55 418 41 20",
     "source": "local_knowledge, defikarte.ch",
@@ -68848,14 +68851,15 @@
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
+    "opening_hours": "24/7",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/11662949469"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6665703,
-      47.7552226
+      8.6665714,
+      47.7552232
     ]
   }
 },
@@ -88135,6 +88139,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Landw. Genossenschaftsverband Schaffhausen (GVS)",
     "phone": "+41 52 631 17 00",
     "source": "local_knowledge, defikarte.ch",
@@ -96045,6 +96050,30 @@
     "coordinates": [
       8.531149,
       47.3815867
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13351959801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Ida-Sträuli-Strasse 65, im Durchgang zum Innenhof",
+    "description": "Immer zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Hausverein Giesserei",
+    "phone": "+41 79 377 42 80",
+    "id": "node/13351959801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7662578,
+      47.5039039
     ]
   }
 }
