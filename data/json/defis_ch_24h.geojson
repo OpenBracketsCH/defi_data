@@ -14910,6 +14910,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/6834528285",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "365 T/J zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Härz fir Obwaldä",
+    "phone": "+41 79 961 62 41",
+    "id": "node/6834528285"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1294483,
+      46.7892768
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/6875363551",
   "properties": {
     "emergency": "defibrillator",
@@ -38360,13 +38383,15 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Härz fir Obwaldä",
+    "phone": "+41 79 961 62 41",
     "id": "node/8341346002"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
       8.1862575,
-      46.837515
+      46.8375149
     ]
   }
 },
