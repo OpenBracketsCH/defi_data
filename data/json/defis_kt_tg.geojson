@@ -15842,7 +15842,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 07:00-21:00",
+    "opening_hours": "Mo-Fr 07:00-21:00, Sa 07:00-12:00",
     "operator": "Kantonsschule Frauenfeld",
     "phone": "+41 58 345 50 30",
     "id": "node/13353683201"
@@ -15851,7 +15851,55 @@
     "type": "Point",
     "coordinates": [
       8.9037286,
-      47.5563836
+      47.5563835
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13353692601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kantonsschschule Frauenfeld, Hauptgebäude",
+    "description": "Beim Haupteingang rechts, beim Brunnen rechts vor dem Büro Hausdienst",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-21:00, Sa 07:00-16:00",
+    "operator": "Kantonschule Frauenfeld",
+    "phone": "+41 58 345 50 30",
+    "id": "node/13353692601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.902984,
+      47.5551773
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13353698703",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kantonsschule Frauenfeld, Sporthallen",
+    "description": "vor dem Hauswartbüro rechts bei der Sporthalle 4",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-22:00, Sa-Su \"nur während Sportveranstaltung verfügbar\"",
+    "operator": "Kantonsschule Frauenfeld",
+    "phone": "+41 58 345 50 30",
+    "id": "node/13353698703"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9047951,
+      47.5546528
     ]
   }
 }
