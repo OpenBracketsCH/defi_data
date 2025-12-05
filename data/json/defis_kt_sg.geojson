@@ -75,6 +75,32 @@
 },
 {
   "type": "Feature",
+  "id": "node/3459789235",
+  "properties": {
+    "access": "yes",
+    "covered": "yes",
+    "defibrillator:location": "Vor dem Haupteingang des Hallenbades Amden",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "leisure": "sports_centre",
+    "name": "Hallenbad Amden",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Amden",
+    "phone": "+41 58 228 25 00",
+    "sport": "swimming",
+    "id": "node/3459789235"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1414084,
+      47.148647
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/3653196823",
   "properties": {
     "addr:city": "Au",
@@ -11932,28 +11958,6 @@
     "coordinates": [
       9.1199894,
       47.1394499
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9355771303",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Vor dem Haupteingang des Hallenbades Amden",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde Amden",
-    "phone": "+41 58 228 25 00",
-    "id": "node/9355771303"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.1414323,
-      47.1486591
     ]
   }
 },
