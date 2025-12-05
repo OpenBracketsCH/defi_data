@@ -84394,24 +84394,25 @@
   "type": "Feature",
   "id": "node/12506584501",
   "properties": {
-    "access": "permit",
-    "defibrillator:location": "Wasser- und Elektrizitätswerk Steinhausen (WESt)",
+    "access": "permissive",
+    "defibrillator:location": "Wasser- und Elektrizitätswerk Steinhausen AG",
     "description": "Während Öffnungszeiten zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "note": "AED Schiller Fred Easy\ninkl. Beatmungsmaske, Pads für Kinder und Erwachsene sowie weiteres Zubehör.",
-    "operator": "Gemeindeverwaltung Steinhausen",
-    "phone": "+41 41 748 11 55",
+    "note": "AED Schiller Fred Easy inkl. Beatmungsmaske, Pads für Kinder und Erwachsene sowie weiteres Zubehör.",
+    "opening_hours": "Mo-Th 07:15 - 12:00, 13:00 - 16:45",
+    "operator": "Wasser- und Elektrizitätswerk Steinhausen AG",
+    "phone": "+41 41 749 40 30",
     "source": "local_knowledge, defikarte.ch;local knowledge;Eigentümer",
     "id": "node/12506584501"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4800388,
-      47.1925437
+      8.4800385,
+      47.192544
     ]
   }
 },
@@ -96180,6 +96181,36 @@
     "coordinates": [
       8.6237338,
       47.4175931
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13355029888",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Stäfa",
+    "addr:housenumber": "62",
+    "addr:postcode": "8712",
+    "addr:street": "Rhynerstrasse",
+    "defibrillator:location": "Eingang Gebäude",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "name": "Gemeinde Stäfa ZH",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1624lts",
+    "id": "node/13355029888"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7394787,
+      47.2473688
     ]
   }
 }
