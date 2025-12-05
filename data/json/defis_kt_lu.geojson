@@ -3499,14 +3499,16 @@
     "defibrillator:location": "Hängt an der äusseren Gebäudehülle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "name": "Städtlipraxis Sempach",
+    "opening_hours": "24/7",
     "id": "node/7637818473"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.1935452,
-      47.1347295
+      8.193545,
+      47.1347297
     ]
   }
 },
@@ -11379,19 +11381,21 @@
   "id": "node/7637819067",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Schule Eich",
     "description": "im Foyer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "name": "Mehrzweckanlage",
+    "opening_hours": "24/7",
     "source": "survey",
     "id": "node/7637819067"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.1676758,
-      47.1534159
+      8.1676751,
+      47.1534163
     ]
   }
 },
@@ -14724,13 +14728,14 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Stadt Sempach",
     "id": "node/9553730800"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.1911015,
+      8.1911016,
       47.1366045
     ]
   }
@@ -14760,14 +14765,15 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Stadt Sempach",
     "id": "node/9553776436"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.1931966,
-      47.133916
+      8.1931967,
+      47.1339159
     ]
   }
 },
@@ -22672,6 +22678,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
+    "opening_hours": "24/7",
     "operator": "Firma",
     "phone": "+41 41 914 19 20",
     "source": "local_knowledge, defikarte.ch",
@@ -23338,13 +23345,14 @@
     "emergency:phone": "144",
     "indoor": "no",
     "level": "1",
+    "opening_hours": "24/7",
     "id": "node/13327634801"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.111379,
-      47.2240808
+      8.1113783,
+      47.2240803
     ]
   }
 },
@@ -23399,6 +23407,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Stadt Sursee, Centralstrasse 9, 6210 Surrsee",
     "phone": "+41 41 926 90 00",
     "id": "node/13352767201"
@@ -23406,8 +23415,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.1067833,
-      47.1745379
+      8.1067836,
+      47.1745377
     ]
   }
 }

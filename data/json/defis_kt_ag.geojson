@@ -10027,6 +10027,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Moosleerau",
     "phone": "+41 62 738 70 80",
     "id": "node/9341877119"
@@ -10035,7 +10036,7 @@
     "type": "Point",
     "coordinates": [
       8.0640902,
-      47.2677758
+      47.2677756
     ]
   }
 },
@@ -15301,6 +15302,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Hauri AG Staffelbach",
     "phone": "+41 62 739 16 16",
     "source": "local_knowledge, defikarte.ch",
@@ -15309,8 +15311,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0487779,
-      47.281746
+      8.0487782,
+      47.2817456
     ]
   }
 },
@@ -22423,17 +22425,18 @@
   "id": "node/11459368072",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "An Assenwand",
+    "defibrillator:location": "An Aussenwand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/11459368072"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0396819,
-      47.2855759
+      8.0396815,
+      47.2855757
     ]
   }
 },
@@ -29338,7 +29341,7 @@
   "type": "Feature",
   "id": "node/13172792501",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "defibrillator:location": "Gwärbi 325, vor Werkstatteingang",
     "description": "Aussenmontage. Immer zugänglich",
     "emergency": "defibrillator",
@@ -29352,7 +29355,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0595,
+      8.0595003,
       47.2677547
     ]
   }
