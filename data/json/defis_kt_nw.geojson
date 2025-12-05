@@ -250,17 +250,20 @@
   "type": "Feature",
   "id": "node/7637812550",
   "properties": {
+    "defibrillator:location": "Feuerwehrgebäude",
     "description": "Ausserhalb Feuerwehrgebeude",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "name": "Feuerwehrlokal Wirzweli Aussenmauer",
+    "opening_hours": "24/7",
     "id": "node/7637812550"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.35902,
-      46.91107
+      8.3590186,
+      46.9110689
     ]
   }
 },
@@ -538,18 +541,20 @@
   "type": "Feature",
   "id": "node/7637818447",
   "properties": {
+    "defibrillator:location": "Nidwaldner Kantonalbank",
     "description": "neben Briefkästen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "name": "Staatsarchiv",
+    "opening_hours": "24/7",
     "id": "node/7637818447"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3602989,
-      46.9626142
+      8.3602993,
+      46.9626143
     ]
   }
 },
@@ -1651,13 +1656,14 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/9531752713"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3975185,
-      46.9403253
+      8.397519,
+      46.9403247
     ]
   }
 },
