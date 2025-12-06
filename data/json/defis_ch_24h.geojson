@@ -23945,6 +23945,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/7579656843",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "In Polizeidienststelle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Kanton Zug",
+    "id": "node/7579656843"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5772672,
+      47.1381025
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/7579656844",
   "properties": {
     "access": "yes",
@@ -66537,10 +66558,11 @@
   "properties": {
     "access": "yes",
     "addr:place": "Station Wengernalp",
-    "defibrillator:location": "Am Bahnhofgebäude auf Gleis 1",
+    "defibrillator:location": "An Gebäudewand auf Gleis 1",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "location": "outdoor",
     "opening_hours": "24/7",
     "operator": "Wengernalpbahn",
     "phone": "+41 33 828 79 36",
@@ -66549,8 +66571,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.9390358,
-      46.5756526
+      7.9388083,
+      46.5756758
     ]
   }
 },
@@ -69090,6 +69112,29 @@
     "coordinates": [
       8.9151695,
       47.2575085
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9459918657",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Treppenhaus im Erdgeschoss",
+    "description": "24h verfügbar (über Türöffnung)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Markus Gössi",
+    "phone": "+41 78 839 80 74",
+    "id": "node/9459918657"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5820456,
+      47.1361338
     ]
   }
 },
@@ -80955,6 +81000,28 @@
 },
 {
   "type": "Feature",
+  "id": "node/10168504634",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vor dem Haupteingang Turnhalle In einem Pro Case",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "note": "144",
+    "opening_hours": "24/7",
+    "operator": "Schulgemeinde Appenzell",
+    "id": "node/10168504634"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4124964,
+      47.3267086
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10168543618",
   "properties": {
     "access": "yes",
@@ -84677,6 +84744,25 @@
     "coordinates": [
       7.5490324,
       46.8206969
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10285274309",
+  "properties": {
+    "defibrillator:location": "enggenhüttenstrasse 70",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/10285274309"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3897378,
+      47.3537324
     ]
   }
 },
@@ -125401,6 +125487,30 @@
     "coordinates": [
       8.5848713,
       47.1325164
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12351526301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Primarschulhaus Waldstatt Schulstrasse links neben dem Eingang",
+    "description": "7x24",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Waldstatt",
+    "phone": "+41 79 231 53 14",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12351526301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2833225,
+      47.3559792
     ]
   }
 },
