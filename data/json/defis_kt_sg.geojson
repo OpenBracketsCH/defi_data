@@ -4970,17 +4970,21 @@
   "properties": {
     "access": "permissive",
     "defibrillator:location": "am Gebäude, mit Code erreichbar",
-    "description": "Der Defi (LP 1000) ist in einem Raum stationiert, welcher mit einem Code geöffnet werden kann. Den Code erhält man, wenn die 144 angerufen wird > dort ist der Code hinterlegt.",
+    "description": "Der Defi ist in einem Raum stationiert, welcher mit einem Code geöffnet werden kann. Den Code erhält man, wenn die 144 angerufen wird > dort ist der Code hinterlegt.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
+    "operator": "Medicalguard",
+    "phone": "+41 79 656 13 28",
     "id": "node/7966142574"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.6663039,
-      47.38132
+      9.6663044,
+      47.3813199
     ]
   }
 },
@@ -29708,6 +29712,52 @@
     "coordinates": [
       9.3609926,
       47.4218557
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13356873001",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-20:00",
+    "operator": "Tennishalle",
+    "phone": "+41 79 650 04 87",
+    "id": "node/13356873001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.6679609,
+      47.3822737
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13356885901",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Eingangsbereich Firma Greiner",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:30-17:00",
+    "operator": "Firma Greiner",
+    "phone": "+41 71 737 83 00",
+    "id": "node/13356885901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.6675352,
+      47.3919921
     ]
   }
 }

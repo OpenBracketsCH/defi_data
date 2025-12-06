@@ -35582,17 +35582,21 @@
   "properties": {
     "access": "permissive",
     "defibrillator:location": "am Gebäude, mit Code erreichbar",
-    "description": "Der Defi (LP 1000) ist in einem Raum stationiert, welcher mit einem Code geöffnet werden kann. Den Code erhält man, wenn die 144 angerufen wird > dort ist der Code hinterlegt.",
+    "description": "Der Defi ist in einem Raum stationiert, welcher mit einem Code geöffnet werden kann. Den Code erhält man, wenn die 144 angerufen wird > dort ist der Code hinterlegt.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
+    "operator": "Medicalguard",
+    "phone": "+41 79 656 13 28",
     "id": "node/7966142574"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.6663039,
-      47.38132
+      9.6663044,
+      47.3813199
     ]
   }
 },
