@@ -1155,18 +1155,19 @@
   "id": "node/7720904257",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bei der Kirche",
+    "defibrillator:location": "Direkt innerhalb neben Haupteingang.",
     "description": "Öffentlich zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "24/7",
     "id": "node/7720904257"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      10.336909,
-      46.8159292
+      10.3367085,
+      46.8159361
     ]
   }
 },
@@ -14273,26 +14274,6 @@
     "coordinates": [
       9.4418295,
       46.6993329
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12402662401",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Baselgia San Lurench",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "id": "node/12402662401"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      10.336618,
-      46.8158618
     ]
   }
 },
