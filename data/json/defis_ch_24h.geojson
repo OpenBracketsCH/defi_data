@@ -98732,6 +98732,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/11037783605",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "EFH",
+    "description": "An der Aussenwand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Privat",
+    "id": "node/11037783605"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5464245,
+      47.6135842
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/11038060205",
   "properties": {
     "defibrillator:location": "Caserne d‘aviation",
@@ -98815,6 +98838,29 @@
     "coordinates": [
       8.8400477,
       46.4408265
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11038060216",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Mehrzweckhalle Schulhaus Stumpenboden, neben Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Feuerthalen",
+    "phone": "+41 52 647 47 47",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11038060216"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6478925,
+      47.6873607
     ]
   }
 },
