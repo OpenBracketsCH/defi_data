@@ -17997,10 +17997,12 @@
   "type": "Feature",
   "id": "node/8811163707",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Vor Gemeindehaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Buchs ZH",
     "phone": "+41 44 847 75 00",
@@ -18010,7 +18012,7 @@
     "type": "Point",
     "coordinates": [
       8.4369206,
-      47.4577578
+      47.4577725
     ]
   }
 },
@@ -48266,7 +48268,7 @@
   "type": "Feature",
   "id": "node/11275503569",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Obstgartenstrasse 19",
     "description": "auf der Garderobe am Eingang",
     "emergency": "defibrillator",
@@ -48539,6 +48541,7 @@
   "type": "Feature",
   "id": "node/11293205169",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Im Haupteingang links auf Kopfhöhe an der Wand im Schulhaus Kern, Kernstrasse 45, 8004 Zürich",
     "description": "Während Schulbetrieb offen und während Schulferien/Feiertage teils geschlossen.",
     "emergency": "defibrillator",
@@ -58758,6 +58761,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "5",
     "name": "Nest Sammelstiftung",
     "opening_hours": "Mo-Fr 09:00-12:00,13:30-17:00",
     "operator": "Lifetec AG Schweiz",
@@ -74871,6 +74875,7 @@
   "type": "Feature",
   "id": "node/13354997001",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Treppenhaus 1. OG, links neben WC Damen",
     "emergency": "defibrillator",
     "emergency:phone": "144",

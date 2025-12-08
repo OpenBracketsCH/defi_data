@@ -11091,7 +11091,7 @@
   "type": "Feature",
   "id": "node/11275503569",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Obstgartenstrasse 19",
     "description": "auf der Garderobe am Eingang",
     "emergency": "defibrillator",
@@ -11250,6 +11250,7 @@
   "type": "Feature",
   "id": "node/11293205169",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Im Haupteingang links auf Kopfhöhe an der Wand im Schulhaus Kern, Kernstrasse 45, 8004 Zürich",
     "description": "Während Schulbetrieb offen und während Schulferien/Feiertage teils geschlossen.",
     "emergency": "defibrillator",
@@ -13646,6 +13647,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "5",
     "name": "Nest Sammelstiftung",
     "opening_hours": "Mo-Fr 09:00-12:00,13:30-17:00",
     "operator": "Lifetec AG Schweiz",
