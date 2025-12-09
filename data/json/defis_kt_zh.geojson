@@ -4349,17 +4349,21 @@
   "type": "Feature",
   "id": "node/7752736777",
   "properties": {
+    "defibrillator:location": "Hedigerweiher",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Hedingen",
+    "phone": "+41 44 762 25 25",
     "id": "node/7752736777"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4557326,
-      47.2953972
+      8.4557323,
+      47.2953971
     ]
   }
 },
@@ -22676,10 +22680,12 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Eingang zur Turnhalle",
-    "description": "während Öffnungszeiten verfügbar",
+    "description": "Eingang Turnhalle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
     "operator": "Gesundheitssekretariat Gemeindeverwaltung Knonau",
     "phone": "+41 44 768 50 57",
     "id": "node/9199468299"
