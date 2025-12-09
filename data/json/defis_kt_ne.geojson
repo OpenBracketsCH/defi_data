@@ -2152,6 +2152,50 @@
       47.0591626
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/13365799501",
+  "properties": {
+    "defibrillator:location": "Bâtiment vert du quartier étage supérieur",
+    "description": "9h - 21h",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "id": "node/13365799501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8509878,
+      47.0187171
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13365805101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Quartier de L’Orée",
+    "description": "Disponible pendant les heures d’ouverture",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "9:00-21:00",
+    "operator": "Quartier de l’Orée",
+    "phone": "+41768029826",
+    "id": "node/13365805101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8510246,
+      47.0186772
+    ]
+  }
 }
 ]
 }
