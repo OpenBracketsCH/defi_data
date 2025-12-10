@@ -14278,25 +14278,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10233176217",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "egerkingen",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/10233176217"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.1221886,
-      47.4035116
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10236251509",
   "properties": {
     "defibrillator:location": "beim Empfang Melden",
@@ -29603,6 +29584,30 @@
     "coordinates": [
       8.0493889,
       47.4780078
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13366300401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gehen Sie vorne durch den Haupteingang, dann rechts durch die Glastür und laufen Sie sieben Meter geradeaus.",
+    "description": "während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo - Fr 07:15 - 16:30",
+    "operator": "SWISS LOGISTICS Rigistrasse 2 5102 Rupperswil",
+    "phone": "+41 58 258 36 00",
+    "id": "node/13366300401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1219721,
+      47.4034566
     ]
   }
 }
