@@ -626,6 +626,36 @@
 },
 {
   "type": "Feature",
+  "id": "node/2861933760",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Kerzers",
+    "addr:housenumber": "5",
+    "addr:postcode": "3210",
+    "addr:street": "Vordere Gasse",
+    "defibrillator:location": "Eingang Gebäude",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "name": "Gemeinde Kerzers FR",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1625LTS",
+    "id": "node/2861933760"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1985383,
+      46.9749272
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/2963210013",
   "properties": {
     "access": "yes",
@@ -143912,29 +143942,6 @@
     "coordinates": [
       8.1951183,
       46.7453957
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/13316955501",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Artherstrasse 27, 6405 Immensee",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Vanoli Immobilien Treuhand AG / C. Vanoli Generalunternehmung AG",
-    "phone": "+41 41 854 60 80",
-    "id": "node/13316955501"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.12,
-      46.75
     ]
   }
 },
