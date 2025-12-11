@@ -61735,7 +61735,7 @@
     "type": "Point",
     "coordinates": [
       7.5326736,
-      46.7870734
+      46.7870735
     ]
   }
 },
@@ -61747,7 +61747,7 @@
     "defibrillator:location": "Beim Eingang zur Turnhalle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Seftigen",
@@ -61758,6 +61758,28 @@
     "coordinates": [
       7.5387873,
       46.7890401
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13370039001",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Auf Einsatzfahrzeug",
+    "description": "Ist auf den Einsatzfahrzeug und kann über den Feuerwehrnotruf angefordert werden",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Feuerwehr Gemeinde Seftigen",
+    "id": "node/13370039001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5331915,
+      46.7869531
     ]
   }
 }
