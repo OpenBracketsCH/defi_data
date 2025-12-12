@@ -335,17 +335,18 @@
   "type": "Feature",
   "id": "node/5028745025",
   "properties": {
-    "defibrillator:location": "Jederzeit zugänglich",
+    "defibrillator:location": "Neben Bäckerei Steiners",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "id": "node/5028745025"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7814867,
-      47.3659642
+      8.7814866,
+      47.3659638
     ]
   }
 },
@@ -18140,7 +18141,8 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "operator": "Gemeinde",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Pfäffikon",
     "id": "node/8816623418"
   },
   "geometry": {
@@ -46526,14 +46528,15 @@
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
+    "opening_hours": "24/7",
     "operator": "Miteigentümer Eichweiddörfli",
     "id": "node/11038063820"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6999521,
-      47.4536668
+      8.6999515,
+      47.4536663
     ]
   }
 },
@@ -61936,18 +61939,20 @@
   "type": "Feature",
   "id": "node/12269181902",
   "properties": {
-    "defibrillator:location": "vor Coop Pronto",
+    "defibrillator:location": "Raststätte Kempthal",
+    "description": "vor Coop Pronto",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Kempthal Raststätte",
     "id": "node/12269181902"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6995521,
-      47.4487848
+      8.6995518,
+      47.4487845
     ]
   }
 },
@@ -63582,6 +63587,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Post CH AG",
     "phone": "+41584537818",
     "id": "node/12378632301"
@@ -63604,6 +63610,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Post CH AG",
     "phone": "+41584537818",
     "id": "node/12378637301"
@@ -63611,8 +63618,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6822816,
-      47.4201936
+      8.6822811,
+      47.4201934
     ]
   }
 },

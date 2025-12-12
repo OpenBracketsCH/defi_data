@@ -2268,17 +2268,18 @@
   "type": "Feature",
   "id": "node/5028745025",
   "properties": {
-    "defibrillator:location": "Jederzeit zugänglich",
+    "defibrillator:location": "Neben Bäckerei Steiners",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "id": "node/5028745025"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7814867,
-      47.3659642
+      8.7814866,
+      47.3659638
     ]
   }
 },
@@ -51574,6 +51575,28 @@
 },
 {
   "type": "Feature",
+  "id": "node/8816623418",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Turnhalle Pfaffberg",
+    "description": "neben Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Pfäffikon",
+    "id": "node/8816623418"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7934734,
+      47.3675498
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8816623419",
   "properties": {
     "access": "yes",
@@ -99627,6 +99650,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/11038063820",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "im Pavillon",
+    "description": "wettergeschützt im Pavillon - frei zugänglich 365x7x24",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Miteigentümer Eichweiddörfli",
+    "id": "node/11038063820"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6999515,
+      47.4536663
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/11038063821",
   "properties": {
     "access": "yes",
@@ -111267,6 +111313,29 @@
     "coordinates": [
       8.6665714,
       47.7552232
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11665296370",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Entsorgungspark Gommiswald",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Gommiswald",
+    "phone": "+41 79 156 15 91",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11665296370"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0222055,
+      47.2298854
     ]
   }
 },
@@ -123858,6 +123927,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/12269181902",
+  "properties": {
+    "defibrillator:location": "Raststätte Kempthal",
+    "description": "vor Coop Pronto",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Kempthal Raststätte",
+    "id": "node/12269181902"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6995518,
+      47.4487845
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12269893801",
   "properties": {
     "access": "yes",
@@ -126336,6 +126426,52 @@
     "coordinates": [
       8.3483762,
       47.272572
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12378632301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vogelsangstrssse 14",
+    "description": "24 Stunden 365 Tage erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Post CH AG",
+    "phone": "+41584537818",
+    "id": "node/12378632301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6826638,
+      47.4203928
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12378637301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vogelsangstrasse 14 8307 Effretikon",
+    "description": "7/24 365 Tage",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Post CH AG",
+    "phone": "+41584537818",
+    "id": "node/12378637301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6822811,
+      47.4201934
     ]
   }
 },
