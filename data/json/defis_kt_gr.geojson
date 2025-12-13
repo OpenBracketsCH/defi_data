@@ -13328,15 +13328,19 @@
   "type": "Feature",
   "id": "node/12066902904",
   "properties": {
+    "defibrillator:location": "Kasse Parsennbahn",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "operator": "Davos Klosters Bergbahn AG",
+    "phone": "+41 81 417 66 60",
     "id": "node/12066902904"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.8386626,
+      9.8386625,
       46.8084709
     ]
   }
@@ -16275,6 +16279,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/13373783902",
+  "properties": {
+    "defibrillator:location": "Parsennhütte",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Parsennhütte",
+    "phone": "+41 81 417 66 60",
+    "id": "node/13373783902"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.8254305,
+      46.8504121
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13373784001",
   "properties": {
     "defibrillator:location": "Gipfelrestaurant",
@@ -16291,6 +16316,48 @@
     "coordinates": [
       9.7950426,
       46.8345081
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13373794901",
+  "properties": {
+    "defibrillator:location": "Schifer Talstation",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Davos Klosters Bergbahn AG",
+    "phone": "+41 81 417 66 60",
+    "id": "node/13373794901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.8133845,
+      46.8800946
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13373797401",
+  "properties": {
+    "defibrillator:location": "Restaurant Serneuser Schwendi",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Davos Klosters Bergbahn AG",
+    "phone": "+41 81 417 66 60",
+    "id": "node/13373797401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.8366041,
+      46.8770898
     ]
   }
 }

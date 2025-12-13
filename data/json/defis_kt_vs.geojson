@@ -295,15 +295,18 @@
   "id": "node/5412526955",
   "properties": {
     "defibrillator:location": "AED an Aussenmauer bei Eingang",
+    "description": "AED an Aussenmauer bei Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/5412526955"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0642281,
-      46.3921845
+      8.0642277,
+      46.3921846
     ]
   }
 },
@@ -415,13 +418,14 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/6176739377"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0461871,
-      46.3564997
+      8.0461872,
+      46.356499
     ]
   }
 },
@@ -429,9 +433,13 @@
   "type": "Feature",
   "id": "node/6284465304",
   "properties": {
-    "defibrillator:location": "Rechts neben Eingang der Bank",
+    "access": "yes",
+    "defibrillator:location": "Raiffeisenbank",
+    "description": "Rechts neben Eingang der Bank",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/6284465304"
   },
   "geometry": {
@@ -565,13 +573,14 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/6721515247"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.9845309,
-      46.3588164
+      7.9845285,
+      46.3588167
     ]
   }
 },
@@ -686,13 +695,15 @@
     "defibrillator:location": "Ausgang Gondelbahn",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/7306084063"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0347508,
-      46.3600636
+      8.0347502,
+      46.3600634
     ]
   }
 },
@@ -739,13 +750,14 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/8125972166"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2026007,
-      46.4429809
+      8.2026029,
+      46.4429805
     ]
   }
 },
@@ -779,13 +791,14 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/8286805250"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0330331,
-      46.3780848
+      8.0330336,
+      46.3780851
     ]
   }
 },
@@ -1303,13 +1316,14 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/8963747653"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0260118,
-      46.3760854
+      8.0260116,
+      46.3760856
     ]
   }
 },
@@ -1399,13 +1413,15 @@
     "defibrillator:location": "Aussenwand Migros Partner",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/9025974025"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0157399,
-      46.3357655
+      8.0157387,
+      46.3357656
     ]
   }
 },
@@ -1692,9 +1708,11 @@
   "id": "node/9356644189",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Gemeinde Leuk",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "wheelchair": "limited",
     "id": "node/9356644189"
   },
@@ -2397,13 +2415,14 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/9966212418"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.8591096,
-      46.3085259
+      7.8591084,
+      46.3085251
     ]
   }
 },
@@ -3468,14 +3487,15 @@
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Gampel-Bratsch",
     "id": "node/11104988050"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.712995,
-      46.3121544
+      7.7129951,
+      46.3121546
     ]
   }
 },
@@ -3488,14 +3508,15 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Gampel-Bratsch",
     "id": "node/11104988051"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7394206,
-      46.3155076
+      7.7394209,
+      46.3155074
     ]
   }
 },
@@ -3563,17 +3584,19 @@
   "id": "node/11104988055",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Zentrum Metropol",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Steg-Hohtenn",
     "id": "node/11104988055"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7450773,
-      46.3148509
+      7.745077,
+      46.3148511
     ]
   }
 },
@@ -3606,14 +3629,15 @@
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Gampel-Bratsch",
     "id": "node/11104988057"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7079357,
-      46.3209463
+      7.7079365,
+      46.3209467
     ]
   }
 },
@@ -3622,17 +3646,19 @@
   "id": "node/11104988058",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Engersch Dorf",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Gampel-Bratsch",
     "id": "node/11104988058"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7099516,
-      46.3278957
+      7.7099508,
+      46.3278964
     ]
   }
 },
@@ -3641,17 +3667,19 @@
   "id": "node/11104988059",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Kraftwerk Lötschen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Kraftwerk Lötschen",
     "id": "node/11104988059"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7444355,
-      46.3195385
+      7.744436,
+      46.3195389
     ]
   }
 },
@@ -3660,9 +3688,11 @@
   "id": "node/11104988060",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Haus der Generationen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Haus der Generationen Steg",
     "id": "node/11104988060"
   },
@@ -3670,7 +3700,7 @@
     "type": "Point",
     "coordinates": [
       7.748006,
-      46.3160267
+      46.3160266
     ]
   }
 },
@@ -3860,6 +3890,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Steg-Hohtenn",
     "phone": "+41 27 933 12 70",
     "source": "local_knowledge, defikarte.ch",
@@ -3877,12 +3908,12 @@
   "type": "Feature",
   "id": "node/11371093369",
   "properties": {
-    "access": "no",
     "defibrillator:location": "Parkhaus unter dem Kirchplatz Steg",
     "description": "öffentlich zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Steg-Hohtenn",
     "phone": "+41 27 933 12 70",
     "source": "local_knowledge, defikarte.ch",
@@ -3906,13 +3937,14 @@
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
+    "opening_hours": "24/7",
     "id": "node/11374913369"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0927346,
-      46.3724136
+      8.0927342,
+      46.3724131
     ]
   }
 },
@@ -4898,6 +4930,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeindeverwaltung Steg-Hohtenn",
     "phone": "+41279331270",
     "source": "local_knowledge, defikarte.ch",
@@ -4906,7 +4939,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7669102,
+      7.7669156,
       46.3260831
     ]
   }
@@ -5276,14 +5309,15 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Walliser Kantonalbank",
     "id": "node/12946896277"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.744203,
-      46.3152021
+      7.7442033,
+      46.3152022
     ]
   }
 },
@@ -5789,15 +5823,18 @@
   "type": "Feature",
   "id": "node/13355898048",
   "properties": {
+    "defibrillator:location": "Turnhalle Bammatta",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/13355898048"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.9997693,
-      46.3269726
+      7.9997689,
+      46.3269722
     ]
   }
 },
@@ -5805,14 +5842,17 @@
   "type": "Feature",
   "id": "node/13355898049",
   "properties": {
+    "defibrillator:location": "Aussen",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/13355898049"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.9901113,
+      7.9901112,
       46.3256863
     ]
   }
