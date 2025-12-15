@@ -49396,14 +49396,15 @@
   "type": "Feature",
   "id": "node/11375490684",
   "properties": {
-    "access": "no",
+    "access": "yes",
     "defibrillator:location": "Hallenbad Chappelistein Ottenbach",
-    "description": "044 776 35 41",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "operator": "Primarschule Ottenbach",
+    "indoor": "no",
+    "level": "1",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Ottenbach Feuerwehr Ottenbach",
+    "phone": "+41 79 319 10 56",
     "id": "node/11375490684"
   },
   "geometry": {
@@ -75122,6 +75123,29 @@
     "coordinates": [
       8.6556126,
       47.2409475
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13377816301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Trinkwasserreservoir Talzone",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "1",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Ottenbach Feuerwehr Ottenbach",
+    "phone": "+41 79 319 10 56",
+    "id": "node/13377816301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4109493,
+      47.2850543
     ]
   }
 }
