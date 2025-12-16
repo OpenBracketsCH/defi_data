@@ -847,23 +847,29 @@
   "type": "Feature",
   "id": "node/10763310569",
   "properties": {
-    "defibrillator:location": "Abfüllhalle EG / 47.3288, 9.4138",
-    "description": "gelber LifeTec One Koffer, nur während Öffnungszeiten verfügbar",
+    "access": "yes",
+    "addr:city": "Appenzell",
+    "addr:housenumber": "27",
+    "addr:postcode": "9050",
+    "addr:street": "Weissbadstrasse",
+    "defibrillator:location": "Haupteingang",
+    "description": "Grüner Kasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "name": "Appenzeller Alpenbitter AG",
-    "opening_hours": "Mo-Fr 08:00-11:30, 13:30-17:00",
-    "operator": "LifeTec AG Schweiz",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
+    "ref": "0333LTS",
     "id": "node/10763310569"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.41375,
-      47.32883
+      9.413394,
+      47.3290283
     ]
   }
 },

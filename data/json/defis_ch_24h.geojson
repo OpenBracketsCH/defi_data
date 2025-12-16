@@ -3378,23 +3378,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/5850057639",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "id": "node/5850057639"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.994712,
-      46.1542516
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/5859259865",
   "properties": {
     "emergency": "defibrillator",
@@ -93128,6 +93111,36 @@
 },
 {
   "type": "Feature",
+  "id": "node/10763310569",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Appenzell",
+    "addr:housenumber": "27",
+    "addr:postcode": "9050",
+    "addr:street": "Weissbadstrasse",
+    "defibrillator:location": "Haupteingang",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "name": "Appenzeller Alpenbitter AG",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "ref": "0333LTS",
+    "id": "node/10763310569"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.413394,
+      47.3290283
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10763310571",
   "properties": {
     "defibrillator:location": "nach Eingang links",
@@ -146316,6 +146329,23 @@
     "coordinates": [
       8.0654557,
       47.2712433
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13381281656",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "id": "node/13381281656"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9947104,
+      46.1542489
     ]
   }
 }
