@@ -155,9 +155,11 @@
   "type": "Feature",
   "id": "node/8260051064",
   "properties": {
+    "defibrillator:location": "Gemeindehaus Bettingen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/8260051064"
   },
   "geometry": {
@@ -196,17 +198,18 @@
   "type": "Feature",
   "id": "node/8746933062",
   "properties": {
-    "defibrillator:location": "Aussen vor dem Eingang",
+    "defibrillator:location": "Gemeinde Riehen Aussen vor dem Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/8746933062"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6514489,
-      47.5845824
+      7.6514488,
+      47.5845825
     ]
   }
 },
@@ -2373,7 +2376,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
-    "opening_hours": "Off",
+    "opening_hours": "24/7",
     "operator": "Tennisclub Riehen",
     "phone": "+41793216468",
     "source": "aed-source",
@@ -2382,8 +2385,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.637436,
-      47.5792528
+      7.6374359,
+      47.5792525
     ]
   }
 },
