@@ -11742,7 +11742,7 @@
   "id": "node/11591833369",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bei der Postautohaltestelle in Meierhof",
+    "defibrillator:location": "Defibrillator bei der Postautohaltestelle in Meierhof, Fahrtrichtung Ilanz",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -11754,8 +11754,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.100382,
-      46.7489204
+      9.1003821,
+      46.7489203
     ]
   }
 },
@@ -15424,7 +15424,7 @@
   "id": "node/12972957401",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Defibrillator befindet sich an der Strassenlampe bei der Bushaltestelle.",
+    "defibrillator:location": "Defibrillator befindet sich in Misanenga an der Strassenlampe bei der Bushaltestelle; Richtung Rufalipark.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -15926,7 +15926,7 @@
   "type": "Feature",
   "id": "node/13188449747",
   "properties": {
-    "defibrillator:location": "An der Hauswand neben den Einstellhallen",
+    "defibrillator:location": "Defibrillator in Friggahüs beim alten Postautostellplatz an der Fassade zwischen den Toren",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -15946,7 +15946,7 @@
   "type": "Feature",
   "id": "node/13188459687",
   "properties": {
-    "defibrillator:location": "Cresta 98, 7134 Obersaxen",
+    "defibrillator:location": "Defibrillator in Cresta 98, 7134 Obersaxen beim Apparthotel Panorama",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -15957,8 +15957,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.1192957,
-      46.7539423
+      9.1192954,
+      46.7539422
     ]
   }
 },
@@ -16334,6 +16334,28 @@
     "coordinates": [
       9.8366041,
       46.8770898
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13382048101",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Defibrillator Ober Misanenga 32: Wanderweg von Meierhof nach Misanenga, Eingangstüre rechts im Innenbereich",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "• Bianchi Bau AG",
+    "phone": "+41 81 920 50 60",
+    "id": "node/13382048101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1148187,
+      46.7500868
     ]
   }
 }
