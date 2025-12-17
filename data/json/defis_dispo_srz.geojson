@@ -22195,7 +22195,7 @@
   "type": "Feature",
   "id": "node/8562820772",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Im Treppenhaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -50800,7 +50800,7 @@
   "type": "Feature",
   "id": "node/10741161483",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Im Treppenhaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -50824,7 +50824,7 @@
   "type": "Feature",
   "id": "node/10741161484",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Im Treppenhaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -50848,7 +50848,7 @@
   "type": "Feature",
   "id": "node/10741161485",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Im Treppenhaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -50872,7 +50872,7 @@
   "type": "Feature",
   "id": "node/10741161487",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Im Treppenhaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -59953,6 +59953,7 @@
   "type": "Feature",
   "id": "node/10977176305",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Im Erdgeschoss / Sanitätsraum",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -86562,7 +86563,7 @@
   "type": "Feature",
   "id": "node/12625044096",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Im Treppenhaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -86586,7 +86587,7 @@
   "type": "Feature",
   "id": "node/12625044097",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Im Treppenhaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -96478,6 +96479,30 @@
     "coordinates": [
       8.5036756,
       47.3672191
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13382989601",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "3. OG - Raum 351 - Sanität (im Notfallrucksack)",
+    "description": "während Bürozeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "opening_hours": "Mo-Th 07:30-12:00, 13:15-17:30, Fr 07:30-12:00, 13:15-16:30",
+    "operator": "Alfred Müller AG",
+    "phone": "+41 41 767 02 02",
+    "id": "node/13382989601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5138813,
+      47.1895284
     ]
   }
 }
