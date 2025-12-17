@@ -78006,11 +78006,9 @@
   "id": "node/9944152517",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Gemeinde Wildberg",
-    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Wildberg",
     "id": "node/9944152517"
@@ -100431,30 +100429,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11050696306",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Primarschule Häuslenen",
-    "description": "öffentlich zugänglich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Schule",
-    "phone": "+41 52 368 83 03",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/11050696306"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.9034158,
-      47.5251923
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11050729306",
   "properties": {
     "access": "yes",
@@ -100474,30 +100448,6 @@
     "coordinates": [
       8.8996553,
       47.480103
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11050745806",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Primarschule Häuslenen",
-    "description": "öffentlich zugänglich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Schule",
-    "phone": "+41 52 368 83 03",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/11050745806"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.9034212,
-      47.5251271
     ]
   }
 },
@@ -125176,8 +125126,7 @@
   "id": "node/12294069101",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Primarschulhaus Häuslenen",
-    "description": "Aussenstandort beim Schopf Hintereingang Schulhaus",
+    "defibrillator:location": "Primarschulhaus Häuslenen: Aussenstandort beim Schopf Hintereingang Schulhaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -146573,6 +146522,27 @@
     "coordinates": [
       9.3150213,
       47.1261258
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13383666201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Centre de secours et incendie CSI Chablais-VS, à gauche du bâtiment, près de l'entrée PCi",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Commune de Monthey",
+    "id": "node/13383666201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.958556,
+      46.2684158
     ]
   }
 }
