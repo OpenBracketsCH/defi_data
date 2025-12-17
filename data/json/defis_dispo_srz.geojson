@@ -8010,47 +8010,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7644008615",
-  "properties": {
-    "defibrillator:location": "Standort aufgrund Umzug aufgegeben.",
-    "description": "Defi nicht mehr im Gebäude. Gebäude leerstehend.",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Stadt Schaffhausen",
-    "id": "node/7644008615"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6352365,
-      47.6973867
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7644008616",
-  "properties": {
-    "defibrillator:location": "Standort aufgrund Umzug aufgelöst.",
-    "description": "Standort aufgelöst.",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Stadt Schaffhausen",
-    "phone": "+41 52 632 57 55",
-    "id": "node/7644008616"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6375358,
-      47.6969543
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7644008617",
   "properties": {
     "access": "yes",
@@ -96507,8 +96466,9 @@
   "type": "Feature",
   "id": "node/13381063798",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Beim Eingang, direkt nach den beiden Glastüren, auf der linken Seite",
+    "description": "nur während der Öffnungszeit des Gemeinschaftszentrums möglich",
     "emergency": "defibrillator",
     "indoor": "yes",
     "id": "node/13381063798"
