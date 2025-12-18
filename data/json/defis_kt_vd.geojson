@@ -9761,6 +9761,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "operator": "Ville de Vevey",
     "id": "node/12122441243"
   },
   "geometry": {
@@ -10091,6 +10092,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "operator": "Ville de Vevey",
     "id": "node/12162035649"
   },
   "geometry": {
@@ -12870,6 +12872,7 @@
     "emergency": "defibrillator",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Ville de Vevey",
     "id": "node/13140559746"
   },
   "geometry": {
@@ -13375,9 +13378,12 @@
   "type": "Feature",
   "id": "node/13381871060",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Fixé au mur",
     "emergency": "defibrillator",
     "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Ville de Vevey",
     "id": "node/13381871060"
   },
   "geometry": {
