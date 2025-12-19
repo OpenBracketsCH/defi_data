@@ -2095,12 +2095,13 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/7721303952"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4398507,
+      9.4398509,
       47.2030315
     ]
   }
@@ -8906,14 +8907,15 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Marty Bauleistungen AG",
     "id": "node/8828056917"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5002896,
-      47.2583147
+      9.5002905,
+      47.2583149
     ]
   }
 },
@@ -24875,6 +24877,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/12168845201"
@@ -24883,7 +24886,7 @@
     "type": "Point",
     "coordinates": [
       9.4682676,
-      47.2433835
+      47.2433837
     ]
   }
 },
@@ -27622,15 +27625,17 @@
   "type": "Feature",
   "id": "node/12894209874",
   "properties": {
+    "defibrillator:location": "Bushaltestelle Wildhaus Dorf",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/12894209874"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.3511721,
+      9.351172,
       47.2033126
     ]
   }
