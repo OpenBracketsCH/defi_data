@@ -13524,12 +13524,12 @@
   "type": "Feature",
   "id": "node/12006310569",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Laufbahnzentrum am Empfang",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "level": "0",
     "phone": "+41 44 412 78 78",
     "source": "local_knowledge, defikarte.ch",
@@ -13547,14 +13547,14 @@
   "type": "Feature",
   "id": "node/12006312670",
   "properties": {
-    "access": "permissive",
+    "access": "private",
     "defibrillator:location": "1. Stock, Stipendien Laufbahnzentrum",
     "description": "Während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "level": "1",
-    "operator": "Stadt Zürich ",
+    "operator": "Stadt Zürich",
     "phone": "+41 44 412 78 79",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/12006312670"
@@ -13562,7 +13562,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.529003,
+      8.5290031,
       47.3721602
     ]
   }
