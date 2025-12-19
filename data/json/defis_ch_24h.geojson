@@ -35491,6 +35491,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/7933908932",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "MZA",
+    "description": "24h frei zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/7933908932"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.60329,
+      47.4512685
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/7934179893",
   "properties": {
     "access": "yes",
@@ -44039,6 +44060,26 @@
     "coordinates": [
       8.5520415,
       47.4926092
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8554804159",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vor dem Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8554804159"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5675884,
+      47.3940978
     ]
   }
 },
@@ -111550,6 +111591,52 @@
 },
 {
   "type": "Feature",
+  "id": "node/11632504769",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Altenrhein, Eingang",
+    "description": "Steht das ganze Jahr zur Verfügung",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Thal",
+    "phone": "+41718861030",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11632504769"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5557719,
+      47.4904999
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11632523269",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hafengebäude unter Treppe",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "id": "node/11632523269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5328577,
+      47.4811002
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/11632530369",
   "properties": {
     "access": "yes",
@@ -125033,6 +125120,31 @@
     "coordinates": [
       7.385307,
       47.1982787
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12284958901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hafen Staad, 9422 Staad",
+    "description": "Steht das ganze Jahr zur Verfügung",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Thal",
+    "phone": "+41718861030",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12284958901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.532882,
+      47.4810528
     ]
   }
 },
