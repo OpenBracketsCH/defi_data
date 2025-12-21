@@ -25,7 +25,7 @@ jobs:
           python scripts/geojson_diff.py \
             <(git show HEAD~1:data/json/defis_kt_be.geojson) \
             data/json/defis_kt_be.geojson \
-            > diff.txt
+            > diff.html
 
       - name: Mail versenden
         uses: dawidd6/action-send-mail@v3
@@ -36,6 +36,7 @@ jobs:
           username: ${{ secrets.MAIL_USER }}
           password: ${{ secrets.MAIL_PASS }}
           subject: "Änderungen an Defis Kanton Bern"
-          body: file://diff.txt
+          body: file://diff.html
+          content_type: text/html
           to: reports@defikarte.ch
           from: Defikarte.ch Reporting
