@@ -35,7 +35,7 @@ jobs:
           secure: false
           username: ${{ secrets.MAIL_USER }}
           password: ${{ secrets.MAIL_PASS }}
-          subject: "Änderungen an defis_kt_be.geojson"
+          subject: "Änderungen an Defis Kanton Bern"
           body: file://diff.txt
-          to: empfaenger@example.ch
-          from: GitHub GeoJSON Bot
+          to: reports@defikarte.ch
+          from: Defikarte.ch Reporting
