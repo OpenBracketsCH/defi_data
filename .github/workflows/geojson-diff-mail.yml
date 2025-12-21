@@ -1,0 +1,41 @@
+name: GeoJSON Änderungs-Mail
+
+on:
+  push:
+    paths:
+      - data/json/defis_kt_be.geojson
+
+jobs:
+  diff-and-mail:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Python installieren
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Diff erzeugen
+        run: |
+          python scripts/geojson_diff.py \
+            <(git show HEAD~1:data/json/defis_kt_be.geojson) \
+            data/json/defis_kt_be.geojson \
+            > diff.txt
+
+      - name: Mail versenden
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: asmtp.mail.hostpoint.ch
+          server_port: 587
+          secure: false
+          username: ${{ secrets.MAIL_USER }}
+          password: ${{ secrets.MAIL_PASS }}
+          subject: "Änderungen an defis_kt_be.geojson"
+          body: file://diff.txt
+          to: empfaenger@example.ch
+          from: GitHub GeoJSON Bot
