@@ -36,26 +36,4 @@ jobs:
         commit_user_email: chrigi@chnuessli.ch
         commit_author: GitHub Action Bot <chrigi@chnuessli.ch>
 
-    - name: Diff erzeugen
-      uses: actions/checkout@v4
-      with:
-        fetch-depth: 2   # wichtig für HEAD~1
-
-    - name: Diff HTML erstellen
-      run: |
-        python scripts/geojson_diff.py \            <(git show HEAD~1:data/json/defis_kt_be.geojson) \
-           data/json/defis_kt_be.geojson \
-           > diff.html
-           
-    - name: Mail versenden
-      uses: dawidd6/action-send-mail@v3
-      with:     
-        server_address: asmtp.mail.hostpoint.ch
-        server_port: 587
-        secure: false
-        username: ${{ secrets.MAIL_USER }}
-        password: ${{ secrets.MAIL_PASS }}
-        subject: "Änderungen an Defis Kanton Bern"
-        html_body: file://diff.html
-        to: reports@defikarte.ch
-        from: Defikarte.ch Reporting
+        
