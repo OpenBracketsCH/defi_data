@@ -106,8 +106,10 @@ for i in common:
 
 # Prüfen, ob es Änderungen gibt
 if not rows:
-    print("Keine Änderungen an der GeoJSON-Datei. Mail wird nicht gesendet.")
+    print("Keine Änderungen an der GeoJSON-Datei.")
+    # Keine Datei diff.html erzeugen
     exit(0)
+
 
 # HTML-Mail
 html_mail = f"""
