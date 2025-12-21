@@ -112,33 +112,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/2963210013",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Wangen an der Aare",
-    "addr:country": "CH",
-    "addr:housenumber": "30",
-    "addr:postcode": "3380",
-    "addr:street": "Vorstadt",
-    "defibrillator:location": "UBS AG",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "note": "Standort Firstresponder.be ist falsch",
-    "opening_hours": "24/7",
-    "phone": "+41 79 601 08 20",
-    "id": "node/2963210013"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6544425,
-      47.2321861
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/3201227964",
   "properties": {
     "access": "yes",
@@ -146,7 +119,7 @@
     "addr:housenumber": "34",
     "addr:postcode": "4539",
     "addr:street": "Dorfstrasse",
-    "defibrillator:location": "Gemeindeverwaltung Farneren",
+    "defibrillator:location": "Gemeindeverwaltung vordere Hinterachse",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
@@ -61878,6 +61851,33 @@
     "coordinates": [
       8.1364807,
       46.7516441
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2963210014",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Wangen an der Aare",
+    "addr:country": "CH",
+    "addr:housenumber": "30",
+    "addr:postcode": "3380",
+    "addr:street": "Vorstadt",
+    "defibrillator:location": "UBS AG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "note": "Standort Firstresponder.be ist falsch",
+    "opening_hours": "24/7",
+    "phone": "+41 79 601 08 20",
+    "id": "node/2963210013"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6544425,
+      47.2321861
     ]
   }
 },
