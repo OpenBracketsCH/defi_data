@@ -13,7 +13,7 @@ on:
   #- cron:  '00 6 * * *' # run every day at 06:00 UTC
   - cron:  '*/60 * * * *' # run every hour
   workflow_dispatch: ~
-  
+
 jobs:
   diff-and-mail:
     runs-on: ubuntu-latest
@@ -37,6 +37,7 @@ jobs:
             > diff.html
 
       - name: Mail versenden
+        if: ${{ always() && (files.exists('diff.html')) }}
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: asmtp.mail.hostpoint.ch
