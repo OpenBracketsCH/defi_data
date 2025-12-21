@@ -112,7 +112,7 @@ small {{ color: #666; }}
 </style>
 </head>
 <body>
-<h2>Änderungen an defis_kt_be.geojson</h2>
+<h2>Änderungen an Defis Kanton Bern</h2>
 
 <table>
 <tr>
