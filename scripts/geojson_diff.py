@@ -1,7 +1,6 @@
 import json
 import sys
 import html
-import os
 
 old_file = sys.argv[1]
 new_file = sys.argv[2]
@@ -106,10 +105,8 @@ for i in common:
 
 # Prüfen, ob es Änderungen gibt
 if not rows:
-    print("Keine Änderungen an der GeoJSON-Datei.")
-    # Keine Datei diff.html erzeugen
+    print("Keine Änderungen an der GeoJSON-Datei. Mail wird nicht gesendet.")
     exit(0)
-
 
 # HTML-Mail
 html_mail = f"""
