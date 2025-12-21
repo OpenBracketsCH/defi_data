@@ -1,5 +1,5 @@
-name: GeoJSON Änderungs-Mail
-  
+name: GeoJSON Diff Mail
+
 on:
   push:
     paths:
@@ -12,23 +12,34 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Repository auschecken
+      # 1️⃣ Repository auschecken
+      - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 2
+          fetch-depth: 0   # komplette Historie nötig für vorherigen Commit
 
-      - name: Python installieren
+      # 2️⃣ Python installieren
+      - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: '3.11'
 
-      - name: Diff erzeugen
+      # 3️⃣ Vorherigen Commit der GeoJSON-Datei ermitteln
+      - name: Ermitteln des vorherigen Commits
+        id: prev_commit
+        run: |
+          PREV=$(git log -n 2 --pretty=format:"%H" -- data/json/defis_kt_be.geojson | tail -n1)
+          echo "PREV=$PREV" >> $GITHUB_ENV
+
+      # 4️⃣ Diff HTML erstellen
+      - name: Diff HTML erstellen
         run: |
           python scripts/geojson_diff.py \
-            <(git show HEAD~1:data/json/defis_kt_be.geojson) \
+            <(git show $PREV:data/json/defis_kt_be.geojson) \
             data/json/defis_kt_be.geojson \
             > diff.html
 
+      # 5️⃣ Mail versenden
       - name: Mail versenden
         uses: dawidd6/action-send-mail@v3
         with:
