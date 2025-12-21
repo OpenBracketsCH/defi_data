@@ -29,7 +29,7 @@ def coords(feature):
 def maps_links(lon, lat, osm_id=None):
     links = []
     if osm_id:
-        links.append(f'<a href="https://www.openstreetmap.org/node/{osm_id}">OSM</a>')
+        links.append(f'<a href="https://www.openstreetmap.org/{osm_id}">OSM</a>')
     elif lon is not None and lat is not None:
         links.append(f'<a href="https://www.openstreetmap.org/?mlat={lat}&mlon={lon}#map=19/{lat}/{lon}">OSM</a>')
     if lon is not None and lat is not None:
