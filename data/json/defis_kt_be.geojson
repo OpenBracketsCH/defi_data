@@ -443,6 +443,79 @@
 },
 {
   "type": "Feature",
+  "id": "node/3531534217",
+  "properties": {
+    "access": "yes",
+    "contact:emergency": "144",
+    "defibrillator:location": "AED im Erdgeschoss, rechts an der Wand im Empfangsraum. Zugang via Haupteingang Murtenstrasse mit Gegensprechanlage. Bitte Öffnungszeiten beachten.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "image_1": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/20150520_SanPol_Zugang_DSC05200.JPG/800px-20150520_SanPol_Zugang_DSC05200.JPG",
+    "image_2": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/20150520_SanPol_AED_DSC05200.JPG/800px-20150520_SanPol_AED_DSC05200.JPG",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Sanitätspolizei der Stadt Bern",
+    "wikimedia_commons": "Category:Sanitätspolizei (Bern)",
+    "id": "node/3531534217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4141863,
+      46.950201
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/3532705581",
+  "properties": {
+    "access": "yes",
+    "addr:floor": "0",
+    "contact:addr:full": "Brünnenstrasse 66, 3018 Bern",
+    "contact:emergency": "144",
+    "contact:phone": "+41 31 6336001",
+    "defibrillator:location": "Aussen am Gebäude der Steuerverwaltung",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Steuerverw, Kt. Bern",
+    "id": "node/3532705581"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3861419,
+      46.9426814
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/3548635175",
+  "properties": {
+    "access": "permissive",
+    "addr:floor": "1",
+    "contact:emergency": "144",
+    "contact:phone": "+41 31 3222323",
+    "defibrillator:location": "Beim Sicherheitspersonal melden",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/3548635175"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4438875,
+      46.9466358
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/3548635176",
   "properties": {
     "access": "permissive",
