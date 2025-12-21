@@ -1,12 +1,19 @@
 name: GeoJSON Änderungs-Mail
   
-on:
-  push:
-    paths:
-      - data/json/defis_kt_be.geojson
-    branches:
-      - main
+#on:
+#  push:
+#   paths:
+#      - data/json/defis_kt_be.geojson
+#    branches:
+#      - main
 
+
+on:
+  schedule:
+  #- cron:  '00 6 * * *' # run every day at 06:00 UTC
+  - cron:  '*/60 * * * *' # run every hour
+  workflow_dispatch: ~
+  
 jobs:
   diff-and-mail:
     runs-on: ubuntu-latest
