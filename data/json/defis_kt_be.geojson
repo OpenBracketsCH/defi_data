@@ -65,10 +65,10 @@
     "addr:housenumber": "1",
     "addr:postcode": "4537",
     "addr:street": "Bahnhofstrasse",
-    "defibrillator:location": "Eingangsbereich Bank",
+    "defibrillator:location": "Eingangsbereich hinter Bank",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Raiffeisenbank",
     "phone": "+41 32 636 11 88",
@@ -139,29 +139,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/3188383561",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Rumisberg",
-    "addr:postcode": "4539",
-    "addr:street": "Dorfstrasse",
-    "defibrillator:location": "Feuerwehrmagazin",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "phone": "+41 32 636 23 25",
-    "id": "node/3188383561"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6422379,
-      47.2642142
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/3201227964",
   "properties": {
     "access": "yes",
@@ -208,11 +185,11 @@
   "properties": {
     "access": "yes",
     "contact:addr": "Marktgasse 44, 3011 Bern",
-    "defibrillator:location": "AED in Kasten an der Wand im Gebäudeinnern. Im 1. Stock, links neben Eingang Denner. Zugang via Rolltreppe Marktgasse. Bitte Öffnungszeiten beachten.",
+    "defibrillator:location": "AED in Kasten an der Wand im Gebäudeinnern. Im 3. Stock, links neben Eingang Denner. Zugang via Rolltreppe Marktgasse. Bitte Öffnungszeiten beachten.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1",
+    "level": "3",
     "opening_hours": "Mo 09:00-19:00; Tu-We 08:00-19:00; Th 08:00-21:00; Fr 08:00-20:00; Sa 07:30-17:00; Su off; PH off",
     "source": "survey",
     "id": "node/3491105652"
