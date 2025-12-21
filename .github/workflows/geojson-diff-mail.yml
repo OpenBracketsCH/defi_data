@@ -36,7 +36,6 @@ jobs:
           username: ${{ secrets.MAIL_USER }}
           password: ${{ secrets.MAIL_PASS }}
           subject: "Änderungen an Defis Kanton Bern"
-          body: file://diff.html
-          content_type: text/html
+          html_body: file://diff.html
           to: reports@defikarte.ch
           from: Defikarte.ch Reporting
