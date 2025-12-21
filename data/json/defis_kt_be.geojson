@@ -65,10 +65,10 @@
     "addr:housenumber": "1",
     "addr:postcode": "4537",
     "addr:street": "Bahnhofstrasse",
-    "defibrillator:location": "Eingangsbereich hinter Bank",
+    "defibrillator:location": "Eingangsbereich Bank",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "yes",
     "opening_hours": "24/7",
     "operator": "Raiffeisenbank",
     "phone": "+41 32 636 11 88",
@@ -112,6 +112,56 @@
 },
 {
   "type": "Feature",
+  "id": "node/2963210013",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Wangen an der Aare",
+    "addr:country": "CH",
+    "addr:housenumber": "30",
+    "addr:postcode": "3380",
+    "addr:street": "Vorstadt",
+    "defibrillator:location": "UBS AG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "note": "Standort Firstresponder.be ist falsch",
+    "opening_hours": "24/7",
+    "phone": "+41 79 601 08 20",
+    "id": "node/2963210013"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6544425,
+      47.2321861
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/3188383561",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Rumisberg",
+    "addr:postcode": "4539",
+    "addr:street": "Dorfstrasse",
+    "defibrillator:location": "Feuerwehrmagazin",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "phone": "+41 32 636 23 25",
+    "id": "node/3188383561"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6422379,
+      47.2642142
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/3201227964",
   "properties": {
     "access": "yes",
@@ -119,7 +169,7 @@
     "addr:housenumber": "34",
     "addr:postcode": "4539",
     "addr:street": "Dorfstrasse",
-    "defibrillator:location": "Gemeindeverwaltung vordere Hinterachse",
+    "defibrillator:location": "Gemeindeverwaltung Farneren",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
@@ -158,11 +208,11 @@
   "properties": {
     "access": "yes",
     "contact:addr": "Marktgasse 44, 3011 Bern",
-    "defibrillator:location": "AED in Kasten an der Wand im Gebäudeinnern. Im 3. Stock, links neben Eingang Denner. Zugang via Rolltreppe Marktgasse. Bitte Öffnungszeiten beachten.",
+    "defibrillator:location": "AED in Kasten an der Wand im Gebäudeinnern. Im 1. Stock, links neben Eingang Denner. Zugang via Rolltreppe Marktgasse. Bitte Öffnungszeiten beachten.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "3",
+    "level": "1",
     "opening_hours": "Mo 09:00-19:00; Tu-We 08:00-19:00; Th 08:00-21:00; Fr 08:00-20:00; Sa 07:30-17:00; Su off; PH off",
     "source": "survey",
     "id": "node/3491105652"
@@ -61851,33 +61901,6 @@
     "coordinates": [
       8.1364807,
       46.7516441
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/2963210014",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Wangen an der Aare",
-    "addr:country": "CH",
-    "addr:housenumber": "30",
-    "addr:postcode": "3348",
-    "addr:street": "Vorstadt",
-    "defibrillator:location": "UBS AG",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "note": "Standort Firstresponder.be ist falsch",
-    "opening_hours": "24/7",
-    "phone": "+41 79 601 08 20",
-    "id": "node/2963210013"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6544425,
-      47.2321861
     ]
   }
 },
