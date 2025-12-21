@@ -35,3 +35,26 @@ jobs:
         commit_user_name: chnuessli
         commit_user_email: chrigi@chnuessli.ch
         commit_author: GitHub Action Bot <chrigi@chnuessli.ch>
+
+  update_geojson:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Overpass Update
+        run: |
+          python scripts/overpass_update.py
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add data/json/defis_kt_be.geojson
+          git commit -m "Overpass Update"
+          git push
+
+      - name: Diff & Mail
+        run: |
+          python scripts/geojson_diff.py \
+            <(git show HEAD~1:data/json/defis_kt_be.geojson) \
+            data/json/defis_kt_be.geojson \
+            > diff.html
