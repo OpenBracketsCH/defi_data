@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - data/json/defis_kt_be.geojson
+    branches:
+      - main
 
 jobs:
   diff-and-mail:
