@@ -26,15 +26,15 @@ def coords(feature):
     except Exception:
         return None, None
 
-def maps_links(lon, lat):
-    if lon is None or lat is None:
-        return ""
-    osm = f"https://www.openstreetmap.org/?mlat={lat}&mlon={lon}#map=19/{lat}/{lon}"
-    google = f"https://www.google.com/maps?q={lat},{lon}"
-    return f"""
-        <a href="{osm}">OSM</a> |
-        <a href="{google}">Google Maps</a>
-    """
+def maps_links(lon, lat, osm_id=None):
+    links = []
+    if osm_id:
+        links.append(f'<a href="https://www.openstreetmap.org/node/{osm_id}">OSM</a>')
+    elif lon is not None and lat is not None:
+        links.append(f'<a href="https://www.openstreetmap.org/?mlat={lat}&mlon={lon}#map=19/{lat}/{lon}">OSM</a>')
+    if lon is not None and lat is not None:
+        links.append(f'<a href="https://www.google.com/maps?q={lat},{lon}">Google Maps</a>')
+    return " | ".join(links)
 
 def address(props):
     parts = []
@@ -49,7 +49,7 @@ def address(props):
     if postcode or city:
         parts.append(" ".join(p for p in [postcode, city] if p))
 
-    return ", ".join(parts)
+    return ", ".join(parts) if parts else None
 
 old_idx = index(old["features"])
 new_idx = index(new["features"])
@@ -63,24 +63,30 @@ rows = []
 def row(category, feature, changes=None):
     p = feature["properties"]
     lon, lat = coords(feature)
+    osm_id = p.get("id")
+    addr = address(p)
+    links = maps_links(lon, lat, osm_id)
 
     rows.append(f"""
     <tr>
         <td>{category}</td>
         <td>{html.escape(p.get("name","(ohne Name)"))}<br><small>ID: {p.get("id")}</small></td>
-        <td>{html.escape(address(p) or "")}</td>
+        <td>{html.escape(addr) if addr else ""}</td>
         <td>{f"{lon}, {lat}" if lon else ""}</td>
-        <td>{maps_links(lon, lat)}</td>
+        <td>{links}</td>
         <td>{"<br>".join(html.escape(c) for c in changes) if changes else ""}</td>
     </tr>
     """)
 
+# Neue Einträge
 for i in added:
     row("🆕 Neu", new_idx[i])
 
+# Entfernte Einträge
 for i in removed:
     row("❌ Entfernt", old_idx[i])
 
+# Geänderte Einträge
 for i in common:
     old_p = old_idx[i]["properties"]
     new_p = new_idx[i]["properties"]
