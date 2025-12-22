@@ -78252,19 +78252,20 @@
   "type": "Feature",
   "id": "node/12105743459",
   "properties": {
-    "defibrillator:location": "Restaurant Fronalpstock",
-    "description": "Zugänglich während Öffnungszeiten Restaurant",
+    "defibrillator:location": "Restaurant Fronalpstock, Stoos",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Stoosbahnen",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stoosbahnen AG",
+    "phone": "+41 41 818 08 08",
     "id": "node/12105743459"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6372486,
-      46.9698502
+      8.637032,
+      46.9698299
     ]
   }
 },
@@ -96589,6 +96590,71 @@
     "coordinates": [
       8.5208827,
       47.3867456
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13394764201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sesselbahn Mettlen-Fronalpstock, Stoos",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stoosbahnen AG",
+    "phone": "+41 41 818 08 08",
+    "id": "node/13394764201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6559522,
+      46.9769157
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13394768002",
+  "properties": {
+    "defibrillator:location": "Talstation Sesselbahn Brunnerboden-Klingenstock, Stoos",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stoosbahnhen AG",
+    "phone": "+41 41 818 08 08",
+    "id": "node/13394768002"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6715239,
+      46.9729572
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13394769401",
+  "properties": {
+    "defibrillator:location": "Bergstation Sesselbahn Brunnerboden-Klingenstock, Stoos",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stoosbahnnen AG",
+    "phone": "+41 41 818 08 08",
+    "id": "node/13394769401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6760114,
+      46.957065
     ]
   }
 }
