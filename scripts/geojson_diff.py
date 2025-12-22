@@ -26,92 +26,109 @@ def coords(feature):
     except Exception:
         return None, None
 
-def maps_links(lon, lat, osm_id=None):
-    links = []
-    if osm_id:
-        links.append(f'<a href="https://www.openstreetmap.org/node/{osm_id}">OSM</a>')
-    elif lon is not None and lat is not None:
-        links.append(f'<a href="https://www.openstreetmap.org/?mlat={lat}&mlon={lon}#map=19/{lat}/{lon}">OSM</a>')
-    if lon is not None and lat is not None:
-        links.append(f'<a href="https://www.google.com/maps?q={lat},{lon}">Google Maps</a>')
-    return " | ".join(links)
-
 def address(props):
     parts = []
     street = props.get("addr:street")
     housenumber = props.get("addr:housenumber")
     postcode = props.get("addr:postcode")
     city = props.get("addr:city")
+
     if street or housenumber:
         parts.append(" ".join(p for p in [street, housenumber] if p))
     if postcode or city:
         parts.append(" ".join(p for p in [postcode, city] if p))
+
     return ", ".join(parts) if parts else None
 
-old_idx = index(old["features"])
-new_idx = index(new["features"])
+def maps_links(lon, lat, osm_id=None):
+    links = []
+    if osm_id:
+        links.append(f'<a href="https://www.openstreetmap.org/node/{osm_id}">OSM</a>')
+    elif lon is not None and lat is not None:
+        links.append(f'<a href="https://www.openstreetmap.org/?mlat={lat}&mlon={lon}#map=19/{lat}/{lon}">OSM</a>')
+
+    if lon is not None and lat is not None:
+        links.append(f'<a href="https://www.google.com/maps?q={lat},{lon}">Google Maps</a>')
+
+    return " | ".join(links)
+
+old_idx = index(old.get("features", []))
+new_idx = index(new.get("features", []))
 
 added = new_idx.keys() - old_idx.keys()
 removed = old_idx.keys() - new_idx.keys()
 common = new_idx.keys() & old_idx.keys()
 
 rows = []
-summary = {"neu":0, "entfernt":0, "geändert":0}
+summary = {"neu": 0, "entfernt": 0, "geändert": 0}
 
-def row(category, feature, changes=None):
-    p = feature["properties"]
+# Welche Felder willst du als "Änderungen" anzeigen?
+RELEVANT_FIELDS = [
+    "name",
+    "status",
+    "addr:street",
+    "addr:housenumber",
+    "addr:postcode",
+    "addr:city",
+]
+
+def add_row(category, feature, changes=None):
+    p = feature.get("properties", {})
     lon, lat = coords(feature)
     osm_id = p.get("id")
     addr = address(p)
     links = maps_links(lon, lat, osm_id)
-    cls = ""
-    if category == "🆕 Neu": cls = "new"
-    elif category == "❌ Entfernt": cls = "removed"
-    elif category == "✏️ Geändert": cls = "changed"
+
+    css_class = {
+        "🆕 Neu": "new",
+        "❌ Entfernt": "removed",
+        "✏️ Geändert": "changed",
+    }.get(category, "")
 
     rows.append(f"""
-    <tr class="{cls}">
-        <td>{category}</td>
-        <td>{html.escape(p.get("name","(ohne Name)"))}<br><small>ID: {p.get("id")}</small></td>
-        <td>{html.escape(addr) if addr else ""}</td>
-        <td>{f"{lon}, {lat}" if lon else ""}</td>
-        <td>{links}</td>
-        <td>{"<br>".join(html.escape(c) for c in changes) if changes else ""}</td>
+    <tr class="{css_class}">
+      <td>{category}</td>
+      <td>{html.escape(str(p.get("name","(ohne Name)")))}<br><small>ID: {html.escape(str(p.get("id","")))}</small></td>
+      <td>{html.escape(addr) if addr else ""}</td>
+      <td>{html.escape(f"{lon}, {lat}") if lon is not None and lat is not None else ""}</td>
+      <td>{links}</td>
+      <td>{"<br>".join(html.escape(c) for c in changes) if changes else ""}</td>
     </tr>
     """)
 
-# Neue Einträge
-for i in added:
-    row("🆕 Neu", new_idx[i])
-    summary["neu"] +=1
+# Neu
+for i in sorted(added):
+    add_row("🆕 Neu", new_idx[i])
+    summary["neu"] += 1
 
-# Entfernte Einträge
-for i in removed:
-    row("❌ Entfernt", old_idx[i])
-    summary["entfernt"] +=1
+# Entfernt
+for i in sorted(removed):
+    add_row("❌ Entfernt", old_idx[i])
+    summary["entfernt"] += 1
 
-# Geänderte Einträge
-for i in common:
-    old_p = old_idx[i]["properties"]
-    new_p = new_idx[i]["properties"]
+# Geändert
+for i in sorted(common):
+    old_p = old_idx[i].get("properties", {})
+    new_p = new_idx[i].get("properties", {})
+
     changes = []
-    relevant_fields = ["status", "addr:street", "addr:housenumber", "addr:city", "addr:postcode", "name"]
-    for k in relevant_fields:
+    for k in RELEVANT_FIELDS:
         if old_p.get(k) != new_p.get(k):
             changes.append(f"{k}: '{old_p.get(k)}' → '{new_p.get(k)}'")
+
     if changes:
-        row("✏️ Geändert", new_idx[i], changes)
-        summary["geändert"] +=1
+        add_row("✏️ Geändert", new_idx[i], changes)
+        summary["geändert"] += 1
 
-# Prüfen, ob es Änderungen gibt
+# Keine Änderungen → KEIN diff.html schreiben
 if not rows:
-    print("Keine Änderungen an der GeoJSON-Datei. Mail wird nicht gesendet.")
-    exit(0)
+    print("No changes detected by geojson_diff.py; diff.html not created.")
+    sys.exit(0)
 
-# HTML-Mail
 html_mail = f"""
 <html>
 <head>
+<meta charset="utf-8"/>
 <style>
 body {{ font-family: Arial, sans-serif; }}
 table {{ border-collapse: collapse; width: 100%; }}
@@ -129,20 +146,21 @@ small {{ color: #666; }}
 <p><strong>📊 Zusammenfassung:</strong> {summary['neu']} neu, {summary['geändert']} geändert, {summary['entfernt']} entfernt</p>
 
 <table>
-<tr>
+  <tr>
     <th>Typ</th>
     <th>Name</th>
     <th>Adresse</th>
     <th>Koordinaten</th>
     <th>Karte</th>
     <th>Änderungen</th>
-</tr>
-{''.join(rows)}
+  </tr>
+  {''.join(rows)}
 </table>
-
 </body>
 </html>
 """
 
 with open("diff.html", "w", encoding="utf-8") as f:
     f.write(html_mail)
+
+print("diff.html created.")
