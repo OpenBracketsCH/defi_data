@@ -8,70 +8,32 @@ on:
 jobs:
   diff-and-mail:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write   # damit wir last_reported_sha.txt committen dürfen
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 50  # schneller als 0, reicht i.d.R. für "seit letzter Mail"
+          fetch-depth: 10
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Determine last reported commit
-        id: last
+      - name: Vorherigen Commit ermitteln
+        id: prev_commit
         run: |
-          set -euo pipefail
-          mkdir -p .reporting
-          FILE=".reporting/last_reported_sha.txt"
+          PREV=$(git log -n 10 --pretty=format:"%H" -- data/json/defis_kt_be.geojson | tail -n1)
+          echo "PREV=$PREV" >> $GITHUB_ENV
 
-          HEAD_SHA="$(git rev-parse HEAD)"
-
-          if [ -f "$FILE" ]; then
-            LAST_SHA="$(cat "$FILE" | tr -d '[:space:]')"
-          else
-            LAST_SHA=""
-          fi
-
-          # Falls noch nie gelaufen: initialisieren und NICHT mailen
-          if [ -z "$LAST_SHA" ]; then
-            echo "$HEAD_SHA" > "$FILE"
-            echo "HAS_BASE=false" >> $GITHUB_ENV
-            echo "HEAD_SHA=$HEAD_SHA" >> $GITHUB_ENV
-            exit 0
-          fi
-
-          # Sicherstellen, dass LAST_SHA im Clone vorhanden ist (bei Bedarf nach-fetch)
-          if ! git cat-file -e "$LAST_SHA^{commit}" 2>/dev/null; then
-            echo "LAST_SHA not in shallow clone, fetching more history..."
-            git fetch --deepen=200 origin main || true
-          fi
-
-          echo "HAS_BASE=true" >> $GITHUB_ENV
-          echo "LAST_SHA=$LAST_SHA" >> $GITHUB_ENV
-          echo "HEAD_SHA=$HEAD_SHA" >> $GITHUB_ENV
-
-      - name: Create diff HTML (since last mail)
-        if: env.HAS_BASE == 'true'
+      - name: Diff HTML erstellen
         run: |
-          set -euo pipefail
-
-          # Wenn sich die Datei seit LAST_SHA gar nicht geändert hat: nichts tun
-          if git diff --quiet "$LAST_SHA..$HEAD_SHA" -- data/json/defis_kt_be.geojson; then
-            echo "No changes in target file since last reported commit."
-            exit 0
-          fi
-
           python scripts/geojson_diff.py \
-            <(git show "$LAST_SHA":data/json/defis_kt_be.geojson) \
-            data/json/defis_kt_be.geojson
+            <(git show $PREV:data/json/defis_kt_be.geojson) \
+            data/json/defis_kt_be.geojson || echo "Keine Änderungen"
 
-      - name: Check diff.html exists
-        if: env.HAS_BASE == 'true'
+      - name: Prüfen, ob diff.html existiert
+        id: check_diff
         run: |
           if [ -f diff.html ]; then
             echo "CHANGED=true" >> $GITHUB_ENV
@@ -92,16 +54,3 @@ jobs:
           html_body: file://diff.html
           to: reports@defikarte.ch
           from: Defikarte.ch Reporting
-
-      - name: Update last reported commit (only if mailed)
-        if: env.CHANGED == 'true'
-        run: |
-          set -euo pipefail
-          echo "$HEAD_SHA" > .reporting/last_reported_sha.txt
-
-          git config user.name "Defikarte Reporting Bot"
-          git config user.email "actions@github.com"
-
-          git add .reporting/last_reported_sha.txt
-          git commit -m "chore(reporting): update last reported sha" || exit 0
-          git push origin HEAD:main
