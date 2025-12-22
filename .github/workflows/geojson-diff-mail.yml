@@ -2,86 +2,38 @@ name: GeoJSON Diff Mail
 
 on:
   schedule:
-    - cron: '0 * * * *'   # stündlich (UTC)
+    - cron: '0 * * * *'   # stündlich
   workflow_dispatch:
 
 jobs:
   diff-and-mail:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write  # nötig, um last_reported_sha.txt zu committen
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 50
+          fetch-depth: 10
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Determine LAST and HEAD
+      - name: Vorherigen Commit ermitteln
+        id: prev_commit
         run: |
-          set -euo pipefail
-          mkdir -p .reporting
-          FILE=".reporting/last_reported_sha.txt"
+          PREV=$(git log -n 10 --pretty=format:"%H" -- data/json/defis_kt_be.geojson | tail -n1)
+          echo "PREV=$PREV" >> $GITHUB_ENV
 
-          HEAD_SHA="$(git rev-parse HEAD)"
-          echo "HEAD_SHA=$HEAD_SHA" >> $GITHUB_ENV
-
-          if [ -f "$FILE" ]; then
-            LAST_SHA="$(cat "$FILE" | tr -d '[:space:]')"
-          else
-            LAST_SHA=""
-          fi
-
-          # 1st run: initialize marker, no mail
-          if [ -z "$LAST_SHA" ]; then
-            echo "$HEAD_SHA" > "$FILE"
-            echo "HAS_BASE=false" >> $GITHUB_ENV
-            echo "LAST_SHA=" >> $GITHUB_ENV
-            exit 0
-          fi
-
-          # Ensure LAST_SHA exists in this shallow clone; deepen if needed
-          if ! git cat-file -e "$LAST_SHA^{commit}" 2>/dev/null; then
-            echo "LAST_SHA not found in clone; deepening history..."
-            git fetch --deepen=200 origin main || true
-          fi
-
-          # If still not found, fail safe: reset base to HEAD (avoid spamming wrong diffs)
-          if ! git cat-file -e "$LAST_SHA^{commit}" 2>/dev/null; then
-            echo "LAST_SHA still not found. Resetting marker to HEAD to recover."
-            echo "$HEAD_SHA" > "$FILE"
-            echo "HAS_BASE=false" >> $GITHUB_ENV
-            echo "LAST_SHA=" >> $GITHUB_ENV
-            exit 0
-          fi
-
-          echo "HAS_BASE=true" >> $GITHUB_ENV
-          echo "LAST_SHA=$LAST_SHA" >> $GITHUB_ENV
-
-      - name: Check if target file changed since LAST
-        if: env.HAS_BASE == 'true'
+      - name: Diff HTML erstellen
         run: |
-          set -euo pipefail
-          if git diff --quiet "$LAST_SHA..$HEAD_SHA" -- data/json/defis_kt_be.geojson; then
-            echo "NO_FILE_CHANGES=true" >> $GITHUB_ENV
-          else
-            echo "NO_FILE_CHANGES=false" >> $GITHUB_ENV
-          fi
-
-      - name: Create diff.html (LAST -> HEAD)
-        if: env.HAS_BASE == 'true' && env.NO_FILE_CHANGES == 'false'
-        run: |
-          set -euo pipefail
           python scripts/geojson_diff.py \
-            <(git show "$LAST_SHA":data/json/defis_kt_be.geojson) \
-            data/json/defis_kt_be.geojson
+            <(git show $PREV:data/json/defis_kt_be.geojson) \
+            data/json/defis_kt_be.geojson || echo "Keine Änderungen"
 
-      - name: Check diff.html exists
+      - name: Prüfen, ob diff.html existiert
+        id: check_diff
         run: |
           if [ -f diff.html ]; then
             echo "CHANGED=true" >> $GITHUB_ENV
@@ -102,15 +54,3 @@ jobs:
           html_body: file://diff.html
           to: reports@defikarte.ch
           from: Defikarte.ch Reporting
-
-      - name: Update marker (only if mailed)
-        if: env.CHANGED == 'true'
-        run: |
-          set -euo pipefail
-          echo "$HEAD_SHA" > .reporting/last_reported_sha.txt
-
-          git config user.name "Defikarte Reporting Bot"
-          git config user.email "actions@github.com"
-          git add .reporting/last_reported_sha.txt
-          git commit -m "chore(reporting): update last reported sha" || exit 0
-          git push origin HEAD:main
