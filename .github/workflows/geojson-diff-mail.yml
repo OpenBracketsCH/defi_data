@@ -13,7 +13,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 10
+          fetch-depth: 2
 
       - name: Setup Python
         uses: actions/setup-python@v5
