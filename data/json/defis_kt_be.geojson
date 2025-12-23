@@ -2020,7 +2020,7 @@
     "defibrillator:location": "Haupteingang EG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Schulanlage Strättligen",
     "phone": "+41 33 225 84 15",
@@ -2030,8 +2030,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6187067,
-      46.7423217
+      7.6187061,
+      46.7423218
     ]
   }
 },
@@ -5559,9 +5559,11 @@
     "addr:housenumber": "6",
     "addr:postcode": "3855",
     "addr:street": "Strandbadweg",
-    "defibrillator:location": "Im Hauptgebäude, zu Betriebszeite. Siehe Homepage https://www.strandbadbrienz.ch",
+    "defibrillator:location": "Im Hauptgebäude",
+    "description": "zu Betriebszeiten. Siehe Homepage https://www.strandbadbrienz.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Defi Strandbad",
     "operator": "Strandbad Brienz",
     "phone": "+41 33 951 05 40",
@@ -5570,8 +5572,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0468479,
-      46.7518717
+      8.0468483,
+      46.7518716
     ]
   }
 },
@@ -22052,15 +22054,16 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Stadt Thun",
-    "phone": "+41 333368191",
+    "phone": "+41 33 336 81 91",
     "id": "node/6689134305"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6304395,
+      7.6304396,
       46.7398424
     ]
   }
@@ -50952,30 +50955,6 @@
     "coordinates": [
       7.708484,
       46.7174776
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11500361883",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Thun",
-    "addr:postcode": "3604",
-    "addr:street": "Strandbadweg 10",
-    "defibrillator:location": "rechts ausserhalb des Ausgangs",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Strandbad Thun",
-    "phone": "+41 33 336 81 91",
-    "id": "node/11500361883"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6305031,
-      46.7398845
     ]
   }
 },
