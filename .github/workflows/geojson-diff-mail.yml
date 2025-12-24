@@ -1,48 +1,66 @@
-name: GeoJSON Diff Mail
+name: GeoJSON Diff Mail (after Overpass)
 
 on:
-  schedule:
-    - cron: '0 * * * *'   # stündlich
+  workflow_run:
+    workflows: ["Get data from Overpass"]   # <- muss exakt dem "name:" in overpass.yml entsprechen
+    types:
+      - completed
   workflow_dispatch:
 
 jobs:
   diff-and-mail:
+    # nur laufen, wenn overpass erfolgreich war (bei workflow_dispatch gibt's dieses Feld nicht)
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
+      - name: Checkout repo at the Overpass result commit
         uses: actions/checkout@v4
         with:
-          fetch-depth: 10
+          # Bei workflow_dispatch ist head_sha nicht gesetzt -> dann einfach default branch
+          ref: ${{ github.event.workflow_run.head_sha || github.ref }}
+          fetch-depth: 2
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
-      - name: Vorherigen Commit ermitteln
-        id: prev_commit
+      - name: Determine base commit (parent)
+        id: base
         run: |
-          PREV=$(git log -n 10 --pretty=format:"%H" -- data/json/defis_kt_be.geojson | tail -n1)
-          echo "PREV=$PREV" >> $GITHUB_ENV
+          set -euo pipefail
+          BASE_SHA="$(git rev-parse HEAD^)"
+          echo "BASE_SHA=$BASE_SHA" >> $GITHUB_ENV
+          echo "HEAD_SHA=$(git rev-parse HEAD)" >> $GITHUB_ENV
 
-      - name: Diff HTML erstellen
+      - name: Check if GeoJSON file changed
         run: |
+          set -euo pipefail
+          if git diff --quiet "$BASE_SHA..$HEAD_SHA" -- data/json/defis_kt_be.geojson; then
+            echo "FILE_CHANGED=false" >> $GITHUB_ENV
+          else
+            echo "FILE_CHANGED=true" >> $GITHUB_ENV
+          fi
+
+      - name: Create diff HTML
+        if: env.FILE_CHANGED == 'true'
+        run: |
+          set -euo pipefail
           python scripts/geojson_diff.py \
-            <(git show $PREV:data/json/defis_kt_be.geojson) \
-            data/json/defis_kt_be.geojson || echo "Keine Änderungen"
+            <(git show "$BASE_SHA":data/json/defis_kt_be.geojson) \
+            data/json/defis_kt_be.geojson
 
-      - name: Prüfen, ob diff.html existiert
-        id: check_diff
+      - name: Check diff.html exists
         run: |
           if [ -f diff.html ]; then
-            echo "CHANGED=true" >> $GITHUB_ENV
+            echo "DIFF_EXISTS=true" >> $GITHUB_ENV
           else
-            echo "CHANGED=false" >> $GITHUB_ENV
+            echo "DIFF_EXISTS=false" >> $GITHUB_ENV
           fi
 
       - name: Mail versenden
-        if: env.CHANGED == 'true'
+        if: env.DIFF_EXISTS == 'true'
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: asmtp.mail.hostpoint.ch
