@@ -18451,9 +18451,10 @@
     "addr:housenumber": "13",
     "addr:postcode": "3076",
     "addr:street": "Bahnhofstrasse",
-    "defibrillator:location": "Die AED befinden sich bei allen Standorten jeweils in der 24-H Zone in der Nähe der Bancomaten und diese sind rund um die Uhr zugänglich.",
+    "defibrillator:location": "In der 24-H Zone in der Nähe der Bancomaten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "24/7",
     "operator": "Bank SLM AG",
     "phone": "+41 31 700 10 26",
@@ -18462,8 +18463,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5645779,
-      46.9271953
+      7.5645778,
+      46.9271954
     ]
   }
 },
@@ -41435,8 +41436,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5383565,
-      46.9326391
+      7.5385872,
+      46.9325162
     ]
   }
 },
@@ -50328,30 +50329,6 @@
     "coordinates": [
       7.6291764,
       47.0356085
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11483459011",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Rüfenacht",
-    "addr:postcode": "3075",
-    "addr:street": "Asterweg 1a",
-    "defibrillator:location": "Einstellhalle Rüfenacht",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Gemeindeverwaltung Worb - Polizeiabteilung",
-    "phone": "+41 318380780",
-    "id": "node/11483459011"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5383472,
-      46.9324914
     ]
   }
 },
