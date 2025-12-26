@@ -6,6 +6,7 @@ import re
 old_file = sys.argv[1]
 new_file = sys.argv[2]
 
+# Felder, die "geändert" auslösen sollen (erweiterbar)
 RELEVANT_FIELDS = [
     "name",
     "status",
@@ -49,16 +50,18 @@ def normalize_osm_id(s: str) -> str:
     s = str(s).strip()
     if re.match(r"^(node|way|relation)/\d+$", s):
         return s
-    m = re.match(r"^(node|way|relation)\s*/\s*(\d+)$", s)
-    if m:
-        return f"{m.group(1)}/{m.group(2)}"
     if re.match(r"^\d+$", s):
         return f"node/{s}"
     return s
 
-def get_osm_key(feature) -> str | None:
+def get_key(feature) -> str | None:
+    """
+    Stable identity key so that 'changed' works.
+    Supports multiple Overpass/GeoJSON variants.
+    """
     p = feature.get("properties", {}) or {}
-    for k in ("id", "@id", "osm_id", "osm:id", "osmid", "osmId"):
+
+    for k in ("@id", "osm_id", "osm:id", "id", "osmid", "osmId"):
         v = p.get(k)
         if v is not None and str(v).strip():
             return normalize_osm_id(v)
@@ -67,36 +70,36 @@ def get_osm_key(feature) -> str | None:
     if v is not None and str(v).strip():
         return normalize_osm_id(v)
 
+    # last resort: coords+name (avoid losing everything)
     lon, lat = coords(feature)
     name = p.get("name", "")
     if lon is not None and lat is not None:
         return f"fallback:{name}:{lon}:{lat}"
+
     return None
 
-def osm_url_from_key(osm_key: str) -> str:
-    return f"https://www.openstreetmap.org/{osm_key}"
+def osm_url(key: str) -> str:
+    return f"https://www.openstreetmap.org/{key}"
 
-def maps_links(lon, lat, osm_key=None):
+def maps_links(lon, lat, key=None):
     links = []
-    if osm_key and osm_key.startswith(("node/", "way/", "relation/")):
-        links.append(f'<a href="{osm_url_from_key(osm_key)}">OSM</a>')
+    if key and key.startswith(("node/", "way/", "relation/")):
+        links.append(f'<a href="{osm_url(key)}">OSM</a>')
     elif lon is not None and lat is not None:
         links.append(f'<a href="https://www.openstreetmap.org/?mlat={lat}&mlon={lon}#map=19/{lat}/{lon}">OSM</a>')
-
     if lon is not None and lat is not None:
         links.append(f'<a href="https://www.google.com/maps?q={lat},{lon}">Google Maps</a>')
-
     return " | ".join(links)
 
 def index(features):
     out = {}
     for f in features:
-        key = get_osm_key(f)
-        if key:
-            out[key] = f
+        k = get_key(f)
+        if k:
+            out[k] = f
     return out
 
-def props(feature) -> dict:
+def props(feature):
     return feature.get("properties", {}) or {}
 
 old = load(old_file)
@@ -105,28 +108,27 @@ new = load(new_file)
 old_idx = index(old.get("features", []) or [])
 new_idx = index(new.get("features", []) or [])
 
-added = set(new_idx) - set(old_idx)
-removed = set(old_idx) - set(new_idx)
-common = set(new_idx) & set(old_idx)
+added = sorted(set(new_idx) - set(old_idx))
+removed = sorted(set(old_idx) - set(new_idx))
+common = sorted(set(new_idx) & set(old_idx))
 
 rows = []
-summary = {"neu": 0, "entfernt": 0, "geändert": 0}
+summary = {"neu": 0, "geändert": 0, "gelöscht": 0}
 
 def add_row(category, feature, changes=None):
     p = props(feature)
     lon, lat = coords(feature)
-    key = get_osm_key(feature)
+    key = get_key(feature)
     addr = address(p)
     links = maps_links(lon, lat, key)
 
-    css = {"🆕 Neu":"new","❌ Entfernt":"removed","✏️ Geändert":"changed"}.get(category,"")
-    name = str(p.get("name","(ohne Name)"))
-    fid = key or ""
+    css = {"neu":"new", "gelöscht":"removed", "geändert":"changed"}[category]
+    name = str(p.get("name", "(ohne Name)"))
 
     rows.append(f"""
     <tr class="{css}">
-      <td>{category}</td>
-      <td>{html.escape(name)}<br><small>ID: {html.escape(fid)}</small></td>
+      <td>{html.escape(category)}</td>
+      <td>{html.escape(name)}<br><small>ID: {html.escape(key or "")}</small></td>
       <td>{html.escape(addr) if addr else ""}</td>
       <td>{html.escape(f"{lon}, {lat}") if lon is not None and lat is not None else ""}</td>
       <td>{links}</td>
@@ -134,26 +136,31 @@ def add_row(category, feature, changes=None):
     </tr>
     """)
 
-for k in sorted(added):
-    add_row("🆕 Neu", new_idx[k])
+# NEU
+for k in added:
+    add_row("neu", new_idx[k])
     summary["neu"] += 1
 
-for k in sorted(removed):
-    add_row("❌ Entfernt", old_idx[k])
-    summary["entfernt"] += 1
+# GELÖSCHT
+for k in removed:
+    add_row("gelöscht", old_idx[k])
+    summary["gelöscht"] += 1
 
-for k in sorted(common):
+# GEÄNDERT
+for k in common:
     op = props(old_idx[k])
     np = props(new_idx[k])
+
     changes = []
     for f in RELEVANT_FIELDS:
         if op.get(f) != np.get(f):
             changes.append(f"{f}: '{op.get(f)}' → '{np.get(f)}'")
+
     if changes:
-        add_row("✏️ Geändert", new_idx[k], changes)
+        add_row("geändert", new_idx[k], changes)
         summary["geändert"] += 1
 
-# Wenn nichts zu reporten: KEIN diff.html erzeugen
+# wenn wirklich gar nichts reportenswertes:
 if not rows:
     sys.exit(0)
 
@@ -166,7 +173,6 @@ body {{ font-family: Arial, sans-serif; }}
 table {{ border-collapse: collapse; width: 100%; }}
 th, td {{ border: 1px solid #ddd; padding: 8px; vertical-align: top; }}
 th {{ background-color: #f4f4f4; }}
-tr:nth-child(even) {{ background-color: #fafafa; }}
 tr.new {{ background-color: #e6ffe6; }}
 tr.removed {{ background-color: #ffe6e6; }}
 tr.changed {{ background-color: #fff8e6; }}
@@ -175,16 +181,16 @@ small {{ color: #666; }}
 </head>
 <body>
 <h2>Änderungen an defis_kt_be.geojson</h2>
-<p><strong>📊 Zusammenfassung:</strong> {summary['neu']} neu, {summary['geändert']} geändert, {summary['entfernt']} entfernt</p>
+<p><strong>📊 Zusammenfassung:</strong> {summary['neu']} neu, {summary['geändert']} geändert, {summary['gelöscht']} gelöscht</p>
 
 <table>
   <tr>
-    <th>Typ</th>
+    <th>Status</th>
     <th>Name</th>
     <th>Adresse</th>
     <th>Koordinaten</th>
     <th>Karte</th>
-    <th>Änderungen</th>
+    <th>Details</th>
   </tr>
   {''.join(rows)}
 </table>

@@ -1,0 +1,56 @@
+name: GeoJSON Diff Mail
+
+on:
+  workflow_run:
+    workflows: ["Get data from Overpass"]
+    types: [completed]
+
+jobs:
+  diff-and-mail:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout commit from Overpass run
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha }}
+          fetch-depth: 2
+
+      - name: Ensure commit actually changed the target file
+        id: changed
+        run: |
+          set -euo pipefail
+          if git diff --quiet HEAD^..HEAD -- data/json/defis_kt_be.geojson; then
+            echo "CHANGED=false" >> $GITHUB_ENV
+          else
+            echo "CHANGED=true" >> $GITHUB_ENV
+          fi
+
+      - name: Setup Python
+        if: env.CHANGED == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Create HTML diff
+        if: env.CHANGED == 'true'
+        run: |
+          set -euo pipefail
+          python scripts/geojson_diff.py \
+            <(git show HEAD^:data/json/defis_kt_be.geojson) \
+            data/json/defis_kt_be.geojson
+
+      - name: Send mail (HTML)
+        if: env.CHANGED == 'true'
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: asmtp.mail.hostpoint.ch
+          server_port: 587
+          secure: false
+          username: ${{ secrets.MAIL_USER }}
+          password: ${{ secrets.MAIL_PASS }}
+          subject: "Änderungen an Defis Kanton Bern"
+          html_body: file://diff.html
+          to: reports@defikarte.ch
+          from: Defikarte.ch Reporting
