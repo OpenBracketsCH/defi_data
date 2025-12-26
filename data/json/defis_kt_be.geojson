@@ -499,7 +499,7 @@
     "access": "permissive",
     "addr:floor": "1",
     "contact:emergency": "144",
-    "contact:phone": "+41 31 3222323",
+    "contact:phone": "+41 31 322 23 23",
     "defibrillator:location": "Beim Sicherheitspersonal melden",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -511,50 +511,6 @@
     "coordinates": [
       7.4438875,
       46.9466358
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/3548635176",
-  "properties": {
-    "access": "permissive",
-    "addr:floor": "2",
-    "contact:emergency": "144",
-    "contact:phone": "+41 31 3222323",
-    "defibrillator:location": "Beim Sicherheitspersonal melden",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "id": "node/3548635176"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4438955,
-      46.9466065
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/3548635177",
-  "properties": {
-    "access": "permissive",
-    "addr:floor": "3",
-    "contact:emergency": "144",
-    "contact:phone": "+41 31 3222323",
-    "defibrillator:location": "Beim Sicherheitspersonal melden",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "id": "node/3548635177"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4439036,
-      46.9465809
     ]
   }
 },
@@ -1131,28 +1087,6 @@
     "coordinates": [
       7.4302537,
       46.9540883
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/4753150746",
-  "properties": {
-    "addr:city": "Bern",
-    "addr:country": "CH",
-    "addr:floor": "-1",
-    "addr:postcode": "3012",
-    "addr:street": "Schanzeneckstrasse",
-    "defibrillator:location": "UG1, SanZimmer A-130",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/4753150746"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4357477,
-      46.9502123
     ]
   }
 },
@@ -26528,6 +26462,11 @@
   "id": "node/7019116009",
   "properties": {
     "access": "yes",
+    "addr:city": "Bern",
+    "addr:country": "CH",
+    "addr:floor": "-1",
+    "addr:postcode": "3012",
+    "addr:street": "Schanzeneckstrasse",
     "defibrillator:location": "Rechts nach dem Haupteingang UniS von der Schanzeneckstrasse her",
     "emergency": "defibrillator",
     "emergency:phone": "144",
