@@ -5,6 +5,9 @@ on:
     workflows: ["Get data from Overpass"]
     types: [completed]
 
+  workflow_dispatch: ~
+
+
 jobs:
   diff-and-mail:
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
