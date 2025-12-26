@@ -14,7 +14,6 @@ jobs:
     
     - name: Checkout Code
       uses: actions/checkout@v4
-      # WICHTIG: Holt die komplette History, um das State File zu laden
       with:
         fetch-depth: 0 
         
@@ -31,17 +30,12 @@ jobs:
     - name: Run Diff Script
       run: python diff_and_mail.py
       env:
-        # Laden der Secrets als Umgebungsvariablen für das Python-Skript
-        SMTP_USERNAME: ${{ secrets.MAIL_USER}} 
-        SMTP_PASSWORD: ${{ secrets.SMTP_MAIL_PASS}}
-        # SMTP_SERVER: 'smtp.gmail.com' # Optional, wenn Sie einen anderen Server benötigen
+        SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }} 
+        SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
         
     - name: Commit State File
-      # Schreibt das aktualisierte 'last_known_version.json' in das Repo zurück
-      # Dies löst das Problem, dass immer die gleichen Changes gemeldet wurden!
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: 'Automatischer Update des last_known_version.json State File'
-        # Hier ist die korrigierte, listenbasierte YAML-Syntax
-        files: 
-          - last_known_version.json
+        # HIER MUSS EINE DER OBEN GENANNTEN OPTIONEN FUNKTIONIEREN:
+        files: last_known_version.json
