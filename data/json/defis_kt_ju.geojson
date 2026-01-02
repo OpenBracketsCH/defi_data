@@ -3,6 +3,128 @@
 "features": [
 {
   "type": "Feature",
+  "id": "node/6635063456",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Moutier",
+    "addr:housenumber": "30c",
+    "addr:postcode": "2740",
+    "addr:street": "Rue du Château",
+    "defibrillator:location": "Bâtiment administratif, 1er étage à côté de la fenêtre ouest",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
+    "operator": "Intendance des impôts du canton de Berne",
+    "phone": "+41 31 633 96 00",
+    "id": "node/6635063456"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3731077,
+      47.2808332
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/6635063458",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Moutier",
+    "addr:housenumber": "111",
+    "addr:postcode": "2740",
+    "addr:street": "Rue Industrielle",
+    "defibrillator:location": "A la réception du bâtiment administratif",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Tornos SA",
+    "phone": "+41 32 494 44 44",
+    "id": "node/6635063458"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3630229,
+      47.2716436
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/6635063460",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Moutier",
+    "addr:housenumber": "21",
+    "addr:postcode": "2740",
+    "addr:street": "Viaduc",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "Mo-Fr 06:45-12:00, 12:45-16:00",
+    "operator": "Michel Imhof SA",
+    "phone": "+41 32 493 31 04",
+    "id": "node/6635063460"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3730833,
+      47.2775905
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728595876",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Moutier",
+    "addr:housenumber": "30",
+    "addr:postcode": "2740",
+    "addr:street": "Rue du Château",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "Mo-Th 08:30-11:30, 14:00-17:30, Fr 08:30-11:30, 14:00-17:00, Sa 09:00-11:00",
+    "operator": "Polizeiwache Moutier",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728595876"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3727754,
+      47.2805841
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728645201",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Moutier",
+    "addr:housenumber": "71",
+    "addr:postcode": "2740",
+    "addr:street": "Quartier de la Verrerie",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Precidec Sàrl",
+    "phone": "+41 32 493 58 62",
+    "id": "node/8728645201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3581304,
+      47.265808
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8851322139",
   "properties": {
     "access": "yes",
@@ -3401,6 +3523,28 @@
 },
 {
   "type": "Feature",
+  "id": "node/9917843287",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Verkaufsfläche LIDL",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "LIDL Schweiz",
+    "phone": "+41716278074",
+    "id": "node/9917843287"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3660985,
+      47.2762173
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9917845023",
   "properties": {
     "access": "yes",
@@ -3418,6 +3562,31 @@
     "coordinates": [
       7.3510714,
       47.3627939
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10543669798",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Moutier",
+    "addr:housenumber": "13",
+    "addr:postcode": "2740",
+    "addr:street": "Avenue de la liberté",
+    "description": "Devant l'entrée de la ludothèque",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Ludothèque",
+    "phone": "+41 32 494 11 25",
+    "id": "node/10543669798"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3727396,
+      47.2787639
     ]
   }
 },
@@ -3866,6 +4035,31 @@
     "coordinates": [
       7.0772453,
       47.4163706
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11483583916",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Moutier",
+    "addr:housenumber": "98",
+    "addr:postcode": "2740",
+    "addr:street": "Rue Industrielle",
+    "defibrillator:location": "Rez-de-chaussée en face de l'entrée",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Forum de l'Arc SA",
+    "phone": "+41324931739",
+    "id": "node/11483583916"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3621769,
+      47.2709171
     ]
   }
 },
