@@ -7319,7 +7319,7 @@
   "id": "node/10606393727",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Löwenhaus Innenbereich, Gang Toiletten",
+    "defibrillator:location": "Insektenwald Innenbereich, Gang Toiletten",
     "description": "Verwendung durch Betriebssanität Zoo Zürich AG, Hinweis AED Aussen angebracht",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -17704,6 +17704,27 @@
     "coordinates": [
       8.5208827,
       47.3867456
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13426486581",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussen am Insektenwald-Gebäude",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Zoo Zürich AG",
+    "phone": "+41 44 254 25 00",
+    "id": "node/13426486581"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5734714,
+      47.3868046
     ]
   }
 }
