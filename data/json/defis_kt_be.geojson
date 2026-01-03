@@ -227,6 +227,28 @@
 },
 {
   "type": "Feature",
+  "id": "node/3523273973",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "defibrillator:location": "Beim Verkaufspersonal melden. - AED im Erdgeschoss im Sanitätszimmer. Zugang via Spitalgasse oder Schauplatzgasse. Bitte Öffnungszeiten beachten.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "floor": "0",
+    "indoor": "yes",
+    "opening_hours": "Mo-We 09:00-19:00; Th 09:00-21:00; Fr 09:00-19:00; Sa 08:00-17:00; Su off",
+    "id": "node/3523273973"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4428982,
+      46.9476979
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/3523273974",
   "properties": {
     "access": "permissive",
@@ -4093,7 +4115,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
-    "operator": "Karolinenheim Bern",
+    "operator": "Karolinenheim",
     "phone": "+41 34 415 12 19",
     "id": "node/6532690311"
   },
@@ -4168,7 +4190,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "24/7",
-    "operator": "Kirchgemeinde Lützelflüh BE",
+    "operator": "Kirchgemeinde Lützelflüh",
     "id": "node/6535319295"
   },
   "geometry": {
@@ -7240,7 +7262,7 @@
     "addr:housenumber": "8",
     "addr:postcode": "4936",
     "addr:street": "Homattstrasse",
-    "defibrillator:location": "Aussen unter Vordach rechts beim Eingang des Schulhauses",
+    "defibrillator:location": "Aussen unter Vordach rechts beim Eingang Schulhaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "level": "0",
@@ -7588,7 +7610,7 @@
   "type": "Feature",
   "id": "node/6624621840",
   "properties": {
-    "access": "no",
+    "access": "yes",
     "addr:city": "Rüderswil",
     "addr:housenumber": "114",
     "addr:postcode": "3437",
@@ -7598,7 +7620,7 @@
     "emergency:phone": "144",
     "opening_hours": "24/7",
     "operator": "Gemeinde",
-    "phone": "+41 84 496 20 20",
+    "phone": "+41 34 496 20 20",
     "id": "node/6624621840"
   },
   "geometry": {
@@ -7741,7 +7763,7 @@
     "addr:housenumber": "651b",
     "addr:postcode": "3537",
     "addr:street": "Untere Schmiede",
-    "defibrillator:location": "Laderampe, durch die Treppe erreichbar",
+    "defibrillator:location": "Laderampe, durch Treppe erreichbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
@@ -7770,7 +7792,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
-    "operator": "Feuerwehr Emmental",
+    "operator": "Feuerwehr",
     "phone": "+41 34 491 23 89",
     "id": "node/6629722075"
   },
