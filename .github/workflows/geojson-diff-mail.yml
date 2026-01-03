@@ -4,48 +4,70 @@ on:
   workflow_run:
     workflows: ["Get data from Overpass"]
     types: [completed]
-
-  workflow_dispatch: ~
-
+  workflow_dispatch:
 
 jobs:
   diff-and-mail:
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout commit from Overpass run
+      - name: Checkout latest main (post-overpass)
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.event.workflow_run.head_sha }}
-          fetch-depth: 2
+          ref: main
+          fetch-depth: 50
 
-      - name: Ensure commit actually changed the target file
-        id: changed
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Find last two commits that changed the GeoJSON
         run: |
           set -euo pipefail
-          if git diff --quiet HEAD^..HEAD -- data/json/defis_kt_be.geojson; then
+
+          # Letzte 2 Commits, die diese Datei wirklich geändert haben:
+          SHAS="$(git rev-list -n 2 HEAD -- data/json/defis_kt_be.geojson || true)"
+          COUNT="$(echo "$SHAS" | sed '/^\s*$/d' | wc -l | tr -d ' ')"
+
+          if [ "$COUNT" -lt 2 ]; then
+            echo "Not enough history for this file yet (need 2 commits)."
+            echo "CHANGED=false" >> $GITHUB_ENV
+            exit 0
+          fi
+
+          HEAD_SHA="$(echo "$SHAS" | head -n 1)"
+          BASE_SHA="$(echo "$SHAS" | tail -n 1)"
+
+          echo "HEAD_SHA=$HEAD_SHA" >> $GITHUB_ENV
+          echo "BASE_SHA=$BASE_SHA" >> $GITHUB_ENV
+
+          # Safety: Wenn die Datei zwischen diesen Commits nicht geändert wurde, keine Mail
+          if git diff --quiet "$BASE_SHA..$HEAD_SHA" -- data/json/defis_kt_be.geojson; then
             echo "CHANGED=false" >> $GITHUB_ENV
           else
             echo "CHANGED=true" >> $GITHUB_ENV
           fi
 
-      - name: Setup Python
-        if: env.CHANGED == 'true'
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-
-      - name: Create HTML diff
+      - name: Create diff HTML
         if: env.CHANGED == 'true'
         run: |
           set -euo pipefail
           python scripts/geojson_diff.py \
-            <(git show HEAD^:data/json/defis_kt_be.geojson) \
+            <(git show "$BASE_SHA":data/json/defis_kt_be.geojson) \
             data/json/defis_kt_be.geojson
 
-      - name: Send mail (HTML)
-        if: env.CHANGED == 'true'
+      - name: Check diff.html exists
+        run: |
+          if [ -f diff.html ]; then
+            echo "DIFF_EXISTS=true" >> $GITHUB_ENV
+          else
+            echo "DIFF_EXISTS=false" >> $GITHUB_ENV
+          fi
+
+      - name: Mail versenden
+        if: env.DIFF_EXISTS == 'true'
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: asmtp.mail.hostpoint.ch
