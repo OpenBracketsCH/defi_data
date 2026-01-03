@@ -10,10 +10,18 @@ new_file = sys.argv[2]
 RELEVANT_FIELDS = [
     "name",
     "status",
+    "operator",
+    "phone",
+    "access",
+    "opening_hours",
+    "defibrillator:location",
+    "phone",
+    "level",
     "addr:street",
     "addr:housenumber",
     "addr:postcode",
     "addr:city",
+    "indoor",
 ]
 
 def load(path: str):
