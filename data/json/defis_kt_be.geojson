@@ -33037,13 +33037,15 @@
     "defibrillator:location": "Eingangsbereich Bad links",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
     "id": "node/8829595670"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5625308,
-      46.926217
+      7.5625306,
+      46.9262172
     ]
   }
 },
@@ -41198,7 +41200,7 @@
   "type": "Feature",
   "id": "node/10068616775",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "in der Zivilschutzanlage",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
@@ -52199,6 +52201,7 @@
   "type": "Feature",
   "id": "node/11884852169",
   "properties": {
+    "access": "private",
     "defibrillator:location": "Clubhaus Tennisclub Worb",
     "description": "offen wenn Tennisplatz besetzt",
     "emergency": "defibrillator",
@@ -52212,8 +52215,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5623352,
-      46.9250342
+      7.5623351,
+      46.9250343
     ]
   }
 },
