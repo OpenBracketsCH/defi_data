@@ -10,24 +10,53 @@ jobs:
   diff-and-mail:
     if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
+    permissions:
+      contents: write   # notwendig, um den Merker zu committen
 
     steps:
-      - name: Checkout latest main (post-overpass)
+      - name: Checkout latest main
         uses: actions/checkout@v4
         with:
           ref: main
           fetch-depth: 2
+
+      - name: Check if this HEAD was already processed
+        run: |
+          set -euo pipefail
+          mkdir -p .reporting
+
+          HEAD_SHA="$(git rev-parse HEAD)"
+          echo "HEAD_SHA=$HEAD_SHA" >> $GITHUB_ENV
+
+          FILE=".reporting/last_processed_sha.txt"
+          if [ -f "$FILE" ]; then
+            LAST="$(cat "$FILE" | tr -d '[:space:]')"
+          else
+            LAST=""
+          fi
+
+          if [ "$HEAD_SHA" = "$LAST" ]; then
+            echo "ALREADY_PROCESSED=true" >> $GITHUB_ENV
+          else
+            echo "ALREADY_PROCESSED=false" >> $GITHUB_ENV
+          fi
+
+      - name: Stop early if already processed
+        if: env.ALREADY_PROCESSED == 'true'
+        run: |
+          echo "Already processed this commit; skipping mail."
+          exit 0
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Check if GeoJSON changed in the latest commit
+      - name: Check if GeoJSON changed in latest commit
         run: |
           set -euo pipefail
 
-          # Falls es der allererste Commit ist (kein Parent), stoppen
+          # falls kein Parent existiert (sehr unwahrscheinlich)
           if ! git rev-parse HEAD^ >/dev/null 2>&1; then
             echo "CHANGED=false" >> $GITHUB_ENV
             exit 0
@@ -68,3 +97,14 @@ jobs:
           html_body: file://diff.html
           to: reports@defikarte.ch
           from: Defikarte.ch Reporting
+
+      - name: Update last processed SHA (always, even if no mail)
+        run: |
+          set -euo pipefail
+          echo "$HEAD_SHA" > .reporting/last_processed_sha.txt
+
+          git config user.name "Defikarte Reporting Bot"
+          git config user.email "actions@github.com"
+          git add .reporting/last_processed_sha.txt
+          git commit -m "chore(reporting): update last processed sha" || exit 0
+          git push origin HEAD:main
