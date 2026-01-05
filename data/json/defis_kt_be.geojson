@@ -7781,6 +7781,31 @@
 },
 {
   "type": "Feature",
+  "id": "node/6629722075",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Röthenbach im Emmental",
+    "addr:housenumber": "319",
+    "addr:postcode": "3538",
+    "addr:street": "Oberei",
+    "defibrillator:location": "Feuerwehrmagazin Oberei",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Feuerwehr",
+    "phone": "+41 34 491 23 89",
+    "id": "node/6629722075"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7629494,
+      46.8202
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/6629722076",
   "properties": {
     "access": "yes",
@@ -7864,8 +7889,8 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
-    "operator": "Käserei Horben BE",
-    "phone": "+41 79 587 58 64",
+    "operator": "Käserei Horben",
+    "phone": "+4179 587 58 64",
     "id": "node/6629722080"
   },
   "geometry": {
@@ -33012,13 +33037,15 @@
     "defibrillator:location": "Eingangsbereich Bad links",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
     "id": "node/8829595670"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5625308,
-      46.926217
+      7.5625306,
+      46.9262172
     ]
   }
 },
@@ -41173,7 +41200,7 @@
   "type": "Feature",
   "id": "node/10068616775",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "in der Zivilschutzanlage",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
@@ -52174,6 +52201,7 @@
   "type": "Feature",
   "id": "node/11884852169",
   "properties": {
+    "access": "private",
     "defibrillator:location": "Clubhaus Tennisclub Worb",
     "description": "offen wenn Tennisplatz besetzt",
     "emergency": "defibrillator",
@@ -52187,8 +52215,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5623352,
-      46.9250342
+      7.5623351,
+      46.9250343
     ]
   }
 },
