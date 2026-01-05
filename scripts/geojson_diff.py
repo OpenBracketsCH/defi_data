@@ -188,7 +188,7 @@ small {{ color: #666; }}
 </style>
 </head>
 <body>
-<h2>Änderungen an defis_kt_be.geojson</h2>
+<h2>Änderungen an Defibrillatoren im Kanton Bern</h2>
 <p><strong>📊 Zusammenfassung:</strong> {summary['neu']} neu, {summary['geändert']} geändert, {summary['gelöscht']} gelöscht</p>
 
 <table>
@@ -202,6 +202,7 @@ small {{ color: #666; }}
   </tr>
   {''.join(rows)}
 </table>
+<pr> Zur Erklärung: Die Tabelle zeigt immer den Status (neu, geändert, gelöscht) des neuen Datensatzes an. Weiter sind die Änderungen mit Pfeilen alt/neu gekennzeichnet. </pr>
 </body>
 </html>
 """
