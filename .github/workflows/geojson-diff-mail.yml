@@ -96,7 +96,7 @@ jobs:
           subject: "Änderungen an Defis Kanton Bern"
           html_body: file://diff.html
           to: reports@defikarte.ch
-          from: Defikarte.ch Reporting
+          from: defikarte.ch Reports
 
       - name: Update last processed SHA (always, even if no mail)
         run: |
