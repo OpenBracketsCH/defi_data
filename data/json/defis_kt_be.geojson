@@ -10234,16 +10234,17 @@
     "defibrillator:location": "24 Std. verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "24/7",
     "operator": "Baugeschäft Vögeli",
-    "phone": "+41 78 802 51 53",
+    "phone": "+41 79 722 43 74",
     "id": "node/6635179165"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
       7.4917316,
-      47.1093973
+      47.1093958
     ]
   }
 },
@@ -16828,6 +16829,7 @@
     "defibrillator:location": "In Praxis für Oralchirurgie, 1. Stock",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "Mo-Fr 07:00-17:30",
     "operator": "Praxis Dr.Thomas H. Markwalder",
     "phone": "+41 31 351 43 93",
@@ -16836,7 +16838,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4528038,
+      7.4528037,
       46.9433641
     ]
   }
@@ -55921,8 +55923,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "08:00-19:00",
-    "operator": "?",
+    "opening_hours": "Mo-Sa 08:00-19:00",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/12415987605"
   },
@@ -61695,6 +61696,29 @@
     "coordinates": [
       7.5320979,
       47.0917396
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13434006201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schläflistrasse 3",
+    "description": "immer verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "operator": "BKW Energie AG",
+    "phone": "+41 58 477 51 11",
+    "id": "node/13434006201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4511064,
+      46.9557536
     ]
   }
 }
