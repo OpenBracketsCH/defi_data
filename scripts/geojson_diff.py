@@ -189,9 +189,9 @@ small {{ color: #666; }}
 </style>
 </head>
 <body>
-<img src="/img/logo.png" alt="defikarte.ch" style="width:200px;"/>
+<img src="../img/logo.png" alt="defikarte.ch" style="width:200px;"/>
 <h2>Änderungen an Defibrillatoren im Kanton Bern</h2>
-<p><strong>📊 Zusammenfassung:</strong> {summary['neu']} neu, {summary['geändert']} geändert, {summary['gelöscht']} gelöscht</p>
+<p><strong>Zusammenfassung:</strong> {summary['neu']} neu, {summary['geändert']} geändert, {summary['gelöscht']} gelöscht</p>
 
 <table>
   <tr>
