@@ -4189,6 +4189,7 @@
     "defibrillator:location": "2.OG, Treppenhaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Glas Reinhard AG",
     "id": "node/7637818543"
   },
@@ -13398,26 +13399,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9033435017",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Test Bürgenstrasse 3",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "id": "node/9033435017"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.3141243,
-      47.0467037
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9050171364",
   "properties": {
     "access": "yes",
@@ -19927,9 +19908,8 @@
   "type": "Feature",
   "id": "node/11768844869",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Eichweid 8a / 6203 Sempach-Station",
-    "description": "Während Geschäftsöffnungszeiten verfügbar",
+    "defibrillator:location": "Eichweid 8a, 6203 Sempach-Station",
+    "description": "DEFEKT - Nicht verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -19941,8 +19921,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.1923681,
-      47.1159208
+      8.1923676,
+      47.1159216
     ]
   }
 },

@@ -8737,16 +8737,17 @@
     "defibrillator:location": "24 Std. verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "24/7",
     "operator": "Baugeschäft Vögeli",
-    "phone": "+41 78 802 51 53",
+    "phone": "+41 79 722 43 74",
     "id": "node/6635179165"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
       7.4917316,
-      47.1093973
+      47.1093958
     ]
   }
 },
@@ -50459,31 +50460,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8734513575",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Stettlen",
-    "addr:housenumber": "45",
-    "addr:postcode": "3066",
-    "addr:street": "Bernstrasse",
-    "defibrillator:location": "An der Gebäudefassade bei den Briefkästen",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Turnhalle Bernstrasse",
-    "phone": "+41 79 910 04 51",
-    "id": "node/8734513575"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5208803,
-      46.9590346
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8734513576",
   "properties": {
     "access": "yes",
@@ -57464,26 +57440,6 @@
     "coordinates": [
       8.7735918,
       46.6792982
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9033435017",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Test Bürgenstrasse 3",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "id": "node/9033435017"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.3141243,
-      47.0467037
     ]
   }
 },
@@ -147468,6 +147424,29 @@
     "coordinates": [
       6.8759752,
       46.2404238
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13434043701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindehaus, neben Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Politische Gemeinde Rorschacherberg",
+    "phone": "+41 76 532 23 92",
+    "id": "node/13434043701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4940222,
+      47.4694791
     ]
   }
 }

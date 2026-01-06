@@ -27085,13 +27085,13 @@
   "type": "Feature",
   "id": "node/11640617169",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Eingang Gebäude Sernftalstrasse 34A",
-    "description": "während den Öffnungszeiten verfügbar",
+    "defibrillator:location": "Eingang Gebäude Sernftalstrasse 34B",
+    "description": "während den Öffnungszeiten verfügbar-",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "opening_hours": "Mo-Fr 07:00 - 17:00",
     "operator": "Fa. Schätti AG, Metallwarenfabrik, Tschachen 2, 8762 Schwanden",
     "phone": "+41 55 647 34 11",
     "source": "local_knowledge, defikarte.ch",
@@ -27109,13 +27109,13 @@
   "type": "Feature",
   "id": "node/11640617170",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Montage 1 ",
+    "defibrillator:location": "Montage 1",
     "description": "während den Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
+    "opening_hours": "Mo-Fr 06:00-18:00",
     "operator": "Fa. Schätti AG, Metallwarenfabrik, Tschachen 2, 8762 Schwanden",
     "phone": "+41 55 647 34 11",
     "source": "local_knowledge, defikarte.ch",
@@ -35456,6 +35456,148 @@
     "coordinates": [
       9.3150213,
       47.1261258
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13434043701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindehaus, neben Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Politische Gemeinde Rorschacherberg",
+    "phone": "+41 76 532 23 92",
+    "id": "node/13434043701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4940222,
+      47.4694791
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13434069701",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Mehrzweckhalle bei Haupteingang",
+    "description": "Während Öffnungszeiten verfügbar. Während den Schulferien bliebt die Mehrzweckhalle geschlossen.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-21:30",
+    "operator": "Politische Gemeinde Rorschacherberg",
+    "phone": "+41 76 532 23 92",
+    "id": "node/13434069701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.503548,
+      47.471097
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13434079501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Werkhof bei Sammelstelle",
+    "description": "Während der Öffnungszeiten Mo-Fr 07:00-12:00, 13:00-17:00 und Sa 07:00 -12:00",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-12:00, 13:00-17:00",
+    "operator": "Politische Gemeinde Rorschacherberg",
+    "phone": "+41 76 532 23 92",
+    "id": "node/13434079501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5050723,
+      47.4706006
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13434108001",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Schulhaus Klosterguet Treppenhaus Turnhalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-22:00",
+    "operator": "Schule Rorschacherberg",
+    "phone": "+41 79 689 97 75",
+    "id": "node/13434108001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5134272,
+      47.4746627
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13434113701",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Sekundarschule Steig, Eingang Turnhalle",
+    "description": "Während den Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-22:00",
+    "operator": "Schule Rorschacherberg",
+    "phone": "+41 79 386 63 80",
+    "id": "node/13434113701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5063581,
+      47.4706963
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13434119601",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Schulhaus Wildenstein, Eingang Turnhalle",
+    "description": "Während den Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-22:00",
+    "operator": "Schule Rorschacherberg",
+    "phone": "+41 79 821 00 08",
+    "id": "node/13434119601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4887571,
+      47.4667877
     ]
   }
 }
