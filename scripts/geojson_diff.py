@@ -207,7 +207,7 @@ small {{ color: #666; }}
 <br>
 <pr> Zur Erklärung: Die Tabelle zeigt immer den Status (neu, geändert, gelöscht) des neuen Datensatzes an. Weiter sind die Änderungen mit Pfeilen alt/neu gekennzeichnet. </pr>
 <br>
-<pr> Dies ist eine automatisch generierte E-Mail von defikarte.ch </pr>
+<h6> Dies ist eine automatisch generierte E-Mail von defikarte.ch </h6>
 </body>
 </html>
 """
