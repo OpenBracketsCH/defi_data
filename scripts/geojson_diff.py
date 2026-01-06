@@ -15,6 +15,7 @@ RELEVANT_FIELDS = [
     "access",
     "opening_hours",
     "defibrillator:location",
+    "description",
     "phone",
     "level",
     "addr:street",
