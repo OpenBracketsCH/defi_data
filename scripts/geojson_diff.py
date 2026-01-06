@@ -188,6 +188,7 @@ small {{ color: #666; }}
 </style>
 </head>
 <body>
+<img src="https://defikarte.ch/assets/defikarte-logo-C2rpPPds.svg" alt="defikarte.ch" style="width:200px;"/>
 <h2>Änderungen an Defibrillatoren im Kanton Bern</h2>
 <p><strong>📊 Zusammenfassung:</strong> {summary['neu']} neu, {summary['geändert']} geändert, {summary['gelöscht']} gelöscht</p>
 
@@ -202,7 +203,10 @@ small {{ color: #666; }}
   </tr>
   {''.join(rows)}
 </table>
+<br>
 <pr> Zur Erklärung: Die Tabelle zeigt immer den Status (neu, geändert, gelöscht) des neuen Datensatzes an. Weiter sind die Änderungen mit Pfeilen alt/neu gekennzeichnet. </pr>
+<br>
+<pr> Dies ist eine automatisch generierte E-Mail von defikarte.ch </pr>
 </body>
 </html>
 """
