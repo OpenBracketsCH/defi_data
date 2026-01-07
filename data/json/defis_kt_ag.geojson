@@ -29733,7 +29733,7 @@
   "type": "Feature",
   "id": "node/13437155201",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "im EG beim Schalter (Hardstrasse 5, 5301 Siggenthal Station)",
     "description": "Verfügbarkeit: Mo-Fr 07:30-11:45 und 13:00-16.45 / Sa 08:00-12:00 (ausgenommen Feiertage)",
     "emergency": "defibrillator",
@@ -29748,8 +29748,32 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.236056,
-      47.5166086
+      8.2360554,
+      47.5166083
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13437196901",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Nach dem Haupteingang links durch eine weitere Türe (Kennzeichnung vorhanden)",
+    "description": "während den Öffnungszeiten verfügbar (ausgenommen Feiertage und Betriebsferien Weihnacht/Neujahr)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:30-12:00, 13:00-17:00",
+    "operator": "Aarvia Bau AG",
+    "phone": "+41 58 252 50 00",
+    "id": "node/13437196901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.245052,
+      47.5382113
     ]
   }
 }

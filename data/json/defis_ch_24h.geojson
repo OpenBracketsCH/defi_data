@@ -9605,10 +9605,12 @@
     "addr:housenumber": "7",
     "addr:postcode": "3324",
     "addr:street": "Münchringenstrasse",
-    "defibrillator:location": "Beim Feuerwehrmagazin",
+    "defibrillator:location": "Beim Feuerwehr- und Werkhofmagazin",
+    "description": "Direkt zugänglich von der Strasse aus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Hindelbank",
     "phone": "+41 34 420 20 60",
@@ -147448,6 +147450,35 @@
     "coordinates": [
       9.4940222,
       47.4694791
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13437169522",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Birmensdorf",
+    "addr:housenumber": "9",
+    "addr:postcode": "8903",
+    "addr:street": "Stallikonerstrasse",
+    "defibrillator:location": "Beim Eingangsbereich Eingang A",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "level": "0",
+    "name": "Gemeindeverwaltung Birmensdorf",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1628LTC",
+    "id": "node/13437169522"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4383092,
+      47.354807
     ]
   }
 }
