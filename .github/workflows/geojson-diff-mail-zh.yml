@@ -73,8 +73,8 @@ jobs:
         run: |
           set -euo pipefail
           python scripts/geojson_diff.py \
-            <(git show HEAD^:data/json/defis_kt_be.geojson) \
-            data/json/defis_kt_be.geojson
+            <(git show HEAD^:data/json/defis_kt_zh.geojson) \
+            data/json/defis_kt_zh.geojson
 
       - name: Check diff.html exists
         run: |
@@ -93,10 +93,9 @@ jobs:
           secure: false
           username: ${{ secrets.MAIL_USER }}
           password: ${{ secrets.MAIL_PASS }}
-          subject: "Änderungen an Defis Kanton Bern"
+          subject: "Änderungen an Defis Kanton Zürich"
           html_body: file://diff.html
-          to: aed@firstresponder.be
-          cc: info@defikarte.ch
+          to: info@defikarte.ch
           from: defikarte.ch Reports
 
       - name: Update last processed SHA (always, even if no mail)
