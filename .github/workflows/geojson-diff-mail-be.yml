@@ -105,7 +105,7 @@ jobs:
           echo "$HEAD_SHA" > .reporting/last_processed_sha.txt
 
           git config user.name "Defikarte Reporting Bot"
-          git config user.email "actions@github.com"
-          git add .reporting/last_processed_sha.txt
-          git commit -m "chore(reporting): update last processed sha" || exit 0
+          git config user.email "chrigi@chnuessli.ch"
+          git add .reporting/last_processed_sha_be.txt
+          git commit -m "update last processed sha for _be" || exit 0
           git push origin HEAD:main
