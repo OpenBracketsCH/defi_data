@@ -55595,29 +55595,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10763310077",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Theke bei Empfang",
-    "description": "oranger Koffer",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "name": "LzLabs GmbH",
-    "operator": "Lifetec AG Schweiz",
-    "phone": "+41 800 122 144",
-    "id": "node/10763310077"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.59624,
-      47.40995
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10763310078",
   "properties": {
     "access": "yes",
@@ -96775,6 +96752,35 @@
     "coordinates": [
       8.4788206,
       47.3825881
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13437169522",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Birmensdorf",
+    "addr:housenumber": "9",
+    "addr:postcode": "8903",
+    "addr:street": "Stallikonerstrasse",
+    "defibrillator:location": "Beim Eingangsbereich Eingang A",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "level": "0",
+    "name": "Gemeindeverwaltung Birmensdorf",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1628LTC",
+    "id": "node/13437169522"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4383092,
+      47.354807
     ]
   }
 }
