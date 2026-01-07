@@ -54448,8 +54448,9 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "1",
     "name": "Zürcher Hochschule für Angewandte Wissenschaften",
-    "opening_hours": "Mo-Fr 07:00-19:00, Sa 07:00-14:00",
+    "opening_hours": "Mo-Fr 07:00-17:15",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/10763310027"
@@ -54491,13 +54492,14 @@
   "id": "node/10763310029",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "EG, Eingang Treppe (GS",
+    "defibrillator:location": "EG, Eingang GS 1.1",
     "description": "oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "name": "Zürcher Hochschule für Angewandte Wissenschaften",
-    "opening_hours": "Mo-Fr 07:00-19:00, Sa 07:00-14:00",
+    "opening_hours": "Mo-Fr 07:00-17:15",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/10763310029"
@@ -54505,7 +54507,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.67664,
+      8.6766401,
       47.22305
     ]
   }
@@ -92043,7 +92045,7 @@
     "addr:housenumber": "27",
     "addr:postcode": "8820",
     "addr:street": "Müller-Thurgau-Strasse",
-    "defibrillator:location": "GU A2.2 Eingang",
+    "defibrillator:location": "GU A1.3 Eingang Korridor",
     "description": "Oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -96790,6 +96792,30 @@
     "coordinates": [
       8.4383092,
       47.354807
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13437800201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "GO EO.60 Eingang Korridor",
+    "description": "oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-17:15",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/13437800201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6799065,
+      47.2185755
     ]
   }
 }
