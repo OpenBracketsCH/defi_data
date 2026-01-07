@@ -34086,11 +34086,13 @@
   "type": "Feature",
   "id": "node/10177774017",
   "properties": {
-    "defibrillator:location": "ASVZ Kraftraum Wädenswil",
+    "access": "permissive",
+    "defibrillator:location": "EG, ASVZ Kraftraum Wädenswil",
     "description": "NUR während der Öffnungszeit und mit einem ASVZ Login erreichbar.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 06:30-21:45; Sa 09:00-17:45",
     "operator": "ASVZ",
     "phone": "+41 58 934 67 10",
@@ -40904,7 +40906,7 @@
   "id": "node/10763310020",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "EG, Korridor (RC E0.60)",
+    "defibrillator:location": "EG Korridor, RC E0.60",
     "description": "oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -40929,7 +40931,7 @@
   "id": "node/10763310021",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "1.OG, Foyer (RT 143)",
+    "defibrillator:location": "1.OG Foyer, RT 143",
     "description": "oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -40978,7 +40980,7 @@
   "id": "node/10763310023",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "EG, Foyer (RA E0.61)",
+    "defibrillator:location": "EG Foyer, RA E0.61",
     "description": "oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -40993,8 +40995,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6789126,
-      47.2252523
+      8.6789129,
+      47.2252525
     ]
   }
 },
@@ -41003,7 +41005,7 @@
   "id": "node/10763310024",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "EG, Eingangshalle (GA 200)",
+    "defibrillator:location": "EG Eingangshalle, GA 200",
     "description": "oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -41028,12 +41030,12 @@
   "id": "node/10763310025",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "EG, Windfang (GB 100.2)",
+    "defibrillator:location": "EG Windfang, GB 100.2",
     "description": "oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1",
+    "level": "0",
     "name": "Zürcher Hochschule für Angewandte Wissenschaften",
     "opening_hours": "Mo-Fr 07:00-17:15",
     "operator": "Lifetec AG Schweiz",
@@ -41053,13 +41055,14 @@
   "id": "node/10763310026",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "EG, Korridor (GC 100.1)",
+    "defibrillator:location": "EG Korridor, GC 100.1",
     "description": "oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "name": "Zürcher Hochschule für Angewandte Wissenschaften",
-    "opening_hours": "Mo-Fr 07:00-19:00, Sa 07:00-14:00",
+    "opening_hours": "Mo-Fr 07:00-17:15",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/10763310026"
@@ -41067,8 +41070,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.68062,
-      47.21784
+      8.6808528,
+      47.2177454
     ]
   }
 },
@@ -41077,7 +41080,7 @@
   "id": "node/10763310027",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "1.OG, Windfang (GD 200.7)",
+    "defibrillator:location": "1.OG Windfang, GD 200.7",
     "description": "oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -41092,8 +41095,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.67994,
-      47.21951
+      8.6799751,
+      47.21961
     ]
   }
 },
@@ -41126,7 +41129,7 @@
   "id": "node/10763310029",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "EG, Eingang GS 1.1",
+    "defibrillator:location": "EG Eingang, GS 1.1",
     "description": "oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -45638,7 +45641,7 @@
   "id": "node/11037266739",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Gebäude RD EG Foyer (E0.66)",
+    "defibrillator:location": "EG Foyer, RD E0.66",
     "description": "ja",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -45656,7 +45659,7 @@
     "type": "Point",
     "coordinates": [
       8.6886671,
-      47.218909
+      47.2189091
     ]
   }
 },
@@ -47146,12 +47149,13 @@
   "type": "Feature",
   "id": "node/11148833407",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Appisberg Haus 3b",
     "description": "Gelbes Haus Eingang Nord.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr. 7:30 - 17:00",
+    "opening_hours": "Mo-Fr 07:30 - 17:00",
     "operator": "Verein Appisberg",
     "phone": "+41 43 843 44 10",
     "source": "local_knowledge, defikarte.ch",
@@ -47160,8 +47164,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6952764,
-      47.2657282
+      8.6952817,
+      47.2657253
     ]
   }
 },
@@ -71614,7 +71618,7 @@
     "addr:housenumber": "27",
     "addr:postcode": "8820",
     "addr:street": "Müller-Thurgau-Strasse",
-    "defibrillator:location": "GU A1.3 Eingang Korridor",
+    "defibrillator:location": "EG Eingang Korridor, GU A1.3",
     "description": "Oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -71630,7 +71634,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6773113,
+      8.6773116,
       47.2221904
     ]
   }
@@ -75428,7 +75432,7 @@
   "id": "node/13437800201",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "GO EO.60 Eingang Korridor",
+    "defibrillator:location": "EG Eingang Korridor, GO EO.60",
     "description": "oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
