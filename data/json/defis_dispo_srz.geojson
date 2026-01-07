@@ -46773,12 +46773,13 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Im Eingangsbereich von beiden Häuser (Hausnummer 40 und 42)",
-    "description": "während Öffnungszeiten verfügbar",
+    "description": "ZURZEIT AUSSER BETRIEB",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Verwaltung PRIVERA AG Dättwil",
-    "phone": "+41 58 715 79 74",
+    "level": "0",
+    "operator": "Verwaltung SIDENZIA AG Wallisellen",
+    "phone": "+41 43 233 62 62",
     "id": "node/10226015590"
   },
   "geometry": {
@@ -54274,8 +54275,9 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "name": "Zürcher Hochschule für Angewandte Wissenschaften",
-    "opening_hours": "Mo-Fr 07:00-19:00, Sa 07:00-14:00",
+    "opening_hours": "Mo-Fr 07:00-17:15",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/10763310020"
@@ -54283,8 +54285,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.68831,
-      47.21917
+      8.6882993,
+      47.2190297
     ]
   }
 },
@@ -54298,8 +54300,9 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "1",
     "name": "Zürcher Hochschule für Angewandte Wissenschaften",
-    "opening_hours": "Mo-Fr 07:00-19:00, Sa 07:00-14:00",
+    "opening_hours": "Mo-Fr 07:00-17:15",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/10763310021"
@@ -54307,8 +54310,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.68765,
-      47.21929
+      8.6876393,
+      47.2192244
     ]
   }
 },
@@ -54346,8 +54349,9 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "name": "Zürcher Hochschule für Angewandte Wissenschaften",
-    "opening_hours": "Mo-Fr 07:00-19:00, Sa 07:00-14:00",
+    "opening_hours": "Mo-Fr 07:00-17:15",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/10763310023"
@@ -54355,8 +54359,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6795,
-      47.22492
+      8.6789126,
+      47.2252523
     ]
   }
 },
@@ -54370,8 +54374,9 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "name": "Zürcher Hochschule für Angewandte Wissenschaften",
-    "opening_hours": "Mo-Fr 07:00-19:00, Sa 07:00-14:00",
+    "opening_hours": "Mo-Fr 07:00-17:15",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/10763310024"
@@ -54379,8 +54384,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.67992,
-      47.21836
+      8.6796113,
+      47.2188503
     ]
   }
 },
@@ -54394,8 +54399,9 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "1",
     "name": "Zürcher Hochschule für Angewandte Wissenschaften",
-    "opening_hours": "Mo-Fr 07:00-19:00, Sa 07:00-14:00",
+    "opening_hours": "Mo-Fr 07:00-17:15",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/10763310025"
@@ -54404,7 +54410,7 @@
     "type": "Point",
     "coordinates": [
       8.67988,
-      47.2183
+      47.2182999
     ]
   }
 },
@@ -60566,15 +60572,17 @@
   "type": "Feature",
   "id": "node/11037266739",
   "properties": {
-    "access": "no",
+    "access": "yes",
     "defibrillator:location": "Gebäude RD EG Foyer (E0.66)",
+    "description": "ja",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "latitude": "47.21884734",
+    "level": "0",
     "longitude": "8.688470348",
     "name": "ZHAW Wädenswil Campus Reidbach",
-    "opening_hours": "Mo-Fr 08:00-12:00, 14:00-16:00",
+    "opening_hours": "Mo-Fr 07:00-17:15",
     "operator": "Lifetec AG",
     "phone": "+41 800 122 144",
     "id": "node/11037266739"
@@ -60582,8 +60590,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6884703,
-      47.2188473
+      8.6886671,
+      47.218909
     ]
   }
 },
@@ -92030,7 +92038,7 @@
   "type": "Feature",
   "id": "node/13033898930",
   "properties": {
-    "access": "private",
+    "access": "yes",
     "addr:city": "Wädenswil",
     "addr:housenumber": "27",
     "addr:postcode": "8820",
@@ -92042,6 +92050,7 @@
     "indoor": "yes",
     "level": "0",
     "name": "ZHWA Wädenswil",
+    "opening_hours": "Mo - Fr 07:00-17:15",
     "operator": "Lifetec AG",
     "phone": "+41800122144",
     "ref": "1588LTM",
@@ -92050,8 +92059,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6773801,
-      47.222142
+      8.6773113,
+      47.2221904
     ]
   }
 },
