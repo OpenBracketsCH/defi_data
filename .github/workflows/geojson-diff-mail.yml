@@ -95,7 +95,8 @@ jobs:
           password: ${{ secrets.MAIL_PASS }}
           subject: "Änderungen an Defis Kanton Bern"
           html_body: file://diff.html
-          to: reports@defikarte.ch
+          to: aed@firstresponder.be
+          cc: info@defikarte.ch
           from: defikarte.ch Reports
 
       - name: Update last processed SHA (always, even if no mail)
