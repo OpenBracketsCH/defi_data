@@ -1,8 +1,11 @@
 # defikarte.ch Datensammlung
 
-![Get data from Overpass](https://github.com/chnuessli/defi_archive/workflows/Get%20data%20from%20Overpass/badge.svg) [![Get data converted to csv](https://github.com/chnuessli/defi_data/actions/workflows/convert.yml/badge.svg)](https://github.com/chnuessli/defi_data/actions/workflows/convert.yml)
-
 <img src="https://defikarte.ch/defikarte-logo-quer-gruen-positiv-rgb.png" alt="defikarte.ch" style="width:400px;"/>
+
+## Status
+![Get data from Overpass](https://github.com/chnuessli/defi_archive/workflows/Get%20data%20from%20Overpass/badge.svg) [![Get data converted to csv](https://github.com/chnuessli/defi_data/actions/workflows/convert.yml/badge.svg)](https://github.com/chnuessli/defi_data/actions/workflows/convert.yml)
+[![GeoJSON Diff Mail BE](https://github.com/OpenBracketsCH/defi_data/actions/workflows/geojson-diff-mail-be.yml/badge.svg)](https://github.com/OpenBracketsCH/defi_data/actions/workflows/geojson-diff-mail-be.yml)
+[![GeoJSON Diff Mail ZH](https://github.com/OpenBracketsCH/defi_data/actions/workflows/geojson-diff-mail-zh.yml/badge.svg)](https://github.com/OpenBracketsCH/defi_data/actions/workflows/geojson-diff-mail-zh.yml)
 
 ## Beschreibung 
 Sammlung von Files (JSON und CSV) für die Defikarte.ch und deren Partner die in Zukunft Daten beziehen möchten.
