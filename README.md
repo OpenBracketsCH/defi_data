@@ -1,5 +1,3 @@
-# defikarte.ch Datensammlung
-
 <img src="https://defikarte.ch/defikarte-logo-quer-gruen-positiv-rgb.png" alt="defikarte.ch" style="width:400px;"/>
 
 ## Status
@@ -7,7 +5,7 @@
 [![GeoJSON Diff Mail BE](https://github.com/OpenBracketsCH/defi_data/actions/workflows/geojson-diff-mail-be.yml/badge.svg)](https://github.com/OpenBracketsCH/defi_data/actions/workflows/geojson-diff-mail-be.yml)
 [![GeoJSON Diff Mail ZH](https://github.com/OpenBracketsCH/defi_data/actions/workflows/geojson-diff-mail-zh.yml/badge.svg)](https://github.com/OpenBracketsCH/defi_data/actions/workflows/geojson-diff-mail-zh.yml)
 
-## Beschreibung 
+## Beschreibung der Datensammlung
 Sammlung von Files (JSON und CSV) für die Defikarte.ch und deren Partner die in Zukunft Daten beziehen möchten.
 Die Daten können hier bezogen werden: [`data` Verzeichnis](https://github.com/chnuessli/defi_archive/tree/main/data)
 
