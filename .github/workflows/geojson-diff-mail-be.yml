@@ -102,7 +102,7 @@ jobs:
       - name: Update last processed SHA (always, even if no mail)
         run: |
           set -euo pipefail
-          echo "$HEAD_SHA" > .reporting/last_processed_sha.txt
+          echo "$HEAD_SHA" > .reporting/last_processed_sha_be.txt
 
           git config user.name "Defikarte Reporting Bot"
           git config user.email "chrigi@chnuessli.ch"
