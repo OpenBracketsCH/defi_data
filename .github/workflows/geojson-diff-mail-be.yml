@@ -99,13 +99,22 @@ jobs:
           cc: info@defikarte.ch
           from: defikarte.ch Reports
 
-      - name: Update last processed SHA (always, even if no mail)
+      - name: Update last processed SHA
         run: |
           set -euo pipefail
-          echo "$HEAD_SHA" > .reporting/last_processed_sha_be.txt
-
+          mkdir -p .reporting
+        
+          FILE=".reporting/last_processed_sha_zh.txt"
+          echo "$HEAD_SHA" > "$FILE"
+        
           git config user.name "Defikarte Reporting Bot"
           git config user.email "chrigi@chnuessli.ch"
           git add .reporting/last_processed_sha_be.txt
           git commit -m "update last processed sha for _be" || exit 0
-          git push origin HEAD:main
+        
+          # robust push
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && break
+            echo "Push failed, retry $i..."
+              sleep 2
+            done     
