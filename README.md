@@ -248,5 +248,5 @@ Die E-Mail enthält eine HTML-Tabelle mit allen Änderungen an der jeweiligen Ge
 
 ## Status
 ![Get data from Overpass](https://github.com/chnuessli/defi_archive/workflows/Get%20data%20from%20Overpass/badge.svg) [![Get data converted to csv](https://github.com/chnuessli/defi_data/actions/workflows/convert.yml/badge.svg)](https://github.com/chnuessli/defi_data/actions/workflows/convert.yml)
-[![GeoJSON Diff Mail BE](https://github.com/OpenBracketsCH/defi_data/actions/workflows/geojson-diff-mail-be.yml/badge.svg)](https://github.com/OpenBracketsCH/defi_data/actions/workflows/geojson-diff-mail-be.yml)
-[![GeoJSON Diff Mail ZH](https://github.com/OpenBracketsCH/defi_data/actions/workflows/geojson-diff-mail-zh.yml/badge.svg)](https://github.com/OpenBracketsCH/defi_data/actions/workflows/geojson-diff-mail-zh.yml)
+[![Reporting BE](https://github.com/OpenBracketsCH/defi_data/actions/workflows/geojson-diff-mail-be.yml/badge.svg)](https://github.com/OpenBracketsCH/defi_data/actions/workflows/geojson-diff-mail-be.yml)
+[![Reporting ZH](https://github.com/OpenBracketsCH/defi_data/actions/workflows/geojson-diff-mail-zh.yml/badge.svg)](https://github.com/OpenBracketsCH/defi_data/actions/workflows/geojson-diff-mail-zh.yml)
