@@ -1,13 +1,17 @@
-# Defi Data Schweiz
+# defikarte.ch Datensammlung
 
 ![Get data from Overpass](https://github.com/chnuessli/defi_archive/workflows/Get%20data%20from%20Overpass/badge.svg) [![Get data converted to csv](https://github.com/chnuessli/defi_data/actions/workflows/convert.yml/badge.svg)](https://github.com/chnuessli/defi_data/actions/workflows/convert.yml)
 
-![data screenshot](data.png)
+<img src="https://defikarte.ch/defikarte-logo-quer-gruen-positiv-rgb.png" alt="defikarte.ch" style="width:200px;"/>
 
+## Beschreibung 
 Sammlung von Files (JSON und CSV) für die Defikarte.ch und deren Partner die in Zukunft Daten beziehen möchten.
 Die Daten können hier bezogen werden: [`data` Verzeichnis](https://github.com/chnuessli/defi_archive/tree/main/data)
+
 **Wichtig**
 Die Daten sind direkt aus OSM exportiert und in GeoJSON abgefüllt, danach werden die Daten in CSV konvertiert.
+
+![data screenshot](data.png)
 
 ## Sinn und Zweck
 
@@ -18,7 +22,7 @@ Die Datensammlung soll stetig wachsen und so ein sauberes Archiv generieren.
 
 Die Abfragen sind immer gleich aufgebaut, hier ein paar Beispiele. Für alle Abfragen besuche bitte die TXT Files. Die TXT Files dazu findet man in `queries`.
 
-Umgebaute Queries die mit der Overpass API korrespondieren können, ein Auszug und nicht vollständig.
+Umgebaute Queries die mit der Overpass API korrespondieren können, ein Auszug und nicht vollständig. Die untenstehenden Snippets sind als Beispiel zu betrachten.
 
 <details><summary>Abfragen ausklappen</summary>
 <p>
@@ -199,3 +203,49 @@ Um die Daten in CSV zu konvertieren wurde ein neuer Workflow eingerichtet.
 
 1. In der Datei `converter.py` die Input Datei (GeoJSON) und die Output Datei (CSV) in eine neue Zeile schreiben. 
 2. Den Workflow `convert.yml`laufen lassen
+
+
+ ## Reporting: Änderungen an Defi-Daten per E-Mail
+
+Dieses Repository enthält einen automatisierten Reporting-Mechanismus, der Änderungen an den Defi-Daten überwacht und als HTML-Mail verschickt.
+
+### Ablauf
+
+1. **Overpass-Update**
+   - Der Workflow **„Get data from Overpass“** aktualisiert die GeoJSON-Dateien (z.B. `defis_kt_be.geojson`, `defis_kt_zh.geojson`) anhand eines Overpass-Queries.
+   - Wenn sich der Inhalt einer Datei ändert, schreibt der Workflow einen neuen Commit auf den `main`-Branch.
+
+2. **Diff-Reporting**
+   - Für jeden Kanton gibt es einen eigenen Workflow, z.B.:
+     - `GeoJSON Diff Mail (BE)`
+     - `GeoJSON Diff Mail (ZH)`
+   - Diese Workflows werden automatisch gestartet, sobald **„Get data from Overpass“** erfolgreich abgeschlossen ist (`workflow_run`-Trigger).
+
+3. **Prüfung, ob ein Report nötig ist**
+   - Der Reporting-Workflow checkt den aktuellen Stand von `main` aus.
+   - Er merkt sich den zuletzt verarbeiteten Commit in einer Datei unter `.reporting/last_processed_sha_<KANTON>.txt`.
+   - Wenn der aktuelle Commit bereits verarbeitet wurde, wird der Workflow ohne Mail beendet (Anti-Spam).
+   - Falls der Commit neu ist, wird geprüft, ob die jeweilige GeoJSON-Datei im letzten Commit tatsächlich geändert wurde:
+     ```bash
+     git diff --quiet HEAD^..HEAD -- data/json/defis_kt_<KANTON>.geojson
+     ```
+   - Nur wenn sich die Datei geändert hat, wird ein Diff erzeugt und eine Mail versendet.
+
+### Inhalt der E-Mail
+
+Die E-Mail enthält eine HTML-Tabelle mit allen Änderungen an der jeweiligen GeoJSON-Datei seit dem letzten Commit:
+
+- **Status**:
+  - `neu` – neue Defi-Standorte
+  - `geändert` – bestehende Standorte mit Änderungen in ausgewählten Attributen (z.B. Name, Adresse, Status)
+  - `gelöscht` – entfernte Standorte
+- **Name** des Defis
+- **Adresse**, falls vorhanden (`addr:street`, `addr:housenumber`, `addr:postcode`, `addr:city`)
+- **Koordinaten** (Lon/Lat)
+- **Kartenlinks**:
+  - OpenStreetMap-Link direkt auf den Node/Way/Relation (falls OSM-ID vorhanden)
+  - Google Maps-Link auf die Koordinaten
+- Bei `geändert` zusätzlich eine Liste der Feldänderungen, z.B.:
+  ```text
+  status: 'unknown' → 'verified'
+  addr:street: 'Alte Gasse' → 'Neue Gasse'
