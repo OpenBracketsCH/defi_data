@@ -50464,6 +50464,32 @@
 },
 {
   "type": "Feature",
+  "id": "node/8734513575",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Stettlen",
+    "addr:housenumber": "45",
+    "addr:postcode": "3066",
+    "addr:street": "Bernstrasse",
+    "defibrillator:location": "An der Gebäudefassade bei den Briefkästen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Turnhalle Bernstrasse",
+    "phone": "+41 79 910 04 51",
+    "id": "node/8734513575"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5208806,
+      46.9590346
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8734513576",
   "properties": {
     "access": "yes",
@@ -137414,7 +137440,7 @@
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Stadtbibliothek Wädenswil",
-    "phone": "+4144 789 75 50",
+    "phone": "+41 44 789 75 50",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/12853364701"
   },
@@ -147500,6 +147526,35 @@
     "coordinates": [
       9.5015407,
       47.2586591
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13439889973",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Zollikerberg",
+    "addr:housenumber": "10",
+    "addr:postcode": "8125",
+    "addr:street": "Binzstrasse",
+    "defibrillator:location": "Ausseneingang Links vom Bibliothek",
+    "description": "Grünerkasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1626LTS",
+    "id": "node/13439889973"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.604645,
+      47.3460794
     ]
   }
 }
