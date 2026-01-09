@@ -1249,7 +1249,7 @@
   "id": "node/6992457787",
   "properties": {
     "access": "private",
-    "defibrillator:location": "Feuerwehr Gossau im SAN Fahrzeug",
+    "defibrillator:location": "Feuerwehr Gossau im SAN PTF",
     "description": "nur über Tel.118",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -27019,12 +27019,13 @@
   "type": "Feature",
   "id": "node/9679764617",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Forstpflanzgarten Finsterloo, Eingang Betriebsgebäude",
     "description": "während Öffnungszeiten frei zugänglich; ausserhalb Öffnungszeiten bedingt zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "Mo-Fr 07:00-17:15",
     "operator": "Kanton Zürich, Abteilung Wald, Staatswald",
     "phone": "+41 43 257 98 25",
@@ -27033,8 +27034,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5516991,
-      47.473843
+      8.5516977,
+      47.4738413
     ]
   }
 },
