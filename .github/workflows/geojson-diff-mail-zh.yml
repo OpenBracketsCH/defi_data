@@ -62,7 +62,7 @@ jobs:
             exit 0
           fi
 
-          if git diff --quiet HEAD^..HEAD -- data/json/defis_kt_be.geojson; then
+          if git diff --quiet HEAD^..HEAD -- data/json/defis_kt_zh.geojson; then
             echo "CHANGED=false" >> $GITHUB_ENV
           else
             echo "CHANGED=true" >> $GITHUB_ENV
