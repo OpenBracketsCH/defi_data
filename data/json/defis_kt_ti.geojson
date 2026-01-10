@@ -613,6 +613,7 @@
   "id": "node/4131376204",
   "properties": {
     "access": "yes",
+    "check_date": "2026-01-10",
     "defibrillator:location": "Piazzale Municipio",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -6910,6 +6911,23 @@
     "coordinates": [
       8.9970277,
       46.13424
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13446284429",
+  "properties": {
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/13446284429"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0257701,
+      45.837247
     ]
   }
 }
