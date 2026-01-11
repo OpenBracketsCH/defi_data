@@ -6664,6 +6664,48 @@
       46.7493073
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/13448361101",
+  "properties": {
+    "defibrillator:location": "Place de l'Hôtel-de-Ville 2",
+    "description": "Disponible en tout temps",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "id": "node/13448361101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1608531,
+      46.8054301
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13448377401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Maison de Ville (administration communale)",
+    "description": "Disponible pendant les heures d'ouverture",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Ville de Fribourg",
+    "id": "node/13448377401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.161308,
+      46.8053838
+    ]
+  }
 }
 ]
 }
