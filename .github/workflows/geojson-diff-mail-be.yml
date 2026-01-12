@@ -28,7 +28,7 @@ jobs:
           HEAD_SHA="$(git rev-parse HEAD)"
           echo "HEAD_SHA=$HEAD_SHA" >> $GITHUB_ENV
 
-          FILE=".reporting/last_processed_sha.txt"
+          FILE=".reporting/last_processed_sha_be.txt"
           if [ -f "$FILE" ]; then
             LAST="$(cat "$FILE" | tr -d '[:space:]')"
           else
