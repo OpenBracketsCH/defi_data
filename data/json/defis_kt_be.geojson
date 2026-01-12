@@ -26808,14 +26808,17 @@
   "type": "Feature",
   "id": "node/7538717846",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "addr:city": "Gümligen",
     "addr:housenumber": "10",
     "addr:postcode": "3073",
     "addr:street": "Rohrmattstrasse",
+    "defibrillator:location": "Eingang Sporthalle Moos",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "Mo-Fr 07:30-22:00",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
     "operator": "Schulanlage Moos",
     "phone": "+41 31 950 54 54",
     "id": "node/7538717846"
@@ -26823,7 +26826,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5068783,
+      7.5068781,
       46.9309961
     ]
   }
@@ -27182,14 +27185,17 @@
   "type": "Feature",
   "id": "node/7538783591",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "addr:city": "Gümligen",
     "addr:housenumber": "17",
     "addr:postcode": "3073",
     "addr:street": "Aebnitstrasse",
+    "defibrillator:location": "Eingang Schulanlage",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "Mo-Fr 07:30-22:00",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
     "operator": "Schulanlage Aebnit",
     "phone": "+41 31 950 54 54",
     "id": "node/7538783591"
@@ -27197,8 +27203,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.497549,
-      46.9282653
+      7.4975494,
+      46.9282651
     ]
   }
 },
@@ -27211,9 +27217,12 @@
     "addr:housenumber": "29",
     "addr:postcode": "3073",
     "addr:street": "Seidenberggässchen",
+    "defibrillator:location": "Schulanlage Seidenberg",
+    "description": "Eingang Sporthalle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "Mo-Fr 07:30-22:00",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Schulanlage Seidenberg",
     "phone": "+41 31 950 54 54",
     "id": "node/7538783592"
@@ -27222,7 +27231,7 @@
     "type": "Point",
     "coordinates": [
       7.4950066,
-      46.933097
+      46.9330979
     ]
   }
 },
@@ -27230,7 +27239,7 @@
   "type": "Feature",
   "id": "node/7538783593",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "addr:city": "Gümligen",
     "addr:housenumber": "25",
     "addr:postcode": "3073",
@@ -27263,9 +27272,12 @@
     "addr:housenumber": "6",
     "addr:postcode": "3073",
     "addr:street": "Seidenberggässchen",
+    "defibrillator:location": "Eingang Clubhaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "Mo-Fr 07:30-22:00",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
     "operator": "Sportanlage Füllerich",
     "phone": "+41 31 950 54 54",
     "id": "node/7538783594"
@@ -27273,8 +27285,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4980321,
-      46.9345479
+      7.4980322,
+      46.9345475
     ]
   }
 },
@@ -52183,21 +52195,21 @@
   "type": "Feature",
   "id": "node/11884839882",
   "properties": {
-    "access": "no",
     "defibrillator:location": "Freizeitzentrum Bärtschihus",
     "description": "neben Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "level": "0",
-    "operator": "Genossenschaft",
+    "opening_hours": "24/7",
+    "operator": "Genossenschaft Bärtschihu",
     "id": "node/11884839882"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5042995,
-      46.9355186
+      7.5042998,
+      46.9355187
     ]
   }
 },
@@ -58436,8 +58448,7 @@
   "id": "node/12762481813",
   "properties": {
     "access": "private",
-    "defibrillator:location": "Vorraum",
-    "description": "nur bei Anlässen",
+    "defibrillator:location": "Muster",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
