@@ -11281,27 +11281,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8450820917",
-  "properties": {
-    "defibrillator:location": "Im Feuerwehr Depot",
-    "description": "unter Tel. Nummer 118 Anfordern",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Feuerwehr Männedorf",
-    "phone": "+41 44 920 55 00",
-    "id": "node/8450820917"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.7016802,
-      47.2578261
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8457452918",
   "properties": {
     "defibrillator:location": "Bachofen AG",
@@ -75415,6 +75394,29 @@
     "coordinates": [
       8.604645,
       47.3460794
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13450362501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gewerbestrasse 3 beim Feuerwehr-Depot",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Feuerwehr Männedorf Uetikon",
+    "phone": "+41 44 920 55 00",
+    "id": "node/13450362501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7016799,
+      47.2578291
     ]
   }
 }

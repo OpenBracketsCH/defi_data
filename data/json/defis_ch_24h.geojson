@@ -21488,6 +21488,34 @@
 },
 {
   "type": "Feature",
+  "id": "node/7538783593",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Gümligen",
+    "addr:housenumber": "25",
+    "addr:postcode": "3073",
+    "addr:street": "Bersetweg",
+    "defibrillator:location": "beim Eingang Sporthalle",
+    "description": "immer verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "4",
+    "opening_hours": "24/7",
+    "operator": "Schulanlage Melchenbühl",
+    "phone": "+41 31 950 54 54",
+    "id": "node/7538783593"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4947639,
+      46.9377974
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/7541010568",
   "properties": {
     "access": "yes",
@@ -147705,6 +147733,29 @@
     "coordinates": [
       7.7513752,
       46.9701786
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13450362501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gewerbestrasse 3 beim Feuerwehr-Depot",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Feuerwehr Männedorf Uetikon",
+    "phone": "+41 44 920 55 00",
+    "id": "node/13450362501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7016799,
+      47.2578291
     ]
   }
 }
