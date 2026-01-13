@@ -96841,9 +96841,16 @@
   "type": "Feature",
   "id": "node/13451962078",
   "properties": {
-    "defibrillator:location": "At the wall in between door and frame to toilets",
+    "access": "permissive",
+    "defibrillator:location": "An der Wand zwischen Tür und Rahmen zu den Toiletten",
+    "defibrillator:location:en": "At the wall in between door and frame to toilets",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Tu 07:15-17:00; We-Fr 07:15-16:00",
+    "operator": "Strassenverkehrsamt Kanton Zürich",
+    "phone": "+41 43 257 00 00",
     "id": "node/13451962078"
   },
   "geometry": {
