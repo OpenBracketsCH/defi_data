@@ -42618,27 +42618,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8462262017",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Schulhaus Celerina",
-    "description": "bei MZH \n",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "id": "node/8462262017"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.8609679,
-      46.5119179
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8462309322",
   "properties": {
     "access": "yes",
@@ -43073,6 +43052,26 @@
     "coordinates": [
       8.3951937,
       47.1667459
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8490933125",
+  "properties": {
+    "defibrillator:location": "Schulhaus Samedan",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/8490933125"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.8707116,
+      46.5356737
     ]
   }
 },
