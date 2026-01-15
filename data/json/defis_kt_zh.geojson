@@ -6118,25 +6118,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7913119631",
-  "properties": {
-    "access": "customers",
-    "defibrillator:location": "Im Freiband beim Eingang",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/7913119631"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6238002,
-      47.3939018
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7930241194",
   "properties": {
     "access": "yes",
@@ -40758,8 +40739,9 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "name": "Zürcher Hochschule für Angewandte Wissenschaften",
-    "opening_hours": "Mo-Fr 07:00-19:00, Sa 07:00-14:00",
+    "opening_hours": "Mo-Fr 07:00-21:30, Sa 07:00-17:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/10763310017"
@@ -40767,8 +40749,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5327339,
-      47.3776485
+      8.5327338,
+      47.3776484
     ]
   }
 },
@@ -40782,8 +40764,9 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "-4",
     "name": "Zürcher Hochschule für Angewandte Wissenschaften",
-    "opening_hours": "Mo-Fr 07:00-19:00, Sa 07:00-14:00",
+    "opening_hours": "Mo-Fr 07:00-21:30, Sa 07:00-17:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/10763310018"
