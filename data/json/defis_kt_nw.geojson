@@ -348,16 +348,18 @@
     "description": "Aussenanlage",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
     "name": "Stationsgebäude",
     "opening_hours": "24/7",
-    "operator": "Politische Gemeinde Stansstad",
+    "operator": "Gemeinde Stansstad",
     "id": "node/7637818431"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3362957,
-      46.9804914
+      8.3362956,
+      46.9804916
     ]
   }
 },
@@ -365,18 +367,21 @@
   "type": "Feature",
   "id": "node/7637818432",
   "properties": {
-    "defibrillator:location": "Während der Saison im Badmeisterbüro. \nAusserhalb der Saison im Areal im Aussenkasten beim Altbau.",
+    "defibrillator:location": "Während der Saison im Badmeisterbüro. Ausserhalb der Saison im Areal im Aussenkasten beim Altbau.",
+    "description": "Im Winter 24/7 Sommer Öffnungszeiten beachten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
     "name": "Strandbad Stansstad",
-    "operator": "Politische Gemeinde Stansstad",
+    "operator": "Gemeinde Stansstad",
     "id": "node/7637818432"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3391098,
-      46.9801804
+      8.3391099,
+      46.9801803
     ]
   }
 },
@@ -1713,17 +1718,20 @@
   "type": "Feature",
   "id": "node/9534148503",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Feuerwehr Lokal Kehrsiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "operator": "Politische Gemeinde Stansstad",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Stansstad",
     "id": "node/9534148503"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3650102,
+      8.3650101,
       46.9989565
     ]
   }
@@ -1907,7 +1915,7 @@
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
-    "operator": "Politische Gemeinde Stansstad",
+    "operator": "Gemeinde Stansstad",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10558952009"
   },
@@ -1928,8 +1936,9 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
-    "operator": "Politische Gemeinde Stansstad",
+    "operator": "Gemeinde Stansstad",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10558995610"
   },

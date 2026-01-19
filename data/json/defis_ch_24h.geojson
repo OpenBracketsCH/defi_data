@@ -26022,16 +26022,18 @@
     "description": "Aussenanlage",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
     "name": "Stationsgebäude",
     "opening_hours": "24/7",
-    "operator": "Politische Gemeinde Stansstad",
+    "operator": "Gemeinde Stansstad",
     "id": "node/7637818431"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3362957,
-      46.9804914
+      8.3362956,
+      46.9804916
     ]
   }
 },
@@ -70926,6 +70928,28 @@
 },
 {
   "type": "Feature",
+  "id": "node/9534148503",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Feuerwehr Lokal Kehrsiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Stansstad",
+    "id": "node/9534148503"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3650101,
+      46.9989565
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9534172534",
   "properties": {
     "access": "yes",
@@ -87347,7 +87371,7 @@
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
-    "operator": "Politische Gemeinde Stansstad",
+    "operator": "Gemeinde Stansstad",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10558952009"
   },
@@ -87368,8 +87392,9 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
-    "operator": "Politische Gemeinde Stansstad",
+    "operator": "Gemeinde Stansstad",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10558995610"
   },
