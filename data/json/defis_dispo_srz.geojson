@@ -6345,12 +6345,10 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "im Turm",
-    "description": "8. Stock: Immer öffentlich zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "8",
-    "opening_hours": "24/7",
     "id": "node/7592872950"
   },
   "geometry": {
@@ -6389,12 +6387,13 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Bei Sektor T (Gang)",
-    "description": "7. Stock: Immer öffentlich zugänglich",
+    "description": "7. Stock",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "7",
-    "opening_hours": "24/7",
+    "opening_hours": "07:00 - 21:00",
+    "operator": "ZHdK",
     "id": "node/7592872952"
   },
   "geometry": {
@@ -6433,12 +6432,12 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Treppenhaus",
-    "description": "5. Stock: Immer öffentlich zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "5",
-    "opening_hours": "24/7",
+    "opening_hours": "07:00 - 21:00",
+    "operator": "ZHdK",
     "id": "node/7592872954"
   },
   "geometry": {
@@ -6455,12 +6454,13 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "im Turm",
-    "description": "2. Stock: Immer öffentlich zugänglich",
+    "description": "2. Stock",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "2",
-    "opening_hours": "24/7",
+    "opening_hours": "07:00 - 21:00",
+    "operator": "ZHdK",
     "id": "node/7592872955"
   },
   "geometry": {
@@ -6499,12 +6499,13 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Beim Empfang",
-    "description": "3. Stock: Immer öffentlich zugänglich",
+    "description": "3. Stock",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "3",
-    "opening_hours": "24/7",
+    "opening_hours": "07:00 - 21:00",
+    "operator": "ZHdK",
     "id": "node/7592872957"
   },
   "geometry": {
@@ -6519,14 +6520,12 @@
   "type": "Feature",
   "id": "node/7592872958",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Sektor D",
-    "description": "2. Stock: Immer öffentlich zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "2",
-    "opening_hours": "24/7",
     "id": "node/7592872958"
   },
   "geometry": {
@@ -6541,14 +6540,12 @@
   "type": "Feature",
   "id": "node/7592872959",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Bei Anlieferung Ost",
-    "description": "1. Stock: Immer öffentlich zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "opening_hours": "24/7",
     "id": "node/7592872959"
   },
   "geometry": {

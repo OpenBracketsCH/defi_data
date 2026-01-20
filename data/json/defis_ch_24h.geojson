@@ -24745,28 +24745,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7592872950",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "im Turm",
-    "description": "8. Stock: Immer öffentlich zugänglich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "8",
-    "opening_hours": "24/7",
-    "id": "node/7592872950"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5114539,
-      47.3903346
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7592872951",
   "properties": {
     "access": "yes",
@@ -24784,28 +24762,6 @@
     "coordinates": [
       8.5121351,
       47.3913569
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7592872952",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Bei Sektor T (Gang)",
-    "description": "7. Stock: Immer öffentlich zugänglich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "7",
-    "opening_hours": "24/7",
-    "id": "node/7592872952"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5115075,
-      47.3903655
     ]
   }
 },
@@ -24833,50 +24789,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7592872954",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Treppenhaus",
-    "description": "5. Stock: Immer öffentlich zugänglich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "5",
-    "opening_hours": "24/7",
-    "id": "node/7592872954"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5114646,
-      47.390282
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7592872955",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "im Turm",
-    "description": "2. Stock: Immer öffentlich zugänglich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "2",
-    "opening_hours": "24/7",
-    "id": "node/7592872955"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5114995,
-      47.3903237
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7592872956",
   "properties": {
     "access": "yes",
@@ -24894,72 +24806,6 @@
     "coordinates": [
       8.5120895,
       47.3913333
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7592872957",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Beim Empfang",
-    "description": "3. Stock: Immer öffentlich zugänglich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "3",
-    "opening_hours": "24/7",
-    "id": "node/7592872957"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5116336,
-      47.3908322
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7592872958",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Sektor D",
-    "description": "2. Stock: Immer öffentlich zugänglich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "2",
-    "opening_hours": "24/7",
-    "id": "node/7592872958"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5116631,
-      47.3908848
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7592872959",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Bei Anlieferung Ost",
-    "description": "1. Stock: Immer öffentlich zugänglich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "1",
-    "opening_hours": "24/7",
-    "id": "node/7592872959"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5118401,
-      47.3906451
     ]
   }
 },
@@ -148105,6 +147951,30 @@
     "coordinates": [
       8.3491553,
       47.447197
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13470076701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kreisschule Untergäu, neben Eingang zum Verwaltungsgebäude",
+    "description": "immer zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Kreisschule Untergäu",
+    "phone": "+41 62 209 01 01",
+    "id": "node/13470076701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8388895,
+      47.3328253
     ]
   }
 }
