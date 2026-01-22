@@ -46696,7 +46696,7 @@
   "type": "Feature",
   "id": "node/10226015590",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Im Eingangsbereich von beiden Häusern (Hausnummer 40 und 42)",
     "description": "Während der Büroöffnungszeiten",
     "emergency": "defibrillator",
@@ -68364,12 +68364,14 @@
   "type": "Feature",
   "id": "node/11629971769",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Soodring 6, Haupteingang",
+    "access": "private",
+    "defibrillator:location": "Soodring 6, Haupteingang (Reception)",
+    "description": "nicht öffentlich zugänglich, Zutritt via Reception",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 7:00-19:00",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-19:00",
     "operator": "Swiss Re",
     "phone": "+41 43 285 65 23",
     "source": "local_knowledge, defikarte.ch",
@@ -68379,7 +68381,7 @@
     "type": "Point",
     "coordinates": [
       8.5215856,
-      47.3165362
+      47.3165361
     ]
   }
 },
@@ -96996,6 +96998,27 @@
     "coordinates": [
       8.521677,
       47.36042
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13475872701",
+  "properties": {
+    "defibrillator:location": "Sportzentrum Dea",
+    "description": "Während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 06:00-22:00",
+    "id": "node/13475872701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5351214,
+      47.5267648
     ]
   }
 }
