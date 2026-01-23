@@ -18213,29 +18213,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10763310636",
-  "properties": {
-    "defibrillator:location": "Eingang Geschützte Werkstatt, EG",
-    "description": "oranger Koffer",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "name": "Stiftung azb",
-    "opening_hours": "Mo-Th 07:10-11:55, 13:10-16:50; Fr 07:10-11:55, 13:10-16:50",
-    "operator": "Lifetec AG Schweiz",
-    "phone": "+41 800 122 144",
-    "id": "node/10763310636"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.9255341,
-      47.2805256
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10763310637",
   "properties": {
     "access": "yes",
@@ -29870,13 +29847,15 @@
   "properties": {
     "access": "permissive",
     "defibrillator:location": "Ramoosweg 3",
+    "description": "Oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
     "opening_hours": "Mo-Su 7:30-21:30",
-    "operator": "Lifetec",
-    "phone": "+41 62 746 97 05",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "0826LTM",
     "id": "node/13476208001"
   },
   "geometry": {
