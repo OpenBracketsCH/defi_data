@@ -3111,12 +3111,14 @@
   "type": "Feature",
   "id": "node/8840853517",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Baur au Lac Garage",
     "description": "Während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 7:45 - 17:00",
     "operator": "Baur au Lac",
     "phone": "+41442205020",
     "id": "node/8840853517"
@@ -3133,11 +3135,13 @@
   "type": "Feature",
   "id": "node/8840856418",
   "properties": {
-    "access": "no",
+    "access": "permissive",
     "defibrillator:location": "Baur au Lac",
+    "description": "Bei Warenanlieferung, eingeschränkt zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "operator": "Baur au Lac",
     "phone": "+41442205020",
     "id": "node/8840856418"
@@ -3146,7 +3150,7 @@
     "type": "Point",
     "coordinates": [
       8.5389178,
-      47.3675822
+      47.3675821
     ]
   }
 },
@@ -3156,9 +3160,11 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Baur au Lac Haupteingang",
+    "description": "Lobby bei Telefonzentrale",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Baur au Lac",
     "phone": "+41442205020",
