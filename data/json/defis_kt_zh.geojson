@@ -18779,12 +18779,14 @@
   "type": "Feature",
   "id": "node/8841401617",
   "properties": {
-    "access": "no",
+    "access": "permissive",
     "defibrillator:location": "Baur au Lac Vins",
-    "description": "Während Öffnungszeiten verfügbar",
+    "description": "Bei Verkaufsladen oder Spedition melden",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 7:30 - 17:00; Sa 9:00 - 16:00",
     "operator": "Baur au Lac Vins",
     "phone": "+41447770505",
     "id": "node/8841401617"
@@ -18792,8 +18794,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4657627,
-      47.4428039
+      8.4657628,
+      47.442804
     ]
   }
 },
