@@ -59218,6 +59218,7 @@
   "id": "node/9107093746",
   "properties": {
     "access": "yes",
+    "check_date": "2026-01-26",
     "defibrillator:location": "Briefkastenanlage, Eingang Stadthaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -148226,6 +148227,29 @@
     "coordinates": [
       8.2536105,
       47.0917966
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13495772401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hotel Lausanne Palace",
+    "description": "Reception Hotel",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "phone": "+41 21 331 31 31",
+    "id": "node/13495772401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.6308833,
+      46.5195906
     ]
   }
 }
