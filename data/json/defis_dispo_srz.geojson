@@ -726,16 +726,23 @@
   "type": "Feature",
   "id": "node/5077324001",
   "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Empfang Berufsschule",
+    "description": "nur bei Schulbetrieb verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:30-17:00",
+    "operator": "Berufsschule",
+    "phone": "+41 55 251 51 11",
     "id": "node/5077324001"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
       8.853986,
-      47.2555628
+      47.2555629
     ]
   }
 },
@@ -743,9 +750,16 @@
   "type": "Feature",
   "id": "node/5077324002",
   "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Turnhalle",
+    "description": "nur während Schulbetrieb verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:30-17:00",
+    "operator": "Berufsschule",
+    "phone": "+41 55 251 51 11",
     "id": "node/5077324002"
   },
   "geometry": {
