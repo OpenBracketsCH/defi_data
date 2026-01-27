@@ -14373,11 +14373,12 @@
   "type": "Feature",
   "id": "node/8080529362",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Turnhalle, beim Bademeister anfordern",
-    "description": "während Öffnungszeiten verfügbar",
+    "description": "ab Mai 2027 während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "id": "node/8080529362"
   },
   "geometry": {
@@ -14392,18 +14393,19 @@
   "type": "Feature",
   "id": "node/8080529363",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Schwimmbad, beim Bademeister",
-    "description": "während Öffnungszeiten verfügbar",
+    "description": "ab Mai 2027 während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "id": "node/8080529363"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5825295,
-      47.3442902
+      8.5825297,
+      47.3442898
     ]
   }
 },
