@@ -9093,25 +9093,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7721023592",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Im Werkhof im Sanitätszimmer EG",
-    "description": "nur während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/7721023592"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5282069,
-      47.2055608
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7721023593",
   "properties": {
     "access": "yes",
@@ -97132,6 +97113,28 @@
     "coordinates": [
       8.5328099,
       47.368293
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13503269001",
+  "properties": {
+    "defibrillator:location": "Bei Tor Einfahrt Werkhof",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Baar",
+    "phone": "+41 41 769 01 11",
+    "id": "node/13503269001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5276935,
+      47.2054888
     ]
   }
 }
