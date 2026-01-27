@@ -915,23 +915,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7559787486",
-  "properties": {
-    "access": "yes",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/7559787486"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.83959,
-      47.2358446
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7559787487",
   "properties": {
     "access": "yes",
@@ -35749,6 +35732,29 @@
     "coordinates": [
       9.0801309,
       47.0331021
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13503253001",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Seebleichestrasse 61",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Starrag AG",
+    "phone": "+41 71 858 81 11",
+    "id": "node/13503253001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5199198,
+      47.4780976
     ]
   }
 }
