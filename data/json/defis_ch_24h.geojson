@@ -19044,9 +19044,10 @@
     "addr:housenumber": "6",
     "addr:postcode": "2534",
     "addr:street": "La Charrière",
-    "defibrillator:location": "A l'extérieur, devant l'entrée de l'administration municipale",
+    "defibrillator:location": "A l'extérieur, devant l'entrée de l'administration municipale (entrée côté La Charrière)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Administration municipale",
     "phone": "+41 323580180",
@@ -19055,8 +19056,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.2143545,
-      47.1618395
+      7.2138951,
+      47.1616681
     ]
   }
 },
@@ -148313,6 +148314,28 @@
     "coordinates": [
       8.286861,
       47.489778
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13505334403",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hof Metzgerei Volkart",
+    "description": "öffentlich zugänglich an Hauswand angebracht. Auf der Seite zwischen Volg und Metzgerei.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "no",
+    "opening_hours": "24/7",
+    "id": "node/13505334403"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5154996,
+      47.5232796
     ]
   }
 }
