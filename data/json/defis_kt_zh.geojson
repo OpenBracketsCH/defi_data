@@ -75737,7 +75737,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "id": "node/13505334403"
   },
@@ -75746,6 +75746,28 @@
     "coordinates": [
       8.5154996,
       47.5232796
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13506049701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Seestrasse 126",
+    "description": "Im Treppenhaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "operator": "Arztpraxis",
+    "id": "node/13506049701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5958858,
+      47.260951
     ]
   }
 }
