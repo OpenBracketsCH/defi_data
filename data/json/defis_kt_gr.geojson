@@ -3054,9 +3054,14 @@
   "type": "Feature",
   "id": "node/8733394273",
   "properties": {
+    "access": "yes",
+    "check_date": "2026-01-29",
     "defibrillator:location": "Rechts neben Eingangstüre Ticketshop",
+    "defibrillator:location:de": "Zwischen Kasse Bergbahnen und WC.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "phone": "+41 81 927 74 00",
     "id": "node/8733394273"
   },
   "geometry": {
@@ -5440,6 +5445,7 @@
   "type": "Feature",
   "id": "node/9457861217",
   "properties": {
+    "check_date": "2026-01-29",
     "defibrillator:location": "eingang Sent dal Dragun",
     "description": "an Betonwand anfangs Baumwipfelpfad",
     "emergency": "defibrillator",
@@ -5447,6 +5453,7 @@
     "indoor": "yes",
     "opening_hours": "24/7",
     "operator": "laax betriebe",
+    "phone": "+41 81 927 74 00",
     "id": "node/9457861217"
   },
   "geometry": {
@@ -12445,11 +12452,13 @@
   "id": "node/11804337870",
   "properties": {
     "access": "no",
+    "check_date": "2026-01-29",
     "defibrillator:location": "Bergstation Crap Masegn Ostseite des Gebäudes im SOS",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "operator": "Pisten und Rettungsdienst der Weissen Arena Bergbahnen AG",
+    "phone": "+41 81 927 74 00",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/11804337870"
   },
@@ -14348,12 +14357,15 @@
   "type": "Feature",
   "id": "node/12469037601",
   "properties": {
+    "check_date": "2026-01-29",
     "defibrillator:location": "Stationsgebäude Mutta Rodunda",
+    "defibrillator:location:de": "Im Kommandoraum während der Wintersaison.",
     "description": "Während Bahnbetriebszeiten in der Wintersaison",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "yes",
     "operator": "WAG",
+    "phone": "+41 81 927 74 00",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/12469037601"
   },
@@ -16493,6 +16505,68 @@
     "coordinates": [
       9.1950165,
       46.3118326
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13509650301",
+  "properties": {
+    "access": "yes",
+    "check_date": "2026-01-29",
+    "defibrillator:location:de": "Im Aufenthaltsraum",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "phone": "+41 81 927 24 00",
+    "id": "node/13509650301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.254802,
+      46.8787896
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13509673001",
+  "properties": {
+    "access": "yes",
+    "check_date": "2026-01-29",
+    "defibrillator:location:de": "Beim Eingang Reception, neben dem Gepäckraum.",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "1",
+    "phone": "+41 81 927 74 00",
+    "id": "node/13509673001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2651428,
+      46.8189519
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13509678001",
+  "properties": {
+    "access": "private",
+    "check_date": "2026-01-29",
+    "defibrillator:location:de": "In der SOS Station während der Wintersaison.",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "2",
+    "phone": "+41 81 927 74 00",
+    "id": "node/13509678001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2158298,
+      46.8352324
     ]
   }
 }
