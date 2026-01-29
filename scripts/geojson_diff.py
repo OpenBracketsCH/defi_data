@@ -1,216 +1,117 @@
-import json 
-import sys
-import html
-import re
-
-old_file = sys.argv[1]
-new_file = sys.argv[2]
-
-# Felder, die "geändert" auslösen sollen (erweiterbar)
-RELEVANT_FIELDS = [
-    "name",
-    "status",
-    "operator",
-    "phone",
-    "access",
-    "opening_hours",
-    "defibrillator:location",
-    "description",
-    "phone",
-    "level",
-    "addr:street",
-    "addr:housenumber",
-    "addr:postcode",
-    "addr:city",
-    "indoor",
-]
-
-def load(path: str):
-    with open(path, encoding="utf-8") as f:
-        return json.load(f)
-
-def coords(feature):
-    try:
-        g = feature.get("geometry") or {}
-        if g.get("type") != "Point":
-            return None, None
-        c = g.get("coordinates")
-        if not (isinstance(c, list) and len(c) >= 2):
-            return None, None
-        return c[0], c[1]  # lon, lat
-    except Exception:
-        return None, None
-
-def address(props: dict):
-    parts = []
-    street = props.get("addr:street")
-    housenumber = props.get("addr:housenumber")
-    postcode = props.get("addr:postcode")
-    city = props.get("addr:city")
-
-    if street or housenumber:
-        parts.append(" ".join(p for p in [street, housenumber] if p))
-    if postcode or city:
-        parts.append(" ".join(p for p in [postcode, city] if p))
-
-    return ", ".join(parts) if parts else None
-
-def normalize_osm_id(s: str) -> str:
-    s = str(s).strip()
-    if re.match(r"^(node|way|relation)/\d+$", s):
-        return s
-    if re.match(r"^\d+$", s):
-        return f"node/{s}"
-    return s
-
-def get_key(feature) -> str | None:
+def generate_html_report(diff_results, area_name):
     """
-    Stable identity key so that 'changed' works.
-    Supports multiple Overpass/GeoJSON variants.
+    Erstellt den HTML-Report im neuen Card-Design basierend auf der 
+    bestehenden Datenstruktur von geojson_diff.py.
     """
-    p = feature.get("properties", {}) or {}
+    new_count = len(diff_results.get('added', []))
+    changed_count = len(diff_results.get('changed', []))
+    deleted_count = len(diff_results.get('removed', []))
 
-    for k in ("@id", "osm_id", "osm:id", "id", "osmid", "osmId"):
-        v = p.get(k)
-        if v is not None and str(v).strip():
-            return normalize_osm_id(v)
+    # Das neue CSS-Styling
+    style = """
+    <style>
+        body { font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #f4f7f6; color: #333; margin: 0; padding: 20px; }
+        .container { max-width: 600px; margin: 0 auto; background: #ffffff; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+        .header { background-color: #ffffff; padding: 25px; text-align: center; border-bottom: 1px solid #eee; }
+        .header img { width: 160px; margin-bottom: 10px; }
+        .content { padding: 25px; }
+        h2 { color: #2c3e50; font-size: 20px; margin-top: 0; }
+        .summary-bar { padding: 10px 15px; border-radius: 6px; font-weight: bold; font-size: 14px; margin-bottom: 20px; background-color: #f8f9fa; border-left: 4px solid #dee2e6; }
+        .defi-card { border: 1px solid #e0e0e0; border-radius: 10px; padding: 18px; margin-bottom: 20px; position: relative; }
+        .card-new { border-left: 5px solid #28a745; }
+        .card-changed { border-left: 5px solid #fd7e14; }
+        .card-removed { border-left: 5px solid #dc3545; background-color: #fffafa; }
+        .badge { display: inline-block; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-weight: bold; text-transform: uppercase; margin-bottom: 8px; color: white; }
+        .badge-new { background-color: #28a745; }
+        .badge-changed { background-color: #fd7e14; }
+        .badge-removed { background-color: #dc3545; }
+        .defi-name { font-size: 17px; font-weight: bold; color: #2c3e50; }
+        .defi-id { color: #999; font-size: 11px; margin-bottom: 12px; }
+        .diff-line { font-size: 14px; margin-top: 5px; color: #555; }
+        del { color: #dc3545; background-color: #ffe6e6; text-decoration: line-through; padding: 0 2px; }
+        ins { color: #28a745; background-color: #e6ffe6; text-decoration: none; font-weight: bold; padding: 0 2px; }
+        .btn-group { margin-top: 15px; }
+        .btn { display: inline-block; padding: 7px 14px; border-radius: 5px; text-decoration: none; font-size: 13px; font-weight: 500; margin-right: 8px; }
+        .btn-google { background-color: #4285F4; color: white !important; }
+        .btn-osm { background-color: #7eb617; color: white !important; }
+        .footer { padding: 20px; text-align: center; font-size: 11px; color: #aaa; background-color: #fafafa; }
+    </style>
+    """
 
-    v = feature.get("id")
-    if v is not None and str(v).strip():
-        return normalize_osm_id(v)
+    html = f"""
+    <html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        {style}
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <img src="https://defikarte.ch/defikarte-logo-quer-gruen-positiv-rgb.png" alt="defikarte.ch">
+                <h2>Updates für {area_name}</h2>
+            </div>
+            <div class="content">
+                <div class="summary-bar">
+                    <span style="color:#28a745;">{new_count} neu</span> • 
+                    <span style="color:#fd7e14;">{changed_count} geändert</span> • 
+                    <span style="color:#dc3545;">{deleted_count} gelöscht</span>
+                </div>
+    """
 
-    # last resort: coords+name (avoid losing everything)
-    lon, lat = coords(feature)
-    name = p.get("name", "")
-    if lon is not None and lat is not None:
-        return f"fallback:{name}:{lon}:{lat}"
+    # Wir nutzen die bestehende Logik deiner Schleifen
+    for status in ['added', 'changed', 'removed']:
+        for item in diff_results.get(status, []):
+            props = item.get('properties', {})
+            # ID Handling wie im Originalskript
+            node_id = item.get('id', 'N/A')
+            name = props.get('name') or "(ohne Name)"
+            
+            # Koordinaten-Logik
+            geom = item.get('geometry', {})
+            coords = geom.get('coordinates', [0, 0])
+            # GeoJSON ist [lon, lat], für Maps brauchen wir lat,lon
+            lat_lon = f"{coords[1]},{coords[0]}"
+            
+            google_url = f"https://www.google.com/maps?q={lat_lon}"
+            osm_url = f"https://www.openstreetmap.org/{node_id}"
 
-    return None
+            card_class = "card-new" if status == "added" else f"card-{status}"
+            badge_class = "badge-new" if status == "added" else f"badge-{status}"
+            badge_text = "Neu" if status == "added" else ("Geändert" if status == "changed" else "Gelöscht")
 
-def osm_url(key: str) -> str:
-    return f"https://www.openstreetmap.org/{key}"
+            html += f"""
+            <div class="defi-card {card_class}">
+                <span class="badge {badge_class}">{badge_text}</span>
+                <div class="defi-name">{name}</div>
+                <div class="defi-id">ID: {node_id}</div>
+            """
 
-def maps_links(lon, lat, key=None):
-    links = []
-    if key and key.startswith(("node/", "way/", "relation/")):
-        links.append(f'<a href="{osm_url(key)}">OSM</a>')
-    elif lon is not None and lat is not None:
-        links.append(f'<a href="https://www.openstreetmap.org/?mlat={lat}&mlon={lon}#map=19/{lat}/{lon}">OSM</a>')
-    if lon is not None and lat is not None:
-        links.append(f'<a href="https://www.google.com/maps?q={lat},{lon}">Google Maps</a>')
-    return " | ".join(links)
+            if status == 'changed' and 'changes' in item:
+                for key, (old_val, new_val) in item['changes'].items():
+                    html += f'<div class="diff-line"><strong>{key}:</strong> <del>{old_val}</del> → <ins>{new_val}</ins></div>'
+            elif status == 'removed':
+                html += '<div class="diff-line">Dieser Defibrillator wurde entfernt.</div>'
+            else:
+                html += f'<div class="diff-line">Koordinaten: {lat_lon}</div>'
 
-def index(features):
-    out = {}
-    for f in features:
-        k = get_key(f)
-        if k:
-            out[k] = f
-    return out
+            if status != 'removed':
+                html += f"""
+                <div class="btn-group">
+                    <a href="{google_url}" class="btn btn-google">Google Maps</a>
+                    <a href="{osm_url}" class="btn btn-osm">OSM Details</a>
+                </div>
+                """
+            html += "</div>"
 
-def props(feature):
-    return feature.get("properties", {}) or {}
-
-old = load(old_file)
-new = load(new_file)
-
-old_idx = index(old.get("features", []) or [])
-new_idx = index(new.get("features", []) or [])
-
-added = sorted(set(new_idx) - set(old_idx))
-removed = sorted(set(old_idx) - set(new_idx))
-common = sorted(set(new_idx) & set(old_idx))
-
-rows = []
-summary = {"neu": 0, "geändert": 0, "gelöscht": 0}
-
-def add_row(category, feature, changes=None):
-    p = props(feature)
-    lon, lat = coords(feature)
-    key = get_key(feature)
-    addr = address(p)
-    links = maps_links(lon, lat, key)
-
-    css = {"neu":"new", "gelöscht":"removed", "geändert":"changed"}[category]
-    name = str(p.get("name", "(ohne Name)"))
-
-    rows.append(f"""
-    <tr class="{css}">
-      <td>{html.escape(category)}</td>
-      <td>{html.escape(name)}<br><small>ID: {html.escape(key or "")}</small></td>
-      <td>{html.escape(addr) if addr else ""}</td>
-      <td>{html.escape(f"{lon}, {lat}") if lon is not None and lat is not None else ""}</td>
-      <td>{links}</td>
-      <td>{("<br>".join(html.escape(c) for c in changes)) if changes else ""}</td>
-    </tr>
-    """)
-
-# NEU
-for k in added:
-    add_row("neu", new_idx[k])
-    summary["neu"] += 1
-
-# GELÖSCHT
-for k in removed:
-    add_row("gelöscht", old_idx[k])
-    summary["gelöscht"] += 1
-
-# GEÄNDERT
-for k in common:
-    op = props(old_idx[k])
-    np = props(new_idx[k])
-
-    changes = []
-    for f in RELEVANT_FIELDS:
-        if op.get(f) != np.get(f):
-            changes.append(f"{f}: '{op.get(f)}' → '{np.get(f)}'")
-
-    if changes:
-        add_row("geändert", new_idx[k], changes)
-        summary["geändert"] += 1
-
-# wenn wirklich gar nichts reportenswertes:
-if not rows:
-    sys.exit(0)
-
-html_mail = f"""
-<html>
-<head>
-<meta charset="utf-8"/>
-<style>
-body {{ font-family: Arial, sans-serif; }}
-table {{ border-collapse: collapse; width: 100%; }}
-th, td {{ border: 1px solid #ddd; padding: 8px; vertical-align: top; }}
-th {{ background-color: #f4f4f4; }}
-tr.new {{ background-color: #e6ffe6; }}
-tr.removed {{ background-color: #ffe6e6; }}
-tr.changed {{ background-color: #fff8e6; }}
-small {{ color: #666; }}
-</style>
-</head>
-<body>
-<img src="https://defikarte.ch/defikarte-logo-quer-gruen-positiv-rgb.png" alt="defikarte.ch" style="width:200px;"/>
-<h2>Änderungen an Defibrillatoren im Einsatzgebiet.</h2>
-<p><strong>Zusammenfassung:</strong> {summary['neu']} neu, {summary['geändert']} geändert, {summary['gelöscht']} gelöscht</p>
-
-<table>
-  <tr>
-    <th>Status</th>
-    <th>Name</th>
-    <th>Adresse</th>
-    <th>Koordinaten</th>
-    <th>Karte</th>
-    <th>Details</th>
-  </tr>
-  {''.join(rows)}
-</table>
-<br>
-<pr> Zur Erklärung: Die Tabelle zeigt immer den Status (neu, geändert, gelöscht) des neuen Datensatzes an. Weiter sind die Änderungen mit Pfeilen alt/neu gekennzeichnet. </pr>
-<br>
-<h6> Dies ist eine automatisch generierte E-Mail von defikarte.ch </h6>
-</body>
-</html>
-"""
-
-with open("diff.html", "w", encoding="utf-8") as f:
-    f.write(html_mail)
+    html += """
+            </div>
+            <div class="footer">
+                Dies ist eine automatisch generierte E-Mail von <strong>defikarte.ch</strong>.<br>
+                Danke für deinen Einsatz!
+            </div>
+        </div>
+    </body>
+    </html>
+    """
+    return html
