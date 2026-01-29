@@ -20677,7 +20677,7 @@
   "type": "Feature",
   "id": "node/8556997041",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Dreifachhalle Kirchwies, UG",
     "description": "während Spielbetrieb verfügbar",
     "emergency": "defibrillator",
@@ -23196,26 +23196,6 @@
     "coordinates": [
       8.7154226,
       47.3490063
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8574210697",
-  "properties": {
-    "defibrillator:location": "in der Turnhalle",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Stadt Uster",
-    "id": "node/8574210697"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.7175173,
-      47.3603972
     ]
   }
 },
@@ -30703,18 +30683,19 @@
   "id": "node/9036239617",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Urania Parkhaus",
+    "defibrillator:location": "Urania Parkhaus bei den Kassen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "24/7",
     "id": "node/9036239617"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5413583,
-      47.3740263
+      8.5413585,
+      47.3740262
     ]
   }
 },
@@ -43810,7 +43791,7 @@
     "type": "Point",
     "coordinates": [
       8.7175038,
-      47.3604008
+      47.3603975
     ]
   }
 },
@@ -61709,13 +61690,14 @@
   "type": "Feature",
   "id": "node/11038063905",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Apotheke Dobler",
     "description": "während der Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 08:00-12:00,14:00-18:30, Sa 08:00-16:00",
+    "opening_hours": "Mo-Fr 08:00-12:00,14:00-18:30; Sa 08:00-16:00",
     "operator": "Privat",
     "phone": "+41 44 984 31 31",
     "id": "node/11038063905"
@@ -77971,7 +77953,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Feuerwehr Depot",
-    "description": "Draussen neben Tor 1 richtung Haupteingang (Gelbe AED Box)",
+    "description": "Draussen neben Tor 1 Richtung Haupteingang (Gelbe AED Box)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -77983,7 +77965,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7154628,
+      8.7154629,
       47.3536069
     ]
   }
