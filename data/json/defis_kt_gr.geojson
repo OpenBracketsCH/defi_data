@@ -5631,8 +5631,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.2676919,
-      46.8466304
+      9.2676866,
+      46.8466321
     ]
   }
 },
@@ -16514,17 +16514,20 @@
   "properties": {
     "access": "yes",
     "check_date": "2026-01-29",
+    "defibrillator:location": "Warteraum Bergstation GB10",
     "defibrillator:location:de": "Im Aufenthaltsraum",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
+    "opening_hours": "24/7",
     "phone": "+41 81 927 24 00",
     "id": "node/13509650301"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.254802,
-      46.8787896
+      9.2548013,
+      46.8787905
     ]
   }
 },
@@ -16567,6 +16570,27 @@
     "coordinates": [
       9.2158298,
       46.8352324
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13516798001",
+  "properties": {
+    "defibrillator:location": "Bergstation FlemX Rechts neben Ein/Ausgang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Weisse Arena Bergbahnen AG",
+    "id": "node/13516798001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2402171,
+      46.8674778
     ]
   }
 }
