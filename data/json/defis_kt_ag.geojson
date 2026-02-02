@@ -8466,21 +8466,21 @@
   "type": "Feature",
   "id": "node/9113359017",
   "properties": {
-    "access": "yes",
     "contact:phone": "+41 56 200 0444",
-    "defibrillator:location": "Schulhaus Kanti Baden",
+    "defibrillator:location": "Aula, Gebäude 4",
+    "description": "Während Schulbetrieb zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 07:00-22:00",
+    "level": "0",
     "operator": "Kantonsschule Baden",
     "id": "node/9113359017"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3133579,
-      47.47036
+      8.313358,
+      47.4703599
     ]
   }
 },
@@ -29882,6 +29882,26 @@
     "coordinates": [
       8.286861,
       47.489778
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13519455501",
+  "properties": {
+    "defibrillator:location": "Sporthalle, Geb. 8",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "operator": "Kantonsschule Baden",
+    "id": "node/13519455501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3138789,
+      47.4698864
     ]
   }
 }

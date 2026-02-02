@@ -21751,7 +21751,7 @@
   "id": "node/9061501517",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schlachthaus / ehem. Postautogarage",
+    "defibrillator:location": "Grüner Metallkasten aussen am Schlachthaus / ehem. Postautogarage",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -21762,8 +21762,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5661882,
-      47.5515565
+      8.5661828,
+      47.5515656
     ]
   }
 },
@@ -36271,12 +36271,16 @@
   "type": "Feature",
   "id": "node/10607791207",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Empfang",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "opening_hours": "Mo-Fr 08:00-16:30",
+    "operator": "Bezirksgericht Meilen",
+    "phone": "+41 58 111 21 21",
     "id": "node/10607791207"
   },
   "geometry": {
@@ -65857,8 +65861,10 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-16:30",
     "operator": "Bezirksgericht Meilen",
-    "phone": "+41449242121",
+    "phone": "+41 58 111 21 21",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/12529089402"
   },
@@ -75848,6 +75854,30 @@
     "coordinates": [
       8.7187269,
       47.4990017
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13519512501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Büro Bene/nw. Hinter Glaswand sichtbar. Büro durch verschiedene Türen zugänglich.",
+    "description": "während Öffnungszeiten, teilweise auch Samstags",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "operator": "Bene GmbH, schweiz@bene.com",
+    "phone": "+41 44 283 80 00",
+    "id": "node/13519512501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5172962,
+      47.362695
     ]
   }
 }
