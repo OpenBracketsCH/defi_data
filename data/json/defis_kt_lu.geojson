@@ -11496,17 +11496,23 @@
   "type": "Feature",
   "id": "node/7637819075",
   "properties": {
-    "description": "EG",
+    "access": "permissive",
+    "defibrillator:location": "Polizleiposten Ebikon",
+    "description": "Polizeiposten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
     "name": "Polizeiposten",
+    "operator": "Polizei",
+    "phone": "+41 79 226 25 96",
     "id": "node/7637819075"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3397983,
-      47.082013
+      8.3388024,
+      47.0800153
     ]
   }
 },
