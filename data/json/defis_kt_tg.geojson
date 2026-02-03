@@ -1708,25 +1708,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8550783964",
-  "properties": {
-    "defibrillator:location": "Vibraplast AG",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "id": "node/8550783964"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.9009482,
-      47.4962703
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8550783965",
   "properties": {
     "access": "yes",
@@ -1747,45 +1728,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8550783966",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "An der Wand im Eingangsbereich",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "id": "node/8550783966"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.9014752,
-      47.4920568
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8550783967",
-  "properties": {
-    "defibrillator:location": "Beim Portier melden",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "id": "node/8550783967"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.9146543,
-      47.4767021
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8550783968",
   "properties": {
     "defibrillator:location": "Wand bei der Zuschauertribüne",
@@ -1800,25 +1742,6 @@
     "coordinates": [
       8.905583,
       47.4931632
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8550783970",
-  "properties": {
-    "defibrillator:location": "Praxis Untermoos",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "id": "node/8550783970"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.9082089,
-      47.4914841
     ]
   }
 },
@@ -1862,32 +1785,14 @@
 },
 {
   "type": "Feature",
-  "id": "node/8550783973",
-  "properties": {
-    "defibrillator:location": "Kifa AG",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "id": "node/8550783973"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.90394,
-      47.4919667
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8550783974",
   "properties": {
     "defibrillator:location": "Halle E (Sanitätsraum)",
-    "description": "Mo-Fr 07:00-17:00",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-17:00",
     "operator": "Griesser AG",
     "id": "node/8550783974"
   },
@@ -1896,63 +1801,6 @@
     "coordinates": [
       8.9052962,
       47.4853504
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8550783975",
-  "properties": {
-    "defibrillator:location": "Heim AG",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "id": "node/8550783975"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.9037707,
-      47.4970473
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8550783977",
-  "properties": {
-    "defibrillator:location": "bei Garage Fisch",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/8550783977"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.9087266,
-      47.486406
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8550783981",
-  "properties": {
-    "defibrillator:location": "Portierhaus",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/8550783981"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.9067471,
-      47.4792419
     ]
   }
 },
@@ -6079,27 +5927,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10203950217",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Weinbergstrasse 31",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Privatperson",
-    "phone": "+41792912086",
-    "id": "node/10203950217"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.8927635,
-      47.478085
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10209533618",
   "properties": {
     "access": "yes",
@@ -10108,27 +9935,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10240188812",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Eingang West",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "Mo-Fr 08:00-21:00",
-    "operator": "Real-Fit Fitnessclub",
-    "phone": "+41 78 800 00 92",
-    "id": "node/10240188812"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.8992,
-      47.49694
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10240188813",
   "properties": {
     "access": "yes",
@@ -10434,29 +10240,6 @@
     "coordinates": [
       8.9164084,
       47.5732432
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10285002609",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Weinbergstrasse 31",
-    "description": "Privat",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "operator": "Privatperson",
-    "phone": "+41 79 2912086",
-    "id": "node/10285002609"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.8929389,
-      47.4781558
     ]
   }
 },
@@ -11953,29 +11736,6 @@
     "coordinates": [
       8.8996553,
       47.480103
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11050750205",
-  "properties": {
-    "defibrillator:location": "Turnhalle",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "1",
-    "opening_hours": "Mo-Fr 07:00-22:00",
-    "operator": "Schule",
-    "phone": "+41 52 368 83 03",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/11050750205"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.9149281,
-      47.4785071
     ]
   }
 },
