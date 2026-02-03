@@ -97552,6 +97552,7 @@
   "type": "Feature",
   "id": "node/13521556301",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Schulhaus Breiti, zwischen Bibliothek und Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -97565,6 +97566,76 @@
     "coordinates": [
       8.6131879,
       47.2883179
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13521745201",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "bei Armasuisse, CYD Campus",
+    "description": "während Bürozeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Bund",
+    "phone": "+41 58 462 99 00",
+    "id": "node/13521745201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5330164,
+      47.380914
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13521846601",
+  "properties": {
+    "defibrillator:location": "Am Empfang",
+    "description": "während Bürozeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "opening_hours": "Mo-Fr 9:00 - 12:00",
+    "operator": "Schweizerische Vereinigung f. Führungsausbildung",
+    "phone": "+41447643626",
+    "id": "node/13521846601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4791894,
+      47.1867393
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13521855902",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Am Empfang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "opening_hours": "Mo-Fr 9:00 - 12:00",
+    "operator": "Schweizerische Vereinigung für Führungsausbildung",
+    "phone": "+41 44 764 36 26",
+    "id": "node/13521855902"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4793142,
+      47.1870158
     ]
   }
 }
