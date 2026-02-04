@@ -14141,12 +14141,13 @@
   "type": "Feature",
   "id": "node/10231073934",
   "properties": {
-    "defibrillator:location": "Bei der Eingangskasse",
-    "description": "während Öffnungszeiten verfügbar",
+    "access": "yes",
+    "defibrillator:location": "Neben dem Garagentor",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "level": "0",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Würenlos, Schwimmbad Wiemel",
     "phone": "+41 56 424 22 63",
     "id": "node/10231073934"
@@ -14154,8 +14155,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3714117,
-      47.4426362
+      8.3711791,
+      47.4426111
     ]
   }
 },
