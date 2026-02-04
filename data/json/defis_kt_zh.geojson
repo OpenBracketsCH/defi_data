@@ -37834,31 +37834,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10763169305",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Witikonerstrasse 356 8053 Zürich",
-    "description": "jederzeit verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "ref Kirche Witikon",
-    "phone": "+41 79 247 35 28",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/10763169305"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5915265,
-      47.3591541
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10763276775",
   "properties": {
     "defibrillator:location": "1.OG, Küche",
@@ -46726,10 +46701,16 @@
   "id": "node/11063400232",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Witikonerstrasse 356 8053 Zürich",
+    "description": "jederzeit verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
+    "operator": "ref Kirche Witikon",
+    "phone": "+41 79 247 35 28",
+    "source": "local_knowledge, defikarte.ch",
     "id": "node/11063400232"
   },
   "geometry": {
