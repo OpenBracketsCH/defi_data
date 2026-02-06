@@ -4147,16 +4147,21 @@
   "type": "Feature",
   "id": "node/7637818541",
   "properties": {
-    "description": "Eingang TurnhallE",
+    "defibrillator:location": "Chärnshalle",
+    "description": "Beim Eingang Chärnshalle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
     "name": "Sporthalle Chärnsmatt",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
     "id": "node/7637818541"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2718842,
+      8.2718843,
       47.1008782
     ]
   }
