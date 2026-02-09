@@ -28834,29 +28834,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637819093",
-  "properties": {
-    "access": "private",
-    "defibrillator:location": "Gewerbezone 82, 6018 Buttisholz",
-    "description": "Haupteingang / Empfang",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "name": "Beck Konzept AG",
-    "opening_hours": "24/7",
-    "operator": "Beck Konzept AG",
-    "id": "node/7637819093"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.0781128,
-      47.1133914
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637819095",
   "properties": {
     "access": "yes",
@@ -148717,6 +148694,30 @@
     "coordinates": [
       7.4956734,
       46.9744679
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13536270101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "MZH Altbüron",
+    "description": "Öffentlich Zugang mit Schlüssel",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung Altbüron",
+    "phone": "+41798239142",
+    "id": "node/13536270101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8836463,
+      47.1786649
     ]
   }
 }

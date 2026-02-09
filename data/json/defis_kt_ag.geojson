@@ -3768,14 +3768,14 @@
   "type": "Feature",
   "id": "node/8638250817",
   "properties": {
-    "defibrillator:location": "Kreisschule Oberstufe Schenkenbergertal",
+    "defibrillator:location": "Schulhaus/Aula Feldschen, Schulstrasse 4a",
     "description": "Im Eingangsbereich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 08:00-17:00",
-    "operator": "Kreisschule 5107 Schinznach-Dorf",
-    "phone": "+41564635311",
+    "operator": "Gemeinde Schinznach",
+    "phone": "+41 56 463 63 15",
     "id": "node/8638250817"
   },
   "geometry": {
@@ -3795,16 +3795,17 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 08:00-17:00",
-    "operator": "Schule /Gde? Schinznach",
-    "phone": "+41564636311",
+    "operator": "Gemeinde Schinznach",
+    "phone": "+41 56 463 63 15",
     "id": "node/8638266217"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
       8.1427816,
-      47.4453616
+      47.4453617
     ]
   }
 },
@@ -29880,6 +29881,28 @@
     "coordinates": [
       8.2815668,
       47.5801836
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13536357301",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "MZH Oberflachs, Schulstrasse 3, Eingang oben",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "operator": "Gemeinde Schinznach",
+    "phone": "+41 56 463 63 15",
+    "id": "node/13536357301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1298011,
+      47.4425864
     ]
   }
 }
