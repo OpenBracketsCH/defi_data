@@ -39943,12 +39943,14 @@
   "type": "Feature",
   "id": "node/9807826842",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Im Foyer, wenn man hinein kommt links neben der Eingangstür",
+    "access": "permissive",
+    "defibrillator:location": "im Pfarrbüro vom katholischen Pfarramt",
+    "description": "während der Öfnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Sa 08:00-18:00, Su 08:00-17:00",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:30-11:30",
     "operator": "Kath. Kirchgemeinde Uster/Pfarrei Greifensee, Kontaktperson: Antonella Morgante (Hauswartin)",
     "phone": "+41 75 422 94 33",
     "id": "node/9807826842"
@@ -39956,8 +39958,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6764218,
-      47.3650409
+      8.6764881,
+      47.3647943
     ]
   }
 },
