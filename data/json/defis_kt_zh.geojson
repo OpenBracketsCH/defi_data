@@ -21406,21 +21406,22 @@
   "type": "Feature",
   "id": "node/9028139640",
   "properties": {
-    "defibrillator:location": "bei der Reception",
+    "access": "permissive",
+    "defibrillator:location": "Im Treppenhaus",
+    "description": "Nur für Mitarbeiter erreichbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 08:00-17:00",
-    "operator": "Sensirion, Adrian Ruf",
-    "phone": "+41 44 927 14 11",
+    "operator": "Sensirion AG",
+    "phone": "+41 44 306 40 00",
     "id": "node/9028139640"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7431592,
-      47.2387921
+      8.7430103,
+      47.2389241
     ]
   }
 },
@@ -21428,21 +21429,23 @@
   "type": "Feature",
   "id": "node/9028139641",
   "properties": {
-    "defibrillator:location": "Beim Besuchereingang durch die erste Tür",
+    "access": "permissive",
+    "defibrillator:location": "Bei der Reception",
+    "description": "Während den Öffnungszeiten erreichbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 08:00-17:00",
-    "operator": "Sensirion, Adrian Ruf",
-    "phone": "+41 44 927 14 11",
+    "opening_hours": "Mo-Fr 07:30-17:00",
+    "operator": "Sensirion AG",
+    "phone": "+41 44 306 40 00",
     "id": "node/9028139641"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7473783,
-      47.2379772
+      8.7475201,
+      47.2381483
     ]
   }
 },
@@ -51106,21 +51109,22 @@
   "type": "Feature",
   "id": "node/11573102971",
   "properties": {
-    "access": "no",
+    "access": "permissive",
     "defibrillator:location": "Laubisrütistrasse 42a, 8712 Stäfa",
+    "description": "Nur für Mitarbeiter erreichbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "3",
     "operator": "Sensirion AG",
-    "phone": "+41449271411",
+    "phone": "+41 44 306 40 00",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/11573102971"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7461263,
+      8.7461264,
       47.2378082
     ]
   }
@@ -76086,6 +76090,29 @@
     "coordinates": [
       8.7695191,
       47.2546365
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13540000201",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Beim Eingang",
+    "description": "Nur für Mitarbeiter erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Sensirion AG",
+    "phone": "+41 44 306 40 00",
+    "id": "node/13540000201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7467713,
+      47.2376364
     ]
   }
 }
