@@ -77741,7 +77741,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "06:00 - 17:00",
+    "opening_hours": "07:00 - 17:00",
     "operator": "Firma",
     "phone": "+41 44 929 61 61",
     "source": "local_knowledge, defikarte.ch",
@@ -97759,6 +97759,30 @@
     "coordinates": [
       8.7467713,
       47.2376364
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13540651601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Empfang Schweizerische Multiple Sklerose Gesellschaft, Haupteingang, Brandrietstrasse 31",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Th 09:00-12:00,13:00-17:00;Fr 9:00-13:00",
+    "operator": "Schweizerische Multiple Sklerose Gesellschaft",
+    "phone": "+41 43 444 43 43",
+    "id": "node/13540651601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6872855,
+      47.4245359
     ]
   }
 }
