@@ -14877,8 +14877,10 @@
     "addr:housenumber": "22",
     "addr:postcode": "3283",
     "addr:street": "Oberfeld",
+    "defibrillator:location": "Turnhalle im Eingangsbereich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "Mo-Fr 07:00-22:00",
     "operator": "Gemeinde Kallnach",
     "phone": "+41 32 382 14 14",
@@ -14887,8 +14889,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.2300757,
-      47.0167986
+      7.2300768,
+      47.0167984
     ]
   }
 },
@@ -47702,6 +47704,8 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
     "operator": "Gemeindeverwaltung Kallnach",
     "phone": "+4132 392 14 16",
     "source": "local_knowledge, defikarte.ch",
@@ -47710,8 +47714,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.2489918,
-      47.0091976
+      7.2489917,
+      47.0091978
     ]
   }
 },
@@ -47724,6 +47728,8 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
     "operator": "Gemeindeverwaltung Kallnach",
     "phone": "+41323921416",
     "source": "local_knowledge, defikarte.ch",
@@ -47732,8 +47738,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.234567,
-      46.9892684
+      7.2345668,
+      46.9892677
     ]
   }
 },
@@ -47742,10 +47748,12 @@
   "id": "node/11038063616",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Trafostation",
+    "defibrillator:location": "Pumpwerk",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
     "operator": "Gemeindeverwaltung Kallnach",
     "phone": "+41 32 392 14 16",
     "source": "local_knowledge, defikarte.ch",
@@ -47754,8 +47762,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.2552415,
-      47.0163313
+      7.2552413,
+      47.016332
     ]
   }
 },
@@ -47885,10 +47893,12 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Dorfstrasse",
-    "description": "Bereich Schulhaus, bei den Anschlagekasten",
+    "description": "Bereich Schulhaus, bei den Anschlagekasten/Eingang Zivilschutzanlage",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
     "operator": "Gemeindeverwaltung Kallnach",
     "phone": "+41323921416",
     "source": "local_knowledge, defikarte.ch",
@@ -47898,7 +47908,7 @@
     "type": "Point",
     "coordinates": [
       7.2404955,
-      46.9851069
+      46.985107
     ]
   }
 },
