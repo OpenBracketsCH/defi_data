@@ -210,6 +210,12 @@ cat $DIR/queries/defis_stadt_zh.overpassql | python $DIR/overpass_query.py | osm
 echo -ne "\t\t - Done.\r"
 echo ""
 
+# Defibrillatoren Stadt Zürich
+echo -ne "Query Defibrillatoren Stadt Zug...            "
+cat $DIR/queries/defis_stadt_zug.overpassql | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/json/defis_stadt_zug.geojson
+echo -ne "\t\t - Done.\r"
+echo ""
+
 # Liechtenstein
 
 # Defibrillatoren ganz Liechtenstein

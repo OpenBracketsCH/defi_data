@@ -103,3 +103,6 @@ df.to_csv (r'data/csv/defis_liechtenstein.csv', index = None)
 
 df = pd.read_json (r'data/json/defis_stadt_zh.geojson')
 df.to_csv (r'data/csv/defis_stadt_zh.csv', index = None)
+
+df = pd.read_json (r'data/json/defis_stadt_zug.geojson')
+df.to_csv (r'data/csv/defis_stadt_zug.csv', index = None)
