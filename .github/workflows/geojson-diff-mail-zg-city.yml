@@ -95,7 +95,8 @@ jobs:
           password: ${{ secrets.MAIL_PASS }}
           subject: "Änderungen an Defis in der Stadt Zug"
           html_body: file://diff.html
-          to: info@defikarte.ch
+          to: sicherheit@stadtzug.ch
+          cc: info@defikarte.ch
           from: defikarte.ch Reports
 
       - name: Update last processed SHA
@@ -106,7 +107,7 @@ jobs:
           FILE=".reporting/last_processed_sha_zg_city.txt"
           echo "$HEAD_SHA" > "$FILE"
         
-          git config user.name "Defikarte Reporting Bot"
+          git config user.name "defikarte.ch Reporting Bot"
           git config user.email "chrigi@chnuessli.ch"
           git add .reporting/last_processed_sha_zg_city.txt
           git commit -m "update last processed sha for _zg_city" || exit 0
