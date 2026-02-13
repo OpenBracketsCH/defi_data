@@ -50256,17 +50256,21 @@
     "addr:postcode": "3792",
     "addr:street": "Gsteigstrasse",
     "defibrillator:location": "Addor AG- Tiefbau und Transporte",
+    "description": "An Hauptgebäude gut sichtbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Addor AG- Tiefbau und Transporte",
+    "phone": "+41 33 748 92 90",
     "id": "node/8734453461"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
       7.2739601,
-      46.4453502
+      46.4453501
     ]
   }
 },
@@ -67562,17 +67566,20 @@
     "addr:housenumber": "2",
     "addr:postcode": "3783",
     "addr:street": "Bodenstrasse",
+    "defibrillator:location": "An Hauptgebäude Zimmerei Reuteler gut sichtbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
-    "operator": "Arnold Reuteler Holzbau AG",
-    "phone": "+41 33 744 23 20",
+    "operator": "Einwohnergemeinde Saanen, Abteilung Liegenschaften",
+    "phone": "+41 33 748 92 90",
     "id": "node/9367990447"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.2784859,
+      7.278486,
       46.4561562
     ]
   }
@@ -146060,6 +146067,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/13328976601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Gruben: An Schulhaus strassenseitig, gut sichtbar",
+    "description": "rechts neben öffentlicher Toiletten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Saanen, Abteilung Liegenschaften",
+    "phone": "+41 33 748 92 90",
+    "id": "node/13328976601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2889019,
+      46.4888389
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13329849801",
   "properties": {
     "access": "yes",
@@ -148970,6 +149001,98 @@
     "coordinates": [
       7.4762199,
       46.9744048
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13551257802",
+  "properties": {
+    "defibrillator:location": "Schulhaus Bissen: Unterstand bei Auffahrt zu Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Saanen, Abteilung Liegenschaften",
+    "phone": "+41 33 748 92 90",
+    "id": "node/13551257802"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3020771,
+      46.4684129
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13551261902",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bei Eingang 3 Fach Turnhalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Saanen, Abteilung Liegenschaften",
+    "phone": "+41 33 748 92 90",
+    "id": "node/13551261902"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2758229,
+      46.4826645
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13551264001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulanlage Saanen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Saanen, Abteilung Liegenschaften",
+    "phone": "+41 33 748 92 90",
+    "id": "node/13551264001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.260531,
+      46.4871487
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13551265201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "ehem. Spital Saanen: Bei Haupteingang rechts",
+    "description": "Bei Haupteingang rechts",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Saanen",
+    "phone": "+41 33 748 92 90",
+    "id": "node/13551265201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.265892,
+      46.4906346
     ]
   }
 }
