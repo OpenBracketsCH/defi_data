@@ -583,20 +583,21 @@
   "id": "node/9004557433",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Haupteingang EG",
+    "defibrillator:location": "Liechtensteinische Musikschule, Haupteingang EG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00",
-    "operator": "Sandra Frick",
+    "operator": "Liecht. Landesverwaltung",
     "phone": "+423 236 69 26",
+    "ref": "Liechtensteinische Musikschule",
     "id": "node/9004557433"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5230785,
-      47.1365963
+      9.5230902,
+      47.1366635
     ]
   }
 },
@@ -4567,6 +4568,30 @@
     "coordinates": [
       9.541792,
       47.1975778
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13555755501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Standesamt Vaduz, St. Florinsgasse 3",
+    "description": "Beim Aufgang zum Standesamt, direkt an der Strasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Liecht. Landesverwaltung",
+    "phone": "+4232220135",
+    "id": "node/13555755501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5226925,
+      47.1365035
     ]
   }
 }
