@@ -3071,22 +3071,24 @@
   "type": "Feature",
   "id": "node/7930654665",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Hallenbad Herti, bei der Badeaufsicht",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "yes",
+    "level": "0",
     "name": "Hallenbad Herti, bei der Badeaufsicht",
     "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
     "operator:email": "sicherheit@stadtzug.ch",
+    "phone": "+41 58 728 99 00",
     "id": "node/7930654665"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
       8.5034233,
-      47.1814496
+      47.1814497
     ]
   }
 },
@@ -3466,9 +3468,10 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
-    "phone": "+41 58 728 99 09",
+    "phone": "+41 58 728 99 00",
     "id": "node/7930677687"
   },
   "geometry": {
@@ -3509,17 +3512,19 @@
     "defibrillator:location": "Leichtathletikanlage Allmend, Fassade bei Haupteingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
-    "operator": "Stadtverwaltung Zug,  Abteilung Sicherheit und Verkehr",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
     "operator:email": "sicherheit@stadtzug.ch",
+    "phone": "+41 58 728 99 00",
     "id": "node/7930677689"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.508218,
-      47.1805506
+      8.5082178,
+      47.1805505
     ]
   }
 },
@@ -4723,14 +4728,15 @@
   "type": "Feature",
   "id": "node/9605130360",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Bibliothek Zug, Haupteingang rechts / nach Zwischendurchgang",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
-    "phone": "+41 58 728 99 09",
+    "phone": "+41 58 728 99 00",
     "id": "node/9605130360"
   },
   "geometry": {
