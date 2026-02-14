@@ -255,12 +255,14 @@
   "type": "Feature",
   "id": "node/9004556013",
   "properties": {
-    "defibrillator:location": "Pfarrkirche Eingang links an Wand",
+    "access": "permissive",
+    "defibrillator:location": "Pfarrkirche, Eingang links an der Wand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00",
-    "operator": "Faustino Navarro, Gemeindepolizei",
+    "operator": "Gemeinde Triesen",
     "phone": "+423 792 36 42",
     "id": "node/9004556013"
   },
@@ -297,13 +299,14 @@
   "type": "Feature",
   "id": "node/9004556015",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Im Schuleingang vor dem Sekretariat",
+    "access": "permissive",
+    "defibrillator:location": "Primarschule, vor dem Sekretariat",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00",
-    "operator": "Hauswart",
+    "operator": "Gemeinde Triesen",
     "phone": "+423 399 21 90",
     "id": "node/9004556015"
   },
@@ -386,21 +389,22 @@
   "type": "Feature",
   "id": "node/9004557422",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Haupteingang EG links",
+    "access": "permissive",
+    "defibrillator:location": "Amt für Kultur, Haupteingang EG links",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00",
-    "operator": "Büchel Willi, Hausdienst",
+    "operator": "Liecht. Landesverwaltung",
     "phone": "+423 236 75 43",
     "id": "node/9004557422"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5195675,
-      47.119959
+      9.5196761,
+      47.1202291
     ]
   }
 },
@@ -430,11 +434,14 @@
   "type": "Feature",
   "id": "node/9004557424",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "in den Fahrzeugen",
+    "access": "permissive",
+    "defibrillator:location": "Amt für Strassenverkehr, in der Fahrzeughalle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 8:00-12:00, 13:00-17:00",
+    "operator": "Liecht. Landesverwaltung",
     "id": "node/9004557424"
   },
   "geometry": {
@@ -471,13 +478,14 @@
   "type": "Feature",
   "id": "node/9004557426",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Eingang Schulungsgebäude",
+    "access": "permissive",
+    "defibrillator:location": "Amt für Bevölkerungsschutz, Eingang Schulungsgebäude",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00",
-    "operator": "Ewald Walch",
+    "operator": "Liecht. Landesverwaltung",
     "phone": "+423 236 69 20",
     "id": "node/9004557426"
   },
@@ -538,13 +546,13 @@
   "type": "Feature",
   "id": "node/9004557430",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Haupteingang Empfang",
+    "access": "permissive",
+    "defibrillator:location": "Amt für Informatik, Haupteingang Empfang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00",
-    "operator": "Monika Wetter",
+    "operator": "Liecht. Landesverwaltung",
     "phone": "+423 236 76 25",
     "id": "node/9004557430"
   },
@@ -652,20 +660,20 @@
   "id": "node/9004557437",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Haupteingang LLV, EG",
+    "defibrillator:location": "DLG, Dienstleistungszentrum Giessen\nBeim Empfang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00",
-    "operator": "Timo Keckeis",
+    "operator": "Liecht. Landesverwaltung",
     "phone": "+423 236 62 73",
     "id": "node/9004557437"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5219533,
-      47.138492
+      9.5201727,
+      47.137545
     ]
   }
 },
@@ -695,14 +703,16 @@
   "type": "Feature",
   "id": "node/9004557439",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Haupteingang Nordgebäude",
+    "access": "permissive",
+    "defibrillator:location": "Rheinparkstadion Haupttribüne, Sanitätszimmer",
+    "description": "Am Wochenende nur zu Spielzeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00",
-    "operator": "Mario Riezler",
-    "phone": "+423 789 78 39",
+    "operator": "Gemeinde Vaduz",
+    "phone": "+423 222 01 35",
     "id": "node/9004557439"
   },
   "geometry": {
@@ -2691,7 +2701,7 @@
   "id": "node/11676134010",
   "properties": {
     "access": "private",
-    "defibrillator:location": "1.OG Cafeteria",
+    "defibrillator:location": "Universität Liechtenstein, 1.OG Cafeteria",
     "description": "Oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -2706,7 +2716,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.511347,
+      9.5113465,
       47.1518677
     ]
   }
