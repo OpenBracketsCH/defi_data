@@ -14096,7 +14096,9 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Widnau",
     "id": "node/9363629004"
   },
   "geometry": {
@@ -35786,6 +35788,29 @@
     "coordinates": [
       9.5360652,
       47.4389863
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13569683401",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Wohnanlage Neuenfels",
+    "description": "Büro Leitung Wohnanlage",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Gemeinde Widnau",
+    "id": "node/13569683401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.6314417,
+      47.4123603
     ]
   }
 }
