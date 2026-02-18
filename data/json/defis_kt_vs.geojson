@@ -2777,16 +2777,22 @@
   "type": "Feature",
   "id": "node/10661577708",
   "properties": {
-    "defibrillator:location": "Contre le mur extérieur",
+    "access": "yes",
+    "defibrillator:location": "A. Simplon 14b, Tennis, Contre le mur extérieur, à gauche de l'entrée principale",
+    "description": "Accès direct en voiture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Coeur Valais",
+    "phone": "+41 27 603 62 73",
     "id": "node/10661577708"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.9521965,
+      6.9521966,
       46.248717
     ]
   }
@@ -6123,6 +6129,30 @@
     "coordinates": [
       6.8926334,
       46.2041018
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13576305901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vestiaires Terrain Noyeraya , sur le mur côté route du Triboulet",
+    "description": "Armoire verte, au-dessus coffret électrique, accès direct en voiture",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Coeur Valais",
+    "phone": "+41 27 603 62 73",
+    "id": "node/13576305901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9618068,
+      46.2460896
     ]
   }
 }
