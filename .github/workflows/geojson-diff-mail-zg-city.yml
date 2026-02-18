@@ -95,8 +95,8 @@ jobs:
           password: ${{ secrets.MAIL_PASS }}
           subject: "Änderungen an Defis in der Stadt Zug"
           html_body: file://diff.html
-          to: sicherheit@stadtzug.ch
-          cc: info@defikarte.ch
+          to: ${{ secrets.MAIL_RECIPIENT_ZG }}
+          cc: ${{ secrets.MAIL_COPY }}
           from: defikarte.ch Reports
 
       - name: Update last processed SHA

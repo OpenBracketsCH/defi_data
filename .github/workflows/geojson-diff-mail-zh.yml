@@ -95,7 +95,7 @@ jobs:
           password: ${{ secrets.MAIL_PASS }}
           subject: "Änderungen an Defis Kanton Zürich"
           html_body: file://diff.html
-          to: info@defikarte.ch
+          to: ${{ secrets.MAIL_RECIPIENT_ZH }}
           from: defikarte.ch Reports
 
       - name: Update last processed SHA
