@@ -2281,16 +2281,23 @@
   "type": "Feature",
   "id": "node/9873260345",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Av. de la Plantaud 48, Soluna, sous le Balcon, façade principale",
+    "description": "Accès direct en voiture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Coeur Valais",
+    "phone": "+41 27 603 62 73",
     "id": "node/9873260345"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.9559914,
-      46.2505684
+      6.9560276,
+      46.2505499
     ]
   }
 },
@@ -2778,7 +2785,7 @@
   "id": "node/10661577708",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "A. Simplon 14b, Tennis, Contre le mur extérieur, à gauche de l'entrée principale",
+    "defibrillator:location": "Av. du Simplon 14b, Tennis, Contre le mur extérieur, à gauche de l'entrée principale",
     "description": "Accès direct en voiture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -6153,6 +6160,29 @@
     "coordinates": [
       6.9618068,
       46.2460896
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13576338201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Pl. Hôtel de Ville 2, Hôtel de Ville, dans le Hall d'entrée",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Coeur Valais",
+    "phone": "+41 27 603 62 73",
+    "id": "node/13576338201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9458729,
+      46.2508648
     ]
   }
 }
