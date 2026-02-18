@@ -97994,7 +97994,7 @@
     "access": "private",
     "defibrillator:location": "Im Raucherunterstand.",
     "emergency": "defibrillator",
-    "indoor": "yes",
+    "indoor": "no",
     "operator": "Stiftung WohnWerkWangen",
     "id": "node/13574030706"
   },
@@ -98116,6 +98116,24 @@
     "coordinates": [
       8.61464,
       47.4202859
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13577478176",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "EG, Korridor südseitig",
+    "emergency": "defibrillator",
+    "operator": "Stiftung WohnWerkWangen",
+    "id": "node/13577478176"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6479102,
+      47.4050822
     ]
   }
 }
