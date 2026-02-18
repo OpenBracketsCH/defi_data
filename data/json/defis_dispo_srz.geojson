@@ -1501,24 +1501,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6538882477",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "FireStorm ISP GmbH",
-    "id": "node/6538882477"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.8505429,
-      47.2606008
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6660406329",
   "properties": {
     "access": "yes",
@@ -98067,6 +98049,29 @@
     "coordinates": [
       8.8501656,
       47.252215
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13575299501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Turnhalle Lindenberg, Musikanlageraum",
+    "description": "während Schulbetrieb verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "08:05 - 11:50, 13:30 - 16:30",
+    "operator": "Schule Rüti ZH",
+    "id": "node/13575299501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8508817,
+      47.2518072
     ]
   }
 }
