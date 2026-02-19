@@ -16240,8 +16240,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7812131,
-      47.5728631
+      8.7812725,
+      47.5729095
     ]
   }
 },
@@ -22715,8 +22715,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8261058,
-      47.5618021
+      8.8261923,
+      47.5618467
     ]
   }
 },
@@ -55284,22 +55284,22 @@
   "id": "node/11841326607",
   "properties": {
     "access": "permissive",
-    "defibrillator:location": "Chliriethalle ",
-    "description": "07.00-12.00  13.00-16.00 Uhr",
+    "defibrillator:location": "PSO, Hofstetterstrasse 7",
+    "description": "während Öffnungszeiten Schule verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "operator": "Gemeinde Oberglatt",
-    "phone": "+41 43 497 62 12",
+    "operator": "Primarschule Oberglatt",
+    "phone": "+41 44 852 88 00",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/11841326607"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5177839,
-      47.4700158
+      8.5172366,
+      47.4768605
     ]
   }
 },
@@ -74027,10 +74027,12 @@
   "type": "Feature",
   "id": "node/13303602701",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Bushaltestelle Herten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Altikon",
     "phone": "+41 52 336 12 26",
     "id": "node/13303602701"
