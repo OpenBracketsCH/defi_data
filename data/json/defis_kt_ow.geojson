@@ -2013,13 +2013,12 @@
   "type": "Feature",
   "id": "node/9910175217",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "an EWO Trafostation",
     "description": "im Tresor für Responder Plus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "opening_hours": "24/7",
     "operator": "Härz fir Obwaldä",
     "phone": "+41799616241",
     "id": "node/9910175217"
@@ -3022,6 +3021,29 @@
     "coordinates": [
       8.4058853,
       46.8199792
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13582204603",
+  "properties": {
+    "defibrillator:location": "Enz Gartenbau",
+    "description": "öffentlich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Enz Gartenbau",
+    "phone": "+41 79 958 89 86",
+    "id": "node/13582204603"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2596286,
+      46.9124237
     ]
   }
 }

@@ -28830,8 +28830,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.9804226,
-      47.2192421
+      7.980115,
+      47.2192422
     ]
   }
 },
@@ -39794,9 +39794,11 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Eingang Mehrzweckhalle (rechte Seite)",
+    "description": "frei zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Dagmersellen / Hauswart",
     "phone": "+41 62 748 52 60",
@@ -39805,8 +39807,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0374002,
-      47.2025942
+      8.0373037,
+      47.2024903
     ]
   }
 },
@@ -78171,29 +78173,6 @@
     "coordinates": [
       8.2498419,
       46.8989102
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9910175217",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "an EWO Trafostation",
-    "description": "im Tresor für Responder Plus",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Härz fir Obwaldä",
-    "phone": "+41799616241",
-    "id": "node/9910175217"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.2627098,
-      46.9241894
     ]
   }
 },
@@ -135833,8 +135812,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0277443,
-      47.2184605
+      8.0276952,
+      47.2184887
     ]
   }
 },
@@ -149647,6 +149626,29 @@
     "coordinates": [
       8.674795,
       47.6851163
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13582204603",
+  "properties": {
+    "defibrillator:location": "Enz Gartenbau",
+    "description": "öffentlich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Enz Gartenbau",
+    "phone": "+41 79 958 89 86",
+    "id": "node/13582204603"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2596286,
+      46.9124237
     ]
   }
 }
