@@ -44415,21 +44415,22 @@
   "type": "Feature",
   "id": "node/10026287417",
   "properties": {
-    "defibrillator:location": "Mehrzweckgebäude unterer Eingang",
-    "description": "während Öffnungszeiten/ Türe -Scheibe darf eingeschlagen werden",
+    "defibrillator:location": "Kirche Eingang",
+    "description": "Eingang Kirche",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "24/7",
-    "operator": "Gemeinde, Samariterverein",
-    "phone": "+41 79 375 46 91",
+    "operator": "Gemeinde",
+    "phone": "+41 79 681 80 52",
     "id": "node/10026287417"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4272755,
-      47.667122
+      8.4306962,
+      47.6679288
     ]
   }
 },
@@ -44438,22 +44439,22 @@
   "id": "node/10026314017",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Mehrzweckgebäude, im Erdgeschoss beim Haupteingang (Zinggen) an der Wand bei der Trappe im grünen Kasten. Nur erreichbar wenn Halle offen.",
-    "description": "unterer Eingang/ Türe-Scheibe darf eingeschlagen werden",
+    "defibrillator:location": "Mehrzweckgebäude, beim Haupteingang (Schulseitig) Notfalltreffpunkt",
+    "description": "Beim Notfalltreffpunkt",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
-    "operator": "Gemeinde/ Samariterverein",
-    "phone": "+41 79 375 46 91",
+    "operator": "Gemeinde",
+    "phone": "+41 79 681 80 52",
     "wheelchair": "yes",
     "id": "node/10026314017"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4294077,
+      8.4294078,
       47.6678602
     ]
   }
