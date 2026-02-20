@@ -37608,6 +37608,31 @@
 },
 {
   "type": "Feature",
+  "id": "node/8154312153",
+  "properties": {
+    "addr:city": "Port",
+    "addr:housenumber": "23",
+    "addr:postcode": "2562",
+    "addr:street": "Allmendstrasse",
+    "defibrillator:location": "MZH vor Haupteingang West - Allmendstrasse 23",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung Port",
+    "phone": "+41 32 332 29 29",
+    "id": "node/8154312153"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2502202,
+      47.1186932
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8154312154",
   "properties": {
     "access": "yes",
@@ -79529,6 +79554,29 @@
     "coordinates": [
       8.5889701,
       47.533442
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10006434548",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schwimmbad Heimenhaus: Ausserhalb der Einzäunung",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Marco Schaffer, Bauverwalter",
+    "phone": "+41 31 828 21 21",
+    "id": "node/10006434548"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4133072,
+      46.9922481
     ]
   }
 },
@@ -149651,6 +149699,34 @@
     "coordinates": [
       8.674795,
       47.6851163
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13580937002",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Langnau",
+    "addr:housenumber": "2",
+    "addr:postcode": "3550",
+    "addr:street": "Dorfbergstrasse",
+    "defibrillator:location": "Eingangsbereich rechts",
+    "description": "Immer verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Kirchgemeinde Langnau",
+    "phone": "+41 79 780 53 63",
+    "id": "node/13580937002"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7858274,
+      46.9425885
     ]
   }
 },

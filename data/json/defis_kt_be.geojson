@@ -27083,30 +27083,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7538737733",
-  "properties": {
-    "access": "permissive",
-    "addr:city": "Langnau",
-    "addr:housenumber": "2",
-    "addr:postcode": "3550",
-    "addr:street": "Dorfbergstrasse",
-    "defibrillator:location": "Eingangsbereich rechts, Zeitweise öffentlich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "operator": "Kirchgemeindehaus",
-    "phone": "+41 34 408 00 69",
-    "id": "node/7538737733"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.7858237,
-      46.9425662
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7538737734",
   "properties": {
     "access": "yes",
@@ -29535,14 +29511,16 @@
   "type": "Feature",
   "id": "node/8154312153",
   "properties": {
-    "access": "permissive",
     "addr:city": "Port",
     "addr:housenumber": "23",
     "addr:postcode": "2562",
     "addr:street": "Allmendstrasse",
+    "defibrillator:location": "MZH vor Haupteingang West - Allmendstrasse 23",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "operator": "MZH Port",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung Port",
     "phone": "+41 32 332 29 29",
     "id": "node/8154312153"
   },
@@ -29550,7 +29528,7 @@
     "type": "Point",
     "coordinates": [
       7.2502202,
-      47.1186929
+      47.1186932
     ]
   }
 },
@@ -40866,17 +40844,22 @@
   "type": "Feature",
   "id": "node/10006434548",
   "properties": {
-    "defibrillator:location": "Im Bad während der Sommermonate",
+    "access": "yes",
+    "defibrillator:location": "Schwimmbad Heimenhaus: Ausserhalb der Einzäunung",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Marco Schaffer, Bauverwalter",
+    "phone": "+41 31 828 21 21",
     "id": "node/10006434548"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
       7.4133072,
-      46.992248
+      46.9922481
     ]
   }
 },
@@ -62230,13 +62213,17 @@
   "id": "node/13580937002",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Dorfbergstrasse 2 Haldenstrasse",
+    "addr:city": "Langnau",
+    "addr:housenumber": "2",
+    "addr:postcode": "3550",
+    "addr:street": "Dorfbergstrasse",
+    "defibrillator:location": "Eingangsbereich rechts",
     "description": "Immer verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
-    "opening_hours": "Sa-Su 00:00-24:00",
+    "opening_hours": "24/7",
     "operator": "Kirchgemeinde Langnau",
     "phone": "+41 79 780 53 63",
     "id": "node/13580937002"
