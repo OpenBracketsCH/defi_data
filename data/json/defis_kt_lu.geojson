@@ -2569,9 +2569,11 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Eingang unten, linke Seite",
+    "description": "Jederzeit verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "name": "Schützenhaus",
     "opening_hours": "24/7",
     "operator": "Schützenverein Uffikon / Achermann Flavia",
@@ -2581,8 +2583,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.027784,
-      47.2184879
+      8.0276794,
+      47.2184761
     ]
   }
 },
@@ -12442,10 +12444,12 @@
   "id": "node/8418455533",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Eingang Schulhaus (linke Seite)",
+    "defibrillator:location": "Eingang Nebengebäude via Parkplatz Alte Dorfstrasse",
+    "description": "Jederzeit zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Dagmersellen / Hauswart",
     "phone": "+41 62 748 52 60",
@@ -12454,8 +12458,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0191665,
-      47.2126414
+      8.0195044,
+      47.2123636
     ]
   }
 },
@@ -21633,23 +21637,21 @@
   "type": "Feature",
   "id": "node/12725571503",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Schützenhaus Tellenberg 6253 Uffikon",
-    "description": "immer verfügbar",
+    "access": "private",
+    "defibrillator:location": "existiert nicht",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Verein",
+    "opening_hours": "Mo-Fr 00:00 - 00:01",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/12725571503"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0276952,
-      47.2184887
+      8.0275289,
+      47.2187647
     ]
   }
 },
