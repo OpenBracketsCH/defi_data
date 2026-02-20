@@ -14264,15 +14264,20 @@
   "type": "Feature",
   "id": "node/9531872419",
   "properties": {
+    "access": "private",
     "defibrillator:location": "Anton Kronberg Weg",
+    "description": "existiert nicht",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "Mo-Fr 00:00-00:01",
     "id": "node/9531872419"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.9862786,
+      7.9862787,
       47.2138986
     ]
   }
@@ -23718,6 +23723,29 @@
     "coordinates": [
       8.0781472,
       47.113423
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13585054401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kieser Training Luzern - AED befindet sich links neben dem Eingang im unteren, gekennzeichneten Schrank.",
+    "description": "AED plus mit Beatmungsmaske, Rasierer und Erste-Hilfe-Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 06:30-21:00; Sa-Su 09:00-18:00",
+    "operator": "Inseliquai 6, 6005 Luzern",
+    "phone": "+41 41 220 20 20",
+    "id": "node/13585054401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3133669,
+      47.049477
     ]
   }
 }
