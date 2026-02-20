@@ -12727,15 +12727,15 @@
   "type": "Feature",
   "id": "node/6636687576",
   "properties": {
-    "access": "permissive",
     "addr:city": "Port",
     "addr:housenumber": "12",
     "addr:postcode": "2562",
     "addr:street": "Lohngasse",
-    "defibrillator:location": "Sich am Gemeindepersonal melden",
+    "defibrillator:location": "Lohngasse 12 - links neben grosser Garage von Strasse her sichbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "Mo,We,Th,Fr 08:00-11:30; Mo,Tu,We,Th 14:00-17:00",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeindeverwaltung Port",
     "phone": "+41 32 332 29 29",
     "id": "node/6636687576"
@@ -12743,8 +12743,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.2553383,
-      47.1169306
+      7.2553382,
+      47.1169305
     ]
   }
 },
