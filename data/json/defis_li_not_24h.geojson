@@ -998,11 +998,13 @@
   "type": "Feature",
   "id": "node/10763310410",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Spörry Halle, Bei Empfang 1. OG",
+    "access": "permissive",
+    "defibrillator:location": "Universität, Spörry, Bei Empfang 1. OG",
     "description": "oranger Koffer",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
+    "level": "1",
     "name": "Universität Liechtenstein",
     "opening_hours": "Mo-Th 08:30-12:00,13:30-17:00, Fr 08:30-12:00,13:30-15:00",
     "operator": "Universität",
@@ -1012,7 +1014,7 @@
     "type": "Point",
     "coordinates": [
       9.5164293,
-      47.1494506
+      47.1494507
     ]
   }
 },
