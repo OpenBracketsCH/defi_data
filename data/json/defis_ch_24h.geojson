@@ -24834,27 +24834,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7592891937",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Beim Eingang zur alten Post",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "wheelchair": "limited",
-    "id": "node/7592891937"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.6497132,
-      46.4700193
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7592934224",
   "properties": {
     "access": "yes",
@@ -149843,6 +149822,29 @@
     "coordinates": [
       7.3170763,
       46.1347509
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13591979201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vereinshaus Pontoniere Schwaderloch",
+    "description": "Immer verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Verein",
+    "id": "node/13591979201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1278484,
+      47.582318
     ]
   }
 }
