@@ -85540,17 +85540,19 @@
   "type": "Feature",
   "id": "node/12579002301",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Schulhaus Alpenblick",
+    "description": "während Schulbetrieb verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "yes",
     "id": "node/12579002301"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
       8.8446164,
-      47.2559809
+      47.2559811
     ]
   }
 },
