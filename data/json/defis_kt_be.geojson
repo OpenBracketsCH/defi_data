@@ -62313,12 +62313,11 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Murtenstrasse 21, 3008 Bern",
-    "description": "07.00h bis 18.00h",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "2",
-    "opening_hours": "24/7",
+    "opening_hours": "Mo-Su 07:00-18:00",
     "operator": "Universitäre Psychiatrische Dienste Bern UPD (AG)",
     "phone": "+41 58 630 41 89",
     "id": "node/13595388901"
@@ -62328,6 +62327,29 @@
     "coordinates": [
       7.4259624,
       46.9488802
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13595597502",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "ALST Münchenbuchsee",
+    "description": "In der Truppenunterkunft, nicht öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Einwohnergemeinde Münchenbuchsee",
+    "phone": "+41 32 686 82 22",
+    "id": "node/13595597502"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.445363,
+      47.0271139
     ]
   }
 }
