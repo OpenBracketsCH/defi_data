@@ -541,17 +541,22 @@
   "type": "Feature",
   "id": "node/5077323999",
   "properties": {
+    "defibrillator:location": "im Gebäude",
+    "description": "Während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
     "note": "Während Badesaison zugänglich",
+    "operator": "Gemeinde Rüti ZH",
     "source": "herzsicher.ch",
     "id": "node/5077323999"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8427548,
-      47.2612668
+      8.842755,
+      47.2612666
     ]
   }
 },
@@ -76495,6 +76500,51 @@
     "coordinates": [
       8.5142359,
       47.3263006
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13598335201",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "ESPAS Wonterthur",
+    "description": "während Öffnungszeiten erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Sifftung",
+    "phone": "+41 52 234 77 00",
+    "id": "node/13598335201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7382924,
+      47.495704
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13598457001",
+  "properties": {
+    "defibrillator:location": "Eingangsbereich",
+    "description": "Während der Hallenbelegung zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Gemeinde Rüti ZH",
+    "id": "node/13598457001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8417274,
+      47.2589124
     ]
   }
 }
