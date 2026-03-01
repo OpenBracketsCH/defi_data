@@ -43328,8 +43328,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.3873518,
-      47.4306177
+      9.3875035,
+      47.430675
     ]
   }
 },
@@ -77297,21 +77297,23 @@
   "id": "node/9860404109",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Vicino alla fermata del bus",
+    "defibrillator:location": "Ex cabina telefonica - fermata del bus",
     "defibrillator:location:de": "Bei der Haltestelle Paese",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "0",
     "opening_hours": "24/7",
+    "operator": "Fondazione Ticino Cuore",
+    "phone": "+41 91 611 47 97",
+    "source": "local_knowledge, defikarte.ch",
     "wheelchair": "yes",
     "id": "node/9860404109"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.9801893,
-      46.0373571
+      8.9802889,
+      46.0371188
     ]
   }
 },
@@ -102262,29 +102264,6 @@
     "coordinates": [
       8.6865791,
       47.3888677
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11107539805",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Ex cabina telefonica - fermata del bus",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Fondazione Ticino Cuore",
-    "phone": "+41 91 611 47 97",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/11107539805"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.9802825,
-      46.0371091
     ]
   }
 },
