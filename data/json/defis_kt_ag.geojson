@@ -26644,12 +26644,13 @@
   "type": "Feature",
   "id": "node/12437196801",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "In der Praxis, im Eingangsbereich, Gegenüber Empfang",
+    "access": "permissive",
+    "defibrillator:location": "In der Praxis",
     "description": "während den Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo - Fr \"8.00 - 18.00\" , Sa \"8.00 - 12.00\"",
     "operator": "Kleintierpraxis TiM AG",
     "phone": "+41 56 441 41 66",
@@ -26659,8 +26660,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2170442,
-      47.4747721
+      8.2166149,
+      47.4775421
     ]
   }
 },
