@@ -544,6 +544,7 @@
     "access": "yes",
     "check_date": "2024-02-06",
     "covered": "yes",
+    "defibrillator:location": "Pfarreizentrum, Aussenfassade Eingang Nord",
     "description": "Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -551,6 +552,8 @@
     "level": "0",
     "name": "Pfarreizentrum",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Erstfeld",
+    "phone": "+41 41 882 01 30",
     "id": "node/7637818989"
   },
   "geometry": {
@@ -584,18 +587,23 @@
   "id": "node/7637818991",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Urner Kantonalbank, Aussenfassade West Eingang",
     "description": "Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
     "name": "Urner Kantonalbank",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Erstfeld",
+    "phone": "+41 41 882 01 30",
     "id": "node/7637818991"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6498603,
-      46.8242679
+      8.6498599,
+      46.8242675
     ]
   }
 },
@@ -2611,6 +2619,29 @@
     "coordinates": [
       8.764877,
       46.8639777
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13613923301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sportgebäude Pfaffenmatt, Aussenfassade Süd Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Erstfeld",
+    "phone": "+41 41 882 01 30",
+    "id": "node/13613923301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6435536,
+      46.8389243
     ]
   }
 }
