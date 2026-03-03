@@ -5,20 +5,23 @@
   "type": "Feature",
   "id": "node/7813190773",
   "properties": {
-    "access": "private",
-    "defibrillator:location": "Update Fitness. Der Defi befindet sich im Eingangsbereich des Fitnesscenter.",
-    "description": "während Öffnungszeiten verfügbar",
+    "access": "yes",
+    "defibrillator:location": "Mühleholzmarkt",
+    "description": "während Öffnungszeiten verfügbar, direkt an der Wand bei den Toiletten",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "update Fitness",
-    "phone": "144",
+    "level": "2",
+    "opening_hours": "Mo-Sa 7:00-19:00",
+    "operator": "Mühleholzmarkt, Hauswartung Immo Vogt",
+    "phone": "+423 222 01 35",
     "id": "node/7813190773"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5098284,
-      47.1547842
+      9.5099866,
+      47.1545645
     ]
   }
 },
@@ -925,22 +928,23 @@
   "type": "Feature",
   "id": "node/9004557459",
   "properties": {
-    "access": "unknown",
-    "defibrillator:location": "Empfang",
+    "access": "permissive",
+    "defibrillator:location": "Ivoclar Empfang",
     "description": "Zugang nur bei Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 07:00-18:00",
-    "operator": "Hansjörg Steiner, Kommandant",
+    "operator": "Ivoclar",
     "phone": "+423 235 35 35",
     "id": "node/9004557459"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5096433,
-      47.1716969
+      9.5093983,
+      47.1727032
     ]
   }
 },
@@ -1794,29 +1798,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10763310411",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "EG, Durchgang zur Mensa, hinter Empfang",
-    "description": "Blauer Rucksack",
-    "emergency": "defibrillator",
-    "indoor": "yes",
-    "name": "Ivoclar Vivadent AG",
-    "opening_hours": "Mo-Th 08:00-17:00; Fr 08:00-16:00",
-    "operator": "Lifetec AG Schweiz",
-    "phone": "+41 800 122 144",
-    "id": "node/10763310411"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.51007,
-      47.17161
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10763310412",
   "properties": {
     "defibrillator:location": "2.OG, Empfang",
@@ -1841,11 +1822,13 @@
   "type": "Feature",
   "id": "node/10763310413",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "EG, Kundenwartebereich",
+    "access": "permissive",
+    "defibrillator:location": "Mercedes Garage Weilenmann, EG, Kundenwartebereich",
     "description": "oranger Koffer",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "name": "Garage Weilenmann AG",
     "opening_hours": "Mo-Fr 07:30-18:00; Sa 08:00-16:00",
     "operator": "Lifetec AG Schweiz",
@@ -1855,7 +1838,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5097914,
+      9.5097915,
       47.1741828
     ]
   }
@@ -1951,7 +1934,7 @@
   "id": "node/10795986605",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Erreichbar via Braustube oder Eingang bei Briefkästen. An der Wand gegenüber des Lifts montiert.",
+    "defibrillator:location": "Liecht. Braustube, Eingang bei Briefkästen. An der Wand gegenüber des Lifts montiert.",
     "description": "von Mo-Fr 08.00-12.00 Uhr / 13.00-17.00 Uhr und den Öffnungszeiten der Braustube verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -1963,8 +1946,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5165635,
-      47.1773411
+      9.5164561,
+      47.1772926
     ]
   }
 },

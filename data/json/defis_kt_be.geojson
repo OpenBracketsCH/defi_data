@@ -62533,7 +62533,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr \"07:30-12:00\" ; \"13:00-17:00\"",
+    "opening_hours": "Mo-Fr 07:30-12:00, 13:00-17:00",
     "operator": "Firma",
     "phone": "+41 31 331 56 56",
     "id": "node/13613963101"
@@ -62543,6 +62543,30 @@
     "coordinates": [
       7.4507362,
       46.959282
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13613968201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Werkhof Eingang",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr \"07:00-17:00\"",
+    "operator": "Firma",
+    "phone": "+41 31 331 07 08",
+    "id": "node/13613968201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.473249,
+      46.9556569
     ]
   }
 }
