@@ -107230,6 +107230,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/11364235574",
+  "properties": {
+    "defibrillator:location": "Aussenanlage vor Aussenplatz",
+    "description": "Öffentlich Zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Herrliberg",
+    "phone": "+41 44 915 19 89",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11364235574"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6135346,
+      47.292659
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/11366158569",
   "properties": {
     "access": "yes",
@@ -122269,30 +122293,6 @@
     "coordinates": [
       7.0937033,
       45.9335311
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12096911422",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "An der Wand des Seehotel Beinwil am See",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Seehotel Beinwil am See",
-    "phone": "+41 62 765 80 30",
-    "wheelchair": "limited",
-    "id": "node/12096911422"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.2107956,
-      47.2690324
     ]
   }
 },
