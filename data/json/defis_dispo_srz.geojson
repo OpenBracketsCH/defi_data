@@ -72643,13 +72643,13 @@
   "type": "Feature",
   "id": "node/11848321843",
   "properties": {
-    "access": "permissive",
-    "defibrillator:location": "Werkhalle, Tor 8",
-    "description": "eingeschränkt verfügbar",
+    "access": "private",
+    "defibrillator:location": "In der Werkhalle, bei Tor 8",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "opening_hours": "Mo-Fr 07:00-12:00,13:15-16:45",
     "operator": "Carlo Vanoli AG",
     "phone": "+41 44 787 81 00",
     "source": "local_knowledge, defikarte.ch",
@@ -72658,8 +72658,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6874282,
-      47.1902812
+      8.6875516,
+      47.1901098
     ]
   }
 },
@@ -92115,8 +92115,9 @@
   "id": "node/13081246897",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Reformierte Kirche\nHaupteingang / im Innenraum links",
+    "defibrillator:location": "Reformierte Kirche Haupteingang / im Innenraum links",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "opening_hours": "Mo-Su 08:00-17:00",
@@ -92126,8 +92127,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7010459,
-      47.2081481
+      8.7010458,
+      47.2081483
     ]
   }
 },
