@@ -14740,9 +14740,11 @@
     "addr:housenumber": "55a",
     "addr:postcode": "3703",
     "addr:street": "Aeschiriedstrasse",
+    "check_date": "2026-03-05",
     "defibrillator:location": "AED 24h verfügbar, in der Damen-Toilette links",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "24/7",
     "operator": "Spritzenhaus Aeschiried",
     "phone": "+41 79 439 41 80",
@@ -87533,14 +87535,14 @@
   "type": "Feature",
   "id": "node/10555410309",
   "properties": {
-    "access": "yes",
     "defibrillator:location": "Turnhalle Steineggli",
     "description": "Defi ist aussen an der Wand links von der Eingangstür der Turnhalle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Gemeinde/Schule",
+    "operator": "Gemeinde Beinwil am See",
+    "phone": "+41 62 765 60 24",
     "id": "node/10555410309"
   },
   "geometry": {
@@ -150184,6 +150186,48 @@
     "coordinates": [
       8.5412889,
       47.3358184
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13620384601",
+  "properties": {
+    "defibrillator:location": "Löwensaal Hintereingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Beinwil am See",
+    "phone": "+41627656024",
+    "id": "node/13620384601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2027892,
+      47.2659003
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13620393601",
+  "properties": {
+    "defibrillator:location": "Öffentliche WC-Anlage",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Beinwil am See",
+    "phone": "+41 62 765 60 24",
+    "id": "node/13620393601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2110042,
+      47.2689363
     ]
   }
 }
