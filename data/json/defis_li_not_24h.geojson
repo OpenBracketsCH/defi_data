@@ -390,10 +390,11 @@
   "id": "node/9004557435",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Haupteingang EG",
+    "defibrillator:location": "Regierungsgebäude Haupteingang EG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00",
     "operator": "Telefonzentrale",
     "phone": "+423 236 61 11",
@@ -402,8 +403,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5226791,
-      47.1370697
+      9.5226789,
+      47.1370698
     ]
   }
 },
@@ -2069,6 +2070,30 @@
     "coordinates": [
       9.5272198,
       47.2500324
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13622332901",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Stiftung 50 plus, Im Bretscha 22",
+    "description": "In den Werkstätten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 7:30-17:00",
+    "operator": "Stiftung 50 plus",
+    "phone": "+4232220135",
+    "id": "node/13622332901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5094899,
+      47.1704075
     ]
   }
 }
