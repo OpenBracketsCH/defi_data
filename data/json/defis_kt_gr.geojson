@@ -6488,13 +6488,13 @@
   "type": "Feature",
   "id": "node/9858003517",
   "properties": {
-    "access": "variable",
+    "access:conditional": "yes @ opening_hours",
+    "access:note": "Nur bei schönem Wetter verfügbar",
     "defibrillator:location": "Kiosk Canovasee",
-    "description": "nur bei schönem Wetter verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "operator": "Privatpersonen",
+    "operator": "private",
     "phone": "+41 76 445 28 74",
     "id": "node/9858003517"
   },
