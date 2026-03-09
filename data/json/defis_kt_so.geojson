@@ -10408,6 +10408,77 @@
       47.3470401
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/13630005401",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Hörmann AG Personaleingang",
+    "description": "Während",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "MO-FR 07:30-17:00",
+    "operator": "Hörmann Schweiz AG",
+    "phone": "+41 62 388 60 60",
+    "id": "node/13630005401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.711725,
+      47.2813795
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13630017301",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Lager Hörmann Schweiz",
+    "description": "Während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 17:30-17:30",
+    "operator": "Hörmann Schweiz AG",
+    "phone": "+41 62 388 60 60",
+    "id": "node/13630017301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7124425,
+      47.2809519
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13630021801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Chauffeur Raum",
+    "description": "Immer verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Hörmann Schweiz AG",
+    "phone": "+41 62 388 60 60",
+    "id": "node/13630021801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7131034,
+      47.2805385
+    ]
+  }
 }
 ]
 }
