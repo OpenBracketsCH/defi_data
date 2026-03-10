@@ -4172,7 +4172,7 @@
   "id": "node/10763310519",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Hochhaus D, 2. OG;Hochhaus D, 6. OG;Hochhaus D, 8. OG;Hochhaus D, 4. OG;Hochhaus D, EG",
+    "defibrillator:location": "Hochhaus D, EG",
     "description": "in weissem Kasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -4234,8 +4234,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.61076,
-      47.53382
+      7.6104734,
+      47.5336624
     ]
   }
 },
@@ -4244,7 +4244,7 @@
   "id": "node/10763310522",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Gebäude Atelier A, 2. OG;Gebäude Atelier A, EG",
+    "defibrillator:location": "Gebäude Atelier A, EG Nord",
     "description": "in weissem Kasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -4258,32 +4258,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.61007,
-      47.53431
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10763310523",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Gebäude Atelier A, 2. OG;Gebäude Atelier A, EG",
-    "description": "in weissem Kasten",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "name": "Fachhochschule Nordwestschweiz FHNW Hochschule für Gestaltung und Kunst",
-    "opening_hours": "Mo-Fr 08:00-17:00",
-    "operator": "Lifetec AG Schweiz",
-    "phone": "+41 800 122 144",
-    "id": "node/10763310523"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.60986,
-      47.53434
+      7.6099381,
+      47.5343013
     ]
   }
 },
@@ -4783,6 +4759,10 @@
   "type": "Feature",
   "id": "node/10763310553",
   "properties": {
+    "addr:city": "Münchenstein",
+    "addr:housenumber": "10",
+    "addr:postcode": "4142",
+    "addr:street": "Oslo-Strasse",
     "defibrillator:location": "Im Eingangsbereich Gebäude FCL",
     "description": "in weissem Kasten",
     "emergency": "defibrillator",
@@ -4792,13 +4772,14 @@
     "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
+    "ref": "0642LTI",
     "id": "node/10763310553"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.61103,
-      47.53289
+      7.6096602,
+      47.5331498
     ]
   }
 },
