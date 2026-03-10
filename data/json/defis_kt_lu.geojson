@@ -3866,16 +3866,23 @@
   "type": "Feature",
   "id": "node/7637818504",
   "properties": {
-    "description": "im Schrank des Fumoir in der Cafeteria",
+    "access": "permissive",
+    "defibrillator:location": "WPZ Schüpfheim",
+    "description": "Beim Eingang in die Cafeteria",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
     "name": "Wohn- und Pflegezentrum",
+    "opening_hours": "24/7",
+    "operator": "WPZ Schüpfheim",
+    "phone": "+41 41 485 75 75",
     "id": "node/7637818504"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0253559,
+      8.025356,
       46.9550577
     ]
   }
