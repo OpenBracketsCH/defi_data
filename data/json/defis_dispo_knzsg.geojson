@@ -1493,8 +1493,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
-    "operator": "Gemeinde",
-    "phone": "+41 55 619 61 61",
+    "operator": "Privatperson",
     "id": "node/7573035048"
   },
   "geometry": {
@@ -36016,6 +36015,122 @@
     "coordinates": [
       9.0475671,
       47.158267
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13638565128",
+  "properties": {
+    "defibrillator:location": "Hauptniederlassung Aldi Suisse",
+    "description": "Während Öffnungszeiten zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "4",
+    "opening_hours": "Mo - Fr 8:00 - 17:30",
+    "operator": "Geschäft",
+    "id": "node/13638565128"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0669003,
+      47.4476681
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13638680502",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Flur Bau 4.3 vor Eingang TOPPAC Bau 3.2",
+    "description": "Beim Empfang melden! Während der Öffnungszeiten verfügbar.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "opening_hours": "Mo-Th 7:30 - 12:00, 12:45 - 17:00, Fr 7:30 - 12:00, 12:45 - 16:00",
+    "operator": "SCHOTT Pharma Schweiz AG",
+    "phone": "+41 71 274 16 00",
+    "id": "node/13638680502"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3519132,
+      47.423039
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13638694401",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Treppenhaus zwischen Bau 2.1 & 2.2",
+    "description": "Beim Empfang melden! Während der Öffnungszeiten verfügbar.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Th 7:30 - 12:00, 12:45 - 17:00, Fr 7:30 - 12:00, 12:45 - 16:00",
+    "operator": "SCHOTT Pharma Schweiz AG",
+    "phone": "+41 71 274 16 00",
+    "id": "node/13638694401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3525569,
+      47.4227196
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13638700201",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "rechts neben Eingang zu Sanitätszimmer (Raum 52301)",
+    "description": "Beim Empfang melden! Während der Öffnungszeiten verfügbar.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo-Th 7:30 - 12:00, 12:45 - 17:00, Fr 7:30 - 12:00, 12:45 - 16:00",
+    "operator": "SCHOTT Pharma Schweiz AG",
+    "phone": "+41 71 274 16 00",
+    "id": "node/13638700201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3503575,
+      47.4227577
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13638717001",
+  "properties": {
+    "defibrillator:location": "Schulhaus",
+    "description": "während Öffnungszeiten Verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "operator": "Gemeinde",
+    "phone": "+41 55 619 61 61",
+    "id": "node/13638717001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0512762,
+      47.1621286
     ]
   }
 }
