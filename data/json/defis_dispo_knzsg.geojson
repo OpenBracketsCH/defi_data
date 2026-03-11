@@ -1487,16 +1487,21 @@
   "type": "Feature",
   "id": "node/7573035048",
   "properties": {
-    "defibrillator:location": "am Haus",
+    "defibrillator:location": "Am Containerhaus",
+    "description": "24/7",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "operator": "Gemeinde",
+    "phone": "+41 55 619 61 61",
     "id": "node/7573035048"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.0623844,
-      47.1925833
+      9.062385,
+      47.1925832
     ]
   }
 },
@@ -2852,6 +2857,7 @@
   "id": "node/7723948439",
   "properties": {
     "access": "yes",
+    "check_date": "2026-03-11",
     "defibrillator:location": "Gebäude Südseite beim grossen Tor, rechts neben Fenster",
     "description": "Öffentlich zugänglich",
     "emergency": "defibrillator",
