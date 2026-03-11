@@ -119913,6 +119913,7 @@
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde",
+    "phone": "+41 58 346 24 00",
     "id": "node/11992400870"
   },
   "geometry": {
@@ -150461,6 +150462,25 @@
     "coordinates": [
       9.02076,
       46.223028
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13637646601",
+  "properties": {
+    "defibrillator:location": "Tor Ahornstrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/13637646601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5205754,
+      47.1811887
     ]
   }
 }
