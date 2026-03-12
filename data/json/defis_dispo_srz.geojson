@@ -98712,6 +98712,51 @@
       47.3709906
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/13641088601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Victoria Apotheke Zürich",
+    "description": "während Öffnungszeiten verfügbar, an Apothekenpersonal wenden",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "08:00-19:00",
+    "operator": "Victoria Apotheke",
+    "phone": "+41 43 344 60 60",
+    "id": "node/13641088601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5382894,
+      47.374314
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13641132801",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "HeGeBe",
+    "description": "Zugang über HeGeBe oder Gassenküche möglich. Mo-Fr: 7:00 - 13:30 und 15:30 - 18:00 Sa-So, Feiertage: 8:00 - 13:30 und 15:30 - 18:00",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Spitäler Schaffhausen",
+    "id": "node/13641132801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6359094,
+      47.7034278
+    ]
+  }
 }
 ]
 }
