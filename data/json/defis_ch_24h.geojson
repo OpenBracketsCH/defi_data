@@ -150681,6 +150681,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/13648582701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Pavillon aussen vis a vis Haus Nr 15",
+    "description": "frei zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Asig Verwaltung",
+    "id": "node/13648582701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4384373,
+      47.4555679
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13649067101",
   "properties": {
     "defibrillator:location": "Bushaltestelle Reute Dorf AR",
@@ -150696,6 +150719,30 @@
     "coordinates": [
       9.5734379,
       47.4196914
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13649324701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Stutz Holzbau, Einfahrt Werkhof links am Waschhaus",
+    "description": "Rückseite Waschhaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stutz Holzbau",
+    "phone": "+41 79 328 52 23",
+    "id": "node/13649324701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.560561,
+      47.482872
     ]
   }
 }
