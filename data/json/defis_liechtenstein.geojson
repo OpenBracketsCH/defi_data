@@ -415,11 +415,12 @@
   "type": "Feature",
   "id": "node/9004557423",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Haupteingang EG",
+    "access": "permissive",
+    "defibrillator:location": "Europark, Haupteingang EG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 08:00-11:30, 13:30-17:00",
     "operator": "Karin Pirchler",
     "phone": "+423 236 60 37",
@@ -685,8 +686,9 @@
   "type": "Feature",
   "id": "node/9004557438",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Haupteingang West",
+    "access": "permissive",
+    "defibrillator:location": "Amt für Gesundheit",
+    "description": "Aeulestr. 51, Haupteingang West",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -1870,10 +1872,13 @@
   "type": "Feature",
   "id": "node/10763310415",
   "properties": {
-    "defibrillator:location": "Empfang im EG",
-    "description": "oranger Koffer",
+    "access": "permissive",
+    "defibrillator:location": "Home of Finance, Zollstr. 32",
+    "description": "Empfang im EG, oranger Koffer",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "name": "SOLFIN Financial Service Solutions AG",
     "opening_hours": "Mo-Fr 08:30-12:00, 13:30-17:00",
     "operator": "Lifetec AG Schweiz",
@@ -1883,8 +1888,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.51746,
-      47.13295
+      9.5174593,
+      47.1329507
     ]
   }
 },
@@ -1914,10 +1919,13 @@
   "type": "Feature",
   "id": "node/10765221505",
   "properties": {
-    "defibrillator:location": "Migros Sonnenplatz",
+    "access": "yes",
+    "defibrillator:location": "Sonnenplatz Einkaufszentrum",
+    "description": "Beim Haupteingang zwischen den Schiebetüren",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 07:00-19:00; Sa 07:00-17:00; Su 08:00-17:00",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10765221505"
@@ -1925,8 +1933,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5254768,
-      47.108965
+      9.5254154,
+      47.1090444
     ]
   }
 },
@@ -1977,8 +1985,9 @@
   "type": "Feature",
   "id": "node/11037266741",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "im Büro",
+    "access": "permissive",
+    "defibrillator:location": "Haus Amann",
+    "description": "Im Büro",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -1987,14 +1996,13 @@
     "name": "Funk Insurance Brokers AG",
     "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
     "operator": "Lifetec AG",
-    "phone": "0800 122 144",
     "id": "node/11037266741"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5213158,
-      47.1388577
+      9.5213163,
+      47.1388578
     ]
   }
 },
@@ -2739,21 +2747,23 @@
   "type": "Feature",
   "id": "node/11695090769",
   "properties": {
-    "access": "no",
+    "access": "permissive",
     "defibrillator:location": "Spörry Triesen",
     "description": "im Treppenhaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Gemeinde Triesen",
+    "phone": "+423 222 01 35",
     "id": "node/11695090769"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5263402,
-      47.1080699
+      9.5263052,
+      47.1082735
     ]
   }
 },
@@ -3525,9 +3535,9 @@
   "type": "Feature",
   "id": "node/12259416901",
   "properties": {
-    "access": "private",
-    "defibrillator:location": "Hoval AG Firmengelände",
-    "description": "AED im mobilen Notfallrucksack",
+    "access": "permissive",
+    "defibrillator:location": "Hoval AG Firmengelände Haupteingang",
+    "description": "AED im mobilen Notfallrucksack neben Eingangstüre",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -3540,8 +3550,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5231114,
-      47.123161
+      9.5236719,
+      47.1230687
     ]
   }
 },
@@ -3549,7 +3559,9 @@
   "type": "Feature",
   "id": "node/12259418801",
   "properties": {
-    "defibrillator:location": "Hoval AG;AED in mobilem Rucksack",
+    "access": "permissive",
+    "defibrillator:location": "Hoval AG, Werksgelände",
+    "description": "Im mobilen Einsatzrucksack",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -3562,8 +3574,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5215658,
-      47.1221319
+      9.5216408,
+      47.1216857
     ]
   }
 },

@@ -50255,19 +50255,20 @@
     "addr:city": "Wattenwil",
     "addr:postcode": "3665",
     "addr:street": "Gewerbestrasse",
+    "defibrillator:location": "Feuerwehrmagazin Dorf Wattenwil",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "24/7",
     "operator": "Feuerwehrmagazin Dorf Wattenwil",
-    "phone": "+41 33 359 59 11",
+    "phone": "+41 33 359 59 90",
     "id": "node/8728835647"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5115236,
-      46.7673377
+      7.5115237,
+      46.7673376
     ]
   }
 },
@@ -150719,6 +150720,51 @@
     "coordinates": [
       8.560561,
       47.482872
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13652386801",
+  "properties": {
+    "defibrillator:location": "Mehrzweckanlage Hagen",
+    "description": "Neben dem Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Wattenwil",
+    "phone": "+41 33 359 59 90",
+    "id": "node/13652386801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.506371,
+      46.7656631
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13652388901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulanlage Längmatt",
+    "description": "Neben dem Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Wattenwil",
+    "phone": "+41 33 359 59 90",
+    "id": "node/13652388901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5071983,
+      46.7578327
     ]
   }
 }
