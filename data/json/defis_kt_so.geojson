@@ -4068,14 +4068,14 @@
   "type": "Feature",
   "id": "node/10739071605",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Empfangsgebäude",
-    "description": "Nur während Betriebszeiten zugänglich",
+    "description": "Das Areal ist nur während den Öffnungszeiten öffentlich zugänglich.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
-    "opening_hours": "Mo-Fr 06:00-17:00",
+    "opening_hours": "Mo-Fr 06:00-18:00",
     "operator": "Saint-Gobain Weber AG",
     "phone": "+41 62 209 20 20",
     "id": "node/10739071605"
@@ -4083,7 +4083,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.8506408,
+      7.8506409,
       47.3008176
     ]
   }
@@ -6506,13 +6506,14 @@
   "type": "Feature",
   "id": "node/11332789169",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Vor dem Eingang der Kantine",
-    "description": "Das Areal ist nur während den Öffnungszeiten zugänglich.",
+    "description": "Das Areal ist nur während den Öffnungszeiten öffentlich zugänglich.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
-    "opening_hours": "Mo-Fr 07:00-17:00",
+    "opening_hours": "Mo-Fr 06:00-18:00",
     "operator": "Kieswerk Gunzgen AG",
     "phone": "+41 62 209 21 00",
     "source": "local_knowledge, defikarte.ch",
@@ -10477,6 +10478,30 @@
     "coordinates": [
       7.7131034,
       47.2805385
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13651732901",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Vor dem Kommandoraum (Container)",
+    "description": "Das Areal ist nur während den Öffnungszeiten öffentlich zugänglich.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "Mo-Fr 06:00-18:00",
+    "operator": "Wyss Kies und Beton AG",
+    "phone": "+41 62 209 21 00",
+    "id": "node/13651732901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8290853,
+      47.2939679
     ]
   }
 }
