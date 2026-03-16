@@ -51516,14 +51516,14 @@
   "id": "node/11736577270",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Haupteingang Empfang ",
-    "description": "An fassade",
+    "defibrillator:location": "Haupteingang Empfang, Radelfingenstrasse 30",
+    "description": "An Fassade, in Nische",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
-    "operator": "Schweizer Zucker ",
+    "operator": "Schweizer Zucker",
     "phone": "+41323916200",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/11736577270"
@@ -51531,8 +51531,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.2773466,
-      47.0396659
+      7.2773467,
+      47.0396658
     ]
   }
 },
@@ -62937,6 +62937,30 @@
     "coordinates": [
       7.5071983,
       46.7578327
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13652776602",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Büroeingang Firmengebäude Thommen AG",
+    "description": "Während den Öffnungszeiten verfügbar.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Th 07:00-17:00",
+    "operator": "Thommen AG",
+    "phone": "+41 31 336 73 73",
+    "id": "node/13652776602"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.472576,
+      46.955914
     ]
   }
 }

@@ -10504,6 +10504,48 @@
       47.2939679
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/13652734901",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Arztpaxis",
+    "description": "währen Öffnungszeiten der Arztpraxis zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Arztpraxis",
+    "phone": "+41 62 926 15 33",
+    "id": "node/13652734901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7904531,
+      47.2691879
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13652740001",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Feuerwehrmagazin Wolfwil",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Feuerwehr Wolfwil",
+    "id": "node/13652740001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7994389,
+      47.2709935
+    ]
+  }
 }
 ]
 }

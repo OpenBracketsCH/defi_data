@@ -113771,14 +113771,14 @@
   "id": "node/11736577270",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Haupteingang Empfang ",
-    "description": "An fassade",
+    "defibrillator:location": "Haupteingang Empfang, Radelfingenstrasse 30",
+    "description": "An Fassade, in Nische",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
-    "operator": "Schweizer Zucker ",
+    "operator": "Schweizer Zucker",
     "phone": "+41323916200",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/11736577270"
@@ -113786,8 +113786,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.2773466,
-      47.0396659
+      7.2773467,
+      47.0396658
     ]
   }
 },
@@ -150765,6 +150765,30 @@
     "coordinates": [
       7.5071983,
       46.7578327
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13652852201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hall d'entrée du bâtiment",
+    "description": "Disponible en tout temps",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Administration communale",
+    "phone": "+41 26 921 29 00",
+    "id": "node/13652852201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1244976,
+      46.6134546
     ]
   }
 }
