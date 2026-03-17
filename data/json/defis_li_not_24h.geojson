@@ -770,13 +770,17 @@
   "id": "node/9004557478",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Obere Werkhalle - Sicherheitsposten",
+    "defibrillator:location": "KaiserAG - Obere Werkhalle - Sicherheitsposten",
+    "defibrillator:location:en": "Company: Kaiser AG",
+    "email": "gemeinde@mauren.li",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Thomas Lampert",
     "phone": "+4223 377 21 30",
+    "wheelchair": "yes",
     "id": "node/9004557478"
   },
   "geometry": {
@@ -1214,6 +1218,7 @@
   "type": "Feature",
   "id": "node/11217394739",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Zollamt Schaanwald",
     "description": "während den Öffnungszeiten verfügbar",
     "emergency": "defibrillator",

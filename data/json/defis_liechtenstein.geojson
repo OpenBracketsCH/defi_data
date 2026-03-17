@@ -1179,12 +1179,17 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Feuerwehrdepot",
+    "defibrillator:location:en": "fire station",
     "description": "Bei den Garagentoren",
+    "email": "gemeinde@mauren.li",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Mauren",
+    "panoramax": "8bfe5f1d-876f-487d-b48e-4997bbd28708",
     "phone": "+423 792 22 41",
+    "wheelchair": "designated",
     "id": "node/9004557475"
   },
   "geometry": {
@@ -1201,13 +1206,17 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Schaanwald Parkplatz Bancomat Zuschg",
+    "defibrillator:location:en": "Next to the cash machine, on the outer wall",
     "description": "Neben Bancomat, Aussenwand",
+    "email": "gemeinde@mauren.li",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Mauren",
+    "panoramax": "62fb4c4c-e944-4105-8636-7741195ee375",
     "phone": "+423 792 22 47",
+    "wheelchair": "designated",
     "id": "node/9004557476"
   },
   "geometry": {
@@ -1244,13 +1253,17 @@
   "id": "node/9004557478",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Obere Werkhalle - Sicherheitsposten",
+    "defibrillator:location": "KaiserAG - Obere Werkhalle - Sicherheitsposten",
+    "defibrillator:location:en": "Company: Kaiser AG",
+    "email": "gemeinde@mauren.li",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Thomas Lampert",
     "phone": "+4223 377 21 30",
+    "wheelchair": "yes",
     "id": "node/9004557478"
   },
   "geometry": {
@@ -2011,6 +2024,7 @@
   "type": "Feature",
   "id": "node/11217394739",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Zollamt Schaanwald",
     "description": "während den Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
