@@ -149267,6 +149267,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/13546541201",
+  "properties": {
+    "defibrillator:location": "Pfosten beim Perron",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "phone": "+41 31 925 22 53",
+    "id": "node/13546541201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4761709,
+      46.9745654
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13551257802",
   "properties": {
     "defibrillator:location": "Schulhaus Bissen: Unterstand bei Auffahrt zu Haupteingang",
@@ -150541,30 +150562,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/13641202501",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "RBS Station Papiermühle",
-    "description": "Gleis 1, Richtung Bern",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde Ittigen",
-    "phone": "+41 31 925 22 53",
-    "id": "node/13641202501"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4761709,
-      46.9745654
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/13641206301",
   "properties": {
     "access": "yes",
@@ -150897,6 +150894,30 @@
     "coordinates": [
       7.5676211,
       47.5329636
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13658345302",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Garderobengebäude",
+    "description": "Neben dem Eingang zur Leichtathletikanlage",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung Stein",
+    "phone": "+41 62 866 40 00",
+    "id": "node/13658345302"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9622451,
+      47.5463237
     ]
   }
 }
