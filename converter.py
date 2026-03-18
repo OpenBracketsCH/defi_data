@@ -1,108 +1,83 @@
-import pandas as pd
-df = pd.read_json (r'data/json/defis_ch_24h.geojson')
-df.to_csv (r'data/csv/defis_ch_24h.csv', index = None)
+import json
+import csv
+import os
+from pathlib import Path
 
-df = pd.read_json (r'data/json/defis_ch_not_24h.geojson')
-df.to_csv (r'data/csv/defis_ch_not_24h.csv', index = None)
+JSON_DIR = Path("data/json")
+CSV_DIR = Path("data/csv")
 
-df = pd.read_json (r'data/json/defis_dispo_knzsg.geojson')
-df.to_csv (r'data/csv/defis_dispo_knzsg.csv', index = None)
+CSV_DIR.mkdir(parents=True, exist_ok=True)
 
-df = pd.read_json (r'data/json/defis_dispo_srz.geojson')
-df.to_csv (r'data/csv/defis_dispo_srz.csv', index = None)
 
-df = pd.read_json (r'data/json/defis_kt_ag.geojson')
-df.to_csv (r'data/csv/defis_kt_ag.csv', index = None)
+def geojson_to_csv(geojson_path: Path, csv_path: Path) -> None:
+    with open(geojson_path, encoding="utf-8") as f:
+        data = json.load(f)
 
-df = pd.read_json (r'data/json/defis_kt_ai.geojson')
-df.to_csv (r'data/csv/defis_kt_ai.csv', index = None)
+    features = data.get("features", [])
+    if not features:
+        print(f"  Keine Features gefunden: {geojson_path.name}")
+        return
 
-df = pd.read_json (r'data/json/defis_kt_ar.geojson')
-df.to_csv (r'data/csv/defis_kt_ar.csv', index = None)
+    rows = []
+    for feature in features:
+        row = {}
 
-df = pd.read_json (r'data/json/defis_kt_be.geojson')
-df.to_csv (r'data/csv/defis_kt_be.csv', index = None)
+        # OSM Node-ID aus dem "id"-Feld (z.B. "node/123456")
+        raw_id = feature.get("id", "")
+        row["osm_id"] = raw_id.split("/")[-1] if "/" in str(raw_id) else raw_id
+        row["osm_type"] = raw_id.split("/")[0] if "/" in str(raw_id) else ""
 
-df = pd.read_json (r'data/json/defis_kt_bl.geojson')
-df.to_csv (r'data/csv/defis_kt_bl.csv', index = None)
+        # Koordinaten aus geometry
+        geometry = feature.get("geometry") or {}
+        coords = geometry.get("coordinates", [])
+        if coords and len(coords) >= 2:
+            row["lon"] = coords[0]
+            row["lat"] = coords[1]
+        else:
+            row["lon"] = ""
+            row["lat"] = ""
 
-df = pd.read_json (r'data/json/defis_kt_bs.geojson')
-df.to_csv (r'data/csv/defis_kt_bs.csv', index = None)
+        # Alle properties flach hinzufügen
+        properties = feature.get("properties") or {}
+        for key, value in properties.items():
+            row[key] = value
 
-df = pd.read_json (r'data/json/defis_kt_fr.geojson')
-df.to_csv (r'data/csv/defis_kt_fr.csv', index = None)
+        rows.append(row)
 
-df = pd.read_json (r'data/json/defis_kt_ge.geojson')
-df.to_csv (r'data/csv/defis_kt_ge.csv', index = None)
+    # Alle Spalten über alle Rows sammeln (union), Reihenfolge: Basis-Felder zuerst
+    base_cols = ["osm_id", "osm_type", "lat", "lon"]
+    all_keys = set()
+    for row in rows:
+        all_keys.update(row.keys())
+    extra_cols = sorted(all_keys - set(base_cols))
+    fieldnames = base_cols + extra_cols
 
-df = pd.read_json (r'data/json/defis_kt_gl.geojson')
-df.to_csv (r'data/csv/defis_kt_gl.csv', index = None)
+    with open(csv_path, "w", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction="ignore")
+        writer.writeheader()
+        writer.writerows(rows)
 
-df = pd.read_json (r'data/json/defis_kt_gr.geojson')
-df.to_csv (r'data/csv/defis_kt_gr.csv', index = None)
+    print(f"  {geojson_path.name} → {csv_path.name} ({len(rows)} Einträge, {len(fieldnames)} Spalten)")
 
-df = pd.read_json (r'data/json/defis_kt_ju.geojson')
-df.to_csv (r'data/csv/defis_kt_ju.csv', index = None)
 
-df = pd.read_json (r'data/json/defis_kt_lu.geojson')
-df.to_csv (r'data/csv/defis_kt_lu.csv', index = None)
+def main():
+    geojson_files = sorted(JSON_DIR.glob("*.geojson"))
 
-df = pd.read_json (r'data/json/defis_kt_ne.geojson')
-df.to_csv (r'data/csv/defis_kt_ne.csv', index = None)
+    if not geojson_files:
+        print(f"Keine .geojson Dateien gefunden in {JSON_DIR}")
+        return
 
-df = pd.read_json (r'data/json/defis_kt_nw.geojson')
-df.to_csv (r'data/csv/defis_kt_nw.csv', index = None)
+    print(f"{len(geojson_files)} GeoJSON-Dateien gefunden\n")
 
-df = pd.read_json (r'data/json/defis_kt_ow.geojson')
-df.to_csv (r'data/csv/defis_kt_ow.csv', index = None)
+    for geojson_path in geojson_files:
+        csv_path = CSV_DIR / (geojson_path.stem + ".csv")
+        try:
+            geojson_to_csv(geojson_path, csv_path)
+        except Exception as e:
+            print(f"  FEHLER bei {geojson_path.name}: {e}")
 
-df = pd.read_json (r'data/json/defis_kt_sg.geojson')
-df.to_csv (r'data/csv/defis_kt_sg.csv', index = None)
+    print("\nFertig.")
 
-df = pd.read_json (r'data/json/defis_kt_sh.geojson')
-df.to_csv (r'data/csv/defis_kt_sh.csv', index = None)
 
-df = pd.read_json (r'data/json/defis_kt_so.geojson')
-df.to_csv (r'data/csv/defis_kt_so.csv', index = None)
-
-df = pd.read_json (r'data/json/defis_kt_sz.geojson')
-df.to_csv (r'data/csv/defis_kt_sz.csv', index = None)
-
-df = pd.read_json (r'data/json/defis_kt_tg.geojson')
-df.to_csv (r'data/csv/defis_kt_tg.csv', index = None)
-
-df = pd.read_json (r'data/json/defis_kt_ti.geojson')
-df.to_csv (r'data/csv/defis_kt_ti.csv', index = None)
-
-df = pd.read_json (r'data/json/defis_kt_ur.geojson')
-df.to_csv (r'data/csv/defis_kt_ur.csv', index = None)
-
-df = pd.read_json (r'data/json/defis_kt_vd.geojson')
-df.to_csv (r'data/csv/defis_kt_vd.csv', index = None)
-
-df = pd.read_json (r'data/json/defis_kt_vs.geojson')
-df.to_csv (r'data/csv/defis_kt_vs.csv', index = None)
-
-df = pd.read_json (r'data/json/defis_kt_zg.geojson')
-df.to_csv (r'data/csv/defis_kt_zg.csv', index = None)
-
-df = pd.read_json (r'data/json/defis_kt_zh.geojson')
-df.to_csv (r'data/csv/defis_kt_zh.csv', index = None)
-
-df = pd.read_json (r'data/json/defis_li_24h.geojson')
-df.to_csv (r'data/csv/defis_li_24h.csv', index = None)
-
-df = pd.read_json (r'data/json/defis_li_not_24h.geojson')
-df.to_csv (r'data/csv/defis_li_not_24h.csv', index = None)
-
-df = pd.read_json (r'data/json/defis_switzerland.geojson')
-df.to_csv (r'data/csv/defis_switzerland.csv', index = None)
-
-df = pd.read_json (r'data/json/defis_liechtenstein.geojson')
-df.to_csv (r'data/csv/defis_liechtenstein.csv', index = None)
-
-df = pd.read_json (r'data/json/defis_stadt_zh.geojson')
-df.to_csv (r'data/csv/defis_stadt_zh.csv', index = None)
-
-df = pd.read_json (r'data/json/defis_stadt_zug.geojson')
-df.to_csv (r'data/csv/defis_stadt_zug.csv', index = None)
+if __name__ == "__main__":
+    main()
