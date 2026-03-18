@@ -438,7 +438,7 @@
   "id": "node/6795952885",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "In der Station Scharmoin im weissen Kasten an der Betonwand beim Fenster im Übergangsbereich zwischen den beiden Bahnen.",
+    "defibrillator:location": "In der Station Scharmoin im grünen Kasten an der Betonwand beim Fenster im Übergangsbereich zwischen den beiden Bahnen.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -451,8 +451,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5732713,
-      46.7427834
+      9.5730509,
+      46.7427882
     ]
   }
 },
@@ -602,27 +602,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7592891937",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Beim Eingang zur alten Post",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "wheelchair": "limited",
-    "id": "node/7592891937"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.6497132,
-      46.4700193
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7615866817",
   "properties": {
     "access": "yes",
@@ -662,8 +641,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      10.0541881,
-      46.3263273
+      10.0541805,
+      46.3263276
     ]
   }
 },
@@ -4577,6 +4556,7 @@
   "id": "node/9147623871",
   "properties": {
     "access": "yes",
+    "check_date": "2026-02-24",
     "defibrillator:location": "Liegt am Gebäude des Dorfladens",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -6508,13 +6488,13 @@
   "type": "Feature",
   "id": "node/9858003517",
   "properties": {
-    "access": "yes",
+    "access:conditional": "yes @ opening_hours",
+    "access:note": "Nur bei schönem Wetter verfügbar",
     "defibrillator:location": "Kiosk Canovasee",
-    "description": "nur bei schönem Wetter verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "operator": "Privatpersonen",
+    "operator": "private",
     "phone": "+41 76 445 28 74",
     "id": "node/9858003517"
   },
@@ -8073,6 +8053,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "opening_hours": "Mo-Fr 10:00-21:00; Sa,Su,PH 10:00-20:00",
     "operator": "Gemeinde Vaz/Obervaz",
     "phone": "+41813852185",
     "id": "node/10647242605"
@@ -8080,8 +8061,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5566755,
-      46.7334161
+      9.556898,
+      46.733202
     ]
   }
 },
@@ -9787,8 +9768,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      10.1161427,
-      46.2730171
+      10.1161612,
+      46.2730644
     ]
   }
 },
@@ -16705,6 +16686,97 @@
     "coordinates": [
       10.2458972,
       46.7948994
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13607564501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Empfangsbereich in sep. Raum neben Schiebetüre",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 08:00 - 22:00",
+    "operator": "Mountainloge Arosa",
+    "phone": "+41 81 378 84 23",
+    "id": "node/13607564501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.6753033,
+      46.7800926
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13649407001",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Allegra Passugger Mineralquellen AG",
+    "description": "Während Öffnungszeiten erreichbar über Haupteingang (Passarelle).",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-16:00",
+    "id": "node/13649407001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5460976,
+      46.8297365
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13652279301",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "LKP Talstation",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "operator": "Davos Klosters Bergbahnen AG",
+    "phone": "+41 81 417 66 60",
+    "id": "node/13652279301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.8804583,
+      46.8690056
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13652359601",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "im EG, Magazin auf der rechten Seite",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "07:00-18:00 \"Mo-Fr.\"",
+    "operator": "Nicol. Hartmann & Cie. AG",
+    "phone": "+41 81 837 06 20",
+    "id": "node/13652359601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.8452576,
+      46.4887648
     ]
   }
 }

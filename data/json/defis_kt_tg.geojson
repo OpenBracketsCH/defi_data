@@ -10869,30 +10869,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10763310179",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "In der Halle neben Büro",
-    "description": "oranger Koffer",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "name": "Tanner Motorsport",
-    "opening_hours": "Mo-Fr 08:00-12:00,13:00-19:00",
-    "operator": "Lifetec AG Schweiz",
-    "phone": "+41 800 122 144",
-    "id": "node/10763310179"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.90009,
-      47.56478
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10763310180",
   "properties": {
     "access": "no",
@@ -11088,7 +11064,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "Gautschi Fensterbau AG",
-    "opening_hours": "Mo-Th 07:30-11:45, 13:30-17:00; Fr 07:30-11:45, 13:30-16:00",
+    "opening_hours": "Mo-Fr 07:00-18:00, Sa 08:00-12:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/10763310189"
@@ -11096,8 +11072,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.96308,
-      47.45925
+      8.9630802,
+      47.4592498
     ]
   }
 },
@@ -12105,6 +12081,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Stadtgemeinde Diessenhofen",
     "phone": "+41526464220",
     "source": "local_knowledge, defikarte.ch",
@@ -13382,6 +13359,7 @@
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde",
+    "phone": "+41 58 346 24 00",
     "id": "node/11992400870"
   },
   "geometry": {
@@ -13389,27 +13367,6 @@
     "coordinates": [
       9.0585568,
       47.6689537
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11992409269",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Altes Schulhaus Salenstein",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde",
-    "id": "node/11992409269"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.0585611,
-      47.6689593
     ]
   }
 },
@@ -13765,21 +13722,21 @@
   "id": "node/12140628301",
   "properties": {
     "access": "permissive",
-    "defibrillator:location": "FitnessRebellen ",
+    "defibrillator:location": "FitnessRebellen",
     "description": "während Öffnungszeiten, wenn Trainiert wird",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "0",
+    "level": "1",
     "opening_hours": "06:00 - 23:00",
-    "operator": "FitnessRebellen ",
+    "operator": "FitnessRebellen",
     "id": "node/12140628301"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4544586,
-      47.4973154
+      9.4519692,
+      47.4981924
     ]
   }
 },
@@ -15682,6 +15639,93 @@
     "coordinates": [
       8.674795,
       47.6851163
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13589378401",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Industriestrasse 8, Haupteingang rechts",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Th 08:00-17:00, Fr 08:00-16:00",
+    "operator": "Firma Swisspacer",
+    "phone": "+41 71 686 57 57",
+    "id": "node/13589378401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.19101,
+      47.6240318
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13598317201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Martin Haffter (Eingang)",
+    "description": "Durchgehen Zugänglich. Haupteingang MHS",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "operator": "Primarschulgemeinde Weinfelden",
+    "phone": "+41792749519",
+    "id": "node/13598317201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1224239,
+      47.5632208
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13617975601",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Mehrzweckhalle Pfyn (MZH)",
+    "description": "beim Personenlift im Eingangsbereich, während Hallenöffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Primarschulgemeinde Pfyn",
+    "id": "node/13617975601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9575012,
+      47.5942497
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13642570202",
+  "properties": {
+    "defibrillator:location": "aussen, am Gebäude",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "id": "node/13642570202"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3599822,
+      47.5031187
     ]
   }
 }

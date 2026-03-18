@@ -5,20 +5,23 @@
   "type": "Feature",
   "id": "node/7813190773",
   "properties": {
-    "access": "private",
-    "defibrillator:location": "Update Fitness. Der Defi befindet sich im Eingangsbereich des Fitnesscenter.",
-    "description": "während Öffnungszeiten verfügbar",
+    "access": "yes",
+    "defibrillator:location": "Mühleholzmarkt",
+    "description": "während Öffnungszeiten verfügbar, direkt an der Wand bei den Toiletten",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "update Fitness",
-    "phone": "144",
+    "level": "2",
+    "opening_hours": "Mo-Sa 7:00-19:00",
+    "operator": "Mühleholzmarkt, Hauswartung Immo Vogt",
+    "phone": "+423 222 01 35",
     "id": "node/7813190773"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5098284,
-      47.1547842
+      9.5099866,
+      47.1545645
     ]
   }
 },
@@ -230,11 +233,12 @@
   "type": "Feature",
   "id": "node/9004557423",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Haupteingang EG",
+    "access": "permissive",
+    "defibrillator:location": "Europark, Haupteingang EG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 08:00-11:30, 13:30-17:00",
     "operator": "Karin Pirchler",
     "phone": "+423 236 60 37",
@@ -387,10 +391,11 @@
   "id": "node/9004557435",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Haupteingang EG",
+    "defibrillator:location": "Regierungsgebäude Haupteingang EG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00",
     "operator": "Telefonzentrale",
     "phone": "+423 236 61 11",
@@ -399,8 +404,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5226791,
-      47.1370697
+      9.5226789,
+      47.1370698
     ]
   }
 },
@@ -430,8 +435,9 @@
   "type": "Feature",
   "id": "node/9004557438",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Haupteingang West",
+    "access": "permissive",
+    "defibrillator:location": "Amt für Gesundheit",
+    "description": "Aeulestr. 51, Haupteingang West",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -586,22 +592,23 @@
   "type": "Feature",
   "id": "node/9004557459",
   "properties": {
-    "access": "unknown",
-    "defibrillator:location": "Empfang",
+    "access": "permissive",
+    "defibrillator:location": "Ivoclar Empfang",
     "description": "Zugang nur bei Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 07:00-18:00",
-    "operator": "Hansjörg Steiner, Kommandant",
+    "operator": "Ivoclar",
     "phone": "+423 235 35 35",
     "id": "node/9004557459"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5096433,
-      47.1716969
+      9.5093983,
+      47.1727032
     ]
   }
 },
@@ -763,13 +770,17 @@
   "id": "node/9004557478",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Obere Werkhalle - Sicherheitsposten",
+    "defibrillator:location": "KaiserAG - Obere Werkhalle - Sicherheitsposten",
+    "defibrillator:location:en": "Company: Kaiser AG",
+    "email": "gemeinde@mauren.li",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Thomas Lampert",
     "phone": "+4223 377 21 30",
+    "wheelchair": "yes",
     "id": "node/9004557478"
   },
   "geometry": {
@@ -821,28 +832,6 @@
     "coordinates": [
       9.5252296,
       47.2394468
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9180373117",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Rheinwiese Schaan",
-    "description": "Garderobe/Eingang Sanitätsraum",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "08:00-22:00",
-    "operator": "Gemeinde Schaan",
-    "id": "node/9180373117"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.4933369,
-      47.1665037
     ]
   }
 },
@@ -998,11 +987,13 @@
   "type": "Feature",
   "id": "node/10763310410",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Spörry Halle, Bei Empfang 1. OG",
+    "access": "permissive",
+    "defibrillator:location": "Universität, Spörry, Bei Empfang 1. OG",
     "description": "oranger Koffer",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
+    "level": "1",
     "name": "Universität Liechtenstein",
     "opening_hours": "Mo-Th 08:30-12:00,13:30-17:00, Fr 08:30-12:00,13:30-15:00",
     "operator": "Universität",
@@ -1012,30 +1003,7 @@
     "type": "Point",
     "coordinates": [
       9.5164293,
-      47.1494506
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10763310411",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "EG, Durchgang zur Mensa, hinter Empfang",
-    "description": "Blauer Rucksack",
-    "emergency": "defibrillator",
-    "indoor": "yes",
-    "name": "Ivoclar Vivadent AG",
-    "opening_hours": "Mo-Th 08:00-17:00; Fr 08:00-16:00",
-    "operator": "Lifetec AG Schweiz",
-    "phone": "+41 800 122 144",
-    "id": "node/10763310411"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.51007,
-      47.17161
+      47.1494507
     ]
   }
 },
@@ -1065,11 +1033,13 @@
   "type": "Feature",
   "id": "node/10763310413",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "EG, Kundenwartebereich",
+    "access": "permissive",
+    "defibrillator:location": "Mercedes Garage Weilenmann, EG, Kundenwartebereich",
     "description": "oranger Koffer",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "name": "Garage Weilenmann AG",
     "opening_hours": "Mo-Fr 07:30-18:00; Sa 08:00-16:00",
     "operator": "Lifetec AG Schweiz",
@@ -1079,7 +1049,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5097914,
+      9.5097915,
       47.1741828
     ]
   }
@@ -1110,10 +1080,13 @@
   "type": "Feature",
   "id": "node/10763310415",
   "properties": {
-    "defibrillator:location": "Empfang im EG",
-    "description": "oranger Koffer",
+    "access": "permissive",
+    "defibrillator:location": "Home of Finance, Zollstr. 32",
+    "description": "Empfang im EG, oranger Koffer",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "name": "SOLFIN Financial Service Solutions AG",
     "opening_hours": "Mo-Fr 08:30-12:00, 13:30-17:00",
     "operator": "Lifetec AG Schweiz",
@@ -1123,8 +1096,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.51746,
-      47.13295
+      9.5174593,
+      47.1329507
     ]
   }
 },
@@ -1154,10 +1127,13 @@
   "type": "Feature",
   "id": "node/10765221505",
   "properties": {
-    "defibrillator:location": "Migros Sonnenplatz",
+    "access": "yes",
+    "defibrillator:location": "Sonnenplatz Einkaufszentrum",
+    "description": "Beim Haupteingang zwischen den Schiebetüren",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 07:00-19:00; Sa 07:00-17:00; Su 08:00-17:00",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10765221505"
@@ -1165,8 +1141,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5254768,
-      47.108965
+      9.5254154,
+      47.1090444
     ]
   }
 },
@@ -1175,7 +1151,7 @@
   "id": "node/10795986605",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Erreichbar via Braustube oder Eingang bei Briefkästen. An der Wand gegenüber des Lifts montiert.",
+    "defibrillator:location": "Liecht. Braustube, Eingang bei Briefkästen. An der Wand gegenüber des Lifts montiert.",
     "description": "von Mo-Fr 08.00-12.00 Uhr / 13.00-17.00 Uhr und den Öffnungszeiten der Braustube verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -1187,8 +1163,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5165635,
-      47.1773411
+      9.5164561,
+      47.1772926
     ]
   }
 },
@@ -1217,8 +1193,9 @@
   "type": "Feature",
   "id": "node/11037266741",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "im Büro",
+    "access": "permissive",
+    "defibrillator:location": "Haus Amann",
+    "description": "Im Büro",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -1227,14 +1204,13 @@
     "name": "Funk Insurance Brokers AG",
     "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
     "operator": "Lifetec AG",
-    "phone": "0800 122 144",
     "id": "node/11037266741"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5213158,
-      47.1388577
+      9.5213163,
+      47.1388578
     ]
   }
 },
@@ -1242,6 +1218,7 @@
   "type": "Feature",
   "id": "node/11217394739",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Zollamt Schaanwald",
     "description": "während den Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
@@ -1311,10 +1288,13 @@
   "type": "Feature",
   "id": "node/11395695569",
   "properties": {
-    "defibrillator:location": "Im Empfangsbereich",
+    "access": "permissive",
+    "defibrillator:location": "Labor Risch, Im Empfangsbereich",
+    "description": "Bei der Garderobe",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 07:30 - 12:30, 13:30 - 18:30",
     "operator": "Dr. Risch Anstalt",
     "phone": "+41 58 523 30 00",
@@ -1444,21 +1424,23 @@
   "type": "Feature",
   "id": "node/11695090769",
   "properties": {
-    "access": "no",
+    "access": "permissive",
     "defibrillator:location": "Spörry Triesen",
     "description": "im Treppenhaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Gemeinde Triesen",
+    "phone": "+423 222 01 35",
     "id": "node/11695090769"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5263402,
-      47.1080699
+      9.5263052,
+      47.1082735
     ]
   }
 },
@@ -1714,9 +1696,9 @@
   "type": "Feature",
   "id": "node/12259416901",
   "properties": {
-    "access": "private",
-    "defibrillator:location": "Hoval AG Firmengelände",
-    "description": "AED im mobilen Notfallrucksack",
+    "access": "permissive",
+    "defibrillator:location": "Hoval AG Firmengelände Haupteingang",
+    "description": "AED im mobilen Notfallrucksack neben Eingangstüre",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -1729,8 +1711,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5231114,
-      47.123161
+      9.5236719,
+      47.1230687
     ]
   }
 },
@@ -1738,7 +1720,9 @@
   "type": "Feature",
   "id": "node/12259418801",
   "properties": {
-    "defibrillator:location": "Hoval AG;AED in mobilem Rucksack",
+    "access": "permissive",
+    "defibrillator:location": "Hoval AG, Werksgelände",
+    "description": "Im mobilen Einsatzrucksack",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -1751,8 +1735,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5215658,
-      47.1221319
+      9.5216408,
+      47.1216857
     ]
   }
 },
@@ -2087,6 +2071,49 @@
     "coordinates": [
       9.541792,
       47.1975778
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13620828901",
+  "properties": {
+    "defibrillator:location": "Im Kokon Gebäude",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/13620828901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5272198,
+      47.2500324
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13622332901",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Stiftung 50 plus, Im Bretscha 22",
+    "description": "In den Werkstätten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 7:30-17:00",
+    "operator": "Stiftung 50 plus",
+    "phone": "+4232220135",
+    "id": "node/13622332901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5094899,
+      47.1704075
     ]
   }
 }

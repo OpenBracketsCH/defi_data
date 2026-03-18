@@ -431,6 +431,7 @@
     "level": "0",
     "opening_hours": "24/7",
     "operator": "Kanton Zug",
+    "wheelchair": "yes",
     "id": "node/7568739435"
   },
   "geometry": {
@@ -5823,13 +5824,14 @@
     "opening_hours": "Mo-Fr 08:00-17:30",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
+    "wheelchair": "yes",
     "id": "node/10763310129"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.51834,
-      47.17584
+      8.5182952,
+      47.1757937
     ]
   }
 },
@@ -6788,7 +6790,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Do: 7:30-19:30 Fr: 7:30-19:30",
+    "opening_hours": "Mo-Th 07:30-19:30; Fr 07:30-19:30",
     "operator": "Cubus Physio",
     "id": "node/11052543405"
   },
@@ -7376,35 +7378,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11882992826",
-  "properties": {
-    "access": "private",
-    "addr:city": "Baar",
-    "addr:housenumber": "30",
-    "addr:postcode": "6340",
-    "addr:street": "Zugerstrasse",
-    "defibrillator:location": "Werkstatt bei Brandmeldeanlage 1366ltm",
-    "description": "Oranger Koffer",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "name": "Gysi AG",
-    "opening_hours": "Mo-Do 07:00-12:00, 13:00-17:00; Fr 07:00-12:00, 13:00-16:00",
-    "operator": "Lifetec AG Schweiz",
-    "phone": "+41800 122 144",
-    "ref": "1366LTM",
-    "id": "node/11882992826"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5219258,
-      47.189956
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11893662869",
   "properties": {
     "defibrillator:location": "Camping Naas",
@@ -7677,7 +7650,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "MO-TH 7:30-20:00, FR 7:30-18:00, SA 8:30-13:00",
+    "opening_hours": "Mo-Th 07:30-20:00, Fr 07:30-18:00, Sa 08:30-13:00",
     "operator": "Privatperson",
     "phone": "+41417116770",
     "source": "local_knowledge, defikarte.ch",
@@ -9507,6 +9480,52 @@
     "coordinates": [
       8.4793142,
       47.1870158
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13637646601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Tor Ahornstrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 00",
+    "id": "node/13637646601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5205761,
+      47.1811886
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13644929601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Einfahrt Tiefgarage",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "IG EICH I",
+    "phone": "+41 79 518 47 20",
+    "id": "node/13644929601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4697601,
+      47.1827189
     ]
   }
 }

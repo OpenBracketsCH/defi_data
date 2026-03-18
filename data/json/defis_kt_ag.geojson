@@ -2231,8 +2231,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2074666,
-      47.3726349
+      8.2071556,
+      47.3724043
     ]
   }
 },
@@ -4028,6 +4028,7 @@
   "id": "node/8682035757",
   "properties": {
     "access": "yes",
+    "check_date": "2026-02-22",
     "defibrillator:location": "Eingangsbereich / Foyer. Nach dem Eingang zum Restaurant auf der rechten Seite.",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
@@ -4105,8 +4106,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.9971993,
-      47.4966654
+      7.9981189,
+      47.4968446
     ]
   }
 },
@@ -4300,22 +4301,6 @@
     "coordinates": [
       8.1845976,
       47.5999866
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8736828461",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/8736828461"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.2112247,
-      47.2692546
     ]
   }
 },
@@ -14939,14 +14924,14 @@
   "type": "Feature",
   "id": "node/10555410309",
   "properties": {
-    "access": "yes",
     "defibrillator:location": "Turnhalle Steineggli",
     "description": "Defi ist aussen an der Wand links von der Eingangstür der Turnhalle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Gemeinde/Schule",
+    "operator": "Gemeinde Beinwil am See",
+    "phone": "+41 62 765 60 24",
     "id": "node/10555410309"
   },
   "geometry": {
@@ -25044,30 +25029,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12096911422",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "An der Wand des Seehotel Beinwil am See",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Seehotel Beinwil am See",
-    "phone": "+41 62 765 80 30",
-    "wheelchair": "limited",
-    "id": "node/12096911422"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.2107956,
-      47.2690324
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12108182101",
   "properties": {
     "access": "yes",
@@ -25896,7 +25857,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 07:30-17:00",
+    "opening_hours": "Mo - Th 07:30-17:00, Fr 7:30 - 12:00",
     "operator": "Zahnarztpraxis",
     "phone": "+41628423111",
     "id": "node/12265875201"
@@ -26643,12 +26604,13 @@
   "type": "Feature",
   "id": "node/12437196801",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "In der Praxis, im Eingangsbereich, Gegenüber Empfang",
+    "access": "permissive",
+    "defibrillator:location": "In der Praxis",
     "description": "während den Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo - Fr \"8.00 - 18.00\" , Sa \"8.00 - 12.00\"",
     "operator": "Kleintierpraxis TiM AG",
     "phone": "+41 56 441 41 66",
@@ -26658,8 +26620,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2170442,
-      47.4747721
+      8.2166149,
+      47.4775421
     ]
   }
 },
@@ -30015,6 +29977,192 @@
     "coordinates": [
       8.1414293,
       47.3891294
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13589993262",
+  "properties": {
+    "defibrillator:location": "im Kirchenraum links hinter der Eingangstüre",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "opening_hours": "Mo-Sa 10:00-16:00; Su 09:00-16:00",
+    "id": "node/13589993262"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0755704,
+      47.3732039
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13591979201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vereinshaus Pontoniere Schwaderloch",
+    "description": "Immer verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Verein",
+    "id": "node/13591979201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1278484,
+      47.582318
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13616327501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Campingplatz Wiggerspitz Am Sanitärgebäude auf der Südseite",
+    "description": "Während der Campingsaison vom 1. April - 30. September",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "7:00 - 22:00",
+    "operator": "Zelt- und Wohnwagen-Klub Olten",
+    "phone": "+41 62 791 58 10",
+    "id": "node/13616327501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8948191,
+      47.315471
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13619520701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Senevita Gais, Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Unternehmen",
+    "phone": "+41 62 387 00 22",
+    "id": "node/13619520701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0557103,
+      47.3913692
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13619771293",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/13619771293"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3043489,
+      47.4761227
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13620384601",
+  "properties": {
+    "defibrillator:location": "Löwensaal Hintereingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Beinwil am See",
+    "phone": "+41627656024",
+    "id": "node/13620384601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2027892,
+      47.2659003
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13620393601",
+  "properties": {
+    "defibrillator:location": "Öffentliche WC-Anlage",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Beinwil am See",
+    "phone": "+41 62 765 60 24",
+    "id": "node/13620393601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2110042,
+      47.2689363
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13622473401",
+  "properties": {
+    "defibrillator:location": "Gemeindehaus Haupeingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Beinwil am See",
+    "phone": "+41627656024",
+    "id": "node/13622473401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.204991,
+      47.2664776
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13626754302",
+  "properties": {
+    "defibrillator:location": "Haupteingang Altersheim Aareperle",
+    "description": "während der Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Aareperle",
+    "id": "node/13626754302"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2561585,
+      47.5716197
     ]
   }
 }

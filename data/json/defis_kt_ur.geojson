@@ -544,6 +544,7 @@
     "access": "yes",
     "check_date": "2024-02-06",
     "covered": "yes",
+    "defibrillator:location": "Pfarreizentrum, Aussenfassade Eingang Nord",
     "description": "Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -551,6 +552,8 @@
     "level": "0",
     "name": "Pfarreizentrum",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Erstfeld",
+    "phone": "+41 41 882 01 30",
     "id": "node/7637818989"
   },
   "geometry": {
@@ -584,18 +587,23 @@
   "id": "node/7637818991",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Urner Kantonalbank, Aussenfassade West Eingang",
     "description": "Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
     "name": "Urner Kantonalbank",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Erstfeld",
+    "phone": "+41 41 882 01 30",
     "id": "node/7637818991"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6498603,
-      46.8242679
+      8.6498599,
+      46.8242675
     ]
   }
 },
@@ -771,25 +779,6 @@
     "coordinates": [
       8.5958702,
       46.633064
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7637819133",
-  "properties": {
-    "description": "Rezeption",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "name": "Hotel drei Könige und Post AG",
-    "id": "node/7637819133"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5979151,
-      46.6340238
     ]
   }
 },
@@ -2611,6 +2600,70 @@
     "coordinates": [
       8.764877,
       46.8639777
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13613923301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sportgebäude Pfaffenmatt, Aussenfassade Süd Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Erstfeld",
+    "phone": "+41 41 882 01 30",
+    "id": "node/13613923301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6435536,
+      46.8389243
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13640345701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neuland 12 Activ Fitness Eingang",
+    "description": "während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo 6:30-22:00, Tu 8:00-22:00, We 6:30-22:00, Th 8:00-21:00, Fr 8:00-21:00, Sa-Su 8:00-17:00",
+    "operator": "Activ Fitness Altdorf",
+    "phone": "+41 41 870 24 24",
+    "id": "node/13640345701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.63582,
+      46.8645212
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13646774350",
+  "properties": {
+    "defibrillator:location": "wall near entrance",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/13646774350"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5708541,
+      46.6202404
     ]
   }
 }

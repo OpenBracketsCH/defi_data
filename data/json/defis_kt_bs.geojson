@@ -3536,8 +3536,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5681633,
-      47.5454961
+      7.5674973,
+      47.5456763
     ]
   }
 },
@@ -3583,6 +3583,76 @@
     "coordinates": [
       7.6121697,
       47.5589791
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13605369802",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Querfeld Silo",
+    "description": "Nach Seiteneingang Silo",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Kantensprung",
+    "id": "node/13605369802"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.592833,
+      47.5411323
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13611180501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Feldbergstrasse 47, 4057 Basel",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-21:00",
+    "operator": "PARAT Studio",
+    "phone": "+41 61 220 02 91",
+    "id": "node/13611180501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5908602,
+      47.5663229
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13645173602",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kornhausgasse 18 an der Hauswand aussen",
+    "description": "jeder Zeit verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Einsatzunterstützung Rettung Basel-Stadt",
+    "phone": "+41 61 268 14 07",
+    "id": "node/13645173602"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5829476,
+      47.556122
     ]
   }
 }

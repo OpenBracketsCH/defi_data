@@ -491,6 +491,7 @@
   "type": "Feature",
   "id": "node/7261584286",
   "properties": {
+    "defibrillator:location": "on the wall, left of the door",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -2151,7 +2152,7 @@
     "defibrillator:location": "Sanitätszimmer hinter dem Empfang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "name": "Competec Logistik AG",
+    "name": "Brack.Alltron Logistik AG",
     "id": "node/7637812559"
   },
   "geometry": {
@@ -2359,9 +2360,11 @@
   "id": "node/7637812571",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "aussen beim Ticket-Schalter",
     "description": "Nordseite Stationsgebäude",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "name": "Schiffstation SGV",
     "opening_hours": "24/7",
     "id": "node/7637812571"
@@ -3863,16 +3866,23 @@
   "type": "Feature",
   "id": "node/7637818504",
   "properties": {
-    "description": "im Schrank des Fumoir in der Cafeteria",
+    "access": "permissive",
+    "defibrillator:location": "WPZ Schüpfheim",
+    "description": "Beim Eingang in die Cafeteria",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
     "name": "Wohn- und Pflegezentrum",
+    "opening_hours": "24/7",
+    "operator": "WPZ Schüpfheim",
+    "phone": "+41 41 485 75 75",
     "id": "node/7637818504"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0253559,
+      8.025356,
       46.9550577
     ]
   }
@@ -5013,12 +5023,14 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "An der Wand befestigt",
-    "description": "Brothus Bakery, Durchgang zwischen Surseestrasse 26 und 28",
+    "description": "Zwischen Camping Rezeption und Restaurant am Gebäude befestigt",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "name": "Zentrum Maiengüeni",
     "opening_hours": "24/7",
+    "phone": "+41 44 482 16 12",
+    "source": "aed-source",
     "id": "node/7637818602"
   },
   "geometry": {
@@ -7537,6 +7549,7 @@
   "type": "Feature",
   "id": "node/7637818747",
   "properties": {
+    "defibrillator:location": "In Schrank im Gang",
     "description": "im EG, Mall",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -8625,7 +8638,6 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "name": "Naturmuseum",
     "wikipedia:de": "Natur-Museum Luzern",
     "id": "node/7637818808"
   },
@@ -8645,7 +8657,6 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "name": "Pädagogische Hochschule PHZ",
     "id": "node/7637818809"
   },
   "geometry": {
@@ -11783,16 +11794,22 @@
   "type": "Feature",
   "id": "node/7637819092",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Valiant Kassenraum",
     "description": "Kassenraum",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
     "name": "Valiant Bank",
+    "opening_hours": "Mo-Su 06:00-24:00",
+    "operator": "Valiant-Bank",
     "id": "node/7637819092"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.9899413,
+      7.9899412,
       47.2128375
     ]
   }
@@ -12434,8 +12451,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0373037,
-      47.2024903
+      8.0373667,
+      47.2025817
     ]
   }
 },
@@ -12586,8 +12603,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3188754,
-      47.0096477
+      8.3189152,
+      47.0096093
     ]
   }
 },
@@ -14257,28 +14274,6 @@
     "coordinates": [
       7.9786512,
       47.2156494
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9531872419",
-  "properties": {
-    "access": "private",
-    "defibrillator:location": "Anton Kronberg Weg",
-    "description": "existiert nicht",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "opening_hours": "Mo-Fr 00:00-00:01",
-    "id": "node/9531872419"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.9862787,
-      47.2138986
     ]
   }
 },
@@ -21640,28 +21635,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12725571503",
-  "properties": {
-    "access": "private",
-    "defibrillator:location": "existiert nicht",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "opening_hours": "Mo-Fr 00:00 - 00:01",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/12725571503"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.0275289,
-      47.2187647
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12743935801",
   "properties": {
     "access": "permissive",
@@ -22011,28 +21984,6 @@
     "coordinates": [
       8.1256781,
       47.0847989
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12959564901",
-  "properties": {
-    "defibrillator:location": "schulhaus",
-    "description": "offen 24h",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "operator": "gemeinde Dagmersellen Standort Buchs",
-    "phone": "+41797087815",
-    "id": "node/12959564901"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.0370561,
-      47.2026714
     ]
   }
 },
@@ -23746,6 +23697,119 @@
     "coordinates": [
       8.3133669,
       47.049477
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13594782901",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "LUKS Informatik Sedel",
+    "description": "Während Bürozeiten erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "08:00 - 17:00",
+    "operator": "Luzerner Kantonsspital",
+    "phone": "+41 41 205 11 11",
+    "id": "node/13594782901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3011813,
+      47.0605786
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13610437001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussenwand neben Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "ARAG Bau AG",
+    "phone": "+41587100000",
+    "id": "node/13610437001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0384599,
+      46.9722816
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13620809001",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "SC125 Behandlung",
+    "description": "Während den Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Luzerner Psychiatrie AG",
+    "phone": "+41 58 856 50 46",
+    "id": "node/13620809001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2739905,
+      47.0342299
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13620821001",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "SC171 Apotheke",
+    "description": "Während den Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Luzerner Psychiatrie AG",
+    "phone": "+41 58 856 50 46",
+    "id": "node/13620821001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2729472,
+      47.0341897
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13653601601",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Schulhaus turnhalle rossmos",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/13653601601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2850693,
+      47.0809573
     ]
   }
 }

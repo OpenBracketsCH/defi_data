@@ -1391,16 +1391,20 @@
   "type": "Feature",
   "id": "node/7573035048",
   "properties": {
-    "defibrillator:location": "am Haus",
+    "defibrillator:location": "Am Containerhaus",
+    "description": "24/7",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "operator": "Privatperson",
     "id": "node/7573035048"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.0623844,
-      47.1925833
+      9.062385,
+      47.1925832
     ]
   }
 },
@@ -2617,6 +2621,7 @@
   "id": "node/7723948439",
   "properties": {
     "access": "yes",
+    "check_date": "2026-03-11",
     "defibrillator:location": "Gebäude Südseite beim grossen Tor, rechts neben Fenster",
     "description": "Öffentlich zugänglich",
     "emergency": "defibrillator",
@@ -3770,18 +3775,21 @@
   "id": "node/7863755978",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Eingang Hofgastronomie, Bibliothek",
+    "defibrillator:location": "Eingang Mattschulhaus",
     "description": "AED ist 24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
+    "operator": "Stadt Wil",
     "id": "node/7863755978"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.0499274,
-      47.4676116
+      9.0419029,
+      47.45861
     ]
   }
 },
@@ -4939,7 +4947,7 @@
   "properties": {
     "access": "permissive",
     "defibrillator:location": "am Gebäude, mit Code erreichbar",
-    "description": "Der Defi ist in einem Raum stationiert, welcher mit einem Code geöffnet werden kann. Den Code erhält man, wenn die 144 angerufen wird > dort ist der Code hinterlegt.",
+    "description": "Der Defi ist in einem Raum stationiert, welcher mit einem Code geöffnet werden kann. Den Code erhält man, wenn 079 656 13 28 angerufen wird.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -4989,6 +4997,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/8012536543"
   },
   "geometry": {
@@ -6831,8 +6840,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.1209241,
-      47.4292674
+      9.1204649,
+      47.4291867
     ]
   }
 },
@@ -7264,8 +7273,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.3873518,
-      47.4306177
+      9.3875035,
+      47.430675
     ]
   }
 },
@@ -10926,8 +10935,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.3817164,
-      47.4249084
+      9.3817024,
+      47.4249076
     ]
   }
 },
@@ -13506,7 +13515,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 07:30-12:00, 13:30-17:30",
-    "operator": "Dr. med. Jean-Paul Jürgens",
+    "operator": "PizolCare Praxis Bad Ragaz",
     "phone": "+41 81 300 40 50",
     "id": "node/9681009344"
   },
@@ -17212,27 +17221,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10685794605",
-  "properties": {
-    "defibrillator:location": "BÜCHI Labortechnik AG, Empfang",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-17:00",
-    "operator": "BÜCHI Labortechnik AG",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/10685794605"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.1816038,
-      47.4189193
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10688469005",
   "properties": {
     "defibrillator:location": "Freibad Weierwise",
@@ -19992,29 +19980,6 @@
     "coordinates": [
       9.4102083,
       47.4397407
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10877349105",
-  "properties": {
-    "defibrillator:location": "Pfister Center Mels",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "1",
-    "opening_hours": "Mo-Fr 09:00-19:00; Sa 08:30-17:00",
-    "operator": "F.G. Pfister Immobilien AG",
-    "phone": "+41817105680",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/10877349105"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.4337245,
-      47.0417889
     ]
   }
 },
@@ -23684,7 +23649,7 @@
     "indoor": "yes",
     "level": "0",
     "name": "Technische Betriebe Wil",
-    "opening_hours": "Mo-Fr: 07:30 - 17:00",
+    "opening_hours": "Mo-Fr 07:30-17:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "ref": "1405LTM",
@@ -24453,13 +24418,13 @@
   "properties": {
     "access": "permissive",
     "defibrillator:location": "Elestastrasse 12, 7310 Bad Ragaz",
-    "description": "während den Öffnungszeiten verfügbar",
+    "description": "Ausser Betrieb aufgrund Service",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1",
+    "level": "0",
     "opening_hours": "Mo-Th 07:30-11:30, 13:00-16:30; Fr 07:30-11:30, 13:00-16:00",
-    "operator": "Privatperson SEPO AG",
+    "operator": "SEPO AG",
     "phone": "+41 81 552 99 02",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/12049379669"
@@ -28531,7 +28496,7 @@
   "id": "node/13132756402",
   "properties": {
     "access": "permissive",
-    "defibrillator:location": "Pfister Zentrale Mels",
+    "defibrillator:location": "Möbel Pfister",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -28539,7 +28504,7 @@
     "level": "1",
     "opening_hours": "Mo-Fr 09:00-19:00, Sa 09:00- 17:00",
     "operator": "Möbel Pfister AG",
-    "phone": "+41 81 725 93 00",
+    "phone": "+41 81 725 93 80",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/13132756402"
   },
@@ -29177,6 +29142,7 @@
   "type": "Feature",
   "id": "node/13249330701",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Sonnenbau AG, Moosstrasse 1, neben dem Haupteingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -29189,8 +29155,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.6529583,
-      47.3872756
+      9.6529578,
+      47.3872757
     ]
   }
 },
@@ -30171,6 +30137,314 @@
     "coordinates": [
       9.3738361,
       47.4213405
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13597559201",
+  "properties": {
+    "defibrillator:location": "Kitawas sevelen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/13597559201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4896399,
+      47.1265901
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13602964501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rathaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "phone": "+41 71 775 82 00",
+    "id": "node/13602964501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.582393,
+      47.3982858
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13610155581",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Innerhalb Eingangsschleuse",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 06:00-19:00; Sa-Su 09:30-17:15; PH 09:30-17:15",
+    "id": "node/13610155581"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3876453,
+      47.4304961
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13611934101",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Buchbergstrasse 4, 8730 Uznach, Schweiz",
+    "description": "Der Defibrillator ist beim Haupteingang im oberen Zwischengeschoss im Eingangsbereich.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "08:00-17:00",
+    "operator": "Kopter Group AG",
+    "phone": "+41 79 851 67 25",
+    "id": "node/13611934101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9694971,
+      47.2269467
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13634658117",
+  "properties": {
+    "defibrillator:location": "Empfangsschalter Boulderlounge, hinten an der Wand",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 11:30-22:30; Sa-Su 10:00-20:00",
+    "id": "node/13634658117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3396475,
+      47.4149722
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13637654601",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Haupteingang vor der Türe",
+    "description": "Ist vor dem Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Strassenkreisinspektorat",
+    "phone": "+41 58 229 73 73",
+    "id": "node/13637654601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4181439,
+      47.4389751
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13637708401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "MZH Hof / vor Turnhalleneingang recht in der Ecke.",
+    "description": "Wärend den Schulzeiten, Abenden, Wochende wenn es eine Veranstaltung hat erreichbar.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde",
+    "id": "node/13637708401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0475671,
+      47.158267
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13638565128",
+  "properties": {
+    "defibrillator:location": "Hauptniederlassung Aldi Suisse",
+    "description": "Während Öffnungszeiten zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "4",
+    "opening_hours": "Mo - Fr 8:00 - 17:30",
+    "operator": "Geschäft",
+    "id": "node/13638565128"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0669003,
+      47.4476681
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13638680502",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Flur Bau 4.3 vor Eingang TOPPAC Bau 3.2",
+    "description": "Beim Empfang melden! Während der Öffnungszeiten verfügbar.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "opening_hours": "Mo-Th 7:30 - 12:00, 12:45 - 17:00, Fr 7:30 - 12:00, 12:45 - 16:00",
+    "operator": "SCHOTT Pharma Schweiz AG",
+    "phone": "+41 71 274 16 00",
+    "id": "node/13638680502"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3519132,
+      47.423039
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13638694401",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Treppenhaus zwischen Bau 2.1 & 2.2",
+    "description": "Beim Empfang melden! Während der Öffnungszeiten verfügbar.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Th 7:30 - 12:00, 12:45 - 17:00, Fr 7:30 - 12:00, 12:45 - 16:00",
+    "operator": "SCHOTT Pharma Schweiz AG",
+    "phone": "+41 71 274 16 00",
+    "id": "node/13638694401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3525569,
+      47.4227196
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13638700201",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "rechts neben Eingang zu Sanitätszimmer (Raum 52301)",
+    "description": "Beim Empfang melden! Während der Öffnungszeiten verfügbar.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo-Th 7:30 - 12:00, 12:45 - 17:00, Fr 7:30 - 12:00, 12:45 - 16:00",
+    "operator": "SCHOTT Pharma Schweiz AG",
+    "phone": "+41 71 274 16 00",
+    "id": "node/13638700201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3503575,
+      47.4227577
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13638717001",
+  "properties": {
+    "defibrillator:location": "Schulhaus",
+    "description": "während Öffnungszeiten Verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "operator": "Gemeinde",
+    "phone": "+41 55 619 61 61",
+    "id": "node/13638717001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0512762,
+      47.1621286
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13640697802",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "rechts neben Eingang. In der App wird der Standort leicht verschoben angezeigt.",
+    "description": "Beim Eingang des Hauptgebäudes, in der App ist der Standort leicht verschoben.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "-2",
+    "opening_hours": "24/7",
+    "operator": "Verein Sonnmatt",
+    "phone": "+41 79 527 61 88",
+    "id": "node/13640697802"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1545396,
+      47.3617277
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13656671601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "2. OG bei Kinderarztpraxis",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "operator": "Gewerbeverband St. Gallen",
+    "phone": "+41712237070",
+    "id": "node/13656671601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3735305,
+      47.4245601
     ]
   }
 }

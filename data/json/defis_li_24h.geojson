@@ -210,21 +210,22 @@
   "id": "node/9004557427",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bauverwaltung Vaduz / LRK Hauptsitz",
+    "defibrillator:location": "Garagen Werkbetrieb Vaduz / LRK Hauptsitz",
     "description": "Am Garagentor bei der Bauverwaltung",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
-    "operator": "Beat Lohner",
-    "phone": "+423 789 78 50",
+    "operator": "Gemeinde Vaduz",
+    "phone": "+423 222 01 35",
     "id": "node/9004557427"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5129807,
-      47.1328541
+      9.5129813,
+      47.1328539
     ]
   }
 },
@@ -414,12 +415,17 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Feuerwehrdepot",
+    "defibrillator:location:en": "fire station",
     "description": "Bei den Garagentoren",
+    "email": "gemeinde@mauren.li",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Mauren",
+    "panoramax": "8bfe5f1d-876f-487d-b48e-4997bbd28708",
     "phone": "+423 792 22 41",
+    "wheelchair": "designated",
     "id": "node/9004557475"
   },
   "geometry": {
@@ -436,13 +442,17 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Schaanwald Parkplatz Bancomat Zuschg",
+    "defibrillator:location:en": "Next to the cash machine, on the outer wall",
     "description": "Neben Bancomat, Aussenwand",
+    "email": "gemeinde@mauren.li",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Mauren",
+    "panoramax": "62fb4c4c-e944-4105-8636-7741195ee375",
     "phone": "+423 792 22 47",
+    "wheelchair": "designated",
     "id": "node/9004557476"
   },
   "geometry": {
@@ -506,9 +516,10 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Schellenberg",
-    "phone": "+423 399 20 42",
+    "phone": "+423 222 01 35",
     "id": "node/9004557482"
   },
   "geometry": {
@@ -676,6 +687,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/9180373117",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "LFV Campus und FC Schaan Rheinwiese Schaan",
+    "description": "Beim Treppenaufgang zur Tribüne, direkt neben dem Restaurant",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Schaan",
+    "phone": "+423 222 01 25",
+    "id": "node/9180373117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4929023,
+      47.1667836
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9352008617",
   "properties": {
     "access": "yes",
@@ -799,14 +834,15 @@
   "id": "node/11401087569",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Sportzentrum Schellenberg ",
-    "description": "Bei Haupteingang Sportzentrum ",
+    "defibrillator:location": "Sportzentrum Schellenberg",
+    "description": "Bei Haupteingang Sportzentrum",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
-    "operator": "Gemeinde Schellenberg ",
-    "phone": "+423 399 20 40",
+    "operator": "Gemeinde Schellenberg",
+    "phone": "+423 222 01 35",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/11401087569"
   },
@@ -2513,6 +2549,101 @@
     "coordinates": [
       9.5226925,
       47.1365035
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13592172501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Mühleholz",
+    "description": "An der Hauswand, direkt bei der Kreuzung Schaanerstrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "phone": "+4232220135",
+    "id": "node/13592172501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5059605,
+      47.1557065
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13603072601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Feuerwehrdepot / Werkhof Balzers Neugrüt",
+    "description": "An der Aussenwand bei den Garagen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Balzers",
+    "phone": "+4232220135",
+    "id": "node/13603072601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5124786,
+      47.079141
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13604905301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haus Gutenberg Burgweg 3",
+    "description": "Beim Haupteingang rechts an Hauswand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Balzers",
+    "phone": "+4232220135",
+    "id": "node/13604905301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.49943,
+      47.0641497
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13623448701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Landgericht",
+    "description": "Bei Tiefgarageneinfahrt",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Liecht. Landesverwaltung",
+    "phone": "+4232220135",
+    "id": "node/13623448701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5227466,
+      47.1325795
     ]
   }
 }

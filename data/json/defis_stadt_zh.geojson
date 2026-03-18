@@ -2232,6 +2232,7 @@
   "id": "node/8467137519",
   "properties": {
     "access": "yes",
+    "check_date": "2026-03-05",
     "defibrillator:location": "Lerchenhalde 67. Ecke vom Gebäude, links von de Treppen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -5666,8 +5667,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5153117,
-      47.4145308
+      8.5151899,
+      47.4144431
     ]
   }
 },
@@ -9720,29 +9721,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10910676156",
-  "properties": {
-    "defibrillator:location": "2. OG, Kopierraum",
-    "description": "oranger Koffer",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "name": "WISS Schulen für Wirtschaft Informatik Immobilien",
-    "opening_hours": "Mo-Th 08:00-12:00,12:45-18:15; Fr 08:00-12:00,12:45-16:15; Sa 08:00-13:15",
-    "operator": "Lifetec AG Schweiz",
-    "phone": "+41 800 122 144",
-    "id": "node/10910676156"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4921302,
-      47.3897181
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10910676160",
   "properties": {
     "access": "yes",
@@ -13518,7 +13496,7 @@
     "description": "Während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "yes",
     "level": "1",
     "operator": "Stadt Zürich",
     "phone": "+41 44 412 78 79",
@@ -14472,7 +14450,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "MO-FR 06:00-20:30, SA-SU 06:00-16:30",
+    "opening_hours": "Mo-Fr 06:00-20:30, Sa-Su 06:00-16:30",
     "operator": "CSL Immobilien AG",
     "phone": "+41 58 400 85 00",
     "source": "local_knowledge, defikarte.ch",
@@ -17997,6 +17975,286 @@
     "coordinates": [
       8.565155,
       47.4102975
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13596462301",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Ebene Coop bei Lift",
+    "description": "Während Laden Öffnungszeiten ￼",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Baugenossenschaft Zurlinden",
+    "phone": "+41444971060",
+    "id": "node/13596462301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5142359,
+      47.3263006
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13615308601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rechts neben dem Eingang des Altersheims Tannenrauch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Altersheim Tannenrauch",
+    "id": "node/13615308601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5285821,
+      47.3454266
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13620055101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Zwischen Rezeption und Restaurant an der Hauswand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Pumpstation Gastro GmbH, Camping Fischer's Fritz",
+    "phone": "+41 78 918 88 15",
+    "id": "node/13620055101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5412889,
+      47.3358184
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13620205601",
+  "properties": {
+    "defibrillator:location": "Schulhaus Sihlquai",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "8",
+    "id": "node/13620205601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5349133,
+      47.3842588
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13622941701",
+  "properties": {
+    "defibrillator:location": "links vom Eingang Cafeteria",
+    "description": "während Büroöffnungszeiten, ausserhalb Schulferien",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Reformierte Kirche Kanton Zürich",
+    "id": "node/13622941701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5466672,
+      47.3744093
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13622943401",
+  "properties": {
+    "defibrillator:location": "Keller",
+    "description": "während Büroöffnungszeiten, ausserhalb Schulferien",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Reformierte Kirche Kanton Zürich",
+    "id": "node/13622943401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5464304,
+      47.3708784
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13622951001",
+  "properties": {
+    "defibrillator:location": "Keller",
+    "description": "während Büroöffnungszeiten, ausserhalb der Schulferien",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Reformierte Kirche Kanton Zürich",
+    "id": "node/13622951001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5452877,
+      47.3706294
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13624689001",
+  "properties": {
+    "emergency": "defibrillator",
+    "id": "node/13624689001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5452385,
+      47.409267
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13628509401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Holzerhurd 31",
+    "description": "Eingang Pavilon",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/13628509401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4958166,
+      47.4243837
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13639592979",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Lavaterhaus, unter der Treppe",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Evangelisch-reformierte Kirchgemeinde",
+    "phone": "+41 44 250 66 11",
+    "wheelchair": "limited",
+    "id": "node/13639592979"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.540549,
+      47.3718075
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13640967501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Locher Ingenieure AG, Pelikan-Platz 5, Sekretariat, 8001 Zürich",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:30-17:00",
+    "operator": "Locher Ingenieure AG",
+    "phone": "+41434437443",
+    "id": "node/13640967501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5360189,
+      47.3709906
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13641088601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Victoria Apotheke Zürich",
+    "description": "während Öffnungszeiten verfügbar, an Apothekenpersonal wenden",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Sa 08:00-19:00",
+    "operator": "Victoria Apotheke",
+    "phone": "+41 43 344 60 60",
+    "id": "node/13641088601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5382894,
+      47.374314
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13653354601",
+  "properties": {
+    "defibrillator:location": "Privathaus",
+    "description": "vor Hauseingang gut sichtbar von der Strasse aus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/13653354601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6008182,
+      47.3538383
     ]
   }
 }

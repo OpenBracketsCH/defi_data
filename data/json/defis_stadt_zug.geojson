@@ -241,6 +241,7 @@
     "level": "0",
     "opening_hours": "24/7",
     "operator": "Kanton Zug",
+    "wheelchair": "yes",
     "id": "node/7568739435"
   },
   "geometry": {
@@ -1693,13 +1694,14 @@
     "opening_hours": "Mo-Fr 08:00-17:30",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
+    "wheelchair": "yes",
     "id": "node/10763310129"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.51834,
-      47.17584
+      8.5182952,
+      47.1757937
     ]
   }
 },
@@ -1941,7 +1943,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Do: 7:30-19:30 Fr: 7:30-19:30",
+    "opening_hours": "Mo-Th 07:30-19:30; Fr 07:30-19:30",
     "operator": "Cubus Physio",
     "id": "node/11052543405"
   },
@@ -2111,7 +2113,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "MO-TH 7:30-20:00, FR 7:30-18:00, SA 8:30-13:00",
+    "opening_hours": "Mo-Th 07:30-20:00, Fr 07:30-18:00, Sa 08:30-13:00",
     "operator": "Privatperson",
     "phone": "+41417116770",
     "source": "local_knowledge, defikarte.ch",
@@ -2443,6 +2445,29 @@
     "coordinates": [
       8.521658,
       47.183856
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13637646601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Tor Ahornstrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 00",
+    "id": "node/13637646601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5205761,
+      47.1811886
     ]
   }
 }

@@ -3085,8 +3085,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7650662,
-      47.4705992
+      7.7654791,
+      47.4705304
     ]
   }
 },
@@ -4172,7 +4172,7 @@
   "id": "node/10763310519",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Hochhaus D, 2. OG;Hochhaus D, 6. OG;Hochhaus D, 8. OG;Hochhaus D, 4. OG;Hochhaus D, EG",
+    "defibrillator:location": "Hochhaus D, EG",
     "description": "in weissem Kasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -4234,8 +4234,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.61076,
-      47.53382
+      7.6104734,
+      47.5336624
     ]
   }
 },
@@ -4244,7 +4244,7 @@
   "id": "node/10763310522",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Gebäude Atelier A, 2. OG;Gebäude Atelier A, EG",
+    "defibrillator:location": "Gebäude Atelier A, EG Nord",
     "description": "in weissem Kasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -4258,32 +4258,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.61007,
-      47.53431
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10763310523",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Gebäude Atelier A, 2. OG;Gebäude Atelier A, EG",
-    "description": "in weissem Kasten",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "name": "Fachhochschule Nordwestschweiz FHNW Hochschule für Gestaltung und Kunst",
-    "opening_hours": "Mo-Fr 08:00-17:00",
-    "operator": "Lifetec AG Schweiz",
-    "phone": "+41 800 122 144",
-    "id": "node/10763310523"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.60986,
-      47.53434
+      7.6099381,
+      47.5343013
     ]
   }
 },
@@ -4783,6 +4759,10 @@
   "type": "Feature",
   "id": "node/10763310553",
   "properties": {
+    "addr:city": "Münchenstein",
+    "addr:housenumber": "10",
+    "addr:postcode": "4142",
+    "addr:street": "Oslo-Strasse",
     "defibrillator:location": "Im Eingangsbereich Gebäude FCL",
     "description": "in weissem Kasten",
     "emergency": "defibrillator",
@@ -4792,13 +4772,14 @@
     "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
+    "ref": "0642LTI",
     "id": "node/10763310553"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.61103,
-      47.53289
+      7.6096602,
+      47.5331498
     ]
   }
 },
@@ -8881,6 +8862,133 @@
     "coordinates": [
       7.5569671,
       47.4991482
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13609360801",
+  "properties": {
+    "defibrillator:location": "MZH Zunzgen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "id": "node/13609360801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8037402,
+      47.4509677
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13638090201",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Bürgergemeinde Münchenstein",
+    "description": "Zu Bürozeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo- Fr 09:00-15:00",
+    "operator": "Gemeinde",
+    "id": "node/13638090201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6209739,
+      47.5124114
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13641518501",
+  "properties": {
+    "defibrillator:location": "Gemeindeverwaltung, Villa Guggenheim",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo 8:30-11:30, 13:30-17:00; Tu 8:30-11:30; We 8:30-11:30, 13:30-17:00; Th 8:30- 11:30; Fr 8:30-14:00 ; Sa, Su off",
+    "operator": "Gemeinde",
+    "id": "node/13641518501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5447944,
+      47.552659
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13641972301",
+  "properties": {
+    "defibrillator:location": "Bushaltestelle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/13641972301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9046519,
+      47.4835504
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13646368801",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Werkstatt",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo - Fr 07:00 - 17:00",
+    "operator": "Firma Schwald Fenster AG",
+    "phone": "+41 61 331 10 70",
+    "id": "node/13646368801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6065127,
+      47.5307353
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13656910201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sekundarschule Binningen, Schulhof gegenüber Sporthalle",
+    "description": "Öffentlich verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Sekundarschule Binningen",
+    "id": "node/13656910201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5676211,
+      47.5329636
     ]
   }
 }

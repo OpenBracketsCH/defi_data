@@ -3970,11 +3970,11 @@
   "type": "Feature",
   "id": "node/9534300989",
   "properties": {
-    "access": "no",
+    "access": "permissive",
     "defibrillator:location": "Feuerwehrlokal",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "yes",
     "id": "node/9534300989"
   },
   "geometry": {
@@ -5825,8 +5825,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5259914,
-      46.9912967
+      8.52599,
+      46.9913076
     ]
   }
 },
@@ -7438,13 +7438,13 @@
     "access": "private",
     "addr:housenumber": "5",
     "addr:street": "Poststrasse",
-    "defibrillator:location": "EG, beim Empfang.\n1435LM",
+    "defibrillator:location": "EG, beim Empfang. 1435LM",
     "description": "Oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "Stäubli International AG",
-    "opening_hours": "Mo-Fr 08:30-12:00 13:30-17:00",
+    "opening_hours": "Mo-Fr 08:30-12:00,13:30-17:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "ref": "1435LTM",
@@ -7490,7 +7490,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "MO-SA 7:00 - 20:00",
+    "opening_hours": "Mo-Sa 07:00-20:00",
     "operator": "Kanton Schwyz",
     "phone": "+41 55 415 13 00",
     "source": "local_knowledge, defikarte.ch",
@@ -7514,7 +7514,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "MO-FR 7:00 - 18:00",
+    "opening_hours": "Mo-Fr 07:00-18:00",
     "operator": "Kanton Schwyz",
     "phone": "+41 55 415 13 00",
     "source": "local_knowledge, defikarte.ch",
@@ -8595,6 +8595,28 @@
     "coordinates": [
       8.8567752,
       47.1874658
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13586517101",
+  "properties": {
+    "defibrillator:location": "Aussen an der Hausfassade",
+    "description": "Über Tor steigen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Holcim Schweiz AG",
+    "phone": "+41 58 850 11 10",
+    "id": "node/13586517101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6247215,
+      46.9990414
     ]
   }
 }

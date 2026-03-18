@@ -1524,6 +1524,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "wheelchair": "yes",
     "id": "node/9209513185"
   },
   "geometry": {
@@ -6138,7 +6139,6 @@
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
-    "phone": "+41 79 838 00 22",
     "id": "node/13565059801"
   },
   "geometry": {
@@ -6354,6 +6354,80 @@
     "coordinates": [
       6.9503684,
       46.2622774
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13588414101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Entrance to the Rosablanche buildings C, D, E",
+    "description": "Parking deck level, inside the first door on the left wall, next to the mailboxes",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/13588414101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3170763,
+      46.1347509
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13644605664",
+  "properties": {
+    "emergency": "defibrillator",
+    "id": "node/13644605664"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3019095,
+      46.0849664
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13644605673",
+  "properties": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "id": "node/13644605673"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3182431,
+      46.0800633
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13655015101",
+  "properties": {
+    "defibrillator:location": "Maison de Commune",
+    "description": "Dehors vers le mur, côté Café Central",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Commune",
+    "id": "node/13655015101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9462545,
+      46.2690172
     ]
   }
 }
