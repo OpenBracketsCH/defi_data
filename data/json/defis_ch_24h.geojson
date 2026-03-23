@@ -2854,10 +2854,12 @@
   "id": "node/5462958966",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Auf dem Platz vor dem Gemeindehaus an einer grünen Säule bei den Informationstafeln.",
+    "defibrillator:location": "Ca. 20 Meter vor dem Gemeindehaus bei den Informationstafeln/Fahnen.",
+    "description": "Immer verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Vaz/Obervaz",
     "wheelchair": "yes",
@@ -2866,8 +2868,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5571537,
-      46.7264416
+      9.5572099,
+      46.7264067
     ]
   }
 },
@@ -15199,6 +15201,29 @@
     "coordinates": [
       6.1002439,
       46.1831195
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/6794746185",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "SPAR Einkaufsladen Valbella",
+    "description": "Immer zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Vaz/Obervaz",
+    "id": "node/6794746185"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.555387,
+      46.7463346
     ]
   }
 },
@@ -30616,26 +30641,6 @@
     "coordinates": [
       10.4246903,
       46.8691812
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7720904255",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Beim Schulhaus",
-    "description": "Öffentlich zugänglich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "id": "node/7720904255"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      10.3810032,
-      46.8341055
     ]
   }
 },
@@ -53120,8 +53125,11 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Kiosk Lido am See, vor Toiletten, links neben dem Kiosk an der Wand.",
+    "description": "Immer verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Vaz/Obervaz",
     "wheelchair": "yes",
@@ -72877,20 +72885,21 @@
   "id": "node/9627988871",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Vor Eingang",
+    "defibrillator:location": "SPAR Lain - beim Laden-Eingang",
+    "description": "Immer verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
-    "operator": "Gemeinde Vaz/Obervaz / Adrian Lenz",
-    "phone": "+41 81 385 21 14",
+    "operator": "Gemeinde Vaz/Obervaz",
     "id": "node/9627988871"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5282996,
-      46.6973424
+      9.5283883,
+      46.6971805
     ]
   }
 },
@@ -73025,6 +73034,29 @@
     "coordinates": [
       9.5570701,
       46.730101
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9628054736",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Werkhof Clavadoiras - aussen, rechts am Gebäude",
+    "description": "Immer verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Vaz/Obervaz",
+    "id": "node/9628054736"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5597818,
+      46.7203286
     ]
   }
 },
@@ -112971,6 +113003,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/11685933883",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussen, beim Eingang",
+    "description": "Immer verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Vaz/Oberavaz",
+    "id": "node/11685933883"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5548298,
+      46.7296802
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/11690090969",
   "properties": {
     "access": "yes",
@@ -151245,6 +151300,30 @@
     "coordinates": [
       6.6554054,
       46.7462271
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13671375602",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Zorten Haupteingang",
+    "description": "Immer verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Vaz/Obervaz",
+    "phone": "+41 81 385 21 51",
+    "id": "node/13671375602"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5344865,
+      46.6965494
     ]
   }
 }
