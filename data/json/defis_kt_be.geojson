@@ -2794,15 +2794,17 @@
     "defibrillator:location": "Eingangsbereich (auf Parkplatzseite)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "Mo-Sa 08:00-16:00",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 07:30-21:00",
     "operator": "Stadthaus/Gemeindeverwaltung Huttwil",
-    "phone": "+41 62 959 88 64",
+    "phone": "+41 62 959 88 88",
     "id": "node/6516286744"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.8489557,
+      7.8489556,
       47.1137276
     ]
   }
@@ -63108,6 +63110,54 @@
     "coordinates": [
       7.4784338,
       46.9765801
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13673566403",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Grenchenstrasse in Metall Halle im Büro",
+    "description": "Ja",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-17:00",
+    "operator": "Firma Thommen AG",
+    "phone": "+41 32 344 04 90",
+    "id": "node/13673566403"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2904182,
+      47.1584503
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13673575302",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Johann-Renfer-Strasse 57 im Büro",
+    "description": "Ja",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-17:00",
+    "operator": "Thommen AG",
+    "phone": "+41 32 344 04 90",
+    "id": "node/13673575302"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2880436,
+      47.1571608
     ]
   }
 }
