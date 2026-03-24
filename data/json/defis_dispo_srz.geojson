@@ -43773,11 +43773,13 @@
   "type": "Feature",
   "id": "node/10011403726",
   "properties": {
-    "defibrillator:location": "Turnhalleneingang",
+    "access": "permissive",
+    "defibrillator:location": "Lehrerzimmer Hauptgebäude (Wegen Umbau Turnhalle hierher verschoben)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 07:00-20:00",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Sanität24 AG",
     "phone": "+41 56 611 99 88",
     "id": "node/10011403726"
@@ -43785,8 +43787,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7175038,
-      47.3603975
+      8.7176772,
+      47.360546
     ]
   }
 },

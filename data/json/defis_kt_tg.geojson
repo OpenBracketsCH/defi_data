@@ -4436,17 +4436,21 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "In bus-stop shelter / In Wartehäuschen",
+    "description": "24/7",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
     "wheelchair": "yes",
     "id": "node/9655854529"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.2585515,
-      47.612044
+      9.258551,
+      47.6120437
     ]
   }
 },
@@ -7962,6 +7966,7 @@
     "defibrillator:location": "beim Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeindehaus",
     "phone": "+41 79 336 61 04",
@@ -7970,8 +7975,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.2893,
-      47.60527
+      9.2880982,
+      47.6036036
     ]
   }
 },
@@ -9813,6 +9818,7 @@
     "defibrillator:location": "Trakt C, aussen, Eingang Singsaal, Pausenhalle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Oberstufe Altnau",
     "phone": "+41 79 344 60 59",
@@ -9821,8 +9827,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.2581,
-      47.60944
+      9.2582985,
+      47.6095376
     ]
   }
 },
@@ -15726,6 +15732,29 @@
     "coordinates": [
       9.3599822,
       47.5031187
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13674695101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Kirche von der Seeseite",
+    "description": "24/7",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Kirchgemeinde",
+    "id": "node/13674695101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2577154,
+      47.6079979
     ]
   }
 }
