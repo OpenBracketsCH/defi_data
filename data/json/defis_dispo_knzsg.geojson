@@ -5610,17 +5610,19 @@
   "id": "node/7933707313",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Korridor Schulhaus",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Eingangsbereich Schulhaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Bezirksverwaltung Oberegg",
     "id": "node/7933707313"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5529344,
+      9.5529343,
       47.4209024
     ]
   }
