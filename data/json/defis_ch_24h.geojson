@@ -21713,16 +21713,17 @@
     "defibrillator:location": "öffentliche Toilette",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "24/7",
     "operator": "Talstation Skilift Lauenen",
-    "phone": "+41 79 69 347 69",
+    "phone": "+41 33 765 30 15",
     "id": "node/7541010569"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.323836,
-      46.4180116
+      7.3238361,
+      46.4180114
     ]
   }
 },
@@ -21734,18 +21735,20 @@
     "addr:city": "Lauenen",
     "addr:postcode": "3782",
     "addr:street": "Schulhaus",
+    "defibrillator:location": "Schulhaus Lauenen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "24/7",
     "operator": "Schulhaus Lauenen",
-    "phone": "+41 79 69 347 69",
+    "phone": "+41 33 765 30 15",
     "id": "node/7541010570"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.321409,
-      46.4239467
+      7.3214114,
+      46.4239476
     ]
   }
 },
@@ -151530,6 +151533,27 @@
     "coordinates": [
       6.7161184,
       46.4936326
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13678589201",
+  "properties": {
+    "defibrillator:location": "Im Vorraum der Saanen Bank",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung Lauenen",
+    "phone": "+41 33 765 30 15",
+    "id": "node/13678589201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.322438,
+      46.424727
     ]
   }
 }
