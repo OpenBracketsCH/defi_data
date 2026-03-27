@@ -22277,12 +22277,13 @@
   "type": "Feature",
   "id": "node/11528045969",
   "properties": {
-    "defibrillator:location": "Gemeindehaus, Hauptstrasse 66 Einwohnerkontrolle",
-    "description": "während der Öffnungszeiten verfügbar",
+    "defibrillator:location": "Breiteschulhaus /Turnhalle links neben dem Haupteingang ins Schulhaus",
+    "description": "erst ab 10.4.2026 verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-17:00",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Reinach AG",
     "phone": "+41 79 680 10 86",
     "source": "local_knowledge, defikarte.ch",
@@ -22291,8 +22292,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.1829262,
-      47.2504557
+      8.176774,
+      47.2554484
     ]
   }
 },
