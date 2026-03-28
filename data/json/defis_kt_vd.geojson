@@ -11268,33 +11268,13 @@
 },
 {
   "type": "Feature",
-  "id": "node/12634121101",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Rue St Laurent 20, 1003 Lausanne",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "0041 21 320 46 79",
-    "id": "node/12634121101"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      6.6306356,
-      46.5224235
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12634556002",
   "properties": {
     "access": "yes",
     "defibrillator:location": "Rue St Laurent 20, 1003 Lausanne",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "no;yes",
     "operator": "Mc Donald’s",
     "phone": "+41 21 320 46 79",
     "id": "node/12634556002"
@@ -11302,8 +11282,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.6306335,
-      46.5224233
+      6.6306356,
+      46.5224235
     ]
   }
 },
