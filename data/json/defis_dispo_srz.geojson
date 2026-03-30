@@ -85679,7 +85679,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "2",
-    "opening_hours": "Mo 10:00-19:00 , Tu 8:00-17:00 , We 7:00-16:00 , Th 8:00-17:00 , Fr 7:00-14:00",
+    "opening_hours": "Mo 10:00-14:00, 15:00-19:00 , Tu 8:00-12:00, We7:00-12:00, Th 8:00-12:00, Fr 7:00-14:00",
     "operator": "Praxis am Neuhof",
     "phone": "+41447801433",
     "source": "local_knowledge, defikarte.ch",
@@ -89099,6 +89099,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Su 07:00-23:00",
     "operator": "Hotel",
     "phone": "+41 43 388 33 00",
@@ -99072,6 +99073,28 @@
     "coordinates": [
       8.9087214,
       47.1442847
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13691341401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bestattungshalle neben Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "id": "node/13691341401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5281762,
+      47.3075736
     ]
   }
 }

@@ -109664,6 +109664,7 @@
     "defibrillator:location": "Haupteingang zu Coop",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "level": "0",
     "opening_hours": "24/7",
     "wheelchair": "limited",
@@ -151740,6 +151741,28 @@
     "coordinates": [
       8.9087214,
       47.1442847
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13691341401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bestattungshalle neben Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "id": "node/13691341401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5281762,
+      47.3075736
     ]
   }
 }
