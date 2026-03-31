@@ -39353,9 +39353,15 @@
   "type": "Feature",
   "id": "node/9705153575",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Eingang Turnhalle links",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Lara Villars",
+    "phone": "+41 31 960 00 30",
     "id": "node/9705153575"
   },
   "geometry": {
@@ -63318,6 +63324,75 @@
     "coordinates": [
       7.3795308,
       46.9684303
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13695008101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rechts neben Schulhauseingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Lara Villars",
+    "phone": "+41 31 960 00 30",
+    "id": "node/13695008101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4722914,
+      46.9110701
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13695011701",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Im Gang Richtung Schwimmbecken",
+    "description": "Das AED-Gerät befindet sich im Gebäude der Schulanlage. Während Schulbetrieb ist dieser zugänglich. Nach Schulbetrieb sowie am Wochenende nicht zugänglich.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Lara Villars",
+    "phone": "+41 31 960 00 30",
+    "id": "node/13695011701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4738204,
+      46.9159024
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13695014501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Im Eingangsbereich der Aula",
+    "description": "Das AED-Gerät befindet sich im Gebäude der Schulanlage. Während Schulbetrieb ist dieser zugänglich. Nach Schulbetrieb sowie am Wochenende nicht zugänglich.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Lara Villars",
+    "phone": "+41 31 960 00 30",
+    "id": "node/13695014501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4735336,
+      46.9155626
     ]
   }
 }
