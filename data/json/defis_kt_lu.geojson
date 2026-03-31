@@ -10716,8 +10716,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2870753,
-      47.0743743
+      8.2876708,
+      47.0742391
     ]
   }
 },
@@ -23924,7 +23924,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "07:00-18:00",
+    "opening_hours": "07:00-10:00, 16:00-18:00",
     "operator": "Luzerner Psychiatrie AG",
     "phone": "+41 58 856 50 46",
     "id": "node/13677273001"
@@ -23932,7 +23932,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3003233,
+      8.3003234,
       47.0500406
     ]
   }
@@ -23973,6 +23973,30 @@
     "coordinates": [
       8.0631795,
       46.9943428
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13695086301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Walter-von-Moos-Promenade 3",
+    "description": "In der \"Gleissloggia\" überdachte Passerelle. Der Standort ist zusätzlich Ausgeschildert.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Hochschule Luzern",
+    "phone": "+41 41 228 41 15",
+    "id": "node/13695086301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3121625,
+      47.0462984
     ]
   }
 }

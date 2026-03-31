@@ -1256,32 +1256,15 @@
 },
 {
   "type": "Feature",
-  "id": "node/7721013384",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "In Arztpraxis",
-    "description": "nur während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/7721013384"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5226333,
-      47.1982277
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7721023585",
   "properties": {
     "access": "yes",
+    "check_date": "2026-03-31",
     "defibrillator:location": "In Arztpraxis",
     "description": "nur während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "id": "node/7721023585"
   },
   "geometry": {
