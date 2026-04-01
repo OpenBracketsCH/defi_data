@@ -10215,7 +10215,8 @@
   "type": "Feature",
   "id": "node/7637818809",
   "properties": {
-    "description": "Haupteingang",
+    "access": "permissive",
+    "defibrillator:location": "Haupteingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -10225,7 +10226,7 @@
     "type": "Point",
     "coordinates": [
       8.3023542,
-      47.050989
+      47.0509889
     ]
   }
 },
@@ -15928,17 +15929,20 @@
   "type": "Feature",
   "id": "node/7637819175",
   "properties": {
-    "description": "Eingang links unter Briefkasten",
+    "defibrillator:location": "Eingang links unter Briefkasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
     "name": "Gemeinde Adligenswil",
+    "opening_hours": "24/7",
     "id": "node/7637819175"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3638024,
-      47.0718021
+      8.3638036,
+      47.0718025
     ]
   }
 },

@@ -83,6 +83,7 @@
   "type": "Feature",
   "id": "node/6251274093",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Neben der Geschirrrückgae",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -92,7 +93,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5817817,
+      7.5817814,
       47.5615179
     ]
   }
@@ -499,12 +500,13 @@
   "type": "Feature",
   "id": "node/9088936117",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "LZM Unibasel 3. Stock",
     "description": "von Treppen aus, gerade aus.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr: 8:00-19:00",
+    "opening_hours": "Mo-Fr 08:00-19:00",
     "operator": "Universität Basel",
     "id": "node/9088936117"
   },
