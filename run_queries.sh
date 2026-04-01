@@ -38,6 +38,12 @@ cat $DIR/queries/defis_dispo_srz.overpassql | python $DIR/overpass_query.py | os
 echo -ne "\t\t - Done.\r"
 echo ""
 
+# Defibrillatoren Dispogebiet LUKS
+echo -ne "Query Defibrillatoren Dispogebiet LUKS...         "
+cat $DIR/queries/defis_dispo_luks.overpassql | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/json/defis_dispo_luks.geojson
+echo -ne "\t\t - Done.\r"
+echo ""
+
 # Defibrillatoren KNZ St.Gallen
 echo -ne "Query Defibrillatoren KNZ St. Gallen...           "
 cat $DIR/queries/defis_dispo_knzsg.overpassql | python $DIR/overpass_query.py | osmtogeojson > $DIR/data/json/defis_dispo_knzsg.geojson
