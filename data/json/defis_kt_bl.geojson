@@ -5519,13 +5519,13 @@
   "id": "node/11151089705",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "2. Stock. Für Zutritt bei SISA klingeln. Lift, 2. Stock aussteigen. Links und dann direkt nochmals links. AED hängt über dem Feuerlöscher",
+    "defibrillator:location": "Gewerbestrasse 7a, 2. Stock. Für Zutritt bei SISA klingeln. Lift, 2. Stock aussteigen. Links und dann direkt nochmals links. AED hängt über dem Feuerlöscher",
     "description": "Nur während Bürozeiten erreichbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "2",
-    "operator": "Firma",
+    "operator": "SISA Studio Informatica SA",
     "phone": "+41792477315",
     "id": "node/11151089705"
   },
@@ -9335,6 +9335,51 @@
     "coordinates": [
       7.599919,
       47.489733
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13701041801",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Haupteingang Calvinhaus, Baslerstrasse 226",
+    "description": "Nur öffentlich zugänglich während Veranstaltungen im Calvinhaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Reformierte Kirchgemeinde Allschwil-Schönenbuch",
+    "phone": "+41 61 481 30 11",
+    "id": "node/13701041801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5530778,
+      47.5534464
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13701080101",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Wohnhaus mit Physiotherapie",
+    "description": "Zugänglich wenn A. Früh anwesend",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Privatperson",
+    "id": "node/13701080101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.751974,
+      47.385571
     ]
   }
 }
