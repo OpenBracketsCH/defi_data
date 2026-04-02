@@ -288,17 +288,21 @@
   "id": "node/8971490662",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Aussen an der Apotheke",
+    "defibrillator:location": "Aussen rechts an der Apotheke (grüner Kasten), Zürcherstrasse 97",
+    "description": "automatische telefonische Verbindung mit Notfallzentrale nach Öffnen der Box",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Breite-Apotheke AG",
+    "phone": "+41 61 319 98 98",
     "id": "node/8971490662"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6114667,
-      47.5547956
+      7.6114668,
+      47.5547958
     ]
   }
 },
@@ -3756,6 +3760,29 @@
     "coordinates": [
       7.6651528,
       47.5708953
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13700885301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bluttrainwer 12 Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Riehen",
+    "phone": "+41 61 646 81 61",
+    "id": "node/13700885301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.635897,
+      47.570023
     ]
   }
 }

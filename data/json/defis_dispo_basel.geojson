@@ -1123,17 +1123,21 @@
   "id": "node/8971490662",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Aussen an der Apotheke",
+    "defibrillator:location": "Aussen rechts an der Apotheke (grüner Kasten), Zürcherstrasse 97",
+    "description": "automatische telefonische Verbindung mit Notfallzentrale nach Öffnen der Box",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Breite-Apotheke AG",
+    "phone": "+41 61 319 98 98",
     "id": "node/8971490662"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6114667,
-      47.5547956
+      7.6114668,
+      47.5547958
     ]
   }
 },
@@ -12976,6 +12980,146 @@
     "coordinates": [
       7.6007812,
       47.4743292
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13700885301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bluttrainwer 12 Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Riehen",
+    "phone": "+41 61 646 81 61",
+    "id": "node/13700885301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.635897,
+      47.570023
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13700908701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hauseingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Roggenburg",
+    "phone": "+41 76 390 88 55",
+    "id": "node/13700908701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3404777,
+      47.4325642
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13700926201",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "EG in der Praxis",
+    "description": "Zu den Praxisöffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:30-17:00",
+    "phone": "+41 61 551 26 00",
+    "id": "node/13700926201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8141561,
+      47.464149
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13700927401",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Luisi & Diener AG",
+    "description": "während der Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "phone": "+41 61 711 40 76",
+    "id": "node/13700927401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5208032,
+      47.434342
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13700941601",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Haupteingang",
+    "description": "während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "07:00 - 17:30",
+    "operator": "Firma Beijer Ref Schweiz AG",
+    "phone": "+41 61 906 14 14",
+    "id": "node/13700941601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7215071,
+      47.5011519
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13700953901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bruggstrasse 91",
+    "description": "von 08.00 - 23.00 Uhr ist das Gebäude offen. Während der Nacht ist ein Pikettdienst im Haus und öffnet nach Klingelnd die Tür.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Verein für Sozialpsychiatrie Baselland",
+    "phone": "+41 61 500 62 00",
+    "id": "node/13700953901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.599919,
+      47.489733
     ]
   }
 }
