@@ -5392,21 +5392,21 @@
   "id": "node/10753566134",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Hintereingang neben Tür, Erdgeschoss Gartenseitig /Innenhof",
+    "defibrillator:location": "Hintereingang neben Tür aussen, Erdgeschoss Gartenseitig /Innenhof",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
-    "operator": "Eisenbahner Baugenossenschaft beider Basel",
-    "phone": "+41613113677",
+    "operator": "Eisenbahner Baugenossenschaft beider Basel / Am Stausee 1 / 4127 Birsfelden",
+    "phone": "+41 79 694 90 88",
     "id": "node/10753566134"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
       7.6295704,
-      47.5553487
+      47.5553486
     ]
   }
 },
@@ -12852,6 +12852,77 @@
     "coordinates": [
       7.8309323,
       47.454737
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13700639501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rückseite Briefkasten vor Haus",
+    "description": "Rückseite Briefkasten vor dem Eingang zum Haus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Privatperson",
+    "phone": "+41 61 416 05 50",
+    "id": "node/13700639501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6185076,
+      47.4951719
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13700726601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussen beim Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Altersheim zum Eibach Gelterkinden",
+    "phone": "+41 61 985 99 00",
+    "id": "node/13700726601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8531578,
+      47.4647471
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13700727401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Dellenbodenweg 8",
+    "description": "Beim Haupteingang aussen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Firma Schaer Pharma",
+    "phone": "+41 61 975 05 00",
+    "id": "node/13700727401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7762436,
+      47.4677897
     ]
   }
 }
