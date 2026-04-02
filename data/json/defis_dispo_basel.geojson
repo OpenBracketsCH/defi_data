@@ -3274,19 +3274,23 @@
   "type": "Feature",
   "id": "node/9615020417",
   "properties": {
-    "defibrillator:location": "Kirche Arisdorf",
+    "access": "yes",
+    "defibrillator:location": "Reformierte Kirche Arisdorf",
     "description": "Im Eingangsbereich der Kirche",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Su 07:00-22:00",
+    "operator": "Kirchgemeinde Arisdorf",
+    "phone": "+41 79 626 44 22",
     "id": "node/9615020417"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7668597,
-      47.5107366
+      7.7668592,
+      47.5107369
     ]
   }
 },
