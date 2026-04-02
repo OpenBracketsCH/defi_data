@@ -64204,6 +64204,7 @@
   "id": "node/9211049156",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Gemeindehaus Fulenbach neben Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -64214,8 +64215,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.8339732,
-      47.2755055
+      7.8339735,
+      47.2755058
     ]
   }
 },
@@ -80856,7 +80857,7 @@
   "id": "node/10068642546",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Haupteingang Aussen",
+    "defibrillator:location": "Links vom Haupteingang SRK Baselland",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -151897,6 +151898,29 @@
     "coordinates": [
       9.3740167,
       47.5673129
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13700487201",
+  "properties": {
+    "defibrillator:location": "Lieferanteneingang in Nische bei Türe",
+    "description": "Immer verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "APH Jakobushaus",
+    "phone": "+41 61 975 85 25",
+    "id": "node/13700487201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8309323,
+      47.454737
     ]
   }
 }

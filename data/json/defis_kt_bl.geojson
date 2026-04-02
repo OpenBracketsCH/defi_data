@@ -3160,7 +3160,7 @@
   "id": "node/10068642546",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Haupteingang Aussen",
+    "defibrillator:location": "Links vom Haupteingang SRK Baselland",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -9100,6 +9100,29 @@
     "coordinates": [
       7.7651965,
       47.4390622
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13700487201",
+  "properties": {
+    "defibrillator:location": "Lieferanteneingang in Nische bei Türe",
+    "description": "Immer verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "APH Jakobushaus",
+    "phone": "+41 61 975 85 25",
+    "id": "node/13700487201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8309323,
+      47.454737
     ]
   }
 }
