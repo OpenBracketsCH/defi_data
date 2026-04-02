@@ -95,7 +95,7 @@ jobs:
           password: ${{ secrets.MAIL_PASS }}
           subject: "Änderungen an Defis Dispo LUKS"
           html_body: file://diff.html
-          to: ${{ secrets.MAIL_RECIPIENT_BE }}
+          to: ${{ secrets.MAIL_RECIPIENT_LUKS }}
           cc: ${{ secrets.MAIL_COPY }}
           from: defikarte.ch Reports
 
