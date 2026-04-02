@@ -2761,27 +2761,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9651180350",
-  "properties": {
-    "defibrillator:location": "Eingangsbereich EG links",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Einwohnergemeinde Hägendorf",
-    "phone": "+41 62 209 17 12",
-    "id": "node/9651180350"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.8445685,
-      47.337506
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9651180351",
   "properties": {
     "defibrillator:location": "Nach Eingangsbereich in Garderobe",
@@ -10639,6 +10618,29 @@
     "coordinates": [
       7.6121224,
       47.4765173
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13700748592",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An der Hausecke der reformierten Kirche",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "imdoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Hägendorf",
+    "phone": "+41 62 209 17 12",
+    "id": "node/13700748592"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8471401,
+      47.3299542
     ]
   }
 }

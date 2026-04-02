@@ -154,25 +154,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8260051064",
-  "properties": {
-    "defibrillator:location": "Gemeindehaus Bettingen",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "id": "node/8260051064"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6647445,
-      47.5709037
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8590117259",
   "properties": {
     "access": "yes",
@@ -3727,6 +3708,54 @@
     "coordinates": [
       7.593998,
       47.5513539
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13700797701",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Amt für Umwelt und Energie",
+    "description": "Während Bürozeiten. Am Schalter melden. Achtung von 12:00 - 13:00 geschlossen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo - Fr 08:00 - 17:00",
+    "operator": "Amt für Umwelt und Energie",
+    "phone": "+41 612670812",
+    "id": "node/13700797701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.587055,
+      47.559728
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13700798201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bioflix Einkaufladen 5meter links neben Eingang",
+    "description": "immer zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Bettingen",
+    "phone": "+41 61 267 00 80",
+    "id": "node/13700798201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6651528,
+      47.5708953
     ]
   }
 }

@@ -2034,10 +2034,11 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Im Hotel Rössli unter der Brandmeldeanlage im Eingang.",
+    "description": "während den Öffnungszeiten/ Mittwoch geschlossen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Th-Tu 06:30-23:00; Su 07:30-22:00",
+    "level": "0",
     "operator": "Hotel Rössli Allschwil",
     "phone": "+41 61 486 96 96",
     "id": "node/9310731916"
@@ -2539,16 +2540,17 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
-    "operator": "Merian Gärten",
-    "phone": "+41 61 319 97 80",
+    "operator": "Merian Gärten, Vorder Brüglingen 5, 4052 Basel",
+    "phone": "+41 79 826 74 66",
     "id": "node/9625753474"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
       7.6140882,
-      47.5346604
+      47.5346603
     ]
   }
 },
@@ -4024,8 +4026,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7333182,
-      47.4429935
+      7.7337951,
+      47.4428915
     ]
   }
 },
@@ -8713,7 +8715,7 @@
   "id": "node/13306009501",
   "properties": {
     "access": "permissive",
-    "defibrillator:location": "Therapie- und Trainingscenter Chraft Chäller",
+    "defibrillator:location": "Therapie- und Trainingscenter Chraft Chäller, nach Eintreten im Center im -1 rechts neben Eingangstüre zu finden",
     "description": "während den Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -8727,8 +8729,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7700298,
-      47.4238053
+      7.7700296,
+      47.4238052
     ]
   }
 },
@@ -9194,6 +9196,28 @@
     "coordinates": [
       7.7762436,
       47.4677897
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13700854001",
+  "properties": {
+    "defibrillator:location": "Schulhaus Schützenmatt",
+    "description": "während der Öffnungszeiten der Schule bzw. Schwimmhalle verfügbar.Ausserhalb Schulferien, Mo - Fr 07:00 bis 21:30 Uhr, Sa 08:00 - 16:00 Uhr",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Gemeinde Aesch",
+    "phone": "+41 61 756 77 25",
+    "id": "node/13700854001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6007812,
+      47.4743292
     ]
   }
 }

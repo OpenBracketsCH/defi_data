@@ -43254,13 +43254,10 @@
   "type": "Feature",
   "id": "node/10771293006",
   "properties": {
-    "defibrillator:location": "Werkstatt",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "-",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Carrosserie Jud GmbH",
-    "phone": "+41 43 266 37 37",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10771293006"
   },
@@ -43283,14 +43280,15 @@
     "indoor": "yes",
     "level": "0",
     "opening_hours": "Mo 07:00-18:00, Tu-Th 07:00-17:00; Fr 07:00-16:00",
+    "operator": "Carrosserie Jud GmbH",
     "phone": "+41763950909",
     "id": "node/10771317905"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6432637,
-      47.4284425
+      8.6430147,
+      47.4285088
     ]
   }
 },

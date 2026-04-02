@@ -38748,25 +38748,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8260051064",
-  "properties": {
-    "defibrillator:location": "Gemeindehaus Bettingen",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "id": "node/8260051064"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6647445,
-      47.5709037
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8274917270",
   "properties": {
     "access": "yes",
@@ -72880,16 +72861,17 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
-    "operator": "Merian Gärten",
-    "phone": "+41 61 319 97 80",
+    "operator": "Merian Gärten, Vorder Brüglingen 5, 4052 Basel",
+    "phone": "+41 79 826 74 66",
     "id": "node/9625753474"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
       7.6140882,
-      47.5346604
+      47.5346603
     ]
   }
 },
@@ -92248,8 +92230,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7333182,
-      47.4429935
+      7.7337951,
+      47.4428915
     ]
   }
 },
@@ -152039,6 +152021,75 @@
     "coordinates": [
       7.7762436,
       47.4677897
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13700748592",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An der Hausecke der reformierten Kirche",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "imdoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Hägendorf",
+    "phone": "+41 62 209 17 12",
+    "id": "node/13700748592"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8471401,
+      47.3299542
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13700791201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "entrée principale du théâtre des Alambics Martigny",
+    "description": "à l'extérieur, sur le mur, à droite de la porte",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/13700791201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0750057,
+      46.1022171
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13700798201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bioflix Einkaufladen 5meter links neben Eingang",
+    "description": "immer zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Bettingen",
+    "phone": "+41 61 267 00 80",
+    "id": "node/13700798201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6651528,
+      47.5708953
     ]
   }
 }
