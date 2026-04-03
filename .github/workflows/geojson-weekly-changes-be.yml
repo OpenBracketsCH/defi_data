@@ -1,0 +1,155 @@
+name: Wöchentlicher Änderungs-Report Bern
+on:
+  schedule:
+    - cron: "0 7 * * 1"   # jeden Montag um 07:00 UTC
+  workflow_dispatch:       # manueller Trigger zum Testen
+
+jobs:
+  weekly-report:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout latest main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Check if pending changes exist
+        run: |
+          FILE=".reporting/pending_changes_be.json"
+          if [ -f "$FILE" ] && [ -s "$FILE" ]; then
+            COUNT=$(python3 -c "import json; data=json.load(open('$FILE')); print(len(data))")
+            if [ "$COUNT" -gt "0" ]; then
+              echo "HAS_PENDING=true" >> $GITHUB_ENV
+              echo "PENDING_COUNT=$COUNT" >> $GITHUB_ENV
+            else
+              echo "HAS_PENDING=false" >> $GITHUB_ENV
+            fi
+          else
+            echo "HAS_PENDING=false" >> $GITHUB_ENV
+          fi
+
+      - name: Keine Änderungen – abbrechen
+        if: env.HAS_PENDING == 'false'
+        run: echo "Keine gesammelten Änderungen vorhanden. Kein Mail wird versendet."
+
+      - name: Setup Python
+        if: env.HAS_PENDING == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Weekly-HTML aus pending changes generieren
+        if: env.HAS_PENDING == 'true'
+        run: |
+          python3 - <<'EOF'
+          import json, html, os
+          from datetime import datetime, timezone
+
+          with open(".reporting/pending_changes_be.json", encoding="utf-8") as f:
+              entries = json.load(f)
+
+          def maps_links(lon, lat, key=None):
+              links = []
+              if key and key.startswith(("node/", "way/", "relation/")):
+                  links.append(f'<a href="https://www.openstreetmap.org/{key}">OSM</a>')
+              elif lon is not None and lat is not None:
+                  links.append(f'<a href="https://www.openstreetmap.org/?mlat={lat}&mlon={lon}#map=19/{lat}/{lon}">OSM</a>')
+              if lon is not None and lat is not None:
+                  links.append(f'<a href="https://www.google.com/maps?q={lat},{lon}">Google Maps</a>')
+              return " | ".join(links)
+
+          rows = []
+          for e in entries:
+              lon, lat = e.get("lon"), e.get("lat")
+              key = e.get("key", "")
+              addr = e.get("address") or ""
+              name = e.get("name", "(ohne Name)")
+              changes = e.get("changes", [])
+              detected = e.get("detected_at", "")[:10]  # nur Datum
+              links = maps_links(lon, lat, key)
+
+              rows.append(f"""
+              <tr class="changed">
+                <td>geändert</td>
+                <td>{html.escape(name)}<br><small>ID: {html.escape(key)}</small></td>
+                <td>{html.escape(addr)}</td>
+                <td>{html.escape(f"{lon}, {lat}") if lon is not None and lat is not None else ""}</td>
+                <td>{links}</td>
+                <td>{("<br>".join(html.escape(c) for c in changes))}<br><small>Erkannt: {html.escape(detected)}</small></td>
+              </tr>
+              """)
+
+          today = datetime.now(timezone.utc).strftime("%d.%m.%Y")
+          output = f"""
+          <html>
+          <head>
+          <meta charset="utf-8"/>
+          <style>
+          body {{ font-family: Arial, sans-serif; }}
+          table {{ border-collapse: collapse; width: 100%; }}
+          th, td {{ border: 1px solid #ddd; padding: 8px; vertical-align: top; }}
+          th {{ background-color: #f4f4f4; }}
+          tr.changed {{ background-color: #fff8e6; }}
+          small {{ color: #666; }}
+          </style>
+          </head>
+          <body>
+          <img src="https://defikarte.ch/defikarte-logo-quer-gruen-positiv-rgb.png" alt="defikarte.ch" style="width:200px;"/>
+          <h2>Wöchentlicher Änderungs-Report – Kanton Bern</h2>
+          <p>Zusammenstellung aller geänderten Defibrillatoren der letzten Woche (Stand {html.escape(today)}).</p>
+          <p><strong>{len(entries)} Einträge geändert</strong></p>
+          <table>
+            <tr>
+              <th>Status</th><th>Name</th><th>Adresse</th>
+              <th>Koordinaten</th><th>Karte</th><th>Details</th>
+            </tr>
+            {"".join(rows)}
+          </table>
+          <br>
+          <p>Zur Erklärung: Die Tabelle zeigt geänderte Datensätze mit Pfeilen alt → neu.</p>
+          <h6>Dies ist eine automatisch generierte E-Mail von defikarte.ch</h6>
+          </body>
+          </html>
+          """
+
+          with open("diff_weekly.html", "w", encoding="utf-8") as f:
+              f.write(output)
+
+          print(f"diff_weekly.html geschrieben mit {len(entries)} Einträgen.")
+          EOF
+
+      - name: Weekly-Mail versenden
+        if: env.HAS_PENDING == 'true'
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: asmtp.mail.hostpoint.ch
+          server_port: 587
+          secure: false
+          username: ${{ secrets.MAIL_USER }}
+          password: ${{ secrets.MAIL_PASS }}
+          subject: "Wöchentlicher Änderungs-Report – Kanton Bern (${{ env.PENDING_COUNT }} Änderungen)"
+          html_body: file://diff_weekly.html
+          to: ${{ secrets.MAIL_RECIPIENT_BE }}
+          cc: ${{ secrets.MAIL_COPY }}
+          from: defikarte.ch Reports
+
+      - name: Pending changes leeren nach Versand
+        if: env.HAS_PENDING == 'true'
+        run: |
+          set -euo pipefail
+
+          # Datei leeren (leeres Array)
+          echo "[]" > .reporting/pending_changes_be.json
+
+          git config user.name "defikarte.ch Reporting Bot"
+          git config user.email "chrigi@chnuessli.ch"
+          git add .reporting/pending_changes_be.json
+          git commit -m "clear pending changes BE after weekly report"
+
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && break
+            echo "Push failed, retry $i..."
+            sleep 2
+          done
