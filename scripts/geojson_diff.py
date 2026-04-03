@@ -1,10 +1,15 @@
-import json 
+import json
 import sys
 import html
 import re
+import os
+from datetime import datetime, timezone
 
 old_file = sys.argv[1]
 new_file = sys.argv[2]
+# Optionaler dritter Parameter: Pfad zur pending-changes-Datei
+# Standard: .reporting/pending_changes_be.json
+pending_file = sys.argv[3] if len(sys.argv) > 3 else ".reporting/pending_changes_be.json"
 
 # Felder, die "geändert" auslösen sollen (erweiterbar)
 RELEVANT_FIELDS = [
@@ -64,10 +69,6 @@ def normalize_osm_id(s: str) -> str:
     return s
 
 def get_key(feature) -> str | None:
-    """
-    Stable identity key so that 'changed' works.
-    Supports multiple Overpass/GeoJSON variants.
-    """
     p = feature.get("properties", {}) or {}
 
     for k in ("@id", "osm_id", "osm:id", "id", "osmid", "osmId"):
@@ -79,7 +80,6 @@ def get_key(feature) -> str | None:
     if v is not None and str(v).strip():
         return normalize_osm_id(v)
 
-    # last resort: coords+name (avoid losing everything)
     lon, lat = coords(feature)
     name = p.get("name", "")
     if lon is not None and lat is not None:
@@ -111,30 +111,17 @@ def index(features):
 def props(feature):
     return feature.get("properties", {}) or {}
 
-old = load(old_file)
-new = load(new_file)
-
-old_idx = index(old.get("features", []) or [])
-new_idx = index(new.get("features", []) or [])
-
-added = sorted(set(new_idx) - set(old_idx))
-removed = sorted(set(old_idx) - set(new_idx))
-common = sorted(set(new_idx) & set(old_idx))
-
-rows = []
-summary = {"neu": 0, "geändert": 0, "gelöscht": 0}
-
-def add_row(category, feature, changes=None):
+def build_row(category, feature, changes=None):
     p = props(feature)
     lon, lat = coords(feature)
     key = get_key(feature)
     addr = address(p)
     links = maps_links(lon, lat, key)
 
-    css = {"neu":"new", "gelöscht":"removed", "geändert":"changed"}[category]
+    css = {"neu": "new", "gelöscht": "removed", "geändert": "changed"}[category]
     name = str(p.get("name", "(ohne Name)"))
 
-    rows.append(f"""
+    return f"""
     <tr class="{css}">
       <td>{html.escape(category)}</td>
       <td>{html.escape(name)}<br><small>ID: {html.escape(key or "")}</small></td>
@@ -143,37 +130,10 @@ def add_row(category, feature, changes=None):
       <td>{links}</td>
       <td>{("<br>".join(html.escape(c) for c in changes)) if changes else ""}</td>
     </tr>
-    """)
+    """
 
-# NEU
-for k in added:
-    add_row("neu", new_idx[k])
-    summary["neu"] += 1
-
-# GELÖSCHT
-for k in removed:
-    add_row("gelöscht", old_idx[k])
-    summary["gelöscht"] += 1
-
-# GEÄNDERT
-for k in common:
-    op = props(old_idx[k])
-    np = props(new_idx[k])
-
-    changes = []
-    for f in RELEVANT_FIELDS:
-        if op.get(f) != np.get(f):
-            changes.append(f"{f}: '{op.get(f)}' → '{np.get(f)}'")
-
-    if changes:
-        add_row("geändert", new_idx[k], changes)
-        summary["geändert"] += 1
-
-# wenn wirklich gar nichts reportenswertes:
-if not rows:
-    sys.exit(0)
-
-html_mail = f"""
+def build_html(rows, summary, title="Änderungen an Defibrillatoren im Einzugsgebiet"):
+    return f"""
 <html>
 <head>
 <meta charset="utf-8"/>
@@ -190,9 +150,8 @@ small {{ color: #666; }}
 </head>
 <body>
 <img src="https://defikarte.ch/defikarte-logo-quer-gruen-positiv-rgb.png" alt="defikarte.ch" style="width:200px;"/>
-<h2>Änderungen an Defibrillatoren im Einzugsgebiet.</h2>
-<p><strong>Zusammenfassung:</strong> {summary['neu']} neu, {summary['geändert']} geändert, {summary['gelöscht']} gelöscht</p>
-
+<h2>{html.escape(title)}</h2>
+<p><strong>Zusammenfassung:</strong> {summary.get('neu', 0)} neu, {summary.get('geändert', 0)} geändert, {summary.get('gelöscht', 0)} gelöscht</p>
 <table>
   <tr>
     <th>Status</th>
@@ -205,12 +164,85 @@ small {{ color: #666; }}
   {''.join(rows)}
 </table>
 <br>
-<pr> Zur Erklärung: Die Tabelle zeigt immer den Status (neu, geändert, gelöscht) des neuen Datensatzes an. Weiter sind die Änderungen mit Pfeilen alt/neu gekennzeichnet. </pr>
+<p>Zur Erklärung: Die Tabelle zeigt immer den Status (neu, geändert, gelöscht) des neuen Datensatzes an. Weiter sind die Änderungen mit Pfeilen alt/neu gekennzeichnet.</p>
 <br>
-<h6> Dies ist eine automatisch generierte E-Mail von defikarte.ch </h6>
+<h6>Dies ist eine automatisch generierte E-Mail von defikarte.ch</h6>
 </body>
 </html>
 """
 
-with open("diff.html", "w", encoding="utf-8") as f:
-    f.write(html_mail)
+# ── Daten laden ────────────────────────────────────────────────────────────────
+old = load(old_file)
+new = load(new_file)
+
+old_idx = index(old.get("features", []) or [])
+new_idx = index(new.get("features", []) or [])
+
+added   = sorted(set(new_idx) - set(old_idx))
+removed = sorted(set(old_idx) - set(new_idx))
+common  = sorted(set(new_idx) & set(old_idx))
+
+# ── Sofort-Rows (neu + gelöscht) ───────────────────────────────────────────────
+immediate_rows = []
+immediate_summary = {"neu": 0, "gelöscht": 0}
+
+for k in added:
+    immediate_rows.append(build_row("neu", new_idx[k]))
+    immediate_summary["neu"] += 1
+
+for k in removed:
+    immediate_rows.append(build_row("gelöscht", old_idx[k]))
+    immediate_summary["gelöscht"] += 1
+
+# ── Geändert-Einträge in pending-Datei sammeln ─────────────────────────────────
+changed_entries = []
+for k in common:
+    op = props(old_idx[k])
+    np = props(new_idx[k])
+
+    changes = []
+    for f in RELEVANT_FIELDS:
+        if op.get(f) != np.get(f):
+            changes.append(f"{f}: '{op.get(f)}' → '{np.get(f)}'")
+
+    if changes:
+        lon, lat = coords(new_idx[k])
+        changed_entries.append({
+            "key": k,
+            "name": np.get("name", "(ohne Name)"),
+            "address": address(np),
+            "lon": lon,
+            "lat": lat,
+            "changes": changes,
+            "detected_at": datetime.now(timezone.utc).isoformat(),
+        })
+
+# Pending-Datei: bestehende laden und neue anhängen
+os.makedirs(os.path.dirname(pending_file), exist_ok=True)
+existing = []
+if os.path.exists(pending_file):
+    try:
+        with open(pending_file, encoding="utf-8") as f:
+            existing = json.load(f)
+    except (json.JSONDecodeError, ValueError):
+        existing = []
+
+# Duplikate vermeiden: gleicher key wird überschrieben (neuester Stand gewinnt)
+existing_by_key = {e["key"]: e for e in existing}
+for entry in changed_entries:
+    existing_by_key[entry["key"]] = entry
+
+with open(pending_file, "w", encoding="utf-8") as f:
+    json.dump(list(existing_by_key.values()), f, ensure_ascii=False, indent=2)
+
+print(f"Pending changes gespeichert: {len(changed_entries)} neu/aktualisiert, "
+      f"{len(existing_by_key)} total in {pending_file}")
+
+# ── Sofort-Mail HTML schreiben (nur wenn es etwas zu berichten gibt) ───────────
+if immediate_rows:
+    html_out = build_html(immediate_rows, immediate_summary)
+    with open("diff_immediate.html", "w", encoding="utf-8") as f:
+        f.write(html_out)
+    print(f"diff_immediate.html geschrieben: {immediate_summary}")
+else:
+    print("Keine sofortigen Änderungen (neu/gelöscht).")
