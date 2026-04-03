@@ -15344,6 +15344,7 @@
     "defibrillator:location": "Stoosbahn, Bergstation",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Stoosbahnen AG",
     "phone": "+41 41 818 08 08",
@@ -15362,7 +15363,8 @@
   "id": "node/6976909940",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Stoosbahn, Talstation",
+    "check_date": "2026-04-03",
+    "defibrillator:location": "Ganz links beim Briefkasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -152254,6 +152256,30 @@
     "coordinates": [
       7.576371,
       47.549314
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13703770603",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Cortaillod",
+    "description": "Boîtier contre la façade avant du bâtiment côté parking",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "-",
+    "phone": "+41328865130",
+    "id": "node/13703770603"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8526739,
+      46.9471852
     ]
   }
 }
