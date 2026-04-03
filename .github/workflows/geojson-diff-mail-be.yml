@@ -1,18 +1,15 @@
 name: Reporting für Bern
-
 on:
   workflow_run:
     workflows: ["Get data from Overpass"]
     types: [completed]
   workflow_dispatch:
-
 jobs:
   diff-and-mail:
     if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     permissions:
-      contents: write   # notwendig, um den Merker zu committen
-
+      contents: write
     steps:
       - name: Checkout latest main
         uses: actions/checkout@v4
@@ -24,17 +21,14 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p .reporting
-
           HEAD_SHA="$(git rev-parse HEAD)"
           echo "HEAD_SHA=$HEAD_SHA" >> $GITHUB_ENV
-
           FILE=".reporting/last_processed_sha_be.txt"
           if [ -f "$FILE" ]; then
             LAST="$(cat "$FILE" | tr -d '[:space:]')"
           else
             LAST=""
           fi
-
           if [ "$HEAD_SHA" = "$LAST" ]; then
             echo "ALREADY_PROCESSED=true" >> $GITHUB_ENV
           else
@@ -44,7 +38,7 @@ jobs:
       - name: Stop early if already processed
         if: env.ALREADY_PROCESSED == 'true'
         run: |
-          echo "Already processed this commit; skipping mail."
+          echo "Already processed this commit; skipping."
           exit 0
 
       - name: Setup Python
@@ -55,36 +49,37 @@ jobs:
       - name: Check if GeoJSON changed in latest commit
         run: |
           set -euo pipefail
-
-          # falls kein Parent existiert (sehr unwahrscheinlich)
           if ! git rev-parse HEAD^ >/dev/null 2>&1; then
             echo "CHANGED=false" >> $GITHUB_ENV
             exit 0
           fi
-
           if git diff --quiet HEAD^..HEAD -- data/json/defis_kt_be.geojson; then
             echo "CHANGED=false" >> $GITHUB_ENV
           else
             echo "CHANGED=true" >> $GITHUB_ENV
           fi
 
-      - name: Create diff HTML
+      - name: Create diff (sofort + pending)
         if: env.CHANGED == 'true'
         run: |
           set -euo pipefail
+          # geojson_diff.py schreibt:
+          #   diff_immediate.html  → neu + gelöscht (sofort versenden)
+          #   .reporting/pending_changes_be.json → geändert (wöchentlich)
           python scripts/geojson_diff.py \
             <(git show HEAD^:data/json/defis_kt_be.geojson) \
-            data/json/defis_kt_be.geojson
+            data/json/defis_kt_be.geojson \
+            .reporting/pending_changes_be.json
 
-      - name: Check diff.html exists
+      - name: Check diff_immediate.html exists
         run: |
-          if [ -f diff.html ]; then
+          if [ -f diff_immediate.html ]; then
             echo "DIFF_EXISTS=true" >> $GITHUB_ENV
           else
             echo "DIFF_EXISTS=false" >> $GITHUB_ENV
           fi
 
-      - name: Mail versenden
+      - name: Mail versenden (neu + gelöscht)
         if: env.DIFF_EXISTS == 'true'
         uses: dawidd6/action-send-mail@v3
         with:
@@ -93,28 +88,32 @@ jobs:
           secure: false
           username: ${{ secrets.MAIL_USER }}
           password: ${{ secrets.MAIL_PASS }}
-          subject: "Änderungen an Defis Kanton Bern"
-          html_body: file://diff.html
+          subject: "Neue/gelöschte Defis – Kanton Bern"
+          html_body: file://diff_immediate.html
           to: ${{ secrets.MAIL_RECIPIENT_BE }}
           cc: ${{ secrets.MAIL_COPY }}
           from: defikarte.ch Reports
 
-      - name: Update last processed SHA
+      - name: Update last processed SHA + pending changes committen
         run: |
           set -euo pipefail
           mkdir -p .reporting
-        
-          FILE=".reporting/last_processed_sha_be.txt"
-          echo "$HEAD_SHA" > "$FILE"
-        
+
+          echo "$HEAD_SHA" > .reporting/last_processed_sha_be.txt
+
           git config user.name "defikarte.ch Reporting Bot"
           git config user.email "chrigi@chnuessli.ch"
+
           git add .reporting/last_processed_sha_be.txt
-          git commit -m "update last processed sha for _be" || exit 0
-        
-          # robust push
+          # pending_changes_be.json nur adden wenn vorhanden
+          if [ -f .reporting/pending_changes_be.json ]; then
+            git add .reporting/pending_changes_be.json
+          fi
+
+          git commit -m "update reporting state for _be" || exit 0
+
           for i in 1 2 3; do
             git pull --rebase origin main && git push origin HEAD:main && break
             echo "Push failed, retry $i..."
-              sleep 2
-            done     
+            sleep 2
+          done
