@@ -1,41 +1,42 @@
 name: Reporting für die Stadt Zug
-
 on:
   workflow_run:
     workflows: ["Get data from Overpass"]
     types: [completed]
   workflow_dispatch:
-
 jobs:
   diff-and-mail:
     if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     permissions:
-      contents: write   # notwendig, um den Merker zu committen
-
+      contents: write
     steps:
       - name: Checkout latest main
         uses: actions/checkout@v4
         with:
           ref: main
-          fetch-depth: 2
+          fetch-depth: 0  # vollständige History nötig für git log
 
-      - name: Check if this HEAD was already processed
+      - name: Check if this GeoJSON commit was already processed
         run: |
           set -euo pipefail
           mkdir -p .reporting
 
-          HEAD_SHA="$(git rev-parse HEAD)"
-          echo "HEAD_SHA=$HEAD_SHA" >> $GITHUB_ENV
+          # SHA des letzten Commits der die GeoJSON-Datei geändert hat
+          GEOJSON_SHA="$(git log -1 --format=%H -- data/json/defis_stadt_zug.geojson)"
+          echo "GEOJSON_SHA=$GEOJSON_SHA" >> $GITHUB_ENV
 
-          FILE=".reporting/last_processed_sha_zg-city.txt"
+          FILE=".reporting/last_processed_sha_zg_city.txt"
           if [ -f "$FILE" ]; then
             LAST="$(cat "$FILE" | tr -d '[:space:]')"
           else
             LAST=""
           fi
 
-          if [ "$HEAD_SHA" = "$LAST" ]; then
+          echo "Letzter GeoJSON-SHA: $GEOJSON_SHA"
+          echo "Zuletzt verarbeiteter SHA: $LAST"
+
+          if [ "$GEOJSON_SHA" = "$LAST" ]; then
             echo "ALREADY_PROCESSED=true" >> $GITHUB_ENV
           else
             echo "ALREADY_PROCESSED=false" >> $GITHUB_ENV
@@ -44,7 +45,7 @@ jobs:
       - name: Stop early if already processed
         if: env.ALREADY_PROCESSED == 'true'
         run: |
-          echo "Already processed this commit; skipping mail."
+          echo "Already processed this GeoJSON commit; skipping mail."
           exit 0
 
       - name: Setup Python
@@ -55,13 +56,10 @@ jobs:
       - name: Check if GeoJSON changed in latest commit
         run: |
           set -euo pipefail
-
-          # falls kein Parent existiert (sehr unwahrscheinlich)
           if ! git rev-parse HEAD^ >/dev/null 2>&1; then
             echo "CHANGED=false" >> $GITHUB_ENV
             exit 0
           fi
-
           if git diff --quiet HEAD^..HEAD -- data/json/defis_stadt_zug.geojson; then
             echo "CHANGED=false" >> $GITHUB_ENV
           else
@@ -103,21 +101,17 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p .reporting
-        
-          FILE=".reporting/last_processed_sha_zg_city.txt"
-          echo "$HEAD_SHA" > "$FILE"
-        
+
+          # GeoJSON-SHA speichern (nicht HEAD), einheitlich mit Unterstrich
+          echo "$GEOJSON_SHA" > .reporting/last_processed_sha_zg_city.txt
+
           git config user.name "defikarte.ch Reporting Bot"
           git config user.email "chrigi@chnuessli.ch"
           git add .reporting/last_processed_sha_zg_city.txt
           git commit -m "update last processed sha for _zg_city" || exit 0
-        
-          # robust push
+
           for i in 1 2 3; do
             git pull --rebase origin main && git push origin HEAD:main && break
             echo "Push failed, retry $i..."
-              sleep 2
-            done          
-
-
-          
+            sleep 2
+          done
