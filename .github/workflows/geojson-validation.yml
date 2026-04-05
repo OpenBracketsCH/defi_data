@@ -1,0 +1,50 @@
+name: GeoJSON Koordinaten-Validierung
+on:
+  workflow_run:
+    workflows: ["Get data from Overpass"]
+    types: [completed]
+  workflow_dispatch:
+
+jobs:
+  validate:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout latest main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Koordinaten validieren
+        run: |
+          set -euo pipefail
+          python scripts/geojson_validation.py \
+            data/json/defis_switzerland.geojson \
+            data/json/defis_liechtenstein.geojson
+
+      - name: Check validation_report.html exists
+        run: |
+          if [ -f validation_report.html ]; then
+            echo "INVALID_EXISTS=true" >> $GITHUB_ENV
+          else
+            echo "INVALID_EXISTS=false" >> $GITHUB_ENV
+          fi
+
+      - name: Mail versenden
+        if: env.INVALID_EXISTS == 'true'
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: asmtp.mail.hostpoint.ch
+          server_port: 587
+          secure: false
+          username: ${{ secrets.MAIL_USER }}
+          password: ${{ secrets.MAIL_PASS }}
+          subject: "⚠️ Verdächtige Koordinaten in Defi-Daten"
+          html_body: file://validation_report.html
+          to: ${{ secrets.MAIL_RECIPIENT_VALIDATION }}
+          from: defikarte.ch Reports
