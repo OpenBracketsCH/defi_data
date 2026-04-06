@@ -108,7 +108,7 @@ jobs:
           git commit -m "update last processed sha for _bs" || exit 0
 
           for i in 1 2 3; do
-            git stash && git pull --rebase origin main && git stash pop && git push origin HEAD:main && break
+            git stash --include-untracked && git pull --rebase origin main && git stash pop && git push origin HEAD:main && break
             echo "Push failed, retry $i..."
             sleep 2
           done
