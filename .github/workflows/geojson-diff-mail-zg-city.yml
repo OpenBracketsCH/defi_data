@@ -1,4 +1,4 @@
-name: Reporting für die Stadt Zug
+name: Reporting für KNZ LU
 on:
   workflow_run:
     workflows: ["Get data from Overpass"]
@@ -15,18 +15,17 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: main
-          fetch-depth: 0  # vollständige History nötig für git log
+          fetch-depth: 0
 
       - name: Check if this GeoJSON commit was already processed
         run: |
           set -euo pipefail
           mkdir -p .reporting
 
-          # SHA des letzten Commits der die GeoJSON-Datei geändert hat
-          GEOJSON_SHA="$(git log -1 --format=%H -- data/json/defis_stadt_zug.geojson)"
+          GEOJSON_SHA="$(git log -1 --format=%H -- data/json/defis_dispo_luks.geojson)"
           echo "GEOJSON_SHA=$GEOJSON_SHA" >> $GITHUB_ENV
 
-          FILE=".reporting/last_processed_sha_zg_city.txt"
+          FILE=".reporting/last_processed_sha_luks.txt"
           if [ -f "$FILE" ]; then
             LAST="$(cat "$FILE" | tr -d '[:space:]')"
           else
@@ -56,11 +55,7 @@ jobs:
       - name: Check if GeoJSON changed in latest commit
         run: |
           set -euo pipefail
-          if ! git rev-parse HEAD^ >/dev/null 2>&1; then
-            echo "CHANGED=false" >> $GITHUB_ENV
-            exit 0
-          fi
-          if git diff --quiet HEAD^..HEAD -- data/json/defis_stadt_zug.geojson; then
+          if git diff --quiet ${GEOJSON_SHA}^..${GEOJSON_SHA} -- data/json/defis_dispo_luks.geojson; then
             echo "CHANGED=false" >> $GITHUB_ENV
           else
             echo "CHANGED=true" >> $GITHUB_ENV
@@ -71,8 +66,8 @@ jobs:
         run: |
           set -euo pipefail
           python scripts/geojson_diff.py \
-            <(git show HEAD^:data/json/defis_stadt_zug.geojson) \
-            data/json/defis_stadt_zug.geojson
+            <(git show ${GEOJSON_SHA}^:data/json/defis_dispo_luks.geojson) \
+            data/json/defis_dispo_luks.geojson
 
       - name: Check diff.html exists
         run: |
@@ -91,9 +86,9 @@ jobs:
           secure: false
           username: ${{ secrets.MAIL_USER }}
           password: ${{ secrets.MAIL_PASS }}
-          subject: "Änderungen an Defis in der Stadt Zug"
+          subject: "Änderungen an Defis Dispo LUKS"
           html_body: file://diff.html
-          to: ${{ secrets.MAIL_RECIPIENT_ZG }}
+          to: ${{ secrets.MAIL_RECIPIENT_LUKS }}
           cc: ${{ secrets.MAIL_COPY }}
           from: defikarte.ch Reports
 
@@ -102,13 +97,12 @@ jobs:
           set -euo pipefail
           mkdir -p .reporting
 
-          # GeoJSON-SHA speichern (nicht HEAD), einheitlich mit Unterstrich
-          echo "$GEOJSON_SHA" > .reporting/last_processed_sha_zg_city.txt
+          echo "$GEOJSON_SHA" > .reporting/last_processed_sha_luks.txt
 
           git config user.name "defikarte.ch Reporting Bot"
           git config user.email "chrigi@chnuessli.ch"
-          git add .reporting/last_processed_sha_zg_city.txt
-          git commit -m "update last processed sha for _zg_city" || exit 0
+          git add .reporting/last_processed_sha_luks.txt
+          git commit -m "update last processed sha for _luks" || exit 0
 
           for i in 1 2 3; do
             git pull --rebase origin main && git push origin HEAD:main && break
