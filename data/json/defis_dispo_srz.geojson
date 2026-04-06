@@ -61173,7 +61173,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr: 07.30 - 12.00; 13.30 - 16.30",
+    "opening_hours": "Mo-Fr 07:30-12:00,13:30-16:30",
     "operator": "Zürich Versicherungs-Gesellschaft AG",
     "phone": "+41800808080",
     "source": "local_knowledge, defikarte.ch",
@@ -63589,7 +63589,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr: 06:00-18:00",
+    "opening_hours": "Mo-Fr 06:00-18:00",
     "phone": "+41448336327",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/11255270737"
@@ -99159,6 +99159,8 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
     "id": "node/13712069801"
   },
   "geometry": {
