@@ -6,7 +6,10 @@ on:
   workflow_dispatch:
 jobs:
   diff-and-mail:
-    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    if: >
+      (github.event_name == 'workflow_dispatch' ||
+      github.event.workflow_run.conclusion == 'success') &&
+      github.event.workflow_run.head_commit.author.name != 'defikarte.ch Reporting Bot'
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -105,7 +108,7 @@ jobs:
           git commit -m "update last processed sha for _luks" || exit 0
 
           for i in 1 2 3; do
-            git pull --rebase origin main && git push origin HEAD:main && break
+            git stash && git pull --rebase origin main && git stash pop && git push origin HEAD:main && break
             echo "Push failed, retry $i..."
             sleep 2
           done

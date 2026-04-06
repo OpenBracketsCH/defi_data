@@ -6,7 +6,10 @@ on:
   workflow_dispatch:
 jobs:
   diff-and-mail:
-    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    if: >
+      (github.event_name == 'workflow_dispatch' ||
+      github.event.workflow_run.conclusion == 'success') &&
+      github.event.workflow_run.head_commit.author.name != 'defikarte.ch Reporting Bot'
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -65,7 +68,7 @@ jobs:
         if: env.CHANGED == 'true'
         run: |
           set -euo pipefail
-          python scripts/geojson_diff.py \
+          python scripts/geojson_diff_be.py \
             <(git show ${GEOJSON_SHA}^:data/json/defis_kt_be.geojson) \
             data/json/defis_kt_be.geojson \
             .reporting/pending_changes_be.json
@@ -111,7 +114,7 @@ jobs:
           git commit -m "update reporting state for _be" || exit 0
 
           for i in 1 2 3; do
-            git pull --rebase origin main && git push origin HEAD:main && break
+            git stash && git pull --rebase origin main && git stash pop && git push origin HEAD:main && break
             echo "Push failed, retry $i..."
             sleep 2
           done
