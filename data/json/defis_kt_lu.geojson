@@ -10999,17 +10999,20 @@
   "type": "Feature",
   "id": "node/7637819044",
   "properties": {
-    "description": "Eingang Bürogebäude",
+    "access": "permissive",
+    "defibrillator:location": "Eingang Bürogebäude",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
     "name": "Werkhof Ibach",
     "id": "node/7637819044"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2905848,
-      47.0657037
+      8.2905847,
+      47.0657043
     ]
   }
 },
