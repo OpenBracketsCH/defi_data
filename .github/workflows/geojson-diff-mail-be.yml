@@ -6,10 +6,7 @@ on:
   workflow_dispatch:
 jobs:
   diff-and-mail:
-    if: >
-      (github.event_name == 'workflow_dispatch' ||
-      github.event.workflow_run.conclusion == 'success') &&
-      github.event.workflow_run.head_commit.author.name != 'defikarte.ch Reporting Bot'
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -18,38 +15,33 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: main
-          fetch-depth: 0
+          fetch-depth: 2
 
-      - name: SHA des letzten GeoJSON-Commits ermitteln
+      - name: Check if this HEAD was already processed
         run: |
           set -euo pipefail
-          GEOJSON_SHA="$(git log -1 --format=%H -- data/json/defis_kt_be.geojson)"
-          echo "GEOJSON_SHA=$GEOJSON_SHA" >> $GITHUB_ENV
+          mkdir -p .reporting
 
-      - name: Letzten verarbeiteten SHA laden (Cache)
-        id: cache-sha
-        uses: actions/cache@v4
-        with:
-          path: .cache/last_processed_be.txt
-          key: last-processed-be-${{ env.GEOJSON_SHA }}
-          restore-keys: last-processed-be-
+          HEAD_SHA="$(git rev-parse HEAD)"
+          echo "HEAD_SHA=$HEAD_SHA" >> $GITHUB_ENV
 
-      - name: Prüfen ob bereits verarbeitet
-        run: |
-          set -euo pipefail
-          mkdir -p .cache
-          if [ "${{ steps.cache-sha.outputs.cache-hit }}" = "true" ]; then
+          FILE=".reporting/last_processed_sha_be.txt"
+          if [ -f "$FILE" ]; then
+            LAST="$(cat "$FILE" | tr -d '[:space:]')"
+          else
+            LAST=""
+          fi
+
+          if [ "$HEAD_SHA" = "$LAST" ]; then
             echo "ALREADY_PROCESSED=true" >> $GITHUB_ENV
-            echo "Cache hit – bereits verarbeitet."
           else
             echo "ALREADY_PROCESSED=false" >> $GITHUB_ENV
-            echo "Neuer SHA – wird verarbeitet."
           fi
 
       - name: Stop early if already processed
         if: env.ALREADY_PROCESSED == 'true'
         run: |
-          echo "Already processed; skipping mail."
+          echo "Already processed this commit; skipping mail."
           exit 0
 
       - name: Setup Python
@@ -57,25 +49,29 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Prüfen ob GeoJSON geändert
+      - name: Check if GeoJSON changed in latest commit
         run: |
           set -euo pipefail
-          if git diff --quiet ${GEOJSON_SHA}^..${GEOJSON_SHA} -- data/json/defis_kt_be.geojson; then
+          if ! git rev-parse HEAD^ >/dev/null 2>&1; then
+            echo "CHANGED=false" >> $GITHUB_ENV
+            exit 0
+          fi
+          if git diff --quiet HEAD^..HEAD -- data/json/defis_kt_be.geojson; then
             echo "CHANGED=false" >> $GITHUB_ENV
           else
             echo "CHANGED=true" >> $GITHUB_ENV
           fi
 
-      - name: Diff erstellen (sofort + pending)
+      - name: Create diff (sofort + pending)
         if: env.CHANGED == 'true'
         run: |
           set -euo pipefail
           python scripts/geojson_diff_be.py \
-            <(git show ${GEOJSON_SHA}^:data/json/defis_kt_be.geojson) \
+            <(git show HEAD^:data/json/defis_kt_be.geojson) \
             data/json/defis_kt_be.geojson \
             .reporting/pending_changes_be.json
 
-      - name: Prüfen ob diff_immediate.html existiert
+      - name: Check diff_immediate.html exists
         run: |
           if [ -f diff_immediate.html ]; then
             echo "DIFF_EXISTS=true" >> $GITHUB_ENV
@@ -98,22 +94,29 @@ jobs:
           cc: ${{ secrets.MAIL_COPY }}
           from: defikarte.ch Reports
 
-      - name: Pending changes committen
-        if: env.CHANGED == 'true'
+      - name: Update last processed SHA + pending changes committen
         run: |
           set -euo pipefail
           mkdir -p .reporting
 
+          FILE=".reporting/last_processed_sha_be.txt"
+          echo "$HEAD_SHA" > "$FILE"
+
           git config user.name "defikarte.ch Reporting Bot"
           git config user.email "chrigi@chnuessli.ch"
 
+          git add .reporting/last_processed_sha_be.txt
           if [ -f .reporting/pending_changes_be.json ]; then
             git add .reporting/pending_changes_be.json
-            git diff --cached --quiet || git commit -m "update pending changes BE"
-            git push origin HEAD:main || true
           fi
 
-      - name: SHA im Cache speichern
-        run: |
-          mkdir -p .cache
-          echo "$GEOJSON_SHA" > .cache/last_processed_be.txt
+          # Temporäre Dateien entfernen damit der Push nicht blockiert wird
+          rm -f diff_immediate.html
+
+          git commit -m "update reporting state for _be" || exit 0
+
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && break
+            echo "Push failed, retry $i..."
+            sleep 2
+          done
