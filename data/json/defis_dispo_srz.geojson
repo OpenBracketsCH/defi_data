@@ -45077,7 +45077,7 @@
   "type": "Feature",
   "id": "node/10111013673",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Vorderer Eingang, gegen die Strasse hin, hinter der Aussentüre im Eingangsbereich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -45090,8 +45090,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5417964,
-      47.3171989
+      8.5417977,
+      47.3171994
     ]
   }
 },
@@ -46277,13 +46277,14 @@
   "type": "Feature",
   "id": "node/10185369837",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Seebad Durchgang ( rechts neben WC Herren )",
     "description": "während Öffnungszeiten täglich verfügbar von 09:00 bis 20:00",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
+    "opening_hours": "Mo-Su 09:00-20:00",
     "operator": "Gemeinde Rüschlikon",
     "phone": "+41 44 724 72 50",
     "ref": "Seestrasse 23",
@@ -99145,6 +99146,26 @@
     "coordinates": [
       8.5852821,
       47.3581886
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13712069801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Am Glattbogen 140",
+    "description": "Beim Eingang Gemeinschaftsraum linke Seite",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/13712069801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.566873,
+      47.4117329
     ]
   }
 }
