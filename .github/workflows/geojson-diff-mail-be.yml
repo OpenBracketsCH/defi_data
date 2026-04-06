@@ -20,34 +20,36 @@ jobs:
           ref: main
           fetch-depth: 0
 
-      - name: Check if this GeoJSON commit was already processed
+      - name: SHA des letzten GeoJSON-Commits ermitteln
         run: |
           set -euo pipefail
-          mkdir -p .reporting
-
           GEOJSON_SHA="$(git log -1 --format=%H -- data/json/defis_kt_be.geojson)"
           echo "GEOJSON_SHA=$GEOJSON_SHA" >> $GITHUB_ENV
 
-          FILE=".reporting/last_processed_sha_be.txt"
-          if [ -f "$FILE" ]; then
-            LAST="$(cat "$FILE" | tr -d '[:space:]')"
-          else
-            LAST=""
-          fi
+      - name: Letzten verarbeiteten SHA laden (Cache)
+        id: cache-sha
+        uses: actions/cache@v4
+        with:
+          path: .cache/last_processed_be.txt
+          key: last-processed-be-${{ env.GEOJSON_SHA }}
+          restore-keys: last-processed-be-
 
-          echo "Letzter GeoJSON-SHA: $GEOJSON_SHA"
-          echo "Zuletzt verarbeiteter SHA: $LAST"
-
-          if [ "$GEOJSON_SHA" = "$LAST" ]; then
+      - name: Prüfen ob bereits verarbeitet
+        run: |
+          set -euo pipefail
+          mkdir -p .cache
+          if [ "${{ steps.cache-sha.outputs.cache-hit }}" = "true" ]; then
             echo "ALREADY_PROCESSED=true" >> $GITHUB_ENV
+            echo "Cache hit – bereits verarbeitet."
           else
             echo "ALREADY_PROCESSED=false" >> $GITHUB_ENV
+            echo "Neuer SHA – wird verarbeitet."
           fi
 
       - name: Stop early if already processed
         if: env.ALREADY_PROCESSED == 'true'
         run: |
-          echo "Already processed this GeoJSON commit; skipping mail."
+          echo "Already processed; skipping mail."
           exit 0
 
       - name: Setup Python
@@ -55,7 +57,7 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Check if GeoJSON changed in latest commit
+      - name: Prüfen ob GeoJSON geändert
         run: |
           set -euo pipefail
           if git diff --quiet ${GEOJSON_SHA}^..${GEOJSON_SHA} -- data/json/defis_kt_be.geojson; then
@@ -64,7 +66,7 @@ jobs:
             echo "CHANGED=true" >> $GITHUB_ENV
           fi
 
-      - name: Create diff (sofort + pending)
+      - name: Diff erstellen (sofort + pending)
         if: env.CHANGED == 'true'
         run: |
           set -euo pipefail
@@ -73,7 +75,7 @@ jobs:
             data/json/defis_kt_be.geojson \
             .reporting/pending_changes_be.json
 
-      - name: Check diff_immediate.html exists
+      - name: Prüfen ob diff_immediate.html existiert
         run: |
           if [ -f diff_immediate.html ]; then
             echo "DIFF_EXISTS=true" >> $GITHUB_ENV
@@ -96,25 +98,22 @@ jobs:
           cc: ${{ secrets.MAIL_COPY }}
           from: defikarte.ch Reports
 
-      - name: Update last processed SHA + pending changes committen
+      - name: Pending changes committen
+        if: env.CHANGED == 'true'
         run: |
           set -euo pipefail
           mkdir -p .reporting
 
-          echo "$GEOJSON_SHA" > .reporting/last_processed_sha_be.txt
-
           git config user.name "defikarte.ch Reporting Bot"
           git config user.email "chrigi@chnuessli.ch"
 
-          git add .reporting/last_processed_sha_be.txt
           if [ -f .reporting/pending_changes_be.json ]; then
             git add .reporting/pending_changes_be.json
+            git diff --cached --quiet || git commit -m "update pending changes BE"
+            git push origin HEAD:main || true
           fi
 
-          git commit -m "update reporting state for _be" || exit 0
-
-          for i in 1 2 3; do
-            git stash --include-untracked && git pull --rebase origin main && git stash pop && git push origin HEAD:main && break
-            echo "Push failed, retry $i..."
-            sleep 2
-          done
+      - name: SHA im Cache speichern
+        run: |
+          mkdir -p .cache
+          echo "$GEOJSON_SHA" > .cache/last_processed_be.txt
