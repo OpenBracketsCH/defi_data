@@ -1506,9 +1506,13 @@
   "id": "node/9007091596",
   "properties": {
     "defibrillator:location": "im Foyer des Verwaltungsgebäudes",
+    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:45 - 12:00, 13:15 - 17:00",
+    "operator": "Generalsekretariat VGD",
     "id": "node/9007091596"
   },
   "geometry": {
@@ -7417,7 +7421,7 @@
     "level": "0",
     "opening_hours": "24/7",
     "operator": "Würth AG",
-    "phone": "+41617059762",
+    "phone": "+41 61 705 91 11",
     "id": "node/11038063109"
   },
   "geometry": {
@@ -13490,6 +13494,30 @@
     "coordinates": [
       7.5960069,
       47.4911567
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13713617302",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Baumann & Cie, Banquiers",
+    "description": "während Öffnungszeiten zugänglich, Zutritt und erhältlich nur über den Empfang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:15-12:00, 13:30-16:45",
+    "operator": "Baumann & Cie, Banquiers",
+    "phone": "+41 61 279 41 41",
+    "id": "node/13713617302"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.597305,
+      47.5487046
     ]
   }
 }
