@@ -1299,19 +1299,21 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Naturbad",
-    "description": "Während Oeffungszeiten Verfügbar",
+    "description": "Während Öffungszeiten Verfügbar, mitte Mai - mitte Sep.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "May-Sep Mo-Su 09:00-19:00",
+    "level": "0",
+    "opening_hours": "May- Sep Mo-Su 09:00-19:00",
     "operator": "Naturbad",
+    "phone": "+41 61 646 81 18",
     "id": "node/8995922117"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
       7.6451763,
-      47.5923542
+      47.5923541
     ]
   }
 },
@@ -3945,12 +3947,13 @@
   "id": "node/9860358506",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "An der Hauswand",
+    "defibrillator:location": "Schulhaus Eule, Aeschstrasse 7",
+    "description": "an der Hauswand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "operator": "Gemeinde Duggingen",
-    "phone": "+41 79 339 10 11",
+    "operator": "Einwohnergemeinde Duggingen",
+    "phone": "+41 61 756 99 00",
     "id": "node/9860358506"
   },
   "geometry": {
@@ -13287,6 +13290,50 @@
     "coordinates": [
       7.5946788,
       47.4879841
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13712960901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindeverwaltung",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "operator": "Einwohnergemeinde Oberdorf",
+    "phone": "+41 61 965 90 90",
+    "id": "node/13712960901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7515575,
+      47.393823
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13712989901",
+  "properties": {
+    "defibrillator:location": "Wohngebäude Grellingerstrasse 40",
+    "description": "öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "operator": "Einwohnergemeinde Duggingen",
+    "phone": "+41 61 756 99 00",
+    "id": "node/13712989901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6017162,
+      47.450504
     ]
   }
 }
