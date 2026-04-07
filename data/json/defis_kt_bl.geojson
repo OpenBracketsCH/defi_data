@@ -245,15 +245,17 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
-    "operator": "Gemeinde Reinach",
+    "operator": "Gemeinde Reinach, Hauptstrasse 10, 4153 Reinach BL",
+    "phone": "+41 61 511 60 00",
     "id": "node/8446759518"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5921525,
-      47.497484
+      7.5921123,
+      47.4974822
     ]
   }
 },
@@ -266,15 +268,17 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
-    "operator": "Gemeinde Reinach",
+    "operator": "Gemeinde Reinach, Hauptstrasse 10, 4153 Reinach BL",
+    "phone": "+41 61 511 60 00",
     "id": "node/8446778417"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6018938,
-      47.5063369
+      7.6019586,
+      47.5062171
     ]
   }
 },
@@ -1325,20 +1329,21 @@
   "id": "node/9137525705",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Mischeli Spielplatz, neben Beton-WC-Gebäude und Spielcontainer",
+    "defibrillator:location": "Mischeli Spielplatz, neben der WC-Anlage",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Reinach, Hauptstrasse 10, 4153 Reinach BL",
-    "phone": "+41615116000",
+    "phone": "+41 61 511 60 00",
     "id": "node/9137525705"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5967804,
-      47.5034371
+      7.5968819,
+      47.5034378
     ]
   }
 },
@@ -1391,20 +1396,21 @@
   "id": "node/9141391384",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Beim Kindergarten auf Vorplatz, Am Gartenzaun hängend, rechts vom Eingang",
+    "defibrillator:location": "Beim Kindergarten rechts am Zaun",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Reinach, Hauptstrasse 10, 4153 Reinach BL",
-    "phone": "+41 61 511 63 56",
+    "phone": "+41 61 511 60 00",
     "id": "node/9141391384"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.597803,
-      47.5114716
+      7.5980175,
+      47.5112379
     ]
   }
 },
@@ -1414,7 +1420,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Wohn- und Bürozentrum Reinach (WBZ)",
-    "description": "aussen an der Fassade angebracht",
+    "description": "Beim Eingangsbereich rechts",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -1426,8 +1432,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5995387,
-      47.4942878
+      7.5993007,
+      47.4943509
     ]
   }
 },
@@ -7270,13 +7276,14 @@
     "defibrillator:location": "Beim Kindergarten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "id": "node/12076964059"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5980381,
-      47.5112138
+      7.5978231,
+      47.5111938
     ]
   }
 },
@@ -9500,6 +9507,52 @@
     "coordinates": [
       7.6017162,
       47.450504
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13713153701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindehaus, Eingang Gemeindesaal",
+    "description": "immer zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "00:00-23:59",
+    "operator": "Gemeinde Arboldswil",
+    "phone": "+41 79 683 72 34",
+    "id": "node/13713153701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7168838,
+      47.4166093
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13713184701",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Beim Filterhaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "operator": "Gemeinde Reinach, Hauptstrasse 10, 4153 Reinach BL",
+    "phone": "+41 61 511 60 00",
+    "id": "node/13713184701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6034501,
+      47.4942987
     ]
   }
 }
