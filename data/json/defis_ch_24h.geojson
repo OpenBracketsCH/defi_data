@@ -24236,17 +24236,21 @@
   "id": "node/7577586749",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Am Gemeindehaus",
+    "defibrillator:location": "Beim Gemeindehaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Reinach, Hauptstrasse 10, 4153 Reinach BL",
+    "phone": "+41 61 511 60 00",
     "id": "node/7577586749"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.591066,
-      47.49363
+      7.5913046,
+      47.493445
     ]
   }
 },
@@ -42269,8 +42273,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6019586,
-      47.5062171
+      7.6018915,
+      47.5065269
     ]
   }
 },
@@ -48389,18 +48393,21 @@
   "id": "node/8669129617",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schulhaus Fechten Aula",
+    "defibrillator:location": "Schulhaus Fechten bei der Aula",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Reinach, Hauptstrasse 10, 4153 Reinach BL",
+    "phone": "+41 61 511 60 00",
     "id": "node/8669129617"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.587253,
-      47.4868253
+      7.5872342,
+      47.4868307
     ]
   }
 },
@@ -95400,29 +95407,6 @@
     "coordinates": [
       8.7679035,
       47.177608
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10806763608",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "nach der Kapelle 5 vor Beratungsbüro",
-    "description": "öffentlich Zugänglich zu Fuss immer. Mit dem Auto nur Mo-Fr 8 bis 17:30 Uhr",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Stadtgärtnerei Friedhöfe Basel",
-    "id": "node/10806763608"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6398922,
-      47.5654884
     ]
   }
 },
@@ -146174,22 +146158,22 @@
   "id": "node/13319254701",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Einfahrt auf Gelände der Feuerwache Birs",
-    "description": "Standort in Notfallsäule direkt bei Einfahrt. Jederzeit zugänglich. Es ist auch ein Notfallknopf vorhanden",
+    "defibrillator:location": "Einfahrt rechts auf das Gelände der Feuerwache Birs",
+    "description": "Standort in der Notfallsäule direkt bei der Einfahrt rechts. Es ist auch ein Notfallknopf vorhanden",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
-    "operator": "Gemeinde Reinach",
-    "phone": "+41 61 511 62 14",
+    "operator": "Gemeinde Reinach, Hauptstrasse 10, 4153 Reinach BL",
+    "phone": "+41 61 511 60 00",
     "id": "node/13319254701"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.594024,
-      47.4896912
+      7.5941448,
+      47.4896097
     ]
   }
 },
@@ -152402,6 +152386,117 @@
     "coordinates": [
       8.566873,
       47.4117329
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13713261801",
+  "properties": {
+    "defibrillator:location": "Stiftung Alterswohnungen Jona",
+    "description": "Ausserhalb des Gebäudes Porthofstrasse 10",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stiftung Alterswohnungen Jona",
+    "phone": "+4155511 42 60",
+    "id": "node/13713261801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8399112,
+      47.2283751
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13713267801",
+  "properties": {
+    "defibrillator:location": "Stiftung Alterswohnungen Jona",
+    "description": "Ausserhalb Gebäude Porthofstrasse 8a",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stiftung Alterswohnungen Jona",
+    "phone": "+4155 511 42 60",
+    "id": "node/13713267801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8394524,
+      47.2283471
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13713272901",
+  "properties": {
+    "defibrillator:location": "Stiftung Alterswohnungen Jona",
+    "description": "ausserhalb Gebäude Rütiwiesstrasse 17",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stiftung Alterswohnungen Jona",
+    "phone": "+4155 511 42 60",
+    "id": "node/13713272901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8396064,
+      47.227985
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13713334701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Überbauung der Wohnbaugenossenschaft Rynach",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Wohnbaugenossenschaft Rynach",
+    "id": "node/13713334701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5823493,
+      47.4930023
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13713343801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Musikschule Reinach",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Reinach, Hauptstrasse 10, 4153 Reinach BL",
+    "phone": "+41 61 511 60 00",
+    "id": "node/13713343801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5960069,
+      47.4911567
     ]
   }
 }

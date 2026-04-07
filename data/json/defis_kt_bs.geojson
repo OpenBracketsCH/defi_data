@@ -1856,21 +1856,22 @@
   "id": "node/10806763608",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "nach der Kapelle 5 vor Beratungsbüro",
-    "description": "öffentlich Zugänglich zu Fuss immer. Mit dem Auto nur Mo-Fr 8 bis 17:30 Uhr",
+    "defibrillator:location": "nach der Kapelle 5 vor Eingang zu Aufbahrungsräumen",
+    "description": "Während Öffnungszeiten des Friedhofareals. Mit dem Auto nur Mo-Fr 8 bis 17:30 Uhr",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
-    "opening_hours": "24/7",
+    "opening_hours": "07:00-19:30,08:00-17:30",
     "operator": "Stadtgärtnerei Friedhöfe Basel",
+    "phone": "+41 61 267 20 00",
     "id": "node/10806763608"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6398922,
-      47.5654884
+      7.6398915,
+      47.565487
     ]
   }
 },
@@ -3856,6 +3857,30 @@
     "coordinates": [
       7.593153,
       47.5598867
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13713233701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Stiftung Habitat",
+    "description": "währen Oeffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "8:30-19:00",
+    "operator": "Stiftung Habitat",
+    "phone": "+41 61 327 10 60",
+    "id": "node/13713233701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.592855,
+      47.5598706
     ]
   }
 }
