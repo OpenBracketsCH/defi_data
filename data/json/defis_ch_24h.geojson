@@ -129027,8 +129027,8 @@
   "type": "Feature",
   "id": "node/12409393102",
   "properties": {
-    "defibrillator:location": "Bushaltestelle Herrliberg-Feldmeilen, Bahnhof West",
-    "description": "Öffentlich zugänglich",
+    "access": "yes",
+    "defibrillator:location": "Zwischen Unterführung und Parkplatz",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -129041,8 +129041,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6115539,
-      47.2826608
+      8.6115948,
+      47.28266
     ]
   }
 },
@@ -152609,6 +152609,53 @@
     "coordinates": [
       8.8270541,
       47.2275406
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13715566901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "EIngang Binningerstrasse 6",
+    "description": "Immer, da vor dem Gebäude an der Wand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "TUM",
+    "phone": "+41 61 267 68 24",
+    "id": "node/13715566901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.585469,
+      47.550416
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13715583101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schule Herrenmatt, Eingang MZH",
+    "description": "öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "phone": "+41 62 285 10 80",
+    "id": "node/13715583101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8578881,
+      47.3976885
     ]
   }
 }
