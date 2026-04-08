@@ -17542,13 +17542,14 @@
     "opening_hours": "Mo-Fr 08:00-12:00,13:00-17:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
+    "ref": "1020LTM",
     "id": "node/10763310204"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4941,
-      47.20808
+      9.4927165,
+      47.2080407
     ]
   }
 },
@@ -18660,7 +18661,7 @@
   "type": "Feature",
   "id": "node/10763310254",
   "properties": {
-    "defibrillator:location": "Nutt Gebäude, EG Haupteingang",
+    "defibrillator:location": "Werk 1 Solvat EHS Büro",
     "description": "oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -18674,8 +18675,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.49203,
-      47.20704
+      9.4936178,
+      47.2068843
     ]
   }
 },
@@ -30596,6 +30597,53 @@
     "coordinates": [
       8.8270541,
       47.2275406
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13716220472",
+  "properties": {
+    "defibrillator:location": "INNOVATIONSCENTER / RECEPTION, Werk-4, 1. OG (beim Laboreingang)",
+    "description": "Koffer Orange",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "VAT Group AG",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
+    "operator": "Lifetec AG",
+    "phone": "+41 800 122 144",
+    "ref": "0862LTM",
+    "id": "node/13716220472"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4918872,
+      47.2066987
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13716228157",
+  "properties": {
+    "defibrillator:location": "INNOVATIONSCENTER / RECEPTION, Werk-4, EG (bei der Reception)",
+    "description": "Koffer Orange",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "VAT Group AG",
+    "opening_hours": "Montag – Donnerstag: 07:30–17:00 Freitag: 07:30–16:00",
+    "operator": "Lifetec AG",
+    "phone": "+41 800 122 144",
+    "ref": "1453LTM",
+    "id": "node/13716228157"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4923554,
+      47.2063333
     ]
   }
 }
