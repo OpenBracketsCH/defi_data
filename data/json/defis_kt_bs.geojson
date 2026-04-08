@@ -1810,14 +1810,14 @@
   "id": "node/10781539926",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bühnen Eingang (Porte)",
+    "defibrillator:location": "Elisabethenstrasse 16, Bühnen Eingang (Porte)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "opening_hours": "Mo-Fr 08:00-17:00",
-    "operator": "Alexander Stumpp",
-    "phone": "+41612951311",
+    "operator": "Theater Basel",
+    "phone": "+41 61 295 11 00",
     "id": "node/10781539926"
   },
   "geometry": {
@@ -3953,6 +3953,27 @@
     "coordinates": [
       7.585469,
       47.550416
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13716402801",
+  "properties": {
+    "defibrillator:location": "Theater Fauteuil und Tabouretti",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Theater Fauteuil",
+    "phone": "+41 61 261 26 11",
+    "id": "node/13716402801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5863051,
+      47.5573698
     ]
   }
 }
