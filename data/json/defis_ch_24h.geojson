@@ -78222,19 +78222,19 @@
   "id": "node/9899496818",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Gemeindehaus Fassade zur Strasse",
+    "defibrillator:location": "Schulhausweg 2, 3214 Ulmiz",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Gemeinde Ulmiz",
+    "operator": "Gemeinde Gurmels",
     "id": "node/9899496818"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.2011921,
-      46.931891
+      7.1999253,
+      46.9329037
     ]
   }
 },
@@ -152674,6 +152674,48 @@
     "coordinates": [
       7.2209579,
       47.1629417
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13718764301",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Im Haus",
+    "description": "Klingeln",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "id": "node/13718764301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2989645,
+      47.1389335
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13718764302",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Im Haus",
+    "description": "Klingeln",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "id": "node/13718764302"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3056125,
+      47.1406882
     ]
   }
 }
