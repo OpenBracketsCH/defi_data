@@ -11495,17 +11495,20 @@
   "type": "Feature",
   "id": "node/8500495394",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Outside, on the wall of the building",
+    "description": "Outside, on the wall of the building",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/8500495394"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4930741,
-      47.3756116
+      8.493074,
+      47.3756114
     ]
   }
 },
