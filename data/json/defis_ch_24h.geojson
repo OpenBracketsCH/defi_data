@@ -150834,19 +150834,19 @@
   "type": "Feature",
   "id": "node/13653354601",
   "properties": {
-    "defibrillator:location": "Privathaus",
-    "description": "vor Hauseingang gut sichtbar von der Strasse aus",
+    "defibrillator:location": "Vor dem Hauseingang an der Hauswand gut sichtbar von der Strasse aus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Lifetec",
     "id": "node/13653354601"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6008182,
-      47.3538383
+      8.600836,
+      47.3538494
     ]
   }
 },
@@ -152708,6 +152708,26 @@
     "coordinates": [
       7.7170923,
       47.4014972
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13720559150",
+  "properties": {
+    "defibrillator:location": "Neben dem Hauseingang an der Aussenwand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Lifetec",
+    "id": "node/13720559150"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6007026,
+      47.3546039
     ]
   }
 }
