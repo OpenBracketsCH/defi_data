@@ -3975,6 +3975,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Einwohnergemeinde Duggingen",
     "phone": "+41 61 756 99 00",
     "id": "node/9860358506"
@@ -3983,7 +3984,7 @@
     "type": "Point",
     "coordinates": [
       7.6055928,
-      47.4534173
+      47.4534169
     ]
   }
 },
@@ -13350,6 +13351,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
+    "opening_hours": "24/7",
     "operator": "Einwohnergemeinde Duggingen",
     "phone": "+41 61 756 99 00",
     "id": "node/13712989901"
@@ -13357,7 +13359,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6017162,
+      7.6017163,
       47.450504
     ]
   }
@@ -13817,6 +13819,52 @@
     "coordinates": [
       7.6419193,
       47.551311
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13720261401",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Ridoma AG, Büro 1.OG, Teeküche, Schrank oberhalb von Kühlschrank",
+    "description": "während den Öffnungszeiten zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 08:00 - 12:00, 14:00 - 16:00",
+    "operator": "Ridoma AG",
+    "phone": "+41 61 711 18 44",
+    "id": "node/13720261401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.60056,
+      47.486222
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13720362601",
+  "properties": {
+    "defibrillator:location": "Gemeindeverwaltung Titterten",
+    "description": "Neben dem Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Titterten",
+    "phone": "+41 61 943 13 13",
+    "id": "node/13720362601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7170923,
+      47.4014972
     ]
   }
 }
