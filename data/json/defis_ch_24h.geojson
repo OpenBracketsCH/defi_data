@@ -31903,6 +31903,28 @@
 },
 {
   "type": "Feature",
+  "id": "node/7727020234",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Am linken Ende des Restaurant an der Wand",
+    "description": "24/7",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Lange Erlen",
+    "id": "node/7727020234"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.60485,
+      47.5745
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/7727100523",
   "properties": {
     "access": "yes",
@@ -55215,6 +55237,28 @@
     "coordinates": [
       9.015124,
       47.3724465
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8903589917",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussenwand Gemeindeverwaltung, Eingang rechts",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Bubendorf",
+    "phone": "+41 61 935 90 90",
+    "id": "node/8903589917"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7365,
+      47.4497232
     ]
   }
 },
@@ -102337,7 +102381,7 @@
   "id": "node/11105527003",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "À l'extérieur sur le côté du bâtiment, boîte à clé vitrée sur le côté pour ouvrir",
+    "defibrillator:location": "À l'extérieur sur le côté du bâtiment",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -102348,8 +102392,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.8979963,
-      46.5374737
+      6.898461,
+      46.5381146
     ]
   }
 },
@@ -138009,8 +138053,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5963968,
-      47.5524532
+      7.5963285,
+      47.5522973
     ]
   }
 },
@@ -152980,6 +153024,189 @@
     "coordinates": [
       7.8555903,
       47.4607538
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13727293301",
+  "properties": {
+    "defibrillator:location": "Beim Kellereingang",
+    "description": "24/7",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Wohngenossenschaft",
+    "phone": "+41 79 469 93 07",
+    "id": "node/13727293301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5616009,
+      47.5489508
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13727293306",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hofseite beim Kellereingang",
+    "description": "24/7",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Wohngenossenschaft Furkastrasse",
+    "phone": "+41 79 469 93 07",
+    "id": "node/13727293306"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5620015,
+      47.5476002
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13727352701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Parkhaus Storchen, Elektroparkplätzen",
+    "description": "24/7",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Parkhaus Storchen",
+    "phone": "+41 61 267 69 93",
+    "id": "node/13727352701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5865006,
+      47.5592709
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13727360401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "3 UG Ausgang Steinenbachgässlein",
+    "description": "24/7",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-3",
+    "opening_hours": "24/7",
+    "operator": "Parkhaus Steinen",
+    "phone": "+41 61 267 69 93",
+    "id": "node/13727360401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5861797,
+      47.5522612
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13727366701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Parkhaus Elisabethen Kassenbereich 2 UG",
+    "description": "24/7",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-2",
+    "opening_hours": "24/7",
+    "operator": "Parkhaus Elisabethen",
+    "phone": "+41 61 319 98 98",
+    "id": "node/13727366701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.58748,
+      47.550483
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13727410501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Turnhalle aussen",
+    "description": "24/7",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Sekundarschule Gelterkinden",
+    "phone": "+41 61 552 02 43",
+    "id": "node/13727410501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8573647,
+      47.459915
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13727426701",
+  "properties": {
+    "defibrillator:location": "Sporthalle Sappeten, rechts neben Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Bubendorf",
+    "phone": "+41 61 935 90 90",
+    "id": "node/13727426701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7401186,
+      47.452254
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13727431901",
+  "properties": {
+    "defibrillator:location": "Eingang rechts",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Bubendorf",
+    "phone": "+41 61 935 90 90",
+    "id": "node/13727431901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7367323,
+      47.4578012
     ]
   }
 }
