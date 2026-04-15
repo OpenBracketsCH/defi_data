@@ -71830,6 +71830,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "GVZ Gebäudeversicherung Kanton Zürich, gut sichtbar auf einer Standsäule angebracht",
+    "email": "firstresponder@gvz.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -90927,6 +90928,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Thurgauerstrasse 56, vor dem Haupteingang rechts in einem Wandkasten",
+    "email": "firstresponder@gvz.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -99213,6 +99215,30 @@
     "coordinates": [
       8.4486497,
       47.4948675
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13731804901",
+  "properties": {
+    "defibrillator:location": "Gerätelokal Wallikon, bei Liegenschaft Höhenstrasse 10, Pfäffikon",
+    "description": "an Aussenfassade ehemaliges Feuerwehr Gerätelokal angebracht",
+    "email": "michael.sigg@pfaeffikon.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Pfäffikon",
+    "phone": "+41 43 288 70 91",
+    "id": "node/13731804901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8058147,
+      47.3791124
     ]
   }
 }
