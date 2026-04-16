@@ -608,10 +608,12 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Rechts neben Haupteingang hängt der Defi an der Wand",
-    "description": "rechts neben Eingang",
+    "description": "rechts neben Haupteingang",
+    "email": "gemeinde@bubikon.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Bubikon",
     "id": "node/2789308839"
@@ -619,7 +621,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8157744,
+      8.8157745,
       47.2691196
     ]
   }
@@ -1885,9 +1887,11 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "direkt neben Eingang Volg",
+    "email": "gemeinde@bubikon.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Bubikon",
     "phone": "+41 55 253 33 55",
@@ -2230,9 +2234,11 @@
     "access": "yes",
     "defibrillator:location": "Neben Billetautomat, beim Stationsgebäude",
     "description": "Öffentlich zugänglich",
+    "email": "gemeinde@bubikon.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Bubikon",
     "phone": "+41 55 253 33 55",
@@ -2241,7 +2247,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8225777,
+      8.8225767,
       47.2708542
     ]
   }
@@ -39429,9 +39435,11 @@
     "access": "yes",
     "defibrillator:location": "Rechts neben Eingang",
     "description": "von Aussen zugänglich",
+    "email": "gemeinde@bubikon.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Bubikon",
     "phone": "+41 55 253 33 55",
@@ -39440,8 +39448,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8141724,
-      47.2662733
+      8.814172,
+      47.2662731
     ]
   }
 },
@@ -151811,14 +151819,15 @@
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
-    "operator": "Gemeinde",
+    "operator": "Stadt Adliswil",
+    "phone": "+41 44 711 77 11",
     "id": "node/13691341401"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5281762,
-      47.3075736
+      8.5281761,
+      47.3075738
     ]
   }
 },
@@ -153222,7 +153231,7 @@
     "email": "office@shsarch.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "yes",
     "level": "0",
     "opening_hours": "24/7",
     "operator": "Tivolifabrik / SHS Architekten AG",
@@ -153232,8 +153241,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.623272,
-      46.757553
+      7.6232719,
+      46.7575531
     ]
   }
 },
@@ -153344,6 +153353,25 @@
     "coordinates": [
       6.9409016,
       46.2773849
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13734153106",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sur la façade de la caserne des pompiers",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/13734153106"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9839824,
+      46.2105278
     ]
   }
 }
