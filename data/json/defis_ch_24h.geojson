@@ -16186,11 +16186,13 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Baudepartement Kanton Schwyz",
+    "email": "bd@sz.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Baudepartement Kanton Schwyz",
-    "phone": "+41 41 819 25 16",
+    "phone": "+41 41 819 25 15",
     "id": "node/6976909977"
   },
   "geometry": {
@@ -20223,8 +20225,10 @@
   "type": "Feature",
   "id": "node/7006201377",
   "properties": {
+    "defibrillator:location": "unklar?",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
     "operator": "Kanton Zug",
@@ -20233,8 +20237,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5151588,
-      47.1665278
+      8.5151587,
+      47.1665279
     ]
   }
 },
