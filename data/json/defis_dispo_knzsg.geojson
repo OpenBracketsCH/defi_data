@@ -9440,11 +9440,15 @@
   "id": "node/8695911250",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Treppenhaus 1. OG",
-    "description": "Haupteingang innen",
+    "defibrillator:location": "Haupteingang aussen",
+    "email": "esther.naef@schule-widnau.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "phone": "+41 71 595 96 40",
     "id": "node/8695911250"
   },
   "geometry": {
@@ -9583,18 +9587,22 @@
   "id": "node/8695911260",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Sporthallentrakt im UG (beim Eingang zur kleinen Halle)",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "Haupteingang Altbau",
+    "email": "esther.naef@schule-widnau.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Widnau",
+    "phone": "+41 71 595 96 40",
     "id": "node/8695911260"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.6372471,
-      47.4025369
+      9.6372467,
+      47.4025367
     ]
   }
 },
@@ -14125,18 +14133,22 @@
   "id": "node/9363629005",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Eingng Polizeiposten",
+    "defibrillator:location": "Eingang Polizeiposten",
+    "email": "esther.naef@schule-widnau.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "phone": "+41 71 595 96 40",
     "id": "node/9363629005"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.6350919,
-      47.4056886
+      9.6350916,
+      47.4056882
     ]
   }
 },
@@ -35693,22 +35705,24 @@
   "type": "Feature",
   "id": "node/13569683401",
   "properties": {
-    "access": "permissive",
-    "defibrillator:location": "Wohnanlage Neuenfels",
-    "description": "Büro Leitung Wohnanlage",
+    "access": "yes",
+    "defibrillator:location": "Wohnanlage Nefenfeld",
+    "description": "Seiteneingang Hausnummer 15",
+    "email": "esther.naef@schule-widnau.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "level": "0",
-    "opening_hours": "Mo-Fr 08:00-17:00",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Widnau",
+    "phone": "+41 71 595 96 40",
     "id": "node/13569683401"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.6314417,
-      47.4123603
+      9.6314418,
+      47.4123604
     ]
   }
 },
