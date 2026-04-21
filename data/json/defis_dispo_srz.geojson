@@ -34149,14 +34149,20 @@
   "id": "node/9360309218",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Kirchgasse 1, 8421 Dättlikon",
-    "description": "Beim Hauseingang",
+    "addr:city": "Dättlikon",
+    "addr:housenumber": "1",
+    "addr:postcode": "8421",
+    "addr:street": "Kirchgasse",
+    "defibrillator:location": "Alterswohnung AWDAG Eingang",
+    "description": "Grüner Kasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "name": "Alterswohnungen Dättlikon AG (AWDAG)",
     "opening_hours": "24/7",
-    "operator": "Alterswohnungen Dättlikon AG",
-    "phone": "+41523044488",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1666LTS",
     "id": "node/9360309218"
   },
   "geometry": {
@@ -65088,14 +65094,20 @@
   "id": "node/11358394369",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Wurmbühlstrasse 29, Balkon",
+    "addr:city": "Winterthur",
+    "addr:housenumber": "29",
+    "addr:postcode": "8405",
+    "addr:street": "Wurmbühlstrasse",
+    "defibrillator:location": "Tägelmoos, Gemeinschaftsraum",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "fixme": "Balkon oder UG?",
     "indoor": "no",
     "level": "-1",
+    "name": "Asig Wohngemeinschaft",
     "opening_hours": "24/7",
-    "operator": "Forum Asig",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1642LTS",
     "id": "node/11358394369"
   },
   "geometry": {
@@ -85506,14 +85518,20 @@
   "id": "node/12587280501",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Gasthof Traube",
-    "description": "Aussen montiert",
+    "addr:city": "Dättlikon",
+    "addr:housenumber": "9",
+    "addr:postcode": "8424",
+    "addr:street": "Unterdorf",
+    "defibrillator:location": "Gasthof Traube Eingang",
+    "description": "Grüner Kasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "name": "Gemeinde Dättlikon",
     "opening_hours": "24/7",
-    "operator": "Gemeinde",
+    "operator": "Lifetec AG",
     "phone": "+41523044488",
+    "ref": "1667LTS",
     "id": "node/12587280501"
   },
   "geometry": {
@@ -98661,12 +98679,21 @@
   "type": "Feature",
   "id": "node/13653354601",
   "properties": {
+    "access": "yes",
+    "addr:city": "Witikon",
+    "addr:housenumber": "1",
+    "addr:postcode": "8053",
+    "addr:street": "Wiesliacher",
     "defibrillator:location": "Vor dem Hauseingang an der Hauswand gut sichtbar von der Strasse aus",
+    "description": "Grüner Kasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "name": "ASIG Wohngenossenschaft",
     "opening_hours": "24/7",
     "operator": "Lifetec",
+    "phone": "0800122144",
+    "ref": "1648LTS",
     "id": "node/13653354601"
   },
   "geometry": {
@@ -98859,8 +98886,20 @@
   "id": "node/13674787217",
   "properties": {
     "access": "yes",
+    "addr:city": "Dättlikon",
+    "addr:housenumber": "3",
+    "addr:postcode": "8421",
+    "addr:street": "Schulstrasse",
+    "defibrillator:location": "Schule Dättlikon Eingang",
+    "description": "Grüner Kasten",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
+    "name": "Gemeinde Dättlikon",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1668LTS",
     "id": "node/13674787217"
   },
   "geometry": {
@@ -98940,12 +98979,21 @@
   "id": "node/13685059501",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Die grüne beleuchtete Box neben dem Spielplatz",
+    "addr:city": "Nänikon",
+    "addr:housenumber": "24",
+    "addr:postcode": "8606",
+    "addr:street": "Heuwinkelstrasse",
+    "defibrillator:location": "beim Infotafel neben Spielplatz",
+    "description": "Grüner Kasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
+    "name": "ASIG Wohngenossenschaft",
     "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1645LTS",
     "id": "node/13685059501"
   },
   "geometry": {
@@ -99133,12 +99181,21 @@
   "type": "Feature",
   "id": "node/13720559150",
   "properties": {
-    "defibrillator:location": "Neben dem Hauseingang an der Aussenwand",
+    "access": "yes",
+    "addr:city": "Witikon",
+    "addr:housenumber": "128",
+    "addr:postcode": "8053",
+    "addr:street": "Trichtenhausenstrasse",
+    "defibrillator:location": "Neben dem Hauseingang Beim Standfuss",
+    "description": "Grüner Kasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "name": "ASIG Wohngenossenschaft",
     "opening_hours": "24/7",
     "operator": "Lifetec",
+    "phone": "0800122144",
+    "ref": "1649LTS",
     "id": "node/13720559150"
   },
   "geometry": {
@@ -99479,6 +99536,143 @@
     "coordinates": [
       8.4420639,
       47.272178
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13748523940",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Illnau-Effretikon",
+    "addr:housenumber": "18",
+    "addr:postcode": "8307",
+    "addr:street": "Rappenstrasse",
+    "defibrillator:location": "Rechts neben dem Eingang der Werkstatt",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "name": "ASIG Wohngenossenschaft",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1643LTS",
+    "id": "node/13748523940"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6954875,
+      47.4251091
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13748550931",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Volketswil",
+    "addr:housenumber": "10a",
+    "addr:postcode": "8604",
+    "addr:street": "Riethof",
+    "defibrillator:location": "Gemeinschaftsraum rechts vom Eingang",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "name": "ASIG Wohngenossenschaft",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1644LTS",
+    "id": "node/13748550931"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6613907,
+      47.3886071
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13748586552",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Fällanden",
+    "addr:housenumber": "8A",
+    "addr:postcode": "8117",
+    "addr:street": "Huebwiesstrasse",
+    "defibrillator:location": "Beim Eingang der Gemeinschaftsraum",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "name": "ASIG Wohngenossenschaft",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1646LTS",
+    "id": "node/13748586552"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6404777,
+      47.3759054
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13748589954",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Fällanden",
+    "addr:housenumber": "6",
+    "addr:postcode": "8117",
+    "addr:street": "Langäristrasse",
+    "defibrillator:location": "Beim Gemeinschaftsraum",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "name": "ASIG Wohngenossenschaft",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1647LTS",
+    "id": "node/13748589954"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6413573,
+      47.3687334
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13748626401",
+  "properties": {
+    "defibrillator:location": "Hardstrasse 81, Treppenhaus A direkt hinter Türe",
+    "description": "während Bürozeiten verfügbar",
+    "email": "info@exped.com",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/13748626401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5126355,
+      47.3814217
     ]
   }
 }

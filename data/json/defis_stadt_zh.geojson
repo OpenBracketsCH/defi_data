@@ -18235,12 +18235,21 @@
   "type": "Feature",
   "id": "node/13653354601",
   "properties": {
+    "access": "yes",
+    "addr:city": "Witikon",
+    "addr:housenumber": "1",
+    "addr:postcode": "8053",
+    "addr:street": "Wiesliacher",
     "defibrillator:location": "Vor dem Hauseingang an der Hauswand gut sichtbar von der Strasse aus",
+    "description": "Grüner Kasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "name": "ASIG Wohngenossenschaft",
     "opening_hours": "24/7",
     "operator": "Lifetec",
+    "phone": "0800122144",
+    "ref": "1648LTS",
     "id": "node/13653354601"
   },
   "geometry": {
@@ -18358,12 +18367,21 @@
   "type": "Feature",
   "id": "node/13720559150",
   "properties": {
-    "defibrillator:location": "Neben dem Hauseingang an der Aussenwand",
+    "access": "yes",
+    "addr:city": "Witikon",
+    "addr:housenumber": "128",
+    "addr:postcode": "8053",
+    "addr:street": "Trichtenhausenstrasse",
+    "defibrillator:location": "Neben dem Hauseingang Beim Standfuss",
+    "description": "Grüner Kasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "name": "ASIG Wohngenossenschaft",
     "opening_hours": "24/7",
     "operator": "Lifetec",
+    "phone": "0800122144",
+    "ref": "1649LTS",
     "id": "node/13720559150"
   },
   "geometry": {
@@ -18394,6 +18412,27 @@
     "coordinates": [
       8.5313215,
       47.3702742
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13748626401",
+  "properties": {
+    "defibrillator:location": "Hardstrasse 81, Treppenhaus A direkt hinter Türe",
+    "description": "während Bürozeiten verfügbar",
+    "email": "info@exped.com",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/13748626401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5126355,
+      47.3814217
     ]
   }
 }
