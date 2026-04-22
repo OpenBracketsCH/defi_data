@@ -17091,8 +17091,9 @@
   "id": "node/8720869554",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Beim Empfang",
+    "defibrillator:location": "Allianz Versicherung beim Empfang",
     "description": "Im Gebäude sind insgesamt 16 AED Geräte, davon einer im öffentlichen Bereich des Gebäudes (beim Empfang)",
+    "email": "facility.wallisellen@allianz-suisse.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -48608,21 +48609,22 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Waldhaus und Schützenhaus Warpel Embrach",
-    "description": "Aussen aufgestellt ",
+    "description": "Aussen aufgestellt",
+    "email": "infrastruktur@embrach.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Embrach",
-    "phone": "+41448663639",
+    "phone": "+41 44 554 48 88",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/11332683869"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6124277,
-      47.509528
+      8.6124283,
+      47.5095285
     ]
   }
 },
@@ -51012,19 +51014,21 @@
     "access": "yes",
     "defibrillator:location": "Gemeindshaus Embrach",
     "description": "Aussen am Gebäude angebracht in hellgrünem Kasten zwischen den Fenstern.",
+    "email": "infrastruktur@embrach.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde",
+    "phone": "+41 44 554 48 88",
     "id": "node/11573726170"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5946552,
-      47.5023356
+      8.5946546,
+      47.5023354
     ]
   }
 },
@@ -52674,19 +52678,21 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Entsorgungsplatz Gemeinde Embrach;Im Freien",
+    "email": "infrastruktur@embrach.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde",
+    "phone": "+41 44 554 48 88",
     "id": "node/11733806569"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5919693,
-      47.5105193
+      8.5919698,
+      47.5105195
     ]
   }
 },
@@ -57957,12 +57963,13 @@
     "access": "yes",
     "defibrillator:location": "Schulhaus Ebnet, Ebnetstrasse 11, Turnhalleneingang",
     "description": "durchgehend verfügbar",
+    "email": "infrastruktur@embrach.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Embrach",
-    "phone": "+41445544884",
+    "phone": "+41 44 554 48 84",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/11991401369"
   },
@@ -77678,6 +77685,29 @@
     "coordinates": [
       8.5126355,
       47.3814217
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13752732401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bergstrasse vor Abzweig Betzentalstrasse neben EKZ Kasten",
+    "email": "infrastruktur@embrach.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Embrach",
+    "phone": "+41 44 554 48 88",
+    "id": "node/13752732401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6031271,
+      47.5023821
     ]
   }
 }
