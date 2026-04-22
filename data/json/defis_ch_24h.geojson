@@ -151445,7 +151445,7 @@
   "id": "node/13665217501",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Eingang zur Werkstatt gleich beim Parkplatz",
+    "defibrillator:location": "Mehrzweckhalle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -153858,6 +153858,26 @@
     "coordinates": [
       8.6413573,
       47.3687334
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13751900601",
+  "properties": {
+    "defibrillator:location": "Schulhaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "id": "node/13751900601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2748357,
+      47.237407
     ]
   }
 }
