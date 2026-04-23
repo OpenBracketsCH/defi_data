@@ -41550,29 +41550,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10763310056",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "3. OG Sanitätsraum 307;2.OG Empfang",
-    "description": "schwarzer Koffer",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "name": "CSS Versicherung AG",
-    "operator": "Lifetec AG Schweiz",
-    "phone": "+41 800 122 144",
-    "id": "node/10763310056"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.44856,
-      47.40197
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10763310057",
   "properties": {
     "defibrillator:location": "Im UG, vor Büro",
@@ -77199,20 +77176,28 @@
   "id": "node/13712069801",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Am Glattbogen 140",
-    "description": "Beim Eingang Gemeinschaftsraum linke Seite",
+    "addr:city": "Zürich",
+    "addr:housenumber": "141",
+    "addr:postcode": "8050",
+    "addr:street": "Am Glattbogen",
+    "defibrillator:location": "Eingang Links",
+    "description": "grüner Kasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
+    "name": "ASIG",
     "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1659LTS",
     "id": "node/13712069801"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.566873,
-      47.4117329
+      8.5666741,
+      47.4117073
     ]
   }
 },
@@ -77685,6 +77670,296 @@
     "coordinates": [
       8.6031271,
       47.5023821
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13755226202",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Zürich",
+    "addr:housenumber": "455",
+    "addr:postcode": "8038",
+    "addr:street": "Seestrasse",
+    "defibrillator:location": "EG an der Bar",
+    "description": "Koffer Schwarz",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "Property One Partners AG",
+    "opening_hours": "Mo-Fr 08.30-12.00 13.30-16.30",
+    "operator": "lifetec AG",
+    "phone": "0800122144",
+    "ref": "1669LTM",
+    "id": "node/13755226202"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5376623,
+      47.3404442
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13755272325",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Zürich",
+    "addr:housenumber": "14",
+    "addr:postcode": "8051",
+    "addr:street": "Hirzenbach",
+    "defibrillator:location": "Beim Briefkasten",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "name": "Asig",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1658LTS",
+    "id": "node/13755272325"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5894961,
+      47.4019918
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13755347008",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Zürich",
+    "addr:housenumber": "334",
+    "addr:postcode": "8051",
+    "addr:street": "Luegislandstrasse",
+    "defibrillator:location": "Neben Selecta-Automat",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "name": "Asig",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1657LTS",
+    "id": "node/13755347008"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5753644,
+      47.4086406
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13755347556",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Zürich",
+    "addr:housenumber": "28",
+    "addr:postcode": "8052",
+    "addr:street": "Mattacker",
+    "defibrillator:location": "Beim Velorraum",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "name": "Asig",
+    "opening_hours": "24/7",
+    "operator": "lifetec AG",
+    "phone": "0800122144",
+    "ref": "1662LTS",
+    "id": "node/13755347556"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5517458,
+      47.4246619
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13755347722",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Zürich",
+    "addr:housenumber": "408",
+    "addr:postcode": "8050",
+    "addr:street": "Schaffhauserstrasse",
+    "defibrillator:location": "Beim Eingang",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "name": "Asig",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1660LTS",
+    "id": "node/13755347722"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.54576,
+      47.4145187
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13755349014",
+  "properties": {
+    "access": "yes",
+    "addr:city": "zürich",
+    "addr:housenumber": "110",
+    "addr:postcode": "8050",
+    "addr:street": "herbstweg",
+    "defibrillator:location": "Beim Eingang",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "name": "Asig",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1656LTS",
+    "id": "node/13755349014"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5645238,
+      47.4071077
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13755354006",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Zürich",
+    "addr:housenumber": "66",
+    "addr:postcode": "8052",
+    "addr:street": "Mattacker",
+    "defibrillator:location": "Beim Containerplatz",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "name": "Asig",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1661LTS",
+    "id": "node/13755354006"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5531451,
+      47.4259585
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13755355913",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Zürich",
+    "addr:housenumber": "1",
+    "addr:postcode": "8052",
+    "addr:street": "Sperletweg",
+    "defibrillator:location": "Eingang Links",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "name": "Asig",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1663LTS",
+    "id": "node/13755355913"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5492208,
+      47.4243434
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13755360457",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Höngg",
+    "addr:housenumber": "55",
+    "addr:postcode": "8049",
+    "addr:street": "Rütihofstrasse",
+    "defibrillator:location": "Zwischen Etage Oberhalb Spielplatz an Betonsäule",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "name": "Asig",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1650LTS",
+    "id": "node/13755360457"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4772499,
+      47.4130281
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13755379218",
+  "properties": {
+    "access": "yes",
+    "addr:city": "ZH Affoltern",
+    "addr:housenumber": "31",
+    "addr:postcode": "8046",
+    "addr:street": "Im Holzerhurd",
+    "defibrillator:location": "Gemeinschaftsraum Links",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "14",
+    "indoor": "no",
+    "name": "Asig",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1651LTS",
+    "id": "node/13755379218"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4948177,
+      47.4237805
     ]
   }
 }
