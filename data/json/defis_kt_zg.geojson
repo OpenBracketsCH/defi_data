@@ -8313,13 +8313,14 @@
   "id": "node/12601009001",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Im Böschi, bei Entsorgungsstelle/Unterflurcontaineranlage",
+    "defibrillator:location": "Im Böschi, bei Entsorgungsstelle/Unterflurcontaineranlage, mit Solarpannel",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Einwohnergemeinde Oberägeri",
     "phone": "+41 41 723 80 00",
+    "ref": "Standort 13",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/12601009001"
   },
@@ -9638,6 +9639,28 @@
     "coordinates": [
       8.5112655,
       47.1722251
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13758251502",
+  "properties": {
+    "defibrillator:location": "Rothhusstrasde 22",
+    "description": "toujours disponible",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "privé",
+    "id": "node/13758251502"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4441938,
+      47.1600599
     ]
   }
 }
