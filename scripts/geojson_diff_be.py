@@ -134,7 +134,7 @@ small {{ color: #666; }}
 </style>
 </head>
 <body>
-<img src="https://defikarte.ch/defikarte-logo-quer-gruen-positiv-rgb.png" alt="defikarte.ch" style="width:200px;"/>
+<img src="https://github.com/OpenBracketsCH/defi_data/raw/main/img/logo.png" alt="defikarte.ch" style="width:200px;"/>
 <h2>Änderungen an Defibrillatoren – Kanton Bern</h2>
 <p><strong>Zusammenfassung:</strong> {summary.get('neu', 0)} neu, {summary.get('gelöscht', 0)} gelöscht</p>
 <table>
