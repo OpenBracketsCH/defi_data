@@ -1,4 +1,4 @@
-<img src="https://defikarte.ch/defikarte-logo-quer-gruen-positiv-rgb.png" alt="defikarte.ch" style="width:400px;"/>
+<img src="img/logo.png" alt="defikarte.ch" style="width:400px;"/>
 
 ## Beschreibung der Datensammlung
 Sammlung von Files (JSON und CSV) für die Defikarte.ch und deren Partner die in Zukunft Daten beziehen möchten.
