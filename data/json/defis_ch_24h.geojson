@@ -102464,7 +102464,7 @@
   "id": "node/11105527003",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "À l'extérieur sur le côté du bâtiment",
+    "defibrillator:location": "Dans la passage sous les escaliers",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -102475,8 +102475,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.898461,
-      46.5381146
+      6.8985927,
+      46.53809
     ]
   }
 },
@@ -143238,20 +143238,22 @@
   "id": "node/13127452602",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Feuerwehrmagazin, an der Mauer",
+    "defibrillator:location": "Mehrzweckhalle, neben Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde",
+    "phone": "+41 32 614 31 23",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/13127452602"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6506834,
-      47.1877234
+      7.6512423,
+      47.1877285
     ]
   }
 },
@@ -152516,36 +152518,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/13712069801",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Zürich",
-    "addr:housenumber": "141",
-    "addr:postcode": "8050",
-    "addr:street": "Am Glattbogen",
-    "defibrillator:location": "Eingang Links",
-    "description": "grüner Kasten",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "name": "ASIG",
-    "opening_hours": "24/7",
-    "operator": "Lifetec AG",
-    "phone": "+41 800 122 144",
-    "ref": "1659LTS",
-    "id": "node/13712069801"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5666741,
-      47.4117073
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/13712989901",
   "properties": {
     "defibrillator:location": "Wohngebäude Grellingerstrasse 40",
@@ -154515,6 +154487,72 @@
     "coordinates": [
       9.2701172,
       47.6179508
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13765818601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gerlisberg",
+    "description": "Am Gebäude, hinter dem Brunnen, Ecke Gerlisbergstrasse/Rütigasse",
+    "email": "kommunikation@kloten.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadt Kloten",
+    "phone": "+41 44 815 11 11",
+    "id": "node/13765818601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6136788,
+      47.4642737
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13765821196",
+  "properties": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/13765821196"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5321792,
+      47.1638263
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13765899501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Entrée de l'immeuble Verger-Rond 5",
+    "description": "Devant l'entrée de l'immeuble Verger-Rond 5",
+    "email": "Marie.Umbricht@gmail.com",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/13765899501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9230413,
+      46.9985828
     ]
   }
 }

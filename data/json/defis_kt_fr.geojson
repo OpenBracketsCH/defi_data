@@ -3742,7 +3742,7 @@
   "id": "node/11105527003",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "À l'extérieur sur le côté du bâtiment",
+    "defibrillator:location": "Dans la passage sous les escaliers",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -3753,8 +3753,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.898461,
-      46.5381146
+      6.8985927,
+      46.53809
     ]
   }
 },
@@ -4326,8 +4326,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.8962212,
-      46.5278646
+      6.8964716,
+      46.5277832
     ]
   }
 },
@@ -7330,6 +7330,23 @@
     "coordinates": [
       7.1334205,
       46.9396177
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13763212708",
+  "properties": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/13763212708"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0044804,
+      46.7591787
     ]
   }
 }

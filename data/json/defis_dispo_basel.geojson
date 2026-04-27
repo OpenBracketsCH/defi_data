@@ -13454,14 +13454,14 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Im Hof der Stiftung Habitat",
-    "description": "währen Oeffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "8:30-19:00",
+    "opening_hours": "Mo-Fr 8:30-19:00",
     "operator": "Stiftung Habitat",
     "phone": "+41 61 327 10 60",
+    "wikimedia_commons": "File:Eingang_Utengasse.jpg",
     "id": "node/13713233701"
   },
   "geometry": {
@@ -14318,6 +14318,53 @@
     "coordinates": [
       7.7461603,
       47.4772184
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13763682401",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Hallenbad Muttenz",
+    "description": "beim Badmeister verlangen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Gemeinde Muttenz",
+    "id": "node/13763682401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6366752,
+      47.5258573
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13766084101",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Zentrum für Bilddiagnostik AG, beim MRI 2 im Schrank",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "frontdesk@bilddiagnostik.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-20:00",
+    "operator": "Unternehmen, Zentrum für Bilddiagnostik AG",
+    "phone": "+41 61 281 69 69",
+    "id": "node/13766084101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5875616,
+      47.5483394
     ]
   }
 }
