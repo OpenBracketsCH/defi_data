@@ -152516,36 +152516,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/13712069801",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Zürich",
-    "addr:housenumber": "141",
-    "addr:postcode": "8050",
-    "addr:street": "Am Glattbogen",
-    "defibrillator:location": "Eingang Links",
-    "description": "grüner Kasten",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "name": "ASIG",
-    "opening_hours": "24/7",
-    "operator": "Lifetec AG",
-    "phone": "+41 800 122 144",
-    "ref": "1659LTS",
-    "id": "node/13712069801"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5666741,
-      47.4117073
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/13712989901",
   "properties": {
     "defibrillator:location": "Wohngebäude Grellingerstrasse 40",
@@ -154515,6 +154485,49 @@
     "coordinates": [
       9.2701172,
       47.6179508
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13765818601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gerlisberg",
+    "description": "Am Gebäude, hinter dem Brunnen, Ecke Gerlisbergstrasse/Rütigasse",
+    "email": "kommunikation@kloten.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadt Kloten",
+    "phone": "+41 44 815 11 11",
+    "id": "node/13765818601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6136788,
+      47.4642737
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13765821196",
+  "properties": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/13765821196"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5321792,
+      47.1638263
     ]
   }
 }
