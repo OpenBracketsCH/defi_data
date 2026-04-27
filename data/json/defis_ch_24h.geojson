@@ -143238,20 +143238,22 @@
   "id": "node/13127452602",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Feuerwehrmagazin, an der Mauer",
+    "defibrillator:location": "Mehrzweckhalle, neben Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde",
+    "phone": "+41 32 614 31 23",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/13127452602"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6506834,
-      47.1877234
+      7.6512423,
+      47.1877285
     ]
   }
 },
@@ -154528,6 +154530,29 @@
     "coordinates": [
       7.5321792,
       47.1638263
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13765899501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Entrée de l'immeuble Verger-Rond 5",
+    "description": "Devant l'entrée de l'immeuble Verger-Rond 5",
+    "email": "Marie.Umbricht@gmail.com",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/13765899501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9230413,
+      46.9985828
     ]
   }
 }
