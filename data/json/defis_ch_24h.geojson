@@ -39657,8 +39657,9 @@
   "id": "node/8382790996",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Eingang Gebäude A",
+    "defibrillator:location": "Eingang Gebäude B",
     "description": "öffentlich zugänglich",
+    "email": "defi@sob.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -154554,6 +154555,122 @@
     "coordinates": [
       7.5332103,
       47.2077564
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13770599101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Aussen nach Treppe nach unten gleich Links",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Privatperson",
+    "id": "node/13770599101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.433568,
+      47.2627266
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13770677601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Rüti",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Winkel",
+    "phone": "+41765898184",
+    "id": "node/13770677601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.560737,
+      47.4800188
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13770700501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Shulhaus Rüti",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Winkel",
+    "phone": "+41765898184",
+    "id": "node/13770700501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.560647,
+      47.4797671
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13770963302",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "RAIFFEISEN Adliswil (Bancomatenraum: Türöffner drücken)",
+    "description": "Bancomatenraum (24/7 zugänglich, Türöffner drücken)",
+    "email": "thalwil@raiffeisen.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "RAIFFEISEN Adliswil",
+    "phone": "+41 44 723 80 80",
+    "id": "node/13770963302"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5250367,
+      47.3123925
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13770965001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "RAIFFEISEN Thalwil (Bancomatenraum: Türöffner drücken)",
+    "description": "Bancomatenraum (24/7 zugänglich, Türöffner drücken)",
+    "email": "thalwil@raiffeisen.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "RAIFFEISEN Thalwil",
+    "phone": "+41 44 723 80 80",
+    "id": "node/13770965001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5641316,
+      47.2954132
     ]
   }
 }
