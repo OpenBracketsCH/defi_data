@@ -6718,6 +6718,7 @@
   "type": "Feature",
   "id": "node/9894968217",
   "properties": {
+    "access": "no",
     "defibrillator:location": "Lidl",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -6739,7 +6740,8 @@
   "type": "Feature",
   "id": "node/9895003317",
   "properties": {
-    "defibrillator:location": "Ladenausgang bei den Kassen",
+    "access": "no",
+    "defibrillator:location": "Falsch",
     "description": "während den Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -8366,6 +8368,7 @@
   "type": "Feature",
   "id": "node/10763310347",
   "properties": {
+    "access": "customers",
     "defibrillator:location": "Treppenhaus EG, Eingang Halle",
     "description": "oranger Koffer",
     "emergency": "defibrillator",

@@ -153491,29 +153491,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/13736861201",
-  "properties": {
-    "access": "private",
-    "defibrillator:location": "Trottenstrasse 25",
-    "email": "t.dittmann@gmx.net",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "4",
-    "opening_hours": "24/7",
-    "operator": "Privatperson",
-    "id": "node/13736861201"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5468749,
-      47.5244663
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/13737134001",
   "properties": {
     "access": "yes",
@@ -154553,6 +154530,30 @@
     "coordinates": [
       9.4604709,
       47.4030796
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13769784201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Personaleingang Westbahnhofstrasse 11 (25 Meter unterhalb/westlich des Haupteingangs)",
+    "description": "In grünem Wandkasten an Aussenwand beim Personaleingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Regiobank Solothurn AG",
+    "phone": "+41 32 624 15 15",
+    "id": "node/13769784201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5332103,
+      47.2077564
     ]
   }
 }
