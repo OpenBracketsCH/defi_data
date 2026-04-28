@@ -107173,30 +107173,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11353784669",
-  "properties": {
-    "defibrillator:location": "in der Apotheke",
-    "description": "während den Apothekenöffnungszeiten, Siehe Website www.apotheke-thalwil.ch",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Central-Apotheke Thalwil AG",
-    "phone": "+41 44 720 06 92",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/11353784669"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5635672,
-      47.2956516
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11355509769",
   "properties": {
     "access": "yes",
@@ -154671,6 +154647,50 @@
     "coordinates": [
       8.5641316,
       47.2954132
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13770966904",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Rüti",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Winkel",
+    "phone": "+41765898184",
+    "id": "node/13770966904"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5607598,
+      47.4798706
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13771018001",
+  "properties": {
+    "defibrillator:location": "Schule Winkel",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemei de Winkel",
+    "phone": "+41767334355",
+    "id": "node/13771018001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5579446,
+      47.4875447
     ]
   }
 }
