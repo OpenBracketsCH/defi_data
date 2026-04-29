@@ -530,14 +530,18 @@
   "type": "Feature",
   "id": "node/5028810923",
   "properties": {
+    "defibrillator:location": "Dorfsaal Chesselhuus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Pfäffikon",
     "id": "node/5028810923"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7822599,
+      8.7822597,
       47.3647085
     ]
   }
@@ -25363,20 +25367,18 @@
   "type": "Feature",
   "id": "node/8676789618",
   "properties": {
-    "defibrillator:location": "Schulhaus Grossacher (Eingang Schulleitung)",
+    "defibrillator:location": "Nicht mehr in Betrieb!",
+    "description": "Nicht mehr in Betrieb!",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 07:00-22:00",
-    "operator": "Schule Winkel",
-    "phone": "+41792823145",
     "id": "node/8676789618"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5584284,
-      47.4875133
+      8.5584247,
+      47.4875642
     ]
   }
 },
@@ -25384,20 +25386,17 @@
   "type": "Feature",
   "id": "node/8676789619",
   "properties": {
-    "defibrillator:location": "Schulhaus Rüti (Eingang Haupttrakt)",
+    "defibrillator:location": "Nicht mehr in betrieb!",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Schule Winkel",
-    "phone": "+41765898184",
     "id": "node/8676789619"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5607528,
-      47.4794416
+      8.5607529,
+      47.4794415
     ]
   }
 },
