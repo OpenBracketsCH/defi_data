@@ -17008,13 +17008,12 @@
   "id": "node/8676789619",
   "properties": {
     "defibrillator:location": "Schulhaus Rüti (Eingang Haupttrakt)",
-    "description": "während Schulbetrieb",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 07:30-17:00",
+    "opening_hours": "24/7",
     "operator": "Schule Winkel",
-    "phone": "+41794381275",
+    "phone": "+41765898184",
     "id": "node/8676789619"
   },
   "geometry": {
@@ -78177,50 +78176,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/13770677601",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Schulhaus Rüti",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde Winkel",
-    "phone": "+41765898184",
-    "id": "node/13770677601"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.560737,
-      47.4800188
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/13770700501",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Shulhaus Rüti",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde Winkel",
-    "phone": "+41765898184",
-    "id": "node/13770700501"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.560647,
-      47.4797671
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/13770963302",
   "properties": {
     "access": "yes",
@@ -78271,29 +78226,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/13770966904",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Schulhaus Rüti",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde Winkel",
-    "phone": "+41765898184",
-    "id": "node/13770966904"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5607598,
-      47.4798706
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/13770968701",
   "properties": {
     "access": "permissive",
@@ -78324,7 +78256,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Gemei de Winkel",
+    "operator": "Gemeinde Winkel",
     "phone": "+41767334355",
     "id": "node/13771018001"
   },
@@ -78354,8 +78286,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5606176,
-      47.4797332
+      8.5607349,
+      47.4797588
     ]
   }
 }
