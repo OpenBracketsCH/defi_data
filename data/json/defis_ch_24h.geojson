@@ -72985,10 +72985,11 @@
   "id": "node/9625596485",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Sanitärgebäude 3, Eingang Nordwest, Treppe zum Obergeschoss.",
+    "defibrillator:location": "Seestrasse 203, Eingang Nordwest, Treppe zum Obergeschoss.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Camping Manor Farm",
     "phone": "+41 33 822 22 64",
@@ -72997,8 +72998,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.814985,
-      46.6810159
+      7.8149848,
+      46.681016
     ]
   }
 },
@@ -143865,6 +143866,30 @@
     "coordinates": [
       7.4136695,
       46.922745
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13158492202",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Seestrasse 123, gegenüber Haupteingang Restaurant neuhaus zum see, aussen/westlich am Gebäude",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Restaurant neuhaus zum see",
+    "phone": "+41 33 822 82 82",
+    "wheelchair": "yes",
+    "id": "node/13158492202"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8165914,
+      46.6790433
     ]
   }
 },
