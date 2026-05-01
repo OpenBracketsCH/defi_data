@@ -16530,8 +16530,11 @@
     "addr:housenumber": "7",
     "addr:postcode": "3063",
     "addr:street": "Rain",
+    "defibrillator:location": "beim Bürgerdesk",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo 08:30-11:30,13:30-18:00; Tu,Th 08:30-11:30,13:30-17:00; We 12:15-17:00; Fr 08:30-11:30,13:30-16:00,Sa-Su off",
     "operator": "Gemeindeverwaltung Ittigen",
     "phone": "+41 31 925 22 90",
     "id": "node/6641800673"
@@ -16539,8 +16542,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4786397,
-      46.9764617
+      7.478835,
+      46.9765067
     ]
   }
 },
@@ -31733,18 +31736,18 @@
     "addr:housenumber": "7",
     "addr:postcode": "3063",
     "addr:street": "Rain",
+    "defibrillator:location": "beim Eingang, nur während Öffnungszeiten der Schule verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Polizeiwache Ittigen",
+    "indoor": "yes",
     "phone": "+41 31 638 80 00",
     "id": "node/8728792846"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4786905,
-      46.9765263
+      7.4789967,
+      46.9769053
     ]
   }
 },
@@ -63011,9 +63014,11 @@
   "type": "Feature",
   "id": "node/13668670062",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "An der Hauswand bei einem Nebeneingang beim Veloständer.",
     "emergency": "defibrillator",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/13668670062"
   },
   "geometry": {
