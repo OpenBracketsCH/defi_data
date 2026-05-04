@@ -8231,66 +8231,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8695911254",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Lehrerzimmer 1. OG, auf Garderobe",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "id": "node/8695911254"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.637806,
-      47.4046389
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8695911255",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Eingangsbereich zur Aula",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "id": "node/8695911255"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.6392819,
-      47.4029674
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8695911256",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Schrank im 1. OG",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo 08:00-11:30,13:30-18:00; Tu-Th 08:00-11:30,13:30-16:30; Fr 08:00-11:30,13:30-16:00",
-    "id": "node/8695911256"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.6357085,
-      47.4055529
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8695911257",
   "properties": {
     "access": "yes",
@@ -30823,6 +30763,31 @@
     "coordinates": [
       9.6281918,
       47.4180247
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13793797701",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "BR Bauhandel AG, Allmeindstrasse 22, 8716 Schmerikon",
+    "description": "während den Öffnungszeiten verfügbar",
+    "email": "patrik.siegenthaler@bmsuisse.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-TH 07:00 - 17:00;Fr 07:00 - 15:45",
+    "operator": "BR Bauhandel AG",
+    "phone": "+41 55 286 90 90",
+    "id": "node/13793797701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9514463,
+      47.2224534
     ]
   }
 }
