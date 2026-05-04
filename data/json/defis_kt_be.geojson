@@ -44551,29 +44551,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10763310444",
-  "properties": {
-    "defibrillator:location": "EG in Produktion (neben Schlauch)",
-    "description": "oranger Koffer",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "name": "Cellwar GmbH",
-    "opening_hours": "Mo-Fr 07:30-17:00",
-    "operator": "Lifetec AG Schweiz",
-    "phone": "+41 800 122 144",
-    "id": "node/10763310444"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.62014,
-      46.72729
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10763310445",
   "properties": {
     "access": "no",
@@ -63662,6 +63639,30 @@
     "coordinates": [
       7.3494829,
       46.996504
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13793474801",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Senevita Burgdorf, Altersheim, Lyssachstrasse 77a",
+    "description": "wenn Türe geschlossen mit Klingel jederzeit erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Senevita Burgdorf",
+    "phone": "+41344310000",
+    "id": "node/13793474801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6181236,
+      47.0591839
     ]
   }
 }

@@ -49030,6 +49030,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/8695911251",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Fassade beim Haupteingang",
+    "email": "esther.naef@schule-widnau.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "phone": "+41 71 595 96 40",
+    "id": "node/8695911251"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.6399423,
+      47.4033345
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8695911253",
   "properties": {
     "access": "yes",
@@ -143342,8 +143366,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.9432616,
-      46.570056
+      8.9432733,
+      46.5700612
     ]
   }
 },
@@ -154849,6 +154873,30 @@
     "coordinates": [
       7.1437226,
       46.7977093
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13793474801",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Senevita Burgdorf, Altersheim, Lyssachstrasse 77a",
+    "description": "wenn Türe geschlossen mit Klingel jederzeit erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Senevita Burgdorf",
+    "phone": "+41344310000",
+    "id": "node/13793474801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6181236,
+      47.0591839
     ]
   }
 }
