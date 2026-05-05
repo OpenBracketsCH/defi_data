@@ -14372,20 +14372,23 @@
   "type": "Feature",
   "id": "node/13793387001",
   "properties": {
-    "access": "customers",
+    "access": "yes",
     "defibrillator:location": "Untertalweg 54 Arlesheim alltech AG",
+    "email": "alltech@alltech.ch",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 07:00-17:00",
     "operator": "alltech AG",
-    "phone": "0616397373",
+    "phone": "+41 61 639 73 73",
     "id": "node/13793387001"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6104572,
-      47.4993566
+      7.6104569,
+      47.4993564
     ]
   }
 },
@@ -14442,7 +14445,7 @@
   "type": "Feature",
   "id": "node/13798093601",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "defibrillator:location": "alltech AG 3.OG Zentrale",
     "description": "Zoll AED Plus",
     "email": "alltech@alltech.ch",
