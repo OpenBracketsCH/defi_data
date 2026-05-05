@@ -1955,6 +1955,28 @@
 },
 {
   "type": "Feature",
+  "id": "node/4745088306",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Verwaltungsgebäude Einwohnergemeinde",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde",
+    "phone": "+41 32 671 12 12",
+    "id": "node/4745088306"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5565291,
+      47.181591
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/4754554077",
   "properties": {
     "access": "private",
@@ -25023,6 +25045,28 @@
     "coordinates": [
       8.7913075,
       47.3431376
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7603591726",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Biberist",
+    "phone": "+41 32 671 12 12",
+    "id": "node/7603591726"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5606356,
+      47.1791285
     ]
   }
 },
@@ -73350,28 +73394,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9630985617",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Stadtverwaltung",
-    "description": "Hauppteingang aussen",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Stadt Liestal",
-    "id": "node/9630985617"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.7347171,
-      47.4835846
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9630986117",
   "properties": {
     "access": "yes",
@@ -118900,29 +118922,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11936730975",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Neben Eingang Garderobengebäude (Seite Militärstrasse)",
-    "description": "nur während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Stadt Liestal",
-    "phone": "+41 61 927 52 18",
-    "id": "node/11936730975"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.7415462,
-      47.4801371
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11939182869",
   "properties": {
     "access": "permissive",
@@ -154948,6 +154947,97 @@
     "coordinates": [
       7.4627142,
       46.983757
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13798447803",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kindergarten Egelmoos Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Biberist",
+    "phone": "+41 32 671 12 12",
+    "id": "node/13798447803"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5529722,
+      47.1851212
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13798466105",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neuer Eingang Strandbad Zug",
+    "description": "Neben Infoscreen",
+    "email": "sicherheit@stadtzug.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 00",
+    "id": "node/13798466105"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5036603,
+      47.1744661
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13798466901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Biberist",
+    "phone": "+41 32 671 12 12",
+    "id": "node/13798466901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5565235,
+      47.1804367
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13798471802",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "FC Biberist Garderobenhaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Biberist",
+    "phone": "+41 32 671 12 12",
+    "id": "node/13798471802"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5709828,
+      47.1885125
     ]
   }
 }

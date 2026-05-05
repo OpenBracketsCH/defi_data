@@ -48,16 +48,21 @@
   "type": "Feature",
   "id": "node/4745088306",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Verwaltungsgebäude Einwohnergemeinde",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde",
     "phone": "+41 32 671 12 12",
     "id": "node/4745088306"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5565722,
-      47.1814942
+      7.5565291,
+      47.181591
     ]
   }
 },
@@ -445,17 +450,20 @@
   "id": "node/7603591726",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "an Aussenwand",
+    "defibrillator:location": "Haupteingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Biberist",
+    "phone": "+41 32 671 12 12",
     "id": "node/7603591726"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5606357,
-      47.1791287
+      7.5606356,
+      47.1791285
     ]
   }
 },
@@ -10817,6 +10825,72 @@
     "coordinates": [
       7.840814,
       47.3297242
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13798447803",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kindergarten Egelmoos Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Biberist",
+    "phone": "+41 32 671 12 12",
+    "id": "node/13798447803"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5529722,
+      47.1851212
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13798466901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Biberist",
+    "phone": "+41 32 671 12 12",
+    "id": "node/13798466901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5565235,
+      47.1804367
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13798471802",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "FC Biberist Garderobenhaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Biberist",
+    "phone": "+41 32 671 12 12",
+    "id": "node/13798471802"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5709828,
+      47.1885125
     ]
   }
 }
