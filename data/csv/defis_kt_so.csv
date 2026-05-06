@@ -1,7 +1,7 @@
 osm_id,osm_type,lat,lon,access,addr:city,addr:country,addr:housenumber,addr:postcode,addr:street,amenity,check_date,contact:email,contact:phone,contact:website,defibrillator:location,description,description:de,description:en,email,emergency,emergency:phone,fixme,id,indoor,latitude,level,location,longitude,name,opening_hours,operator,operator:type,outdoor,phone,ref,source,website,wheelchair
 697250228,node,47.1611969,7.5081349,yes,,,,,,,,,,,An Wand seitlich vom Eingang,,,,,defibrillator,144,,node/697250228,,,,,,,24/7,,,,,,survey,,yes
 4171975608,node,47.266444,7.541752,yes,,,,,,,,,,,,,,,,defibrillator,144,,node/4171975608,,,0,,,,24/7,Seilpark Balmberg,,,+41 32 637 14 14,,,https://seilpark-balmberg.ch,
-4745088306,node,47.1814942,7.5565722,,,,,,,,,,,,,,,,,defibrillator,144,,node/4745088306,,,,,,,,,,,+41 32 671 12 12,,,,
+4745088306,node,47.181591,7.5565291,yes,,,,,,,,,,,Verwaltungsgebäude Einwohnergemeinde,,,,,defibrillator,144,,node/4745088306,no,,,,,,24/7,Einwohnergemeinde,,,+41 32 671 12 12,,,,
 5522790039,node,47.1981005,7.523567,,,,,,,,,,,,"Draussen, an der Wand neben dem Aufenthaltsraum. Ist beleuchtet.",,,,,defibrillator,144,,node/5522790039,no,,,,,,,,,,,,,,
 6020113648,node,47.4764153,7.4902585,,,,,,,,,,,,,,,,,defibrillator,144,,node/6020113648,,,,,,,,,,,,,,,
 6228897704,node,47.3326356,7.8438272,,Hägendorf,,11,4614,Bachstrasse,library,,bibliothek@haegendorf.ch,+41 78 926 25 48,http://www.haegendorf.ch/de/vereinekultur/bibliothek/,Gangbereich vor Küchennische,während Öffnungszeiten verfügbar,,,,defibrillator,144,,node/6228897704,yes,,,,,Gemeindebibliothek,,Gemeinde Hägendorf;Einwohnergemeinde Hägendorf,public,,+41 62 209 17 12,,,,
@@ -19,7 +19,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:country,addr:housenumber,addr:post
 7281021204,node,47.3515682,7.9073316,yes,,,,,,,,,,,Martin-Disteli-Unterführung Bahnhof Olten,In Unterführung,,,,defibrillator,144,,node/7281021204,yes,,-1,,,,24/7,,,,,,,,yes
 7533067856,node,47.4660265,7.4662965,,,,,,,,,,,,,,,,,defibrillator,144,,node/7533067856,,,,,,,,,,,,,,,
 7554709700,node,47.2342759,7.6145503,private,,,,,,,,,,,,,,,,defibrillator,144,,node/7554709700,,,,,,,"Mo-Tu 06:45-11:45, 12:45-17:00;Fr 06:45-11:45, 12:45-16:30;PH off",,,,,,,,
-7603591726,node,47.1791287,7.5606357,yes,,,,,,,,,,,an Aussenwand,,,,,defibrillator,144,,node/7603591726,no,,,,,,,,,,,,,,
+7603591726,node,47.1791285,7.5606356,yes,,,,,,,,,,,Haupteingang,,,,,defibrillator,144,,node/7603591726,no,,,,,,24/7,Einwohnergemeinde Biberist,,,+41 32 671 12 12,,,,
 7633181489,node,47.4764112,7.4903098,,,,,,,,,,,,,,,,,defibrillator,144,,node/7633181489,,,,,,,,,,,,,,,
 7797505793,node,47.1195776,7.4394354,yes,,,,,,,,,,,,,,,,defibrillator,144,,node/7797505793,,,,,,,24/7,Gemeinde,,,,,,,
 7862924003,node,47.4562708,7.6395363,,,,,,,,,,,,,,,,,defibrillator,144,,node/7862924003,no,,,,,,,,,,,,,,
@@ -489,3 +489,6 @@ AED nur mit Kevin Cotting erhältlich",,,,defibrillator,144,,node/12883688801,ye
 13780520101,node,47.3671689,7.9855277,yes,,,,,,,,,,,"Model AG, Papierfabrik, Anmeldung OST",,,,michael.wilms@modelgroup.com,defibrillator,144,,node/13780520101,yes,,0,,,,24/7,"Model AG, Papierfabrik",,,+41 78 655 51 01,,,,
 13783069101,node,47.2103495,7.5018673,,,,,,,,,,,,Carrosserie Hess AG,während Öffnungszeiten verfügbar,,,,defibrillator,144,,node/13783069101,yes,,0,,,,,Carrosserie Hess,,,,,,,
 13793503501,node,47.3297242,7.840814,permissive,,,,,,,,,,,Fabrikstrasse 9,,,,,defibrillator,144,,node/13793503501,yes,,0,,,,Mo-Fr 7:30-16:00,ZidaTech AG,,,,,,,
+13798447803,node,47.1851212,7.5529722,yes,,,,,,,,,,,Kindergarten Egelmoos Haupteingang,,,,,defibrillator,144,,node/13798447803,no,,,,,,24/7,Einwohnergemeinde Biberist,,,+41 32 671 12 12,,,,
+13798466901,node,47.1804367,7.5565235,yes,,,,,,,,,,,Schulhaus,,,,,defibrillator,144,,node/13798466901,no,,,,,,24/7,Einwohnergemeinde Biberist,,,+41 32 671 12 12,,,,
+13798471802,node,47.1885125,7.5709828,yes,,,,,,,,,,,FC Biberist Garderobenhaus,,,,,defibrillator,144,,node/13798471802,no,,,,,,24/7,Einwohnergemeinde Biberist,,,+41 32 671 12 12,,,,
