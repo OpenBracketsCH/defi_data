@@ -13362,8 +13362,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4927292,
-      47.4782275
+      9.4933811,
+      47.4770801
     ]
   }
 },
@@ -36688,6 +36688,52 @@
     "coordinates": [
       9.3406284,
       47.4121166
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13800527601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Clientis Bank Indoor Bancomat Zone",
+    "description": "Während Öffnungszeiten erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 5:30-23:00",
+    "operator": "Clientis Bank Oberuzwil AG",
+    "phone": "+41719550303",
+    "id": "node/13800527601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.124583,
+      47.4301783
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13800541601",
+  "properties": {
+    "defibrillator:location": "Innerhalb Gebäude Sanitätszimmer",
+    "description": "Während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 14:00-18:00",
+    "operator": "Zweckverband Kellen",
+    "id": "node/13800541601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4584728,
+      47.4790633
     ]
   }
 }
