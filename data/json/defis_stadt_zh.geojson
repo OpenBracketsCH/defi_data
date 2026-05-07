@@ -2734,20 +2734,23 @@
   "id": "node/8617262275",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "bei den Kassen des Coop",
+    "defibrillator:location": "Vor Christ Uhren & Schmuck",
+    "description": "Während Öffnungszeiten",
+    "email": "info@letzipark.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "0",
+    "level": "2",
     "opening_hours": "Mo-Sa 09:00-20:00",
     "operator": "Letzipark",
+    "phone": "+41 44 497 52 52",
     "id": "node/8617262275"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4997088,
-      47.3863342
+      8.498761,
+      47.3862577
     ]
   }
 },
@@ -2756,20 +2759,23 @@
   "id": "node/8617262276",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Beim Eingang links",
+    "defibrillator:location": "Vor Andur Restaurant",
+    "description": "Während Öffnungszeiten verfügbar",
+    "email": "info@letzipark.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1",
+    "level": "4",
     "opening_hours": "Mo-Sa 09:00-20:00",
     "operator": "Letzipark",
+    "phone": "+41 44 597 52 52",
     "id": "node/8617262276"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4983069,
-      47.3864207
+      8.4988683,
+      47.3862316
     ]
   }
 },
@@ -18679,6 +18685,31 @@
     "coordinates": [
       8.5441896,
       47.4085559
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13806076601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vor Coop Restaurant",
+    "description": "Während Öffnungszeuten verfügbar",
+    "email": "info@letzipark.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "5",
+    "opening_hours": "Mo-Sa 09:00-20:00",
+    "operator": "EKZ letzipark",
+    "phone": "+41 44 497 52 52",
+    "id": "node/13806076601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4990131,
+      47.3861957
     ]
   }
 }
