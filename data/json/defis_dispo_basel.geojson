@@ -6191,8 +6191,8 @@
   "type": "Feature",
   "id": "node/10763310543",
   "properties": {
-    "defibrillator:location": "Im Treppenhaus, Zwischenetage EG zu UG",
-    "description": "gelber Koffer",
+    "defibrillator:location": "Rubitec AG",
+    "description": "gelber Koffer - Im Treppenhaus, Zwischenetage EG zu UG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -6200,6 +6200,7 @@
     "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
+    "ref": "0361LTM",
     "id": "node/10763310543"
   },
   "geometry": {
@@ -14514,6 +14515,29 @@
     "coordinates": [
       7.5689785,
       47.5612459
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13817847402",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Gesellschaft für Arbeit und Wohnen beim Links Daneben",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo - Fr 07:00 - 17:30",
+    "operator": "Verein",
+    "id": "node/13817847402"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6144051,
+      47.5562359
     ]
   }
 }

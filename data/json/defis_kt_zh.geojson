@@ -27897,11 +27897,11 @@
   "type": "Feature",
   "id": "node/9740894017",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "gemeindesahl",
+    "defibrillator:location": "Gemeindesaal",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "operator": "Samariterverein Hettlingen Dägerlen Seuzach",
     "phone": "+41763251700",
     "id": "node/9740894017"
@@ -27909,8 +27909,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7084107,
-      47.5475012
+      8.7084601,
+      47.5469789
     ]
   }
 },
@@ -78478,6 +78478,99 @@
     "coordinates": [
       8.7937504,
       47.5513805
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13817645501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Alte Telefonkabine",
+    "description": "Öffentlich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Hettlingen",
+    "phone": "+41523050505",
+    "id": "node/13817645501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7087707,
+      47.5469285
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13817653401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Freibad Hettlingen",
+    "description": "Öffentlich rechts vom Briefkasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Hettlingen",
+    "phone": "+41523050505",
+    "id": "node/13817653401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7131746,
+      47.550128
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13817658701",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Feribad Hettlingen",
+    "description": "In der Aufsicht! Zugang nur wenn das Bad offen ist!",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Hettlingen/ Freibad",
+    "phone": "+41523050505",
+    "id": "node/13817658701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7135186,
+      47.5503864
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13817961005",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Fahrwerk - Fa. Richner",
+    "description": "während der Öffnungszeiten verfügbar",
+    "email": "winterthur.richner.shop.platten@bmsuisse.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "opening_hours": "Mo-Th 07:00-11:45, 13:00-17:00, Fr 07:00-11:45, 13:00-15:45",
+    "operator": "BR Bauhandel AG - Plattenshop",
+    "phone": "+41 52 244 01 16",
+    "id": "node/13817961005"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7614572,
+      47.510977
     ]
   }
 }
