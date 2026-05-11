@@ -12345,18 +12345,21 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Raiffeisenbank Birmenstorf",
-    "description": "im Bankomatenraum immer offen",
+    "description": "Ausserhalb Eingang Bankomatenraum, links von der Tür",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Raiffeisenbank ",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Raiffeisenbank",
+    "wheelchair": "yes",
     "id": "node/9898939617"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.247299,
-      47.4605812
+      8.2471954,
+      47.4606
     ]
   }
 },
