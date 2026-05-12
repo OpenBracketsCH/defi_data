@@ -7264,9 +7264,11 @@
   "id": "node/7637818877",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Beim Eingang",
     "description": "Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "name": "Kirchenzentrum Monsejour",
     "opening_hours": "24/7",
     "id": "node/7637818877"
@@ -7274,8 +7276,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4393577,
-      47.080912
+      8.4393685,
+      47.0810581
     ]
   }
 },
@@ -21515,7 +21517,7 @@
   "type": "Feature",
   "id": "node/8560977331",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Im Foyer des Bildungsinstitutes Fokus Empathie.",
     "description": "während Öffnungszeiten verfügbar / sonst klingeln",
     "emergency": "defibrillator",
@@ -21523,6 +21525,7 @@
     "indoor": "yes",
     "operator": "Fokus Empathie GmbH, Benedikt Loser",
     "phone": "+41 79 334 96 84",
+    "source": "aed-source",
     "id": "node/8560977331"
   },
   "geometry": {
@@ -96079,15 +96082,17 @@
     "access": "yes",
     "defibrillator:location": "Links beim Eingang Aula",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
-    "operator": "Bezirk Küssnacht",
+    "opening_hours": "24/7",
+    "operator": "Bezirk Küssnacht, Rettungsdienst",
     "id": "node/13385894996"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
       8.4436032,
-      47.0862376
+      47.0862375
     ]
   }
 },
@@ -100912,6 +100917,26 @@
     "coordinates": [
       8.7614572,
       47.510977
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13821347301",
+  "properties": {
+    "defibrillator:location": "An Fassade",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Bezirk Küssnacht, Rettungsdienst",
+    "id": "node/13821347301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4664421,
+      47.0691874
     ]
   }
 }

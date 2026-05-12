@@ -2581,9 +2581,11 @@
   "id": "node/7637818877",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Beim Eingang",
     "description": "Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "name": "Kirchenzentrum Monsejour",
     "opening_hours": "24/7",
     "id": "node/7637818877"
@@ -2591,8 +2593,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4393577,
-      47.080912
+      8.4393685,
+      47.0810581
     ]
   }
 },
@@ -8438,15 +8440,17 @@
     "access": "yes",
     "defibrillator:location": "Links beim Eingang Aula",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
-    "operator": "Bezirk Küssnacht",
+    "opening_hours": "24/7",
+    "operator": "Bezirk Küssnacht, Rettungsdienst",
     "id": "node/13385894996"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
       8.4436032,
-      47.0862376
+      47.0862375
     ]
   }
 },
@@ -8760,6 +8764,26 @@
     "coordinates": [
       8.6192354,
       47.0065161
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13821347301",
+  "properties": {
+    "defibrillator:location": "An Fassade",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Bezirk Küssnacht, Rettungsdienst",
+    "id": "node/13821347301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4664421,
+      47.0691874
     ]
   }
 }

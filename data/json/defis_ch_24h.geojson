@@ -27732,9 +27732,11 @@
   "id": "node/7637818877",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Beim Eingang",
     "description": "Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "name": "Kirchenzentrum Monsejour",
     "opening_hours": "24/7",
     "id": "node/7637818877"
@@ -27742,8 +27744,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4393577,
-      47.080912
+      8.4393685,
+      47.0810581
     ]
   }
 },
@@ -146336,8 +146338,9 @@
   "id": "node/13313732901",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Talstation Twing",
+    "defibrillator:location": "Badesee Hasliberg",
     "description": "öffentlich",
+    "email": "gemeinde@hasliberg.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -146350,8 +146353,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.1951183,
-      46.7453957
+      8.1935805,
+      46.7466713
     ]
   }
 },
@@ -147834,6 +147837,27 @@
     "coordinates": [
       8.1487009,
       47.4367677
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13385894996",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Links beim Eingang Aula",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Bezirk Küssnacht, Rettungsdienst",
+    "id": "node/13385894996"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4436032,
+      47.0862375
     ]
   }
 },
@@ -155605,6 +155629,46 @@
     "coordinates": [
       6.8756337,
       46.9715872
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13820937601",
+  "properties": {
+    "defibrillator:location": "Centre Denner, à gauche de l'entrée du parling souterrain",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/13820937601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0330959,
+      46.7530466
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13821347301",
+  "properties": {
+    "defibrillator:location": "An Fassade",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Bezirk Küssnacht, Rettungsdienst",
+    "id": "node/13821347301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4664421,
+      47.0691874
     ]
   }
 }

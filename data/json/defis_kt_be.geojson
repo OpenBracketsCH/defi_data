@@ -61058,8 +61058,9 @@
   "id": "node/13313732901",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Talstation Twing",
+    "defibrillator:location": "Badesee Hasliberg",
     "description": "öffentlich",
+    "email": "gemeinde@hasliberg.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -61072,8 +61073,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.1951183,
-      46.7453957
+      8.1935805,
+      46.7466713
     ]
   }
 },
@@ -63872,6 +63873,31 @@
     "coordinates": [
       7.4482521,
       47.0557873
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13821220801",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Stufenbau, Pulverstrasse 8, 3063 Ittigen",
+    "description": "während der Öffnungszeiten",
+    "email": "info@smart-advice.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "4",
+    "opening_hours": "Mo-Fr 08:00 - 17:00",
+    "operator": "SMART-ADVICE GmbH",
+    "phone": "+41 79 703 34 45",
+    "id": "node/13821220801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4691495,
+      46.9769105
     ]
   }
 }
