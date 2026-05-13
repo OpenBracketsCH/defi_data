@@ -38363,6 +38363,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/8154591446",
+  "properties": {
+    "addr:city": "Gimmelwald",
+    "addr:housenumber": "754a",
+    "addr:postcode": "3826",
+    "addr:street": "Chilchstatt",
+    "defibrillator:location": "Kehrichthaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "id": "node/8154591446"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8929512,
+      46.5470038
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8154591447",
   "properties": {
     "access": "yes",
@@ -66859,9 +66883,10 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Gemeindehaus",
+    "email": "bauamt@safiental.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "yes",
     "opening_hours": "24/7",
     "operator": "Gemeinde Safiental",
     "id": "node/9327362718"
@@ -155688,14 +155713,60 @@
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde",
-    "phone": "+41 33 856 50 50",
+    "phone": "+41 33 856 50 82",
     "id": "node/13823545801"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.907255,
-      46.5907633
+      7.9074642,
+      46.5907726
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13823569201",
+  "properties": {
+    "defibrillator:location": "Altes Schulhaus, KITA Eingang, 3822 Lauterbrunnen",
+    "email": "gemeindeverwaltung@lauterbrunnen.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "phone": "+41 33 856 50 82",
+    "id": "node/13823569201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9070091,
+      46.5934411
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13823740502",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kultur- und Begegnungszentrum Zwicky-Fabrik",
+    "email": "michael.achermann@schulefaellanden.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Fällanden",
+    "phone": "+41 43 355 35 15",
+    "id": "node/13823740502"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.642857,
+      47.3706679
     ]
   }
 }

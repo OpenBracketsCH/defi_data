@@ -30342,13 +30342,13 @@
     "addr:housenumber": "30",
     "addr:postcode": "8004",
     "addr:street": "Morgartenstrasse",
-    "defibrillator:location": "2. OG, Wandschrank Korridor - jedoch nicht zugänglich - an Glastüre klopfen",
+    "defibrillator:location": "Pensionskasse Stadt Zürich - 2. OG, Wandschrank Korridor - an Glastüre klopfen",
     "description": "Koffer Orange",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "2",
-    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Lifetec AG",
     "phone": "+41 44 412 52 12",
     "ref": "1366LTM",
@@ -100937,6 +100937,53 @@
     "coordinates": [
       8.4664421,
       47.0691874
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13823740502",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kultur- und Begegnungszentrum Zwicky-Fabrik",
+    "email": "michael.achermann@schulefaellanden.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Fällanden",
+    "phone": "+41 43 355 35 15",
+    "id": "node/13823740502"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.642857,
+      47.3706679
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13823962701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Personaltraining Richtig Bewegen Büro, an der grossen Holzwand links, aussen angebracht",
+    "description": "zu jeder Zeit verfügbar",
+    "email": "info@richtig-bewegen.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Personaltraining Richtig bewegen, Firma",
+    "phone": "+41 79 408 88 26",
+    "id": "node/13823962701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7585809,
+      47.2746533
     ]
   }
 }

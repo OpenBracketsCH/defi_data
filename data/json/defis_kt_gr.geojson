@@ -5055,20 +5055,23 @@
   "type": "Feature",
   "id": "node/9327291216",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Schulhaus",
+    "access": "permissive",
+    "defibrillator:location": "Mehrzweckhalle",
     "description": "während Öffnungszeiten verfügbar",
+    "email": "bauamt@safiental.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "yes",
+    "level": "-1",
     "operator": "Gemeinde Safiental",
+    "phone": "+41 81 630 60 59",
     "id": "node/9327291216"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.2803547,
-      46.7880023
+      9.2799282,
+      46.7880932
     ]
   }
 },
@@ -5141,9 +5144,10 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Gemeindehaus",
+    "email": "bauamt@safiental.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "yes",
     "opening_hours": "24/7",
     "operator": "Gemeinde Safiental",
     "id": "node/9327362718"

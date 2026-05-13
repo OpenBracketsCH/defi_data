@@ -29998,14 +29998,15 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "phone": "+41 33 855 10 82",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
     "id": "node/8154591446"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.8929517,
-      46.5470039
+      7.8929512,
+      46.5470038
     ]
   }
 },
@@ -63915,14 +63916,36 @@
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde",
-    "phone": "+41 33 856 50 50",
+    "phone": "+41 33 856 50 82",
     "id": "node/13823545801"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.907255,
-      46.5907633
+      7.9074642,
+      46.5907726
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13823569201",
+  "properties": {
+    "defibrillator:location": "Altes Schulhaus, KITA Eingang, 3822 Lauterbrunnen",
+    "email": "gemeindeverwaltung@lauterbrunnen.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "phone": "+41 33 856 50 82",
+    "id": "node/13823569201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9070091,
+      46.5934411
     ]
   }
 }
