@@ -19337,8 +19337,10 @@
     "addr:housenumber": "459b",
     "addr:place": "Gsteigermatte",
     "addr:postcode": "3822",
+    "defibrillator:location": "Gemeindehaus Adler, im Veloständer, 3822 Lauterbrunnen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeindehaus Adler",
     "phone": "+41 33 856 50 82",
@@ -19347,8 +19349,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.9078061,
-      46.5968928
+      7.9078651,
+      46.5967159
     ]
   }
 },
@@ -63380,28 +63382,6 @@
     "coordinates": [
       8.250035,
       47.5037306
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9164637680",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Haupteingang",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "SRS Medical GmbH Rettungsdienst",
-    "phone": "+41 800 777 668",
-    "id": "node/9164637680"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.8115832,
-      47.3097966
     ]
   }
 },
@@ -110842,8 +110822,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.9386817,
-      45.9280198
+      8.9386693,
+      45.9280207
     ]
   }
 },
@@ -130029,8 +130009,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6207566,
-      47.0616811
+      7.6207861,
+      47.0616133
     ]
   }
 },
@@ -155693,6 +155673,29 @@
     "coordinates": [
       9.5539155,
       47.4227165
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13823545801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Staubbachschüür, Alte Stechelbergstrasse, 3822 Lauterbrunnen",
+    "email": "gemeindeverwaltung@lauterbrunnen.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "phone": "+41 33 856 50 50",
+    "id": "node/13823545801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.907255,
+      46.5907633
     ]
   }
 }
