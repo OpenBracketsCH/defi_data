@@ -13437,15 +13437,12 @@
   "type": "Feature",
   "id": "node/12093047223",
   "properties": {
-    "addr:housenumber": "6",
-    "addr:street": "Via da Scoula",
-    "defibrillator:location": "Beim Haupteingang im Eingangsbereich\n1442 LTM",
-    "description": "Koffer orange",
+    "defibrillator:location": "Beim Haupteingang im Eingangsbereich 1442 LTM",
+    "description": "Koffer orange, bei Schulöffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "bei Schulöffnungszeiten",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "ref": "1442 LTM",
@@ -13454,8 +13451,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.7617384,
-      46.4319083
+      9.7617004,
+      46.4319225
     ]
   }
 },
@@ -13491,8 +13488,6 @@
   "id": "node/12093119853",
   "properties": {
     "access": "yes",
-    "addr:housenumber": "1.1",
-    "addr:street": "Via da Baselgia",
     "defibrillator:location": "An WC-Häuschen bei Kirche San Lurench",
     "description": "Grüner Kasten / Oranger Koffer",
     "emergency": "defibrillator",
@@ -13502,15 +13497,14 @@
     "opening_hours": "24/7",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
-    "postal_code": "7514",
     "ref": "1444LTS",
     "id": "node/12093119853"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.7547502,
-      46.4346668
+      9.7547518,
+      46.4346622
     ]
   }
 },
@@ -15492,7 +15486,6 @@
     "opening_hours": "24/7",
     "operator": "Parkhotel Margna Sils",
     "phone": "+41 81 838 47 47",
-    "source": "local_knowledge, defikarte.ch",
     "id": "node/13005919001"
   },
   "geometry": {
