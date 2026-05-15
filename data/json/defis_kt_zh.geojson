@@ -46340,13 +46340,16 @@
   "type": "Feature",
   "id": "node/11038763006",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Im Shop",
     "description": "Während den Öffnungszeiten verfügbar",
+    "email": "sandro@divecorner.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Tu-Fr 13:00-18:30; Sa 08:00-15:00",
-    "operator": "Adventuresports AG",
+    "level": "0",
+    "opening_hours": "Tu-Fr 13:00-18:30; Sa 09:00-15:00",
+    "operator": "Tauchschule Divecorner",
     "phone": "+41 52 721 39 69",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/11038763006"
@@ -46354,8 +46357,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7233806,
-      47.507425
+      8.7207446,
+      47.5091841
     ]
   }
 },
@@ -78620,6 +78623,31 @@
     "coordinates": [
       8.7585809,
       47.2746533
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13830431601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Mörsburgstrasse 1, 8542 Wiesendangen (ehem. Rest. Kreuzstrasse )",
+    "description": "Frei zugänglich an der Aussenfassade, Alarmgesichert, Türe wieder schliessen, um Alarm zu stoppen!",
+    "email": "info@invivo-medical.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "Mo-Su \"0:00-24:00 h\"",
+    "operator": "invivo medical & physio, Therapie/Sport Reha",
+    "phone": "+41 78 947 91 97",
+    "id": "node/13830431601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7765343,
+      47.5271207
     ]
   }
 }
