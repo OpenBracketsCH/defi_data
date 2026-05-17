@@ -19309,6 +19309,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "last_checked": "2026-05-16",
     "opening_hours": "24/7",
     "operator": "Stadt St  Gallen",
     "id": "node/10285695309"
@@ -19316,8 +19317,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.404022,
-      47.4427307
+      9.4040186,
+      47.442702
     ]
   }
 },
@@ -36830,6 +36831,27 @@
     "coordinates": [
       9.546912,
       47.2869223
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13840967002",
+  "properties": {
+    "defibrillator:location": "moxyhotel",
+    "description": "rechts neben dem Hoteleingang zwischen Eingang und Lift",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "moxyhotel",
+    "id": "node/13840967002"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8250628,
+      47.2276965
     ]
   }
 }
