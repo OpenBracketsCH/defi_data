@@ -130747,7 +130747,8 @@
   "properties": {
     "access": "private",
     "defibrillator:location": "Haupteingang Balmer Bücherdienst AG",
-    "description": "Im Moment nicht vor Ot",
+    "description": "Einsatzbereit vor dem Haupteingang",
+    "email": "christian.roos@balmer-bd.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -155804,6 +155805,30 @@
     "coordinates": [
       8.8250628,
       47.2276965
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13843295201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Dreihubelweg 27a",
+    "description": "Einstellhalleneinfahrt",
+    "email": "manuela.lanz@zibag.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "phone": "+41 31 952 68 66",
+    "id": "node/13843295201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.318613,
+      47.0754448
     ]
   }
 }
