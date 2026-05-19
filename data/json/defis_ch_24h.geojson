@@ -42032,11 +42032,14 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Hinter 1.Säule links vom Eingang Werkhofsaal",
+    "email": "info@ruethi.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Rüthi",
+    "phone": "+41 71 767 77 77",
     "id": "node/8445470118"
   },
   "geometry": {
@@ -42961,18 +42964,21 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Gemeindeverwaltung Rechts von der Eingangstür",
+    "email": "info@ruethi.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Rüthi",
+    "phone": "+41 71 767 77 77",
     "id": "node/8478922517"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.536823,
-      47.292386
+      9.5368235,
+      47.2923864
     ]
   }
 },
@@ -155767,6 +155773,31 @@
 },
 {
   "type": "Feature",
+  "id": "node/13826603401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Fussballplatz Rüthi",
+    "description": "im Durchgang der Gebäude",
+    "email": "info@ruethi.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Rüthi",
+    "phone": "+41 71 767 77 77",
+    "id": "node/13826603401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5469119,
+      47.2869225
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13840967002",
   "properties": {
     "defibrillator:location": "moxyhotel",
@@ -155828,6 +155859,55 @@
     "coordinates": [
       7.5572957,
       46.8672917
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13848036701",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Verwaltungsgebäude A80 Eingang",
+    "description": "24 Stunden verfügbar",
+    "email": "info@ararhein.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "ARA Rhein AG",
+    "phone": "+41 61 815 25 25",
+    "id": "node/13848036701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6971189,
+      47.529651
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13848134001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Neubündt",
+    "email": "info@ruethi.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Rüthi",
+    "phone": "+41 71 767 77 77",
+    "id": "node/13848134001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5402244,
+      47.2946023
     ]
   }
 }

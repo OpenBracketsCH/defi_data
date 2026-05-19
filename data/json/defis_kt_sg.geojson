@@ -6874,11 +6874,14 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Hinter 1.Säule links vom Eingang Werkhofsaal",
+    "email": "info@ruethi.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Rüthi",
+    "phone": "+41 71 767 77 77",
     "id": "node/8445470118"
   },
   "geometry": {
@@ -7088,18 +7091,21 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Gemeindeverwaltung Rechts von der Eingangstür",
+    "email": "info@ruethi.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Rüthi",
+    "phone": "+41 71 767 77 77",
     "id": "node/8478922517"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.536823,
-      47.292386
+      9.5368235,
+      47.2923864
     ]
   }
 },
@@ -30919,17 +30925,24 @@
   "type": "Feature",
   "id": "node/13826603401",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Fussballplatz Rüthi",
+    "description": "im Durchgang der Gebäude",
+    "email": "info@ruethi.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Rüthi",
+    "phone": "+41 71 767 77 77",
     "id": "node/13826603401"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.546912,
-      47.2869223
+      9.5469119,
+      47.2869225
     ]
   }
 },
@@ -30974,6 +30987,30 @@
     "coordinates": [
       9.0687245,
       47.3613467
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13848134001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Neubündt",
+    "email": "info@ruethi.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Rüthi",
+    "phone": "+41 71 767 77 77",
+    "id": "node/13848134001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5402244,
+      47.2946023
     ]
   }
 }
