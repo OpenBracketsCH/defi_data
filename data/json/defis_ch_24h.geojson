@@ -155851,7 +155851,9 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "ME Lindenweg / Allmend Spielfeld. Kontakt: 079 201 61 66; oder 031 724 52 20",
+    "operator": "ME Lindenweg / Allmend Spielfeld. Kontakt: 079 201 61 66;oder 031 724 52 20",
+    "phone": "+41 79 201 61 66",
+    "wikimedia_commons": "File:BildDefiPavillonLindenweg22-3110Muensingen.jpg",
     "id": "node/13846791401"
   },
   "geometry": {
@@ -155908,6 +155910,59 @@
     "coordinates": [
       9.5402244,
       47.2946023
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13848430102",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Veloständer",
+    "description": "Bei Velounterstand",
+    "email": "corinne.baerlocher@duebendorf.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadt Dübendorf",
+    "phone": "+41 44 801 82 98",
+    "id": "node/13848430102"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6237338,
+      47.3950857
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13848487759",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Weiningen",
+    "addr:housenumber": "4",
+    "addr:postcode": "8104",
+    "addr:street": "Regensdorferstrasse",
+    "defibrillator:location": "Gemeinde Weiningen - Telefonkabine",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "name": "Gemeinde Weiningen",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "00422LTC",
+    "id": "node/13848487759"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.43496,
+      47.4201449
     ]
   }
 }

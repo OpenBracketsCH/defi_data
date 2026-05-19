@@ -78675,6 +78675,84 @@
       47.5154331
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/13848430101",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Tödistrasse 47",
+    "description": "Nur während den Öffnungszeiten",
+    "email": "info.ch@alvarezandmarsal.com",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "4",
+    "opening_hours": "Mo - Fr 08:30 - 17:00",
+    "operator": "Firma",
+    "phone": "+41 43 210 85 10",
+    "id": "node/13848430101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5334555,
+      47.3675536
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13848430102",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Veloständer",
+    "description": "Bei Velounterstand",
+    "email": "corinne.baerlocher@duebendorf.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadt Dübendorf",
+    "phone": "+41 44 801 82 98",
+    "id": "node/13848430102"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6237338,
+      47.3950857
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13848487759",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Weiningen",
+    "addr:housenumber": "4",
+    "addr:postcode": "8104",
+    "addr:street": "Regensdorferstrasse",
+    "defibrillator:location": "Gemeinde Weiningen - Telefonkabine",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "name": "Gemeinde Weiningen",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "00422LTC",
+    "id": "node/13848487759"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.43496,
+      47.4201449
+    ]
+  }
 }
 ]
 }
