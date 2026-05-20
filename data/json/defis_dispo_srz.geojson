@@ -5629,10 +5629,11 @@
   "id": "node/7569750800",
   "properties": {
     "defibrillator:location": "bei Feuerwehr Depot",
+    "description": "Nur Zugänglich wenn Feuerwehr vor Ort ist",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Feuerwehr Wald",
-    "opening_hours": "24/7",
     "id": "node/7569750800"
   },
   "geometry": {
@@ -17835,6 +17836,7 @@
   "id": "node/8425657008",
   "properties": {
     "access": "yes",
+    "check_date": "2026-05-20",
     "defibrillator:location": "Raumnummer 200",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -20166,14 +20168,14 @@
   "type": "Feature",
   "id": "node/8556472950",
   "properties": {
-    "access": "no",
     "defibrillator:location": "Seerettungsdienst Küsnacht-Erlenbach",
     "description": "Nur zugänglich wenn der Seerettungsdienst vor Ort ist. In den Sommermonaten jeden Samstag/Sonntag von 08:00 bis 17:00",
+    "email": "info@seeretter-kuesnacht.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Andy Sutter",
-    "phone": "+41 79 529 07 03",
+    "operator": "Seerettungsdienst Küsnacht-Erlenbach",
+    "phone": "+41 44 910 06 48",
     "id": "node/8556472950"
   },
   "geometry": {
@@ -71770,7 +71772,7 @@
   "id": "node/11827855171",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "GVZ Gebäudeversicherung Kanton Zürich, gut sichtbar auf einer Standsäule angebracht",
+    "defibrillator:location": "GVZ Gebäudeversicherung Kanton Zürich, auf Standsäule links vom Eingang",
     "email": "firstresponder@gvz.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -71780,6 +71782,7 @@
     "operator": "GVZ Gebäudeversicherung Kanton Zürich",
     "phone": "+41 44 308 21 11",
     "source": "local_knowledge, defikarte.ch",
+    "wikimedia_commons": "File:GVZ Standort AED Leutschenbachstrasse.jpg",
     "id": "node/11827855171"
   },
   "geometry": {
@@ -90887,6 +90890,7 @@
     "operator": "GVZ Gebäudeversicherung Kanton Zürich",
     "phone": "+41 44 308 21 11",
     "source": "local_knowledge, defikarte.ch",
+    "wikimedia_commons": "File:GVZ Standort AED Thurgauerstrasse.jpg",
     "id": "node/12985187702"
   },
   "geometry": {

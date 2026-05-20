@@ -23838,25 +23838,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7569750800",
-  "properties": {
-    "defibrillator:location": "bei Feuerwehr Depot",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Feuerwehr Wald",
-    "opening_hours": "24/7",
-    "id": "node/7569750800"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.9149144,
-      47.2693745
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7569750801",
   "properties": {
     "defibrillator:location": "Hallenbad Wald",
@@ -40800,6 +40781,7 @@
   "id": "node/8425657008",
   "properties": {
     "access": "yes",
+    "check_date": "2026-05-20",
     "defibrillator:location": "Raumnummer 200",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -116091,7 +116073,7 @@
   "id": "node/11827855171",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "GVZ Gebäudeversicherung Kanton Zürich, gut sichtbar auf einer Standsäule angebracht",
+    "defibrillator:location": "GVZ Gebäudeversicherung Kanton Zürich, auf Standsäule links vom Eingang",
     "email": "firstresponder@gvz.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -116101,6 +116083,7 @@
     "operator": "GVZ Gebäudeversicherung Kanton Zürich",
     "phone": "+41 44 308 21 11",
     "source": "local_knowledge, defikarte.ch",
+    "wikimedia_commons": "File:GVZ Standort AED Leutschenbachstrasse.jpg",
     "id": "node/11827855171"
   },
   "geometry": {
@@ -140299,6 +140282,7 @@
     "operator": "GVZ Gebäudeversicherung Kanton Zürich",
     "phone": "+41 44 308 21 11",
     "source": "local_knowledge, defikarte.ch",
+    "wikimedia_commons": "File:GVZ Standort AED Thurgauerstrasse.jpg",
     "id": "node/12985187702"
   },
   "geometry": {
@@ -155869,6 +155853,31 @@
     "coordinates": [
       8.6147721,
       46.9770006
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13853347501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Metallbrücke links zu Motorradparkplatz",
+    "description": "immer",
+    "email": "daniel.knopf@ag.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "KSWE",
+    "phone": "+41 79 479 80 24",
+    "id": "node/13853347501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3163504,
+      47.4569899
     ]
   }
 }
