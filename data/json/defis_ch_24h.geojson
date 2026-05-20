@@ -124885,8 +124885,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6601394,
-      47.4601371
+      8.6600801,
+      47.4600853
     ]
   }
 },
@@ -155918,7 +155918,7 @@
   "id": "node/13848430102",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Veloständer",
+    "defibrillator:location": "Veloständer vor Oberdorfstrasse 15",
     "description": "Bei Velounterstand",
     "email": "corinne.baerlocher@duebendorf.ch",
     "emergency": "defibrillator",
@@ -155934,7 +155934,7 @@
     "type": "Point",
     "coordinates": [
       8.6237338,
-      47.3950857
+      47.3950856
     ]
   }
 },
@@ -155954,7 +155954,7 @@
     "name": "Gemeinde Weiningen",
     "opening_hours": "24/7",
     "operator": "Lifetec AG",
-    "phone": "0800122144",
+    "phone": "+41 800 122 144",
     "ref": "00422LTC",
     "id": "node/13848487759"
   },
@@ -155988,6 +155988,55 @@
     "coordinates": [
       8.5386792,
       47.4274306
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13851680801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Seerettungsdienst Küsnacht - Erlenbach",
+    "description": "vor Eingang Bootshaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Küsnacht",
+    "phone": "+41449131111",
+    "id": "node/13851680801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5780055,
+      47.3203658
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13851754301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Mattli Antoniushaus, Haupteingang",
+    "description": "Haupteingang, links an der Wand",
+    "email": "ronny.stoessel@antoniushaus.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Mattli Antoniushaus",
+    "phone": "+41 41 820 20 54",
+    "id": "node/13851754301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6147721,
+      46.9770006
     ]
   }
 }
