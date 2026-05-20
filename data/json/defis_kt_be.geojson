@@ -3014,23 +3014,25 @@
   "type": "Feature",
   "id": "node/6516389312",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "addr:city": "Madiswil",
     "addr:housenumber": "9",
     "addr:postcode": "4934",
     "addr:street": "Unterdorfstrasse",
-    "defibrillator:location": "BernerlandBank",
+    "defibrillator:location": "Bancomat_Raum",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Bernerlandbank",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 05:00-24:00",
+    "operator": "Bernerland Bank AG",
+    "phone": "+41 34 432 37 37",
     "id": "node/6516389312"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7961659,
-      47.1665368
+      7.7961657,
+      47.166537
     ]
   }
 },
@@ -3231,18 +3233,21 @@
   "type": "Feature",
   "id": "node/6516448971",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "BernerlandBank",
+    "access": "permissive",
+    "defibrillator:location": "Bancomat_Raum",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "24/7",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 05:00-24:00",
+    "operator": "Bernerland Bank AG",
+    "phone": "+41 34 432 37 37",
     "id": "node/6516448971"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7895706,
-      47.21269
+      7.7895708,
+      47.2126897
     ]
   }
 },
@@ -3918,18 +3923,20 @@
     "addr:housenumber": "2",
     "addr:postcode": "3360",
     "addr:street": "Bahnhofstrasse",
-    "defibrillator:location": "Eingang Bancomat",
+    "defibrillator:location": "Bancomat_Raum",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "BernerlandBank",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 05:00-24:00",
+    "operator": "Bernerland Bank",
+    "phone": "+41 34 432 37 37",
     "id": "node/6532311689"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7043211,
-      47.1875421
+      7.7043208,
+      47.1875424
     ]
   }
 },
@@ -4408,7 +4415,7 @@
   "type": "Feature",
   "id": "node/6535738674",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "addr:city": "Sumiswald",
     "addr:housenumber": "1",
     "addr:postcode": "3454",
@@ -4417,14 +4424,15 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "BernerlandBank",
+    "opening_hours": "Mo-Su 05:00-24:00",
+    "operator": "Bernerland Bank AG",
+    "phone": "+41 34 432 37 37",
     "id": "node/6535738674"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7436803,
+      7.7436809,
       47.0277666
     ]
   }
@@ -4464,19 +4472,19 @@
     "addr:housenumber": "31a",
     "addr:postcode": "3457",
     "addr:street": "Dorfstrasse",
-    "defibrillator:location": "Bancomat-Raum",
+    "defibrillator:location": "Bancomat_Raum",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "24/7",
     "operator": "BernerLand Bank AG",
-    "phone": "+41 79 514 01 66",
+    "phone": "+41 34 432 37 37",
     "id": "node/6535738677"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7973209,
+      7.7973211,
       47.0435984
     ]
   }
@@ -4732,17 +4740,18 @@
   "type": "Feature",
   "id": "node/6563309420",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "addr:city": "Langnau im Emmental",
     "addr:housenumber": "3",
     "addr:postcode": "3550",
     "addr:street": "Schlossstrasse",
-    "defibrillator:location": "neben Bancomat",
+    "defibrillator:location": "Bancomat_Raum",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "BernerlandBank",
-    "phone": "+41 34 432 38 22",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 05:00-22:00",
+    "operator": "Bernerland Bank AG",
+    "phone": "+41 34 432 37 37",
     "id": "node/6563309420"
   },
   "geometry": {
@@ -8260,24 +8269,25 @@
   "type": "Feature",
   "id": "node/6633179777",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "addr:city": "Rüegsauschachen",
     "addr:housenumber": "35",
     "addr:postcode": "3415",
     "addr:street": "Rüegsaustrasse",
-    "defibrillator:location": "öffentlich , Eingang Bernerland Bank",
+    "defibrillator:location": "Bancomat_Raum",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "24/7",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 05:00-24:00",
     "operator": "Bernerland Bank",
-    "phone": "+41 34 460 70 70",
+    "phone": "+41 34 432 37 37",
     "id": "node/6633179777"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6615908,
-      47.0187129
+      7.6615906,
+      47.018713
     ]
   }
 },
@@ -8737,18 +8747,18 @@
   "type": "Feature",
   "id": "node/6633263847",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "addr:city": "Kirchberg",
     "addr:housenumber": "4",
     "addr:postcode": "3422",
     "addr:street": "Ersigenstrasse",
-    "defibrillator:location": "Hauptstrasse 8",
+    "defibrillator:location": "Bancomat_Raum",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
+    "opening_hours": "Mo-Su 05:00-24:00",
     "operator": "Bernerland Bank",
-    "phone": "+41 34 432 38 62",
+    "phone": "+41 34 432 37 37",
     "id": "node/6633263847"
   },
   "geometry": {
@@ -63991,6 +64001,28 @@
     "coordinates": [
       7.4630459,
       46.9880121
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13852313301",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Bancomat_Raum",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 05:00-24:00",
+    "operator": "Bernerland Bank AG",
+    "phone": "+41 34 432 37 37",
+    "id": "node/13852313301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8460139,
+      47.1137965
     ]
   }
 }
