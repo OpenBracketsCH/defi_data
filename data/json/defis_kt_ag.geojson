@@ -4970,10 +4970,11 @@
   "type": "Feature",
   "id": "node/8852653167",
   "properties": {
+    "defibrillator:location": "Mehrzweckhalle",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "yes",
     "operator": "Ferdi Koller",
     "phone": "+41566484222",
     "id": "node/8852653167"
@@ -4981,8 +4982,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3906157,
-      47.3386841
+      8.3906163,
+      47.3386836
     ]
   }
 },
@@ -30745,6 +30746,28 @@
     "coordinates": [
       8.3163504,
       47.4569899
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13855440801",
+  "properties": {
+    "defibrillator:location": "Im Garderobengebäude der Sportanlage Oberau",
+    "email": "infrastruktur@baden.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo - Fr 08:00 - 22:00",
+    "operator": "Hauswart Sportanlage Oberau, Reto Schmid",
+    "id": "node/13855440801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2605562,
+      47.4913366
     ]
   }
 }
