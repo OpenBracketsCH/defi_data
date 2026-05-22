@@ -8141,21 +8141,22 @@
   "id": "node/7656488588",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Hans Kohler AG, beim Infopoint",
-    "description": "während Betriebszeiten verfügbar",
+    "defibrillator:location": "Giessenstr 7, Hans Kohler AG, beim Info-Point - Westseite",
+    "description": "in Lagerhalle, Rückseite vom i-Punkt (oranger Empfangstrakt)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 07:15-12:00, 13:15-16:45",
     "operator": "Hans Kohler AG",
-    "phone": "+41 44 741 80 00",
+    "phone": "+41 43 433 68 20",
     "id": "node/7656488588"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.426655,
-      47.4015091
+      8.4260349,
+      47.4014515
     ]
   }
 },
@@ -8164,18 +8165,22 @@
   "id": "node/7656488589",
   "properties": {
     "access": "private",
-    "defibrillator:location": "Hans Kohler AG, im Lagerbüro",
-    "description": "während Betriebszeiten verfügbar",
+    "defibrillator:location": "Giessenstr. 13 , Hans Kohler AG, im Lagerbüro",
+    "description": "im Lagerbüro, neben Warenlist",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:15-12:00, 13:15-16:45",
+    "operator": "Hans Kohler AG",
+    "phone": "+41 43 433 68 40",
     "id": "node/7656488589"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4244979,
-      47.4013717
+      8.4244777,
+      47.4013654
     ]
   }
 },
@@ -21018,11 +21023,12 @@
   "id": "node/8557209978",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Eingangsbereich Büroeinschub",
-    "description": "während Betriebszeiten verfügbar",
+    "defibrillator:location": "Giessenstrasse 7, 8953 Dietikon",
+    "description": "im EG neben Lift vor Pausenraum",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 07:15-12:00, 13:15-16:45",
     "operator": "Hans Kohler AG",
     "phone": "+41 44 741 80 00",
@@ -21031,8 +21037,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4267175,
-      47.4008583
+      8.4274189,
+      47.401471
     ]
   }
 },
@@ -101236,6 +101242,29 @@
     "coordinates": [
       8.6364673,
       47.4373691
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13860440701",
+  "properties": {
+    "defibrillator:location": "Claridenstrasse 20, 8002 Zürich",
+    "description": "im Empfang der Hans Kohler AG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "opening_hours": "Mo-Fr 07:30 - 12:00, 13:00 - 16:45",
+    "operator": "Hans Kohler AG",
+    "phone": "+41 44 207 11 11",
+    "id": "node/13860440701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5380589,
+      47.3668383
     ]
   }
 }
