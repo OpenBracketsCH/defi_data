@@ -50618,8 +50618,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.636713,
-      47.4372609
+      8.6363412,
+      47.4374888
     ]
   }
 },
@@ -78804,6 +78804,48 @@
     "coordinates": [
       8.5780055,
       47.3203658
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13859706558",
+  "properties": {
+    "defibrillator:location": "Katholische Kirche hinten im Durchgang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Katholische Pfarrei St. Franziskus",
+    "phone": "+41 44 525 09 25",
+    "id": "node/13859706558"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.627634,
+      47.4407108
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13859708571",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "TLF Tanklöschfahrzeug der Feuerwehr",
+    "description": "über Notruf erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Feuerwehr Bassersdorf",
+    "id": "node/13859708571"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6364673,
+      47.4373691
     ]
   }
 }
