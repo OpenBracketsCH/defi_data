@@ -1126,6 +1126,8 @@
   "type": "Feature",
   "id": "node/7637819019",
   "properties": {
+    "covered": "yes",
+    "defibrillator:location": "Im Eingangsbereich neben Damentoilette",
     "description": "Neben der Frauentoilette",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -1135,8 +1137,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5049705,
-      46.944918
+      8.5048737,
+      46.944891
     ]
   }
 },
@@ -1184,6 +1186,7 @@
     "description": "Postautohaltestelle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "name": "Postautohaltestelle",
     "opening_hours": "24/7",
     "id": "node/7637819022"
@@ -1317,16 +1320,18 @@
   "type": "Feature",
   "id": "node/7637819101",
   "properties": {
+    "defibrillator:location": "Gegenüber der Rezeption, Richtung Ankunftsplatz",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "name": "TCS Camping Haupteingang",
     "id": "node/7637819101"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4180602,
-      46.9795342
+      8.417938,
+      46.9795149
     ]
   }
 },
@@ -1338,6 +1343,7 @@
     "defibrillator:location": "Bergstation Klewenalp, Aussenwand Bahnstation",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "name": "Bergbahnen Beckenried-Emmetten AG",
     "opening_hours": "24/7",
     "id": "node/7637819113"
