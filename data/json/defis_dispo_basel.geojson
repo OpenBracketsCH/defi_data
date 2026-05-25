@@ -9677,16 +9677,18 @@
   "type": "Feature",
   "id": "node/12068757809",
   "properties": {
+    "defibrillator:location": "zwischen den zwei Toiletten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "website": "defibrillator.ch",
     "id": "node/12068757809"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7681091,
-      47.3490534
+      7.7679462,
+      47.3492021
     ]
   }
 },
@@ -14589,6 +14591,23 @@
     "coordinates": [
       7.6056274,
       47.5345087
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13876983009",
+  "properties": {
+    "defibrillator:location": "Beim Seiteneingang vom Restaurant ChilChil",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/13876983009"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7888262,
+      47.3391677
     ]
   }
 }
