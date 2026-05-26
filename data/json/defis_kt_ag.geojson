@@ -2821,20 +2821,23 @@
   "id": "node/8521101220",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Im Feuerwehrmagazin auf der rechten Seite innen. Scheibe einschlagen und Schlüssel rausnehmen.",
+    "defibrillator:location": "Vor dem Feuerwehrmagazin",
+    "description": "24/7",
+    "email": "gemeindekanzlei@wittnau.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
-    "operator": "Samariter Wittnau",
-    "phone": "+41 79 345 08 08",
+    "operator": "Gemeindeverwaltung Wittnau",
+    "phone": "+41 62 865 67 30",
     "id": "node/8521101220"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.9734342,
-      47.4799166
+      7.9734666,
+      47.4799023
     ]
   }
 },
@@ -26923,21 +26926,22 @@
   "type": "Feature",
   "id": "node/12558615801",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Turnhalle Ueken",
-    "description": "Hinter dem Eingang vom Pausenplatz",
+    "description": "Eingang Turnhalle linke Seite an Wand neben Rollstuhllift",
+    "email": "yannick.mueller@support-for-life.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "1",
-    "opening_hours": "Mo-Fr 08:00-12:00",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Herznach-Ueken",
     "id": "node/12558615801"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0491112,
-      47.4822833
+      8.0491922,
+      47.4822332
     ]
   }
 },
@@ -30609,12 +30613,15 @@
     "addr:city": "Aarburg",
     "addr:housenumber": "37",
     "addr:street": "Städtchen",
-    "defibrillator:location": "Von Gebäude aus Rechte Seite",
+    "defibrillator:location": "Rückseite der Bibliothek / nur im Innenhof des Gebäude Rathaus sichtbar",
     "description": "Grüner Kasten",
+    "email": "infrasicherheit@aarburg.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "name": "Gemeinde Aarburg",
+    "opening_hours": "24/7",
     "operator": "Lifetec AG",
     "phone": "+41 800 122 144",
     "ref": "1099LTS",
@@ -30623,8 +30630,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.8988882,
-      47.3221605
+      7.8988883,
+      47.3221606
     ]
   }
 },

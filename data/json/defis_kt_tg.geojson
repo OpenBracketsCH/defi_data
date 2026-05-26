@@ -2844,19 +2844,19 @@
   "type": "Feature",
   "id": "node/9038070319",
   "properties": {
-    "defibrillator:location": "Strellson Fabrikverkauf",
-    "description": "Während Oeffungszeiten Verfügbar",
+    "defibrillator:location": "Outlet Kreuzlingen | Strellson | windsor.| JOOP!",
+    "description": "Während Öffnungszeiten verfügbar.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 10:00-19:00; Sa 09:00-18:00",
-    "operator": "Strellson",
+    "operator": "Strellson AG",
     "id": "node/9038070319"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.1958049,
+      9.1958047,
       47.6448529
     ]
   }
@@ -15728,6 +15728,31 @@
     "coordinates": [
       9.2912912,
       47.5580832
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13882614401",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Stadler Service AG, Park 19, 3. Obergeschoss, Pausenraum",
+    "description": "Während Bürozeiten erreichbar",
+    "email": "cedric.desilvestro@stadlerrail.com",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Stadler Service AG",
+    "phone": "+41 71 626 20 20",
+    "id": "node/13882614401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9090048,
+      47.5688821
     ]
   }
 }
