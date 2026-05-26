@@ -152999,30 +152999,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/13722561801",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Flugplatz Speck 3",
-    "description": "Always available, next to stairs in front of office aerodrome Speck-Fehraltorf",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Flugsportgruppe Zürcher Oberland",
-    "phone": "+41799286644",
-    "id": "node/13722561801"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.7612775,
-      47.3756954
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/13722741602",
   "properties": {
     "access": "yes",
@@ -156036,6 +156012,27 @@
     "coordinates": [
       8.3533036,
       47.3444792
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13885178701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussenseite Stadtsaal",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadt",
+    "id": "node/13885178701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0417022,
+      47.4630898
     ]
   }
 }
