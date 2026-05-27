@@ -55394,54 +55394,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10763310078",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Treppenhaus, 1.OG",
-    "description": "oranger Koffer",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "name": "HR Campus AG",
-    "opening_hours": "Mo-Fr 08:00-17:00",
-    "operator": "Lifetec AG Schweiz",
-    "phone": "+41 800 122 144",
-    "id": "node/10763310078"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.61623,
-      47.40091
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10763310079",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "1.OG Büroräumlichkeiten",
-    "description": "oranger Koffer",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "name": "HR Campus AG",
-    "opening_hours": "Mo-Fr 08:00-17:00",
-    "operator": "Lifetec AG Schweiz",
-    "phone": "+41 800 122 144",
-    "id": "node/10763310079"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.61515,
-      47.40047
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10763310080",
   "properties": {
     "defibrillator:location": "1. OG im Laboratorium",
@@ -75178,11 +75130,12 @@
   "id": "node/11963046570",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Primarschule Bürgli Ellikon an der thur. (Neben Eingang)",
-    "description": "Der Defibrillator ist neben dem Tunneldurchgang Gemeindesaal (temp. versetzt wegen Umbau Schule)",
+    "defibrillator:location": "Primarschule Bürgli Ellikon an der Thur (Neben Eingang)",
+    "description": "Links neben Haupteingang Primarschule",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde",
     "source": "local_knowledge, defikarte.ch",
@@ -75191,8 +75144,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.827738,
-      47.5637506
+      8.8271565,
+      47.5634565
     ]
   }
 },
@@ -101264,6 +101217,51 @@
     "coordinates": [
       8.5380589,
       47.3668383
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13887384701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang",
+    "description": "Immer verfügbar",
+    "email": "verwaltung@maeder-kraeuter.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Mäder Kräuter AG",
+    "phone": "+41 43 411 70 70",
+    "id": "node/13887384701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4071698,
+      47.4679821
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13887536401",
+  "properties": {
+    "defibrillator:location": "1. OG im Sanitätszimmer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 08:00 - 17:00",
+    "operator": "Genossenschaft",
+    "id": "node/13887536401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4941937,
+      47.3806259
     ]
   }
 }

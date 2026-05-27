@@ -119434,11 +119434,12 @@
   "id": "node/11963046570",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Primarschule Bürgli Ellikon an der thur. (Neben Eingang)",
-    "description": "Der Defibrillator ist neben dem Tunneldurchgang Gemeindesaal (temp. versetzt wegen Umbau Schule)",
+    "defibrillator:location": "Primarschule Bürgli Ellikon an der Thur (Neben Eingang)",
+    "description": "Links neben Haupteingang Primarschule",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde",
     "source": "local_knowledge, defikarte.ch",
@@ -119447,8 +119448,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.827738,
-      47.5637506
+      8.8271565,
+      47.5634565
     ]
   }
 },
@@ -156033,6 +156034,52 @@
     "coordinates": [
       9.0417022,
       47.4630898
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13887247601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindehaus, Hauptstrasse 11, 4448 Läufelfingen, neben Eingang",
+    "email": "gemeinde@laeufelfingen.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "id": "node/13887247601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8549687,
+      47.3959405
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13887384701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang",
+    "description": "Immer verfügbar",
+    "email": "verwaltung@maeder-kraeuter.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Mäder Kräuter AG",
+    "phone": "+41 43 411 70 70",
+    "id": "node/13887384701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4071698,
+      47.4679821
     ]
   }
 }
