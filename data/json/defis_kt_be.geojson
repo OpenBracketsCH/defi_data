@@ -58755,13 +58755,15 @@
   "id": "node/12851057901",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Badeplatz Von Rütte Gut",
+    "defibrillator:location": "Badeplatz Von Rütte Gut: Am Toilettenhaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
-    "operator": "Gemeinde",
+    "operator": "Gemeinde Sutz-Lattrigen",
     "phone": "+41323971241",
+    "wikimedia_commons": "File:Defi_Seestrasse_Sutz.jpg",
     "id": "node/12851057901"
   },
   "geometry": {
@@ -64073,6 +64075,81 @@
     "coordinates": [
       7.4694196,
       46.9585921
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13888987001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "In Kreuzung",
+    "email": "sarah.wenger@krauchthal.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung Krauchthal",
+    "phone": "+41 34 411 80 80",
+    "id": "node/13888987001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5692335,
+      47.0354696
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13889043903",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Ticket Corner im Foyer neben Cube",
+    "description": "Öffnungszeiten gelten an Events!",
+    "email": "info@bernexpo.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 06:30-24:00",
+    "operator": "Bern Expo",
+    "phone": "+41 31 331 80 28",
+    "wikimedia_commons": "File:Foyer_BernExpo.jpg",
+    "id": "node/13889043903"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.464997,
+      46.9600218
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13889066001",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Festhalle Treppe in der Mitte des Foyer hinunter, Seite Lift Süd, an der Innenwand der Garderobe",
+    "description": "während Öffnungszeiten, Events",
+    "email": "info@bernexpo.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "Mo-Su 07:30-24:00",
+    "operator": "Ticketcorner Festhalle",
+    "wikimedia_commons": "File:Tickercorner_Festhalle.jpg",
+    "id": "node/13889066001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4653859,
+      46.9598506
     ]
   }
 }

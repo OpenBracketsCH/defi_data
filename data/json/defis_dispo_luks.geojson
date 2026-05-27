@@ -5723,7 +5723,7 @@
     "description": "24h zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "name": "Gemeindehaus",
     "opening_hours": "24/7",
     "operator": "Gemeinde Rickenbach",
@@ -32633,6 +32633,26 @@
     "coordinates": [
       8.2610559,
       47.2249278
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13889060801",
+  "properties": {
+    "defibrillator:location": "Dorfpraxis Rickenbach, Rööslistrasse 2a, 6221 Rickenbach",
+    "description": "beim Haupteingang, neben Briefkasten (24 Stunden zugänglich)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/13889060801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1531005,
+      47.2201677
     ]
   }
 }

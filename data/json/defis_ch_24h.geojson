@@ -26514,7 +26514,7 @@
     "description": "24h zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "name": "Gemeindehaus",
     "opening_hours": "24/7",
     "operator": "Gemeinde Rickenbach",
@@ -137879,13 +137879,15 @@
   "id": "node/12851057901",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Badeplatz Von Rütte Gut",
+    "defibrillator:location": "Badeplatz Von Rütte Gut: Am Toilettenhaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
-    "operator": "Gemeinde",
+    "operator": "Gemeinde Sutz-Lattrigen",
     "phone": "+41323971241",
+    "wikimedia_commons": "File:Defi_Seestrasse_Sutz.jpg",
     "id": "node/12851057901"
   },
   "geometry": {
@@ -156080,6 +156082,73 @@
     "coordinates": [
       8.4071698,
       47.4679821
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13888987001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "In Kreuzung",
+    "email": "sarah.wenger@krauchthal.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung Krauchthal",
+    "phone": "+41 34 411 80 80",
+    "id": "node/13888987001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5692335,
+      47.0354696
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13889054643",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schützenstrasse 79, Schützenhaus Wallisellen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadt Wallisellen, Feuerwehr",
+    "phone": "+41 44 830 22 79",
+    "id": "node/13889054643"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5921798,
+      47.4231925
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13889060801",
+  "properties": {
+    "defibrillator:location": "Dorfpraxis Rickenbach, Rööslistrasse 2a, 6221 Rickenbach",
+    "description": "beim Haupteingang, neben Briefkasten (24 Stunden zugänglich)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/13889060801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1531005,
+      47.2201677
     ]
   }
 }
