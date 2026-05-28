@@ -9973,17 +9973,19 @@
   "type": "Feature",
   "id": "node/7637818920",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Links neben Haupteingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "name": "Praxisgemeinschaft am Lindenberg",
+    "opening_hours": "24/7",
     "id": "node/7637818920"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2613245,
-      47.2249408
+      8.2610589,
+      47.2249226
     ]
   }
 },
@@ -24150,21 +24152,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/13886633001",
-  "properties": {
-    "emergency": "defibrillator",
-    "id": "node/13886633001"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.2610559,
-      47.2249278
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/13889060801",
   "properties": {
     "defibrillator:location": "Dorfpraxis Rickenbach, Rööslistrasse 2a, 6221 Rickenbach",
@@ -24203,6 +24190,29 @@
     "coordinates": [
       8.1061096,
       47.1789307
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13891239901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rösslistrasse 2A, neben Briefkasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Dorfpraxis Rickenbach",
+    "phone": "+41415528090",
+    "id": "node/13891239901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1532352,
+      47.2200743
     ]
   }
 }
