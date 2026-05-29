@@ -3051,33 +3051,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/5490286060",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Brienz",
-    "addr:housenumber": "148",
-    "addr:postcode": "3855",
-    "addr:street": "Hauptstrasse",
-    "defibrillator:location": "Gerät befindet sich rechts neben dem Bankomat",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Bahnhof Brienz",
-    "phone": "+41 33 952 22 40",
-    "id": "node/5490286060"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.0384915,
-      46.75484
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/5490291907",
   "properties": {
     "access": "yes",
@@ -156259,6 +156232,70 @@
     "coordinates": [
       8.1532352,
       47.2200743
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13893911402",
+  "properties": {
+    "defibrillator:location": "kleines Gebäude",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "?",
+    "id": "node/13893911402"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9522239,
+      47.2613381
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13893912701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Eingang Strandbad rechts",
+    "email": "adrian.schmid@beinwilamsee.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Beinwil am See",
+    "phone": "+41 62 765 60 24",
+    "id": "node/13893912701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2088638,
+      47.2703792
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13893972201",
+  "properties": {
+    "defibrillator:location": "Gasterntal Hotel Restaurant Steinbock",
+    "description": "nur im Sommer (Mai bis Oktober)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/13893972201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.724884,
+      46.4452464
     ]
   }
 }

@@ -1855,33 +1855,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/5490286060",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Brienz",
-    "addr:housenumber": "148",
-    "addr:postcode": "3855",
-    "addr:street": "Hauptstrasse",
-    "defibrillator:location": "Gerät befindet sich rechts neben dem Bankomat",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Bahnhof Brienz",
-    "phone": "+41 33 952 22 40",
-    "id": "node/5490286060"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.0384915,
-      46.75484
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/5490286061",
   "properties": {
     "access": "no",
@@ -64172,6 +64145,26 @@
     "coordinates": [
       7.5308342,
       46.8912663
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13893972201",
+  "properties": {
+    "defibrillator:location": "Gasterntal Hotel Restaurant Steinbock",
+    "description": "nur im Sommer (Mai bis Oktober)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/13893972201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.724884,
+      46.4452464
     ]
   }
 }
