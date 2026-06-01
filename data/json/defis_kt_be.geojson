@@ -12629,11 +12629,13 @@
     "addr:postcode": "3532",
     "addr:street": "Zelgweg",
     "defibrillator:location": "Turnhalle",
+    "email": "barbara.mosimann@sv-ok.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Turnhalle",
-    "phone": "+41 76 426 71 33",
+    "phone": "+41 79 447 23 11",
     "id": "node/6636650008"
   },
   "geometry": {
@@ -42985,8 +42987,10 @@
     "addr:postcode": "3532",
     "addr:street": "Reutenenstrasse",
     "defibrillator:location": "Feuerwehrmagazin",
+    "email": "barbara.mosimann@sv-ok.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Feuerwehrmagazin Reutenen",
     "phone": "+41 79 447 23 11",
@@ -42995,8 +42999,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6754873,
-      46.8869875
+      7.6754844,
+      46.8869907
     ]
   }
 },
@@ -64207,6 +64211,24 @@
     "coordinates": [
       7.4856995,
       46.9315162
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13902748801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Restaurant Hotel Chasseral",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/13902748801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0459034,
+      47.1271173
     ]
   }
 }
