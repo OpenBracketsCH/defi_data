@@ -40325,6 +40325,7 @@
   "id": "node/8425603376",
   "properties": {
     "access": "yes",
+    "check_date": "2026-06-01",
     "defibrillator:location": "Raumnummer 100",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -40575,6 +40576,7 @@
   "id": "node/8425630958",
   "properties": {
     "access": "yes",
+    "check_date": "2026-06-01",
     "defibrillator:location": "Raumnummer 920",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -40590,8 +40592,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5580076,
-      47.4537549
+      8.5580263,
+      47.453867
     ]
   }
 },
@@ -40752,6 +40754,7 @@
   "id": "node/8425653640",
   "properties": {
     "access": "yes",
+    "check_date": "2026-06-01",
     "defibrillator:location": "Raumnummer 200",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -45656,20 +45659,24 @@
   "type": "Feature",
   "id": "node/8560997397",
   "properties": {
-    "defibrillator:location": "Kommandofahrzeug Radegg 01",
+    "access": "private",
+    "defibrillator:location": "Hauseingang",
+    "description": "bei Stoll klingeln",
+    "email": "dani_stoll@bluewin.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "24/7",
-    "operator": "First Responder der Feuerwehr Wilchingen/ Hptm Dani Stoll",
+    "operator": "First Responder Wilchingen/ Dani Stoll",
     "phone": "+41 79 602 82 42",
     "id": "node/8560997397"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4706159,
-      47.6656633
+      8.4697665,
+      47.6675055
     ]
   }
 },
