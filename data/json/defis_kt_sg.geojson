@@ -1945,11 +1945,13 @@
   "type": "Feature",
   "id": "node/7721254380",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Der AED befindet sich im Bademeister-/Trainerbüro.",
-    "description": "Nach der Fussballsaison im Oktober wird er im Gemeindehaus (Hauptstrasse 79) deponiert.",
+    "access": "permissive",
+    "defibrillator:location": "Einwohneramt",
+    "description": "während den Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde",
     "id": "node/7721254380"
   },
   "geometry": {
@@ -1965,17 +1967,19 @@
   "id": "node/7721254381",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Der AED befindet sich im Bademeister-/Trainerbüro.",
-    "description": "Nach der Fussballsaison im Oktober wird er im Gemeindehaus (Hauptstrasse 79) deponiert.",
+    "defibrillator:location": "Der AED befindet sich beim Bademeister-/Trainerbüro.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
     "id": "node/7721254381"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.2028669,
-      47.3742576
+      9.2025445,
+      47.374246
     ]
   }
 },
@@ -1988,14 +1992,15 @@
     "description": "Immer Verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Degersheim",
     "id": "node/7721254382"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.1838943,
+      9.1838942,
       47.393717
     ]
   }
@@ -2004,11 +2009,14 @@
   "type": "Feature",
   "id": "node/7721254383",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Der AED befindet sich im Foyer, beim Eingang zu den Turnhallen.",
     "description": "nur während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "08:00 - 17:30",
+    "operator": "Gemeinde",
     "id": "node/7721254383"
   },
   "geometry": {

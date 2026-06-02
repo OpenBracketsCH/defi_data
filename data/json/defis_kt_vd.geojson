@@ -14337,6 +14337,53 @@
       46.522073
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/13904071701",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Salt Reception",
+    "description": "Available during opening hours",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo-Fr 8:00 -17:00",
+    "operator": "Salt",
+    "phone": "+41 21 216 20 20",
+    "source": "aed-source",
+    "id": "node/13904071701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.601277,
+      46.5265557
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13904116201",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Near the building entrance",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Private company",
+    "phone": "+41 21 216 20 20",
+    "id": "node/13904116201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.5705206,
+      46.5522522
+    ]
+  }
 }
 ]
 }
