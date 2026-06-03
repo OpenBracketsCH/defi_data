@@ -34153,7 +34153,7 @@
     "addr:housenumber": "1",
     "addr:postcode": "8421",
     "addr:street": "Kirchgasse",
-    "defibrillator:location": "Alterswohnung AWDAG Eingang",
+    "defibrillator:location": "Gemeindeverwaltung Eingang, Kirchgasse 1",
     "description": "Grüner Kasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -61552,29 +61552,6 @@
     "coordinates": [
       8.7207446,
       47.5091841
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11039283405",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Badeplatz Tellenörtli",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
-    "phone": "+41 58 723 99 00",
-    "id": "node/11039283405"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5075466,
-      47.1495561
     ]
   }
 },
@@ -101418,6 +101395,52 @@
     "coordinates": [
       8.5725161,
       47.3471295
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13907392489",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Badeplatz Tellenörtli",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 723 99 00",
+    "id": "node/13907392489"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5075214,
+      47.1495371
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13907477001",
+  "properties": {
+    "defibrillator:location": "Zunfthaus zur Waag Münsterhof 8",
+    "email": "reservation@zunfthaus-zur-waag.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Sa 08:00-22:00",
+    "operator": "Zunfthaus zur Waag",
+    "phone": "+41 44 216 99 66",
+    "id": "node/13907477001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5403528,
+      47.3702163
     ]
   }
 }
