@@ -9628,15 +9628,20 @@
   "type": "Feature",
   "id": "node/10852488422",
   "properties": {
+    "defibrillator:location": "Residenza Albarella",
+    "description": "Entrata panorama SUD (con chiave Kaba 5000)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Residenza Albarella",
     "id": "node/10852488422"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.1914282,
-      46.4657995
+      9.1914281,
+      46.4657997
     ]
   }
 },
@@ -9782,9 +9787,13 @@
   "id": "node/10868103159",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Next to stairway",
+    "defibrillator:location": "Ufficio informazioni S. Bernardino Villaggio",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Ente Turistico Regionale Del Moesano SA",
     "wheelchair": "yes",
     "id": "node/10868103159"
   },
@@ -16928,6 +16937,109 @@
     "coordinates": [
       9.8788939,
       46.8824223
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13906561501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Fermata Autobus Paese, 6565 - Pian S. Giacomo",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/13906561501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2249901,
+      46.4221761
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13906569203",
+  "properties": {
+    "defibrillator:location": "Campeggio San Bernardino",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/13906569203"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1877465,
+      46.4674551
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13906576901",
+  "properties": {
+    "defibrillator:location": "Centro sportivo San Bernardino",
+    "description": "Armadietto verde entrata ristorante centro sportivo",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/13906576901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1913502,
+      46.4598233
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13906582601",
+  "properties": {
+    "defibrillator:location": "Centro Interventi San Bernardino",
+    "description": "In fondo al piazzale, Entrata prinicipale stabile \"Esercizio Galleria\", subito a sinistra (suonare se non aperto)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/13906582601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1849352,
+      46.4641889
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13906587001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Biblioteca Comunale Soazza",
+    "description": "Soazza - Centro Culturale",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/13906587001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2227656,
+      46.3675833
     ]
   }
 }

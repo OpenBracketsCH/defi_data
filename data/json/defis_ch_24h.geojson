@@ -539,19 +539,20 @@
   "type": "Feature",
   "id": "node/2510644557",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Beim letzten Mast der Frauenfeld-Wil-Bahn-Oberleitung, gegenüber den Informationstafeln",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
-    "operator": "Förderverein Frühdefibrillation",
     "id": "node/2510644557"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8963877,
-      47.5576872
+      8.8969242,
+      47.5580609
     ]
   }
 },
@@ -3588,6 +3589,35 @@
     "coordinates": [
       8.4442441,
       47.0873851
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/5931594037",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Aarau",
+    "addr:housenumber": "1",
+    "addr:postcode": "5000",
+    "addr:street": "Roggenhausen",
+    "defibrillator:location": "Stadt Aarau - Hinterseite Rest. Neben Spielplatz",
+    "description": "Grünerkasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "name": "Stadt Aarau Abteilung Ortsbürgergut und Mietliegenschaften",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "0659LTS",
+    "id": "node/5931594037"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0300998,
+      47.3770639
     ]
   }
 },
@@ -30076,6 +30106,8 @@
     "description": "immer zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "image": "https://back.openaedmap.org/api/v1/photos/view/4M5Xiu_iXTAUxWAiDcSdrg.webp",
+    "image:license": "CC0",
     "opening_hours": "24/7",
     "id": "node/7667048299"
   },
@@ -96970,6 +97002,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/10852488422",
+  "properties": {
+    "defibrillator:location": "Residenza Albarella",
+    "description": "Entrata panorama SUD (con chiave Kaba 5000)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Residenza Albarella",
+    "id": "node/10852488422"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1914281,
+      46.4657997
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10856141807",
   "properties": {
     "access": "yes",
@@ -97398,6 +97451,29 @@
     "coordinates": [
       8.9440846,
       45.9907027
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10868103159",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Ufficio informazioni S. Bernardino Villaggio",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Ente Turistico Regionale Del Moesano SA",
+    "wheelchair": "yes",
+    "id": "node/10868103159"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1922186,
+      46.4626591
     ]
   }
 },
@@ -156497,6 +156573,137 @@
     "coordinates": [
       9.8788939,
       46.8824223
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13906561501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Fermata Autobus Paese, 6565 - Pian S. Giacomo",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/13906561501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2249901,
+      46.4221761
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13906576901",
+  "properties": {
+    "defibrillator:location": "Centro sportivo San Bernardino",
+    "description": "Armadietto verde entrata ristorante centro sportivo",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/13906576901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1913502,
+      46.4598233
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13906582601",
+  "properties": {
+    "defibrillator:location": "Centro Interventi San Bernardino",
+    "description": "In fondo al piazzale, Entrata prinicipale stabile \"Esercizio Galleria\", subito a sinistra (suonare se non aperto)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/13906582601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1849352,
+      46.4641889
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13906587001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Biblioteca Comunale Soazza",
+    "description": "Soazza - Centro Culturale",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/13906587001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2227656,
+      46.3675833
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13906808001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Devant le bâtiment de l'administration communale",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Commune d'Ursy",
+    "id": "node/13906808001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8331001,
+      46.635338
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13907108001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Treppenaufgang",
+    "email": "info@legato.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "LEGATO Vermögensmanagement AG",
+    "phone": "+41 31 959 11 11",
+    "id": "node/13907108001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4612184,
+      46.9407117
     ]
   }
 }
