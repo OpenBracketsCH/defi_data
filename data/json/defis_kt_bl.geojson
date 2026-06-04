@@ -10151,11 +10151,12 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Setzwerk",
-    "description": "Setzwerk, Eingangstüre Sozialberatung, Links an der Wand",
+    "description": "Setzwerk, Eingangstüre Sozialberatung, Links an der Wand bei den Briefkästen",
     "email": "gemeindeverwaltung@arlesheim.bl.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde",
     "phone": "+41 61 706 95 55",
     "id": "node/13805459601"
@@ -10163,8 +10164,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6167627,
-      47.4937613
+      7.6167186,
+      47.4937633
     ]
   }
 },
