@@ -11660,7 +11660,7 @@
   "id": "node/8514493947",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "aussen, neben Eingagnstüre",
+    "defibrillator:location": "aussen, neben Eingangstüre",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -79074,6 +79074,26 @@
     "coordinates": [
       8.5403528,
       47.3702163
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13911768601",
+  "properties": {
+    "defibrillator:location": "Eingang",
+    "description": "08:00- 12:00 13:00-16:00",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/13911768601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7033854,
+      47.4484973
     ]
   }
 }
