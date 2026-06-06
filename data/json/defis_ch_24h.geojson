@@ -2867,6 +2867,7 @@
   "type": "Feature",
   "id": "node/5401265428",
   "properties": {
+    "check_date": "2026-06-06",
     "description": "bei der Sammelstelle Gemeindeparkplatz",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -156838,6 +156839,54 @@
     "coordinates": [
       8.1804799,
       47.0365582
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13914010101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kappel Riedji",
+    "description": "Hinterste Bankreihe rechts unter der Treppe",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "37",
+    "opening_hours": "24/7",
+    "operator": "Kappele",
+    "phone": "+41794187766",
+    "id": "node/13914010101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8947187,
+      46.2407238
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13914041601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "In der Kapel rechts hinterste Bankreihe",
+    "description": "24/7 offen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "37",
+    "opening_hours": "24/7",
+    "operator": "Alpgenosenschaft Riedji",
+    "phone": "+41794187766",
+    "id": "node/13914041601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8947211,
+      46.240751
     ]
   }
 }
