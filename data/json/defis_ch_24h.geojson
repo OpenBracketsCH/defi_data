@@ -139688,13 +139688,13 @@
     "level": "0",
     "opening_hours": "24/7",
     "operator": "Feuerwehr, Gemeinde",
-    "phone": "+41797933381",
+    "phone": "+41 79 793 33 81",
     "id": "node/12949601601"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0522818,
+      8.0522811,
       47.4557257
     ]
   }
@@ -156948,6 +156948,75 @@
     "coordinates": [
       6.8438868,
       46.4627935
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13920039101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindehaus Densbüren; beim Eingang zum Feuerwehrmagazin",
+    "email": "gemeindeverwaltung@densbueren.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Densbüren",
+    "phone": "+41 62 867 87 67",
+    "id": "node/13920039101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0523129,
+      47.4556667
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13920041001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Durchgang zwischen Turnhalle und Schulhaus",
+    "email": "gemeindeverwaltung@densbueren.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Densbüren",
+    "phone": "+41 62 867 87 67",
+    "id": "node/13920041001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0507348,
+      47.4513795
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13920288701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindehaus",
+    "description": "immer verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Obfelden",
+    "phone": "+41445210909",
+    "id": "node/13920288701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.422068,
+      47.2625566
     ]
   }
 }
