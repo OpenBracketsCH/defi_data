@@ -53748,8 +53748,6 @@
     "indoor": "yes",
     "name": "Hedin Automotive Samstagern AG (Seeblick Garage)",
     "opening_hours": "Mo-Fr 06:45-18:30, Sa 08:00-16:00",
-    "operator": "Lifetec AG Schweiz",
-    "phone": "+41 800 122 144",
     "id": "node/10763310005"
   },
   "geometry": {
@@ -71710,32 +71708,6 @@
     "coordinates": [
       8.7208325,
       47.2705921
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11827855171",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "GVZ Gebäudeversicherung Kanton Zürich, auf Standsäule links vom Eingang",
-    "email": "firstresponder@gvz.ch",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "GVZ Gebäudeversicherung Kanton Zürich",
-    "phone": "+41 44 308 21 11",
-    "source": "local_knowledge, defikarte.ch",
-    "wikimedia_commons": "File:GVZ Standort AED Leutschenbachstrasse.jpg",
-    "id": "node/11827855171"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5537523,
-      47.415696
     ]
   }
 },
@@ -101468,8 +101440,8 @@
   "id": "node/13920288701",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Gemeindehaus",
-    "description": "immer verfügbar",
+    "defibrillator:location": "Gemeindehaus, Dorfstrasse 66",
+    "description": "befindet sich unterhalb des Gebäudes vor den Garagen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -101481,8 +101453,166 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.422068,
-      47.2625566
+      8.4222393,
+      47.2627542
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13921899601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Einfang der Dreifachsporthalle an der linken Wand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Hochbauamt Kanton Zug",
+    "phone": "+41 41 594 54 00",
+    "wikimedia_commons": "File:Defi_Kantonsschule_ZG.png",
+    "id": "node/13921899601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5238705,
+      47.1749591
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13922191101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schwerzimattstrasse 6",
+    "description": "befindet sich vor dem Gebäude an der Betoneinfassung der Container",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Obfelden",
+    "phone": "+41 44 521 09 09",
+    "id": "node/13922191101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4126215,
+      47.2617286
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13922256901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sammelstelle Brunnmatt, Bächlerstrasse 3",
+    "description": "befindet sich am unteren Ende des Schopfes",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Obfelden",
+    "phone": "+41 44 521 09 09",
+    "id": "node/13922256901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.417492,
+      47.2612286
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13922265601",
+  "properties": {
+    "defibrillator:location": "Fleugstrasse 1",
+    "description": "befindet sich am Kandelaber vor der Fleugstrasse 1",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Obfelden",
+    "phone": "+41 44 521 09 09",
+    "id": "node/13922265601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.428445,
+      47.2603973
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13922271001",
+  "properties": {
+    "defibrillator:location": "Bushaltestelle Toussen in Fahrrichtung Affoltern",
+    "description": "befindet sich im Bushäuschen im rechten hinteren Ecken",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Obfelden",
+    "phone": "+41 44 521 09 09",
+    "id": "node/13922271001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4302218,
+      47.2637438
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13922272801",
+  "properties": {
+    "defibrillator:location": "Alterswohnungen, Alte Landstrasse 33",
+    "description": "befindet sich an der Wand links vom Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Obfelden",
+    "phone": "+41 44 521 09 09",
+    "id": "node/13922272801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4300661,
+      47.2661222
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13922276201",
+  "properties": {
+    "defibrillator:location": "Tunnel Notausgang, am Eck Bickwiler- Sennhüttenstrasse",
+    "description": "befindet sich am Kandelaber vor dem Abgang in den Tunnel",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Obfelden",
+    "phone": "+41 44 521 09 09",
+    "id": "node/13922276201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4254951,
+      47.2703031
     ]
   }
 }

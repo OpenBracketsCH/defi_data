@@ -13792,8 +13792,6 @@
   "id": "node/12171398081",
   "properties": {
     "access": "yes",
-    "addr:housenumber": "2",
-    "addr:street": "Börtjistrasse",
     "defibrillator:location": "Eingang Links neben Briefkästen",
     "description": "Gelber Koffer",
     "emergency": "defibrillator",
@@ -13809,8 +13807,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.8341799,
-      46.8070091
+      9.8341997,
+      46.8070251
     ]
   }
 },
@@ -17062,6 +17060,31 @@
     "coordinates": [
       9.5608427,
       46.9720911
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13922239502",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Betriebsgebäude von Repwer AG",
+    "description": "In Aussenkasten an Fassade",
+    "email": "marco.cereghetti@repower.com",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Repower AG",
+    "phone": "+41 81 839 73 11",
+    "id": "node/13922239502"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      10.0995798,
+      46.2730276
     ]
   }
 }
