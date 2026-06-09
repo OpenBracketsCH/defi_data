@@ -6978,23 +6978,24 @@
   "type": "Feature",
   "id": "node/6566220011",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "addr:city": "Unterseen",
     "addr:housenumber": "2",
     "addr:postcode": "3800",
     "addr:street": "Untere Gasse",
-    "defibrillator:location": "Stadthaus Unterseen, Erdgeschoss - Im Gang vor den Toilettenanlagen Während den Öffnungszeiten - Restaurant Stadthaus - Verfügbar",
+    "defibrillator:location": "Obere Gasse 2-4",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Unterseen",
     "id": "node/6566220011"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.8495121,
-      46.6869746
+      7.8494699,
+      46.6872749
     ]
   }
 },
@@ -64355,6 +64356,25 @@
     "coordinates": [
       7.2580626,
       46.9454319
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13922849501",
+  "properties": {
+    "defibrillator:location": "Laupenackerstrasse 56",
+    "description": "Unter Vordach",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/13922849501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4712704,
+      47.0120845
     ]
   }
 }

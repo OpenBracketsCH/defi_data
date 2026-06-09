@@ -6596,6 +6596,31 @@
 },
 {
   "type": "Feature",
+  "id": "node/6566220011",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Unterseen",
+    "addr:housenumber": "2",
+    "addr:postcode": "3800",
+    "addr:street": "Untere Gasse",
+    "defibrillator:location": "Obere Gasse 2-4",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Unterseen",
+    "id": "node/6566220011"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8494699,
+      46.6872749
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/6566220012",
   "properties": {
     "access": "yes",
@@ -25088,8 +25113,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8790013,
-      47.3673605
+      8.8789529,
+      47.3673786
     ]
   }
 },
@@ -88431,20 +88456,21 @@
   "id": "node/10576961441",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schulhaus neben dem Eingang",
+    "defibrillator:location": "Schulhaus neben dem Eingang im EG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
-    "operator": "Gemeinde",
+    "operator": "Gemeinde Leimbach",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10576961441"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.1693542,
-      47.2722482
+      8.1699805,
+      47.2723174
     ]
   }
 },
