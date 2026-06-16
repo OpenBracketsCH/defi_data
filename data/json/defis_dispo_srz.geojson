@@ -733,8 +733,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8545041,
-      47.2569479
+      8.8545656,
+      47.2569468
     ]
   }
 },
@@ -59201,28 +59201,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10946144615",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Aussenfassade",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde Cham",
-    "id": "node/10946144615"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.457858,
-      47.1868507
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10946144616",
   "properties": {
     "access": "yes",
@@ -68440,7 +68418,10 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
     "operator": "sanität24.ch",
+    "wheelchair": "yes",
     "id": "node/11664485505"
   },
   "geometry": {
@@ -92551,14 +92532,13 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Papieriring 19, Liftvorraum, Lift Papieri-Ring / Maschinengasse",
-    "description": "7/24 h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
     "level": "0",
+    "opening_hours": "24/7",
     "operator": "Chamimmobilien AG",
-    "phone": "+41794400382",
-    "source": "local_knowledge, defikarte.ch",
+    "phone": "+41 79 440 03 82",
+    "wheelchair": "yes",
     "id": "node/13149457201"
   },
   "geometry": {
@@ -101688,6 +101668,31 @@
     "coordinates": [
       8.5952387,
       47.3634059
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13944891301",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "im Treppenhaus, 2.OG; von der Treppe von unten kommend rechts in der Ecke",
+    "description": "während Öffnnungszeiten Büro Gebäude Industriestrasse 27; nur via Haupteingang zur Industriestrasse hin",
+    "email": "itsupport@sdbu.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo-Fr 8:30-17:30",
+    "operator": "Soziale Dienste Bezirk Uster",
+    "phone": "+41 44 399 88 00",
+    "id": "node/13944891301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6787135,
+      47.3804833
     ]
   }
 }

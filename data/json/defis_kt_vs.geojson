@@ -3610,17 +3610,19 @@
   "type": "Feature",
   "id": "node/11104988054",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
+    "defibrillator:location": "Fabrikstrasse 1",
+    "email": "info@medicus.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Gemeinde Gampel-Bratsch",
+    "operator": "Gesundheitszentrum Medicus",
     "id": "node/11104988054"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.743654,
+      7.7436539,
       46.3169759
     ]
   }
@@ -3907,12 +3909,11 @@
   "type": "Feature",
   "id": "node/11371089269",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Hallenbad Steg",
-    "description": "während den Öffnungszeiten verfügbar",
+    "defibrillator:location": "Beim Eingang Hallenbad Steg",
+    "description": "Öffentlich zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "operator": "Gemeinde Steg-Hohtenn",
     "phone": "+41 27 932 10 50",
     "source": "local_knowledge, defikarte.ch",

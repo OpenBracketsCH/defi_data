@@ -17681,8 +17681,9 @@
     "addr:postcode": "3714",
     "addr:street": "Schwandistrasse",
     "check_date": "2025-10-25",
-    "defibrillator:location": "Bei der Rampe (Tor 4) rechts neben Empfang",
+    "defibrillator:location": "Beim Haupteingang",
     "description": "Zoll AEDplus inkl. Kleiderschere und Beatmungsmaske",
+    "email": "stefan.kohler@bucherhydraulics.com",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -17695,8 +17696,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6596364,
-      46.5914874
+      7.6577225,
+      46.5916828
     ]
   }
 },
@@ -98900,28 +98901,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10946144615",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Aussenfassade",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde Cham",
-    "id": "node/10946144615"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.457858,
-      47.1868507
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10946144616",
   "properties": {
     "access": "yes",
@@ -113127,6 +113106,29 @@
     "coordinates": [
       8.6665714,
       47.7552232
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11664485505",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "neben der Parkhauskasse, immer zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "sanität24.ch",
+    "wheelchair": "yes",
+    "id": "node/11664485505"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4581078,
+      47.1850629
     ]
   }
 },
@@ -143876,6 +143878,29 @@
     "coordinates": [
       7.8656534,
       46.2983115
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13149457201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Papieriring 19, Liftvorraum, Lift Papieri-Ring / Maschinengasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Chamimmobilien AG",
+    "phone": "+41 79 440 03 82",
+    "wheelchair": "yes",
+    "id": "node/13149457201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4572464,
+      47.1867121
     ]
   }
 },

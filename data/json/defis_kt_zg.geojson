@@ -6424,28 +6424,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10946144615",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Aussenfassade",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde Cham",
-    "id": "node/10946144615"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.457858,
-      47.1868507
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10946144616",
   "properties": {
     "access": "yes",
@@ -7071,7 +7049,10 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
     "operator": "sanität24.ch",
+    "wheelchair": "yes",
     "id": "node/11664485505"
   },
   "geometry": {
@@ -8925,14 +8906,13 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Papieriring 19, Liftvorraum, Lift Papieri-Ring / Maschinengasse",
-    "description": "7/24 h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
     "level": "0",
+    "opening_hours": "24/7",
     "operator": "Chamimmobilien AG",
-    "phone": "+41794400382",
-    "source": "local_knowledge, defikarte.ch",
+    "phone": "+41 79 440 03 82",
+    "wheelchair": "yes",
     "id": "node/13149457201"
   },
   "geometry": {
