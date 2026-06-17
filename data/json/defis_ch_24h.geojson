@@ -55783,6 +55783,7 @@
   "id": "node/8918882617",
   "properties": {
     "access": "yes",
+    "check_date": "2026-06-17",
     "defibrillator:location": "Altes Gemeindehaus Mels",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -157766,6 +157767,56 @@
     "coordinates": [
       8.5952387,
       47.3634059
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13947594266",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Wangs",
+    "addr:housenumber": "34",
+    "addr:postcode": "7323",
+    "addr:street": "Schiggstrasse",
+    "defibrillator:location": "Gemeinde Vilters-Wangs  Wildfang - Ausseneingang",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Lifetech AG",
+    "ref": "0040LTC",
+    "id": "node/13947594266"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4349552,
+      47.029597
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13947795501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Haupteingang / Bucher Hydraulics AG Frutigen",
+    "email": "stefan.kohler@bucherhydraulics.com",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Bucher Hydraulics AG Frutigen",
+    "phone": "+41 33 672 61 98",
+    "wikimedia_commons": "File:Defi_Bucher.jpg",
+    "id": "node/13947795501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6594631,
+      46.5916943
     ]
   }
 }
