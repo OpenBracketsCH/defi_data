@@ -83,9 +83,11 @@
   "type": "Feature",
   "id": "node/2797410150",
   "properties": {
+    "defibrillator:location": "Gang im Lager Richtung Logistikbüro (EG)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "opening_hours": "Mo-Th 08:30-17:30; Fr 08:30-17:00",
     "id": "node/2797410150"
   },
   "geometry": {
@@ -15805,6 +15807,183 @@
     "coordinates": [
       9.123463,
       47.5703408
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13949741601",
+  "properties": {
+    "defibrillator:location": "Hauptgebäude Rundbau 3. OG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "opening_hours": "Mo-Th 08:30-17:30; Fr 08:30-17:00",
+    "id": "node/13949741601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1972275,
+      47.6446818
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13949751301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Hort",
+    "email": "kita-schlumpfaeland@hotmail.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "KiTa Schlumpfäland GmbH",
+    "phone": "+41 78 755 32 19",
+    "id": "node/13949751301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9950991,
+      47.4790707
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13949754301",
+  "properties": {
+    "defibrillator:location": "Foyer Personaleingang EG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Th 08:30-17:30; Fr 08:30-17:00",
+    "id": "node/13949754301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1971279,
+      47.6448163
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13949784501",
+  "properties": {
+    "defibrillator:location": "JOOP! Personaleingang EG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Th 08:30-17:30; Fr 08:30-17:00",
+    "id": "node/13949784501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1966502,
+      47.644452
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13949907601",
+  "properties": {
+    "defibrillator:location": "Rohwarenlager UG (neben Güteraufzug)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Th 08:30-17:30; Fr 08:30-17:00",
+    "id": "node/13949907601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1959,
+      47.645069
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13949962101",
+  "properties": {
+    "defibrillator:location": "Strellson Küche Independence 1/2 EG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Th 08:30-17:30; Fr 08:30-17:00",
+    "id": "node/13949962101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1961637,
+      47.6438577
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13949971501",
+  "properties": {
+    "defibrillator:location": "windsor. Personaleingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Th 08:30-17:30; Fr 08:30-17:00",
+    "id": "node/13949971501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1960135,
+      47.6439928
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13950003701",
+  "properties": {
+    "defibrillator:location": "windsor. Personaleingang EG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Th 08:30-17:30; Fr 08:30-17:00",
+    "id": "node/13950003701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1960004,
+      47.643986
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13950005601",
+  "properties": {
+    "defibrillator:location": "Strellson Küche Independence 1 & 2 (EG)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Th 08:30-17:30; Fr 08:30-17:00",
+    "id": "node/13950005601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.196215,
+      47.6437938
     ]
   }
 }
