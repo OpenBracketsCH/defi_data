@@ -5632,21 +5632,19 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Ecole d'Auboranges, Impasse des Ecoliers 14, 1673 Auboranges",
-    "email": "admin@rue.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
     "operator": "Commune de Rue",
-    "phone": "+41 79 368 25 31",
     "id": "node/12595067113"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.8051757,
-      46.5827153
+      6.8051746,
+      46.5827149
     ]
   }
 },
@@ -5656,21 +5654,19 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Ecole de Chapelle, Route du Verger 53, 1608 Chapelle",
-    "email": "admin@rue.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
     "operator": "Commune de Rue",
-    "phone": "+41 79 368 25 31",
     "id": "node/12595076053"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.8322214,
-      46.5873525
+      6.8322194,
+      46.5873511
     ]
   }
 },
@@ -7767,6 +7763,54 @@
     "coordinates": [
       6.8670874,
       46.8364627
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13949259501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Abri-Pci, Route de Villangeaux 2, 1673 Ecublens",
+    "description": "Sous le couvert",
+    "email": "admin@rue.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Commune de Rue",
+    "phone": "+41 79 368 25 31",
+    "id": "node/13949259501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8091384,
+      46.6110998
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13949266801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Ecole Promasens, Route de Blessens 2, 1673 Promasens",
+    "description": "Sous le couvert à l'entrée",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Commune de Rue",
+    "id": "node/13949266801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8238616,
+      46.6010712
     ]
   }
 }
