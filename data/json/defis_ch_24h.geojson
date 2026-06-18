@@ -226,6 +226,41 @@
 },
 {
   "type": "Feature",
+  "id": "node/1148787417",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Zürich",
+    "addr:country": "CH",
+    "addr:housenumber": "56",
+    "addr:postcode": "8050",
+    "addr:street": "Thurgauerstrasse",
+    "check_date": "2022-12-13",
+    "defibrillator:location": "Eingang Thurgauerstrasse 56, rechts in Wandkasten",
+    "door": "yes",
+    "email": "firstresponder@gvz.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "entrance": "main",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "GVZ Gebäudeversicherung Kanton Zürich",
+    "phone": "+41 44 308 21 11",
+    "source": "local knowledge;local_knowledge, defikarte.ch",
+    "wheelchair": "yes",
+    "wikimedia_commons": "File:GVZ Standort AED Thurgauerstrasse.jpg",
+    "id": "node/1148787417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5528003,
+      47.4160881
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/1372175088",
   "properties": {
     "access": "yes",
@@ -133944,6 +133979,54 @@
 },
 {
   "type": "Feature",
+  "id": "node/12595067113",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Ecole d'Auboranges, Impasse des Ecoliers 14, 1673 Auboranges",
+    "email": "admin@rue.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Commune de Rue",
+    "phone": "+41 79 368 25 31",
+    "id": "node/12595067113"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8051757,
+      46.5827153
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12595076053",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Ecole de Chapelle, Route du Verger 53, 1608 Chapelle",
+    "email": "admin@rue.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Commune de Rue",
+    "phone": "+41 79 368 25 31",
+    "id": "node/12595076053"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8322214,
+      46.5873525
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12595459607",
   "properties": {
     "access": "yes",
@@ -140541,31 +140624,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12985187702",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Thurgauerstrasse 56, vor dem Haupteingang rechts in einem Wandkasten",
-    "email": "firstresponder@gvz.ch",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "GVZ Gebäudeversicherung Kanton Zürich",
-    "phone": "+41 44 308 21 11",
-    "source": "local_knowledge, defikarte.ch",
-    "wikimedia_commons": "File:GVZ Standort AED Thurgauerstrasse.jpg",
-    "id": "node/12985187702"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5528564,
-      47.4160989
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12985231402",
   "properties": {
     "access": "yes",
@@ -141274,7 +141332,7 @@
   "id": "node/13020247533",
   "properties": {
     "access": "yes",
-    "addr:city": "Davos",
+    "addr:city": "Davos Platz",
     "addr:country": "CH",
     "addr:housenumber": "5",
     "addr:postcode": "7270",
@@ -157842,6 +157900,51 @@
     "coordinates": [
       7.6594631,
       46.5916943
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13949154101",
+  "properties": {
+    "defibrillator:location": "Sur la façade dans la cour de la Maison de l'Absinthe",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Commune de Val-de-Travers",
+    "id": "node/13949154101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.6116855,
+      46.9101361
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13949178601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Leutschenbachstrasse 43, links in Standsäule",
+    "email": "firstresponder@gvz.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "GVZ Gebäudeversicherung Kanton Zürich",
+    "phone": "+41 44 308 21 11",
+    "wikimedia_commons": "File:GVZ Standort AED Leutschenbachstrasse.jpg",
+    "id": "node/13949178601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5537619,
+      47.4156834
     ]
   }
 }

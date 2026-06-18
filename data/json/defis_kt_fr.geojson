@@ -5631,16 +5631,22 @@
   "id": "node/12595067113",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Ecole d'Auboranges, Impasse des Ecoliers 14, 1673 Auboranges",
+    "email": "admin@rue.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Commune de Rue",
+    "phone": "+41 79 368 25 31",
     "id": "node/12595067113"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.8048842,
-      46.5824824
+      6.8051757,
+      46.5827153
     ]
   }
 },
@@ -5648,16 +5654,23 @@
   "type": "Feature",
   "id": "node/12595076053",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Ecole de Chapelle, Route du Verger 53, 1608 Chapelle",
+    "email": "admin@rue.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Commune de Rue",
+    "phone": "+41 79 368 25 31",
     "id": "node/12595076053"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.8323413,
-      46.5874155
+      6.8322214,
+      46.5873525
     ]
   }
 },
@@ -7734,6 +7747,26 @@
     "coordinates": [
       7.1246219,
       46.7982776
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13949178801",
+  "properties": {
+    "access": "customers",
+    "defibrillator:location": "Goutte Récupération",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "Mo-Th 07:00-17:15; Fr 07:00-16:45; Sa 09:00-15:45",
+    "phone": "144",
+    "id": "node/13949178801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8670874,
+      46.8364627
     ]
   }
 }
