@@ -27155,11 +27155,14 @@
   "type": "Feature",
   "id": "node/12599233302",
   "properties": {
-    "defibrillator:location": "in meiner Wohnung",
-    "description": "verfügbar wenn ich zu Hause bin, bitte 5x schnell hintereinander klingeln",
+    "access": "private",
+    "defibrillator:location": "in der Wohnung",
+    "description": "verfügbar wenn jemand zu Hause ist, bitte 5x schnell hintereinander klingeln",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "24/7",
     "operator": "Privatperson",
     "phone": "+41 76 803 00 33",
     "id": "node/12599233302"
