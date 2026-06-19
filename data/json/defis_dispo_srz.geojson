@@ -1400,8 +1400,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5599379,
-      47.4142224
+      8.559938,
+      47.4142221
     ]
   }
 },
@@ -8244,11 +8244,16 @@
   "id": "node/7656504597",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Nebeneingang Gasthaus Blume",
-    "description": "öffentlich zugänglich beim Nebeneingang",
+    "defibrillator:location": "Gemeindesaal Blume, Tösstalstrasse 432, 8497 Fischenthal",
+    "description": "Gemeindesaal Blume, Rechts vom Eingang zum Foyer",
+    "email": "sicherheit@fischenthal.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Fischenthal, Oberhofstrasse 2, 8497 Fischenthal",
+    "phone": "+41 55 265 60 00",
     "id": "node/7656504597"
   },
   "geometry": {
@@ -101729,6 +101734,80 @@
     "coordinates": [
       8.5537619,
       47.4156834
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13951469301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kindergarten Gibswil, beim Eingang",
+    "email": "sicherheit@fischenthal.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Fischenthal, Oberhofstrasse 2, 8497 Fischenthal",
+    "phone": "+41 55 265 60 00",
+    "id": "node/13951469301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9131494,
+      47.3141246
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13951473401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Schmittenbach, Tösstalstrasse 157, 8497 Fischenthal",
+    "description": "Turnhalle Schmittenbach, neben Velounterstand",
+    "email": "sicherheit@fischenthal.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Fischenthal, Oberhofstrasse 2, 8497 Fischenthal",
+    "phone": "+41 55 265 60 00",
+    "id": "node/13951473401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9297759,
+      47.3442853
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13951479301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Ohrütistrasse 22, 8496 Steg",
+    "description": "Badigebäude Steg, links neben Haupteingang",
+    "email": "sicherheit@fischenthal.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Fischenthal, Oberhofstrasse 2, 8497 Fischenthal",
+    "phone": "+41 55 265 60 00",
+    "id": "node/13951479301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9324775,
+      47.3464507
     ]
   }
 }

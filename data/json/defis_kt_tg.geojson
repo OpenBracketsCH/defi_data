@@ -7598,6 +7598,7 @@
     "defibrillator:location": "beim Kundenlift in der Mall",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "Mo-Fr 08:00-19:00, Sa 08:00-18:00",
     "operator": "Einkaufszentrum ceha",
     "phone": "+41 71 414 05 05",
@@ -15984,6 +15985,29 @@
     "coordinates": [
       9.196215,
       47.6437938
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13951348401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Zufahrt zur Kirche Tänikon",
+    "email": "sekretariat@kath-aadorf.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Kath. Kirchgemeinde Aadorf-Tänikon",
+    "id": "node/13951348401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9078794,
+      47.4794
     ]
   }
 }
