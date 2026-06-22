@@ -76369,8 +76369,8 @@
   "id": "node/9791648270",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bushaltestelle Post, Via Gunels an der Fassade des Dorfladens bei der Sporttagesschule Champfèr\n\n1257LTS",
-    "description": "Grüner Kasten /  Koffer Orange",
+    "defibrillator:location": "Bushaltestelle Post, Via Gunels an der Fassade des Dorfladens bei der Sporttagesschule Champfèr 1257LTS",
+    "description": "Grüner Kasten / Koffer Orange",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -158118,6 +158118,8 @@
     "defibrillator:location": "A l’entrée du parking souterrain du bâtiment",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "image": "https://back.openaedmap.org/api/v1/photos/view/XniIsHW_t36oF5_zV1X9zw.webp",
+    "image:license": "CC0",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Commune de Coinsins",
@@ -158175,6 +158177,30 @@
     "coordinates": [
       9.554788,
       46.9677747
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13957764501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Allmendstrasse 1, Hauseingang",
+    "description": "Immer zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Heatconnect AG",
+    "phone": "+41627386666",
+    "id": "node/13957764501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3547575,
+      47.3409845
     ]
   }
 }

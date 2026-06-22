@@ -14560,27 +14560,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/13957513701",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Dans l’entrée du parking souterrain de l’immeuble ",
-    "emergency": "defibrillator",
-    "image": "https://back.openaedmap.org/api/v1/photos/view/v5kNDeD1oJMBx7qh-2G6eA.webp",
-    "image:license": "CC0",
-    "indoor": "no",
-    "operator": "Commune de Coinsins",
-    "id": "node/13957513701"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      6.2355974,
-      46.4254615
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/13957516201",
   "properties": {
     "access": "yes",
@@ -14608,6 +14587,8 @@
     "defibrillator:location": "A l’entrée du parking souterrain du bâtiment",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "image": "https://back.openaedmap.org/api/v1/photos/view/XniIsHW_t36oF5_zV1X9zw.webp",
+    "image:license": "CC0",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Commune de Coinsins",
@@ -14641,6 +14622,31 @@
     "coordinates": [
       6.2307595,
       46.429195
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13958072719",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Salt Reception",
+    "description": "Available during opening hours",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "opening_hours": "Mo-Fr 8:00 -17:00",
+    "operator": "Salt",
+    "phone": "+41 21 216 20 20",
+    "source": "aed-source",
+    "id": "node/13958072719"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.601277,
+      46.5265557
     ]
   }
 }
