@@ -6,7 +6,8 @@
   "id": "node/1372175088",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Beim AG Gleis 1",
+    "defibrillator:location": "Bahnhofgebäude, Seite Gleis 1",
+    "email": "fm@rhb.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -20,8 +21,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.8809881,
-      46.8692448
+      9.8809878,
+      46.8692449
     ]
   }
 },
@@ -637,6 +638,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "An der Gebäudeecke, Seite Bahngleise",
+    "email": "fm@rhb.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -1286,19 +1288,22 @@
   "id": "node/7720904265",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bahnhof Scuol, ende Gleis 1 an der Säule",
+    "defibrillator:location": "Bahnhof Scuol, Ende Gleis 1 an der Säule",
     "description": "Öffentlich zugänglich",
+    "email": "fm@rhb.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
+    "operator": "Rhätische Bahn AG",
     "id": "node/7720904265"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      10.2869655,
-      46.7939712
+      10.2869656,
+      46.7939711
     ]
   }
 },
@@ -2189,7 +2194,8 @@
   "id": "node/8442763417",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Beim AG Gleis 1",
+    "defibrillator:location": "Bahnhofgebäude, Seite Gleis 1",
+    "email": "fm@rhb.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -2203,8 +2209,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      10.0544057,
-      46.3246714
+      10.054406,
+      46.3246713
     ]
   }
 },
@@ -2983,10 +2989,12 @@
   "id": "node/8720986732",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Beim AG Gleis 1",
+    "defibrillator:location": "Bahnhofgebäude, Gleis 1",
+    "email": "fm@rhb.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Rhätische Bahn AG",
     "phone": "+41 81 288 65 65",
@@ -2995,8 +3003,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.8964257,
-      46.4905777
+      9.8964259,
+      46.4905779
     ]
   }
 },
@@ -3667,7 +3675,8 @@
   "id": "node/8992001555",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Beim AG Gleis 1",
+    "defibrillator:location": "Beim Bahnhofgebäude, Seite Gleis 1",
+    "email": "fm@rhb.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -3679,7 +3688,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.679351,
+      9.6793507,
       46.7837368
     ]
   }
@@ -3689,10 +3698,12 @@
   "id": "node/8992006472",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Beim AG Gleis 1",
+    "defibrillator:location": "Bahnhofgebäude, Seite Gleis 1",
+    "email": "fm@rhb.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Rhätische Bahn AG",
     "phone": "+41 81 288 65 65",
@@ -3702,7 +3713,7 @@
     "type": "Point",
     "coordinates": [
       9.8211893,
-      46.7918892
+      46.7918891
     ]
   }
 },
@@ -3714,20 +3725,21 @@
     "check_date": "2021-08-26",
     "covered": "yes",
     "defibrillator:location": "Im Durchgang zum Perron 1",
+    "email": "fm@rhb.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
-    "operator": "RhB",
+    "operator": "Rhätische Bahn AG",
     "phone": "+41 81 288 65 65",
     "id": "node/8992034901"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.8733813,
-      46.5338952
+      9.873381,
+      46.533895
     ]
   }
 },
@@ -3736,7 +3748,8 @@
   "id": "node/8992074381",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Beim AG bei der Unterführung",
+    "defibrillator:location": "Bahnhof, bei der Unterführung rechts",
+    "email": "fm@rhb.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -3825,15 +3838,17 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Breil/Brigels",
     "wheelchair": "limited",
     "id": "node/9006010693"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.0625978,
-      46.7547173
+      9.0625982,
+      46.7547172
     ]
   }
 },
@@ -3843,9 +3858,11 @@
   "properties": {
     "access": "private",
     "defibrillator:location": "In der Werkstatt Samedan",
+    "email": "fm@rhb.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Rhätische Bahn AG",
     "phone": "+41 81 288 65 65",
@@ -3854,7 +3871,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.8730321,
+      9.8730317,
       46.5322477
     ]
   }
@@ -7824,12 +7841,14 @@
   "id": "node/10572537609",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bahnhofhaus, Wand auf Seite Gleise",
+    "defibrillator:location": "Bahnhofgebäude, an der Hauswand, Seite Gleis 1",
+    "email": "fm@rhb.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
+    "operator": "Rhätische Bahn AG",
     "source": "survey",
     "wheelchair": "no",
     "id": "node/10572537609"
@@ -7837,8 +7856,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.68221,
-      46.6752026
+      9.6822113,
+      46.6752017
     ]
   }
 },
@@ -15609,7 +15628,7 @@
   "id": "node/13037421130",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "auf Seite Bahnlinie",
+    "defibrillator:location": "Stationsgebäude, auf Seite Bahnlinie",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -15622,8 +15641,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.3594152,
-      46.8165833
+      9.3594155,
+      46.8165836
     ]
   }
 },
@@ -15802,8 +15821,11 @@
   "id": "node/13109992664",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Aussenwand West",
+    "defibrillator:location": "Bahnhofgebäude, Aussenwand West",
+    "email": "fm@rhb.ch",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
     "operator": "Rhätische Bahn",
@@ -15814,7 +15836,7 @@
     "type": "Point",
     "coordinates": [
       9.8455752,
-      46.4977583
+      46.4977585
     ]
   }
 },
@@ -17154,6 +17176,53 @@
     "coordinates": [
       10.0807782,
       46.7515626
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13957523401",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Im Treppenhaus",
+    "email": "fm@rhb.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo - Fr 08:00 - 17:00",
+    "operator": "Rhätische Bahn AG",
+    "id": "node/13957523401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5535425,
+      46.9704454
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13957558301",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Personaleingang, Seite PostAuto Haltekante, Im Treppenhaus",
+    "description": "Bei Bedarf klingeln (Betriebszentrale)",
+    "email": "fm@rhb.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Rhätische Bahn AG",
+    "id": "node/13957558301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.554788,
+      46.9677747
     ]
   }
 }
