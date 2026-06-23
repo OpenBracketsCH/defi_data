@@ -125282,29 +125282,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12218118557",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Am Stationsgebäude der RhB",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Verein Gletschergarten Cavaglia / Giardino dei Ghiacciai di Cavaglia",
-    "phone": "+41 79 585 99 99",
-    "id": "node/12218118557"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      10.0439986,
-      46.3642126
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12218273201",
   "properties": {
     "access": "yes",
@@ -148077,10 +148054,13 @@
   "id": "node/13388574510",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Outside the entrance to the toilets, in a green metal box.",
+    "defibrillator:location": "Outside the entrance to the toilets, in a green metal box.\n/ Am Stationsgebäude der RhB",
     "emergency": "defibrillator",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
+    "operator": "Verein Gletschergarten Cavaglia / Giardino dei Ghiacciai di Cavaglia",
+    "phone": "+41 79 585 99 99",
     "id": "node/13388574510"
   },
   "geometry": {
@@ -158142,6 +158122,8 @@
     "defibrillator:location": "sur la paroi du bâtiment",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "image": "https://back.openaedmap.org/api/v1/photos/view/SCqoX4J7dfYRigRyVBMQig.webp",
+    "image:license": "CC0",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Commune de Coinsins",
@@ -158201,6 +158183,54 @@
     "coordinates": [
       8.3547575,
       47.3409845
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13959398901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Modern Times Hotel - Reception",
+    "email": "dimitri@moderntimeshotel.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "phone": "+41 79 905 26 50",
+    "id": "node/13959398901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8628172,
+      46.4691743
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13959404401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Fassade Turnhalle Schulhaus Dorf",
+    "description": "an der Fassade montiert",
+    "email": "hansueli.oschwald@oftringen.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "1",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Oftringen",
+    "phone": "+41 62 789 81 20",
+    "id": "node/13959404401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9230434,
+      47.3176568
     ]
   }
 }

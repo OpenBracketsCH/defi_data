@@ -13880,29 +13880,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12218118557",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Am Stationsgebäude der RhB",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Verein Gletschergarten Cavaglia / Giardino dei Ghiacciai di Cavaglia",
-    "phone": "+41 79 585 99 99",
-    "id": "node/12218118557"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      10.0439986,
-      46.3642126
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12235003301",
   "properties": {
     "access": "permissive",
@@ -16354,10 +16331,13 @@
   "id": "node/13388574510",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Outside the entrance to the toilets, in a green metal box.",
+    "defibrillator:location": "Outside the entrance to the toilets, in a green metal box.\n/ Am Stationsgebäude der RhB",
     "emergency": "defibrillator",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
+    "operator": "Verein Gletschergarten Cavaglia / Giardino dei Ghiacciai di Cavaglia",
+    "phone": "+41 79 585 99 99",
     "id": "node/13388574510"
   },
   "geometry": {
