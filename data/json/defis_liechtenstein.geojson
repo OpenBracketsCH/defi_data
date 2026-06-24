@@ -2741,14 +2741,14 @@
   "type": "Feature",
   "id": "node/11695090769",
   "properties": {
-    "access": "permissive",
-    "defibrillator:location": "Spörry Triesen",
-    "description": "im Treppenhaus",
+    "access": "yes",
+    "defibrillator:location": "Spörry Triesen, Treppenturm",
+    "description": "Beim Treppenturm",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "level": "0",
-    "opening_hours": "Mo-Fr 08:00-17:00",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Triesen",
     "phone": "+423 222 01 35",
     "id": "node/11695090769"
@@ -2756,8 +2756,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5263052,
-      47.1082735
+      9.5263641,
+      47.1079353
     ]
   }
 },
