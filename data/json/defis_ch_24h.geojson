@@ -44327,20 +44327,27 @@
   "id": "node/8549514990",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "An der Hauswand auf der linken Seite der Schiebetüre des Haupteinganges vom Haus A",
+    "addr:city": "Scharans",
+    "addr:housenumber": "2",
+    "addr:postcode": "7412",
+    "addr:street": "Carutta",
+    "defibrillator:location": "Stiftung Scalottas  Eingang rechts",
+    "description": "Grüner kasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
-    "operator": "Firma Aivia / in der Stiftung Ruzica Micic",
-    "phone": "+41 79 437 45 54",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "0034LTC",
     "id": "node/8549514990"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4597945,
-      46.7151668
+      9.4597961,
+      46.7152287
     ]
   }
 },
@@ -158353,6 +158360,76 @@
     "coordinates": [
       7.8779025,
       47.3126116
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13964964201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gare Martigny DEA",
+    "description": "Sur quai 1",
+    "email": "francine.vaquin@sbb.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "1",
+    "opening_hours": "24/7",
+    "operator": "SBB - CFF",
+    "phone": "+41 79 255 80 34",
+    "id": "node/13964964201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0791621,
+      46.1057925
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13964974401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "gare Martigny",
+    "description": "quai 1 défibrillateur",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "1",
+    "opening_hours": "24/7",
+    "operator": "SBB/CFF",
+    "phone": "+41792558034",
+    "id": "node/13964974401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0791881,
+      46.105893
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13965003001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gare Martine débrilateur SBB-CFF",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "SBB-procamed",
+    "phone": "+41792558034",
+    "id": "node/13965003001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0792777,
+      46.1057189
     ]
   }
 }
