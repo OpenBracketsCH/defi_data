@@ -14473,17 +14473,24 @@
   "type": "Feature",
   "id": "node/7637819086",
   "properties": {
-    "description": "rechts vom Haupteingang bei Kücheneingang",
+    "access": "yes",
+    "defibrillator:location": "Mehrzweckanlage Steini",
+    "description": "rechts vom Haupteingang",
+    "email": "dallenwil@nw.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "name": "MZA Steini",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "phone": "+41 41 629 77 99",
     "id": "node/7637819086"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.38955,
-      46.92596
+      8.3895501,
+      46.9259601
     ]
   }
 },
@@ -19208,17 +19215,22 @@
   "type": "Feature",
   "id": "node/9531808071",
   "properties": {
-    "defibrillator:location": "Gemeindehaus",
+    "access": "yes",
+    "defibrillator:location": "vor Gemeindehaus",
+    "email": "dallenwil@nw.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Dallenwil",
+    "phone": "+41 41 629 77 99",
     "id": "node/9531808071"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
       8.3909187,
-      46.9314136
+      46.9314137
     ]
   }
 },

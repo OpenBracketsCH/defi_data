@@ -28827,6 +28827,31 @@
 },
 {
   "type": "Feature",
+  "id": "node/7637819086",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Mehrzweckanlage Steini",
+    "description": "rechts vom Haupteingang",
+    "email": "dallenwil@nw.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "name": "MZA Steini",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "phone": "+41 41 629 77 99",
+    "id": "node/7637819086"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3895501,
+      46.9259601
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/7637819088",
   "properties": {
     "access": "permissive",
@@ -71306,6 +71331,29 @@
     "coordinates": [
       8.0947206,
       47.1165689
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9531808071",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "vor Gemeindehaus",
+    "email": "dallenwil@nw.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Dallenwil",
+    "phone": "+41 41 629 77 99",
+    "id": "node/9531808071"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3909187,
+      46.9314137
     ]
   }
 },
@@ -158280,6 +158328,31 @@
     "coordinates": [
       7.4821338,
       46.9442306
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13964383201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Wasserkraftwerk Ruppoldingen",
+    "description": "Defi innerhalb Betriebsgelände: im Notfall darf der Zaun überstiegen werden",
+    "email": "info.hydro.aare@alpiq.com",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Alpiq Hydro Aare AG",
+    "phone": "+41 62 787 69 11",
+    "id": "node/13964383201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8779025,
+      47.3126116
     ]
   }
 }
