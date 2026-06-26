@@ -5501,11 +5501,13 @@
   "id": "node/8012759881",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Beim Eingang Migros-Restaurant im 4. OG",
+    "defibrillator:location": "Kassazone Migros-Restaurant im 1. OG",
+    "email": "info.sg@gmos.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Sa 07:00-21:00",
+    "opening_hours": "Mo-Fr 07:00-20:00, Sa-Su 08:00-16:00",
+    "phone": "+41 58 568 44 44",
     "id": "node/8012759881"
   },
   "geometry": {
@@ -30981,6 +30983,29 @@
     "coordinates": [
       9.4349552,
       47.029597
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13967620701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Asylzentrum Kreuzacker",
+    "description": "Parterre Haus 3",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Asylzentrum",
+    "id": "node/13967620701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0415139,
+      47.4680652
     ]
   }
 }
