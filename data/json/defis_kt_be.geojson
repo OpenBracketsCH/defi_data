@@ -22158,7 +22158,7 @@
   "type": "Feature",
   "id": "node/6689477370",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "addr:city": "Thun",
     "addr:housenumber": "25",
     "addr:postcode": "3604",
@@ -22166,6 +22166,8 @@
     "defibrillator:location": "Vor dem Haupteingang links",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Sporthalle Lachen",
     "phone": "+41 33 225 84 15",
     "id": "node/6689477370"
@@ -22173,8 +22175,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6282808,
-      46.7372117
+      7.6282807,
+      46.7372116
     ]
   }
 },
@@ -56878,7 +56880,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
-    "opening_hours": "8:00 - 17:00",
+    "opening_hours": "8:00 - 22:00",
     "operator": "Kunstrasenspielfeder Thun Süd",
     "phone": "+41 33 225 83 37",
     "id": "node/12423049407"
@@ -56886,7 +56888,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6061513,
+      7.6061507,
       46.7458407
     ]
   }

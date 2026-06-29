@@ -548,17 +548,18 @@
   "id": "node/7644008604",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schulhaus Emmersberg",
+    "defibrillator:location": "Turnhalle Emmersberg",
     "description": "nur zugänglich wenn Gebäude geöffnet sind",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "id": "node/7644008604"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6384913,
-      47.7001987
+      8.6391324,
+      47.7002384
     ]
   }
 },
@@ -652,19 +653,20 @@
   "type": "Feature",
   "id": "node/7644008609",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Kirche St. Johann",
     "description": "nur zugänglich wenn Gebäude geöffnet sind",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "id": "node/7644008609"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.635966,
-      47.6964782
+      8.6358105,
+      47.6965594
     ]
   }
 },
@@ -750,18 +752,20 @@
   "type": "Feature",
   "id": "node/7644008614",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Käfig",
+    "access": "permissive",
+    "defibrillator:location": "Berufsbeitsandsschaft",
     "description": "nur zugänglich wenn Gebäude geöffnet sind",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
     "id": "node/7644008614"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6346035,
-      47.698815
+      8.6346026,
+      47.6976796
     ]
   }
 },
@@ -769,19 +773,20 @@
   "type": "Feature",
   "id": "node/7644008617",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Stadthaus",
+    "access": "permissive",
+    "defibrillator:location": "Stadthaus Haus C (Infoschalter)",
     "description": "nur zugänglich wenn Gebäude geöffnet sind",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "id": "node/7644008617"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.634409,
-      47.6971127
+      8.6347416,
+      47.6970802
     ]
   }
 },
@@ -789,8 +794,8 @@
   "type": "Feature",
   "id": "node/7644008618",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Stadthaus",
+    "access": "permissive",
+    "defibrillator:location": "Stadthaus Haus A",
     "description": "nur zugänglich wenn Gebäude geöffnet sind",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -800,8 +805,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6344727,
-      47.697013
+      8.6344057,
+      47.6969895
     ]
   }
 },
@@ -2674,7 +2679,6 @@
   "type": "Feature",
   "id": "node/11347034769",
   "properties": {
-    "access": "no",
     "defibrillator:location": "Turnhalle Dreispitz, bei Haupteingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -2685,7 +2689,7 @@
     "type": "Point",
     "coordinates": [
       8.660747,
-      47.72035
+      47.7203498
     ]
   }
 },
@@ -3282,7 +3286,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Kirchhofplatz 19 Familienzentrum Kirchhofplatz, Treppenhaus",
-    "description": "während Öffnungszeiten verfügbar",
+    "description": "nur zugänglich wenn Gebäude geöffnet sind",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -3305,11 +3309,10 @@
   "id": "node/12987540402",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "grosse Lagerhalle Werkhof Hochbauamt an Wand",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "An Aussenwand Lagerhalle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "operator": "Stadt Schaffhausen",
     "phone": "+41 52 632 57 55",
     "source": "local_knowledge, defikarte.ch",
@@ -3318,8 +3321,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6223203,
-      47.729885
+      8.622154,
+      47.7299229
     ]
   }
 },
@@ -3748,6 +3751,48 @@
     "coordinates": [
       8.6369057,
       47.7004854
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13974309301",
+  "properties": {
+    "defibrillator:location": "Soziales Wohnen",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "operator": "Stadt Schaffhausen",
+    "id": "node/13974309301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6301502,
+      47.7060055
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13974366401",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Stadthaus Haus B",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "operator": "Stadt Schaffhausen",
+    "id": "node/13974366401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6350366,
+      47.6970928
     ]
   }
 }
