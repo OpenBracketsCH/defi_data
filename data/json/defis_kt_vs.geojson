@@ -3392,11 +3392,13 @@
   "type": "Feature",
   "id": "node/10944507839",
   "properties": {
-    "access": "customers",
-    "defibrillator:location": "Dans la reception / In hotel lobby",
+    "access": "yes",
+    "defibrillator:location": "Dans la reception (selon horaires) / In hotel lobby (during opening hours)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "07:00-22:00",
     "wheelchair": "yes",
     "id": "node/10944507839"
   },
