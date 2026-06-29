@@ -7387,19 +7387,22 @@
   "type": "Feature",
   "id": "node/7644000283",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Bereich Soziales",
-    "description": "nur zugänglich wenn Gebäude geöffnet sind",
+    "description": "Bei Schalter rechts",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 8:30-16:30",
+    "operator": "Stadt Schaffhausen",
     "id": "node/7644000283"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
       8.6319273,
-      47.6965664
+      47.6965666
     ]
   }
 },
@@ -7407,19 +7410,22 @@
   "type": "Feature",
   "id": "node/7644000284",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Stadtbibliothek",
-    "description": "nur zugänglich wenn Gebäude geöffnet sind",
+    "description": "Hinter Schalter",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo - Sa 10:00- 18:00",
+    "operator": "Stadt Schaffhausen",
     "id": "node/7644000284"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6370215,
-      47.6954758
+      8.6370309,
+      47.69539
     ]
   }
 },
@@ -7427,18 +7433,21 @@
   "type": "Feature",
   "id": "node/7644008585",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Kammgarn",
     "description": "nur zugänglich wenn Gebäude geöffnet sind",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Stadt Schaffhausen",
     "id": "node/7644008585"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.636072,
-      47.6944797
+      8.6361779,
+      47.6943741
     ]
   }
 },
@@ -7447,17 +7456,20 @@
   "id": "node/7644008586",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Haus Steig",
+    "defibrillator:location": "Schützenhaus Kreisel",
     "description": "nur zugänglich wenn Gebäude geöffnet sind",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadt Schaffhausen",
     "id": "node/7644008586"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6200887,
-      47.701011
+      8.6262029,
+      47.7000084
     ]
   }
 },
@@ -7465,18 +7477,22 @@
   "type": "Feature",
   "id": "node/7644008587",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Haus Wiesli",
-    "description": "nur zugänglich wenn Gebäude geöffnet sind",
+    "access": "permissive",
+    "defibrillator:location": "Alterszentrum Breite Haus Wiesli",
+    "description": "Beim Infoschalter",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 7:30-18:00",
+    "operator": "Stadt Schaffhausen",
     "id": "node/7644008587"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.620711,
-      47.7011428
+      8.6201598,
+      47.7009036
     ]
   }
 },
@@ -7503,18 +7519,22 @@
   "type": "Feature",
   "id": "node/7644008589",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Alterszentrum Emmersberg",
-    "description": "nur zugänglich wenn Gebäude geöffnet sind",
+    "description": "Bei Eingang Kinderhort links",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo-Su 7:30-18:00",
+    "operator": "Stadt Schaffhausen",
     "id": "node/7644008589"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6421999,
-      47.6992631
+      8.6422002,
+      47.6992632
     ]
   }
 },
@@ -7522,11 +7542,15 @@
   "type": "Feature",
   "id": "node/7644008590",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Alterszentrum am Kirchhofplatz",
-    "description": "nur zugänglich wenn Gebäude geöffnet sind",
+    "description": "Gang bei Cafeteria",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 7:30 -16:30",
+    "operator": "Stadt Schaffhausen",
     "id": "node/7644008590"
   },
   "geometry": {
@@ -7541,20 +7565,23 @@
   "type": "Feature",
   "id": "node/7644008591",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "check_date": "2026-02-21",
     "defibrillator:location": "Sporthalle Munot",
-    "description": "nur zugänglich wenn Gebäude geöffnet sind",
+    "description": "Eingangsbereich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 7:30-16:30",
+    "operator": "Stadt Schaffhausen",
     "id": "node/7644008591"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6407176,
-      47.6988503
+      8.6406572,
+      47.6987519
     ]
   }
 },
@@ -7562,11 +7589,15 @@
   "type": "Feature",
   "id": "node/7644008592",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Bibliothek Agnesenschütte",
-    "description": "nur zugänglich wenn Gebäude geöffnet sind",
+    "description": "Hinter Kasse",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo - Sa 8:00 -18:00",
+    "operator": "Stadt Schaffhausen",
     "id": "node/7644008592"
   },
   "geometry": {
@@ -7601,21 +7632,21 @@
   "id": "node/7644008594",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "An Aussenwand vom Schulhaus Hemmental in 8231 Hemmental",
-    "description": "Wurde aus dem Gebäudeinnern an der Aussenwand des Schulhauses Hemmental montiert.",
+    "defibrillator:location": "Turnhalle Hemmental",
+    "description": "Vor Eingang links",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
-    "operator": "Stadt Schaffhausen / Stadtpolizei Schaffhausen",
+    "operator": "Stadt Schaffhausen",
     "id": "node/7644008594"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5789356,
-      47.734498
+      8.5789825,
+      47.7345855
     ]
   }
 },
@@ -7661,12 +7692,15 @@
   "type": "Feature",
   "id": "node/7644008597",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Turnhalle Steingut",
-    "description": "nur zugänglich wenn Gebäude geöffnet sind",
+    "description": "Ausgang Richtung Hartplatz",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 7:30-16:30",
+    "operator": "Stadt Schaffhausen",
     "id": "node/7644008597"
   },
   "geometry": {
@@ -7681,18 +7715,22 @@
   "type": "Feature",
   "id": "node/7644008598",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Turnhalle Kreuzgut",
-    "description": "nur zugänglich wenn Gebäude geöffnet sind",
+    "description": "Ausgang Richtung Spielplatz",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 7:30-16:30",
+    "operator": "StadtSchaffhausen",
     "id": "node/7644008598"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6580661,
-      47.722991
+      8.6588265,
+      47.7229793
     ]
   }
 },
@@ -7700,11 +7738,15 @@
   "type": "Feature",
   "id": "node/7644008599",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Turnhalle Hohberg",
-    "description": "nur zugänglich wenn Gebäude geöffnet sind",
+    "description": "Ausgang Richtung Roter Platz",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 7:30-16:30",
+    "operator": "Stadt Schaffhausen",
     "id": "node/7644008599"
   },
   "geometry": {
@@ -7719,18 +7761,22 @@
   "type": "Feature",
   "id": "node/7644008600",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Turnhalle Gräfler",
-    "description": "nur zugänglich wenn Gebäude geöffnet sind",
+    "description": "Im Treppenhaus zwischen beiden Turnhallen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 7:30-16:30",
+    "operator": "Stadt Schaffhausen",
     "id": "node/7644008600"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6505613,
-      47.7200615
+      8.6503185,
+      47.7203115
     ]
   }
 },
@@ -7738,11 +7784,15 @@
   "type": "Feature",
   "id": "node/7644008601",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Turnhalle Alpenblick",
-    "description": "nur zugänglich wenn Gebäude geöffnet sind",
+    "description": "Eingang Turnhalle rechts",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-FR 7:30-16:30",
+    "operator": "Stadt Schaffhausen",
     "id": "node/7644008601"
   },
   "geometry": {
@@ -7776,18 +7826,22 @@
   "type": "Feature",
   "id": "node/7644008603",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Turnhalle Zündelgut",
-    "description": "nur zugänglich wenn Gebäude geöffnet sind",
+    "description": "Neben Halleneingang links",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 7:30-16:30",
+    "operator": "Stadt Schaffhausen",
     "id": "node/7644008603"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.653332,
-      47.6987654
+      8.6533763,
+      47.698658
     ]
   }
 },
@@ -7795,19 +7849,21 @@
   "type": "Feature",
   "id": "node/7644008604",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Turnhalle Emmersberg",
-    "description": "nur zugänglich wenn Gebäude geöffnet sind",
+    "description": "Bei Ausgang Richtung Sportplatz links",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "opening_hours": "Mo-Fr 7:30-16:30",
+    "operator": "Stadt Schaffhausen",
     "id": "node/7644008604"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6391324,
-      47.7002384
+      8.6392759,
+      47.70027
     ]
   }
 },
@@ -7838,12 +7894,13 @@
   "type": "Feature",
   "id": "node/7644008606",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Bachturnhalle",
-    "description": "nur zugänglich wenn Gebäude geöffnet sind",
+    "description": "Bei Ausgang Richtung Bachstrasse",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "id": "node/7644008606"
   },
   "geometry": {
@@ -7922,19 +7979,21 @@
   "type": "Feature",
   "id": "node/7644008610",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Munotzinne neben Ausschank rechts",
-    "description": "nur zugänglich wenn Gebäude geöffnet sind",
+    "description": "Auf Zinne neben Bistro",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "level": "1",
+    "opening_hours": "Mo - Su 8:00-20:00",
     "id": "node/7644008610"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6401494,
-      47.696932
+      8.6401489,
+      47.6969322
     ]
   }
 },
@@ -7942,11 +8001,15 @@
   "type": "Feature",
   "id": "node/7644008611",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Museum Allerheiligen",
-    "description": "nur zugänglich wenn Gebäude geöffnet sind",
+    "description": "Im Raum hinter Kasse Bistro",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "11:00-17:00",
+    "operator": "Stadt Schaffhausen",
     "id": "node/7644008611"
   },
   "geometry": {
@@ -7966,6 +8029,9 @@
     "description": "nur zugänglich wenn Gebäude geöffnet sind",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Stadt Schaffhausen",
     "id": "node/7644008612"
   },
   "geometry": {
@@ -8002,11 +8068,12 @@
   "properties": {
     "access": "permissive",
     "defibrillator:location": "Berufsbeitsandsschaft",
-    "description": "nur zugänglich wenn Gebäude geöffnet sind",
+    "description": "Beim Schalter",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "opening_hours": "Mo - Fr 8:00-17:00",
     "id": "node/7644008614"
   },
   "geometry": {
@@ -8023,11 +8090,13 @@
   "properties": {
     "access": "permissive",
     "defibrillator:location": "Stadthaus Haus C (Infoschalter)",
-    "description": "nur zugänglich wenn Gebäude geöffnet sind",
+    "description": "Im Schrank hinter Infoschalter",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "opening_hours": "Mo - Fr 7:00-17:00",
+    "operator": "Stadt Schaffhausen",
     "id": "node/7644008617"
   },
   "geometry": {
@@ -8044,10 +8113,11 @@
   "properties": {
     "access": "permissive",
     "defibrillator:location": "Stadthaus Haus A",
-    "description": "nur zugänglich wenn Gebäude geöffnet sind",
+    "description": "Beim Personaleingang links",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "opening_hours": "Mo - Fr 7:00-17:00",
     "id": "node/7644008618"
   },
   "geometry": {
@@ -10372,18 +10442,22 @@
   "type": "Feature",
   "id": "node/7836638224",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "In der Rhybadi",
-    "description": "während Öffnungszeiten verfügbar",
+    "description": "Bei Garderobe Kinderhägli",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "May - Sep 8:00-22:00",
+    "operator": "Stadt Schaffhausen",
     "id": "node/7836638224"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6379899,
-      47.6941949
+      8.6377658,
+      47.6941096
     ]
   }
 },
@@ -50299,12 +50373,14 @@
   "type": "Feature",
   "id": "node/10720609705",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Schule Steig, Stokarbergstrasse 13, 8200 Schaffhausen",
-    "description": "Im Eingangsbereich der Turnhalle/Nur zugänglich während Schul- und Trainingszeit",
+    "description": "Im Eingangsbereich links",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 07:30-12:00",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:30-16:30",
     "operator": "Stadt Schaffhausen/Stadtpolizei",
     "phone": "+41 52 632 57 49",
     "source": "local_knowledge, defikarte.ch",
@@ -50313,8 +50389,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6267972,
-      47.6975617
+      8.6268626,
+      47.6978118
     ]
   }
 },
@@ -64643,10 +64719,15 @@
   "type": "Feature",
   "id": "node/11347034769",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Turnhalle Dreispitz, bei Haupteingang",
+    "description": "Vor Eingang links",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadt Schaffhausen",
     "id": "node/11347034769"
   },
   "geometry": {
@@ -90820,12 +90901,14 @@
   "type": "Feature",
   "id": "node/12987236703",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Turnhalle Buchthalen / Gang bei Garderoben",
-    "description": "während Öffnungszeiten verfügbar",
+    "access": "permissive",
+    "defibrillator:location": "Turnhalle Buchthalen",
+    "description": "Im Treppenhaus im UG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "Mo-Fr 7:30-16:30",
     "operator": "Stadt Schaffhausen",
     "phone": "+41 52 632 57 55",
     "source": "local_knowledge, defikarte.ch",
@@ -90843,12 +90926,14 @@
   "type": "Feature",
   "id": "node/12987250301",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Stiftung Impuls Fabrikationshalle",
-    "description": "während Öffnungszeiten verfügbar",
+    "description": "Bei Materialausgabe",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo - Fr 7:30 - 16:00",
     "operator": "Stadt Schaffhausen",
     "phone": "+41 52 632 57 55",
     "source": "local_knowledge, defikarte.ch",
@@ -90866,12 +90951,13 @@
   "type": "Feature",
   "id": "node/12987261001",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Alterszentrum Steig / Garderobe Haupteingang",
-    "description": "während Öffnungszeiten verfügbar",
+    "access": "permissive",
+    "defibrillator:location": "Alterszentrum Steig",
+    "description": "Neben Liftanlage links",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "opening_hours": "Mo-Su 7:30-18:00",
     "operator": "Stadt Schaffhausen",
     "phone": "+41 52 632 57 55",
     "source": "local_knowledge, defikarte.ch",
@@ -90889,13 +90975,14 @@
   "type": "Feature",
   "id": "node/12987277001",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Kirchhofplatz 19 Familienzentrum Kirchhofplatz, Treppenhaus",
-    "description": "nur zugänglich wenn Gebäude geöffnet sind",
+    "access": "permissive",
+    "defibrillator:location": "Kirchhofplatz 19 Familienzentrum",
+    "description": "Im Treppenhaus im 1 OG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
+    "opening_hours": "Mo - Fr 9:00 - 17:00",
     "operator": "Stadt Schaffhausen",
     "phone": "+41 52 632 57 55",
     "source": "local_knowledge, defikarte.ch",
@@ -90941,6 +91028,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Stadt Schaffhausen",
     "phone": "+41 52 632 57 55",
     "source": "local_knowledge, defikarte.ch",
@@ -90950,7 +91038,7 @@
     "type": "Point",
     "coordinates": [
       8.622154,
-      47.7299229
+      47.7299211
     ]
   }
 },
@@ -97411,8 +97499,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6491117,
-      47.7206202
+      8.6491115,
+      47.7206203
     ]
   }
 },
@@ -102150,6 +102238,7 @@
   "type": "Feature",
   "id": "node/13974309301",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Soziales Wohnen",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
@@ -102162,8 +102251,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6301502,
-      47.7060055
+      8.6301497,
+      47.7060056
     ]
   }
 },
@@ -102173,10 +102262,12 @@
   "properties": {
     "access": "permissive",
     "defibrillator:location": "Stadthaus Haus B",
+    "description": "Sanitätsraum vis a vis WC",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "2",
+    "opening_hours": "Mo - Fr 7:00-17:00",
     "operator": "Stadt Schaffhausen",
     "id": "node/13974366401"
   },
@@ -102184,7 +102275,31 @@
     "type": "Point",
     "coordinates": [
       8.6350366,
-      47.6970928
+      47.6970927
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13974708102",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "GVZ Gebäudeversicherung Zürich, rechts vom Haupteingang",
+    "email": "firstresponder@gvz.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "GVZ Gebäudeversicherung Zürich",
+    "phone": "+41 44 308 20 30",
+    "wikimedia_commons": "File:GVZ Standort AED Thurgauerstrasse.jpg",
+    "id": "node/13974708102"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5528141,
+      47.4161019
     ]
   }
 }
