@@ -33634,6 +33634,7 @@
   "type": "Feature",
   "id": "node/7840566277",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Durchgang vom Klosterplatz zum Bischofshof Klosterhof 8",
     "description": "Öffentlich zugänglich",
     "emergency": "defibrillator",
@@ -158606,18 +158607,23 @@
   "type": "Feature",
   "id": "node/13971933303",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Golfclub Gams Werdenberg",
+    "email": "praesident@golfgams.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
+    "operator": "Golfclub Gams-Wedenberg",
+    "phone": "+41 81 772 40 00",
     "id": "node/13971933303"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4786043,
-      47.2081021
+      9.4786048,
+      47.2081045
     ]
   }
 },
