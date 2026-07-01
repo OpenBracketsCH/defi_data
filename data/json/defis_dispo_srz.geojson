@@ -34191,26 +34191,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9360006517",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Im Siemensparkaus bei der Kasse im EG",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "id": "node/9360006517"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5147112,
-      47.1782209
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9360309218",
   "properties": {
     "access": "yes",
@@ -102343,6 +102323,29 @@
     "coordinates": [
       8.5587768,
       47.4159057
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13979833401",
+  "properties": {
+    "defibrillator:location": "Notariat Bassersdorf",
+    "description": "während Öffnungszeiten verfügbar, nach Eingangstüre links",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-11:30, 14:00-17:00",
+    "operator": "Notariat, Grundbuch- und Konkursamt Bassersdorf",
+    "phone": "+41 44 859 22 90",
+    "id": "node/13979833401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.63092,
+      47.443907
     ]
   }
 }
