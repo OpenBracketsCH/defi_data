@@ -70804,20 +70804,20 @@
   "id": "node/9510974095",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Gemeindeverwaltung, angrenzender Fahrradunterstand aus Holz",
+    "defibrillator:location": "Gemeindeverwaltung Aesch Hauptstrasse 23 Unter dem Fahrradunterstand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Aesch",
-    "phone": "+41 61 756 77 74",
+    "phone": "+41 61 756 77 80",
     "id": "node/9510974095"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.598932,
-      47.4656919
+      7.5989315,
+      47.4656923
     ]
   }
 },
@@ -85389,14 +85389,14 @@
   "id": "node/10262097712",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Sanitätsraum der Mehrzweckhalle",
+    "defibrillator:location": "Mehrzweckhalle Löhrenacker Aussenbereich beim Eingang zur Küche Landskronstrasse 41",
+    "email": "Sozialedienste@aesch.bl.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Aesch",
-    "phone": "+41617567781",
+    "phone": "+41 61 756 77 80",
     "id": "node/10262097712"
   },
   "geometry": {
@@ -108002,6 +108002,29 @@
     "coordinates": [
       8.4954786,
       47.5630003
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11371089269",
+  "properties": {
+    "defibrillator:location": "Beim Eingang Hallenbad Steg",
+    "description": "Öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Steg-Hohtenn",
+    "phone": "+41 27 932 10 50",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11371089269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7540785,
+      46.3147798
     ]
   }
 },

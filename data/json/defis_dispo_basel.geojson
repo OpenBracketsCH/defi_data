@@ -3005,20 +3005,20 @@
   "id": "node/9510974095",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Gemeindeverwaltung, angrenzender Fahrradunterstand aus Holz",
+    "defibrillator:location": "Gemeindeverwaltung Aesch Hauptstrasse 23 Unter dem Fahrradunterstand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Aesch",
-    "phone": "+41 61 756 77 74",
+    "phone": "+41 61 756 77 80",
     "id": "node/9510974095"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.598932,
-      47.4656919
+      7.5989315,
+      47.4656923
     ]
   }
 },
@@ -4613,14 +4613,14 @@
   "id": "node/10262097712",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Sanitätsraum der Mehrzweckhalle",
+    "defibrillator:location": "Mehrzweckhalle Löhrenacker Aussenbereich beim Eingang zur Küche Landskronstrasse 41",
+    "email": "Sozialedienste@aesch.bl.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Aesch",
-    "phone": "+41617567781",
+    "phone": "+41 61 756 77 80",
     "id": "node/10262097712"
   },
   "geometry": {
@@ -4908,7 +4908,7 @@
   "id": "node/10601145635",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Beim Schulhaus/ vor dem Hallenbad",
+    "defibrillator:location": "Gartenbad Eingangsbereich Kasse",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -12999,12 +12999,14 @@
   "type": "Feature",
   "id": "node/13700854001",
   "properties": {
-    "defibrillator:location": "Schulhaus Schützenmatt",
-    "description": "während der Öffnungszeiten der Schule bzw. Schwimmhalle verfügbar.Ausserhalb Schulferien, Mo - Fr 07:00 bis 21:30 Uhr, Sa 08:00 - 16:00 Uhr",
+    "access": "permissive",
+    "defibrillator:location": "Hallenbad Schützenmattschulhaus Trakt D, Eingang zwischen Hallenbad und Turnhalle Dornacherstrasse 43",
+    "email": "Sozialedienste@aesch.bl.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "opening_hours": "Mo-Fr 07:00-21:45",
     "operator": "Gemeinde Aesch",
     "phone": "+41 61 756 77 25",
     "id": "node/13700854001"
@@ -14830,6 +14832,54 @@
     "coordinates": [
       7.51077,
       47.4277778
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13982863601",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Mehrzweckhalle Löhrenacker Sanitätsraum Landskronstrasse 41",
+    "description": "Nach Belegungsplan zugänglich",
+    "email": "Sozialedienste@aesch.bl.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Gemeindeverwaltung Aesch",
+    "phone": "+41 61 756 77 80",
+    "id": "node/13982863601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5870786,
+      47.4735703
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13982898301",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Gartenbad Aufsichtshaus Schwimmerbecken Dornacherstrasse 85",
+    "description": "während der Badesaison Mo-So",
+    "email": "Sozialedienste@aesch.bl.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Gemeinde Aesch",
+    "phone": "+41 61 756 77 80",
+    "id": "node/13982898301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.60058,
+      47.4766343
     ]
   }
 }
