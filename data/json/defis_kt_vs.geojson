@@ -3760,13 +3760,14 @@
   "type": "Feature",
   "id": "node/11104988060",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Haus der Generationen",
+    "access": "permissive",
+    "defibrillator:location": "Haus der Generationen St. Anna",
+    "description": "während den Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
+    "indoor": "yes",
     "operator": "Haus der Generationen Steg",
+    "phone": "+41 27 933 19 19",
     "id": "node/11104988060"
   },
   "geometry": {
@@ -3958,7 +3959,7 @@
   "id": "node/11371090569",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Kirchplatz Hohtenn",
+    "defibrillator:location": "An der Nordwand der Kirche",
     "description": "öffentlich zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -6923,6 +6924,28 @@
     "coordinates": [
       7.7781092,
       46.4019961
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13983001201",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Stabitec AG",
+    "description": "während den Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Stabitec AG",
+    "phone": "+41 27 932 20 00",
+    "id": "node/13983001201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7528395,
+      46.3095955
     ]
   }
 }

@@ -22519,12 +22519,14 @@
   "id": "node/7559403092",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Rechts vom Haupteingang in das Gebäude",
+    "defibrillator:location": "Gemeindehof aussen neben Schiebetüre Ettingerstrasse 11",
+    "email": "Sozialedienste@aesch.bl.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Aesch",
+    "phone": "+41 61 756 77 80",
     "id": "node/7559403092"
   },
   "geometry": {
@@ -66297,21 +66299,23 @@
   "id": "node/9315745134",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Polizeistation: Haupteingang",
+    "defibrillator:location": "Kantonspolizei Verwaltung, Aussenbereich",
+    "description": "Treppenaufgang rechtsseitig",
+    "email": "sicherheit@sg.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "name": "Kantonspolizei",
     "opening_hours": "24/7",
-    "operator": "Hochbauamt Kanton St.Gallen",
-    "phone": "+41 58 229 30 17",
+    "operator": "Kanton St.Gallen Staatskanzlei",
+    "phone": "+41 58 229 29 08",
     "id": "node/9315745134"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.3795607,
-      47.4232014
+      9.3792871,
+      47.4232794
     ]
   }
 },
@@ -73773,20 +73777,24 @@
   "type": "Feature",
   "id": "node/9649251660",
   "properties": {
-    "defibrillator:location": "Im Nachtwachbüro",
+    "access": "yes",
+    "defibrillator:location": "Ausreise- und Nothilfezentrum Sonnenberg, Hauptgebäude Empfangsschalter",
+    "description": "Am Schalter melden",
+    "email": "sicherheit@sg.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "24/7",
-    "operator": "Ausreise- und Nothilfezentrum Sonnenberg",
-    "phone": "+41 58 228 77 20",
+    "operator": "Kanton St.Gallen Staatskanzlei",
+    "phone": "+41 58 229 29 08",
     "id": "node/9649251660"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4576775,
-      47.0181552
+      9.4576801,
+      47.0180228
     ]
   }
 },
@@ -85767,21 +85775,22 @@
   "id": "node/10275525616",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "RAV St.Gallen Haupteingang",
+    "defibrillator:location": "Kantonale Arbeitslosenkasse St.Gallen → Gebäude Haupteingang",
+    "email": "sicherheit@sg.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
-    "operator": "Hochbauamt Kanton St.Gallen",
-    "phone": "+41 58 229 30 17",
+    "operator": "Kanton St.Gallen Staatskanzlei",
+    "phone": "+41 58 229 29 08",
     "id": "node/10275525616"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.3660952,
-      47.4189301
+      9.3661917,
+      47.4190953
     ]
   }
 },
@@ -102634,27 +102643,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11104988060",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Haus der Generationen",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Haus der Generationen Steg",
-    "id": "node/11104988060"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.748006,
-      46.3160266
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11105527003",
   "properties": {
     "access": "yes",
@@ -108033,7 +108021,7 @@
   "id": "node/11371090569",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Kirchplatz Hohtenn",
+    "defibrillator:location": "An der Nordwand der Kirche",
     "description": "öffentlich zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -158855,6 +158843,29 @@
     "coordinates": [
       9.0328571,
       47.6735657
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13983081501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang AVSV",
+    "email": "sicherheit@sg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Kanton St.Gallen Staatskanzlei",
+    "phone": "+41 58 229 29 08",
+    "id": "node/13983081501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3858728,
+      47.4284525
     ]
   }
 }

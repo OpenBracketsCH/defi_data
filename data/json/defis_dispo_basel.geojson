@@ -187,12 +187,14 @@
   "id": "node/7559403092",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Rechts vom Haupteingang in das Gebäude",
+    "defibrillator:location": "Gemeindehof aussen neben Schiebetüre Ettingerstrasse 11",
+    "email": "Sozialedienste@aesch.bl.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Aesch",
+    "phone": "+41 61 756 77 80",
     "id": "node/7559403092"
   },
   "geometry": {
@@ -14880,6 +14882,30 @@
     "coordinates": [
       7.60058,
       47.4766343
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13982944001",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Friedhof Gedenkhalle, Links hinter der Eingangstüre",
+    "description": "Mo-So 07.00-19.00",
+    "email": "Sozialedienste@aesch.bl.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Gemeinde Aesch",
+    "phone": "+41 61 756 77 80",
+    "id": "node/13982944001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5974176,
+      47.4653288
     ]
   }
 }
