@@ -14743,8 +14743,12 @@
   "type": "Feature",
   "id": "node/8141136186",
   "properties": {
+    "defibrillator:location": "in Arztpraxis",
+    "description": "während der Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 7:30-12:00, 13:30-17:00",
     "id": "node/8141136186"
   },
   "geometry": {
@@ -102389,6 +102393,29 @@
     "coordinates": [
       8.5537835,
       47.4157131
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13982361001",
+  "properties": {
+    "defibrillator:location": "Gewerbegebäude, neben dem Lift im Haupteingang",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 07:00-19:00",
+    "operator": "Philipp Theiler",
+    "phone": "+41447870304",
+    "id": "node/13982361001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7217417,
+      47.1933313
     ]
   }
 }
