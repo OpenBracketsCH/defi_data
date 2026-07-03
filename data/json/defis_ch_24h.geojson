@@ -66352,13 +66352,14 @@
   "id": "node/9315745136",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Finanzdepartement: Neben Eingang Tiefgarage",
+    "defibrillator:location": "Tiefgarageneinfahrt VD SG",
+    "email": "sicherheit@sg.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Hochbauamt Kanton St.Gallen",
-    "phone": "+41 58 229 30 17",
+    "operator": "Kanton St.Gallen Staatskanzlei",
+    "phone": "+41 58 229 29 08",
     "id": "node/9315745136"
   },
   "geometry": {
@@ -73678,25 +73679,6 @@
     "coordinates": [
       7.0865894,
       46.6875039
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9649197962",
-  "properties": {
-    "defibrillator:location": "Haupthaus 1. Stock / Empfang",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "id": "node/9649197962"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.6047397,
-      47.4465707
     ]
   }
 },
@@ -159058,6 +159040,56 @@
     "coordinates": [
       9.5310334,
       46.8109195
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13985117501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Strafanstalt Saxerriet, Hauptgebäude",
+    "description": "Zufahrt nur beschränkt möglich! An Schrankenanlage melden oder zu Fuss zum Hauptgebäude und bei der Loge melden.",
+    "email": "sicherheit@sg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Kanton St.Gallen Staatskanzlei",
+    "phone": "+41 58 229 29 08",
+    "id": "node/13985117501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4810394,
+      47.2267039
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13985173402",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang, Vorraum, linke Seite",
+    "description": "immer verfügbar",
+    "email": "info@spannort-erstfeld.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Spannort, 6472 Erstfeld",
+    "phone": "+41 41 882 12 12",
+    "id": "node/13985173402"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.647372,
+      46.821824
     ]
   }
 }

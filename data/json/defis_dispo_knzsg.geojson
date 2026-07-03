@@ -12575,20 +12575,24 @@
   "type": "Feature",
   "id": "node/9315745133",
   "properties": {
-    "defibrillator:location": "Versicherungsgericht: Empfang",
+    "access": "permissive",
+    "defibrillator:location": "Versicherungsgericht St.Gallen, Empfang",
+    "description": "Während Öffnungszeiten am Empfang melden.",
+    "email": "sicherheit@sg.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "1",
     "opening_hours": "Mo-Fr 08:00-11:30, 14:00-17:00",
-    "operator": "Kanton St.Gallen",
-    "phone": "+41 58 229 30 17",
+    "operator": "Kanton St.Gallen Staatskanzlei",
+    "phone": "+41 58 229 29 08",
     "id": "node/9315745133"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.3714532,
-      47.4202374
+      9.3717617,
+      47.4203154
     ]
   }
 },
@@ -12648,13 +12652,14 @@
   "id": "node/9315745136",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Finanzdepartement: Neben Eingang Tiefgarage",
+    "defibrillator:location": "Tiefgarageneinfahrt VD SG",
+    "email": "sicherheit@sg.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Hochbauamt Kanton St.Gallen",
-    "phone": "+41 58 229 30 17",
+    "operator": "Kanton St.Gallen Staatskanzlei",
+    "phone": "+41 58 229 29 08",
     "id": "node/9315745136"
   },
   "geometry": {
@@ -13302,14 +13307,17 @@
   "type": "Feature",
   "id": "node/9315745165",
   "properties": {
-    "defibrillator:location": "Untersuchungsamt: Empfang 3.OG",
+    "access": "permissive",
+    "defibrillator:location": "Staatsanwaltschaft, Untersuchungsamt St.Gallen",
+    "description": "Während Öffnungszeiten am Empfang melden.",
+    "email": "sicherheit@sg.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "3",
     "opening_hours": "Mo-Fr 08:00-11:30, 14:00-17:00",
-    "operator": "Kanton St.Gallen",
-    "phone": "+41 58 229 30 17",
+    "operator": "Kanton St.Gallen Staatskanzlei",
+    "phone": "+41 58 229 29 08",
     "id": "node/9315745165"
   },
   "geometry": {
@@ -14485,22 +14493,24 @@
   "type": "Feature",
   "id": "node/9473636832",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Empfang Departemente",
-    "description": "Während Öffnungszeiten verfügbar",
+    "access": "permissive",
+    "defibrillator:location": "Hauptempfang Departemente",
+    "description": "Während Öffnungszeiten beim Empfang (GD / SJD) melden.",
+    "email": "sicherheit@sg.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 07:30-12:00, 13:00-17:00",
-    "operator": "Gesundheitsdepartement, Hochbauamt Kanton St.Gallen",
-    "phone": "+41 58 229 30 17",
+    "operator": "Kanton St.Gallen Staatskanzlei",
+    "phone": "+41 58 229 29 08",
     "id": "node/9473636832"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.3743724,
-      47.4226034
+      9.3744717,
+      47.4223965
     ]
   }
 },
@@ -14945,7 +14955,7 @@
   "properties": {
     "access": "permissive",
     "defibrillator:location": "Geschäftsliegenschaft Pilgerhof",
-    "description": "Treppenhaus, Zwischengeschoss 3/4 OG (alternativer Zugang via grüner Aufzug, Neugasse)",
+    "description": "Treppenhaus, Zwischengeschoss 3/4 OG (alternativer Zugang via grünem Aufzug, Neugasse)",
     "email": "sicherheit@sg.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -14959,8 +14969,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.3744115,
-      47.4243186
+      9.3744114,
+      47.4243185
     ]
   }
 },
@@ -15277,11 +15287,16 @@
   "type": "Feature",
   "id": "node/9649197962",
   "properties": {
-    "defibrillator:location": "Haupthaus 1. Stock / Empfang",
+    "access": "permissive",
+    "defibrillator:location": "Zentrum mit Integrationscharakter (ZIC) Sonnenblick",
+    "description": "Während Zentrumsöffnungszeiten verfügbar. Bei Personal melden! AED befindet sich im 1.OG beim Empfang.",
+    "email": "sicherheit@sg.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
+    "level": "1",
+    "operator": "Kanton St.Gallen Staatskanzlei",
+    "phone": "+41 58 229 29 08",
     "id": "node/9649197962"
   },
   "geometry": {
@@ -15296,14 +15311,16 @@
   "type": "Feature",
   "id": "node/9649226706",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Im Eingangsbereich beim Haupteingang",
+    "access": "permissive",
+    "defibrillator:location": "Zentrum mit Integrationscharakter (ZIC) Bergruh",
+    "description": "Während Zentrumsöffnungszeiten verfügbar. Bei Personal melden! AED befindet sich im Hauptgebäude, Empfang (Eingangsbereich)",
+    "email": "sicherheit@sg.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Su 07:30-01:00",
-    "operator": "Zentrum für Asylsuchende/Kanton St Gallen",
-    "phone": "+41582290260",
+    "level": "0",
+    "operator": "Kanton St.Gallen Staatskanzlei",
+    "phone": "+41 58 229 29 08",
     "id": "node/9649226706"
   },
   "geometry": {
@@ -29285,21 +29302,23 @@
   "type": "Feature",
   "id": "node/12106341852",
   "properties": {
-    "access": "no",
+    "access": "permissive",
     "defibrillator:location": "Staatsanwaltschaft, Untersuchungsamt Altstätten",
-    "description": "nur zu Bürozeiten",
+    "description": "Während Öffnungszeiten an Gebäudeeingang oder Zugangstüre klingeln.",
+    "email": "sicherheit@sg.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "0",
-    "operator": "Kanton St. Gallen",
-    "phone": "+41582296400",
+    "level": "1",
+    "opening_hours": "Mo-Fr 07:30-11:30, 13:30-16:30",
+    "operator": "Kanton St. Gallen Staatskanzlei",
+    "phone": "+41 58 229 29 08",
     "id": "node/12106341852"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5633176,
+      9.5633177,
       47.3781697
     ]
   }
@@ -37958,6 +37977,176 @@
     "coordinates": [
       9.3787772,
       47.4239449
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13985117501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Strafanstalt Saxerriet, Hauptgebäude",
+    "description": "Zufahrt nur beschränkt möglich! An Schrankenanlage melden oder zu Fuss zum Hauptgebäude und bei der Loge melden.",
+    "email": "sicherheit@sg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Kanton St.Gallen Staatskanzlei",
+    "phone": "+41 58 229 29 08",
+    "id": "node/13985117501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4810394,
+      47.2267039
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13985137801",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Verwaltungsgericht St.Gallen",
+    "description": "Während Öffnungszeiten verfügbar. AED befindet sich im Treppenhaus 1.OG.",
+    "email": "sicherheit@sg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 08:00-11:30, 14:00-17:00",
+    "operator": "Kanton St.Gallen Staatskanzlei",
+    "phone": "+41 58 229 29 08",
+    "id": "node/13985137801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3746182,
+      47.4232879
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13985142301",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Verwaltungsrekurskommission St.Gallen",
+    "description": "Während alg. Gebäudeöffnungszeiten oder Verhandlungen verfügbar. AED befindet sich im Treppenhaus, 5.OG.",
+    "email": "sicherheit@sg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "5",
+    "operator": "Kanton St.Gallen Staatskanzlei",
+    "phone": "+41 58 229 29 08",
+    "id": "node/13985142301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3675838,
+      47.419198
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13985144501",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "VD Cafeteria 6.OG",
+    "description": "Während Öffnungszeiten verfügbar (intern)",
+    "email": "sicherheit@sg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "6",
+    "operator": "Kanton St.Gallen Staatskanzlei",
+    "phone": "+41 58 229 29 08",
+    "id": "node/13985144501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3677734,
+      47.4195796
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13985148906",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Zentrum mit Integrationscharakter (ZIC) Kreuzacker",
+    "description": "Während Zentrumsöffnungszeiten verfügbar. Beim Personal melden! AED befindet sich im Haus \"Enzian\"",
+    "email": "sicherheit@sg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "operator": "Kanton St.Gallen Staatskanzlei",
+    "phone": "+41 58 229 29 08",
+    "id": "node/13985148906"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0407861,
+      47.4674588
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13985151501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Zentrum mit Integrationscharakter (ZIC) Linth",
+    "description": "Während Zentrumsöffnungszeiten verfügbar. Bei Personal melden! AED befindet sich im UG bei Zimmer Nr. 015",
+    "email": "sicherheit@sg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "operator": "Kanton St.Gallen Staatskanzlei",
+    "phone": "+41 58 229 29 08",
+    "id": "node/13985151501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9927528,
+      47.2242252
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13985159601",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Zentrum mit Integrationscharakter (ZIC) Thurhof",
+    "description": "Während Zentrumsöffnungszeiten verfügbar. Bei Personal melden! AED befindet sich im Hauptgebäude, Raumnummer 110",
+    "email": "sicherheit@sg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "operator": "Kanton St.Gallen Staatskanzlei",
+    "phone": "+41 58 229 29 08",
+    "id": "node/13985159601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1521257,
+      47.4559034
     ]
   }
 }
