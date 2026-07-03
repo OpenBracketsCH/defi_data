@@ -11642,7 +11642,7 @@
   "properties": {
     "access": "permissive",
     "defibrillator:location": "Kreisgericht St.Gallen, Haus Hecht",
-    "description": "während Öffnungszeiten beim Empfang melden! AED befindet sich im rechten Korridor.",
+    "description": "Während Öffnungszeiten beim Empfang melden! AED befindet sich im 2.OG, rechter Korridor.",
     "email": "sicherheit@sg.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -19544,14 +19544,14 @@
   "id": "node/10801174605",
   "properties": {
     "access": "permissive",
-    "defibrillator:location": "Bau und Umweltdepartement, Empfang",
-    "description": "Während Öffnungszeiten verfügbar, beim Empfang melden",
+    "defibrillator:location": "Bau- und Umweltdepartement, Empfang",
+    "description": "Während Öffnungszeiten verfügbar, beim Empfang melden.",
     "email": "sicherheit@sg.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 07:30-11:45,13:00-17:00",
+    "opening_hours": "Mo-Fr 07:30-11:45, 13:00-17:00",
     "operator": "Kanton St.Gallen Staatskanzlei",
     "phone": "+41 58 229 29 08",
     "source": "local_knowledge, defikarte.ch",
@@ -19560,8 +19560,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.38283,
-      47.4261566
+      9.3828302,
+      47.4261565
     ]
   }
 },
@@ -32193,6 +32193,31 @@
     "coordinates": [
       9.1521257,
       47.4559034
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13985713001",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Bau- und Umweltdepartement Treppenhaus 9.OG",
+    "description": "Während Öffnungszeiten beim Empfang melden / Intern verfügbar",
+    "email": "sicherheit@sg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "9",
+    "opening_hours": "Mo-Fr 07:30-11:45, 13:00-17:00",
+    "operator": "Kanton St.Gallen Staatskanzlei",
+    "phone": "+41 58 229 29 08",
+    "id": "node/13985713001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3827363,
+      47.4260367
     ]
   }
 }
