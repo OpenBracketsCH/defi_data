@@ -33637,20 +33637,22 @@
   "id": "node/7840566277",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Durchgang vom Klosterplatz zum Bischofshof Klosterhof 8",
-    "description": "Öffentlich zugänglich",
+    "defibrillator:location": "Durchgang vom Klosterplatz zum Bischofshof (Klosterhof 8)",
+    "description": "Im Durchgang, grüne Box",
+    "email": "sicherheit@sg.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Staatskanzlei",
+    "operator": "Kanton St.Gallen Staatskanzlei",
+    "phone": "+41 58 229 29 08",
     "id": "node/7840566277"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.3778447,
-      47.4232136
+      9.3780039,
+      47.4232785
     ]
   }
 },
@@ -66372,20 +66374,22 @@
   "id": "node/9315745137",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Haupteingang rechts",
+    "defibrillator:location": "Prüfstelle Winkeln, Haupteingang rechts",
+    "description": "Aussenfassade rechts vom Haupteingang, grüne Box",
+    "email": "sicherheit@sg.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Kanton St.Gallen",
-    "phone": "+41 58 229 30 17",
+    "operator": "Kanton St.Gallen Staatskanzlei",
+    "phone": "+41 58 229 29 08",
     "id": "node/9315745137"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.3034873,
-      47.4038775
+      9.30352,
+      47.403925
     ]
   }
 },
@@ -66394,13 +66398,15 @@
   "id": "node/9315745139",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Links vom Haupteingang",
+    "defibrillator:location": "Prüfstelle Kaltbrunn, Haupteingang",
+    "description": "Haupteingang links (grüne Box)",
+    "email": "sicherheit@sg.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Kanton St.Gallen",
-    "phone": "+41 58 229 30 17",
+    "operator": "Kanton St.Gallen Staatskanzlei",
+    "phone": "+41 58 229 29 08",
     "id": "node/9315745139"
   },
   "geometry": {
@@ -66416,19 +66422,46 @@
   "id": "node/9315745141",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Polizeistützpunkt: Neben dem Haupteingang",
+    "defibrillator:location": "Polizeistützpunkt Thal, Haupteingang",
+    "description": "Zufahrt nur eingeschränkt möglich! Schrankenanlage zu Fuss passieren, anschliessend nach rechts gehen. AED befindet sich in grüner Box rechtsseitig.",
+    "email": "sicherheit@sg.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Kanton St.Gallen",
-    "phone": "+41 58 229 30 17",
+    "operator": "Kanton St.Gallen Staatskanzlei",
+    "phone": "+41 58 229 29 08",
     "id": "node/9315745141"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5793222,
-      47.4790385
+      9.5794199,
+      47.4790008
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9315745142",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Polizeistützpunkt Schmerikon, Haupteingang",
+    "description": "Aussenmontage links an der Wand (Haupteingang)",
+    "email": "sicherheit@sg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Kanton St.Gallen Staatskanzlei",
+    "phone": "+41 58 229 29 08",
+    "id": "node/9315745142"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9608452,
+      47.2293406
     ]
   }
 },
@@ -66437,20 +66470,22 @@
   "id": "node/9315745143",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Polizeistützpunkt im Freien",
+    "defibrillator:location": "Polizeistützpunkt Oberbüren, Haupteingang",
+    "description": "Zufahrt nur eingeschränkt möglich! Zu Fuss die Schrankenanlage passieren, AED hängt rechts an Aussenfassade (grüne Box)",
+    "email": "sicherheit@sg.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Kanton St.Gallen",
-    "phone": "+41 58 229 30 17",
+    "operator": "Kanton St.Gallen Staatskanzlei",
+    "phone": "+41 58 229 29 08",
     "id": "node/9315745143"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.154024,
-      47.4527791
+      9.1538359,
+      47.4527707
     ]
   }
 },
@@ -66459,21 +66494,23 @@
   "id": "node/9315745144",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Velounterstand",
+    "defibrillator:location": "Polizeistützpunkt Mels, Fahrradunterstand",
+    "description": "Aussenmontage im Fahrradunterstand (grüne Box)",
+    "email": "sicherheit@sg.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "name": "Polizeistützpunkt",
     "opening_hours": "24/7",
     "operator": "Hochbauamt Kanton St.Gallen",
-    "phone": "+41 58 229 30 17",
+    "phone": "+41 58 229 29 08",
     "id": "node/9315745144"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4362275,
-      47.0409008
+      9.4359084,
+      47.0410507
     ]
   }
 },
@@ -66482,20 +66519,22 @@
   "id": "node/9315745146",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Velounterstand",
+    "defibrillator:location": "Polizeistation Wil, Fahrradunterstand",
+    "description": "Aussenmontage beim Fahrradunterstand (Parkplatzbereich)",
+    "email": "sicherheit@sg.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Hochbauamt Kanton St.Gallen",
-    "phone": "+41 58 229 30 17",
+    "operator": "Kanton St.Gallen Staatskanzlei",
+    "phone": "+41 58 229 29 08",
     "id": "node/9315745146"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.0401754,
-      47.4705138
+      9.0400422,
+      47.4706737
     ]
   }
 },
@@ -66504,13 +66543,15 @@
   "id": "node/9315745150",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Polizeistation:Haupteingang",
+    "defibrillator:location": "Polizeistation Uznach, Haupteingang",
+    "description": "Hausfassade links unterhalb Haupteingang",
+    "email": "sicherheit@sg.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Kanton St.Gallen",
-    "phone": "+41 58 229 30 17",
+    "operator": "Kanton St.Gallen Staatskanzlei",
+    "phone": "+41 58 229 29 08",
     "id": "node/9315745150"
   },
   "geometry": {
@@ -66526,21 +66567,23 @@
   "id": "node/9315745151",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Polizeistation: Haupteingang neben dem Briefkasten der Post",
+    "defibrillator:location": "Polizeistation St.Margrethen, Aussenbereich",
+    "description": "Rechts neben dem Briefkasten der Post",
+    "email": "sicherheit@sg.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
-    "operator": "Hochbauamt Kanton St.Gallen",
-    "phone": "+41 58 229 30 17",
+    "operator": "Kanton St.Gallen Staatskanzlei",
+    "phone": "+41 58 229 29 08",
     "id": "node/9315745151"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.6382704,
-      47.4527356
+      9.6382675,
+      47.4527961
     ]
   }
 },
@@ -66549,13 +66592,15 @@
   "id": "node/9315745152",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Polizeistation: Haupteingang",
+    "defibrillator:location": "Polizeistation Schänis, Haupteingang",
+    "description": "Aussenmontage",
+    "email": "sicherheit@sg.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Kanton St.Gallen",
-    "phone": "+41 58 229 30 17",
+    "operator": "Kanton St.Gallen Staatskanzlei",
+    "phone": "+41 58 229 29 08",
     "id": "node/9315745152"
   },
   "geometry": {
@@ -67566,8 +67611,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.6350916,
-      47.4056882
+      9.6350954,
+      47.4057443
     ]
   }
 },
@@ -83875,20 +83920,23 @@
   "id": "node/10238847159",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Durchgangsbereich",
+    "defibrillator:location": "Kreisgericht Sarganserland, Fahrradunterstand",
+    "description": "Aussenmontage in grüner Box, Fahrradunterstand beim Haupteingang",
+    "email": "sicherheit@sg.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
-    "operator": "Kanton St.Gallen",
+    "operator": "Kanton St.Gallen Staatskanzlei",
+    "phone": "+41 58 229 29 08",
     "id": "node/10238847159"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4199288,
-      47.0475051
+      9.4199079,
+      47.0475285
     ]
   }
 },
@@ -90687,19 +90735,23 @@
   "properties": {
     "access": "yes",
     "check_date": "2026-06-10",
-    "defibrillator:location": "Schweizer Bussines Haus, neben Eingang",
+    "defibrillator:location": "Schweizer Bussines Haus, Haupteingang",
+    "description": "rechts neben Haupteingang in grüner Box",
+    "email": "sicherheit@sg.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
+    "operator": "Kanton St.Gallen Staatskanzlei",
+    "phone": "+41 58 229 29 08",
     "id": "node/10696547606"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.1566433,
-      47.4483719
+      9.1566266,
+      47.4484226
     ]
   }
 },
@@ -158914,6 +158966,98 @@
     "coordinates": [
       9.1880733,
       47.4189977
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13985022602",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Regionalgefängnis Altstätten",
+    "description": "Haupteingang, Aussenbereich in grüner Box",
+    "email": "sicherheit@sg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Kanton St.Gallen Staatskanzlei",
+    "phone": "+41 58 229 29 08",
+    "id": "node/13985022602"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5534902,
+      47.3581101
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13985035101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Strassenverkehrs- und Schifffahrtsamt Aussenstelle",
+    "description": "Aussenfassade Eingangsbereich",
+    "email": "sicherheit@sg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Kanton St.Gallen Staatskanzlei",
+    "phone": "+41 58 229 29 08",
+    "id": "node/13985035101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.934839,
+      47.225627
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13985054101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Strassenverkehrs- und Schifffahrtsamt",
+    "description": "Gebäudezugang Aussenfassade (grüne Box)",
+    "email": "sicherheit@sg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Kanton St.Gallen Staatskanzlei",
+    "phone": "+41 58 229 29 08",
+    "id": "node/13985054101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2516948,
+      47.1137379
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13985113601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Feuerwehrdepo",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/13985113601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5310334,
+      46.8109195
     ]
   }
 }
