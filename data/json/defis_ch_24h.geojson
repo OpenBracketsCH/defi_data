@@ -23656,22 +23656,23 @@
   "id": "node/7568739439",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Eingang Rettungsdienst Zug, ZVB-Haus",
+    "defibrillator:location": "Eingang Rettungsdienst Zug",
+    "email": "info.hba@zg.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
     "operator": "Rettungsdienst Zug",
-    "phone": "+41 41 728 46 60",
+    "phone": "+41 41 594 46 60",
     "wheelchair": "limited",
     "id": "node/7568739439"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.509178,
-      47.1734364
+      8.5103258,
+      47.175479
     ]
   }
 },
@@ -23703,9 +23704,11 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Schulhaus KBZ",
+    "email": "info.hba@zg.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Kanton Zug",
     "id": "node/7568739441"
