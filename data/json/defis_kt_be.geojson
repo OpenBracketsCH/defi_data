@@ -49662,24 +49662,25 @@
   "type": "Feature",
   "id": "node/11483340035",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "addr:city": "Zollikofen",
     "addr:housenumber": "73",
     "addr:postcode": "3052",
     "addr:street": "Schulhausstrasse",
-    "defibrillator:location": "Turnhalle",
+    "defibrillator:location": "Schulhaus Zentral",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "Mo-Sa 08:00-17:30",
-    "operator": "Schulanlage Oberdorf (Turnhalle)",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Schulanlage Oberdorf",
     "phone": "+41 31 911 69 72",
     "id": "node/11483340035"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4518814,
-      46.9980478
+      7.4532708,
+      46.99811
     ]
   }
 },
@@ -49687,25 +49688,25 @@
   "type": "Feature",
   "id": "node/11483340045",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "addr:city": "Zollikofen",
     "addr:housenumber": "30",
     "addr:postcode": "3052",
     "addr:street": "Schulhausstrasse",
-    "defibrillator:location": "Aula",
+    "defibrillator:location": "Foyer Spez.Trakt",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-17:30",
-    "operator": "Schulanlage Sek (Aula)",
+    "opening_hours": "24/7",
+    "operator": "Schulanlage Sek",
     "phone": "+41 31 914 02 25",
     "id": "node/11483340045"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4523568,
-      46.9983629
+      7.4522093,
+      46.9984946
     ]
   }
 },
@@ -49713,24 +49714,25 @@
   "type": "Feature",
   "id": "node/11483340046",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "addr:city": "Zollikofen",
     "addr:housenumber": "54",
     "addr:postcode": "3052",
     "addr:street": "Wahlackerstrasse",
-    "defibrillator:location": "Aula",
+    "defibrillator:location": "Schulhaus Wahlacker",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "Mo-Sa 08:00-17:30",
-    "operator": "Schulanlage Oberdorf (Aula Wahlacker)",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Schulanlage Oberdorf",
     "phone": "+41 31 911 69 72",
     "id": "node/11483340046"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4533558,
-      46.9970393
+      7.4533414,
+      46.9971613
     ]
   }
 },
@@ -49738,7 +49740,7 @@
   "type": "Feature",
   "id": "node/11483340051",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "addr:city": "Zollikofen",
     "addr:housenumber": "47",
     "addr:postcode": "3052",
@@ -49746,7 +49748,8 @@
     "defibrillator:location": "Turnhalle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "Mo-Sa 08:00-17:30",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Schulanlage Steinibach",
     "phone": "+41 31 911 01 84",
     "id": "node/11483340051"
@@ -49754,8 +49757,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4551184,
-      46.9887991
+      7.4551181,
+      46.9887993
     ]
   }
 },
@@ -49763,7 +49766,7 @@
   "type": "Feature",
   "id": "node/11483340052",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "addr:city": "Zollikofen",
     "addr:housenumber": "25",
     "addr:postcode": "3052",
@@ -49771,7 +49774,8 @@
     "defibrillator:location": "EG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "Mo-Fr 08:00-17:00",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeindeverwaltung Zollikofen",
     "phone": "+41 31 910 91 52",
     "id": "node/11483340052"
@@ -49779,8 +49783,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4523005,
-      46.9944352
+      7.4524426,
+      46.9943419
     ]
   }
 },
@@ -49907,7 +49911,7 @@
   "type": "Feature",
   "id": "node/11483349977",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "addr:city": "Zollikofen",
     "addr:housenumber": "74",
     "addr:postcode": "3052",
@@ -49915,7 +49919,8 @@
     "defibrillator:location": "Mehrzweckhalle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "Mo-Sa 08:00-17:30",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Schulanlage Geisshubel (Mehrzweckhalle)",
     "phone": "+41 31 911 42 22",
     "id": "node/11483349977"
@@ -49923,8 +49928,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4397585,
-      47.0003879
+      7.4399596,
+      47.0003788
     ]
   }
 },
@@ -64822,6 +64827,28 @@
     "coordinates": [
       7.4551175,
       47.024874
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13994406401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Freizeithaus Meielen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Zollikofen",
+    "phone": "+41 31 910 91 52",
+    "id": "node/13994406401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.467478,
+      46.997032
     ]
   }
 }
