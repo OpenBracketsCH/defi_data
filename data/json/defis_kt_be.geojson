@@ -53560,9 +53560,17 @@
   "type": "Feature",
   "id": "node/12124081268",
   "properties": {
-    "defibrillator:location": "Velostation, bei Cargovelo-Plätzen an Wand",
+    "access": "yes",
+    "defibrillator:location": "In der Velostation Welle7, bei Cargovelo-Plätzen an der Wand",
+    "description": "23:00 - 05:00 Uhr Code erhältlich via Pikett-Nummer 051 220 18 20",
+    "email": "velostation.w7@bern.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "05:00 - 23:00",
+    "operator": "Velostation Bern",
+    "phone": "+41 31 321 56 19",
     "id": "node/12124081268"
   },
   "geometry": {
@@ -64849,6 +64857,73 @@
     "coordinates": [
       7.467478,
       46.997032
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13995142302",
+  "properties": {
+    "addr:housenumber": "53",
+    "addr:street": "Felsenaustrasse",
+    "emergency": "defibrillator",
+    "id": "node/13995142302"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4393943,
+      46.9692578
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13995282701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "In der Velostation Schanzenbrücke, 30m hinten",
+    "description": "23:00 - 05:00 Uhr Code erhältlich via Pikett-Nummer 051 220 18 20",
+    "email": "velostation.sb@bern.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "05:00 - 23:00",
+    "operator": "Velostation Bern",
+    "phone": "+41 31 321 56 29",
+    "id": "node/13995282701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4369103,
+      46.9493175
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13995302801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "In der Velostation PostParc beim Empfang",
+    "description": "23:00 - 05:00 Uhr Code erhältlich via Pikett-Nummer 051 220 18 20",
+    "email": "velostation.pp@bern.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "05:00 - 23:00",
+    "operator": "Velostation Bern",
+    "phone": "+41 31 321 56 16",
+    "id": "node/13995302801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4375124,
+      46.9478556
     ]
   }
 }
