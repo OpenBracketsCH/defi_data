@@ -2689,6 +2689,26 @@
 },
 {
   "type": "Feature",
+  "id": "node/5273189897",
+  "properties": {
+    "defibrillator:location": "Aussen an Gebäudewand befestigt",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "support": "wall",
+    "id": "node/5273189897"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4393951,
+      46.9692623
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/5276056433",
   "properties": {
     "access": "yes",
@@ -152085,29 +152105,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/13665688499",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Aussen an Gebäudewand befestigt",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "location": "outdoor",
-    "opening_hours": "24/7",
-    "support": "wall",
-    "id": "node/13665688499"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.439402,
-      46.9692649
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/13666620401",
   "properties": {
     "access": "yes",
@@ -159360,6 +159357,31 @@
     "coordinates": [
       8.5153682,
       47.3297634
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13995347601",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Haupteingang, neben Lift",
+    "description": "Mehrfamilienhaus. Klingeln für Zugang",
+    "email": "alessandro@rizzolini.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Alessandro Rizzolini",
+    "phone": "+41 79 698 67 20",
+    "id": "node/13995347601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5790145,
+      47.1355054
     ]
   }
 }
