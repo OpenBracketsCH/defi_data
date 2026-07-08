@@ -2358,6 +2358,7 @@
   "type": "Feature",
   "id": "node/6143276084",
   "properties": {
+    "defibrillator:location": "Links der Eingangstür",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "level": "0",
@@ -64928,6 +64929,24 @@
     "coordinates": [
       7.0058176,
       47.1557296
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13998194801",
+  "properties": {
+    "defibrillator:location": "Bubenplatz Bern",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/13998194801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5219773,
+      46.8329763
     ]
   }
 }
