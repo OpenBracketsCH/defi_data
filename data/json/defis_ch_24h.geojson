@@ -28322,7 +28322,7 @@
     "access": "yes",
     "check_date": "2023-06-25",
     "defibrillator:location": "An der Aussenwand bei der Rampe",
-    "description": "Eingang Aussenfassade (aktuell nicht verfügbar)",
+    "description": "Eingang Aussenfassade",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -159406,6 +159406,30 @@
     "coordinates": [
       7.0058176,
       47.1557296
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13997120701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "contre le mur",
+    "description": "à gauche de l'entrée de l'épicentre",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "CardioRea Sàrl",
+    "phone": "+41786522363",
+    "id": "node/13997120701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9123091,
+      46.6872975
     ]
   }
 }
