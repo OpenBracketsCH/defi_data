@@ -2936,6 +2936,7 @@
   "id": "node/6976938400",
   "properties": {
     "access": "yes",
+    "check_date": "2026-07-09",
     "defibrillator:location": "Parkplatz Friedhof",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -54181,8 +54182,12 @@
   "type": "Feature",
   "id": "node/10763310022",
   "properties": {
-    "access": "private",
-    "defibrillator:location": "EG, vor Aufenthalt (RU 100.3)",
+    "access": "yes",
+    "addr:city": "Wädenswil",
+    "addr:housenumber": "29",
+    "addr:postcode": "8820",
+    "addr:street": "Einsiedlerstrasse",
+    "defibrillator:location": "1.OG Gebäude . RS O1.61 Eingang Korridor",
     "description": "oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -54192,13 +54197,14 @@
     "opening_hours": "Mo-Fr 07:00-17:15",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
+    "ref": "1678LTM",
     "id": "node/10763310022"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6863662,
-      47.2201264
+      8.6869244,
+      47.2197189
     ]
   }
 },
