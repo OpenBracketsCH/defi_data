@@ -615,14 +615,14 @@
   "type": "Feature",
   "id": "node/5077324002",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "defibrillator:location": "Turnhalle",
-    "description": "nur während Schulbetrieb verfügbar",
+    "description": "an der Aussenwand beim Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "level": "0",
-    "opening_hours": "Mo-Fr 07:30-17:00",
+    "opening_hours": "24/7",
     "operator": "Berufsschule",
     "phone": "+41 55 251 51 11",
     "id": "node/5077324002"
@@ -79824,6 +79824,31 @@
     "coordinates": [
       8.6958245,
       47.2530607
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13999471001",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Empfang Glattwerk AG",
+    "description": "ZU Bürozeiten Erreichbar",
+    "email": "m.lischetti@glattwerk.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "08:00-12:00, 13:30-17:00",
+    "operator": "Glattwerk AG",
+    "phone": "+41 44 801 68 11",
+    "id": "node/13999471001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6357545,
+      47.3945196
     ]
   }
 }
