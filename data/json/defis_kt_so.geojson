@@ -1078,7 +1078,7 @@
   "type": "Feature",
   "id": "node/8686646117",
   "properties": {
-    "access": "no",
+    "access": "permissive",
     "defibrillator:location": "Migros Öufi",
     "description": "während den Öffnungszeiten",
     "emergency": "defibrillator",
@@ -1090,8 +1090,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5261007,
-      47.211143
+      7.5261001,
+      47.2111428
     ]
   }
 },
@@ -3171,7 +3171,7 @@
   "type": "Feature",
   "id": "node/9917843288",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Verkaufsfläche LIDL",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
@@ -9306,7 +9306,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo - Fr 08:00 - 15:00 Ausnahme: Mittwoch 08:00 - 12:00",
+    "opening_hours": "Mo-Fr 08:00-15:00; We 08:00-12:00",
     "operator": "Kanton",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/12852674401"
