@@ -13993,29 +13993,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637819057",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "SBS Training & Rettung GmbH",
-    "description": "Direkt unter der Hausnummer oder seitlich des Schulungs RTW",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "SBS Training & Rettung GmbH",
-    "opening_hours": "24/7",
-    "operator": "Stefan Schneider",
-    "operator:phone": "+4179 680 38 21",
-    "id": "node/7637819057"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.3198235,
-      47.1089225
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637819058",
   "properties": {
     "description": "Eingang Halle",
@@ -20448,7 +20425,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Bezirksgericht Willisau, Felber Bruno",
+    "operator": "Bezirksgericht Willisau",
     "phone": "+41 41 228 34 34",
     "id": "node/9625587989"
   },
@@ -30367,7 +30344,8 @@
   "properties": {
     "access": "permissive",
     "defibrillator:location": "Haupteingang auf der Rückseite des Gebäudes",
-    "description": "Während Öffnungszeiten",
+    "description": "Defibrilator derzeit nicht zugänglich",
+    "email": "christoph@buchertravel.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -32814,6 +32792,30 @@
     "coordinates": [
       8.647372,
       46.821824
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14014937938",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Über den Briefkästen an der Hausfassade",
+    "email": "leitung@rettungsschulen.ch",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stefan Schneider",
+    "phone": "+41 79 680 38 21",
+    "wikimedia_commons": "File:AED_H%C3%BCbeli1_6246_Altishofen.jpg",
+    "id": "node/14014937938"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9600963,
+      47.203837
     ]
   }
 }
