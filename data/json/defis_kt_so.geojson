@@ -860,7 +860,7 @@
   "type": "Feature",
   "id": "node/8582376625",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Berufsbildungszentrum Grenchen",
     "description": "Im Gang gegenüber der Kantine, Erdgeschoss, Südseite",
     "emergency": "defibrillator",
@@ -874,7 +874,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4014639,
+      7.4014632,
       47.1847707
     ]
   }
@@ -5630,7 +5630,7 @@
   "type": "Feature",
   "id": "node/11037266753",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Im EG, Eingangsbereich unter Stempeluhr",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -5645,7 +5645,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.40618,
+      7.4061799,
       47.1882
     ]
   }
@@ -8508,6 +8508,7 @@
     "level": "0",
     "opening_hours": "24/7",
     "operator": "Betreiber: Stadt Grenchen - Besitzer: Adval Tech (Grenchen) AG",
+    "phone": "+41 32 653 63 39",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/12399577101"
   },
@@ -8728,30 +8729,6 @@
     "coordinates": [
       7.4318426,
       47.1203111
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12509573501",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Adval Tech (Grenchen) AG",
-    "description": "An Aussenfassade Gebäude 40",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Adval Tec (Grenchen) AG",
-    "phone": "+4132 653 63 39",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/12509573501"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4040288,
-      47.1877402
     ]
   }
 },
