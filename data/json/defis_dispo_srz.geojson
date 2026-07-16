@@ -84222,14 +84222,14 @@
   "type": "Feature",
   "id": "node/12522567801",
   "properties": {
-    "access": "private",
-    "defibrillator:location": "in der Sammelstelle",
-    "description": "während Öffnungszeiten verfügbar",
+    "access": "yes",
+    "defibrillator:location": "Beim Eingang Sammelstelle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 07:00-17:00",
-    "operator": "Firma",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Firma Schneider Umweltservice",
     "phone": "+41449241212",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/12522567801"
@@ -84237,8 +84237,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5616326,
-      47.2124192
+      8.5615414,
+      47.2125886
     ]
   }
 },
