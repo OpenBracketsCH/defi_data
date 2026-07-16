@@ -88276,6 +88276,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/10567819409",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Phoenix Mecano Solutions AG",
+    "description": "im unverschlossenen Vorraum; 24/7 erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Phoenix Mecano Solutions AG",
+    "phone": "+41 52 742 75 00",
+    "id": "node/10567819409"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8564277,
+      47.6521953
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10569766909",
   "properties": {
     "access": "yes",
@@ -109488,6 +109512,32 @@
     "coordinates": [
       7.5131407,
       47.2041064
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11432622469",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Konzertsaal Zentrale Parkuhr",
+    "description": "An Kandelaber Strassenbeleuchtung montiert",
+    "email": "feuerwehr@solothurn.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadt Solothurn",
+    "phone": "+41 32 626 92 70",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11432622469"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5367711,
+      47.2096349
     ]
   }
 },

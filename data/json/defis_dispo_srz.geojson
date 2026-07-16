@@ -48230,13 +48230,16 @@
   "type": "Feature",
   "id": "node/10567819409",
   "properties": {
-    "defibrillator:location": "Phoenix Mecano Komponenten AG",
-    "description": "wahrend Geschäftszeiten zugänglich",
+    "access": "yes",
+    "defibrillator:location": "Phoenix Mecano Solutions AG",
+    "description": "im unverschlossenen Vorraum; 24/7 erreichbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 08:00-17:00",
+    "opening_hours": "24/7",
+    "operator": "Phoenix Mecano Solutions AG",
+    "phone": "+41 52 742 75 00",
     "id": "node/10567819409"
   },
   "geometry": {
