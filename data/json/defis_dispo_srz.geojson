@@ -85538,6 +85538,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "operator": "Sekundarschule Embrach",
     "phone": "+4179 845 29 82",
     "source": "local_knowledge, defikarte.ch",
@@ -85767,7 +85768,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Sekundarschule Embrach",
-    "description": "Während Öffnungszeiten verfügbar",
+    "description": "Während Öffnungszeiten verfügbar, nicht während den Schulferien.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -85781,7 +85782,7 @@
     "type": "Point",
     "coordinates": [
       8.597703,
-      47.5059166
+      47.5059167
     ]
   }
 },
@@ -102690,6 +102691,59 @@
     "coordinates": [
       8.55142,
       47.358025
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14022111801",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Dietikon",
+    "addr:postcode": "8953",
+    "addr:street": "im Dörfli",
+    "defibrillator:location": "Stadt Dietikon ZH Dörfliplatz links von Sandkasten",
+    "description": "Grüner kasten Geber Koffer",
+    "email": "stefan.haldemann@dietikon.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "0181LTS",
+    "id": "node/14022111801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4056405,
+      47.4000226
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14022270701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaushungerbühl Trakt D, Eingang Turnhalle",
+    "description": "Während Öffnungszeiten verfügbar, nicht während den Schulferien.",
+    "email": "hauswart@sek-embra.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "7:00 - 17:00",
+    "operator": "Sekundarschulhaus Hungerbühl",
+    "phone": "+41 79 845 29 82",
+    "id": "node/14022270701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.597011,
+      47.5053168
     ]
   }
 }
