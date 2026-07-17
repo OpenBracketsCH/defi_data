@@ -28680,9 +28680,11 @@
     "addr:city": "Burgdorf",
     "addr:postcode": "3400",
     "addr:street": "Guisanstrasse 28",
+    "check_date": "2026-07-17",
     "defibrillator:location": "Unterstand gelbe Halbkugel",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Schulhaus Neumatt",
     "phone": "+41 34 4294246",
@@ -47038,8 +47040,8 @@
   "type": "Feature",
   "id": "node/10924909305",
   "properties": {
-    "defibrillator:location": "Jumbo Maximo Allmendingen rechts neben Eingang",
-    "description": "während den Öffnungszeiten",
+    "access": "yes",
+    "defibrillator:location": "beim Haupteingang rechts im Eingangsbereich vom Jumbo an der Aussenwand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -47051,8 +47053,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5140513,
-      46.9189943
+      7.5143551,
+      46.919336
     ]
   }
 },
