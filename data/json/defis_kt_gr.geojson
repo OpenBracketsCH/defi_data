@@ -14459,15 +14459,15 @@
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Surses",
-    "phone": "+41816591171",
+    "phone": "+41 81 659 11 67",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/12500904801"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.598532,
-      46.5920461
+      9.5985317,
+      46.5920459
     ]
   }
 },
@@ -14920,13 +14920,15 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "operator": "Gemeinde Surses",
+    "phone": "+41 81 659 11 67",
     "id": "node/12630548304"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
       9.5914346,
-      46.5989901
+      46.5989906
     ]
   }
 },
@@ -17360,6 +17362,27 @@
     "coordinates": [
       9.5936947,
       46.5955907
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14028197601",
+  "properties": {
+    "defibrillator:location": "Gravas 6",
+    "email": "office@uffer.swiss",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Resurses SA",
+    "phone": "+41 79 208 00 00",
+    "id": "node/14028197601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.6170114,
+      46.5800289
     ]
   }
 }
