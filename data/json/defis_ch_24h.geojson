@@ -30452,9 +30452,16 @@
   "id": "node/7673301831",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Feuerwehrmagazin Wolfisberg, zwischen beiden Toren",
+    "email": "berger-bruno@gmx.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
+    "operator": "Berger Bruno",
+    "phone": "+41 78 636 02 10",
+    "wikimedia_commons": "File:Defi_FW_Wolfisberg.png",
     "id": "node/7673301831"
   },
   "geometry": {
@@ -59478,11 +59485,12 @@
   "type": "Feature",
   "id": "node/9097131507",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Am Gemeindehaus",
+    "description": "07:00-16:30",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "yes",
     "opening_hours": "24/7",
     "operator": "Gemeinde Lupsingen",
     "phone": "+41 61 915 90 50",
@@ -159773,6 +159781,27 @@
     "coordinates": [
       8.4056405,
       47.4000226
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14028519601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindezentrum Sommeri, Hauptstrasse 33, Sommeri",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Sommeri",
+    "id": "node/14028519601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2881188,
+      47.5680685
     ]
   }
 }
