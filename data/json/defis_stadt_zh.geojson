@@ -11381,8 +11381,10 @@
   "type": "Feature",
   "id": "node/11394056869",
   "properties": {
-    "defibrillator:location": "Elias-Canetti-Strasse 7",
+    "access": "private",
+    "defibrillator:location": "Hofackerstrasse 13a",
     "description": "Available during opening time",
+    "email": "fabian.theiler@railpool.eu",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -11395,8 +11397,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5406447,
-      47.4114942
+      8.5626874,
+      47.3620802
     ]
   }
 },
@@ -19161,6 +19163,56 @@
     "coordinates": [
       8.55142,
       47.358025
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14038920001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Mutschellenstrasse 60, 8038 Zürich",
+    "description": "Im Zwischengang",
+    "email": "info@bgz2.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "\"jederzeit\"",
+    "operator": "Baugenossenschaft Zürich 2",
+    "phone": "+41 44 931 30 10",
+    "id": "node/14038920001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.527317,
+      47.3507868
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14038924901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "beim Eingang",
+    "description": "links vom Hauseingang",
+    "email": "info@bgz2.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "\"jederzeit\"",
+    "operator": "Baugenossenschaft Zürich 2",
+    "phone": "+41 44 931 30 10",
+    "id": "node/14038924901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.529542,
+      47.3463642
     ]
   }
 }
