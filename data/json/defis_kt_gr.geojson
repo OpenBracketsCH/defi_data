@@ -14146,7 +14146,8 @@
   "properties": {
     "access": "private",
     "defibrillator:location": "Talstation Skilift Al Cant (SOS Station)",
-    "description": "Via Pistenrettungsdienst während den Betriebszeiten abrufbar Zwischen 21.12.2024 - 21.04.2025",
+    "description": "Via Pistenrettungsdienst während der Skisaison zu den Betriebszeiten abrufbar.",
+    "email": "info@schneesportbivio.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -17363,6 +17364,31 @@
     "coordinates": [
       9.6170114,
       46.5800289
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14041367801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Zugang zu den Toiletten bei der Talstation Bivio",
+    "description": "Von 1.5.-10.12. verfügbar und aufgehängt",
+    "email": "info@schneesportbivio.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Bivio SPortanlagen AG",
+    "phone": "+41 81 684 54 00",
+    "id": "node/14041367801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.649396,
+      46.4679666
     ]
   }
 }
