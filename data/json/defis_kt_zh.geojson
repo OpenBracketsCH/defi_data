@@ -14698,6 +14698,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/8573760301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An der Wand neben dem Eingang zur Singhalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Küsnacht",
+    "id": "node/8573760301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6028347,
+      47.3260652
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8573760302",
   "properties": {
     "access": "yes",
@@ -80156,24 +80177,6 @@
     "coordinates": [
       8.6243372,
       47.4117228
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/14051864315",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Eingang Seite Sportplatz Schulhaus Itschnach",
-    "emergency": "defibrillator",
-    "indoor": "no",
-    "id": "node/14051864315"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.602753,
-      47.3260536
     ]
   }
 },
