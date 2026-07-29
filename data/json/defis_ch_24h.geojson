@@ -81974,28 +81974,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10126361617",
-  "properties": {
-    "defibrillator:location": "Phönix Wohnheim Flora - Eingang Gutenbergstrasse",
-    "description": "von 07:00 Uhr bis 22:00 Uhr verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Stiftung Phönix Schwyz",
-    "phone": "+41554184477",
-    "id": "node/10126361617"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.7490456,
-      47.1297562
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10128274243",
   "properties": {
     "access": "yes",
@@ -160094,6 +160072,54 @@
     "coordinates": [
       8.2696004,
       47.0828105
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14056332601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "im offenen Velounterstand",
+    "description": "während den Öffnungszeiten",
+    "email": "esther.siegrist@haerdi-ag.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Herbert Härdi AG",
+    "phone": "+41 56 443 29 40",
+    "id": "node/14056332601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1096134,
+      47.4404493
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14057943501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Milchseilbahn bei Bushaltestelle",
+    "email": "dario.gauch@flims.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Flims (Dario Gauch)",
+    "phone": "+41 76 422 63 76",
+    "id": "node/14057943501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3116423,
+      46.8417055
     ]
   }
 }
