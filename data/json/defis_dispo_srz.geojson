@@ -22870,10 +22870,12 @@
   "id": "node/8573760300",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Eingang Turnhalle",
+    "defibrillator:location": "Eingang Turnhalle Schulhaus Limberg",
+    "description": "Immer Verfügbar zu jeder Zeit",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Küsnacht",
     "id": "node/8573760300"
@@ -22881,8 +22883,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6353245,
-      47.3205088
+      8.635325,
+      47.3205087
     ]
   }
 },
@@ -103104,6 +103106,31 @@
     "coordinates": [
       8.7563765,
       47.3841738
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14063733404",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Fussballplatz Fallacher, neben der Garderobe 3 + 4",
+    "description": "Immer Verfügbar zu jeder Zeit",
+    "email": "kek@kuesnacht.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Küsnacht",
+    "phone": "+41 44 910 58 71",
+    "id": "node/14063733404"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6064133,
+      47.3289744
     ]
   }
 }
