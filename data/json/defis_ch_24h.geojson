@@ -72352,27 +72352,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9582788317",
-  "properties": {
-    "defibrillator:location": "Bahnhofstrasse 44",
-    "description": "während Öffnungszeiten",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Montag-Freitag 10:00-19:00 Samstag 10:00-18:00",
-    "id": "node/9582788317"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5347014,
-      47.3660722
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9587163942",
   "properties": {
     "access": "yes",
@@ -112136,7 +112115,8 @@
   "type": "Feature",
   "id": "node/11563663369",
   "properties": {
-    "defibrillator:location": "Eingang Hauptgebäudd",
+    "access": "yes",
+    "defibrillator:location": "Eingang Hauptgebäude",
     "description": "Am Eingang läuten.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -112150,8 +112130,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.0463524,
-      46.7508691
+      9.0463534,
+      46.75087
     ]
   }
 },
@@ -141805,7 +141785,7 @@
   "id": "node/13022388720",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Beim Oberstufenschuhlhaus an der Wand unterhalb der Wanduhr in der Eingangsnische Strassenseitig (nicht Parkplatz) der Via Grava.",
+    "defibrillator:location": "Beim Oberstufenschulhaus an der Wand unterhalb der Wanduhr in der Eingangsnische Strassenseitig (nicht Parkplatz) der Via Grava.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -141818,8 +141798,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.2570975,
-      46.810261
+      9.2570972,
+      46.8102612
     ]
   }
 },
