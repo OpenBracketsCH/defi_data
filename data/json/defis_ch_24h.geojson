@@ -46497,10 +46497,12 @@
   "id": "node/8573760300",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Eingang Turnhalle",
+    "defibrillator:location": "Eingang Turnhalle Schulhaus Limberg",
+    "description": "Immer Verfügbar zu jeder Zeit",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Küsnacht",
     "id": "node/8573760300"
@@ -46508,8 +46510,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6353245,
-      47.3205088
+      8.635325,
+      47.3205087
     ]
   }
 },
@@ -106025,7 +106027,7 @@
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
-    "operator": "Einwohnergemeinde Balsthal ",
+    "operator": "Einwohnergemeinde Balsthal",
     "phone": "+41 62 386 76 76",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/11272626869"
@@ -113741,7 +113743,7 @@
   "id": "node/11685933883",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Aussen, beim Eingang",
+    "defibrillator:location": "Aussen, beim Eingang unter dem Dach",
     "description": "Immer verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -113754,8 +113756,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5548298,
-      46.7296802
+      9.5547599,
+      46.7297503
     ]
   }
 },
@@ -146031,12 +146033,11 @@
   "id": "node/13266760501",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Überquerung Welle 7",
-    "description": "Der Defibrillator ist an der Säule montiert.",
+    "defibrillator:location": "Auf der Welle, auf der Seite des Lifts auf die Perrons 3/4",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "0",
+    "level": "1",
     "opening_hours": "24/7",
     "operator": "SBB",
     "id": "node/13266760501"
@@ -146044,8 +146045,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4365932,
-      46.9484061
+      7.4366743,
+      46.9482683
     ]
   }
 },
@@ -160274,6 +160275,31 @@
     "coordinates": [
       8.7563765,
       47.3841738
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14063733404",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Fussballplatz Fallacher, neben der Garderobe 3 + 4",
+    "description": "Immer Verfügbar zu jeder Zeit",
+    "email": "kek@kuesnacht.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Küsnacht",
+    "phone": "+41 44 910 58 71",
+    "id": "node/14063733404"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6064133,
+      47.3289744
     ]
   }
 }
