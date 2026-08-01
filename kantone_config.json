@@ -1,0 +1,114 @@
+{
+  "kantone": [
+    {
+      "id": "zh",
+      "name": "Zürich",
+      "geojson_file": "defis_kt_zh.geojson",
+      "mail_recipient_secret": "MAIL_RECIPIENT_ZH",
+      "use_cc": false,
+      "reporting_mode": "immediate",
+      "show_partner_logo": false
+    },
+    {
+      "id": "bl",
+      "name": "Basel",
+      "geojson_file": "defis_dispo_basel.geojson",
+      "mail_recipient_secret": "MAIL_RECIPIENT_BL",
+      "use_cc": true,
+      "reporting_mode": "immediate",
+      "show_partner_logo": true
+    },
+    {
+      "id": "zg_city",
+      "name": "Stadt Zug",
+      "geojson_file": "defis_stadt_zug.geojson",
+      "mail_recipient_secret": "MAIL_RECIPIENT_ZG",
+      "use_cc": true,
+      "reporting_mode": "immediate",
+      "show_partner_logo": false
+    },
+    {
+      "id": "luks",
+      "name": "KNZ LU",
+      "geojson_file": "defis_dispo_luks.geojson",
+      "mail_recipient_secret": "MAIL_RECIPIENT_LUKS",
+      "use_cc": true,
+      "reporting_mode": "immediate",
+      "show_partner_logo": true
+    },
+    {
+      "id": "so",
+      "name": "Solothurn",
+      "geojson_file": "defis_kt_so.geojson",
+      "mail_recipient_secret": "MAIL_RECIPIENT_SO",
+      "use_cc": true,
+      "reporting_mode": "immediate",
+      "show_partner_logo": true
+    },
+    {
+      "id": "be",
+      "name": "Bern",
+      "geojson_file": "defis_kt_be.geojson",
+      "mail_recipient_secret": "MAIL_RECIPIENT_BE",
+      "use_cc": true,
+      "reporting_mode": "immediate_new_deleted_weekly_changed",
+      "show_partner_logo": true
+    },
+    {
+      "id": "gr",
+      "name": "Graubünden",
+      "geojson_file": "defis_kt_gr.geojson",
+      "mail_recipient_secret": "MAIL_RECIPIENT_GR",
+      "use_cc": true,
+      "reporting_mode": "immediate",
+      "show_partner_logo": true
+    },
+    {
+      "id": "gl",
+      "name": "Glarus",
+      "geojson_file": "defis_kt_gl.geojson",
+      "mail_recipient_secret": "MAIL_RECIPIENT_GL",
+      "use_cc": true,
+      "reporting_mode": "immediate",
+      "show_partner_logo": true
+    },
+    {
+      "id": "ai",
+      "name": "Appenzell Innerrhoden",
+      "geojson_file": "defis_kt_ai.geojson",
+      "mail_recipient_secret": "MAIL_RECIPIENT_AI",
+      "use_cc": true,
+      "reporting_mode": "immediate",
+      "show_partner_logo": true
+    },
+    {
+      "id": "ti",
+      "name": "Tessin",
+      "geojson_file": "defis_kt_ti.geojson",
+      "mail_recipient_secret": "MAIL_RECIPIENT_TI",
+      "use_cc": true,
+      "reporting_mode": "immediate",
+      "show_partner_logo": true
+    },
+    {
+      "id": "vs",
+      "name": "Wallis",
+      "geojson_file": "defis_kt_vs.geojson",
+      "mail_recipient_secret": "MAIL_RECIPIENT_VS",
+      "use_cc": true,
+      "reporting_mode": "immediate",
+      "show_partner_logo": true
+    },
+    {
+      "id": "ju",
+      "name": "Jura",
+      "geojson_file": "defis_kt_ju.geojson",
+      "mail_recipient_secret": "MAIL_RECIPIENT_JU",
+      "use_cc": true,
+      "reporting_mode": "immediate",
+      "show_partner_logo": true
+    }
+  ],
+  "partner_logo_url": "PLACEHOLDER_PARTNER_LOGO_URL",
+  "defikarte_logo_url": "https://defikarte.ch/defikarte-logo-quer-gruen-positiv-rgb.png"
+}

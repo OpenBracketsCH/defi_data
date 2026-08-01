@@ -9,6 +9,13 @@ old_file = sys.argv[1]
 new_file = sys.argv[2]
 pending_file = sys.argv[3] if len(sys.argv) > 3 else ".reporting/pending_changes_be.json"
 
+SHOW_PARTNER_LOGO = os.environ.get("SHOW_PARTNER_LOGO", "false").lower() == "true"
+PARTNER_LOGO_URL = os.environ.get("PARTNER_LOGO_URL", "")
+DEFIKARTE_LOGO_URL = os.environ.get(
+    "DEFIKARTE_LOGO_URL",
+    "https://defikarte.ch/defikarte-logo-quer-gruen-positiv-rgb.png"
+)
+
 RELEVANT_FIELDS = [
     "name",
     "status",
@@ -117,7 +124,25 @@ def build_row(category, feature, changes=None):
     </tr>
     """
 
+def build_logo_header():
+    if SHOW_PARTNER_LOGO and PARTNER_LOGO_URL:
+        return f"""
+        <table width="100%" style="border-collapse: collapse; margin-bottom: 16px;">
+          <tr>
+            <td align="left" valign="middle">
+              <img src="{DEFIKARTE_LOGO_URL}" alt="defikarte.ch" style="width:200px; display:block;"/>
+            </td>
+            <td align="right" valign="middle">
+              <img src="{PARTNER_LOGO_URL}" alt="Partner" style="max-height:60px; display:block;"/>
+            </td>
+          </tr>
+        </table>
+        """
+    return f'<img src="{DEFIKARTE_LOGO_URL}" alt="defikarte.ch" style="width:200px;"/>'
+
+
 def build_html(rows, summary):
+    logo_header = build_logo_header()
     return f"""
 <html>
 <head>
@@ -134,7 +159,7 @@ small {{ color: #666; }}
 </style>
 </head>
 <body>
-<img src="https://github.com/OpenBracketsCH/defi_data/raw/main/img/logo.png" alt="defikarte.ch" style="width:200px;"/>
+{logo_header}
 <h2>Änderungen an Defibrillatoren – Kanton Bern</h2>
 <p><strong>Zusammenfassung:</strong> {summary.get('neu', 0)} neu, {summary.get('gelöscht', 0)} gelöscht</p>
 <table>
