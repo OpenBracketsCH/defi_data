@@ -15,15 +15,15 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: main
-          fetch-depth: 2
+          fetch-depth: 0
 
-      - name: Check if this HEAD was already processed
+      - name: Determine GeoJSON SHA and check if already processed
         run: |
           set -euo pipefail
           mkdir -p .reporting
 
-          HEAD_SHA="$(git rev-parse HEAD)"
-          echo "HEAD_SHA=$HEAD_SHA" >> $GITHUB_ENV
+          GEOJSON_SHA="$(git log -1 --format=%H -- data/json/defis_kt_be.geojson)"
+          echo "GEOJSON_SHA=$GEOJSON_SHA" >> $GITHUB_ENV
 
           FILE=".reporting/last_processed_sha_be.txt"
           if [ -f "$FILE" ]; then
@@ -32,7 +32,10 @@ jobs:
             LAST=""
           fi
 
-          if [ "$HEAD_SHA" = "$LAST" ]; then
+          echo "Letzter GeoJSON-SHA: $GEOJSON_SHA"
+          echo "Zuletzt verarbeiteter SHA: $LAST"
+
+          if [ "$GEOJSON_SHA" = "$LAST" ]; then
             echo "ALREADY_PROCESSED=true" >> $GITHUB_ENV
           else
             echo "ALREADY_PROCESSED=false" >> $GITHUB_ENV
@@ -41,7 +44,7 @@ jobs:
       - name: Stop early if already processed
         if: env.ALREADY_PROCESSED == 'true'
         run: |
-          echo "Already processed this commit; skipping mail."
+          echo "Already processed this GeoJSON commit; skipping mail."
           exit 0
 
       - name: Setup Python
@@ -49,14 +52,10 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Check if GeoJSON changed in latest commit
+      - name: Check if GeoJSON changed in that commit
         run: |
           set -euo pipefail
-          if ! git rev-parse HEAD^ >/dev/null 2>&1; then
-            echo "CHANGED=false" >> $GITHUB_ENV
-            exit 0
-          fi
-          if git diff --quiet HEAD^..HEAD -- data/json/defis_kt_be.geojson; then
+          if git diff --quiet ${GEOJSON_SHA}^..${GEOJSON_SHA} -- data/json/defis_kt_be.geojson; then
             echo "CHANGED=false" >> $GITHUB_ENV
           else
             echo "CHANGED=true" >> $GITHUB_ENV
@@ -64,10 +63,14 @@ jobs:
 
       - name: Create diff (sofort + pending)
         if: env.CHANGED == 'true'
+        env:
+          SHOW_PARTNER_LOGO: "true"
+          PARTNER_LOGO_URL: "PLACEHOLDER_PARTNER_LOGO_URL"
+          DEFIKARTE_LOGO_URL: "https://defikarte.ch/defikarte-logo-quer-gruen-positiv-rgb.png"
         run: |
           set -euo pipefail
           python scripts/geojson_diff_be.py \
-            <(git show HEAD^:data/json/defis_kt_be.geojson) \
+            <(git show ${GEOJSON_SHA}^:data/json/defis_kt_be.geojson) \
             data/json/defis_kt_be.geojson \
             .reporting/pending_changes_be.json
 
@@ -88,7 +91,7 @@ jobs:
           secure: false
           username: ${{ secrets.MAIL_USER }}
           password: ${{ secrets.MAIL_PASS }}
-          subject: "Neue/gelöschte Defis – Kanton Bern"
+          subject: "Neue/gelöschte Defis – Bern"
           html_body: file://diff_immediate.html
           to: ${{ secrets.MAIL_RECIPIENT_BE }}
           cc: ${{ secrets.MAIL_COPY }}
@@ -100,7 +103,7 @@ jobs:
           mkdir -p .reporting
 
           FILE=".reporting/last_processed_sha_be.txt"
-          echo "$HEAD_SHA" > "$FILE"
+          echo "$GEOJSON_SHA" > "$FILE"
 
           git config user.name "defikarte.ch Reporting Bot"
           git config user.email "chrigi@chnuessli.ch"
@@ -110,7 +113,7 @@ jobs:
             git add .reporting/pending_changes_be.json
           fi
 
-          # Temporäre Dateien entfernen damit der Push nicht blockiert wird
+          # diff_immediate.html entfernen damit der Push nicht blockiert wird
           rm -f diff_immediate.html
 
           git commit -m "update reporting state for _be" || exit 0
