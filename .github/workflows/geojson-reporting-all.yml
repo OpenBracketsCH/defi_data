@@ -1,0 +1,71 @@
+name: Reporting für alle Kantone
+on:
+  workflow_run:
+    workflows: ["Get data from Overpass"]
+    types: [completed]
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Nur simulieren, keine echten Mails senden"
+        type: boolean
+        default: false
+
+jobs:
+  process-and-mail:
+    if: >
+      (github.event_name == 'workflow_dispatch' ||
+      github.event.workflow_run.conclusion == 'success') &&
+      github.event.workflow_run.head_commit.author.name != 'defikarte.ch Reporting Bot'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout latest main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Alle Kantone verarbeiten und Mails gestaffelt versenden
+        env:
+          DRY_RUN: ${{ inputs.dry_run || 'false' }}
+          MAIL_USER: ${{ secrets.MAIL_USER }}
+          MAIL_PASS: ${{ secrets.MAIL_PASS }}
+          MAIL_COPY: ${{ secrets.MAIL_COPY }}
+          MAIL_RECIPIENT_ZH: ${{ secrets.MAIL_RECIPIENT_ZH }}
+          MAIL_RECIPIENT_BL: ${{ secrets.MAIL_RECIPIENT_BL }}
+          MAIL_RECIPIENT_ZG: ${{ secrets.MAIL_RECIPIENT_ZG }}
+          MAIL_RECIPIENT_LUKS: ${{ secrets.MAIL_RECIPIENT_LUKS }}
+          MAIL_RECIPIENT_SO: ${{ secrets.MAIL_RECIPIENT_SO }}
+          MAIL_RECIPIENT_BE: ${{ secrets.MAIL_RECIPIENT_BE }}
+          MAIL_RECIPIENT_GR: ${{ secrets.MAIL_RECIPIENT_GR }}
+          MAIL_RECIPIENT_GL: ${{ secrets.MAIL_RECIPIENT_GL }}
+          MAIL_RECIPIENT_AI: ${{ secrets.MAIL_RECIPIENT_AI }}
+          MAIL_RECIPIENT_TI: ${{ secrets.MAIL_RECIPIENT_TI }}
+          MAIL_RECIPIENT_VS: ${{ secrets.MAIL_RECIPIENT_VS }}
+          MAIL_RECIPIENT_JU: ${{ secrets.MAIL_RECIPIENT_JU }}
+        run: |
+          python3 scripts/process_all_kantone.py
+
+      - name: Reporting-State committen (nur falls sich etwas geändert hat)
+        if: env.STATE_CHANGED == 'true'
+        run: |
+          set -euo pipefail
+
+          git config user.name "defikarte.ch Reporting Bot"
+          git config user.email "chrigi@chnuessli.ch"
+
+          git add .reporting/
+
+          git commit -m "update reporting state (alle Kantone)" || exit 0
+
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && break
+            echo "Push failed, retry $i..."
+            sleep 2
+          done
