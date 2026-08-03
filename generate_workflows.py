@@ -63,15 +63,17 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: main
-          fetch-depth: 2
+          fetch-depth: 0
 
-      - name: Check if this HEAD was already processed
+      - name: Determine GeoJSON SHA and check if already processed
         run: |
           set -euo pipefail
           mkdir -p .reporting
 
-          HEAD_SHA="$(git rev-parse HEAD)"
-          echo "HEAD_SHA=$HEAD_SHA" >> $GITHUB_ENV
+          # SHA des letzten Commits der GENAU DIESE Datei geändert hat -
+          # unabhängig von Bot-Commits anderer Kantone dazwischen.
+          GEOJSON_SHA="$(git log -1 --format=%H -- data/json/{geojson})"
+          echo "GEOJSON_SHA=$GEOJSON_SHA" >> $GITHUB_ENV
 
           FILE=".reporting/last_processed_sha_{kid}.txt"
           if [ -f "$FILE" ]; then
@@ -80,7 +82,10 @@ jobs:
             LAST=""
           fi
 
-          if [ "$HEAD_SHA" = "$LAST" ]; then
+          echo "Letzter GeoJSON-SHA: $GEOJSON_SHA"
+          echo "Zuletzt verarbeiteter SHA: $LAST"
+
+          if [ "$GEOJSON_SHA" = "$LAST" ]; then
             echo "ALREADY_PROCESSED=true" >> $GITHUB_ENV
           else
             echo "ALREADY_PROCESSED=false" >> $GITHUB_ENV
@@ -89,7 +94,7 @@ jobs:
       - name: Stop early if already processed
         if: env.ALREADY_PROCESSED == 'true'
         run: |
-          echo "Already processed this commit; skipping mail."
+          echo "Already processed this GeoJSON commit; skipping mail."
           exit 0
 
       - name: Setup Python
@@ -97,14 +102,10 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Check if GeoJSON changed in latest commit
+      - name: Check if GeoJSON changed in that commit
         run: |
           set -euo pipefail
-          if ! git rev-parse HEAD^ >/dev/null 2>&1; then
-            echo "CHANGED=false" >> $GITHUB_ENV
-            exit 0
-          fi
-          if git diff --quiet HEAD^..HEAD -- data/json/{geojson}; then
+          if git diff --quiet ${{GEOJSON_SHA}}^..${{GEOJSON_SHA}} -- data/json/{geojson}; then
             echo "CHANGED=false" >> $GITHUB_ENV
           else
             echo "CHANGED=true" >> $GITHUB_ENV
@@ -115,7 +116,7 @@ jobs:
         run: |
           set -euo pipefail
           python scripts/geojson_diff.py \\
-            <(git show HEAD^:data/json/{geojson}) \\
+            <(git show ${{GEOJSON_SHA}}^:data/json/{geojson}) \\
             data/json/{geojson}
 
       - name: Check diff.html exists
@@ -146,7 +147,7 @@ jobs:
           mkdir -p .reporting
 
           FILE=".reporting/last_processed_sha_{kid}.txt"
-          echo "$HEAD_SHA" > "$FILE"
+          echo "$GEOJSON_SHA" > "$FILE"
 
           git config user.name "defikarte.ch Reporting Bot"
           git config user.email "chrigi@chnuessli.ch"
@@ -190,15 +191,15 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: main
-          fetch-depth: 2
+          fetch-depth: 0
 
-      - name: Check if this HEAD was already processed
+      - name: Determine GeoJSON SHA and check if already processed
         run: |
           set -euo pipefail
           mkdir -p .reporting
 
-          HEAD_SHA="$(git rev-parse HEAD)"
-          echo "HEAD_SHA=$HEAD_SHA" >> $GITHUB_ENV
+          GEOJSON_SHA="$(git log -1 --format=%H -- data/json/{geojson})"
+          echo "GEOJSON_SHA=$GEOJSON_SHA" >> $GITHUB_ENV
 
           FILE=".reporting/last_processed_sha_{kid}.txt"
           if [ -f "$FILE" ]; then
@@ -207,7 +208,10 @@ jobs:
             LAST=""
           fi
 
-          if [ "$HEAD_SHA" = "$LAST" ]; then
+          echo "Letzter GeoJSON-SHA: $GEOJSON_SHA"
+          echo "Zuletzt verarbeiteter SHA: $LAST"
+
+          if [ "$GEOJSON_SHA" = "$LAST" ]; then
             echo "ALREADY_PROCESSED=true" >> $GITHUB_ENV
           else
             echo "ALREADY_PROCESSED=false" >> $GITHUB_ENV
@@ -216,7 +220,7 @@ jobs:
       - name: Stop early if already processed
         if: env.ALREADY_PROCESSED == 'true'
         run: |
-          echo "Already processed this commit; skipping mail."
+          echo "Already processed this GeoJSON commit; skipping mail."
           exit 0
 
       - name: Setup Python
@@ -224,14 +228,10 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Check if GeoJSON changed in latest commit
+      - name: Check if GeoJSON changed in that commit
         run: |
           set -euo pipefail
-          if ! git rev-parse HEAD^ >/dev/null 2>&1; then
-            echo "CHANGED=false" >> $GITHUB_ENV
-            exit 0
-          fi
-          if git diff --quiet HEAD^..HEAD -- data/json/{geojson}; then
+          if git diff --quiet ${{GEOJSON_SHA}}^..${{GEOJSON_SHA}} -- data/json/{geojson}; then
             echo "CHANGED=false" >> $GITHUB_ENV
           else
             echo "CHANGED=true" >> $GITHUB_ENV
@@ -242,7 +242,7 @@ jobs:
         run: |
           set -euo pipefail
           python scripts/geojson_diff_be.py \\
-            <(git show HEAD^:data/json/{geojson}) \\
+            <(git show ${{GEOJSON_SHA}}^:data/json/{geojson}) \\
             data/json/{geojson} \\
             .reporting/pending_changes_{kid}.json
 
@@ -274,7 +274,7 @@ jobs:
           mkdir -p .reporting
 
           FILE=".reporting/last_processed_sha_{kid}.txt"
-          echo "$HEAD_SHA" > "$FILE"
+          echo "$GEOJSON_SHA" > "$FILE"
 
           git config user.name "defikarte.ch Reporting Bot"
           git config user.email "chrigi@chnuessli.ch"
