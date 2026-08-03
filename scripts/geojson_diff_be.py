@@ -13,7 +13,7 @@ SHOW_PARTNER_LOGO = os.environ.get("SHOW_PARTNER_LOGO", "false").lower() == "tru
 PARTNER_LOGO_URL = os.environ.get("PARTNER_LOGO_URL", "")
 DEFIKARTE_LOGO_URL = os.environ.get(
     "DEFIKARTE_LOGO_URL",
-    "https://defikarte.ch/defikarte-logo-quer-gruen-positiv-rgb.png"
+    "https://github.com/OpenBracketsCH/defi_data/raw/main/img/logo.png"
 )
 
 RELEVANT_FIELDS = [
