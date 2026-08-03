@@ -2,17 +2,11 @@ import json
 import sys
 import html
 import re
-import os
 
 old_file = sys.argv[1]
 new_file = sys.argv[2]
 
-SHOW_PARTNER_LOGO = os.environ.get("SHOW_PARTNER_LOGO", "false").lower() == "true"
-PARTNER_LOGO_URL = os.environ.get("PARTNER_LOGO_URL", "")
-DEFIKARTE_LOGO_URL = os.environ.get(
-    "DEFIKARTE_LOGO_URL",
-    "https://github.com/OpenBracketsCH/defi_data/raw/main/img/logo.png"
-)
+DEFIKARTE_LOGO_URL = "https://github.com/OpenBracketsCH/defi_data/raw/main/img/logo.png"
 
 RELEVANT_FIELDS = [
     "name", "status", "operator", "phone", "access", "opening_hours",
@@ -149,22 +143,6 @@ for k in common:
 if not rows:
     sys.exit(0)
 
-if SHOW_PARTNER_LOGO and PARTNER_LOGO_URL:
-    logo_header = f"""
-    <table width="100%" style="border-collapse: collapse; margin-bottom: 16px;">
-      <tr>
-        <td align="left" valign="middle">
-          <img src="{DEFIKARTE_LOGO_URL}" alt="defikarte.ch" style="width:200px; display:block;"/>
-        </td>
-        <td align="right" valign="middle">
-          <img src="{PARTNER_LOGO_URL}" alt="Partner" style="max-height:60px; display:block;"/>
-        </td>
-      </tr>
-    </table>
-    """
-else:
-    logo_header = f'<img src="{DEFIKARTE_LOGO_URL}" alt="defikarte.ch" style="width:200px;"/>'
-
 html_mail = f"""
 <html>
 <head>
@@ -181,7 +159,7 @@ small {{ color: #666; }}
 </style>
 </head>
 <body>
-{logo_header}
+<img src="{DEFIKARTE_LOGO_URL}" alt="defikarte.ch" style="width:200px;"/>
 <h2>Änderungen an Defibrillatoren im Einzugsgebiet.</h2>
 <p><strong>Zusammenfassung:</strong> {summary['neu']} neu, {summary['geändert']} geändert, {summary['gelöscht']} gelöscht</p>
 <table class="data">

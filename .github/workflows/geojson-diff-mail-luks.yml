@@ -65,10 +65,6 @@ jobs:
 
       - name: Create diff HTML
         if: env.CHANGED == 'true'
-        env:
-          SHOW_PARTNER_LOGO: "true"
-          PARTNER_LOGO_URL: "PLACEHOLDER_PARTNER_LOGO_URL"
-          DEFIKARTE_LOGO_URL: "https://defikarte.ch/defikarte-logo-quer-gruen-positiv-rgb.png"
         run: |
           set -euo pipefail
           python scripts/geojson_diff.py \

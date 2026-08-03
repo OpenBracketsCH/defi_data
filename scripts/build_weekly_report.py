@@ -8,16 +8,10 @@ Verwendung:
 
 import json
 import html
-import os
 import sys
 from datetime import datetime, timezone
 
-SHOW_PARTNER_LOGO = os.environ.get("SHOW_PARTNER_LOGO", "false").lower() == "true"
-PARTNER_LOGO_URL = os.environ.get("PARTNER_LOGO_URL", "")
-DEFIKARTE_LOGO_URL = os.environ.get(
-    "DEFIKARTE_LOGO_URL",
-    "https://github.com/OpenBracketsCH/defi_data/raw/main/img/logo.png"
-)
+DEFIKARTE_LOGO_URL = "https://github.com/OpenBracketsCH/defi_data/raw/main/img/logo.png"
 
 
 def maps_links(lon, lat, key=None):
@@ -29,23 +23,6 @@ def maps_links(lon, lat, key=None):
     if lon is not None and lat is not None:
         links.append(f'<a href="https://www.google.com/maps?q={lat},{lon}">Google Maps</a>')
     return " | ".join(links)
-
-
-def build_logo_header():
-    if SHOW_PARTNER_LOGO and PARTNER_LOGO_URL:
-        return f"""
-        <table width="100%" style="border-collapse: collapse; margin-bottom: 16px;">
-          <tr>
-            <td align="left" valign="middle">
-              <img src="{DEFIKARTE_LOGO_URL}" alt="defikarte.ch" style="width:200px; display:block;"/>
-            </td>
-            <td align="right" valign="middle">
-              <img src="{PARTNER_LOGO_URL}" alt="Partner" style="max-height:60px; display:block;"/>
-            </td>
-          </tr>
-        </table>
-        """
-    return f'<img src="{DEFIKARTE_LOGO_URL}" alt="defikarte.ch" style="width:200px;"/>'
 
 
 def main():
@@ -78,7 +55,6 @@ def main():
         """)
 
     today = datetime.now(timezone.utc).strftime("%d.%m.%Y")
-    logo_header = build_logo_header()
 
     output = f"""
     <html>
@@ -94,7 +70,7 @@ def main():
     </style>
     </head>
     <body>
-    {logo_header}
+    <img src="{DEFIKARTE_LOGO_URL}" alt="defikarte.ch" style="width:200px;"/>
     <h2>Wöchentlicher Änderungs-Report – {html.escape(kanton_name)}</h2>
     <p>Zusammenstellung aller geänderten Defibrillatoren der letzten Woche (Stand {html.escape(today)}).</p>
     <p><strong>{len(entries)} Einträge geändert</strong></p>

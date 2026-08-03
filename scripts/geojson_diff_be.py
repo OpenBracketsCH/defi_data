@@ -9,28 +9,12 @@ old_file = sys.argv[1]
 new_file = sys.argv[2]
 pending_file = sys.argv[3] if len(sys.argv) > 3 else ".reporting/pending_changes_be.json"
 
-SHOW_PARTNER_LOGO = os.environ.get("SHOW_PARTNER_LOGO", "false").lower() == "true"
-PARTNER_LOGO_URL = os.environ.get("PARTNER_LOGO_URL", "")
-DEFIKARTE_LOGO_URL = os.environ.get(
-    "DEFIKARTE_LOGO_URL",
-    "https://github.com/OpenBracketsCH/defi_data/raw/main/img/logo.png"
-)
+DEFIKARTE_LOGO_URL = "https://github.com/OpenBracketsCH/defi_data/raw/main/img/logo.png"
 
 RELEVANT_FIELDS = [
-    "name",
-    "status",
-    "operator",
-    "phone",
-    "access",
-    "opening_hours",
-    "defibrillator:location",
-    "description",
-    "level",
-    "addr:street",
-    "addr:housenumber",
-    "addr:postcode",
-    "addr:city",
-    "indoor",
+    "name", "status", "operator", "phone", "access", "opening_hours",
+    "defibrillator:location", "description", "level",
+    "addr:street", "addr:housenumber", "addr:postcode", "addr:city", "indoor",
 ]
 
 def load(path: str):
@@ -124,25 +108,7 @@ def build_row(category, feature, changes=None):
     </tr>
     """
 
-def build_logo_header():
-    if SHOW_PARTNER_LOGO and PARTNER_LOGO_URL:
-        return f"""
-        <table width="100%" style="border-collapse: collapse; margin-bottom: 16px;">
-          <tr>
-            <td align="left" valign="middle">
-              <img src="{DEFIKARTE_LOGO_URL}" alt="defikarte.ch" style="width:200px; display:block;"/>
-            </td>
-            <td align="right" valign="middle">
-              <img src="{PARTNER_LOGO_URL}" alt="Partner" style="max-height:60px; display:block;"/>
-            </td>
-          </tr>
-        </table>
-        """
-    return f'<img src="{DEFIKARTE_LOGO_URL}" alt="defikarte.ch" style="width:200px;"/>'
-
-
 def build_html(rows, summary):
-    logo_header = build_logo_header()
     return f"""
 <html>
 <head>
@@ -159,7 +125,7 @@ small {{ color: #666; }}
 </style>
 </head>
 <body>
-{logo_header}
+<img src="{DEFIKARTE_LOGO_URL}" alt="defikarte.ch" style="width:200px;"/>
 <h2>Änderungen an Defibrillatoren – Kanton Bern</h2>
 <p><strong>Zusammenfassung:</strong> {summary.get('neu', 0)} neu, {summary.get('gelöscht', 0)} gelöscht</p>
 <table>
@@ -176,7 +142,6 @@ small {{ color: #666; }}
 </html>
 """
 
-# ── Daten laden ────────────────────────────────────────────────────────────────
 old = load(old_file)
 new = load(new_file)
 
@@ -187,7 +152,6 @@ added   = sorted(set(new_idx) - set(old_idx))
 removed = sorted(set(old_idx) - set(new_idx))
 common  = sorted(set(new_idx) & set(old_idx))
 
-# ── Sofort-Rows (neu + gelöscht) ───────────────────────────────────────────────
 immediate_rows = []
 immediate_summary = {"neu": 0, "gelöscht": 0}
 
@@ -199,7 +163,6 @@ for k in removed:
     immediate_rows.append(build_row("gelöscht", old_idx[k]))
     immediate_summary["gelöscht"] += 1
 
-# ── Geändert-Einträge in pending-Datei sammeln ─────────────────────────────────
 changed_entries = []
 for k in common:
     op = props(old_idx[k])
@@ -220,7 +183,6 @@ for k in common:
             "detected_at": datetime.now(timezone.utc).isoformat(),
         })
 
-# Pending-Datei: bestehende laden und neue anhängen
 os.makedirs(os.path.dirname(pending_file), exist_ok=True)
 existing = []
 if os.path.exists(pending_file):
@@ -240,7 +202,6 @@ with open(pending_file, "w", encoding="utf-8") as f:
 print(f"Pending changes gespeichert: {len(changed_entries)} neu/aktualisiert, "
       f"{len(existing_by_key)} total in {pending_file}")
 
-# ── Sofort-Mail HTML schreiben ─────────────────────────────────────────────────
 if immediate_rows:
     with open("diff_immediate.html", "w", encoding="utf-8") as f:
         f.write(build_html(immediate_rows, immediate_summary))

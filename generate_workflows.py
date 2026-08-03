@@ -28,14 +28,8 @@ def load_config():
 
 
 def env_block(kanton, config):
-    """Erzeugt die env-Zeilen für das Partner-Logo, falls aktiv."""
-    if not kanton.get("show_partner_logo"):
-        return ""
-    return f"""
-        env:
-          SHOW_PARTNER_LOGO: "true"
-          PARTNER_LOGO_URL: "{config['partner_logo_url']}"
-          DEFIKARTE_LOGO_URL: "{config['defikarte_logo_url']}\""""
+    """Partner-Logo wurde entfernt - immer leer."""
+    return ""
 
 
 def build_immediate_workflow(kanton, config):

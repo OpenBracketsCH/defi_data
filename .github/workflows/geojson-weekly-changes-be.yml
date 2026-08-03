@@ -38,10 +38,6 @@ jobs:
 
       - name: Weekly-HTML generieren
         if: env.HAS_PENDING == 'true'
-        env:
-          SHOW_PARTNER_LOGO: "true"
-          PARTNER_LOGO_URL: "PLACEHOLDER_PARTNER_LOGO_URL"
-          DEFIKARTE_LOGO_URL: "https://defikarte.ch/defikarte-logo-quer-gruen-positiv-rgb.png"
         run: |
           python3 scripts/build_weekly_report.py \
             .reporting/pending_changes_be.json \
