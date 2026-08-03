@@ -50,11 +50,13 @@ jobs:
           exit 0
 
       - name: Setup Python
+        if: env.ALREADY_PROCESSED == 'false'
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
       - name: Check if GeoJSON changed in that commit
+        if: env.ALREADY_PROCESSED == 'false'
         run: |
           set -euo pipefail
           if git diff --quiet ${GEOJSON_SHA}^..${GEOJSON_SHA} -- data/json/defis_kt_ai.geojson; then
@@ -64,7 +66,7 @@ jobs:
           fi
 
       - name: Create diff HTML
-        if: env.CHANGED == 'true'
+        if: env.ALREADY_PROCESSED == 'false' && env.CHANGED == 'true'
         run: |
           set -euo pipefail
           python scripts/geojson_diff.py \
@@ -72,6 +74,7 @@ jobs:
             data/json/defis_kt_ai.geojson
 
       - name: Check diff.html exists
+        if: env.ALREADY_PROCESSED == 'false'
         run: |
           if [ -f diff.html ]; then
             echo "DIFF_EXISTS=true" >> $GITHUB_ENV
@@ -80,7 +83,7 @@ jobs:
           fi
 
       - name: Mail versenden
-        if: env.DIFF_EXISTS == 'true'
+        if: env.ALREADY_PROCESSED == 'false' && env.DIFF_EXISTS == 'true'
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: asmtp.mail.hostpoint.ch
@@ -95,6 +98,7 @@ jobs:
           from: defikarte.ch Reports
 
       - name: Update last processed SHA
+        if: env.ALREADY_PROCESSED == 'false'
         run: |
           set -euo pipefail
           mkdir -p .reporting
