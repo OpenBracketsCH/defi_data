@@ -67,7 +67,7 @@ jobs:
         env:
           SHOW_PARTNER_LOGO: "true"
           PARTNER_LOGO_URL: "PLACEHOLDER_PARTNER_LOGO_URL"
-          DEFIKARTE_LOGO_URL: "https://defikarte.ch/defikarte-logo-quer-gruen-positiv-rgb.png"
+          DEFIKARTE_LOGO_URL: "https://github.com/OpenBracketsCH/defi_data/raw/main/img/logo.png"
         run: |
           set -euo pipefail
           python scripts/geojson_diff.py \
