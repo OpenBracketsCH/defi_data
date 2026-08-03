@@ -17819,24 +17819,27 @@
   "type": "Feature",
   "id": "node/6654824962",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "addr:city": "Worb",
     "addr:housenumber": "3",
     "addr:postcode": "3076",
     "addr:street": "Lauigasse",
-    "defibrillator:location": "Gebäuderückseite Turnhalle gegen Hauptspielfeld (Rasen)",
+    "defibrillator:location": "z. Zt. in der Garderobe 5",
+    "email": "sicherheit@worb.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Oberstufenzentrum Worbboden",
-    "phone": "+41 79 340 95 46",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo - Fr 17:00 - 22:30",
+    "operator": "Gemeindeverwaltung Worb, Abteilung öffentliche Sicherheit",
+    "phone": "+41 31 838 07 80",
     "id": "node/6654824962"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5565988,
-      46.9306913
+      7.5556815,
+      46.9310687
     ]
   }
 },
