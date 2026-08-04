@@ -197,39 +197,110 @@ Um ein neues Query hinzuzufügen, müssen folgende Schritte befolgt werden:
 
 Um die Daten in CSV zu konvertieren wurde ein neuer Workflow eingerichtet.
 
-1. In der Datei `converter.py` die Input Datei (GeoJSON) und die Output Datei (CSV) in eine neue Zeile schreiben. 
+1. In der Datei `converter.py` die Input Datei (GeoJSON) und die Output Datei (CSV) in eine neue Zeile schreiben.
 2. Den Workflow `convert.yml`laufen lassen
 
 
- ## Reporting: Änderungen an Defi-Daten per E-Mail
+## Reporting: Änderungen an Defi-Daten per E-Mail
 
-Dieses Repository enthält einen automatisierten Reporting-Mechanismus, der Änderungen an den Defi-Daten überwacht und als HTML-Mail verschickt.
+Dieses Repository enthält einen automatisierten Reporting-Mechanismus, der Änderungen an den Defi-Daten pro Kanton/Region überwacht und als HTML-Mail verschickt.
+
+### Architektur
+
+```
+kantone_config.json          ← einzige Konfigurationsquelle (Kantone, Secrets, Modus)
+generate_workflows.py        ← generiert die Workflow-YMLs daraus
+scripts/
+  process_all_kantone.py     ← Kernlogik: läuft bei JEDEM Overpass-Run
+  geojson_diff.py            ← Diff-Rendering für "immediate"-Kantone
+  geojson_diff_be.py         ← Diff-Rendering für BE (sofort + pending)
+  build_weekly_report.py     ← Rendering für den wöchentlichen BE-Report
+.github/workflows/
+  geojson-reporting-all.yml       ← DER EINE Workflow für alle Kantone
+  geojson-weekly-changes-be.yml   ← separater Cron-Workflow, nur BE, 1×/Woche
+```
+
+**Wichtig:** Es gibt nur noch **einen** Workflow (`geojson-reporting-all.yml`),
+der bei jedem Overpass-Run alle Kantone sequenziell abarbeitet – nicht mehr
+einen separaten Workflow pro Kanton. Grund: bei vielen parallelen
+Einzel-Workflows kam es zu Spam-Verdacht beim Mailprovider (gleichzeitige
+SMTP-Verbindungen aus einer Quelle) sowie zu `git push`-Kollisionen, wenn
+mehrere Workflows gleichzeitig ihren Verarbeitungsstand committen wollten.
 
 ### Ablauf
 
 1. **Overpass-Update**
-   - Der Workflow **„Get data from Overpass“** aktualisiert die GeoJSON-Dateien (z.B. `defis_kt_be.geojson`, `defis_kt_zh.geojson`) anhand eines Overpass-Queries.
-   - Wenn sich der Inhalt einer Datei ändert, schreibt der Workflow einen neuen Commit auf den `main`-Branch.
+   Der Workflow **„Get data from Overpass"** aktualisiert die GeoJSON-Dateien
+   (z.B. `defis_kt_be.geojson`, `defis_kt_zh.geojson`) anhand eines
+   Overpass-Queries und committet Änderungen auf `main`.
 
-2. **Diff-Reporting**
-   - Für jeden Kanton gibt es einen eigenen Workflow, z.B.:
-     - `GeoJSON Diff Mail (BE)`
-     - `GeoJSON Diff Mail (ZH)`
-   - Diese Workflows werden automatisch gestartet, sobald **„Get data from Overpass“** erfolgreich abgeschlossen ist (`workflow_run`-Trigger).
+2. **Reporting-Orchestrator**
+   Sobald **„Get data from Overpass"** erfolgreich abgeschlossen ist
+   (`workflow_run`-Trigger), startet `geojson-reporting-all.yml`. Er checkt
+   einmal aus und ruft danach `scripts/process_all_kantone.py` auf.
 
-3. **Prüfung, ob ein Report nötig ist**
-   - Der Reporting-Workflow checkt den aktuellen Stand von `main` aus.
-   - Er merkt sich den zuletzt verarbeiteten Commit in einer Datei unter `.reporting/last_processed_sha_<KANTON>.txt`.
-   - Wenn der aktuelle Commit bereits verarbeitet wurde, wird der Workflow ohne Mail beendet (Anti-Spam).
-   - Falls der Commit neu ist, wird geprüft, ob die jeweilige GeoJSON-Datei im letzten Commit tatsächlich geändert wurde:
-     ```bash
-     git diff --quiet HEAD^..HEAD -- data/json/defis_kt_<KANTON>.geojson
-     ```
-   - Nur wenn sich die Datei geändert hat, wird ein Diff erzeugt und eine Mail versendet.
+3. **Verarbeitung pro Kanton (sequenziell, in einem Python-Prozess)**
+   Für jeden Eintrag in `kantone_config.json`:
+   - Ermittelt den SHA des letzten Commits, der **genau diese** GeoJSON-Datei
+     verändert hat (`git log -1 --format=%H -- <datei>`) – nicht `HEAD`, da
+     zwischen zwei Kantonen beliebig viele fremde Bot-Commits liegen können.
+   - Vergleicht ihn mit `.reporting/last_processed_sha_<id>.txt`. Stimmt er
+     überein: bereits verarbeitet, nichts tun (Anti-Spam).
+   - Andernfalls: Diff erzeugen, bei Änderungen eine Mail **direkt per SMTP**
+     versenden (kein GitHub-Action-Overhead), mit **8 Sekunden Pause**
+     zwischen tatsächlich verschickten Mails, um kein Spam-Muster auszulösen.
+   - Neuen SHA-Stand lokal speichern.
+
+4. **Ein gemeinsamer Commit am Ende**
+   Nach dem Durchlauf aller Kantone wird der geänderte `.reporting/`-Ordner in
+   **einem einzigen** Commit gepusht – nicht pro Kanton.
+
+### kantone_config.json
+
+```json
+{
+  "id": "so",
+  "name": "Solothurn",
+  "geojson_file": "defis_kt_so.geojson",
+  "mail_recipient_secret": "MAIL_RECIPIENT_SO",
+  "use_cc": true,
+  "reporting_mode": "immediate"
+}
+```
+
+| Feld | Bedeutung |
+|---|---|
+| `id` | Kurzform, wird für Dateinamen (`last_processed_sha_<id>.txt`) verwendet |
+| `name` | Klartext-Name für Mail-Betreff etc. |
+| `geojson_file` | Dateiname unter `data/json/` |
+| `mail_recipient_secret` | Name des GitHub Secrets mit der Empfänger-Adresse |
+| `use_cc` | ob `MAIL_COPY`-Secret als CC angehängt wird |
+| `reporting_mode` | `"immediate"` oder `"immediate_new_deleted_weekly_changed"` (aktuell nur BE) |
+
+#### Neuen Kanton hinzufügen
+
+1. Eintrag in `kantone_config.json` ergänzen
+2. Secret `MAIL_RECIPIENT_<ID>` in GitHub Settings → Secrets hinterlegen
+3. `python generate_workflows.py` ausführen (aktualisiert nur den
+   Secrets-Env-Block im Orchestrator-Workflow – die Verarbeitungslogik selbst
+   liest die Config direkt zur Laufzeit, braucht also keine Code-Änderung)
+4. Generierte `geojson-reporting-all.yml` committen
+
+### BE-Sonderfall: sofort + wöchentlich
+
+Bern hat `reporting_mode: "immediate_new_deleted_weekly_changed"`:
+
+- **Neu / gelöscht** → sofort, läuft im normalen Orchestrator-Durchlauf mit
+- **Geändert** → landet in `.reporting/pending_changes_be.json`, wird nicht
+  sofort verschickt
+- Jeden **Montag 07:00 UTC** läuft der separate `geojson-weekly-changes-be.yml`
+  (eigener Cron-Trigger), verschickt alle gesammelten Änderungen als eine
+  Sammel-Mail und leert die pending-Datei danach
 
 ### Inhalt der E-Mail
 
-Die E-Mail enthält eine HTML-Tabelle mit allen Änderungen an der jeweiligen GeoJSON-Datei seit dem letzten Commit:
+Die E-Mail enthält eine HTML-Tabelle mit allen Änderungen an der jeweiligen
+GeoJSON-Datei seit dem letzten verarbeiteten Commit:
 
 - **Status**:
   - `neu` – neue Defi-Standorte
@@ -245,8 +316,52 @@ Die E-Mail enthält eine HTML-Tabelle mit allen Änderungen an der jeweiligen Ge
   ```text
   status: 'unknown' → 'verified'
   addr:street: 'Alte Gasse' → 'Neue Gasse'
+  ```
+
+### Secrets (GitHub Settings → Secrets and variables → Actions)
+
+| Secret | Zweck |
+|---|---|
+| `MAIL_USER` | SMTP-Login (Hostpoint) |
+| `MAIL_PASS` | SMTP-Passwort |
+| `MAIL_COPY` | CC-Adresse für Kantone mit `use_cc: true` |
+| `MAIL_RECIPIENT_<ID>` | Ein Secret pro Kanton, Name muss exakt mit `mail_recipient_secret` in der Config übereinstimmen |
+
+### Manuelles Testen
+
+Der Orchestrator hat einen `workflow_dispatch`-Input `dry_run`:
+
+- Im Actions-Tab → „Reporting für alle Kantone" → „Run workflow"
+- `dry_run: true` setzen
+- Zeigt im Log für jeden Kanton entweder `bereits verarbeitet` oder
+  `[DRY RUN] Würde Mail senden: ...` – ohne tatsächlich etwas zu verschicken
+  oder den Reporting-State zu verändern
+
+### Bekannte Stolperfallen
+
+- **`HEAD^..HEAD` für Diffs verwenden** funktioniert bei mehreren Kantonen im
+  selben Repo nicht zuverlässig, da dazwischen beliebig viele fremde
+  Bot-Commits liegen können. Immer `git log -1 --format=%H -- <datei>` für den
+  jeweiligen GeoJSON-Pfad verwenden, dann `GEOJSON_SHA^..GEOJSON_SHA`.
+- **`exit 0` in einem GitHub-Actions-Step** beendet nur diesen Step, nicht den
+  gesamten Job. Ein „Stop early if already processed"-Step mit `exit 0` allein
+  verhindert nicht, dass nachfolgende Steps trotzdem laufen und ggf. erneut
+  eine Mail verschicken. Der Orchestrator umgeht das komplett, da die gesamte
+  Logik in einem einzigen Python-Prozess läuft.
+- **`git stash` ohne `--include-untracked`** stasht keine neuen, noch nicht
+  getrackten Dateien (z.B. `diff.html`) und blockiert dadurch einen
+  nachfolgenden `git pull --rebase`.
+- **`github.event.workflow_run.head_commit`** kann bei manchen
+  `workflow_run`-Events `null` sein. Verkettete Property-Zugriffe darauf
+  (`.author.name`) können die gesamte `if`-Bedingung eines Jobs zum Scheitern
+  bringen → der Job wird komplett übersprungen, **ohne jeden Log-Output**.
+  Falls „kein Log verfügbar" auftritt, ist das ein starkes Indiz dafür.
+- **Bild-URLs in E-Mails:** `github.com/.../raw/...`-Links sind Redirects auf
+  `raw.githubusercontent.com`; manche E-Mail-Clients folgen Bild-Redirects
+  nicht zuverlässig. Bei Bildern in HTML-Mails die direkte
+  `raw.githubusercontent.com`-URL verwenden.
 
 ## Status
 ![Get data from Overpass](https://github.com/chnuessli/defi_archive/workflows/Get%20data%20from%20Overpass/badge.svg) [![Get data converted to csv](https://github.com/chnuessli/defi_data/actions/workflows/convert.yml/badge.svg)](https://github.com/chnuessli/defi_data/actions/workflows/convert.yml)
-[![Reporting BE](https://github.com/OpenBracketsCH/defi_data/actions/workflows/geojson-diff-mail-be.yml/badge.svg)](https://github.com/OpenBracketsCH/defi_data/actions/workflows/geojson-diff-mail-be.yml)
-[![Reporting ZH](https://github.com/OpenBracketsCH/defi_data/actions/workflows/geojson-diff-mail-zh.yml/badge.svg)](https://github.com/OpenBracketsCH/defi_data/actions/workflows/geojson-diff-mail-zh.yml)
+[![Reporting – alle Kantone](https://github.com/OpenBracketsCH/defi_data/actions/workflows/geojson-reporting-all.yml/badge.svg)](https://github.com/OpenBracketsCH/defi_data/actions/workflows/geojson-reporting-all.yml)
+[![Wöchentlicher Report BE](https://github.com/OpenBracketsCH/defi_data/actions/workflows/geojson-weekly-changes-be.yml/badge.svg)](https://github.com/OpenBracketsCH/defi_data/actions/workflows/geojson-weekly-changes-be.yml)
