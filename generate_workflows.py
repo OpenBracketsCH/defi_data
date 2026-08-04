@@ -65,10 +65,7 @@ on:
 
 jobs:
   process-and-mail:
-    if: >
-      (github.event_name == 'workflow_dispatch' ||
-      github.event.workflow_run.conclusion == 'success') &&
-      github.event.workflow_run.head_commit.author.name != 'defikarte.ch Reporting Bot'
+    if: ${{{{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}}}
     runs-on: ubuntu-latest
     permissions:
       contents: write
