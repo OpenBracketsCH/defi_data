@@ -7027,11 +7027,12 @@
   "type": "Feature",
   "id": "node/8080529365",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Haupteingang, vor Treppenaufgang",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "id": "node/8080529365"
   },
   "geometry": {
@@ -63583,7 +63584,7 @@
     "access": "yes",
     "addr:housenumber": "96",
     "addr:street": "Rotfluhstrasse",
-    "defibrillator:location": "Unter ehemals Telefonkabine",
+    "defibrillator:location": "Ehemalige Telefonkabine",
     "description": "Grüner Kasten Oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -63599,8 +63600,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5753675,
-      47.3377719
+      8.5753669,
+      47.3377721
     ]
   }
 },

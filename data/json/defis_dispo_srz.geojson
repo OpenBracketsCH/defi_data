@@ -14546,11 +14546,12 @@
   "type": "Feature",
   "id": "node/8080529365",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Haupteingang, vor Treppenaufgang",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "id": "node/8080529365"
   },
   "geometry": {
@@ -58781,12 +58782,12 @@
   "type": "Feature",
   "id": "node/10910676182",
   "properties": {
-    "access": "no",
     "defibrillator:location": "2.OG Treppenhaus",
     "description": "oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "2",
     "name": "e-emergency AG",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
@@ -58795,7 +58796,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5205159,
+      8.520516,
       47.1961678
     ]
   }
@@ -82312,7 +82313,7 @@
     "access": "yes",
     "addr:housenumber": "96",
     "addr:street": "Rotfluhstrasse",
-    "defibrillator:location": "Unter ehemals Telefonkabine",
+    "defibrillator:location": "Ehemalige Telefonkabine",
     "description": "Grüner Kasten Oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -82328,8 +82329,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5753675,
-      47.3377719
+      8.5753669,
+      47.3377721
     ]
   }
 },
