@@ -82,12 +82,29 @@ def send_mail(subject, html_body, to_addr, cc_addr=None):
 
     msg.attach(MIMEText(html_body, "html", "utf-8"))
 
-    with smtplib.SMTP("asmtp.mail.hostpoint.ch", 587) as server:
-        server.starttls()
-        server.login(user, password)
-        server.sendmail(user, recipients, msg.as_string())
+    # Kurze Retries für den Fall, dass es sich um einen transienten
+    # Fehler handelt (z.B. kurzzeitige Überlastung). Bei einem
+    # IP-Blacklist-Fehler (gleiche Runner-IP während des ganzen Jobs)
+    # hilft das zwar meist nicht, ist aber ein günstiges Sicherheitsnetz.
+    last_error = None
+    for attempt in range(1, 3):
+        try:
+            with smtplib.SMTP("asmtp.mail.hostpoint.ch", 587, timeout=20) as server:
+                server.starttls()
+                server.login(user, password)
+                server.sendmail(user, recipients, msg.as_string())
+            print(f"Mail gesendet an {to_addr}" + (f" (CC {cc_addr})" if cc_addr else ""))
+            return
+        except smtplib.SMTPException as e:
+            last_error = e
+            print(f"SMTP-Fehler bei Versuch {attempt}/2 an {to_addr}: {e}")
+            if attempt < 2:
+                time.sleep(5)
 
-    print(f"Mail gesendet an {to_addr}" + (f" (CC {cc_addr})" if cc_addr else ""))
+    # Alle Versuche fehlgeschlagen -> an Aufrufer weitergeben, damit dieser
+    # Kanton übersprungen wird (SHA nicht gespeichert -> wird beim nächsten
+    # Lauf automatisch erneut versucht), aber andere Kantone weiterlaufen.
+    raise last_error
 
 
 def process_immediate(kanton):
@@ -123,13 +140,20 @@ def process_immediate(kanton):
             cc = os.environ.get("MAIL_COPY") if kanton.get("use_cc") else None
 
             if recipient:
-                send_mail(
-                    subject=f"Änderungen an Defis Kanton {kanton['name']}",
-                    html_body=html_body,
-                    to_addr=recipient,
-                    cc_addr=cc,
-                )
-                time.sleep(SEND_DELAY_SECONDS)
+                try:
+                    send_mail(
+                        subject=f"Änderungen an Defis Kanton {kanton['name']}",
+                        html_body=html_body,
+                        to_addr=recipient,
+                        cc_addr=cc,
+                    )
+                    time.sleep(SEND_DELAY_SECONDS)
+                except Exception as e:
+                    print(f"[{kid}] FEHLER beim Mailversand: {e}")
+                    print(f"[{kid}] SHA wird NICHT gespeichert - wird beim "
+                          f"nächsten Lauf automatisch erneut versucht.")
+                    os.remove("diff.html")
+                    return False
             else:
                 print(f"[{kid}] WARNUNG: kein Empfänger-Secret gefunden "
                       f"({kanton['mail_recipient_secret']})")
@@ -181,13 +205,20 @@ def process_be_style(kanton):
             cc = os.environ.get("MAIL_COPY") if kanton.get("use_cc") else None
 
             if recipient:
-                send_mail(
-                    subject=f"Neue/gelöschte Defis – {kanton['name']}",
-                    html_body=html_body,
-                    to_addr=recipient,
-                    cc_addr=cc,
-                )
-                time.sleep(SEND_DELAY_SECONDS)
+                try:
+                    send_mail(
+                        subject=f"Neue/gelöschte Defis – {kanton['name']}",
+                        html_body=html_body,
+                        to_addr=recipient,
+                        cc_addr=cc,
+                    )
+                    time.sleep(SEND_DELAY_SECONDS)
+                except Exception as e:
+                    print(f"[{kid}] FEHLER beim Mailversand: {e}")
+                    print(f"[{kid}] SHA wird NICHT gespeichert - wird beim "
+                          f"nächsten Lauf automatisch erneut versucht.")
+                    os.remove("diff_immediate.html")
+                    return False
             else:
                 print(f"[{kid}] WARNUNG: kein Empfänger-Secret gefunden "
                       f"({kanton['mail_recipient_secret']})")
