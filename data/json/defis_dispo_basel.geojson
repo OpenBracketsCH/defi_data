@@ -2559,10 +2559,11 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Foyer Mehrzweckhalle",
+    "description": "während den Schulzeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "Mo-Fr 06:30-17:00",
+    "indoor": "yes",
+    "opening_hours": "Mo-Tu 06:30-17:00, We 06:30-12:00, Th-Fr 06:30-12:00",
     "operator": "Gemeinde Therwil Fabian Vögeli",
     "phone": "+41 79 663 07 72",
     "id": "node/9285731641"
@@ -2570,8 +2571,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5578803,
-      47.4985844
+      7.5580278,
+      47.4985319
     ]
   }
 },
@@ -2603,9 +2604,10 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "99er Sporthalle im Foyer links neben Office",
+    "description": "während den Schulzeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "yes",
     "opening_hours": "Mo-Fr 06:30-20:00",
     "operator": "Gemeinde Therwil Fabian Vögeli",
     "phone": "+41 79 663 07 72",
@@ -2614,8 +2616,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5504693,
-      47.4997315
+      7.5506273,
+      47.4996096
     ]
   }
 },
@@ -2636,8 +2638,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5564165,
-      47.494222
+      7.5565251,
+      47.4941197
     ]
   }
 },
@@ -2658,8 +2660,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5593951,
-      47.5032867
+      7.5592207,
+      47.503264
     ]
   }
 },
