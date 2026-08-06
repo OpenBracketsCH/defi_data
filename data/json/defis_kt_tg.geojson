@@ -2227,13 +2227,14 @@
   "type": "Feature",
   "id": "node/8682543717",
   "properties": {
-    "defibrillator:location": "Amriville EKZ rechts neben Bancomat",
+    "defibrillator:location": "Amriville EKZ Mitte Mall bei Reklamensäule",
     "description": "während Öffnungszeiten EKZ",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-We 09:00-19:00; Th,Fr 09:00-20:00; Sa 08:00-17:00",
-    "operator": "EKZ",
+    "level": "0",
+    "opening_hours": "Mo-Fr 09:00-19:00; Sa 08:00-18:00",
+    "operator": "Hess Immobilien AG, Kirchstrasse 13, 8580 Amriswil",
     "id": "node/8682543717"
   },
   "geometry": {
@@ -9688,10 +9689,12 @@
   "id": "node/10240188801",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "beim Kundenlift in der Mall",
+    "defibrillator:location": "EG bei Reklamesäule in der Mall",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "Mo-Fr 09:00-20:00",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 09:00-19:00, Sa 08:00-18:00",
     "operator": "Amriville Einkaufszentrum",
     "phone": "+41 71 414 05 05",
     "id": "node/10240188801"
