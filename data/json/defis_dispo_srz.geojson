@@ -98967,14 +98967,15 @@
   "type": "Feature",
   "id": "node/13722561801",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "defibrillator:location": "Flugplatz Speck 3",
-    "description": "Indoor 1st floor",
+    "description": "Attached to outside wall office building, next to stairs ground floor",
+    "email": "flugplatzleiter@fgzo.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "1",
-    "opening_hours": "08:00-20:00",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
     "operator": "Flugsportgruppe Zürcher Oberland",
     "phone": "+41799286644",
     "id": "node/13722561801"
@@ -98982,8 +98983,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7612775,
-      47.375695
+      8.7612802,
+      47.3756968
     ]
   }
 },
@@ -103137,6 +103138,31 @@
     "coordinates": [
       8.8817107,
       47.1935305
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14076535101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang beim Containerhäuschen, neben den Besucher Parkplätzen",
+    "description": "Öffentlich und immer Zugänglich",
+    "email": "info@baltenspergerbau.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Firma",
+    "phone": "+41 78 612 95 03",
+    "id": "node/14076535101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7680541,
+      47.5174942
     ]
   }
 }

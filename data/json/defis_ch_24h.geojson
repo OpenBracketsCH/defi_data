@@ -153603,6 +153603,31 @@
 },
 {
   "type": "Feature",
+  "id": "node/13722561801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Flugplatz Speck 3",
+    "description": "Attached to outside wall office building, next to stairs ground floor",
+    "email": "flugplatzleiter@fgzo.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Flugsportgruppe Zürcher Oberland",
+    "phone": "+41799286644",
+    "id": "node/13722561801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7612802,
+      47.3756968
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13722741602",
   "properties": {
     "access": "yes",
@@ -160371,6 +160396,53 @@
     "coordinates": [
       7.1372402,
       47.067853
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14076535101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang beim Containerhäuschen, neben den Besucher Parkplätzen",
+    "description": "Öffentlich und immer Zugänglich",
+    "email": "info@baltenspergerbau.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Firma",
+    "phone": "+41 78 612 95 03",
+    "id": "node/14076535101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7680541,
+      47.5174942
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14076741201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kirchmatte 9, Turnhalle, Heimiswil",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Heimiswil",
+    "id": "node/14076741201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6610895,
+      47.0644612
     ]
   }
 }
