@@ -1897,14 +1897,15 @@
   "id": "node/9285731641",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Foyer Mehrzweckhalle",
+    "defibrillator:location": "Foyer Mehrzweckhalle bei IV WC",
     "description": "während den Schulzeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Tu 06:30-17:00, We 06:30-12:00, Th-Fr 06:30-12:00",
-    "operator": "Gemeinde Therwil Fabian Vögeli",
+    "operator": "Gemeinde Therwil",
     "phone": "+41 79 663 07 72",
+    "wikimedia_commons": "File:Defi_MZH_Zugang.jpg",
     "id": "node/9285731641"
   },
   "geometry": {
@@ -1925,8 +1926,9 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Gemeinde Therwil Fabian Vögeli",
+    "operator": "Gemeinde Therwil",
     "phone": "+41 79 663 07 72",
+    "wikimedia_commons": "File:Defi_Bahnh%C3%B6fli_aussen.jpg",
     "id": "node/9285731642"
   },
   "geometry": {
@@ -1947,9 +1949,11 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 06:30-20:00",
-    "operator": "Gemeinde Therwil Fabian Vögeli",
+    "operator": "Gemeinde Therwil",
     "phone": "+41 79 663 07 72",
+    "wikimedia_commons": "File:Defi_99er_Sporthalle_Zugang.png",
     "id": "node/9285731643"
   },
   "geometry": {
@@ -1970,8 +1974,9 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Gemeinde Therwil Fabian Vögeli",
+    "operator": "Gemeinde Therwil",
     "phone": "+41 79 663 07 72",
+    "wikimedia_commons": "File:Defi_K%C3%A4nelboden_aussen.jpg",
     "id": "node/9285731644"
   },
   "geometry": {
@@ -1992,8 +1997,9 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Gemeinde Therwil Fabian Vögeli",
+    "operator": "Gemeinde Therwil",
     "phone": "+41 79 663 07 72",
+    "wikimedia_commons": "File:Defi_Wilmatt_aussen.jpg",
     "id": "node/9285731645"
   },
   "geometry": {
@@ -8877,26 +8883,6 @@
     "coordinates": [
       7.610319,
       47.5263531
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/13478293301",
-  "properties": {
-    "defibrillator:location": "Therwil Bahnhofstrasse",
-    "description": "Gerät steht offen",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "id": "node/13478293301"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5569671,
-      47.4991482
     ]
   }
 },
