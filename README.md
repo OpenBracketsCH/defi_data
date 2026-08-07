@@ -363,5 +363,5 @@ Der Orchestrator hat einen `workflow_dispatch`-Input `dry_run`:
 
 ## Status
 ![Get data from Overpass](https://github.com/chnuessli/defi_archive/workflows/Get%20data%20from%20Overpass/badge.svg) [![Get data converted to csv](https://github.com/chnuessli/defi_data/actions/workflows/convert.yml/badge.svg)](https://github.com/chnuessli/defi_data/actions/workflows/convert.yml)
-[![Reporting – alle Kantone](https://github.com/OpenBracketsCH/defi_data/actions/workflows/geojson-reporting-all.yml/badge.svg)](https://github.com/OpenBracketsCH/defi_data/actions/workflows/geojson-reporting-all.yml)
-[![Wöchentlicher Report BE](https://github.com/OpenBracketsCH/defi_data/actions/workflows/geojson-weekly-changes-be.yml/badge.svg)](https://github.com/OpenBracketsCH/defi_data/actions/workflows/geojson-weekly-changes-be.yml)
+[![Reporting – alle Kantone](https://github.com/defikarte/defi_data/actions/workflows/geojson-reporting-all.yml/badge.svg)](https://github.com/defikarte/defi_data/actions/workflows/geojson-reporting-all.yml)
+[![Wöchentlicher Report BE](https://github.com/defikarte/defi_data/actions/workflows/geojson-weekly-changes-be.yml/badge.svg)](https://github.com/defikarte/defi_data/actions/workflows/geojson-weekly-changes-be.yml)
